@@ -1,0 +1,42 @@
+name: Auto Update Data
+
+on:
+  schedule:
+    - cron: "0 15 * * *" #每日00:00(JST)執行
+    - cron: "0 8 * * 4" #每週四17:00(JST)執行
+  workflow_dispatch: #允許手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  Auto-Update-Data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run script
+        env:
+          LOGIN_ACCOUNT_INFO: ${{secrets.LOGIN_ACCOUNT_INFO}}
+        run: node UpdateData.js
+
+      - name: Commit and push changes
+        run: |
+          git add Localization/ Config/ Collection/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            printf "%s" "$(date +%s)" > lastUpdate
+            git add lastUpdate
+            git config user.name "Evertale-PlayerTW[bot]"
+            git config user.email "213433941+Evertale-PlayerTW@users.noreply.github.com"
+            git commit -m "Auto update: $(date -u +"%Y-%m-%d %H:%M:%S")"
+            git push
+          fi

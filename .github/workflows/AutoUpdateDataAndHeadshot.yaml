@@ -1,0 +1,58 @@
+name: Auto Update Data And Portrait
+
+on:
+  schedule:
+    - cron: "0 8 * * 4" #每週四17:00(JST)執行
+  workflow_dispatch: #允許手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  Auto-Update-Data-And-Portrait:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install glob
+
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Download AssetStudioModCLI release
+        run: |
+          curl -L -o AssetStudioModCLI.zip https://github.com/aelurum/AssetStudio/releases/download/v0.19.0/AssetStudioModCLI_net9_linux64.zip
+          unzip AssetStudioModCLI.zip          
+          chmod +x AssetStudioModCLI_net9_linux64/AssetStudioModCLI
+          echo "$PWD/AssetStudioModCLI_net9_linux64" >> $GITHUB_PATH
+
+      - name: Run script
+        env:
+          LOGIN_ACCOUNT_INFO: ${{secrets.LOGIN_ACCOUNT_INFO}}
+        run: |
+          node UpdateData.js
+          node UpdateHeadshot.js
+
+      - name: Commit and push changes
+        run: |
+          git add Localization/ Config/ Collection/ Portrait/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            printf "%s" "$(date +%s)" > lastUpdate
+            git add lastUpdate
+            git config user.name "Evertale-PlayerTW[bot]"
+            git config user.email "213433941+Evertale-PlayerTW@users.noreply.github.com"
+            git commit -m "Auto update: $(date -u +"%Y-%m-%d %H:%M:%S")"
+            git push
+          fi
