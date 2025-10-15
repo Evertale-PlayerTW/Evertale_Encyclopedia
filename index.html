@@ -1320,7 +1320,6 @@
 			await initFilter();
 			await loadWholeData();
 			await setSelectableList();
-			await setImageFilelist();
 			await analyzeUrlParams();
 		}
 
@@ -2248,6 +2247,8 @@
 			Tachie: { domain: "https://tachie.evertale.qzz.io/", filelist: [] },
 		}
 
+		document.addEventListener("DOMContentLoaded", setImageFilelist);
+
 		let initTitle = document.title;
 		let currentDisplayCategory = null;
 		let currentDisplayID = null;
@@ -2755,7 +2756,9 @@
 
 		async function setImageFilelist() {
 			for (const imgData of Object.values(imageSource)) {
-				imgData["filelist"] = await fetchCheck(imgData["domain"] + "filelist.json").then((res) => res.json())
+				if (imgData["filelist"].length === 0) {
+					imgData["filelist"] = await fetchCheck(imgData["domain"] + "filelist.json").then((res) => res.json());
+				}
 			}
 		}
 
