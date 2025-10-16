@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1759278888,
+  "Time": 1759368187,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6466,6 +6466,36 @@
       "name": "ElminaModern02",
       "condition": "NotSummonedAnd3AlliesElminaModern",
       "value": 1.2
+    },
+    {
+      "name": "PeachGirlRegular01",
+      "condition": "HasPowerCharge",
+      "value": 1.05
+    },
+    {
+      "name": "PeachGirlRegular01",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.01
+    },
+    {
+      "name": "PeachGirlRegular01",
+      "condition": "TimeInCombat150",
+      "value": 1.05
+    },
+    {
+      "name": "PeachGirlRegular02",
+      "condition": "HasPowerCharge",
+      "value": 1.05
+    },
+    {
+      "name": "PeachGirlRegular02",
+      "condition": "EnemyTeamSleepingAlt",
+      "value": 1.01
+    },
+    {
+      "name": "PeachGirlRegular02",
+      "condition": "TimeInCombat150",
+      "value": 1.05
     }
   ]
 }

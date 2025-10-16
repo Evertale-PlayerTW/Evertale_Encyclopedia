@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1759303588,
+	"Time": 1759712796,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -6854,6 +6854,13 @@
 						"myTeamMonsterConditionMatchesNeeded":{
 							"IsThorned": 1
 						},
+						"or":{
+							"class": "MonsterConditions",
+							"monsterTags": ["StunImmuneIfEnemyIsFireBurnBlastOrForce"],
+							"checkEnemyTeamOfMonster": true,
+							"enemyTeamMonsterConditionMatchesNeeded": {
+									"IsBurnBlastOrForceOrFire": 1
+							},
 							"or":{
 								"class": "MonsterConditions",
 								"monsterTags": ["StunImmuneIfPoisonedEnemy"],
@@ -6873,7 +6880,8 @@
 											"class": "MonsterConditions",
 											"monsterTags": ["StunImmuneWith2AirAllies"],
 											"myTeamMonsterConditionMatchesNeeded":{
-												"IsAir": 2	
+												"IsAir": 2
+										}		
 									}	
 								}	
 							}
@@ -27084,6 +27092,123 @@
 		"not":{
 			"class": "MonsterConditions",
 			"buffStackNames": ["ExtraTurnElminaModernTriggered"]
+		}
+	},
+	"NotCooldownValidEnemyHas4AlliesAndLessThan3Imposters":{
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"IsNotSleepingOrKnockbackImmune": 1
+			},
+			"enemyTeamSize": 4,
+			"not": {
+				"class": "MonsterConditions",
+				"buffStackNames": ["InstantCooldown"],
+				"or": {
+					"class": "MonsterConditions",
+					"checkEnemyTeamOfMonster": true,
+					"enemyTeamMonsterConditionMatchesNeeded":{
+						"IsImposter": 3
+				}	
+			}
+		}
+	},
+	"1EnemyIsBurningOrSleeping": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsBurningOrSleeping": 1
+		}
+	},
+	"1EnemyIsBurnBlastOrForceOrFire": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsBurnBlastOrForceOrFire": 1
+		}
+	},
+	"NotBlockDeathPurifyAndHealBuff150TUPeachGirlRegular": {
+		"class":"MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BlockDeathPurifyAndHealBuff150TUPeachGirlRegular"]
+		}
+	},
+	"1EnemyNotSleepingOrBurning": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsNotSleepingOrBurning": 1
+		}
+	},
+	"2EnemiesNotSleepingOrBurning": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsNotSleepingOrBurning": 2
+		}
+	},
+	"3EnemiesNotSleepingOrBurning": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsNotSleepingOrBurning": 3
+		}
+	},
+	"4EnemiesNotSleepingOrBurning": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsNotSleepingOrBurning": 4
+		}
+	},
+	"AllEnemiesIsKnockImmuneOrSleeping":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded":{
+				"IsNotSleepingOrKnockbackImmune": 1
+			}
+		}
+	},
+	"AllEnemiesIsKnockImmuneOrSleepingAlt":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded":{
+				"IsNotSleepingOrKnockbackImmune": 1
+			}
+		}
+	},
+	"HPBelow50PercentAndIsBurning": {
+		"class": "MonsterConditions",
+		"hpLessThanPercent": 0.5000001,
+		"buffStackNames": ["Burn"]
+	},
+	"IsNotSleepingOrKnockbackImmune":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Sleep"],
+			"or":{
+				"class": "MonsterConditions",
+				"monsterTags": ["KnockbackImmune"]
+			}
+		}
+	},
+	"IsPeachGirlRegularCounter3": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["PeachGirlRegularCounter"],
+		"buffStackCounts": [3]
+	},
+	"AtLeast4AlliesLeftNotMarkedDoNotBeKnockedBackByPeachGirlRegular": {
+		"class": "MonsterConditions",
+		"allyTeamSize": 4,
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["MarkedDoNotBeKnockedBackByPeachGirlRegular"]
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1759303584,
+	"Time": 1760594089,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -72444,6 +72444,306 @@
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
 			"duration": -1
+		},
+		"HasteUp4HasPowerCharge": {
+			"class": "Buff",
+			"behaviors": ["StatOnly"],
+			"behaviorOverrides": [{
+				"conditions": "HasPowerCharge",
+				"flatStatBonuses": {
+					"Haste": -111
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconBrownSpeedUpClock01",
+			"isWeaponBuff": true
+		},
+		"HasteUp5HasPowerCharge": {
+			"class": "Buff",
+			"behaviors": ["StatOnly"],
+			"behaviorOverrides": [{
+				"conditions": "HasPowerCharge",
+				"flatStatBonuses": {
+					"Haste": -176
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconBrownSpeedUpClock01",
+			"isWeaponBuff": true
+		},
+		"HasteUp6HasPowerCharge": {
+			"class": "Buff",
+			"behaviors": ["StatOnly"],
+			"behaviorOverrides": [{
+				"conditions": "HasPowerCharge",
+				"flatStatBonuses": {
+					"Haste": -250
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconBrownSpeedUpClock01",
+			"isWeaponBuff": true
+		},
+		"SleepyPassiveAPeachGirlRegular": {
+			"class": "Buff",
+			"stackName": "SleepyPassiveAPeachGirlRegular",
+			"behaviors": ["EnterBattleBuff","ModifyDamage","ModifyDamage","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["BurnImmunitywithStackName","KnockbackImmunity"]
+			},{
+				"percent": 0.70,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "NoEnemyIsBurningOrSleeping"
+			},{
+				"percent": 0.40,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "1EnemyIsBurningOrSleeping"
+			},{
+				"randomEnemyBuffs": ["MarkedByPeachGirlRegular"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSleepingOrKnockbackImmune"
+			},{
+				"sourceBuffs": ["FirstTimeHurtByAttackAndNotBlockedGrantSourceTurn"],
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"enemyBuffs": ["MarkedDoNotBeKnockedBackByPeachGirlRegular"],
+				"activeMonsterConditions": "IsPeachGirlRegularCounter3"
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"MarkedDoNotBeKnockedBackByPeachGirlRegular":{
+			"class": "Buff",
+			"stackName": "MarkedDoNotBeKnockedBackByPeachGirlRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"FirstTimeHurtByAttackAndNotBlockedGrantSourceTurn": {
+			"class": "Buff",
+			"behaviors": ["BuffWhenMonsterHurt","RemoveOnSourceDeath"],
+			"behaviorOverrides":[{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","FirstTimeHurtByAttackLock"],
+				"cancelFromDamageTypes": ["BuffDamage"],
+				"spreadCondition": "IsNotBlockTurn",
+				"removeAfterTriggers": 1
+				},{},{
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsTimer": false,
+			"applyConditions": "NotFirstTimeHurtByAttackLock"
+		},
+		"MarkedByPeachGirlRegular":{
+			"class": "Buff",
+			"stackName": "MarkedByPeachGirlRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"PinkHairPassiveAPeachGirlRegular": {
+			"class": "Buff",
+			"stackName": "PinkHairPassiveAPeachGirlRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["StunImmunityIfEnemyIsFireOrBurnBlastOrBurnForce","BlockDeathPurifyAndHealBuff150TUPeachGirlRegular"]
+			},{
+				"sourceBuffs": ["NextEnemyGetsColdSleepFor100TU"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal30PercentPeachGirlRegular"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{
+				"randomAllyBuffs": ["TUMinus50"],
+				"numRandomToBuff": 1,
+				"deadMonsterConditions": "IsImposter"	
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"BlockDeathPurifyAndHealBuff150TUPeachGirlRegular": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"cancelFromDamageFlags": ["IgnoreBlockDeath","HardIgnoreBlockDeath"],
+				"conditions": "NotAlwaysEnemyTurn"
+			},{
+				"selfBuffs": ["BrideHeal100PercentPeachGirlRegular"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			}],
+			"stackName": "BlockDeathPurifyAndHealBuff150TUPeachGirlRegular",
+			"iconSpriteName": "IconWhiteFightSwordTime01",
+			"textKeyToShowWhenApplied": "PinkHairPassiveAPeachGirlRegularNameKey",
+			"duration": 150,
+			"showAsTimer": true
+		},
+		"BrideHeal30PercentPeachGirlRegular": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.30,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			}, {}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "NotBlockDeathPurifyAndHealBuff150TUPeachGirlRegular"
+		},
+		"BrideHeal100PercentPeachGirlRegular": {
+			"class": "Buff",
+			"stackName": "BrideHeal100PercentPeachGirlRegular",
+			"behaviors": ["AdjustHp","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 1.0,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			}, {}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"StunImmunityIfEnemyIsFireOrBurnBlastOrBurnForce": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"],
+				"activateCondition": "1EnemyIsBurnBlastOrForceOrFire"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"tags": ["StunImmuneIfEnemyIsFireBurnBlastOrForce"],
+			"iconSpriteName": "IconRedStunInvalidLightning01"
+		},
+		"NextEnemyGetsColdSleepFor100TU":{
+			"class": "Buff",
+			"stackName": "NextEnemyGetsColdSleep",
+			"behaviors": ["OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sameTeam": false,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster",
+				"chance": 1.0,
+				"removeAfterTriggers": 1,
+				"contextBuffs": ["ColdSleepForced100TU"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"GiveSourcePeachGirlTriggerIfNotKnockbackImmune": {
+			"class": "Buff",
+			"stackName": "GivePeachGirlTrigger",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides":[{
+				"sourceBuffs": ["PeachGirlRegularCounter"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "NotKnockbackImmune"
+		},
+		"LockPeachGirlRegular": {
+			"class": "Buff",
+			"stackName": "LockPeachGirlRegular",
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"PeachGirlRegularCounter": {
+			"class": "Buff",
+			"stackName": "PeachGirlRegularCounter",
+			"stackLimit": 3,
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true
+		},
+		"PeachGirlRegularCooldown100Has4Awakenings":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3",
+			"applyConditions": "Has4Awakenings"
+		},
+		"PeachGirlRegularCooldown125Has3Awakenings":{
+			"class": "Buff",
+			"duration": 125,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3",
+			"applyConditions": "Has3Awakenings"
+		},
+		"PeachGirlRegularCooldown150Has2Awakenings":{
+			"class": "Buff",
+			"duration": 150,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3",
+			"applyConditions": "Has2Awakenings"
+		},
+		"PeachGirlRegularCooldown175Has1Awakening":{
+			"class": "Buff",
+			"duration": 175,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3",
+			"applyConditions": "Has1Awakening"
+		},
+		"PeachGirlRegularCooldown200HasNoAwakenings":{
+			"class": "Buff",
+			"duration": 200,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3",
+			"applyConditions": "HasNoAwakening"
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1759711005,
+  "Time": 1759828102,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15140,7 +15140,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "ElminaFutureHammer02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "ElminaFutureHammer02",
@@ -15160,7 +15161,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "ElminaFutureHammer03",
       "evolveFrom": "ElminaFutureHammer01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "ElminaFutureHammer03",
@@ -15179,6 +15181,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "ElminaFutureHammer02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "MomotaroStaff01",
+      "family": "MomotaroStaff",
+      "class": "Weapon",
+      "passives": {
+        "0": "HasteUp4HasPowerCharge"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 453,
+      "baseMaxHp": 3110,
+      "bundleNumber": 9,
+      "weaponPref": "Staff",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "MomotaroStaff02",
+      "cost": 11
+    },
+    {
+      "name": "MomotaroStaff02",
+      "family": "MomotaroStaff",
+      "class": "Weapon",
+      "passives": {
+        "0": "HasteUp5HasPowerCharge"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 557,
+      "baseMaxHp": 3715,
+      "bundleNumber": 9,
+      "weaponPref": "Staff",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "MomotaroStaff03",
+      "evolveFrom": "MomotaroStaff01",
+      "cost": 17
+    },
+    {
+      "name": "MomotaroStaff03",
+      "family": "MomotaroStaff",
+      "class": "Weapon",
+      "passives": {
+        "0": "HasteUp6HasPowerCharge"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 599,
+      "baseMaxHp": 4005,
+      "bundleNumber": 9,
+      "weaponPref": "Staff",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "MomotaroStaff02",
       "cost": 23
     }
   ]

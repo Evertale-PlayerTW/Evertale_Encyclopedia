@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1759303609,
+  "Time": 1759391909,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -27070,6 +27070,109 @@
     },
     "PushBackAElminaModern_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 75.0
+    },
+    "SingleAttackAPeachGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 3.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"1MechaSisterNewOnEnemyTeam": 0.5,
+						"2OrLessEnemiesLeft": 0.5,
+						"EnemyTeamThreeSleeping": 0.5,
+						"AllEnemiesIsSleeping": 0.5
+   			 },
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 1.0,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsBurning": 1.01,
+						"IsSleeping": 1.01,
+						"IsSleepImmune": 0.75,
+						"IsMegaHealingBurn": 1.01,
+						"On1HPNotProtected": 100,
+						"On1HPIsProtecting": 100,
+						"HPBelow20Percent": 1.01
+					}
+    },
+    "ImposterBuffAPeachGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 75.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesKnockbackImmune": 0.0,
+						"AllEnemiesKnockbackImmuneAlt": 0.0,
+						"AllEnemiesIsSleeping": 0,
+						"AllEnemiesSleepingAllyHasDreamhunt": 0,
+						"AllEnemiesImposters": 0,
+						"AllEnemiesImpostersAlt": 0,
+						"AllEnemiesIsKnockImmuneOrSleeping": 0,
+						"AllEnemiesIsKnockImmuneOrSleepingAlt": 0
+   			 }
+    },
+    "BigSingleAttackAPeachGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.5,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"2OrLessEnemiesLeft": 0.5,
+						"EnemyTeamThreeSleeping": 0.5,
+						"AllEnemiesIsSleeping": 0.5,
+						"NoPowerCharge": 2,
+						"HasPowerCharge": 0.5
+   			 },
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 1.0,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.85,
+						"IsBurning": 1.01,
+						"IsMegaHealingBurn": 1.01,
+						"IsSleepImmune": 0.89
+					}
+    },
+    "SpecialDoubleAttackAPeachGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 4.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesAlwaysDodging": 0.25,
+						"AllEnemiesNotProtectingDodging": 0.25,
+						"1MechaSisterNewOnEnemyTeam": 1.5,
+						"NotBlockDeathOnce": 1.1,
+						"2OrLessEnemiesLeft": 5,
+						"EnemyTeamThreeSleeping": 5,
+						"AllEnemiesIsSleeping": 5,
+						"AllEnemiesIsBurning": 5,
+						"HasPowerCharge": 1.25
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.5,
+						"IsAlwaysDodging": 0.25,
+						"NotProtectingDodging": 0.25,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.85,
+						"IsBurning": 1.01,
+						"HPBelow50PercentAndIsSleeping": 10,
+						"HPBelow50PercentAndIsBurning": 10,
+						"IsSleepImmune": 0.75,
+						"IsMegaHealingBurn": 1.01,
+						"On1HPNotProtected": 100,
+						"On1HPIsProtecting": 100,
+						"HPBelow20Percent": 1.01
+					}
     }
 }
 }

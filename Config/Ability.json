@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1759304232,
+  "Time": 1759393613,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27056,6 +27056,64 @@
       "class": "Ability",
       "config": "PushBackAElminaModern",
       "tuCost": 0,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAPeachGirlRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3.5,
+        5,
+        6.5
+      ],
+      "config": "SingleAttackAPeachGirlRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 10,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "ImposterBuffAPeachGirlRegular",
+      "class": "Ability",
+      "config": "ImposterBuffAPeachGirlRegular",
+      "tuCost": 1,
+      "useLimit": 15,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BigSingleAttackAPeachGirlRegular",
+      "class": "Ability",
+      "abilityScalor": 4,
+      "conditionalAbilityScalors": [
+        6,
+        6
+      ],
+      "config": "BigSingleAttackAPeachGirlRegular",
+      "tuCost": 30,
+      "useLimit": 0,
+      "spiritGain": 1,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialDoubleAttackAPeachGirlRegular",
+      "class": "Ability",
+      "abilityScalor": 7,
+      "conditionalAbilityScalors": [
+        6,
+        5,
+        4,
+        3
+      ],
+      "config": "SpecialDoubleAttackAPeachGirlRegular",
+      "tuCost": 80,
       "useLimit": 0,
       "spiritCost": 2,
       "blockTargetManipulation": 0,

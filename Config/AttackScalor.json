@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1753951852,
+	"Time": 1758871061,
 	"AttackScalor": {
 		"TimeInCombat450":
 		{
@@ -619,6 +619,22 @@
 		"GoodWith1EnemyIsPoisonedBuff":{
 			"class": "AttackScalor",
 			"sourceCondition": "Is1EnemyIsPoisonedBuff"
+		},
+		"GoodVs1NotSleepingOrBurningEnemy":{
+			"class": "AttackScalor",
+			"sourceCondition": "1EnemyNotSleepingOrBurning"
+		},
+		"GoodVs2NotSleepingOrBurningEnemy":{
+			"class": "AttackScalor",
+			"sourceCondition": "2EnemiesNotSleepingOrBurning"
+		},
+		"GoodVs3NotSleepingOrBurningEnemy":{
+			"class": "AttackScalor",
+			"sourceCondition": "3EnemiesNotSleepingOrBurning"
+		},
+		"GoodVs4NotSleepingOrBurningEnemy":{
+			"class": "AttackScalor",
+			"sourceCondition": "4EnemiesNotSleepingOrBurning"
 		}
 	}
 }

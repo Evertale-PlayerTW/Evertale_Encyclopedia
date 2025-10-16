@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1759710948,
+  "Time": 1760576542,
   "Monster": [
     {
       "name": "HammerPantsThief01",
@@ -67838,6 +67838,7 @@
       "consolationMultiplier": 0,
       "battleOrbImageFlip": 0,
       "attackType": "Bash",
+      "visible": 1,
       "summonableMonsters": [
         "ElminaModern01"
       ],
@@ -67948,6 +67949,235 @@
       ],
       "summonableMatchSource": [
         true
+      ],
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "victoryVoices": [
+        25,
+        26
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "PeachGirlRegular01",
+      "family": "PeachGirlRegular",
+      "class": "Monster",
+      "leaderBuff": "AttackAndHPUp6Water",
+      "leaderBuffCondition": "IsWater",
+      "activeSkills": {
+        "0": "SingleAttackAPeachGirlRegular",
+        "1": "ImposterBuffAPeachGirlRegular",
+        "2": "BigSingleAttackAPeachGirlRegular",
+        "3": "SpecialDoubleAttackAPeachGirlRegular"
+      },
+      "passives": {
+        "0": "SleepyPassiveAPeachGirlRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "FireMinusDamageLv3",
+        "5": "AddWeaponPrefSword"
+      },
+      "cost": 28,
+      "baseAttack": 999,
+      "baseMaxHp": 6215,
+      "speed": 509,
+      "element": "Water",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "superEvolve1": "PeachGirlRegular02",
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 0,
+      "attackType": "Bash",
+      "summonableMonsters": [
+        "Imposter01"
+      ],
+      "summonableMatchSource": [
+        false
+      ],
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ],
+      "victoryVoices": [
+        25
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "PeachGirlRegular02",
+      "family": "PeachGirlRegular",
+      "class": "Monster",
+      "leaderBuff": "AttackAndHPUp6Water",
+      "leaderBuffCondition": "IsWater",
+      "activeSkills": {
+        "0": "SingleAttackAPeachGirlRegular",
+        "1": "ImposterBuffAPeachGirlRegular",
+        "2": "BigSingleAttackAPeachGirlRegular",
+        "3": "SpecialDoubleAttackAPeachGirlRegular"
+      },
+      "passives": {
+        "0": "SleepyPassiveAPeachGirlRegular",
+        "1": "PinkHairPassiveAPeachGirlRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "FireMinusDamageLv3",
+        "5": "AddWeaponPrefSword"
+      },
+      "cost": 34,
+      "baseAttack": 1285,
+      "baseMaxHp": 7995,
+      "speed": 509,
+      "element": "Water",
+      "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "evolveFrom": "PeachGirlRegular01",
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 1,
+      "attackType": "Bash",
+      "cosmoName": "PeachGirlRegular03",
+      "summonableMonsters": [
+        "Imposter01"
+      ],
+      "summonableMatchSource": [
+        false
       ],
       "skillVoices": {
         "0": [
