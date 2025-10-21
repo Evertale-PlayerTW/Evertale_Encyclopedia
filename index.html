@@ -94,20 +94,69 @@
 		#filterElement,
 		#filterWeaponType,
 		#filterStars,
-		#filterTextInput {
+		#filterText {
 			border: 1px solid black;
 			margin: 5px 0;
 			padding: 5px;
 			position: relative;
 		}
 
+		#filterText>div {
+			position: relative;
+		}
+
 		#filterTextInput {
-			margin: 5px auto;
 			text-align: center;
 			display: block;
 			box-sizing: border-box;
 			width: 100%;
 			font-size: 1em;
+		}
+
+		#useRegex {
+			position: absolute;
+			right: 5px;
+			border: 1px solid black;
+			align-self: center;
+			border-radius: 5px;
+			font-size: 0.8em;
+		}
+
+		#useRegex:has(input:checked) {
+			background-color: lightblue;
+		}
+
+		#fitlerTextOption {
+			flex-wrap: wrap;
+			padding: 0;
+			margin-top: 5px;
+			gap: 5px;
+		}
+
+		#fitlerTextOption input,
+		#useRegex input {
+			appearance: none;
+			margin: 0;
+			opacity: 0;
+			position: absolute;
+			width: 0;
+			height: 0;
+		}
+
+		#fitlerTextOption span {
+			padding: 3px;
+			border: 1px dotted black;
+		}
+
+		#fitlerTextOption input:checked+span {
+			background-color: gray;
+			color: white;
+		}
+
+		#fitlerTextOption label {
+			flex: 0 0 auto;
+			white-space: nowrap;
+			line-height: 1em;
 		}
 
 		.toggleAll {
@@ -514,7 +563,8 @@
 			white-space: pre;
 		}
 
-		#inputCacheAge>.tooltip-text {
+		#inputCacheAge>.tooltip-text,
+		#useRegex>.tooltip-text {
 			right: 0;
 			left: unset;
 			top: 125%;
@@ -696,7 +746,6 @@
 				</label>
 				<button class="tooltip-icon">ⓘ</button>
 				<span class="tooltip-text" data-i18n="Setting_FastModeHint"></span>
-
 			</div>
 			<div>
 				<label>
@@ -843,7 +892,7 @@
 			</div>
 		</div>
 
-		<div id="filterWeaponType" class="wo" style="display: none">
+		<div id="filterWeaponType" class="wo">
 			<button class="toggleAll" onclick="toggleAllCheckboxes(this)"></button>
 			<div class="chooseOption" id="filterWeaponTypeYellow">
 				<label>
@@ -881,8 +930,68 @@
 			</div>
 		</div>
 
-		<input id="filterTextInput" type="text" type="text" data-i18n-placeholder="HintFilterName" placeholder="⌕"
-			oninput="setSelectableList()" />
+		<div id="filterText">
+			<div style="display: flex;">
+				<input id="filterTextInput" type="text" data-i18n-placeholder="HintFilterName" placeholder="⌕"
+					oninput="setSelectableList()" />
+				<label id="useRegex">
+					<input type="checkbox" name="regexMode" value="regex" onchange="setSelectableList(this)" />
+					<svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="1rem"
+						width="1rem" fill="currentColor">
+						<path
+							d="M 333.939 -179.27 C 315.833 -179.27 300.414 -185.64 287.679 -198.39 C 274.934 -211.12 268.563 -226.54 268.563 -244.65 C 268.563 -262.75 274.934 -278.17 287.679 -290.91 C 300.414 -303.65 315.833 -310.02 333.939 -310.02 C 352.044 -310.02 367.463 -303.65 380.199 -290.91 C 392.943 -278.17 399.314 -262.75 399.314 -244.65 C 399.314 -226.54 392.943 -211.12 380.199 -198.39 C 367.463 -185.64 352.044 -179.27 333.939 -179.27 Z M 519.606 -430.31 L 519.606 -547.59 L 418.221 -488.96 L 384.226 -546.88 L 485.611 -605.52 L 384.226 -664.16 L 418.221 -722.09 L 519.606 -663.46 L 519.606 -780.73 L 587.597 -780.73 L 587.597 -663.46 L 688.982 -722.09 L 722.977 -664.16 L 621.592 -605.52 L 722.977 -546.88 L 688.982 -488.96 L 587.597 -547.59 L 587.597 -430.31 L 519.606 -430.31 Z" />
+					</svg>
+					<div class="tooltip-text">/Regex/i</div>
+				</label>
+			</div>
+
+			<div>
+				<button class="toggleAll" onclick="toggleAllCheckboxes(this)"
+					style="left: calc(-0.4em - 5px - 1px);"></button>
+				<div class="chooseOption" id="fitlerTextOption">
+					<label class="mo wo eo">
+						<input type="checkbox" name="textFilterField" value="Name" onchange="setSelectableList(this)"
+							checked />
+						<span data-i18n="Name"></span>
+					</label>
+					<label class="mo wo eo">
+						<input type="checkbox" name="textFilterField" value="Codename"
+							onchange="setSelectableList(this)" checked />
+						<span data-i18n="Codename"></span>
+					</label>
+					<label class="mo wo eo">
+						<input type="checkbox" name="textFilterField" value="Profile"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="Profile"></span>
+					</label>
+					<label class="mo wo">
+						<input type="checkbox" name="textFilterField" value="GachaIntro"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="GachaIntro"></span>
+					</label>
+					<label class="mo">
+						<input type="checkbox" name="textFilterField" value="LeaderSkill"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="LeaderSkill-short"></span>
+					</label>
+					<label class="mo">
+						<input type="checkbox" name="textFilterField" value="ActiveSkill"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="ActiveSkill-short"></span>
+					</label>
+					<label class="mo">
+						<input type="checkbox" name="textFilterField" value="PassiveSkill"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="PassiveSkill-short"></span>
+					</label>
+					<label class="wo">
+						<input type="checkbox" name="textFilterField" value="WeaponSkill"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="WeaponSkill-short"></span>
+					</label>
+				</div>
+			</div>
+		</div>
 
 		<div id="selectableList">
 			<select id="targetSelect" onchange="displayData()">
@@ -1344,7 +1453,8 @@
 		function initFilter() {
 			if (!currentDisplayCategory)
 				document.getElementById("selectCategory").querySelector('input[type="radio"]').checked = true;
-			document.querySelectorAll('#filterArea input[type="checkbox"]').forEach((c) => (c.checked = true));
+			document.querySelectorAll('#filterArea input[type="checkbox"][checked]').forEach((c) => (c.checked = true));
+			document.querySelectorAll('#filterArea input[type="checkbox"]:not([checked])').forEach((c) => (c.checked = false));
 			changeCategory();
 			document.getElementById("reverseToggle").checked = false;
 			document.getElementById("filterTextInput").value = "";
@@ -1353,23 +1463,25 @@
 		function changeCategory() {
 			unit_category = document.querySelector('input[name="unit_category"]:checked').value;
 
-			document.querySelectorAll(".mo, .wo").forEach(function (el) {
+			document.querySelectorAll(".mo, .wo, .eo").forEach(function (el) {
 				el.style.display = "none";
 			});
 
-			if (unit_category === "Equipment") { } else {
-				if (unit_category === "Weapon") {
-					document.querySelectorAll(".wo").forEach(function (el) {
-						el.style.display = "";
-					});
-				} else {
-					document.querySelectorAll(".mo").forEach(function (el) {
-						el.style.display = "";
-					});
-				}
+			switch (unit_category) {
+				case "Equipment":
+					document.querySelectorAll(".eo").forEach(function (el) { el.style.display = ""; });
+					break;
+				case "Weapon":
+					document.querySelectorAll(".wo").forEach(function (el) { el.style.display = ""; });
+					break;
+				default:
+					document.querySelectorAll(".mo").forEach(function (el) { el.style.display = ""; });
+					break;
+
 			}
 
-			document.querySelectorAll('.chooseOption input[type="checkbox"]').forEach((el) => (el.checked = true));
+			document.querySelectorAll('.chooseOption input[type="checkbox"][checked]').forEach((el) => (el.checked = true));
+			document.querySelectorAll('.chooseOption input[type="checkbox"]:not([checked])').forEach((el) => (el.checked = false));
 			document.getElementById("reverseToggle").checked = false;
 			document.getElementById("filterTextInput").value = "";
 
@@ -1392,6 +1504,8 @@
 			);
 
 			const filteredStars = new Set();
+			const filterText = document.getElementById("filterTextInput").value.trim();
+			const filterWithRegex = document.querySelector("#useRegex input").checked;
 
 			for (const id in wholeData[unit_category]) {
 				const entry = wholeData[unit_category][id];
@@ -1404,13 +1518,12 @@
 				filteredStars.add(entry["Stars_Curr"]);
 				if (!selectedStars.includes(String(entry["Stars_Curr"]))) continue;
 
+				if (filterText !== "" && !filterByText(filterText, id, entry, filterWithRegex)) continue;
+
 				option.value = id;
 				option.text = getFullNameAddStarsOrRarity(id, unit_category, true, false);
 				targetSelect.appendChild(option);
 			}
-
-			filterText = document.getElementById("filterTextInput").value.trim();
-			if (filterText !== "") filterByText(filterText);
 
 			if (document.getElementById("reverseToggle").checked) reverseOptions();
 			targetSelect.selectedIndex = 0;
@@ -1436,25 +1549,73 @@
 			}
 		}
 
-		function filterByText(filterText) {
-			let filterText_regex;
-			try {
-				filterText_regex = new RegExp(filterText, 'i');
-			} catch (e) {
-				return;
+		function filterByText(filterText, id, entry, filterWithRegex = false) {
+			let matchTarget = filterText;
+			if (filterWithRegex) {
+				try {
+					matchTarget = new RegExp(filterText, 'i');
+				} catch (e) {
+					return false;
+				}
 			}
 
-			const selectableTarget = document.getElementById("targetSelect");
-			const originalOptions = Array.from(selectableTarget.options).slice(1);
-			selectableTarget.innerHTML = initSelectOptionContent;
-			originalOptions.forEach(option => {
-				const divideOptionText = option.text.match(/^(.*)\s(\([0★☆]+\))$/);
-				if (filterText_regex.test(option.value) || filterText_regex.test(divideOptionText[1]) || filterText_regex.test(divideOptionText[2])) {
-					selectableTarget.appendChild(option);
-				}
-			});
-			selectableTarget.selectedIndex = 0;
+			const checkedField = Array.from(document.querySelectorAll("#fitlerTextOption input:checked")).map((cb) => cb.value);
 
+			if (checkedField.includes("Codename")) {
+				if (matchTest(id, matchTarget, filterWithRegex)) return true;
+			}
+			if (checkedField.includes("Name")) {
+				if (matchTest((entry?.["Name"] ?? ""), matchTarget, filterWithRegex) ||
+					matchTest((entry?.["Name2"] ?? ""), matchTarget, filterWithRegex) ||
+					matchTest((entry?.["FullName"] ?? ""), matchTarget, filterWithRegex))
+					return true;
+			}
+			if (checkedField.includes("Profile")) {
+				if (matchTest((entry?.["Profile"] ?? ""), matchTarget, filterWithRegex) ||
+					matchTest((entry?.["Profile_Ascended"] ?? ""), matchTarget, filterWithRegex))
+					return true;
+			}
+			if (checkedField.includes("GachaIntro")) {
+				if (matchTest((entry?.["GachaIntro"] ?? ""), matchTarget, filterWithRegex))
+					return true;
+			}
+			if (checkedField.includes("LeaderSkill")) {
+				if (matchTest((entry?.["LeaderSkill"]?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
+					matchTest((entry?.["LeaderSkill"]?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
+					return true;
+			}
+			if (checkedField.includes("ActiveSkill")) {
+				for (const skill of entry?.["ActiveSkill"] ?? []) {
+					if (matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
+						matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
+						return true;
+				}
+			}
+			if (checkedField.includes("PassiveSkill")) {
+				for (const skill of entry?.["PassiveSkill"] ?? []) {
+					if (matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
+						matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
+						return true;
+				}
+			}
+			if (checkedField.includes("WeaponSkill")) {
+				for (const skill of entry?.["WeaponSkill"] ?? []) {
+					if (matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
+						matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
+						return true;
+				}
+			}
+
+			return false;
+		}
+
+		function matchTest(sourceText, matchTarget, filterWithRegex) {
+			if (filterWithRegex) {
+				return matchTarget.test(sourceText);
+			} else {
+				return sourceText.toLowerCase().includes(matchTarget.toLowerCase());
+			}
+			return false;
 		}
 
 		function reverseOptions() {
