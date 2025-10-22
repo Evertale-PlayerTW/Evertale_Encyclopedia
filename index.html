@@ -1342,6 +1342,8 @@
 		document.addEventListener("DOMContentLoaded", initLang);
 
 		async function initLang() {
+			siteLangData = await fetchCheck("SiteLocalization.json").then((res) => res.json());
+
 			const lang = new URLSearchParams(window.location.search).get("lang");
 			if (lang) {
 				const languagePick = document.getElementById("languagePick");
@@ -1365,7 +1367,6 @@
 		async function setPickLang() {
 			document.getElementById("languagePick").disabled = true;
 			specifiedLang = document.getElementById("languagePick").value;
-			siteLangData = await fetchCheck("SiteLocalization.json").then((res) => res.json());
 
 			document.documentElement.lang = getLocalizationText("LangCode");
 			for (const el of document.querySelectorAll("[data-i18n]")) {
