@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1759712796,
+	"Time": 1761290927,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -26998,6 +26998,34 @@
 			"buffStackNames": ["LockPeachGirlRegular"]
 		}
 	},
+	"ShouldBeMarkedForPeachGirlRegular":{
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster":true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"IsPeachGirRegular": 1			
+		},
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsMarkedByPeachGirlRegular": 1
+			}
+		},
+		"and":{
+			"class":"MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["Sleep"],
+				"or":{
+					"class": "MonsterConditions",
+					"monsterTags": ["KnockbackImmune"]
+				}
+			}
+		}
+	},
+	"IsPeachGirRegular":{
+		"class": "MonsterConditions",
+		"families": ["PeachGirlRegular"]
+	},
 	"NotPeachGirlLockedOrSpirit2OrLess": {
 		"class": "MonsterConditions",
 		"teamSpiritLessThan": 300,
@@ -27209,7 +27237,7 @@
 		"not":{
 			"class": "MonsterConditions",
 			"buffStackNames": ["MarkedDoNotBeKnockedBackByPeachGirlRegular"]
-		}
-	}
+        }
+    }
 }
 }

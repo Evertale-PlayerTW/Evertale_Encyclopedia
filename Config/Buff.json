@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1760594089,
+	"Time": 1761290876,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -48892,13 +48892,12 @@
 		},
 		"200TUHeal5PercentHPAnd30PercentChancePurify": {
 			"class": "Buff",
-			"behaviors": ["BuffOnMonsterTurn", "BuffOnMonsterTurn"],
+			"behaviors": ["BuffOnMonsterTurn", "PurifySelfOnMonsterTurn"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["Heal5PercentHP"],
 				"activeMonsterConditions": "AlwaysTrue"
 			},{
-				"selfBuffs": ["RemoveBuffs"],
-				"spreadCondition": "30PercentChance",
+			    "spreadCondition": "30PercentChance",
 				"activeMonsterConditions": "AlwaysTrue"
 			}],
 			"stackName": "Heal5PercentHPAnd30PercentChancePurify",
@@ -50040,12 +50039,11 @@
 		},
 		"100TUHeal5PercentHPAnd30PercentChancePurify": {
 			"class": "Buff",
-			"behaviors": ["BuffOnMonsterTurn", "BuffOnMonsterTurn"],
+			"behaviors": ["BuffOnMonsterTurn", "PurifySelfOnMonsterTurn"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["Heal5PercentHP"],
 				"activeMonsterConditions": "AlwaysTrue"
 			},{
-				"selfBuffs": ["RemoveBuffs"],
 				"spreadCondition": "30PercentChance",
 				"activeMonsterConditions": "AlwaysTrue"
 			}],
@@ -72552,6 +72550,15 @@
 			"stackName": "MarkedByPeachGirlRegular",
 			"duration": 0,
 			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"MarkSelfForPeachGirlOverride":{
+			"class": "Buff",
+			"stackName": "MarkedByPeachGirlRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "ShouldBeMarkedForPeachGirlRegular",
 			"showAsPermanent": false,
 			"showAsTimer": false
 		},

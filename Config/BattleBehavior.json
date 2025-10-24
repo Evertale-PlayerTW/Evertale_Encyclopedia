@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1730114395,
+	"Time": 1761290857,
 	"BattleBehavior": {
 		"AddBattleProperty": {
 			"class": "AddBattlePropertyBehavior"
@@ -31,6 +31,10 @@
 		},
 		"BuffOnMonsterTurn": {
 			"class": "BuffOnMonsterTurnBehavior"
+		},
+		"PurifySelfOnMonsterTurn": {
+			"class": "BuffOnMonsterTurnBehavior",
+			"selfBuffs": ["RemoveBuffs","MarkSelfForPeachGirlOverride"]
 		},
 		"BuffOnMonsterTurnEnd": {
 			"class": "BuffOnMonsterTurnEndBehavior"
