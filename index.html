@@ -80,7 +80,8 @@
 			text-align: center;
 		}
 
-		#filterArea label {
+		#filterArea label,
+		.textFilterOptionGroup {
 			display: inline-flex;
 			align-items: center;
 			justify-content: center;
@@ -105,6 +106,11 @@
 			position: relative;
 		}
 
+		#filterTextInputZone {
+			display: flex;
+			gap: 5px;
+		}
+
 		#filterTextInput {
 			text-align: center;
 			display: block;
@@ -126,15 +132,14 @@
 			background-color: lightblue;
 		}
 
-		#fitlerTextOption {
-			flex-wrap: wrap;
+		#filterText button {
+			background-color: transparent;
+			border: 0;
 			padding: 0;
-			margin-top: 5px;
-			gap: 5px;
+			font-size: 1em;
 		}
 
-		#fitlerTextOption input,
-		#useRegex input {
+		#filterText input[type="checkbox"] {
 			appearance: none;
 			margin: 0;
 			opacity: 0;
@@ -143,20 +148,34 @@
 			height: 0;
 		}
 
-		#fitlerTextOption span {
-			padding: 3px;
+		#filterTextOption {
+			margin-top: 5px;
+			margin-left: 5px;
+			display: grid;
+			grid-template-columns: auto auto;
+			width: fit-content;
+			max-width: 100%;
+			gap: 3px 1em;
+		}
+
+		.textFilterOptionGroup {
+			display: flex;
+			align-items: center;
+			justify-content: start;
+			gap: 3px;
+			line-height: 0.8em;
+			font-size: 0.8em;
+			flex-wrap: wrap;
+		}
+
+		.textFilterOptionGroup span {
+			padding: 5px;
 			border: 1px dotted black;
 		}
 
-		#fitlerTextOption input:checked+span {
+		.textFilterOptionGroup input:checked+span {
 			background-color: gray;
 			color: white;
-		}
-
-		#fitlerTextOption label {
-			flex: 0 0 auto;
-			white-space: nowrap;
-			line-height: 1em;
 		}
 
 		.toggleAll {
@@ -717,9 +736,9 @@
 			<select id="languagePick" onchange="setPickLang()">
 				<option value="" disabled selected hidden>▼ Pick Info Language ▼</option>
 				<option lang="en" value="English" data-shortname="EN">English (EN)</option>
+				<option lang="ja" value="Japanese" data-shortname="JP">日本語 (JP)</option>
 				<option lang="zh-Hant" value="ChineseTraditional" data-shortname="TC">繁體中文 (TC)</option>
 				<option lang="zh-Hans" value="ChineseSimplified" data-shortname="SC">简体中文 (SC)</option>
-				<option lang="ja" value="Japanese" data-shortname="JP">日本語 (JP)</option>
 				<option lang="fr" value="French" data-shortname="FR">Français (FR)</option>
 				<option lang="de" value="German" data-shortname="DE">Deutsch (DE)</option>
 				<option lang="it" value="Italian" data-shortname="IT">Italiano (IT)</option>
@@ -728,9 +747,9 @@
 			</select>
 			<div class="notShowJustForPreload">
 				<span lang="en">English (EN)</span>
+				<span lang="ja">日本語 (JP)</span>
 				<span lang="zh-Hant">繁體中文 (TC)</span>
 				<span lang="zh-Hans">简体中文 (SC)</span>
-				<span lang="ja">日本語 (JP)</span>
 				<span lang="fr">Français (FR)</span>
 				<span lang="de">Deutsch (DE)</span>
 				<span lang="it">Italiano (IT)</span>
@@ -931,7 +950,8 @@
 		</div>
 
 		<div id="filterText">
-			<div style="display: flex;">
+			<div id="filterTextInputZone">
+				<button id="openFilterTextOption" onclick="switchFilterTextOption()">☰</button>
 				<input id="filterTextInput" type="text" data-i18n-placeholder="HintFilterName" placeholder="⌕"
 					oninput="setSelectableList()" />
 				<label id="useRegex">
@@ -945,51 +965,103 @@
 				</label>
 			</div>
 
-			<div>
-				<button class="toggleAll" onclick="toggleAllCheckboxes(this)"
-					style="left: calc(-0.4em - 5px - 1px);"></button>
-				<div class="chooseOption" id="fitlerTextOption">
-					<label class="mo wo eo">
+			<div id="filterTextOption" class="hidden">
+				<button class="mo wo eo textFilterOptionLabel" data-i18n="FilterText_LabelName"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="mo wo eo textFilterOptionGroup">
+					<label>
 						<input type="checkbox" name="textFilterField" value="Name" onchange="setSelectableList(this)"
 							checked />
-						<span data-i18n="Name"></span>
+						<span data-i18n="FilterText_OptionName"></span>
 					</label>
-					<label class="mo wo eo">
+					<label class="mo">
+						<input type="checkbox" name="textFilterField" value="Name2" onchange="setSelectableList(this)"
+							checked />
+						<span data-i18n="FilterText_OptionName2"></span>
+					</label>
+					<label>
 						<input type="checkbox" name="textFilterField" value="Codename"
 							onchange="setSelectableList(this)" checked />
-						<span data-i18n="Codename"></span>
+						<span data-i18n="FilterText_OptionCodename"></span>
 					</label>
-					<label class="mo wo eo">
+				</div>
+				<button class="mo wo eo textFilterOptionLabel" data-i18n="Profile"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="mo wo eo textFilterOptionGroup">
+					<label>
 						<input type="checkbox" name="textFilterField" value="Profile"
 							onchange="setSelectableList(this)" />
 						<span data-i18n="Profile"></span>
 					</label>
-					<label class="mo wo">
+				</div>
+				<button class="mo wo textFilterOptionLabel" data-i18n="GachaIntro"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="mo wo textFilterOptionGroup">
+					<label>
 						<input type="checkbox" name="textFilterField" value="GachaIntro"
 							onchange="setSelectableList(this)" />
 						<span data-i18n="GachaIntro"></span>
 					</label>
-					<label class="mo">
-						<input type="checkbox" name="textFilterField" value="LeaderSkill"
+				</div>
+				<button class="mo textFilterOptionLabel" data-i18n="LeaderSkill"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="mo textFilterOptionGroup">
+					<label>
+						<input type="checkbox" name="textFilterField" value="LeaderSkillTitle"
 							onchange="setSelectableList(this)" />
-						<span data-i18n="LeaderSkill-short"></span>
+						<span data-i18n="FilterText_OptionSkillName"></span>
 					</label>
-					<label class="mo">
-						<input type="checkbox" name="textFilterField" value="ActiveSkill"
+					<label>
+						<input type="checkbox" name="textFilterField" value="LeaderSkillDescription"
 							onchange="setSelectableList(this)" />
-						<span data-i18n="ActiveSkill-short"></span>
-					</label>
-					<label class="mo">
-						<input type="checkbox" name="textFilterField" value="PassiveSkill"
-							onchange="setSelectableList(this)" />
-						<span data-i18n="PassiveSkill-short"></span>
-					</label>
-					<label class="wo">
-						<input type="checkbox" name="textFilterField" value="WeaponSkill"
-							onchange="setSelectableList(this)" />
-						<span data-i18n="WeaponSkill-short"></span>
+						<span data-i18n="FilterText_OptionSkillDescription"></span>
 					</label>
 				</div>
+				<button class="mo textFilterOptionLabel" data-i18n="ActiveSkill"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="mo textFilterOptionGroup">
+					<label>
+						<input type="checkbox" name="textFilterField" value="ActiveSkillTitle"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="FilterText_OptionSkillName"></span>
+					</label>
+					<label>
+						<input type="checkbox" name="textFilterField" value="ActiveSkillDescription"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="FilterText_OptionSkillDescription"></span>
+					</label>
+				</div>
+				<button class="mo textFilterOptionLabel" data-i18n="PassiveSkill"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="mo textFilterOptionGroup">
+					<label>
+						<input type="checkbox" name="textFilterField" value="PassiveSkillTitle"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="FilterText_OptionSkillName"></span>
+					</label>
+					<label>
+						<input type="checkbox" name="textFilterField" value="PassiveSkillDescription"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="FilterText_OptionSkillDescription"></span>
+					</label>
+				</div>
+				<button class="wo textFilterOptionLabel" data-i18n="WeaponSkill"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="wo textFilterOptionGroup">
+					<label>
+						<input type="checkbox" name="textFilterField" value="WeaponSkillTitle"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="FilterText_OptionSkillName"></span>
+					</label>
+					<label>
+						<input type="checkbox" name="textFilterField" value="WeaponSkilleDescription"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="FilterText_OptionSkillDescription"></span>
+					</label>
+				</div>
+
+
+
 			</div>
 		</div>
 
@@ -1459,24 +1531,26 @@
 			changeCategory();
 			document.getElementById("reverseToggle").checked = false;
 			document.getElementById("filterTextInput").value = "";
+			document.getElementById("filterTextOption").classList.add("hidden");
+			document.querySelector("#useRegex input").checked = false;
 		}
 
 		function changeCategory() {
 			unit_category = document.querySelector('input[name="unit_category"]:checked').value;
 
 			document.querySelectorAll(".mo, .wo, .eo").forEach(function (el) {
-				el.style.display = "none";
+				el.classList.add("hidden");
 			});
 
 			switch (unit_category) {
 				case "Equipment":
-					document.querySelectorAll(".eo").forEach(function (el) { el.style.display = ""; });
+					document.querySelectorAll(".eo").forEach(function (el) { el.classList.remove("hidden"); });
 					break;
 				case "Weapon":
-					document.querySelectorAll(".wo").forEach(function (el) { el.style.display = ""; });
+					document.querySelectorAll(".wo").forEach(function (el) { el.classList.remove("hidden"); });
 					break;
 				default:
-					document.querySelectorAll(".mo").forEach(function (el) { el.style.display = ""; });
+					document.querySelectorAll(".mo").forEach(function (el) { el.classList.remove("hidden"); });
 					break;
 
 			}
@@ -1560,16 +1634,16 @@
 				}
 			}
 
-			const checkedField = Array.from(document.querySelectorAll("#fitlerTextOption input:checked")).map((cb) => cb.value);
+			const checkedField = Array.from(document.querySelectorAll("#filterTextOption input:checked")).map((cb) => cb.value);
 
 			if (checkedField.includes("Codename")) {
 				if (matchTest(id, matchTarget, filterWithRegex)) return true;
 			}
 			if (checkedField.includes("Name")) {
-				if (matchTest((entry?.["Name"] ?? ""), matchTarget, filterWithRegex) ||
-					matchTest((entry?.["Name2"] ?? ""), matchTarget, filterWithRegex) ||
-					matchTest((entry?.["FullName"] ?? ""), matchTarget, filterWithRegex))
-					return true;
+				if (matchTest((entry?.["Name"] ?? ""), matchTarget, filterWithRegex)) return true;
+			}
+			if (checkedField.includes("Name2")) {
+				if (matchTest((entry?.["Name2"] ?? ""), matchTarget, filterWithRegex)) return true;
 			}
 			if (checkedField.includes("Profile")) {
 				if (matchTest((entry?.["Profile"] ?? ""), matchTarget, filterWithRegex) ||
@@ -1580,30 +1654,28 @@
 				if (matchTest((entry?.["GachaIntro"] ?? ""), matchTarget, filterWithRegex))
 					return true;
 			}
-			if (checkedField.includes("LeaderSkill")) {
-				if (matchTest((entry?.["LeaderSkill"]?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
-					matchTest((entry?.["LeaderSkill"]?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
-					return true;
+			if (checkedField.includes("LeaderSkillTitle")) {
+				if (matchTest((entry?.["LeaderSkill"]?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex)) return true;
 			}
-			if (checkedField.includes("ActiveSkill")) {
+			if (checkedField.includes("LeaderSkillDescription")) {
+				if (matchTest((entry?.["LeaderSkill"]?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex)) return true;
+			}
+			if (checkedField.includes("ActiveSkillTitle") || checkedField.includes("ActiveSkillDescription")) {
 				for (const skill of entry?.["ActiveSkill"] ?? []) {
-					if (matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
-						matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
-						return true;
+					if (checkedField.includes("ActiveSkillTitle") && matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex)) return true;
+					if (checkedField.includes("ActiveSkillDescription") && matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex)) return true;
 				}
 			}
-			if (checkedField.includes("PassiveSkill")) {
+			if (checkedField.includes("PassiveSkillTitle") || checkedField.includes("PassiveSkillDescription")) {
 				for (const skill of entry?.["PassiveSkill"] ?? []) {
-					if (matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
-						matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
-						return true;
+					if (checkedField.includes("PassiveSkillTitle") && matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex)) return true;
+					if (checkedField.includes("PassiveSkillDescription") && matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex)) return true;
 				}
 			}
-			if (checkedField.includes("WeaponSkill")) {
+			if (checkedField.includes("WeaponSkillTitle") || checkedField.includes("WeaponSkilleDescription")) {
 				for (const skill of entry?.["WeaponSkill"] ?? []) {
-					if (matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex) ||
-						matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex))
-						return true;
+					if (checkedField.includes("WeaponSkillTitle") && matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex)) return true;
+					if (checkedField.includes("WeaponSkilleDescription") && matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex)) return true;
 				}
 			}
 
@@ -1619,6 +1691,10 @@
 			return false;
 		}
 
+		function switchFilterTextOption() {
+			document.getElementById("filterTextOption").classList.toggle("hidden");
+		}
+
 		function reverseOptions() {
 			const selectableTarget = document.getElementById("targetSelect");
 			const originalOptions = Array.from(selectableTarget.options).slice(1);
@@ -1629,7 +1705,8 @@
 		}
 
 		function toggleAllCheckboxes(toggleElement) {
-			const checkboxes = toggleElement.parentElement.querySelectorAll('input[type="checkbox"]');
+			const toggleContainer = toggleElement.classList.contains("textFilterOptionLabel") ? toggleElement.nextElementSibling : toggleElement.parentElement
+			const checkboxes = toggleContainer.querySelectorAll('input[type="checkbox"]');
 
 			// 檢查目前是否全選
 			const allChecked = Array.from(checkboxes)
