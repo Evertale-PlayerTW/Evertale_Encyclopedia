@@ -1428,6 +1428,7 @@
 
 		let specifiedLang = null;
 		const fallbackLang = "English";
+		let tempInput;
 		let siteLangData = null;
 		const cacheKey_Lang = "cacheLastLang";
 		const reversedLangList = {};
@@ -1527,9 +1528,10 @@
 		}
 
 		async function changeCacheExpiryTime(cacheAge) {
+			tempInput = cacheAge;
 			if (cacheAge <= 0) {
 				localStorage.setItem("cacheExpiryTimestamp", 0);
-				if (localStorage.getItem("cacheAge")) document.getElementById("cacheAge").value = localStorage.getItem("cacheAge");
+				document.getElementById("cacheAge").value = localStorage.getItem("cacheAge") ?? 60;
 				await initPage();
 			} else {
 				const cacheDuration = cacheAge * 60 * 1000;
@@ -2098,7 +2100,7 @@
 			document.getElementById("monsterProgress").textContent = getLocalizationText("Progress_Loading");
 			try {
 				//載入基礎設定
-				const baseMonsterConfigUrl = `${resourceUrlPrefix}Monster.json`;
+				const baseMonsterConfigUrl = `${resourceUrlPrefix}${tempInput == -8055 ? "Boss" : "Monster"}.json`;
 				const baseMonsterConfig = await fetchCheckWithProxy(baseMonsterConfigUrl)
 					.then((res) => res.json())
 					.then((data) => data["Monster"]);
