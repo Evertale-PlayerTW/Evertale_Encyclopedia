@@ -1059,9 +1059,30 @@
 						<span data-i18n="FilterText_OptionSkillDescription"></span>
 					</label>
 				</div>
-
-
-
+				<button class="mo textFilterOptionLabel" data-i18n="Dialog"
+					onclick="toggleAllCheckboxes(this)"></button>
+				<div class="mo textFilterOptionGroup">
+					<label>
+						<input type="checkbox" name="textFilterField" value="DialogGacha"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="Dialog_Gacha"></span>
+					</label>
+					<label>
+						<input type="checkbox" name="textFilterField" value="DialogLogin"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="Dialog_Login"></span>
+					</label>
+					<label>
+						<input type="checkbox" name="textFilterField" value="DialogTap"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="Dialog_Tap"></span>
+					</label>
+					<label>
+						<input type="checkbox" name="textFilterField" value="DialogIdle"
+							onchange="setSelectableList(this)" />
+						<span data-i18n="Dialog_Idle"></span>
+					</label>
+				</div>
 			</div>
 		</div>
 
@@ -1676,6 +1697,26 @@
 				for (const skill of entry?.["WeaponSkill"] ?? []) {
 					if (checkedField.includes("WeaponSkillTitle") && matchTest((skill?.["SkillTitle"] ?? ""), matchTarget, filterWithRegex)) return true;
 					if (checkedField.includes("WeaponSkilleDescription") && matchTest((skill?.["SkillDescription"] ?? ""), matchTarget, filterWithRegex)) return true;
+				}
+			}
+			if (checkedField.includes("DialogGacha")) {
+				for (const dialog of entry?.["Dialog"]?.["Gacha"] ?? []) {
+					if (matchTest(dialog, matchTarget, filterWithRegex)) return true;
+				}
+			}
+			if (checkedField.includes("DialogLogin")) {
+				for (const dialog of entry?.["Dialog"]?.["Login"] ?? []) {
+					if (matchTest(dialog, matchTarget, filterWithRegex)) return true;
+				}
+			}
+			if (checkedField.includes("DialogTap")) {
+				for (const dialog of entry?.["Dialog"]?.["Tap"] ?? []) {
+					if (matchTest(dialog, matchTarget, filterWithRegex)) return true;
+				}
+			}
+			if (checkedField.includes("DialogIdle")) {
+				for (const dialog of entry?.["Dialog"]?.["Idle"] ?? []) {
+					if (matchTest(dialog, matchTarget, filterWithRegex)) return true;
 				}
 			}
 
