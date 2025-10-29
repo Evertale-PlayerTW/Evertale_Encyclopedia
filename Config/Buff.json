@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761290876,
+	"Time": 1761620129,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -48897,7 +48897,7 @@
 				"selfBuffs": ["Heal5PercentHP"],
 				"activeMonsterConditions": "AlwaysTrue"
 			},{
-			    "spreadCondition": "30PercentChance",
+				"spreadCondition": "30PercentChance",
 				"activeMonsterConditions": "AlwaysTrue"
 			}],
 			"stackName": "Heal5PercentHPAnd30PercentChancePurify",
@@ -72751,6 +72751,428 @@
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3",
 			"applyConditions": "HasNoAwakening"
+		},
+		"EvilAuraPassiveAKingArthurEvilBoss": {
+			"class": "Buff",
+			"stackName": "EvilAuraPassiveAKingArthurEvil",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HPRegen1PercentMaxHPEndEveryTurnFor100TU","HoldGroundOnceForHoldGroundPlusBoss","BlockDeathUntilNextTurnForHoldGroundPlusBoss"]
+			},{
+				"selfBuffs": ["EOTExtraTurnIfMoreThan1HP","ExtraTurnTriggeredKingArthurEvilBoss"],
+				"cancelFromDamageTypes": ["BuffDamage"],
+				"spreadCondition": "IsNotExtraTurnTriggeredKAEvilBoss"
+			},{
+				"selfBuffs": ["MarkedKingArthurEvilBoss"]
+			},{
+				"selfBuffs": ["StoreEnergyHidden"]
+			},{
+				"randomEnemyBuffs": ["SpecialMarkedForDeathKingArthurEvilBoss"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSummonedAndNotBoss"
+			},{
+				"sourceBuffs": ["WorldDeathCounter"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
+			}],
+			"showAsPermanent": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"tags": ["KnockbackImmune","HoldGroundPlus"],
+			"duration": -1
+		},
+		"SpreadPlagueBurn":{
+			"class": "Buff",
+			"stackName": "SpreadPlague",
+			"behaviors":["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides":[{
+				"randomEnemyBuffs": ["SpreadingPlagueFX","Burn"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotBurning",
+				"activeMonsterConditions": "AlwaysTrue",
+				"removeAfterTriggers": 3,
+				"forwardSource": true
+			}],
+			"duration": -1,
+			"iconSpriteName": "IconRedInfection01",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["SpreadPlagueBurn"],
+			"applyConditions": "IsNotSpreadPlague"
+		},
+		"ExtraTurnTriggeredKingArthurEvilBoss": {
+			"class": "Buff",
+			"stackName": "ExtraTurnTriggeredKingArthurEvil",
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"WorldDeathCounter": {
+			"class": "Buff",
+			"stackName": "WorldDeathCounter",
+			"stackLimit": 5,
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true
+		},
+		"SpecialMarkedForDeathKingArthurEvilBoss":{
+			"class": "Buff",
+			"stackName": "SpecialMarkedForDeathKingArthurEvil",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"EOTExtraTurnIfMoreThan1HP": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "MoreThan1HP"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true
+		},
+		"HPRegen1PercentMaxHPEndEveryTurnFor100TU": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["1PercentHealMaxHPBoss"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"stackName": "HPRegen1PercentMaxHPEndEveryTurnFor100TU",
+			"duration": 100,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"iconSpriteName": "IconGreenRegenerationHeart01"
+		},
+		"1RandomAllyNotSourceKAEvilGainBurnEBB": {
+			"class": "Buff",
+			"stackName": "1RandomAllyNotSourceKAEvilGainBurnEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["Burn"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSourceKingArthurEvil"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"MarkedKingArthurEvilBoss":{
+			"class": "Buff",
+			"stackName": "SourceKingArthurEvil",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"BurningJourneyPassiveADonQuixoteRegularBoss": {
+			"class": "Buff",
+			"stackName": "Protector",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["KnockbackImmunity","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn",
+					"UnkillableByAttacksIfMegaHealingBurnBoss","GrantSelfMegaHealingBurnUntil3rdTurn"]
+			},{
+				"randomEnemyBuffs": ["MarkedForRandomDamage"],
+				"numRandomToBuff": 1
+			},{
+				"selfBuffs": ["SourceDonQuixoteRegularBoss"]
+			}],
+			"duration": -1,
+			"tags": ["GoodToBurn"],
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"UnkillableByAttacksIfMegaHealingBurnBoss":{
+			"class": "Buff",
+			"behaviors": ["Immunity","BlockDeath"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Placeholder"],
+				"activateCondition": "IsMegaHealingBurn"
+			},{
+				"conditions": "IsMegaHealingBurn"
+			}],
+			"stackName": "UnkillableByAttacksIfMegaHealingBurn",
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconWhiteFightSword01"
+		},
+		"GrantSelfMegaHealingBurnUntil3rdTurn": {
+			"class": "Buff",
+			"behaviors": ["RemoveAfterTurnsBehavior","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"turnCount": 3
+			},{
+				"selfBuffs": ["GrantBurnToAllAndSelfMegaHealingBurnEOT"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true
+		},
+		"GrantBurnToAllAndSelfMegaHealingBurnEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["BurnAllUnitsOnTheBattlefieldEBB"]
+			},{
+				"selfBuffs": ["MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn"],
+				"spreadCondition": "NotMegaHealingBurn"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"BurnAllUnitsOnTheBattlefieldEBB":{
+			"class": "Buff",
+			"stackName": "GrantAllUnitsBurnEBB",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["Burn","GenericBurnFX"],
+				"numRandomToBuff": 4
+			},{
+				"randomEnemyBuffs": ["Burn","GenericBurnFX"],
+				"numRandomToBuff": 4
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"LoneKnightPassiveADonQuixoteRegularBoss": {
+			"class": "Buff",
+			"stackName": "LoneKnightPassiveADonQuixoteRegular",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","ModifyDamage"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["StunImmunityHidden"]
+			},{
+				"sameTeam": true,
+				"activeMonsterConditions": "AlwaysTrue",
+				"sourceBuffs": ["StunNonWaterEnemyIf4UnitsBurningEOT"]
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["RandomBurningAllyTUMinus25Boss"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{
+				"percent": 0.5,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor", "RemoveStatus"]	
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconPurpleArmorStunImmune01",
+			"tags": ["BigDamageMinus"]
+		},
+		"RandomBurningAllyTUMinus25Boss": {
+			"class": "Buff",
+			"stackName": "GrantRandomBurningAllyTurn",
+			"behaviors": ["EnterBattleBuff","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["TUMinus25"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsBurning"
+			},{
+				"name": "BrideHealOK"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"StunNonWaterEnemyIf4UnitsBurningEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["Stun25"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "AtLeast4BurningInBattleAndIsBurningNotWater",
+				"activeMonsterConditions":"AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"MarkedForRandomDamage":{
+			"class": "Buff",
+			"stackName": "RandomDamageMark",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"SourceDonQuixoteRegularBoss":{
+			"class": "Buff",
+			"stackName": "SourceDonQuixoteRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"Grant1OtherAllyPiercingDonQuixoteEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["IgnoreDamageReduction1TurnOnly"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSourceDonQuixoteRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"DonQuixoteRegularCooldown100Boss":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"GainSpiritForCurrentBurningUnitsOnBattlefieldEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allyBuffs": ["SpiritGainD"],
+				"selfBuffs": ["SpiritGainD"],
+				"spreadCondition": "IsBurning"
+			},{
+				"enemyBuffs": ["SpiritGainDContra"],
+				"spreadCondition": "IsBurning"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"IcyBladePassiveAAnastasiaRegularBoss":{
+			"class": "Buff",
+			"stackName": "IcyBladePassiveAAnastasiaRegular",
+			"behaviors": ["BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+					"selfBuffs": ["HitBurningOrFrozenEnemyReduceRandomAlly10TU"]
+				},{
+					"sourceBuffs": ["FreezeRandomEnemyEOT"],
+					"sameTeam": false,
+					"spreadCondition": "KillsMoreThanSkillUsed",
+					"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+				},{
+					"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+					"sameTeam": false,
+					"spreadCondition": "KillsMoreThanSkillUsed"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"HitBurningOrFrozenEnemyReduceRandomAlly10TU": {
+			"class": "Buff",
+			"behaviors": ["BuffChanceOnHit","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["TUMinus10"],
+				"numRandomToBuff": 1,
+				"targetCondition": "IsBurningOrFrozen"
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"ColdWindsPassiveAAnastasiaRegularBoss": {
+			"class": "Buff",
+			"stackName": "ColdWindsPassiveAAnastasiaRegular",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["BurnImmunity","SleepImmunity","SuperManUntilThirdTurnAnastasiaRegularBoss"]
+			},{
+				"activeMonsterConditions": "AtLeast1BurningOrFrozenUnitInBattle",
+				"sourceBuffs": ["1PercentHealMaxHPBoss","Gain1SpiritEOT"]
+				}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SuperManUntilThirdTurnAnastasiaRegularBoss": {
+			"class": "Buff",
+			"behaviors": ["RemoveAfterTurnsBehavior","BlockDeath","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"turnCount": 3
+			},{
+				"conditions": "NotAlwaysEnemyTurn"
+			},{
+				"activeMonsterConditions": "AlwaysTrue",
+				"selfBuffs": ["Heal1PercentMaxHPEOT"]
+			}],
+			"stackName": "SuperManUntilThirdTurnAnastasiaRegular",
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconWhiteFightSword01"
+		},
+		"Heal1PercentMaxHPEOT": {
+			"class": "Buff",
+			"stackName": "Heal1PercentMaxHPEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["1PercentHealMaxHPBoss"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"FreezeRandomEnemyEOT": {
+			"class": "Buff",
+			"stackName": "FreezeRandomEnemyEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["AllowMoreFreezeIfNotFrozen","Freeze","Freeze","RemoveFrost","DenyMoreFreeze"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"AllowMoreFreezeIfNotFrozen": {
+			"class": "Buff",
+			"stackName": "AllowMoreFreeze",
+			"duration": 1,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "IsNotFrozen"
+		},
+		"AnastasiaRegularCooldown120Boss":{
+			"class": "Buff",
+			"duration": 120,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
 		}
 	}
 }

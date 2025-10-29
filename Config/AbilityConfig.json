@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1760498706,
+	"Time": 1761195931,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -41110,6 +41110,248 @@
 			"attackScalors": ["GoodVs1NotSleepingOrBurningEnemy","GoodVs2NotSleepingOrBurningEnemy","GoodVs3NotSleepingOrBurningEnemy","GoodVs4NotSleepingOrBurningEnemy"],
 			"conditionedAbilityEffects": ["PeachGirlSpecial","PeachGirlSpecial","PeachGirlSpecial","PeachGirlSpecial"],
 			"useCondition": "HasPowerCharge"
+		},
+		"SingleAttackAKingArthurEvilBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"]
+			},{
+				"buffs": ["Burn","SpreadPlagueBurn"],
+				"chance": 1.0,
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "MidFire1",
+			"attackScalors": ["GoodIfCharged1","GoodIfCharged2","GoodIfCharged3"],
+			"conditionedAbilityEffects": ["MidFire1","MidFire1","MidFire1"],
+			"flags": ["Burn"]
+		},
+		"MegaSoloBuffAKingArthurEvilBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["10PercentHealMaxHP","Burn"],
+				"applyToTargetType": "Friendly"
+			}],
+			"friendlyEventType": "Finish",
+			"flags": ["Burn","Healer"],
+			"abilityEffect": "ArthurEvilRebirth",
+			"useCondition": "HPBelow50Percent"
+		},
+		"AllAttackAKingArthurEvilBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor", "HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["UsedAbilityCounter","MomentumUsed","Burn","1RandomAllyNotSourceKAEvilGainBurnEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurEvilBane",
+			"attackScalors": ["GoodIfUsedOnce","GoodIfUsedTwice","GoodIfUsedThrice"],
+			"conditionedAbilityEffects": ["ArthurEvilBane","ArthurEvilBane","ArthurEvilBane"],
+			"flags": ["Momentum","MomentumReadyUser"],
+			"useCondition": "HasDamagedWithAttack",
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
+		},
+		"InstantDefeatAKingArthurEvilBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Add1Kill"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "SpecialMarkedEnemyForDeathByKingArthurEvilAndNotInstantKillImmune",
+				"buffBackMode": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["InstantKill"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "SpecialMarkedEnemyForDeathByKingArthurEvil",
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurEvilThrow",
+			"hideTargetingInfo": true,
+			"flags": ["InstantDeath","NoDamage"],
+			"useCondition": "IsWorldDeathCounter5AndValidTarget"
+		},
+		"SingleAttackADonQuixoteRegularBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath"]
+			},{
+				"buffs":["Grant1OtherAllyPiercingDonQuixoteEBB","MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"attackScalors": ["GoodIfBurning","GoodIfAllUnitsBurning"],
+			"conditionedAbilityEffects": ["DonQuixoteAttack1","DonQuixoteAttack1"],
+			"abilityEffect": "DonQuixoteAttack1"
+		},
+		"BurnAllUnitsADonQuixoteRegularBoss":{
+			"class": "AbilityConfig",
+			"targetingData": "All",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["Burn"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["Burn"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs":["DonQuixoteRegularCooldown100Boss","GainSpiritForCurrentBurningUnitsOnBattlefieldEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "DonQuixoteAllBurn",
+			"flags": ["Burn","ApplyStatusToSelf","NoDamage"],
+			"useCondition": "NotInstantCooldown"
+		},
+		"AllAttackADonQuixoteRegularBoss":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreSkin","HardIgnoreBlockDeath"]
+			},{
+				"buffs": ["MomentumUsed"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "DonQuixoteMeteo",
+			"attackScalors": ["GoodVsRandomDamageMark"],
+			"conditionedAbilityEffects": ["DonQuixoteMeteo","DonQuixoteMeteo"],
+			"flags": ["Momentum","MomentumReadyUser"],
+			"useCondition": "HasDamagedWithAttack",
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
+		},
+		"SpecialAttackADonQuixoteRegularBoss":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreArmor","HardIgnoreBlockDeath"]
+			},{
+				"buffs": ["MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Finish",
+			"sourceEventType": "Hit",
+			"abilityEffect": "DonQuixoteSpeciail",
+			"useCondition": "HPBelow50Percent"
+		},
+		"SingleAttackAAnastasiaRegularBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["StoreEnergyHidden"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "IsNotFrozen",
+				"buffBackMode": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"attackScalors": ["GoodIfCharged1","GoodIfCharged2","GoodIfCharged3"],
+			"conditionedAbilityEffects": ["AnastasiaAttack1","AnastasiaAttack1","AnastasiaAttack1"],
+			"abilityEffect": "AnastasiaAttack1"
+		},
+		"1RandomEnemyBuffAAnastasiaRegularBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "RandomEnemy",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["AllowMoreFreezeIfNotFrozen","Freeze","Freeze","RemoveFrost","DenyMoreFreeze"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs":["AnastasiaRegularCooldown120Boss"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"abilityEffect": "AnastasiaAllSleap",
+			"flags": ["Freeze","Purify","NoDamage"],
+			"useCondition": "NotInstantCooldown"
+		},
+		"DoubleAttackAAnastasiaRegularBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreSkin","IgnoreArmor"]
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "AnastasiaFrozen",
+			"attackScalors":["GoodVsBurn","GoodVsFrozen"],
+			"conditionedAbilityEffects": ["AnastasiaFrozen","AnastasiaFrozen"]
+		},
+		"SpecialAttackAAnastasiaRegularBoss": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor","HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy"
+			}],
+			"enemyEventType": "Hit",
+			"abilityEffect": "AnastasiaSpecial",
+			"flags": ["Survivor", "Duration"],
+            "useCondition": "TimeInCombat200",
+            "bombSkillIcon": "IconBrownCountdownClock01",
+			"bombSkillIconDescriptionKey": "TimeBeforeSkillUnlocksACountdownKey"
 		}
 	}
 }

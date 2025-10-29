@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1758871061,
+	"Time": 1761181938,
 	"AttackScalor": {
 		"TimeInCombat450":
 		{
@@ -635,6 +635,14 @@
 		"GoodVs4NotSleepingOrBurningEnemy":{
 			"class": "AttackScalor",
 			"sourceCondition": "4EnemiesNotSleepingOrBurning"
+		},
+		"GoodIfAllUnitsBurning":{
+			"class":"AttackScalor",
+			"sourceCondition":"AllUnitsInBattleBurning"
+		},
+		"GoodVsRandomDamageMark":{
+			"class":"AttackScalor",
+			"targetCondition":"IsMarkedForRandomDamage"
 		}
 	}
 }

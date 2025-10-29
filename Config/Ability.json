@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1759393613,
+  "Time": 1761195877,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27117,6 +27117,160 @@
       "useLimit": 0,
       "spiritCost": 2,
       "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAKingArthurEvilBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3,
+        4,
+        5
+      ],
+      "config": "SingleAttackAKingArthurEvilBoss",
+      "tuCost": 100,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "MegaSoloBuffAKingArthurEvilBoss",
+      "class": "Ability",
+      "config": "MegaSoloBuffAKingArthurEvilBoss",
+      "tuCost": 1,
+      "useLimit": 1,
+      "spiritGain": 10,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackAKingArthurEvilBoss",
+      "class": "Ability",
+      "abilityScalor": 1,
+      "conditionalAbilityScalors": [
+        2,
+        3,
+        4
+      ],
+      "config": "AllAttackAKingArthurEvilBoss",
+      "tuCost": 130,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "InstantDefeatAKingArthurEvilBoss",
+      "class": "Ability",
+      "config": "InstantDefeatAKingArthurEvilBoss",
+      "tuCost": 1,
+      "useLimit": 1,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackADonQuixoteRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 1.5,
+      "conditionalAbilityScalors": [
+        4,
+        9
+      ],
+      "config": "SingleAttackADonQuixoteRegularBoss",
+      "tuCost": 80,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BurnAllUnitsADonQuixoteRegularBoss",
+      "class": "Ability",
+      "config": "BurnAllUnitsADonQuixoteRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackADonQuixoteRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        6
+      ],
+      "config": "AllAttackADonQuixoteRegularBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackADonQuixoteRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "config": "SpecialAttackADonQuixoteRegularBoss",
+      "tuCost": 80,
+      "useLimit": 1,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAAnastasiaRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3.5,
+        5,
+        6.5
+      ],
+      "config": "SingleAttackAAnastasiaRegularBoss",
+      "tuCost": 60,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "1RandomEnemyBuffAAnastasiaRegularBoss",
+      "class": "Ability",
+      "config": "1RandomEnemyBuffAAnastasiaRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAAnastasiaRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        5,
+        5
+      ],
+      "config": "DoubleAttackAAnastasiaRegularBoss",
+      "tuCost": 60,
+      "useLimit": 0,
+      "spiritGain": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAAnastasiaRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 5,
+      "config": "SpecialAttackAAnastasiaRegularBoss",
+      "tuCost": 90,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 1,
       "showConfirmation": 0
     }
   ]
