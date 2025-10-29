@@ -704,7 +704,7 @@ function generateStarText(currStar, maxStar) {
 			return "★".repeat(currStar) + "☆".repeat(maxStar - currStar);
 		}
 	} else {
-		return "Stars Error";
+		return `Error: Stars (${currStar}) exceed Rarity (${maxStar})`;
 	}
 }
 
