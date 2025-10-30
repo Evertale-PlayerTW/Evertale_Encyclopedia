@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761181938,
+  "Time": 1761197960,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -27340,6 +27340,55 @@
 								"IsMechaSisterNew": 0.75,
 								"IsProtectingAndNotAlone": 0.75
 					}
+    },
+    "SingleAttackAKingArthurEvil_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 1.0,
+						"AllEnemiesIsStealth": 3.0
+   			 },
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.35,
+						"IsSummoned": 0.5,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsProtectedNotProtector": 0.75,
+						"IsPloyed": 0.70,
+						"HPBelow50Percent": 1.0,
+						"IsBurning": 0.85
+					}
+    },
+    "MegaSoloBuffAKingArthurEvil_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 750.0
+    },
+    "AllAttackAKingArthurEvil_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+						"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"AllEnemiesIsStealthAlt": 0.0,
+						"1EnemyHPBelow50Percent": 1.0,
+						"EnemyIsNotAlone": 2.0
+				},
+					"aiTargetingMonsterConditions": {
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+				}
+    },
+    "InstantDefeatAKingArthurEvil_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 150.0,
+						"aiTargetingMonsterConditions":{
+								"IsOdinRaven": 0.1,
+								"IsBadFriend": 0.1,
+								"IsImposter": 0.001,
+								"IsMirage": 0.80,
+								"IsBoss": 0.0,
+								"RarityLessThan3": 0.5,
+								"IsNotTokenOrImposter": 1.0,
+								"IsNotSummoned": 1.0
+				}
     }
 }
 }

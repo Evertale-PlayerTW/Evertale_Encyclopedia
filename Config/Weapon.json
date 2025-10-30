@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1759828102,
+  "Time": 1761185513,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15201,7 +15201,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "MomotaroStaff02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "MomotaroStaff02",
@@ -15221,7 +15222,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "MomotaroStaff03",
       "evolveFrom": "MomotaroStaff01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "MomotaroStaff03",
@@ -15240,6 +15242,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "MomotaroStaff02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "AbandonedChurchAxe01",
+      "family": "AbandonedChurchAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4TargetIsLethalPoisoned"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 508,
+      "baseMaxHp": 2835,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "AbandonedChurchAxe02",
+      "cost": 11
+    },
+    {
+      "name": "AbandonedChurchAxe02",
+      "family": "AbandonedChurchAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5TargetIsLethalPoisoned"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 622,
+      "baseMaxHp": 3390,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "AbandonedChurchAxe03",
+      "evolveFrom": "AbandonedChurchAxe01",
+      "cost": 17
+    },
+    {
+      "name": "AbandonedChurchAxe03",
+      "family": "AbandonedChurchAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6TargetIsLethalPoisoned"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 674,
+      "baseMaxHp": 3630,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "AbandonedChurchAxe02",
       "cost": 23
     }
   ]

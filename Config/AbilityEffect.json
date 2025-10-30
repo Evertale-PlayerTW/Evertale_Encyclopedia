@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761186247, 
+	"Time": 1761198055, 
 	"AbilityEffect": {
 		"DamageReaction": {
 			"class": "AbilityEffect",
@@ -16187,6 +16187,19 @@
 			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
 			"isAbilityUserEffect": [false, false, true, true, true, true, false, false, true, true, true, false, true, true, false, false, true, false],
 			"positionInBattlefieldCenter": [true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, false, false]
+		},
+		"ArthurEvilInstantDeath":{		
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0.3, 0, 0],
+			"prefabs": ["batsfx_prefab/batsfx_ShatterGlass","batfx_ArthurEvil/batfx_impactglass4","batfx_deadlyvampire1/batfx_miniimpact1","batfx_kaguyaDark/batfx_sparkimpact2","batfx_common/batfx_groundimpactpurple"],
+			"sortOrderOffset": [1, 2, 2, -2, 2],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle2", "BattleEffectsBundle3", "BattleEffectsBundle2"],
+			"damagePercents": [0, 0, 0, 1, 0],
+			"damageHitReactions": [false, false, false, true, false],
+			"forceHitReactions": [false, false, false, true, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true],
+			"isAbilityUserEffect": [true, false, false, false, false],
+			"positionInBattlefieldCenter": [false, false, false, false, false]
 		},
 		"DonQuixoteAttack1": {
             "class": "AbilityEffect",

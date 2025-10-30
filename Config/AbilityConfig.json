@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761195931,
+	"Time": 1761204870,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -41352,6 +41352,114 @@
             "useCondition": "TimeInCombat200",
             "bombSkillIcon": "IconBrownCountdownClock01",
 			"bombSkillIconDescriptionKey": "TimeBeforeSkillUnlocksACountdownKey"
+		},
+		"SingleAttackAKingArthurEvil": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"],
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["LethalPoison","SpreadPlagueLethalPosion"],
+				"chance": 1.0,
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"applyConditions": "IsNotBurning",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurEvilThrow",
+			"attackScalors": ["GoodIfCharged1","GoodIfCharged2","GoodIfCharged3"],
+			"conditionedAbilityEffects": ["ArthurEvilThrow","ArthurEvilThrow","ArthurEvilThrow"],
+			"flags": ["Poisoner"],
+			"recommendEffectWhenUsable": -1
+		},
+		"MegaSoloBuffAKingArthurEvil": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["FullHealAllDeathAlliesEBB", "HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus",
+					"Stealth","StealthShieldOnce","SleepImmunityOnce","StunImmunityOnce","PoisonImmunityOnce","HijikataCounter"],
+				"applyToSourceOnly": true
+			},{
+				"buffs": ["KillONEAllyAndCreditKillKingArthurEvil"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"applyConditions": "IsHijikataCharged2",
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"sourceEventType": "Finish",
+			"flags": ["StealthWorthy","Stealth","ResetHoldGroundPlus","Healer","InstantDeath"],
+			"abilityEffect": "ArthurEvilRebirth",
+			"recommendEffectWhenUsable": 1,
+			"useCondition": "NotHoldGroundOnceForHoldGroundPlus"
+		},
+		"AllAttackAKingArthurEvil": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor", "HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["UsedAbilityCounter","MomentumUsed","Stealth","StealthShieldOnce","1RandomAllyNotSourceKAEvilGainStealthAndShieldEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurEvilBane",
+			"attackScalors": ["GoodIfUsedOnce","GoodIfUsedTwice","GoodIfUsedThrice"],
+			"conditionedAbilityEffects": ["ArthurEvilBane","ArthurEvilBane","ArthurEvilBane"],
+			"flags": ["Momentum","MomentumReadyUser"],
+			"useCondition": "HasDamagedWithAttack",
+			"recommendEffectWhenUsable": -1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
+		},
+		"InstantDefeatAKingArthurEvil": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Add1Kill"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "SpecialMarkedEnemyForDeathByKingArthurEvilAndNotInstantKillImmune",
+				"buffBackMode": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["InstantKill"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "SpecialMarkedEnemyForDeathByKingArthurEvil",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["KillALLAlliesAndCreditKillKingArthurEvil"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurEvilSpecial",
+			"hideTargetingInfo": true,
+			"flags": ["InstantDeath","NoDamage"],
+			"useCondition": "IsWorldDeathCounter5AndValidTarget"
 		}
 	}
 }

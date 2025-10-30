@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761620129,
+	"Time": 1761635989,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -73173,6 +73173,241 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"AttackUp4TargetIsLethalPoisoned": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsLethalPoison",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5TargetIsLethalPoisoned": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsLethalPoison",
+				"scalor": 0.25
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6TargetIsLethalPoisoned": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsLethalPoison",
+				"scalor": 0.35
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"EvilAuraPassiveAKingArthurEvil": {
+			"class": "Buff",
+			"stackName": "EvilAuraPassiveAKingArthurEvil",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["InstantKillImmunityOnce","HPRegen10PercentMaxHPEndEveryTurnFor200TU",
+					"HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus","StunImmunityIfHoldGroundPlusTriggeredWaitingForTurn"]
+			},{
+				"selfBuffs": ["EOTExtraTurnIfMoreThan1HP"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["MarkedKingArthurEvil"]
+			},{
+				"selfBuffs": ["StoreEnergyHidden"]
+			},{
+				"randomEnemyBuffs": ["SpecialMarkedForDeathKingArthurEvil"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSummonedAndNotBoss"
+			},{
+				"sourceBuffs": ["WorldDeathCounter"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
+			}],
+			"showAsPermanent": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"tags": ["KnockbackImmune","HoldGroundPlus"],
+			"duration": -1
+		},
+		"SuperBuffPlusKingArthur": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["AttackUpDamageReduceHasteUp50PercentKingArthurPlus"],
+				"spreadCondition": "NotBattleTimeOver1"
+			},{
+				"selfBuffs": ["KnockbackImmunity"]
+			}],
+			"duration": -1,
+			"tags": ["PassiveHaste"],
+			"showAsPermanent": true,
+			"isHiddenFromPlayers": false
+		},
+		"AttackUpDamageReduceHasteUp50PercentKingArthurPlus": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage", "StatOnly", "StatOnly", "StatOnly", "StatOnly"],
+			"behaviorOverrides": [{
+				"percent": 0.5,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{
+				"conditions": "NotEnraged",
+				"scalorStatBonuses": {
+					"Attack": 0.5
+				}
+			},{
+				"conditions": "IsNotAccelerated",
+				"flatStatBonuses": {
+					"Haste": -999
+				}
+			},{
+				"conditions": "IsAccelerated20Percent",
+				"flatStatBonuses": {
+					"Haste": -749
+				}
+			},{
+				"conditions": "IsAccelerated30Percent",
+				"flatStatBonuses": {
+					"Haste": -570
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconYellowKing01"
+		},
+		"FullHealAllDeathAlliesEBB":{
+			"class": "Buff",
+			"stackName": "FullHealAllDeathAlliesEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["HealFull"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsDeath"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"SpecialMarkedForDeathKingArthurEvil":{
+			"class": "Buff",
+			"stackName": "SpecialMarkedForDeathKingArthurEvil",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"KillONEAllyAndCreditKillKingArthurEvil":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKillKAEvil"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "HPBelow25PercentIsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"KillALLAlliesAndCreditKillKingArthurEvil":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKill25PercentChanceKAEvil"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"PT2InstantKillAndCreditKillKAEvil": {
+			"class": "Buff",
+			"stackName": "InstantKill",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","InstantDeath"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["KingArthurEvilInstantDeathFXBuff"]
+			},{	
+				"randomAllyBuffs": ["Add1Kill"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsSourceKingArthurEvil"
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"PT2InstantKillAndCreditKill25PercentChanceKAEvil": {
+			"class": "Buff",
+			"stackName": "InstantKill",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","InstantDeath"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["KingArthurEvilInstantDeathFXBuff"]
+			},{	
+				"randomAllyBuffs": ["Add1Kill"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsSourceKingArthurEvil"
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "25PercentChance"
+		},
+		"KingArthurEvilInstantDeathFXBuff": {
+			"class": "Buff",
+			"isHiddenFromPlayers": true,
+			"duration": 0,
+			"effectToShowWhenApplied": "ArthurEvilInstantDeath",
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"HPRegen10PercentMaxHPEndEveryTurnFor200TU": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["10PercentHealMaxHP"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"stackName": "HPRegen10PercentMaxHPEndEveryTurnFor200TU",
+			"duration": 200,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"iconSpriteName": "IconGreenRegenerationHeart01"
+		},
+		"1RandomAllyNotSourceKAEvilGainStealthAndShieldEBB": {
+			"class": "Buff",
+			"stackName": "1RandomAllyNotSourceKingArthurEvilGainStealthAndShieldEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["Stealth","StealthShieldOnce"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSourceKingArthurEvil"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"MarkedKingArthurEvil":{
+			"class": "Buff",
+			"stackName": "SourceKingArthurEvil",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
 		}
 	}
 }
