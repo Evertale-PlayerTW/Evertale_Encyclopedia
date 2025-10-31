@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761635989,
+	"Time": 1761905537,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -72491,7 +72491,7 @@
 		"SleepyPassiveAPeachGirlRegular": {
 			"class": "Buff",
 			"stackName": "SleepyPassiveAPeachGirlRegular",
-			"behaviors": ["EnterBattleBuff","ModifyDamage","ModifyDamage","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","ModifyDamage","ModifyDamage","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["BurnImmunitywithStackName","KnockbackImmunity"]
 			},{
@@ -72508,6 +72508,10 @@
 				"randomEnemyBuffs": ["MarkedByPeachGirlRegular"],
 				"numRandomToBuff": 1,
 				"spreadCondition": "IsNotSleepingOrKnockbackImmune"
+			},{
+				"randomEnemyBuffs": ["RemoveMarkedByPeachGirlRegular"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsMarkedAnd2AlliesMarkedForPeachGirlRegular"
 			},{
 				"sourceBuffs": ["FirstTimeHurtByAttackAndNotBlockedGrantSourceTurn"],
 				"activeMonsterConditions": "AlwaysTrue"
@@ -72552,6 +72556,16 @@
 			"isHiddenFromPlayers": true,
 			"showAsPermanent": false,
 			"showAsTimer": false
+		},
+		"RemoveMarkedByPeachGirlRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "MarkedByPeachGirlRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
 		},
 		"MarkSelfForPeachGirlOverride":{
 			"class": "Buff",
@@ -72875,7 +72889,7 @@
 		},
 		"BurningJourneyPassiveADonQuixoteRegularBoss": {
 			"class": "Buff",
-			"stackName": "Protector",
+			"stackName": "BurningJourneyPassiveADonQuixoteRegularBoss",
 			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["KnockbackImmunity","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn",

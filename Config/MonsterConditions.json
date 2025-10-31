@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1761635999,
+    "Time": 1761903211,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27068,6 +27068,13 @@
 	"IsPeachGirRegular":{
 		"class": "MonsterConditions",
 		"families": ["PeachGirlRegular"]
+	},
+	"IsMarkedAnd2AlliesMarkedForPeachGirlRegular": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["MarkedByPeachGirlRegular"],
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsMarkedByPeachGirlRegular": 2
+		}
 	},
 	"NotPeachGirlLockedOrSpirit2OrLess": {
 		"class": "MonsterConditions",
