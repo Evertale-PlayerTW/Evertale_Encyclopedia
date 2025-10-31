@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 15 * * *" #每日00:00(JST)執行
     - cron: "0 8 * * 4" #每週四17:00(JST)執行
+    - cron: "*/20 5-6 * * 4" #每週四14-15:00(JST)，每20分鐘執行 (通常實裝時段)
+    - cron: "30 2 * * 5" #每週五11:30(JST)執行 (卡池正式登場前30分鐘)
   workflow_dispatch: #允許手動觸發
 
 permissions:
