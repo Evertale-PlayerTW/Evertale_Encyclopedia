@@ -122789,7 +122789,7 @@
         "Hp_Base": 6265,
         "Speed": 538,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Le Roi est de retour––\nPour compléter la tâche finale.",
         "LeaderSkill": {
             "SkillTitle": "Obscurité ATT+",
@@ -123105,5 +123105,308 @@
                 "RelationshipBuff": "PV+3%"
             }
         }
+    },
+    "DonQuixoteRegular01": {
+        "Name": "Don Quichotte",
+        "Name2": "Chevalier acharné",
+        "FullName": "Don Quichotte - Chevalier acharné",
+        "Profile": "Don Quichotte grandit dans un petit village aux abords du continent du nord. Elle était timide et maladroite. Elle se sentait toujours délaissée par les autres enfants, que ce soit en étude ou en sports. Elle n'avait jamais confiance en soi.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 28,
+        "Atk_Base": 532,
+        "Hp_Base": 15388,
+        "Speed": 328,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "J-Je n'arrive pas à m'arrêter !!!",
+        "LeaderSkill": {
+            "SkillTitle": "Feu ATT & PV+",
+            "SkillDescription": "Les alliés Feu voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lance Chauffée",
+                "SkillDescription": "250% de dégâts à 1 ennemi. 500% de dégâts à la place si l'utilisateur est brûlé. 1000% dégâts à la place si toutes les unités du champ de bataille sont brûlées. Puis un autre allié aléatoire gagne Perçage. Cette attaque ignore les effets des ennemis non-boss qui empêcheraient la cible d'être vaincue.\n\nLes effets de réduction de dégâts ennemis seront ignorés par les Attaques d'une unité avec Perçage jusqu'à la fin de son prochain tour.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Brûlure Bondée",
+                "SkillDescription": "Brûle toutes les unités sur le champ de bataille, et leur donne un Bouclier Brûlure. Ceci remplacera tout autre effet de statut sur ces unités.\n\nPuis l'utilisateur gagne la Brûlure Soin pendant 300TU, tous les alliés sont soignés d'une valeur de 1000% de l'attaque de l'utilisateur, et les Alliés gagnent 1 Essence par unité du champ de bataille qui est brûlée. Cette compétence se verrouille pendant 100TU après son utilisation.\n\nLes Boucliers Brûlure empêchent l'application du prochain effet de statut non-Brûlure qu'une unité subirait lorsqu'elle est brûlée. Une unité avec Brûlure Soin sera soignée après chaque tour au même rythme que la Brûlure inflige des dégâts. Brûlure Soin remplacera les autres effets de statut sur l'utilisateur et peut remplacer l'effet de statut de Brûlure, mais ne peut être remplacée par la Brûlure. Toute unité qui inflige des dégâts à une unité avec Brûlure Soin ou en subit des dégâts sera également brûlée. Brûlure Soin ne sera pas retirée par les compétences de Purification.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Chemin Ardent",
+                "SkillDescription": "Cible tous les ennemis. 1500% de dégâts à 1 ennemi aléatoire. 500% de dégâts à toutes les autres cibles. Puis tous les alliés sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur. Cette attaque ignore les effets d'ennemis non-boss qui empêcheraient les cibles d'être vaincues, l'effet de statut de Contre Relais, et les effets des compétences passives de Reflet.\n\nDéverrouillé à chaque fois que l'utilisateur inflige des dégâts à un ennemi par une autre attaque. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 60,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Voyage d'Héros",
+                "SkillDescription": "Cette unité est un Gardien. Cette unité est un Gardien. Pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés, cette unité a 100% de chance de rediriger 1 coup vers elle-même à la place. Cette unité ne redirige pas les compétences qui n'infligent pas de dégâts.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être vaincue si elle possède l'effet de statut de Méga Brûlure Soin.\n\nCette unité entre en bataille avec Méga Brûlure Soin pendant 100TU, et une Protection Mort Instantanée.\n\nÀ la fin de chacun des 3 premiers tours que cette unité prend sur le champ de bataille :\n- Toutes les unités du champ de bataille seront brûlées. Ceci remplacera les autres effets de statut sur ces unités.\n- Puis cette unité gagne la Méga Brûlure Soin pendant 100TU.\n- Puis cette unité gagne une Protection Mort Instantanée.\n\nUne Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Une unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera les autres effets de statut y compris la Brûlure Soin, et ne peut être remplacé par les effets de statut de Brûlure, Poison ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillTitle": "Force Inébranlable",
+                "SkillDescription": "Cette unité n'est pas affectée par les effets d'étourdissement.\n\nUn ennemi aléatoire brûlé d'élément non-Eau sera étourdi pendant 25TU à la fin du tour de chaque unité alliée lorsque cette unité est sur le champ de bataille et s'il y a 4 voire davantage d'unités brûlées sur le champ de bataille. Ceci peut s'activer avant ou après d'autres effets.\n\nCette unité bénéficie d'une réduction de 80% des dégâts provenant d'attaques jusqu'à ce qu'elle ait survécu pendant 150TU sur le champ de bataille. Après 150TU, cette unité bénéficiera d'une réduction de 40% des dégâts provenant d'attaques.\n\nSi cette unité subit des dégâts d'une attaque et survit jusqu'à la fin du tour :\n- Cette unité sera soignée de 10% de ses PV max pour chaque allié brûlé du champ de bataille (maximum de 40%).\n- Un allié aléatoire brûlé et non-Gardien prendra immédiatement son tour en ayant ses TU réduits à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. G.Épée LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités équipées d'une Grande Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Euh, je m'appelle Don Quichotte; Ordonnance des Chevaliers\nde la Table Ronde ! Personne ne m'égale\nlorsqu'il s'agit de volonté, esprit, et admiration !\n\nJe franchirai n'importe quel mur...!\nAllons en avant ensemble !"
+            ],
+            "Login": [
+                "Me voici à pleine vitesse ! Euh... Faisons de notre mieux ensemble ! Donc, euh, où allons-nous donc ?"
+            ],
+            "Tap": [
+                "J'adore les histoires des Chevaliers de la Table Ronde !\nLorsque je les ai entendu pour la première fois, je ne pensais pas que ces gens-là étaient de vraie personne... C'est idiot de ma part, pas vrai ?",
+                "Euh... Je n'ai en général pas de problèmes avec le froid, mais... Si je gèle, je vais mourir, donc... Quelque part de chaud serait bien...",
+                "Tenez––Une fourrure de singe démon ! Hein ? Ça ne sent pas bon ?\nMais l'odeur est un peu addictive une fois qu'on s'y habitue... Et c'est en fait assez précieux dans mon village..."
+            ],
+            "Idle": [
+                "Hein ? Où sont passés tous les gens de la Table Ronde...? Sire Gauvain ? Sire Lancelot ? Quelqu'un...? Personne n'est là..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Lance Chauffée": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Brûlure Bondée": {
+                    "BaseWeight": 2500
+                },
+                "Chemin Ardent": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                }
+            }
+        }
+    },
+    "DonQuixoteRegular02": {
+        "Name": "Don Quichotte",
+        "Name2": "Chevalier acharné",
+        "FullName": "Don Quichotte - Chevalier acharné",
+        "Profile": "Toutefois, alors qu'elle coupait du bois sans relâche, tous les jours, pour aider ses parents, les villageois commencèrent à remarquer qu'elle possédait une force extraordinaire. À partir de ce moment-ci, le village se mit à se reposer sur elle à chaque fois que des monstres apparaissaient. Elle se sentait vraiment heureuse d'avoir découvert un talent qui lui permettait d'aider les autres.",
+        "Profile_Ascended": "Un jour, elle entendit les villageois parler du plus puissant ordre de chevaliers, les champions de la justice et de la gloire, les Chevaliers de la Table Ronde. Son rêve et son objectif étaient fixés. Avec sa rigueur et sincérité inébranlable, elle toucha les coeurs des villageois. Et à l'âge de dix-huit ans, avec leur bénédiction, elle prit enfin la route pour Camelot.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 34,
+        "Atk_Base": 621,
+        "Hp_Base": 19561,
+        "Speed": 328,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Feu ATT & PV+",
+            "SkillDescription": "Les alliés Feu voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lance Chauffée",
+                "SkillDescription": "250% de dégâts à 1 ennemi. 500% de dégâts à la place si l'utilisateur est brûlé. 1000% dégâts à la place si toutes les unités du champ de bataille sont brûlées. Puis un autre allié aléatoire gagne Perçage. Cette attaque ignore les effets des ennemis non-boss qui empêcheraient la cible d'être vaincue.\n\nLes effets de réduction de dégâts ennemis seront ignorés par les Attaques d'une unité avec Perçage jusqu'à la fin de son prochain tour.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Brûlure Bondée",
+                "SkillDescription": "Brûle toutes les unités sur le champ de bataille, et leur donne un Bouclier Brûlure. Ceci remplacera tout autre effet de statut sur ces unités.\n\nPuis l'utilisateur gagne la Brûlure Soin pendant 300TU, tous les alliés sont soignés d'une valeur de 1000% de l'attaque de l'utilisateur, et les Alliés gagnent 1 Essence par unité du champ de bataille qui est brûlée. Cette compétence se verrouille pendant 100TU après son utilisation.\n\nLes Boucliers Brûlure empêchent l'application du prochain effet de statut non-Brûlure qu'une unité subirait lorsqu'elle est brûlée. Une unité avec Brûlure Soin sera soignée après chaque tour au même rythme que la Brûlure inflige des dégâts. Brûlure Soin remplacera les autres effets de statut sur l'utilisateur et peut remplacer l'effet de statut de Brûlure, mais ne peut être remplacée par la Brûlure. Toute unité qui inflige des dégâts à une unité avec Brûlure Soin ou en subit des dégâts sera également brûlée. Brûlure Soin ne sera pas retirée par les compétences de Purification.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Chemin Ardent",
+                "SkillDescription": "Cible tous les ennemis. 1500% de dégâts à 1 ennemi aléatoire. 500% de dégâts à toutes les autres cibles. Puis tous les alliés sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur. Cette attaque ignore les effets d'ennemis non-boss qui empêcheraient les cibles d'être vaincues, l'effet de statut de Contre Relais, et les effets des compétences passives de Reflet.\n\nDéverrouillé à chaque fois que l'utilisateur inflige des dégâts à un ennemi par une autre attaque. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 60,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Canon de Lance",
+                "SkillDescription": "1000% de dégâts à 1 ennemi, et échange les PV actuels de l'utilisateur avec la valeur en PV qu'il a actuellement perdue. Cette attaque ignore les effets d'ennemis non-boss qui empêcheraient la cible d'être vaincue. Utilisable seulement si les PV du lanceur sont à 50% voire moins. Utilisable 3 fois par bataille.",
+                "TU": 80,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Voyage d'Héros",
+                "SkillDescription": "Cette unité est un Gardien. Cette unité est un Gardien. Pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés, cette unité a 100% de chance de rediriger 1 coup vers elle-même à la place. Cette unité ne redirige pas les compétences qui n'infligent pas de dégâts.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être vaincue si elle possède l'effet de statut de Méga Brûlure Soin.\n\nCette unité entre en bataille avec Méga Brûlure Soin pendant 100TU, et une Protection Mort Instantanée.\n\nÀ la fin de chacun des 3 premiers tours que cette unité prend sur le champ de bataille :\n- Toutes les unités du champ de bataille seront brûlées. Ceci remplacera les autres effets de statut sur ces unités.\n- Puis cette unité gagne la Méga Brûlure Soin pendant 100TU.\n- Puis cette unité gagne une Protection Mort Instantanée.\n\nUne Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Une unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera les autres effets de statut y compris la Brûlure Soin, et ne peut être remplacé par les effets de statut de Brûlure, Poison ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillTitle": "Force Inébranlable",
+                "SkillDescription": "Cette unité n'est pas affectée par les effets d'étourdissement.\n\nUn ennemi aléatoire brûlé d'élément non-Eau sera étourdi pendant 25TU à la fin du tour de chaque unité alliée lorsque cette unité est sur le champ de bataille et s'il y a 4 voire davantage d'unités brûlées sur le champ de bataille. Ceci peut s'activer avant ou après d'autres effets.\n\nCette unité bénéficie d'une réduction de 80% des dégâts provenant d'attaques jusqu'à ce qu'elle ait survécu pendant 150TU sur le champ de bataille. Après 150TU, cette unité bénéficiera d'une réduction de 40% des dégâts provenant d'attaques.\n\nSi cette unité subit des dégâts d'une attaque et survit jusqu'à la fin du tour :\n- Cette unité sera soignée de 10% de ses PV max pour chaque allié brûlé du champ de bataille (maximum de 40%).\n- Un allié aléatoire brûlé et non-Gardien prendra immédiatement son tour en ayant ses TU réduits à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. G.Épée LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités équipées d'une Grande Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Euh, je m'appelle Don Quichotte; Ordonnance des Chevaliers\nde la Table Ronde ! Personne ne m'égale\nlorsqu'il s'agit de volonté, esprit, et admiration !\n\nJe franchirai n'importe quel mur...!\nAllons en avant ensemble !"
+            ],
+            "Login": [
+                "Me voici à pleine vitesse ! Euh... Faisons de notre mieux ensemble ! Donc, euh, où allons-nous donc ?"
+            ],
+            "Tap": [
+                "J'adore les histoires des Chevaliers de la Table Ronde !\nLorsque je les ai entendu pour la première fois, je ne pensais pas que ces gens-là étaient de vraie personne... C'est idiot de ma part, pas vrai ?",
+                "Euh... Je n'ai en général pas de problèmes avec le froid, mais... Si je gèle, je vais mourir, donc... Quelque part de chaud serait bien...",
+                "Tenez––Une fourrure de singe démon ! Hein ? Ça ne sent pas bon ?\nMais l'odeur est un peu addictive une fois qu'on s'y habitue... Et c'est en fait assez précieux dans mon village..."
+            ],
+            "Idle": [
+                "Hein ? Où sont passés tous les gens de la Table Ronde...? Sire Gauvain ? Sire Lancelot ? Quelqu'un...? Personne n'est là..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Lance Chauffée": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Brûlure Bondée": {
+                    "BaseWeight": 2500
+                },
+                "Chemin Ardent": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Canon de Lance": {
+                    "BaseWeight": 150,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

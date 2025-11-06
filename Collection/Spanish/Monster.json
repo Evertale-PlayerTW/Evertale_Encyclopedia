@@ -122789,7 +122789,7 @@
         "Hp_Base": 6265,
         "Speed": 538,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "El Rey regresa...\npara cumplir su último deber.",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Oscuro",
@@ -123105,5 +123105,308 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "DonQuixoteRegular01": {
+        "Name": "Don Quijote",
+        "Name2": "Caballero incansable",
+        "FullName": "Don Quijote - Caballero incansable",
+        "Profile": "Don Quijote creció en una pequeña aldea a las afueras del continente norte. Era tímida y torpe. Siempre se sintió ignorada por los demás niños, ya fuera estudiando o practicando deportes. Nunca tuvo confianza en sí misma.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 28,
+        "Atk_Base": 532,
+        "Hp_Base": 15388,
+        "Speed": 328,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "¡No... no puedo parar!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lanza Calentada",
+                "SkillDescription": "250% de daño a 1 enemigo. 500% de daño si el usuario se está quemando. 1000% de daño si todas las unidades en el campo de batalla se están quemando. Luego, otro aliado aleatorio obtiene Perforante. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo.\n\nUna unidad con Perforante ignorará los efectos de reducción de daño del enemigo hasta el final de su siguiente turno.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Quemar Rebosante",
+                "SkillDescription": "Quema a todas las unidades en el campo de batalla y les otorga un Escudo Quemado. Esto sobrescribe otros efectos de estado en esas unidades.\n\nLuego, el usuario obtiene Quemado Sanador por 300TU, todos los demás aliados se curan por el 1000% del ataque del usuario y los aliados obtienen 1 Espíritu por cada unidad en el campo de batalla que esté quemándose. Esta habilidad se bloquea por 100TU después de su uso.\n\nLos Escudos Quemado impiden que se aplique el siguiente efecto de estado que una unidad no sea de quemado que obtendría mientras está quemada. Una unidad con Quemado Sanador se curará después de cada turno al mismo ritmo que Quemado infligiría daño, en lugar de recibirlo. Quemado Sanador sobrescribe otros efectos de estado en el usuario y puede reemplazar el efecto de Quemado, pero no puede ser reemplazado por Quemado. Cualquier unidad que inflija daño a una unidad con Quemado Sanador o que reciba daño de ella obtendrá el efecto de Quemado. Quemado Sanador no se eliminará con las habilidades de Purificar.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Sendero Ardiente",
+                "SkillDescription": "Afecta a todos los enemigos. 1500% de daño a 1 enemigo aleatorio. 500% de daño a todos los demás objetivos. Después, todos los aliados se curan por el 500% del ataque del usuario. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impida la derrota de los objetivos, el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nSe desbloquea cada vez que el usuario daña a un enemigo con otro ataque. Esta habilidad se vuelve a bloquear después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 60,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Viaje del Héroe",
+                "SkillDescription": "Esta unidad es un Guardián. Ante cualquier ataque enemigo que impacte a uno o dos aliados, tiene un 100% de probabilidad de redirigir un golpe hacia sí misma. No redirigirá habilidades que no inflijan daño.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad no puede ser derrotada si tiene el efecto de estado Mega Quemado Sanador.\n\nEsta unidad entra en batalla con Mega Quemado Sanador por 100TU y un Guarda Muerte Instantánea.\n\nAl final de cada uno de los 3 primeros turnos en que esta unidad entre al campo de batalla:\n- Quema a todas las unidades en el campo de batalla. Esto sobrescribirá otros efectos de estado en esas unidades.\n- Luego, esta unidad recibe Mega Quemado Sanador por 100TU.\n- Después, esta unidad recibe un Guarda Muerte Instantánea.\n\nUn Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Una unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces superior a la de Quemado Sanador. Esto sobrescribirá otros efectos de estado, incluyendo Quemado Sanador en el usuario, no se puede sobrescribir con efectos de estado de Quemado, Veneno o Sueño, y no se puede Purificar. Cualquier unidad que inflija daño a, o que reciba daño de, una unidad con Mega Quemado Sanador obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300TU cuando expire el Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Fuerza Decidida",
+                "SkillDescription": "Esta unidad no se ve afectada por efectos de aturdir.\n\nAl final del turno de cada unidad aliada mientras esta unidad esté en el campo de batalla, si hay 4 o más unidades en llamas en el campo de batalla, un enemigo aleatorio en llamas que no sea de agua quedará aturdido por 25TU. Esto puede activarse antes o después de otros efectos.\n\nHasta que esta unidad haya sobrevivido 150TU en el campo de batalla, tiene un 80% de reducción de daño de los ataques. Después, esta unidad tiene un 40% de reducción de daño por ataques.\n\nSi esta unidad recibe daño de un ataque y sobrevive hasta el final del turno:\n- Esta unidad se curará un 10% de sus HP máximos por cada aliado en llamas en el campo de batalla (máximo 40%).\n- Un aliado aleatorio en llamas que no sea guardián recibirá el turno inmediatamente, reduciendo su TU a 0. Las habilidades activas que otorgan turnos no pueden ser usadas por las unidades afectadas hasta que hayan tenido el turno."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir G.Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con G.Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ahm, ¡soy Don Quijote, un cadete de los Caballeros\nde la Mesa Redonda! ¡Soy insuperable en cuanto\na empuje, brío y admiración!\n\n¡Atravesaré cualquier muro...!\n¡A la carga, y avancemos juntos!"
+            ],
+            "Login": [
+                "¡Aquí estoy a toda velocidad! Eh... ¡Hagamos lo mejor que podamos juntos! Entonces, ¿adónde vamos?"
+            ],
+            "Tap": [
+                "¡Me encantan las historias de los Caballeros de la Mesa Redonda!\nCuando las escuché por primera vez, no pensé que fueran personas reales... ¡¿Qué tonta, verdad?!",
+                "Eh... Normalmente aguanto bien el frío, pero... si me congelo, me muero, así que... un lugar cálido me vendría bien...",
+                "¡Aquí tienes! ¡Una piel de demono! ¿Eh? ¿Apesta?\nPero el olor es adictivo una vez que te acostumbras... y, de hecho, es bastante valiosa en mi aldea..."
+            ],
+            "Idle": [
+                "¿Eh? ¿Adónde se fueron todos los de la Mesa Redonda...? ¿Sir Gawain? ¿Sir Lancelot? ¿Hola...? No hay nadie..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Lanza Calentada": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Quemar Rebosante": {
+                    "BaseWeight": 2500
+                },
+                "Sendero Ardiente": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                }
+            }
+        }
+    },
+    "DonQuixoteRegular02": {
+        "Name": "Don Quijote",
+        "Name2": "Caballero incansable",
+        "FullName": "Don Quijote - Caballero incansable",
+        "Profile": "Sin embargo, mientras cortaba leña diligentemente todos los días para ayudar a sus padres, los aldeanos comenzaron a notar que poseía una fuerza extraordinaria. Desde entonces, la aldea empezó a confiar en ella cada vez que aparecían monstruos. Se sentía verdaderamente feliz de haber descubierto un talento que le permitía ayudar a los demás.",
+        "Profile_Ascended": "Un día, los aldeanos le hablaron de la orden de caballeros más poderosa, los campeones de la justicia y la gloria, los Caballeros de la Mesa Redonda. Allí surgió su su sueño. Con una diligencia y una sinceridad inquebrantables, conmovió los corazones de los aldeanos. Y a los dieciocho años, con su bendición, finalmente partió hacia Camelot.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 34,
+        "Atk_Base": 621,
+        "Hp_Base": 19561,
+        "Speed": 328,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lanza Calentada",
+                "SkillDescription": "250% de daño a 1 enemigo. 500% de daño si el usuario se está quemando. 1000% de daño si todas las unidades en el campo de batalla se están quemando. Luego, otro aliado aleatorio obtiene Perforante. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo.\n\nUna unidad con Perforante ignorará los efectos de reducción de daño del enemigo hasta el final de su siguiente turno.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Quemar Rebosante",
+                "SkillDescription": "Quema a todas las unidades en el campo de batalla y les otorga un Escudo Quemado. Esto sobrescribe otros efectos de estado en esas unidades.\n\nLuego, el usuario obtiene Quemado Sanador por 300TU, todos los demás aliados se curan por el 1000% del ataque del usuario y los aliados obtienen 1 Espíritu por cada unidad en el campo de batalla que esté quemándose. Esta habilidad se bloquea por 100TU después de su uso.\n\nLos Escudos Quemado impiden que se aplique el siguiente efecto de estado que una unidad no sea de quemado que obtendría mientras está quemada. Una unidad con Quemado Sanador se curará después de cada turno al mismo ritmo que Quemado infligiría daño, en lugar de recibirlo. Quemado Sanador sobrescribe otros efectos de estado en el usuario y puede reemplazar el efecto de Quemado, pero no puede ser reemplazado por Quemado. Cualquier unidad que inflija daño a una unidad con Quemado Sanador o que reciba daño de ella obtendrá el efecto de Quemado. Quemado Sanador no se eliminará con las habilidades de Purificar.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Sendero Ardiente",
+                "SkillDescription": "Afecta a todos los enemigos. 1500% de daño a 1 enemigo aleatorio. 500% de daño a todos los demás objetivos. Después, todos los aliados se curan por el 500% del ataque del usuario. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impida la derrota de los objetivos, el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nSe desbloquea cada vez que el usuario daña a un enemigo con otro ataque. Esta habilidad se vuelve a bloquear después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 60,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Cañón Lanza",
+                "SkillDescription": "1000% de daño a 1 enemigo e intercambia los HP actuales del usuario con la cantidad de HP que haya perdido el usuario. Este ataque ignora los efectos de enemigos que no sean jefes que impidan la derrota del objetivo. Sólo se puede usar si los HP del usuario están al 50% o menos. Se puede usar 3 veces por batalla.",
+                "TU": 80,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Viaje del Héroe",
+                "SkillDescription": "Esta unidad es un Guardián. Ante cualquier ataque enemigo que impacte a uno o dos aliados, tiene un 100% de probabilidad de redirigir un golpe hacia sí misma. No redirigirá habilidades que no inflijan daño.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad no puede ser derrotada si tiene el efecto de estado Mega Quemado Sanador.\n\nEsta unidad entra en batalla con Mega Quemado Sanador por 100TU y un Guarda Muerte Instantánea.\n\nAl final de cada uno de los 3 primeros turnos en que esta unidad entre al campo de batalla:\n- Quema a todas las unidades en el campo de batalla. Esto sobrescribirá otros efectos de estado en esas unidades.\n- Luego, esta unidad recibe Mega Quemado Sanador por 100TU.\n- Después, esta unidad recibe un Guarda Muerte Instantánea.\n\nUn Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Una unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces superior a la de Quemado Sanador. Esto sobrescribirá otros efectos de estado, incluyendo Quemado Sanador en el usuario, no se puede sobrescribir con efectos de estado de Quemado, Veneno o Sueño, y no se puede Purificar. Cualquier unidad que inflija daño a, o que reciba daño de, una unidad con Mega Quemado Sanador obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300TU cuando expire el Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Fuerza Decidida",
+                "SkillDescription": "Esta unidad no se ve afectada por efectos de aturdir.\n\nAl final del turno de cada unidad aliada mientras esta unidad esté en el campo de batalla, si hay 4 o más unidades en llamas en el campo de batalla, un enemigo aleatorio en llamas que no sea de agua quedará aturdido por 25TU. Esto puede activarse antes o después de otros efectos.\n\nHasta que esta unidad haya sobrevivido 150TU en el campo de batalla, tiene un 80% de reducción de daño de los ataques. Después, esta unidad tiene un 40% de reducción de daño por ataques.\n\nSi esta unidad recibe daño de un ataque y sobrevive hasta el final del turno:\n- Esta unidad se curará un 10% de sus HP máximos por cada aliado en llamas en el campo de batalla (máximo 40%).\n- Un aliado aleatorio en llamas que no sea guardián recibirá el turno inmediatamente, reduciendo su TU a 0. Las habilidades activas que otorgan turnos no pueden ser usadas por las unidades afectadas hasta que hayan tenido el turno."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir G.Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con G.Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ahm, ¡soy Don Quijote, un cadete de los Caballeros\nde la Mesa Redonda! ¡Soy insuperable en cuanto\na empuje, brío y admiración!\n\n¡Atravesaré cualquier muro...!\n¡A la carga, y avancemos juntos!"
+            ],
+            "Login": [
+                "¡Aquí estoy a toda velocidad! Eh... ¡Hagamos lo mejor que podamos juntos! Entonces, ¿adónde vamos?"
+            ],
+            "Tap": [
+                "¡Me encantan las historias de los Caballeros de la Mesa Redonda!\nCuando las escuché por primera vez, no pensé que fueran personas reales... ¡¿Qué tonta, verdad?!",
+                "Eh... Normalmente aguanto bien el frío, pero... si me congelo, me muero, así que... un lugar cálido me vendría bien...",
+                "¡Aquí tienes! ¡Una piel de demono! ¿Eh? ¿Apesta?\nPero el olor es adictivo una vez que te acostumbras... y, de hecho, es bastante valiosa en mi aldea..."
+            ],
+            "Idle": [
+                "¿Eh? ¿Adónde se fueron todos los de la Mesa Redonda...? ¿Sir Gawain? ¿Sir Lancelot? ¿Hola...? No hay nadie..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Lanza Calentada": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Quemar Rebosante": {
+                    "BaseWeight": 2500
+                },
+                "Sendero Ardiente": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Cañón Lanza": {
+                    "BaseWeight": 150,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

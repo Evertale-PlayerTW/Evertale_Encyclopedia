@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761905537,
+	"Time": 1762324131,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -73422,6 +73422,196 @@
 			"isHiddenFromPlayers": true,
 			"showAsPermanent": false,
 			"showAsTimer": false
+		},
+		"BurningJourneyPassiveADonQuixoteRegular": {
+			"class": "Buff",
+			"stackName": "Protector",
+			"behaviors": ["EnterBattleBuff","ManipulateTargeting","RemoveOnSourceDeath","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["KnockbackImmunity","InstantKillImmunityOnce","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn",
+					"UnkillableByAttacksIfMegaHealingBurn","GrantBurnToAllAndGrantMegaHealingBurnAndWardUntil3rdTurn"]
+			},{
+				"redirectToMe": true,
+				"redirectAlways": true,
+				"chanceToBlock": 1.0,
+				"consumeRedirectCountEvenOnSelf": true,
+				"failOnAllSkills": true,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage"]
+			}, {}, {
+				"randomEnemyBuffs": ["MarkedForRandomDamage"],
+				"numRandomToBuff": 1
+			},{
+				"selfBuffs": ["SourceDonQuixoteRegular"]
+			}],
+			"duration": -1,
+			"tags": ["GoodToBurn"],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconBlueDefenseShield01"
+		},
+		"UnkillableByAttacksIfMegaHealingBurn":{
+			"class": "Buff",
+			"behaviors": ["Immunity","BlockDeath"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Placeholder"],
+				"activateCondition": "IsMegaHealingBurn"
+			},{
+				"cancelFromDamageFlags": ["IgnoreBlockDeath","HardIgnoreBlockDeath"],
+				"conditions": "IsMegaHealingBurn"
+			}],
+			"stackName": "UnkillableByAttacksIfMegaHealingBurn",
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconWhiteFightSword01"
+		},
+		"GrantBurnToAllAndGrantMegaHealingBurnAndWardUntil3rdTurn": {
+			"class": "Buff",
+			"behaviors": ["RemoveAfterTurnsBehavior","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"turnCount": 3
+			},{
+				"selfBuffs": ["GrantBurnToAllAndGrantSelfMegaHealingBurnAndInstantDeathWardEOT"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true
+		},
+		"GrantBurnToAllAndGrantSelfMegaHealingBurnAndInstantDeathWardEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["BurnAllUnitsOnTheBattlefieldEBB"]
+			},{
+				"selfBuffs": ["MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn"],
+				"spreadCondition": "NotMegaHealingBurn"
+			},{
+				"selfBuffs": ["InstantKillImmunityOnce"],
+				"spreadCondition": "NoInstantDeathWard"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"DamageReduceBasedOn150TimeInCombat": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage","ModifyDamage"],
+			"behaviorOverrides": [{
+				"percent": 0.2,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "IsNotTimeInCombat150"
+			},{
+				"percent": 0.6,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "TimeInCombat150"
+			}],
+			"duration": -1,
+			"tags": ["BigDamageMinus"],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"LoneKnightPassiveADonQuixoteRegular": {
+			"class": "Buff",
+			"stackName": "LoneKnightPassiveADonQuixoteRegular",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["StunImmunity","DamageReduceBasedOn150TimeInCombat"]
+			},{
+				"sameTeam": true,
+				"activeMonsterConditions": "AlwaysTrue",
+				"sourceBuffs": ["StunNonWaterEnemyIf4UnitsBurningEOT"]
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["GrantRandomBurningAllyTurnAndHeal10PercentForEachBurningAlly"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true
+		},
+		"GrantRandomBurningAllyTurnAndHeal10PercentForEachBurningAlly": {
+			"class": "Buff",
+			"stackName": "GrantRandomBurningAllyTurnAndHeal10PercentForEachBurningAlly",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsBurningAndNotProtecting"
+			},{
+				"selfBuffs": ["10PercentHealMaxHP"],
+				"spreadCondition": "Exact1AllyBurning"
+			},{
+				"selfBuffs": ["20PercentHealMaxHP"],
+				"spreadCondition": "Exact2AlliesBurning"
+			},{
+				"selfBuffs": ["30PercentHealMaxHP"],
+				"spreadCondition": "Exact3AlliesBurning"
+			},{
+				"selfBuffs": ["40PercentHealMaxHP"],
+				"spreadCondition": "4AlliesBurning"
+			},{
+				"name": "BrideHealOK"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"SourceDonQuixoteRegular":{
+			"class": "Buff",
+			"stackName": "SourceDonQuixoteRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"DonQuixoteRegularCooldown100":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"BurnShieldOnce": {
+			"class": "Buff",
+			"stackName": "BurnShieldOnce",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Sleep","Armor","Poison","Stealth","Stance","SpiritLeaking","SpiritLeakReady","Condemn","Slowed","StunSkinStatus","Decay"],
+				"activateCondition": "IsBurning",
+				"useLimit": 1
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconWhiteShieldBurnReduction01"
+		},
+		"HealAllOtherAllies1000PercentOfAttackEBB": {
+			"class": "Buff",
+			"stackName": "HealAllOtherAllies1000PercentOfAttackEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+					"randomAllyBuffs": ["Heal1000Percent"],
+					"numRandomToBuff": 4,
+					"spreadCondition": "IsNotSourceDonQuixoteRegular"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
 		}
 	}
 }

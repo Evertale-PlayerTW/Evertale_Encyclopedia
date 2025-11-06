@@ -122789,7 +122789,7 @@
         "Hp_Base": 6265,
         "Speed": 538,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Il re ritorna—\nper adempiere al dovere finale.",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Oscurità)",
@@ -123105,5 +123105,308 @@
                 "RelationshipBuff": "PV+3%"
             }
         }
+    },
+    "DonQuixoteRegular01": {
+        "Name": "Don Quijote",
+        "Name2": "Cavaliere Implacabile",
+        "FullName": "Don Quijote - Cavaliere Implacabile",
+        "Profile": "Don Chisciotte è cresciuta in un piccolo villaggio alla periferia del continente settentrionale. Era timida e goffa. Si sentiva sempre lasciata indietro dagli altri bambini, che si trattasse di studio o di sport. Non ha mai avuto fiducia in se stessa.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lancia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 28,
+        "Atk_Base": 532,
+        "Hp_Base": 15388,
+        "Speed": 328,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "N-Non riesco a fermarmi!!!",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lancia Rovente",
+                "SkillDescription": "250% di danno a 1 nemico. 500% di danno invece se l'unità è ustionata. 1000% di danno invece se tutte le unità in campo sono ustionate. Poi, un altro alleato casuale ottiene Perforazione. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nUn'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo prossimo turno.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Sovrabruciatura",
+                "SkillDescription": "Ustiona tutte le unità in campo e fornisce loro Scudo Ustione. Sostituisce altri effetti di stato.\n\nPoi, l'unità ottiene Ustione Curativa per 300TU, poi tutti gli alleati si curano per un valore di HP pari al 1000% dell'attacco dell'unità e ottengono 1 Spirito per ogni unità ustionata in campo. Questa abilità è bloccata per 100TU dopo l'uso.\n\nScudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Ustione Curativa recupera HP alla stessa efficacia con cui Ustione infliggerebbe danno, invece di subire danno da Ustione. Sostituisce altri effetti di stato e può sostituire l'effetto di stato Ustione, ma non viceversa. Tutte le unità che attaccano o sono attaccate da un'unità con Ustione Curativa ottengono l'effetto di stato Ustione. Ustione Curativa non può essere rimosso da abilità di tipo Purifica.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Strada Bruciante",
+                "SkillDescription": "Colpisce tutti i nemici. 1500% di danno a 1 nemico casuale. 500% di danno agli altri bersagli. Poi, tutti gli alleati si curano per un valore di HP pari al 500% dell'attacco dell'unità. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 60,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Viaggio dell'Eroe",
+                "SkillDescription": "L'unità è un Guardiano. Per qualsiasi attacco diretto contro 1 o 2 alleati, c'è il 100% di probabilità che un colpo venga deviato contro l'unità Guardiano. L'effetto non si applica ad abilità che non infliggono danno.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nL'unità non può essere sconfitta se ha Mega Ustione Curativa.\n\nL'unità entra in battaglia con Mega Ustione Curativa per 100TU e Protezione Morte.\n\nAlla fine di ognuno dei primi 3 turni dell'unità da quando è scesa in campo:\n- Ustiona tutte le unità in campo. Sostituisce altri effetti di stato.\n- Poi, l'unità ottiene Mega Ustione Curativa per 100%.\n- Poi, l'unità ottiene Protezione Morte.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillTitle": "Forza Stoica",
+                "SkillDescription": "L'unità è immune a Stordimento.\n\nAlla fine di ogni turno degli alleati mentre l'unità è in campo, se ci sono 4 o più unità ustionate in campo, stordisce un nemico ustionato non di tipo Acqua casuale per 25TU. Può attivarsi prima o dopo altri effetti.\n\nFinché non è sopravvissuta in campo per 150TU, l'unità ha una riduzione danni dell'80% dagli attacchi ricevuti. Dopo, l'unità ha una riduzione danni del 40% dagli attacchi ricevuti.\n\nSe l'unità subisce danno da un attacco e sopravvive fino alla fine del turno:\n- L'unità recupera il 10% degli HP massimi per ogni alleato ustionato in campo (fino al 40%).\n- Un alleato ustionato non guardiano ottiene immediatamente il turno azzerando i suoi TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resis. Spadone Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato uno Spadone."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Uhm, sono Don Chisciotte, un'attendente dei cavalieri\ndella Tavola Rotonda! Non sono seconda a nessuno in quanto tenacia, spirito e ammirazione!\n\nSfonderò ogni muro...!\nAndiamo alla carica, insieme!"
+            ],
+            "Login": [
+                "Eccomi qui a tutta velocità! Ehm... facciamo del nostro meglio insieme! Allora, ehm, dove siamo diretti?"
+            ],
+            "Tap": [
+                "Adoro le storie dei cavalieri della Tavola Rotonda!\nAll'inizio, non pensavo fossero persone reali... Sciocco da parte mia, vero?",
+                "Uhm... Sopporto bene il freddo, ma... se mi congelo, morirò, quindi... un posto caldo sarebbe bello...",
+                "Tieni— pelliccia di demoscimmia! Eh? Puzza?\nUna volta che ci fai l'abitudine, non puoi farne a meno di questo odore... ed è una pelliccia preziosa nel mio villaggio..."
+            ],
+            "Idle": [
+                "Eh? Dove sono andati tutti quelli della Tavola Rotonda...? Ser Gawain? Ser Lancillotto? Ehilà...? Non c'è nessuno..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Lancia Rovente": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Sovrabruciatura": {
+                    "BaseWeight": 2500
+                },
+                "Strada Bruciante": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                }
+            }
+        }
+    },
+    "DonQuixoteRegular02": {
+        "Name": "Don Quijote",
+        "Name2": "Cavaliere Implacabile",
+        "FullName": "Don Quijote - Cavaliere Implacabile",
+        "Profile": "Tuttavia, tagliava diligentemente la legna da ardere ogni giorno per aiutare i suoi genitori e col tempo gli abitanti del villaggio cominciarono a notare che possedeva una forza straordinaria. Da quel momento, il villaggio iniziò ad affidarsi a lei ogni volta che c'era un attacco dei mostri. Si sentiva al settimo cielo per aver scoperto un talento che le permetteva di aiutare gli altri.",
+        "Profile_Ascended": "Un giorno, sentì i suoi compaesani parlare del più potente ordine cavalleresco composto dai campioni della giustizia e della gloria, i cavalieri della Tavola Rotonda. Fu lì che capì qual era il suo sogno. Con risoluta diligenza e incrollabile sincerità, commosse gli abitanti del suo villaggio. E, all'età di diciotto anni, con la loro benedizione, finalmente partì alla volta di Camelot.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lancia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 34,
+        "Atk_Base": 621,
+        "Hp_Base": 19561,
+        "Speed": 328,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lancia Rovente",
+                "SkillDescription": "250% di danno a 1 nemico. 500% di danno invece se l'unità è ustionata. 1000% di danno invece se tutte le unità in campo sono ustionate. Poi, un altro alleato casuale ottiene Perforazione. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nUn'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo prossimo turno.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Sovrabruciatura",
+                "SkillDescription": "Ustiona tutte le unità in campo e fornisce loro Scudo Ustione. Sostituisce altri effetti di stato.\n\nPoi, l'unità ottiene Ustione Curativa per 300TU, poi tutti gli alleati si curano per un valore di HP pari al 1000% dell'attacco dell'unità e ottengono 1 Spirito per ogni unità ustionata in campo. Questa abilità è bloccata per 100TU dopo l'uso.\n\nScudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Ustione Curativa recupera HP alla stessa efficacia con cui Ustione infliggerebbe danno, invece di subire danno da Ustione. Sostituisce altri effetti di stato e può sostituire l'effetto di stato Ustione, ma non viceversa. Tutte le unità che attaccano o sono attaccate da un'unità con Ustione Curativa ottengono l'effetto di stato Ustione. Ustione Curativa non può essere rimosso da abilità di tipo Purifica.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Strada Bruciante",
+                "SkillDescription": "Colpisce tutti i nemici. 1500% di danno a 1 nemico casuale. 500% di danno agli altri bersagli. Poi, tutti gli alleati si curano per un valore di HP pari al 500% dell'attacco dell'unità. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 60,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Cannone Lancia",
+                "SkillDescription": "1000% di danno a 1 nemico e scambia gli HP attuali dell'unità con la quantità di HP che le mancano. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto. Utilizzabile solo se l'unità ha il 50% o meno degli HP. Utilizzabile 3 volte per battaglia.",
+                "TU": 80,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Viaggio dell'Eroe",
+                "SkillDescription": "L'unità è un Guardiano. Per qualsiasi attacco diretto contro 1 o 2 alleati, c'è il 100% di probabilità che un colpo venga deviato contro l'unità Guardiano. L'effetto non si applica ad abilità che non infliggono danno.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nL'unità non può essere sconfitta se ha Mega Ustione Curativa.\n\nL'unità entra in battaglia con Mega Ustione Curativa per 100TU e Protezione Morte.\n\nAlla fine di ognuno dei primi 3 turni dell'unità da quando è scesa in campo:\n- Ustiona tutte le unità in campo. Sostituisce altri effetti di stato.\n- Poi, l'unità ottiene Mega Ustione Curativa per 100%.\n- Poi, l'unità ottiene Protezione Morte.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillTitle": "Forza Stoica",
+                "SkillDescription": "L'unità è immune a Stordimento.\n\nAlla fine di ogni turno degli alleati mentre l'unità è in campo, se ci sono 4 o più unità ustionate in campo, stordisce un nemico ustionato non di tipo Acqua casuale per 25TU. Può attivarsi prima o dopo altri effetti.\n\nFinché non è sopravvissuta in campo per 150TU, l'unità ha una riduzione danni dell'80% dagli attacchi ricevuti. Dopo, l'unità ha una riduzione danni del 40% dagli attacchi ricevuti.\n\nSe l'unità subisce danno da un attacco e sopravvive fino alla fine del turno:\n- L'unità recupera il 10% degli HP massimi per ogni alleato ustionato in campo (fino al 40%).\n- Un alleato ustionato non guardiano ottiene immediatamente il turno azzerando i suoi TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resis. Spadone Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato uno Spadone."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Uhm, sono Don Chisciotte, un'attendente dei cavalieri\ndella Tavola Rotonda! Non sono seconda a nessuno in quanto tenacia, spirito e ammirazione!\n\nSfonderò ogni muro...!\nAndiamo alla carica, insieme!"
+            ],
+            "Login": [
+                "Eccomi qui a tutta velocità! Ehm... facciamo del nostro meglio insieme! Allora, ehm, dove siamo diretti?"
+            ],
+            "Tap": [
+                "Adoro le storie dei cavalieri della Tavola Rotonda!\nAll'inizio, non pensavo fossero persone reali... Sciocco da parte mia, vero?",
+                "Uhm... Sopporto bene il freddo, ma... se mi congelo, morirò, quindi... un posto caldo sarebbe bello...",
+                "Tieni— pelliccia di demoscimmia! Eh? Puzza?\nUna volta che ci fai l'abitudine, non puoi farne a meno di questo odore... ed è una pelliccia preziosa nel mio villaggio..."
+            ],
+            "Idle": [
+                "Eh? Dove sono andati tutti quelli della Tavola Rotonda...? Ser Gawain? Ser Lancillotto? Ehilà...? Non c'è nessuno..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Lancia Rovente": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Sovrabruciatura": {
+                    "BaseWeight": 2500
+                },
+                "Strada Bruciante": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Cannone Lancia": {
+                    "BaseWeight": 150,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

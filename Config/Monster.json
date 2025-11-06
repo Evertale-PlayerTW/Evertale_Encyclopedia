@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761207231,
+  "Time": 1761810643,
   "Monster": [
     {
       "name": "HammerPantsThief01",
@@ -68298,6 +68298,7 @@
       "consolationMultiplier": 0,
       "battleOrbImageFlip": 0,
       "attackType": "Bash",
+      "visible": 1,
       "skillVoices": {
         "0": [
           1,
@@ -68397,6 +68398,223 @@
       "battleOrbImageFlip": 0,
       "attackType": "Bash",
       "cosmoName": "KingArthurEvil03",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "victoryVoices": [
+        25,
+        26
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "DonQuixoteRegular01",
+      "family": "DonQuixoteRegular",
+      "class": "Monster",
+      "leaderBuff": "AttackAndHPUp6Fire",
+      "leaderBuffCondition": "IsFire",
+      "activeSkills": {
+        "0": "SingleAttackADonQuixoteRegular",
+        "1": "BurnAllUnitsADonQuixoteRegular",
+        "2": "AllAttackADonQuixoteRegular"
+      },
+      "passives": {
+        "0": "BurningJourneyPassiveADonQuixoteRegular",
+        "1": "LoneKnightPassiveADonQuixoteRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "GreatSwordMinusDamageLv3",
+        "5": "AddWeaponPrefGreatSword"
+      },
+      "cost": 28,
+      "baseAttack": 532,
+      "baseMaxHp": 15388,
+      "speed": 328,
+      "element": "Fire",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "superEvolve1": "DonQuixoteRegular02",
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 0,
+      "attackType": "Bash",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ],
+      "victoryVoices": [
+        25
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "DonQuixoteRegular02",
+      "family": "DonQuixoteRegular",
+      "class": "Monster",
+      "leaderBuff": "AttackAndHPUp6Fire",
+      "leaderBuffCondition": "IsFire",
+      "activeSkills": {
+        "0": "SingleAttackADonQuixoteRegular",
+        "1": "BurnAllUnitsADonQuixoteRegular",
+        "2": "AllAttackADonQuixoteRegular",
+        "3": "SpecialAttackADonQuixoteRegular"
+      },
+      "passives": {
+        "0": "BurningJourneyPassiveADonQuixoteRegular",
+        "1": "LoneKnightPassiveADonQuixoteRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "GreatSwordMinusDamageLv3",
+        "5": "AddWeaponPrefGreatSword"
+      },
+      "cost": 34,
+      "baseAttack": 621,
+      "baseMaxHp": 19561,
+      "speed": 328,
+      "element": "Fire",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "evolveFrom": "DonQuixoteRegular01",
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 1,
+      "attackType": "Bash",
+      "cosmoName": "DonQuixoteRegular03",
       "skillVoices": {
         "0": [
           1,

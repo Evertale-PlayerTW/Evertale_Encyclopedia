@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761197809,
+  "Time": 1761810718,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27322,6 +27322,56 @@
       "tuCost": 1,
       "useLimit": 1,
       "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackADonQuixoteRegular",
+      "class": "Ability",
+      "abilityScalor": 1.5,
+      "conditionalAbilityScalors": [
+        4,
+        9
+      ],
+      "config": "SingleAttackADonQuixoteRegular",
+      "tuCost": 80,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BurnAllUnitsADonQuixoteRegular",
+      "class": "Ability",
+      "config": "BurnAllUnitsADonQuixoteRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackADonQuixoteRegular",
+      "class": "Ability",
+      "abilityScalor": 4,
+      "conditionalAbilityScalors": [
+        14
+      ],
+      "config": "AllAttackADonQuixoteRegular",
+      "tuCost": 60,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackADonQuixoteRegular",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "config": "SpecialAttackADonQuixoteRegular",
+      "tuCost": 80,
+      "useLimit": 3,
+      "spiritCost": 1,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

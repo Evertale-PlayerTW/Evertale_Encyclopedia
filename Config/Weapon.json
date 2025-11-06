@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761185513,
+  "Time": 1761810563,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15262,7 +15262,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "AbandonedChurchAxe02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "AbandonedChurchAxe02",
@@ -15282,7 +15283,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "AbandonedChurchAxe03",
       "evolveFrom": "AbandonedChurchAxe01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "AbandonedChurchAxe03",
@@ -15301,6 +15303,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "AbandonedChurchAxe02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "DonQuixoteSpear01",
+      "family": "DonQuixoteSpear",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackHasteUp4AllUnitsBurning"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 461,
+      "baseMaxHp": 3070,
+      "bundleNumber": 9,
+      "weaponPref": "Spear",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "DonQuixoteSpear02",
+      "cost": 11
+    },
+    {
+      "name": "DonQuixoteSpear02",
+      "family": "DonQuixoteSpear",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackHasteUp5AllUnitsBurning"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 550,
+      "baseMaxHp": 3750,
+      "bundleNumber": 9,
+      "weaponPref": "Spear",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "DonQuixoteSpear03",
+      "evolveFrom": "DonQuixoteSpear01",
+      "cost": 17
+    },
+    {
+      "name": "DonQuixoteSpear03",
+      "family": "DonQuixoteSpear",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackHasteUp6AllUnitsBurning"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 599,
+      "baseMaxHp": 4005,
+      "bundleNumber": 9,
+      "weaponPref": "Spear",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "DonQuixoteSpear02",
       "cost": 23
     }
   ]

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1761903211,
+    "Time": 1762216743,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27509,6 +27509,52 @@
 				"buffStackNames": ["MirageMonster"]
 			}
 		}
-	}	
+	},
+	"IsBurningAndNotProtecting": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Burn"],
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Protector"],
+			"or": {
+				"class": "MonsterConditions",
+				"buffStackNames": ["AutoProtect"],
+				"or": {
+					"class": "MonsterConditions",
+					"buffStackNames": ["TimedProtector"],
+					"or": {
+						"class": "MonsterConditions",
+						"buffStackNames": ["ConditionedProtector"],
+						"or": {
+							"class": "MonsterConditions",
+							"buffStackNames": ["Taunting"],
+							"checkEnemyTeamOfMonster": true,
+							"enemyTeamMonsterConditionMatchesNeeded":{
+								"IsTauntedTakingTurn": 1
+							},
+							"or":{
+								"class": "MonsterConditions",
+								"buffStackNames": ["SleepThorns","ThornProtector"]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"IsNotTimeInCombat150": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"timeInCombat": 150	
+		}
+	},
+	"NoInstantDeathWard":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["InstantKillImmunityOnce"]
+		}
+	}
 }
 }

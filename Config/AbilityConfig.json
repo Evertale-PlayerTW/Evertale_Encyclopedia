@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761204870,
+	"Time": 1761808781,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -41460,6 +41460,99 @@
 			"hideTargetingInfo": true,
 			"flags": ["InstantDeath","NoDamage"],
 			"useCondition": "IsWorldDeathCounter5AndValidTarget"
+		},
+		"SingleAttackADonQuixoteRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath"]
+			},{
+				"buffs":["Grant1OtherAllyPiercingDonQuixoteEBB","MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"attackScalors": ["GoodIfBurning","GoodIfAllUnitsBurning"],
+			"conditionedAbilityEffects": ["DonQuixoteAttack1","DonQuixoteAttack1"],
+			"abilityEffect": "DonQuixoteAttack1",
+			"recommendEffectWhenUsable": -1
+		},
+		"BurnAllUnitsADonQuixoteRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "All",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["Burn","BurnShieldOnce"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["Burn","BurnShieldOnce"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs":["HealingBurn","DonQuixoteRegularCooldown100",
+					"HealAllOtherAllies1000PercentOfAttackEBB","GainSpiritForCurrentBurningUnitsOnBattlefieldEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "DonQuixoteAllBurn",
+			"flags": ["Burn","ApplyStatusToSelf","HealingBurn","Healer","NoDamage"],
+			"useCondition": "NotInstantCooldown"
+		},
+		"AllAttackADonQuixoteRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreSkin","HardIgnoreBlockDeath"]
+			},{
+				"buffs": ["MomentumUsed","HealAllAllies500PercentEnterBattleBuff"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "DonQuixoteMeteo",
+			"attackScalors": ["GoodVsRandomDamageMark"],
+			"conditionedAbilityEffects": ["DonQuixoteMeteo","DonQuixoteMeteo"],
+			"flags": ["Momentum","MomentumReadyUser","Healer"],
+			"useCondition": "HasDamagedWithAttack",
+			"recommendEffectWhenUsable": -1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
+		},
+		"SpecialAttackADonQuixoteRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["HardIgnoreBlockDeath"]
+			},{
+				"buffs": ["LifeFlip"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Finish",
+			"sourceEventType": "Hit",
+			"recommendEffectWhenUsable": 1,
+			"abilityEffect": "DonQuixoteSpeciail",
+			"useCondition": "HPBelow50Percent"
 		}
 	}
 }

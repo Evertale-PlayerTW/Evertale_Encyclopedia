@@ -122789,7 +122789,7 @@
         "Hp_Base": 6265,
         "Speed": 538,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Der König kehrt zurück – \num seine letzte Pflicht zu erfüllen.",
         "LeaderSkill": {
             "SkillTitle": "Dnkl-ANG hoch",
@@ -123105,5 +123105,308 @@
                 "RelationshipBuff": "LP+3%"
             }
         }
+    },
+    "DonQuixoteRegular01": {
+        "Name": "Don Quijote",
+        "Name2": "Unerbittlicher Ritter",
+        "FullName": "Don Quijote - Unerbittlicher Ritter",
+        "Profile": "Don Quixote wuchs in einem kleinen Dorf am Rande des nördlichen Kontinents auf. Sie war schüchtern und ungeschickt. Sie fühlte sich immer von den anderen Kindern zurückgelassen, egal ob beim Lernen oder beim Sport. Sie hatte nie Selbstvertrauen.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 28,
+        "Atk_Base": 532,
+        "Hp_Base": 15388,
+        "Speed": 328,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "I-Ich kann nicht aufhören!!",
+        "LeaderSkill": {
+            "SkillTitle": "Feuer-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Feuer-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hitzelanze",
+                "SkillDescription": "250% Schaden an 1 Gegner. 500% Schaden stattdessen, wenn der Anwender brennt. 1000% Schaden, wenn alle Einheiten auf dem Schlachtfeld brennen. Dann wird einem weiteren zufälligen Verbündeten Durchbohren gewährt. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\nEine Einheit mit Durchbohren ignoriert mit ihren Angriffen gegnerische Schadensreduzierungseffekte bis zum Ende ihrer nächsten Runde.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Überflussbrand",
+                "SkillDescription": "Verbrennt alle Einheiten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann erhält der Anwender Heilende Verbrennung für 300 ZE, alle anderen Verbündeten heilen für 1000% des Angriffs des Anwenders und Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nBrennschilde verhindern, dass der nächste nicht brennende Statuseffekt, den eine Einheit erhalten würde, während sie brennt, angewendet wird. Eine Einheit mit Heilende Verbrennung heilt sich nach jeder Runde mit der gleichen Rate, mit der Verbrennung Schaden verursachen würde, anstatt Schaden durch Verbrennung zu nehmen. Heilende Verbrennung überschreibt andere Statuseffekte des Anwenders und kann den Statuseffekt Verbrennung ersetzen, aber nicht durch Verbrennung ersetzt werden. Jede Einheit, die einer Einheit mit Heilendes Brennen Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, erhält den Statuseffekt Brennen. Heilendes Brennen wird nicht durch Fertigkeiten der Kategorie Reinigen entfernt.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Brandpfad",
+                "SkillDescription": "Zielt auf alle Gegner. 1500% Schaden an 1 zufälligen Gegner. 500% Schaden an allen anderen Zielen. Anschließend werden alle Verbündeten um 500% des Angriffs des Anwenders geheilt. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind, die verhindern würden, dass die Ziele besiegt werden, den Statuseffekt Konterstellung und die Effekte von passiven Fertigkeiten der Haut.\n\nDiese Fertigkeit wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt.",
+                "TU": 60,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Heldenreise",
+                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem feindlichen Angriff, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit kann keine Fertigkeiten umleiten, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDiese Einheit kann nicht besiegt werden, wenn sie den Statuseffekt Mega-Heilungsbrand hat.\n\nDiese Einheit zieht mit Mega-Heilungsbrand für 100 ZE und einer Sofort-Todesabwehr in den Kampf.\n\nAm Ende der ersten 3 Runden, die diese Einheit auf dem Schlachtfeld ist:\n- Alle Einheiten auf dem Schlachtfeld verbrennen. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n- Dann erhält diese Einheit Mega-Heilungsbrand für 100 ZE.\n- Dann erhält diese Einheit einen Sofort-Todeswächter.\n\nEin Sofort-Todeswächter verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Nicht-Boss-Feind besiegt wird und wird dann entfernt. Sofortige Todeswälle können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit Mega-Heilungsbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilungsbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand des Anwenders, und kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben und nicht gereinigtwerden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilungsbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillTitle": "Unbeirrstärke",
+                "SkillDescription": "Diese Einheit ist nicht von Betäubungseffekten betroffen.\n\nAm Ende jedes Zuges einer verbündeten Einheit, während sich diese Einheit auf dem Schlachtfeld befindet, wird ein zufälliger brennender Nicht-Wasser-Gegner für 25 ZE betäubt, wenn sich 4 oder mehr brennende Einheiten auf dem Schlachtfeld befinden. Dies kann vor oder nach anderen Effekten ausgelöst werden.\n\nBis diese Einheit 150 ZE auf dem Schlachtfeld überlebt hat, hat diese Einheit 80% Schadensreduktion durch Angriffe. Danach hat diese Einheit 40% Schadensreduktion durch Angriffe.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt:\n- heilt diese Einheit für jeden brennenden Verbündeten auf dem Schlachtfeld um 10% der maximalen LP (max. 40%).\n- ein zufälliger brennender Verbündeter, der kein Wächter ist, erhält sofort den Zug, indem sein ZE auf 0 reduziert wird. Aktive Fähigkeiten, die Züge gewähren, können von betroffenen Einheiten erst verwendet werden, nachdem sie den Zug hatten."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Gr.Schwertwiderst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Großschwert führen."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ähm, ich bin Don Quijote, ein Ordensbruder \nder Ritter der Tafelrunde! Was Tatkraft, Kampfgeist\nund Bewunderung angeht, bin ich unübertroffen!\nIch durchbreche jede Mauer ...!\nLasst uns gemeinsam voranstürmen!"
+            ],
+            "Login": [
+                "Hier bin ich mit voller Kraft! Ähm... lass uns gemeinsam unser Bestes geben! Also, äh, wo geht es hin?"
+            ],
+            "Tap": [
+                "Ich liebe die Geschichten von den Rittern der Tafelrunde!\nAls ich sie zum ersten Mal hörte, dachte ich nicht, dass es sich um echte Menschen handelt... dumm von mir, oder?",
+                "Ähm... ich komme normalerweise gut mit der Kälte zurecht, aber... wenn ich friere, sterbe ich, also... irgendwo, wo es warm ist, wäre schön...",
+                "Hier hast du es - Affenfell! Hm? Es riecht?\nAber der Geruch macht süchtig, wenn man sich daran gewöhnt hat... und in meinem Dorf ist es ziemlich wertvoll..."
+            ],
+            "Idle": [
+                "Hm? Wo sind alle von der Tafelrunde hin...? Sir Gawain? Sir Lancelot? Hallo...? Es ist niemand hier..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Hitzelanze": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Überflussbrand": {
+                    "BaseWeight": 2500
+                },
+                "Brandpfad": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                }
+            }
+        }
+    },
+    "DonQuixoteRegular02": {
+        "Name": "Don Quijote",
+        "Name2": "Unerbittlicher Ritter",
+        "FullName": "Don Quijote - Unerbittlicher Ritter",
+        "Profile": "Da sie jedoch jeden Tag fleißig Brennholz hackte, um ihren Eltern zu helfen, bemerkten die Dorfbewohner, dass sie über außergewöhnliche Kräfte verfügte. Von da an verließ sich das Dorf auf sie, wenn Monster auftauchten. Sie war wirklich glücklich, eine Begabung entdeckt zu haben, mit der sie anderen helfen konnte.",
+        "Profile_Ascended": "Eines Tages hörte sie von den Dorfbewohnern von dem mächtigsten Ritterorden, den Verfechtern von Gerechtigkeit und Ruhm, den Rittern der Tafelrunde. Ihr Traum war geboren. Mit unerschütterlicher Fleiß und unerschütterlicher Aufrichtigkeit bewegte sie die Herzen der Dorfbewohner. Und im Alter von achtzehn Jahren machte sie sich mit ihrem Segen endlich auf den Weg nach Camelot.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 34,
+        "Atk_Base": 621,
+        "Hp_Base": 19561,
+        "Speed": 328,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Feuer-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Feuer-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hitzelanze",
+                "SkillDescription": "250% Schaden an 1 Gegner. 500% Schaden stattdessen, wenn der Anwender brennt. 1000% Schaden, wenn alle Einheiten auf dem Schlachtfeld brennen. Dann wird einem weiteren zufälligen Verbündeten Durchbohren gewährt. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\nEine Einheit mit Durchbohren ignoriert mit ihren Angriffen gegnerische Schadensreduzierungseffekte bis zum Ende ihrer nächsten Runde.",
+                "TU": 80,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Überflussbrand",
+                "SkillDescription": "Verbrennt alle Einheiten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann erhält der Anwender Heilende Verbrennung für 300 ZE, alle anderen Verbündeten heilen für 1000% des Angriffs des Anwenders und Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nBrennschilde verhindern, dass der nächste nicht brennende Statuseffekt, den eine Einheit erhalten würde, während sie brennt, angewendet wird. Eine Einheit mit Heilende Verbrennung heilt sich nach jeder Runde mit der gleichen Rate, mit der Verbrennung Schaden verursachen würde, anstatt Schaden durch Verbrennung zu nehmen. Heilende Verbrennung überschreibt andere Statuseffekte des Anwenders und kann den Statuseffekt Verbrennung ersetzen, aber nicht durch Verbrennung ersetzt werden. Jede Einheit, die einer Einheit mit Heilendes Brennen Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, erhält den Statuseffekt Brennen. Heilendes Brennen wird nicht durch Fertigkeiten der Kategorie Reinigen entfernt.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Brandpfad",
+                "SkillDescription": "Zielt auf alle Gegner. 1500% Schaden an 1 zufälligen Gegner. 500% Schaden an allen anderen Zielen. Anschließend werden alle Verbündeten um 500% des Angriffs des Anwenders geheilt. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind, die verhindern würden, dass die Ziele besiegt werden, den Statuseffekt Konterstellung und die Effekte von passiven Fertigkeiten der Haut.\n\nDiese Fertigkeit wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt.",
+                "TU": 60,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Lanzenkanone",
+                "SkillDescription": "1000% Schaden an 1 Gegner und tauscht die aktuellen LP des Anwenders mit der Menge an LP aus, die der Anwender gerade verloren hat. Dieser Angriff ignoriert Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird. Kann nur verwendet werden, wenn die LP des Anwenders 50% oder weniger betragen. Kann 3 Mal pro Kampf eingesetzt werden.",
+                "TU": 80,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Heldenreise",
+                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem feindlichen Angriff, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit kann keine Fertigkeiten umleiten, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDiese Einheit kann nicht besiegt werden, wenn sie den Statuseffekt Mega-Heilungsbrand hat.\n\nDiese Einheit zieht mit Mega-Heilungsbrand für 100 ZE und einer Sofort-Todesabwehr in den Kampf.\n\nAm Ende der ersten 3 Runden, die diese Einheit auf dem Schlachtfeld ist:\n- Alle Einheiten auf dem Schlachtfeld verbrennen. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n- Dann erhält diese Einheit Mega-Heilungsbrand für 100 ZE.\n- Dann erhält diese Einheit einen Sofort-Todeswächter.\n\nEin Sofort-Todeswächter verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Nicht-Boss-Feind besiegt wird und wird dann entfernt. Sofortige Todeswälle können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit Mega-Heilungsbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilungsbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand des Anwenders, und kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben und nicht gereinigtwerden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilungsbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillTitle": "Unbeirrstärke",
+                "SkillDescription": "Diese Einheit ist nicht von Betäubungseffekten betroffen.\n\nAm Ende jedes Zuges einer verbündeten Einheit, während sich diese Einheit auf dem Schlachtfeld befindet, wird ein zufälliger brennender Nicht-Wasser-Gegner für 25 ZE betäubt, wenn sich 4 oder mehr brennende Einheiten auf dem Schlachtfeld befinden. Dies kann vor oder nach anderen Effekten ausgelöst werden.\n\nBis diese Einheit 150 ZE auf dem Schlachtfeld überlebt hat, hat diese Einheit 80% Schadensreduktion durch Angriffe. Danach hat diese Einheit 40% Schadensreduktion durch Angriffe.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt:\n- heilt diese Einheit für jeden brennenden Verbündeten auf dem Schlachtfeld um 10% der maximalen LP (max. 40%).\n- ein zufälliger brennender Verbündeter, der kein Wächter ist, erhält sofort den Zug, indem sein ZE auf 0 reduziert wird. Aktive Fähigkeiten, die Züge gewähren, können von betroffenen Einheiten erst verwendet werden, nachdem sie den Zug hatten."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Gr.Schwertwiderst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Großschwert führen."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ähm, ich bin Don Quijote, ein Ordensbruder \nder Ritter der Tafelrunde! Was Tatkraft, Kampfgeist\nund Bewunderung angeht, bin ich unübertroffen!\nIch durchbreche jede Mauer ...!\nLasst uns gemeinsam voranstürmen!"
+            ],
+            "Login": [
+                "Hier bin ich mit voller Kraft! Ähm... lass uns gemeinsam unser Bestes geben! Also, äh, wo geht es hin?"
+            ],
+            "Tap": [
+                "Ich liebe die Geschichten von den Rittern der Tafelrunde!\nAls ich sie zum ersten Mal hörte, dachte ich nicht, dass es sich um echte Menschen handelt... dumm von mir, oder?",
+                "Ähm... ich komme normalerweise gut mit der Kälte zurecht, aber... wenn ich friere, sterbe ich, also... irgendwo, wo es warm ist, wäre schön...",
+                "Hier hast du es - Affenfell! Hm? Es riecht?\nAber der Geruch macht süchtig, wenn man sich daran gewöhnt hat... und in meinem Dorf ist es ziemlich wertvoll..."
+            ],
+            "Idle": [
+                "Hm? Wo sind alle von der Tafelrunde hin...? Sir Gawain? Sir Lancelot? Hallo...? Es ist niemand hier..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.03
+            },
+            "SkillUse": {
+                "Hitzelanze": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                },
+                "Überflussbrand": {
+                    "BaseWeight": 2500
+                },
+                "Brandpfad": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0.25,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "Atleast1EnemyOn1HP": 11
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Lanzenkanone": {
+                    "BaseWeight": 150,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

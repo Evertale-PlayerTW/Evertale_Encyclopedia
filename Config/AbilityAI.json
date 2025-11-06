@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761872170,
+  "Time": 1761873960,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -27390,6 +27390,58 @@
 								"IsNotTokenOrImposter": 1.0,
 								"IsNotSummoned": 1.0
 				}
+    },
+    "SingleAttackADonQuixoteRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.35,
+						"IsSummoned": 0.5,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsProtectedNotProtector": 0.75,
+						"IsPloyed": 0.85,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow50Percent": 1.0,
+						"IsMordredRegularAndBurning": 0.5
+					}
+    },
+    "BurnAllUnitsADonQuixoteRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2500.0
+    },
+    "AllAttackADonQuixoteRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 0.0,
+						"AllEnemiesIsStealth": 0.25,
+						"EnemyTeamThreeSleeping": 0.0,
+						"EnemyTeamThreeSleepingAlt": 0.0,
+						"Atleast1EnemyOn1HP": 11
+				},
+					"aiTargetingMonsterConditions": {
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+				}
+    },
+    "SpecialAttackADonQuixoteRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 150.0,
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.35,
+						"IsSummoned": 0.5,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsProtectedNotProtector": 0.75,
+						"IsPloyed": 0.85,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow50Percent": 1.0,
+						"IsMordredRegularAndBurning": 0.5
+					}
     }
 }
 }
