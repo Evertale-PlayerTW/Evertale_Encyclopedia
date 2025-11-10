@@ -1863,6 +1863,8 @@
 				document.getElementById("dataProgress").classList.add("hidden");
 				document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = false; });
 			} else {
+				document.getElementById("mainBlock").classList.add("hidden");
+
 				const dataUrls = {
 					Monster: `Collection/${specifiedLang}/Monster.json`,
 					Weapon: `Collection/${specifiedLang}/Weapon.json`,
@@ -3703,3 +3705,4 @@
 </body>
 
 </html>
+
