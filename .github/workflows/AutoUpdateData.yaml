@@ -19,17 +19,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check last update time
+        run: |
+          if [ -f "lastUpdate" ] && [ $(( $(date +%s) - $(cat "lastUpdate") )) -lt 3600 ]; then
+            echo "SKIP_JOB=true" >> $GITHUB_ENV
+            echo "Last update within 1 hour, skip!"
+            exit 0
+          fi
+
       - name: Setup Node.js
+        if: env.SKIP_JOB != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Run script
+        if: env.SKIP_JOB != 'true'
         env:
           LOGIN_ACCOUNT_INFO: ${{secrets.LOGIN_ACCOUNT_INFO}}
         run: node UpdateData.js
 
       - name: Commit and push changes
+        if: env.SKIP_JOB != 'true'
         run: |
           git add Localization/ Config/ Collection/
           if git diff --cached --quiet; then
