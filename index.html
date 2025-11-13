@@ -87,7 +87,7 @@
 			justify-content: center;
 		}
 
-		#filterArea img {
+		#filterArea label img {
 			height: 1.2em;
 		}
 
@@ -102,8 +102,10 @@
 			position: relative;
 		}
 
-		#filterText>div {
+		#filterText>div,
+		.sortableListRowImg {
 			position: relative;
+			padding: 0;
 		}
 
 		#filterTextInputZone {
@@ -128,7 +130,8 @@
 			font-size: 0.8em;
 		}
 
-		#useRegex:has(input:checked) {
+		#useRegex:has(input:checked),
+		#reverseToggleButton:has(input:checked) {
 			background-color: lightblue;
 		}
 
@@ -139,7 +142,8 @@
 			font-size: 1em;
 		}
 
-		#filterText input[type="checkbox"] {
+		#filterText input[type="checkbox"],
+		#reverseToggleButton input[type="checkbox"] {
 			appearance: none;
 			margin: 0;
 			opacity: 0;
@@ -277,7 +281,9 @@
 		}
 
 		.headshotBox {
-			display: inline-block;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			width: 100px;
 			max-width: 50%;
 			aspect-ratio: 1 / 1;
@@ -296,6 +302,11 @@
 			max-height: 100%;
 			object-fit: contain;
 			object-position: center;
+		}
+
+		#headshot_General,
+		#headshot_Cosmo {
+			border-radius: 10%;
 		}
 
 		.infoRow {
@@ -521,8 +532,20 @@
 
 		#selectableList {
 			display: grid;
-			grid-template-columns: 1fr auto;
+			grid-template-columns: 1fr 2em;
 			align-items: center;
+			justify-items: center;
+			position: relative;
+		}
+
+		#reverseToggleButton {
+			position: absolute;
+			right: calc(2rem + 5px);
+			border: 1px solid black;
+			align-self: center;
+			font-size: 0.8em;
+			padding: 1px 3px;
+			background: white;
 		}
 
 		#siteSetting {
@@ -726,6 +749,131 @@
 			display: block;
 			max-width: 100%;
 			object-fit: contain;
+		}
+
+		#openSortableList {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: transparent;
+			border: 0;
+			padding: 0;
+		}
+
+		#sortableList {
+			border-collapse: collapse;
+			text-align: center;
+			margin: auto;
+			white-space: nowrap;
+		}
+
+		#sortableList th,
+		#sortableList td {
+			border: 1px solid lightgray;
+		}
+
+		#sortableList th>div {
+			display: grid;
+			grid-template-columns: auto 1em;
+			align-items: center;
+			justify-content: center;
+			margin: 3px 5px;
+			column-gap: 5px;
+		}
+
+		.sortableList_title {
+			grid-row: span 2;
+			line-height: 1.2;
+		}
+
+		.sortableList_titlNote {
+			font-size: 0.8em;
+		}
+
+		#sortableList button {
+			background-color: transparent;
+			border: 0;
+			padding: 0;
+			/*line-height: 1;*/
+		}
+
+		.sortableListRowName {
+			font-weight: bold;
+		}
+
+		.sortableListRowName2,
+		.sortableListRowStar {
+			font-size: 0.8em;
+		}
+
+		.sortableListRowImg .headshotBox {
+			width: 65px;
+			max-width: unset;
+		}
+
+		.sortableListRowImg .subIcon {
+			position: absolute;
+			width: 40%;
+			top: 0;
+			left: 0;
+			z-index: 400;
+		}
+
+		.sortableListRowInfo {
+			cursor: pointer;
+		}
+
+		#sortableListBlock {
+			position: fixed;
+			z-index: 500;
+			top: 0;
+			left: 0;
+			background: white;
+			overflow-x: auto;
+			height: 100vh;
+			height: 100dvh;
+			width: 100%;
+			padding: 1em 0;
+			box-sizing: border-box;
+		}
+
+		#sortableList thead th {
+			position: sticky;
+			/* top: calc(-1em - 1px); */
+			top: -1em;
+			z-index: 998;
+			background: WhiteSmoke;
+			border-top: none;
+			box-shadow: inset 0 1px 0 lightgray;
+		}
+
+		#closeSortableList {
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 999;
+			background-color: transparent;
+			border: 0;
+			padding: 0;
+			font-size: 1.5em;
+			font-weight: bold;
+			line-height: 1;
+		}
+
+		.headshotBlockN {
+			background: url("icon/BackgroundNBlock.png") center/cover no-repeat;
+		}
+
+		.headshotBlockR {
+			background: url("icon/BackgroundRBlock.png") center/cover no-repeat;
+		}
+
+		.headshotBlockSR {
+			background: url("icon/BackgroundSRBlock.png") center/cover no-repeat;
+		}
+
+		.headshotBlockSSR {
+			background: url("icon/BackgroundSSRBlock.png") center/cover no-repeat;
 		}
 	</style>
 </head>
@@ -1092,13 +1240,108 @@
 			<select id="targetSelect" onchange="displayData()">
 				<option data-i18n="HintSelectTarget" value="" disabled selected hidden></option>
 			</select>
-			<label>
+			<label id="reverseToggleButton">
 				<input type="checkbox" id="reverseToggle" onchange="reverseOptions()" value="false" />
 				<span data-i18n="Reverse"></span>
 			</label>
+			<button id="openSortableList" onclick="setSortableList()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="1.25rem" width="1.25rem"
+					fill="currentColor">
+					<path
+						d="M130-52q-33 0-56-22a76 76 0 0 1-22-56v-700q0-34 22-56 24-22 56-22h700q34 0 56 22t22 56v700a77 77 0 0 1-78 78zM82-632h796v-198q0-18-15-33a46 46 0 0 0-33-15H130q-18 0-33 15a46 46 0 0 0-15 33zm0 274h796v-244H82zm48 276h700q18 0 33-15t15-33v-198H82v198q0 18 15 33t33 15m85-633v-79h78v79zm0 274v-78h78v78zm0 275v-79h78v79z" />
+				</svg>
+			</button>
+		</div>
+		<div id="sortableListBlock" class="hidden">
+			<button id="closeSortableList" onclick="closeSortableList()">⊗</button>
+			<table id="sortableList">
+				<thead>
+					<tr>
+						<th id="sortableList_titleDefault">
+							<div style="column-gap: 0;">
+								<div class="sortableList_title"></div>
+								<button data-sortkey="Default" data-sortorder="Up"
+									onclick="makeSortableList(this)">▴</button>
+								<button data-sortkey="Default" data-sortorder="Down"
+									onclick="makeSortableList(this)">▾</button>
+							</div>
+						</th>
+						<th id="sortableList_titleCategory">
+							<div>
+								<div class="sortableList_title">Category</div>
+								<button data-sortkey="Name" data-sortorder="Up"
+									onclick="makeSortableList(this)">▴</button>
+								<button data-sortkey="Name" data-sortorder="Down"
+									onclick="makeSortableList(this)">▾</button>
+							</div>
+						</th>
+						<th>
+							<div>
+								<div class="sortableList_title">
+									<div id="sortableList_titleCost" data-i18n="Cost">COST</div>
+								</div>
+								<button data-sortkey="Cost" data-sortorder="Up"
+									onclick="makeSortableList(this)">▴</button>
+								<button data-sortkey="Cost" data-sortorder="Down"
+									onclick="makeSortableList(this)">▾</button>
+							</div>
+						</th>
+						<th>
+							<div>
+								<div class="sortableList_title">
+									<div id="sortableList_titleAtk" data-i18n="Atk">ATK</div>
+									<div class="mo wo sortableList_titlNote" data-i18n="SortableListNote"></div>
+								</div>
+								<button data-sortkey="Atk" data-sortorder="Up"
+									onclick="makeSortableList(this)">▴</button>
+								<button data-sortkey="Atk" data-sortorder="Down"
+									onclick="makeSortableList(this)">▾</button>
+							</div>
+						</th>
+						<th>
+							<div>
+								<div class="sortableList_title">
+									<div id="sortableList_titleHp" data-i18n="Hp">HP</div>
+									<div class="mo wo sortableList_titlNote" data-i18n="SortableListNote"></div>
+								</div>
+								<button data-sortkey="Hp" data-sortorder="Up"
+									onclick="makeSortableList(this)">▴</button>
+								<button data-sortkey="Hp" data-sortorder="Down"
+									onclick="makeSortableList(this)">▾</button>
+							</div>
+						</th>
+						<th>
+							<div>
+								<div class="sortableList_title">
+									<div id="sortableList_titleSpeed" data-i18n="Speed">SPEED</div>
+								</div>
+								<button data-sortkey="Speed" data-sortorder="Up"
+									onclick="makeSortableList(this)">▴</button>
+								<button data-sortkey="Speed" data-sortorder="Down"
+									onclick="makeSortableList(this)">▾</button>
+							</div>
+						</th>
+						<th>
+							<div>
+								<div class="sortableList_title">
+									<div id="sortableList_titlePower" data-i18n="Power">POWER</div>
+									<div class="mo wo sortableList_titlNote" data-i18n="SortableListNote"></div>
+								</div>
+								<button data-sortkey="Power" data-sortorder="Up"
+									onclick="makeSortableList(this)">▴</button>
+								<button data-sortkey="Power" data-sortorder="Down"
+									onclick="makeSortableList(this)">▾</button>
+							</div>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
 		</div>
 		<hr style="margin: 1em -0.5em auto" />
 	</div>
+
 	<div id="mainBlock">
 		<div id="nameDisplay">
 			<div id="codeName"></div>
@@ -1423,6 +1666,27 @@
 			<div class="relationshipBonus"></div>
 			<div class="relationshipMembers"></div>
 		</div>
+	</template>
+
+	<template id="template-sortableListRow">
+		<tr data-id="">
+			<td class="sortableListRowImg">
+				<div class="headshotBox">
+					<img src="">
+				</div>
+				<img class="subIcon" src="">
+			</td>
+			<td class="sortableListRowInfo" onclick="selectToDisplay(this)">
+				<div class="sortableListRowName2"></div>
+				<div class="sortableListRowName"></div>
+				<div class="sortableListRowStar"></div>
+			</td>
+			<td class="sortableListRowCost"></td>
+			<td class="sortableListRowAtk"></td>
+			<td class="sortableListRowHp"></td>
+			<td class="sortableListRowSpeed"></td>
+			<td class="sortableListRowPower"></td>
+		</tr>
 	</template>
 
 	<script>
@@ -1787,6 +2051,103 @@
 			checkboxes.forEach((cb) => (cb.checked = !allChecked));
 
 			setSelectableList();
+		}
+
+		function setSortableList() {
+			document.querySelector("#sortableList_titleCategory .sortableList_title").textContent = getLocalizationText(unit_category);
+			/*document.getElementById("sortableList_titleAtk").innerHTML = getLocalizationText("Atk") + (unit_category !== "Equipment" ? "<br>" + getLocalizationText("SortableListNote") : "");
+			document.getElementById("sortableList_titleHp").innerHTML = getLocalizationText("Hp") + (unit_category !== "Equipment" ? "<br>" + getLocalizationText("SortableListNote") : "");
+			document.getElementById("sortableList_titleSpeed").innerHTML = getLocalizationText("Speed");
+			document.getElementById("sortableList_titlePower").innerHTML = getLocalizationText("Power") + (unit_category !== "Equipment" ? "<br>" + getLocalizationText("SortableListNote") : "");*/
+			makeSortableList();
+			document.getElementById("sortableListBlock").classList.remove("hidden");
+			document.body.style.overflowY = "hidden";
+		}
+
+		function closeSortableList() {
+			document.querySelector("#sortableList tbody").replaceChildren();
+			document.getElementById("sortableListBlock").scrollTop = 0;
+			document.getElementById("sortableListBlock").classList.add("hidden");
+			document.body.style.overflowY = "";
+		}
+
+		function makeSortableList(sortButton) {
+			const datakey = {
+				Default: "Default",
+				Name: "Name",
+				Name2: "Name2",
+				Star: "Stars",
+				Cost: "Cost",
+				Atk: unit_category === "Equipment" ? "Atk" : "Atk_Base",
+				Hp: unit_category === "Equipment" ? "Hp" : "Hp_Base",
+				Speed: "Speed",
+				Power: "Power"
+			}
+
+			sortButton ??= document.querySelector('#sortableList_titleDefault button[data-sortorder="Down"]');
+			const sortkey = datakey[sortButton?.dataset?.sortkey ?? "Default"];
+			const sortorder = sortButton?.dataset?.sortorder === "Up" ? 1 : -1;
+
+			document.querySelectorAll("#sortableList thead button[data-sortorder]").forEach(b => b.textContent = b.dataset.sortorder === "Up" ? "△" : "▽");
+			sortButton.textContent = sortorder === 1 ? "▲" : "▼";
+
+			const idsInList = (sortkey === "Default") ?
+				Array.from(document.getElementById("targetSelect").options).slice(1).map(opt => opt.value) :
+				Array.from(document.querySelectorAll("#sortableList tbody tr")).map(tr => tr.dataset.id);
+			switch (sortkey) {
+				case "Default":
+					const oriSortRev = document.getElementById("reverseToggle").checked ? 1 : -1;
+					if (sortorder * oriSortRev < 0) idsInList.reverse();
+					break;
+				case "Name":
+					const nowLang = document.documentElement.lang || navigator.language;
+					idsInList.sort((id_a, id_b) =>
+						(wholeData[unit_category][id_b][sortkey] || id_b).localeCompare((wholeData[unit_category][id_a][sortkey] || id_a), nowLang) * sortorder
+					);
+					break;
+				default:
+					idsInList.sort((id_a, id_b) =>
+						((wholeData[unit_category][id_a][sortkey] ?? 0) - (wholeData[unit_category][id_b][sortkey] ?? 0)) * sortorder
+					);
+					break;
+			}
+
+			const tbodyRows = document.createDocumentFragment();
+			for (id of idsInList) {
+				const itemData = wholeData[unit_category][id];
+
+				const templateSortableListRow = document.getElementById("template-sortableListRow").content.cloneNode(true);
+				templateSortableListRow.querySelector("tr").dataset.id = id;
+				templateSortableListRow.querySelector(".sortableListRowName").textContent = itemData[datakey["Name"]] || id;
+				templateSortableListRow.querySelector(".sortableListRowName2").textContent = itemData[datakey["Name2"]] || "";
+				templateSortableListRow.querySelector(".sortableListRowStar").textContent = itemData[datakey["Star"]] || 0;
+				templateSortableListRow.querySelector(".sortableListRowCost").textContent = itemData[datakey["Cost"]] ?? 0;
+				templateSortableListRow.querySelector(".sortableListRowAtk").textContent = itemData[datakey["Atk"]] ?? 0;
+				templateSortableListRow.querySelector(".sortableListRowHp").textContent = itemData[datakey["Hp"]] ?? 0;
+				templateSortableListRow.querySelector(".sortableListRowSpeed").textContent = itemData[datakey["Speed"]] ?? 0;
+				templateSortableListRow.querySelector(".sortableListRowPower").textContent = itemData[datakey["Power"]] ?? 0;
+
+				const headshot_fileName = (unit_category === "Monster") ? id : `${id.slice(0, -2)}01`;
+				const headshotImg = checkImageExisting(unit_category, "headshot", headshot_fileName, true);
+				headshotImg.classList.add(`headshotBlock${wholeData[unit_category][id]["Rarity"]}`);
+				templateSortableListRow.querySelector(".sortableListRowImg .headshotBox").replaceChildren(headshotImg);
+				const subIcon = unit_category === "Monster" ? getCodeByShowedName(wholeData[unit_category][id]["Element"]) : unit_category === "Weapon" ? getCodeByShowedName(wholeData[unit_category][id]["WeaponType"]) : null;
+				if (subIcon) {
+					templateSortableListRow.querySelector(".sortableListRowImg .subIcon").src = `icon/${subIcon}.png`;
+				} else {
+					templateSortableListRow.querySelector(".sortableListRowImg .subIcon").remove();
+				}
+
+				tbodyRows.appendChild(templateSortableListRow);
+			}
+			document.querySelector("#sortableList tbody").replaceChildren(tbodyRows);
+			document.getElementById("sortableListBlock").scrollTop = 0;
+		}
+
+		function selectToDisplay(selected) {
+			document.getElementById("targetSelect").value = selected.closest("tr").dataset.id;
+			displayData();
+			closeSortableList();
 		}
 	</script>
 
@@ -2610,10 +2971,12 @@
 			document.querySelector("#headshot_Cosmo img")?.remove();
 			if (headshot_fileName != null) {
 				const headshotGeneral = checkImageExisting(currentDisplayCategory, "headshot", headshot_fileName, true);
+				headshotGeneral.classList.add(`headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 				document.getElementById("headshot_General").appendChild(headshotGeneral);
 				if (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null) {
 					const id_cosmo = id.slice(0, -2) + "03";
 					const headshotCosmo = checkImageExisting(currentDisplayCategory, "headshot", id_cosmo, true);
+					headshotCosmo.classList.add(`headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 					document.getElementById("headshot_Cosmo").appendChild(headshotCosmo);
 					document.getElementById("headshot_Cosmo").classList.remove("hidden");
 				} else {
@@ -2989,6 +3352,7 @@
 			linkElement.href = `?id=${id}&category=${category}`;
 			const textContent = getFullNameAddStarsOrRarity(id, category, addStars, addRarity);
 			const img = checkImageExisting(category, "headshot", ((category === "Monster") ? id : `${id.slice(0, -2)}01`), true);
+			img.classList.add(`headshotBlock${wholeData[category][id]["Rarity"]}`);
 			linkElement.append(img, textContent);
 			return linkElement;
 		}
@@ -3078,7 +3442,7 @@
 			const imgPath = ((img_category.toLowerCase() === img_type.toLowerCase()) ? `${img_name}.png` : `${img_type}/${img_name}.png`).toLowerCase();
 			if (forceTrue || imageSource[img_category]["filelist"].includes(imgPath)) {
 				const newImage = document.createElement("img")
-				newImage.src = `${imageSource[img_category]["domain"]}/${imgPath}`.toLowerCase();
+				newImage.src = `${imageSource[img_category]["domain"]}${imgPath}`.toLowerCase();
 				return newImage;
 			} else {
 				return null;
@@ -3705,4 +4069,3 @@
 </body>
 
 </html>
-
