@@ -2128,8 +2128,7 @@
 				templateSortableListRow.querySelector(".sortableListRowPower").textContent = itemData[datakey["Power"]] ?? 0;
 
 				const headshot_fileName = (unit_category === "Monster") ? id : `${id.slice(0, -2)}01`;
-				const headshotImg = checkImageExisting(unit_category, "headshot", headshot_fileName, true);
-				headshotImg.classList.add(`headshotBlock${wholeData[unit_category][id]["Rarity"]}`);
+				const headshotImg = checkImageExisting(unit_category, "headshot", headshot_fileName, true, `headshotBlock${wholeData[unit_category][id]["Rarity"]}`);
 				templateSortableListRow.querySelector(".sortableListRowImg .headshotBox").replaceChildren(headshotImg);
 				const subIcon = unit_category === "Monster" ? getCodeByShowedName(wholeData[unit_category][id]["Element"]) : unit_category === "Weapon" ? getCodeByShowedName(wholeData[unit_category][id]["WeaponType"]) : null;
 				if (subIcon) {
@@ -2970,13 +2969,11 @@
 			document.querySelector("#headshot_General img")?.remove();
 			document.querySelector("#headshot_Cosmo img")?.remove();
 			if (headshot_fileName != null) {
-				const headshotGeneral = checkImageExisting(currentDisplayCategory, "headshot", headshot_fileName, true);
-				headshotGeneral.classList.add(`headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
+				const headshotGeneral = checkImageExisting(currentDisplayCategory, "headshot", headshot_fileName, true, `headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 				document.getElementById("headshot_General").appendChild(headshotGeneral);
 				if (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null) {
 					const id_cosmo = id.slice(0, -2) + "03";
-					const headshotCosmo = checkImageExisting(currentDisplayCategory, "headshot", id_cosmo, true);
-					headshotCosmo.classList.add(`headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
+					const headshotCosmo = checkImageExisting(currentDisplayCategory, "headshot", id_cosmo, true, `headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 					document.getElementById("headshot_Cosmo").appendChild(headshotCosmo);
 					document.getElementById("headshot_Cosmo").classList.remove("hidden");
 				} else {
@@ -3351,8 +3348,7 @@
 			const linkElement = document.createElement("a");
 			linkElement.href = `?id=${id}&category=${category}`;
 			const textContent = getFullNameAddStarsOrRarity(id, category, addStars, addRarity);
-			const img = checkImageExisting(category, "headshot", ((category === "Monster") ? id : `${id.slice(0, -2)}01`), true);
-			img.classList.add(`headshotBlock${wholeData[category][id]["Rarity"]}`);
+			const img = checkImageExisting(category, "headshot", ((category === "Monster") ? id : `${id.slice(0, -2)}01`), true, `headshotBlock${wholeData[category][id]["Rarity"]}`);
 			linkElement.append(img, textContent);
 			return linkElement;
 		}
@@ -3438,11 +3434,12 @@
 			}
 		}
 
-		function checkImageExisting(img_category, img_type, img_name, forceTrue = false) {
+		function checkImageExisting(img_category, img_type, img_name, forceTrue = false, bgClass = "") {
 			const imgPath = ((img_category.toLowerCase() === img_type.toLowerCase()) ? `${img_name}.png` : `${img_type}/${img_name}.png`).toLowerCase();
 			if (forceTrue || imageSource[img_category]["filelist"].includes(imgPath)) {
 				const newImage = document.createElement("img")
 				newImage.src = `${imageSource[img_category]["domain"]}${imgPath}`.toLowerCase();
+				if (bgClass !== "") { newImage.onload = () => { newImage.classList.add(bgClass); }; }
 				return newImage;
 			} else {
 				return null;
