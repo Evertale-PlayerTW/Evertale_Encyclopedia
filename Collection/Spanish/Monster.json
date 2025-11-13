@@ -19210,6 +19210,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -19557,6 +19568,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -21373,6 +21395,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -21758,6 +21791,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -23603,6 +23647,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -23811,6 +23866,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -123123,7 +123189,7 @@
         "Hp_Base": 15388,
         "Speed": 328,
         "Power": 216576,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¡No... no puedo parar!",
         "LeaderSkill": {
             "SkillTitle": "Sube ATT & HP Fuego",
@@ -123242,6 +123308,19 @@
                         "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -123407,6 +123486,444 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "AnastasiaRegular01": {
+        "Name": "Anastasia",
+        "Name2": "Princesa de Hielo",
+        "FullName": "Anastasia - Princesa de Hielo",
+        "Profile": "La princesa Anastasia del Reino de Uzlavia era, por naturaleza, una joven bondadosa y de espíritu libre. Pero cuando el Rey Arturo invadió su patria y asesinó a sus padres ante sus ojos, su expresión se tornó gélida y su corazón quedó encerrado en una profunda y fría oscuridad.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 28,
+        "Atk_Base": 1131,
+        "Hp_Base": 5555,
+        "Speed": 505,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¿Sientes frío? Está bien...\nPronto ya no sentirás nada.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Acero Frío",
+                "SkillDescription": "300% de daño a 1 enemigo, más 150% por cada vez que esta habilidad haya dañado a un enemigo que no esté dormido en el campo de batalla (máximo 750% de daño total). Luego, otorga a otro aliado aleatorio un Token de Monarca. Este ataque ignora los efectos de reducción de daño.\n\nLos Token de Monarca no se acumulan. Cualquier daño de ataque eliminará los Token de Monarca.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ventisca Real",
+                "SkillDescription": "Otorga a todos los enemigos el efecto de estado Sueño durante 200TU, incluso si ya han dormido en el campo de batalla. Esto sobrescribirá otros efectos de estado de esas unidades.\n\nLuego si algún enemigo en el campo de batalla no está dormido (por ejemplo, debido a un Guarda Sueño), recibe Quemado Escarcha y el usuario obtiene inmediatamente el siguiente turno. Esta habilidad se bloquea durante 150TU después de su uso.\n\nCuando una unidad tiene Quemado Escarcha y obtiene el turno, lo pierde como si estuviera durmiendo; entonces, Quemado Escarcha se elimina y esa unidad recibe el efecto de estado Quemado. Quemado Escarcha no es un efecto de estado, pero los efectos que eliminan los efectos de estado negativos también lo eliminan. Quemado Escarcha terminará si la unidad afectada es derrotada o abandona el campo de batalla. Quemado Escarcha no puede afectar a las unidades jefe y no se acumula. Quemado sobrescribirá otros efectos de estado. Cualquier unidad que inflija daño a una unidad con Quemado o que la inflija también sufrirá Quemado.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Decreto Frío",
+                "SkillDescription": "300% de daño a 2 enemigos. 600% de daño a los objetivos que tienen Sueño, Quemado, o Quemado Escarcha. Todos los enemigos no dormidos alcanzados reciben el efecto de estado Sueño por 200TU, incluso si ya han dormido en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo, las habilidades pasivas de piel y el efecto de estado Contraofensiva.",
+                "TU": 60,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Princesa Helada",
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos.\n\nCada vez que esta unidad derrote a cualquier número de enemigos no conjurados con un ataque, se añade un Impostor a la siguiente línea de refuerzos enemigos.\n\nCada vez que un aliado con un Token de Monarca reciba daño de un ataque enemigo (incluso si es derrotado), esta unidad verá inmediatamente reducida su TU a 0.\n\nCada vez que esta unidad daña a:\n- un enemigo no dormido con un ataque, la TU actual de un aliado aleatorio se reduce en 10TU.\n- un enemigo con Sueño, Quemado o Quemado Escarcha con un ataque, esta unidad se cura el 100% de sus HP máximos y soportará el siguiente daño que la derrotaría con 1 HP. Los efectos de soportar no son acumulables."
+            },
+            {
+                "SkillTitle": "Vientos Fríos",
+                "SkillDescription": "Esta unidad no puede ser quemada ni envenenada.\n\nSiempre que otro aliado de Agua o Fuego entre al campo de batalla desde refuerzos:\n- 2 enemigos aleatorios que no estén dormidos reciben Quemado Escarcha.\n- 2 aliados aleatorios que no estén quemados en el campo de batalla son Purificados (se eliminan los efectos de estado negativos como sueño o veneno).\n\nHasta el final del tercer turno de esta unidad en el campo de batalla, esta unidad no puede ser derrotada por daño y se cura un 25% de sus HP máximos al final de cada turno.\n\nAl comienzo de cada turno mientras esta unidad está en el campo de batalla, si hay una unidad con Sueño, Quemado, o Quemado Escarcha en el campo de batalla:\n- Esta unidad se cura un 25% de sus HP máximos.\n- Esta unidad verá su TU reducida a 0 al final del turno. Este efecto no se puede activar de nuevo hasta que avance 50TU.\n- Los aliados obtienen 1 Espíritu al final del turno."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Fuego Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Fuego."
+            },
+            {
+                "SkillTitle": "Dominio Hacha Grande",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas Grandes además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "G. Hacha"
+            }
+        },
+        "Conjures": [
+            "Imposter01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "¿Crees en un mundo que se encuentra entre los sueños?\n¿Un mundo cuyos habitantes pueden cruzar el tejido\nhacia el nuestro...?\n\nSoy Anastasia, Reina del Reino de Uzlavia.\nDéjame desvelar un mundo sellado entre sueños y hielo."
+            ],
+            "Login": [
+                "¿Eh? ¿Adónde vas? Si no te importa, ¿puedo acompañarte?\nA cambio, te concederé un sueño reparador y tranquilo."
+            ],
+            "Tap": [
+                "Mmm... este plato tiene un gran defecto. ¡Tiene demasiadas zanahorias!\n¿Te molestas si se las quito? Está bien, ¿verdad? ¿Verdad?",
+                "He oído que hay una palabra llamada \"oshi\". Es una palabra aún más fuerte que \"gustar\"\n.También tengo a alguien a quien adoro. ¡Y también tengo mucha de su mercancía!",
+                "Oí la voz del mayordomo... ¡Rápido, escóndete! Lamento haberte involucrado en esto.\nPero... si me encuentran... me castigarán..."
+            ],
+            "Idle": [
+                "Bueno, entonces, hora de practicar las artes reales... No puedo hacerlo con gente alrededor...\nMe pregunto si habrá alguien durmiendo convenientemente cerca..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "EnemyTeamSleepingAlt": 1.05,
+                "TimeInCombat200": 1.01
+            },
+            "SkillUse": {
+                "Acero Frío": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Ventisca Real": {
+                    "BaseWeight": 60,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyTeamThreeSleeping": 0.01,
+                        "EnemyTeamThreeSleepingAlt": 0.01,
+                        "EnemyTeamFourSleeping": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "2EnemiesIsMegaHealingBurn": 1,
+                        "3EnemiesIsMegaHealingBurn": 1,
+                        "EnemyHasNoSleepingInTeam": 1.5,
+                        "3EnemiesIsNotSleeping": 5,
+                        "1EnemySleepImmune": 200
+                    }
+                },
+                "Decreto Frío": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "NoEnemyFrostbittenBurningOrSleeping": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "NotSurvived200TUButAllEnemiesSleepingOrFrostbitten": 2
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsBurning": 1.01,
+                        "IsSleeping": 1,
+                        "IsFrostbitten": 1,
+                        "IsSleepImmune": 0.89,
+                        "HPBelow50PercentAndIsSleeping": 1.02,
+                        "HPBelow50PercentAndIsFrostbitten": 1.03,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "AnastasiaRegular02": {
+        "Name": "Anastasia",
+        "Name2": "Princesa de Hielo",
+        "FullName": "Anastasia - Princesa de Hielo",
+        "Profile": "Desde entonces, nadie pudo discernir lo que albergaba en su corazón. Muchos creían que, incapaz de soportar el peso de su dolor, había reprimido sus emociones. Pero la verdad era otra. Ese día, cuando vio al dios de la muerte, con su cuerpo manchado de sangre y el rostro frío como el hielo, quedó irresistiblemente cautivada.",
+        "Profile_Ascended": "Un arte prohibido se había transmitido a través del linaje real de Uzlavia. Da forma a los sueños que anidan en lo más profundo del deseo humano. Anastasia comprendió que no era la única; en lo más profundo de sus corazones, incluso los Caballeros de la Mesa Redonda anhelaban la llegada del dios de la muerte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 505,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Acero Frío",
+                "SkillDescription": "300% de daño a 1 enemigo, más 150% por cada vez que esta habilidad haya dañado a un enemigo que no esté dormido en el campo de batalla (máximo 750% de daño total). Luego, otorga a otro aliado aleatorio un Token de Monarca. Este ataque ignora los efectos de reducción de daño.\n\nLos Token de Monarca no se acumulan. Cualquier daño de ataque eliminará los Token de Monarca.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ventisca Real",
+                "SkillDescription": "Otorga a todos los enemigos el efecto de estado Sueño durante 200TU, incluso si ya han dormido en el campo de batalla. Esto sobrescribirá otros efectos de estado de esas unidades.\n\nLuego si algún enemigo en el campo de batalla no está dormido (por ejemplo, debido a un Guarda Sueño), recibe Quemado Escarcha y el usuario obtiene inmediatamente el siguiente turno. Esta habilidad se bloquea durante 150TU después de su uso.\n\nCuando una unidad tiene Quemado Escarcha y obtiene el turno, lo pierde como si estuviera durmiendo; entonces, Quemado Escarcha se elimina y esa unidad recibe el efecto de estado Quemado. Quemado Escarcha no es un efecto de estado, pero los efectos que eliminan los efectos de estado negativos también lo eliminan. Quemado Escarcha terminará si la unidad afectada es derrotada o abandona el campo de batalla. Quemado Escarcha no puede afectar a las unidades jefe y no se acumula. Quemado sobrescribirá otros efectos de estado. Cualquier unidad que inflija daño a una unidad con Quemado o que la inflija también sufrirá Quemado.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Decreto Frío",
+                "SkillDescription": "300% de daño a 2 enemigos. 600% de daño a los objetivos que tienen Sueño, Quemado, o Quemado Escarcha. Todos los enemigos no dormidos alcanzados reciben el efecto de estado Sueño por 200TU, incluso si ya han dormido en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo, las habilidades pasivas de piel y el efecto de estado Contraofensiva.",
+                "TU": 60,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Tajo Ventisca",
+                "SkillDescription": "500% de daño a 1 enemigo. 700% de daño en su lugar si el usuario ha sobrevivido 200TU o más en el campo de batalla. Este ataque no puede ser redirigido por los Guardianes. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nSe bloquea durante 200TU después de que el usuario haya entrado al campo de batalla. Este bloqueo se ignora mientras todos los enemigos en el campo de batalla tienen Sueño, Quemado, o Quemado escarcha.",
+                "TU": 80,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Princesa Helada",
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos.\n\nCada vez que esta unidad derrote a cualquier número de enemigos no conjurados con un ataque, se añade un Impostor a la siguiente línea de refuerzos enemigos.\n\nCada vez que un aliado con un Token de Monarca reciba daño de un ataque enemigo (incluso si es derrotado), esta unidad verá inmediatamente reducida su TU a 0.\n\nCada vez que esta unidad daña a:\n- un enemigo no dormido con un ataque, la TU actual de un aliado aleatorio se reduce en 10TU.\n- un enemigo con Sueño, Quemado o Quemado Escarcha con un ataque, esta unidad se cura el 100% de sus HP máximos y soportará el siguiente daño que la derrotaría con 1 HP. Los efectos de soportar no son acumulables."
+            },
+            {
+                "SkillTitle": "Vientos Fríos",
+                "SkillDescription": "Esta unidad no puede ser quemada ni envenenada.\n\nSiempre que otro aliado de Agua o Fuego entre al campo de batalla desde refuerzos:\n- 2 enemigos aleatorios que no estén dormidos reciben Quemado Escarcha.\n- 2 aliados aleatorios que no estén quemados en el campo de batalla son Purificados (se eliminan los efectos de estado negativos como sueño o veneno).\n\nHasta el final del tercer turno de esta unidad en el campo de batalla, esta unidad no puede ser derrotada por daño y se cura un 25% de sus HP máximos al final de cada turno.\n\nAl comienzo de cada turno mientras esta unidad está en el campo de batalla, si hay una unidad con Sueño, Quemado, o Quemado Escarcha en el campo de batalla:\n- Esta unidad se cura un 25% de sus HP máximos.\n- Esta unidad verá su TU reducida a 0 al final del turno. Este efecto no se puede activar de nuevo hasta que avance 50TU.\n- Los aliados obtienen 1 Espíritu al final del turno."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Fuego Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Fuego."
+            },
+            {
+                "SkillTitle": "Dominio Hacha Grande",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas Grandes además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "G. Hacha"
+            }
+        },
+        "Conjures": [
+            "Imposter01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "¿Crees en un mundo que se encuentra entre los sueños?\n¿Un mundo cuyos habitantes pueden cruzar el tejido\nhacia el nuestro...?\n\nSoy Anastasia, Reina del Reino de Uzlavia.\nDéjame desvelar un mundo sellado entre sueños y hielo."
+            ],
+            "Login": [
+                "¿Eh? ¿Adónde vas? Si no te importa, ¿puedo acompañarte?\nA cambio, te concederé un sueño reparador y tranquilo."
+            ],
+            "Tap": [
+                "Mmm... este plato tiene un gran defecto. ¡Tiene demasiadas zanahorias!\n¿Te molestas si se las quito? Está bien, ¿verdad? ¿Verdad?",
+                "He oído que hay una palabra llamada \"oshi\". Es una palabra aún más fuerte que \"gustar\"\n.También tengo a alguien a quien adoro. ¡Y también tengo mucha de su mercancía!",
+                "Oí la voz del mayordomo... ¡Rápido, escóndete! Lamento haberte involucrado en esto.\nPero... si me encuentran... me castigarán..."
+            ],
+            "Idle": [
+                "Bueno, entonces, hora de practicar las artes reales... No puedo hacerlo con gente alrededor...\nMe pregunto si habrá alguien durmiendo convenientemente cerca..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "EnemyTeamSleepingAlt": 1.05,
+                "TimeInCombat200": 1.01
+            },
+            "SkillUse": {
+                "Acero Frío": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Ventisca Real": {
+                    "BaseWeight": 60,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyTeamThreeSleeping": 0.01,
+                        "EnemyTeamThreeSleepingAlt": 0.01,
+                        "EnemyTeamFourSleeping": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "2EnemiesIsMegaHealingBurn": 1,
+                        "3EnemiesIsMegaHealingBurn": 1,
+                        "EnemyHasNoSleepingInTeam": 1.5,
+                        "3EnemiesIsNotSleeping": 5,
+                        "1EnemySleepImmune": 200
+                    }
+                },
+                "Decreto Frío": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "NoEnemyFrostbittenBurningOrSleeping": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "NotSurvived200TUButAllEnemiesSleepingOrFrostbitten": 2
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsBurning": 1.01,
+                        "IsSleeping": 1,
+                        "IsFrostbitten": 1,
+                        "IsSleepImmune": 0.89,
+                        "HPBelow50PercentAndIsSleeping": 1.02,
+                        "HPBelow50PercentAndIsFrostbitten": 1.03,
+                        "HPFull": 0.89
+                    }
+                },
+                "Tajo Ventisca": {
+                    "BaseWeight": 4,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "TimeInCombat200": 2,
+                        "IsNotTimeInCombat200": 0.85,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsSummoned": 0.5,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1.5,
+                        "HPBelow25Percent": 1.25,
+                        "IsMechaSisterNew": 0.75,
+                        "IsProtectingAndNotAlone": 0.75,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Afronta Elementos",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

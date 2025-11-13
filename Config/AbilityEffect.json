@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761808999, 
+	"Time": 1762239356, 
 	"AbilityEffect": {
 		"DamageReaction": {
 			"class": "AbilityEffect",
@@ -16306,6 +16306,15 @@
 			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
 			"isAbilityUserEffect": [true, true, true, true, true, false, true, true, false, false, true, true, false, false, false, false],
 			"positionInBattlefieldCenter": [false, false, true, true, false, false, true, false, false, false, false, false, false, false, false, false]
+		},
+		"frostburnStatus": {
+			"class": "AbilityEffect",
+			"delays": [0.0],
+			"prefabs": ["batfx_Anastasia/batfx_frostburnStatus1"],
+			"assetBundles": ["BattleEffectsBundle3"],
+			"damagePercents": [1.0],
+			"damageHitReactions": [true],
+			"forceHitReactions": []
 		}
 }
 }

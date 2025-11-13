@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761809046,
+	"Time": 1762239328,
 	"AttackScalor": {
 		"TimeInCombat450":
 		{
@@ -643,6 +643,10 @@
 		"GoodVsRandomDamageMark":{
 			"class":"AttackScalor",
 			"targetCondition":"IsMarkedForRandomDamage"
+		},
+		"GoodVsFrostbite":{
+			"class":"AttackScalor",
+			"targetCondition":"IsFrostbitten"
 		}
 	}
 }

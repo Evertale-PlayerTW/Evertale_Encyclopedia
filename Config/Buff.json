@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1762324131,
+	"Time": 1762406115,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -73612,6 +73612,288 @@
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
 			"duration": 0
+		},
+		"AttackUp4EnemiesIsSleepingOrBurning2": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2EnemiesBurningAndOrSleeping",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5EnemiesIsSleepingOrBurning2": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2EnemiesBurningAndOrSleeping",
+				"scalor": 0.20
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6EnemiesIsSleepingOrBurning2": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2EnemiesBurningAndOrSleeping",
+				"scalor": 0.25
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"IcyBladePassiveAAnastasiaRegular":{
+			"class": "Buff",
+			"stackName": "IcyBladePassiveAAnastasiaRegular",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+					"sourceBuffs": ["RoyalForMonarchCounter"]
+				},{
+					"selfBuffs": ["SourceAnastasiaRegular","HitNonSleepingEnemyReduceRandomAlly10TU"]
+				},{
+					"sourceBuffs": ["GiveEnemyImposterNextInReinforcements"],
+					"sameTeam": false,
+					"spreadCondition": "KillsMoreThanSkillUsed",
+					"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+				},{
+					"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+					"sameTeam": false,
+					"spreadCondition": "KillsMoreThanSkillUsed"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"HitNonSleepingEnemyReduceRandomAlly10TU": {
+			"class": "Buff",
+			"behaviors": ["BuffChanceOnHit","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["TUMinus10"],
+				"numRandomToBuff": 1,
+				"targetCondition": "IsNotSleeping"
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"ColdWindsPassiveAAnastasiaRegular": {
+			"class": "Buff",
+			"stackName": "ColdWindsPassiveAAnastasiaRegular",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["BurnImmunity","PoisonImmunity","SuperManUntilThirdTurnAnastasiaRegular"]
+			},{
+				"activeMonsterConditions": "AtLeast1SleepingBurningOrFrostbittenInBattle",
+				"sourceBuffs": ["25PercentHealMaxHP","Gain1SpiritEOT","GainExtraTurnIfNotTriggeredAnastasiaEOT"]
+			},{
+				"sameTeam": true,
+				"chance": 1.0,
+				"contextBuffs": ["WaterOrFireEntryMarkAnastasiaRegular"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"sameTeam": true,
+				"spreadCondition": "WaterOrFireMarkedAnastasiaRegular",
+				"chance": 1.0
+			},{
+				"sameTeam": true,
+				"spreadCondition": "AllyWaterAndFireWelcomeAnastasiaRegular",
+				"randomAllyBuffs": ["RemoveBuffs"],
+				"numRandomToBuff": 2
+			},{
+				"sameTeam": true,
+				"spreadCondition": "EnemyWaterAndFireWelcomeAnastasiaRegular",
+				"randomEnemyBuffs": ["FrostBiteCounter"],
+				"numRandomToBuff": 2
+			},{
+				"sameTeam": true,
+				"contextBuffs": ["RemoveWaterOrFireEntryMarkAnastasiaRegular"]	
+				}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GainExtraTurnIfNotTriggeredAnastasiaEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","ExtraTurnTriggeredAnastasiaRegular"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "NoAnastasiaRegularExtraTurnTrigger"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true
+		},
+		"ExtraTurnTriggeredAnastasiaRegular": {
+			"class": "Buff",
+			"stackName": "ExtraTurnTriggeredAnastasiaRegular",
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"WaterOrFireEntryMarkAnastasiaRegular":{
+			"class": "Buff",
+			"stackName": "WaterOrFireEntryMarkAnastasiaRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveWaterOrFireEntryMarkAnastasiaRegular":{
+			"class": "Buff",
+			"duration": 0,
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "WaterOrFireEntryMarkAnastasiaRegular"
+			}],
+			"isHiddenFromPlayers": true
+		},
+		"SuperManUntilThirdTurnAnastasiaRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveAfterTurnsBehavior","BlockDeath","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"turnCount": 3
+			},{
+				"cancelFromDamageFlags": ["IgnoreBlockDeath","HardIgnoreBlockDeath"],
+				"conditions": "NotAlwaysEnemyTurn"
+			},{
+				"activeMonsterConditions": "AlwaysTrue",
+				"selfBuffs": ["Heal25PercentMaxHPEOT"]
+			}],
+			"stackName": "SuperManUntilThirdTurnAnastasiaRegular",
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconWhiteFightSword01"
+		},
+		"Heal25PercentMaxHPEOT": {
+			"class": "Buff",
+			"stackName": "Heal25PercentMaxHPEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["25PercentHealMaxHP"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false
+		},
+		"GiveEnemyImposterNextInReinforcements": {
+			"class": "Buff",
+			"stackName": "GiveEnemyImposterNextInReinforcements",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["AddImposterNext","ImposterSummonModuleFX"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"Grant1OtherAllyMonarchTokenEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["ExtraTurnMonarchCounter"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSourceAnastasiaRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"SourceAnastasiaRegular":{
+			"class": "Buff",
+			"stackName": "SourceAnastasiaRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"AnastasiaRegularCooldown150":{
+			"class": "Buff",
+			"duration": 150,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"GrantFrostBiteToNonSleepingEnemiesEBB":{
+			"class": "Buff",
+			"stackName": "GrantFrostBiteToNonSleepingEnemiesEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["FrostBiteCounter"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsNotSleeping"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"GrantExtraTurnToSelfIfNoSleepingEnemiesEBB":{
+			"class": "Buff",
+			"stackName": "GrantExtraTurnToSelfIfNoSleepingEnemiesEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"spreadCondition": "1EnemyIsNotSleeping"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"FrostBiteCounter": {
+			"class": "Buff",
+			"stackName": "FrostBurn",
+			"behaviors": ["BuffOnMonsterTurnEnd","LoseTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["Burn","RemoveFrostBiteCounter"]
+			},{
+			},{
+			}],
+			"canBePurified": true,
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["Frostbitten"],
+			"iconSpriteName": "IconFrostBurn01",
+			"statusEffect": "frostburnStatus",
+			"applyConditions": "IsNotBoss"
+		},
+		"RemoveFrostBiteCounter": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "FrostBurn"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true
 		}
 	}
 }

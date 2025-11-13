@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1762216743,
+    "Time": 1762481420,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27542,6 +27542,13 @@
 			}
 		}
 	},
+	"IsNotTimeInCombat200": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"timeInCombat": 200	
+		}
+	},
 	"IsNotTimeInCombat150": {
 		"class": "MonsterConditions",
 		"not":{
@@ -27554,6 +27561,178 @@
 		"not":{
 			"class": "MonsterConditions",
 			"buffStackNames": ["InstantKillImmunityOnce"]
+		}
+	},
+	"IsNotSourceAnastasiaRegular": {
+		"class": "MonsterConditions",
+		"not":{
+			"class":"MonsterConditions",
+			"buffStackNames": ["SourceAnastasiaRegular"]
+		}
+	},
+	"EnemyWaterAndFireWelcomeAnastasiaRegular":{
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"WaterOrFireMarkedAnastasiaRegular": 1
+		},
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Sleep"]
+		}
+	},
+	"AllyWaterAndFireWelcomeAnastasiaRegular":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"WaterOrFireMarkedAnastasiaRegular": 1
+		},
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Burn"]
+		}
+	},
+	"WaterOrFireMarkedAnastasiaRegular":{
+		"class": "MonsterConditions",
+		"buffStackNames": ["WaterOrFireEntryMarkAnastasiaRegular"],
+		"elements": ["Water","Fire"],
+		"not": {
+			"class": "MonsterConditions",
+			"summoned": true
+		}
+	},
+	"1EnemyIsNotSleeping":{
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsNotSleeping": 1
+		}
+	},
+	"NoAnastasiaRegularExtraTurnTrigger": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["ExtraTurnTriggeredAnastasiaRegular"]
+		}
+	},
+	"1EnemySleepImmune": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"IsSleepImmune": 1
+		}
+	},
+	"3EnemiesIsNotSleeping":{
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsNotSleeping": 3
+		}
+	},
+	"Survived200TUOrAllEnemiesSleepingOrFrostbitten": {
+		"class": "MonsterConditions",
+		"timeInCombat": 200,
+		"or": {
+			"class": "MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"checkEnemyTeamOfMonster": true,
+				"enemyTeamMonsterConditionMatchesNeeded":{
+					"IsNotSleepingBurningOrFrostbitten": 1
+				}	
+			}
+		}
+	},
+	"NotSurvived200TUButAllEnemiesSleepingOrFrostbitten": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"timeInCombat": 200	
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"checkEnemyTeamOfMonster": true,
+				"enemyTeamMonsterConditionMatchesNeeded": {
+					"IsNotSleepingBurningOrFrostbitten": 1
+				}	
+			}
+		}
+	},
+	"IsSleepingBurningOrFrostbitten": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Sleep"],
+		"or":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["FrostBurn"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["Burn"]
+			}
+		}
+	},
+	"IsNotSleepingBurningOrFrostbitten": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Sleep"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["FrostBurn"],
+				"or":{
+					"class": "MonsterConditions",
+					"buffStackNames": ["Burn"]
+				}
+			}
+		}
+	},
+	"AtLeast1SleepingBurningOrFrostbittenInBattle": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsSleepingBurningOrFrostbitten": 1
+		},
+		"or": {
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsSleepingBurningOrFrostbitten": 1
+			}
+		}
+	},
+	"HPBelow50PercentAndIsFrostbitten": {
+		"class": "MonsterConditions",
+		"hpLessThanPercent": 0.5000001,
+		"buffStackNames": ["FrostBurn"]
+	},
+	"IsFrostbitten": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["FrostBurn"]
+	},
+	"IsNotFrostbitten": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["FrostBurn"]
+		}
+	},
+	"NoEnemyFrostbittenBurningOrSleeping": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsFrostbitten": 1
+			}
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"checkEnemyTeamOfMonster": true,
+				"enemyTeamMonsterConditionMatchesNeeded": {
+					"IsBurningOrSleeping": 1
+				}	
+			}
 		}
 	}
 }

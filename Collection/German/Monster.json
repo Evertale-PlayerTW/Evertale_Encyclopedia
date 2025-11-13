@@ -19210,6 +19210,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -19557,6 +19568,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -21373,6 +21395,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -21758,6 +21791,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -23603,6 +23647,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -23811,6 +23866,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -122798,19 +122864,19 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Infektböses",
-                "SkillDescription": "300% Schaden an 1 Gegner, plus 100% für jeden Zug, den der Anwender erhalten und bis nach dem Ende des Zuges auf dem Schlachtfeld überlebt hat (max. 600% Gesamtschaden). Wenn dieser Gegner nicht brennt, erhält er außerdem den Statuseffekt Tödliches Gift und wird damit infiziert. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um einem zufälligen, nicht brennenden, nicht tödlich vergifteten Gegner tödliches Gift zuzufügen. Die Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder sobald der infizierte Gegner besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Statuseffekt, der durch die Infektion verbreitet wird, kann es. Eine Einheit kann keine neue Infektion erhalten, bis die bestehende endet.\n\nTödliches Gift überschreibt andere Statuseffekte, hält 999 ZE an, kann nicht durch andere Statuseffekte als Verbrennen oder Verstohlenheit überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den 2-fachen Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die speziell die Niederlage durch Gift oder Nicht-Angriffsschaden verhindern. Tödliches Gift kann nicht auf brennende oder Boss-Einheiten angewendet werden.",
+                "SkillDescription": "300% Schaden an 1 Gegner, plus 100% für jeden Zug, den der Anwender erhalten und bis nach dem Ende des Zuges auf dem Schlachtfeld überlebt hat (max. 600% Gesamtschaden). Wenn dieser Gegner nicht brennt, erhält er außerdem den Statuseffekt Tödliches Gift und wird damit infiziert. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um einem zufälligen, nicht brennenden, nicht tödlich vergifteten Gegner tödliches Gift zuzufügen. Die Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder sobald der infizierte Gegner besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Statuseffekt, der durch die Infektion verbreitet wird, kann es. Eine Einheit kann keine neue Infektion erhalten, bis die bestehende endet.\n\nTödliches Gift überschreibt andere Statuseffekte, hält 999 ZE an, kann nicht durch andere Statuseffekte als Verbrennen oder Lautlos überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den 2-fachen Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die speziell die Niederlage durch Gift oder Nicht-Angriffsschaden verhindern. Tödliches Gift kann nicht auf brennende oder Boss-Einheiten angewendet werden.",
                 "TU": 100,
                 "Spirit": "+3"
             },
             {
                 "SkillTitle": "Dunkelneugeburt",
-                "SkillDescription": "Heilt alle dunklen Verbündeten für 100% der maximalen LP. Der Anwender erhält Schleichen, einen Schleichschild, einen Schlaf-, Betäubungs- und Giftwächter. Wenn der Anwender diese Fertigkeit ein drittes Mal aktiviert, wird ein zufälliger, auf dem Schlachtfeld befindlicher Nicht-Boss und Nicht-Ephemeral-Gegner mit 25% oder weniger der maximalen LP sofort besiegt (es wird davon ausgegangen, dass der Anwender diesen Gegner mit einem Angriff besiegt hat). Dieser sekundäre Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis der passive Fertigkeitseffekt Stellung halten+ des Anwenders ausgelöst wird, während er sich auf dem Schlachtfeld befindet, und wird nach jeder Verwendung erneut gesperrt. Diese Fertigkeit kann nur dreimal pro Schlacht verwendet werden.\n\nSchleichen überschreibt andere Statuseffekte des Anwenders. Schleichschilde verhindern, dass der nächste andere Statuseffekt, den eine Einheit erhalten würde, während sie getarnt ist, angewendet wird. Getarnte Einheiten ignorieren den nächsten Angriff des Gegners, der mehr als 1 Ziel beschädigen würde. Jeder Schaden entfernt das Schleichen. Jeder Schutzwall verhindert einmalig die Anwendung des genannten Effekts und wird dann entfernt. Identische Schutzzauber können nicht gestapelt werden.",
+                "SkillDescription": "Heilt alle dunklen Verbündeten für 100% der maximalen LP. Der Anwender erhält Lautlos, einen Lautlosschild, einen Schlaf-, Betäubungs- und Giftschutz. Der passive Effekt Stellung Halten+ wird für den Anweder zurückgesetzt und kann erneut ausgelöst werden. Wenn der Anwender diese Fertigkeit ein drittes Mal aktiviert, wird ein zufälliger, auf dem Schlachtfeld befindlicher Nicht-Boss und Nicht-Ephemeral-Gegner mit 25% oder weniger der maximalen LP sofort besiegt (es wird davon ausgegangen, dass der Anwender diesen Gegner mit einem Angriff besiegt hat). Dieser sekundäre Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis der passive Fertigkeitseffekt Stellung halten+ des Anwenders ausgelöst wird, während er sich auf dem Schlachtfeld befindet, und wird nach jeder Verwendung erneut gesperrt. Diese Fertigkeit kann nur dreimal pro Kampf verwendet werden.\n\nLautlos überschreibt andere Statuseffekte des Anwenders. Lautlosschilde verhindern, dass der nächste andere Statuseffekt, den eine Einheit erhalten würde, während sie getarnt ist, angewendet wird. Getarnte Einheiten ignorieren den nächsten Angriff des Gegners, der mehr als 1 Ziel beschädigen würde. Jeder Schaden entfernt Lautlos. Jeder Schutz verhindert einmalig die Anwendung des genannten Effekts und wird dann entfernt. Identische Schutze können nicht gestapelt werden.",
                 "TU": 1,
                 "Spirit": "+0"
             },
             {
                 "SkillTitle": "Königkatastrophe",
-                "SkillDescription": "200% Schaden an allen Gegnern, plus 100% für jedes Mal, wenn diese Fertigkeit bereits auf dem Schlachtfeld eingesetzt wurde (max. 500% Gesamtschaden). Der Anwender und ein weiterer zufälliger Verbündeter erhalten Schleichen und einen Schleichschild. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Nicht-Boss-Feinden, die verhindern würden, dass das Ziel besiegt wird.\n\n Wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt.",
+                "SkillDescription": "200% Schaden an allen Gegnern, plus 100% für jedes Mal, wenn diese Fertigkeit bereits auf dem Schlachtfeld eingesetzt wurde (max. 500% Gesamtschaden). Der Anwender und ein weiterer zufälliger Verbündeter erhalten Lautlos und einen Lautlosschild. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird.\n\n Wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt.",
                 "TU": 130,
                 "Spirit": "-2"
             }
@@ -122818,11 +122884,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Der verdorbene König",
-                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug weder besiegt noch betäubt werden. Dieser Effekt kann nur einmal jedes Mal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Effekt von Stellung Halten+.\n\nDie Angriffe dieser Einheit heilen diese Einheit um 100% des gesamten zugefügten Schadens.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit sofort den Zug, indem ihre LP auf 0 reduziert werden. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z.B. andere Betäubungen, die auf das Ziel mit den niedrigsten LP abzielen). Dies gilt nicht als Effekt des Typs Konter-Skin.\n\nDiese Einheit zieht mit 10% LP-Regeneration für 200 ZE und einem Soforttod-Schutz in den Kampf ein.\n\nEin Soforttod-Schutz verhindert, dass diese Einheit sofort und ohne Schaden von einem Gegner, der kein Boss ist, besiegt wird. Sofortige Todeswälle können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit 10% LP-Regeneration heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regenerations-Effekte überschreiben bestehende LP-Regenerations-Effekte."
+                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug weder besiegt noch betäubt werden. Dieser Effekt kann nur einmal jedes Mal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Effekt von Stellung Halten+.\n\nDie Angriffe dieser Einheit heilen diese Einheit um 100% des gesamten zugefügten Schadens.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit sofort den Zug, indem ihre LP auf 0 reduziert werden. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z.B. andere Betäubungen, die auf das Ziel mit den niedrigsten LP abzielen). Dies gilt nicht als Effekt des Typs Konter-Skin.\n\nDiese Einheit zieht mit 10% LP-Regeneration für 200 ZE und einem Soforttod-Schutz in den Kampf ein.\n\nEin Soforttod-Schutz verhindert, dass diese Einheit sofort und ohne Schaden von einem Gegner, der kein Boss ist, besiegt wird. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit 10% LP-Regeneration heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regenerations-Effekte überschreiben bestehende LP-Regenerations-Effekte."
             },
             {
                 "SkillTitle": "Königsmorgen+",
-                "SkillDescription": "Der Angriff dieser Einheit wird auf das 1,5-fache erhöht.\nDie ZE-Kosten für die aktive Fertigkeit dieser Einheit werden um 50% reduziert.\nDiese Einheit hat eine 50%ige Schadensreduzierung durch Angriffe.\n\nAlle diese Effekte werden ausgelöst, wenn diese Einheit zu Beginn des Kampfes auf dem Schlachtfeld steht, und enden, wenn diese Einheit das Schlachtfeld verlässt. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\n-Diese Angriffserhöhung stapelt sich nicht mit Enrage-Effekten.\n-Dieser Effekt reduziert die ZE-Kosten nicht unter 1 ZE.\n-Hast-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter."
+                "SkillDescription": "Der Angriff dieser Einheit wird auf das 1,5-fache erhöht.\nDie ZE-Kosten für die aktive Fertigkeit dieser Einheit werden um 50% reduziert.\nDiese Einheit hat eine 50%ige Schadensreduzierung durch Angriffe.\n\nAlle diese Effekte werden ausgelöst, wenn diese Einheit zu Beginn des Kampfes auf dem Schlachtfeld steht, und enden, wenn diese Einheit das Schlachtfeld verlässt. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\n-Diese Angriffserhöhung stapelt sich nicht mit Wut-Effekten.\n-Dieser Effekt reduziert die ZE-Kosten nicht unter 1 ZE.\n-Beschleunigungs-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter."
             },
             {
                 "SkillTitle": "LP+ Lv3",
@@ -122955,25 +123021,25 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Infektböses",
-                "SkillDescription": "300% Schaden an 1 Gegner, plus 100% für jeden Zug, den der Anwender erhalten und bis nach dem Ende des Zuges auf dem Schlachtfeld überlebt hat (max. 600% Gesamtschaden). Wenn dieser Gegner nicht brennt, erhält er außerdem den Statuseffekt Tödliches Gift und wird damit infiziert. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um einem zufälligen, nicht brennenden, nicht tödlich vergifteten Gegner tödliches Gift zuzufügen. Die Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder sobald der infizierte Gegner besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Statuseffekt, der durch die Infektion verbreitet wird, kann es. Eine Einheit kann keine neue Infektion erhalten, bis die bestehende endet.\n\nTödliches Gift überschreibt andere Statuseffekte, hält 999 ZE an, kann nicht durch andere Statuseffekte als Verbrennen oder Verstohlenheit überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den 2-fachen Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die speziell die Niederlage durch Gift oder Nicht-Angriffsschaden verhindern. Tödliches Gift kann nicht auf brennende oder Boss-Einheiten angewendet werden.",
+                "SkillDescription": "300% Schaden an 1 Gegner, plus 100% für jeden Zug, den der Anwender erhalten und bis nach dem Ende des Zuges auf dem Schlachtfeld überlebt hat (max. 600% Gesamtschaden). Wenn dieser Gegner nicht brennt, erhält er außerdem den Statuseffekt Tödliches Gift und wird damit infiziert. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um einem zufälligen, nicht brennenden, nicht tödlich vergifteten Gegner tödliches Gift zuzufügen. Die Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder sobald der infizierte Gegner besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Statuseffekt, der durch die Infektion verbreitet wird, kann es. Eine Einheit kann keine neue Infektion erhalten, bis die bestehende endet.\n\nTödliches Gift überschreibt andere Statuseffekte, hält 999 ZE an, kann nicht durch andere Statuseffekte als Verbrennen oder Lautlos überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den 2-fachen Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die speziell die Niederlage durch Gift oder Nicht-Angriffsschaden verhindern. Tödliches Gift kann nicht auf brennende oder Boss-Einheiten angewendet werden.",
                 "TU": 100,
                 "Spirit": "+3"
             },
             {
                 "SkillTitle": "Dunkelneugeburt",
-                "SkillDescription": "Heilt alle dunklen Verbündeten für 100% der maximalen LP. Der Anwender erhält Schleichen, einen Schleichschild, einen Schlaf-, Betäubungs- und Giftwächter. Wenn der Anwender diese Fertigkeit ein drittes Mal aktiviert, wird ein zufälliger, auf dem Schlachtfeld befindlicher Nicht-Boss und Nicht-Ephemeral-Gegner mit 25% oder weniger der maximalen LP sofort besiegt (es wird davon ausgegangen, dass der Anwender diesen Gegner mit einem Angriff besiegt hat). Dieser sekundäre Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis der passive Fertigkeitseffekt Stellung halten+ des Anwenders ausgelöst wird, während er sich auf dem Schlachtfeld befindet, und wird nach jeder Verwendung erneut gesperrt. Diese Fertigkeit kann nur dreimal pro Schlacht verwendet werden.\n\nSchleichen überschreibt andere Statuseffekte des Anwenders. Schleichschilde verhindern, dass der nächste andere Statuseffekt, den eine Einheit erhalten würde, während sie getarnt ist, angewendet wird. Getarnte Einheiten ignorieren den nächsten Angriff des Gegners, der mehr als 1 Ziel beschädigen würde. Jeder Schaden entfernt das Schleichen. Jeder Schutzwall verhindert einmalig die Anwendung des genannten Effekts und wird dann entfernt. Identische Schutzzauber können nicht gestapelt werden.",
+                "SkillDescription": "Heilt alle dunklen Verbündeten für 100% der maximalen LP. Der Anwender erhält Lautlos, einen Lautlosschild, einen Schlaf-, Betäubungs- und Giftschutz. Der passive Effekt Stellung Halten+ wird für den Anweder zurückgesetzt und kann erneut ausgelöst werden. Wenn der Anwender diese Fertigkeit ein drittes Mal aktiviert, wird ein zufälliger, auf dem Schlachtfeld befindlicher Nicht-Boss und Nicht-Ephemeral-Gegner mit 25% oder weniger der maximalen LP sofort besiegt (es wird davon ausgegangen, dass der Anwender diesen Gegner mit einem Angriff besiegt hat). Dieser sekundäre Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis der passive Fertigkeitseffekt Stellung halten+ des Anwenders ausgelöst wird, während er sich auf dem Schlachtfeld befindet, und wird nach jeder Verwendung erneut gesperrt. Diese Fertigkeit kann nur dreimal pro Kampf verwendet werden.\n\nLautlos überschreibt andere Statuseffekte des Anwenders. Lautlosschilde verhindern, dass der nächste andere Statuseffekt, den eine Einheit erhalten würde, während sie getarnt ist, angewendet wird. Getarnte Einheiten ignorieren den nächsten Angriff des Gegners, der mehr als 1 Ziel beschädigen würde. Jeder Schaden entfernt Lautlos. Jeder Schutz verhindert einmalig die Anwendung des genannten Effekts und wird dann entfernt. Identische Schutze können nicht gestapelt werden.",
                 "TU": 1,
                 "Spirit": "+0"
             },
             {
                 "SkillTitle": "Königkatastrophe",
-                "SkillDescription": "200% Schaden an allen Gegnern, plus 100% für jedes Mal, wenn diese Fertigkeit bereits auf dem Schlachtfeld eingesetzt wurde (max. 500% Gesamtschaden). Der Anwender und ein weiterer zufälliger Verbündeter erhalten Schleichen und einen Schleichschild. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Nicht-Boss-Feinden, die verhindern würden, dass das Ziel besiegt wird.\n\n Wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt.",
+                "SkillDescription": "200% Schaden an allen Gegnern, plus 100% für jedes Mal, wenn diese Fertigkeit bereits auf dem Schlachtfeld eingesetzt wurde (max. 500% Gesamtschaden). Der Anwender und ein weiterer zufälliger Verbündeter erhalten Lautlos und einen Lautlosschild. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird.\n\n Wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt.",
                 "TU": 130,
                 "Spirit": "-2"
             },
             {
                 "SkillTitle": "Fresseklipse",
-                "SkillDescription": "Besiegt sofort 1 zufälligen Gegner, der kein Boss und nicht beschworen ist. Dann haben alle anderen Gegner auf dem Schlachtfeld, die keine Bosse und nicht vergänglich sind, jeweils eine Chance von 25%, sofort besiegt zu werden. Diese Effekte ignorieren passive Rache-Fähigkeiten, passive Wiederbelebungsfähigkeiten, alle passiven Fähigkeiten oder Effekte von aktiven Fähigkeiten, die verhindern würden, dass das Ziel besiegt wird, und können nicht von Wächtern umgeleitet werden. Der Nutzer wird so behandelt, als hätte er mit seinen Angriffen so viele Einheiten besiegt, wie durch einen dieser Effekte besiegt wurden. Wird freigeschaltet, wenn 5 oder mehr nicht beschworene Einheiten auf dem Schlachtfeld besiegt oder durch irgendeine Quelle geopfert werden, während diese Einheit auf dem Schlachtfeld ist. Kann verwendet werden, wenn ein gültiges Ziel vorhanden ist, und einmal pro Kampf.",
+                "SkillDescription": "Besiegt sofort 1 zufälligen Gegner, der kein Boss und nicht beschworen ist. Dann haben alle anderen Gegner auf dem Schlachtfeld, die keine Bosse und nicht ephemeral sind, jeweils eine Chance von 25%, sofort besiegt zu werden. Diese Effekte ignorieren passive Rache-Fähigkeiten, passive Wiederbelebungsfähigkeiten, alle passiven Fähigkeiten oder Effekte von aktiven Fähigkeiten, die verhindern würden, dass das Ziel besiegt wird, und können nicht von Wächtern umgeleitet werden. Der Nutzer wird so behandelt, als hätte er mit seinen Angriffen so viele Einheiten besiegt, wie durch einen dieser Effekte besiegt wurden. Wird freigeschaltet, wenn 5 oder mehr nicht beschworene Einheiten auf dem Schlachtfeld besiegt oder durch irgendeine Quelle geopfert werden, während diese Einheit auf dem Schlachtfeld ist. Kann verwendet werden, wenn ein gültiges Ziel vorhanden ist, und einmal pro Kampf.",
                 "TU": 1,
                 "Spirit": "-3"
             }
@@ -122981,11 +123047,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Der verdorbene König",
-                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug weder besiegt noch betäubt werden. Dieser Effekt kann nur einmal jedes Mal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Effekt von Stellung Halten+.\n\nDie Angriffe dieser Einheit heilen diese Einheit um 100% des gesamten zugefügten Schadens.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit sofort den Zug, indem ihre LP auf 0 reduziert werden. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z.B. andere Betäubungen, die auf das Ziel mit den niedrigsten LP abzielen). Dies gilt nicht als Effekt des Typs Konter-Skin.\n\nDiese Einheit zieht mit 10% LP-Regeneration für 200 ZE und einem Soforttod-Schutz in den Kampf ein.\n\nEin Soforttod-Schutz verhindert, dass diese Einheit sofort und ohne Schaden von einem Gegner, der kein Boss ist, besiegt wird. Sofortige Todeswälle können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit 10% LP-Regeneration heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regenerations-Effekte überschreiben bestehende LP-Regenerations-Effekte."
+                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug weder besiegt noch betäubt werden. Dieser Effekt kann nur einmal jedes Mal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Effekt von Stellung Halten+.\n\nDie Angriffe dieser Einheit heilen diese Einheit um 100% des gesamten zugefügten Schadens.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit sofort den Zug, indem ihre LP auf 0 reduziert werden. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z.B. andere Betäubungen, die auf das Ziel mit den niedrigsten LP abzielen). Dies gilt nicht als Effekt des Typs Konter-Skin.\n\nDiese Einheit zieht mit 10% LP-Regeneration für 200 ZE und einem Soforttod-Schutz in den Kampf ein.\n\nEin Soforttod-Schutz verhindert, dass diese Einheit sofort und ohne Schaden von einem Gegner, der kein Boss ist, besiegt wird. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit 10% LP-Regeneration heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regenerations-Effekte überschreiben bestehende LP-Regenerations-Effekte."
             },
             {
                 "SkillTitle": "Königsmorgen+",
-                "SkillDescription": "Der Angriff dieser Einheit wird auf das 1,5-fache erhöht.\nDie ZE-Kosten für die aktive Fertigkeit dieser Einheit werden um 50% reduziert.\nDiese Einheit hat eine 50%ige Schadensreduzierung durch Angriffe.\n\nAlle diese Effekte werden ausgelöst, wenn diese Einheit zu Beginn des Kampfes auf dem Schlachtfeld steht, und enden, wenn diese Einheit das Schlachtfeld verlässt. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\n-Diese Angriffserhöhung stapelt sich nicht mit Enrage-Effekten.\n-Dieser Effekt reduziert die ZE-Kosten nicht unter 1 ZE.\n-Hast-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter."
+                "SkillDescription": "Der Angriff dieser Einheit wird auf das 1,5-fache erhöht.\nDie ZE-Kosten für die aktive Fertigkeit dieser Einheit werden um 50% reduziert.\nDiese Einheit hat eine 50%ige Schadensreduzierung durch Angriffe.\n\nAlle diese Effekte werden ausgelöst, wenn diese Einheit zu Beginn des Kampfes auf dem Schlachtfeld steht, und enden, wenn diese Einheit das Schlachtfeld verlässt. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\n-Diese Angriffserhöhung stapelt sich nicht mit Wut-Effekten.\n-Dieser Effekt reduziert die ZE-Kosten nicht unter 1 ZE.\n-Beschleunigungs-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter."
             },
             {
                 "SkillTitle": "LP+ Lv3",
@@ -123123,7 +123189,7 @@
         "Hp_Base": 15388,
         "Speed": 328,
         "Power": 216576,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "I-Ich kann nicht aufhören!!",
         "LeaderSkill": {
             "SkillTitle": "Feuer-ANG/LP hoch",
@@ -123138,7 +123204,7 @@
             },
             {
                 "SkillTitle": "Überflussbrand",
-                "SkillDescription": "Verbrennt alle Einheiten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann erhält der Anwender Heilende Verbrennung für 300 ZE, alle anderen Verbündeten heilen für 1000% des Angriffs des Anwenders und Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nBrennschilde verhindern, dass der nächste nicht brennende Statuseffekt, den eine Einheit erhalten würde, während sie brennt, angewendet wird. Eine Einheit mit Heilende Verbrennung heilt sich nach jeder Runde mit der gleichen Rate, mit der Verbrennung Schaden verursachen würde, anstatt Schaden durch Verbrennung zu nehmen. Heilende Verbrennung überschreibt andere Statuseffekte des Anwenders und kann den Statuseffekt Verbrennung ersetzen, aber nicht durch Verbrennung ersetzt werden. Jede Einheit, die einer Einheit mit Heilendes Brennen Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, erhält den Statuseffekt Brennen. Heilendes Brennen wird nicht durch Fertigkeiten der Kategorie Reinigen entfernt.",
+                "SkillDescription": "Verbrennt alle Einheiten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann erhält der Anwender Heilende Verbrennung für 300 ZE, alle anderen Verbündeten heilen für 1000% des Angriffs des Anwenders und Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nBrennschilde verhindern, dass der nächste nicht brennende Statuseffekt, den eine Einheit erhalten würde, während sie brennt, angewendet wird. Eine Einheit mit Heilende Verbrennung heilt sich nach jeder Runde mit der gleichen Rate, mit der Brennen Schaden verursachen würde, anstatt Schaden durch Brennen zu nehmen. Heilende Verbrennung überschreibt andere Statuseffekte des Anwenders und kann den Statuseffekt Brennen ersetzen, aber nicht durch Brennen ersetzt werden. Jede Einheit, die einer Einheit mit Heilende Verbrennung Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, erhält den Statuseffekt Brennen. Heilende Verbrennung wird nicht durch Fertigkeiten der Kategorie Reinigen entfernt.",
                 "TU": 1,
                 "Spirit": "+0"
             },
@@ -123152,11 +123218,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Heldenreise",
-                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem feindlichen Angriff, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit kann keine Fertigkeiten umleiten, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDiese Einheit kann nicht besiegt werden, wenn sie den Statuseffekt Mega-Heilungsbrand hat.\n\nDiese Einheit zieht mit Mega-Heilungsbrand für 100 ZE und einer Sofort-Todesabwehr in den Kampf.\n\nAm Ende der ersten 3 Runden, die diese Einheit auf dem Schlachtfeld ist:\n- Alle Einheiten auf dem Schlachtfeld verbrennen. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n- Dann erhält diese Einheit Mega-Heilungsbrand für 100 ZE.\n- Dann erhält diese Einheit einen Sofort-Todeswächter.\n\nEin Sofort-Todeswächter verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Nicht-Boss-Feind besiegt wird und wird dann entfernt. Sofortige Todeswälle können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit Mega-Heilungsbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilungsbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand des Anwenders, und kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben und nicht gereinigtwerden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilungsbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem feindlichen Angriff, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit kann keine Fertigkeiten umleiten, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDiese Einheit kann nicht besiegt werden, wenn sie den Statuseffekt Mega-Heilungsbrand hat.\n\nDiese Einheit zieht mit Mega-Heilungsbrand für 100 ZE und einer Sofort-Todesabwehr in den Kampf.\n\nAm Ende der ersten 3 Runden, die diese Einheit auf dem Schlachtfeld ist:\n- Alle Einheiten auf dem Schlachtfeld verbrennen. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n- Dann erhält diese Einheit Mega-Heilungsbrand für 100 ZE.\n- Dann erhält diese Einheit einen Sofort-Todesschutz.\n\nEin Sofort-Todesschutz verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Nicht-Boss-Feind besiegt wird und wird dann entfernt. Sofortige Todesschutze können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit Mega-Heilungsbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilungsbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand des Anwenders, und kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben und nicht gereinigt werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilungsbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
             },
             {
-                "SkillTitle": "Unbeirrstärke",
-                "SkillDescription": "Diese Einheit ist nicht von Betäubungseffekten betroffen.\n\nAm Ende jedes Zuges einer verbündeten Einheit, während sich diese Einheit auf dem Schlachtfeld befindet, wird ein zufälliger brennender Nicht-Wasser-Gegner für 25 ZE betäubt, wenn sich 4 oder mehr brennende Einheiten auf dem Schlachtfeld befinden. Dies kann vor oder nach anderen Effekten ausgelöst werden.\n\nBis diese Einheit 150 ZE auf dem Schlachtfeld überlebt hat, hat diese Einheit 80% Schadensreduktion durch Angriffe. Danach hat diese Einheit 40% Schadensreduktion durch Angriffe.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt:\n- heilt diese Einheit für jeden brennenden Verbündeten auf dem Schlachtfeld um 10% der maximalen LP (max. 40%).\n- ein zufälliger brennender Verbündeter, der kein Wächter ist, erhält sofort den Zug, indem sein ZE auf 0 reduziert wird. Aktive Fähigkeiten, die Züge gewähren, können von betroffenen Einheiten erst verwendet werden, nachdem sie den Zug hatten."
+                "SkillTitle": "Unbeirrbare Stärke",
+                "SkillDescription": "Diese Einheit ist nicht von Betäubungseffekten betroffen.\n\nAm Ende jedes Zuges einer verbündeten Einheit, während sich diese Einheit auf dem Schlachtfeld befindet, wird ein zufälliger brennender Nicht-Wasser-Gegner für 25 ZE betäubt, wenn sich 4 oder mehr brennende Einheiten auf dem Schlachtfeld befinden. Dies kann vor oder nach anderen Effekten ausgelöst werden.\n\nBis diese Einheit 150 ZE auf dem Schlachtfeld überlebt hat, hat diese Einheit 80% Schadensreduktion durch Angriffe. Danach hat diese Einheit 40% Schadensreduktion durch Angriffe.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt:\n- diese Einheit heilt für jeden brennenden Verbündeten auf dem Schlachtfeld um 10% der maximalen LP (max. 40%).\n- ein zufälliger ()brennender Verbündeter, der kein Wächter ist, erhält sofort den Zug, indem sein ZE auf 0 reduziert werden. Aktive Fähigkeiten, die Züge gewähren, können von betroffenen Einheiten erst verwendet werden, nachdem sie den Zug hatten."
             },
             {
                 "SkillTitle": "Angriff+ Lv3",
@@ -123243,6 +123309,19 @@
                     }
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            }
         }
     },
     "DonQuixoteRegular02": {
@@ -123277,7 +123356,7 @@
             },
             {
                 "SkillTitle": "Überflussbrand",
-                "SkillDescription": "Verbrennt alle Einheiten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann erhält der Anwender Heilende Verbrennung für 300 ZE, alle anderen Verbündeten heilen für 1000% des Angriffs des Anwenders und Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nBrennschilde verhindern, dass der nächste nicht brennende Statuseffekt, den eine Einheit erhalten würde, während sie brennt, angewendet wird. Eine Einheit mit Heilende Verbrennung heilt sich nach jeder Runde mit der gleichen Rate, mit der Verbrennung Schaden verursachen würde, anstatt Schaden durch Verbrennung zu nehmen. Heilende Verbrennung überschreibt andere Statuseffekte des Anwenders und kann den Statuseffekt Verbrennung ersetzen, aber nicht durch Verbrennung ersetzt werden. Jede Einheit, die einer Einheit mit Heilendes Brennen Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, erhält den Statuseffekt Brennen. Heilendes Brennen wird nicht durch Fertigkeiten der Kategorie Reinigen entfernt.",
+                "SkillDescription": "Verbrennt alle Einheiten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann erhält der Anwender Heilende Verbrennung für 300 ZE, alle anderen Verbündeten heilen für 1000% des Angriffs des Anwenders und Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nBrennschilde verhindern, dass der nächste nicht brennende Statuseffekt, den eine Einheit erhalten würde, während sie brennt, angewendet wird. Eine Einheit mit Heilende Verbrennung heilt sich nach jeder Runde mit der gleichen Rate, mit der Brennen Schaden verursachen würde, anstatt Schaden durch Brennen zu nehmen. Heilende Verbrennung überschreibt andere Statuseffekte des Anwenders und kann den Statuseffekt Brennen ersetzen, aber nicht durch Brennen ersetzt werden. Jede Einheit, die einer Einheit mit Heilende Verbrennung Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, erhält den Statuseffekt Brennen. Heilende Verbrennung wird nicht durch Fertigkeiten der Kategorie Reinigen entfernt.",
                 "TU": 1,
                 "Spirit": "+0"
             },
@@ -123297,11 +123376,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Heldenreise",
-                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem feindlichen Angriff, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit kann keine Fertigkeiten umleiten, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDiese Einheit kann nicht besiegt werden, wenn sie den Statuseffekt Mega-Heilungsbrand hat.\n\nDiese Einheit zieht mit Mega-Heilungsbrand für 100 ZE und einer Sofort-Todesabwehr in den Kampf.\n\nAm Ende der ersten 3 Runden, die diese Einheit auf dem Schlachtfeld ist:\n- Alle Einheiten auf dem Schlachtfeld verbrennen. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n- Dann erhält diese Einheit Mega-Heilungsbrand für 100 ZE.\n- Dann erhält diese Einheit einen Sofort-Todeswächter.\n\nEin Sofort-Todeswächter verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Nicht-Boss-Feind besiegt wird und wird dann entfernt. Sofortige Todeswälle können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit Mega-Heilungsbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilungsbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand des Anwenders, und kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben und nicht gereinigtwerden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilungsbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem feindlichen Angriff, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit kann keine Fertigkeiten umleiten, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDiese Einheit kann nicht besiegt werden, wenn sie den Statuseffekt Mega-Heilungsbrand hat.\n\nDiese Einheit zieht mit Mega-Heilungsbrand für 100 ZE und einer Sofort-Todesabwehr in den Kampf.\n\nAm Ende der ersten 3 Runden, die diese Einheit auf dem Schlachtfeld ist:\n- Alle Einheiten auf dem Schlachtfeld verbrennen. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n- Dann erhält diese Einheit Mega-Heilungsbrand für 100 ZE.\n- Dann erhält diese Einheit einen Sofort-Todesschutz.\n\nEin Sofort-Todesschutz verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Nicht-Boss-Feind besiegt wird und wird dann entfernt. Sofortige Todesschutze können nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit Mega-Heilungsbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilungsbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand des Anwenders, und kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben und nicht gereinigt werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilungsbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
             },
             {
-                "SkillTitle": "Unbeirrstärke",
-                "SkillDescription": "Diese Einheit ist nicht von Betäubungseffekten betroffen.\n\nAm Ende jedes Zuges einer verbündeten Einheit, während sich diese Einheit auf dem Schlachtfeld befindet, wird ein zufälliger brennender Nicht-Wasser-Gegner für 25 ZE betäubt, wenn sich 4 oder mehr brennende Einheiten auf dem Schlachtfeld befinden. Dies kann vor oder nach anderen Effekten ausgelöst werden.\n\nBis diese Einheit 150 ZE auf dem Schlachtfeld überlebt hat, hat diese Einheit 80% Schadensreduktion durch Angriffe. Danach hat diese Einheit 40% Schadensreduktion durch Angriffe.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt:\n- heilt diese Einheit für jeden brennenden Verbündeten auf dem Schlachtfeld um 10% der maximalen LP (max. 40%).\n- ein zufälliger brennender Verbündeter, der kein Wächter ist, erhält sofort den Zug, indem sein ZE auf 0 reduziert wird. Aktive Fähigkeiten, die Züge gewähren, können von betroffenen Einheiten erst verwendet werden, nachdem sie den Zug hatten."
+                "SkillTitle": "Unbeirrbare Stärke",
+                "SkillDescription": "Diese Einheit ist nicht von Betäubungseffekten betroffen.\n\nAm Ende jedes Zuges einer verbündeten Einheit, während sich diese Einheit auf dem Schlachtfeld befindet, wird ein zufälliger brennender Nicht-Wasser-Gegner für 25 ZE betäubt, wenn sich 4 oder mehr brennende Einheiten auf dem Schlachtfeld befinden. Dies kann vor oder nach anderen Effekten ausgelöst werden.\n\nBis diese Einheit 150 ZE auf dem Schlachtfeld überlebt hat, hat diese Einheit 80% Schadensreduktion durch Angriffe. Danach hat diese Einheit 40% Schadensreduktion durch Angriffe.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt:\n- diese Einheit heilt für jeden brennenden Verbündeten auf dem Schlachtfeld um 10% der maximalen LP (max. 40%).\n- ein zufälliger ()brennender Verbündeter, der kein Wächter ist, erhält sofort den Zug, indem sein ZE auf 0 reduziert werden. Aktive Fähigkeiten, die Züge gewähren, können von betroffenen Einheiten erst verwendet werden, nachdem sie den Zug hatten."
             },
             {
                 "SkillTitle": "Angriff+ Lv3",
@@ -123407,6 +123486,444 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            }
+        }
+    },
+    "AnastasiaRegular01": {
+        "Name": "Anastasia",
+        "Name2": "Eisige Prinzessin",
+        "FullName": "Anastasia - Eisige Prinzessin",
+        "Profile": "Prinzessin Anastasia aus dem Königreich Uzlavia war von Natur aus ein gutherziges und freigeistiges Mädchen. Doch als König Artus in ihre Heimat einfiel und ihre Eltern vor ihren Augen tötete, wurde ihr Gesichtsausdruck zu Eis und ihr Herz in einer tiefen, kalten Dunkelheit versiegelt.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 28,
+        "Atk_Base": 1131,
+        "Hp_Base": 5555,
+        "Speed": 505,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Fühlst du dich kalt? Das ist in Ordnung...\n Bald wirst du nichts mehr spüren.",
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-ANG hoch",
+            "SkillDescription": "Der Angriff von Wasser-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Kaltstahl",
+                "SkillDescription": "300% Schaden an 1 Gegner, plus 150% für jedes Mal, wenn diese Fertigkeit einen nicht schlafenden Gegner auf dem Schlachtfeld beschädigt hat (max. 750% Gesamtschaden). Gib dann 1 anderen zufälligen Verbündeten eine Monarch-Marke. Dieser Angriff ignoriert Schadensreduzierungseffekte.\n\nMonarchenmarken können nicht gestapelt werden. Jeder Angriffsschaden entfernt Monarchen-Marken.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Königsschneesturm",
+                "SkillDescription": "Verleiht allen Gegnern für 200 ZE den Statuseffekt Schlaf, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nWenn ein Gegner auf dem Schlachtfeld nicht schläft (z.B. aufgrund eines Schlafschutzes), wird ihm Frostbrand gewährt, und der Anwender ist sofort wieder am Zug. Diese Fertigkeit wird nach der Anwendung für 150 ZE gesperrt.\n\nWenn eine Einheit Frostbrand hat und sie an der Reihe ist, verliert sie die Runde, als ob sie schlafen würde, dann wird Frostbrand entfernt und die Einheit erhält den Statuseffekt Brennen. Frostbrand ist kein Statuseffekt, aber Effekte, die negative Statuseffekte entfernen, entfernen auch Frostbrand. Frostbrand endet, wenn die betroffene Einheit besiegt wird oder das Schlachtfeld verlässt. Frostbrand kann keine Bosseinheiten beeinflussen und ist nicht stapelbar. Frostbrand überschreibt andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Kaltbefehl",
+                "SkillDescription": "300% Schaden an 2 Gegnern. 600% Schaden stattdessen an Zielen, die schlafen, brennen oder Frostbrand haben. Alle nicht schlafenden Gegner, die getroffen werden, erhalten den Statuseffekt Schlaf für 200 ZE, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.",
+                "TU": 60,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Eisprinzessin",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken keine schlafenden Gegner auf.\n\nWenn diese Einheit eine beliebige Anzahl von nicht-beschworenen Gegnern mit einem Angriff besiegt, wird ein Betrüger der nächsten Reihe von gegnerischen Verstärkungen hinzugefügt.\n\nJedes Mal, wenn ein Verbündeter mit einer Monarchen-Marke durch einen gegnerischen Angriff beschädigt wird (auch wenn er besiegt wurde), werden die ZE dieser Einheit sofort auf 0 reduziert. \n\nJedes Mal, wenn diese Einheit:\n- einen nicht schlafenden Gegner mit einem Angriff schädigt, werden die aktuellen ZE eines zufälligen Verbündeten um 10 ZE reduziert.\n- einen schlafenden, brennenden oder frostverbrannten Gegner mit einem Angriff schädigt, heilt sich diese Einheit für 100% der maximalen LP und erträgt den nächsten Schaden, der sie besiegen würde, mit 1 LP. Ertragen-Effekte können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "Kältewinde",
+                "SkillDescription": "Diese Einheit kann nicht verbrannt oder vergiftet werden.\n\nWenn ein weiterer Wasser- oder Feuer-Verbündeter durch Verstärkung das Schlachtfeld betritt:\n- 2 zufällige, nicht schlafende Gegner erhalten Frostbrand.\n- 2 zufällige, nicht brennende Verbündete auf dem Schlachtfeld werden gereinigt (negative Statuseffekte wie Schlaf oder Gift werden entfernt). \n\nBis zum Ende des dritten Zuges dieser Einheit auf dem Schlachtfeld kann diese Einheit nicht durch Schaden besiegt werden und heilt sich am Ende jedes Zuges um 25% der maximalen LP.\n\nAm Anfang jedes Zuges, während sich diese Einheit auf dem Schlachtfeld befindet, wenn sich eine schlafende, brennende oder frostverbrannte Einheit auf dem Schlachtfeld befindet:\n- heilt sich diese Einheit um 25% der maximalen LP.\n- die ZE dieser Einheit werden am Ende des Zuges auf 0 reduziert. Dieser Effekt kann erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind.\n- Verbündete erhalten am Ende des Zuges 1 Geist."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Feuer-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Feuer-Einheiten."
+            },
+            {
+                "SkillTitle": "Großaxt-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großäxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großaxt"
+            }
+        },
+        "Conjures": [
+            "Imposter01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Glaubst du an eine Welt, die in den Träumen liegt?\n Eine Welt, deren Bewohner durch den Schleier in unsere eindringen können...?\n Ich bin Anastasia, Königin des Königreichs Uzlavia.\n Lass mich eine Welt enthüllen, die in Träumen und Eis versiegelt ist."
+            ],
+            "Login": [
+                "Oh? Wo willst du denn hin? Wenn es dir nichts ausmacht, darf ich dich begleiten?\n Im Gegenzug gönne ich dir einen schönen, friedlichen Schlaf."
+            ],
+            "Tap": [
+                "Mmm... es gibt einen großen Makel in diesem Gericht. Es sind zu viele Karotten drin! \nDarf ich sie weglassen? Es ist doch gut, oder? Ja, oder?",
+                "Ich habe gehört, dass es ein Wort namens Oshi gibt. Es ist ein noch stärkeres Wort als mögen. Ich habe auch jemanden, dem ich treu ergeben bin. Ich habe auch eine Menge Merch!",
+                "Ich hörte die Stimme des Butlers... Schnell, versteck dich! Es tut mir leid, dass ich dich da mit reingezogen habe.\nAber... wenn ich gefunden werde... werde ich versohlt werden..."
+            ],
+            "Idle": [
+                "Nun denn, Zeit, die königlichen Künste zu üben... Ich kann es nicht tun, wenn Leute in der Nähe sind... \nIch frage mich, ob jemand in der Nähe schläft..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "EnemyTeamSleepingAlt": 1.05,
+                "TimeInCombat200": 1.01
+            },
+            "SkillUse": {
+                "Kaltstahl": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Königsschneesturm": {
+                    "BaseWeight": 60,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyTeamThreeSleeping": 0.01,
+                        "EnemyTeamThreeSleepingAlt": 0.01,
+                        "EnemyTeamFourSleeping": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "2EnemiesIsMegaHealingBurn": 1,
+                        "3EnemiesIsMegaHealingBurn": 1,
+                        "EnemyHasNoSleepingInTeam": 1.5,
+                        "3EnemiesIsNotSleeping": 5,
+                        "1EnemySleepImmune": 200
+                    }
+                },
+                "Kaltbefehl": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "NoEnemyFrostbittenBurningOrSleeping": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "NotSurvived200TUButAllEnemiesSleepingOrFrostbitten": 2
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsBurning": 1.01,
+                        "IsSleeping": 1,
+                        "IsFrostbitten": 1,
+                        "IsSleepImmune": 0.89,
+                        "HPBelow50PercentAndIsSleeping": 1.02,
+                        "HPBelow50PercentAndIsFrostbitten": 1.03,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            }
+        }
+    },
+    "AnastasiaRegular02": {
+        "Name": "Anastasia",
+        "Name2": "Eisige Prinzessin",
+        "FullName": "Anastasia - Eisige Prinzessin",
+        "Profile": "Von da an konnte niemand mehr erkennen, was in ihrem Herzen wohnte. Viele glaubten, dass sie ihre Gefühle weggesperrt hatte, weil sie die Last ihres Kummers nicht ertragen konnte. Aber die Wahrheit war anders. An jenem Tag, als sie den Gott des Todes sah, dessen Gestalt blutverschmiert und dessen Gesicht kalt wie Eis war, war sie unwiderstehlich fasziniert.",
+        "Profile_Ascended": "Eine verbotene Kunst wurde durch die königliche Linie von Uzlavia weitergegeben. Sie gibt den Träumen Gestalt, die tief in der menschlichen Sehnsucht schlummern. Anastasia verstand, dass sie nicht die Einzige war; selbst die Ritter der Tafelrunde sehnten sich im Innersten ihres Herzens nach der Ankunft des Todesgottes.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 505,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-ANG hoch",
+            "SkillDescription": "Der Angriff von Wasser-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Kaltstahl",
+                "SkillDescription": "300% Schaden an 1 Gegner, plus 150% für jedes Mal, wenn diese Fertigkeit einen nicht schlafenden Gegner auf dem Schlachtfeld beschädigt hat (max. 750% Gesamtschaden). Gib dann 1 anderen zufälligen Verbündeten eine Monarch-Marke. Dieser Angriff ignoriert Schadensreduzierungseffekte.\n\nMonarchenmarken können nicht gestapelt werden. Jeder Angriffsschaden entfernt Monarchen-Marken.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Königsschneesturm",
+                "SkillDescription": "Verleiht allen Gegnern für 200 ZE den Statuseffekt Schlaf, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nWenn ein Gegner auf dem Schlachtfeld nicht schläft (z.B. aufgrund eines Schlafschutzes), wird ihm Frostbrand gewährt, und der Anwender ist sofort wieder am Zug. Diese Fertigkeit wird nach der Anwendung für 150 ZE gesperrt.\n\nWenn eine Einheit Frostbrand hat und sie an der Reihe ist, verliert sie die Runde, als ob sie schlafen würde, dann wird Frostbrand entfernt und die Einheit erhält den Statuseffekt Brennen. Frostbrand ist kein Statuseffekt, aber Effekte, die negative Statuseffekte entfernen, entfernen auch Frostbrand. Frostbrand endet, wenn die betroffene Einheit besiegt wird oder das Schlachtfeld verlässt. Frostbrand kann keine Bosseinheiten beeinflussen und ist nicht stapelbar. Frostbrand überschreibt andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Kaltbefehl",
+                "SkillDescription": "300% Schaden an 2 Gegnern. 600% Schaden stattdessen an Zielen, die schlafen, brennen oder Frostbrand haben. Alle nicht schlafenden Gegner, die getroffen werden, erhalten den Statuseffekt Schlaf für 200 ZE, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.",
+                "TU": 60,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Schneesturmschlag",
+                "SkillDescription": "500% Schaden an 1 Gegner. 700% Schaden stattdessen, wenn der Anwender 200 ZE+ auf dem Schlachtfeld überlebt hat. Dieser Angriff kann nicht von Wächtern umgelenkt werden. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Gegnern, die keine Bosse sind, die das Ziel daran hindern würden, besiegt zu werden.\n\nNachdem der Anwender das Schlachtfeld betreten hat, wird er für 200 ZE gesperrt. Diese Sperre wird ignoriert, solange alle Gegner auf dem Schlachtfeld schlafen, brennen oder frostverbrannt sind.",
+                "TU": 80,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Eisprinzessin",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken keine schlafenden Gegner auf.\n\nWenn diese Einheit eine beliebige Anzahl von nicht-beschworenen Gegnern mit einem Angriff besiegt, wird ein Betrüger der nächsten Reihe von gegnerischen Verstärkungen hinzugefügt.\n\nJedes Mal, wenn ein Verbündeter mit einer Monarchen-Marke durch einen gegnerischen Angriff beschädigt wird (auch wenn er besiegt wurde), werden die ZE dieser Einheit sofort auf 0 reduziert. \n\nJedes Mal, wenn diese Einheit:\n- einen nicht schlafenden Gegner mit einem Angriff schädigt, werden die aktuellen ZE eines zufälligen Verbündeten um 10 ZE reduziert.\n- einen schlafenden, brennenden oder frostverbrannten Gegner mit einem Angriff schädigt, heilt sich diese Einheit für 100% der maximalen LP und erträgt den nächsten Schaden, der sie besiegen würde, mit 1 LP. Ertragen-Effekte können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "Kältewinde",
+                "SkillDescription": "Diese Einheit kann nicht verbrannt oder vergiftet werden.\n\nWenn ein weiterer Wasser- oder Feuer-Verbündeter durch Verstärkung das Schlachtfeld betritt:\n- 2 zufällige, nicht schlafende Gegner erhalten Frostbrand.\n- 2 zufällige, nicht brennende Verbündete auf dem Schlachtfeld werden gereinigt (negative Statuseffekte wie Schlaf oder Gift werden entfernt). \n\nBis zum Ende des dritten Zuges dieser Einheit auf dem Schlachtfeld kann diese Einheit nicht durch Schaden besiegt werden und heilt sich am Ende jedes Zuges um 25% der maximalen LP.\n\nAm Anfang jedes Zuges, während sich diese Einheit auf dem Schlachtfeld befindet, wenn sich eine schlafende, brennende oder frostverbrannte Einheit auf dem Schlachtfeld befindet:\n- heilt sich diese Einheit um 25% der maximalen LP.\n- die ZE dieser Einheit werden am Ende des Zuges auf 0 reduziert. Dieser Effekt kann erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind.\n- Verbündete erhalten am Ende des Zuges 1 Geist."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Feuer-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Feuer-Einheiten."
+            },
+            {
+                "SkillTitle": "Großaxt-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großäxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großaxt"
+            }
+        },
+        "Conjures": [
+            "Imposter01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Glaubst du an eine Welt, die in den Träumen liegt?\n Eine Welt, deren Bewohner durch den Schleier in unsere eindringen können...?\n Ich bin Anastasia, Königin des Königreichs Uzlavia.\n Lass mich eine Welt enthüllen, die in Träumen und Eis versiegelt ist."
+            ],
+            "Login": [
+                "Oh? Wo willst du denn hin? Wenn es dir nichts ausmacht, darf ich dich begleiten?\n Im Gegenzug gönne ich dir einen schönen, friedlichen Schlaf."
+            ],
+            "Tap": [
+                "Mmm... es gibt einen großen Makel in diesem Gericht. Es sind zu viele Karotten drin! \nDarf ich sie weglassen? Es ist doch gut, oder? Ja, oder?",
+                "Ich habe gehört, dass es ein Wort namens Oshi gibt. Es ist ein noch stärkeres Wort als mögen. Ich habe auch jemanden, dem ich treu ergeben bin. Ich habe auch eine Menge Merch!",
+                "Ich hörte die Stimme des Butlers... Schnell, versteck dich! Es tut mir leid, dass ich dich da mit reingezogen habe.\nAber... wenn ich gefunden werde... werde ich versohlt werden..."
+            ],
+            "Idle": [
+                "Nun denn, Zeit, die königlichen Künste zu üben... Ich kann es nicht tun, wenn Leute in der Nähe sind... \nIch frage mich, ob jemand in der Nähe schläft..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "EnemyTeamSleepingAlt": 1.05,
+                "TimeInCombat200": 1.01
+            },
+            "SkillUse": {
+                "Kaltstahl": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Königsschneesturm": {
+                    "BaseWeight": 60,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyTeamThreeSleeping": 0.01,
+                        "EnemyTeamThreeSleepingAlt": 0.01,
+                        "EnemyTeamFourSleeping": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "2EnemiesIsMegaHealingBurn": 1,
+                        "3EnemiesIsMegaHealingBurn": 1,
+                        "EnemyHasNoSleepingInTeam": 1.5,
+                        "3EnemiesIsNotSleeping": 5,
+                        "1EnemySleepImmune": 200
+                    }
+                },
+                "Kaltbefehl": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "NoEnemyFrostbittenBurningOrSleeping": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "NotSurvived200TUButAllEnemiesSleepingOrFrostbitten": 2
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsBurning": 1.01,
+                        "IsSleeping": 1,
+                        "IsFrostbitten": 1,
+                        "IsSleepImmune": 0.89,
+                        "HPBelow50PercentAndIsSleeping": 1.02,
+                        "HPBelow50PercentAndIsFrostbitten": 1.03,
+                        "HPFull": 0.89
+                    }
+                },
+                "Schneesturmschlag": {
+                    "BaseWeight": 4,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "TimeInCombat200": 2,
+                        "IsNotTimeInCombat200": 0.85,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsSummoned": 0.5,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1.5,
+                        "HPBelow25Percent": 1.25,
+                        "IsMechaSisterNew": 0.75,
+                        "IsProtectingAndNotAlone": 0.75,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Gegen die Elemente",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            }
+        }
     }
 }

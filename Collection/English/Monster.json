@@ -19210,6 +19210,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -19557,6 +19568,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -21373,6 +21395,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -21758,6 +21791,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -23603,6 +23647,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -23811,6 +23866,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -104230,7 +104296,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "No Mercy",
-                "SkillDescription": "Heals the user for 100% of total damage dealt.\n\nEach time this unit damages an enemy with an attack and leaves them on or below 25% of max HP (even if they are defeated by the attack), this unit will get another turn. The extra turn is granted after Counter Skin type effects triggered by this unit's attacks, and so this unit will act before a countering enemy.\n -This effect cannot trigger again against the same target until TU advances.\n -Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target)."
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nEach time this unit damages an enemy with an attack and leaves them on or below 25% of max HP (even if they are defeated by the attack), this unit will get another turn. The extra turn is granted after Counter Skin type effects triggered by this unit's attacks, and so this unit will act before a countering enemy.\n -This effect cannot trigger again against the same target until TU advances.\n -Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target)."
             },
             {
                 "SkillTitle": "Attack Up Lv3",
@@ -104410,7 +104476,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "No Mercy",
-                "SkillDescription": "Heals the user for 100% of total damage dealt.\n\nEach time this unit damages an enemy with an attack and leaves them on or below 25% of max HP (even if they are defeated by the attack), this unit will get another turn. The extra turn is granted after Counter Skin type effects triggered by this unit's attacks, and so this unit will act before a countering enemy.\n -This effect cannot trigger again against the same target until TU advances.\n -Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target)."
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nEach time this unit damages an enemy with an attack and leaves them on or below 25% of max HP (even if they are defeated by the attack), this unit will get another turn. The extra turn is granted after Counter Skin type effects triggered by this unit's attacks, and so this unit will act before a countering enemy.\n -This effect cannot trigger again against the same target until TU advances.\n -Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target)."
             },
             {
                 "SkillTitle": "Glacial Winds",
@@ -107912,7 +107978,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Captain's Resolve",
-                "SkillDescription": "Unless this unit is burning, this unit is immune to Stun effects. Poison cannot be applied to this unit while it has the Stealth status effect. Until this unit has survived for 1000TU on the battlefield, this unit gains Stealth and a Stealth Shield every 100TU.\n\nHeals the user for 100% of total damage dealt. This unit enters battle with Stealth, a Stealth Shield, and 3 Charges. If this unit would be defeated while it has any charges, this unit will consume 1 charge to survive with 1HP remaining instead. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield."
+                "SkillDescription": "Unless this unit is burning, this unit is immune to Stun effects. Poison cannot be applied to this unit while it has the Stealth status effect. Until this unit has survived for 1000TU on the battlefield, this unit gains Stealth and a Stealth Shield every 100TU.\n\nThis unit's attacks heal this unit for 100% of total damage dealt. This unit enters battle with Stealth, a Stealth Shield, and 3 Charges. If this unit would be defeated while it has any charges, this unit will consume 1 charge to survive with 1HP remaining instead. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield."
             },
             {
                 "SkillTitle": "Attack Up Lv3",
@@ -108088,7 +108154,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Captain's Resolve",
-                "SkillDescription": "Unless this unit is burning, this unit is immune to Stun effects. Poison cannot be applied to this unit while it has the Stealth status effect. Until this unit has survived for 1000TU on the battlefield, this unit gains Stealth and a Stealth Shield every 100TU.\n\nHeals the user for 100% of total damage dealt. This unit enters battle with Stealth, a Stealth Shield, and 3 Charges. If this unit would be defeated while it has any charges, this unit will consume 1 charge to survive with 1HP remaining instead. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield."
+                "SkillDescription": "Unless this unit is burning, this unit is immune to Stun effects. Poison cannot be applied to this unit while it has the Stealth status effect. Until this unit has survived for 1000TU on the battlefield, this unit gains Stealth and a Stealth Shield every 100TU.\n\nThis unit's attacks heal this unit for 100% of total damage dealt. This unit enters battle with Stealth, a Stealth Shield, and 3 Charges. If this unit would be defeated while it has any charges, this unit will consume 1 charge to survive with 1HP remaining instead. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield."
             },
             {
                 "SkillTitle": "Vengeance Rampage",
@@ -115824,7 +115890,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "One Step Ahead",
-                "SkillDescription": "Heals the user for 100% of total damage dealt.\n\nWhenever another unit on the battlefield damages any unit(s) with an attack, this unit's current TU is reduced by 10TU per unit hit.\n\nEach time an enemy unit gets the turn, if this unit has 150TU or more, this unit will gain the Counter Stance status effect for 150TU at the end of that turn."
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nWhenever another unit on the battlefield damages any unit(s) with an attack, this unit's current TU is reduced by 10TU per unit hit.\n\nEach time an enemy unit gets the turn, if this unit has 150TU or more, this unit will gain the Counter Stance status effect for 150TU at the end of that turn."
             },
             {
                 "SkillTitle": "Steel Resolve",
@@ -115992,7 +116058,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "One Step Ahead",
-                "SkillDescription": "Heals the user for 100% of total damage dealt.\n\nWhenever another unit on the battlefield damages any unit(s) with an attack, this unit's current TU is reduced by 10TU per unit hit.\n\nEach time an enemy unit gets the turn, if this unit has 150TU or more, this unit will gain the Counter Stance status effect for 150TU at the end of that turn."
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nWhenever another unit on the battlefield damages any unit(s) with an attack, this unit's current TU is reduced by 10TU per unit hit.\n\nEach time an enemy unit gets the turn, if this unit has 150TU or more, this unit will gain the Counter Stance status effect for 150TU at the end of that turn."
             },
             {
                 "SkillTitle": "Steel Resolve",
@@ -118092,7 +118158,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Wings of Victory",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit will ignore attacks that would damage exactly 2 targets (attacks that target All allies will not be ignored). If this unit gains the Stealth status effect, it will not be lost when ignoring attacks in this way.\n\nHeals the user for 100% of total damage dealt.\n\nWhenever this unit takes damage from an attack by an enemy unit that has defeated 0 units with attacks while on the battlefield, and survives until after the end of the turn, this unit will Purified (any negative status effects like sleep, burn or poison are removed), and will get the next turn by having its TU reduced to 0. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target)."
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit will ignore attacks that would damage exactly 2 targets (attacks that target All allies will not be ignored). If this unit gains the Stealth status effect, it will not be lost when ignoring attacks in this way.\n\nThis unit's attacks heal this unit for 100% of total damage dealt.\n\nWhenever this unit takes damage from an attack by an enemy unit that has defeated 0 units with attacks while on the battlefield, and survives until after the end of the turn, this unit will Purified (any negative status effects like sleep, burn or poison are removed), and will get the next turn by having its TU reduced to 0. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target)."
             },
             {
                 "SkillTitle": "Victory Cry",
@@ -118282,7 +118348,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Wings of Victory",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit will ignore attacks that would damage exactly 2 targets (attacks that target All allies will not be ignored). If this unit gains the Stealth status effect, it will not be lost when ignoring attacks in this way.\n\nHeals the user for 100% of total damage dealt.\n\nWhenever this unit takes damage from an attack by an enemy unit that has defeated 0 units with attacks while on the battlefield, and survives until after the end of the turn, this unit will Purified (any negative status effects like sleep, burn or poison are removed), and will get the next turn by having its TU reduced to 0. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target)."
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit will ignore attacks that would damage exactly 2 targets (attacks that target All allies will not be ignored). If this unit gains the Stealth status effect, it will not be lost when ignoring attacks in this way.\n\nThis unit's attacks heal this unit for 100% of total damage dealt.\n\nWhenever this unit takes damage from an attack by an enemy unit that has defeated 0 units with attacks while on the battlefield, and survives until after the end of the turn, this unit will Purified (any negative status effects like sleep, burn or poison are removed), and will get the next turn by having its TU reduced to 0. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target)."
             },
             {
                 "SkillTitle": "Victory Cry",
@@ -120114,7 +120180,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Cursed Automata",
-                "SkillDescription": "This unit is immune to Poison status effects, and reduces the amount of any stun effects against this unit by 50TU.\n\nHeals the user for 100% of total damage dealt.\n\nWhenever another ally enters the battlefield from reinforcements, they are granted Sleep Thorns.\n\nWhenever a non-conjured enemy enters the battlefield from reinforcements, they are granted Super Poison. Super Poison will overwrite other status effects on those enemies. Super Poison deals 4 times the damage of normal poison, and cannot be overwritten by normal poison."
+                "SkillDescription": "This unit is immune to Poison status effects, and reduces the amount of any stun effects against this unit by 50TU.\n\nThis unit's attacks heal this unit for 100% of total damage dealt.\n\nWhenever another ally enters the battlefield from reinforcements, they are granted Sleep Thorns.\n\nWhenever a non-conjured enemy enters the battlefield from reinforcements, they are granted Super Poison. Super Poison will overwrite other status effects on those enemies. Super Poison deals 4 times the damage of normal poison, and cannot be overwritten by normal poison."
             },
             {
                 "SkillTitle": "Attack Up Lv3",
@@ -120296,7 +120362,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Cursed Automata",
-                "SkillDescription": "This unit is immune to Poison status effects, and reduces the amount of any stun effects against this unit by 50TU.\n\nHeals the user for 100% of total damage dealt.\n\nWhenever another ally enters the battlefield from reinforcements, they are granted Sleep Thorns.\n\nWhenever a non-conjured enemy enters the battlefield from reinforcements, they are granted Super Poison. Super Poison will overwrite other status effects on those enemies. Super Poison deals 4 times the damage of normal poison, and cannot be overwritten by normal poison."
+                "SkillDescription": "This unit is immune to Poison status effects, and reduces the amount of any stun effects against this unit by 50TU.\n\nThis unit's attacks heal this unit for 100% of total damage dealt.\n\nWhenever another ally enters the battlefield from reinforcements, they are granted Sleep Thorns.\n\nWhenever a non-conjured enemy enters the battlefield from reinforcements, they are granted Super Poison. Super Poison will overwrite other status effects on those enemies. Super Poison deals 4 times the damage of normal poison, and cannot be overwritten by normal poison."
             },
             {
                 "SkillTitle": "Imprinted Ego",
@@ -120483,7 +120549,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Lightning Wielder",
-                "SkillDescription": "Enemy units that deal damage to this unit get stunned for 100TU, this is a Skin effect.\n\nHeals the user for 100% of total damage dealt. This unit is not affected by stun effects and cannot be sent to the reinforcements from the battlefield.\n\nGrants all enemies 3 Discharge Counters. Triggered both at the very start of the battle if this unit is on the battlefield, and when this unit enters the battlefield from reinforcements. Whenever an enemy enters the battlefield from reinforcements they will be granted 3 Discharge Counters. A unit can store a maximum of 3 Discharge Counters, and all are removed from a unit that leaves the battlefield.\n\nWhen this unit hits an enemy with any Discharge Counters with an attack, they will be stunned for:\n- 300TU if they have 3 Discharge Counters\n- 200TU if they have 2 Discharge Counters\n- 100TU if they have 1 Discharge Counter\nThen, the hit enemy will have 1 Discharge Counter removed."
+                "SkillDescription": "Enemy units that deal damage to this unit get stunned for 100TU, this is a Skin effect.\n\nThis unit's attacks heal this unit for 100% of total damage dealt. This unit is not affected by stun effects and cannot be sent to the reinforcements from the battlefield.\n\nGrants all enemies 3 Discharge Counters. Triggered both at the very start of the battle if this unit is on the battlefield, and when this unit enters the battlefield from reinforcements. Whenever an enemy enters the battlefield from reinforcements they will be granted 3 Discharge Counters. A unit can store a maximum of 3 Discharge Counters, and all are removed from a unit that leaves the battlefield.\n\nWhen this unit hits an enemy with any Discharge Counters with an attack, they will be stunned for:\n- 300TU if they have 3 Discharge Counters\n- 200TU if they have 2 Discharge Counters\n- 100TU if they have 1 Discharge Counter\nThen, the hit enemy will have 1 Discharge Counter removed."
             },
             {
                 "SkillTitle": "HP Up Lv3",
@@ -120665,7 +120731,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Lightning Wielder",
-                "SkillDescription": "Enemy units that deal damage to this unit get stunned for 100TU, this is a Skin effect.\n\nHeals the user for 100% of total damage dealt. This unit is not affected by stun effects and cannot be sent to the reinforcements from the battlefield.\n\nGrants all enemies 3 Discharge Counters. Triggered both at the very start of the battle if this unit is on the battlefield, and when this unit enters the battlefield from reinforcements. Whenever an enemy enters the battlefield from reinforcements they will be granted 3 Discharge Counters. A unit can store a maximum of 3 Discharge Counters, and all are removed from a unit that leaves the battlefield.\n\nWhen this unit hits an enemy with any Discharge Counters with an attack, they will be stunned for:\n- 300TU if they have 3 Discharge Counters\n- 200TU if they have 2 Discharge Counters\n- 100TU if they have 1 Discharge Counter\nThen, the hit enemy will have 1 Discharge Counter removed."
+                "SkillDescription": "Enemy units that deal damage to this unit get stunned for 100TU, this is a Skin effect.\n\nThis unit's attacks heal this unit for 100% of total damage dealt. This unit is not affected by stun effects and cannot be sent to the reinforcements from the battlefield.\n\nGrants all enemies 3 Discharge Counters. Triggered both at the very start of the battle if this unit is on the battlefield, and when this unit enters the battlefield from reinforcements. Whenever an enemy enters the battlefield from reinforcements they will be granted 3 Discharge Counters. A unit can store a maximum of 3 Discharge Counters, and all are removed from a unit that leaves the battlefield.\n\nWhen this unit hits an enemy with any Discharge Counters with an attack, they will be stunned for:\n- 300TU if they have 3 Discharge Counters\n- 200TU if they have 2 Discharge Counters\n- 100TU if they have 1 Discharge Counter\nThen, the hit enemy will have 1 Discharge Counter removed."
             },
             {
                 "SkillTitle": "Undying Storm",
@@ -123123,7 +123189,7 @@
         "Hp_Base": 15388,
         "Speed": 328,
         "Power": 216576,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "I-I can't stop!!!",
         "LeaderSkill": {
             "SkillTitle": "Fire ATK & HP Up",
@@ -123242,6 +123308,19 @@
                         "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -123407,6 +123486,444 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
+    },
+    "AnastasiaRegular01": {
+        "Name": "Anastasia",
+        "Name2": "Frostbound Princess",
+        "FullName": "Anastasia - Frostbound Princess",
+        "Profile": "Princess Anastasia of the Kingdom of Uzlavia was, by nature, a kind-hearted and free-spirited girl. But when King Arthur invaded her homeland and slew her parents before her eyes—her expression turned to ice, and her heart was sealed away in a deep, cold darkness.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greatsword",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 28,
+        "Atk_Base": 1131,
+        "Hp_Base": 5555,
+        "Speed": 505,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Feeling cold? It's all right...\nSoon, you won't feel anything.",
+        "LeaderSkill": {
+            "SkillTitle": "Water Attack Up",
+            "SkillDescription": "Allied Water element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Cold Steel",
+                "SkillDescription": "300% damage to 1 enemy, plus 150% for each time this skill has damaged a non-sleeping enemy while on the battlefield (max of 750% total damage). Then give 1 other random ally a Monarch Token. This attack ignores damage reduction effects.\n\nMonarch Tokens cannot stack. Any attack damage will remove Monarch Tokens.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Royal Blizzard",
+                "SkillDescription": "Grants all enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen if any enemy on the battlefield is not asleep (e.g. due to a Sleep Ward), all non-sleeping enemies are granted Frostburn, and the user will immediately get the next turn. This skill becomes locked for 150TU after use.\n\nWhen a unit has Frostburn and they get the turn, they will lose the turn as if they were sleeping, then Frostburn is removed and that unit is granted the Burn status effect. Frostburn is not a status effect, but effects that remove negative status effects will also remove Frostburn. Frostburn will end if the affected unit is defeated or leaves the battlefield. Frostburn cannot apply to boss units, and cannot stack. Burn will overwrite other status effects. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Cold Decree",
+                "SkillDescription": "300% damage to 2 enemies. 600% damage instead to targets that are sleeping, burning or frostburned. All non-sleeping enemies hit are then granted the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This attack ignores enemy damage reduction effects, skin passive skills, and the Counter Stance status effect.",
+                "TU": 60,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Icy Princess",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies.\n\nWhenever this unit defeats any number of non-conjured enemies with an attack, an Imposter is added to the next in line of enemy reinforcements.\n\nEach time an ally with a Monarch token is damaged by an enemy attack (even if defeated), this unit will immediately have its TU reduced to 0.\n\nEach time this unit damages:\n- a non-sleeping enemy with an attack, a random ally has their current TU reduced by 10TU.\n- a sleeping, burning or frostburned enemy with an attack, this unit heals for 100% of max HP, and it will Endure the next damage that would defeat it with 1HP. Endure effects cannot stack."
+            },
+            {
+                "SkillTitle": "Cold Winds",
+                "SkillDescription": "This unit cannot be burned or poisoned.\n\nWhenever another Water or Fire ally enters the battlefield from reinforcements:\n- 2 random non-sleeping enemies are granted Frostburn.\n- 2 random non-burning allies on the battlefield are Purified (negative status effects like sleep or poison are removed).\n\nUntil the end of this unit's third turn while on the battlefield, this unit cannot be defeated by damage and heals for 25% of max HP at the end of every turn.\n\nAt the start of every turn while this unit is on the battlefield, if there is a sleeping, burning or frostburned unit on the battlefield:\n- this unit heals for 25% of max HP.\n- this unit will have its TU reduced to 0 at the end of the turn. This effect cannot trigger again until 50TU advances.\n- Allies gain 1 Spirit at the end of the turn."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Fire Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Fire units."
+            },
+            {
+                "SkillTitle": "Greataxe Mastery",
+                "SkillDescription": "Can use weapon skills of Greataxes in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greataxe"
+            }
+        },
+        "Conjures": [
+            "Imposter01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Do you believe in a world that lies within dreams?\nA world whose inhabitants can cross the veil\ninto ours...?\n\nI am Anastasia, Queen of the Kingdom of Uzlavia.\nLet me unveil a world sealed in dreams and ice."
+            ],
+            "Login": [
+                "Oh? Where are you off to? If you don't mind, may I accompany you?\nIn return, I'll grant you a fine, peaceful sleep."
+            ],
+            "Tap": [
+                "Mmm... there's a big flaw in this dish. It has too many carrots!\nMind if I remove them? It's fine, right? Right?",
+                "I have heard there is a word called \"oshi.\" It's an even stronger word than \"like.\"\nI've got someone I'm devoted to as well. I have a lot of merch too!",
+                "I heard the butler's voice... Quick, hide! I'm sorry for dragging you into this.\nBut... if I'm found... I'll be spanked..."
+            ],
+            "Idle": [
+                "Well then, time to practice the royal arts... Can't do it with people around...\nI wonder if there's anyone conveniently asleep nearby..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "EnemyTeamSleepingAlt": 1.05,
+                "TimeInCombat200": 1.01
+            },
+            "SkillUse": {
+                "Cold Steel": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Royal Blizzard": {
+                    "BaseWeight": 60,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyTeamThreeSleeping": 0.01,
+                        "EnemyTeamThreeSleepingAlt": 0.01,
+                        "EnemyTeamFourSleeping": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "2EnemiesIsMegaHealingBurn": 1,
+                        "3EnemiesIsMegaHealingBurn": 1,
+                        "EnemyHasNoSleepingInTeam": 1.5,
+                        "3EnemiesIsNotSleeping": 5,
+                        "1EnemySleepImmune": 200
+                    }
+                },
+                "Cold Decree": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "NoEnemyFrostbittenBurningOrSleeping": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "NotSurvived200TUButAllEnemiesSleepingOrFrostbitten": 2
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsBurning": 1.01,
+                        "IsSleeping": 1,
+                        "IsFrostbitten": 1,
+                        "IsSleepImmune": 0.89,
+                        "HPBelow50PercentAndIsSleeping": 1.02,
+                        "HPBelow50PercentAndIsFrostbitten": 1.03,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
+    },
+    "AnastasiaRegular02": {
+        "Name": "Anastasia",
+        "Name2": "Frostbound Princess",
+        "FullName": "Anastasia - Frostbound Princess",
+        "Profile": "From that point on, no one could discern what dwelled within her heart. Many believed that, unable to bear the weight of her grief, she had locked her emotions away. But the truth was otherwise. On that day—when she saw the god of death, her form stained with blood, her face cold as ice—she was irresistibly entranced.",
+        "Profile_Ascended": "A forbidden art had been passed down through the royal line of Uzlavia. It gives form to the dreams that dwell deep within human desire. Anastasia understood that she was not the only one; in the depths of their hearts, even the Knights of the Round Table longed for the coming of the god of death.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greatsword",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 505,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Water Attack Up",
+            "SkillDescription": "Allied Water element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Cold Steel",
+                "SkillDescription": "300% damage to 1 enemy, plus 150% for each time this skill has damaged a non-sleeping enemy while on the battlefield (max of 750% total damage). Then give 1 other random ally a Monarch Token. This attack ignores damage reduction effects.\n\nMonarch Tokens cannot stack. Any attack damage will remove Monarch Tokens.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Royal Blizzard",
+                "SkillDescription": "Grants all enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen if any enemy on the battlefield is not asleep (e.g. due to a Sleep Ward), all non-sleeping enemies are granted Frostburn, and the user will immediately get the next turn. This skill becomes locked for 150TU after use.\n\nWhen a unit has Frostburn and they get the turn, they will lose the turn as if they were sleeping, then Frostburn is removed and that unit is granted the Burn status effect. Frostburn is not a status effect, but effects that remove negative status effects will also remove Frostburn. Frostburn will end if the affected unit is defeated or leaves the battlefield. Frostburn cannot apply to boss units, and cannot stack. Burn will overwrite other status effects. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Cold Decree",
+                "SkillDescription": "300% damage to 2 enemies. 600% damage instead to targets that are sleeping, burning or frostburned. All non-sleeping enemies hit are then granted the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This attack ignores enemy damage reduction effects, skin passive skills, and the Counter Stance status effect.",
+                "TU": 60,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Blizzard Slash",
+                "SkillDescription": "500% damage to 1 enemy. 700% damage instead if the user has survived 200TU+ on the battlefield. This attack cannot be redirected by Guardians. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nLocked for 200TU after the user has entered the battlefield. This lock is ignored while all enemies on the battlefield are sleeping, burning or frostburned.",
+                "TU": 80,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Icy Princess",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies.\n\nWhenever this unit defeats any number of non-conjured enemies with an attack, an Imposter is added to the next in line of enemy reinforcements.\n\nEach time an ally with a Monarch token is damaged by an enemy attack (even if defeated), this unit will immediately have its TU reduced to 0.\n\nEach time this unit damages:\n- a non-sleeping enemy with an attack, a random ally has their current TU reduced by 10TU.\n- a sleeping, burning or frostburned enemy with an attack, this unit heals for 100% of max HP, and it will Endure the next damage that would defeat it with 1HP. Endure effects cannot stack."
+            },
+            {
+                "SkillTitle": "Cold Winds",
+                "SkillDescription": "This unit cannot be burned or poisoned.\n\nWhenever another Water or Fire ally enters the battlefield from reinforcements:\n- 2 random non-sleeping enemies are granted Frostburn.\n- 2 random non-burning allies on the battlefield are Purified (negative status effects like sleep or poison are removed).\n\nUntil the end of this unit's third turn while on the battlefield, this unit cannot be defeated by damage and heals for 25% of max HP at the end of every turn.\n\nAt the start of every turn while this unit is on the battlefield, if there is a sleeping, burning or frostburned unit on the battlefield:\n- this unit heals for 25% of max HP.\n- this unit will have its TU reduced to 0 at the end of the turn. This effect cannot trigger again until 50TU advances.\n- Allies gain 1 Spirit at the end of the turn."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Fire Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Fire units."
+            },
+            {
+                "SkillTitle": "Greataxe Mastery",
+                "SkillDescription": "Can use weapon skills of Greataxes in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greataxe"
+            }
+        },
+        "Conjures": [
+            "Imposter01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Do you believe in a world that lies within dreams?\nA world whose inhabitants can cross the veil\ninto ours...?\n\nI am Anastasia, Queen of the Kingdom of Uzlavia.\nLet me unveil a world sealed in dreams and ice."
+            ],
+            "Login": [
+                "Oh? Where are you off to? If you don't mind, may I accompany you?\nIn return, I'll grant you a fine, peaceful sleep."
+            ],
+            "Tap": [
+                "Mmm... there's a big flaw in this dish. It has too many carrots!\nMind if I remove them? It's fine, right? Right?",
+                "I have heard there is a word called \"oshi.\" It's an even stronger word than \"like.\"\nI've got someone I'm devoted to as well. I have a lot of merch too!",
+                "I heard the butler's voice... Quick, hide! I'm sorry for dragging you into this.\nBut... if I'm found... I'll be spanked..."
+            ],
+            "Idle": [
+                "Well then, time to practice the royal arts... Can't do it with people around...\nI wonder if there's anyone conveniently asleep nearby..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "EnemyTeamSleepingAlt": 1.05,
+                "TimeInCombat200": 1.01
+            },
+            "SkillUse": {
+                "Cold Steel": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Royal Blizzard": {
+                    "BaseWeight": 60,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyTeamThreeSleeping": 0.01,
+                        "EnemyTeamThreeSleepingAlt": 0.01,
+                        "EnemyTeamFourSleeping": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "2EnemiesIsMegaHealingBurn": 1,
+                        "3EnemiesIsMegaHealingBurn": 1,
+                        "EnemyHasNoSleepingInTeam": 1.5,
+                        "3EnemiesIsNotSleeping": 5,
+                        "1EnemySleepImmune": 200
+                    }
+                },
+                "Cold Decree": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "NoEnemyFrostbittenBurningOrSleeping": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "NotSurvived200TUButAllEnemiesSleepingOrFrostbitten": 2
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsBurning": 1.01,
+                        "IsSleeping": 1,
+                        "IsFrostbitten": 1,
+                        "IsSleepImmune": 0.89,
+                        "HPBelow50PercentAndIsSleeping": 1.02,
+                        "HPBelow50PercentAndIsFrostbitten": 1.03,
+                        "HPFull": 0.89
+                    }
+                },
+                "Blizzard Slash": {
+                    "BaseWeight": 4,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "TimeInCombat200": 2,
+                        "IsNotTimeInCombat200": 0.85,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsSummoned": 0.5,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1.5,
+                        "HPBelow25Percent": 1.25,
+                        "IsMechaSisterNew": 0.75,
+                        "IsProtectingAndNotAlone": 0.75,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB71": {
+                "RelationshipName": "Face the Elements",
+                "RelationshipFamily": [
+                    "DonQuixoteRegular01",
+                    "AnastasiaRegular01",
+                    "CatEaredFighter01",
+                    "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
     }
 }

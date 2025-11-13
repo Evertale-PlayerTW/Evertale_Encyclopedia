@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761810718,
+  "Time": 1762239889,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27373,6 +27373,62 @@
       "useLimit": 3,
       "spiritCost": 1,
       "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAAnastasiaRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3.5,
+        5,
+        6.5
+      ],
+      "config": "SingleAttackAAnastasiaRegular",
+      "tuCost": 60,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllEnemiesBuffAAnastasiaRegular",
+      "class": "Ability",
+      "config": "AllEnemiesBuffAAnastasiaRegular",
+      "tuCost": 100,
+      "useLimit": 0,
+      "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAAnastasiaRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        5,
+        5,
+        5
+      ],
+      "config": "DoubleAttackAAnastasiaRegular",
+      "tuCost": 60,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAAnastasiaRegular",
+      "class": "Ability",
+      "abilityScalor": 4,
+      "conditionalAbilityScalors": [
+        6
+      ],
+      "config": "SpecialAttackAAnastasiaRegular",
+      "tuCost": 80,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 1,
       "showConfirmation": 0
     }
   ]

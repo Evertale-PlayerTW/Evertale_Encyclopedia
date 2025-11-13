@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761808781,
+	"Time": 1762239280,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -41553,6 +41553,111 @@
 			"recommendEffectWhenUsable": 1,
 			"abilityEffect": "DonQuixoteSpeciail",
 			"useCondition": "HPBelow50Percent"
+		},
+		"SingleAttackAAnastasiaRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"damageFlags": ["DoNotWake","IgnoreArmor"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs":["Grant1OtherAllyMonarchTokenEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["StoreEnergyHidden"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "IsNotSleeping",
+				"buffBackMode": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["HealFull","BlockDeathOnce"],
+				"buffBackMode": true,
+				"applyConditions": "IsSleepingBurningOrFrostbitten",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"attackScalors": ["GoodIfCharged1","GoodIfCharged2","GoodIfCharged3"],
+			"conditionedAbilityEffects": ["AnastasiaAttack1","AnastasiaAttack1","AnastasiaAttack1"],
+			"abilityEffect": "AnastasiaAttack1",
+			"recommendEffectWhenUsable": -1
+		},
+		"AllEnemiesBuffAAnastasiaRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["SleepForced"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs":["GrantExtraTurnToSelfIfNoSleepingEnemiesEBB","AnastasiaRegularCooldown150","GrantFrostBiteToNonSleepingEnemiesEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"abilityEffect": "AnastasiaAllSleap",
+			"flags": ["Sleep", "NoDamage"],
+			"useCondition": "NotInstantCooldown"
+		},
+		"DoubleAttackAAnastasiaRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["DreamhuntDamageBoost"],
+				"damageFlags": ["DreamDamage","DoNotWake","IgnoreSkin","IgnoreArmor"]
+			},{
+				"buffs":["SleepForced"],
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"applyConditions": "IsNotSleeping",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["HealFull","BlockDeathOnce"],
+				"buffBackMode": true,
+				"applyConditions": "IsSleepingBurningOrFrostbitten",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"flags": ["Dreamhunt","Sleep"],
+			"abilityEffect": "AnastasiaFrozen",
+			"attackScalors":["GoodVsSleeping","GoodVsBurn","GoodVsFrostbite"],
+			"conditionedAbilityEffects": ["AnastasiaFrozen","AnastasiaFrozen","AnastasiaFrozen"],
+			"recommendEffectWhenUsable": -1
+		},
+		"SpecialAttackAAnastasiaRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["DoNotWake","IgnoreArmor","HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["HealFull","BlockDeathOnce"],
+				"buffBackMode": true,
+				"applyConditions": "IsSleepingBurningOrFrostbitten",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"abilityEffect": "AnastasiaSpecial",
+			"attackScalors":["TimeInCombat200"],
+			"conditionedAbilityEffects": ["AnastasiaSpecial","AnastasiaSpecial"],
+            "recommendEffectWhenUsable": -1,
+			"flags": ["Survivor", "Duration"],
+            "useCondition": "Survived200TUOrAllEnemiesSleepingOrFrostbitten"
 		}
 	}
 }

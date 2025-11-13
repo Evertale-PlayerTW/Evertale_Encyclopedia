@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761810563,
+  "Time": 1762239889,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15323,7 +15323,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "DonQuixoteSpear02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "DonQuixoteSpear02",
@@ -15343,7 +15344,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "DonQuixoteSpear03",
       "evolveFrom": "DonQuixoteSpear01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "DonQuixoteSpear03",
@@ -15362,6 +15364,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "DonQuixoteSpear02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "FrostBladeGreatSword01",
+      "family": "FrostBladeGreatSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4EnemiesIsSleepingOrBurning2"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 480,
+      "baseMaxHp": 2975,
+      "bundleNumber": 9,
+      "weaponPref": "GreatSword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "FrostBladeGreatSword02",
+      "cost": 11
+    },
+    {
+      "name": "FrostBladeGreatSword02",
+      "family": "FrostBladeGreatSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5EnemiesIsSleepingOrBurning2"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 601,
+      "baseMaxHp": 3495,
+      "bundleNumber": 9,
+      "weaponPref": "GreatSword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "FrostBladeGreatSword03",
+      "evolveFrom": "FrostBladeGreatSword01",
+      "cost": 17
+    },
+    {
+      "name": "FrostBladeGreatSword03",
+      "family": "FrostBladeGreatSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6EnemiesIsSleepingOrBurning2"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 648,
+      "baseMaxHp": 3760,
+      "bundleNumber": 9,
+      "weaponPref": "GreatSword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "FrostBladeGreatSword02",
       "cost": 23
     }
   ]
