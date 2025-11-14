@@ -819,7 +819,8 @@
 			z-index: 400;
 		}
 
-		.sortableListRowInfo {
+		.sortableListRowInfo,
+		.sortableListRowImg {
 			cursor: pointer;
 		}
 
@@ -1674,7 +1675,7 @@
 
 	<template id="template-sortableListRow">
 		<tr data-id="">
-			<td class="sortableListRowImg">
+			<td class="sortableListRowImg" onclick="selectToDisplay(this)">
 				<div class="headshotBox">
 					<img src="">
 				</div>
