@@ -3361,6 +3361,7 @@
 		function setSummonableMonsters(id) {
 			if (wholeData[currentDisplayCategory][id]["Conjures"]) {
 				document.getElementById("summonableMonstersArea").classList.remove("hidden");
+				document.getElementById("summonableMonstersContent").innerHTML = "";
 				wholeData[currentDisplayCategory][id]["Conjures"].forEach((conjureID) =>
 					document.getElementById("summonableMonstersContent").append(setNameAndLink(conjureID, "Monster", true, false)));
 			} else {
