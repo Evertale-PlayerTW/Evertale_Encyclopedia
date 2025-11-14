@@ -1406,7 +1406,7 @@
 				</div>
 				<div class="infoRow hidden" id="freeEvo">
 					<div class="infoTitle" data-i18n="FreeEvo"></div>
-					<div class="infoValue"></div>
+					<div class="infoValue" style="display: grid;"></div>
 				</div>
 				<div class="infoRow hidden" id="visible">
 					<div class="infoTitle" data-i18n="Visible"></div>
@@ -1483,7 +1483,7 @@
 				<div class="areaTitle" id="summonableMonstersTitle" data-i18n="Summonable"></div>
 				<div class="contentBox">
 					<button class="collapseButton" onclick="collapseContent(this)">⊖</button>
-					<div id="summonableMonstersContent"></div>
+					<div id="summonableMonstersContent" style="display: grid;"></div>
 				</div>
 			</div>
 
@@ -3122,7 +3122,7 @@
 					true,
 					false
 				);
-				document.querySelector("#freeEvo .infoValue").innerHTML = `${evoLv}<br>${evoTarget.outerHTML}`;
+				document.querySelector("#freeEvo .infoValue").append(evoLv, evoTarget)
 			} else {
 				document.getElementById("freeEvo").classList.add("hidden");
 			}
@@ -3356,10 +3356,8 @@
 		function setSummonableMonsters(id) {
 			if (wholeData[currentDisplayCategory][id]["Conjures"]) {
 				document.getElementById("summonableMonstersArea").classList.remove("hidden");
-				const combination = wholeData[currentDisplayCategory][id]["Conjures"]
-					.map((conjureID) => setNameAndLink(conjureID, "Monster", true, false).outerHTML)
-					.join("<br>");
-				document.getElementById("summonableMonstersContent").innerHTML = combination;
+				wholeData[currentDisplayCategory][id]["Conjures"].forEach((conjureID) =>
+					document.getElementById("summonableMonstersContent").append(setNameAndLink(conjureID, "Monster", true, false)));
 			} else {
 				document.getElementById("summonableMonstersArea").classList.add("hidden");
 			}
