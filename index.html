@@ -860,6 +860,10 @@
 			line-height: 1;
 		}
 
+		.waitImgLoadDone {
+			opacity: 0;
+		}
+
 		.headshotBlockN {
 			background: url("icon/BackgroundNBlock.png") center/cover no-repeat;
 		}
@@ -3437,7 +3441,10 @@
 			if (forceTrue || imageSource[img_category]["filelist"].includes(imgPath)) {
 				const newImage = document.createElement("img")
 				newImage.src = `${imageSource[img_category]["domain"]}${imgPath}`.toLowerCase();
-				if (bgClass !== "") { newImage.onload = () => { newImage.classList.add(bgClass); }; }
+				if (bgClass !== "") {
+					newImage.classList.add(bgClass, "waitImgLoadDone")
+					newImage.onload = () => { newImage.classList.remove("waitImgLoadDone"); };
+				}
 				return newImage;
 			} else {
 				return null;
