@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1762481420,
+    "Time": 1763348869,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27594,11 +27594,7 @@
 	"WaterOrFireMarkedAnastasiaRegular":{
 		"class": "MonsterConditions",
 		"buffStackNames": ["WaterOrFireEntryMarkAnastasiaRegular"],
-		"elements": ["Water","Fire"],
-		"not": {
-			"class": "MonsterConditions",
-			"summoned": true
-		}
+		"elements": ["Water","Fire"]
 	},
 	"1EnemyIsNotSleeping":{
 		"class": "MonsterConditions",
