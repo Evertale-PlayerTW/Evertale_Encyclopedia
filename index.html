@@ -895,7 +895,7 @@
 				<option lang="fr" value="French" data-shortname="FR">Français (FR)</option>
 				<option lang="de" value="German" data-shortname="DE">Deutsch (DE)</option>
 				<option lang="it" value="Italian" data-shortname="IT">Italiano (IT)</option>
-				<option lang="ko" value="Korean" data-shortname="KO">한국어 (KR)</option>
+				<option lang="ko" value="Korean" data-shortname="KR">한국어 (KR)</option>
 				<option lang="es" value="Spanish" data-shortname="ES">Español (ES)</option>
 			</select>
 			<div class="notShowJustForPreload">
@@ -1711,11 +1711,11 @@
 		async function initLang() {
 			siteLangData = await fetchCheck("SiteLocalization.json").then((res) => res.json());
 
-			const lang = new URLSearchParams(window.location.search).get("lang");
+			const lang = new URLSearchParams(window.location.search).get("lang")?.toLowerCase();
 			if (lang) {
 				const languagePick = document.getElementById("languagePick");
 				for (let option of languagePick.options) {
-					if (option.value === lang || option.dataset.shortname === lang) {
+					if (option.value?.toLowerCase() === lang || option.dataset.shortname?.toLowerCase() === lang) {
 						document.getElementById("languagePick").value = option.value;
 						setPickLang();
 						return;
