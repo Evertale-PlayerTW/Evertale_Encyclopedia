@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1762239328,
+	"Time": 1763685479,
 	"AttackScalor": {
 		"TimeInCombat450":
 		{
@@ -26,6 +26,11 @@
 		{
 			"class":"AttackScalor",
 			"sourceCondition":"TimeInCombat150"
+		},
+		"TimeInCombat100":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"TimeInCombat100"
 		},
 		"HPBelow50Percent":
 		{
@@ -647,6 +652,22 @@
 		"GoodVsFrostbite":{
 			"class":"AttackScalor",
 			"targetCondition":"IsFrostbitten"
+		},
+		"GoodWith1BurningUnit":{
+			"class": "AttackScalor",
+			"sourceCondition": "AtLeast1BurningInBattle"
+		},
+		"GoodWith2BurningsUnits":{
+			"class": "AttackScalor",
+			"sourceCondition": "AtLeast2BurningInBattle"
+		},
+		"GoodWith3BurningsUnits":{
+			"class": "AttackScalor",
+			"sourceCondition": "AtLeast3BurningInBattle"
+		},
+		"GoodWith4BurningsUnits":{
+			"class": "AttackScalor",
+			"sourceCondition": "AtLeast4BurningInBattle"
 		}
 	}
 }

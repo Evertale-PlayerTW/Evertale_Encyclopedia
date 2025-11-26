@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1761633745,
+  "Time": 1763686178,
   "Monster": [
     {
       "name": "Mibone01",
@@ -22656,6 +22656,381 @@
       "speed": 505,
       "element": "Water",
       "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "BahamutGirlRegularBoss01",
+      "class": "Monster",
+      "family": "BahamutGirlRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackABahamutGirlRegularBoss",
+        "1": "AllAllyBuffABahamutGirlRegularBoss",
+        "2": "DoubleAttackABahamutGirlRegularBoss"
+      },
+      "passives": {
+        "0": "SwoopInPassiveABahamutGirlRegularBoss",
+        "1": "BarrierPassiveABahamutGirlRegularBoss",
+        "2": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1257,
+      "baseMaxHp": 20000,
+      "speed": 422,
+      "element": "Life",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          13,
+          14
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          5,
+          6
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "BahamutGirlRegularBoss03",
+      "class": "Monster",
+      "family": "BahamutGirlRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackABahamutGirlRegularBoss",
+        "1": "AllAllyBuffABahamutGirlRegularBoss",
+        "2": "DoubleAttackABahamutGirlRegularBoss",
+        "3": "SelfBuffABahamutGirlRegularBoss"
+      },
+      "passives": {
+        "0": "SwoopInPassiveABahamutGirlRegularBoss",
+        "1": "BarrierPassiveABahamutGirlRegularBoss",
+        "2": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 3000,
+      "baseMaxHp": 190500,
+      "speed": 422,
+      "element": "Life",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "ElmKouhaiRegularBoss01",
+      "class": "Monster",
+      "family": "ElmKouhaiRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAElmKouhaiRegularBoss",
+        "1": "AllAllyBuffAElmKouhaiRegularBoss",
+        "2": "AllEnemyBuffAElmKouhaiRegularBoss",
+        "3": "RandomAttackAElmKouhaiRegularBoss"
+      },
+      "passives": {
+        "0": "IfBurningPassiveAElmKouhaiRegularBoss",
+        "1": "KnockbackImmunity",
+        "2": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 498,
+      "element": "Fire",
+      "weaponPref": "Katana",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "ElmKouhaiRegularBoss03",
+      "class": "Monster",
+      "family": "ElmKouhaiRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAElmKouhaiRegularBoss",
+        "1": "AllAllyBuffAElmKouhaiRegularBoss",
+        "2": "AllEnemyBuffAElmKouhaiRegularBoss",
+        "3": "RandomAttackAElmKouhaiRegularBoss"
+      },
+      "passives": {
+        "0": "IfBurningPassiveAElmKouhaiRegularBoss",
+        "1": "BuffedEnemyPassiveAElmKouhaiRegularBoss",
+        "2": "KnockbackImmunity",
+        "3": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 4000,
+      "baseMaxHp": 178000,
+      "speed": 498,
+      "element": "Fire",
+      "weaponPref": "Katana",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "SiegfriedRegularBoss01",
+      "class": "Monster",
+      "family": "SiegfriedRegularBoss",
+      "activeSkills": {
+        "0": "SingleHellballASatanRegularBoss",
+        "1": "SelfBuffASiegfriedRegularBoss",
+        "2": "DoubleAttackASiegfriedRegularBoss"
+      },
+      "passives": {
+        "0": "DragonHeartPassiveASiegfriedRegularBoss",
+        "1": "FafnirsBanePassiveASiegfriedRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 509,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "SiegfriedRegularBoss03",
+      "class": "Monster",
+      "family": "SiegfriedRegularBoss",
+      "activeSkills": {
+        "0": "SingleHellballASatanRegularBoss",
+        "1": "SelfBuffASiegfriedRegularBoss",
+        "2": "DoubleAttackASiegfriedRegularBoss",
+        "3": "AllAttackASiegfriedRegularBoss"
+      },
+      "passives": {
+        "0": "DragonHeartPassiveASiegfriedRegularBoss",
+        "1": "FafnirsBanePassiveASiegfriedRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 3000,
+      "baseMaxHp": 178000,
+      "speed": 509,
+      "element": "Water",
+      "weaponPref": "Sword",
       "weaponPivotIndex": 0,
       "walkSound": "TestSound",
       "secure": 1,

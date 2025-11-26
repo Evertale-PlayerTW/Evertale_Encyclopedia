@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1762481443,
+  "Time": 1763685479,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -25602,7 +25602,7 @@
 						"On1HPIsSleepingAndNotProtected": 1.1,
 						"On1HPIsSleeping": 2.5,
 						"HPBelow50PercentAndIsSleeping": 1.25
-}
+				}
     },
     "RoyalDriveAElizabethRegular_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 2.0,
@@ -25982,7 +25982,7 @@
 								"CurrentTUGreaterThan300": 0.33,
 								"StunImmuneAndTimeStopNOTActiveChronosRegular": 0.75,
 								"SingleSpearStunNotLOCKEDAndNotStunImmune": 2.5
-    }
+					}
     },
     "TimeStopAChronosRegular_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 7500.0
@@ -26002,7 +26002,7 @@
 								"CurrentTULessThan299": 0.0,
 								"NotImposterOrTokenCurrentTUGreaterThan300": 5.0,
 								"CurrentTUGreaterThan300": 2.0
-}
+					}
     },
     "FinalVerdictAChronosRegular_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 1.01,
@@ -26026,7 +26026,7 @@
 								"IsProtected": 0.50,
 								"IsProtectedNotProtector": 0.50,
 								"BattleTimeOver1IsNotProtecting": 1.01
-}
+					}
     },
     "AllAttackARolotiaDark_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 1.0,
@@ -26809,7 +26809,7 @@
 						"IsPloyed": 0.70,
 						"On1HPNotProtected": 100,
 						"On1HPIsProtecting": 100
-    		}
+    }
     },
     "SpecialDoubleAttackAOniSchoolDarkBoss_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 1.0,
@@ -26830,7 +26830,7 @@
 						"IsPoisoned": 1.01,
 						"IsLethalPoison": 1.01,
 						"HPBelow50Percent": 1.0
-				}
+}
     },
     "DoubleAttackAElminaModernBoss_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 1.0,
@@ -26853,7 +26853,7 @@
 						"IsMordredRegularAndBurning": 0.75,
 						"IsPloyed": 0.70,
 						"HitAlreadyElminaModern": 0.5
-				}
+}
     },
     "SuperModeAElminaModernBoss_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 2500.0
@@ -27534,7 +27534,138 @@
 								"IsMechaSisterNew": 0.75,
 								"IsProtectingAndNotAlone": 0.75,
 								"HPFull": 0.89
+						}
+    },
+    "SingleAttackABahamutGirlRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 1.0,
+						"AllEnemiesIsStealth": 3.0
+   			 },
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.35,
+						"IsSummoned": 0.5,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsProtectedNotProtector": 0.75,
+						"IsPloyed": 0.85,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow50Percent": 1.0,
+						"IsMordredRegularAndBurning": 0.5,
+						"IsBurning": 0.89,
+						"IsSpreadPlague": 0.89
 					}
+    },
+    "AllAllyBuffABahamutGirlRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5000.0
+    },
+    "DoubleAttackABahamutGirlRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesAlwaysDodging": 0.0,
+						"AllEnemiesNotProtectingDodging": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"AllEnemiesIsStealthAlt": 0.0
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.5,
+						"IsAlwaysDodging": 0.25,
+						"NotProtectingDodging": 0.25,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"HPBelow50Percent": 1.01,
+						"HPFull": 0.89,
+            "Atleast1EnemyOn1HP": 10
+					}
+    },
+    "SelfBuffABahamutGirlRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 250.0
+    },
+    "SingleAttackAElmKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingMonsterConditions":{
+						"IsImposter": 0.89,
+						"IsMirage": 0.35,
+						"IsOdinRaven": 0.4,
+						"IsSummoned": 0.75,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.85,
+						"IsBurning": 1.0,
+						"IsJeanneDarkSwimsuit": 0.89
+					}
+    },
+    "AllAllyBuffAElmKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2500.0
+    },
+    "AllEnemyBuffAElmKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 75,
+					"aiTargetingSourceMonsterConditions":{
+							"EnemyHas3Imposters": 0.0,
+							"AllEnemiesImposters": 0.0,
+							"AllEnemiesImpostersAlt": 0.0
+					}
+    },
+    "RandomAttackAElmKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1000.0
+    },
+    "SelfBuffASiegfriedRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2500.0
+    },
+    "DoubleAttackASiegfriedRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.5,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesAlwaysDodging": 0.0,
+						"AllEnemiesNotProtectingDodging": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"Kills0": 0.5,
+						"Kills2": 1.0,
+						"Kills3": 1.0
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.35,
+						"IsAlwaysDodging": 0.25,
+						"NotProtectingDodging": 0.25,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.89,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow25Percent": 1.0,
+						"HPBelow50Percent": 1.0,
+						"HPFull": 0.89,
+						"IsProtected": 1.0
+					}
+    },
+    "AllAttackASiegfriedRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 75.0,
+					"aiTargetingSourceMonsterConditions": {
+								"EnemyHas3Imposters": 0.0,
+								"AllEnemiesImposters": 0.0,
+								"AllEnemiesImpostersAlt": 0.0,
+								"AllEnemiesIsStealth": 0.0,
+								"AllEnemiesIsStealthAlt": 0.0,
+								"EnemyTeamHas3ConjuredAllies": 0.0,
+								"EnemyTeamHas3ConjuredAlliesAlt": 0.0,
+								"IsPiercing": 1.01
+						}
     }
 }
 }
