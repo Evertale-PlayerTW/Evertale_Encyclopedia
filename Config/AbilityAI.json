@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1763685479,
+  "Time": 1764036691,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -27666,6 +27666,61 @@
 								"EnemyTeamHas3ConjuredAlliesAlt": 0.0,
 								"IsPiercing": 1.01
 						}
+    },
+    "SingleAttackABahamutGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 1.0,
+						"AllEnemiesIsStealth": 3.0
+   			 },
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.35,
+						"IsSummoned": 0.5,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsProtectedNotProtector": 0.75,
+						"IsPloyed": 0.85,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow50Percent": 1.0,
+						"IsMordredRegularAndBurning": 0.5,
+						"IsBurning": 0.89,
+						"IsSpreadPlague": 0.89
+					}
+    },
+    "AllAllyBuffABahamutGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5000.0
+    },
+    "DoubleAttackABahamutGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesAlwaysDodging": 0.0,
+						"AllEnemiesNotProtectingDodging": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"AllEnemiesIsStealthAlt": 0.0
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.5,
+						"IsAlwaysDodging": 0.25,
+						"NotProtectingDodging": 0.25,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"HPBelow50Percent": 1.01,
+						"HPFull": 0.89,
+                        "Atleast1EnemyOn1HP": 10
+					}
+    },
+    "SelfBuffABahamutGirlRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 250.0
     }
 }
 }

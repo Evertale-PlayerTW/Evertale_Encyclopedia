@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1762239889,
+  "Time": 1763686181,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15384,7 +15384,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "FrostBladeGreatSword02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "FrostBladeGreatSword02",
@@ -15404,7 +15405,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "FrostBladeGreatSword03",
       "evolveFrom": "FrostBladeGreatSword01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "FrostBladeGreatSword03",
@@ -15423,6 +15425,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "FrostBladeGreatSword02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "CrystalDragonAxe01",
+      "family": "CrystalDragonAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4Target0Kill"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 516,
+      "baseMaxHp": 2795,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "CrystalDragonAxe02",
+      "cost": 11
+    },
+    {
+      "name": "CrystalDragonAxe02",
+      "family": "CrystalDragonAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5Target0Kill"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 630,
+      "baseMaxHp": 3350,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "CrystalDragonAxe03",
+      "evolveFrom": "CrystalDragonAxe01",
+      "cost": 17
+    },
+    {
+      "name": "CrystalDragonAxe03",
+      "family": "CrystalDragonAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6Target0Kill"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 681,
+      "baseMaxHp": 3595,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "CrystalDragonAxe02",
       "cost": 23
     }
   ]

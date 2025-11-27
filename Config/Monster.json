@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1762239831,
+  "Time": 1763686181,
   "Monster": [
     {
       "name": "HammerPantsThief01",
@@ -68734,6 +68734,7 @@
       "consolationMultiplier": 0,
       "battleOrbImageFlip": 0,
       "attackType": "Bash",
+      "visible": 1,
       "summonableMonsters": [
         "Imposter01"
       ],
@@ -68869,6 +68870,223 @@
           14,
           15,
           16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "victoryVoices": [
+        25,
+        26
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "BahamutGirlRegular01",
+      "family": "BahamutGirlRegular",
+      "class": "Monster",
+      "leaderBuff": "AttackUpLifeD",
+      "leaderBuffCondition": "IsLife",
+      "activeSkills": {
+        "0": "SingleAttackABahamutGirlRegular",
+        "1": "AllAllyBuffABahamutGirlRegular",
+        "2": "DoubleAttackABahamutGirlRegular"
+      },
+      "passives": {
+        "0": "SwoopInPassiveABahamutGirlRegular",
+        "1": "BarrierPassiveABahamutGirlRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "EarthMinusDamageLv3",
+        "5": "AddWeaponPrefSword"
+      },
+      "cost": 28,
+      "baseAttack": 1221,
+      "baseMaxHp": 5105,
+      "speed": 434,
+      "element": "Life",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "superEvolve1": "BahamutGirlRegular02",
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 0,
+      "attackType": "Bash",
+      "skillVoices": {
+        "0": [
+          13,
+          14
+        ],
+        "1": [
+          1,
+          2
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          5,
+          6
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ],
+      "victoryVoices": [
+        25
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "BahamutGirlRegular02",
+      "family": "BahamutGirlRegular",
+      "class": "Monster",
+      "leaderBuff": "AttackUpLifeD",
+      "leaderBuffCondition": "IsLife",
+      "activeSkills": {
+        "0": "SingleAttackABahamutGirlRegular",
+        "1": "AllAllyBuffABahamutGirlRegular",
+        "2": "DoubleAttackABahamutGirlRegular",
+        "3": "SelfBuffABahamutGirlRegular"
+      },
+      "passives": {
+        "0": "SwoopInPassiveABahamutGirlRegular",
+        "1": "BarrierPassiveABahamutGirlRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "EarthMinusDamageLv3",
+        "5": "AddWeaponPrefSword"
+      },
+      "cost": 34,
+      "baseAttack": 1414,
+      "baseMaxHp": 7350,
+      "speed": 434,
+      "element": "Life",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "evolveFrom": "BahamutGirlRegular01",
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 0,
+      "attackType": "Bash",
+      "cosmoName": "BahamutGirlRegular03",
+      "skillVoices": {
+        "0": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          5,
+          6,
+          7,
+          8
         ]
       },
       "damageVoices": [

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1764056913,
+	"Time": 1764134385,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -41897,6 +41897,110 @@
 			"attackScalors":["TimeInCombat100"],
 			"conditionedAbilityEffects": ["SiegfriedSnowman","SiegfriedSnowman"],
             "useCondition": "Survived100TUOrAllEnemiesSleepingOrFrostbitten"
+		},
+		"SingleAttackABahamutGirlRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath"],
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["Burn","SpreadPlagueBurn"],
+				"chance": 1.0,
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"attackScalors": ["GoodIfCharged1","GoodIfCharged2","GoodIfCharged3"],
+			"conditionedAbilityEffects": ["BahamutGirlAttack","BahamutGirlAttack","BahamutGirlAttack"],
+			"abilityEffect": "BahamutGirlAttack",
+			"flags": ["Burn"],
+			"recommendEffectWhenUsable": -1
+		},
+		"AllAllyBuffABahamutGirlRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["Heal800Percent","IgnoreDamageReduction1TurnOnly","AttackPlus50Percent3TurnsOnly"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["Burn"],
+				"applyToTargetType": "Friendly",
+				"applyConditions": "IsBurnBlastOrForceOrFire",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["RemoveBurnMegaHealingBurnEdition","MegaHealingBurn","BahamutGirlRegularCooldown100"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["RemoveMegaHealingBurnApplyHealingBurn"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "BahamutBuff",
+			"flags": ["Burn","ApplyStatusToSelf","HealingBurn","Healer"],
+			"useCondition": "TimeInCombat100NotInstantCooldown"
+		},
+		"DoubleAttackABahamutGirlRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreSkin","HardIgnoreBlockDeath"],
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs":["Burn"],
+				"applyConditions": "IsNotBurning",
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["RemoveDoubleAttackABahamutGirlRegularEnabled"],
+				"applyToTargetType": "Source",
+				"chance": 1.0,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "BahamutBreath",
+			"attackScalors": ["GoodWith1BurningUnit","GoodWith2BurningsUnits","GoodWith3BurningsUnits","GoodWith4BurningsUnits"],
+			"conditionedAbilityEffects": ["BahamutBreath","BahamutBreath","BahamutBreath","BahamutBreath"],
+			"flags": ["Burn","BurnForce"],
+			"recommendEffectWhenUsable": -1,
+			"useCondition": "Active3EnabledABahamutGirlRegular"
+		},
+		"SelfBuffABahamutGirlRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["StoreEnergyHoldGround","StoreEnergyHoldGround","StoreEnergyHoldGround","RemoveBurnMegaHealingBurnEdition","MegaHealingBurn",
+					"HealAllAllies800PercentOfAttackEBB"],
+				"applyToSourceOnly": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["RemoveMegaHealingBurnApplyHealingBurn","Minus10TUOnSelfForEachBurningAlly","GrantAllOtherNonSleepingAlliesTurnEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"sourceEventType": "Hit",
+			"flags": ["GiveTurn", "Burn", "HealingBurn","ApplyStatusToSelf"],
+			"recommendEffectWhenUsable": 1,
+			"abilityEffect": "BahamutFireWing",
+			"useCondition": "NotCharged2"
 		}
 	}
 }

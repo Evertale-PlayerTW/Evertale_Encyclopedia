@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1764056928,
+    "Time": 1764134430,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27843,6 +27843,28 @@
 		"or":{
 			"class": "MonsterConditions",
 			"buffStackNames": ["FrostBurn"]
+		}
+	},
+	"IsBurningAndNoOtherBarrierShieldActiveBahamutGirlRegular": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Burn"],
+		"not": {
+			"class": "MonsterConditions",
+			"monsterTags": ["BarrierShield"],
+			"or": {
+				"class": "MonsterConditions",
+				"monsterTags": ["MermaidBarrier"],
+				"or": {
+					"class": "MonsterConditions",
+					"myTeamMonsterConditionMatchesNeeded":{
+						"SourceBoundBarrierActive": 1,
+					"or": {
+						"class": "MonsterConditions",
+						"monsterTags": ["MechaSisterNewBarrier"]
+						}
+					}
+				}
+			}
 		}
 	}
 }

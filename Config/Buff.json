@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1764056922,
+	"Time": 1764134399,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -74295,6 +74295,160 @@
 			"showAsTimer": true,
 			"tags": ["StunImmuneIfEnemyIsFireBurnBlastOrForce","StunImmuneIfAllyIsFireBurnBlastOrForce"],
 			"iconSpriteName": "IconRedStunInvalidLightning01"
+		},
+		"AttackUp4Target0Kill": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "Kills0",
+				"scalor": 0.07
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5Target0Kill": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "Kills0",
+				"scalor": 0.1
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6Target0Kill": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "Kills0",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"SwoopInPassiveABahamutGirlRegular": {
+			"class": "Buff",
+			"stackName": "SwoopInPassiveABahamutGirlRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["BlockDeathByBuffDamage","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","BurnShieldOnce",
+					"StoreEnergyHoldGround","StoreEnergyHoldGround","StoreEnergyHoldGround", "HoldGroundEnergyFullyChargedStartShowInStatus", "Charged1IconShowInStatus", "Charged2IconShowInStatus", "Charged3IconShowInStatus"]
+			},{
+				"sourceBuffs": ["DoubleAttackABahamutGirlRegularEnabled"],
+				"deadMonsterConditions": "NotTransformingOrMirage"
+			},{
+				"selfBuffs": ["IfChargedGiveTurnAndFullHeal"],
+				"spreadCondition": "IsBurning",
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"tags": ["GoodToBurn"],
+			"duration": -1
+		},
+		"BarrierPassiveABahamutGirlRegular": {
+			"class": "Buff",
+			"stackName": "BarrierPassiveABahamutGirlRegular",
+			"behaviors": ["ModifyDamage","EnterBattleBuff","OthersEnterBattle","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"percent": 0.65,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}, {
+				"sourceBuffs": ["StunImmunity","KnockbackImmunity","HeatedBarrierIfBurning"],
+				"allyBuffs": ["HeatedBarrierIfBurning"]
+			},{
+				"sameTeam": true,
+				"contextBuffs": ["HeatedBarrierIfBurning"]
+			},{
+				"sameTeam": false,
+				"selfBuffs": ["HealFull"],
+				"allyBuffs": ["HealFull"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sameTeam": false,
+				"selfBuffs": ["Burn"],
+				"allyBuffs": ["Burn"],
+				"spreadCondition": "IsBurnBlastOrForceOrFire",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"		
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"IfChargedGiveTurnAndFullHeal": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","HealOkayGokuBride","RemoveEnergyCount1"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "IsChargedAtAll"
+			},{
+				"selfBuffs": ["HealFull"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "IsHealOKGokuBride"
+			},{}],
+			"stackName": "IfChargedGiveTurnAndFullHeal",
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"DoubleAttackABahamutGirlRegularEnabled": {
+			"class": "Buff",
+			"stackName": "DoubleAttackABahamutGirlRegularEnabled",
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveDoubleAttackABahamutGirlRegularEnabled": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "DoubleAttackABahamutGirlRegularEnabled"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"HeatedBarrierIfBurning":{
+			"class": "Buff",
+			"stackName": "HeatedBarrier",
+			"behaviors": [ "ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "IsBurningAndNoOtherBarrierShieldActiveBahamutGirlRegular",
+				"percent": 0.65,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"iconSpriteName": "IconGoldArmor01",
+			"tags": ["BigDamageMinus","HeatedBarrier"]
+		},
+		"BahamutGirlRegularCooldown100":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
 		}
 	}
 }

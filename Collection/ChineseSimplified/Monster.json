@@ -12989,6 +12989,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -13307,6 +13318,17 @@
                     "BugWarrior01",
                     "MartialArtistGirl01",
                     "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -17771,6 +17793,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -18125,6 +18158,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -24095,6 +24139,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -24357,6 +24412,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -111553,7 +111619,7 @@
             },
             {
                 "SkillTitle": "淡紫结界",
-                "SkillDescription": "此单位不处于燃烧状态时免疫眩晕。\n仅当此单位在场时，所有场上己方单位受到敌人攻击的伤害减少35%。此效果不与其它屏障类减伤效果叠加。\n每当一个队友收到攻击伤害时，随机1个不处于燃烧状态的敌人陷入持续200TU的急性剧毒状态。急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖。"
+                "SkillDescription": "此单位不处于燃烧状态时免疫眩晕。\n仅当此单位在场时，所有场上己方单位受到敌人攻击的伤害减少35%。此效果可与其他非屏障类减伤效果叠加。\n每当一个队友收到攻击伤害时，随机1个不处于燃烧状态的敌人陷入持续200TU的急性剧毒状态。急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -111948,7 +112014,7 @@
             },
             {
                 "SkillTitle": "治愈之声",
-                "SkillDescription": "每当此单位回合开始时，若全部敌人处于睡眠状态，则此单位在场期间下一次攻击造成的伤害无视非BOSS单位防止目标被击败的效果或被动技能。此效果每次触发后需要过100TU后才能再次触发，且效果次数无法叠加。\n此单位进场时场上全部队友获得持续100TU的珊瑚屏障效果。拥有珊瑚屏障效果的单位受到敌人攻击的伤害减少35%。此效果不与其它屏障类减伤效果叠加。\n此单位在场期间，每当此单位或己方水盾卫回合结束时，场上全部队友获得以下效果：\n·持续100TU的珊瑚屏障。\n·移除中毒（包括致命毒）或燃烧状态。\n·回复最大生命值的30%。\n场上存在其他队友且拥有珊瑚屏障效果的此单位在受到超过其剩余生命值的伤害时，有20%概率会以1点生命值幸存。此单位每觉醒一次额外提高20%幸存的概率。"
+                "SkillDescription": "每当此单位回合开始时，若全部敌人处于睡眠状态，则此单位在场期间下一次攻击造成的伤害无视非BOSS单位防止目标被击败的效果或被动技能。此效果每次触发后需要过100TU后才能再次触发，且效果次数无法叠加。\n此单位进场时场上全部队友获得持续100TU的珊瑚屏障效果。拥有珊瑚屏障效果的单位受到敌人攻击的伤害减少35%。此效果可与其他非屏障类减伤效果叠加。\n此单位在场期间，每当此单位或己方水盾卫回合结束时，场上全部队友获得以下效果：\n·持续100TU的珊瑚屏障。\n·移除中毒（包括致命毒）或燃烧状态。\n·回复最大生命值的30%。\n场上存在其他队友且拥有珊瑚屏障效果的此单位在受到超过其剩余生命值的伤害时，有20%概率会以1点生命值幸存。此单位每觉醒一次额外提高20%幸存的概率。"
             },
             {
                 "SkillTitle": "提升攻击力Lv3",
@@ -115255,7 +115321,7 @@
             },
             {
                 "SkillTitle": "量子屏障",
-                "SkillDescription": "此单位不能从场上回到援军。每当场上1个其他非召唤物队友被击败或被牺牲后，此单位获得坚韧效果。\n敌方单位每对一个非守卫者的己方单位造成伤害，眩晕该敌人50TU。\n仅当此单位在场时，所有场上其他己方单位受到敌人攻击的伤害减少35%。此效果不与其它屏障类减伤效果叠加。"
+                "SkillDescription": "此单位不能从场上回到援军。每当场上1个其他非召唤物队友被击败或被牺牲后，此单位获得坚韧效果。\n敌方单位每对一个非守卫者的己方单位造成伤害，眩晕该敌人50TU。\n仅当此单位在场时，所有场上其他己方单位受到敌人攻击的伤害减少35%。此效果可与其他非屏障类减伤效果叠加。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -115421,7 +115487,7 @@
             },
             {
                 "SkillTitle": "量子屏障",
-                "SkillDescription": "此单位不能从场上回到援军。每当场上1个其他非召唤物队友被击败或被牺牲后，此单位获得坚韧效果。\n敌方单位每对一个非守卫者的己方单位造成伤害，眩晕该敌人50TU。\n仅当此单位在场时，所有场上其他己方单位受到敌人攻击的伤害减少35%。此效果不与其它屏障类减伤效果叠加。"
+                "SkillDescription": "此单位不能从场上回到援军。每当场上1个其他非召唤物队友被击败或被牺牲后，此单位获得坚韧效果。\n敌方单位每对一个非守卫者的己方单位造成伤害，眩晕该敌人50TU。\n仅当此单位在场时，所有场上其他己方单位受到敌人攻击的伤害减少35%。此效果可与其他非屏障类减伤效果叠加。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -120676,6 +120742,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -120861,6 +120938,17 @@
                     "MaskPurpleWitch01",
                     "HighAngelSoldier01",
                     "FoxDuelist01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -123518,7 +123606,7 @@
         "Hp_Base": 5555,
         "Speed": 505,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "冷吗？…没关系的。\n很快就什么都感觉不到了。",
         "LeaderSkill": {
             "SkillTitle": "水属性猛攻",
@@ -123921,6 +124009,360 @@
                     "CatEaredFighter01",
                     "HighAngelSoldier01",
                     "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "BahamutGirlRegular01": {
+        "Name": "巴哈姆特",
+        "Name2": "灾厄的邪龙娘",
+        "FullName": "巴哈姆特 - 灾厄的邪龙娘",
+        "Profile": "邪龙巴哈姆特曾时而降临人间，翱翔于街道之上，带来彻底的毁灭。其力量之强大令众生畏惧，人们因而怀着恐惧与敬畏的心情，将其称作“有翼恶魔”——“巴哈姆特”。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手斧",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 28,
+        "Atk_Base": 1221,
+        "Hp_Base": 5105,
+        "Speed": 434,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "嘎哦——！\n你获得了最强的巨龙呢！",
+        "LeaderSkill": {
+            "SkillTitle": "光属性猛攻",
+            "SkillDescription": "所有光属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "流星之矛",
+                "SkillDescription": "对1个敌人造成300%的伤害，使用者每有一格“能量”，伤害就额外增加100%。此技能不消耗“能量”且无视非BOSS目标防止被击败的效果或被动技能。目标陷入燃烧状态，并使其传染。\n每当任意单位的回合结束后，有传染效果的敌方单位将使随机1个不处于燃烧状态的其他敌方单位陷入燃烧状态。传染将在触发3次（无论是否存在有效目标）或该单位离场后被移除。传染无法被净化，但其施加的状态效果可以被净化。同一个单位在其传染效果结束前不会获得新的传染。\n燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "龙翼纹章",
+                "SkillDescription": "回复场上所有队友相当于使用者攻击力800%的生命值并使其获得贯通与暴怒效果。有贯通的单位直到其下个回合结束攻击无视目标的减伤效果。获得暴怒效果的单位攻击力增加为1.5倍直到其之后的第三个回合结束。暴怒效果会覆盖原先的虚弱或狂热效果，也会被虚弱效果覆盖，但不会被狂热效果覆盖。\n火属性或有“火焰”类的主动技能的己方单位获得燃烧状态，使用者获得持续100TU的燃烧（治愈）状态。\n使用者进场至少100TU后才可使用且每次使用后必须等100TU后才能再次使用。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时该单位获得持续300TU的燃烧（回复）状态。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "怒罗魂炮",
+                "SkillDescription": "对2个敌人造成400%的伤害，场上每有1个处于燃烧状态的单位，伤害提升100%（至多提升至800%）。所有受到伤害且不处于燃烧状态的敌人陷入燃烧状态。此技能无视非BOSS目标防止被击败的效果或被动技能、反击态势状态效果及反弹被动技能。此技能属于“火焰”类的主动技能。\n每当场上1个单位被击败或牺牲后可以使用。在离场或使用一次后需要再度满足发动条件才能第二次发动。",
+                "TU": 90,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "灾厄的邪龙娘",
+                "SkillDescription": "此单位不会因为中毒或燃烧的伤害被击败。\n此单位回复所造成伤害100%的生命值。\n此单位在进入战场后获得3格“能量”、燃烧护盾与持续100TU的燃烧（治愈）状态。燃烧护盾效果将防止下一次该单位的燃烧状态被其他状态效果覆盖。\n当此单位有至少1格“能量”时若受到超过自己剩余生命值的伤害，会消耗其1格“能量”并以1点生命值幸存。\n如果处于燃烧状态的此单位受到一次攻击并在当前回合结束之后仍然存活，此单位会消耗1格“能量”回复最大生命值的100%并TU归零立即获得一个回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。此技能不被视为反弹还击类效果。"
+            },
+            {
+                "SkillTitle": "逆袭的巴哈姆特",
+                "SkillDescription": "此单位受到敌方攻击的伤害减少35%。\n此单位不会被眩晕，也不能从场上回到援军。\n此单位进场时所有队友获得热量屏障。有热量屏障的单位处于燃烧状态时受到敌人攻击的伤害减少35%。此单位在场期间进场的队友也获得热量屏障。热量屏障的减伤效果可与其他非屏障类减伤效果叠加。有热量屏障的单位离场时热量屏障会被移除。\n每当场上一个非召唤物的敌方单位被击败或被牺牲时回复场上所有己方单位最大生命值的100%，且火属性或有“火焰”类的主动技能的己方单位获得燃烧状态。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "地系耐性Lv3",
+                "SkillDescription": "若此单位受到地属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手剑大师",
+                "SkillDescription": "若此单位装备单手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "单手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "……（吼吼吼吼……）\n令世界畏惧的漆黑巨龙……\n其名为——巴哈姆特！\n\n——也就是我！\n怎么样！？是不是很可怕！？一定很可怕吧！\n吓到你了的话对不起！诶嘿嘿♪"
+            ],
+            "Login": [
+                "啊——找到你了！\n还要继续陪我玩哦——！"
+            ],
+            "Tap": [
+                "哎呀～今天真是太充实啦！漫画读到完结、零食全部吞噬、午睡顺便去异世界远征！怎么样，这份充实感……是不是传奇级的？",
+                "我想去祭典——！可某人却说什么“好麻烦”…呜呜。\n……喂，我们一起去嘛！我一定不会让你无聊的！",
+                "“想恢复原本的姿态的时候……当然啦，偶尔还是会有的！\n不过，人类其实意外地挺有意思的，我就在这种模样再多享受一阵子吧！”"
+            ],
+            "Idle": [
+                "嘘……\n……不会吧，你不会已经睡着了吧？明明这么可爱的巨龙就在你面前耶！？\n不可能睡得着的，对吧！？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsBurning": 1.05,
+                "TimeInCombat100": 1.01,
+                "NotCharged": 1.01
+            },
+            "SkillUse": {
+                "流星之矛": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5,
+                        "IsBurning": 0.89,
+                        "IsSpreadPlague": 0.89
+                    }
+                },
+                "龙翼纹章": {
+                    "BaseWeight": 5000
+                },
+                "怒罗魂炮": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "HPBelow50Percent": 1.01,
+                        "HPFull": 0.89,
+                        "Atleast1EnemyOn1HP": 10
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "BahamutGirlRegular02": {
+        "Name": "巴哈姆特",
+        "Name2": "灾厄的邪龙娘",
+        "FullName": "巴哈姆特 - 灾厄的邪龙娘",
+        "Profile": "她曾击退无数猎龙者，甚至一度试图将整个世界握于掌中。\n然而，随着传说中的猎龙者——齐格弗里德的突然出现，她的野心终究被粉碎。\n在那之后，她的行踪便无人知晓。",
+        "Profile_Ascended": "在边境村庄附近的森林深处，有一间小屋。据说那里住着一名女子和一个少女，静静地过着日子。少女任性又调皮捣蛋，女子虽然散漫却十分温柔。而她们的来历村里无人知晓。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手斧",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 34,
+        "Atk_Base": 1414,
+        "Hp_Base": 7350,
+        "Speed": 434,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "光属性猛攻",
+            "SkillDescription": "所有光属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "流星之矛",
+                "SkillDescription": "对1个敌人造成300%的伤害，使用者每有一格“能量”，伤害就额外增加100%。此技能不消耗“能量”且无视非BOSS目标防止被击败的效果或被动技能。目标陷入燃烧状态，并使其传染。\n每当任意单位的回合结束后，有传染效果的敌方单位将使随机1个不处于燃烧状态的其他敌方单位陷入燃烧状态。传染将在触发3次（无论是否存在有效目标）或该单位离场后被移除。传染无法被净化，但其施加的状态效果可以被净化。同一个单位在其传染效果结束前不会获得新的传染。\n燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "龙翼纹章",
+                "SkillDescription": "回复场上所有队友相当于使用者攻击力800%的生命值并使其获得贯通与暴怒效果。有贯通的单位直到其下个回合结束攻击无视目标的减伤效果。获得暴怒效果的单位攻击力增加为1.5倍直到其之后的第三个回合结束。暴怒效果会覆盖原先的虚弱或狂热效果，也会被虚弱效果覆盖，但不会被狂热效果覆盖。\n火属性或有“火焰”类的主动技能的己方单位获得燃烧状态，使用者获得持续100TU的燃烧（治愈）状态。\n使用者进场至少100TU后才可使用且每次使用后必须等100TU后才能再次使用。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时该单位获得持续300TU的燃烧（回复）状态。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "怒罗魂炮",
+                "SkillDescription": "对2个敌人造成400%的伤害，场上每有1个处于燃烧状态的单位，伤害提升100%（至多提升至800%）。所有受到伤害且不处于燃烧状态的敌人陷入燃烧状态。此技能无视非BOSS目标防止被击败的效果或被动技能、反击态势状态效果及反弹被动技能。此技能属于“火焰”类的主动技能。\n每当场上1个单位被击败或牺牲后可以使用。在离场或使用一次后需要再度满足发动条件才能第二次发动。",
+                "TU": 90,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "巨龙重生",
+                "SkillDescription": "回复场上所有队友相当于使用者攻击力800%的生命值。使用者获得3格“能量”与持续100TU的燃烧（治愈）状态。\n己方场上每有1个处于燃烧状态的单位，使用者减少10TU。所有不处于睡眠状态的其他队友TU归零顺次获得下一回合。在受此技能影响后直到该单位的下一个回合结束后无法使用给予其他队友回合的主动技能。\n仅当使用者有至多1格“能量”时可以使用。此技能在一场战斗中只能使用十次。能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。",
+                "TU": 50,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "灾厄的邪龙娘",
+                "SkillDescription": "此单位不会因为中毒或燃烧的伤害被击败。\n此单位回复所造成伤害100%的生命值。\n此单位在进入战场后获得3格“能量”、燃烧护盾与持续100TU的燃烧（治愈）状态。燃烧护盾效果将防止下一次该单位的燃烧状态被其他状态效果覆盖。\n当此单位有至少1格“能量”时若受到超过自己剩余生命值的伤害，会消耗其1格“能量”并以1点生命值幸存。\n如果处于燃烧状态的此单位受到一次攻击并在当前回合结束之后仍然存活，此单位会消耗1格“能量”回复最大生命值的100%并TU归零立即获得一个回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。此技能不被视为反弹还击类效果。"
+            },
+            {
+                "SkillTitle": "逆袭的巴哈姆特",
+                "SkillDescription": "此单位受到敌方攻击的伤害减少35%。\n此单位不会被眩晕，也不能从场上回到援军。\n此单位进场时所有队友获得热量屏障。有热量屏障的单位处于燃烧状态时受到敌人攻击的伤害减少35%。此单位在场期间进场的队友也获得热量屏障。热量屏障的减伤效果可与其他非屏障类减伤效果叠加。有热量屏障的单位离场时热量屏障会被移除。\n每当场上一个非召唤物的敌方单位被击败或被牺牲时回复场上所有己方单位最大生命值的100%，且火属性或有“火焰”类的主动技能的己方单位获得燃烧状态。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "地系耐性Lv3",
+                "SkillDescription": "若此单位受到地属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手剑大师",
+                "SkillDescription": "若此单位装备单手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "单手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "……（吼吼吼吼……）\n令世界畏惧的漆黑巨龙……\n其名为——巴哈姆特！\n\n——也就是我！\n怎么样！？是不是很可怕！？一定很可怕吧！\n吓到你了的话对不起！诶嘿嘿♪"
+            ],
+            "Login": [
+                "啊——找到你了！\n还要继续陪我玩哦——！"
+            ],
+            "Tap": [
+                "哎呀～今天真是太充实啦！漫画读到完结、零食全部吞噬、午睡顺便去异世界远征！怎么样，这份充实感……是不是传奇级的？",
+                "我想去祭典——！可某人却说什么“好麻烦”…呜呜。\n……喂，我们一起去嘛！我一定不会让你无聊的！",
+                "“想恢复原本的姿态的时候……当然啦，偶尔还是会有的！\n不过，人类其实意外地挺有意思的，我就在这种模样再多享受一阵子吧！”"
+            ],
+            "Idle": [
+                "嘘……\n……不会吧，你不会已经睡着了吧？明明这么可爱的巨龙就在你面前耶！？\n不可能睡得着的，对吧！？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsBurning": 1.05,
+                "TimeInCombat100": 1.01,
+                "NotCharged": 1.01
+            },
+            "SkillUse": {
+                "流星之矛": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.35,
+                        "IsSummoned": 0.5,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsPloyed": 0.85,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "IsMordredRegularAndBurning": 0.5,
+                        "IsBurning": 0.89,
+                        "IsSpreadPlague": 0.89
+                    }
+                },
+                "龙翼纹章": {
+                    "BaseWeight": 5000
+                },
+                "怒罗魂炮": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "HPBelow50Percent": 1.01,
+                        "HPFull": 0.89,
+                        "Atleast1EnemyOn1HP": 10
+                    }
+                },
+                "巨龙重生": {
+                    "BaseWeight": 250
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB72": {
+                "RelationshipName": "绝对破坏",
+                "RelationshipFamily": [
+                    "BahamutGirlRegular01",
+                    "MasamuneRegular01",
+                    "EarthMercenary01",
+                    "RoseElf01",
+                    "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
