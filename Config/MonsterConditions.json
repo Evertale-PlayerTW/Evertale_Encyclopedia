@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1764134430,
+    "Time": 1764293421,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27852,15 +27852,15 @@
 			"class": "MonsterConditions",
 			"monsterTags": ["BarrierShield"],
 			"or": {
+					"class": "MonsterConditions",
+					"monsterTags": ["MechaSisterBarrierActive"],
+			"or": {
 				"class": "MonsterConditions",
 				"monsterTags": ["MermaidBarrier"],
 				"or": {
 					"class": "MonsterConditions",
 					"myTeamMonsterConditionMatchesNeeded":{
-						"SourceBoundBarrierActive": 1,
-					"or": {
-						"class": "MonsterConditions",
-						"monsterTags": ["MechaSisterNewBarrier"]
+						"SourceBoundBarrierActive": 1
 						}
 					}
 				}
