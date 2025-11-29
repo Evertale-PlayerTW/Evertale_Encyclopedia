@@ -27,6 +27,26 @@ jobs:
             exit 0
           fi
 
+      # - name: Check files changed
+      #   if: env.SKIP_JOB != 'true'
+      #   run: |
+      #     localization_local="Localization/FileHashes.json"
+      #     localization_remote="https://prd.evertaleserver.com/Prd280/Localization/FileHashes.json"
+      #     if [ ! -f "$localization_local" ] || [ "$(curl -s "$localization_remote")" != "$(cat "$localization_local")" ]; then
+      #       echo "SKIP_JOB=false" >> $GITHUB_ENV
+      #       exit 0
+      #     fi
+
+      #     manifest_local="Config/Manifest.json"
+      #     manifest_remote="https://prd.evertaleserver.com/Prd280/Manifest.json"
+      #     if [ ! -f "$manifest_local" ] || [ "$(curl -s "$manifest_remote")" != "$(cat "$manifest_local")" ]; then
+      #       echo "SKIP_JOB=false" >> $GITHUB_ENV
+      #       exit 0
+      #     fi
+
+      #     echo "SKIP_JOB=true" >> $GITHUB_ENV
+      #     echo "No changes, skip!"
+
       - name: Setup Node.js
         if: env.SKIP_JOB != 'true'
         uses: actions/setup-node@v4

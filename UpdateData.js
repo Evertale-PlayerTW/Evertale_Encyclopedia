@@ -93,9 +93,7 @@ async function getRelationshipRaw() {
 	const userDevice = "Google Pixel 6";
 	const userOs = "Android OS 13";
 	const evtVersion = (
-		await fetchCheck("https://prd.evertaleserver.com/Prd280/Android/hashes.json").then((res) =>
-			res.json()
-		)
+		await fetchCheck("https://prd.evertaleserver.com/Prd280/Android/hashes.json").then((res) => res.json())
 	)["ver"];
 	const uuid = crypto.randomUUID();
 
@@ -159,9 +157,7 @@ async function getRelationshipRaw() {
 		sesid: sesid,
 		requnique: "1",
 	};
-	const finalUrl_Relationship = `${baseUrl_Relationship}?${new URLSearchParams(
-		params_Relationship
-	).toString()}`;
+	const finalUrl_Relationship = `${baseUrl_Relationship}?${new URLSearchParams(params_Relationship).toString()}`;
 	const relationshipResponse = await fetchCheck(finalUrl_Relationship).then((res) => res.json());
 
 	return relationshipResponse;
@@ -189,9 +185,7 @@ async function generateRelationshipData() {
 
 	const relationshipData_existing = (() => {
 		try {
-			return JSON.parse(fs.readFileSync(path.join("Config", "Relationship.json"), "utf-8"))[
-				"Relationship"
-			];
+			return JSON.parse(fs.readFileSync(path.join("Config", "Relationship.json"), "utf-8"))["Relationship"];
 		} catch {
 			return null;
 		}
@@ -200,11 +194,7 @@ async function generateRelationshipData() {
 		const relationshipConfig = { Version: 23, Time: Math.floor(Date.now() / 1000) };
 		relationshipConfig["Relationship"] = relationshipData;
 
-		fs.writeFileSync(
-			path.join("Config", "Relationship.json"),
-			JSON.stringify(relationshipConfig, null, 2),
-			"utf8"
-		);
+		fs.writeFileSync(path.join("Config", "Relationship.json"), JSON.stringify(relationshipConfig, null, 2), "utf8");
 		console.log(`- Complete`);
 	} else {
 		console.log(`- No changes`);
@@ -257,10 +247,7 @@ async function loadAllLanguageText() {
 	try {
 		for (const lang of langList) {
 			let singleLangData = {};
-			const langFileText = fs.readFileSync(
-				path.join("Localization", `Localizable_${lang}.txt`),
-				"utf-8"
-			);
+			const langFileText = fs.readFileSync(path.join("Localization", `Localizable_${lang}.txt`), "utf-8");
 			const lines = langFileText.split(/\r?\n/);
 
 			//方法2改良。拆行讀取，不判斷結尾，改以若出現新key則收尾
@@ -314,9 +301,9 @@ function getTextByKey(textKey) {
 
 async function buildEquipmentData() {
 	try {
-		const baseEquipmentConfig = JSON.parse(
-			fs.readFileSync(path.join("Config", "Equipment.json"), "utf-8")
-		)["Equipment"];
+		const baseEquipmentConfig = JSON.parse(fs.readFileSync(path.join("Config", "Equipment.json"), "utf-8"))[
+			"Equipment"
+		];
 
 		const equipmentData = {};
 		for (const entry of baseEquipmentConfig) {
@@ -327,10 +314,7 @@ async function buildEquipmentData() {
 			equipmentContent["FullName"] = equipmentContent["Name"] || entryID;
 			equipmentContent["Profile"] = getTextByKey(entryID + "DescriptionKey");
 			equipmentContent["Rarity"] = getRarity(entry["accessoryStars"]);
-			equipmentContent["Stars"] = generateStarText(
-				entry["accessoryStars"],
-				entry["accessoryStars"]
-			);
+			equipmentContent["Stars"] = generateStarText(entry["accessoryStars"], entry["accessoryStars"]);
 			equipmentContent["Stars_Curr"] = entry["accessoryStars"];
 			equipmentContent["Stars_Max"] = entry["accessoryStars"];
 			equipmentContent["Atk"] = entry["flatAttack"];
@@ -348,11 +332,7 @@ async function buildEquipmentData() {
 			equipmentData[entryID] = equipmentContent;
 		}
 
-		fs.writeFileSync(
-			path.join(currentFolder, "Accessory.json"),
-			JSON.stringify(equipmentData, null, 4),
-			"utf8"
-		);
+		fs.writeFileSync(path.join(currentFolder, "Accessory.json"), JSON.stringify(equipmentData, null, 4), "utf8");
 	} catch (error) {
 		console.error("Read or parse error:", error);
 		throw error;
@@ -361,9 +341,7 @@ async function buildEquipmentData() {
 
 async function buildWeaponData() {
 	try {
-		const baseWeaponConfig = JSON.parse(
-			fs.readFileSync(path.join("Config", "Weapon.json"), "utf-8")
-		)["Weapon"];
+		const baseWeaponConfig = JSON.parse(fs.readFileSync(path.join("Config", "Weapon.json"), "utf-8"))["Weapon"];
 
 		const weaponData = {};
 		for (const entry of baseWeaponConfig) {
@@ -410,11 +388,7 @@ async function buildWeaponData() {
 
 		setExtraEvoCount(weaponData);
 
-		fs.writeFileSync(
-			path.join(currentFolder, "Weapon.json"),
-			JSON.stringify(weaponData, null, 4),
-			"utf8"
-		);
+		fs.writeFileSync(path.join(currentFolder, "Weapon.json"), JSON.stringify(weaponData, null, 4), "utf8");
 	} catch (error) {
 		console.error("Read or parse error:", error);
 		throw error;
@@ -424,9 +398,7 @@ async function buildWeaponData() {
 async function buildMonsterData() {
 	try {
 		//載入基礎設定
-		const baseMonsterConfig = JSON.parse(
-			fs.readFileSync(path.join("Config", "Monster.json"), "utf-8")
-		)["Monster"];
+		const baseMonsterConfig = JSON.parse(fs.readFileSync(path.join("Config", "Monster.json"), "utf-8"))["Monster"];
 
 		//載入技能設定
 		const abilityDataConfig = {};
@@ -443,14 +415,10 @@ async function buildMonsterData() {
 		}
 
 		//載入技能AI設定
-		const skillAIConfig = JSON.parse(
-			fs.readFileSync(path.join("Config", "AbilityAI.json"), "utf-8")
-		)["AbilityAI"];
+		const skillAIConfig = JSON.parse(fs.readFileSync(path.join("Config", "AbilityAI.json"), "utf-8"))["AbilityAI"];
 
 		//載入Buff設定
-		const buffConfig = JSON.parse(fs.readFileSync(path.join("Config", "Buff.json"), "utf-8"))[
-			"Buff"
-		];
+		const buffConfig = JSON.parse(fs.readFileSync(path.join("Config", "Buff.json"), "utf-8"))["Buff"];
 
 		//開始填入資料
 		const monsterData = {};
@@ -468,8 +436,7 @@ async function buildMonsterData() {
 					: monsterContent["Name"]
 				: entryID;
 			monsterContent["Profile"] = getTextByKey(entryID + "DescriptionKey");
-			if (entry["cosmoName"])
-				monsterContent["Profile_Ascended"] = getTextByKey(entry["cosmoName"] + "DescriptionKey");
+			if (entry["cosmoName"]) monsterContent["Profile_Ascended"] = getTextByKey(entry["cosmoName"] + "DescriptionKey");
 			monsterContent["Rarity"] = getRarity(entry["evolvedStars"]);
 			monsterContent["Stars"] = generateStarText(entry["stars"], entry["evolvedStars"]);
 			monsterContent["Stars_Curr"] = entry["stars"];
@@ -503,9 +470,7 @@ async function buildMonsterData() {
 				monsterContent["LeaderSkill"] = {};
 				const skillID = entry["leaderBuff"];
 				monsterContent["LeaderSkill"]["SkillTitle"] = getTextByKey(skillID + "NameKey");
-				monsterContent["LeaderSkill"]["SkillDescription"] = getTextByKey(
-					skillID + "DescriptionKey"
-				);
+				monsterContent["LeaderSkill"]["SkillDescription"] = getTextByKey(skillID + "DescriptionKey");
 			}
 
 			if (entry["activeSkills"]) {
@@ -518,8 +483,7 @@ async function buildMonsterData() {
 					activeSkillNames[skillID] = skillDetail["SkillTitle"]; //另存供AI區備用
 
 					//檢查技能設定中有無指定敘述Key
-					const skillDescriptionKey =
-						(abilityDataConfig[skillID]["descriptionKey"] ?? skillID) + "DescriptionKey";
+					const skillDescriptionKey = (abilityDataConfig[skillID]["descriptionKey"] ?? skillID) + "DescriptionKey";
 					skillDetail["SkillDescription"] = getTextByKey(skillDescriptionKey);
 					//TU
 					skillDetail["TU"] = abilityDataConfig[skillID]["tuCost"] ?? 0;
@@ -553,12 +517,10 @@ async function buildMonsterData() {
 						} else {
 							if (buffConfig[passiveSkillID]["tags"]) {
 								if (buffConfig[passiveSkillID]["tags"].includes("awkHP")) {
-									passiveBonus[passiveSkillID] =
-										buffConfig[passiveSkillID]["behaviorOverrides"][0]["flatStatBonuses"];
+									passiveBonus[passiveSkillID] = buffConfig[passiveSkillID]["behaviorOverrides"][0]["flatStatBonuses"];
 									awkBonusVisible[i] = passiveBonus[passiveSkillID];
 								} else if (buffConfig[passiveSkillID]["tags"].includes("awkAtk")) {
-									passiveBonus[passiveSkillID] =
-										buffConfig[passiveSkillID]["behaviorOverrides"][0]["flatStatBonuses"];
+									passiveBonus[passiveSkillID] = buffConfig[passiveSkillID]["behaviorOverrides"][0]["flatStatBonuses"];
 									awkBonusVisible[i] = passiveBonus[passiveSkillID];
 								} else if (buffConfig[passiveSkillID]["tags"].includes("awkWep")) {
 									passiveBonus[passiveSkillID] = buffConfig[passiveSkillID]["behaviorOverrides"][0];
@@ -571,8 +533,7 @@ async function buildMonsterData() {
 						}
 					}
 				}
-				if (Object.keys(awkBonusVisible).length > 0)
-					monsterContent["PassiveBonusVisible"] = awkBonusVisible;
+				if (Object.keys(awkBonusVisible).length > 0) monsterContent["PassiveBonusVisible"] = awkBonusVisible;
 			}
 
 			if (entry["summonableMonsters"]) {
@@ -615,8 +576,7 @@ async function buildMonsterData() {
 				if (skillAIConfig[skillAIKey]["globalScalorsToIgnore"])
 					skillAISetting["Ignore"] = skillAIConfig[skillAIKey]["globalScalorsToIgnore"];
 				if (skillAIConfig[skillAIKey]["aiTargetingSourceMonsterConditions"])
-					skillAISetting["Source"] =
-						skillAIConfig[skillAIKey]["aiTargetingSourceMonsterConditions"];
+					skillAISetting["Source"] = skillAIConfig[skillAIKey]["aiTargetingSourceMonsterConditions"];
 				if (skillAIConfig[skillAIKey]["aiTargetingMonsterConditions"])
 					skillAISetting["Target"] = skillAIConfig[skillAIKey]["aiTargetingMonsterConditions"];
 
@@ -629,11 +589,7 @@ async function buildMonsterData() {
 		setExtraEvoCount(monsterData);
 		await setRelationshipData(monsterData);
 
-		fs.writeFileSync(
-			path.join(currentFolder, "Monster.json"),
-			JSON.stringify(monsterData, null, 4),
-			"utf8"
-		);
+		fs.writeFileSync(path.join(currentFolder, "Monster.json"), JSON.stringify(monsterData, null, 4), "utf8");
 	} catch (error) {
 		console.error("Read or parse error:", error);
 		throw error;
@@ -653,9 +609,7 @@ function setExtraEvoCount(jsonData) {
 }
 
 async function setRelationshipData(monsterData) {
-	let relationshipData = JSON.parse(
-		fs.readFileSync(path.join("Config", "Relationship.json"), "utf-8")
-	)["Relationship"];
+	let relationshipData = JSON.parse(fs.readFileSync(path.join("Config", "Relationship.json"), "utf-8"))["Relationship"];
 
 	for (const [relationID, relationDetail] of Object.entries(relationshipData)) {
 		const relationshipName = getTextByKey(relationDetail["Name"]);
@@ -735,7 +689,34 @@ function getElementTypeName(elementTypeKey) {
 	return elementType[elementTypeKey];
 }
 
+async function checkFilesChanged() {
+	const localization_local = path.join("Localization", "FileHashes.json");
+	const localization_remote = "https://prd.evertaleserver.com/Prd280/Localization/FileHashes.json";
+	if (
+		!fs.existsSync(localization_local) ||
+		fs.readFileSync(localization_local, "utf-8") !== (await fetchCheck(localization_remote).then((res) => res.text()))
+	) {
+		return true;
+	}
+
+	const manifest_local = path.join("Config", "Manifest.json");
+	const manifest_remote = "https://prd.evertaleserver.com/Prd280/Manifest.json";
+	if (
+		!fs.existsSync(manifest_local) ||
+		fs.readFileSync(manifest_local, "utf-8") !== (await fetchCheck(manifest_remote).then((res) => res.text()))
+	) {
+		return true;
+	}
+
+	return false;
+}
+
 async function main() {
+	if (!(await checkFilesChanged())) {
+		console.log("Files no changes, skip!");
+		return;
+	}
+
 	await downloadRequiredFiles();
 	await loadWholeData();
 }
