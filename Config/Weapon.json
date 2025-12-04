@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1763686181,
+  "Time": 1764225457,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15445,7 +15445,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "CrystalDragonAxe02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "CrystalDragonAxe02",
@@ -15465,7 +15466,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "CrystalDragonAxe03",
       "evolveFrom": "CrystalDragonAxe01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "CrystalDragonAxe03",
@@ -15484,6 +15486,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "CrystalDragonAxe02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "AltarKatana01",
+      "family": "AltarKatana",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4TargetPoisonEaterDreamhunter"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 523,
+      "baseMaxHp": 2760,
+      "bundleNumber": 9,
+      "weaponPref": "Katana",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "AltarKatana02",
+      "cost": 11
+    },
+    {
+      "name": "AltarKatana02",
+      "family": "AltarKatana",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5TargetPoisonEaterDreamhunter"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 659,
+      "baseMaxHp": 3205,
+      "bundleNumber": 9,
+      "weaponPref": "Katana",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "AltarKatana03",
+      "evolveFrom": "AltarKatana01",
+      "cost": 17
+    },
+    {
+      "name": "AltarKatana03",
+      "family": "AltarKatana",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6TargetPoisonEaterDreamhunter"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 711,
+      "baseMaxHp": 3445,
+      "bundleNumber": 9,
+      "weaponPref": "Katana",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "AltarKatana02",
       "cost": 23
     }
   ]

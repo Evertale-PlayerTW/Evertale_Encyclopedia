@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1764134385,
+	"Time": 1764225399,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -42001,6 +42001,117 @@
 			"recommendEffectWhenUsable": 1,
 			"abilityEffect": "BahamutFireWing",
 			"useCondition": "NotCharged2"
+		},
+		"SingleAttackAElmKouhaiRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["DoNotWake","IgnoreArmor"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["MarkedElmKouhaiRegular","RandomOtherAllyExtraTurnElmKouhaiRegular"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"applyConditions": "IsNotJustGrantedTurn"
+			},{
+				"buffs":["MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ElmKouhaiAttack1",
+			"attackScalors": ["GoodWith1EnemyIsSleepingBuff","GoodWith1EnemyIsPoisonedBuff"],
+			"conditionedAbilityEffects": ["ElmKouhaiAttack1", "ElmKouhaiAttack1"],
+			"recommendEffectWhenUsable": -1
+		},
+		"AllAllyBuffAElmKouhaiRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs":["Heal500Percent","Armor","PartyModeAttackUP50PercentElmKouhaiRegular"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["Gain2SpiritForEachAllyOnBattlefieldEBB","GrantAllOtherMaxHPAlliesTurnEBB","ActiveSkillLocked","SourceOfPartyModeElmKouhaiRegular"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ElmKouhaiFireworks",
+			"flags": ["Healer","Purify","GiveTurn"],
+			"useCondition": "Kills1AndActiveSkillIsNotLocked"
+		},
+		"AllEnemyBuffAElmKouhaiRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["AttackMinus25Percent1TurnOnly","EnrageImmunityOnce"],
+				"applyConditions": "IsBurning",
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["SleepForcedThorns"],
+				"applyConditions": "IsNotBurning",
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["MegaPoison"],
+				"applyConditions": "IsNotSleeping",
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			},{
+				"buffs":["GrantAllNonBurningAlliesSleepThornsEBB","ElmKouhaiRegularCooldown100"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ElmKouhaiSun",
+			"flags": ["Sleep","SleepChance","PoisonChance","NoDamage"],
+			"useCondition": "1EnemyNotBurningAndNotInstantCooldown"
+		},
+		"RandomAttackAElmKouhaiRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "2RandomEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["DoNotWake","IgnoreSkin","IgnoreArmor","HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["MomentumUsed"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"attackScalors": ["GoodVsSleeping","GoodVsPoisoned","GoodVsCursedSleep","GoodVsMegaPoisoned"],
+			"conditionedAbilityEffects": ["ElmKouhaiSpecial1", "ElmKouhaiSpecial1"],
+			"abilityEffect": "ElmKouhaiSpecial1",
+			"flags": ["Momentum","MomentumReadyUser","Dreamhunt","PoisonEater"],
+			"useCondition": "HasDamagedWithAttack",
+			"recommendEffectWhenUsable": -1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
 		}
 	}
 }

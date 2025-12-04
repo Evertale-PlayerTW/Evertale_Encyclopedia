@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1764036678,
+  "Time": 1764225364,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27623,6 +27623,58 @@
       "useLimit": 10,
       "spiritGain": 0,
       "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAElmKouhaiRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        4,
+        4
+      ],
+      "config": "SingleAttackAElmKouhaiRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAllyBuffAElmKouhaiRegular",
+      "class": "Ability",
+      "config": "AllAllyBuffAElmKouhaiRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllEnemyBuffAElmKouhaiRegular",
+      "class": "Ability",
+      "config": "AllEnemyBuffAElmKouhaiRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "RandomAttackAElmKouhaiRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "config": "RandomAttackAElmKouhaiRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 1,
       "showConfirmation": 0
     }
   ]

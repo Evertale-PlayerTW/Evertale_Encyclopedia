@@ -124031,7 +124031,7 @@
         "Hp_Base": 5105,
         "Speed": 434,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Graaaaouh––!\nVoici le plus puissant de tous les dragons !",
         "LeaderSkill": {
             "SkillTitle": "Lumière ATT+",
@@ -124367,5 +124367,330 @@
                 "RelationshipBuff": "ATQ+2%"
             }
         }
+    },
+    "ElmKouhaiRegular01": {
+        "Name": "Cera",
+        "Name2": "Chevalier du D.R. de vertu",
+        "FullName": "Cera - Chevalier du D.R. de vertu",
+        "Profile": "Cera grandit dans un orphelinat au sein d'un royaume plongé dans la corruption et le déclin. De nature, c'était une fille timide mais ordonnée, mais son environnement catastrophique. Les fonds étaient utilisés pour remplir les poches des administrateurs de l'orphelinat alors que les enfants enduraient des repas maigres et la constante menace de violence de la part des gardiens.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 28,
+        "Atk_Base": 1161,
+        "Hp_Base": 5405,
+        "Speed": 574,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Allons-y––Avec intégrité droite !",
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Bord Tranchant",
+                "SkillDescription": "300% de dégâts à 1 ennemi. 500% de dégâts à la place si tout ennemi du champ de bataille est empoisonné ou endormi. Cette attaque ignore les Gardiens et les effets de réduction de dégâts.\n\nPuis, donne immédiatement le prochain tour à un autre allié aléatoire en réduisant ses TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées lors des tours obtenus par cette compétence. Cette compétence peut être utilisée lors de tels tours, mais ne donnera pas de tour extra.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Vertu Inspirante",
+                "SkillDescription": "Les Alliés gagnent 2 Essences pour chaque allié du champ de bataille. Tous les alliés du champ de bataille sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur, gagnent l'effet de statut d'Armure, et Force Terrestre. Puis, tous les autres alliés étant à leurs PV max prennent les tours suivants en réduisant leurs TU actuels. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle prenne son tour.\n\nUtilisable si le lanceur a vaincu 1+ unité par attaques sur le champ de bataille et si aucun allié ne possède déjà Force Terrestre. Utilisable une fois, à chaque fois que cette unité est sur le champ de bataille.\n\nL'Armure réduit 50% des dégâts de la prochaine attaque, puis l'effet est retiré. L'Armure remplacera les autres effets de statut sur ces unités. Une unité avec Force Terrestre bénéficie d'une addition à son Attaque de la moitié de son Attaque d'origine si elle n'est pas brûlée. Ceci peut être empilé avec les effets d'Enragé et les autres augmentations d'Attaques (p. ex. 1,5x + 0,5x => total de 2,0x), mais ne peut être empilé avec la même compétence. Force Terrestre se termine pour tous les Alliés si l'unité qui l'a distribuée quitte le champ de bataille, et est retirée aux unités qui quittent le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Torche Pacifiante",
+                "SkillDescription": "Cible tous les ennemis. Les cibles brûlées sont affaiblies et gagnent une Protection Rage. Toutes les cibles non-brûlées subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis toutes les cibles non-endormies subissent l'effet de statut de Méga Poison pendant 200TU, et tous les alliés non-brûlés gagnent des Épines de Sommeil.\n\nUtilisable si au moins 1 ennemi du champ de bataille n'est pas brûlé. Cette compétence se verrouille pendant 100TU après son utilisation.\n\nL'Attaque des unités Affaiblies est réduite de 25% (de l'Attaque totale) jusqu'à la fin de leur prochain tour. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé. Les Protections Rage empêcheront une unité de devenir Enragée une fois, puis sera retirée. Les Protections Rage ne peuvent être empilées. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Le Méga Poison remplacera les autres effets de statut.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Colère du D.R.",
+                "SkillDescription": "300% de dégâts à 2 ennemis aléatoires. 600% de dégâts à la place aux cibles qui sont empoisonnées ou endormies. 800% de dégâts à la place aux cibles ayant l'effet de statut de Méga Poison ou de Sommeil Maudit. Cette attaque ne peut être redirigée par les Gardiens, et ignorera tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais, et les effets des compétences passives de Reflet. Cette attaque peut toucher les cibles ayant l'effet de statut de Furtivité ou un effet passif qui ignore les attaques à cibles multiples.\n\nDéverrouillé à chaque fois que l'utilisateur inflige des dégâts à un ennemi avec une autre attaque. Cette compétence se verrouille à nouveau après chaque utilisation ou si l'utilisateur quitte le champ de bataille.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Marche Vertueuse",
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis, et soigneront cette unité de 100% des dégâts totaux infligés.\n\nCette unité est immunisée contre les effets de statut de Poison. Si un allié quelconque possède des Épines de Sommeil, cette unité est immunisée contre les effets d'Étourdissement.\n\nChaque fois que cette unité entre sur le champ de bataille:\n- Tous les alliés non-brûlés du champ de bataille gagnent des Épines de Sommeil.\n- Elle ne peut être vaincue par des dégâts et bénéficie d'une réduction de 60% des dégâts provenant d'attaques, pendant 200TU, sauf si elle est brûlée.\n\nÀ la fin de chaque tour de cette unité, tous les Imposteurs alliés du champ de bataille seront immédiatement vaincus. Cette unité sera considérée comme ayant vaincu par attaques autant d'unités vaincues par cet effet. Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétence active qui empêcherait les cibles d'être vaincues."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Enchantée. Je m'appelle Cera.\nEn tant que subordonnée d'Elmina,\nj'espère pouvoir t'aider au moins un petit peu.\n\nMais je ne tolèrerai pas la corruption ou l'injustice !\nN'oubliez pas ça !"
+            ],
+            "Login": [
+                "Je suis tellement contente que vous soyez de retour ! Veuillez m'enseigner plein de choses aujourd'hui aussi, je vous en prie !"
+            ],
+            "Tap": [
+                "Je n'aime pas me rappeler de mon enfance. Je n'ai que des souvenirs sombres et tristes...\n \nMais je n'oublierai jamais l'héroïne qui a sauvé quelqu'un comme moi.",
+                "Effrayante...? Vous parlez de moi !? Vous rigolez ! Je ne m'énerve jamais vraiment !\nEnfin... Sauf si c'est quelque chose de dégoûtant ou indécent––Ça, c'est différent.",
+                "Les gens disent souvent que je suis une perfectionniste, mais c'est juste que je manque de confiance en moi-même.\nC'est pourquoi j'étudie et je m'entraîne plus que quiconque... Comprenez-vous ce que je ressens ?"
+            ],
+            "Idle": [
+                "Je n'aime pas vraiment être laissée seule...\nEnfin, je n'admettrais jamais que je me sens seule."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Bord Tranchant": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Vertu Inspirante": {
+                    "BaseWeight": 5000
+                },
+                "Torche Pacifiante": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Colère du D.R.": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        }
+    },
+    "ElmKouhaiRegular02": {
+        "Name": "Cera",
+        "Name2": "Chevalier du D.R. de vertu",
+        "FullName": "Cera - Chevalier du D.R. de vertu",
+        "Profile": "Pendant cette sombre période, le culte Grum Grim attaqua soudainement l'orphelinat. Cera fut presque enlevée et se préparait à la mort––Mais elle fut sauvée par une certaine femme, qui la libéra aussi de l'étreinte de l'orphelinat. Cette femme n'était nulle d'autre qu'Elmina, qui s'était libérée elle-même de son lavage de cerveau.",
+        "Profile_Ascended": "Admirant la force d'Elmina, Cera voyagea de ville en ville, affinant ses compétences en s'entraînant sans relâche. Au fil du temps, elle intégra l'Académie du Dragon Rouge et finit en tête de classe. Bien qu'on s'y opposa, elle choisit de tourner le dos au chemin des élites et voulut servir sous sa bienfaitrice, Elmina––Pour rendre sa dette du passé.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 34,
+        "Atk_Base": 1508,
+        "Hp_Base": 6880,
+        "Speed": 574,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Bord Tranchant",
+                "SkillDescription": "300% de dégâts à 1 ennemi. 500% de dégâts à la place si tout ennemi du champ de bataille est empoisonné ou endormi. Cette attaque ignore les Gardiens et les effets de réduction de dégâts.\n\nPuis, donne immédiatement le prochain tour à un autre allié aléatoire en réduisant ses TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées lors des tours obtenus par cette compétence. Cette compétence peut être utilisée lors de tels tours, mais ne donnera pas de tour extra.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Vertu Inspirante",
+                "SkillDescription": "Les Alliés gagnent 2 Essences pour chaque allié du champ de bataille. Tous les alliés du champ de bataille sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur, gagnent l'effet de statut d'Armure, et Force Terrestre. Puis, tous les autres alliés étant à leurs PV max prennent les tours suivants en réduisant leurs TU actuels. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle prenne son tour.\n\nUtilisable si le lanceur a vaincu 1+ unité par attaques sur le champ de bataille et si aucun allié ne possède déjà Force Terrestre. Utilisable une fois, à chaque fois que cette unité est sur le champ de bataille.\n\nL'Armure réduit 50% des dégâts de la prochaine attaque, puis l'effet est retiré. L'Armure remplacera les autres effets de statut sur ces unités. Une unité avec Force Terrestre bénéficie d'une addition à son Attaque de la moitié de son Attaque d'origine si elle n'est pas brûlée. Ceci peut être empilé avec les effets d'Enragé et les autres augmentations d'Attaques (p. ex. 1,5x + 0,5x => total de 2,0x), mais ne peut être empilé avec la même compétence. Force Terrestre se termine pour tous les Alliés si l'unité qui l'a distribuée quitte le champ de bataille, et est retirée aux unités qui quittent le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Torche Pacifiante",
+                "SkillDescription": "Cible tous les ennemis. Les cibles brûlées sont affaiblies et gagnent une Protection Rage. Toutes les cibles non-brûlées subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis toutes les cibles non-endormies subissent l'effet de statut de Méga Poison pendant 200TU, et tous les alliés non-brûlés gagnent des Épines de Sommeil.\n\nUtilisable si au moins 1 ennemi du champ de bataille n'est pas brûlé. Cette compétence se verrouille pendant 100TU après son utilisation.\n\nL'Attaque des unités Affaiblies est réduite de 25% (de l'Attaque totale) jusqu'à la fin de leur prochain tour. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé. Les Protections Rage empêcheront une unité de devenir Enragée une fois, puis sera retirée. Les Protections Rage ne peuvent être empilées. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Le Méga Poison remplacera les autres effets de statut.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Colère du D.R.",
+                "SkillDescription": "300% de dégâts à 2 ennemis aléatoires. 600% de dégâts à la place aux cibles qui sont empoisonnées ou endormies. 800% de dégâts à la place aux cibles ayant l'effet de statut de Méga Poison ou de Sommeil Maudit. Cette attaque ne peut être redirigée par les Gardiens, et ignorera tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais, et les effets des compétences passives de Reflet. Cette attaque peut toucher les cibles ayant l'effet de statut de Furtivité ou un effet passif qui ignore les attaques à cibles multiples.\n\nDéverrouillé à chaque fois que l'utilisateur inflige des dégâts à un ennemi avec une autre attaque. Cette compétence se verrouille à nouveau après chaque utilisation ou si l'utilisateur quitte le champ de bataille.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Marche Vertueuse",
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis, et soigneront cette unité de 100% des dégâts totaux infligés.\n\nCette unité est immunisée contre les effets de statut de Poison. Si un allié quelconque possède des Épines de Sommeil, cette unité est immunisée contre les effets d'Étourdissement.\n\nChaque fois que cette unité entre sur le champ de bataille:\n- Tous les alliés non-brûlés du champ de bataille gagnent des Épines de Sommeil.\n- Elle ne peut être vaincue par des dégâts et bénéficie d'une réduction de 60% des dégâts provenant d'attaques, pendant 200TU, sauf si elle est brûlée.\n\nÀ la fin de chaque tour de cette unité, tous les Imposteurs alliés du champ de bataille seront immédiatement vaincus. Cette unité sera considérée comme ayant vaincu par attaques autant d'unités vaincues par cet effet. Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétence active qui empêcherait les cibles d'être vaincues."
+            },
+            {
+                "SkillTitle": "Tactiques du D.R.",
+                "SkillDescription": "Chaque fois qu'un ennemi entre sur le champ de bataille depuis les renforts, il a 50% de chance de subir l'effet de statut de Sommeil Maudit pendant 200TU. Puis il a 50% de chance de subit l'effet de statut de Méga Poison\n\nChaque fois qu'une unité Empoisonnée ou Endormie prend son tour, elle sera soignée de 30% de ses PV max.\n\nChaque fois qu'un autre Allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque :\n- Cette unité gagne l'effet de statut d'Armure, et est soignée de 100% de ses PV max.\n- Tous les alliés non-brûlés du champ de bataille gagnent des Épines de Sommeil.\n- Les TU actuels de 2 alliés aléatoires du champ de bataille sont réduits de 50TU.\n\nLorsqu'une unité possédant des Épines de Sommeil subit des dégâts par une attaque, les Épines de Sommeil de cette unité seront consommées pour infliger immédiatement l'effet de statut de Sommeil Maudit à l'attaquant pendant 200TU. La Brûlure ou les attaques infligeant la Brûlure supprimeront les Épines de Sommeil et empêcheront l'application du Sommeil Maudit. Le Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Enchantée. Je m'appelle Cera.\nEn tant que subordonnée d'Elmina,\nj'espère pouvoir t'aider au moins un petit peu.\n\nMais je ne tolèrerai pas la corruption ou l'injustice !\nN'oubliez pas ça !"
+            ],
+            "Login": [
+                "Je suis tellement contente que vous soyez de retour ! Veuillez m'enseigner plein de choses aujourd'hui aussi, je vous en prie !"
+            ],
+            "Tap": [
+                "Je n'aime pas me rappeler de mon enfance. Je n'ai que des souvenirs sombres et tristes...\n \nMais je n'oublierai jamais l'héroïne qui a sauvé quelqu'un comme moi.",
+                "Effrayante...? Vous parlez de moi !? Vous rigolez ! Je ne m'énerve jamais vraiment !\nEnfin... Sauf si c'est quelque chose de dégoûtant ou indécent––Ça, c'est différent.",
+                "Les gens disent souvent que je suis une perfectionniste, mais c'est juste que je manque de confiance en moi-même.\nC'est pourquoi j'étudie et je m'entraîne plus que quiconque... Comprenez-vous ce que je ressens ?"
+            ],
+            "Idle": [
+                "Je n'aime pas vraiment être laissée seule...\nEnfin, je n'admettrais jamais que je me sens seule."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Bord Tranchant": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Vertu Inspirante": {
+                    "BaseWeight": 5000
+                },
+                "Torche Pacifiante": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Colère du D.R.": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

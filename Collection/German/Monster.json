@@ -124031,7 +124031,7 @@
         "Hp_Base": 5105,
         "Speed": 434,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Garrrr-!\nDu hast den stärksten aller Drachen!",
         "LeaderSkill": {
             "SkillTitle": "Licht-ANG hoch",
@@ -124367,5 +124367,330 @@
                 "RelationshipBuff": "ANG+2%"
             }
         }
+    },
+    "ElmKouhaiRegular01": {
+        "Name": "Cera",
+        "Name2": "Roter Drachenritter der Tugend",
+        "FullName": "Cera - Roter Drachenritter der Tugend",
+        "Profile": "Cera wuchs in einem Waisenhaus in einem Königreich auf, das von Korruption und Verfall geprägt war. Von Natur aus war sie ein schüchternes und ordentliches Mädchen, aber ihre Umgebung war echt mies. Die Gelder flossen in die Taschen der Waisenhausverwalter, während die Kinder mit kargen Mahlzeiten und der ständigen Gefahr von Gewalt durch die Betreuer zu kämpfen hatten.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 28,
+        "Atk_Base": 1161,
+        "Hp_Base": 5405,
+        "Speed": 574,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Lass uns weitermachen – mit ehrlicher Integrität!",
+        "LeaderSkill": {
+            "SkillTitle": "Erd-ANG hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Schnittkante",
+                "SkillDescription": "300% Schaden an 1 Gegner. 500% Schaden stattdessen, wenn ein Gegner auf dem Schlachtfeld vergiftet ist oder schläft. Dieser Angriff ignoriert Wächter und Schadensreduzierungseffekte.\n\nDann gibst du sofort 1 anderen zufälligen Verbündeten die nächste Runde, indem du seine aktuelle ZE auf 0 reduzierst. Aktive Fertigkeiten, die Runden gewähren, können nicht in Runden eingesetzt werden, die durch diese Fertigkeit gegeben werden. Diese Fertigkeit kann in solchen Zügen eingesetzt werden, gewährt aber nicht den zusätzlichen Zug.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Inspirationstugend",
+                "SkillDescription": "Verbündete erhalten 2 Geist für jeden Verbündeten auf dem Schlachtfeld. Alle Verbündeten auf dem Schlachtfeld werden um 500% des Angriffs des Anwenders geheilt, erhalten den Statuseffekt Rüstung und irdische Macht. Dann gibst du allen anderen Verbündeten, die maximale LP haben, sofort die nächsten Runden, indem du ihre aktuelle ZE reduzierst. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, wenn sie den Zug erhalten haben.\n\nBenutzbar, wenn der Benutzer 1+ Einheiten mit Angriffen besiegt hat, während er auf dem Schlachtfeld war, und wenn kein Verbündeter bereits Irdene Macht hat. Kann jedes Mal, wenn diese Einheit auf dem Schlachtfeld ist, einmal verwendet werden.\n\nRüstung gewährt 50% Schadensreduzierung beim nächsten Angriff, dann wird der Effekt entfernt. Die Rüstung überschreibt andere Statuseffekte auf diesen Einheiten. Eine Einheit mit Irdener Macht erhält 0,5x ihres ursprünglichen Angriffs zu ihrem Angriff hinzu, solange sie nicht brennt. Dieser Effekt stapelt sich mit Wut-Effekten und anderen Angriffserhöhungen (z. B. 1,5x + 0,5x => 2,0x insgesamt), kann aber nicht mit sich selbst gestapelt werden. Irdene Macht endet für alle Verbündeten, wenn die Einheit, die sie gewährt hat, das Schlachtfeld verlässt, und wird von Einheiten entfernt, die das Schlachtfeld verlassen.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Beruhigungsfackel",
+                "SkillDescription": "Zielt auf alle Gegner. Alle brennenden Ziele werden geschwächt und erhalten einen Wut-Schutz. Alle nicht brennenden Ziele werden für 200 ZE mit dem Statuseffekt Verfluchter Schlaf belegt. Dann erhalten alle nicht schlafenden Ziele für 200 ZE den Statuseffekt Mega-Gift und alle nicht brennenden Verbündeten erhalten Schlafdornen.\n\nDiese Fähigkeit kann eingesetzt werden, wenn mindestens 1 Gegner auf dem Schlachtfeld nicht brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nGeschwächte Einheiten haben bis zum Ende ihres nächsten Zuges einen auf 0,75x reduzierten Angriff. Diese Effekte überschreiben alle bestehenden Schwächungs- oder Empörungseffekte der betroffenen Einheiten. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden. Wutabwehr verhindert, dass eine Einheit einmal wütend wird und wird dann entfernt. Wutabwehr kann nicht gestapelt werden. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden. Mega-Gift überschreibt andere Statuseffekte.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Rotdrachenwut",
+                "SkillDescription": "300% Schaden an 2 zufälligen Gegnern. 600% Schaden stattdessen an Zielen, die vergiftet sind oder schlafen. 800% Schaden stattdessen an Zielen, die den Statuseffekt Mega-Gift oder den Statuseffekt Verfluchter Schlaf haben. Dieser Angriff kann von Wächtern nicht umgelenkt werden und ignoriert alle Effekte von Gegnern, die keine Bosse sind, die verhindern würden, dass die Ziele besiegt werden, sowie Effekte zur Schadensreduzierung von Gegnern, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten. Dieser Angriff kann Ziele treffen, die den Statuseffekt Schleichen oder einen passiven Effekt haben, der Angriffe mit mehreren Zielen ignoriert.\n\nDiese Fertigkeit wird jedes Mal gesperrt, wenn der Benutzer einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Tugendmarsch",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken schlafende Gegner nicht auf und heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n\nDiese Einheit ist immun gegen Gifteffekte. Wenn ein Verbündeter Schlafdornen hat, ist diese Einheit immun gegen Betäubungseffekte.\n\nWenn diese Einheit das Schlachtfeld betritt:\n- Alle nicht brennenden Verbündeten auf dem Schlachtfeld erhalten Schlafdornen.\n- Für 200 ZE kann diese Einheit, sofern sie nicht brennt, nicht durch Schaden besiegt werden und hat eine Schadensreduzierung von 60% durch Angriffe.\n\nAm Ende jeder Runde dieser Einheit werden alle verbündeten Betrüger auf dem Schlachtfeld sofort besiegt. Es wird angenommen, dass diese Einheit so viele Einheiten mit Angriffen besiegt hat, wie durch diesen Effekt besiegt werden. Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass die Ziele besiegt werden."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Schön, dich kennenzulernen. Mein Name ist Cera. \nAls Elminas Untergebene hoffe ich,\ndass ich dir auch nur ein bisschen helfen kann.\n\nAber ich dulde weder Korruption noch Ungerechtigkeit.\nVergiss das nicht!"
+            ],
+            "Login": [
+                "Ich bin so froh, dass du wieder da bist! Bitte bring mir auch heute viele Dinge bei!"
+            ],
+            "Tap": [
+                "Ich erinnere mich nicht gerne an meine Kindheit. Ich habe nur dunkle und einsame Erinnerungen...\nAber ich werde nie den Helden vergessen, der jemanden wie mich gerettet hat.",
+                "Beängstigend...? Du redest über mich!? Das soll wohl ein Witz sein! Ich werde fast nie wütend!\nNun... es sei denn, es geht um etwas Schmutziges oder Unanständiges - das ist etwas anderes.",
+                "Die Leute sagen oft, ich sei ein Perfektionist, aber in Wirklichkeit fehlt mir einfach das Selbstvertrauen. \nDeshalb lerne und trainiere ich härter als alle anderen. Kannst du dieses Gefühl nachvollziehen?"
+            ],
+            "Idle": [
+                "Ich mag es nicht, allein zu sein...Nicht, dass ich jemals zugeben würde, dass ich einsam bin."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Schnittkante": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Inspirationstugend": {
+                    "BaseWeight": 5000
+                },
+                "Beruhigungsfackel": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Rotdrachenwut": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        }
+    },
+    "ElmKouhaiRegular02": {
+        "Name": "Cera",
+        "Name2": "Roter Drachenritter der Tugend",
+        "FullName": "Cera - Roter Drachenritter der Tugend",
+        "Profile": "In diesen dunklen Tagen griff der Gru Grim plötzlich das Waisenhaus an. Cera wäre fast entführt worden und hatte sich schon mit dem Tod abgefunden – aber sie wurde von einer Frau gerettet, die sie auch aus den Fängen des Waisenhauses befreite. Diese Frau war niemand anderes als Elmina, die sich von ihrer Gehirnwäsche befreit hatte.",
+        "Profile_Ascended": "Cera war total beeindruckt von Elminas Stärke und reiste von Stadt zu Stadt, um ihre Fähigkeiten durch hartes Training zu verbessern. Schließlich ging sie zur Roten Drachenakademie und schloss ihr Studium als Klassenbeste ab. Obwohl sie auf viel Widerstand stieß, entschied sie sich, den Weg der Elite nicht einzuschlagen, sondern unter ihrer Wohltäterin Elmina zu dienen – um sich für die Hilfe aus der Vergangenheit zu revanchieren.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 34,
+        "Atk_Base": 1508,
+        "Hp_Base": 6880,
+        "Speed": 574,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Erd-ANG hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Schnittkante",
+                "SkillDescription": "300% Schaden an 1 Gegner. 500% Schaden stattdessen, wenn ein Gegner auf dem Schlachtfeld vergiftet ist oder schläft. Dieser Angriff ignoriert Wächter und Schadensreduzierungseffekte.\n\nDann gibst du sofort 1 anderen zufälligen Verbündeten die nächste Runde, indem du seine aktuelle ZE auf 0 reduzierst. Aktive Fertigkeiten, die Runden gewähren, können nicht in Runden eingesetzt werden, die durch diese Fertigkeit gegeben werden. Diese Fertigkeit kann in solchen Zügen eingesetzt werden, gewährt aber nicht den zusätzlichen Zug.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Inspirationstugend",
+                "SkillDescription": "Verbündete erhalten 2 Geist für jeden Verbündeten auf dem Schlachtfeld. Alle Verbündeten auf dem Schlachtfeld werden um 500% des Angriffs des Anwenders geheilt, erhalten den Statuseffekt Rüstung und irdische Macht. Dann gibst du allen anderen Verbündeten, die maximale LP haben, sofort die nächsten Runden, indem du ihre aktuelle ZE reduzierst. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, wenn sie den Zug erhalten haben.\n\nBenutzbar, wenn der Benutzer 1+ Einheiten mit Angriffen besiegt hat, während er auf dem Schlachtfeld war, und wenn kein Verbündeter bereits Irdene Macht hat. Kann jedes Mal, wenn diese Einheit auf dem Schlachtfeld ist, einmal verwendet werden.\n\nRüstung gewährt 50% Schadensreduzierung beim nächsten Angriff, dann wird der Effekt entfernt. Die Rüstung überschreibt andere Statuseffekte auf diesen Einheiten. Eine Einheit mit Irdener Macht erhält 0,5x ihres ursprünglichen Angriffs zu ihrem Angriff hinzu, solange sie nicht brennt. Dieser Effekt stapelt sich mit Wut-Effekten und anderen Angriffserhöhungen (z. B. 1,5x + 0,5x => 2,0x insgesamt), kann aber nicht mit sich selbst gestapelt werden. Irdene Macht endet für alle Verbündeten, wenn die Einheit, die sie gewährt hat, das Schlachtfeld verlässt, und wird von Einheiten entfernt, die das Schlachtfeld verlassen.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Beruhigungsfackel",
+                "SkillDescription": "Zielt auf alle Gegner. Alle brennenden Ziele werden geschwächt und erhalten einen Wut-Schutz. Alle nicht brennenden Ziele werden für 200 ZE mit dem Statuseffekt Verfluchter Schlaf belegt. Dann erhalten alle nicht schlafenden Ziele für 200 ZE den Statuseffekt Mega-Gift und alle nicht brennenden Verbündeten erhalten Schlafdornen.\n\nDiese Fähigkeit kann eingesetzt werden, wenn mindestens 1 Gegner auf dem Schlachtfeld nicht brennt. Diese Fertigkeit wird nach der Verwendung für 100 ZE gesperrt.\n\nGeschwächte Einheiten haben bis zum Ende ihres nächsten Zuges einen auf 0,75x reduzierten Angriff. Diese Effekte überschreiben alle bestehenden Schwächungs- oder Empörungseffekte der betroffenen Einheiten. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden. Wutabwehr verhindert, dass eine Einheit einmal wütend wird und wird dann entfernt. Wutabwehr kann nicht gestapelt werden. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden. Mega-Gift überschreibt andere Statuseffekte.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Rotdrachenwut",
+                "SkillDescription": "300% Schaden an 2 zufälligen Gegnern. 600% Schaden stattdessen an Zielen, die vergiftet sind oder schlafen. 800% Schaden stattdessen an Zielen, die den Statuseffekt Mega-Gift oder den Statuseffekt Verfluchter Schlaf haben. Dieser Angriff kann von Wächtern nicht umgelenkt werden und ignoriert alle Effekte von Gegnern, die keine Bosse sind, die verhindern würden, dass die Ziele besiegt werden, sowie Effekte zur Schadensreduzierung von Gegnern, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten. Dieser Angriff kann Ziele treffen, die den Statuseffekt Schleichen oder einen passiven Effekt haben, der Angriffe mit mehreren Zielen ignoriert.\n\nDiese Fertigkeit wird jedes Mal gesperrt, wenn der Benutzer einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Tugendmarsch",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken schlafende Gegner nicht auf und heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n\nDiese Einheit ist immun gegen Gifteffekte. Wenn ein Verbündeter Schlafdornen hat, ist diese Einheit immun gegen Betäubungseffekte.\n\nWenn diese Einheit das Schlachtfeld betritt:\n- Alle nicht brennenden Verbündeten auf dem Schlachtfeld erhalten Schlafdornen.\n- Für 200 ZE kann diese Einheit, sofern sie nicht brennt, nicht durch Schaden besiegt werden und hat eine Schadensreduzierung von 60% durch Angriffe.\n\nAm Ende jeder Runde dieser Einheit werden alle verbündeten Betrüger auf dem Schlachtfeld sofort besiegt. Es wird angenommen, dass diese Einheit so viele Einheiten mit Angriffen besiegt hat, wie durch diesen Effekt besiegt werden. Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass die Ziele besiegt werden."
+            },
+            {
+                "SkillTitle": "Rotdrachentaktik",
+                "SkillDescription": "Immer wenn ein Gegner durch Verstärkung das Schlachtfeld betritt, besteht eine 50%ige Chance, dass er den Statuseffekt Verfluchter Schlaf für 200T ZE erhält. Dann besteht eine 50%ige Chance, dass er den Statuseffekt Mega-Gift für 200 ZE erhält.\n\nJedes Mal, wenn eine vergiftete oder schlafende Einheit an der Reihe ist, wird diese Einheit um 30% ihrer maximalen LP geheilt.\n\nWenn ein anderer nicht-verbrannter Verbündeter auf dem Schlachtfeld besiegt oder aus irgendeiner Quelle geopfert wird:\n- erhält diese Einheit den Statuseffekt Rüstung und wird um 100% der maximalen LP geheilt. \n- alle nicht brennenden Verbündeten auf dem Schlachtfeld erhalten Schlafdornen. \n- bei 2 zufälligen Verbündeten auf dem Schlachtfeld werden die aktuellen ZE um 50 ZE reduziert. \n\nWenn eine Einheit mit Schlafdornen durch einen Angriff Schaden erleidet, werden die Schlafdornen dieser Einheit verbraucht und gewähren dem Angreifer sofort den Statuseffekt Verfluchter Schlaf für 200 ZE. Verbrennung oder Angriffe, die Verbrennung gewähren, entfernen die Schlafdornen und verhindern, dass der verfluchte Schlaf angewendet wird. Verfluchter Schlaf überschreibt andere Statuseffekte als Brennen, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die bereits geschlafen haben, während sie sich auf dem Schlachtfeld befinden, und endet nicht durch Schaden, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Schön, dich kennenzulernen. Mein Name ist Cera. \nAls Elminas Untergebene hoffe ich,\ndass ich dir auch nur ein bisschen helfen kann.\n\nAber ich dulde weder Korruption noch Ungerechtigkeit.\nVergiss das nicht!"
+            ],
+            "Login": [
+                "Ich bin so froh, dass du wieder da bist! Bitte bring mir auch heute viele Dinge bei!"
+            ],
+            "Tap": [
+                "Ich erinnere mich nicht gerne an meine Kindheit. Ich habe nur dunkle und einsame Erinnerungen...\nAber ich werde nie den Helden vergessen, der jemanden wie mich gerettet hat.",
+                "Beängstigend...? Du redest über mich!? Das soll wohl ein Witz sein! Ich werde fast nie wütend!\nNun... es sei denn, es geht um etwas Schmutziges oder Unanständiges - das ist etwas anderes.",
+                "Die Leute sagen oft, ich sei ein Perfektionist, aber in Wirklichkeit fehlt mir einfach das Selbstvertrauen. \nDeshalb lerne und trainiere ich härter als alle anderen. Kannst du dieses Gefühl nachvollziehen?"
+            ],
+            "Idle": [
+                "Ich mag es nicht, allein zu sein...Nicht, dass ich jemals zugeben würde, dass ich einsam bin."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Schnittkante": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Inspirationstugend": {
+                    "BaseWeight": 5000
+                },
+                "Beruhigungsfackel": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Rotdrachenwut": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

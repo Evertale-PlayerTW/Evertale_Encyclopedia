@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1764293434,
+	"Time": 1764734665,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -74449,6 +74449,355 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"AttackUp4TargetPoisonEaterDreamhunter": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsPoisonEaterOrDreamHunter",
+				"scalor": 0.07
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5TargetPoisonEaterDreamhunter": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsPoisonEaterOrDreamHunter",
+				"scalor": 0.10
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6TargetPoisonEaterDreamhunter": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsPoisonEaterOrDreamHunter",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"UnlessBurningPassiveAElmKouhaiRegular": {
+			"class": "Buff",
+			"stackName": "UnlessBurningPassiveAElmKouhaiRegular",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+				"behaviorOverrides": [{
+				"sourceBuffs": ["BlockDeathFor200TUIfNotBurning","60PercentDamageReduceFor200TUIfNotBurning","PoisonImmunity","StunImmunityIfAllyThorned"]
+			},{
+				"allyBuffs": ["SleepThorns"],
+				"sourceBuffs": ["SleepThorns"],
+				"spreadCondition": "IsNotBurning"
+			},{
+				"selfBuffs": ["SacrificeAllAllyImpostersEOT"]
+			},{
+				"selfBuffs": ["1EnemyIsPoisonedBuff"],
+				"spreadCondition": "1EnemyPoisoned"
+			},{
+				"selfBuffs": ["1EnemyIsSleepingBuff"],
+				"spreadCondition": "EnemyTeamSleeping"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"SourceOfPartyModeElmKouhaiRegular":{
+			"class": "Buff",
+			"stackName": "SourceOfPartyModeElmKouhaiRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"BlockDeathFor200TUIfNotBurning": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"cancelFromDamageFlags": ["IgnoreBlockDeath","HardIgnoreBlockDeath","Burn"],
+				"conditions": "BlockDeathChanceOKNotBurning"
+			},{
+				"activeMonsterConditions": "AlwaysTrue",
+				"selfBuffs": ["BlockDeathChanceOK"]
+			}],
+			"stackName": "BlockDeathFor200TUIfNotBurning",
+			"iconSpriteName": "IconWhiteFightSwordTime01",
+			"duration": 200,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true
+		},
+		"60PercentDamageReduceFor200TUIfNotBurning": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"percent": 0.4,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "IsNotBurning"
+			}],
+			"duration": 200,
+			"tags": ["BigDamageMinus"],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"BuffedEnemyPassiveAElmKouhaiRegular": {
+			"class": "Buff",
+			"stackName": "BuffedEnemyPassiveAElmKouhaiRegular",
+			"behaviors": ["BuffOnMonsterTurn","BuffOnMonsterTurn","OthersEnterBattle","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["30PercentHealMaxHP"],
+				"sameTeam": true,
+				"activeMonsterConditions": "IsPoisonedOrSleeping"
+			},{
+				"sourceBuffs": ["30PercentHealMaxHP"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsPoisonedOrSleeping"
+			},{
+				"sameTeam": false,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster",
+				"chance": 1.0,
+				"contextBuffs": ["SleepForcedThorns50PercentChance","MegaPoison50PercentChance"]
+			},{
+				"selfBuffs": ["Armor","HealFull","SleepThorns"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"allyBuffs": ["SleepThorns"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"randomAllyBuffs": ["TUMinus50"],
+				"numRandomToBuff": 2,
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"MarkedElmKouhaiRegular":{
+			"class": "Buff",
+			"stackName": "SourceElmKouhaiRegularMarked",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RandomOtherAllyExtraTurnElmKouhaiRegular": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotMarkedTargetElmKouhaiRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"PartyModeAttackUP50PercentElmKouhaiRegular": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurn","BuffWhenMonstersDie","StatOnly","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemovePartyModeAttackUP50PercentElmKouhaiRegular"],
+				"spreadCondition": "NoMoreSourceOfPartyMode",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"selfBuffs": ["RemovePartyModeAttackUP50PercentElmKouhaiRegular"],
+				"spreadCondition": "NoMoreSourceOfPartyMode",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"selfBuffs": ["RemovePartyModeAttackUP50PercentElmKouhaiRegular"],
+				"spreadCondition": "NoMoreSourceOfPartyMode"
+			},{
+				"conditions": "IsNotBurning",
+				"scalorStatBonuses": {
+					"Attack": 0.5
+				}
+			},{}],
+			"stackName": "PartyModeElmKouhaiRegular",
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"statusEffect": "EarthernMightStatus1",
+			"iconSpriteName": "IconPurpleAttackUpSword01"
+		},
+		"RemovePartyModeAttackUP50PercentElmKouhaiRegular": {
+			"class": "Buff",
+			"stackName": "RemovePartyModeAttackUP50PercentElmKouhaiRegular",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "PartyModeElmKouhaiRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantAllNonBurningAlliesSleepThornsEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allyBuffs": ["SleepThorns"],
+				"selfBuffs": ["SleepThorns"],
+				"spreadCondition": "IsNotBurning"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantAllOtherMaxHPAlliesTurnEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allAlliesButSelfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"spreadCondition": "OnMaxHP"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"ElmKouhaiRegularCooldown100":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"SleepForcedThorns50PercentChance": {
+			"class": "Buff",
+			"stackName": "Sleep",
+			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviorOverrides": [{
+					"stackNamesToBlock": ["Poison"]
+				},
+				{
+					"name": "PurifyChain"
+				},
+				{
+					"name": "ActiveStealthJustGained"
+				},
+				{
+					"name": "Armor"
+				},
+				{
+					"name": "Poison"
+				},
+				{
+					"name": "Stealth"
+				},
+				{
+					"name": "Stance"
+				},
+				{
+					"name": "SpiritLeaking"
+				},
+				{
+					"name": "SpiritLeakReady"
+				},
+				{
+					"name": "Condemn"
+				},
+				{
+					"name": "Slowed"
+				},
+				{
+					"name": "StunSkinStatus"
+				},
+				{
+					"name": "Decay"
+				},
+				{
+					"name": "AutoPurifyAfterTurnNoSleep"
+				},
+				{},
+				{
+					"ignoreIfHurtBySelf": true,
+					"cancelFromDamageFlags": ["DoNotWake", "DreamDamage"]
+				}
+			],
+			"duration": 200,
+			"applyConditions": "50PercentChanceAndIsNotBurning",
+			"showAsTimer": true,
+			"statusEffect": "CursedSleep",
+			"tags": ["EarthSleep", "CursedSleep"],
+			"statusEffectOffset": 0.1,
+			"iconSpriteName": "IconWhiteSleepZs01",
+			"canBePurified": true
+		},
+		"MegaPoison50PercentChance": {
+			"class": "Buff",
+			"stackName": "Poison",
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+				"behaviorOverrides": [{
+					"name": "ActiveStealthJustGained"
+				},
+				{
+					"name": "Sleep"
+				},
+				{
+					"name": "Armor"
+				},
+				{
+					"name": "Burn"
+				},
+				{
+					"name": "Stealth"
+				},
+				{
+					"name": "Stance"
+				},
+				{
+					"name": "SpiritLeaking"
+				},
+				{
+					"name": "SpiritLeakReady"
+				},
+				{
+					"name": "Condemn"
+				},
+				{
+					"name": "Slowed"
+				},
+				{
+					"name": "StunSkinStatus"
+				},
+				{
+					"name": "Decay"
+				},
+				{
+					"percentOfAttack": 0.05,
+					"damageColor": "Green",
+						"abilityEffect": "MidDeath1MegaPoison",
+					"extraDamageFlag": "MegaPoison"
+				}
+			],
+				"tags": ["Poison", "MegaPoison"],
+			"canBePurified": true,
+			"duration": 200,
+			"showAsTimer": true,
+			"statusEffect": "MegaPoisonStatus",
+			"statusEffectOffset": 0.1,
+			"damageType": "Poison",
+			"iconSpriteName": "IconPurplePoison01",
+			"applyConditions": "50PercentChance"
 		}
 	}
 }

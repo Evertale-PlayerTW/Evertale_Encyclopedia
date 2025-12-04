@@ -124031,7 +124031,7 @@
         "Hp_Base": 5105,
         "Speed": 434,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Garrrr—!\nYou've got the strongest of all dragons!",
         "LeaderSkill": {
             "SkillTitle": "Light Attack Up",
@@ -124367,5 +124367,330 @@
                 "RelationshipBuff": "ATK+2%"
             }
         }
+    },
+    "ElmKouhaiRegular01": {
+        "Name": "Cera",
+        "Name2": "Red Dragon Knight of Virtue",
+        "FullName": "Cera - Red Dragon Knight of Virtue",
+        "Profile": "Cera was raised in an orphanage within a kingdom steeped in corruption and decay. By nature, she was a shy and tidy girl, but her environment was abysmal. Funds were used to line the pockets of the orphanage's administrators while the children endured meager meals and the constant threat of violence from the caretakers.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 28,
+        "Atk_Base": 1161,
+        "Hp_Base": 5405,
+        "Speed": 574,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Let's proceed—with righteous integrity!",
+        "LeaderSkill": {
+            "SkillTitle": "Earth Attack Up",
+            "SkillDescription": "Allied Earth element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Cutting Edge",
+                "SkillDescription": "300% damage to 1 enemy. 500% damage instead if any enemy on the battlefield is poisoned or sleeping. This attack ignores Guardians and damage reduction effects.\n\nThen immediately give 1 other random ally the next turn by reducing their current TU to 0. Active skills that grant turns cannot be used on turns given by this skill. This skill can be used on such turns, but will not grant the extra turn.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Inspiring Virtue",
+                "SkillDescription": "Allies gain 2 Spirit for each ally on the battlefield. All allies on the battlefield heal for 500% of the user's attack, gain the Armor status effect, and Earthen Might. Then, immediately give all other allies that are at max HP the next turns by reducing their current TU. Active skills that grant turns cannot be used by any affected units until after they have had the turn.\n\nUsable if the user has defeated 1+ units with attacks while on the battlefield, and if no ally has Earthen Might already. Usable once each time this unit is on the battlefield.\n\nArmor grants 50% damage reduction from the next attack, then the effect is removed. Armor will overwrite other status effects on those units. A unit with Earthen Might has 0.5x of their original Attack added to their Attack while they are not burning. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total), but cannot stack with itself. Earthen Might ends for all allies if the unit who granted it leaves the battlefield, and is removed from units that leave the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Pacifying Flare",
+                "SkillDescription": "Targets all enemies. All burning targets are weakened and granted a Rage ward. All non-burning targets are granted the Cursed Sleep status effect for 200TU. Then all non-sleeping targets are granted the Mega Poison status effect for 200TU, and all non-burning allies are granted Sleep Thorns.\n\nUsable if at least 1 enemy on the battlefield is not burning. This skill becomes locked for 100TU after use.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. These effects will overwrite any existing Weak or Enrage effects on affected units. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects. Rage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Mega Poison will overwrite other status effects.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Red Dragon Wrath",
+                "SkillDescription": "300% damage to 2 random enemies. 600% damage instead to targets that are poisoned or sleeping. 800% damage instead to targets that have the Mega Poison status effect or the Cursed Sleep status effect. This attack cannot be redirected by Guardians, and will ignore any effects of non-boss enemies that would prevent the targets from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills. This attack can hit targets that have the Stealth Status Effect or a passive effect that ignores multiple target attacks.\n\nUnlocked each time the user damages an enemy with another attack. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Virtuous March",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit is immune to Poison status effects. If any ally has Sleep Thorns, this unit is immune to Stun effects.\n\nWhenever this unit enters the battlefield:\n- All non-burning allies on the battlefield are granted Sleep Thorns.\n- For 200TU, unless burning, this unit cannot be defeated by damage and has 60% damage reduction from attacks.\n\nAt the end of each of this unit's turns, all ally Imposters on the battlefield are immediately defeated. This unit is considered to have defeated with attacks as many units as are defeated by this effect. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Nice to meet you. My name is Cera.\nAs Elmina's subordinate,\nI hope I can be of even a little help to you.\n\nBut I won't tolerate corruption or injustice!\nDon't forget that!"
+            ],
+            "Login": [
+                "I'm so glad you came again! Please teach me lots of things today too!"
+            ],
+            "Tap": [
+                "I don't like to remember my childhood. I only have dark and lonely memories...\n\nBut I'll never forget the hero who saved someone like me.",
+                "Scary...? You're talking about me!? You've got to be kidding! I hardly ever get angry!\nWell...unless it's something filthy or indecent—that's different.",
+                "People often say I'm a perfectionist, but it's really just that I lack confidence.\nThat's why I study and train harder than anyone else... Do you understand this feeling?"
+            ],
+            "Idle": [
+                "I don't really like being left alone...\nNot that I'd ever admit I'm lonely."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Cutting Edge": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Inspiring Virtue": {
+                    "BaseWeight": 5000
+                },
+                "Pacifying Flare": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Red Dragon Wrath": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        }
+    },
+    "ElmKouhaiRegular02": {
+        "Name": "Cera",
+        "Name2": "Red Dragon Knight of Virtue",
+        "FullName": "Cera - Red Dragon Knight of Virtue",
+        "Profile": "Amid those dark days, the Gru Grim suddenly attacked the orphanage. Cera was nearly abducted and had resigned herself to death—but she was saved by a certain woman, who also freed her from the orphanage's grasp. That woman was none other than Elmina, who had broken free from her brainwashing.",
+        "Profile_Ascended": "In admiration of Elmina's strength, Cera traveled from town to town, honing her skills through relentless training. In time, she entered the Red Dragon Academy and graduated at the top of her class. Though she faced much opposition, she chose to turn away from the path of the elite and serve under her benefactor, Elmina—to repay the favor from years past.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 34,
+        "Atk_Base": 1508,
+        "Hp_Base": 6880,
+        "Speed": 574,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Earth Attack Up",
+            "SkillDescription": "Allied Earth element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Cutting Edge",
+                "SkillDescription": "300% damage to 1 enemy. 500% damage instead if any enemy on the battlefield is poisoned or sleeping. This attack ignores Guardians and damage reduction effects.\n\nThen immediately give 1 other random ally the next turn by reducing their current TU to 0. Active skills that grant turns cannot be used on turns given by this skill. This skill can be used on such turns, but will not grant the extra turn.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Inspiring Virtue",
+                "SkillDescription": "Allies gain 2 Spirit for each ally on the battlefield. All allies on the battlefield heal for 500% of the user's attack, gain the Armor status effect, and Earthen Might. Then, immediately give all other allies that are at max HP the next turns by reducing their current TU. Active skills that grant turns cannot be used by any affected units until after they have had the turn.\n\nUsable if the user has defeated 1+ units with attacks while on the battlefield, and if no ally has Earthen Might already. Usable once each time this unit is on the battlefield.\n\nArmor grants 50% damage reduction from the next attack, then the effect is removed. Armor will overwrite other status effects on those units. A unit with Earthen Might has 0.5x of their original Attack added to their Attack while they are not burning. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total), but cannot stack with itself. Earthen Might ends for all allies if the unit who granted it leaves the battlefield, and is removed from units that leave the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Pacifying Flare",
+                "SkillDescription": "Targets all enemies. All burning targets are weakened and granted a Rage ward. All non-burning targets are granted the Cursed Sleep status effect for 200TU. Then all non-sleeping targets are granted the Mega Poison status effect for 200TU, and all non-burning allies are granted Sleep Thorns.\n\nUsable if at least 1 enemy on the battlefield is not burning. This skill becomes locked for 100TU after use.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. These effects will overwrite any existing Weak or Enrage effects on affected units. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects. Rage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Mega Poison will overwrite other status effects.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Red Dragon Wrath",
+                "SkillDescription": "300% damage to 2 random enemies. 600% damage instead to targets that are poisoned or sleeping. 800% damage instead to targets that have the Mega Poison status effect or the Cursed Sleep status effect. This attack cannot be redirected by Guardians, and will ignore any effects of non-boss enemies that would prevent the targets from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills. This attack can hit targets that have the Stealth Status Effect or a passive effect that ignores multiple target attacks.\n\nUnlocked each time the user damages an enemy with another attack. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Virtuous March",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit is immune to Poison status effects. If any ally has Sleep Thorns, this unit is immune to Stun effects.\n\nWhenever this unit enters the battlefield:\n- All non-burning allies on the battlefield are granted Sleep Thorns.\n- For 200TU, unless burning, this unit cannot be defeated by damage and has 60% damage reduction from attacks.\n\nAt the end of each of this unit's turns, all ally Imposters on the battlefield are immediately defeated. This unit is considered to have defeated with attacks as many units as are defeated by this effect. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated."
+            },
+            {
+                "SkillTitle": "Red Dragon Tactics",
+                "SkillDescription": "Whenever an enemy enters the battlefield from reinforcements, they have a 50% chance to be granted the Cursed Sleep status effect for 200TU. Then they have a 50% chance to be granted the Mega Poison status effect for 200TU.\n\nEach time a Poisoned or Sleeping unit gets the turn, this unit will be healed for 30% of its max HP.\n\nWhenever another non-conjured Ally on the battlefield is defeated or sacrificed by any source:\n- this unit gains the Armor status effect, and is healed for 100% of max HP.\n- all non-burning allies on the battlefield are granted Sleep Thorns.\n- 2 random allies on the battlefield have their current TU reduced by 50TU.\n\nWhen a unit with Sleep Thorns is dealt damage by an attack, that unit's Sleep Thorns will be consumed to immediately grant the Cursed Sleep status effect for 200TU to the attacker. Burn or attacks that grant Burn will remove Sleep Thorns and prevent Cursed Sleep from applying. Cursed Sleep will overwrite status effects other than Burn, cannot be overwritten by Poison, can be applied repeatedly to units that have already slept while on the battlefield, and will not end from damage caused by Dream Hunter type active skills."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Nice to meet you. My name is Cera.\nAs Elmina's subordinate,\nI hope I can be of even a little help to you.\n\nBut I won't tolerate corruption or injustice!\nDon't forget that!"
+            ],
+            "Login": [
+                "I'm so glad you came again! Please teach me lots of things today too!"
+            ],
+            "Tap": [
+                "I don't like to remember my childhood. I only have dark and lonely memories...\n\nBut I'll never forget the hero who saved someone like me.",
+                "Scary...? You're talking about me!? You've got to be kidding! I hardly ever get angry!\nWell...unless it's something filthy or indecent—that's different.",
+                "People often say I'm a perfectionist, but it's really just that I lack confidence.\nThat's why I study and train harder than anyone else... Do you understand this feeling?"
+            ],
+            "Idle": [
+                "I don't really like being left alone...\nNot that I'd ever admit I'm lonely."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Cutting Edge": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Inspiring Virtue": {
+                    "BaseWeight": 5000
+                },
+                "Pacifying Flare": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Red Dragon Wrath": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

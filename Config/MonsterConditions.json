@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1764293421,
+    "Time": 1764658437,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27852,18 +27852,73 @@
 			"class": "MonsterConditions",
 			"monsterTags": ["BarrierShield"],
 			"or": {
-					"class": "MonsterConditions",
-					"monsterTags": ["MechaSisterBarrierActive"],
-			"or": {
 				"class": "MonsterConditions",
-				"monsterTags": ["MermaidBarrier"],
+				"monsterTags": ["MechaSisterBarrierActive"],
 				"or": {
 					"class": "MonsterConditions",
-					"myTeamMonsterConditionMatchesNeeded":{
-						"SourceBoundBarrierActive": 1
+					"monsterTags": ["MermaidBarrier"],
+					"or": {
+						"class": "MonsterConditions",
+						"myTeamMonsterConditionMatchesNeeded":{
+							"SourceBoundBarrierActive": 1
 						}
 					}
 				}
+			}
+		}
+	},
+	"IsPoisonEaterOrDreamHunter": {
+        "class": "MonsterConditions",
+        "abilityConfigFlag": "PoisonEater",
+        "or":{
+            "class": "MonsterConditions",
+            "abilityConfigFlag": "Dreamhunt"
+        }
+    },
+    "Kills1AndActiveSkillIsNotLocked": {
+		"class": "MonsterConditions",
+		"killsMade": 1,
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["ActiveSkillLocked"],
+			"or":{
+				"class": "MonsterConditions",
+				"myTeamMonsterConditionMatchesNeeded":{
+					"IsPartyModeElmKouhaiRegular": 1
+				}
+        	}
+		}
+	},
+	"BlockDeathChanceOKNotBurning": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["BlockDeathChanceOK"],
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Burn"]
+		}
+	},
+	"50PercentChanceAndIsNotBurning": {
+		"class": "MonsterConditions",
+		"chance": 0.50,
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Burn"]
+		}
+	},
+	"IsPartyModeElmKouhaiRegular": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["PartyModeElmKouhaiRegular"]
+	},
+	"IsSourceOfPartyMode": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["SourceOfPartyModeElmKouhaiRegular"]
+	},
+	"NoMoreSourceOfPartyMode":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsSourceOfPartyMode": 1
 			}
 		}
 	}

@@ -124031,7 +124031,7 @@
         "Hp_Base": 5105,
         "Speed": 434,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Garrrr—!\nHai la più forte di tutti i draghi!",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Luce)",
@@ -124367,5 +124367,330 @@
                 "RelationshipBuff": "ATT+2%"
             }
         }
+    },
+    "ElmKouhaiRegular01": {
+        "Name": "Cera",
+        "Name2": "Dragone Rosso della Virtù",
+        "FullName": "Cera - Dragone Rosso della Virtù",
+        "Profile": "Cera è cresciuta in un orfanotrofio in un regno intriso di corruzione e decadenza. Per sua natura, era una ragazza timida e ordinata, ma l'ambiente in cui viveva era disastroso. I fondi venivano utilizzati per riempire le tasche degli amministratori dell'orfanotrofio, mentre i bambini sopportavano i morsi della fame e la costante minaccia di violenza da parte dei tutori.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 28,
+        "Atk_Base": 1161,
+        "Hp_Base": 5405,
+        "Speed": 574,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Procediamo— con retta integrità!",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Punta Tagliente",
+                "SkillDescription": "300% di danno a 1 nemico. 500% di danno invece se c'è almeno un nemico avvelenato o addormentato in campo. Questo attacco ignora i Guardiani e gli effetti di riduzione del danno.\n\nFornisce immediatamente il prossimo turno a 1 altro alleato casuale azzerando i suoi TU. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità. Questa abilità può essere utilizzata in tali turni, ma non fornirà il turno extra.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Virtù Ispiratrice",
+                "SkillDescription": "Gli alleati ottengono 2 Spiriti per ogni alleato in campo. Tutti gli alleati si curano per un valore di HP pari al 500% dell'attacco dell'unità, ottengono Armatura e Forza Terrestre. Poi, fornisce immediatamente il turno a tutti gli altri alleati al 100% di HP azzerando i loro TU attuali. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile se l'unità ha sconfitto almeno 1 unità con attacchi da quando è entrata in campo e non ci sono già alleati con Forza Terrestre. Utilizzabile solo una volta ogni volta che l'unità è in campo.\n\nArmatura riduce del 50% i danni del prossimo attacco, poi l'effetto è rimosso. Armatura sostituisce altri effetti di stato. Un'unità con Forza Terrestre aggiunge lo 0.5x dell'attacco originale al proprio attacco se non è ustionata. L'effetto si accumula con Provocazione e altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,5x = 2,0x totale), ma non con sé stesso. Forza Terrestre viene rimosso da tutti gli alleati se l'unità che lo ha fornito abbandona il campo, e viene rimosso dalle unità che abbandonano il campo.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Fuoco Pacificatore",
+                "SkillDescription": "Colpisce tutti i nemici. Tutti i bersagli ustionati sono indeboliti e subiscono Protezione Provocazione. Tutti i bersagli non ustionati subiscono Sonno Maledetto per 200TU. Poi, tutti i bersagli non addormentati subiscono Mega Veleno per 200TU, e tutti gli alleati non ustionati subiscono Spine Sonno.\n\nUtilizzabile se c'è almeno 1 nemico non ustionato in campo. Questa abilità è bloccata per 100TU dopo l'uso.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Mega Veleno sostituisce altri effetti di stato.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Furia Drago Rosso",
+                "SkillDescription": "300% di danno a 2 nemici casuali. 600% di danno invece ai bersagli avvelenati o addormentati. 800% di danno invece ai bersagli con Mega Veleno o Sonno Maledetto. L'attacco non può essere reindirizzato sui Guardiani e ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto. L'attacco può colpire bersagli invisibili o che hanno effetti passivi che ignorano gli attacchi multipli.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Marcia Virtuosa",
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno totale inflitto.\n\nL'unità è immune a Veleno. Se c'è almeno un alleato con Spine Sonno, l'unità è immune a Stordimento.\n\nQuando l'unità entra in campo:\n- Tutti gli alleati non ustionati in campo ottengono Spine Sonno.\n- Per 200TU, a meno che non sia ustionata, l'unità non può essere sconfitta subendo danno e ha una riduzione danni del 60% dagli attacchi ricevuti.\n\nAlla fine di ogni turno di questa unità, tutti gli Impostori alleati in campo vengono sconfitti immediatamente. Tutti i bersagli sconfitti da questo effetto contano come sconfitto dall'unità con un attacco. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero ai bersagli di essere sconfitti."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Stordim. Lv3",
+                "SkillDescription": "Riduce di 20TU tutti gli effetti di stordimento inflitti a questa unità."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Piacere di conoscerti. Mi chiamo Cera.\nIn qualità di subordinata di Elmina,\nspero di potervi essere d'aiuto.\n\nMa non tollererò la corruzione o l'ingiustizia!\nNon dimenticarlo!"
+            ],
+            "Login": [
+                "Sono così felice che tu sia tornato! Insegnami un sacco di cose anche oggi!"
+            ],
+            "Tap": [
+                "Non mi piace ricordare la mia infanzia. Ho solo ricordi negativi...\n \nMa non dimenticherò mai l'eroina che ha salvato una come me.",
+                "Spaventosa...? Stai parlando di me?! Stai scherzando! Non mi arrabbio quasi mai!\nBeh...a meno che non ci sia qualcosa di sporco o indecente— è diverso.",
+                "Mi dicono spesso che sono una perfezionista, ma in realtà è solo che mi manca autostima.\nPer questo studio e mi alleno più duramente di chiunque altro... Capisci cosa si prova?"
+            ],
+            "Idle": [
+                "Non mi piace essere lasciata sola...\nAnche se non ammetterei mai di sentirmi sola."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Punta Tagliente": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Virtù Ispiratrice": {
+                    "BaseWeight": 5000
+                },
+                "Fuoco Pacificatore": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Furia Drago Rosso": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        }
+    },
+    "ElmKouhaiRegular02": {
+        "Name": "Cera",
+        "Name2": "Dragone Rosso della Virtù",
+        "FullName": "Cera - Dragone Rosso della Virtù",
+        "Profile": "In quei giorni bui, il Gru Grim attaccò improvvisamente l'orfanotrofio. Cera fu quasi rapita e si era ormai rassegnata alla morte— ma fu salvata da una certa donna, che la liberò anche dalle grinfie dell'orfanotrofio. Quella donna non era altri che Elmina, che si era liberata dal suo lavaggio del cervello.",
+        "Profile_Ascended": "Affascinata dalla forza di Elmina, Cera viaggiò di città in città, affinando le sue abilità attraverso un allenamento implacabile. Dopo qualche tempo, entrò nell'Accademia dei Dragoni Rossi e si diplomò con i voti migliori della sua classe. Anche se ha affrontato molta opposizione, ha scelto di allontanarsi dal percorso di formazione élite e servire invece la sua benefattrice, Elmina— per ripagare il favore del passato.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 34,
+        "Atk_Base": 1508,
+        "Hp_Base": 6880,
+        "Speed": 574,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Punta Tagliente",
+                "SkillDescription": "300% di danno a 1 nemico. 500% di danno invece se c'è almeno un nemico avvelenato o addormentato in campo. Questo attacco ignora i Guardiani e gli effetti di riduzione del danno.\n\nFornisce immediatamente il prossimo turno a 1 altro alleato casuale azzerando i suoi TU. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità. Questa abilità può essere utilizzata in tali turni, ma non fornirà il turno extra.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Virtù Ispiratrice",
+                "SkillDescription": "Gli alleati ottengono 2 Spiriti per ogni alleato in campo. Tutti gli alleati si curano per un valore di HP pari al 500% dell'attacco dell'unità, ottengono Armatura e Forza Terrestre. Poi, fornisce immediatamente il turno a tutti gli altri alleati al 100% di HP azzerando i loro TU attuali. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile se l'unità ha sconfitto almeno 1 unità con attacchi da quando è entrata in campo e non ci sono già alleati con Forza Terrestre. Utilizzabile solo una volta ogni volta che l'unità è in campo.\n\nArmatura riduce del 50% i danni del prossimo attacco, poi l'effetto è rimosso. Armatura sostituisce altri effetti di stato. Un'unità con Forza Terrestre aggiunge lo 0.5x dell'attacco originale al proprio attacco se non è ustionata. L'effetto si accumula con Provocazione e altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,5x = 2,0x totale), ma non con sé stesso. Forza Terrestre viene rimosso da tutti gli alleati se l'unità che lo ha fornito abbandona il campo, e viene rimosso dalle unità che abbandonano il campo.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Fuoco Pacificatore",
+                "SkillDescription": "Colpisce tutti i nemici. Tutti i bersagli ustionati sono indeboliti e subiscono Protezione Provocazione. Tutti i bersagli non ustionati subiscono Sonno Maledetto per 200TU. Poi, tutti i bersagli non addormentati subiscono Mega Veleno per 200TU, e tutti gli alleati non ustionati subiscono Spine Sonno.\n\nUtilizzabile se c'è almeno 1 nemico non ustionato in campo. Questa abilità è bloccata per 100TU dopo l'uso.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Mega Veleno sostituisce altri effetti di stato.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Furia Drago Rosso",
+                "SkillDescription": "300% di danno a 2 nemici casuali. 600% di danno invece ai bersagli avvelenati o addormentati. 800% di danno invece ai bersagli con Mega Veleno o Sonno Maledetto. L'attacco non può essere reindirizzato sui Guardiani e ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto. L'attacco può colpire bersagli invisibili o che hanno effetti passivi che ignorano gli attacchi multipli.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Marcia Virtuosa",
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno totale inflitto.\n\nL'unità è immune a Veleno. Se c'è almeno un alleato con Spine Sonno, l'unità è immune a Stordimento.\n\nQuando l'unità entra in campo:\n- Tutti gli alleati non ustionati in campo ottengono Spine Sonno.\n- Per 200TU, a meno che non sia ustionata, l'unità non può essere sconfitta subendo danno e ha una riduzione danni del 60% dagli attacchi ricevuti.\n\nAlla fine di ogni turno di questa unità, tutti gli Impostori alleati in campo vengono sconfitti immediatamente. Tutti i bersagli sconfitti da questo effetto contano come sconfitto dall'unità con un attacco. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero ai bersagli di essere sconfitti."
+            },
+            {
+                "SkillTitle": "Tattica Drago Rosso",
+                "SkillDescription": "Ogni volta che un nemico entra in campo dai rinforzi, ha il 50% di probabilità di subire Sonno Maledetto per 200TU. Poi, ha il 50% di probabilità di subire Mega Veleno per 200TU.\n\nOgni volta che un'unità avvelenata o addormentata ottiene il turno, l'unità recupera il 30% degli HP massimi.\n\nQuando un altro alleato non invocato in campo è sconfitto o sacrificato:\n- L'unità ottiene Armatura e recupera il 100% degli HP massimi.\n- Tutti gli alleati non ustionati in campo subiscono Spine Sonno.\n- 2 alleati casuali in campo riducono i loro TU attuali di 50TU.\n\nQuando un'unità con Spine Sonno subisce danni da un attacco, consuma Spine Sonno per infliggere immediatamente l'effetto di stato Sonno Maledetto all'assalitore per 200TU. Ustione o gli attacchi che ustionano rimuovono Spine Sonno e impediscono di infliggere Sonno Maledetto. Sonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità attive di tipo Cacciasogni non rimuovono l'effetto."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Stordim. Lv3",
+                "SkillDescription": "Riduce di 20TU tutti gli effetti di stordimento inflitti a questa unità."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Piacere di conoscerti. Mi chiamo Cera.\nIn qualità di subordinata di Elmina,\nspero di potervi essere d'aiuto.\n\nMa non tollererò la corruzione o l'ingiustizia!\nNon dimenticarlo!"
+            ],
+            "Login": [
+                "Sono così felice che tu sia tornato! Insegnami un sacco di cose anche oggi!"
+            ],
+            "Tap": [
+                "Non mi piace ricordare la mia infanzia. Ho solo ricordi negativi...\n \nMa non dimenticherò mai l'eroina che ha salvato una come me.",
+                "Spaventosa...? Stai parlando di me?! Stai scherzando! Non mi arrabbio quasi mai!\nBeh...a meno che non ci sia qualcosa di sporco o indecente— è diverso.",
+                "Mi dicono spesso che sono una perfezionista, ma in realtà è solo che mi manca autostima.\nPer questo studio e mi alleno più duramente di chiunque altro... Capisci cosa si prova?"
+            ],
+            "Idle": [
+                "Non mi piace essere lasciata sola...\nAnche se non ammetterei mai di sentirmi sola."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "IsPartyModeElmKouhaiRegular": 1.15
+            },
+            "SkillUse": {
+                "Punta Tagliente": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.35,
+                        "IsOdinRaven": 0.4,
+                        "IsSummoned": 0.75,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.85,
+                        "IsBurning": 0.89,
+                        "IsPoisoned": 1.01,
+                        "IsSleeping": 1,
+                        "IsNotBurning": 1.01,
+                        "IsJeanneDarkSwimsuit": 0.89
+                    }
+                },
+                "Virtù Ispiratrice": {
+                    "BaseWeight": 5000
+                },
+                "Fuoco Pacificatore": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0,
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "3EnemySleepImmune": 0,
+                        "3EnemySleepImmuneAlt": 0,
+                        "EnemyTeamTwoSleeping": 0,
+                        "EnemyTeamThreeSleeping": 0,
+                        "EnemyTeamThreeSleepingAlt": 0,
+                        "AllEnemiesIsSleeping": 0,
+                        "AllEnemiesSleepingAllyHasDreamhunt": 0,
+                        "AllEnemiesIsSleepImmuneOrSleeping": 0,
+                        "AllEnemiesIsSleepImmuneOrSleepingAlt": 0,
+                        "4EnemiesBurningAndOrSleeping": 0
+                    }
+                },
+                "Furia Drago Rosso": {
+                    "BaseWeight": 150,
+                    "Ignore": [
+                        "IsSleeping"
+                    ]
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }
