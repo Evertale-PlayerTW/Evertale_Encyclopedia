@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1764705228,
+  "Time": 1764818684,
   "AnimationData": {
     "AnimationData": [
       {
@@ -44294,6 +44294,30 @@
         "endOfTurnDelay": 1.1,
         "fadeMonsterDelay": 0,
         "fadeMonsterDuration": 6.2
+      },
+      {
+        "config": "default",
+        "attack": "SingleAttackASiegfriedRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "SiegfriedAttack"
+      },
+      {
+        "config": "default",
+        "attack": "SelfBuffASiegfriedRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "SiegfriedBuff"
+      },
+      {
+        "config": "default",
+        "attack": "DoubleAttackASiegfriedRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "SiegfriedSplash"
+      },
+      {
+        "config": "default",
+        "attack": "AllAttackASiegfriedRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "SiegfriedSnowman"
       }
     ]
   }

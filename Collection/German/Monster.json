@@ -15760,6 +15760,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -16122,6 +16133,17 @@
                     "MetalDragon01",
                     "FloatingMage01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "LP+3%"
             }
@@ -17804,6 +17826,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -18169,6 +18202,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -25480,6 +25524,17 @@
                     "RedScarfFrog01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -25676,6 +25731,17 @@
                     "MistDragon01",
                     "FoxDuelist01",
                     "RedScarfFrog01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "LP+3%"
             }
@@ -124385,7 +124451,7 @@
         "Hp_Base": 5405,
         "Speed": 574,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Lass uns weitermachen – mit ehrlicher Integrität!",
         "LeaderSkill": {
             "SkillTitle": "Erd-ANG hoch",
@@ -124525,6 +124591,19 @@
                         "IsSleeping"
                     ]
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -124691,6 +124770,420 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular01": {
+        "Name": "Siegfried",
+        "Name2": "Drachentöter der Legenden",
+        "FullName": "Siegfried - Drachentöter der Legenden",
+        "Profile": "Siegfried, der einst als der legendäre Drachentöter gefeiert wurde. Nach einem erbitterten Kampf mit dem unheilvollen dunklen Drachen, der als geflügelter Dämon bekannt war, gelang es ihr, ihn zu besiegen. Doch die Wunden, die sie in diesem Kampf erlitt, zwangen sie schließlich, sich aus dem Leben als Schwertkämpferin zurückzuziehen.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 28,
+        "Atk_Base": 1136,
+        "Hp_Base": 5530,
+        "Speed": 407,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Ich bin schon in Rente, weißt du... \nNaja, dann kann man wohl nichts machen.",
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Wasser-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Schuppenbrecher",
+                "SkillDescription": "300% Schaden an 1 Gegner. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Gegnern, die keine Bossgegner sind und die verhindern würden, dass das Ziel besiegt wird.\n\nVerleiht einem anderen Gegner pro auf dem Benutzer gespeicherter Ladung (max. 3 Ziele) den Statuseffekt Schlaf für 100 ZE, auch wenn er bereits geschlafen hat, während er auf dem Schlachtfeld war.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Eiserwachen",
+                "SkillDescription": "Heilt den Benutzer vollständig. Der Benutzer erhält eine Ladung, einen Schlafschutz, einen Giftschutz und den Statuseffekt Rüstung. Die Rüstung überschreibt andere Statuseffekte. Dann ist der Benutzer wütend und erträgt den nächsten Schaden, der ihn mit 1 LP besiegen würde.\n\nWird jedes Mal freigeschaltet, wenn der Benutzer einen nicht verletzten Gegner auf dem Schlachtfeld mit einem Angriff besiegt. Diese Fertigkeit wird nach jedem Einsatz erneut gesperrt.\n\nEinige Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden von einer Einheit, die das Schlachtfeld verlässt, entfernt. Jeder Schutzwall verhindert einmal die Anwendung des genannten Effekts und wird dann entfernt. Gleiche Schutzwälle und Ertragen-Effekte können nicht gestapelt werden. Rüstung reduziert den Schaden des nächsten Angriffs um 50 %, danach wird der Effekt wieder entfernt. Der Angriff einer wütenden Einheit wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Wut überschreibt alle bestehenden Effekte von Schwach oder Wut des Benutzers.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Kühlender Geysir",
+                "SkillDescription": "200% Schaden an 2 Gegnern, plus 200% für jedes Mal, wenn diese Einheit einen Gegner mit einem Angriff besiegt hat, während sie sich auf dem Schlachtfeld befindet (max. 800% Gesamtschaden nach dem Besiegen von 3 Gegnern). Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bossgegner sind, die verhindern würden, dass das Ziel besiegt wird, passive Fertigkeiten der Haut und den Statuseffekt Konterstellung.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Drachentöter",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken schlafende Gegner nicht auf und heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\nBis diese Einheit einen nicht verletzten Gegner mit einem Angriff auf dem Schlachtfeld besiegt, ist sie:\n- immun gegen Schlaf-Statuseffekte.\n- immun gegen Gift-Statuseffekte.\n- hat 50% Schadensreduzierung durch Angriffe.\n\nDiese Einheit zählt bei Fertigkeiten, die brennende Einheiten zählen oder beeinflussen, immer als mit dem Statuseffekt Brennen. Diese Einheit kann den Statuseffekt Brennen nicht erlangen. Jede nicht schlafende Einheit, die von dieser Einheit Schaden erleidet, wird verbrannt; wenn du diese Einheit angreifst, werden keine Einheiten verbrannt."
+            },
+            {
+                "SkillTitle": "Legendenrückkehr",
+                "SkillDescription": "Diese Einheit tritt mit 1 Ladung und 10% LP für 200 ZE in den Kampf ein und erträgt den ersten Schaden, der sie mit 1 LP besiegen würde. Eine Einheit mit 10% LP-Regen heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regen-Effekte überschreiben bestehende LP-Regen-Effekte.\n\nDiese Einheit kann nicht betäubt werden, wenn sich auf dem Schlachtfeld eine Einheit mit dem Feuerelement befindet oder eine aktive Fertigkeit des Typs Flammen-Explosion oder Flammenmeer besitzt.\n\nDie aktiven Fertigkeiten dieser Einheit kosten für jede gespeicherte Ladung 25 % weniger ZE, bis zu 75 % weniger bei maximal 3 Ladungen. Andere Effekte, die die ZE weiter reduzieren, haben einen abnehmenden Nutzen, solange dies in Kraft ist.\n\nAm Ende jeder gegnerischen Runde erhält ein zufälliger, nicht schlafender Gegner Frostbrand, wenn zu Beginn der Runde kein Gegner Frostbrand hatte. Dieser Effekt hat eine Chance von 20 % plus 20 % pro Erweckung (bis zu 100 % Chance, wenn diese Einheit 4 Erweckungen hat) und kann nicht ausgelöst werden, wenn Siegfried keine anderen Verbündeten auf dem Schlachtfeld hat."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Schwert-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Schwert führen."
+            },
+            {
+                "SkillTitle": "Axt-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Äxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Axt"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hm? Der legendäre Drachentöter...?\n Ich frage mich, wer das ist? Ich habe keine Ahnung?\nWarte, du weißt schon, wer es ist...?\n\nAch, komm schon... Ich will wirklich keinen Ärger.\nJa, ja-ich bin der Drachentöter...\nSiegfried, zu deinen Diensten."
+            ],
+            "Login": [
+                "Du bist da! Gut, fangen wir gleich an\nEgal ob Glücksspiel oder Abenteuer, ein guter Start ist das A und O! Das ist eine meiner alten Weisheiten, weißt du."
+            ],
+            "Tap": [
+                "Heute ist das Glück nicht auf meiner Seite!? Die Göttin des Glücksspiels flüstert mir etwas zu! Ich setze alles auf die große Chance! Also gut, auf geht's!",
+                "Diese Kinder vertragen das ganze süße Zeug wirklich gut...\nEin paar getrocknete Snacks sind genau das Richtige für mich. Oh, und vergiss den Schnaps nicht!",
+                "Entspannt zu bleiben ist genau das richtige Tempo fürs Leben. \nJeder sollte aufhören, so verkrampft zu sein, und einfach ein bisschen entspannter leben, verstehst du?"
+            ],
+            "Idle": [
+                "Schon Glück gehabt? Aha...\nDu solltest vielleicht noch ein bisschen warten, bis sie den Köder schlucken... ja, kein Grund zur Eile."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Schuppenbrecher": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Eiserwachen": {
+                    "BaseWeight": 2500
+                },
+                "Kühlender Geysir": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular02": {
+        "Name": "Siegfried",
+        "Name2": "Drachentöter der Legenden",
+        "FullName": "Siegfried - Drachentöter der Legenden",
+        "Profile": "Nach ihrer Pensionierung hat sich Siegfried mit dem dunklen Drachen, der jetzt wie ein junges Mädchen aussieht, in einer ruhigen Gegend auf dem Land niedergelassen. Da sie durch den Sieg über den Drachen ein Vermögen gemacht hat, will sie nie wieder arbeiten. Stattdessen verbringt sie ihre Tage mit Trinken, Angeln und Glücksspiel, während sie sich um den verwöhnten kleinen Drachen kümmert.",
+        "Profile_Ascended": "Es dauerte nicht lange, bis Siegfried eine mütterliche Zuneigung zu Bahamut entwickelte. Ihre Entscheidung, zurückgezogen zu leben, war ein Weg, das Mädchen von Menschen und Krieg fernzuhalten. Sobald sie sicher ist, dass keine Gefahr mehr besteht, dass Bahamut wild wird, will sie ihr das Halsband abnehmen und sie freilassen.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 34,
+        "Atk_Base": 1397,
+        "Hp_Base": 7435,
+        "Speed": 407,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Wasser-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Schuppenbrecher",
+                "SkillDescription": "300% Schaden an 1 Gegner. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Gegnern, die keine Bossgegner sind und die verhindern würden, dass das Ziel besiegt wird.\n\nVerleiht einem anderen Gegner pro auf dem Benutzer gespeicherter Ladung (max. 3 Ziele) den Statuseffekt Schlaf für 100 ZE, auch wenn er bereits geschlafen hat, während er auf dem Schlachtfeld war.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Eiserwachen",
+                "SkillDescription": "Heilt den Benutzer vollständig. Der Benutzer erhält eine Ladung, einen Schlafschutz, einen Giftschutz und den Statuseffekt Rüstung. Die Rüstung überschreibt andere Statuseffekte. Dann ist der Benutzer wütend und erträgt den nächsten Schaden, der ihn mit 1 LP besiegen würde.\n\nWird jedes Mal freigeschaltet, wenn der Benutzer einen nicht verletzten Gegner auf dem Schlachtfeld mit einem Angriff besiegt. Diese Fertigkeit wird nach jedem Einsatz erneut gesperrt.\n\nEinige Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden von einer Einheit, die das Schlachtfeld verlässt, entfernt. Jeder Schutzwall verhindert einmal die Anwendung des genannten Effekts und wird dann entfernt. Gleiche Schutzwälle und Ertragen-Effekte können nicht gestapelt werden. Rüstung reduziert den Schaden des nächsten Angriffs um 50 %, danach wird der Effekt wieder entfernt. Der Angriff einer wütenden Einheit wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Wut überschreibt alle bestehenden Effekte von Schwach oder Wut des Benutzers.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Kühlender Geysir",
+                "SkillDescription": "200% Schaden an 2 Gegnern, plus 200% für jedes Mal, wenn diese Einheit einen Gegner mit einem Angriff besiegt hat, während sie sich auf dem Schlachtfeld befindet (max. 800% Gesamtschaden nach dem Besiegen von 3 Gegnern). Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bossgegner sind, die verhindern würden, dass das Ziel besiegt wird, passive Fertigkeiten der Haut und den Statuseffekt Konterstellung.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Schneesturm",
+                "SkillDescription": "500% Schaden an allen Gegnern. 700% Schaden stattdessen, wenn der Benutzer 100 ZE+ auf dem Schlachtfeld überlebt hat. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird. Alle getroffenen Gegner erhalten dann Frostbrand.\n\nDie Sperre beträgt 100 ZE, nachdem der Anwender das Schlachtfeld betreten hat oder bis ein nicht-beschworener Verbündeter auf dem Schlachtfeld besiegt wird oder von einer Quelle geopfert wird. Einmal pro Schlacht verwendbar.\n\nWenn eine Einheit Frostbrand hat und sie an der Reihe ist, verliert sie die Runde, als ob sie schlafen würde, dann wird Frostbrand entfernt und die Einheit erhält den Statuseffekt Brennen. Frostbrand ist kein Statuseffekt, aber Effekte, die negative Statuseffekte entfernen, entfernen auch Frostbrand. Frostbrand endet, wenn die betroffene Einheit besiegt wird oder das Schlachtfeld verlässt. Frostbrand kann nicht auf Bosseinheiten angewendet werden und ist nicht stapelbar. Frostbrand überschreibt andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt.",
+                "TU": 100,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Drachentöter",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken schlafende Gegner nicht auf und heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\nBis diese Einheit einen nicht verletzten Gegner mit einem Angriff auf dem Schlachtfeld besiegt, ist sie:\n- immun gegen Schlaf-Statuseffekte.\n- immun gegen Gift-Statuseffekte.\n- hat 50% Schadensreduzierung durch Angriffe.\n\nDiese Einheit zählt bei Fertigkeiten, die brennende Einheiten zählen oder beeinflussen, immer als mit dem Statuseffekt Brennen. Diese Einheit kann den Statuseffekt Brennen nicht erlangen. Jede nicht schlafende Einheit, die von dieser Einheit Schaden erleidet, wird verbrannt; wenn du diese Einheit angreifst, werden keine Einheiten verbrannt."
+            },
+            {
+                "SkillTitle": "Legendenrückkehr",
+                "SkillDescription": "Diese Einheit tritt mit 1 Ladung und 10% LP für 200 ZE in den Kampf ein und erträgt den ersten Schaden, der sie mit 1 LP besiegen würde. Eine Einheit mit 10% LP-Regen heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regen-Effekte überschreiben bestehende LP-Regen-Effekte.\n\nDiese Einheit kann nicht betäubt werden, wenn sich auf dem Schlachtfeld eine Einheit mit dem Feuerelement befindet oder eine aktive Fertigkeit des Typs Flammen-Explosion oder Flammenmeer besitzt.\n\nDie aktiven Fertigkeiten dieser Einheit kosten für jede gespeicherte Ladung 25 % weniger ZE, bis zu 75 % weniger bei maximal 3 Ladungen. Andere Effekte, die die ZE weiter reduzieren, haben einen abnehmenden Nutzen, solange dies in Kraft ist.\n\nAm Ende jeder gegnerischen Runde erhält ein zufälliger, nicht schlafender Gegner Frostbrand, wenn zu Beginn der Runde kein Gegner Frostbrand hatte. Dieser Effekt hat eine Chance von 20 % plus 20 % pro Erweckung (bis zu 100 % Chance, wenn diese Einheit 4 Erweckungen hat) und kann nicht ausgelöst werden, wenn Siegfried keine anderen Verbündeten auf dem Schlachtfeld hat."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Schwert-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Schwert führen."
+            },
+            {
+                "SkillTitle": "Axt-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Äxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Axt"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hm? Der legendäre Drachentöter...?\n Ich frage mich, wer das ist? Ich habe keine Ahnung?\nWarte, du weißt schon, wer es ist...?\n\nAch, komm schon... Ich will wirklich keinen Ärger.\nJa, ja-ich bin der Drachentöter...\nSiegfried, zu deinen Diensten."
+            ],
+            "Login": [
+                "Du bist da! Gut, fangen wir gleich an\nEgal ob Glücksspiel oder Abenteuer, ein guter Start ist das A und O! Das ist eine meiner alten Weisheiten, weißt du."
+            ],
+            "Tap": [
+                "Heute ist das Glück nicht auf meiner Seite!? Die Göttin des Glücksspiels flüstert mir etwas zu! Ich setze alles auf die große Chance! Also gut, auf geht's!",
+                "Diese Kinder vertragen das ganze süße Zeug wirklich gut...\nEin paar getrocknete Snacks sind genau das Richtige für mich. Oh, und vergiss den Schnaps nicht!",
+                "Entspannt zu bleiben ist genau das richtige Tempo fürs Leben. \nJeder sollte aufhören, so verkrampft zu sein, und einfach ein bisschen entspannter leben, verstehst du?"
+            ],
+            "Idle": [
+                "Schon Glück gehabt? Aha...\nDu solltest vielleicht noch ein bisschen warten, bis sie den Köder schlucken... ja, kein Grund zur Eile."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Schuppenbrecher": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Eiserwachen": {
+                    "BaseWeight": 2500
+                },
+                "Kühlender Geysir": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                },
+                "Schneesturm": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "EnemyTeamHas3ConjuredAllies": 0,
+                        "EnemyTeamHas3ConjuredAlliesAlt": 0,
+                        "IsPiercing": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Wandernde Tugend",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
     }
 }

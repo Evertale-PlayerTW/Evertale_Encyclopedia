@@ -15760,6 +15760,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -16122,6 +16133,17 @@
                     "MetalDragon01",
                     "FloatingMage01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -17804,6 +17826,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -18169,6 +18202,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -25480,6 +25524,17 @@
                     "RedScarfFrog01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -25676,6 +25731,17 @@
                     "MistDragon01",
                     "FoxDuelist01",
                     "RedScarfFrog01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -124385,7 +124451,7 @@
         "Hp_Base": 5405,
         "Speed": 574,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Let's proceed—with righteous integrity!",
         "LeaderSkill": {
             "SkillTitle": "Earth Attack Up",
@@ -124525,6 +124591,19 @@
                         "IsSleeping"
                     ]
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -124691,6 +124770,420 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular01": {
+        "Name": "Siegfried",
+        "Name2": "Dragonslayer of Legends",
+        "FullName": "Siegfried - Dragonslayer of Legends",
+        "Profile": "Siegfried, once hailed as the legendary dragonslayer. After a fierce battle with the calamitous dark dragon known as the \"Winged Demon,\" she succeeded in sealing it away. However, the wounds she sustained in that battle ultimately forced her to retire from life as a swordswoman.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Sword",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 28,
+        "Atk_Base": 1136,
+        "Hp_Base": 5530,
+        "Speed": 407,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "I've already retired you know...\nWell, guess it can't be helped.",
+        "LeaderSkill": {
+            "SkillTitle": "Water HP Up",
+            "SkillDescription": "Allied Water element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Scale Breaker",
+                "SkillDescription": "300% damage to 1 enemy. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nGrants the Sleep status effect for 100TU to one other enemy per Charge stored on the user (max of 3 targets), even if they have already slept while on the battlefield.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Icy Awakening",
+                "SkillDescription": "Heals the user fully. The user is granted a Charge, Sleep Ward, Poison Ward, and the Armor status effect. Armor will overwrite other status effects. Then the user is Enraged, and will Endure the next damage that would defeat it with 1HP.\n\nUnlocked each time the user defeats a non-conjured enemy on the battlefield with an attack. This skill is locked again after each use.\n\nCertain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards and Endure effects cannot stack. Armor grants 50% damage reduction from the next attack, then the effect is removed. An Enraged unit's attack is increased to 1.5x until the end of their next turn. Enrage will overwrite any existing Weak or Enrage effects on the user.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Chilling Geyser",
+                "SkillDescription": "200% damage to 2 enemies, plus 200% for each time this unit has defeated an enemy with an attack while on the battlefield (max of 800% total damage after defeating 3 enemies). This attack ignores enemy damage reduction effects, any effects of non-boss enemies that would prevent the target from being defeated, skin passive skills, and the Counter Stance status effect.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Dragonslayer",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit cannot be sent to the reinforcements from the battlefield.\n\nUntil this unit defeats a non-conjured enemy with an attack while on the battlefield, this unit:\n- is immune to Sleep status effects.\n- is immune to Poison status effects.\n- has 50% damage reduction from attacks.\n\nThis unit always counts as having the Burn status effect for skills that count or affect burning units. This unit cannot gain the Burn status effect. Any non-sleeping unit that is dealt damage by this unit will become burned, attacking this unit will not cause units to become burned."
+            },
+            {
+                "SkillTitle": "Returning Legend",
+                "SkillDescription": "This unit enters battle with 1 Charge, 10% HP Regen for 200TU, and will Endure the first damage that would defeat it with 1HP. A unit with 10% HP Regen will heal for 10% of their max HP after every turn. HP Regen effects will overwrite existing HP Regen effects.\n\nThis unit cannot be stunned if there is a unit on the battlefield that is Fire element, or has a Burn Blast or Burn Drive type active skill.\n\nThis unit's active skills all cost 25% less TU for each charge it has stored, up to 75% less max with 3 charges. Other effects that further reduce TU will have diminishing returns while this is in effect.\n\nAt the end of each enemy turn, if no enemies had frostburn at the start of the turn, a random non-sleeping enemy is granted frostburn. This effect has a 20% chance plus 20% per Awakening (up to 100% chance if this unit has 4 Awakenings) to trigger and cannot trigger if Siegfried has no other allies on the battlefield."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Sword Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Swords."
+            },
+            {
+                "SkillTitle": "Axe Mastery",
+                "SkillDescription": "Can use weapon skills of Axes in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Axe"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Huh? The legendary dragonslayer...?\nI wonder who that is? I've got no idea?\nWait, you already know who it is...?\n\nAww, c'mon... I really don't want any trouble.\nYeah, yeah—I'm that dragonslayer...\nSiegfried, at your service."
+            ],
+            "Login": [
+                "You're here! All right—let's get going right away!\nWhether it's gambling or adventure, a good start is key! That's one of my wise old sayings, you know."
+            ],
+            "Tap": [
+                "Today's luck is off the charts!? The goddess of gambling is whispering to me! All in on the long shot! All right, let's do this!",
+                "Those kids sure can handle all that sweet stuff...\nSome dried snacks are just right for me. Oh, and can't forget the booze!",
+                "Taking it easy is just about right pace for life.\nEveryone should stop being so uptight and just live life a little more relaxed, you know?"
+            ],
+            "Idle": [
+                "Any luck with the line? Ahh...yeah...\nYou should maybe wait a little longer for them to take the bait... yeah, no need to rush."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Scale Breaker": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Icy Awakening": {
+                    "BaseWeight": 2500
+                },
+                "Chilling Geyser": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular02": {
+        "Name": "Siegfried",
+        "Name2": "Dragonslayer of Legends",
+        "FullName": "Siegfried - Dragonslayer of Legends",
+        "Profile": "After retiring, Siegfried settled down in a quiet countryside with the dark dragon, now in the form of a young girl. Having earned a fortune from defeating the dragon, she had no intention of ever working again. Instead, she spends her days drinking, fishing and gambling while looking after the spoiled little dragon.",
+        "Profile_Ascended": "Before long, Siegfried had come to feel a motherly affection toward Bahamut. Her decision to live in seclusion was a way to keep the girl away from people and war. Once she becomes certain there is no longer any threat of Bahamut running wild, she plans to remove the collar and set her free.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Sword",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 34,
+        "Atk_Base": 1397,
+        "Hp_Base": 7435,
+        "Speed": 407,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Water HP Up",
+            "SkillDescription": "Allied Water element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Scale Breaker",
+                "SkillDescription": "300% damage to 1 enemy. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nGrants the Sleep status effect for 100TU to one other enemy per Charge stored on the user (max of 3 targets), even if they have already slept while on the battlefield.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Icy Awakening",
+                "SkillDescription": "Heals the user fully. The user is granted a Charge, Sleep Ward, Poison Ward, and the Armor status effect. Armor will overwrite other status effects. Then the user is Enraged, and will Endure the next damage that would defeat it with 1HP.\n\nUnlocked each time the user defeats a non-conjured enemy on the battlefield with an attack. This skill is locked again after each use.\n\nCertain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards and Endure effects cannot stack. Armor grants 50% damage reduction from the next attack, then the effect is removed. An Enraged unit's attack is increased to 1.5x until the end of their next turn. Enrage will overwrite any existing Weak or Enrage effects on the user.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Chilling Geyser",
+                "SkillDescription": "200% damage to 2 enemies, plus 200% for each time this unit has defeated an enemy with an attack while on the battlefield (max of 800% total damage after defeating 3 enemies). This attack ignores enemy damage reduction effects, any effects of non-boss enemies that would prevent the target from being defeated, skin passive skills, and the Counter Stance status effect.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Snow Storm",
+                "SkillDescription": "500% damage to all enemies. 700% damage instead if the user has survived 100TU+ on the battlefield. This attack ignores any effects of non-boss enemies that would prevent the target from being defeated. All enemies hit are then granted Frostburn.\n\nLocked for 100TU after the user has entered the battlefield or until a non-conjured ally on the battlefield is defeated or sacrificed by any source. Usable once per battle.\n\nWhen a unit has Frostburn and they get the turn, they will lose the turn as if they were sleeping, then Frostburn is removed and that unit is granted the Burn status effect. Frostburn is not a status effect, but effects that remove negative status effects will also remove Frostburn. Frostburn will end if the affected unit is defeated or leaves the battlefield. Frostburn cannot apply to boss units, and cannot stack. Burn will overwrite other status effects. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 100,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Dragonslayer",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit cannot be sent to the reinforcements from the battlefield.\n\nUntil this unit defeats a non-conjured enemy with an attack while on the battlefield, this unit:\n- is immune to Sleep status effects.\n- is immune to Poison status effects.\n- has 50% damage reduction from attacks.\n\nThis unit always counts as having the Burn status effect for skills that count or affect burning units. This unit cannot gain the Burn status effect. Any non-sleeping unit that is dealt damage by this unit will become burned, attacking this unit will not cause units to become burned."
+            },
+            {
+                "SkillTitle": "Returning Legend",
+                "SkillDescription": "This unit enters battle with 1 Charge, 10% HP Regen for 200TU, and will Endure the first damage that would defeat it with 1HP. A unit with 10% HP Regen will heal for 10% of their max HP after every turn. HP Regen effects will overwrite existing HP Regen effects.\n\nThis unit cannot be stunned if there is a unit on the battlefield that is Fire element, or has a Burn Blast or Burn Drive type active skill.\n\nThis unit's active skills all cost 25% less TU for each charge it has stored, up to 75% less max with 3 charges. Other effects that further reduce TU will have diminishing returns while this is in effect.\n\nAt the end of each enemy turn, if no enemies had frostburn at the start of the turn, a random non-sleeping enemy is granted frostburn. This effect has a 20% chance plus 20% per Awakening (up to 100% chance if this unit has 4 Awakenings) to trigger and cannot trigger if Siegfried has no other allies on the battlefield."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Sword Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Swords."
+            },
+            {
+                "SkillTitle": "Axe Mastery",
+                "SkillDescription": "Can use weapon skills of Axes in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Axe"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Huh? The legendary dragonslayer...?\nI wonder who that is? I've got no idea?\nWait, you already know who it is...?\n\nAww, c'mon... I really don't want any trouble.\nYeah, yeah—I'm that dragonslayer...\nSiegfried, at your service."
+            ],
+            "Login": [
+                "You're here! All right—let's get going right away!\nWhether it's gambling or adventure, a good start is key! That's one of my wise old sayings, you know."
+            ],
+            "Tap": [
+                "Today's luck is off the charts!? The goddess of gambling is whispering to me! All in on the long shot! All right, let's do this!",
+                "Those kids sure can handle all that sweet stuff...\nSome dried snacks are just right for me. Oh, and can't forget the booze!",
+                "Taking it easy is just about right pace for life.\nEveryone should stop being so uptight and just live life a little more relaxed, you know?"
+            ],
+            "Idle": [
+                "Any luck with the line? Ahh...yeah...\nYou should maybe wait a little longer for them to take the bait... yeah, no need to rush."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Scale Breaker": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Icy Awakening": {
+                    "BaseWeight": 2500
+                },
+                "Chilling Geyser": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                },
+                "Snow Storm": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "EnemyTeamHas3ConjuredAllies": 0,
+                        "EnemyTeamHas3ConjuredAlliesAlt": 0,
+                        "IsPiercing": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vagrant Virtue",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

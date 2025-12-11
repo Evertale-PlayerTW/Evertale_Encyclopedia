@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1764225399,
+	"Time": 1764658956,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -42112,6 +42112,101 @@
 			"killLockUnlockedSkillIcon": "IconGreenCircle01",
 			"killLockUnlockedKey": "SkillReadyToUseKey",
 			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
+		},
+		"SingleAttackASiegfriedRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"damageFlags": ["DoNotWake","IgnoreArmor","HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["MARKEDSingleAttackASiegfriedRegular"],
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["ForceSleep1RandomEnemySiegfriedEBB"],
+				"chance": 1.0,
+				"applyToSourceOnly": true,
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true,
+				"applyConditions": "IsCharged1Exact"
+			},{
+				"buffs": ["ForceSleep2RandomEnemiesSiegfriedEBB"],
+				"chance": 1.0,
+				"applyToSourceOnly": true,
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true,
+				"applyConditions": "IsCharged2Exact"
+			},{
+				"buffs": ["ForceSleep3RandomEnemiesSiegfriedEBB"],
+				"chance": 1.0,
+				"applyToSourceOnly": true,
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true,
+				"applyConditions": "IsCharged3"	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"flags": ["SleepChance"],
+			"abilityEffect": "SiegfriedAttack",
+			"recommendEffectWhenUsable": -1
+		},
+		"SelfBuffASiegfriedRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs":["HealFull","Armor","BlockDeathOnce","AttackPlus50Percent1TurnOnly","StoreEnergy","PoisonImmunityOnce","SleepImmunityOnce","ActiveSkillLocked"],
+				"applyToSourceOnly": true
+			}],
+			"sourceEventType": "Hit",
+			"abilityEffect": "SiegfriedBuff",
+			"flags": ["Healer"],
+			"useCondition": "ActiveSkillIsNotLocked"
+		},
+		"DoubleAttackASiegfriedRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["DoNotWake","IgnoreSkin","IgnoreArmor","HardIgnoreBlockDeath"],
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			}],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SiegfriedSplash",
+			"attackScalors":["GoodForKiller1","GoodForKiller2","GoodForKiller3"],
+			"conditionedAbilityEffects": ["SiegfriedSplash","SiegfriedSplash","SiegfriedSplash","SiegfriedSplash"],
+			"recommendEffectWhenUsable": -1
+		},
+		"AllAttackASiegfriedRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["DoNotWake","HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["FrostBiteCounter"],
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"abilityEffect": "SiegfriedSnowman",
+			"flags": ["Survivor", "Duration"],
+			"recommendEffectWhenUsable": -1,
+			"attackScalors":["TimeInCombat100"],
+			"conditionedAbilityEffects": ["SiegfriedSnowman","SiegfriedSnowman"],
+            "useCondition": "Survived100TUOrActive4UnlockedSiegfriedRegular"
 		}
 	}
 }

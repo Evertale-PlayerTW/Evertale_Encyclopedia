@@ -15760,6 +15760,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -16122,6 +16133,17 @@
                     "MetalDragon01",
                     "FloatingMage01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -17804,6 +17826,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -18169,6 +18202,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -25480,6 +25524,17 @@
                     "RedScarfFrog01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -25676,6 +25731,17 @@
                     "MistDragon01",
                     "FoxDuelist01",
                     "RedScarfFrog01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -124385,7 +124451,7 @@
         "Hp_Base": 5405,
         "Speed": 574,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¡Procedamos... con rectitud e integridad!",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Tierra",
@@ -124525,6 +124591,19 @@
                         "IsSleeping"
                     ]
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -124691,6 +124770,420 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular01": {
+        "Name": "Siegfried",
+        "Name2": "Matadragones de Leyenda",
+        "FullName": "Siegfried - Matadragones de Leyenda",
+        "Profile": "Siegfried, alguna vez aclamada como la legendaria matadragones. Tras una feroz batalla contra la calamitosa dragona oscura conocida como la \"Demonio Alada\", logró sellarla. Sin embargo, las heridas sufridas en esa batalla la obligaron a retirarse de la vida de espadachina.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Espada",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 28,
+        "Atk_Base": 1136,
+        "Hp_Base": 5530,
+        "Speed": 407,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¿Sabes? Ya me retiré...\nBueno, supongo que no hay remedio.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Rompeescamas",
+                "SkillDescription": "300% de daño a 1 enemigo. Este ataque ignora los efectos de reducción de daño de los enemigos y cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo.\n\nOtorga el efecto de estado Sueño durante 100 TU a otro enemigo por cada Carga almacenada en el usuario (máximo de 3 objetivos), incluso si ya se encontraba dormido en el campo de batalla.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Despertar Helado",
+                "SkillDescription": "Cura al usuario por completo. El usuario obtiene una Carga, Guarda Sueño, Guarda Veneno y el efecto de estado Armadura. Armadura anula otros efectos de estado. Luego, el usuario se Enfurece y Soporta el siguiente daño que lo derrotaría con 1 HP.\n\nSe desbloquea cada vez que el usuario derrota a un enemigo no invocado en el campo de batalla con un ataque. Esta habilidad se bloquea nuevamente después de cada uso.\n\nCiertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas, y todas las cargas se eliminan de una unidad que abandona el campo de batalla. Cada Guarda impide que su efecto nombrado se aplique una vez y luego se elimina. Los Guardas idénticos y los efectos de Soportar no se acumulan. Armadura otorga un 50% de reducción de daño del siguiente ataque y luego el efecto se elimina. El ataque de una unidad enfurecida aumenta a 1.5x hasta el final de su siguiente turno. Enfurecer sobreescribirá cualquier efecto de Debilitar o Enfurecer existente en el usuario.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Géiser Helado",
+                "SkillDescription": "200% de daño a 2 enemigos, más 200% por cada vez que esta unidad haya derrotado a un enemigo con un ataque en el campo de batalla (máximo de 800% de daño total tras derrotar a 3 enemigos). Este ataque ignora los efectos de reducción de daño de los enemigos, cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo, las habilidades pasivas de piel, y el efecto de estado Contraofensiva.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Matadragones",
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos y la curarán un 100% del daño total infligido.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nHasta que esta unidad derrote a un enemigo no invocado con un ataque mientras está en el campo de batalla, esta unidad:\n- es inmune a los efectos de estado Sueño.\n- es inmune a los efectos de estado Veneno.\n- tiene una reducción del 50% del daño recibido de ataques.\n\nEsta unidad siempre cuenta como si tuviera el efecto de estado Quemado para las habilidades que afectan a unidades en llamas. Esta unidad no puede obtener el efecto de estado Quemado. Cualquier unidad no dormida que reciba daño de esta unidad se quemará. Atacar a esta unidad no quemará a las unidades.\n"
+            },
+            {
+                "SkillTitle": "Regreso de Leyenda",
+                "SkillDescription": "Esta unidad entra en combate con 1 carga, 10% de HP Regen durante 200TU y Soportará el primer daño que la derrotaría con 1HP. Una unidad con 10% de HP Regen se curará un 10% de sus HP máximos después de cada turno. Los efectos de HP Regen sobrescribirán los efectos de HP Regen existentes.\n\nEsta unidad no puede ser aturdida si hay una unidad en el campo de batalla de elemento Fuego o con una habilidad activa de tipo Explosión Fuego o Impulso Ardiente.\n\nLas habilidades activas de esta unidad cuestan un 25% menos de TU por cada carga almacenada, hasta un máximo de un 75% menos con 3 cargas. Otros efectos que reduzcan aún más las TU tendrán rendimientos decrecientes mientras este efecto esté activo.\n\nAl final de cada turno enemigo, si ningún enemigo tenía Quemado Escarcha al inicio del turno, un enemigo aleatorio que no esté durmiendo recibe Quemado Escarcha. Este efecto tiene un 20% de posibilidad más 20% por Despertar (hasta 100% de posibilidad si esta unidad tiene 4 Despertares) de ser activado y no puede activarse si Siegfried no tiene otros aliados en el campo de batalla."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Hacha",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¿Eh? ¿La legendaria matadragones...?\nMe pregunto quién será. No tengo ni idea\nEspera, ¿ya sabes quién es...?\n\n¡Aww, vamos...! De verdad que no quiero problemas.\nSí, sí, yo soy esa matadragones...\nSiegfried, a tus órdenes."
+            ],
+            "Login": [
+                "¡Ya estás aquí! ¡Muy bien, pongámonos en marcha!\nYa sea que apostemos o busquemos aventuras, ¡un buen comienzo es fundamental! Ese es uno de mis viejos dichos, ¿sabes?"
+            ],
+            "Tap": [
+                "¡Hoy tengo una suerte increíble! ¡La diosa del juego me acompaña! ¡Apostemos todo a ganador! ¡Muy bien, hagámoslo!",
+                "Esos niños sí que son golosos con los dulces...\nUnos pasabocas crujientes me vendrían perfecto. ¡Ah, y no olvidemos el alcohol!",
+                "Despreocuparse es lo ideal en la vida.\nTodos deberían dejar de andar tan estresados ​​y vivir la vida más relajados, ¿sabes?"
+            ],
+            "Idle": [
+                "¿Alguna novedad con la línea? Ah... sí...\nQuizás deberías esperar un poco más a que piquen... Sí, no hay afán."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Rompeescamas": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Despertar Helado": {
+                    "BaseWeight": 2500
+                },
+                "Géiser Helado": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular02": {
+        "Name": "Siegfried",
+        "Name2": "Matadragones de Leyenda",
+        "FullName": "Siegfried - Matadragones de Leyenda",
+        "Profile": "Tras su retiro, Siegfried se instaló en un tranquilo paraje rural con la dragón oscura, ahora con la forma de una joven. Habiendo amasado una fortuna al derrotar a la dragona, sin intención de volver a trabajar jamás. En cambio, se dedica a beber, pescar y apostar mientras cuida a la pequeña y consentida dragona.",
+        "Profile_Ascended": "Al poco tiempo, Siegfried empezó a sentir un cariño maternal por Bahamut. Su decisión de vivir aislada era una forma de mantener a la chica alejada de la gente y de la guerra. Una vez que esté segura de que Bahamut ya no corre peligro de descontrolarse, planea quitarle el collar y liberarla.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Espada",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 34,
+        "Atk_Base": 1397,
+        "Hp_Base": 7435,
+        "Speed": 407,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Rompeescamas",
+                "SkillDescription": "300% de daño a 1 enemigo. Este ataque ignora los efectos de reducción de daño de los enemigos y cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo.\n\nOtorga el efecto de estado Sueño durante 100 TU a otro enemigo por cada Carga almacenada en el usuario (máximo de 3 objetivos), incluso si ya se encontraba dormido en el campo de batalla.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Despertar Helado",
+                "SkillDescription": "Cura al usuario por completo. El usuario obtiene una Carga, Guarda Sueño, Guarda Veneno y el efecto de estado Armadura. Armadura anula otros efectos de estado. Luego, el usuario se Enfurece y Soporta el siguiente daño que lo derrotaría con 1 HP.\n\nSe desbloquea cada vez que el usuario derrota a un enemigo no invocado en el campo de batalla con un ataque. Esta habilidad se bloquea nuevamente después de cada uso.\n\nCiertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas, y todas las cargas se eliminan de una unidad que abandona el campo de batalla. Cada Guarda impide que su efecto nombrado se aplique una vez y luego se elimina. Los Guardas idénticos y los efectos de Soportar no se acumulan. Armadura otorga un 50% de reducción de daño del siguiente ataque y luego el efecto se elimina. El ataque de una unidad enfurecida aumenta a 1.5x hasta el final de su siguiente turno. Enfurecer sobreescribirá cualquier efecto de Debilitar o Enfurecer existente en el usuario.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Géiser Helado",
+                "SkillDescription": "200% de daño a 2 enemigos, más 200% por cada vez que esta unidad haya derrotado a un enemigo con un ataque en el campo de batalla (máximo de 800% de daño total tras derrotar a 3 enemigos). Este ataque ignora los efectos de reducción de daño de los enemigos, cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo, las habilidades pasivas de piel, y el efecto de estado Contraofensiva.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Tormenta de Nieve",
+                "SkillDescription": "500% de daño a todos los enemigos. Si el usuario ha sobrevivido 100TU o más en el campo de batalla, inflige en cambio 700% de daño. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo. Todos los enemigos alcanzados sufren Quemado Escarcha.\n\nSe bloquea durante 100TU tras entrar el usuario al campo de batalla o hasta que un aliado no invocado en el campo de batalla sea derrotado o sacrificado por cualquier causa. Se puede usar una vez por batalla.\n\nCuando una unidad tiene Quemado Escarcha y le toca el turno, lo pierde como si estuviera dormida. Luego, Quemado Escarcha desaparece y la unidad sufre Quemado. Quemado Escarcha no es un efecto de estado, pero los efectos que eliminan efectos de estado negativos también la eliminan. Quemado Escarcha termina si la unidad afectada es derrotada o abandona el campo de batalla. Quemado Escarcha no afecta a unidades jefes ni se acumula. Quemado sobrescribe otros efectos de estado. Cualquier unidad que inflija o reciba daño de una unidad con Quemado también se quema.\n",
+                "TU": 100,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Matadragones",
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos y la curarán un 100% del daño total infligido.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nHasta que esta unidad derrote a un enemigo no invocado con un ataque mientras está en el campo de batalla, esta unidad:\n- es inmune a los efectos de estado Sueño.\n- es inmune a los efectos de estado Veneno.\n- tiene una reducción del 50% del daño recibido de ataques.\n\nEsta unidad siempre cuenta como si tuviera el efecto de estado Quemado para las habilidades que afectan a unidades en llamas. Esta unidad no puede obtener el efecto de estado Quemado. Cualquier unidad no dormida que reciba daño de esta unidad se quemará. Atacar a esta unidad no quemará a las unidades.\n"
+            },
+            {
+                "SkillTitle": "Regreso de Leyenda",
+                "SkillDescription": "Esta unidad entra en combate con 1 carga, 10% de HP Regen durante 200TU y Soportará el primer daño que la derrotaría con 1HP. Una unidad con 10% de HP Regen se curará un 10% de sus HP máximos después de cada turno. Los efectos de HP Regen sobrescribirán los efectos de HP Regen existentes.\n\nEsta unidad no puede ser aturdida si hay una unidad en el campo de batalla de elemento Fuego o con una habilidad activa de tipo Explosión Fuego o Impulso Ardiente.\n\nLas habilidades activas de esta unidad cuestan un 25% menos de TU por cada carga almacenada, hasta un máximo de un 75% menos con 3 cargas. Otros efectos que reduzcan aún más las TU tendrán rendimientos decrecientes mientras este efecto esté activo.\n\nAl final de cada turno enemigo, si ningún enemigo tenía Quemado Escarcha al inicio del turno, un enemigo aleatorio que no esté durmiendo recibe Quemado Escarcha. Este efecto tiene un 20% de posibilidad más 20% por Despertar (hasta 100% de posibilidad si esta unidad tiene 4 Despertares) de ser activado y no puede activarse si Siegfried no tiene otros aliados en el campo de batalla."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Hacha",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¿Eh? ¿La legendaria matadragones...?\nMe pregunto quién será. No tengo ni idea\nEspera, ¿ya sabes quién es...?\n\n¡Aww, vamos...! De verdad que no quiero problemas.\nSí, sí, yo soy esa matadragones...\nSiegfried, a tus órdenes."
+            ],
+            "Login": [
+                "¡Ya estás aquí! ¡Muy bien, pongámonos en marcha!\nYa sea que apostemos o busquemos aventuras, ¡un buen comienzo es fundamental! Ese es uno de mis viejos dichos, ¿sabes?"
+            ],
+            "Tap": [
+                "¡Hoy tengo una suerte increíble! ¡La diosa del juego me acompaña! ¡Apostemos todo a ganador! ¡Muy bien, hagámoslo!",
+                "Esos niños sí que son golosos con los dulces...\nUnos pasabocas crujientes me vendrían perfecto. ¡Ah, y no olvidemos el alcohol!",
+                "Despreocuparse es lo ideal en la vida.\nTodos deberían dejar de andar tan estresados ​​y vivir la vida más relajados, ¿sabes?"
+            ],
+            "Idle": [
+                "¿Alguna novedad con la línea? Ah... sí...\nQuizás deberías esperar un poco más a que piquen... Sí, no hay afán."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Rompeescamas": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Despertar Helado": {
+                    "BaseWeight": 2500
+                },
+                "Géiser Helado": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                },
+                "Tormenta de Nieve": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "EnemyTeamHas3ConjuredAllies": 0,
+                        "EnemyTeamHas3ConjuredAlliesAlt": 0,
+                        "IsPiercing": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtud Vagabunda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

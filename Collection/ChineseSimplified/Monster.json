@@ -15760,6 +15760,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -16122,6 +16133,17 @@
                     "MetalDragon01",
                     "FloatingMage01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
             }
@@ -17804,6 +17826,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -18169,6 +18202,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -25480,6 +25524,17 @@
                     "RedScarfFrog01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -25676,6 +25731,17 @@
                     "MistDragon01",
                     "FoxDuelist01",
                     "RedScarfFrog01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
             }
@@ -124385,7 +124451,7 @@
         "Hp_Base": 5405,
         "Speed": 574,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "让我们清廉、端正地向前迈进吧！",
         "LeaderSkill": {
             "SkillTitle": "地属性猛攻",
@@ -124525,6 +124591,19 @@
                         "IsSleeping"
                     ]
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -124691,6 +124770,420 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            }
+        }
+    },
+    "SiegfriedRegular01": {
+        "Name": "齐格弗里德",
+        "Name2": "破晓的屠龙者",
+        "FullName": "齐格弗里德 - 破晓的屠龙者",
+        "Profile": "齐格弗里德——曾被誉为传说中的屠龙剑士。与被称作“有翼恶魔”的灾厄邪龙经历死斗后，她最终成功将其封印。然而，那场战斗中留下的伤痕，迫使她的剑士之路走向终结。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手剑",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 28,
+        "Atk_Base": 1136,
+        "Hp_Base": 5530,
+        "Speed": 407,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "虽然已经退出战场了…\n唉，也没办法呢",
+        "LeaderSkill": {
+            "SkillTitle": "水属性振奋",
+            "SkillDescription": "所有水属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "冰霜边际",
+                "SkillDescription": "对1个敌人造成300%的伤害。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。\n使用者每有一格“能量”，强制随机1个其他敌人睡眠100TU。对进场后已经陷入过睡眠状态的敌方单位亦可生效。",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "青金岩",
+                "SkillDescription": "使用者回复最大生命值的100%并获得1格“能量”、睡眠抵抗、中毒抵抗、“坚韧”效果与战甲状态，且使用者攻击力增加为1.5倍直到其下一个回合结束。\n每当使用者通过攻击击败1个非召唤物敌人后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。\n能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。拥有坚韧效果的单位在下一次受到超过其剩余生命值的伤害时，会以1点生命值幸存。坚韧与各类抵抗效果次数各自无法叠加。“战甲”会使该单位下一次遭受敌方攻击时所受的伤害减少50%，之后战甲会被移除。此效果会覆盖原先的虚弱或狂热效果。",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "寒流间歇泉",
+                "SkillDescription": "对2个敌人造成200%的伤害，使用者入场后每通过攻击击败过1个敌人，额外增加200%的伤害（至多增加至800%的伤害）。此技能无视目标的减伤效果、反弹被动技能、“反击态势”状态与非BOSS目标防止被击败的效果或被动技能。",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "破晓屠龙者",
+                "SkillDescription": "此单位的攻击不会移除目标的睡眠状态，且此单位回复所造成伤害100%的生命值。此单位不能从场上回到援军。\n此单位进场后直到此单位通过攻击击败非召唤物敌方单位为止，获得以下效果：\n·免疫睡眠与中毒状态。\n·受到敌人攻击的伤害减少50%。\n此单位不会陷入燃烧状态，且被视为处于燃烧状态。因此单位攻击受到伤害的非睡眠单位会陷入燃烧状态，其他单位不会因攻击此单位而陷入燃烧状态。"
+            },
+            {
+                "SkillTitle": "传奇家里蹲",
+                "SkillDescription": "此单位进场时，获得1格“能量”、“坚韧”效果与持续200TU的10%治疗。有10%治疗的单位在任一单位的回合开始时回复最大生命值的10%。此效果会覆盖原先的治疗效果。\n若敌方场上存在火属性或有“火焰”类主动技能的单位，此单位不会被眩晕。\n此单位每有1格“能量”，其所有主动技能的TU减少25%。与其他减少TU类效果同时生效时存在递减。\n每当敌方单位的回合结束时，若己方场上存在其他队友且场上不存在有燃霜效果的敌方单位，则有20%概率使随机1个不处于睡眠状态的敌方单位获得燃霜效果。此单位每觉醒一次额外提高20%获得燃霜效果的概率。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "单手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备单手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手斧大师",
+                "SkillDescription": "若此单位装备单手斧类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "单手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "诶？传说的屠龙者是谁……这个嘛，究竟是谁呢？\n哎呀，大叔我可不知道呀～。\n……欸？已经被你识破了？\n\n真是的，我明明最讨厌麻烦事了。\n行行行，我就是那个屠龙者——\n齐格弗里德啦。"
+            ],
+            "Login": [
+                "哦，你来了啊，那——赶紧出发吧。\n赌博也好、冒险也好，开始最重要！这是大叔我宝贵的名言。"
+            ],
+            "Tap": [
+                "今天的运势超强？！这是……赌博女神在对我低语！\n梭哈大冷门！好——！",
+                "那些孩子们，真能吃那么甜的东西啊……\n大叔我还是干一点的下酒菜最合适。啊，对了，还有酒！",
+                "人生嘛，差不多就好。\n大家要是都别那么紧绷，轻轻松松地过日子就好了嘛。"
+            ],
+            "Idle": [
+                "哦？好像有鱼上钩了？啊——嗯——\n……再等它咬得更紧一点吧……对对，别急别急。"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "冰霜边际": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "青金岩": {
+                    "BaseWeight": 2500
+                },
+                "寒流间歇泉": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            }
+        }
+    },
+    "SiegfriedRegular02": {
+        "Name": "齐格弗里德",
+        "Name2": "破晓的屠龙者",
+        "FullName": "齐格弗里德 - 破晓的屠龙者",
+        "Profile": "之后，退出前线的齐格弗里德，带着化为少女姿态的邪龙，一同隐居到偏僻的乡下。凭借讨伐邪龙的报酬获得了巨额赏金的她，早已没有半点继续工作的意愿，只是一边照顾任性妄为的邪龙，一边沉迷于饮酒、钓鱼与赌博，过着彻底放飞自我的日子。",
+        "Profile_Ascended": "巴哈姆特在她心中，不知不觉间已萌生出如同女儿般的情感。隐居在远离人烟的乡下，也是为了让她远离人群与战斗。等到有一天，她能够确信“已经不必再担心她会失控”之时，便打算取下项圈，让她重新获得自由。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手剑",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 34,
+        "Atk_Base": 1397,
+        "Hp_Base": 7435,
+        "Speed": 407,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "水属性振奋",
+            "SkillDescription": "所有水属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "冰霜边际",
+                "SkillDescription": "对1个敌人造成300%的伤害。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。\n使用者每有一格“能量”，强制随机1个其他敌人睡眠100TU。对进场后已经陷入过睡眠状态的敌方单位亦可生效。",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "青金岩",
+                "SkillDescription": "使用者回复最大生命值的100%并获得1格“能量”、睡眠抵抗、中毒抵抗、“坚韧”效果与战甲状态，且使用者攻击力增加为1.5倍直到其下一个回合结束。\n每当使用者通过攻击击败1个非召唤物敌人后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。\n能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。拥有坚韧效果的单位在下一次受到超过其剩余生命值的伤害时，会以1点生命值幸存。坚韧与各类抵抗效果次数各自无法叠加。“战甲”会使该单位下一次遭受敌方攻击时所受的伤害减少50%，之后战甲会被移除。此效果会覆盖原先的虚弱或狂热效果。",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "寒流间歇泉",
+                "SkillDescription": "对2个敌人造成200%的伤害，使用者入场后每通过攻击击败过1个敌人，额外增加200%的伤害（至多增加至800%的伤害）。此技能无视目标的减伤效果、反弹被动技能、“反击态势”状态与非BOSS目标防止被击败的效果或被动技能。",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "雪崩",
+                "SkillDescription": "对场上所有敌人造成500%的伤害，若使用者入场不小于100TU，则伤害提升至700%。此技能无视非BOSS目标防止被击败的效果或被动技能。受到伤害的敌方单位获得燃霜效果。\n使用者进场至少100TU后或每当场上1个其他非召唤物队友被击败或被牺牲后才可使用。此技能在一场战斗中只能使用一次。\n有燃霜效果的单位获得回合时会失去该回合（类似睡眠状态），然后移除其燃霜效果并陷入燃烧状态。燃霜不是状态效果，但可以被净化。有燃霜的单位离场时会移除燃霜。燃霜对BOSS类单位无效且无法叠加。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 100,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "破晓屠龙者",
+                "SkillDescription": "此单位的攻击不会移除目标的睡眠状态，且此单位回复所造成伤害100%的生命值。此单位不能从场上回到援军。\n此单位进场后直到此单位通过攻击击败非召唤物敌方单位为止，获得以下效果：\n·免疫睡眠与中毒状态。\n·受到敌人攻击的伤害减少50%。\n此单位不会陷入燃烧状态，且被视为处于燃烧状态。因此单位攻击受到伤害的非睡眠单位会陷入燃烧状态，其他单位不会因攻击此单位而陷入燃烧状态。"
+            },
+            {
+                "SkillTitle": "传奇家里蹲",
+                "SkillDescription": "此单位进场时，获得1格“能量”、“坚韧”效果与持续200TU的10%治疗。有10%治疗的单位在任一单位的回合开始时回复最大生命值的10%。此效果会覆盖原先的治疗效果。\n若敌方场上存在火属性或有“火焰”类主动技能的单位，此单位不会被眩晕。\n此单位每有1格“能量”，其所有主动技能的TU减少25%。与其他减少TU类效果同时生效时存在递减。\n每当敌方单位的回合结束时，若己方场上存在其他队友且场上不存在有燃霜效果的敌方单位，则有20%概率使随机1个不处于睡眠状态的敌方单位获得燃霜效果。此单位每觉醒一次额外提高20%获得燃霜效果的概率。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "单手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备单手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手斧大师",
+                "SkillDescription": "若此单位装备单手斧类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "单手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "诶？传说的屠龙者是谁……这个嘛，究竟是谁呢？\n哎呀，大叔我可不知道呀～。\n……欸？已经被你识破了？\n\n真是的，我明明最讨厌麻烦事了。\n行行行，我就是那个屠龙者——\n齐格弗里德啦。"
+            ],
+            "Login": [
+                "哦，你来了啊，那——赶紧出发吧。\n赌博也好、冒险也好，开始最重要！这是大叔我宝贵的名言。"
+            ],
+            "Tap": [
+                "今天的运势超强？！这是……赌博女神在对我低语！\n梭哈大冷门！好——！",
+                "那些孩子们，真能吃那么甜的东西啊……\n大叔我还是干一点的下酒菜最合适。啊，对了，还有酒！",
+                "人生嘛，差不多就好。\n大家要是都别那么紧绷，轻轻松松地过日子就好了嘛。"
+            ],
+            "Idle": [
+                "哦？好像有鱼上钩了？啊——嗯——\n……再等它咬得更紧一点吧……对对，别急别急。"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "冰霜边际": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "青金岩": {
+                    "BaseWeight": 2500
+                },
+                "寒流间歇泉": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                },
+                "雪崩": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "EnemyTeamHas3ConjuredAllies": 0,
+                        "EnemyTeamHas3ConjuredAlliesAlt": 0,
+                        "IsPiercing": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "流浪者的仁义",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            }
+        }
     }
 }

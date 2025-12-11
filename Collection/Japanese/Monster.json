@@ -15762,6 +15762,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -16124,6 +16135,17 @@
                     "MetalDragon01",
                     "FloatingMage01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -17806,6 +17828,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -18171,6 +18204,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -25482,6 +25526,17 @@
                     "RedScarfFrog01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -25678,6 +25733,17 @@
                     "MistDragon01",
                     "FoxDuelist01",
                     "RedScarfFrog01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -124387,7 +124453,7 @@
         "Hp_Base": 5405,
         "Speed": 574,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "清く、正しく、進みましょう！",
         "LeaderSkill": {
             "SkillTitle": "攻撃力アップ（地）",
@@ -124527,6 +124593,19 @@
                         "IsSleeping"
                     ]
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -124693,6 +124772,420 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular01": {
+        "Name": "ジークフリート",
+        "Name2": "暁の竜殺し",
+        "FullName": "ジークフリート - 暁の竜殺し",
+        "Profile": "ジークフリート――かつては伝説の竜狩りと謳われた剣士。『翼を持つ悪魔』との異名を取る災厄の邪竜と死闘の末、ついにはその封印に成功する。だが、その戦いで背負った傷が、彼女を剣士としての引退へと追い込んだ。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "剣",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 28,
+        "Atk_Base": 1136,
+        "Hp_Base": 5530,
+        "Speed": 407,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "戦いからは退いたんだけど…\nまぁ、仕方ないね",
+        "LeaderSkill": {
+            "SkillTitle": "HPアップ（水）",
+            "SkillDescription": "水属性の味方の最大HPを10%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "フロストエッジ",
+                "SkillDescription": "敵1体に300%ダメージ。この攻撃は、対象のダメージ減少効果を無視し、またアイアンハートなどHPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n使用者が持つチャージ1個につき1体、攻撃対象を除くランダムな敵を対象に、状態変化「眠り」(100TU持続)を付与する。この眠り状態は対象が睡眠済みでも付与され、また対象の既存の状態変化は上書きされる。",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ラピスラズリ",
+                "SkillDescription": "使用者は自身のHPを最大まで回復し、また自身にチャージ1個と、「ワンタイムアンチスリープ」、「ワンタイムアンチポイズン」、状態変化「アーマー」を付与する（既存の状態変化は上書きされる）。\nその後さらに、自身に「アンガー」及び「アイアンホープ」を付与する。\n\nこのスキルは場に出た時はロックされており、このキャラが敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にするたびにロックが解除される。このスキルは使用のたびに再度ロックされる。\n\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-アーマー状態のキャラは、次に敵の攻撃で受けるダメージが50％減少し、その後アーマー状態は解除される。\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n-アイアンホープ状態のキャラは、敵の攻撃または状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。効果が一度発動すると、アイアンホープは解除される。アイアンホープの効果は重複しない。",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "ツンドラガイザー",
+                "SkillDescription": "敵2体に200%ダメージ。この攻撃のダメージ量は、使用者が場に出てから攻撃で戦闘不能にした敵1体につき200%ずつ増加する（最大600%増加）。この攻撃はアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視し（ボスの持つスキルは除く）、また対象のダメージ減少効果、カウンター状態、スキン系のパッシブスキルの効果を無視する。",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "暁の竜殺し",
+                "SkillDescription": "・このキャラの攻撃では、対象の眠り状態は解除されない。\n\n・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは燃焼状態にならない。このキャラは、自身や他のキャラのスキルの発動や強化などの条件判定において、常に燃焼状態として扱われる。\n\n・このキャラから攻撃でダメージを受けたキャラは、状態変化「燃焼」を付与される（このキャラに攻撃でダメージを与えても、燃焼状態にはならない）。この効果は、対象が眠り状態だと発動しない。\n\n・このキャラが場に出てから自身が敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にするまでの間、以下の効果が発動する。\n-このキャラは眠り状態にならない。\n-このキャラは毒状態にならない。\n-このキャラが敵の攻撃で受けるダメージが50%減少する。"
+            },
+            {
+                "SkillTitle": "伝説のニート",
+                "SkillDescription": "・このキャラはバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身にチャージ1個、「10%キュア」(200TU持続)、「アイアンホープ」を付与する。\n-10%キュアを持つキャラは、敵味方問わず誰かにターンが回るたびに、そのターン後にHPが最大値の10%分回復する。この効果は既存のキュア系の効果を上書きする。\n\n・このキャラは、場に「火属性」または「バーンストライク、もしくはバーンストーム系のアクティブスキルを持つ」のいずれかを満たすキャラ（敵味方問わず）がいる時、スタンの効果を受けない。\n\n・このキャラの使用するスキルのTU量は、このキャラが持つチャージ1個につき25%減少する。この効果によってスキルTUが減少している間、他のスキルTU減少効果は弱められる。\n\n・このキャラが場にいる間に敵にターンが回るたびに、そのターンの終了時に20%の確率で、眠り状態でないランダムな敵1体に「フロストバーン」を付与する。効果が発動する確率は、このキャラの覚醒数が1増加するごとに20%増加し、4覚醒で100%になる。ただし、そのターンの開始時にすでにフロストバーン状態の敵がいると発動せず、また、場に自身の他に味方がいない場合にも発動しない。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "剣耐性Lv3",
+                "SkillDescription": "剣を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:斧",
+                "SkillDescription": "斧も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "えっ、伝説の竜殺し…さてね、誰だろぉ？\nいやぁ、おじさんわかんないなぁ～。\n…って、もうバレてる感じ？\n\nなんだよもうっ面倒ごとはまっぴらなのにさ。\nはいはい、私がその竜殺し――\nジークフリートさんですよ。"
+            ],
+            "Login": [
+                "おっ来たね、んじゃ～"
+            ],
+            "Tap": [
+                "今日の運勢は絶好調？！",
+                "あの子たち、よくあんな",
+                "人生、いい加減なくらいが"
+            ],
+            "Idle": [
+                "おっと、魚が釣れてそう？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "フロストエッジ": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "ラピスラズリ": {
+                    "BaseWeight": 2500
+                },
+                "ツンドラガイザー": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SiegfriedRegular02": {
+        "Name": "ジークフリート",
+        "Name2": "暁の竜殺し",
+        "FullName": "ジークフリート - 暁の竜殺し",
+        "Profile": "その後、前線を退いたジークフリートは、少女の姿となった邪竜と共に、片田舎に隠居することとなる。討伐の報奨金で巨額の褒賞を得た彼女は、もはや働く気などさらさらなく、わがままな邪竜の世話を焼きながら、酒と釣りとギャンブルに明け暮れる日々を送っていた。",
+        "Profile_Ascended": "バハムートには、いつしか娘のような情が芽生えていた。人里離れた田舎で隠居しているのも、彼女を人々や戦いから遠ざけるためであり、いずれ「もう暴れる心配はない」と確信したときには、首輪を外して自由にするつもりであった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "剣",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 34,
+        "Atk_Base": 1397,
+        "Hp_Base": 7435,
+        "Speed": 407,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "HPアップ（水）",
+            "SkillDescription": "水属性の味方の最大HPを10%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "フロストエッジ",
+                "SkillDescription": "敵1体に300%ダメージ。この攻撃は、対象のダメージ減少効果を無視し、またアイアンハートなどHPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n使用者が持つチャージ1個につき1体、攻撃対象を除くランダムな敵を対象に、状態変化「眠り」(100TU持続)を付与する。この眠り状態は対象が睡眠済みでも付与され、また対象の既存の状態変化は上書きされる。",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ラピスラズリ",
+                "SkillDescription": "使用者は自身のHPを最大まで回復し、また自身にチャージ1個と、「ワンタイムアンチスリープ」、「ワンタイムアンチポイズン」、状態変化「アーマー」を付与する（既存の状態変化は上書きされる）。\nその後さらに、自身に「アンガー」及び「アイアンホープ」を付与する。\n\nこのスキルは場に出た時はロックされており、このキャラが敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にするたびにロックが解除される。このスキルは使用のたびに再度ロックされる。\n\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-アーマー状態のキャラは、次に敵の攻撃で受けるダメージが50％減少し、その後アーマー状態は解除される。\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n-アイアンホープ状態のキャラは、敵の攻撃または状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。効果が一度発動すると、アイアンホープは解除される。アイアンホープの効果は重複しない。",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "ツンドラガイザー",
+                "SkillDescription": "敵2体に200%ダメージ。この攻撃のダメージ量は、使用者が場に出てから攻撃で戦闘不能にした敵1体につき200%ずつ増加する（最大600%増加）。この攻撃はアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視し（ボスの持つスキルは除く）、また対象のダメージ減少効果、カウンター状態、スキン系のパッシブスキルの効果を無視する。",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "アバランチ",
+                "SkillDescription": "敵全員に500%ダメージ。使用者が場に出てから100TU以上経過していれば700%ダメージ。この攻撃は、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n攻撃を受けた敵全員に「フロストバーン」を付与する。\n\nこのスキルは、このキャラが場に出てから100TU経過するまでロックされる。ただし、このキャラが場に出てから、場にいる味方（このバトル中にスキルの効果で召喚されたキャラを除く）が1体以上戦闘不能になっている場合、ロックを無視して使用できる。このスキルは、1回のバトルで1度までしか使用できない。\n\n-フロストバーン状態のキャラは、次に自身にターンが回った時、そのターンは眠り状態の時のようにスキップされる。その後、フロストバーンは解除され、状態変化「燃焼」が付与される（既存の状態変化は上書きされる）。フロストバーンは状態変化ではないが、クリア系の効果で解除される。フロストバーンは場を離れると解除される。フロストバーンは重複せず、またボスには付与されない。",
+                "TU": 100,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "暁の竜殺し",
+                "SkillDescription": "・このキャラの攻撃では、対象の眠り状態は解除されない。\n\n・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは燃焼状態にならない。このキャラは、自身や他のキャラのスキルの発動や強化などの条件判定において、常に燃焼状態として扱われる。\n\n・このキャラから攻撃でダメージを受けたキャラは、状態変化「燃焼」を付与される（このキャラに攻撃でダメージを与えても、燃焼状態にはならない）。この効果は、対象が眠り状態だと発動しない。\n\n・このキャラが場に出てから自身が敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にするまでの間、以下の効果が発動する。\n-このキャラは眠り状態にならない。\n-このキャラは毒状態にならない。\n-このキャラが敵の攻撃で受けるダメージが50%減少する。"
+            },
+            {
+                "SkillTitle": "伝説のニート",
+                "SkillDescription": "・このキャラはバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身にチャージ1個、「10%キュア」(200TU持続)、「アイアンホープ」を付与する。\n-10%キュアを持つキャラは、敵味方問わず誰かにターンが回るたびに、そのターン後にHPが最大値の10%分回復する。この効果は既存のキュア系の効果を上書きする。\n\n・このキャラは、場に「火属性」または「バーンストライク、もしくはバーンストーム系のアクティブスキルを持つ」のいずれかを満たすキャラ（敵味方問わず）がいる時、スタンの効果を受けない。\n\n・このキャラの使用するスキルのTU量は、このキャラが持つチャージ1個につき25%減少する。この効果によってスキルTUが減少している間、他のスキルTU減少効果は弱められる。\n\n・このキャラが場にいる間に敵にターンが回るたびに、そのターンの終了時に20%の確率で、眠り状態でないランダムな敵1体に「フロストバーン」を付与する。効果が発動する確率は、このキャラの覚醒数が1増加するごとに20%増加し、4覚醒で100%になる。ただし、そのターンの開始時にすでにフロストバーン状態の敵がいると発動せず、また、場に自身の他に味方がいない場合にも発動しない。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "剣耐性Lv3",
+                "SkillDescription": "剣を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:斧",
+                "SkillDescription": "斧も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "えっ、伝説の竜殺し…さてね、誰だろぉ？\nいやぁ、おじさんわかんないなぁ～。\n…って、もうバレてる感じ？\n\nなんだよもうっ面倒ごとはまっぴらなのにさ。\nはいはい、私がその竜殺し――\nジークフリートさんですよ。"
+            ],
+            "Login": [
+                "おっ来たね、んじゃ～"
+            ],
+            "Tap": [
+                "今日の運勢は絶好調？！",
+                "あの子たち、よくあんな",
+                "人生、いい加減なくらいが"
+            ],
+            "Idle": [
+                "おっと、魚が釣れてそう？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "フロストエッジ": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "ラピスラズリ": {
+                    "BaseWeight": 2500
+                },
+                "ツンドラガイザー": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                },
+                "アバランチ": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "EnemyTeamHas3ConjuredAllies": 0,
+                        "EnemyTeamHas3ConjuredAlliesAlt": 0,
+                        "IsPiercing": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "放浪者の仁義",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

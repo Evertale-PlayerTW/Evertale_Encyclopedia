@@ -15760,6 +15760,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -16122,6 +16133,17 @@
                     "MetalDragon01",
                     "FloatingMage01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -17804,6 +17826,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -18169,6 +18202,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -25480,6 +25524,17 @@
                     "RedScarfFrog01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -25676,6 +25731,17 @@
                     "MistDragon01",
                     "FoxDuelist01",
                     "RedScarfFrog01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -124385,7 +124451,7 @@
         "Hp_Base": 5405,
         "Speed": 574,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Procediamo— con retta integrità!",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Terra)",
@@ -124525,6 +124591,19 @@
                         "IsSleeping"
                     ]
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -124691,6 +124770,420 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "SiegfriedRegular01": {
+        "Name": "Siegfried",
+        "Name2": "Ammazzadraghi Leggendaria",
+        "FullName": "Siegfried - Ammazzadraghi Leggendaria",
+        "Profile": "Siegfried, un tempo osannata come la leggendaria cacciatrice di draghi. Dopo una feroce battaglia con il catastrofico drago oscuro conosciuto come il \"Demone Alato\", riuscì a sigillarlo. Tuttavia, le ferite che subì in quella battaglia la costrinsero a ritirarsi dalla vita di spadaccina.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Water",
+        "Element": "Acqua",
+        "Cost": 28,
+        "Atk_Base": 1136,
+        "Hp_Base": 5530,
+        "Speed": 407,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Guarda che sono già in pensione...\nBeh, ormai è fatta.",
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Acqua)",
+            "SkillDescription": "Nelle unità alleate di tipo Acqua gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Spezza Scaglia",
+                "SkillDescription": "300% di danno a 1 nemico, più il 150% per ogni Carica accumulata dall'unità (fino al 750% di danno totale). Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nAddormenta per 100TU un nemico per ogni Carica accumulata dall'unità (fino a 3 bersagli) anche se hanno già dormito da quando sono entrati in campo.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Risveglio Glaciale",
+                "SkillDescription": "Cura del 100% l'unità. L'unità ottiene una Carica, Protezione Sonno, Protezione Veleno e Armatura. Armatura sostituisce altri effetti di stato. Poi, l'unità ottiene Provocazione, e resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP.\n\nSi sblocca ogni volta che l'unità sconfigge un nemico non invocato in campo con un attacco. Dopo l'utilizzo, l'abilità torna bloccata.\n\nAlcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche e l'effetto Resistenza non si accumulano. Armatura riduce del 50% i danni del prossimo attacco, poi l'effetto è rimosso. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro prossimo turno. Provocazione sostituisce altri effetti di Debolezza o Provocazione dell'unità.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Geyser Raggelante",
+                "SkillDescription": "200% di danno a 2 nemici, più il 200% per ogni volta che l'unità ha sconfitto un nemico con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver sconfitto 3 nemici). Questo attacco ignora gli effetti di riduzione del danno nemici, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ammazzadraghi",
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno totale inflitto.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nFinché l'unità non sconfigge un nemico non invocato con un attacco da quando è entrata in campo, l'unità:\n- È immune a Sonno.\n- È immune a Veleno.\n- Ha una riduzione danni del 50% dagli attacchi ricevuti.\n\nL'unità conta sempre come ustionata per le abilità che contano o colpiscono i bersagli ustionati. L'unità non può subire l'effetto di stato Ustione. Le unità non addormentate colpite da questa unità vengono ustionate. Attaccare quest'unità non ustionerà le unità che l'hanno attaccata."
+            },
+            {
+                "SkillTitle": "Torna la Leggenda",
+                "SkillDescription": "L'unità entra in campo con 1 Carica, Rigenerazione HP 10% per 200TU e resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP. Un'unità con Rigenerazione HP 10%, dopo ogni turno, recupera il 10% degli HP massimi. Gli effetti Rigenerazione HP sostituiscono altri effetti di Rigenerazione HP.\n\nL'unità è immune a Stordimento se c'è un'unità dell'elemento Fuoco o che possiede un'abilità attiva di tipo Lampo Ustionante o Avanzata Ustionante in campo.\n\nLe abilità attive dell'unità costano tutte il 25% di TU in meno per ogni Carica, fino a un massimo del 75% con 3 Cariche. Gli effetti che riducono ulteriormente i TU vengono ridotti durante l'effetto.\n\nAlla fine di ogni turno nemico, se non c'erano nemici con Fuocogelo all'inizio del turno, un nemico non addormentato casuale subisce Fuocogelo. Questo effetto ha il 20% di probabilità, più il 20% per risveglio (fino al 100% con 4 risvegli), di attivarsi e non può attivarsi se non ci sono altri alleati di Siegfried in campo."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Spada Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillTitle": "Maestria Ascia",
+                "SkillDescription": "Può usare le abilità delle Asce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Eh? La leggendaria cacciatrice di draghi...?\nChissà chi è? Non ne ho idea?\nAspetta, lo sai già...?\n\nOh, ma dai... Non voglio problemi.\nSì, sì... Sono quella cacciatrice di draghi...\nSigfrido, al tuo servizio."
+            ],
+            "Login": [
+                "Sei qui! D'accordo— mettiamoci all'opera!\nChe sia una scommessa o un'avventura, bisogna partire con il piede giusto! È uno dei miei saggi modi di dire, sai."
+            ],
+            "Tap": [
+                "La fortuna di oggi è fuori scala?! La dea del gioco d'azzardo mi sta chiamando! Punto tutto sul lancio lontano! Forza, è la giornata giusta!",
+                "Certo che i giovani amano quei cibi dolci...\nGli snack secchi fanno più al caso mio. Oh, e non dimentichiamo l'alcol!",
+                "Prendersela comoda è il giusto ritmo per la vita.\nTutti quanti dovrebbero smetterla di essere tanto tesi e vivere in modo più rilassato, sai?"
+            ],
+            "Idle": [
+                "Se ho preso qualcosa? Aah... beh...\nForse devo solo pazientare un altro po' prima che abbocchino... Sì, non c'è fretta."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Spezza Scaglia": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Risveglio Glaciale": {
+                    "BaseWeight": 2500
+                },
+                "Geyser Raggelante": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "SiegfriedRegular02": {
+        "Name": "Siegfried",
+        "Name2": "Ammazzadraghi Leggendaria",
+        "FullName": "Siegfried - Ammazzadraghi Leggendaria",
+        "Profile": "Dopo essere andata in pensione, Siegfried si stabilì in campagna con il drago oscuro, ora nelle sembianze di una giovane ragazza. Avendo guadagnato una fortuna sconfiggendo il drago, non aveva intenzione di lavorare mai più. Passa le sue giornate a bere, pescare e giocare d'azzardo mentre si prende cura della piccola draghetta viziata.",
+        "Profile_Ascended": "Ben presto, Sigfrido iniziò a provare un affetto materno nei confronti di Bahamut. La sua decisione di vivere in isolamento era un modo per tenere la ragazza lontana dalla gente e dalla guerra. Quando sarà certa che non c'è più il rischio che Bahamut si scateni, le toglierà il collare e la libererà.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Water",
+        "Element": "Acqua",
+        "Cost": 34,
+        "Atk_Base": 1397,
+        "Hp_Base": 7435,
+        "Speed": 407,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Acqua)",
+            "SkillDescription": "Nelle unità alleate di tipo Acqua gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Spezza Scaglia",
+                "SkillDescription": "300% di danno a 1 nemico, più il 150% per ogni Carica accumulata dall'unità (fino al 750% di danno totale). Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nAddormenta per 100TU un nemico per ogni Carica accumulata dall'unità (fino a 3 bersagli) anche se hanno già dormito da quando sono entrati in campo.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Risveglio Glaciale",
+                "SkillDescription": "Cura del 100% l'unità. L'unità ottiene una Carica, Protezione Sonno, Protezione Veleno e Armatura. Armatura sostituisce altri effetti di stato. Poi, l'unità ottiene Provocazione, e resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP.\n\nSi sblocca ogni volta che l'unità sconfigge un nemico non invocato in campo con un attacco. Dopo l'utilizzo, l'abilità torna bloccata.\n\nAlcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche e l'effetto Resistenza non si accumulano. Armatura riduce del 50% i danni del prossimo attacco, poi l'effetto è rimosso. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro prossimo turno. Provocazione sostituisce altri effetti di Debolezza o Provocazione dell'unità.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Geyser Raggelante",
+                "SkillDescription": "200% di danno a 2 nemici, più il 200% per ogni volta che l'unità ha sconfitto un nemico con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver sconfitto 3 nemici). Questo attacco ignora gli effetti di riduzione del danno nemici, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Tempesta di Neve",
+                "SkillDescription": "500% di danno a tutti i nemici. 700% di danno invece se l'unità è sopravvissuta per 100+TU in campo. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti. Infligge Fuocogelo a tutti i nemici colpiti.\n\nBloccata per 100TU da quando questa unità entra in campo o finché un alleato non invocato in campo non viene sconfitto o sacrificato. Un solo uso per battaglia.\n\nQuando un'unità con Fuocogelo ottiene il turno, perde il turno come se fosse addormentata, poi Fuocogelo è rimosso e l'unità viene ustionata. Fuocogelo non è un effetto di stato, ma gli effetti che rimuovono gli effetti di stato negativi rimuovono anche Fuocogelo. Fuocogelo termina se l'unità viene sconfitta o abbandona il campo. Fuocogelo non ha effetto sulle unità boss e non si accumula. Ustione sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione",
+                "TU": 100,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ammazzadraghi",
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno totale inflitto.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nFinché l'unità non sconfigge un nemico non invocato con un attacco da quando è entrata in campo, l'unità:\n- È immune a Sonno.\n- È immune a Veleno.\n- Ha una riduzione danni del 50% dagli attacchi ricevuti.\n\nL'unità conta sempre come ustionata per le abilità che contano o colpiscono i bersagli ustionati. L'unità non può subire l'effetto di stato Ustione. Le unità non addormentate colpite da questa unità vengono ustionate. Attaccare quest'unità non ustionerà le unità che l'hanno attaccata."
+            },
+            {
+                "SkillTitle": "Torna la Leggenda",
+                "SkillDescription": "L'unità entra in campo con 1 Carica, Rigenerazione HP 10% per 200TU e resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP. Un'unità con Rigenerazione HP 10%, dopo ogni turno, recupera il 10% degli HP massimi. Gli effetti Rigenerazione HP sostituiscono altri effetti di Rigenerazione HP.\n\nL'unità è immune a Stordimento se c'è un'unità dell'elemento Fuoco o che possiede un'abilità attiva di tipo Lampo Ustionante o Avanzata Ustionante in campo.\n\nLe abilità attive dell'unità costano tutte il 25% di TU in meno per ogni Carica, fino a un massimo del 75% con 3 Cariche. Gli effetti che riducono ulteriormente i TU vengono ridotti durante l'effetto.\n\nAlla fine di ogni turno nemico, se non c'erano nemici con Fuocogelo all'inizio del turno, un nemico non addormentato casuale subisce Fuocogelo. Questo effetto ha il 20% di probabilità, più il 20% per risveglio (fino al 100% con 4 risvegli), di attivarsi e non può attivarsi se non ci sono altri alleati di Siegfried in campo."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Spada Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillTitle": "Maestria Ascia",
+                "SkillDescription": "Può usare le abilità delle Asce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Eh? La leggendaria cacciatrice di draghi...?\nChissà chi è? Non ne ho idea?\nAspetta, lo sai già...?\n\nOh, ma dai... Non voglio problemi.\nSì, sì... Sono quella cacciatrice di draghi...\nSigfrido, al tuo servizio."
+            ],
+            "Login": [
+                "Sei qui! D'accordo— mettiamoci all'opera!\nChe sia una scommessa o un'avventura, bisogna partire con il piede giusto! È uno dei miei saggi modi di dire, sai."
+            ],
+            "Tap": [
+                "La fortuna di oggi è fuori scala?! La dea del gioco d'azzardo mi sta chiamando! Punto tutto sul lancio lontano! Forza, è la giornata giusta!",
+                "Certo che i giovani amano quei cibi dolci...\nGli snack secchi fanno più al caso mio. Oh, e non dimentichiamo l'alcol!",
+                "Prendersela comoda è il giusto ritmo per la vita.\nTutti quanti dovrebbero smetterla di essere tanto tesi e vivere in modo più rilassato, sai?"
+            ],
+            "Idle": [
+                "Se ho preso qualcosa? Aah... beh...\nForse devo solo pazientare un altro po' prima che abbocchino... Sì, non c'è fretta."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Spezza Scaglia": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Risveglio Glaciale": {
+                    "BaseWeight": 2500
+                },
+                "Geyser Raggelante": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                },
+                "Tempesta di Neve": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "EnemyTeamHas3ConjuredAllies": 0,
+                        "EnemyTeamHas3ConjuredAlliesAlt": 0,
+                        "IsPiercing": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Virtù Vagabonda",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }

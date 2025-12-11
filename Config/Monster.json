@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1764225441,
+  "Time": 1764568683,
   "Monster": [
     {
       "name": "HammerPantsThief01",
@@ -69182,6 +69182,7 @@
       "consolationMultiplier": 0,
       "battleOrbImageFlip": 0,
       "attackType": "Bash",
+      "visible": 1,
       "skillVoices": {
         "0": [
           1,
@@ -69281,6 +69282,223 @@
       "battleOrbImageFlip": 1,
       "attackType": "Bash",
       "cosmoName": "ElmKouhaiRegular03",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "victoryVoices": [
+        25,
+        26
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "SiegfriedRegular01",
+      "family": "SiegfriedRegular",
+      "class": "Monster",
+      "leaderBuff": "HPUpWaterD",
+      "leaderBuffCondition": "IsWater",
+      "activeSkills": {
+        "0": "SingleAttackASiegfriedRegular",
+        "1": "SelfBuffASiegfriedRegular",
+        "2": "DoubleAttackASiegfriedRegular"
+      },
+      "passives": {
+        "0": "DragonHeartPassiveASiegfriedRegular",
+        "1": "FafnirsBanePassiveASiegfriedRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "SwordMinusDamageLv3",
+        "5": "AddWeaponPrefAxe"
+      },
+      "cost": 28,
+      "baseAttack": 1136,
+      "baseMaxHp": 5530,
+      "speed": 407,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "superEvolve1": "SiegfriedRegular02",
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 0,
+      "attackType": "Bash",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ],
+      "victoryVoices": [
+        25
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "SiegfriedRegular02",
+      "family": "SiegfriedRegular",
+      "class": "Monster",
+      "leaderBuff": "HPUpWaterD",
+      "leaderBuffCondition": "IsWater",
+      "activeSkills": {
+        "0": "SingleAttackASiegfriedRegular",
+        "1": "SelfBuffASiegfriedRegular",
+        "2": "DoubleAttackASiegfriedRegular",
+        "3": "AllAttackASiegfriedRegular"
+      },
+      "passives": {
+        "0": "DragonHeartPassiveASiegfriedRegular",
+        "1": "FafnirsBanePassiveASiegfriedRegular",
+        "2": "PlusAttackBoostLv3",
+        "3": "PlusHPBoostLv3",
+        "4": "SwordMinusDamageLv3",
+        "5": "AddWeaponPrefAxe"
+      },
+      "cost": 34,
+      "baseAttack": 1397,
+      "baseMaxHp": 7435,
+      "speed": 407,
+      "element": "Water",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "evolveFrom": "SiegfriedRegular01",
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 1,
+      "attackType": "Bash",
+      "cosmoName": "SiegfriedRegular03",
       "skillVoices": {
         "0": [
           1,

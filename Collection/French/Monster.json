@@ -15760,6 +15760,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -16122,6 +16133,17 @@
                     "MetalDragon01",
                     "FloatingMage01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -17804,6 +17826,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -18169,6 +18202,17 @@
                     "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -25480,6 +25524,17 @@
                     "RedScarfFrog01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -25676,6 +25731,17 @@
                     "MistDragon01",
                     "FoxDuelist01",
                     "RedScarfFrog01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -124385,7 +124451,7 @@
         "Hp_Base": 5405,
         "Speed": 574,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Allons-y––Avec intégrité droite !",
         "LeaderSkill": {
             "SkillTitle": "Terre ATT+",
@@ -124525,6 +124591,19 @@
                         "IsSleeping"
                     ]
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -124691,6 +124770,420 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "SiegfriedRegular01": {
+        "Name": "Siegfried",
+        "Name2": "Chasseur de dragon légendaire",
+        "FullName": "Siegfried - Chasseur de dragon légendaire",
+        "Profile": "Siegfried fut jadis célébrée en tant que chasseuse de dragon légendaire. Après une féroce bataille contre le terrible dragon obscur connu sous le nom de « Démon Ailé », elle réussit à l'emprisonner. Toutefois, les blessures de cette bataille la forcèrent finalement à se retirer de sa vie d'escrimeuse.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Épée",
+        "forFilter_Element": "Water",
+        "Element": "Eau",
+        "Cost": 28,
+        "Atk_Base": 1136,
+        "Hp_Base": 5530,
+        "Speed": 407,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "J'ai déjà pris ma retraite tu sais...\nBon, je suppose que je ne peux rien y faire.",
+        "LeaderSkill": {
+            "SkillTitle": "Eau PV+",
+            "SkillDescription": "Les alliés Eau voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Briseur d'Écailles",
+                "SkillDescription": "300% de dégâts à 1 ennemi. Cette attaque ignore les effets de réduction de dégâts ennemis et tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue.\n\nInflige l'effet de statut de Sommeil pendant 100TU à un autre ennemi par Charge conservée par l'utilisateur (maximum de 3 cibles), même s'il a déjà été endormi sur le champ de bataille.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Éveil Glacial",
+                "SkillDescription": "Soigne intégralement l'utilisateur. \n L'utilisateur gagne une Charge, une Protection Sommeil, une Protection Poison et l'effet de statut d'Armure. Puis l'utilisateur devient Enragé, et Endurera les prochains dégâts qui le vaincraient avec 1PV.\n\nDéverrouillé chaque fois que l'utilisateur vainc un ennemi non-invoqué sur le champ de bataille avec une attaque. Cette compétence se verrouille à nouveau après chaque utilisation.\n\nCertaines compétences sont affectées par et peuvent consommer des charges. Une unité peut conserver un maximum de 3 charges, et toutes les charges sont retirées d'une unité qui quitte le champ de bataille. Chaque Protection empêche l'application de son effet respectif une fois, puis est retirée. Les Protections Identiques et les effets d'Endurance ne peuvent être empilés. L'Armure réduit de 50% les dégâts de la prochaine attaque, puis l'effet est retiré. L'Attaque d'une unité Enragée est multipliée par 1,5 jusqu'à la fin de son prochain tour. L'effet de statut d'Enragé remplacera tout effet d'Affaiblissement ou d'Enragé existant déjà sur l'utilisateur.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Geyser Glaçant",
+                "SkillDescription": "200% de dégâts à 2 ennemis, et 200% de plus par le nombre de fois que cette unité a vaincu un ennemi avec une attaque sur le champ de bataille (maximum de 800% de dégâts totaux après avoir vaincu 3 ennemis). Cette attaque ignore les effets de réduction de dégâts ennemis, tout effet d'ennemis non-boss qui empêcherait la cibles d'être vaincue, les compétences passives de Reflet, et l'effet de statut de Contre Relais.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Tueur de Dragon",
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis, et soigneront cette unité de 100% des dégâts totaux infligés.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nJusqu'à ce que cette unité vainque un ennemi non-invoqué avec une attaque sur le champ de bataille :\n- Elle est immunisée contre les effets de statut de Sommeil.\n- Elle est immunisée contre les effets de statut de Poison.\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques.\n\nCette unité compte toujours comme étant Brûlée pour les compétences qui comptent ou affectent les unités brûlées. Cette unité ne peut pas gagner l'effet de statut de Brûlure. Toute unité non-endormie qui subit des dégâts de cette unité deviendra brûlée. Attaquer cette unité ne causera pas de la Brûlure."
+            },
+            {
+                "SkillTitle": "Légende de Retour",
+                "SkillDescription": "Cette unité entre en bataille avec 1 Charge, une Régénération de 10% de PV pendant 200TU, et Endurera les premiers dégâts qui la vaincraient avec 1PV. Une unité avec une Régénération de 10% PV sera soignée de 10% de ses PV max après chaque tour. Les effets de Régénération de PV remplaceront les effets de Régénération de PV existants.\n\nCette unité ne peut être étourdie s'il y a une unité sur le champ de bataille qui est d'élément Feu, ou qui possède Souffle de Feu ou une compétence active de type Pulsion Brûlure.\n\nToutes les compétences actives de cette unité coûtent 25% moins de TU par le nombre de Charges qu'elle a conservées, jusqu'à un maximum de 75% moins de TU avec 3 Charges. Les autres effets qui réduisent davantage les TU auront un rendement décroissant tant que ceci est en application.\n\nÀ la fin de chaque tour ennemi, si aucun ennemi ne possède l'Engelure au début de ce tour, un ennemi aléatoire non-endormi subira l'Engelure. Cet effet a 20% de chance d'être déclenché et 20% de plus par Éveil (jusqu'à 100% de chance si cette unité possède 4 Éveils) et ne peut être déclenché si Siegfried n'a pas d'autres alliés sur le champ de bataille."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Épée LV3",
+                "SkillDescription": "10% moins de dégâts des attaques des unités équipées d'une Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise Hache",
+                "SkillDescription": "Peut utiliser les talents d'arme des Haches en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hache"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hein ? La légendaire chasseuse de dragon...?\nJe me demande qui c'est ? Je n'en ai aucune idée\nAttends, tu sais déjà qui c'est...?\n\nOooh, allez... Je ne veux vraiment pas d'ennuis.\nOuais, ouais––Je suis cette chasseuse de dragon...\nSiegfried, à ton service."
+            ],
+            "Login": [
+                "Tu es là ! Très bien––Allons-y tout de suite !\nQue ce soit des jeux d'argent ou une aventure, un bon début est crucial ! C'est un de mes vieux proverbes de sagesse, tu sais."
+            ],
+            "Tap": [
+                "La chance d'aujourd'hui est exceptionnelle !? La déesse des jeux me chuchote à l'oreille ! Je mise tout pour le pari risqué ! Tapis ! Très bien, allons-y !",
+                "Ces enfants supportent vraiment toutes ces choses sucrées...\nDes encas séchés me conviennent. Oh, et je ne peux pas oublier l'alcool !",
+                "Se la couler douce est juste le bon rythme pour la vis.\nTout le monde devrait arrêter d'être si rigide et simplement vivre sa vie en étant un peu plus détendu, tu sais ?"
+            ],
+            "Idle": [
+                "De la chance avec la ligne de pêche ? Ahh... Ouais...\nTu devrais peut-être attendre un peu plus longtemps pour que ça morde à l'hameçon... Ouais, pas besoin de se presser."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Briseur d'Écailles": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Éveil Glacial": {
+                    "BaseWeight": 2500
+                },
+                "Geyser Glaçant": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "SiegfriedRegular02": {
+        "Name": "Siegfried",
+        "Name2": "Chasseur de dragon légendaire",
+        "FullName": "Siegfried - Chasseur de dragon légendaire",
+        "Profile": "Après sa retraite, Siegfried s'installa en campagne paisible avec le dragon obscur, maintenant sous la forme d'une jeune fille. Ayant gagné une fortune grâce à la défaite du dragon, elle n'eut aucune intention de travailler à nouveau. À la place, elle passe ses journées à boire, pêcher et parier tout en s'occupant du petit dragon gâté.",
+        "Profile_Ascended": "En peu de temps, Siegfried commença à ressentir une affection maternelle envers Bahamut. Sa décision de vivre isolé était une façon de tenir la fille à l'écart des gens et de la guerre. Une fois qu'elle sera sûre qu'il n'y aura plus de risque que Bahamut se déchaîne, elle retirera le collier et la libèrera.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Épée",
+        "forFilter_Element": "Water",
+        "Element": "Eau",
+        "Cost": 34,
+        "Atk_Base": 1397,
+        "Hp_Base": 7435,
+        "Speed": 407,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Eau PV+",
+            "SkillDescription": "Les alliés Eau voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Briseur d'Écailles",
+                "SkillDescription": "300% de dégâts à 1 ennemi. Cette attaque ignore les effets de réduction de dégâts ennemis et tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue.\n\nInflige l'effet de statut de Sommeil pendant 100TU à un autre ennemi par Charge conservée par l'utilisateur (maximum de 3 cibles), même s'il a déjà été endormi sur le champ de bataille.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Éveil Glacial",
+                "SkillDescription": "Soigne intégralement l'utilisateur. \n L'utilisateur gagne une Charge, une Protection Sommeil, une Protection Poison et l'effet de statut d'Armure. Puis l'utilisateur devient Enragé, et Endurera les prochains dégâts qui le vaincraient avec 1PV.\n\nDéverrouillé chaque fois que l'utilisateur vainc un ennemi non-invoqué sur le champ de bataille avec une attaque. Cette compétence se verrouille à nouveau après chaque utilisation.\n\nCertaines compétences sont affectées par et peuvent consommer des charges. Une unité peut conserver un maximum de 3 charges, et toutes les charges sont retirées d'une unité qui quitte le champ de bataille. Chaque Protection empêche l'application de son effet respectif une fois, puis est retirée. Les Protections Identiques et les effets d'Endurance ne peuvent être empilés. L'Armure réduit de 50% les dégâts de la prochaine attaque, puis l'effet est retiré. L'Attaque d'une unité Enragée est multipliée par 1,5 jusqu'à la fin de son prochain tour. L'effet de statut d'Enragé remplacera tout effet d'Affaiblissement ou d'Enragé existant déjà sur l'utilisateur.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Geyser Glaçant",
+                "SkillDescription": "200% de dégâts à 2 ennemis, et 200% de plus par le nombre de fois que cette unité a vaincu un ennemi avec une attaque sur le champ de bataille (maximum de 800% de dégâts totaux après avoir vaincu 3 ennemis). Cette attaque ignore les effets de réduction de dégâts ennemis, tout effet d'ennemis non-boss qui empêcherait la cibles d'être vaincue, les compétences passives de Reflet, et l'effet de statut de Contre Relais.",
+                "TU": 100,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Tempête de Neige",
+                "SkillDescription": "500% de dégâts à tous les ennemis. 700% de dégâts à la place si l'utilisateur a survécu 100TU+ sur le champ de bataille. Cette attaque ignore tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue. Tous les ennemis touchés subissent l'Engelure.\n\nVerrouillé pendant 100TU après l'entrée de l'utilisateur sur le champ de bataille ou jusqu'à ce qu'un allié non-invoqué du champ de bataille soit vaincu ou sacrifié par une source quelconque. Utilisable une fois par bataille.\n\nLorsqu'une unité affectée par l'Engelure prend son tour, elle laissera son tour passer comme si elle était endormie, puis l'Engelure sera retirée et cette unité subira l'effet de statut de Brûlure. L'Engelure n'est pas un effet de statut, mais les effets qui retirent les effets de statut négatifs retireront aussi l'Engelure. L'Engelure prendra fin si l'unité affectée est vaincue ou quitte le champ de bataille. L'Engelure ne peut affecter les unités Boss, et ne peut être empilée. La Brûlure remplacera les autres effets de statut. Toute unité qui inflige des dégâts à une unité brûlée ou en subit des dégâts sera également brûlée.",
+                "TU": 100,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Tueur de Dragon",
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis, et soigneront cette unité de 100% des dégâts totaux infligés.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nJusqu'à ce que cette unité vainque un ennemi non-invoqué avec une attaque sur le champ de bataille :\n- Elle est immunisée contre les effets de statut de Sommeil.\n- Elle est immunisée contre les effets de statut de Poison.\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques.\n\nCette unité compte toujours comme étant Brûlée pour les compétences qui comptent ou affectent les unités brûlées. Cette unité ne peut pas gagner l'effet de statut de Brûlure. Toute unité non-endormie qui subit des dégâts de cette unité deviendra brûlée. Attaquer cette unité ne causera pas de la Brûlure."
+            },
+            {
+                "SkillTitle": "Légende de Retour",
+                "SkillDescription": "Cette unité entre en bataille avec 1 Charge, une Régénération de 10% de PV pendant 200TU, et Endurera les premiers dégâts qui la vaincraient avec 1PV. Une unité avec une Régénération de 10% PV sera soignée de 10% de ses PV max après chaque tour. Les effets de Régénération de PV remplaceront les effets de Régénération de PV existants.\n\nCette unité ne peut être étourdie s'il y a une unité sur le champ de bataille qui est d'élément Feu, ou qui possède Souffle de Feu ou une compétence active de type Pulsion Brûlure.\n\nToutes les compétences actives de cette unité coûtent 25% moins de TU par le nombre de Charges qu'elle a conservées, jusqu'à un maximum de 75% moins de TU avec 3 Charges. Les autres effets qui réduisent davantage les TU auront un rendement décroissant tant que ceci est en application.\n\nÀ la fin de chaque tour ennemi, si aucun ennemi ne possède l'Engelure au début de ce tour, un ennemi aléatoire non-endormi subira l'Engelure. Cet effet a 20% de chance d'être déclenché et 20% de plus par Éveil (jusqu'à 100% de chance si cette unité possède 4 Éveils) et ne peut être déclenché si Siegfried n'a pas d'autres alliés sur le champ de bataille."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Épée LV3",
+                "SkillDescription": "10% moins de dégâts des attaques des unités équipées d'une Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise Hache",
+                "SkillDescription": "Peut utiliser les talents d'arme des Haches en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hache"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hein ? La légendaire chasseuse de dragon...?\nJe me demande qui c'est ? Je n'en ai aucune idée\nAttends, tu sais déjà qui c'est...?\n\nOooh, allez... Je ne veux vraiment pas d'ennuis.\nOuais, ouais––Je suis cette chasseuse de dragon...\nSiegfried, à ton service."
+            ],
+            "Login": [
+                "Tu es là ! Très bien––Allons-y tout de suite !\nQue ce soit des jeux d'argent ou une aventure, un bon début est crucial ! C'est un de mes vieux proverbes de sagesse, tu sais."
+            ],
+            "Tap": [
+                "La chance d'aujourd'hui est exceptionnelle !? La déesse des jeux me chuchote à l'oreille ! Je mise tout pour le pari risqué ! Tapis ! Très bien, allons-y !",
+                "Ces enfants supportent vraiment toutes ces choses sucrées...\nDes encas séchés me conviennent. Oh, et je ne peux pas oublier l'alcool !",
+                "Se la couler douce est juste le bon rythme pour la vis.\nTout le monde devrait arrêter d'être si rigide et simplement vivre sa vie en étant un peu plus détendu, tu sais ?"
+            ],
+            "Idle": [
+                "De la chance avec la ligne de pêche ? Ahh... Ouais...\nTu devrais peut-être attendre un peu plus longtemps pour que ça morde à l'hameçon... Ouais, pas besoin de se presser."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills0": 0.5,
+                "IsCharged2": 1.2,
+                "IsCharged3": 1.2
+            },
+            "SkillUse": {
+                "Briseur d'Écailles": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.8,
+                        "AllEnemiesSleepImmune": 0.75,
+                        "3EnemySleepImmune": 0.75,
+                        "Kills0": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Éveil Glacial": {
+                    "BaseWeight": 2500
+                },
+                "Geyser Glaçant": {
+                    "BaseWeight": 1.5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "Kills0": 0.5,
+                        "Kills2": 1,
+                        "Kills3": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 1
+                    }
+                },
+                "Tempête de Neige": {
+                    "BaseWeight": 75,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas3Imposters": 0,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "EnemyTeamHas3ConjuredAllies": 0,
+                        "EnemyTeamHas3ConjuredAlliesAlt": 0,
+                        "IsPiercing": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA36": {
+                "RelationshipName": "Vertu Vagabonde",
+                "RelationshipFamily": [
+                    "SiegfriedRegular01",
+                    "ElmKouhaiRegular01",
+                    "MistDragon01",
+                    "FloatingMage01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }

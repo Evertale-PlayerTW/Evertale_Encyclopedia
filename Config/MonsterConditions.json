@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1764658437,
+    "Time": 1764818788,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -27920,6 +27920,21 @@
 			"myTeamMonsterConditionMatchesNeeded":{
 				"IsSourceOfPartyMode": 1
 			}
+		}
+	},
+	"Survived100TUOrActive4UnlockedSiegfriedRegular": {
+		"class": "MonsterConditions",
+		"timeInCombat": 100,
+		"or": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Active4UnlockedASiegfriedRegular"]
+		}
+	},
+	"IsNotSiegfriedMarked": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["SiegfriedRegularEnemyMarked"]
 		}
 	}
 }

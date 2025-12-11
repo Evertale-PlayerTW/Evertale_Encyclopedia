@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1764225457,
+  "Time": 1764568692,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15506,7 +15506,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "AltarKatana02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "AltarKatana02",
@@ -15526,7 +15527,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "AltarKatana03",
       "evolveFrom": "AltarKatana01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "AltarKatana03",
@@ -15545,6 +15547,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "AltarKatana02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "DragonSlayerSword01",
+      "family": "DragonSlayerSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4Burning2Allies"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 500,
+      "baseMaxHp": 2875,
+      "bundleNumber": 9,
+      "weaponPref": "Sword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "DragonSlayerSword02",
+      "cost": 11
+    },
+    {
+      "name": "DragonSlayerSword02",
+      "family": "DragonSlayerSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5Burning2Allies"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 608,
+      "baseMaxHp": 3460,
+      "bundleNumber": 9,
+      "weaponPref": "Sword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "DragonSlayerSword03",
+      "evolveFrom": "DragonSlayerSword01",
+      "cost": 17
+    },
+    {
+      "name": "DragonSlayerSword03",
+      "family": "DragonSlayerSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6Burning2Allies"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 650,
+      "baseMaxHp": 3750,
+      "bundleNumber": 9,
+      "weaponPref": "Sword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "DragonSlayerSword02",
       "cost": 23
     }
   ]

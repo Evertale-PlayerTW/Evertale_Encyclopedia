@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1764734665,
+	"Time": 1764818689,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -74798,6 +74798,260 @@
 			"damageType": "Poison",
 			"iconSpriteName": "IconPurplePoison01",
 			"applyConditions": "50PercentChance"
+		},
+		"AttackUp4Burning2Allies": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2AlliesBurning",
+				"scalor": 0.1
+				}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5Burning2Allies": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2AlliesBurning",
+				"scalor": 0.15
+				}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6Burning2Allies": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2AlliesBurning",
+				"scalor": 0.2
+				}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"DragonHeartPassiveASiegfriedRegular":{
+			"class": "Buff",
+			"stackName": "Burn",
+			"behaviors": ["EnterBattleBuff","Immunity","BuffChanceOnHit","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["ActiveSkillLocked","KnockbackImmunity","Charged1Icon","Charged2Icon","Charged3Icon","50PercentDamageReduction","SleepImmunitywithStackName","PoisonImmunitywithStackName"]
+			},{
+				"stackNamesToBlock": ["Burn"],
+				"dontShowText": true
+			},{
+				"contextBuffs": ["BurnAfterTurn"],
+				"chance": 1.0,
+				"targetCondition": "IsNotSleeping"
+			},{
+				"sourceBuffs": ["RemoveActiveSkillLocked","Remove50PercentDamageReduction","RemoveSleepImmunity","RemovePoisonImmunity","FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"selfBuffs": ["Active4UnlockedASiegfriedRegular"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
+			}],
+			"tags": ["Burn","SilentBurn","BurnImmune"],
+			"duration": -1,
+			"noIconShownOnBattleStatus": false,
+			"showAsPermanent": true,
+			"showAsTimer": true,
+			"iconSpriteName": "IconRedBurnPermanent01"
+		},
+		"FafnirsBanePassiveASiegfriedRegular": {
+			"class": "Buff",
+			"stackName": "FafnirsBanePassiveASiegfriedRegular",
+			"behaviors": ["EnterBattleBuff","StatOnly","StatOnly","StatOnly","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["CountDownActive4SiegfriedRegular","StoreEnergy","BlockDeathOnce","HPRegen10PercentMaxHPEndEveryTurnFor200TU","StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForce"]
+			},{
+				"conditions": "IsCharged1",
+				"flatStatBonuses": {
+					"Haste": -334
+				}
+			},{
+				"conditions": "IsCharged2",
+				"flatStatBonuses": {
+					"Haste": -665
+				}
+			},{
+				"conditions": "IsCharged3",
+				"flatStatBonuses": {
+					"Haste": -2000
+				}
+			},{
+				"selfBuffs": ["GiveFrostburnIfCorrectConditionsSiegfriedRegular0Awakenings","GiveFrostburnIfCorrectConditionsSiegfriedRegular1Awakening","GiveFrostburnIfCorrectConditionsSiegfriedRegular2Awakenings","GiveFrostburnIfCorrectConditionsSiegfriedRegular3Awakenings","GiveFrostburnIfCorrectConditionsSiegfriedRegular4Awakenings"],
+				"sameTeam": false,
+				"activeMonsterConditions": "NoFrostbittenAllies"
+				}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"CountDownActive4SiegfriedRegular": {
+			"class": "Buff",
+			"stackName": "CountDownActive4SiegfriedRegular",
+			"iconSpriteName": "IconBrownCountdownClock01",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": false,
+			"duration": 100
+		},
+		"GiveFrostburnIfCorrectConditionsSiegfriedRegular0Awakenings": {
+			"class": "Buff",
+			"stackName": "GiveFrostburnIfCorrectConditionsSiegfriedRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["FrostBiteCounter"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotSleepingEnemyIsNotAlone",
+				"activeMonsterConditions": "20PercentChance"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "HasNoAwakening"
+		},
+		"GiveFrostburnIfCorrectConditionsSiegfriedRegular1Awakening": {
+			"class": "Buff",
+			"stackName": "GiveFrostburnIfCorrectConditionsSiegfriedRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["FrostBiteCounter"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotSleepingEnemyIsNotAlone",
+				"activeMonsterConditions": "40PercentChance"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has1AwakeningExact"
+		},
+		"GiveFrostburnIfCorrectConditionsSiegfriedRegular2Awakenings": {
+			"class": "Buff",
+			"stackName": "GiveFrostburnIfCorrectConditionsSiegfriedRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["FrostBiteCounter"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotSleepingEnemyIsNotAlone",
+				"activeMonsterConditions": "60PercentChance"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has2AwakeningsExact"
+		},
+		"GiveFrostburnIfCorrectConditionsSiegfriedRegular3Awakenings": {
+			"class": "Buff",
+			"stackName": "GiveFrostburnIfCorrectConditionsSiegfriedRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["FrostBiteCounter"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotSleepingEnemyIsNotAlone",
+				"activeMonsterConditions": "80PercentChance"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has3AwakeningsExact"
+		},
+		"GiveFrostburnIfCorrectConditionsSiegfriedRegular4Awakenings": {
+			"class": "Buff",
+			"stackName": "GiveFrostburnIfCorrectConditionsSiegfriedRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["FrostBiteCounter"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotSleepingEnemyIsNotAlone",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has4Awakenings"
+		},
+		"Active4UnlockedASiegfriedRegular":{
+			"class": "Buff",
+			"stackName": "Active4UnlockedASiegfriedRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"MARKEDSingleAttackASiegfriedRegular":{
+			"class": "Buff",
+			"stackName": "SiegfriedRegularEnemyMarked",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"ForceSleep1RandomEnemySiegfriedEBB":{
+			"class": "Buff",
+			"stackName": "ForceSleep1RandomEnemySiegfriedEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["SleepForced100TU"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSiegfriedMarked"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"ForceSleep2RandomEnemiesSiegfriedEBB":{
+			"class": "Buff",
+			"stackName": "ForceSleep2RandomEnemiesSiegfriedEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["SleepForced100TU"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "IsNotSiegfriedMarked"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"ForceSleep3RandomEnemiesSiegfriedEBB":{
+			"class": "Buff",
+			"stackName": "ForceSleep3RandomEnemiesSiegfriedEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["SleepForced100TU"],
+				"numRandomToBuff": 3,
+				"spreadCondition": "IsNotSiegfriedMarked"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
 		}
 	}
 }
