@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1764568671,
+	"Time": 1765872898,
 	"AttackScalor": {
 		"TimeInCombat450":
 		{
@@ -41,6 +41,11 @@
 		{
 			"class":"AttackScalor",
 			"sourceCondition":"HPBelow25Percent"
+		},
+		"GoodVs400Tu":
+		{
+			"class":"AttackScalor",
+			"targetCondition":"CurrentTUGreaterThan400"
 		},
 		"GoodVs250Tu":
 		{

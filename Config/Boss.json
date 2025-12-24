@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1763686178,
+  "Time": 1766108546,
   "Monster": [
     {
       "name": "Mibone01",
@@ -23031,6 +23031,374 @@
       "speed": 509,
       "element": "Water",
       "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "ZeusRegularBoss01",
+      "class": "Monster",
+      "family": "ZeusRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAZeusRegularBoss",
+        "1": "AllyBuffAZeusRegularBoss",
+        "2": "ManyStunsAZeusRegularBoss",
+        "3": "SpecialAttackAZeusRegularBoss"
+      },
+      "passives": {
+        "0": "LightningPassiveAZeusRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1257,
+      "baseMaxHp": 20000,
+      "speed": 507,
+      "element": "Air",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "ZeusRegularBoss03",
+      "class": "Monster",
+      "family": "ZeusRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAZeusRegularBoss",
+        "1": "AllyBuffAZeusRegularBoss",
+        "2": "ManyStunsAZeusRegularBoss",
+        "3": "SpecialAttackAZeusRegularBoss"
+      },
+      "passives": {
+        "0": "LightningPassiveAZeusRegularBoss",
+        "1": "ChargedUpPassiveAZeusRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 2900,
+      "baseMaxHp": 222000,
+      "speed": 507,
+      "element": "Air",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "RizetteBraveBoss01",
+      "class": "Monster",
+      "family": "RizetteBraveBoss",
+      "activeSkills": {
+        "0": "SingleAttackARizetteBraveBoss",
+        "1": "HugeBuffARizetteBraveBoss",
+        "2": "SpecialAttackARizetteBraveBoss"
+      },
+      "passives": {
+        "0": "DualPassiveARizetteBraveBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 409,
+      "element": "Life",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "RizetteBraveBoss03",
+      "class": "Monster",
+      "family": "RizetteBraveBoss",
+      "activeSkills": {
+        "0": "SingleAttackARizetteBraveBoss",
+        "1": "HugeBuffARizetteBraveBoss",
+        "2": "SpecialAttackARizetteBraveBoss"
+      },
+      "passives": {
+        "0": "DualPassiveARizetteBraveBoss",
+        "1": "GodPassiveModeBuffZeusStryBoss",
+        "2": "StunImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 3500,
+      "baseMaxHp": 178000,
+      "speed": 409,
+      "element": "Life",
+      "weaponPref": "Sword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "VenusRegularBoss01",
+      "class": "Monster",
+      "family": "VenusRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAVenusRegularBoss",
+        "1": "WeakenAndStunBuffAVenusRegularBoss",
+        "2": "AllUnitBuffAVenusRegularBoss",
+        "3": "SpecialAllAttackAVenusRegularBoss"
+      },
+      "passives": {
+        "0": "LovingOthersPassiveAVenusRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 406,
+      "element": "Life",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "VenusRegularBoss03",
+      "class": "Monster",
+      "family": "VenusRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAVenusRegularBoss",
+        "1": "WeakenAndStunBuffAVenusRegularBoss",
+        "2": "AllUnitBuffAVenusRegularBoss",
+        "3": "SpecialAllAttackAVenusRegularBoss"
+      },
+      "passives": {
+        "0": "LovingOthersPassiveAVenusRegularBoss",
+        "1": "GodPassiveModeBuffZeusStryBoss"
+      },
+      "cost": 999,
+      "baseAttack": 3000,
+      "baseMaxHp": 178000,
+      "speed": 406,
+      "element": "Life",
+      "weaponPref": "Mace",
       "weaponPivotIndex": 0,
       "walkSound": "TestSound",
       "secure": 1,

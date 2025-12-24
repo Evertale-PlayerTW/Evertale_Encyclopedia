@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1764568503,
+  "Time": 1765873239,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27725,6 +27725,139 @@
       "tuCost": 100,
       "useLimit": 1,
       "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAZeusRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        5
+      ],
+      "config": "SingleAttackAZeusRegularBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllyBuffAZeusRegularBoss",
+      "class": "Ability",
+      "config": "AllyBuffAZeusRegularBoss",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "ManyStunsAZeusRegularBoss",
+      "class": "Ability",
+      "config": "ManyStunsAZeusRegularBoss",
+      "tuCost": 30,
+      "useLimit": 0,
+      "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAZeusRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        5,
+        8,
+        11
+      ],
+      "config": "SpecialAttackAZeusRegularBoss",
+      "tuCost": 90,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackARizetteBraveBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "config": "SingleAttackARizetteBraveBoss",
+      "tuCost": 80,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "HugeBuffARizetteBraveBoss",
+      "class": "Ability",
+      "config": "HugeBuffARizetteBraveBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackARizetteBraveBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3.5,
+        5,
+        6.5
+      ],
+      "config": "SpecialAttackARizetteBraveBoss",
+      "tuCost": 100,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAVenusRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 5,
+      "config": "SingleAttackAVenusRegularBoss",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "WeakenAndStunBuffAVenusRegularBoss",
+      "class": "Ability",
+      "config": "WeakenAndStunBuffAVenusRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllUnitBuffAVenusRegularBoss",
+      "class": "Ability",
+      "config": "AllUnitBuffAVenusRegularBoss",
+      "tuCost": 1,
+      "useLimit": 1,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAllAttackAVenusRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3,
+        4
+      ],
+      "config": "SpecialAllAttackAVenusRegularBoss",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritCost": 3,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }
