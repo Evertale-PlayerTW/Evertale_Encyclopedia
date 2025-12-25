@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1766108695,
+	"Time": 1766109070,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -75716,6 +75716,567 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
+		},
+		"AttackUp4TargetLowTUOrHighTU": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "CurrentTULessThan50OrGreaterThan150",
+				"scalor": 0.07
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5TargetLowTUOrHighTU": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "CurrentTULessThan50OrGreaterThan150",
+				"scalor": 0.1
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6TargetLowTUOrHighTU": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "CurrentTULessThan50OrGreaterThan150",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"LightningPassiveAZeusRegular": {
+			"class": "Buff",
+			"stackName": "LightningPassiveAZeusRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["StunImmunitywithStackName","SleepImmunitywithStackName","KnockbackImmunity","ZeusRegularActive2Lock","ZeusRegularActive4Lock","Active3TurnLockZeusRegular",
+					"EOTStunEnemiesZeusRegularPart1","GetTurnSkinA","StoreEnergy","StoreEnergy","StoreEnergy","Charged1Icon","Charged2Icon","Charged3Icon"]
+			},{
+				"sourceBuffs": ["RemoveZeusRegularActive2Lock","FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"enemyBuffs": ["Active1DisableIsReadyLV1"],
+				"activeMonsterConditions": "HasNoAwakening"
+			},{
+				"enemyBuffs": ["Active1DisableIsReadyLV2"],
+				"activeMonsterConditions": "Has1AwakeningExact"
+			},{
+				"enemyBuffs": ["Active1DisableIsReadyLV3"],
+				"activeMonsterConditions": "Has2AwakeningsExact"
+			},{
+				"enemyBuffs": ["Active1DisableIsReadyLV4"],
+				"activeMonsterConditions": "Has3AwakeningsExact"
+			},{
+				"enemyBuffs": ["Active1DisableIsReadyLV5"],
+				"activeMonsterConditions": "Has4Awakenings"	
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"duration": -1
+		},
+		"Active1DisableIsReadyLV1": {
+			"class": "Buff",
+			"stackName": "Active1DisableIsReady",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "20PercentChance"
+		},
+		"Active1DisableIsReadyLV2": {
+			"class": "Buff",
+			"stackName": "Active1DisableIsReady",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "40PercentChance"
+		},
+		"Active1DisableIsReadyLV3": {
+			"class": "Buff",
+			"stackName": "Active1DisableIsReady",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "60PercentChance"
+		},
+		"Active1DisableIsReadyLV4": {
+			"class": "Buff",
+			"stackName": "Active1DisableIsReady",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "80PercentChance"
+		},
+		"Active1DisableIsReadyLV5": {
+			"class": "Buff",
+			"stackName": "Active1DisableIsReady",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"Active3TurnLockZeusRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveAfterTurnsBehavior"],
+			"behaviorOverrides": [{
+				"turnCount": 3
+			}],
+			"stackName": "Active3TurnLockZeusRegular",
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"ChargedUpPassiveAZeusRegular": {
+			"class": "Buff",
+			"stackName": "ChargedUpPassiveAZeusRegular",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","StatOnly","StatOnly","StatOnly","StatOnly"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGround","BurnImmunityFor200TU"]
+			},{
+				"selfBuffs": ["30PercentHealMaxHP"],
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal50PercentZeusRegular"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{
+				"conditions": "1EnemyCurrentTULessThan50",
+				"scalorStatBonuses": {
+					"Attack": 0.25
+				}
+			},{
+				"conditions": "2EnemyCurrentTULessThan50",
+				"scalorStatBonuses": {
+					"Attack": 0.25
+				}
+			},{
+				"conditions": "3EnemyCurrentTULessThan50",
+				"scalorStatBonuses": {
+					"Attack": 0.25
+				}
+			},{
+				"conditions": "4EnemyCurrentTULessThan50",
+				"scalorStatBonuses": {
+					"Attack": 0.25
+				}		
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"duration": -1
+		},
+		"StunImmunityFor100TUIfNotStunAbsorber": {
+			"class": "Buff",
+			"stackName": "TempStunImmunity",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"]
+			}],
+			"duration": 100,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["StunImmune"],
+			"iconSpriteName": "IconRedStunInvalidLightning01",
+			"applyConditions": "NotStunAbsorber"
+		},
+		"BrideHeal50PercentZeusRegular": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp", "RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ZeusRegularActive1Lock":{
+			"class": "Buff",
+			"stackName": "ZeusRegularActive1Lock",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveZeusRegularActive1Lock":{
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "ZeusRegularActive1Lock"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ZeusRegularActive2Lock":{
+			"class": "Buff",
+			"stackName": "ZeusRegularActive2Lock",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveZeusRegularActive2Lock":{
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "ZeusRegularActive2Lock"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ZeusRegularActive4Lock":{
+			"class": "Buff",
+			"stackName": "ZeusRegularActive4Lock",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveZeusRegularActive4Lock":{
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "ZeusRegularActive4Lock"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"MARKEDSingleAttackAZeusRegular":{
+			"class": "Buff",
+			"stackName": "ZeusRegularEnemyMarked",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"ZeusRegularCooldown100":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"AttackUp4EnemyIsProtected": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "EnemyHas1Protecting",
+				"scalor": 0.07
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5EnemyIsProtected": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "EnemyHas1Protecting",
+				"scalor": 0.1
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6EnemyIsProtected": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "EnemyHas1Protecting",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"DefeatAnEnemyPassiveARizetteBrave": {
+			"class": "Buff",
+			"stackName": "DefeatAnEnemyPassiveARizetteBrave",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","StatOnly"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HasteUp30Percent","SleepImmunityOnce","PoisonImmunityOnce","StunImmunityOnce","InstantKillImmunityOnce"]
+			},{
+				"allAlliesButSelfBuffs": ["RandomAllyOfRizetteBrave"],
+				"spreadCondition": "IsNotSummonedOrBonding"	
+			},{
+				"randomAllyBuffs": ["HasteUp30Percent","SleepImmunityOnce","PoisonImmunityOnce","StunImmunityOnce","InstantKillImmunityOnce","BondingModeBuffRizetteBrave"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsRandomAllyOfRizetteBraveNotBonding"
+			},{
+				"selfBuffs": ["TriggerKillForceSleepRizetteBrave"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedRizetteBrave",
+				"deadMonsterConditions": "IsFireOrLife"
+			},{
+				"selfBuffs": ["TriggerKillLethalPoisonRizetteBrave"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedRizetteBrave",
+				"deadMonsterConditions": "IsAirOrEarth"
+			},{
+				"selfBuffs": ["TriggerKillStun200RizetteBrave"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedRizetteBrave",
+				"deadMonsterConditions": "IsDeathOrWater"
+			},{
+				"selfBuffs": ["HealHalf"],
+				"sameTeam": true,
+				"activeMonsterConditions": "IsRizetteBonding"
+			},{
+				"conditions": "NotEnraged",
+				"scalorStatBonuses": {
+					"Attack": 0.25
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"tags": ["ActiveBonding","RizetteBond"],
+			"isHiddenFromPlayers": true
+		},
+		"DualBondPassiveARizetteBrave":{
+			"class": "Buff",
+			"stackName": "DualBondPassiveARizetteBrave",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","ModifyDamage","ModifyDamage","BuffOnMonsterTurnEnd","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HoldGround","KnockbackImmunity","StunImmunitywithStackName","SleepImmunitywithStackName"]
+			},{
+				"sourceBuffs": ["RemoveStunImmunity","RemoveSleepImmunity"],
+				"spreadCondition": "2AlliesIsNotRizetteBonding",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"sourceBuffs": ["StoreEnergyHidden"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"percent": 0.2,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "TimeInCombatNot100"
+			},{
+				"percent": 0.6,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "TimeInCombat100"
+			},{
+				"selfBuffs": ["RemoveBuffs"],
+				"sameTeam": true,
+				"activeMonsterConditions": "IsRizetteBonding"
+			},{
+				"randomAllyBuffs": ["ReadyForBondingRizetteBraveActive2"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSummonedOrBonding"	
+			}],
+			"duration": -1,
+			"tags": ["BigDamageMinus"],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"ReadyForBondingRizetteBraveActive2":{
+			"class": "Buff",
+			"stackName": "ReadyForBondingRizetteBrave",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"Bondwith1RandomValidAllyPlusExtrasEBB":{
+			"class": "Buff",
+			"stackName": "Bondwith1RandomValidAllyPlusExtrasEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["HasteUp30Percent","HealFull","SleepImmunityOnce","PoisonImmunityOnce","StunImmunityOnce","InstantKillImmunityOnce","BondingModeBuffRizetteBrave"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsReadyForBondingRizetteBraveActive2"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"FudgeUsedRizetteBrave": {
+			"class": "Buff",
+			"duration": 0,
+			"behaviors": ["AddBattleProperty"],
+			"behaviorOverrides": [{
+				"properties": {
+					"fudgeSkillUsesRizetteBrave": 1
+				},
+				"replace": true,
+				"setToKills": true
+			}],
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"TriggerKillForceSleepRizetteBrave": {
+			"class": "Buff",
+			"isHiddenFromPlayers": true,
+			"behaviors": ["BuffOnMonsterTurnEnd", "BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["SleepForced100TU"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "IsNotSleeping"
+			},{
+				"selfBuffs": ["FudgeUsedRizetteBrave"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"TriggerKillLethalPoisonRizetteBrave": {
+			"class": "Buff",
+			"isHiddenFromPlayers": true,
+			"behaviors": ["BuffOnMonsterTurnEnd", "BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["GenericMegaPoisonFX", "LethalPoison"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "IsNotBurning"
+			},{
+				"selfBuffs": ["FudgeUsedRizetteBrave"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"TriggerKillStun200RizetteBrave": {
+			"class": "Buff",
+			"isHiddenFromPlayers": true,
+			"behaviors": ["BuffOnMonsterTurnEnd", "BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["Stun100"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "CurrentTULessThan100"
+			},{
+				"selfBuffs": ["FudgeUsedRizetteBrave"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"BondingModeBuffRizetteBrave": {
+			"class": "Buff",
+			"stackName": "FriendshipBond",
+			"behaviors": ["BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","StatOnly","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["TriggerKillForceSleepRizetteBrave"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedRizetteBrave",
+				"deadMonsterConditions": "IsFireOrLife"
+			},{
+				"selfBuffs": ["TriggerKillLethalPoisonRizetteBrave"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedRizetteBrave",
+				"deadMonsterConditions": "IsAirOrEarth"
+			},{
+				"selfBuffs": ["TriggerKillStun200RizetteBrave"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedRizetteBrave",
+				"deadMonsterConditions": "IsDeathOrWater"
+			},{
+				"selfBuffs": ["HealHalf"],
+				"sameTeam": true,
+				"activeMonsterConditions": "IsRizetteBonding"
+			},{
+				"conditions": "NotEnraged",
+				"scalorStatBonuses": {
+					"Attack": 0.25
+				}
+			},{}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"tags": ["ActiveBonding","RizetteBond"],
+			"statusEffect": "RizetteBravePassive",
+			"iconSpriteName": "IconWhiteLinked01",
+			"applyConditions": "IsNotFriendshipBond"
+		},
+		"RandomAllyOfRizetteBrave":{
+			"class": "Buff",
+			"stackName": "RandomAllyOfRizetteBrave",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"Gain2SpiritForEachBondingAllyOnBattlefieldEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allyBuffs": ["SpiritGainB"],
+				"selfBuffs": ["SpiritGainB"],
+				"spreadCondition": "IsRizetteBonding"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GiveBondingAlliesExtraTurnRizetteBrave": {
+			"class": "Buff",
+			"stackName": "GiveBondingAlliesExtraTurnRizetteBrave",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allAlliesButSelfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"spreadCondition": "IsRizetteBonding"
+			},{
+				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"RizetteBraveCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
 		}
 	}
 }

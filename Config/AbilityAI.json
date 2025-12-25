@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1765872689,
+  "Time": 1765932472,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -28013,6 +28013,135 @@
 					"aiTargetingMonsterConditions": {
 						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
 				}
+    },
+    "SingleAttackAZeusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"globalScalorsToIgnore": ["HasSkin"],
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+						"IsPloyed": 0.70,
+						"IsStealth": 1.0,
+						"On1HPNotProtected": 2.5,
+						"On1HPIsProtecting": 2.5,
+						"HPBelow50Percent": 1.0,
+						"IsProtector": 0.5,
+						"IsProtecting": 0.5,
+						"IsProtectingAndNotAlone": 0.5,
+						"IsNotZeusMarked": 1.01,
+						"IsStunImmuneNotZeusMarked": 2.0,
+						"IsStunImmunityOnceNotZeusMarked": 1.5
+					}
+    },
+    "AllyBuffAZeusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 60.0,
+					"aiTargetingSourceMonsterConditions":{
+							"IsNotAlone": 100
+					}
+    },
+    "ManyStunsAZeusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 50.0,
+					"aiTargetingSourceMonsterConditions":{
+							"AllEnemiesStunImmune": 0,
+							"AllEnemiesStunImmuneAlt": 0,
+							"3EnemiesStunImmune": 0,
+							"3EnemiesStunImmuneAlt": 0,
+							"2EnemyLeftAndStunImmune": 0.0,
+							"1EnemyLeftAndStunImmune": 0.1,
+							"1EnemyLeftAndCurrentTULessThan50": 1.0,
+							"EnemyHasStunAbsorberWith100TUOrMore": 0,
+							"EnemyHasStunAbsorberWith200TUOrMore": 0,
+							"EnemyHasStunAbsorberWith300TUOrMore": 0
+					}
+    },
+    "SpecialAttackAZeusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2.0,
+					"globalScalorsToIgnore": ["HasSkin"],
+							"aiTargetingMonsterConditions":{
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"HPAbove75Percent": 0.95,
+							"HPBelow50Percent": 1.1,
+							"HPBelow5Percent": 1.25,
+							"On1HP": 2.0,
+							"IsOdinRaven": 0.1,
+							"IsImposter": 0.25,
+							"IsMirage": 0.75,
+							"IsBadFriend": 0.1,
+							"RarityLessThan3": 0.8,
+							"IsStealth": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"CurrentTUGreaterThan100": 1.01,
+							"CurrentTUGreaterThan200": 1.25,
+							"CurrentTUGreaterThan400": 1.5
+					}
+    },
+    "SingleAttackARizetteBrave_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"NotCharged": 1.0,
+						"JustGrantedTurn": 0.001,
+						"IsNotJustGrantedTurn": 5
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 1.01,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.5,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.89,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow25Percent": 1.0,
+						"HPBelow50Percent": 1.0,
+						"HPFull": 0.89,
+						"IsProtected": 0.5
+					}
+    },
+    "BondingBuffARizetteBrave_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 750.0
+    },
+    "HugeBuffARizetteBrave_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 150
+    },
+    "SpecialAttackARizetteBrave_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"Kills1": 1,
+						"Kills2": 2,
+						"JustGrantedTurn": 1.0,
+						"IsNotJustGrantedTurn": 0.25
+   			 },
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 1.0,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.89,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow25Percent": 1.0,
+						"HPBelow50Percent": 1.0,
+						"HPFull": 0.89,
+						"IsProtected": 0.5
+					}
     }
 }
 }

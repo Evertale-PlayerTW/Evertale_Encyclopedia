@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1765872689,
+    "Time": 1766050399,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -28177,6 +28177,120 @@
 				"elements": ["Water"]
 			}
 		}
+	},
+	"CurrentTULessThan50OrGreaterThan150": {
+		"class": "MonsterConditions",
+		"currentTULessThan": 50,
+		"or": {
+			"class": "MonsterConditions",
+			"currentTUGreaterThan": 150
+		}
+	},
+	"1EnemyCurrentTULessThan50": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"CurrentTULessThan50": 1
+		}
+	},
+	"2EnemyCurrentTULessThan50": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"CurrentTULessThan50": 2
+		}
+	},
+	"3EnemyCurrentTULessThan50": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"CurrentTULessThan50": 3
+		}
+	},
+	"4EnemyCurrentTULessThan50": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"CurrentTULessThan50": 4
+		}
+	},
+	"ZeusHad3TurnsOnTheBattlefield": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Active3TurnLockZeusRegular"]
+		}
+	},
+	"IsBonding": {
+		"class": "MonsterConditions",
+		"monsterTags": ["ActiveBonding"]
+	},
+	"IsRizetteBonding": {
+		"class": "MonsterConditions",
+		"monsterTags": ["RizetteBond"]
+	},
+	"IsNotFriendshipBond": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["FriendshipBond"]
+		}
+	},
+	"IsReadyForBondingRizetteBraveActive2": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["ReadyForBondingRizetteBrave"]
+	},
+	"2AlliesIsRizetteBonding": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsRizetteBonding": 2
+		}
+	},
+	"2AlliesIsNotRizetteBonding":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsRizetteBonding": 2
+			}
+		}
+	},
+	"1AllyIsReadyForBondingAnd2AlliesNotRizetteBonding":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsNotSummonedOrBonding": 1
+		},
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsRizetteBonding": 2
+			}
+		}
+	},
+	"IsRandomAllyOfRizetteBraveNotBonding": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["RandomAllyOfRizetteBrave"],
+		"not": {
+			"class": "MonsterConditions",
+			"monsterTags": ["ActiveBonding"]
+		}
+	},
+	"IsNotSummonedOrBonding": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"summoned": true,
+			"or":{
+				"class": "MonsterConditions",
+				"monsterTags": ["ActiveBonding"]
+			}
+		}
+	},
+	"KillsMoreThanSkillUsedRizetteBrave": {
+		"class": "MonsterConditions",
+		"propertyToCompareToField": "fudgeSkillUsesRizetteBrave",
+		"fieldToCompareToProperty": "killsMade",
+		"propertyFieldCompareStyle": "LessThan"
 	}
 }
 }

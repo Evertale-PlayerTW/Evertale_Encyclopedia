@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1764568659,
+  "Time": 1765904173,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6656,6 +6656,66 @@
       "name": "SiegfriedRegular02",
       "condition": "IsCharged3",
       "value": 1.2
+    },
+    {
+      "name": "ZeusRegular01",
+      "condition": "ZeusHad3TurnsOnTheBattlefield",
+      "value": 1.1
+    },
+    {
+      "name": "ZeusRegular01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan100",
+      "value": 1.01
+    },
+    {
+      "name": "ZeusRegular01",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.1
+    },
+    {
+      "name": "ZeusRegular02",
+      "condition": "ZeusHad3TurnsOnTheBattlefield",
+      "value": 1.1
+    },
+    {
+      "name": "ZeusRegular02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan100",
+      "value": 1.01
+    },
+    {
+      "name": "ZeusRegular02",
+      "condition": "EnemyTeamHasCurrentTUGreaterThan150",
+      "value": 1.1
+    },
+    {
+      "name": "RizetteBrave01",
+      "condition": "2AlliesIsRizetteBonding",
+      "value": 1.05
+    },
+    {
+      "name": "RizetteBrave01",
+      "condition": "Kills1",
+      "value": 1.05
+    },
+    {
+      "name": "RizetteBrave01",
+      "condition": "IsCharged2",
+      "value": 1.1
+    },
+    {
+      "name": "RizetteBrave02",
+      "condition": "2AlliesIsRizetteBonding",
+      "value": 1.05
+    },
+    {
+      "name": "RizetteBrave02",
+      "condition": "Kills1",
+      "value": 1.05
+    },
+    {
+      "name": "RizetteBrave02",
+      "condition": "IsCharged2",
+      "value": 1.1
     }
   ]
 }

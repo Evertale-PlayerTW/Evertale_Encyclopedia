@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1765873239,
+  "Time": 1765933177,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27858,6 +27858,103 @@
       "tuCost": 70,
       "useLimit": 0,
       "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAZeusRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        5
+      ],
+      "config": "SingleAttackAZeusRegular",
+      "tuCost": 30,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllyBuffAZeusRegular",
+      "class": "Ability",
+      "config": "AllyBuffAZeusRegular",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "ManyStunsAZeusRegular",
+      "class": "Ability",
+      "config": "ManyStunsAZeusRegular",
+      "tuCost": 30,
+      "useLimit": 0,
+      "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAZeusRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        5,
+        8,
+        11
+      ],
+      "config": "SpecialAttackAZeusRegular",
+      "tuCost": 90,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackARizetteBrave",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "config": "SingleAttackARizetteBrave",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BondingBuffARizetteBrave",
+      "class": "Ability",
+      "config": "BondingBuffARizetteBrave",
+      "tuCost": 1,
+      "useLimit": 3,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "HugeBuffARizetteBrave",
+      "class": "Ability",
+      "config": "HugeBuffARizetteBrave",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackARizetteBrave",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3.5,
+        5,
+        6.5
+      ],
+      "config": "SpecialAttackARizetteBrave",
+      "tuCost": 100,
+      "useLimit": 0,
+      "spiritCost": 1,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

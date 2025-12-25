@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1764568692,
+  "Time": 1765933118,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15567,7 +15567,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "DragonSlayerSword02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "DragonSlayerSword02",
@@ -15587,7 +15588,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "DragonSlayerSword03",
       "evolveFrom": "DragonSlayerSword01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "DragonSlayerSword03",
@@ -15606,6 +15608,123 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "DragonSlayerSword02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "ZeusLightningGreatAxe01",
+      "family": "ZeusLightningGreatAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4TargetLowTUOrHighTU"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 508,
+      "baseMaxHp": 2835,
+      "bundleNumber": 9,
+      "weaponPref": "GreatAxe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ZeusLightningGreatAxe02",
+      "cost": 11
+    },
+    {
+      "name": "ZeusLightningGreatAxe02",
+      "family": "ZeusLightningGreatAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5TargetLowTUOrHighTU"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 623,
+      "baseMaxHp": 3385,
+      "bundleNumber": 9,
+      "weaponPref": "GreatAxe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ZeusLightningGreatAxe03",
+      "evolveFrom": "ZeusLightningGreatAxe01",
+      "cost": 17
+    },
+    {
+      "name": "ZeusLightningGreatAxe03",
+      "family": "ZeusLightningGreatAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6TargetLowTUOrHighTU"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 674,
+      "baseMaxHp": 3630,
+      "bundleNumber": 9,
+      "weaponPref": "GreatAxe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "ZeusLightningGreatAxe02",
+      "cost": 23
+    },
+    {
+      "name": "BlueDragonSword01",
+      "family": "BlueDragonSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4EnemyIsProtected"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 481,
+      "baseMaxHp": 2970,
+      "bundleNumber": 9,
+      "weaponPref": "Sword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "BlueDragonSword02",
+      "cost": 11
+    },
+    {
+      "name": "BlueDragonSword02",
+      "family": "BlueDragonSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5EnemyIsProtected"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 599,
+      "baseMaxHp": 3505,
+      "bundleNumber": 9,
+      "weaponPref": "Sword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "BlueDragonSword03",
+      "evolveFrom": "BlueDragonSword01",
+      "cost": 17
+    },
+    {
+      "name": "BlueDragonSword03",
+      "family": "BlueDragonSword",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6EnemyIsProtected"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 656,
+      "baseMaxHp": 3720,
+      "bundleNumber": 9,
+      "weaponPref": "Sword",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "BlueDragonSword02",
       "cost": 23
     }
   ]

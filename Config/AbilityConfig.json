@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1766107079,
+	"Time": 1766109063,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -42456,6 +42456,223 @@
 			"conditionedAbilityEffects": ["VenusSpecial", "VenusSpecial", "VenusSpecial"],
 			"recommendEffectWhenUsable": -1,
 			"useCondition": "NotInstantCooldown"
+		},
+		"SingleAttackAZeusRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["TimestrikeDamageBoost"],
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["NoTurnsFor50TUZeusReady","MARKEDSingleAttackAZeusRegular"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "IsNotZeusRegularMarked",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true
+			},{
+				"buffs":["ZeusRegularActive1Lock","RemoveZeusRegularActive4Lock"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ZeusAttack",
+			"flags": ["Timestrike"],
+			"attackScalors": ["GoodVs100Tu"],
+			"conditionedAbilityEffects": ["ZeusAttack","ZeusAttack"],
+			"recommendEffectWhenUsable": -2,
+			"useCondition": "IsNotZeusRegularActive1Lock"
+		},
+		"AllyBuffAZeusRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Empty"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs":["RemoveStunImmunity","RemoveSleepImmunity","ZeusRegularActive2Lock","EOTStunEnemiesZeusRegularPart1","StoreEnergy","StoreEnergy","StoreEnergy"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			},{
+				"buffs": ["Armor","SleepImmunityFor100TU","StunImmunityFor100TUIfNotStunAbsorber"],
+				"applyToTargetType": "Friendly",
+				"applyConditions": "IsNotFireOrWaterElement",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true
+			},{
+				"buffs":["TUMinus50","Heal1000Percent"],
+				"applyToTargetType": "Friendly",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["Healer"],
+			"abilityEffect": "ZeusSun",
+			"useCondition": "IsNotZeusRegularActive2Lock"
+		},
+		"ManyStunsAZeusRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["Stun1RandomEnemyFor100TUEBB","Stun1RandomEnemyFor200TUEBB","Stun1RandomEnemyFor300TUEBB","GrantBlockTurnTo1EnemyOnOrBelow50TUEBB","ZeusRegularCooldown100"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"sourceEventType": "Finish",
+			"enemyEventType": "Finish",
+			"hideTargetingInfo": true,
+			"abilityEffect": "ZeusHolyLightning",
+			"flags": ["StunChance","NoDamage"],
+			"useCondition": "NotInstantCooldownAndNotTurnZeusLocked"
+		},
+		"SpecialAttackAZeusRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["TimestrikeDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath","IgnoreSkin"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs":["RemoveZeusRegularActive1Lock","ZeusRegularActive4Lock"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ZeusSpeciail",
+			"flags": ["Timestrike"],
+			"attackScalors": ["GoodVs100Tu","GoodVs200Tu","GoodVs400Tu"],
+			"conditionedAbilityEffects": ["ZeusSpeciail","ZeusSpeciail","ZeusSpeciail"],
+			"recommendEffectWhenUsable": -2,
+			"useCondition": "IsNotZeusRegularActive4Lock"
+		},
+		"SingleAttackARizetteBrave": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides":[{
+				"damageFlags": ["DoNotWake","IgnoreSkin","IgnoreArmor","HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["GiveBondingAlliesExtraTurnRizetteBrave"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"applyConditions": "IsNotJustGrantedTurn"	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "RizetteBraveAttack1",
+			"recommendEffectWhenUsable": -1
+		},
+		"BondingBuffARizetteBrave": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Friendly",
+				"applyConditions": "IsReadyForBondingRizetteBraveActive2",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["Bondwith1RandomValidAllyPlusExtrasEBB","HealFull","HasteUp30Percent","SleepImmunityOnce","PoisonImmunityOnce","StunImmunityOnce","InstantKillImmunityOnce"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"sourceEventType": "Finish",
+			"friendlyEventType": "Finish",
+			"hideTargetingInfo": true,
+			"abilityEffect": "RizetteBraveBonding",
+			"flags": ["Healer"],
+			"useCondition": "1AllyIsReadyForBondingAnd2AlliesNotRizetteBonding"
+		},
+		"HugeBuffARizetteBrave": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["EnemyIsFireBuffRizetteBrave"],
+				"applyConditions": "1EnemyIsFire",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["EnemyIsWaterBuffRizetteBrave"],
+				"applyConditions": "AtLeast1WaterEnemy",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["EnemyIsEarthBuffRizetteBrave"],
+				"applyConditions": "1EnemyIsEarth",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["EnemyIsAirBuffRizetteBrave","2EnemiesIsAirBuffRizetteBrave","3EnemiesIsAirBuffRizetteBrave","4EnemiesIsAirBuffRizetteBrave"],
+				"applyConditions": "1EnemyIsAir",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["EnemyIsDeathBuffRizetteBrave"],
+				"applyConditions": "1EnemyIsDeath",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["EnemyIsLightBuffRizetteBrave"],
+				"applyConditions": "1EnemyIsLife",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["HealAllAllies800PercentOfAttackEBB","RizetteBraveCooldown50","Gain2SpiritForEachBondingAllyOnBattlefieldEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "RizetteBraveFriendInNeed",
+			"flags": ["Healer","StealthWorthy","NoDamage"],
+			"useCondition": "NotInstantCooldown"
+		},
+		"SpecialAttackARizetteBrave": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["DoNotWake","IgnoreSkin","IgnoreArmor","HardIgnoreBlockDeath"],
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			}],
+			"enemyEventType": "Hit",
+			"abilityEffect": "RizetteBraveSpecial",
+			"attackScalors":["GoodIfCharged1","GoodIfCharged2","GoodIfCharged3"],
+			"conditionedAbilityEffects": ["RizetteBraveSpecial","RizetteBraveSpecial","RizetteBraveSpecial"],
+			"recommendEffectWhenUsable": -1
 		}
 	}
 }
