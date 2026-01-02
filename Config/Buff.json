@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1766109070,
+	"Time": 1767332122,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -76037,7 +76037,7 @@
 		"DefeatAnEnemyPassiveARizetteBrave": {
 			"class": "Buff",
 			"stackName": "DefeatAnEnemyPassiveARizetteBrave",
-			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","StatOnly"],
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","EnterBattleBuff"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["HasteUp30Percent","SleepImmunityOnce","PoisonImmunityOnce","StunImmunityOnce","InstantKillImmunityOnce"]
 			},{
@@ -76067,6 +76067,18 @@
 				"sameTeam": true,
 				"activeMonsterConditions": "IsRizetteBonding"
 			},{
+				"selfBuffs": ["NotEnragedBuffRizetteBrave"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"tags": ["ActiveBonding","RizetteBond"],
+			"isHiddenFromPlayers": true
+		},
+		"NotEnragedBuffRizetteBrave":{
+			"class": "Buff",
+			"behaviors": ["StatOnly"],	
+			"behaviorOverrides":[{
 				"conditions": "NotEnraged",
 				"scalorStatBonuses": {
 					"Attack": 0.25
@@ -76075,7 +76087,6 @@
 			"duration": -1,
 			"showAsTimer": false,
 			"showAsPermanent": false,
-			"tags": ["ActiveBonding","RizetteBond"],
 			"isHiddenFromPlayers": true
 		},
 		"DualBondPassiveARizetteBrave":{
