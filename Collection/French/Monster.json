@@ -125987,5 +125987,364 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "VenusRegular01": {
+        "Name": "Vénus",
+        "Name2": "Déesse de l'amour",
+        "FullName": "Vénus - Déesse de l'amour",
+        "Profile": "Vénus, la déesse de l'amour. Sa beauté et sa grâce maternelle lui permit d'acquérir le dévouement d'à la fois les dieux et les humains. Mais elle est emprisonnée depuis longtemps dans une prison souterraine gouvernée par le dieu de le mort. Son crime––Avoir tué un dieu.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 28,
+        "Atk_Base": 1053,
+        "Hp_Base": 5945,
+        "Speed": 406,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Je t'aimerai...\nJusqu'à ce que tu fondes.",
+        "LeaderSkill": {
+            "SkillTitle": "Lumière ATT & PV+",
+            "SkillDescription": "Les alliés Lumière voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Frappe Sincère",
+                "SkillDescription": "600% de dégâts à 1 ennemi. 100% de dégâts en moins par chaque allié endormi, brûlé ou empoisonné sur le champ de bataille (maximum de 400% en moins s'il y a 4 alliés affectés). Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre Relais. Soigne l'utilisateur d'une valeur de 100% des dégâts totaux infligés. Les dégâts de cette attaque ne réveilleront pas les ennemis endormis.\n\nLa cible touchée sera ensuite Affaiblie, et gagnera une Protection Rage. Ceci remplacera tout effet d'Affaiblissement ou d'Enragé sur cette unité.\n\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leur prochain tour. L'effet d'Affaiblissement peut être diminué si l'Attaque de l'unité affectée est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé. Les Protections Rage empêcheront une unité de devenir Enragée une fois, puis sera retiré. Les Protections Rage ne peuvent être empilées.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Charme de Déesse",
+                "SkillDescription": "Retire la Furtivité, les Protections Poison, les Protections Sommeil et les Protections Étourdissement de tous les ennemis du champ de bataille.\n\nPuis tous les ennemis du champ de bataille ont chacun une chance de 50% d'être Charmés pendant 50TU. L'Attaque d'une unité Charmée est considérablement réduite (p. ex. réduite de la moitié de son Attaque d'origine pour une unité n'ayant pas d'autre modificateur d'Attaque. L'effet de Charmé peut être réduit si l'Attaque de l'unité affectée est augmentée par d'autres effets.). Charmé remplace les effets d'Enragé et d'Affaiblissement, et les unités qui sont Charmées ne peuvent être Enragées ou Affaiblies. Les unités Charmées sont moins susceptibles de cibler l'unité qui les a Charmés possédant les plus de compétences actives. Charmé n'est pas un effet de statut et ne peut être retiré par les compétences de Purification, mais prendra fin si l'unité Charmée qui le champ de bataille.\n\nCette compétence ne peut être utilisée si un ennemi est déjà Charmé ou si l'utilisateur est seul sur le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Amour Débordant",
+                "SkillDescription": "Soigne tous les alliés du champ de bataille d'une valeur de 1500% de l'Attaque de l'utilisateur. Retire le Sommeil, la Brûlure et le Poison (y compris le Sommeil Profond, la Méga Brûlure Soin et le Poison Létal) de tous les alliés. L'utilisateur est immunisé contre chaque type d'effet de statut qui lui est retiré pendant 50TU.\n\nPuis tous les alliés sont Purifiés (tout effet de statut négatif est retiré).\n\nUtilisable si un allié du champ de bataille est brûlé, endormi ou empoisonné. Cette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Baiser Divin",
+                "SkillDescription": "300% de dégâts à 2 ennemis, et 100% de plus tous les 100TU durant lesquels l'utilisateur a survécu sur le champ de bataille (maximum de 800% après 500TU). Cette attaque ignore les effets de réduction de dégâts ennemis, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Reflet, et l'effet de statut de Contre Relais.\n\nLorsque cette attaque touche une cible Charmée, non-boss, non-Éphémère et que cette cible a 10% voire moins de ses PV max après avoir subit des dégâts, cette unité est immédiatement vaincue (l'utilisateur est considéré avoir vaincu la cible avec une attaque s'il y parvient). Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou tout effet de compétences actives qui empêcherait l'ennemi d'être vaincu.\n\nCette compétence se verrouille pendant 100TU après son utilisation.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Déesse de l'Amour",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité bénéficie d'une réduction de 50% des dégâts provenant d'attaques, et 10% de plus par le nombre d'alliés du champ de bataille autre que l'utilisateur (jusqu'à un maximum de 80%).\n\nJusqu'à la fin du premier tour de cette unité sur le champ de bataille, elle bénéficie d'une Immunité Sommeil, d'une Immunité Étourdissement, d'une Immunité Poison et d'une Immunité Brûlure.\n\nCette unité aura 60% de chance, et 10% de plus par Éveil (jusqu'à 100% de chance si cette unité possède 4 Éveils) d'être Purifiée, et d'avoir ses TU réduits à 0 à la fin de chaque tour, à chaque fois qu'un ennemi Charmé prend son tour. Cet effet ne peut être déclenché à nouveau pendant 50TU s'il est déclenché 3 fois en 50TU.\n\nCette unité ne peut être Charmée."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. G.Hache LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités équipées d'une Grande Hache."
+            },
+            {
+                "SkillTitle": "Maîtrise Bâton",
+                "SkillDescription": "Peut utiliser les talents d'arme des Bâtons en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Bâton"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Héhé, enchantée!\nJe m'appelle Vénus, mais tu peux m'appeler Vé !\nEnchantée !\n\nJe suis la déesse qui règne sur l'amour.\nDonc je t'aimerai, toi aussi...\nJusque dans la moelle des os"
+            ],
+            "Login": [
+                "Je t'attends depuis tellement longtemps, tu sais ~ \nHé, arrêtons-nous quelque part pour faire une pause avant de partir ! Allons-y doucement ensemble ♡"
+            ],
+            "Tap": [
+                "Hein ? Tu te demandes si je peux me permettre de manger autant de sucreries ?\nTu t'inquiètes à propos du prix ? Dans ce cas-là, rassure-toi. Le patron d'ici et moi sommes de bons amis ~ ♡",
+                "Tu sais, je suis aussi la déesse de la beauté.\nDonc lorsque je vois une fille mignonne, je ne peux pas m'empêcher d'avoir envie de la rendre encore plus mignonne !",
+                "Pffff... Est-ce un gâteau aux légumes...?\nBeeeurk, je n'aime pas les légumes... C'est amer...\nMais ce gâteau n'est pas amer. En fait... Il est vraiment bon !"
+            ],
+            "Idle": [
+                "Mmm, je m'ennuis tellement... Peut-être que je devrais taquiner quelqu'un pendant un petit moment...\nOu peut-être que je vais me trouver quelqu'un et m'amuser un peu à la place...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Frappe Sincère": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Charme de Déesse": {
+                    "BaseWeight": 2000
+                },
+                "Amour Débordant": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Baiser Divin": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        }
+    },
+    "VenusRegular02": {
+        "Name": "Vénus",
+        "Name2": "Déesse de l'amour",
+        "FullName": "Vénus - Déesse de l'amour",
+        "Profile": "Cependant, on dit qu'un dieu rendu fou par son amour envers elle fut dévoré par la jalousie et essaya de la tuer; Mais il fut abattu à la place... Autrement dit, ce n'était qu'un acte de légitime défense. Et pourtant, à chaque fois que quelqu'un l'interroge à propos de la vérité des faits, elle ne fait que répondre avec un sourire mystérieux.",
+        "Profile_Ascended": "Et ainsi, le peuple, ayant échappé à la destruction causée par un dieu étranger, resta méfiant de la déesse à présent libérée. Est-elle véritablement une alliée...? Et pourtant, au fil du temps, ils ouvrirent à nouveau leurs coeurs pour elle––Pour la profondeur de son regard, bien que personne ne fut véritablement au courant de ses intentions.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 34,
+        "Atk_Base": 1344,
+        "Hp_Base": 7700,
+        "Speed": 406,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Lumière ATT & PV+",
+            "SkillDescription": "Les alliés Lumière voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Frappe Sincère",
+                "SkillDescription": "600% de dégâts à 1 ennemi. 100% de dégâts en moins par chaque allié endormi, brûlé ou empoisonné sur le champ de bataille (maximum de 400% en moins s'il y a 4 alliés affectés). Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre Relais. Soigne l'utilisateur d'une valeur de 100% des dégâts totaux infligés. Les dégâts de cette attaque ne réveilleront pas les ennemis endormis.\n\nLa cible touchée sera ensuite Affaiblie, et gagnera une Protection Rage. Ceci remplacera tout effet d'Affaiblissement ou d'Enragé sur cette unité.\n\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leur prochain tour. L'effet d'Affaiblissement peut être diminué si l'Attaque de l'unité affectée est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé. Les Protections Rage empêcheront une unité de devenir Enragée une fois, puis sera retiré. Les Protections Rage ne peuvent être empilées.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Charme de Déesse",
+                "SkillDescription": "Retire la Furtivité, les Protections Poison, les Protections Sommeil et les Protections Étourdissement de tous les ennemis du champ de bataille.\n\nPuis tous les ennemis du champ de bataille ont chacun une chance de 50% d'être Charmés pendant 50TU. L'Attaque d'une unité Charmée est considérablement réduite (p. ex. réduite de la moitié de son Attaque d'origine pour une unité n'ayant pas d'autre modificateur d'Attaque. L'effet de Charmé peut être réduit si l'Attaque de l'unité affectée est augmentée par d'autres effets.). Charmé remplace les effets d'Enragé et d'Affaiblissement, et les unités qui sont Charmées ne peuvent être Enragées ou Affaiblies. Les unités Charmées sont moins susceptibles de cibler l'unité qui les a Charmés possédant les plus de compétences actives. Charmé n'est pas un effet de statut et ne peut être retiré par les compétences de Purification, mais prendra fin si l'unité Charmée qui le champ de bataille.\n\nCette compétence ne peut être utilisée si un ennemi est déjà Charmé ou si l'utilisateur est seul sur le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Amour Débordant",
+                "SkillDescription": "Soigne tous les alliés du champ de bataille d'une valeur de 1500% de l'Attaque de l'utilisateur. Retire le Sommeil, la Brûlure et le Poison (y compris le Sommeil Profond, la Méga Brûlure Soin et le Poison Létal) de tous les alliés. L'utilisateur est immunisé contre chaque type d'effet de statut qui lui est retiré pendant 50TU.\n\nPuis tous les alliés sont Purifiés (tout effet de statut négatif est retiré).\n\nUtilisable si un allié du champ de bataille est brûlé, endormi ou empoisonné. Cette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Baiser Divin",
+                "SkillDescription": "300% de dégâts à 2 ennemis, et 100% de plus tous les 100TU durant lesquels l'utilisateur a survécu sur le champ de bataille (maximum de 800% après 500TU). Cette attaque ignore les effets de réduction de dégâts ennemis, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Reflet, et l'effet de statut de Contre Relais.\n\nLorsque cette attaque touche une cible Charmée, non-boss, non-Éphémère et que cette cible a 10% voire moins de ses PV max après avoir subit des dégâts, cette unité est immédiatement vaincue (l'utilisateur est considéré avoir vaincu la cible avec une attaque s'il y parvient). Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou tout effet de compétences actives qui empêcherait l'ennemi d'être vaincu.\n\nCette compétence se verrouille pendant 100TU après son utilisation.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Déesse de l'Amour",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité bénéficie d'une réduction de 50% des dégâts provenant d'attaques, et 10% de plus par le nombre d'alliés du champ de bataille autre que l'utilisateur (jusqu'à un maximum de 80%).\n\nJusqu'à la fin du premier tour de cette unité sur le champ de bataille, elle bénéficie d'une Immunité Sommeil, d'une Immunité Étourdissement, d'une Immunité Poison et d'une Immunité Brûlure.\n\nCette unité aura 60% de chance, et 10% de plus par Éveil (jusqu'à 100% de chance si cette unité possède 4 Éveils) d'être Purifiée, et d'avoir ses TU réduits à 0 à la fin de chaque tour, à chaque fois qu'un ennemi Charmé prend son tour. Cet effet ne peut être déclenché à nouveau pendant 50TU s'il est déclenché 3 fois en 50TU.\n\nCette unité ne peut être Charmée."
+            },
+            {
+                "SkillTitle": "Beauté Sans Fin",
+                "SkillDescription": "Cette unité entre en bataille avec 2 Charges. Cette unité consomme 1 Charge pour survivre avec 1PV au lieu d'être vaincue s'il lui reste des Charges. Certaines compétences sont affectées par et peuvent consommer des Charges. Une unité peut conserver un maximum de 3 Charges et toutes les Charges sont retirées d'une unité qui quitte le champ de bataille. \n\nCette unité gagnera une Charge à la fin du tour à chaque fois que :\n- Un allié prend son tour.\n- Un allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque.\n\nSi cette unité possède au moins :\n- 2 Charges : Elle ignorera les attaques qui infligeront des dégâts à exactement 3 cibles. Les Attaques ciblant tous les alliés ne seront pas ignorées.\n- 3 Charges au début de son tour : Elle Enragera tous les alliés du champ de bataille à la fin de ce tour. L'Attaque d'une unité Enragée est augmentée de 150% jusqu'à la fin de son prochain tour. Enragé remplacera tout autre effet d'Affaiblissement ou d'Enragé existant sur l'utilisateur.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle sera Purifiée, et sera soignée de 50% de ses PV mac. Ce soin augmente jusqu'à 100% si cette unité a des alliés sur le champ de bataille ou dans ses renforts."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. G.Hache LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités équipées d'une Grande Hache."
+            },
+            {
+                "SkillTitle": "Maîtrise Bâton",
+                "SkillDescription": "Peut utiliser les talents d'arme des Bâtons en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Bâton"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Héhé, enchantée!\nJe m'appelle Vénus, mais tu peux m'appeler Vé !\nEnchantée !\n\nJe suis la déesse qui règne sur l'amour.\nDonc je t'aimerai, toi aussi...\nJusque dans la moelle des os"
+            ],
+            "Login": [
+                "Je t'attends depuis tellement longtemps, tu sais ~ \nHé, arrêtons-nous quelque part pour faire une pause avant de partir ! Allons-y doucement ensemble ♡"
+            ],
+            "Tap": [
+                "Hein ? Tu te demandes si je peux me permettre de manger autant de sucreries ?\nTu t'inquiètes à propos du prix ? Dans ce cas-là, rassure-toi. Le patron d'ici et moi sommes de bons amis ~ ♡",
+                "Tu sais, je suis aussi la déesse de la beauté.\nDonc lorsque je vois une fille mignonne, je ne peux pas m'empêcher d'avoir envie de la rendre encore plus mignonne !",
+                "Pffff... Est-ce un gâteau aux légumes...?\nBeeeurk, je n'aime pas les légumes... C'est amer...\nMais ce gâteau n'est pas amer. En fait... Il est vraiment bon !"
+            ],
+            "Idle": [
+                "Mmm, je m'ennuis tellement... Peut-être que je devrais taquiner quelqu'un pendant un petit moment...\nOu peut-être que je vais me trouver quelqu'un et m'amuser un peu à la place...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Frappe Sincère": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Charme de Déesse": {
+                    "BaseWeight": 2000
+                },
+                "Amour Débordant": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Baiser Divin": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

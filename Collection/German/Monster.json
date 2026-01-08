@@ -125987,5 +125987,364 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "VenusRegular01": {
+        "Name": "Venus",
+        "Name2": "Göttin der Liebe",
+        "FullName": "Venus - Göttin der Liebe",
+        "Profile": "Venus, die Göttin der Liebe. Ihre Schönheit und mütterliche Anmut brachten ihr die Verehrung von Göttern und Menschen gleichermaßen ein. Aber sie ist seit langem in einem unterirdischen Gefängnis gefangen, das vom Gott des Todes beherrscht wird. Ihr Verbrechen war die Ermordung eines Gottes.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 28,
+        "Atk_Base": 1053,
+        "Hp_Base": 5945,
+        "Speed": 406,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Ich werde dich lieben ... \nbis du schmilzt.",
+        "LeaderSkill": {
+            "SkillTitle": "Licht-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Licht-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Herzenschlag",
+                "SkillDescription": "600% Schaden an 1 Gegner. Minus 100% Schaden für jeden schlafenden, brennenden oder vergifteten Verbündeten auf dem Schlachtfeld (max. -400%, wenn 4 Verbündete betroffen sind). Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Heilt den Anwender um 100% des gesamten verursachten Schadens. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\nDann wird das getroffene Ziel geschwächt und erhält einen Wut-Zauber. Dies überschreibt alle bestehenden Schwächungs- oder Wut-Effekte auf dieser Einheit.\n\nGeschwächte Einheiten haben bis zum Ende ihres nächsten Zuges einen um 0,75x reduzierten Angriffswert. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden. Wutschutz verhindert, dass eine Einheit einmal wütend wird und wird dann entfernt. Wutschutz kann nicht gestapelt werden.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Göttinnenscharm",
+                "SkillDescription": "All enemies on the battlefield have their Stealth, Poison Wards, Sleep Wards and Stun Wards removed.\n\nThen all enemies on the battlefield have a 50% chance each to be Charmed for 50TU. A Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield.\n\nThis skill cannot be used if an enemy is already Charmed or if the user is alone on the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Überlaufende Liebe",
+                "SkillDescription": "Heals all allies on the battlefield for 1500% of the user's attack. Removes Sleep, Burn and Poison (including Deep Sleep, Mega Healing Burn, and Lethal Poison) from all allies. For each type of status effect removed, the user is granted an immunity to that status effect for 50TU.\n\nThen all allies are Purified (any negative status effects are removed).\n\nUsable if an ally on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Himmlischer Kuss",
+                "SkillDescription": "300% Schaden an 2 Gegnern, plus 100% für je 100 ZE, die der Anwender auf dem Schlachtfeld überlebt hat (max. 800% nach 500 ZE). Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, sowie passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nWenn dieser Angriff ein verzaubertes, nicht-bossiges, nicht-ephemeres Ziel trifft und dieses Ziel nach dem Schaden noch 10% oder weniger der maximalen LP hat, wird das Ziel sofort besiegt (es wird davon ausgegangen, dass der Benutzer das Ziel mit einem Angriff besiegt hat, wenn er erfolgreich war). Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nDiese Fertigkeit wird nach der Anwendung für 100 ZE gesperrt.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Liebesgöttinnen",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit has 50% damage reduction from attacks, plus 10% for each other ally on the battlefield (up to 80% max).\n\nUntil the end of this unit's first turn while on the battlefield, this unit has Sleep immunity, Stun Immunity, Poison Immunity and Burn Immunity.\n\nThis unit will have a 60% chance, plus 10% per Awakening (up to 100% chance if this unit has 4 Awakenings) to become Purified and have its TU reduced to 0, at the end of the turn, whenever a Charmed enemy gets the turn. If this is triggered 3 times within 50TU, it cannot trigger again for 50TU.\n\nThis unit cannot be Charmed."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Gr.Axt-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die eine Großaxt führen."
+            },
+            {
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hehe, schön, dich kennenzulernen!\nIch bin Venus, nenn mich Vee!\nSchön, dich kennenzulernen!\n\nIch bin die Göttin, die der Liebe vorsteht.\nSo werde ich auch dich lieben...bis auf deine Knochen"
+            ],
+            "Login": [
+                "Ich warte schon ewig, weißt du～\nHey, warum halten wir nicht irgendwo an und machen eine Pause, bevor wir losfahren? Lass es uns schön langsam angehen♡"
+            ],
+            "Tap": [
+                "Hm? Du fragst dich, ob es mir gut geht, so viele Süßigkeiten zu essen? \nMachst du dir Sorgen wegen der Kosten? Dann sei beruhigt. Ich bin mit dem Besitzer hier gut befreundet～♡",
+                "Weißt du, ich bin auch die Göttin der Schönheit.\nWenn ich also ein hübsches Mädchen sehe, kann ich nicht anders, als sie noch hübscher machen zu wollen!",
+                "Ughhh... ist das ein Gemüsekuchen...?\nEww, ich mag kein Gemüse...es ist bitter...\nAber dieser Kuchen ist nicht bitter. Eigentlich... ist er richtig gut!"
+            ],
+            "Idle": [
+                "Mmm, sooo langweilig... Vielleicht necke ich jemanden für eine Weile...♡ \nOder vielleicht finde ich jemanden Nettes und habe stattdessen etwas Spaß...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Herzenschlag": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Göttinnenscharm": {
+                    "BaseWeight": 2000
+                },
+                "Überlaufende Liebe": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Himmlischer Kuss": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        }
+    },
+    "VenusRegular02": {
+        "Name": "Venus",
+        "Name2": "Göttin der Liebe",
+        "FullName": "Venus - Göttin der Liebe",
+        "Profile": "Es wird jedoch gemunkelt, dass ein Gott, der vor Liebe zu ihr wahnsinnig wurde, von Eifersucht zerfressen wurde und versuchte, sie zu töten, aber stattdessen niedergeschlagen wurde... mit anderen Worten, es war Selbstverteidigung. Doch wann immer man sie nach der Wahrheit fragt, antwortet sie nur mit einem geheimnisvollen Lächeln.",
+        "Profile_Ascended": "Und so blieben die Menschen, die der Zerstörung des fremden Gottes entkommen waren, gegenüber der nun befreiten Göttin misstrauisch. Ist sie wirklich eine Verbündete...? Doch mit der Zeit fühlten sich ihre Herzen wieder zu ihr hingezogen - zu den Tiefen ihrer Augen, obwohl niemand ihre wahren Absichten kannte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 34,
+        "Atk_Base": 1344,
+        "Hp_Base": 7700,
+        "Speed": 406,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Licht-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Licht-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Herzenschlag",
+                "SkillDescription": "600% Schaden an 1 Gegner. Minus 100% Schaden für jeden schlafenden, brennenden oder vergifteten Verbündeten auf dem Schlachtfeld (max. -400%, wenn 4 Verbündete betroffen sind). Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Heilt den Anwender um 100% des gesamten verursachten Schadens. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\nDann wird das getroffene Ziel geschwächt und erhält einen Wut-Zauber. Dies überschreibt alle bestehenden Schwächungs- oder Wut-Effekte auf dieser Einheit.\n\nGeschwächte Einheiten haben bis zum Ende ihres nächsten Zuges einen um 0,75x reduzierten Angriffswert. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden. Wutschutz verhindert, dass eine Einheit einmal wütend wird und wird dann entfernt. Wutschutz kann nicht gestapelt werden.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Göttinnenscharm",
+                "SkillDescription": "All enemies on the battlefield have their Stealth, Poison Wards, Sleep Wards and Stun Wards removed.\n\nThen all enemies on the battlefield have a 50% chance each to be Charmed for 50TU. A Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield.\n\nThis skill cannot be used if an enemy is already Charmed or if the user is alone on the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Überlaufende Liebe",
+                "SkillDescription": "Heals all allies on the battlefield for 1500% of the user's attack. Removes Sleep, Burn and Poison (including Deep Sleep, Mega Healing Burn, and Lethal Poison) from all allies. For each type of status effect removed, the user is granted an immunity to that status effect for 50TU.\n\nThen all allies are Purified (any negative status effects are removed).\n\nUsable if an ally on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Himmlischer Kuss",
+                "SkillDescription": "300% Schaden an 2 Gegnern, plus 100% für je 100 ZE, die der Anwender auf dem Schlachtfeld überlebt hat (max. 800% nach 500 ZE). Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, sowie passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nWenn dieser Angriff ein verzaubertes, nicht-bossiges, nicht-ephemeres Ziel trifft und dieses Ziel nach dem Schaden noch 10% oder weniger der maximalen LP hat, wird das Ziel sofort besiegt (es wird davon ausgegangen, dass der Benutzer das Ziel mit einem Angriff besiegt hat, wenn er erfolgreich war). Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nDiese Fertigkeit wird nach der Anwendung für 100 ZE gesperrt.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Liebesgöttinnen",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit has 50% damage reduction from attacks, plus 10% for each other ally on the battlefield (up to 80% max).\n\nUntil the end of this unit's first turn while on the battlefield, this unit has Sleep immunity, Stun Immunity, Poison Immunity and Burn Immunity.\n\nThis unit will have a 60% chance, plus 10% per Awakening (up to 100% chance if this unit has 4 Awakenings) to become Purified and have its TU reduced to 0, at the end of the turn, whenever a Charmed enemy gets the turn. If this is triggered 3 times within 50TU, it cannot trigger again for 50TU.\n\nThis unit cannot be Charmed."
+            },
+            {
+                "SkillTitle": "Grenzlosschönheit",
+                "SkillDescription": "Diese Einheit zieht mit 2 Ladungen in den Kampf. Wenn diese Einheit besiegt werden würde, während sie noch Aufladungen hat, verbraucht sie stattdessen 1 Ladung, um mit 1 LP zu überleben. Bestimmte Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern.\n\nDiese Einheit erhält am Ende des Zuges jedes Mal eine Ladung, wenn:\n- ein Verbündeter den Zug erhält.\n- ein nicht beschworener Verbündeter auf dem Schlachtfeld durch irgendeine Quelle besiegt oder geopfert wird.\n\nWenn diese Einheit mindestens:\n- 2 Ladungen hat, ignoriert sie Angriffe, die genau 2 Ziele schädigen würden. Angriffe, die alle Verbündeten zum Ziel haben, werden nicht ignoriert.\n- 3 Ladungen zu Beginn ihres Zuges, wird diese Einheit am Ende dieses Zuges alle Verbündeten auf dem Schlachtfeld erzürnen. Der Angriff einer wütenden Einheit wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Wutanfall überschreibt alle bestehenden Schwäche- oder Wutanfall-Effekte des Benutzers.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, wird sie geläutert und um 50% ihrer maximalen LP geheilt. Diese Heilung wird auf 100% erhöht, wenn diese Einheit Verbündete auf dem Schlachtfeld oder in der Verstärkung hat."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Gr.Axt-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die eine Großaxt führen."
+            },
+            {
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hehe, schön, dich kennenzulernen!\nIch bin Venus, nenn mich Vee!\nSchön, dich kennenzulernen!\n\nIch bin die Göttin, die der Liebe vorsteht.\nSo werde ich auch dich lieben...bis auf deine Knochen"
+            ],
+            "Login": [
+                "Ich warte schon ewig, weißt du～\nHey, warum halten wir nicht irgendwo an und machen eine Pause, bevor wir losfahren? Lass es uns schön langsam angehen♡"
+            ],
+            "Tap": [
+                "Hm? Du fragst dich, ob es mir gut geht, so viele Süßigkeiten zu essen? \nMachst du dir Sorgen wegen der Kosten? Dann sei beruhigt. Ich bin mit dem Besitzer hier gut befreundet～♡",
+                "Weißt du, ich bin auch die Göttin der Schönheit.\nWenn ich also ein hübsches Mädchen sehe, kann ich nicht anders, als sie noch hübscher machen zu wollen!",
+                "Ughhh... ist das ein Gemüsekuchen...?\nEww, ich mag kein Gemüse...es ist bitter...\nAber dieser Kuchen ist nicht bitter. Eigentlich... ist er richtig gut!"
+            ],
+            "Idle": [
+                "Mmm, sooo langweilig... Vielleicht necke ich jemanden für eine Weile...♡ \nOder vielleicht finde ich jemanden Nettes und habe stattdessen etwas Spaß...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Herzenschlag": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Göttinnenscharm": {
+                    "BaseWeight": 2000
+                },
+                "Überlaufende Liebe": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Himmlischer Kuss": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

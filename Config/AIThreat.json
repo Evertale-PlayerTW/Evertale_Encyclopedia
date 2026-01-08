@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1765904173,
+  "Time": 1766091950,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6716,6 +6716,46 @@
       "name": "RizetteBrave02",
       "condition": "IsCharged2",
       "value": 1.1
+    },
+    {
+      "name": "VenusRegular01",
+      "condition": "IsCharged3",
+      "value": 1.2
+    },
+    {
+      "name": "VenusRegular01",
+      "condition": "TimeInCombat200",
+      "value": 1.01
+    },
+    {
+      "name": "VenusRegular01",
+      "condition": "TimeInCombat300",
+      "value": 1.1
+    },
+    {
+      "name": "VenusRegular01",
+      "condition": "IsPleaseDONTDefeatMeBuff",
+      "value": 0.001
+    },
+    {
+      "name": "VenusRegular02",
+      "condition": "IsCharged3",
+      "value": 1.2
+    },
+    {
+      "name": "VenusRegular02",
+      "condition": "TimeInCombat200",
+      "value": 1.01
+    },
+    {
+      "name": "VenusRegular02",
+      "condition": "TimeInCombat300",
+      "value": 1.1
+    },
+    {
+      "name": "VenusRegular02",
+      "condition": "IsPleaseDONTDefeatMeBuff",
+      "value": 0.001
     }
   ]
 }

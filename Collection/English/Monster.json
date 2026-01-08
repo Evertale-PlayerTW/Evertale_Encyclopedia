@@ -125987,5 +125987,364 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "VenusRegular01": {
+        "Name": "Venus",
+        "Name2": "Goddess of Love",
+        "FullName": "Venus - Goddess of Love",
+        "Profile": "Venus, the goddess of love. Her beauty and maternal grace earned her the devotion of both gods and humans alike. But she has long been captive in an underground prison governed by the god of death. Her crime—murdering a god.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mace",
+        "forFilter_Element": "Life",
+        "Element": "Light",
+        "Cost": 28,
+        "Atk_Base": 1053,
+        "Hp_Base": 5945,
+        "Speed": 406,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "I'll love you...\nuntil you melt.",
+        "LeaderSkill": {
+            "SkillTitle": "Light ATK & HP Up",
+            "SkillDescription": "Allied Light element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Heartfelt Strike",
+                "SkillDescription": "600% damage to 1 enemy. Minus 100% damage for each sleeping, burning or poisoned ally on the battlefield (max of -400% if there are 4 affected allies). This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect. Heals the user for 100% of total damage dealt. Damage from this attack does not wake up sleeping enemies.\n\nThen the target hit will become Weakened, and is granted a Rage ward. This will overwrite any existing Weak or Enrage effects on that unit.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects. Rage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Goddess Charm",
+                "SkillDescription": "All enemies on the battlefield have their Stealth, Poison Wards, Sleep Wards and Stun Wards removed.\n\nThen all enemies on the battlefield have a 50% chance each to be Charmed for 50TU. A Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield.\n\nThis skill cannot be used if an enemy is already Charmed or if the user is alone on the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Overflowing Love",
+                "SkillDescription": "Heals all allies on the battlefield for 1500% of the user's attack. Removes Sleep, Burn and Poison (including Deep Sleep, Mega Healing Burn, and Lethal Poison) from all allies. For each type of status effect removed, the user is granted an immunity to that status effect for 50TU.\n\nThen all allies are Purified (any negative status effects are removed).\n\nUsable if an ally on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Divine Kiss",
+                "SkillDescription": "300% damage to 2 enemies, plus 100% for each 100TU the user has survived on the battlefield (800% max after 500TU). This attack ignores enemy damage reduction effects, any effects of non-boss enemies that would prevent the target from being defeated, skin passive skills, and the Counter Stance status effect.\n\nWhen this attack hits a Charmed, non-boss, non-Ephemeral target and that target has 10% or less of max HP remaining after damage, that target is immediately defeated (the user is considered to have defeated the target with an attack if successful). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the enemy from being defeated.\n\nThis skill becomes locked for 100TU after use.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Goddess Of Love",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit has 50% damage reduction from attacks, plus 10% for each other ally on the battlefield (up to 80% max).\n\nUntil the end of this unit's first turn while on the battlefield, this unit has Sleep immunity, Stun Immunity, Poison Immunity and Burn Immunity.\n\nThis unit will have a 60% chance, plus 10% per Awakening (up to 100% chance if this unit has 4 Awakenings) to become Purified and have its TU reduced to 0, at the end of the turn, whenever a Charmed enemy gets the turn. If this is triggered 3 times within 50TU, it cannot trigger again for 50TU.\n\nThis unit cannot be Charmed."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "G.axe Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Greataxes."
+            },
+            {
+                "SkillTitle": "Staff Mastery",
+                "SkillDescription": "Can use weapon skills of Staffs in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Staff"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hehe, nice to meet you!\nI'm Venus, call me Vee!\nNice to meet you!\n\nI'm the goddess who presides over love.\nSo I'll love you, too...\ndown to your very bones"
+            ],
+            "Login": [
+                "I've been waiting forever, you know～\nHey, why don't we stop somewhere and take a break before we head out? Let's take it nice and slow together♡"
+            ],
+            "Tap": [
+                "Huh? You're wondering if I'm fine eating so many sweets?\nAre you worried about the cost? Then rest assured. I'm good friends with the owner here～♡",
+                "You know, I'm also the goddess of beauty.\nSo when I see a cute girl, I just can't help but want to make her even cuter!",
+                "Ughhh... is this a vegetable cake...?\nEww, I don't like vegetables...they're bitter...\nBut this cake isn't bitter. Actually... it's really good!"
+            ],
+            "Idle": [
+                "Mmm, sooo bored... Maybe I'll tease someone for a bit...\nOr maybe I'll find someone nice and have some fun instead...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Heartfelt Strike": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Goddess Charm": {
+                    "BaseWeight": 2000
+                },
+                "Overflowing Love": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Divine Kiss": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        }
+    },
+    "VenusRegular02": {
+        "Name": "Venus",
+        "Name2": "Goddess of Love",
+        "FullName": "Venus - Goddess of Love",
+        "Profile": "However, it is rumored that a god driven mad with love for her was consumed by jealousy and tried to kill her, only to be struck down instead... in other words, it was self-defense. Yet whenever one asks her about the truth, she offers nothing but a mysterious smile.",
+        "Profile_Ascended": "And so, the people, escaping the destruction of the foreign god, remained wary of the now-freed goddess. Is she truly an ally...? And yet, in time, their hearts were once again drawn toward her—toward the depths of her eyes, though none knew of her true intentions.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mace",
+        "forFilter_Element": "Life",
+        "Element": "Light",
+        "Cost": 34,
+        "Atk_Base": 1344,
+        "Hp_Base": 7700,
+        "Speed": 406,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Light ATK & HP Up",
+            "SkillDescription": "Allied Light element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Heartfelt Strike",
+                "SkillDescription": "600% damage to 1 enemy. Minus 100% damage for each sleeping, burning or poisoned ally on the battlefield (max of -400% if there are 4 affected allies). This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect. Heals the user for 100% of total damage dealt. Damage from this attack does not wake up sleeping enemies.\n\nThen the target hit will become Weakened, and is granted a Rage ward. This will overwrite any existing Weak or Enrage effects on that unit.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects. Rage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Goddess Charm",
+                "SkillDescription": "All enemies on the battlefield have their Stealth, Poison Wards, Sleep Wards and Stun Wards removed.\n\nThen all enemies on the battlefield have a 50% chance each to be Charmed for 50TU. A Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield.\n\nThis skill cannot be used if an enemy is already Charmed or if the user is alone on the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Overflowing Love",
+                "SkillDescription": "Heals all allies on the battlefield for 1500% of the user's attack. Removes Sleep, Burn and Poison (including Deep Sleep, Mega Healing Burn, and Lethal Poison) from all allies. For each type of status effect removed, the user is granted an immunity to that status effect for 50TU.\n\nThen all allies are Purified (any negative status effects are removed).\n\nUsable if an ally on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Divine Kiss",
+                "SkillDescription": "300% damage to 2 enemies, plus 100% for each 100TU the user has survived on the battlefield (800% max after 500TU). This attack ignores enemy damage reduction effects, any effects of non-boss enemies that would prevent the target from being defeated, skin passive skills, and the Counter Stance status effect.\n\nWhen this attack hits a Charmed, non-boss, non-Ephemeral target and that target has 10% or less of max HP remaining after damage, that target is immediately defeated (the user is considered to have defeated the target with an attack if successful). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the enemy from being defeated.\n\nThis skill becomes locked for 100TU after use.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Goddess Of Love",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit has 50% damage reduction from attacks, plus 10% for each other ally on the battlefield (up to 80% max).\n\nUntil the end of this unit's first turn while on the battlefield, this unit has Sleep immunity, Stun Immunity, Poison Immunity and Burn Immunity.\n\nThis unit will have a 60% chance, plus 10% per Awakening (up to 100% chance if this unit has 4 Awakenings) to become Purified and have its TU reduced to 0, at the end of the turn, whenever a Charmed enemy gets the turn. If this is triggered 3 times within 50TU, it cannot trigger again for 50TU.\n\nThis unit cannot be Charmed."
+            },
+            {
+                "SkillTitle": "Boundless Beauty",
+                "SkillDescription": "This unit enters battle with 2 Charges. If this unit would be defeated while it has any charges, this unit will consume 1 charge to survive with 1HP remaining instead. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges.\n\nThis unit will gain a Charge at the end of the turn each time:\n- an ally gets the turn.\n- a non-conjured ally on the battlefield is defeated or sacrificed by any source.\n\nIf this unit has at least:\n- 2 Charges, it will ignore attacks that would damage exactly 2 targets. Attacks that target all allies will not be ignored.\n- 3 Charges at the start of its turn, this unit will Enrage all allies on the battlefield at the end of that turn. An Enraged unit's attack is increased to 1.5x until the end of their next turn. Enrage will overwrite any existing Weak or Enrage effects on the user.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, and heal for 50% of its max HP. This heal is increased to 100% if this unit has any allies on the battlefield or in reinforcements."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "G.axe Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Greataxes."
+            },
+            {
+                "SkillTitle": "Staff Mastery",
+                "SkillDescription": "Can use weapon skills of Staffs in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Staff"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hehe, nice to meet you!\nI'm Venus, call me Vee!\nNice to meet you!\n\nI'm the goddess who presides over love.\nSo I'll love you, too...\ndown to your very bones"
+            ],
+            "Login": [
+                "I've been waiting forever, you know～\nHey, why don't we stop somewhere and take a break before we head out? Let's take it nice and slow together♡"
+            ],
+            "Tap": [
+                "Huh? You're wondering if I'm fine eating so many sweets?\nAre you worried about the cost? Then rest assured. I'm good friends with the owner here～♡",
+                "You know, I'm also the goddess of beauty.\nSo when I see a cute girl, I just can't help but want to make her even cuter!",
+                "Ughhh... is this a vegetable cake...?\nEww, I don't like vegetables...they're bitter...\nBut this cake isn't bitter. Actually... it's really good!"
+            ],
+            "Idle": [
+                "Mmm, sooo bored... Maybe I'll tease someone for a bit...\nOr maybe I'll find someone nice and have some fun instead...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Heartfelt Strike": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Goddess Charm": {
+                    "BaseWeight": 2000
+                },
+                "Overflowing Love": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Divine Kiss": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

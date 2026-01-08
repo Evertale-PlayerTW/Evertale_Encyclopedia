@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1765933177,
+  "Time": 1767577997,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -27955,6 +27955,61 @@
       "tuCost": 100,
       "useLimit": 0,
       "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAVenusRegular",
+      "class": "Ability",
+      "abilityScalor": 5,
+      "conditionalAbilityScalors": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "config": "SingleAttackAVenusRegular",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "CharmedBuffAVenusRegular",
+      "class": "Ability",
+      "config": "CharmedBuffAVenusRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllUnitBuffAVenusRegular",
+      "class": "Ability",
+      "config": "AllUnitBuffAVenusRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialDoubleAttackAVenusRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "config": "SpecialDoubleAttackAVenusRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 3,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

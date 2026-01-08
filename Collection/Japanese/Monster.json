@@ -125989,5 +125989,364 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "VenusRegular01": {
+        "Name": "ヴィーナス",
+        "Name2": "誘惑の女神",
+        "FullName": "ヴィーナス - 誘惑の女神",
+        "Profile": "ヴィーナス、愛の女神。かつてはその美と母性ゆえ、神々にも人間にも信仰されていた。だが彼女は、長きにわたり死神の管轄する地下牢獄に幽閉されていた。その罪状は――神殺し。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "メイス",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 28,
+        "Atk_Base": 1053,
+        "Hp_Base": 5945,
+        "Speed": 406,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "とろけるくらい…\n愛してあげる♡",
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（光）",
+            "SkillDescription": "光属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ハートスラッシュ",
+                "SkillDescription": "敵1体に600%ダメージ。この攻撃のダメージ量は、場に眠り状態、燃焼状態、毒状態のいずれかの味方が1体いるごとに100%ずつ減少する。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。この攻撃のダメージでは対象の眠り状態は解除されない。\n使用者は、攻撃で与えた合計ダメージと同量分、自身のHPを回復する。\nその後、攻撃対象に「怯え」及び「ワンタイムアンチアンガー」を付与する。対象の既存の「アンガー」系及び「怯え」系の効果は上書きされる。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "チャーミング",
+                "SkillDescription": "場にいる全ての敵の、ステルス状態及びワンタイムアンチポイズン、ワンタイムアンチスリープ、ワンタイムアンチスタンを解除する。\nその後、場にいる全ての敵に、それぞれ50%の確率で「チャーム」(50TU持続)を付与する。\n\nすでにチャーム状態の敵が場にいると使用できず、また場にいる味方が自身のみの場合も使用できない。\n\n-チャーム状態のキャラは、攻撃力が元の攻撃力の0.5倍になる。この効果は、他の効果によって攻撃力が増加している場合、減少することがある。チャーム状態のキャラは、そのキャラにチャーム状態を付与した敵を攻撃の対象に選択しにくくなる。チャーム状態は「アンガー」系及び「怯え」系の効果を上書きするが、逆にこれらの効果には上書きされない。チャーム状態は状態変化ではなく、状態変化を上書きしたり状態変化に上書きされることがない。また、クリア系の効果でも解除されない。チャーム状態は、場を離れると解除される。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ラブリーブレス",
+                "SkillDescription": "場にいる味方全員のHPを、このキャラの攻撃力の1500%分回復する。また、味方全員の眠り状態、燃焼状態、毒状態を解除する（眠り(熟睡)状態、燃焼(20倍回復)状態、毒(致命)状態なども含む）。この時解除された状態変化に応じて、眠り状態ならば「アンチスリープ」、燃焼状態ならば「アンチバーン」、毒状態ならば「アンチポイズン」を、それぞれ50TUの間、使用者は自身に付与する。\nその後、味方全員の悪影響のある状態変化を解除する。\n\n場に、眠り状態、燃焼状態、毒状態のいずれかである味方がいる時のみ使用可能。このスキルは使用後、50TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "イチころキッス",
+                "SkillDescription": "敵2体に300%ダメージ。この攻撃のダメージ量は、使用者が場に出てから100TU経過しているごとに100%ずつ増加する（最大500%増加）。この攻撃はアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視し（ボスの持つスキルは除く）、また対象のダメージ減少効果、カウンター状態、スキン系のパッシブスキルの効果を無視する。\nこの攻撃でチャーム状態の敵にダメージを与え、ダメージ判定後に対象の残りHPが10%以下であった時、その対象を戦闘不能にする。この効果で戦闘不能にした場合にも、使用者は対象を攻撃で倒したとみなされる。この効果は対象のリベンジ系及び蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する。戦闘不能にする効果は、ボス、および「幻影」のパッシブスキルを持つキャラには発動しない。\n\nこのスキルは使用後、100TUの間ロックされる。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "誘惑の女神",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラが敵の攻撃で受けるダメージは50%減少する。この効果で減少するダメージ量は、場にいる自身を除く味方1体につき10%増加する（最大80%減少）。\n\n・自身の最初のターンが終了するまでの間、このキャラは眠り状態、燃焼状態、毒状態にならず、またスタンの効果を受けない。\n\n・このキャラは、チャーム状態の敵にターンが回った時、そのターンの終了時に、60%の確率で以下の二つの効果が発動する。効果が発動する確率は、このキャラの覚醒数が1増加するごとに10%増加し、4覚醒で100%になる。この効果が50TU以内に3回発動した場合、その後この効果は50TUの間発動しなくなる。\n-自身の悪影響のある状態変化を解除する。\n-自身のTUを0にして次のターンを得る。\n\n・このキャラは、チャーム状態にならない。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "大斧耐性Lv3",
+                "SkillDescription": "大斧を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:杖",
+                "SkillDescription": "杖も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "杖"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "ふふっはじめまして～！\nヴィーはヴィーナスって言うんだ、\nよろしくね！\n\nヴィーはね、愛を司る女神なの。\nだから、あなたのことも骨の髄まで\n愛してあげるっ♡"
+            ],
+            "Login": [
+                "ヴィー、待ちくたびれ"
+            ],
+            "Tap": [
+                "え、そんなに甘いもの",
+                "ヴィーはね、実は美しさも",
+                "うげぇ～、これって"
+            ],
+            "Idle": [
+                "ん～、ひまぁ～"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "ハートスラッシュ": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "チャーミング": {
+                    "BaseWeight": 2000
+                },
+                "ラブリーブレス": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "イチころキッス": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        }
+    },
+    "VenusRegular02": {
+        "Name": "ヴィーナス",
+        "Name2": "誘惑の女神",
+        "FullName": "ヴィーナス - 誘惑の女神",
+        "Profile": "しかしその実、彼女への恋慕で狂気に陥った神が、嫉妬のあまり彼女を殺そうとし、返り討ちに遭った――つまりは冤罪であった、とも噂される。だが真相を問えば、彼女はただ謎めいた笑みを浮かべるばかりだ。",
+        "Profile_Ascended": "だからこそ、異国の神に追われた人々は、鎖から解き放たれた彼女を警戒した。本当に彼女は味方なのか――。それでも人々の心は、いつしか再び彼女へと引き寄せられていく。誰も真意を知ることのない、その瞳の奥へと。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "メイス",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 34,
+        "Atk_Base": 1344,
+        "Hp_Base": 7700,
+        "Speed": 406,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（光）",
+            "SkillDescription": "光属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ハートスラッシュ",
+                "SkillDescription": "敵1体に600%ダメージ。この攻撃のダメージ量は、場に眠り状態、燃焼状態、毒状態のいずれかの味方が1体いるごとに100%ずつ減少する。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。この攻撃のダメージでは対象の眠り状態は解除されない。\n使用者は、攻撃で与えた合計ダメージと同量分、自身のHPを回復する。\nその後、攻撃対象に「怯え」及び「ワンタイムアンチアンガー」を付与する。対象の既存の「アンガー」系及び「怯え」系の効果は上書きされる。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "チャーミング",
+                "SkillDescription": "場にいる全ての敵の、ステルス状態及びワンタイムアンチポイズン、ワンタイムアンチスリープ、ワンタイムアンチスタンを解除する。\nその後、場にいる全ての敵に、それぞれ50%の確率で「チャーム」(50TU持続)を付与する。\n\nすでにチャーム状態の敵が場にいると使用できず、また場にいる味方が自身のみの場合も使用できない。\n\n-チャーム状態のキャラは、攻撃力が元の攻撃力の0.5倍になる。この効果は、他の効果によって攻撃力が増加している場合、減少することがある。チャーム状態のキャラは、そのキャラにチャーム状態を付与した敵を攻撃の対象に選択しにくくなる。チャーム状態は「アンガー」系及び「怯え」系の効果を上書きするが、逆にこれらの効果には上書きされない。チャーム状態は状態変化ではなく、状態変化を上書きしたり状態変化に上書きされることがない。また、クリア系の効果でも解除されない。チャーム状態は、場を離れると解除される。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ラブリーブレス",
+                "SkillDescription": "場にいる味方全員のHPを、このキャラの攻撃力の1500%分回復する。また、味方全員の眠り状態、燃焼状態、毒状態を解除する（眠り(熟睡)状態、燃焼(20倍回復)状態、毒(致命)状態なども含む）。この時解除された状態変化に応じて、眠り状態ならば「アンチスリープ」、燃焼状態ならば「アンチバーン」、毒状態ならば「アンチポイズン」を、それぞれ50TUの間、使用者は自身に付与する。\nその後、味方全員の悪影響のある状態変化を解除する。\n\n場に、眠り状態、燃焼状態、毒状態のいずれかである味方がいる時のみ使用可能。このスキルは使用後、50TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "イチころキッス",
+                "SkillDescription": "敵2体に300%ダメージ。この攻撃のダメージ量は、使用者が場に出てから100TU経過しているごとに100%ずつ増加する（最大500%増加）。この攻撃はアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視し（ボスの持つスキルは除く）、また対象のダメージ減少効果、カウンター状態、スキン系のパッシブスキルの効果を無視する。\nこの攻撃でチャーム状態の敵にダメージを与え、ダメージ判定後に対象の残りHPが10%以下であった時、その対象を戦闘不能にする。この効果で戦闘不能にした場合にも、使用者は対象を攻撃で倒したとみなされる。この効果は対象のリベンジ系及び蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する。戦闘不能にする効果は、ボス、および「幻影」のパッシブスキルを持つキャラには発動しない。\n\nこのスキルは使用後、100TUの間ロックされる。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "誘惑の女神",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラが敵の攻撃で受けるダメージは50%減少する。この効果で減少するダメージ量は、場にいる自身を除く味方1体につき10%増加する（最大80%減少）。\n\n・自身の最初のターンが終了するまでの間、このキャラは眠り状態、燃焼状態、毒状態にならず、またスタンの効果を受けない。\n\n・このキャラは、チャーム状態の敵にターンが回った時、そのターンの終了時に、60%の確率で以下の二つの効果が発動する。効果が発動する確率は、このキャラの覚醒数が1増加するごとに10%増加し、4覚醒で100%になる。この効果が50TU以内に3回発動した場合、その後この効果は50TUの間発動しなくなる。\n-自身の悪影響のある状態変化を解除する。\n-自身のTUを0にして次のターンを得る。\n\n・このキャラは、チャーム状態にならない。"
+            },
+            {
+                "SkillTitle": "愛してあげる♡",
+                "SkillDescription": "・このキャラはバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身にチャージを2個付与する。\n-チャージは最大3個まで貯まる。\n\n・チャージが1個以上貯まっている時、このキャラはHPが0になるダメージを受けても、チャージを1個消費することでHPを1残して生き残る。\n\n・このキャラは、味方にターンが回った時、または場にいる味方（このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になった時、そのターンの終了時に自身にチャージを1個付与する。\n\n・このキャラは、自身のチャージが2個以上貯まっている時、ちょうど2体を対象にする攻撃を受けない（場に味方が2体のみいる場合の全体攻撃などは、「2体を対象とする攻撃」に含まれない）。\n\n・このキャラは、自身のチャージが3個溜まっている状態でターンが回った時、そのターンの終了時に味方全員に「アンガー」を付与する。対象の既存のアンガー系及び怯え系の効果は上書きされる。\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、自身の悪影響のある状態変化を解除し、またHPを最大まで回復する。この効果によるHPの回復量は、残っている味方がこのキャラのみの場合、50%に減少する。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "大斧耐性Lv3",
+                "SkillDescription": "大斧を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:杖",
+                "SkillDescription": "杖も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "杖"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "ふふっはじめまして～！\nヴィーはヴィーナスって言うんだ、\nよろしくね！\n\nヴィーはね、愛を司る女神なの。\nだから、あなたのことも骨の髄まで\n愛してあげるっ♡"
+            ],
+            "Login": [
+                "ヴィー、待ちくたびれ"
+            ],
+            "Tap": [
+                "え、そんなに甘いもの",
+                "ヴィーはね、実は美しさも",
+                "うげぇ～、これって"
+            ],
+            "Idle": [
+                "ん～、ひまぁ～"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "ハートスラッシュ": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "チャーミング": {
+                    "BaseWeight": 2000
+                },
+                "ラブリーブレス": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "イチころキッス": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

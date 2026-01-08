@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1767332122,
+	"Time": 1767759860,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -76288,6 +76288,518 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"DamageReduc4MultipleAllies1KillPlus": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "2AlliesIsKills1",
+				"percent": 0.93,
+					"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+					"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"DamageReduc5MultipleAllies1KillPlus": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "2AlliesIsKills1",
+				"percent": 0.9,
+					"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+					"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"DamageReduc6MultipleAllies1KillPlus": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "2AlliesIsKills1",
+				"percent": 0.85,
+					"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+					"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"LovingOthersPassiveAVenusRegular": {
+			"class": "Buff",
+			"stackName": "LovingOthersPassiveAVenusRegular",
+			"behaviors": ["Immunity","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["IsCurrentlyCharmed"]
+			},{	
+				"sourceBuffs": ["KnockbackImmunity","4LevelsOfDamageReductionBasedOnAlliesOnTheBattlefieldVersion2","Charged1IconShowInStatus","Charged2IconShowInStatus","Charged3IconShowInStatus","HoldGroundEnergyFullyChargedStartShowInStatus",
+					"ImmunityFromSleepUntilNextTurn","ImmunityFromBurnUntilNextTurn","ImmunityFromPoisonUntilFirstTurn","StunImmunityUntilNextTurnGenericTitle"]
+			},{
+				"selfBuffs": ["PurifyAndExtraTurnVenusRegularLV5"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsCharmed",
+				"spreadCondition": "Has4Awakenings"
+			},{
+				"selfBuffs": ["PurifyAndExtraTurnVenusRegularLV4"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsCharmed",
+				"spreadCondition": "Has3AwakeningsExact"
+			},{
+				"selfBuffs": ["PurifyAndExtraTurnVenusRegularLV3"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsCharmed",
+				"spreadCondition": "Has2AwakeningsExact"
+			},{
+				"selfBuffs": ["PurifyAndExtraTurnVenusRegularLV2"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsCharmed",
+				"spreadCondition": "Has1AwakeningExact"
+			},{
+				"selfBuffs": ["PurifyAndExtraTurnVenusRegularLV1"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsCharmed",
+				"spreadCondition": "HasNoAwakening"	
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"iconSpriteName": "IconRedHoldGroundBurn01"
+		},
+		"PurifyAndExtraTurnVenusRegularLV5": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn","HijikataCounterFuseAfterTime","HijikataCounter"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsNotVenusTriggered"
+			},{
+				"selfBuffs": ["VenusRegularPassiveExtraTurnLocked"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsHijikataCharged3NotVenusTriggered"	
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"PurifyAndExtraTurnVenusRegularLV4": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn","HijikataCounterFuseAfterTime","HijikataCounter"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsNotVenusTriggered"
+			},{
+				"selfBuffs": ["VenusRegularPassiveExtraTurnLocked"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsHijikataCharged3NotVenusTriggered"	
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "90PercentChance"
+		},
+		"PurifyAndExtraTurnVenusRegularLV3": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn","HijikataCounterFuseAfterTime","HijikataCounter"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsNotVenusTriggered"
+			},{
+				"selfBuffs": ["VenusRegularPassiveExtraTurnLocked"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsHijikataCharged3NotVenusTriggered"		
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "80PercentChance"
+		},
+		"PurifyAndExtraTurnVenusRegularLV2": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn","HijikataCounterFuseAfterTime","HijikataCounter"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsNotVenusTriggered"
+			},{
+				"selfBuffs": ["VenusRegularPassiveExtraTurnLocked"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsHijikataCharged3NotVenusTriggered"	
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "70PercentChance"
+		},
+		"PurifyAndExtraTurnVenusRegularLV1": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn","HijikataCounterFuseAfterTime","HijikataCounter"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsNotVenusTriggered"
+			},{
+				"selfBuffs": ["VenusRegularPassiveExtraTurnLocked"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsHijikataCharged3NotVenusTriggered"	
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "60PercentChance"
+		},
+		"VenusRegularPassiveExtraTurnLocked":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "VenusRegularTrigger",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"ImmunityFromSleepUntilNextTurn":{
+			"class": "Buff",
+			"stackName": "ImmunityFromSleepUntilNextTurn",
+			"behaviors": ["RemoveAfterTurnsBehavior","Immunity"],
+			"behaviorOverrides": [{
+				"turnCount": 1
+			},{
+				"stackNamesToBlock": ["Sleep"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"tags": ["SleepImmune"],
+			"iconSpriteName": "IconRedSleepInvalidZs01"
+		},
+		"ImmunityFromBurnUntilNextTurn":{
+			"class": "Buff",
+			"stackName": "ImmunityFromBurnUntilNextTurn",
+			"behaviors": ["RemoveAfterTurnsBehavior","Immunity"],
+			"behaviorOverrides": [{
+				"turnCount": 1
+			},{
+				"stackNamesToBlock": ["Burn"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"tags": ["BurnImmune"],
+			"iconSpriteName": "IconRedBurnInvalid01"
+		},
+		"StunImmunityUntilNextTurnGenericTitle": {
+			"class": "Buff",
+			"stackName": "StunImmunityUntilNextTurnGenericTitle",
+			"behaviors": ["RemoveAfterTurnsBehavior", "Immunity"],
+			"behaviorOverrides": [{
+				"turnCount": 1
+			},{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"]
+			}],
+			"iconSpriteName": "IconRedStunInvalidLightning01",
+			"tags": ["StunImmuneTemp"],
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": false
+		},
+		"PleaseDefeatMeBuff":{
+			"class": "Buff",
+			"stackName": "PleaseDefeatMeBuff",
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"PleaseDONTDefeatMeBuff":{
+			"class": "Buff",
+			"stackName": "PleaseDONTDefeatMeBuff",
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"4LevelsOfDamageReductionBasedOnAlliesOnTheBattlefieldVersion2": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage","ModifyDamage","ModifyDamage","ModifyDamage"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "IsAlone"
+			},{
+				"percent": 0.40,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "2AlliesLeftNot3"
+			},{
+				"percent": 0.30,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "3AlliesLeftNot4"
+			},{
+				"percent": 0.20,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "AtLeast4AlliesLeft"
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"BigHeartPassiveAVenusRegular": {
+			"class": "Buff",
+			"stackName": "BigHeartPassiveAVenusRegular",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["StoreEnergyHoldGround","StoreEnergyHoldGround"]
+			},{
+				"selfBuffs": ["GainStoreEnergyHoldGroundEOT"],
+				"sameTeam": true,
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"sourceBuffs": ["GainStoreEnergyHoldGroundEOT"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal100PercentVenusRegular","BrideHeal50PercentVenusRegular"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{
+				"sourceBuffs": ["AvoidAttacksIfCharged2HideText"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "IsCharged2"
+			},{
+				"sourceBuffs": ["RemoveAvoidAttacksIfCharged2"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "NotCharged2"
+			},{
+				"selfBuffs": ["EnrageAllAlliesVenusRegularEOT"],
+				"spreadCondition": "IsCharged3"	
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"AvoidAttacksIfCharged2HideText": {
+			"class": "Buff",
+			"stackName": "AvoidAttacksIfCharged2",
+			"behaviors": ["ManipulateTargeting", "BuffOnMonsterTurnEnd","Immunity"],
+			"behaviorOverrides": [{
+				"dodgeMultitarget": true,
+				"forceAllowAllEnemiesAChanceToManipulate": true,
+				"failOnAllSkills": true,
+				"chanceToBlock": 1.0,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage", "IgnoreDodge"]
+			},{
+				"sourceBuffs": ["RemoveAvoidAttacksIfCharged2"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "NotCharged2"
+			},{
+				"stackNamesToBlock": ["EmptyPlaceholder"],
+				"activateCondition": "IsCharged2"
+			}],
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"duration": -1,
+			"tags": ["AlwaysDodging"],
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconEvasion01"
+		},
+		"RemoveAvoidAttacksIfCharged2": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "AvoidAttacksIfCharged2"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"EnrageAllAlliesVenusRegularEOT": {
+			"class": "Buff",
+			"stackName": "EnrageAllAlliesVenusRegularEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["AttackPlus50Percent1TurnOnly"],
+				"numRandomToBuff": 4
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"BrideHeal50PercentVenusRegular": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions":"IsAloneAndNoReinforcements"
+		},
+		"BrideHeal100PercentVenusRegular": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 1.0,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions":"HasAllyOrHasReinforcements"
+		},
+		"GainStoreEnergyHoldGroundEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["StoreEnergyHoldGround"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Charmed50TUBuff50PercentChance": {
+			"class": "Buff",
+			"behaviors": ["StatOnly","Immunity","RemoveBuffs","RemoveBuffs","RemoveBuffs","RemoveBuffs","RemoveBuffs","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"scalorStatBonuses": {
+				"Attack": -0.9999999
+				}
+			},{	
+				"stackNamesToBlock": ["AttackPlus50Percent","AttackMinus25Percent"]
+			},{
+				"name": "AttackMinus25Percent"
+			},{
+				"name": "AttackPlus50Percent"
+			},{
+				"name": "RageCount1Icon"
+			},{
+				"name": "RageCount2Icon"
+			},{
+				"name": "RageCount3Icon"
+			},{
+				"sourceBuffs": ["PleaseDONTDefeatMeBuff"]
+			}],
+			"stackName": "IsCurrentlyCharmed",
+			"iconSpriteName": "IconRedWeak01",
+			"showAsTimer": true,
+			"duration": 50,
+			"statusEffect": "CharmStatus",
+			"applyConditions": "50PercentChance"
+		},
+		"PoisonImmunityFor50TU": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Poison"]
+			}],
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["PoisonImmune","PoisonImmuneTemp"],
+			"iconSpriteName": "IconRedPoisonInvalid01"
+		},
+		"BurnImmunityFor50TU": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Burn"]
+			}],
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["BurnImmune","BurnImmuneTemp"],
+			"iconSpriteName": "IconRedBurnInvalid01"
+		},
+		"SleepImmunityFor50TU": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Sleep"]
+			}],
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["SleepImmune","SleepImmuneTemp"],
+			"iconSpriteName": "IconRedSleepInvalidZs01"
+		},
+		"RemoveStunImmunityOnce": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "StunImmunityOnce"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Heal1500Percent":{
+			"class": "Buff",
+			"behaviors": ["AdjustHp"],
+			"behaviorOverrides": [{
+				"percentOfSourceAttack": 15.0,
+				"hpboosts": [
+					"HealBoost"
+				]
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "SmallHeal1",
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true		
+		},
+		"VenusRegularCooldown50Active3":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown2",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"VenusRegularCooldown100Active4":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
 		}
 	}
 }

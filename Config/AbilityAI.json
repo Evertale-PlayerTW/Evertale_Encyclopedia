@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1765932472,
+  "Time": 1767577522,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -28141,6 +28141,71 @@
 						"HPBelow50Percent": 1.0,
 						"HPFull": 0.89,
 						"IsProtected": 0.5
+					}
+    },
+    "SingleAttackAVenusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 1.01,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.5,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.89,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 1.0,
+						"On1HPIsProtecting": 1.0,
+						"HPBelow25Percent": 1.0,
+						"HPBelow50Percent": 1.0,
+						"HPFull": 0.89,
+						"IsProtected": 0.5
+					}
+    },
+    "CharmedBuffAVenusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2000.0
+    },
+    "AllUnitBuffAVenusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 500,
+					"aiTargetingSourceMonsterConditions":{
+					  "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0.0,
+						"SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0.0,
+						"AllAlliesAtMaxHPAndAllAlliesBurning": 0.0,
+						"AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0.0
+					}
+    },
+    "SpecialDoubleAttackAVenusRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"aiTargetingSourceMonsterConditions":{
+					    "AllEnemiesImposters": 0.0,
+						"AllEnemiesAlwaysDodging": 0.0,
+						"AllEnemiesNotProtectingDodging": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"AllEnemiesIsStealthAlt": 0.0
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.25,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.35,
+						"IsAlwaysDodging": 0.25,
+						"NotProtectingDodging": 0.25,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.89,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow25Percent": 1.0,
+						"HPFull": 0.89,
+						"IsCharmed": 1.25
 					}
     }
 }

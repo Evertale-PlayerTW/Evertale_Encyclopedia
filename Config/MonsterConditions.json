@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1766050399,
+    "Time": 1767686731,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -28,6 +28,10 @@
 	"IsLife": {
 		"class": "MonsterConditions",
 		"elements": ["Life"]
+	},
+	"TimeInCombat500": {
+		"class": "MonsterConditions",
+		"timeInCombat": 500
 	},
 	"TimeInCombat450": {
 		"class": "MonsterConditions",
@@ -28291,6 +28295,244 @@
 		"propertyToCompareToField": "fudgeSkillUsesRizetteBrave",
 		"fieldToCompareToProperty": "killsMade",
 		"propertyFieldCompareStyle": "LessThan"
+	},
+	"2AlliesIsKills1": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"Kills1": 2
+		}
+	},
+	"IsPleaseDefeatMeBuff": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["PleaseDefeatMeBuff"]
+	},
+	"IsPleaseDONTDefeatMeBuff": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["PleaseDONTDefeatMeBuff"]
+	},
+	"HasAllyOrHasReinforcements": {
+		"class": "MonsterConditions",
+		"allyTeamSize": 2,
+		"or":{
+			"class": "MonsterConditions",
+			"allyReinforcements": 1
+		}
+	},
+	"IsAloneAndNoReinforcements": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"allyTeamSize": 2
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"not": {
+			"class": "MonsterConditions",
+			"allyReinforcements": 1
+			}
+		}
+	},
+	"1AllyIsSleepingOrPoisonedOrBurning": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsSleepingPoisonedOrBurning": 1
+		}
+	},
+	"2AlliesIsSleepingOrPoisonedOrBurning": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsSleepingPoisonedOrBurning": 2
+		}
+	},
+	"3AlliesIsSleepingOrPoisonedOrBurning": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsSleepingPoisonedOrBurning": 3
+		}
+	},
+	"4AlliesIsSleepingOrPoisonedOrBurning": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsSleepingPoisonedOrBurning": 4
+		}
+	},
+	"IsSleepingPoisonedOrBurning": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Sleep"],
+		"or":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Poison"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["Burn"]
+			}
+		}
+	},
+	"IsCharmed": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["IsCurrentlyCharmed"]
+	},
+	"IsCharmedAnd60PercentChance": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["IsCurrentlyCharmed"],
+		"chance": 0.60
+	},
+	"NoEnemyIsCharmed": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsCharmed": 1
+			}
+		}
+	},
+	"IsNotAloneNoEnemyIsCharmed": {
+		"class": "MonsterConditions",
+		"allyTeamSize": 2,
+		"not": {
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsCharmed": 1
+			}
+		}
+	},
+	"NotInstantCooldown2And1AllyIsSleepingBurningOrPoisoned": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["InstantCooldown2"]
+		},
+		"and":{
+			"class": "MonsterConditions",
+				"myTeamMonsterConditionMatchesNeeded": {
+					"IsSleepingPoisonedOrBurning": 1
+			}
+		}
+	},
+	"CharmedOn10PercentMaxHPIsNotBossAndNotMirage": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["IsCurrentlyCharmed"],
+		"hpLessThanPercent": 0.1000001,
+		"not":{
+			"class": "MonsterConditions",
+			"families": ["Mibone","RedMinotaur","Eternal","Norza","Gyurelle","Druke","Luther","Cetus","GyurelleInDisguise",
+				"FloatingMageBoss","MetalDragonBoss","MaskViola","DrukeSmall","FireDragonBoss","FireLizardLancer","Gyurelle0",
+				"GyurelleInDisguise0","AstridBoss","DeathKnightBoss","TaotieBoss","AirCloakKnight","UndeadMinotaur","Darna",
+				"NorzaRegularBoss","GolemBoss","MechanicalTitan","DarkRizetteBoss","FireLich","NovaBlastDragonBoss","EarthKaijuBoss",
+				"WindDragonBoss","BabyDarkDragonBoss","MetalDragonDemon","MaskElfWarrior","DarkLudmillaBoss","LifeEyeballEX","GoldAngelEX",
+				"DarkAstridBoss","LudmillaRegularBoss","YandereMaidBoss","BunnySamuraiBoss","SchoolGirlWarriorBoss","OniSchoolGirlBoss",
+				"Orcanix","DarkFinnBoss","CyrusBoss","BahamutBoss","RoundTableKnightBoss","CrossSwordKnightBoss","MerlinRegularBoss",
+				"GyurelleRegularBoss","OssiaDarkBoss","AstridNewBoss","IbarahimeRegularBoss","CinderellaRegularBoss","SnowWhiteBoss",
+				"DarkRizetteSwimsuitBoss","LudmillaSchoolGirlBoss","RolotiaNewBoss","SnowWhiteBrideBoss","SnowBlackBrideBoss",
+				"NobunagaRegularBoss","BurnedGirlRegularBoss","DeerGirlBoss","KingArthurRegularBoss","YandereMaidRaceQueenBoss",
+				"LudmillaRacequeenBoss","LifeMinionBoss","JeanneDarkSwimsuitBoss","JeanneDarkBoss","JeanneDarkAngelBoss","HimikoRegularBoss",
+				"KaguyahimeRegularBoss","OdinRegularBoss","OdinRavenBoss","LokiRegularBoss","FreyaRegularBoss","AstridBrideBoss", "MechaSisterBrideBoss",
+				"HorseIdolGirlBoss","AntaresModernBoss","CatIdolGirlBoss","MyshaIdolGirlBoss","CleopatraRegularBoss","GilgameshRegularBoss",
+				"GokuDarkBoss","GokuDarkBossClone","OtohimeRegularBoss","CinderellaDarkBoss","CerberusRegularBoss","LudmillaYukataBoss",
+				"PercivalRegularBoss","MordredRegularBoss","IbarahimeSwimsuitBoss","RapunzelRegularBoss","LuBuRegularBoss","MusashiRegularBoss",
+				"KingArthurSwimsuitBoss","FrankensteinRegularBoss","FrankensteinRegularDollBoss","GenieRegularBoss","CinderellaSwimsuitBoss",
+				"CthulhuGirlRegularBoss","NapoleonRegularBoss","CleopatraDarkBoss","HijikataRegularBoss","OkitaRegularBoss","KaguyahimeSwimsuitBoss",
+				"ExcaliburRegularBoss","TristanRegularBoss","RoundTableKnightDarkBoss","LuciferRegularBoss","CrossSwordKnightDarkBoss",
+				"SnowWhiteMaidBoss","MurasakiRegularBoss","MermaidRegularBoss","GokuBrideBoss","GoemonRegularBoss","KojiroRegularBoss",
+				"DaVinciRegularBoss","SatanRegularBoss","DragonGirlRegularBoss","HokusaiRegularBoss","MechaSisterNewBoss","YamatoRegularBoss",
+				"ZoroRegularBoss","KaguyahimeDarkBoss","KirinGirlRegularBoss","LudmillaDarkNewBoss","ElizabethRegularBoss","YandereMaidDarkBoss",
+				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
+                "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
+                "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["MirageMonster"]
+			}
+		}
+	},
+	"IsSiegfriedRegular":{
+		"class": "MonsterConditions",
+		"families": ["SiegfriedRegular"]
+	},
+	"SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsSiegfriedRegular": 1
+		},
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"HPBelow100Percent": 1
+			}
+		}
+	},
+	"SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsSiegfriedRegular": 1
+		},
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"HPBelow100Percent": 1
+			}
+		}
+	},
+	"AllAlliesAtMaxHPAndAllAlliesBurning": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"HPBelow100Percent": 1
+			}
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"myTeamMonsterConditionMatchesNeeded": {
+					"IsNotBurning": 1
+				}	
+			}
+		}
+	},
+	"AllAlliesAtMaxHPAndAllAlliesBurningAlt": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"HPBelow100Percent": 1
+			}
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"myTeamMonsterConditionMatchesNeeded": {
+					"IsNotBurning": 1
+				}	
+			}
+		}
+	},
+	"IsNotVenusTriggered": {
+		"class":"MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["VenusRegularTrigger"]
+		}
+	},
+	"IsHijikataCharged3NotVenusTriggered": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["StealthOverdriveCounter"],
+		"buffStackCounts": [3],
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["VenusRegularTrigger"]
+		}
+	},
+	"1AllyIsBurningNotSilent": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsBurningNotSilent": 1
+		}
 	}
 }
 }

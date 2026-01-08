@@ -125987,5 +125987,364 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "VenusRegular01": {
+        "Name": "Venus",
+        "Name2": "Diosa del Amor",
+        "FullName": "Venus - Diosa del Amor",
+        "Profile": "Venus, la diosa del amor. Su belleza y gracia maternal le valieron la devoción tanto de dioses como de humanos. Pero lleva mucho tiempo cautiva en una prisión subterránea gobernada por el dios de la muerte. Su crimen: asesinar a un dios.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 28,
+        "Atk_Base": 1053,
+        "Hp_Base": 5945,
+        "Speed": 406,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Te amaré...\nhasta que te derritas.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Luz",
+            "SkillDescription": "Las unidades de Luz aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Golpe Sincero",
+                "SkillDescription": "600% de daño a 1 enemigo. Menos 100% de daño por cada aliado dormido, envenenado o en llamas en el campo de batalla (máximo de -400% si hay 4 aliados afectados). Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado de Contraofensiva. Cura al usuario el 100% del daño total infligido. El daño de este ataque no despierta a los enemigos dormidos.\n\nDespués, el objetivo golpeado se Debilita y recibe un Guarda Enfurecer. Esto sobrescribe cualquier efecto de Debilitar o Enfurecer existente en esa unidad.\n\nLas unidades Debilitadas ven su Ataque reducido a 0.75x hasta el final de su siguiente turno. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada se aumenta con otros efectos y puede sobrescribirse con efectos de Enfurecer. Los Guarda Enfurecer evitan que una unidad se enfurezca una vez y luego se eliminan. Los Guarda Enfurecer no se acumulan.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Encanto de Diosa",
+                "SkillDescription": "A todos los enemigos en el campo de batalla se les eliminan sus Guardas de Sigilo, Veneno, Sueño y Aturdir.\n\nEntonces, todos los enemigos en el campo de batalla tienen un 50% de probabilidad de ser Encantados por 50TU. Una unidad Encantada ve su ataque reducido considerablemente (por ejemplo, a 0.5x su Ataque original para una unidad sin otros modificadores de Ataque. El efecto de Encantada puede disminuir si el ataque de la unidad afectada aumenta por otros efectos ). Encanto sobrescribe los efectos de Enfurecer y Debilitar, y las unidades Encantadas no pueden ser Enfurecidas ni Debilitadas. Es menos probable que las unidades Encantadas ataquen a la unidad que las Encantó con la mayoría de sus habilidades activas. Encanto no es un efecto de estado y no puede ser eliminado por habilidades de Purificar, pero terminará si la unidad Encantada abandona el campo de batalla.\n\nEsta habilidad no se puede usar si un enemigo ya está Encantado o si el usuario está solo en el campo de batalla.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Amor Desbordante",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla por un 1500% del ataque del usuario. Elimina Sueño, Quemado y Veneno (incluyendo Sueño Profundo, Mega Quemado Sanador y Veneno Letal) de todos los aliados. Por cada tipo de estado de efectos eliminado, el usuario obtiene inmunidad a ese efecto de estado durante 50TU.\n\nLuego, todos los aliados quedan Purificados (se eliminan todos los efectos de estado negativos).\n\nSe puede usar si un aliado en el campo de batalla está ardiendo, durmiendo o envenenado. Esta habilidad se bloquea durante 50TU después de su uso.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Beso Divino",
+                "SkillDescription": "300% de daño a 2 enemigos, más un 100% por cada 100TU que el usuario haya sobrevivido en el campo de batalla (800% máximo después de 500TU). Este ataque ignora los efectos de reducción de daño del enemigo, cualquier efecto de enemigos que no sean jefes que impida derrotar al objetivo, las habilidades pasivas de piel y el efecto de estado de Contraofensiva.\n\nCuando este ataque impacta a un objetivo Encantado, que no sea jefe ni efímero, y este tiene un 10% o menos de sus HP máximos restantes después del daño, el objetivo es derrotado inmediatamente (se considera que el usuario lo ha derrotado con un ataque si tiene éxito). Este efecto ignora las habilidades pasivas de Venganza y Resurrección, y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota del enemigo.\n\nEsta habilidad se bloquea durante 100TU después de su uso.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Diosa del Amor",
+                "SkillDescription": "Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad tiene un 50% de reducción de daño por ataques, más un 10% por cada aliado en el campo de batalla (hasta un máximo del 80%).\n\nHasta el final de su primer turno en el campo de batalla, esta unidad tiene inmunidad a Sueño, a Aturdir, a Veneno y a Quemado.\n\nEsta unidad tendrá un 60% de probabilidad, más un 10% por Despertar (hasta un 100% si tiene 4 Despertares), de Purificarse y ver su TU reducida a 0, al final del turno siempre que un enemigo Encantado obtenga el turno. Si esto se activa 3 veces dentro de 50TU, no se puede volver a activar durante otras 50TU.\n\nEsta unidad no puede ser Encantada."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Hacha G. Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Hachas Grandes."
+            },
+            {
+                "SkillTitle": "Dominio Báculo",
+                "SkillDescription": "Puede usar habilidades de arma de Báculos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Báculo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Jeje, ¡mucho gusto!\nSoy Venus, ¡me puedes llamar Ve!\n¡Encantada de conocerte!\n\nSoy la diosa que gobierna el amor.\nAsí que yo también te amaré...\nhasta los huesos"
+            ],
+            "Login": [
+                "Llevo una eternidad esperándote, ¿sabes～?\nOye, ¿por qué no paramos un rato en algún lugar antes de irnos? Hagámoslo juntos y despacito♡"
+            ],
+            "Tap": [
+                "¿Eh? ¿Te preguntas si me gusta comer tantos dulces?\n¿Te preocupa el precio? No te preocupes. Soy buena amiga de la dueña de aquí♡",
+                "Sabes, también soy la diosa de la belleza.\nAsí que cuando veo a una chica guapa, ¡no puedo evitar querer hacerla aún más linda!",
+                "Ughhh... ¿esto es un pastel de verduras...?\nPuaj, no me gustan las verduras... son amargas...\nPero este pastel no es amargo. De hecho... ¡está buenísimo!"
+            ],
+            "Idle": [
+                "Mmm, qué aburrido... Quizás le vaya a tentar a alguien un rato...\nO quizás encuentre a alguien agradable y me divierta un poco...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Golpe Sincero": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Encanto de Diosa": {
+                    "BaseWeight": 2000
+                },
+                "Amor Desbordante": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Beso Divino": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        }
+    },
+    "VenusRegular02": {
+        "Name": "Venus",
+        "Name2": "Diosa del Amor",
+        "FullName": "Venus - Diosa del Amor",
+        "Profile": "Sin embargo, los rumores dicen que un dios, enloquecido de amor por ella, fue consumido por los celos e intentó matarla... sólo para caer muerto él mismo... En otras palabras, fue en defensa propia. Sin embargo, cada vez que alguien le pregunta la verdad, ella sólo ofrece una sonrisa misteriosa.",
+        "Profile_Ascended": "Y así, el pueblo, escapando de la destrucción del dios extranjero, desconfiaba de la diosa ahora liberada. ¿Será realmente una aliada...? Y, sin embargo, con el tiempo, sus corazones volvieron a ser atraídos hacia ella, hacia lo más profundo de sus ojos, aunque nadie conocía sus verdaderas intenciones.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 34,
+        "Atk_Base": 1344,
+        "Hp_Base": 7700,
+        "Speed": 406,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Luz",
+            "SkillDescription": "Las unidades de Luz aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Golpe Sincero",
+                "SkillDescription": "600% de daño a 1 enemigo. Menos 100% de daño por cada aliado dormido, envenenado o en llamas en el campo de batalla (máximo de -400% si hay 4 aliados afectados). Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado de Contraofensiva. Cura al usuario el 100% del daño total infligido. El daño de este ataque no despierta a los enemigos dormidos.\n\nDespués, el objetivo golpeado se Debilita y recibe un Guarda Enfurecer. Esto sobrescribe cualquier efecto de Debilitar o Enfurecer existente en esa unidad.\n\nLas unidades Debilitadas ven su Ataque reducido a 0.75x hasta el final de su siguiente turno. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada se aumenta con otros efectos y puede sobrescribirse con efectos de Enfurecer. Los Guarda Enfurecer evitan que una unidad se enfurezca una vez y luego se eliminan. Los Guarda Enfurecer no se acumulan.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Encanto de Diosa",
+                "SkillDescription": "A todos los enemigos en el campo de batalla se les eliminan sus Guardas de Sigilo, Veneno, Sueño y Aturdir.\n\nEntonces, todos los enemigos en el campo de batalla tienen un 50% de probabilidad de ser Encantados por 50TU. Una unidad Encantada ve su ataque reducido considerablemente (por ejemplo, a 0.5x su Ataque original para una unidad sin otros modificadores de Ataque. El efecto de Encantada puede disminuir si el ataque de la unidad afectada aumenta por otros efectos ). Encanto sobrescribe los efectos de Enfurecer y Debilitar, y las unidades Encantadas no pueden ser Enfurecidas ni Debilitadas. Es menos probable que las unidades Encantadas ataquen a la unidad que las Encantó con la mayoría de sus habilidades activas. Encanto no es un efecto de estado y no puede ser eliminado por habilidades de Purificar, pero terminará si la unidad Encantada abandona el campo de batalla.\n\nEsta habilidad no se puede usar si un enemigo ya está Encantado o si el usuario está solo en el campo de batalla.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Amor Desbordante",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla por un 1500% del ataque del usuario. Elimina Sueño, Quemado y Veneno (incluyendo Sueño Profundo, Mega Quemado Sanador y Veneno Letal) de todos los aliados. Por cada tipo de estado de efectos eliminado, el usuario obtiene inmunidad a ese efecto de estado durante 50TU.\n\nLuego, todos los aliados quedan Purificados (se eliminan todos los efectos de estado negativos).\n\nSe puede usar si un aliado en el campo de batalla está ardiendo, durmiendo o envenenado. Esta habilidad se bloquea durante 50TU después de su uso.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Beso Divino",
+                "SkillDescription": "300% de daño a 2 enemigos, más un 100% por cada 100TU que el usuario haya sobrevivido en el campo de batalla (800% máximo después de 500TU). Este ataque ignora los efectos de reducción de daño del enemigo, cualquier efecto de enemigos que no sean jefes que impida derrotar al objetivo, las habilidades pasivas de piel y el efecto de estado de Contraofensiva.\n\nCuando este ataque impacta a un objetivo Encantado, que no sea jefe ni efímero, y este tiene un 10% o menos de sus HP máximos restantes después del daño, el objetivo es derrotado inmediatamente (se considera que el usuario lo ha derrotado con un ataque si tiene éxito). Este efecto ignora las habilidades pasivas de Venganza y Resurrección, y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota del enemigo.\n\nEsta habilidad se bloquea durante 100TU después de su uso.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Diosa del Amor",
+                "SkillDescription": "Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad tiene un 50% de reducción de daño por ataques, más un 10% por cada aliado en el campo de batalla (hasta un máximo del 80%).\n\nHasta el final de su primer turno en el campo de batalla, esta unidad tiene inmunidad a Sueño, a Aturdir, a Veneno y a Quemado.\n\nEsta unidad tendrá un 60% de probabilidad, más un 10% por Despertar (hasta un 100% si tiene 4 Despertares), de Purificarse y ver su TU reducida a 0, al final del turno siempre que un enemigo Encantado obtenga el turno. Si esto se activa 3 veces dentro de 50TU, no se puede volver a activar durante otras 50TU.\n\nEsta unidad no puede ser Encantada."
+            },
+            {
+                "SkillTitle": "Belleza Infinita",
+                "SkillDescription": "Esta unidad entra en batalla con 2 Cargas. Si fuera a ser derrotada mientras aún tiene cargas, consumirá 1 carga para sobrevivir con 1 HP restante. Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas.\n\nEsta unidad obtendrá una Carga al final del turno cada vez que:\n- un aliado obtenga el turno.\n- un aliado no conjurado en el campo de batalla sea derrotado o sacrificado por cualquier causa.\n\nSi esta unidad tiene al menos:\n- 2 Cargas, ignorará los ataques que dañen exactamente a 2 objetivos. Los ataques que tengan como objetivo a todos los aliados no serán ignorados.\n- 3 Cargas al comienzo de su turno, esta unidad Enfurecerá a todos los aliados en el campo de batalla al final de ese turno. El ataque de una unidad Enfurecida aumenta a 1.5x hasta el final de su siguiente turno. Enfurecer sobrescribirá cualquier efecto de Debilitar o Enfurecer existente en el usuario.\n\nCada vez que esta unidad reciba daño de un ataque y sobreviva hasta el final del turno, se purificará y recuperará el 50% de sus HP máximos. Esta curación aumenta al 100% si la unidad tiene aliados en el campo de batalla o refuerzos."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Hacha G. Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Hachas Grandes."
+            },
+            {
+                "SkillTitle": "Dominio Báculo",
+                "SkillDescription": "Puede usar habilidades de arma de Báculos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Báculo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Jeje, ¡mucho gusto!\nSoy Venus, ¡me puedes llamar Ve!\n¡Encantada de conocerte!\n\nSoy la diosa que gobierna el amor.\nAsí que yo también te amaré...\nhasta los huesos"
+            ],
+            "Login": [
+                "Llevo una eternidad esperándote, ¿sabes～?\nOye, ¿por qué no paramos un rato en algún lugar antes de irnos? Hagámoslo juntos y despacito♡"
+            ],
+            "Tap": [
+                "¿Eh? ¿Te preguntas si me gusta comer tantos dulces?\n¿Te preocupa el precio? No te preocupes. Soy buena amiga de la dueña de aquí♡",
+                "Sabes, también soy la diosa de la belleza.\nAsí que cuando veo a una chica guapa, ¡no puedo evitar querer hacerla aún más linda!",
+                "Ughhh... ¿esto es un pastel de verduras...?\nPuaj, no me gustan las verduras... son amargas...\nPero este pastel no es amargo. De hecho... ¡está buenísimo!"
+            ],
+            "Idle": [
+                "Mmm, qué aburrido... Quizás le vaya a tentar a alguien un rato...\nO quizás encuentre a alguien agradable y me divierta un poco...♡"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.2,
+                "TimeInCombat200": 1.01,
+                "TimeInCombat300": 1.1,
+                "IsPleaseDONTDefeatMeBuff": 0.001
+            },
+            "SkillUse": {
+                "Golpe Sincero": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 1.01,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.5,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 1,
+                        "On1HPIsProtecting": 1,
+                        "HPBelow25Percent": 1,
+                        "HPBelow50Percent": 1,
+                        "HPFull": 0.89,
+                        "IsProtected": 0.5
+                    }
+                },
+                "Encanto de Diosa": {
+                    "BaseWeight": 2000
+                },
+                "Amor Desbordante": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
+                        "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHPAlt": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurning": 0,
+                        "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
+                    }
+                },
+                "Beso Divino": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsCharmed": 1.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

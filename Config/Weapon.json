@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1765933118,
+  "Time": 1766120962,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15628,7 +15628,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "ZeusLightningGreatAxe02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "ZeusLightningGreatAxe02",
@@ -15648,7 +15649,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "ZeusLightningGreatAxe03",
       "evolveFrom": "ZeusLightningGreatAxe01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "ZeusLightningGreatAxe03",
@@ -15667,7 +15669,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "ZeusLightningGreatAxe02",
-      "cost": 23
+      "cost": 23,
+      "visible": 1
     },
     {
       "name": "BlueDragonSword01",
@@ -15686,7 +15689,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "BlueDragonSword02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "BlueDragonSword02",
@@ -15706,7 +15710,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "BlueDragonSword03",
       "evolveFrom": "BlueDragonSword01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "BlueDragonSword03",
@@ -15725,6 +15730,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "BlueDragonSword02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "VenusSeaShellMace01",
+      "family": "VenusSeaShellMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc4MultipleAllies1KillPlus"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 410,
+      "baseMaxHp": 3325,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "VenusSeaShellMace02",
+      "cost": 11
+    },
+    {
+      "name": "VenusSeaShellMace02",
+      "family": "VenusSeaShellMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc5MultipleAllies1KillPlus"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 523,
+      "baseMaxHp": 3885,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "VenusSeaShellMace03",
+      "evolveFrom": "VenusSeaShellMace01",
+      "cost": 17
+    },
+    {
+      "name": "VenusSeaShellMace03",
+      "family": "VenusSeaShellMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc6MultipleAllies1KillPlus"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 557,
+      "baseMaxHp": 4215,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "VenusSeaShellMace02",
       "cost": 23
     }
   ]

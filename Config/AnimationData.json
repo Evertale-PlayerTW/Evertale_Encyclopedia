@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1765904119,
+  "Time": 1767548834,
   "AnimationData": {
     "AnimationData": [
       {
@@ -44834,6 +44834,30 @@
         "endOfTurnDelay": 1.2,
         "fadeMonsterDelay": 0,
         "fadeMonsterDuration": 3.4
+      },
+      {
+        "config": "default",
+        "attack": "SingleAttackAVenusRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "VenusAttack1"
+      },
+      {
+        "config": "default",
+        "attack": "CharmedBuffAVenusRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "VenusCharm"
+      },
+      {
+        "config": "default",
+        "attack": "AllUnitBuffAVenusRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "VenusLovePotion"
+      },
+      {
+        "config": "default",
+        "attack": "SpecialDoubleAttackAVenusRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "VenusSpecial1"
       }
     ]
   }

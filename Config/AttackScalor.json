@@ -1,7 +1,12 @@
 {
 	"Version": 23,
-	"Time": 1765932627,
+	"Time": 1766120304,
 	"AttackScalor": {
+		"TimeInCombat500":
+		{
+			"class":"AttackScalor",
+			"sourceCondition":"TimeInCombat500"
+		},
 		"TimeInCombat450":
 		{
 			"class":"AttackScalor",
@@ -673,6 +678,22 @@
 		"GoodWith4BurningsUnits":{
 			"class": "AttackScalor",
 			"sourceCondition": "AtLeast4BurningInBattle"
+		},
+		"GoodWith1BadHealthAlly":{
+			"class": "AttackScalor",
+			"sourceCondition": "1AllyIsSleepingOrPoisonedOrBurning"
+		},
+		"GoodWith2BadHealthAllies":{
+			"class": "AttackScalor",
+			"sourceCondition": "2AlliesIsSleepingOrPoisonedOrBurning"
+		},
+		"GoodWith3BadHealthAllies":{
+			"class": "AttackScalor",
+			"sourceCondition": "3AlliesIsSleepingOrPoisonedOrBurning"
+		},
+		"GoodWith4BadHealthAllies":{
+			"class": "AttackScalor",
+			"sourceCondition": "4AlliesIsSleepingOrPoisonedOrBurning"
 		}
 	}
 }
