@@ -17859,6 +17859,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -18235,6 +18246,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -19331,6 +19353,17 @@
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -19686,6 +19719,17 @@
                     "AnastasiaRegular01",
                     "CatEaredFighter01",
                     "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
@@ -27250,6 +27294,17 @@
                     "WaterElfWarrior01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -27454,6 +27509,17 @@
                     "MonsterBoy01",
                     "TwoFaceDemon01",
                     "WaterElfWarrior01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -125806,6 +125872,19 @@
                     "BaseWeight": 150
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
         }
     },
     "RizetteBrave02": {
@@ -125986,13 +126065,26 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
     },
     "VenusRegular01": {
-        "Name": "Venus",
-        "Name2": "Goddess of Love",
-        "FullName": "Venus - Goddess of Love",
-        "Profile": "Venus, the goddess of love. Her beauty and maternal grace earned her the devotion of both gods and humans alike. But she has long been captive in an underground prison governed by the god of death. Her crime—murdering a god.",
+        "Name": "维纳斯",
+        "Name2": "诱惑的女神",
+        "FullName": "维纳斯 - 诱惑的女神",
+        "Profile": "爱神维纳斯曾因其美貌和母性本能而受到众神和凡人的共同崇拜。然而，她却被死神囚禁在地下牢房\n中多年。她的罪名是——弑神。",
         "Rarity": "SSR",
         "Stars": "★★★★★☆",
         "Stars_Curr": 5,
@@ -126006,41 +126098,41 @@
         "Speed": 406,
         "Power": 134520,
         "Visible": false,
-        "GachaIntro": "I'll love you...\nuntil you melt.",
+        "GachaIntro": "我的爱\n能将你融化",
         "LeaderSkill": {
             "SkillTitle": "光属性强化",
             "SkillDescription": "所有光属性队友的攻击力增加10%且最大生命值增加7%"
         },
         "ActiveSkill": [
             {
-                "SkillTitle": "Heartfelt Strike",
-                "SkillDescription": "600% damage to 1 enemy. Minus 100% damage for each sleeping, burning or poisoned ally on the battlefield (max of -400% if there are 4 affected allies). This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect. Heals the user for 100% of total damage dealt. Damage from this attack does not wake up sleeping enemies.\n\nThen the target hit will become Weakened, and is granted a Rage ward. This will overwrite any existing Weak or Enrage effects on that unit.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects. Rage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack.",
+                "SkillTitle": "爱心之斩",
+                "SkillDescription": "对1个敌人造成600%的伤害，己方场上每存在1个处于睡眠、燃烧或中毒状态的单位减少100%伤害。此攻击无视目标的减伤效果、反弹被动技能与反击态势状态效果。使用者回复造成伤害100%的生命值。受到此攻击伤害的敌方单位攻击力减低0.25倍直到其下一个回合结束并获得狂热抵抗。虚弱的效果会因其他提升攻击力的效果二减弱且会被狂热效果覆盖。狂热抵抗会防止该单位下一次获得狂热效果，然后狂热抵抗会被移除。",
                 "TU": 70,
                 "Spirit": "+3"
             },
             {
-                "SkillTitle": "Goddess Charm",
-                "SkillDescription": "All enemies on the battlefield have their Stealth, Poison Wards, Sleep Wards and Stun Wards removed.\n\nThen all enemies on the battlefield have a 50% chance each to be Charmed for 50TU. A Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield.\n\nThis skill cannot be used if an enemy is already Charmed or if the user is alone on the battlefield.",
+                "SkillTitle": "女神魅力",
+                "SkillDescription": "移除场上所有敌方单位的匿踪状态、中毒抵抗、睡眠抵抗与眩晕抵抗。\n每个敌方单位各自有50％的概率被魅惑50TU。被魅惑的单位攻击力大幅降低（降低至原本攻击力的0.5倍）。魅惑会覆盖狂热或虚弱效果且不会被狂热或虚弱效果覆盖。魅惑不是状态效果，无法被净化。被魅惑的单位离场时魅惑将被移除。\n仅当场上存在其他己方单位且不存在被魅惑的敌方单位时可以使用。",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
-                "SkillTitle": "Overflowing Love",
-                "SkillDescription": "Heals all allies on the battlefield for 1500% of the user's attack. Removes Sleep, Burn and Poison (including Deep Sleep, Mega Healing Burn, and Lethal Poison) from all allies. For each type of status effect removed, the user is granted an immunity to that status effect for 50TU.\n\nThen all allies are Purified (any negative status effects are removed).\n\nUsable if an ally on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "爱之祝福",
+                "SkillDescription": "回复场上所有己方单位相当于使用者攻击力1500%的生命值并移除其任何睡眠、燃烧或中毒状态。每移除一个负面状态效果，使用者获得对应的状态效果免疫50TU。然后净化所有己方单位。\n仅当场上存在处于燃烧、睡眠或中毒状态的己方单位时可以使用。此技能每次使用后有50TU的冷却时间。",
                 "TU": 1,
                 "Spirit": "-1"
             },
             {
-                "SkillTitle": "Divine Kiss",
-                "SkillDescription": "300% damage to 2 enemies, plus 100% for each 100TU the user has survived on the battlefield (800% max after 500TU). This attack ignores enemy damage reduction effects, any effects of non-boss enemies that would prevent the target from being defeated, skin passive skills, and the Counter Stance status effect.\n\nWhen this attack hits a Charmed, non-boss, non-Ephemeral target and that target has 10% or less of max HP remaining after damage, that target is immediately defeated (the user is considered to have defeated the target with an attack if successful). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the enemy from being defeated.\n\nThis skill becomes locked for 100TU after use.",
+                "SkillTitle": "女神之吻",
+                "SkillDescription": "对2个敌人造成300％的伤害，此单位进场后每经过100TU伤害上升100％，至多上升为800％。此攻击无视目标的减伤效果、非BOSS单位防止目标被击败的技能效果、反弹被动技能与反击态势状态效果。\n若被魅惑的非BOSS非幻影目标在受到此攻击伤害后生命值不高于最大值的10％，则将其立即击败。此单位被视为通过攻击击败该目标。此效果无视目标的诅咒或祝福被动技能、复活被动技能与防止目标被击败的被动技能或主动技能效果。\n此技能每次使用后有100TU的冷却时间。",
                 "TU": 50,
                 "Spirit": "-3"
             }
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Goddess Of Love",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit has 50% damage reduction from attacks, plus 10% for each other ally on the battlefield (up to 80% max).\n\nUntil the end of this unit's first turn while on the battlefield, this unit has Sleep immunity, Stun Immunity, Poison Immunity and Burn Immunity.\n\nThis unit will have a 60% chance, plus 10% per Awakening (up to 100% chance if this unit has 4 Awakenings) to become Purified and have its TU reduced to 0, at the end of the turn, whenever a Charmed enemy gets the turn. If this is triggered 3 times within 50TU, it cannot trigger again for 50TU.\n\nThis unit cannot be Charmed."
+                "SkillTitle": "诱惑女神",
+                "SkillDescription": "此单位无法从场上回到援军队伍。此单位受到的攻击伤害减少50％，且场上每存在1个其他队友，此减伤效果增加10％。\n此单位进场后直到其第一个回合结束，此单位免疫睡眠、眩晕、中毒与燃烧。每当一个被魅惑的敌方单位获得回合并在该回合结束时仍存活时，此单位有60％概率净化自身且TU归零立即获得下一个回合。此单位每觉醒一次，此效果触发概率增加10%。若此效果在50TU内触发了3次，则在接下来的50TU内此效果无法再次触发。\n此单位无法被魅惑。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -126072,18 +126164,18 @@
         },
         "Dialog": {
             "Gacha": [
-                "Hehe, nice to meet you!\nI'm Venus, call me Vee!\nNice to meet you!\n\nI'm the goddess who presides over love.\nSo I'll love you, too...\ndown to your very bones"
+                "呵呵，初次见面！我的名字是维纳斯，很高兴认识你！我是爱神。所以我会爱你至死不渝♡"
             ],
             "Login": [
-                "I've been waiting forever, you know～\nHey, why don't we stop somewhere and take a break before we head out? Let's take it nice and slow together♡"
+                "我等了好久了，你知道吗～\n嘿，不如我们找个地方停下来休息一下再出发吧？让我们一起慢慢享受\n这段时光♡"
             ],
             "Tap": [
-                "Huh? You're wondering if I'm fine eating so many sweets?\nAre you worried about the cost? Then rest assured. I'm good friends with the owner here～♡",
-                "You know, I'm also the goddess of beauty.\nSo when I see a cute girl, I just can't help but want to make her even cuter!",
-                "Ughhh... is this a vegetable cake...?\nEww, I don't like vegetables...they're bitter...\nBut this cake isn't bitter. Actually... it's really good!"
+                "咦？你是在担心我吃这么多甜食会不会有问题吗？\n你是在担心价格吗？别担心，我和这家店的老板\n是好朋友哦～♡",
+                "你知道吗，我也是美神。\n所以当我看到可爱的女孩子时，我就忍不住想让她变得更可爱！",
+                "呃……这是蔬菜蛋糕吗？\n呃，我不喜欢蔬菜……它们很苦……\n但是这个蛋糕不苦。实际上……真的很\n好吃！"
             ],
             "Idle": [
-                "Mmm, sooo bored... Maybe I'll tease someone for a bit...\nOr maybe I'll find someone nice and have some fun instead...♡"
+                "嗯，好无聊……也许我会逗逗别人……\n或者也许我会找个好人一起玩玩……♡"
             ]
         },
         "AiLogic": {
@@ -126095,7 +126187,7 @@
                 "IsPleaseDONTDefeatMeBuff": 0.001
             },
             "SkillUse": {
-                "Heartfelt Strike": {
+                "爱心之斩": {
                     "BaseWeight": 1,
                     "Ignore": [
                         "IsSleeping"
@@ -126120,10 +126212,10 @@
                         "IsProtected": 0.5
                     }
                 },
-                "Goddess Charm": {
+                "女神魅力": {
                     "BaseWeight": 2000
                 },
-                "Overflowing Love": {
+                "爱之祝福": {
                     "BaseWeight": 500,
                     "Source": {
                         "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
@@ -126132,7 +126224,7 @@
                         "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
                     }
                 },
-                "Divine Kiss": {
+                "女神之吻": {
                     "BaseWeight": 5,
                     "Source": {
                         "AllEnemiesImposters": 0,
@@ -126163,14 +126255,27 @@
                     }
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
         }
     },
     "VenusRegular02": {
-        "Name": "Venus",
-        "Name2": "Goddess of Love",
-        "FullName": "Venus - Goddess of Love",
-        "Profile": "However, it is rumored that a god driven mad with love for her was consumed by jealousy and tried to kill her, only to be struck down instead... in other words, it was self-defense. Yet whenever one asks her about the truth, she offers nothing but a mysterious smile.",
-        "Profile_Ascended": "And so, the people, escaping the destruction of the foreign god, remained wary of the now-freed goddess. Is she truly an ally...? And yet, in time, their hearts were once again drawn toward her—toward the depths of her eyes, though none knew of her true intentions.",
+        "Name": "维纳斯",
+        "Name2": "诱惑的女神",
+        "FullName": "维纳斯 - 诱惑的女神",
+        "Profile": "然而，传闻说，实际上是一位神明疯狂地爱上了她，并因嫉妒而试图杀死她，结果却被她反杀——这\n意味着那完全是一场冤案。然而，当被问及真相时，她只是神秘地微笑",
+        "Profile_Ascended": "这就是为什么那些曾被异神追赶的人们，在她挣脱枷锁之后，对她心存戒备。她真的是盟友吗？然\n而，他们还没反应过来，人们的心又被她吸引了。被她那双深邃的眼睛所吸引，那双眼睛里隐藏着无\n人知晓的真实意图。",
         "Rarity": "SSR",
         "Stars": "★★★★★★",
         "Stars_Curr": 6,
@@ -126190,38 +126295,38 @@
         },
         "ActiveSkill": [
             {
-                "SkillTitle": "Heartfelt Strike",
-                "SkillDescription": "600% damage to 1 enemy. Minus 100% damage for each sleeping, burning or poisoned ally on the battlefield (max of -400% if there are 4 affected allies). This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect. Heals the user for 100% of total damage dealt. Damage from this attack does not wake up sleeping enemies.\n\nThen the target hit will become Weakened, and is granted a Rage ward. This will overwrite any existing Weak or Enrage effects on that unit.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects. Rage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack.",
+                "SkillTitle": "爱心之斩",
+                "SkillDescription": "对1个敌人造成600%的伤害，己方场上每存在1个处于睡眠、燃烧或中毒状态的单位减少100%伤害。此攻击无视目标的减伤效果、反弹被动技能与反击态势状态效果。使用者回复造成伤害100%的生命值。受到此攻击伤害的敌方单位攻击力减低0.25倍直到其下一个回合结束并获得狂热抵抗。虚弱的效果会因其他提升攻击力的效果二减弱且会被狂热效果覆盖。狂热抵抗会防止该单位下一次获得狂热效果，然后狂热抵抗会被移除。",
                 "TU": 70,
                 "Spirit": "+3"
             },
             {
-                "SkillTitle": "Goddess Charm",
-                "SkillDescription": "All enemies on the battlefield have their Stealth, Poison Wards, Sleep Wards and Stun Wards removed.\n\nThen all enemies on the battlefield have a 50% chance each to be Charmed for 50TU. A Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield.\n\nThis skill cannot be used if an enemy is already Charmed or if the user is alone on the battlefield.",
+                "SkillTitle": "女神魅力",
+                "SkillDescription": "移除场上所有敌方单位的匿踪状态、中毒抵抗、睡眠抵抗与眩晕抵抗。\n每个敌方单位各自有50％的概率被魅惑50TU。被魅惑的单位攻击力大幅降低（降低至原本攻击力的0.5倍）。魅惑会覆盖狂热或虚弱效果且不会被狂热或虚弱效果覆盖。魅惑不是状态效果，无法被净化。被魅惑的单位离场时魅惑将被移除。\n仅当场上存在其他己方单位且不存在被魅惑的敌方单位时可以使用。",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
-                "SkillTitle": "Overflowing Love",
-                "SkillDescription": "Heals all allies on the battlefield for 1500% of the user's attack. Removes Sleep, Burn and Poison (including Deep Sleep, Mega Healing Burn, and Lethal Poison) from all allies. For each type of status effect removed, the user is granted an immunity to that status effect for 50TU.\n\nThen all allies are Purified (any negative status effects are removed).\n\nUsable if an ally on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "爱之祝福",
+                "SkillDescription": "回复场上所有己方单位相当于使用者攻击力1500%的生命值并移除其任何睡眠、燃烧或中毒状态。每移除一个负面状态效果，使用者获得对应的状态效果免疫50TU。然后净化所有己方单位。\n仅当场上存在处于燃烧、睡眠或中毒状态的己方单位时可以使用。此技能每次使用后有50TU的冷却时间。",
                 "TU": 1,
                 "Spirit": "-1"
             },
             {
-                "SkillTitle": "Divine Kiss",
-                "SkillDescription": "300% damage to 2 enemies, plus 100% for each 100TU the user has survived on the battlefield (800% max after 500TU). This attack ignores enemy damage reduction effects, any effects of non-boss enemies that would prevent the target from being defeated, skin passive skills, and the Counter Stance status effect.\n\nWhen this attack hits a Charmed, non-boss, non-Ephemeral target and that target has 10% or less of max HP remaining after damage, that target is immediately defeated (the user is considered to have defeated the target with an attack if successful). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the enemy from being defeated.\n\nThis skill becomes locked for 100TU after use.",
+                "SkillTitle": "女神之吻",
+                "SkillDescription": "对2个敌人造成300％的伤害，此单位进场后每经过100TU伤害上升100％，至多上升为800％。此攻击无视目标的减伤效果、非BOSS单位防止目标被击败的技能效果、反弹被动技能与反击态势状态效果。\n若被魅惑的非BOSS非幻影目标在受到此攻击伤害后生命值不高于最大值的10％，则将其立即击败。此单位被视为通过攻击击败该目标。此效果无视目标的诅咒或祝福被动技能、复活被动技能与防止目标被击败的被动技能或主动技能效果。\n此技能每次使用后有100TU的冷却时间。",
                 "TU": 50,
                 "Spirit": "-3"
             }
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Goddess Of Love",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit has 50% damage reduction from attacks, plus 10% for each other ally on the battlefield (up to 80% max).\n\nUntil the end of this unit's first turn while on the battlefield, this unit has Sleep immunity, Stun Immunity, Poison Immunity and Burn Immunity.\n\nThis unit will have a 60% chance, plus 10% per Awakening (up to 100% chance if this unit has 4 Awakenings) to become Purified and have its TU reduced to 0, at the end of the turn, whenever a Charmed enemy gets the turn. If this is triggered 3 times within 50TU, it cannot trigger again for 50TU.\n\nThis unit cannot be Charmed."
+                "SkillTitle": "诱惑女神",
+                "SkillDescription": "此单位无法从场上回到援军队伍。此单位受到的攻击伤害减少50％，且场上每存在1个其他队友，此减伤效果增加10％。\n此单位进场后直到其第一个回合结束，此单位免疫睡眠、眩晕、中毒与燃烧。每当一个被魅惑的敌方单位获得回合并在该回合结束时仍存活时，此单位有60％概率净化自身且TU归零立即获得下一个回合。此单位每觉醒一次，此效果触发概率增加10%。若此效果在50TU内触发了3次，则在接下来的50TU内此效果无法再次触发。\n此单位无法被魅惑。"
             },
             {
-                "SkillTitle": "Boundless Beauty",
-                "SkillDescription": "This unit enters battle with 2 Charges. If this unit would be defeated while it has any charges, this unit will consume 1 charge to survive with 1HP remaining instead. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges.\n\nThis unit will gain a Charge at the end of the turn each time:\n- an ally gets the turn.\n- a non-conjured ally on the battlefield is defeated or sacrificed by any source.\n\nIf this unit has at least:\n- 2 Charges, it will ignore attacks that would damage exactly 2 targets. Attacks that target all allies will not be ignored.\n- 3 Charges at the start of its turn, this unit will Enrage all allies on the battlefield at the end of that turn. An Enraged unit's attack is increased to 1.5x until the end of their next turn. Enrage will overwrite any existing Weak or Enrage effects on the user.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, and heal for 50% of its max HP. This heal is increased to 100% if this unit has any allies on the battlefield or in reinforcements."
+                "SkillTitle": "女神之爱",
+                "SkillDescription": "此单位进场时获得2个“能量值”。有能量值的此单位将要被击败时，消耗1个能量值使此单位以1生命值存活。特定的技能会消耗能量值。一个单位至多有3个能量值。\n每当队友获得回合时或场上非召唤物队友被击败或牺牲时，此单位获得1个能量值。\n有至少2个能量值的此单位无视敌方的双体攻击；有3个能量值的此单位回合开始时，场上所有己方单位攻击力变为1.5倍直到其下一个回合结束。此效果会覆盖原先的狂热或虚弱效果。\n每当此单位受到攻击伤害并在该回合结束时仍然存活，此单位净化自身并回复最大生命值的50％。若此场上或援军队伍存在其他己方单位，此回复效果提升至100％。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -126253,18 +126358,18 @@
         },
         "Dialog": {
             "Gacha": [
-                "Hehe, nice to meet you!\nI'm Venus, call me Vee!\nNice to meet you!\n\nI'm the goddess who presides over love.\nSo I'll love you, too...\ndown to your very bones"
+                "呵呵，初次见面！我的名字是维纳斯，很高兴认识你！我是爱神。所以我会爱你至死不渝♡"
             ],
             "Login": [
-                "I've been waiting forever, you know～\nHey, why don't we stop somewhere and take a break before we head out? Let's take it nice and slow together♡"
+                "我等了好久了，你知道吗～\n嘿，不如我们找个地方停下来休息一下再出发吧？让我们一起慢慢享受\n这段时光♡"
             ],
             "Tap": [
-                "Huh? You're wondering if I'm fine eating so many sweets?\nAre you worried about the cost? Then rest assured. I'm good friends with the owner here～♡",
-                "You know, I'm also the goddess of beauty.\nSo when I see a cute girl, I just can't help but want to make her even cuter!",
-                "Ughhh... is this a vegetable cake...?\nEww, I don't like vegetables...they're bitter...\nBut this cake isn't bitter. Actually... it's really good!"
+                "咦？你是在担心我吃这么多甜食会不会有问题吗？\n你是在担心价格吗？别担心，我和这家店的老板\n是好朋友哦～♡",
+                "你知道吗，我也是美神。\n所以当我看到可爱的女孩子时，我就忍不住想让她变得更可爱！",
+                "呃……这是蔬菜蛋糕吗？\n呃，我不喜欢蔬菜……它们很苦……\n但是这个蛋糕不苦。实际上……真的很\n好吃！"
             ],
             "Idle": [
-                "Mmm, sooo bored... Maybe I'll tease someone for a bit...\nOr maybe I'll find someone nice and have some fun instead...♡"
+                "嗯，好无聊……也许我会逗逗别人……\n或者也许我会找个好人一起玩玩……♡"
             ]
         },
         "AiLogic": {
@@ -126276,7 +126381,7 @@
                 "IsPleaseDONTDefeatMeBuff": 0.001
             },
             "SkillUse": {
-                "Heartfelt Strike": {
+                "爱心之斩": {
                     "BaseWeight": 1,
                     "Ignore": [
                         "IsSleeping"
@@ -126301,10 +126406,10 @@
                         "IsProtected": 0.5
                     }
                 },
-                "Goddess Charm": {
+                "女神魅力": {
                     "BaseWeight": 2000
                 },
-                "Overflowing Love": {
+                "爱之祝福": {
                     "BaseWeight": 500,
                     "Source": {
                         "SiegfriedRegularAllyOnBattlefieldAndAllAlliesAtMaxHP": 0,
@@ -126313,7 +126418,7 @@
                         "AllAlliesAtMaxHPAndAllAlliesBurningAlt": 0
                     }
                 },
-                "Divine Kiss": {
+                "女神之吻": {
                     "BaseWeight": 5,
                     "Source": {
                         "AllEnemiesImposters": 0,
@@ -126345,6 +126450,19 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使誓约",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
     }
 }

@@ -17861,6 +17861,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -18237,6 +18248,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -19333,6 +19355,17 @@
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -19688,6 +19721,17 @@
                     "AnastasiaRegular01",
                     "CatEaredFighter01",
                     "HighAngelSoldier01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
@@ -27252,6 +27296,17 @@
                     "WaterElfWarrior01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -27456,6 +27511,17 @@
                     "MonsterBoy01",
                     "TwoFaceDemon01",
                     "WaterElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -125808,6 +125874,19 @@
                     "BaseWeight": 150
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
         }
     },
     "RizetteBrave02": {
@@ -125988,7 +126067,20 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
     },
     "VenusRegular01": {
         "Name": "ヴィーナス",
@@ -126022,7 +126114,7 @@
             },
             {
                 "SkillTitle": "チャーミング",
-                "SkillDescription": "場にいる全ての敵の、ステルス状態及びワンタイムアンチポイズン、ワンタイムアンチスリープ、ワンタイムアンチスタンを解除する。\nその後、場にいる全ての敵に、それぞれ50%の確率で「チャーム」(50TU持続)を付与する。\n\nすでにチャーム状態の敵が場にいると使用できず、また場にいる味方が自身のみの場合も使用できない。\n\n-チャーム状態のキャラは、攻撃力が元の攻撃力の0.5倍になる。この効果は、他の効果によって攻撃力が増加している場合、減少することがある。チャーム状態のキャラは、そのキャラにチャーム状態を付与した敵を攻撃の対象に選択しにくくなる。チャーム状態は「アンガー」系及び「怯え」系の効果を上書きするが、逆にこれらの効果には上書きされない。チャーム状態は状態変化ではなく、状態変化を上書きしたり状態変化に上書きされることがない。また、クリア系の効果でも解除されない。チャーム状態は、場を離れると解除される。",
+                "SkillDescription": "場にいる全ての敵の、ステルス状態及びワンタイムアンチポイズン、ワンタイムアンチスリープ、ワンタイムアンチスタンを解除する。\nその後、場にいる全ての敵に、それぞれ50%の確率で「チャーム」(50TU持続)を付与する。\n\nすでにチャーム状態の敵が場にいると使用できず、また場にいる味方が自身のみの場合も使用できない。\n\n-チャーム状態のキャラは、攻撃力が元の攻撃力の0.5倍になる。この効果は、他の効果によって攻撃力が増加している場合、減少することがある。チャーム状態のキャラは、対象を選択するアクティブスキルにおいて、そのキャラにチャーム状態を付与した敵を対象に選択しにくくなる。チャーム状態は「アンガー」系及び「怯え」系の効果を上書きするが、逆にこれらの効果には上書きされない。チャーム状態は状態変化ではなく、状態変化を上書きしたり状態変化に上書きされることがない。また、クリア系の効果でも解除されない。チャーム状態は、場を離れると解除される。",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -126165,6 +126257,19 @@
                     }
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
         }
     },
     "VenusRegular02": {
@@ -126199,7 +126304,7 @@
             },
             {
                 "SkillTitle": "チャーミング",
-                "SkillDescription": "場にいる全ての敵の、ステルス状態及びワンタイムアンチポイズン、ワンタイムアンチスリープ、ワンタイムアンチスタンを解除する。\nその後、場にいる全ての敵に、それぞれ50%の確率で「チャーム」(50TU持続)を付与する。\n\nすでにチャーム状態の敵が場にいると使用できず、また場にいる味方が自身のみの場合も使用できない。\n\n-チャーム状態のキャラは、攻撃力が元の攻撃力の0.5倍になる。この効果は、他の効果によって攻撃力が増加している場合、減少することがある。チャーム状態のキャラは、そのキャラにチャーム状態を付与した敵を攻撃の対象に選択しにくくなる。チャーム状態は「アンガー」系及び「怯え」系の効果を上書きするが、逆にこれらの効果には上書きされない。チャーム状態は状態変化ではなく、状態変化を上書きしたり状態変化に上書きされることがない。また、クリア系の効果でも解除されない。チャーム状態は、場を離れると解除される。",
+                "SkillDescription": "場にいる全ての敵の、ステルス状態及びワンタイムアンチポイズン、ワンタイムアンチスリープ、ワンタイムアンチスタンを解除する。\nその後、場にいる全ての敵に、それぞれ50%の確率で「チャーム」(50TU持続)を付与する。\n\nすでにチャーム状態の敵が場にいると使用できず、また場にいる味方が自身のみの場合も使用できない。\n\n-チャーム状態のキャラは、攻撃力が元の攻撃力の0.5倍になる。この効果は、他の効果によって攻撃力が増加している場合、減少することがある。チャーム状態のキャラは、対象を選択するアクティブスキルにおいて、そのキャラにチャーム状態を付与した敵を対象に選択しにくくなる。チャーム状態は「アンガー」系及び「怯え」系の効果を上書きするが、逆にこれらの効果には上書きされない。チャーム状態は状態変化ではなく、状態変化を上書きしたり状態変化に上書きされることがない。また、クリア系の効果でも解除されない。チャーム状態は、場を離れると解除される。",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -126347,6 +126452,19 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB74": {
+                "RelationshipName": "天使の誓い",
+                "RelationshipFamily": [
+                    "VenusRegular01",
+                    "RizetteBrave01",
+                    "MonsterBoy01",
+                    "RoseElf01",
+                    "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
     }
 }
