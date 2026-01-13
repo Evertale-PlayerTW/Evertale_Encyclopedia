@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1767759860,
+	"Time": 1768274365,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -76271,15 +76271,28 @@
 			"stackName": "GiveBondingAlliesExtraTurnRizetteBrave",
 			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
 			"behaviorOverrides": [{
-				"allAlliesButSelfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"allAlliesButSelfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","JustGivenTurnRizetteBrave"],
 				"spreadCondition": "IsRizetteBonding"
 			},{
-				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"]
+				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","JustGivenTurnRizetteBrave"]
 			}],
 			"duration": 0,
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true
+		},
+		"JustGivenTurnRizetteBrave": {
+			"class": "Buff",
+			"behaviors": ["RemoveAfterTurnsBehavior"],
+			"behaviorOverrides": [{
+				"turnCount": 1
+			}],
+			"duration": -1,
+			"stackName": "JustGivenTurnBuffRizetteBrave",
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
 		},
 		"RizetteBraveCooldown50":{
 			"class": "Buff",

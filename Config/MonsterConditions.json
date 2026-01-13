@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1767686731,
+    "Time": 1768274365,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -28287,6 +28287,25 @@
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["ActiveBonding"]
+			}
+		}
+	},
+	"JustGivenTurnRizetteBrave": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["JustGivenTurnBuff"],
+		"or":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["JustGivenTurnBuffRizetteBrave"]
+		}
+	},
+	"IsNotJustGrantedTurnRizetteBraveEdition": {
+		"class": "MonsterConditions",
+		"not":{
+			"class":"MonsterConditions",
+			"buffStackNames": ["JustGivenTurnBuff"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["JustGivenTurnBuffRizetteBrave"]
 			}
 		}
 	},

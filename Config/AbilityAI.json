@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1767577522,
+  "Time": 1768274365,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -28086,8 +28086,8 @@
 					"globalScalorsToIgnore": ["IsSleeping"],
 					"aiTargetingSourceMonsterConditions":{
 						"NotCharged": 1.0,
-						"JustGrantedTurn": 0.001,
-						"IsNotJustGrantedTurn": 5
+						"JustGivenTurnRizetteBrave": 0.001,
+						"IsNotJustGrantedTurnRizetteBraveEdition": 5
 					},
 					"aiTargetingMonsterConditions": {
 						"IsOdinRaven": 0.1,
@@ -28121,8 +28121,8 @@
 					"aiTargetingSourceMonsterConditions":{
 						"Kills1": 1,
 						"Kills2": 2,
-						"JustGrantedTurn": 1.0,
-						"IsNotJustGrantedTurn": 0.25
+						"JustGivenTurnRizetteBrave": 1.0,
+						"IsNotJustGrantedTurnRizetteBraveEdition": 0.25
    			 },
 					"aiTargetingMonsterConditions": {
 						"IsOdinRaven": 0.1,
