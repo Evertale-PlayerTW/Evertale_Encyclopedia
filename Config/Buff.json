@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1768274365,
+	"Time": 1769053676,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -76807,6 +76807,400 @@
 			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
 		},
 		"VenusRegularCooldown100Active4":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
+		},
+		"GainTurnPassiveAMusashiDarkBoss": {
+			"class": "Buff",
+			"stackName": "GainTurnPassiveAMusashiDark",
+			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["KnockbackImmunity","ImmunityFromSleepUntilNextTurn","StunImmunityUntilNextTurnGenericTitle","GrantSleepandStunImmunityFor150TUMusashiDarkBoss"]
+			},{
+				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"chance": 1.0,
+				"targetCondition": "OnMaxHPOrHPBelow25PercentAfterHitAndNotHitAlready",
+				"contextBuffs": ["HitTriggerMusashiDarkBoss"]
+			},{
+				"enemyBuffs": ["MarkedMaxHP"],
+				"spreadCondition": "OnMaxHP"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"iconSpriteName": "IconExtraTurnReady01"
+		},
+		"HitTriggerMusashiDarkBoss":{
+			"class": "Buff",
+			"stackName": "HitTriggerMusashiDark",
+			"duration": 1,
+			"isHiddenFromPlayers": true,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"ImposterPassiveAMusashiDarkBoss": {
+			"class": "Buff",
+			"stackName": "ImposterPassiveAMusashiDark",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGroundBoss"]
+			},{
+				"selfBuffs": ["5PercentHealMaxHP","RemoveBuffs"],
+				"deadMonsterConditions": "IsImposter"
+			},{
+				"sourceBuffs": ["GiveEnemyImposterNextInReinforcements"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"sourceBuffs": ["BlockDeathByBuffDamageFor1Turn"],
+				"spreadCondition": "AtLeast1ImposterOnBattlefield",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"5PercentHealMaxHP": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp"],
+			"behaviorOverrides": [{
+				"percent": 0.05,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "SmallHeal1",
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantSleepandStunImmunityFor150TUMusashiDarkBoss":{
+			"class": "Buff",
+			"stackName": "GrantSleepandStunImmunityFor150TUMusashiDarkBoss",
+			"behaviors": ["RemoveAfterTurnsBehavior","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"turnCount": 1
+			},{
+				"selfBuffs": ["SleepImmunityFor150TU","StunImmunityFor150TU"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"SleepImmunityFor150TU": {
+			"class": "Buff",
+			"stackName": "TempSleepImmunity",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Sleep"]
+			}],
+			"duration": 150,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["SleepImmune"],
+			"iconSpriteName": "IconRedSleepInvalidZs01"
+		},
+		"StunImmunityFor150TU": {
+			"class": "Buff",
+			"stackName": "TempStunImmunity",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"]
+			}],
+			"duration": 150,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["StunImmune"],
+			"iconSpriteName": "IconRedStunInvalidLightning01"
+		},
+		"BlockDeathByBuffDamageFor1Turn": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath"],
+			"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Poison","SuperPoison","MegaPoison","Burn", "LethalPoison"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconBlueFightSword01"
+		},
+		"Steal1SpiritForEachEnemyTwoForImpostersEBB": {
+			"class": "Buff",
+			"stackName": "StealSpiritForEachEnemyTwiceForImpostersEBB",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["SpiritDrainD"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "NotImposter"
+			},{
+				"randomEnemyBuffs": ["SpiritDrainD","SpiritDrainD"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsImposter"
+			}],
+			"duration": 0,
+			"showAsTimer": false
+		},
+		"MusashiDarkBossCooldown50Active3":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"PoisonTurnPassiveAKenshinRegularBoss": {
+			"class": "Buff",
+			"stackName": "PoisonTurnPassiveAKenshinRegular",
+			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffChanceOnHit","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["KnockbackImmunity"]
+			},{
+				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"chance": 1.0,
+				"targetCondition": "PoisonedAndNotHitAlreadyKenshinRegular",
+				"contextBuffs": ["HitExtraTurnKenshinRegularBoss"]
+			},{
+				"targetCondition": "NotHitAlreadyKenshinRegular",
+				"contextBuffs": ["HitExtraTurnKenshinRegularBoss"]
+			},{
+				"selfBuffs": ["MarkedKenshinRegularBoss"]
+			},{
+				"sourceBuffs": ["WorldDeathCounter"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"duration": -1
+		},
+		"HitExtraTurnKenshinRegularBoss":{
+			"class": "Buff",
+			"stackName": "ExtraTurnHitTriggerKenshinRegular",
+			"duration": 1,
+			"isHiddenFromPlayers": true,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"HoldGroundPassiveAKenshinRegularBoss": {
+			"class": "Buff",
+			"stackName": "HoldGround",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["BlockDeathByPoisonDamage","StunImmunityIfEnemyIsPoisoned","Stealth","StealthShieldOnce",
+					"HoldGroundOnceForHoldGroundPlusBoss", "BlockDeathUntilNextTurnForHoldGroundPlusBoss","Heal1PercentMaxHPIfHoldGroundPlusTriggeredWaitingForTurnBoss"]
+			}],
+			"duration": -1,
+			"tags": ["HoldGroundPlus"],
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"GoodGirlBuffCounter": {
+			"class": "Buff",
+			"stackName": "GoodGirlBuffCounter",
+			"stackLimit": 5,
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"noIconShownOnBattleStatus": true,
+			"isHiddenFromPlayers": true
+		},
+		"KenshinRegularBossActive2Lock":{
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveKenshinRegularBossActive2Lock"],
+				"sameTeam": false,
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": -1,
+			"stackName": "KenshinRegularActive2Lock",
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveKenshinRegularBossActive2Lock": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "KenshinRegularActive2Lock"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantingPoisonLayersToRandomEnemiesEBB":{
+			"class": "Buff",
+			"stackName": "GrantingPoisonLayersToRandomEnemiesEBB",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["LethalPoison"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotBurning"
+			},{
+				"randomEnemyBuffs": ["MegaPoison"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotPoisoned"
+			},{
+				"randomEnemyBuffs": ["SuperPoison"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotPoisoned"
+			},{
+				"randomEnemyBuffs": ["Poison"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "NotPoisoned"	
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"KillAllAlliesAndCreditKillKenshinRegularBoss":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKill50PercentChanceKenshinRegularBoss"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"PT2InstantKillAndCreditKill50PercentChanceKenshinRegularBoss": {
+			"class": "Buff",
+			"stackName": "InstantKill",
+			"behaviors": ["EnterBattleBuff","InstantDeath"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["Add1Kill"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsSourceKenshinRegular"
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "50PercentChance"
+		},
+		"MarkedKenshinRegularBoss":{
+			"class": "Buff",
+			"stackName": "SourceKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"KenshinRegularBossCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"StealthPassiveAMyshaKnightBoss": {
+			"class": "Buff",
+			"stackName": "StealthPassiveAMyshaKnightBoss",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd"],
+				"behaviorOverrides": [{
+				"sourceBuffs": ["Stealth","StealthShieldOnce","StoreEnergyHidden"]
+			},{
+				"randomAllyBuffs": ["Stealth","1PercentHealMaxHPBoss"],
+				"numRandomToBuff": 1,
+				"sameTeam": true,
+				"disallowSelf": true,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "NotExtraTurnLockMyshaKnight"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"GenericStealthFX": {
+			"class": "Buff",
+			"isHiddenFromPlayers": true,
+			"duration": 0,
+			"effectToShowWhenApplied": "Stealth1",
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"SelfBuffPassiveAMyshaKnightBoss": {
+			"class": "Buff",
+			"stackName": "SelfBuffPassiveAMyshaKnightBoss",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGroundBoss","StunImmunity"]
+			},{
+				"selfBuffs": ["AttackPlus50Percent1TurnOnly","SpiritGainD","SpiritGainD","SpiritGainD"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","ExtraTurnLockMyshaKnightBoss"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsNotStealth",
+				"spreadCondition": "NotExtraTurnLockMyshaKnight"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"ExtraTurnLockMyshaKnightBoss": {
+			"class": "Buff",
+			"stackName": "ExtraTurnLockMyshaKnight",
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"GrantAllOtherAlliesStealthAndStealthShieldEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allAlliesButSelfBuffs": ["Stealth","StealthShieldOnce"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantAlliesTurnsAndStealthBuffsMyshaKnightBossEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allAlliesButSelfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"spreadCondition": "IsSneakOrStealth"
+			},{
+				"randomAllyBuffs": ["Stealth","StealthShieldOnce"],
+				"numRandomToBuff": 4
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"MyshaKnightBossCooldown100Active3":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown2",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"MyshaKnightBossCooldown50Active4":{
 			"class": "Buff",
 			"duration": 100,
 			"stackName": "InstantCooldown",

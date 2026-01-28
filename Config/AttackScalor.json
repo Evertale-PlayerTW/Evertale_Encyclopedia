@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1766120304,
+	"Time": 1768962389,
 	"AttackScalor": {
 		"TimeInCombat500":
 		{
@@ -694,6 +694,54 @@
 		"GoodWith4BadHealthAllies":{
 			"class": "AttackScalor",
 			"sourceCondition": "4AlliesIsSleepingOrPoisonedOrBurning"
+		},
+		"GoodIfGain1GoodBuff":{
+			"class":"AttackScalor",
+			"sourceCondition":"Has1GoodGirlBuffExactly"
+		},
+		"GoodIfGain2GoodBuff":{
+			"class":"AttackScalor",
+			"sourceCondition":"Has2GoodGirlBuffExactly"
+		},
+		"GoodIfGain3GoodBuff":{
+			"class":"AttackScalor",
+			"sourceCondition":"Has3GoodGirlBuffExactly"
+		},
+		"GoodIfGain4GoodBuff":{
+			"class":"AttackScalor",
+			"sourceCondition":"Has4GoodGirlBuffExactly"
+		},
+		"GoodIfGain5GoodBuff":{
+			"class":"AttackScalor",
+			"sourceCondition":"Has5GoodGirlBuff"
+		},
+		"GoodVsEnemyTeam1PlusSpirit":{
+			"class": "AttackScalor",
+			"sourceCondition": "EnemySpirit1OrMore"
+		},
+		"GoodVsEnemyTeam2PlusSpirit":{
+			"class": "AttackScalor",
+			"sourceCondition": "EnemySpirit2OrMore"
+		},
+		"GoodVsEnemyTeam3PlusSpirit":{
+			"class": "AttackScalor",
+			"sourceCondition": "EnemySpirit3OrMore"
+		},
+		"GoodVsEnemyTeam4PlusSpirit":{
+			"class": "AttackScalor",
+			"sourceCondition": "EnemySpirit4OrMore"
+		},
+		"GoodVsEnemyTeam5PlusSpirit":{
+			"class": "AttackScalor",
+			"sourceCondition": "EnemySpirit5OrMore"
+		},
+		"GoodIfEnemyHas1Guardian":{
+			"class":"AttackScalor",
+			"sourceCondition":"EnemyHas1Protecting"
+		},
+		"GoodIfEnemyHas2Guardians":{
+			"class":"AttackScalor",
+			"sourceCondition":"2ProtectingInEnemyTeam"
 		}
 	}
 }

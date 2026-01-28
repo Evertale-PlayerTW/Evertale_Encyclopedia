@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1767577997,
+  "Time": 1768962797,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28010,6 +28010,151 @@
       "tuCost": 50,
       "useLimit": 0,
       "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAMusashiDarkBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "config": "SingleAttackAMusashiDarkBoss",
+      "tuCost": 60,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BigSingleAttackAMusashiDarkBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "config": "BigSingleAttackAMusashiDarkBoss",
+      "tuCost": 60,
+      "useLimit": 10,
+      "spiritCost": 1,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "EnemyBuffAMusashiDarkBoss",
+      "class": "Ability",
+      "config": "EnemyBuffAMusashiDarkBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAKenshinRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "config": "SingleAttackAKenshinRegularBoss",
+      "tuCost": 30,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "EnemyBuffAKenshinRegularBoss",
+      "class": "Ability",
+      "config": "EnemyBuffAKenshinRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAKenshinRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "conditionalAbilityScalors": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "config": "DoubleAttackAKenshinRegularBoss",
+      "tuCost": 75,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DefeatBuffAKenshinRegularBoss",
+      "class": "Ability",
+      "config": "DefeatBuffAKenshinRegularBoss",
+      "tuCost": 4,
+      "useLimit": 1,
+      "spiritCost": 10,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackAMyshaKnightBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "config": "AllAttackAMyshaKnightBoss",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAMyshaKnightBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3.5,
+        5
+      ],
+      "config": "SingleAttackAMyshaKnightBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllyBuffAMyshaKnightBoss",
+      "class": "Ability",
+      "config": "AllyBuffAMyshaKnightBoss",
+      "tuCost": 10,
+      "useLimit": 3,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAMyshaKnightBoss",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        5,
+        5
+      ],
+      "config": "DoubleAttackAMyshaKnightBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 1,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1767571558, 
+	"Time": 1768965636, 
 	"AbilityEffect": {
 		"DamageReaction": {
 			"class": "AbilityEffect",
@@ -16655,6 +16655,180 @@
 			"useEffectFinishedTimeDelay": [true],
 			"isAbilityUserEffect": [false],
 			"positionInBattlefieldCenter": [false]
+		},
+		"MusashiDarkAttack1Strong": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0.5, 0, 0, 0, 0.3, 0, 0.7, 0],
+			"prefabs": ["batfx_MusashiDark/batfx_musashipetals2","batsfx_prefab/batsfx_electric1","batfx_MusashiDark/batfx_MegaslashPurple1","batsfx_prefab/batsfx_slash1","batfx_MusashiDark/batfx_comboMusashiD1","batfx_MusashiDark/batfx_comboMusashiDBG1","batfx_MusashiDark/batfx_MegaslashPurple2","batsfx_prefab/batsfx_slash1","batfx_MusashiDark/batfx_MegaslashPurple3","batsfx_prefab/batsfx_slash1"],
+			"sortOrderOffset": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+			"assetBundles": ["BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+			"damageHitReactions": [false, false, true, false, false, false, true, false, true, false],
+			"forceHitReactions": [false, false, true, false, false, false, true, false, true, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, false, false, false, false, false, false, false, false, false],
+			"boneToAttachTo": ["MusashiDark","","","",""]
+		},
+		"MusashiDarkAttack1Weak": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0.5, 0, 0, 0.3, 0, 0.7, 0],
+			"prefabs": ["batfx_MusashiDark/batfx_musashipetals2","batsfx_prefab/batsfx_electric1","batsfx_prefab/batsfx_slash1","batfx_MusashiDark/batfx_comboMusashiD1","batfx_MusashiDark/batfx_comboMusashiDBG1","batsfx_prefab/batsfx_slash1","batfx_deadlyvampire1/batfx_camerashake1","batsfx_prefab/batsfx_slash1","batfx_deadlyvampire1/batfx_camerashake1"],
+			"sortOrderOffset": [2, 2, 0, 2, 2, 0, 2, 0, 2],
+			"assetBundles": ["BattleEffectsBundle3", "audiobundle1", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle2"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 1],
+			"damageHitReactions": [false, false, false, true, false, false, true, false, true],
+			"forceHitReactions": [false, false, false, true, false, false, true, false, true],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, false, false, false, false, false, false, false, false],
+			"boneToAttachTo": ["MusashiDark","","","",""]
+		},
+		"MusashiDarkAbility1": {
+			"class": "AbilityEffect",
+			"delays": [0, 1, 0, 0.3, 0.7, 0, 0],
+			"prefabs": ["batfx_MusashiDark/batfx_tailwindfireMusashiD","batfx_MusashiDark/batfx_MegaslashPurple4","batsfx_prefab/batsfx_swordslash","batsfx_prefab/batsfx_swordslash","batfx_MusashiDark/batfx_firecutBlue1","batfx_MusashiDark/batfx_FireWarpPurple1","batsfx_prefab/batsfx_bomb1"],
+			"sortOrderOffset": [-100, 2, 2, 2, 2, 2, 2],
+			"assetBundles": ["BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 1, 0, 0],
+			"damageHitReactions": [false, false, false, false, true, true, false],
+			"forceHitReactions": [false, false, false, false, true, true, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [false, false, false, false, false, false, false],
+			"positionInBattlefieldCenter": [true, false, false, false, false, false, false]
+		},
+		"MusashiDarkBlackhall": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0, 0.3, 0.4, 0, 0],
+			"prefabs": ["batsfx_prefab/batsfx_reichant","batfx_MusashiDark/batfx_tailwindscript1","batsfx_prefab/batsfx_dreamhunt1","batfx_cinderelladark1/batfx_quickcharge2","batfx_MusashiDark/batfx_blackholeMusashiD1","batfx_MusashiDark/batfx_blackholeMusashiD2","batsfx_prefab/batsfx_cherryprep1"],
+			"sortOrderOffset": [-2, -100, 2, 2, 2, -1, 2],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0],
+			"damageHitReactions": [false, false, false, false, false, false, false],
+			"forceHitReactions": [false, false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, true, false, false, false],
+			"positionInBattlefieldCenter": [false, true, false, false, false, false, false]
+		},
+		"MusashiDarkSpecial": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0, 0.2, 0, 0.4, 0.2, 0, 0.3, 0],
+			"prefabs": ["batfx_tailwindpurpleclouds/batfx_tailwindpurpleclouds1","batsfx_prefab/batsfx_charge1","batfx_MusashiDark/batfx_RipplePurple1","batfx_reiswimseal1/batfx_reiswimseal2","batsfx_prefab/batsfx_ring1","batfx_MusashiDark/batfx_musashiDarkback1","batsfx_prefab/batsfx_blaster1","batfx_multiplestab4/batfx_multiplestab4","batfx_MusashiDark/batfx_magicnuke4-2","batfx_impactup1/batfx_impactup1"],
+			"sortOrderOffset": [-100, 2, 2, -2, 0, -2, 0, 2, -2, 2],
+			"assetBundles": ["BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle3", "BattleEffectsBundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"damageHitReactions": [false, false, false, false, false, false, false, false, false, true],
+			"forceHitReactions": [false, false, false, false, false, false, false, true, false, true],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [false, true, true, true, true, true, true, true, true, true],
+			"positionInBattlefieldCenter": [true, false, false, false, false, false, false, false, false, false]
+		},
+		"MusashiDarkStance1": {
+			"class": "AbilityEffect",
+			"delays": [0.0],
+			"prefabs": ["batfx_MusashiDark/batfx_musashiDstance1"],
+			"assetBundles": ["BattleEffectsBundle3"],
+			"damagePercents": [1.0],
+			"damageHitReactions": [true],
+			"forceHitReactions": []
+		},
+		"KenshinAttack1": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 1, 0, 0.6, 0, 0, 0],
+			"prefabs": ["batsfx_prefab/batsfx_timestrike1","batfx_cinderelladark1/batfx_quickcharge2","batsfx_prefab/batsfx_slash1","batfx_Kenshin/batfx_sparkslash2","batsfx_prefab/batsfx_slash1","batfx_Kenshin/batfx_slashFire1","batfx_kojiro/batfx_KojiroBigSlash","batsfx_prefab/batsfx_fire4"],
+			"sortOrderOffset": [0, 0, 0, 0, 0, 0, 1, 0],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle2", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 1, 0, 0],
+			"damageHitReactions": [false, false, false, false, false, true, false, false],
+			"forceHitReactions": [false, false, false, true, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, false, true, false, true, true]
+        },
+        "KenshinDarkBall": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 1.3, 0, 0.3, 0],
+			"prefabs": ["batsfx_prefab/batsfx_cherryprep1","batfx_cerberus1/batfx_healburnprep1","batfx_cerberus1/batfx_cerbcombo1","batsfx_prefab/batsfx_multislash2","batfx_cleopatraDark/batfx_spiritdrain3","batsfx_prefab/batsfx_buff1"],
+			"sortOrderOffset": [2, -2, 3, 2, 1, 0],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle2", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0],
+			"damageHitReactions": [false, false, true, false, true, false],
+			"forceHitReactions": [false, false, true, false, true, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, false, true, false, true]
+		},
+		"KenshinImpact": {
+			"class": "AbilityEffect",
+			"delays": [0, 0.4, 0, 0.4, 0, 0.3, 0, 0.2, 0.3, 0, 0.8, 0, 0.1],
+			"prefabs": ["batfx_roundtableknightDark/batfx_tailwindpurpleclouds2","batfx_Kenshin/batfx_ruvychargePurple1","batsfx_prefab/batsfx_gravityball","batfx_roundtableknightDark/batfx_ruvychargePurple","batfx_fauxAreaLightPurple1/batfx_fauxAreaLightPurple1","batfx_Kenshin/batfx_KenshinPortal1","batsfx_prefab/batsfx_dragonflow1","batfx_alicedark1/batfx_bombpurple1","batfx_Kenshin/batfx_magicnuke6-2","batfx_freyaregular1/batfx_firemulti1","batfx_alicedark1/batfx_bombpurple1","batsfx_prefab/batsfx_bomb1","batfx_alicedark1/batfx_megacloud1"],
+			"sortOrderOffset": [-100, -2, 0, 2, -2, -2, 0, 2, 2, 4, 2, 0, 2],
+			"assetBundles": ["BattleEffectsBundle2", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle1", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle2", "BattleEffectsBundle3", "BattleEffectsBundle2", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle2"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+			"damageHitReactions": [false, false, false, false, false, false, false, true, true, false, true, false, false],
+			"forceHitReactions": [false, false, false, false, false, false, false, true, true, false, true, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, true, true, false, true, false, false, false, false, true, false],
+			"positionInBattlefieldCenter": [true, false, false, false, false, false, false, false, false, false, false, false, false]
+		},
+		"KenshinSpecial": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0.5, 0, 0, 1, 0, 0.4, 0.3, 0, 0, 0, 0.4],
+			"prefabs": ["batsfx_prefab/batsfx_dreamhunt1","batfx_OniSchoolDark01/batfx_tailwindPurpleOniD","batfx_Kenshin/batfx_Kenshinstrike","batfx_gokudark1/batfx_radialcharge3","batsfx_prefab/batsfx_electric2","batfx_Kenshin/batfx_tailwindPurpleKenshin","batfx_Kenshin/batfx_tailwindPurple1Sce","batsfx_prefab/batsfx_electric2","batfx_Kenshin/batfx_KenshinFinish1","batfx_Kenshin/batfx_Kenshinbigslash1","batsfx_prefab/batsfx_blaster1","batfx_Kenshin/batfx_tailwindPurple1Sce","batfx_Kenshin/batfx_stormfinishKenshin1"],
+			"sortOrderOffset": [2, -80, 10, -2, 2, -80, 30, 2, 10, 0, 0, 30, 0],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+			"damageHitReactions": [false, false, false, false, false, false, false, false, false, false, false, false, true],
+			"forceHitReactions": [false, false, false, false, false, false, false, false, true, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, true, true, true, true, true, false, true, true, true, false],
+			"positionInBattlefieldCenter": [false, true, false, false, false, true, true, false, false, true, false, true, false]
+		},
+		"MyshaKnightAttack1":{
+			"class": "AbilityEffect",
+			"delays": [0, 0.2, 0.6, 0.1, 0, 0, 0],
+			"prefabs": ["batsfx_prefab/batsfx_timestrike1","batfx_LudmillaDark/batfx_quickchargeRed","batfx_MyshaKnight/batfx_MyshaKnightLance01","batfx_yandereracequeen1/batfx_parahit1","batfx_slashtrail1/batfx_slashtrail1","batsfx_prefab/batsfx_slash1","batsfx_prefab/batsfx_bluntimpact1"],
+			"sortOrderOffset": [0, 0, 2, 2, 2, 0, 0],
+			"assetBundles": ["audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle2", "BattleEffectsBundle1", "audiobundle1", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 1, 0, 0, 0],
+			"damageHitReactions": [false, false, false, true, false, false, false],
+			"forceHitReactions": [false, false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, false, false, true, true]
+		},
+		"MyshaKnightRocksFalling": {
+			"class": "AbilityEffect",
+			"delays": [0, 0.3, 0, 0, 0, 0.5, 0.25, 0, 0, 0, 0, 0.3, 0, 0.3, 0],
+			"prefabs": ["batfx_MyshaKnight/batfx_BGGreen1","batfx_MyshaKnight/batfx_tailwindrocks2-3","batfx_tailwindrocks1/debris","batsfx_prefab/batsfx_casting1","batfx_castingyellow2/batfx_castingyellow2","batfx_Okita/batfx_RocksFall","batsfx_prefab/batsfx_bluntimpact1","batfx_bluntimpactmulti1/batfx_bluntimpactmulti1","batsfx_prefab/batsfx_bomb1","batfx_groundimpact/batfx_groundimpact","batsfx_prefab/batsfx_earth1","batfx_groundimpact/batfx_groundimpact","batsfx_prefab/batsfx_bomb1","batfx_groundimpact/batfx_groundimpact","batsfx_prefab/batsfx_bomb1"],
+			"sortOrderOffset": [-150, -30, -30, -2, 4, 1, 0, 1, 2, 0, -2, 0, -2, 0],
+			"assetBundles": ["BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle2", "audiobundle1", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle1", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+			"damageHitReactions": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+			"forceHitReactions": [false, false, false, false, false, false, false, true, false, false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [false, false, false, true, true, false, true, false, true, false, true, false, true, false, true],
+			"positionInBattlefieldCenter": [true, true, true, false, false, false, false, false, false, false, false, false, false, false, false]
+		},
+		"MyshaKnightPurify":{
+			"class": "AbilityEffect",
+			"delays": [0, 0.1, 0, 0, 0.7, 0, 0, 0, 0, 0],
+			"prefabs": ["batfx_common/batfx_greenbase1","batfx_MyshaKnight/batfx_chargepetal6","batfx_MyshaKnight/batfx_chargepetal7","batsfx_prefab/batsfx_charge1","batsfx_prefab/batsfx_ring2","batfx_MyshaKnight/batfx_RingPrepYellow1","batfx_MyshaKnight/batfx_fanrippleGreen1","batsfx_prefab/batsfx_heal1","batfx_MyshaKnight/batfx_purifyGreen1","batsfx_prefab/batsfx_stealth1"],
+			"sortOrderOffset": [1, 1, -1, 1, 1, 1, 1, -2, 2, -2],
+			"assetBundles": ["BattleEffectsBundle2", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"damageHitReactions": [false, false, false, false, false, false, false, false, false, false],
+			"forceHitReactions": [false, false, false, false, false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, false, false, true, true, false, false, false, false, false]
+		},
+		"MyshaKnightSpecial": {
+			"class": "AbilityEffect",
+			"delays": [0, 0, 0, 0, 1, 0, 0, 0, 0.2, 0, 0, 0, 0.3, 0, 0.3, 0, 0.2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"prefabs": ["batfx_MyshaKnight/batfx_tailwindGreen1","batsfx_prefab/batsfx_superskill1","batfx_survivor2/batfx_survivor2","batfx_MyshaKnight/batfx_quickchargeGreen1","batfx_MyshaKnight/batfx_weaponupMyshaK1","batfx_MyshaKnight/batfx_bluntimpact6","batfx_groundimpact/batfx_groundimpact","batsfx_prefab/batsfx_bluntimpact1","batfx_MyshaKnight/batfx_weaponupMyshaK2","batfx_MyshaKnight/batfx_bluntimpact6","batfx_groundimpact/batfx_groundimpact","batsfx_prefab/batsfx_bluntimpact1","batfx_MyshaKnight/batfx_RingPrepYellow1","batsfx_prefab/batsfx_ring1","batfx_MyshaKnight/batfx_weaponupMyshaK1","batfx_MyshaKnight/batfx_weaponupMyshaK2","batfx_Gokubride/batfx_impactrock1Big1","batfx_MyshaKnight/batfx_Greenfloor1","batfx_MyshaKnight/batfx_tailwindchangeGreen1","batsfx_prefab/batsfx_bomb1","batfx_MyshaKnight/batfx_fanrippleGreen3","batfx_MyshaKnight/batfx_fanrippleGreen2","batfx_MyshaKnight/batfx_petalswirlMyshaKnight","batfx_Zoro/batfx_holyimpactRed","batfx_Masamune/batfx_burstGreen","batfx_Masamune/batfx_muzzleshotGreen1","batfx_MyshaKnight/batfx_tailwindrocks4-2","batsfx_prefab/batsfx_earth1","batsfx_prefab/batsfx_whoosh2"],
+			"sortOrderOffset": [-100, 0, -2, -3, 3, 1, -1, 0, 3, 1, -1, 0, 3, 0, 3, 3, 2, -2, -50, 0, 3, 5, 1, 1, 1, 1, 100, 0, -2],
+			"assetBundles": ["BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle1", "audiobundle1", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle2", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle3", "BattleEffectsBundle3", "audiobundle1", "audiobundle1"],
+			"damagePercents": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+			"damageHitReactions": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false],
+			"forceHitReactions": [false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+			"useEffectFinishedTimeDelay": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+			"isAbilityUserEffect": [true, true, true, true, true, false, false, true, true, false, false, true, true, true, true, true, false, false, true, true, false, false, false, false, false, false, true, true, true],
+			"positionInBattlefieldCenter": [true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false]			
         }
 }
 }
