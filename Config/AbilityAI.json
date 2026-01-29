@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769133797,
+  "Time": 1769141785,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -28460,6 +28460,111 @@
 						"IsPoisoned": 1.0,
 						"IsSleeping": 1.0
 					}
+    },
+    "SingleAttackAMusashiDark_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingSourceMonsterConditions": {
+							"Kills0": 0.90,
+							"Kills1": 1.1,
+							"Kills2": 1.1,
+							"Kills3": 1.25,
+							"Kills4": 2.0,
+							"1MechaSisterNewOnEnemyTeam": 0.89,
+							"1KillsAnd1MechaSisterNewOnEnemyTeam": 0.10,
+							"2KillsAnd1MechaSisterNewOnEnemyTeam": 0.10,
+							"3KillsAnd1MechaSisterNewOnEnemyTeam": 0.25,
+							"4KillsAnd1MechaSisterNewOnEnemyTeam": 0.50
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.5,
+						"IsImposter": 0.5,
+						"IsMirage": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+						"IsPloyed": 0.70,
+						"IsStealth": 1.0,
+						"On1HPNotProtected": 2.5,
+						"On1HPIsProtecting": 2.5,
+						"HPBelow50Percent": 1.0,
+						"HPBelow25Percent": 1.15,
+						"HPBelow25PercentNotProtected": 1.5,
+						"IsProtector": 0.5,
+						"IsProtecting": 0.5,
+						"IsProtectingAndNotAlone": 0.5,
+						"HasSkin": 0.9,
+						"HitAlreadyMusashiDark": 0.5,
+						"IsMechaSisterNew": 0.25,
+						"IsJeanneDarkSwimsuitNotAlone": 0.000001,
+						"IsJeanneDarkSwimsuitNotAloneAlt": 0.000001
+					}
+    },
+    "BigSingleAttackAMusashiDark_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2.0,
+					"globalScalorsToIgnore": ["HasSkin","IsSleeping"],
+					"aiTargetingSourceMonsterConditions": {
+							"Kills0": 1.0,
+							"Kills1": 1.1,
+							"Kills2": 1.1,
+							"Kills3": 0.75,
+							"Kills4": 0.50,
+							"1MechaSisterNewOnEnemyTeam": 1.0,
+							"3KillsAnd1MechaSisterNewOnEnemyTeam": 1.0,
+							"4KillsAnd1MechaSisterNewOnEnemyTeam": 1.0
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.5,
+						"IsImposter": 0.5,
+						"IsMirage": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+						"IsPloyed": 0.70,
+						"IsStealth": 1.0,
+						"On1HPNotProtected": 2.5,
+						"On1HPIsProtecting": 2.5,
+						"HPBelow50Percent": 1.0,
+						"HPBelow25Percent": 1.15,
+						"IsProtector": 0.25,
+						"IsProtecting": 0.5,
+						"IsProtectingAndNotAlone": 0.5,
+						"HitAlreadyMusashiDark": 0.5,
+						"IsMechaSisterNew": 0.001,
+						"IsPeachGirRegular": 1.5,
+						"IsJeanneDarkSwimsuitNotAlone": 0.000001,
+						"IsJeanneDarkSwimsuitNotAloneAlt": 0.000001
+					}
+    },
+    "EnemyBuffAMusashiDark_AI":{
+			"class": "AbilityAI","baseAITargetingWeight": 40,
+			"globalScalorsToIgnore": ["ElementWeakness","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","0SpiritDamageReducerAt0Spirit"],
+			"aiTargetingSourceMonsterConditions": {
+					"EnemySpirit2ExactAnd2EnemiesOnBattlefield": 100000.0,
+					"EnemySpirit3ExactAnd3EnemiesOnBattlefield": 100000.0,
+					"EnemySpirit4ExactAnd4EnemiesOnBattlefield": 100000.0
+			},
+			"aiTargetingMonsterConditions": {
+					"1KillTriggerAndHas1Kill": 3.0,
+					"2KillTriggerAndHas2Kill": 3.0,
+					"DurationAnd270TU": 3.0,
+					"IsProtecting": 3.0,
+					"RarityLessThan3": 0.1,
+					"HasRetributionSkill": 2.5,
+					"RarityGreaterThan5": 1.1,
+					"IsSleeping": 0,
+					"IsPoisoned": 0.5,
+					"HoldGroundPlusTriggeredWaitingForTurn": 0.2,
+					"IsBurnForcerWithin100TUAndReady": 3,
+					"HasAnyEnterEffect": 0.2,
+					"IsKnockbackImmune": 0.00001,
+					"IsBadFriend": 0.0
+			}
+		},
+        "UserBuffAMusashiDark_AI": {
+            "class": "AbilityAI","baseAITargetingWeight": 500000,
+            "aiTargetingSourceMonsterConditions": {
+                        "Kills0": 500000.0
+                }
     }
 }
 }

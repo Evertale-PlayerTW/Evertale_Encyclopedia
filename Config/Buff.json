@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1769053676,
+	"Time": 1769581994,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -76390,7 +76390,7 @@
 			"isHiddenFromPlayers": true,
 			"noIconShownOnBattleStatus": true,
 			"duration": -1,
-			"iconSpriteName": "IconRedHoldGroundBurn01"
+			"iconSpriteName": "IconPinkCharmInvalid01"
 		},
 		"PurifyAndExtraTurnVenusRegularLV5": {
 			"class": "Buff",
@@ -76731,7 +76731,7 @@
 				"sourceBuffs": ["PleaseDONTDefeatMeBuff"]
 			}],
 			"stackName": "IsCurrentlyCharmed",
-			"iconSpriteName": "IconRedWeak01",
+			"iconSpriteName": "IconPinkCharmHeart01",
 			"showAsTimer": true,
 			"duration": 50,
 			"statusEffect": "CharmStatus",
@@ -77204,6 +77204,118 @@
 			"class": "Buff",
 			"duration": 100,
 			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
+		},
+		"GainTurnPassiveAMusashiDark": {
+			"class": "Buff",
+			"stackName": "GainTurnPassiveAMusashiDark",
+			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["KnockbackImmunity","ImmunityFromSleepUntilNextTurn","StunImmunityUntilNextTurnGenericTitle","GrantSleepandStunImmunityFor100TUMusashiDark"]
+			},{
+				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"chance": 1.0,
+				"targetCondition": "OnMaxHPOrHPBelow25PercentAfterHitAndNotHitAlready",
+				"contextBuffs": ["HitTriggerMusashiDark"]
+			},{
+				"enemyBuffs": ["MarkedMaxHP"],
+				"spreadCondition": "OnMaxHP"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"iconSpriteName": "IconExtraTurnReady01"
+		},
+		"HitTriggerMusashiDark":{
+			"class": "Buff",
+			"stackName": "HitTriggerMusashiDark",
+			"duration": 1,
+			"isHiddenFromPlayers": true,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"ImposterPassiveAMusashiDark": {
+			"class": "Buff",
+			"stackName": "ImposterPassiveAMusashiDark",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGround"]
+			},{
+				"selfBuffs": ["HealFull","RemoveBuffs"],
+				"deadMonsterConditions": "IsImposter"
+			},{
+				"sourceBuffs": ["GiveEnemyImposterNextInReinforcements"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"sourceBuffs": ["BlockDeathByBuffDamageFor1Turn"],
+				"spreadCondition": "AtLeast1ImposterOnBattlefield",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"GrantSleepandStunImmunityFor100TUMusashiDark":{
+			"class": "Buff",
+			"stackName": "GrantSleepandStunImmunityFor100TUMusashiDark",
+			"behaviors": ["RemoveAfterTurnsBehavior","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"turnCount": 1
+			},{
+				"selfBuffs": ["SleepImmunityFor100TU","StunImmunityFor100TU"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"DarkModeFor150TUMusashiDark": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurn","ManipulateTargeting","StatOnly"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HealHalf"],
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"dodgeMultitarget": true,
+				"forceAllowAllEnemiesAChanceToManipulate": true,
+				"failOnAllSkills": true,
+				"chanceToBlock": 1.0,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage", "IgnoreDodge"]
+			},{
+				"conditions": "NotEnraged",
+				"scalorStatBonuses": {
+					"Attack": 0.5
+				}
+			}],
+			"stackName": "DarkModeFor150TUMusashiDark",
+			"duration": 150,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"statusEffect": "MusashiDarkStance1",
+			"tags": ["AlwaysDodging"],
+			"iconSpriteName": "IconEvasion01"
+		},
+		"MusashiDarkCooldown50Active3":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"MusashiDarkCooldown150Active4":{
+			"class": "Buff",
+			"duration": 150,
+			"stackName": "InstantCooldown2",
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
