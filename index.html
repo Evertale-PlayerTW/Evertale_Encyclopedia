@@ -2169,7 +2169,7 @@
 		const resourceUrlPrefix = "https://prd.evertaleserver.com/Prd280/";
 
 		async function fetchCheck(url) {
-			const response = await fetch(url);
+			const response = await fetch(url, { cache: 'no-store' });
 			if (!response.ok) {
 				//const comtentText = await response.text();
 				//alert(`HTTP Error ${response.status}: ${response.statusText}\n${comtentText}`);
@@ -2181,7 +2181,7 @@
 		async function fetchCheckWithProxy(url) {
 			for (const proxy of corsProxies) {
 				try {
-					const response = await fetch(`${proxy}${url}`);
+					const response = await fetch(`${proxy}${url}`, { cache: 'no-store' });
 					if (!response.ok) {
 						throw new Error(`HTTP ${response.status}`);
 					}
