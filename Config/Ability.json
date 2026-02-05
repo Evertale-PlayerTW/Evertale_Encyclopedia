@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769048018,
+  "Time": 1769668595,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28203,6 +28203,62 @@
       "tuCost": 1,
       "useLimit": 0,
       "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAKenshinRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "config": "SingleAttackAKenshinRegular",
+      "tuCost": 30,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "EnemyBuffAKenshinRegular",
+      "class": "Ability",
+      "config": "EnemyBuffAKenshinRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 5,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAKenshinRegular",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "conditionalAbilityScalors": [
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "config": "DoubleAttackAKenshinRegular",
+      "tuCost": 75,
+      "useLimit": 0,
+      "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DefeatBuffAKenshinRegular",
+      "class": "Ability",
+      "config": "DefeatBuffAKenshinRegular",
+      "tuCost": 4,
+      "useLimit": 1,
+      "spiritCost": 10,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

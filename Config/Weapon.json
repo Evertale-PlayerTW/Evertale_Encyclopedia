@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1768964171,
+  "Time": 1769668468,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15811,7 +15811,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "DarkOwlGreatAxe02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "DarkOwlGreatAxe02",
@@ -15831,7 +15832,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "DarkOwlGreatAxe03",
       "evolveFrom": "DarkOwlGreatAxe01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "DarkOwlGreatAxe03",
@@ -15850,6 +15852,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "DarkOwlGreatAxe02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "KenshinKatana01",
+      "family": "KenshinKatana",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4TargetPoisonEaterSneakAttacker"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 536,
+      "baseMaxHp": 2695,
+      "bundleNumber": 9,
+      "weaponPref": "Katana",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "KenshinKatana02",
+      "cost": 11
+    },
+    {
+      "name": "KenshinKatana02",
+      "family": "KenshinKatana",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5TargetPoisonEaterSneakAttacker"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 655,
+      "baseMaxHp": 3225,
+      "bundleNumber": 9,
+      "weaponPref": "Katana",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "KenshinKatana03",
+      "evolveFrom": "KenshinKatana01",
+      "cost": 17
+    },
+    {
+      "name": "KenshinKatana03",
+      "family": "KenshinKatana",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6TargetPoisonEaterSneakAttacker"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 720,
+      "baseMaxHp": 3400,
+      "bundleNumber": 9,
+      "weaponPref": "Katana",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "KenshinKatana02",
       "cost": 23
     }
   ]

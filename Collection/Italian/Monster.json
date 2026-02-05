@@ -126570,7 +126570,7 @@
         "Hp_Base": 5090,
         "Speed": 616,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Distruggerò ogni cosa per te.",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Oscurità)",
@@ -127037,5 +127037,359 @@
                 "RelationshipBuff": "PV+3%"
             }
         }
+    },
+    "KenshinRegular01": {
+        "Name": "Kenshin",
+        "Name2": "Capo della Porta Rashomon",
+        "FullName": "Kenshin - Capo della Porta Rashomon",
+        "Profile": "Kenshin nacque in una famiglia che, da generazioni, era responsabile delle guardie della porta Rashomon, l'unico ingresso della capitale. Quando Kenshin aveva quindici anni, suo padre si dimise e lei divenne il capo della famiglia Uesugi. Sebbene fosse uno spirito libero, possedeva un forte senso di responsabilità e i suoi subordinati si fidavano ciecamente di lei.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 28,
+        "Atk_Base": 1035,
+        "Hp_Base": 6035,
+        "Speed": 506,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Oh? Vuoi andare? Vuoi farlo davvero?\nDovrai affrontare la sottoscritta!",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Oscurità)",
+            "SkillDescription": "Nelle unità alleate di tipo Oscurità l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lama Instabile",
+                "SkillDescription": "300% di danno a 1 nemico casuale, più il 100% di danno per ogni volta che l'unità ha colpito un nemico avvelenato con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver colpito 5 nemici avvelenati con attacchi). Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Qualsiasi attacco subito rimuoverà Invisibilità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ondate Velenose",
+                "SkillDescription": "Rimuove Protezione Veleno dalle unità nemiche in campo, e sottrae fino a 5 Spiriti dalla squadra nemica.\n\nPoi, un nemico casuale non ustionato subisce Veleno Letale per 999TU.\n\nPoi, un nemico casuale non avvelenato subisce Mega Veleno per 200TU.\n\nPoi, un nemico casuale non avvelenato subisce Super Veleno.\nPoi, un nemico casuale non avvelenato subisce Veleno.\nQuesta abilità non può essere più usata finché non passa 1 turno nemico. Se l'abilità è utilizzata 3 volte in 10TU, è bloccata per 50TU.\nMega Veleno e Super Veleno sostituiscono altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Super Veleno infligge 4 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Assalto Tossico",
+                "SkillDescription": "1000% di danno a 2 nemici, meno il 100% di danno per ogni Spirito della squadra nemica (fino a -500% se il nemico ha 5+ Spiriti). Questo attacco ignora gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, rimuove Ustione dai bersagli (inclusa Mega Ustione Curativa). Poi, tutti i nemici con Mega Veleno colpiti subiscono Veleno Letale per 999TU. Poi, tutti gli altri nemici colpiti subiscono Mega Veleno per 200TU.\n\nVeleno Letale sostituisce altri effetti di stato sul nemico, non viene sostituito da altri effetti di stato tranne Ustione e Invisibilità, e non può essere purificato. Veleno Letale infligge 2 volte il danno del normale Veleno e ignora le abilità passive e gli effetti che impedirebbero al bersaglio di essere sconfitto, tranne quelli che impediscono specificamente la sconfitta dovuta a Veleno o danni non da attacchi. Veleno Letale non si applica alle unità boss o ustionate.",
+                "TU": 75,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Spada Ipnotica",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità recupera il 100% degli HP massimi.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità ottiene un altro turno. Questi effetti non possono riattivarsi sui bersagli danneggiati fino all'avanzamento dei TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nLa prima volta che l'unità subisce danno da un attacco mentre non ci sono nemici ipnotizzati in campo, e non ci sono altre unità \"Kenshin, Maestra della Porta di Rashomon\" in campo, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di ipnotizzare tutti i nemici in campo. Un nemico ipnotizzato utilizzerà il suo prossimo turno per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi di quella unità terminerà. Ipnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss."
+            },
+            {
+                "SkillTitle": "Custode",
+                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Scudo Invisibile.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno.\n\nSe c'è un nemico avvelenato in campo, l'unità è immune a Stordimento e Ustione.\n\nOgni volta che un'unità (alleata o nemica) entra in campo dai rinforzi, questa unità recupera il 100% degli HP massimi ed è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nquesta unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP. Poi, fino al suo prossimo turno:\n- L'unità non può essere sconfitta.\n- L'unità recupera il 10% degli HP massimi alla fine di ogni turno.\nÈ considerato un effetto Vigore+ e termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo.\nQuando l'unità sconfigge un nemico con un attacco o con Rashomon, l'effetto Vigore+ si ripristina per potersi riattivare."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Att. Grandasc. Lv3",
+                "SkillDescription": "10% di attacco extra contro unità che hanno equipaggiato una Grandascia."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Va beeene, a me gli occhi!!\nAhem, allora mi presento,\nsono Kenshin Uesugi!\n\nE se a qualcuno viene in mente di attaccar briga con me,\nlo mando gambe all'aria senza tanti problemi.\nTienilo a mente ♪"
+            ],
+            "Login": [
+                "Oh, sei arrivato al momento giusto! Ho appena trovato un mucchio di coleotteri rinoceronti!\nHai il compito di tenere la gabbia per insetti. Forza, andiamo!"
+            ],
+            "Tap": [
+                "Secondo alcuni ho qualche rotella fuori posto.\nMa si sbagliano di grosso: sono tutte fuori posto! Mai sottovalutare una ragazza!",
+                "Ehi, voglio chiederti una cosa... Le ragazze di solito odiano gli insetti?\nOh, davvero...? È che anche Awa li afferrava a mani nude, quindi pensavo che fosse normale.",
+                "Sai, vivendo in un posto come un tempio, ho un sacco di storie spaventose.\nA proposito... vuoi parlare della mano appoggiata sulla tua spalla?"
+            ],
+            "Idle": [
+                "Yaaawn～ Che sonno... Oggi non ce la faccio...\nSono troppo stanca. Quindi sì, vado a letto. Non svegliarmi, va bene?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.05,
+                "Has5GoodGirlBuff": 1.25,
+                "Kills2": 1.25,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Lama Instabile": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 1.1,
+                        "Has5GoodGirlBuff": 3,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 5
+                    }
+                },
+                "Ondate Velenose": {
+                    "BaseWeight": 99,
+                    "Source": {
+                        "EnemySpirit2OrLessAndAllEnemiesIsMegaHealingBurn": 0
+                    }
+                },
+                "Assalto Tossico": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0,
+                        "EnemySpirit0": 1,
+                        "Has5GoodGirlBuff": 0.01,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 0.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 1.1,
+                        "IsMegaHealingBurn": 1.01,
+                        "PoisonedAndProtectingNotHitAlreadyKenshinRegular": 2.25,
+                        "PoisonedNotHitAlreadyOrProtectedOrImposterKenshinRegular": 2.25,
+                        "IsMechaSisterNew": 0
+                    }
+                }
+            }
+        }
+    },
+    "KenshinRegular02": {
+        "Name": "Kenshin",
+        "Name2": "Capo della Porta Rashomon",
+        "FullName": "Kenshin - Capo della Porta Rashomon",
+        "Profile": "La sua abilità con la spada non segue nessuna scuola particolare. Facendo uso del suo corpo snodato e del suo pensiero libero, scatena attacchi che vanno ben oltre le aspettative del suo avversario. Possiede così tanta abilità che un oni qualsiasi viene sconfitto in un istante.",
+        "Profile_Ascended": "A causa delle sue responsabilità, la famiglia Uesugi mantenne stretti legami con il Dipartimento di Onmyo, e fu lì che Kenshin incontrò la sua cara migliore amica, Awa. Le due erano sempre insieme al dipartimento, ma un giorno Awa scomparve all'improvviso senza lasciare traccia. Da allora, Kenshin ha continuato a cercare indizi mentre svolgeva i suoi compiti, ma non ha scoperto nulla fino a oggi.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 34,
+        "Atk_Base": 1254,
+        "Hp_Base": 8150,
+        "Speed": 506,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Oscurità)",
+            "SkillDescription": "Nelle unità alleate di tipo Oscurità l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lama Instabile",
+                "SkillDescription": "300% di danno a 1 nemico casuale, più il 100% di danno per ogni volta che l'unità ha colpito un nemico avvelenato con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver colpito 5 nemici avvelenati con attacchi). Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Qualsiasi attacco subito rimuoverà Invisibilità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ondate Velenose",
+                "SkillDescription": "Rimuove Protezione Veleno dalle unità nemiche in campo, e sottrae fino a 5 Spiriti dalla squadra nemica.\n\nPoi, un nemico casuale non ustionato subisce Veleno Letale per 999TU.\n\nPoi, un nemico casuale non avvelenato subisce Mega Veleno per 200TU.\n\nPoi, un nemico casuale non avvelenato subisce Super Veleno.\nPoi, un nemico casuale non avvelenato subisce Veleno.\nQuesta abilità non può essere più usata finché non passa 1 turno nemico. Se l'abilità è utilizzata 3 volte in 10TU, è bloccata per 50TU.\nMega Veleno e Super Veleno sostituiscono altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Super Veleno infligge 4 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Assalto Tossico",
+                "SkillDescription": "1000% di danno a 2 nemici, meno il 100% di danno per ogni Spirito della squadra nemica (fino a -500% se il nemico ha 5+ Spiriti). Questo attacco ignora gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, rimuove Ustione dai bersagli (inclusa Mega Ustione Curativa). Poi, tutti i nemici con Mega Veleno colpiti subiscono Veleno Letale per 999TU. Poi, tutti gli altri nemici colpiti subiscono Mega Veleno per 200TU.\n\nVeleno Letale sostituisce altri effetti di stato sul nemico, non viene sostituito da altri effetti di stato tranne Ustione e Invisibilità, e non può essere purificato. Veleno Letale infligge 2 volte il danno del normale Veleno e ignora le abilità passive e gli effetti che impedirebbero al bersaglio di essere sconfitto, tranne quelli che impediscono specificamente la sconfitta dovuta a Veleno o danni non da attacchi. Veleno Letale non si applica alle unità boss o ustionate.",
+                "TU": 75,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Rashomon",
+                "SkillDescription": "Tutti i nemici in campo senza Effimerità e che non sono boss hanno il 50% di probabilità ognuno di essere sconfitti immediatamente. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive o gli effetti che impedirebbero al bersaglio di essere sconfitto. Ogni bersaglio conta come sconfitto dall'unità con attacchi se sconfitto da questo effetto.\n\nDopo aver usato quest'abilità, quando l'unità viene da sconfitta dal danno di un attacco, aggiunge una copia dell'unità al primo posto tra i rinforzi alleati al 100% di HP ed è considerata un'unità invocata. La trasmodazione, il risveglio, i bonus, il potenziale, la maestria, le armi e gli accessori combaceranno con quelli dell'unità.\n\nSi sblocca dopo che 5 unità non invocate in campo vengono sconfitte o sacrificate mentre l'unità è in campo. Utilizzabile una volta per battaglia.",
+                "TU": 4,
+                "Spirit": "-10"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Spada Ipnotica",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità recupera il 100% degli HP massimi.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità ottiene un altro turno. Questi effetti non possono riattivarsi sui bersagli danneggiati fino all'avanzamento dei TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nLa prima volta che l'unità subisce danno da un attacco mentre non ci sono nemici ipnotizzati in campo, e non ci sono altre unità \"Kenshin, Maestra della Porta di Rashomon\" in campo, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di ipnotizzare tutti i nemici in campo. Un nemico ipnotizzato utilizzerà il suo prossimo turno per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi di quella unità terminerà. Ipnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss."
+            },
+            {
+                "SkillTitle": "Custode",
+                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Scudo Invisibile.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno.\n\nSe c'è un nemico avvelenato in campo, l'unità è immune a Stordimento e Ustione.\n\nOgni volta che un'unità (alleata o nemica) entra in campo dai rinforzi, questa unità recupera il 100% degli HP massimi ed è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nquesta unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP. Poi, fino al suo prossimo turno:\n- L'unità non può essere sconfitta.\n- L'unità recupera il 10% degli HP massimi alla fine di ogni turno.\nÈ considerato un effetto Vigore+ e termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo.\nQuando l'unità sconfigge un nemico con un attacco o con Rashomon, l'effetto Vigore+ si ripristina per potersi riattivare."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Att. Grandasc. Lv3",
+                "SkillDescription": "10% di attacco extra contro unità che hanno equipaggiato una Grandascia."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Conjures": [
+            "KenshinRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Va beeene, a me gli occhi!!\nAhem, allora mi presento,\nsono Kenshin Uesugi!\n\nE se a qualcuno viene in mente di attaccar briga con me,\nlo mando gambe all'aria senza tanti problemi.\nTienilo a mente ♪"
+            ],
+            "Login": [
+                "Oh, sei arrivato al momento giusto! Ho appena trovato un mucchio di coleotteri rinoceronti!\nHai il compito di tenere la gabbia per insetti. Forza, andiamo!"
+            ],
+            "Tap": [
+                "Secondo alcuni ho qualche rotella fuori posto.\nMa si sbagliano di grosso: sono tutte fuori posto! Mai sottovalutare una ragazza!",
+                "Ehi, voglio chiederti una cosa... Le ragazze di solito odiano gli insetti?\nOh, davvero...? È che anche Awa li afferrava a mani nude, quindi pensavo che fosse normale.",
+                "Sai, vivendo in un posto come un tempio, ho un sacco di storie spaventose.\nA proposito... vuoi parlare della mano appoggiata sulla tua spalla?"
+            ],
+            "Idle": [
+                "Yaaawn～ Che sonno... Oggi non ce la faccio...\nSono troppo stanca. Quindi sì, vado a letto. Non svegliarmi, va bene?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.05,
+                "Has5GoodGirlBuff": 1.25,
+                "Kills2": 1.25,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Lama Instabile": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 1.1,
+                        "Has5GoodGirlBuff": 3,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 5
+                    }
+                },
+                "Ondate Velenose": {
+                    "BaseWeight": 99,
+                    "Source": {
+                        "EnemySpirit2OrLessAndAllEnemiesIsMegaHealingBurn": 0
+                    }
+                },
+                "Assalto Tossico": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0,
+                        "EnemySpirit0": 1,
+                        "Has5GoodGirlBuff": 0.01,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 0.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 1.1,
+                        "IsMegaHealingBurn": 1.01,
+                        "PoisonedAndProtectingNotHitAlreadyKenshinRegular": 2.25,
+                        "PoisonedNotHitAlreadyOrProtectedOrImposterKenshinRegular": 2.25,
+                        "IsMechaSisterNew": 0
+                    }
+                },
+                "Rashomon": {
+                    "BaseWeight": 100,
+                    "Ignore": [
+                        "ElementWeakness",
+                        "IsBurning",
+                        "HasRevenge",
+                        "HasNastyRevenge",
+                        "HasSkin",
+                        "0SpiritDamageReducerAt0Spirit"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "EnemyHas3OrMoreTokens": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

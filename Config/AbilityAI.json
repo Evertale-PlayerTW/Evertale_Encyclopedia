@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769141785,
+  "Time": 1769569842,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -28565,6 +28565,69 @@
             "aiTargetingSourceMonsterConditions": {
                         "Kills0": 500000.0
                 }
+    },
+    "SingleAttackAKenshinRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.5,
+					"aiTargetingSourceMonsterConditions":{
+						"1MechaSisterNewOnEnemyTeam": 1.1,
+						"Has5GoodGirlBuff": 3.0,
+						"AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 5
+					}
+    },
+    "EnemyBuffAKenshinRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 99,
+					"aiTargetingSourceMonsterConditions":{
+						"EnemySpirit2OrLessAndAllEnemiesIsMegaHealingBurn": 0
+					}
+    },
+    "DoubleAttackAKenshinRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2.0,
+					"globalScalorsToIgnore": ["HasSkin"],
+					"aiTargetingSourceMonsterConditions":{
+					  "AllEnemiesImposters": 0.0,
+						"AllEnemiesAlwaysDodging": 0.0,
+						"AllEnemiesNotProtectingDodging": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"AllEnemiesIsStealthAlt": 0.0,
+						"1MechaSisterNewOnEnemyTeam": 0.0,
+						"EnemySpirit0": 1.0,
+						"Has5GoodGirlBuff": 0.01,
+						"AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 0.01
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.50,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.35,
+						"IsAlwaysDodging": 0.25,
+						"NotProtectingDodging": 0.25,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+						"IsPloyed": 0.70,
+						"IsSleeping": 0.89,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow25Percent": 1.0,
+						"HPFull": 0.89,
+						"IsPoisoned": 1.25,
+						"IsMegaPoisoned": 1.1,
+						"IsMegaHealingBurn": 1.01,
+						"PoisonedAndProtectingNotHitAlreadyKenshinRegular": 2.25,
+						"PoisonedNotHitAlreadyOrProtectedOrImposterKenshinRegular": 2.25,
+						"IsMechaSisterNew": 0.0
+					}
+    },
+    "DefeatBuffAKenshinRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 100.0,
+					"globalScalorsToIgnore": ["ElementWeakness","IsBurning","HasRevenge","HasNastyRevenge","HasSkin","0SpiritDamageReducerAt0Spirit"],
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 0.0,
+						"AllEnemiesImpostersAlt": 0.0,
+						"EnemyHas3OrMoreTokens": 0.0
+					}
     }
 }
 }

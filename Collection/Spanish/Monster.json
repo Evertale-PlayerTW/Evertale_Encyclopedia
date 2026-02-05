@@ -126570,7 +126570,7 @@
         "Hp_Base": 5090,
         "Speed": 616,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Lo destruiré todo por ti.",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Oscuro",
@@ -127037,5 +127037,359 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "KenshinRegular01": {
+        "Name": "Kenshin",
+        "Name2": "Maestra de la Puerta Rashomon",
+        "FullName": "Kenshin - Maestra de la Puerta Rashomon",
+        "Profile": "Kenshin nació en una familia que, durante generaciones, había supervisado la guardia de la Puerta de Rashomon, la única puerta de acceso a la Capital. Cuando Kenshin tenía quince años, su padre renunció y ella se convirtió en la cabeza de la familia Uesugi. Aunque de espíritu libre por naturaleza, poseía un fuerte sentido de la responsabilidad y sus subordinados confiaban profundamente en ella.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 28,
+        "Atk_Base": 1035,
+        "Hp_Base": 6035,
+        "Speed": 506,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¿Ah, sí? ¿Quieres intentarlo? ¿De verdad quieres hacerlo?\n¡Te enfrentas a mí, Kenshin!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Oscuro",
+            "SkillDescription": "Las unidades Oscuras aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Espada Inestable",
+                "SkillDescription": "300% de daño a 1 enemigo aleatorio, más 100% por cada vez que el usuario impacte a un enemigo envenenado con un ataque en el campo de batalla (máximo de 800% total tras impactar a 5 enemigos envenenados con ataques). Este ataque ignora a los guardianes, los efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo, el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nEl usuario obtiene Súper Sigilo y un Escudo Sigilo. Súper sigilo sobrescribirá otros efectos de estado. Las unidades en Súper Sigilo ignoran los ataques enemigos que dañen a más de un objetivo. Súper Sigilo se eliminará tras ignorar 3 ataques enemigos desde su aplicación y puede sobrescribirse con otros efectos de estado, excepto el Sigilo normal. El daño no eliminará Súper Sigilo. Los Escudos Sigilo impiden que se aplique el siguiente efecto de estado que no sea de sigilo que una unidad obtendría mientras estaba en Sigilo.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Olas de Veneno",
+                "SkillDescription": "Elimina todos los Guarda Veneno de todas las unidades enemigas en el campo de batalla y roba hasta 5 puntos de Espíritu del equipo enemigo.\n\nLuego, un enemigo aleatorio que no esté quemando recibe Veneno Letal por 999TU.\nLuego, un enemigo aleatorio no envenenado recibe Megaveneno por 200TU.\nLuego, un enemigo aleatorio no envenenado recibe Súperveneno.\nLuego, un enemigo aleatorio no envenenado recibe Veneno.\n\nEsta habilidad no se puede volver a usar hasta que haya transcurrido un turno enemigo. Si se usa 3 veces en 10 TU, se bloquea durante 50 TU.\n\nEl Megaveneno y el Súperveneno sobrescriben otros efectos de estado en esos enemigos. El Megaveneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni Súperveneno. El Súperveneno inflige 4 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Explosión tóxica",
+                "SkillDescription": "1000% de daño a 2 enemigos. Menos 100% de daño por cada espíritu que tenga el equipo enemigo (máximo -500% si el equipo enemigo tiene 5 o más Espíritu). Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de apariencia y el efecto de estado de Contraofensiva.\n\nA continuación, se elimina la Quemado de los objetivos alcanzados (incluido Mega Quemado Sanador). Después, otorga veneno letal por 999 TU a todos los enemigos megaenvenenados alcanzados. Después, otorga megaveneno por 200 TU a todos los demás enemigos alcanzados.\n\nEl veneno letal sobrescribe otros efectos de estado del enemigo afectado, no puede sobrescribirse con otros efectos de estado que no sean Quemadura o Sigilo, y no se puede purificar. Veneno Letal inflige el doble de daño que Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que impidan la derrota del objetivo, excepto aquellas que previenen específicamente la derrota por Veneno o daño que no sea de ataque. Veneno Letal no se aplica a unidades quemadas ni a unidades de jefes.",
+                "TU": 75,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Espadachín Hipnótica",
+                "SkillDescription": "Esta unidad no puede enviarse a los refuerzos desde el campo de batalla.\n\nCada vez que esta unidad daña a un enemigo envenenado con un ataque, se cura al 100% de sus HP máximos.\n\nSi esta unidad daña al menos a un enemigo envenenado con un ataque, tendrá otro turno. Los objetivos dañados no pueden volver a activar este efecto hasta que la TU avance. Los efectos que influyen en el orden de la TU pueden interrumpir el turno extra (p. ej., Aturdir dirigido al objetivo con TU más baja).\n\nLa primera vez que esta unidad reciba daño por un ataque mientras ningún enemigo en el campo de batalla esté Hipnotizado y ninguna otra \"Kenshin, Maestra de la Puerta Rashomon\" esté en el campo de batalla, hay un 20% de probabilidad, más un 20% por Despertar (hasta un 100% si esta unidad tiene 4 Despertares), de que esta unidad Hipnotice a todos los enemigos en el campo de batalla. Un enemigo Hipnotizado usará su siguiente turno para otorgarle el turno y Purificar al hipnotizador (el turno se perderá como si estuviera durmiendo), y luego la hipnosis de esa unidad finalizará. La hipnosis no es un efecto de estado y no puede eliminarse con habilidades de Purificar, pero se cancelará si el hipnotizador es derrotado o abandona el campo de batalla. La hipnosis fallará contra unidades Jefe."
+            },
+            {
+                "SkillTitle": "Guardián de la Puerta",
+                "SkillDescription": "Esta unidad entra en batalla con Súper Sigilo y un Escudo Sigilo.\n\nEsta unidad no puede ser derrotada por daño de efectos de estado de Veneno.\n\nMientras haya un enemigo envenenado en el campo de batalla, esta unidad tiene Aturdir Inmunidad e Inmunidad Quemado.\n\nCuando una unidad (aliada o enemiga) entra al campo de batalla tras recibir refuerzos, se cura el 100% de sus HP máximos y se Purifica (se eliminan los efectos de estado negativos como sueño, quemado o veneno).\n\nSi esta unidad fuera a ser derrotada, sobrevive con 1 HP y, hasta su siguiente turno:\n- Esta unidad no puede ser derrotada.\n- Esta unidad se cura el 10% de sus HP máximos al final de cada turno.\nEste es un efecto de Sobreviviente+ y finaliza tras activarse cada vez que esta unidad entra al campo de batalla.\nCuando esta unidad derrota a un enemigo con un ataque o Rashomon, este efecto de Sobreviviente+ se reinicia para que pueda activarse de nuevo."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Cazador G.Hacha Niv3",
+                "SkillDescription": "10% de bonus en los ataques contra unidades equipadas con Hachas Grandes."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Aaaatención todos!\nAjem, permítanme presentarme,\n¡Soy Kenshin Uesugi!\n\nY cualquiera que se atreva a pelear conmigo\nsaldrá volando, sin cuestionamiento.\nAsí que tengan eso en cuenta♪"
+            ],
+            "Login": [
+                "¡Ah, llegaste en el momento justo! ¡Un montón de escarabajos rinoceronte acaba de invadir el lugar!\nEstás a cargo de la jaula de insectos. ¡Vamos!"
+            ],
+            "Tap": [
+                "Hay gente que dice que me falta un tornillo.\nSe equivocan... ¡me faltan dos tornillos! ¡No subestimes a una chica!",
+                "Oye, quería preguntarte algo... ¿las chicas suelen odiar a los bichos?\n Ah, ¿en serio...? O sea, Awa también los agarraba con las manos desnudas, así que pensé que era normal.",
+                "Sabes, vivo en un templo, así que tengo un montón de historias de miedo.\nPor cierto... ¿quieres hablar de la mano que descansa sobre tu hombro?"
+            ],
+            "Idle": [
+                "¡Awwwnnn! Qué sueño... Hoy no estoy bien...\nDemasiado cansada. Así que sí, me voy a la cama. No me despiertes, ¿vale?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.05,
+                "Has5GoodGirlBuff": 1.25,
+                "Kills2": 1.25,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Espada Inestable": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 1.1,
+                        "Has5GoodGirlBuff": 3,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 5
+                    }
+                },
+                "Olas de Veneno": {
+                    "BaseWeight": 99,
+                    "Source": {
+                        "EnemySpirit2OrLessAndAllEnemiesIsMegaHealingBurn": 0
+                    }
+                },
+                "Explosión tóxica": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0,
+                        "EnemySpirit0": 1,
+                        "Has5GoodGirlBuff": 0.01,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 0.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 1.1,
+                        "IsMegaHealingBurn": 1.01,
+                        "PoisonedAndProtectingNotHitAlreadyKenshinRegular": 2.25,
+                        "PoisonedNotHitAlreadyOrProtectedOrImposterKenshinRegular": 2.25,
+                        "IsMechaSisterNew": 0
+                    }
+                }
+            }
+        }
+    },
+    "KenshinRegular02": {
+        "Name": "Kenshin",
+        "Name2": "Maestra de la Puerta Rashomon",
+        "FullName": "Kenshin - Maestra de la Puerta Rashomon",
+        "Profile": "Su esgrima no sigue ninguna escuela en particular. Haciendo uso de su cuerpo ágil y su pensamiento libre, desata ataques que superan con creces las expectativas de su oponente. Posee tanta habilidad que un oni común sería aniquilado en un instante.",
+        "Profile_Ascended": "Debido a sus responsabilidades, la familia Uesugi mantenía estrechos vínculos con la Oficina de Onmyo, y fue allí donde Kenshin conoció a su única y mejor amiga, Awa. Siempre estaban juntas en la oficina, pero un día Awa desapareció repentinamente sin dejar rastro. Desde entonces, Kenshin ha seguido buscando pistas mientras cumplía con sus deberes, pero hasta el día de hoy no ha encontrado nada.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 34,
+        "Atk_Base": 1254,
+        "Hp_Base": 8150,
+        "Speed": 506,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Oscuro",
+            "SkillDescription": "Las unidades Oscuras aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Espada Inestable",
+                "SkillDescription": "300% de daño a 1 enemigo aleatorio, más 100% por cada vez que el usuario impacte a un enemigo envenenado con un ataque en el campo de batalla (máximo de 800% total tras impactar a 5 enemigos envenenados con ataques). Este ataque ignora a los guardianes, los efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo, el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nEl usuario obtiene Súper Sigilo y un Escudo Sigilo. Súper sigilo sobrescribirá otros efectos de estado. Las unidades en Súper Sigilo ignoran los ataques enemigos que dañen a más de un objetivo. Súper Sigilo se eliminará tras ignorar 3 ataques enemigos desde su aplicación y puede sobrescribirse con otros efectos de estado, excepto el Sigilo normal. El daño no eliminará Súper Sigilo. Los Escudos Sigilo impiden que se aplique el siguiente efecto de estado que no sea de sigilo que una unidad obtendría mientras estaba en Sigilo.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Olas de Veneno",
+                "SkillDescription": "Elimina todos los Guarda Veneno de todas las unidades enemigas en el campo de batalla y roba hasta 5 puntos de Espíritu del equipo enemigo.\n\nLuego, un enemigo aleatorio que no esté quemando recibe Veneno Letal por 999TU.\nLuego, un enemigo aleatorio no envenenado recibe Megaveneno por 200TU.\nLuego, un enemigo aleatorio no envenenado recibe Súperveneno.\nLuego, un enemigo aleatorio no envenenado recibe Veneno.\n\nEsta habilidad no se puede volver a usar hasta que haya transcurrido un turno enemigo. Si se usa 3 veces en 10 TU, se bloquea durante 50 TU.\n\nEl Megaveneno y el Súperveneno sobrescriben otros efectos de estado en esos enemigos. El Megaveneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni Súperveneno. El Súperveneno inflige 4 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal.",
+                "TU": 1,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Explosión tóxica",
+                "SkillDescription": "1000% de daño a 2 enemigos. Menos 100% de daño por cada espíritu que tenga el equipo enemigo (máximo -500% si el equipo enemigo tiene 5 o más Espíritu). Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de apariencia y el efecto de estado de Contraofensiva.\n\nA continuación, se elimina la Quemado de los objetivos alcanzados (incluido Mega Quemado Sanador). Después, otorga veneno letal por 999 TU a todos los enemigos megaenvenenados alcanzados. Después, otorga megaveneno por 200 TU a todos los demás enemigos alcanzados.\n\nEl veneno letal sobrescribe otros efectos de estado del enemigo afectado, no puede sobrescribirse con otros efectos de estado que no sean Quemadura o Sigilo, y no se puede purificar. Veneno Letal inflige el doble de daño que Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que impidan la derrota del objetivo, excepto aquellas que previenen específicamente la derrota por Veneno o daño que no sea de ataque. Veneno Letal no se aplica a unidades quemadas ni a unidades de jefes.",
+                "TU": 75,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Rashomon",
+                "SkillDescription": "Todos los enemigos que no sean jefes ni efímeros en el campo de batalla tienen un 50% de probabilidad de ser derrotados inmediatamente. Este efecto ignora las habilidades pasivas de Venganza, Resurrección, cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota del objetivo. Se considera que el usuario ha derrotado con ataques tantas unidades como sean derrotadas por este efecto.\n\nDespués de usar esta habilidad, si el usuario es derrotado por daño de un ataque, una copia del usuario se añade a la siguiente línea de refuerzos aliados con la salud completa, y se considerará una unidad conjurada. Los límites de Ruptura, Despertares, Pluses, Potencial, Maestría, Arma y Accesorio de la copia coincidirán con los del usuario.\n\nSe desbloquea después de que 5 o más unidades no conjuradas en el campo de batalla sean derrotadas o sacrificadas por cualquier causa mientras esta unidad esté en el campo de batalla. Se puede usar una vez por batalla.",
+                "TU": 4,
+                "Spirit": "-10"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Espadachín Hipnótica",
+                "SkillDescription": "Esta unidad no puede enviarse a los refuerzos desde el campo de batalla.\n\nCada vez que esta unidad daña a un enemigo envenenado con un ataque, se cura al 100% de sus HP máximos.\n\nSi esta unidad daña al menos a un enemigo envenenado con un ataque, tendrá otro turno. Los objetivos dañados no pueden volver a activar este efecto hasta que la TU avance. Los efectos que influyen en el orden de la TU pueden interrumpir el turno extra (p. ej., Aturdir dirigido al objetivo con TU más baja).\n\nLa primera vez que esta unidad reciba daño por un ataque mientras ningún enemigo en el campo de batalla esté Hipnotizado y ninguna otra \"Kenshin, Maestra de la Puerta Rashomon\" esté en el campo de batalla, hay un 20% de probabilidad, más un 20% por Despertar (hasta un 100% si esta unidad tiene 4 Despertares), de que esta unidad Hipnotice a todos los enemigos en el campo de batalla. Un enemigo Hipnotizado usará su siguiente turno para otorgarle el turno y Purificar al hipnotizador (el turno se perderá como si estuviera durmiendo), y luego la hipnosis de esa unidad finalizará. La hipnosis no es un efecto de estado y no puede eliminarse con habilidades de Purificar, pero se cancelará si el hipnotizador es derrotado o abandona el campo de batalla. La hipnosis fallará contra unidades Jefe."
+            },
+            {
+                "SkillTitle": "Guardián de la Puerta",
+                "SkillDescription": "Esta unidad entra en batalla con Súper Sigilo y un Escudo Sigilo.\n\nEsta unidad no puede ser derrotada por daño de efectos de estado de Veneno.\n\nMientras haya un enemigo envenenado en el campo de batalla, esta unidad tiene Aturdir Inmunidad e Inmunidad Quemado.\n\nCuando una unidad (aliada o enemiga) entra al campo de batalla tras recibir refuerzos, se cura el 100% de sus HP máximos y se Purifica (se eliminan los efectos de estado negativos como sueño, quemado o veneno).\n\nSi esta unidad fuera a ser derrotada, sobrevive con 1 HP y, hasta su siguiente turno:\n- Esta unidad no puede ser derrotada.\n- Esta unidad se cura el 10% de sus HP máximos al final de cada turno.\nEste es un efecto de Sobreviviente+ y finaliza tras activarse cada vez que esta unidad entra al campo de batalla.\nCuando esta unidad derrota a un enemigo con un ataque o Rashomon, este efecto de Sobreviviente+ se reinicia para que pueda activarse de nuevo."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Cazador G.Hacha Niv3",
+                "SkillDescription": "10% de bonus en los ataques contra unidades equipadas con Hachas Grandes."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Conjures": [
+            "KenshinRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "¡Aaaatención todos!\nAjem, permítanme presentarme,\n¡Soy Kenshin Uesugi!\n\nY cualquiera que se atreva a pelear conmigo\nsaldrá volando, sin cuestionamiento.\nAsí que tengan eso en cuenta♪"
+            ],
+            "Login": [
+                "¡Ah, llegaste en el momento justo! ¡Un montón de escarabajos rinoceronte acaba de invadir el lugar!\nEstás a cargo de la jaula de insectos. ¡Vamos!"
+            ],
+            "Tap": [
+                "Hay gente que dice que me falta un tornillo.\nSe equivocan... ¡me faltan dos tornillos! ¡No subestimes a una chica!",
+                "Oye, quería preguntarte algo... ¿las chicas suelen odiar a los bichos?\n Ah, ¿en serio...? O sea, Awa también los agarraba con las manos desnudas, así que pensé que era normal.",
+                "Sabes, vivo en un templo, así que tengo un montón de historias de miedo.\nPor cierto... ¿quieres hablar de la mano que descansa sobre tu hombro?"
+            ],
+            "Idle": [
+                "¡Awwwnnn! Qué sueño... Hoy no estoy bien...\nDemasiado cansada. Así que sí, me voy a la cama. No me despiertes, ¿vale?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.05,
+                "Has5GoodGirlBuff": 1.25,
+                "Kills2": 1.25,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Espada Inestable": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 1.1,
+                        "Has5GoodGirlBuff": 3,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 5
+                    }
+                },
+                "Olas de Veneno": {
+                    "BaseWeight": 99,
+                    "Source": {
+                        "EnemySpirit2OrLessAndAllEnemiesIsMegaHealingBurn": 0
+                    }
+                },
+                "Explosión tóxica": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1MechaSisterNewOnEnemyTeam": 0,
+                        "EnemySpirit0": 1,
+                        "Has5GoodGirlBuff": 0.01,
+                        "AllEnemyTeamIsPoisonedNotHitAlreadyKenshinRegular": 0.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 1.1,
+                        "IsMegaHealingBurn": 1.01,
+                        "PoisonedAndProtectingNotHitAlreadyKenshinRegular": 2.25,
+                        "PoisonedNotHitAlreadyOrProtectedOrImposterKenshinRegular": 2.25,
+                        "IsMechaSisterNew": 0
+                    }
+                },
+                "Rashomon": {
+                    "BaseWeight": 100,
+                    "Ignore": [
+                        "ElementWeakness",
+                        "IsBurning",
+                        "HasRevenge",
+                        "HasNastyRevenge",
+                        "HasSkin",
+                        "0SpiritDamageReducerAt0Spirit"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesImpostersAlt": 0,
+                        "EnemyHas3OrMoreTokens": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1769581994,
+	"Time": 1770085694,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -11494,7 +11494,7 @@
 	"Sleep": {
 		"class": "Buff",
 		"stackName": "Sleep",
-			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 				"name": "PurifyChain"
 			},
@@ -11512,6 +11512,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -11555,7 +11561,7 @@
 	"SleepMibone": {
 		"class": "Buff",
 		"stackName": "Sleep",
-		"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+		"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 		"behaviorOverrides": [{
 				"name": "PurifyChain"
 			},
@@ -11573,6 +11579,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -12015,7 +12027,7 @@
 	"Poison": {
 		"class": "Buff",
 		"stackName": "Poison",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -12030,6 +12042,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -12073,7 +12091,7 @@
 	"Burn": {
 		"class": "Buff",
 		"stackName": "Burn",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
 		"behaviorOverrides": [{
 				"name": "LockHasBurnedSkills"
 			},
@@ -12094,6 +12112,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -22236,7 +22260,7 @@
 	},
 	"OverwatchRemovePoison": {
 		"class": "Buff",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
 		"stackName": "Stance",
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
@@ -22252,6 +22276,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Burn"
@@ -22290,7 +22320,7 @@
 	},
 	"Overwatch": {
 		"class": "Buff",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
 		"stackName": "Stance",
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
@@ -22306,6 +22336,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Burn"
@@ -22557,7 +22593,7 @@
 	"SpiritLeak": {
 		"class": "Buff",
 		"stackName": "SpiritLeaking",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffOnMonsterTurnEnd"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffOnMonsterTurnEnd"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -22572,6 +22608,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -23115,7 +23157,7 @@
 	},
 	"Explosive": {
 		"class": "Buff",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt", "BuffWhenMonsterHurt", "RemoveOnHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt", "BuffWhenMonsterHurt", "RemoveOnHurt"],
 		"stackName": "Explosive",
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
@@ -23134,6 +23176,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Burn"
@@ -24902,7 +24950,7 @@
 	"Condemn": {
 		"class": "Buff",
 		"stackName": "Condemn",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Revenge", "Immunity"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Revenge", "Immunity"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -24917,6 +24965,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -25043,7 +25097,7 @@
 	"SlowedStat": {
 		"class": "Buff",
 		"stackName": "Slowed",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "StatOnly", "BuffChanceOnHit"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "StatOnly", "BuffChanceOnHit"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -25058,6 +25112,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -25222,9 +25282,15 @@
 	},
 	"Armor": {
 		"class": "Buff",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "ModifyDamage"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "ModifyDamage"],
 		"behaviorOverrides": [{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Sleep"
@@ -25461,7 +25527,7 @@
 	"StunSkinStatus": {
 		"class": "Buff",
 		"stackName": "StunSkinStatus",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt", "BuffWhenMonsterHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt", "BuffWhenMonsterHurt"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -25476,6 +25542,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -25981,7 +26053,7 @@
 	"StunSkinStatus2": {
 		"class": "Buff",
 		"stackName": "StunSkinStatus",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt", "BuffWhenMonsterHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt", "BuffWhenMonsterHurt"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -25996,6 +26068,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -26437,7 +26515,7 @@
 		"class": "Buff",
 		"stackName": "Freeze",
 		"stackLimit": 2,
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "ModifyDamage", "LoseTurn", "Immunity", "Immunity", "BuffWhenMonsterHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "ModifyDamage", "LoseTurn", "Immunity", "Immunity", "BuffWhenMonsterHurt"],
 		"behaviorOverrides": [{
 				"name": "Poison"
 			},
@@ -26452,6 +26530,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -28216,7 +28300,7 @@
 	"SuperPoison": {
 		"class": "Buff",
 		"stackName": "Poison",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -28231,6 +28315,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -28502,11 +28592,15 @@
 	},
 	"RemoveStealth": {
 		"class": "Buff",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs"],
+			"behaviors": ["RemoveBuffs","RemoveBuffs","RemoveBuffs","RemoveBuffs"],
 		"behaviorOverrides": [{
 			"name": "ActiveStealthJustGained"
 			}, {
 			"name": "Stealth"
+			}, {
+			"name": "SuperStealthPT2"
+			}, {
+			"name": "SuperStealthPT3"
 		}],
 		"duration": 0,
 		"showAsTimer": false,
@@ -29066,7 +29160,7 @@
 	"PurpleBurn": {
 		"class": "Buff",
 		"stackName": "Burn",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
 		"behaviorOverrides": [{
 				"name": "LockHasBurnedSkills"
 			},
@@ -29087,6 +29181,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -29538,7 +29638,7 @@
 	"Decay": {
 		"class": "Buff",
 		"stackName": "Decay",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "BuffOnMonsterTurn"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "BuffOnMonsterTurn"],
 		"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -29553,6 +29653,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -32242,7 +32348,7 @@
 	"MegaPoison": {
 		"class": "Buff",
 		"stackName": "Poison",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
 			"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -32257,6 +32363,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -32768,7 +32880,7 @@
 	"SleepForced": {
 		"class": "Buff",
 		"stackName": "Sleep",
-		"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+		"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 		"behaviorOverrides": [{
 				"name": "PurifyChain"
 			},
@@ -32786,6 +32898,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -32828,7 +32946,7 @@
 	"ToxicSleep": {
 		"class": "Buff",
 		"stackName": "Sleep",
-		"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn","BuffAfterTime"],
+		"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn","BuffAfterTime"],
 		"behaviorOverrides": [{
 				"name": "PurifyChain"
 			},
@@ -32846,6 +32964,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"	
 			},
 			{
 				"name": "Stance"
@@ -33267,7 +33391,7 @@
 	"MegaPoison100TU": {
 		"class": "Buff",
 		"stackName": "Poison",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
 			"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -33282,6 +33406,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -33324,7 +33454,7 @@
 	"MegaPoison100TUFXDelay": {
 		"class": "Buff",
 		"stackName": "Poison",
-		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+		"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
 			"behaviorOverrides": [{
 				"name": "ActiveStealthJustGained"
 			},
@@ -33339,6 +33469,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -35067,7 +35203,7 @@
 		"HealingBurn": {
 			"class": "Buff",
 			"stackName": "Burn",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
 			"behaviorOverrides": [{
 					"name": "LockHasBurnedSkills"
 				},
@@ -35088,6 +35224,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"	
 				},
 				{
 					"name": "Stance"
@@ -37928,7 +38070,7 @@
 		"SleepForced300TU": {
 			"class": "Buff",
 			"stackName": "Sleep",
-			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 				"name": "PurifyChain"
 			},
@@ -37946,6 +38088,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -38566,7 +38714,7 @@
 		"SleepForced300TUPoisonImmune": {
 			"class": "Buff",
 			"stackName": "Sleep",
-			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 				"stackNamesToBlock": ["Poison"]
 			},{
@@ -38586,6 +38734,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -39055,7 +39209,7 @@
 		"SleepForcedThorns": {
 			"class": "Buff",
 			"stackName": "Sleep",
-			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 					"stackNamesToBlock": ["Poison"]
 				},
@@ -39073,6 +39227,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -41407,7 +41567,7 @@
 		"HealingBurnAlt": {
 			"class": "Buff",
 			"stackName": "Burn",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
 			"behaviorOverrides": [{
 					"name": "LockHasBurnedSkills"
 				},
@@ -41428,6 +41588,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -48050,7 +48216,7 @@
 		"HealingBurnCerberusRegularBoss": {
 			"class": "Buff",
 			"stackName": "Burn",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt", "RemoveBuffs", "BuffAfterTime"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt", "RemoveBuffs", "BuffAfterTime"],
 			"behaviorOverrides": [{
 					"name": "LockHasBurnedSkills"
 				},
@@ -48071,6 +48237,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -48666,7 +48838,7 @@
 		"MegaHealingBurn": {
 			"class": "Buff",
 			"stackName": "Burn",
-			"behaviors": ["Immunity","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
+			"behaviors": ["Immunity","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
 			"behaviorOverrides": [{
 				"stackNamesToBlock": ["Poison", "SuperPoison", "MegaPoison", "PoisonDelay", "PoisonDelayedMegaPoisonChance", "Burn", "BurnAfterTurn", "BurnAtEndOfTurn", "Sleep", "SleepDelayed", "BurnImmunityTempForRevenge" ],
 				"dontShowText": true
@@ -48691,6 +48863,12 @@
 			},
 			{
 				"name": "Stealth"
+			},
+			{
+				"name": "SuperStealthPT2"
+			},
+			{
+				"name": "SuperStealthPT3"		
 			},
 			{
 				"name": "Stance"
@@ -49925,7 +50103,7 @@
 		"SleepForced50TU": {
 			"class": "Buff",
 			"stackName": "Sleep",
-			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 					"name": "PurifyChain"
 				},
@@ -49943,6 +50121,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -52809,7 +52993,7 @@
 		 "SleepForced100TU": {
 			"class": "Buff",
 			"stackName": "Sleep",
-			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 					"name": "PurifyChain"
 				},
@@ -52827,6 +53011,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -53940,7 +54130,7 @@
 		"LethalPoison": {
 			"class": "Buff",
 			"stackName": "Poison",
-			"behaviors": ["Immunity","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+			"behaviors": ["Immunity","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
 			"behaviorOverrides": [{
 				"stackNamesToBlock": ["Poison", "SuperPoison", "MegaPoison", "PoisonDelay", "PoisonDelayedMegaPoisonChance", "Sleep", "SleepDelayed", "Armor", "Stance", "Decay", "SpiritLeaking", "SpiritLeakReady" ],
 				"dontShowText": true
@@ -53959,6 +54149,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -54987,7 +55183,7 @@
 		"MegaHealingBurnIfAllAlliesIsBurning": {
 			"class": "Buff",
 			"stackName": "Burn",
-			"behaviors": ["Immunity","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
+			"behaviors": ["Immunity","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "Regen", "BuffChanceOnHit", "BuffWhenMonsterHurt"],
 			"behaviorOverrides": [{
 				"stackNamesToBlock": ["Poison", "SuperPoison", "MegaPoison", "PoisonDelay", "PoisonDelayedMegaPoisonChance", "Burn", "BurnAfterTurn", "BurnAtEndOfTurn", "Sleep", "SleepDelayed", "BurnImmunityTempForRevenge" ],
 				"dontShowText": true
@@ -55012,6 +55208,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -55371,7 +55573,7 @@
 		},
 		"Overwatch300TUPseudoGetTurn": {
 			"class": "Buff",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
 			"stackName": "Stance",
 			"behaviorOverrides": [{
 					"name": "ActiveStealthJustGained"
@@ -55387,6 +55589,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Burn"
@@ -60750,7 +60958,7 @@
 		},
 		"Overwatch300TU": {
 			"class": "Buff",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "BuffWhenMonsterHurt","RemoveOnHurt"],
 			"stackName": "Stance",
 			"behaviorOverrides": [{
 					"name": "ActiveStealthJustGained"
@@ -60766,6 +60974,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Burn"
@@ -71353,7 +71567,7 @@
 		"ColdSleepForced100TU": {
 			"class": "Buff",
 			"stackName": "Sleep",
-			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 				"stackNamesToBlock": ["Burn","BurnAfterTurn","BurnAtEndOfTurn","Sleep","SleepDelayed"],
 				"dontShowText": true
@@ -71375,6 +71589,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -74723,7 +74943,7 @@
 		"SleepForcedThorns50PercentChance": {
 			"class": "Buff",
 			"stackName": "Sleep",
-			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
+			"behaviors": ["Immunity","RemoveBuffs","RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "LoseTurn", "RemoveOnHurt"],
 			"behaviorOverrides": [{
 					"stackNamesToBlock": ["Poison"]
 				},
@@ -74741,6 +74961,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"	
 				},
 				{
 					"name": "Stance"
@@ -74784,7 +75010,7 @@
 		"MegaPoison50PercentChance": {
 			"class": "Buff",
 			"stackName": "Poison",
-			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
+			"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "DamageOverTime"],
 				"behaviorOverrides": [{
 					"name": "ActiveStealthJustGained"
 				},
@@ -74799,6 +75025,12 @@
 				},
 				{
 					"name": "Stealth"
+				},
+				{
+					"name": "SuperStealthPT2"
+				},
+				{
+					"name": "SuperStealthPT3"		
 				},
 				{
 					"name": "Stance"
@@ -77319,6 +77551,481 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
+		},
+		"AttackUp4TargetPoisonEaterSneakAttacker": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsPoisonEaterOrSneakAttacker",
+				"scalor": 0.07
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5TargetPoisonEaterSneakAttacker": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsPoisonEaterOrSneakAttacker",
+				"scalor": 0.10
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6TargetPoisonEaterSneakAttacker": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsPoisonEaterOrSneakAttacker",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"PoisonTurnPassiveAKenshinRegular": {
+			"class": "Buff",
+			"stackName": "PoisonTurnPassiveAKenshinRegular",
+			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffChanceOnHit","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["KnockbackImmunity"]
+			},{
+				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"chance": 1.0,
+				"targetCondition": "PoisonedAndNotHitAlreadyKenshinRegular",
+				"contextBuffs": ["HitExtraTurnKenshinRegular"]
+			},{
+				"targetCondition": "NotHitAlreadyKenshinRegular",
+				"contextBuffs": ["HitExtraTurnKenshinRegular"]
+			},{
+				"selfBuffs": ["MarkedKenshinRegular"]
+			},{
+				"selfBuffs": ["AwakeningLevel1KenshinRegular"],
+				"sameTeam": false,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "HasNoAwakening"
+			},{
+				"selfBuffs": ["AwakeningLevel2KenshinRegular"],
+				"sameTeam": false,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "Has1AwakeningExact"
+			},{
+				"selfBuffs": ["AwakeningLevel3KenshinRegular"],
+				"sameTeam": false,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "Has2AwakeningsExact"
+			},{
+				"selfBuffs": ["AwakeningLevel4KenshinRegular"],
+				"sameTeam": false,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "Has3AwakeningsExact"
+			},{
+				"selfBuffs": ["AwakeningLevel5KenshinRegular"],
+				"sameTeam": false,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "Has4Awakenings"		
+			},{
+				"selfBuffs": ["CanHypnotizeKenshinRegular"],
+				"sameTeam": false,
+				"spreadCondition": "NoOtherKenshinRegularOnBattlefield",
+				"activeMonsterConditions": "AlwaysTrue"	
+			},{
+				"selfBuffs": ["HypnotizeAllEnemiesKenshinRegular"],
+				"sameTeam": false,
+				"spreadCondition": "OKToHypnotizeNOTLockedKenshinRegular",
+				"activeMonsterConditions": "NoPloyingEnemy"
+			},{
+				"selfBuffs": ["HypnotizeLockKenshinRegular"],
+				"cancelFromDamageTypes": ["BuffDamage"],
+				"spreadCondition": "NoPloyingAlly"
+			},{
+				"sourceBuffs": ["WorldDeathCounter"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"duration": -1
+		},
+		"HypnotizeAllEnemiesKenshinRegular": {
+			"class": "Buff",
+			"behaviors": ["BuffWhenMonsterHurt","BuffWhenMonsterHurt","RemoveOnHurt"],
+			"stackName": "HypnotizeAllEnemiesKenshinRegular",
+			"behaviorOverrides": [{
+				"enemyBuffs": ["HypnotizeMultipleEnemy"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"sourceBuffs": ["HypnotizeSelf"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"cancelFromDamageTypes": ["BuffDamage","Poison","Burn"],
+				"ignoreIfHurtBySelf": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"HypnotizeMultipleEnemy":{
+			"class": "Buff",
+			"stackName": "Ploy",
+			"behaviors":["BuffOnMonsterTurn","LoseTurn","RemoveOnSourceDeath","RemoveAfterTurnsBehavior","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides":[{
+				"selfBuffs": ["GiveTurnUserFX"],
+				"sourceBuffs": ["RemoveBuffs", "GiveTurn", "GiveTurnTargetFX"]
+			},{},{},{
+				"turnCount": 1
+			},{
+				"selfBuffs": ["RemovePloy"],
+				"spreadCondition": "NoPloyingEnemy",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": -1,
+			"iconSpriteName": "IconBlueHypnotized01",
+			"showAsTimer": true,
+			"applyConditions": "IsNotBoss"
+		},
+		"AwakeningLevel1KenshinRegular":{
+			"class": "Buff",
+			"stackName": "AwakeningBonusKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"applyConditions": "20PercentChance"
+		},
+		"AwakeningLevel2KenshinRegular":{
+			"class": "Buff",
+			"stackName": "AwakeningBonusKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"applyConditions": "40PercentChance"
+		},
+		"AwakeningLevel3KenshinRegular":{
+			"class": "Buff",
+			"stackName": "AwakeningBonusKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"applyConditions": "60PercentChance"
+		},
+		"AwakeningLevel4KenshinRegular":{
+			"class": "Buff",
+			"stackName": "AwakeningBonusKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"applyConditions": "80PercentChance"
+		},
+		"AwakeningLevel5KenshinRegular":{
+			"class": "Buff",
+			"stackName": "AwakeningBonusKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"CanHypnotizeKenshinRegular":{
+			"class": "Buff",
+			"stackName": "OKtoHypnotizeKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"applyConditions": "HasAwakeningBonusKenshinRegular"
+		},
+		"HypnotizeLockKenshinRegular":{
+			"class": "Buff",
+			"stackName": "HypnotizeLockKenshinRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"applyConditions": "NoOtherKenshinRegularOnBattlefield"
+		},
+		"HitExtraTurnKenshinRegular":{
+			"class": "Buff",
+			"stackName": "ExtraTurnHitTriggerKenshinRegular",
+			"duration": 1,
+			"isHiddenFromPlayers": true,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"BurnImmunityIfEnemyIsPoisoned": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Burn"],
+				"activateCondition": "1EnemyPoisoned"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"tags": ["BurnImmuneIfPoisonedEnemy"],
+			"iconSpriteName": "IconRedBurnInvalid01"
+		},
+		"HoldGroundPassiveAKenshinRegular": {
+			"class": "Buff",
+			"stackName": "HoldGround",
+			"behaviors": ["EnterBattleBuff","OthersEnterBattle","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["BlockDeathByPoisonDamage","StunImmunityIfEnemyIsPoisoned","BurnImmunityIfEnemyIsPoisoned","SuperStealth","StealthShieldOnce",
+					"HoldGroundOnceForHoldGroundPlus", "BlockDeathUntilNextTurnForHoldGroundPlus","Heal10PercentMaxHPIfHoldGroundPlusTriggeredWaitingForTurn"]
+			},{
+				"selfBuffs": ["HealFull","RemoveBuffs"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"sourceBuffs": ["RemoveHoldGroundPlus","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"sourceBuffs": ["FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			}],
+			"duration": -1,
+			"tags": ["HoldGroundPlus"],
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"ReincarnationKenshinRegular01":{
+			"class":"Buff",
+			"behaviors": ["Revenge"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["AddKenshinRegular02Next"],
+				"numRandomToBuff": 1,
+				"buffBackMode": true
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"ReincarnationKenshinRegular02":{
+			"class":"Buff",
+			"behaviors": ["Revenge"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["AddKenshinRegular02Next"],
+				"numRandomToBuff": 1,
+				"buffBackMode": true
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"AddKenshinRegular02Next": {
+			"class": "Buff",
+			"stackName": "AddKenshinRegular02Next",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "KenshinRegular02",
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true
+			}],
+			"duration": 0,
+			"allowBuffOnDeadTarget": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"KenshinRegularActive2Lock":{
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveKenshinRegularActive2Lock"],
+				"sameTeam": false,
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": -1,
+			"stackName": "KenshinRegularActive2Lock",
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveKenshinRegularActive2Lock": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "KenshinRegularActive2Lock"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"KillALLAlliesAndCreditKillKenshinRegular":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKill50PercentChanceKenshinRegular"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"PT2InstantKillAndCreditKill50PercentChanceKenshinRegular": {
+			"class": "Buff",
+			"stackName": "InstantKill",
+			"behaviors": ["EnterBattleBuff","InstantDeath"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["Add1Kill"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsSourceKenshinRegular"
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "50PercentChance"
+		},
+		"SuperStealth": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveStealth","SuperStealthPT3","SuperStealthPT2","SuperStealthPT1"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"SuperStealthPT1": {
+			"class": "Buff",
+				"behaviors": ["RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "RemoveBuffs", "ManipulateTargeting", "Immunity", "Immunity"],
+			"behaviorOverrides": [{
+					"name": "LockHideSkills"
+				},
+				{
+					"name": "Sleep"
+				},
+				{
+					"name": "Armor"
+				},
+				{
+					"name": "Poison"
+				},
+				{
+					"name": "Burn"
+				},
+				{
+					"name": "Stance"
+				},
+				{
+					"name": "SpiritLeaking"
+				},
+				{
+					"name": "SpiritLeakReady"
+				},
+				{
+					"name": "Condemn"
+				},
+				{
+					"name": "Slowed"
+				},
+				{
+					"name": "StunSkinStatus"
+				},
+				{
+					"name": "Decay"
+				},
+				{
+					"dodgeMultitarget": true,
+					"forceAllowAllEnemiesAChanceToManipulate": true,
+					"removeAfterTriggers": 1,
+					"abilityFlagsToIgnore": ["Stun", "NoDamage", "Sneak", "IgnoreStealth"],
+					"conditions": "NotSuperStealthPT2"
+				},
+				{
+					"stackNamesToBlock": ["Stealth"],
+					"dontShowText": true
+				},
+				{
+					"stackNamesToBlock": ["Placeholder"],
+					"dontShowText": true,
+					"activateCondition": "MissingStealthOrStealthShieldOrSuperStealthPT2"
+				}
+			],
+			"hideFromPlayerCondition": "IsSuperStealthPT2",
+			"tags": ["Stealth","SuperStealth"],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconBlackStealthCount01",
+			"stackName": "Stealth",
+			"useCount": 1
+		},
+		"SuperStealthPT2": {
+			"class": "Buff",
+			"behaviors": ["ManipulateTargeting","Immunity"],
+			"behaviorOverrides": [{
+					"dodgeMultitarget": true,
+					"forceAllowAllEnemiesAChanceToManipulate": true,
+					"removeAfterTriggers": 1,
+					"abilityFlagsToIgnore": ["Stun", "NoDamage", "Sneak", "IgnoreStealth"],
+					"conditions": "NotSuperStealthPT3"
+				},
+				{
+					"stackNamesToBlock": ["Placeholder"],
+					"dontShowText": true,
+					"activateCondition": "MissingStealthOrStealthShieldOrSuperStealthPT3"
+				}
+			],
+			"hideFromPlayerCondition": "IsSuperStealthPT3",
+			"tags": ["Stealth","SuperStealth"],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconBlackStealthCount02",
+			"stackName": "SuperStealthPT2",
+			"useCount": 1
+		},
+		"SuperStealthPT3": {
+			"class": "Buff",
+			"behaviors": ["ManipulateTargeting","Immunity"],
+			"behaviorOverrides": [{
+					"dodgeMultitarget": true,
+					"forceAllowAllEnemiesAChanceToManipulate": true,
+					"removeAfterTriggers": 1,
+					"abilityFlagsToIgnore": ["Stun", "NoDamage", "Sneak", "IgnoreStealth"]
+				},
+				{
+					"stackNamesToBlock": ["Placeholder"],
+					"dontShowText": true
+				}
+			],
+			"tags": ["Stealth","SuperStealth"],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconBlackStealthCount03",
+			"stackName": "SuperStealthPT3",
+			"useCount": 1
+		},
+		"MarkedKenshinRegular":{
+			"class": "Buff",
+			"stackName": "SourceKenshinRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"KenshinRegularCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
 		}
 	}
 }

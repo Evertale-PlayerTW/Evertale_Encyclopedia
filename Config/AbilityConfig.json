@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1769048034,
+	"Time": 1770254476,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -43182,6 +43182,120 @@
 			"sourceEventType": "Finish",
 			"abilityEffect": "MusashiDarkSpecial",
 			"useCondition": "NotInstantCooldown2AndNoKills"
+		},
+		"SingleAttackAKenshinRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "RandomEnemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"applyToTargetType": "Enemy",
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor","HardIgnoreBlockDeath","IgnoreSkin"]
+			},{
+				"buffs": ["GoodGirlBuffCounter","HealFull"],
+				"buffBackMode": true,
+				"applyConditions": "IsPoisoned",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["ActiveStealthJustGained","BurnImmunityTempForRevenge","SuperStealth","StealthShieldOnce"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"flags": ["StealthWorthy","Stealth"],
+			"abilityEffect": "KenshinAttack1",
+			"attackScalors": ["GoodIfGain1GoodBuff","GoodIfGain2GoodBuff","GoodIfGain3GoodBuff","GoodIfGain4GoodBuff","GoodIfGain5GoodBuff"],
+			"conditionedAbilityEffects": ["KenshinAttack1","KenshinAttack1","KenshinAttack1","KenshinAttack1","KenshinAttack1"],
+			"recommendEffectWhenUsable": -1
+		},
+		"EnemyBuffAKenshinRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["RemovePoisonImmunityOnce"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs":["GrantingPoisonLayersToRandomEnemiesEBB","SpiritDrainDContra","SpiritDrainDContra","SpiritDrainDContra","SpiritDrainDContra","SpiritDrainDContra",
+					"KenshinRegularActive2Lock"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["HijikataCounter","HijikataCounterFuseAfterTime"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["KenshinRegularCooldown50"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"applyConditions": "IsHijikataCharged2",
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "KenshinDarkBall",
+			"flags": ["Poisoner","NoDamage"],
+			"useCondition": "NotKenshinRegularActive2LockAndNotInstantCooldown"
+		},
+		"DoubleAttackAKenshinRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["RemoveBurn","BurnImmunityTempForRevenge"],
+				"chance": 1.0,
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["BurnImmunityTempForRevenge","LethalPoison"],
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true,
+				"applyConditions": "IsMegaPoisoned"
+			},{
+				"buffs": ["BurnImmunityTempForRevenge","MegaPoison"],
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true
+			},{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["GoodGirlBuffCounter","HealFull"],
+				"buffBackMode": true,
+				"applyConditions": "IsPoisoned",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Hit",
+			"abilityEffect": "KenshinImpact",
+			"attackScalors": ["GoodVsEnemyTeam1PlusSpirit","GoodVsEnemyTeam2PlusSpirit","GoodVsEnemyTeam3PlusSpirit","GoodVsEnemyTeam4PlusSpirit","GoodVsEnemyTeam5PlusSpirit"],
+			"conditionedAbilityEffects": ["KenshinImpact","KenshinImpact","KenshinImpact","KenshinImpact","KenshinImpact"],
+			"flags": ["Poisoner"],
+			"recommendEffectWhenUsable": -1
+		},
+		"DefeatBuffAKenshinRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["KillALLAlliesAndCreditKillKenshinRegular","ReincarnationKenshinRegular02"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "KenshinSpecial",
+			"flags": ["InstantDeath","NoDamage"],
+			"useCondition": "IsWorldDeathCounter5"
 		}
 	}
 }

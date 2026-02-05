@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1769141805,
+    "Time": 1770085543,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -5301,13 +5301,29 @@
 	},
 	"IsBurnImmune": {
 		"class": "MonsterConditions",
-		"monsterTags": ["BurnImmune"]
+		"monsterTags": ["BurnImmune"],
+		"or":{
+			"class": "MonsterConditions",
+			"monsterTags": ["BurnImmuneIfPoisonedEnemy"],
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsPoisoned": 1
+			}	
+		}
 	},
 	"IsNotBurnImmune": {
 		"class": "MonsterConditions",
 		"not": {
 			"class": "MonsterConditions",
-			"monsterTags": ["BurnImmune"]
+			"monsterTags": ["BurnImmune"],
+			"or":{
+				"class": "MonsterConditions",
+				"monsterTags": ["BurnImmuneIfPoisonedEnemy"],
+				"checkEnemyTeamOfMonster": true,
+				"enemyTeamMonsterConditionMatchesNeeded": {
+					"IsPoisoned": 1
+				}	
+			}
 		}
 	},
 	"HasArmor": {
@@ -7843,7 +7859,15 @@
 			"monsterTags": ["SleepImmune"],
 			"or":{
 				"class": "MonsterConditions",
-				"monsterTags": ["BurnImmune"]
+				"monsterTags": ["BurnImmune"],
+				"or":{
+					"class": "MonsterConditions",
+					"monsterTags": ["BurnImmuneIfPoisonedEnemy"],
+					"checkEnemyTeamOfMonster": true,
+					"enemyTeamMonsterConditionMatchesNeeded": {
+						"IsPoisoned": 1
+					}	
+				}
 			}
 		}
 	},
@@ -7857,7 +7881,15 @@
 				"monsterTags": ["BurnImmune"],
 				"or":{
 					"class": "MonsterConditions",
-					"monsterTags": ["StunImmune"]
+					"monsterTags": ["StunImmune"],
+					"or":{
+						"class": "MonsterConditions",
+						"monsterTags": ["BurnImmuneIfPoisonedEnemy"],
+						"checkEnemyTeamOfMonster": true,
+						"enemyTeamMonsterConditionMatchesNeeded": {
+							"IsPoisoned": 1
+						}	
+					}
 				}
 			}
 		}
@@ -23619,7 +23651,15 @@
 			"monsterTags": ["BurnImmune"],
 			"or":{
 				"class": "MonsterConditions",
-				"monsterTags": ["BurnImmuneTemp"]
+				"monsterTags": ["BurnImmuneTemp"],
+				"or":{
+					"class": "MonsterConditions",
+					"monsterTags": ["BurnImmuneIfPoisonedEnemy"],
+					"checkEnemyTeamOfMonster": true,
+					"enemyTeamMonsterConditionMatchesNeeded": {
+						"IsPoisoned": 1
+					}	
+				}
 			}
 		}
 	},
@@ -28950,6 +28990,93 @@
 		"not": {
 			"class": "MonsterConditions",
 			"buffStackNames": ["ExtraTurnLockMyshaKnight"]
+		}
+	},
+	"IsPoisonEaterOrSneakAttacker": {
+        "class": "MonsterConditions",
+        "abilityConfigFlag": "PoisonEater",
+        "or":{
+            "class": "MonsterConditions",
+            "abilityConfigFlag": "Sneak"
+        }
+    },
+    "IsKenshinRegular": {
+		"class": "MonsterConditions",
+		"families": ["KenshinRegular"]
+	},
+	"NoOtherKenshinRegularOnBattlefield": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsKenshinRegular": 1
+			}
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"not":{
+					"class": "MonsterConditions",
+					"myTeamMonsterConditionMatchesNeeded": {
+						"IsKenshinRegular": 2
+				}
+			}
+		}
+	},
+	"HasAwakeningBonusKenshinRegular": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["AwakeningBonusKenshinRegular"]
+	},
+	"OKToHypnotizeNOTLockedKenshinRegular": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["OKtoHypnotizeKenshinRegular"],
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["HypnotizeLockKenshinRegular"]
+		}
+	},
+	"IsSuperStealthPT2": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["SuperStealthPT2"]
+	},
+	"NotSuperStealthPT2": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["SuperStealthPT2"]
+		}
+	},
+	"IsSuperStealthPT3": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["SuperStealthPT3"]
+	},
+	"NotSuperStealthPT3": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["SuperStealthPT3"]
+		}
+	},
+	"MissingStealthOrStealthShieldOrSuperStealthPT2":{
+		"class": "MonsterConditions",
+		"not":{
+			"class":"MonsterConditions",
+			"buffStackNames": ["Stealth","StealthShieldOnce"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["SuperStealthPT2"]
+			}
+		}
+	},
+	"MissingStealthOrStealthShieldOrSuperStealthPT3":{
+		"class": "MonsterConditions",
+		"not":{
+			"class":"MonsterConditions",
+			"buffStackNames": ["Stealth","StealthShieldOnce"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["SuperStealthPT3"]
+			}
 		}
 	}
 }
