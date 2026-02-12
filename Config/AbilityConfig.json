@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1770607094,
+	"Time": 1770863134,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -43296,6 +43296,127 @@
 			"abilityEffect": "KenshinSpecial",
 			"flags": ["InstantDeath","NoDamage"],
 			"useCondition": "IsWorldDeathCounter5"
+		},
+		"AllAttackAMyshaKnight":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["SkipRevengeDamage","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["SneakAttackDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["HardIgnoreBlockDeath","IgnoreArmor","Sneak","DoNotWake"],
+				"drainPercent": 1.0,
+				"drainEffect": "VampireDrain1"
+			},{
+				"buffs":["GrantAllOtherAlliesSuperStealthAndStealthShieldEBB"],
+				"applyConditions": "IsStealth",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs":["ActiveStealthJustGained","BurnImmunityTempForRevenge","SuperStealth","StealthShieldOnce"],
+				"applyConditions": "IsNotStealth",
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs":["StoreEnergyHidden"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "MyshaKnightAttack1",
+			"flags": ["Sneak"],
+			"attackScalors": ["GoodWithStealth"],
+			"conditionedAbilityEffects": ["MyshaKnightAttack1"],
+			"recommendEffectWhenUsable": -1
+		},
+		"SingleAttackAMyshaKnight":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageFlags": ["IgnoreArmor","IgnoreSkin","DoNotWake"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "VampireDrain1"
+			},{
+				"buffs": ["LethalPoison","BurnImmunityTempForRevenge"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "IsNotBurning",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["RemoveEnergy"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "MyshaKnightRocksFalling",
+			"flags": ["Poisoner"],
+			"attackScalors": ["GoodIfEnemyHas1Guardian","GoodIfEnemyHas2Guardians"],
+			"conditionedAbilityEffects": ["MyshaKnightRocksFalling","MyshaKnightRocksFalling"],
+			"useCondition": "IsCharged1",
+			"recommendEffectWhenUsable": -1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
+		},
+		"AllyBuffAMyshaKnight":{
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["GrantAlliesTurnsAndStealthBuffsMyshaKnightEBB","MyshaKnightCooldown100Active3"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["Healer","Purify","GiveTurn","StealthWorthy","Stealth"],
+			"abilityEffect": "MyshaKnightPurify",
+			"useCondition": "2AlliesStealthAndNotInstantCooldown2"
+		},
+		"DoubleAttackAMyshaKnight":{
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["SkipRevengeDamage","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["SneakAttackDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["HardIgnoreBlockDeath","IgnoreArmor","DoNotWake","Sneak"],
+				"drainPercent": 1.0,
+				"drainEffect": "VampireDrain1"
+			},{
+				"buffs": ["BurnImmunityTempForRevenge"],
+				"applyToTargetType": "Enemy",
+				"applyConditions": "IsNotBurning",
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"randomBuffFromList": ["LethalPoison","SleepForcedThorns"],
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true
+			},{
+				"buffs":["StoreEnergyHidden","MyshaKnightCooldown50Active4"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"flags": ["PoisonChance", "SleepChance","Sneak"],
+			"abilityEffect": "MyshaKnightSpecial",
+			"attackScalors": ["GoodVsPoisoned","GoodVsSleeping"],
+			"conditionedAbilityEffects": ["MyshaKnightSpecial","MyshaKnightSpecial"],
+			"useCondition": "NotInstantCooldownAndHasStealth"
 		}
 	}
 }

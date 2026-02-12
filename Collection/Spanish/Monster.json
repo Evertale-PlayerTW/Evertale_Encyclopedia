@@ -10283,6 +10283,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -10593,6 +10604,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -17892,6 +17914,17 @@
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -18277,6 +18310,17 @@
                     "MonsterBoy01",
                     "RoseElf01",
                     "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -23477,6 +23521,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -23684,6 +23739,17 @@
                     "SmokePipeFrog01",
                     "RoseElf01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -127055,7 +127121,7 @@
         "Hp_Base": 6035,
         "Speed": 506,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¿Ah, sí? ¿Quieres intentarlo? ¿De verdad quieres hacerlo?\n¡Te enfrentas a mí, Kenshin!",
         "LeaderSkill": {
             "SkillTitle": "Sube ATT & HP Oscuro",
@@ -127199,6 +127265,19 @@
                         "IsMechaSisterNew": 0
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -127390,6 +127469,466 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "MyshaKnight01": {
+        "Name": "Mysha",
+        "Name2": "Caballero del Estandarte Rojo",
+        "FullName": "Mysha - Caballero del Estandarte Rojo",
+        "Profile": "Cuando era joven Mysha fue acogida por Gilgan, y llegó a quererlo como a su padre. En Urg Roa, ella pasó días felices entre los kud. Sin embargo, de vez en cuando, una pregunta cruzaba por su mente: \"¿Quién soy yo, realmente?\".",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Báculo",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 28,
+        "Atk_Base": 1077,
+        "Hp_Base": 5825,
+        "Speed": 430,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Más rápida que cualquiera...",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Empuje Arrollador",
+                "SkillDescription": "300% de daño a todos los enemigos. 400% de daño en su lugar si el usuario tiene Sigilo. Este ataque ignora cualquier efecto de estado del enemigo (incluido Sigilo), efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida derrotar al objetivo, habilidades pasivas de venganza y habilidades pasivas de piel. Se considera una habilidad de tipo Asalto Furtivo.\n\nEl usuario obtiene Súper Sigilo y un Escudo Sigilo. Si el usuario ya tiene Sigilo, todos los demás aliados obtendrán Súper Sigilo y un Escudo Sigilo en su lugar.\n\nEl Súper Sigilo sobrescribirá otros efectos de estado. Las unidades con Súper Sigilo ignoran los ataques enemigos que dañarían a más de 1 objetivo. El Súper Sigilo se eliminará tras ignorar 3 ataques enemigos desde su aplicación y puede sobrescribirse con otros efectos de estado, excepto el Sigilo normal. El daño no eliminará el Súper Sigilo. Los Escudos de Sigilo impiden que se aplique el siguiente efecto de estado que no sea de sigilo que una unidad obtendría mientras estuviera en Sigilo.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Caída Letal",
+                "SkillDescription": "300% de daño a 1 enemigo. 450% de daño en su lugar si el enemigo tiene 1 Guardián en el campo de batalla. 600% de daño en su lugar si el enemigo tiene 2 o más Guardianes en el campo de batalla. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado de Contraofensiva.\n\nLuego, si el enemigo no está ardiendo, recibe Veneno Letal por 999 TU.\n\nEsta habilidad se bloquea después de su uso hasta que el usuario inflija daño con otro ataque. No se considera una habilidad activa de tipo Combo Estallido.\n\nVeneno Letal sobrescribe otros efectos de estado en ese enemigo, no puede sobrescribirse con efectos de estado que no sean Quemar o Sigilo, y no puede purificarse. Veneno Letal inflige el doble de daño que Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que evitarían la derrota del objetivo, excepto las que previenen específicamente la derrota por Veneno o daño que no sea de ataque. Veneno Letal no se aplica a unidades en llamas ni a unidades de jefes.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Alianza Sigilo",
+                "SkillDescription": "Otorga inmediatamente a todos los demás aliados que tengan una habilidad activa de tipo Asalto Furtivo o Sigilo los siguientes turnos, reduciendo su TU actual. Las habilidades activas que otorgan turnos no pueden ser utilizadas por las unidades afectadas hasta que hayan tenido el turno.\n\nLuego, cura a todos los aliados en el campo de batalla por el 100% de sus HP máximos y les otorga Súper Sigilo y un Escudo Sigilo.\n\nSe puede usar si 2 o más aliados en el campo de batalla tienen Sigilo. Esta habilidad se bloquea durante 100TU después de su uso. Se puede usar 3 veces por batalla.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Rompetierra",
+                "SkillDescription": "400% de daño a 2 enemigos. 600% de daño a objetivos envenenados o dormidos. Este ataque ignora cualquier efecto de estado del enemigo (incluido Sigilo), efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo, habilidades pasivas de venganza y habilidades pasivas de piel.\n\nLos objetivos que no estén quemados reciben aleatoriamente Sueño Maldito por 200 TU o Veneno Letal por 999 TU.\n\nSólo se puede usar si el usuario tiene el efecto de estado Sigilo. Esta habilidad se bloquea por 50 TU después de su uso.\n\nSueño Maldito sobrescribe los efectos de estado que no sean Quemado, no puede sobrescribirse con Veneno, puede aplicarse repetidamente a unidades que ya hayan dormido en el campo de batalla y no se detendrá por el daño causado por habilidades activas de tipo Caza Sueños.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Campeón Sigiloso",
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos y la curarán el 100% del daño total infligido.\n\nEsta unidad entra en batalla con Súper Sigilo y un Escudo Sigilo. Si entra en batalla con refuerzos, todos los Impostores aliados en el campo de batalla son derrotados inmediatamente. Se considera que esta unidad ha derrotado con ataques a tantas unidades como sean derrotadas por este efecto. Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota de los objetivos.\n\nAl final de cada turno, esta unidad otorga el efecto de estado Súper Sigilo a un aliado aleatorio en el campo de batalla que no esté en llamas ni en sigilo. Luego, un aliado aleatorio en sigilo se curará el 30% de sus HP máximos. Estos efectos no se activan si Mysha no tiene otros aliados en el campo de batalla.\n\nAl final de cada turno de cada aliado, si todas las unidades aliadas en el campo de batalla tienen Sigilo, esta unidad pasará inmediatamente al siguiente turno con su TU reducida a 0. Este efecto no se activará de nuevo hasta que avancen 20TU."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Agua Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Agua."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Hola, soy Mysha!\nLa guerrera más rápida y fuerte de Urg Roa.\nPero ya lo sabías, ¿verdad?\n\nHe conseguido más potencia \ny poder que antes, ¡así que puedo encargarme\nde todo lo que se me presente!"
+            ],
+            "Login": [
+                "¡Oh, ahí estás! ¿Fui demasiado rápida para ti? ¡Lo siento!"
+            ],
+            "Tap": [
+                "No recuerdo a mi hermana porque yo era pequeña... Pero sí sé algo. Recuerdo las manos cálidas que me abrazaban fuerte.",
+                "Oye, ¿quieres toparte conmigo? ¡Ya sabes, frente a frente!\n¿Eh...? ¿Por qué tienes la cara roja? ¡Jajaja, qué gracioso!",
+                "Siento que finalmente llegaré a saber quién soy realmente si sigo viajando...\nOye, ¿te quedarás conmigo pase lo que pase?"
+            ],
+            "Idle": [
+                "¡Estoy tan aburrida!\n¡Oye! Si te vas a quedar callado, ¡mejor me voy a casa de As!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "Empuje Arrollador": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "Caída Letal": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "Alianza Sigilo": {
+                    "BaseWeight": 100
+                },
+                "Rompetierra": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "MyshaKnight02": {
+        "Name": "Mysha",
+        "Name2": "Caballero del Estandarte Rojo",
+        "FullName": "Mysha - Caballero del Estandarte Rojo",
+        "Profile": "Desde pequeña, Mysha a veces tenía el mismo sueño. Por la noche, en lo profundo de un denso y sombrío bosque, alguien la mecía suavemente en brazos. Una dulce presencia le susurraba con voz llorosa: \"No te preocupes. Algún día iré a buscarte\".",
+        "Profile_Ascended": "Cuando Mysha puso un pie en la capital, tuvo una premonición. Si llegaba allí, estaba segura de que finalmente descubriría quién era realmente. Sin embargo, junto a esa esperanza llegó una profunda inquietud, como si una oscuridad desconocida que acechaba en su interior estuviera a punto de abrirse de par en par.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Báculo",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 430,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Empuje Arrollador",
+                "SkillDescription": "300% de daño a todos los enemigos. 400% de daño en su lugar si el usuario tiene Sigilo. Este ataque ignora cualquier efecto de estado del enemigo (incluido Sigilo), efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida derrotar al objetivo, habilidades pasivas de venganza y habilidades pasivas de piel. Se considera una habilidad de tipo Asalto Furtivo.\n\nEl usuario obtiene Súper Sigilo y un Escudo Sigilo. Si el usuario ya tiene Sigilo, todos los demás aliados obtendrán Súper Sigilo y un Escudo Sigilo en su lugar.\n\nEl Súper Sigilo sobrescribirá otros efectos de estado. Las unidades con Súper Sigilo ignoran los ataques enemigos que dañarían a más de 1 objetivo. El Súper Sigilo se eliminará tras ignorar 3 ataques enemigos desde su aplicación y puede sobrescribirse con otros efectos de estado, excepto el Sigilo normal. El daño no eliminará el Súper Sigilo. Los Escudos de Sigilo impiden que se aplique el siguiente efecto de estado que no sea de sigilo que una unidad obtendría mientras estuviera en Sigilo.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Caída Letal",
+                "SkillDescription": "300% de daño a 1 enemigo. 450% de daño en su lugar si el enemigo tiene 1 Guardián en el campo de batalla. 600% de daño en su lugar si el enemigo tiene 2 o más Guardianes en el campo de batalla. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado de Contraofensiva.\n\nLuego, si el enemigo no está ardiendo, recibe Veneno Letal por 999 TU.\n\nEsta habilidad se bloquea después de su uso hasta que el usuario inflija daño con otro ataque. No se considera una habilidad activa de tipo Combo Estallido.\n\nVeneno Letal sobrescribe otros efectos de estado en ese enemigo, no puede sobrescribirse con efectos de estado que no sean Quemar o Sigilo, y no puede purificarse. Veneno Letal inflige el doble de daño que Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que evitarían la derrota del objetivo, excepto las que previenen específicamente la derrota por Veneno o daño que no sea de ataque. Veneno Letal no se aplica a unidades en llamas ni a unidades de jefes.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Alianza Sigilo",
+                "SkillDescription": "Otorga inmediatamente a todos los demás aliados que tengan una habilidad activa de tipo Asalto Furtivo o Sigilo los siguientes turnos, reduciendo su TU actual. Las habilidades activas que otorgan turnos no pueden ser utilizadas por las unidades afectadas hasta que hayan tenido el turno.\n\nLuego, cura a todos los aliados en el campo de batalla por el 100% de sus HP máximos y les otorga Súper Sigilo y un Escudo Sigilo.\n\nSe puede usar si 2 o más aliados en el campo de batalla tienen Sigilo. Esta habilidad se bloquea durante 100TU después de su uso. Se puede usar 3 veces por batalla.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Rompetierra",
+                "SkillDescription": "400% de daño a 2 enemigos. 600% de daño a objetivos envenenados o dormidos. Este ataque ignora cualquier efecto de estado del enemigo (incluido Sigilo), efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo, habilidades pasivas de venganza y habilidades pasivas de piel.\n\nLos objetivos que no estén quemados reciben aleatoriamente Sueño Maldito por 200 TU o Veneno Letal por 999 TU.\n\nSólo se puede usar si el usuario tiene el efecto de estado Sigilo. Esta habilidad se bloquea por 50 TU después de su uso.\n\nSueño Maldito sobrescribe los efectos de estado que no sean Quemado, no puede sobrescribirse con Veneno, puede aplicarse repetidamente a unidades que ya hayan dormido en el campo de batalla y no se detendrá por el daño causado por habilidades activas de tipo Caza Sueños.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Campeón Sigiloso",
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos y la curarán el 100% del daño total infligido.\n\nEsta unidad entra en batalla con Súper Sigilo y un Escudo Sigilo. Si entra en batalla con refuerzos, todos los Impostores aliados en el campo de batalla son derrotados inmediatamente. Se considera que esta unidad ha derrotado con ataques a tantas unidades como sean derrotadas por este efecto. Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota de los objetivos.\n\nAl final de cada turno, esta unidad otorga el efecto de estado Súper Sigilo a un aliado aleatorio en el campo de batalla que no esté en llamas ni en sigilo. Luego, un aliado aleatorio en sigilo se curará el 30% de sus HP máximos. Estos efectos no se activan si Mysha no tiene otros aliados en el campo de batalla.\n\nAl final de cada turno de cada aliado, si todas las unidades aliadas en el campo de batalla tienen Sigilo, esta unidad pasará inmediatamente al siguiente turno con su TU reducida a 0. Este efecto no se activará de nuevo hasta que avancen 20TU."
+            },
+            {
+                "SkillTitle": "Legado Poderoso",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nCada vez que una unidad en Sigilo (aliada o enemiga) tenga el turno, se curará el 50% de sus HP máximos. Este efecto no se activa si Mysha no tiene otros aliados en el campo de batalla.\n\nEsta unidad reduce la cantidad de efectos de aturdimiento contra ella en 50TU por cada aliado de Tormenta o Tierra en el campo de batalla (máximo de -200TU si hay 4 aliados de Tormenta o Tierra en el campo de batalla).\n\nEstos efectos se activan siempre que otro aliado no conjurado en el campo de batalla sea derrotado o sacrificado por cualquier fuente:\n- Los aliados obtienen 3 puntos de Espíritu.\n- Esta unidad obtiene Súper Sigilo y un Escudo Sigilo.\n- Esta unidad se Enfurece. Esto sobrescribirá cualquier efecto de Debilitar o Enfurecer existente. Las unidades enfurecidas ven su Ataque aumentado a 1.5x hasta el final de su siguiente turno."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Agua Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Agua."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Hola, soy Mysha!\nLa guerrera más rápida y fuerte de Urg Roa.\nPero ya lo sabías, ¿verdad?\n\nHe conseguido más potencia \ny poder que antes, ¡así que puedo encargarme\nde todo lo que se me presente!"
+            ],
+            "Login": [
+                "¡Oh, ahí estás! ¿Fui demasiado rápida para ti? ¡Lo siento!"
+            ],
+            "Tap": [
+                "No recuerdo a mi hermana porque yo era pequeña... Pero sí sé algo. Recuerdo las manos cálidas que me abrazaban fuerte.",
+                "Oye, ¿quieres toparte conmigo? ¡Ya sabes, frente a frente!\n¿Eh...? ¿Por qué tienes la cara roja? ¡Jajaja, qué gracioso!",
+                "Siento que finalmente llegaré a saber quién soy realmente si sigo viajando...\nOye, ¿te quedarás conmigo pase lo que pase?"
+            ],
+            "Idle": [
+                "¡Estoy tan aburrida!\n¡Oye! Si te vas a quedar callado, ¡mejor me voy a casa de As!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "Empuje Arrollador": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "Caída Letal": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "Alianza Sigilo": {
+                    "BaseWeight": 100
+                },
+                "Rompetierra": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Rostro Familiar",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

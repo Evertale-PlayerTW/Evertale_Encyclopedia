@@ -10283,6 +10283,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
             }
         }
     },
@@ -10593,6 +10604,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
             }
         }
     },
@@ -17892,6 +17914,17 @@
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻擊力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
             }
         }
     },
@@ -18277,6 +18310,17 @@
                     "MonsterBoy01",
                     "RoseElf01",
                     "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "攻擊力+2%"
             }
@@ -23477,6 +23521,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "攻擊力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
             }
         }
     },
@@ -23684,6 +23739,17 @@
                     "SmokePipeFrog01",
                     "RoseElf01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "攻擊力+2%"
             }
@@ -127055,7 +127121,7 @@
         "Hp_Base": 6035,
         "Speed": 506,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "哦？要打嗎？真要打嗎？\n就跟我這個謙信醬來一場！",
         "LeaderSkill": {
             "SkillTitle": "闇屬性強化",
@@ -127199,6 +127265,19 @@
                         "IsMechaSisterNew": 0
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
             }
         }
     },
@@ -127390,6 +127469,466 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
+            }
+        }
+    },
+    "MyshaKnight01": {
+        "Name": "蜜莎",
+        "Name2": "疾風之狐少女",
+        "FullName": "蜜莎 - 疾風之狐少女",
+        "Profile": "蜜莎在年幼時被吉爾堪所收養，並一直將他視為養父般敬慕。在俄羅亞，她與古德族一同生活，那是一段幸福的日子。然而，她的心中偶爾也會掠過一絲疑問——“我究竟……真正是什麼人？”",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "法杖",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 28,
+        "Atk_Base": 1077,
+        "Hp_Base": 5825,
+        "Speed": 430,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "比誰都快——",
+        "LeaderSkill": {
+            "SkillTitle": "地屬性強化",
+            "SkillDescription": "所有地屬性隊友的攻擊力會增加10%而最大生命值也會增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "匿蹤刺擊",
+                "SkillDescription": "對場上所有敵人造成300%的傷害。若使用者處於匿蹤狀態，傷害提升至400%。此技能無視目標的狀態效果（包括匿蹤）、減傷效果、非BOSS單位防止被擊敗的效果、「復仇」類被動技能、反彈類被動技能。此技能屬於潛行類的主動技能。\n使用者獲得匿蹤（3次）狀態與匿蹤護盾效果。若使用者已經處於匿蹤狀態，場上其他己方單位都獲得匿蹤（3次）狀態與匿蹤護盾效果。\n匿蹤（3次）會覆蓋身上的其他狀態效果。匿蹤護盾效果將防止此後一次該單位的匿蹤狀態被其他狀態效果覆蓋。處於匿蹤（3次）狀態的單位無視敵方此後三次的多體攻擊。即使處於匿蹤（3次）狀態的單位受到傷害此效果也不會被移除。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "流星衝擊",
+                "SkillDescription": "對1個敵人造成300%的傷害；若敵方場上存在1個守衛者，則造成450%的傷害；若敵方場上存在至少2個守衛者，則造成600%的傷害。此技能無視目標的減傷效果、反彈被動技能和「反擊態勢」狀態。如果目標不處於燃燒狀態則使其陷入持續999TU的「致命毒」狀態。\n每次使用後必須使用其他技能造成傷害後才能再次使用。此技能不被視為順勢類主動技能。\n致命毒所造成的傷害是中毒的2倍，會覆蓋對象身上的其他狀態效果，可被燃燒或匿蹤狀態效果覆蓋，但不會被其他狀態覆蓋或被「淨化」類的技能清除。致命毒無視目標防止被擊敗的效果或被動技能，除非該效果能防止目標被中毒或非攻擊傷害擊敗。致命毒對BOSS類或處於燃燒狀態的單位無效。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "狐尾之風",
+                "SkillDescription": "場上處於匿蹤狀態或有「潛行」類主動技能的己方單位TU歸零，使其順次獲得下一回合（此單位先獲得）。在由此技能而獲得的回合無法使用給予其他隊友回合的主動技能。回復場上所有己方單位最大生命值的100%，並使其獲得匿蹤（3次）狀態與匿蹤護盾。\n只有當場上至少有2個處於匿蹤狀態的己方單位時才能使用。此技能使用後必須等100TU後才能再次使用。此技能在一場戰鬥中只能使用三次。",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "開拓者",
+                "SkillDescription": "對2個敵人造成400%的傷害，若目標處於中毒或睡眠狀態，則僅對其改為600%的傷害。此攻擊無視敵方的狀態效果（包括匿蹤）、減傷效果、非BOSS單位防止被擊敗的效果、「復仇」類被動技能、反彈類被動技能。不處於燃燒狀態的目標隨機陷入持續200TU的詛咒睡眠狀態或持續999TU的致命毒狀態。\n使用者必須處於匿蹤狀態才可使用。此技能使用後必須等50TU後才能再次使用。\n詛咒睡眠狀態對進場後已陷入過睡眠狀態的敵方單位亦可生效，會覆蓋身上燃燒以外的其他狀態效果，且不會被中毒覆蓋。處於詛咒睡眠的單位受到捕夢類主動技能的傷害時不會移除詛咒睡眠狀態。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "疾風之狐少女",
+                "SkillDescription": "此單位的攻擊不會移除目標的睡眠狀態。此單位回復所造成傷害100%的生命值。\n此單位在進入戰場後獲得匿蹤（3次）狀態與匿蹤護盾。當使用者從援軍進場時，立即擊敗己方場上所有冒牌貨。此單位被視為透過攻擊擊敗該數量的目標。此效果無視防止目標被擊敗的效果或被動技能，且不會觸發目標的詛咒與祝福或復活類被動技能。\n每當任意單位的回合結束時，己方場上隨機1個不處於燃燒或匿蹤狀態的隊友獲得匿蹤（3次）狀態，再回復隨機1個處於匿蹤狀態的隊友最大生命值的30%。此效果僅當己方場上存在其他己方單位時才會觸發。\n每當其他隊友回合結束時，若場上所有己方單位處於匿蹤狀態，此單位TU歸零立即獲得一回合，此效果在此後20TU內無法再次觸發。"
+            },
+            {
+                "SkillTitle": "提升攻擊力Lv3",
+                "SkillDescription": "此單位的攻擊力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此單位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "水系耐性Lv3",
+                "SkillDescription": "若此單位受到水屬性的敵人攻擊，所受到的傷害會減少10%。"
+            },
+            {
+                "SkillTitle": "單手劍大師",
+                "SkillDescription": "若此單位裝備單手劍類型武器，武器技能會啟用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "單手劍"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "呀嚯——我叫蜜莎！ \n俄羅亞最快最強的戰士。 \n你一定早就知道了。 \n\n我比以前變得更肌肉更強了，\n力量大升級，\n不管什麼敵人都能一下子搞定！"
+            ],
+            "Login": [
+                "啊，找到你啦——！咦，難道是我跑得太快了！ ？ ……抱歉！ ！"
+            ],
+            "Tap": [
+                "我不記得我姐姐了……因為那時候還很小。 \n可是，我總覺得我知道的。那雙曾抱緊我的、溫暖的手。",
+                "餵餵，要不要跟我來個「頭頂頭」？就是額頭貼著額頭那種！ \n咦…你怎麼臉紅了？啊哈，太好笑！",
+                "只要繼續這樣冒險下去，我覺得總有一天會明白的──我究竟是什麼人……。 \n餵，不管我變成什麼樣，你都會陪在我身邊嗎？"
+            ],
+            "Idle": [
+                "好無聊好無聊好無聊——！ \n餵——！你再不說話我就跑去小翠那邊了喔！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "匿蹤刺擊": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "流星衝擊": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "狐尾之風": {
+                    "BaseWeight": 100
+                },
+                "開拓者": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
+            }
+        }
+    },
+    "MyshaKnight02": {
+        "Name": "蜜莎",
+        "Name2": "疾風之狐少女",
+        "FullName": "蜜莎 - 疾風之狐少女",
+        "Profile": "蜜莎自幼以來，常常會做同一個夢。夜晚，在鬱鬱蔥蔥的森林深處，她被某人的臂彎包裹著輕輕搖晃。 「沒關係的，總有一天我會來接你。」那道溫柔的身影帶著哭腔，對她輕聲訴說。",
+        "Profile_Ascended": "踏入都城的蜜莎心中有一種預感。只要來到這裡，就一定能明白自己究竟是誰。懷抱期待的同時，她也感到深深的不安──彷彿潛藏在自身之中的未知黑暗，正要張開血盆大口。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "法杖",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 430,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "地屬性強化",
+            "SkillDescription": "所有地屬性隊友的攻擊力會增加10%而最大生命值也會增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "匿蹤刺擊",
+                "SkillDescription": "對場上所有敵人造成300%的傷害。若使用者處於匿蹤狀態，傷害提升至400%。此技能無視目標的狀態效果（包括匿蹤）、減傷效果、非BOSS單位防止被擊敗的效果、「復仇」類被動技能、反彈類被動技能。此技能屬於潛行類的主動技能。\n使用者獲得匿蹤（3次）狀態與匿蹤護盾效果。若使用者已經處於匿蹤狀態，場上其他己方單位都獲得匿蹤（3次）狀態與匿蹤護盾效果。\n匿蹤（3次）會覆蓋身上的其他狀態效果。匿蹤護盾效果將防止此後一次該單位的匿蹤狀態被其他狀態效果覆蓋。處於匿蹤（3次）狀態的單位無視敵方此後三次的多體攻擊。即使處於匿蹤（3次）狀態的單位受到傷害此效果也不會被移除。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "流星衝擊",
+                "SkillDescription": "對1個敵人造成300%的傷害；若敵方場上存在1個守衛者，則造成450%的傷害；若敵方場上存在至少2個守衛者，則造成600%的傷害。此技能無視目標的減傷效果、反彈被動技能和「反擊態勢」狀態。如果目標不處於燃燒狀態則使其陷入持續999TU的「致命毒」狀態。\n每次使用後必須使用其他技能造成傷害後才能再次使用。此技能不被視為順勢類主動技能。\n致命毒所造成的傷害是中毒的2倍，會覆蓋對象身上的其他狀態效果，可被燃燒或匿蹤狀態效果覆蓋，但不會被其他狀態覆蓋或被「淨化」類的技能清除。致命毒無視目標防止被擊敗的效果或被動技能，除非該效果能防止目標被中毒或非攻擊傷害擊敗。致命毒對BOSS類或處於燃燒狀態的單位無效。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "狐尾之風",
+                "SkillDescription": "場上處於匿蹤狀態或有「潛行」類主動技能的己方單位TU歸零，使其順次獲得下一回合（此單位先獲得）。在由此技能而獲得的回合無法使用給予其他隊友回合的主動技能。回復場上所有己方單位最大生命值的100%，並使其獲得匿蹤（3次）狀態與匿蹤護盾。\n只有當場上至少有2個處於匿蹤狀態的己方單位時才能使用。此技能使用後必須等100TU後才能再次使用。此技能在一場戰鬥中只能使用三次。",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "開拓者",
+                "SkillDescription": "對2個敵人造成400%的傷害，若目標處於中毒或睡眠狀態，則僅對其改為600%的傷害。此攻擊無視敵方的狀態效果（包括匿蹤）、減傷效果、非BOSS單位防止被擊敗的效果、「復仇」類被動技能、反彈類被動技能。不處於燃燒狀態的目標隨機陷入持續200TU的詛咒睡眠狀態或持續999TU的致命毒狀態。\n使用者必須處於匿蹤狀態才可使用。此技能使用後必須等50TU後才能再次使用。\n詛咒睡眠狀態對進場後已陷入過睡眠狀態的敵方單位亦可生效，會覆蓋身上燃燒以外的其他狀態效果，且不會被中毒覆蓋。處於詛咒睡眠的單位受到捕夢類主動技能的傷害時不會移除詛咒睡眠狀態。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "疾風之狐少女",
+                "SkillDescription": "此單位的攻擊不會移除目標的睡眠狀態。此單位回復所造成傷害100%的生命值。\n此單位在進入戰場後獲得匿蹤（3次）狀態與匿蹤護盾。當使用者從援軍進場時，立即擊敗己方場上所有冒牌貨。此單位被視為透過攻擊擊敗該數量的目標。此效果無視防止目標被擊敗的效果或被動技能，且不會觸發目標的詛咒與祝福或復活類被動技能。\n每當任意單位的回合結束時，己方場上隨機1個不處於燃燒或匿蹤狀態的隊友獲得匿蹤（3次）狀態，再回復隨機1個處於匿蹤狀態的隊友最大生命值的30%。此效果僅當己方場上存在其他己方單位時才會觸發。\n每當其他隊友回合結束時，若場上所有己方單位處於匿蹤狀態，此單位TU歸零立即獲得一回合，此效果在此後20TU內無法再次觸發。"
+            },
+            {
+                "SkillTitle": "天狐的後裔",
+                "SkillDescription": "若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。\n每當處於匿蹤狀態的己方單位回合開始時，此單位回復最大生命值的50%。此效果僅當己方場上存在其他己方單位時才會觸發。\n己方場上每存在1個雷屬性或地屬性的單位，此單位受到的眩暈減少50TU。\n每當場上1個其他非召喚物隊友被擊敗或被犧牲後，觸發以下效果：\n·己方獲得3點靈氣。\n·此單位獲得匿蹤（3次）狀態與匿蹤護盾。\n·此單位攻擊力增加為1.5倍直到其下一回合結束。此效果會覆蓋原先的虛弱或狂熱效果。"
+            },
+            {
+                "SkillTitle": "提升攻擊力Lv3",
+                "SkillDescription": "此單位的攻擊力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此單位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "水系耐性Lv3",
+                "SkillDescription": "若此單位受到水屬性的敵人攻擊，所受到的傷害會減少10%。"
+            },
+            {
+                "SkillTitle": "單手劍大師",
+                "SkillDescription": "若此單位裝備單手劍類型武器，武器技能會啟用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "單手劍"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "呀嚯——我叫蜜莎！ \n俄羅亞最快最強的戰士。 \n你一定早就知道了。 \n\n我比以前變得更肌肉更強了，\n力量大升級，\n不管什麼敵人都能一下子搞定！"
+            ],
+            "Login": [
+                "啊，找到你啦——！咦，難道是我跑得太快了！ ？ ……抱歉！ ！"
+            ],
+            "Tap": [
+                "我不記得我姐姐了……因為那時候還很小。 \n可是，我總覺得我知道的。那雙曾抱緊我的、溫暖的手。",
+                "餵餵，要不要跟我來個「頭頂頭」？就是額頭貼著額頭那種！ \n咦…你怎麼臉紅了？啊哈，太好笑！",
+                "只要繼續這樣冒險下去，我覺得總有一天會明白的──我究竟是什麼人……。 \n餵，不管我變成什麼樣，你都會陪在我身邊嗎？"
+            ],
+            "Idle": [
+                "好無聊好無聊好無聊——！ \n餵——！你再不說話我就跑去小翠那邊了喔！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "匿蹤刺擊": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "流星衝擊": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "狐尾之風": {
+                    "BaseWeight": 100
+                },
+                "開拓者": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "搖曳身影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻擊力+2%"
+            }
+        }
     }
 }

@@ -18765,11 +18765,11 @@
         "Hp_Base": 2695,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "Angriff +",
-                "SkillDescription": "7% Bonus auf Angriffe gegen Einheiten mit aktiven Fertigkeiten vom Typ Giftschlucker oder Tarnkappenschlag."
+                "SkillDescription": "7% Bonus auf Angriffe gegen Einheiten mit aktiven Fertigkeiten vom Typ Giftfresser oder Lautloser Schlag."
             }
         ]
     },
@@ -18788,11 +18788,11 @@
         "Hp_Base": 3225,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "Angriff +",
-                "SkillDescription": "10% Bonus auf Angriffe gegen Einheiten mit aktiven Fertigkeiten vom Typ Giftschlucker oder Tarnkappenschlag."
+                "SkillDescription": "10% Bonus auf Angriffe gegen Einheiten mit aktiven Fertigkeiten vom Typ Giftfresser oder Lautloser Schlag."
             }
         ],
         "ExtraEvoInitialCount": 1
@@ -18812,11 +18812,82 @@
         "Hp_Base": 3400,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "Angriff +",
-                "SkillDescription": "15% Bonus auf Angriffe gegen Einheiten mit aktiven Fertigkeiten vom Typ Giftschlucker oder Tarnkappenschlag."
+                "SkillDescription": "15% Bonus auf Angriffe gegen Einheiten mit aktiven Fertigkeiten vom Typ Giftfresser oder Lautloser Schlag."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "MyshaFlowerStaff01": {
+        "Name": "Astral-Lotus",
+        "FullName": "Astral-Lotus",
+        "Profile": "Ein schöner Blumenstab, der unter dem Nachthimmel blüht. Jedes Mal, wenn er ein Blütenblatt verliert, geht ein weiteres Leben zu Ende.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Stab",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "ZE-Kosten reduziert",
+                "SkillDescription": "10% ZE-Kostenreduktion, wenn mind. 2 Verbündete lautlos sind."
+            }
+        ]
+    },
+    "MyshaFlowerStaff02": {
+        "Name": "Astral-Lotus",
+        "FullName": "Astral-Lotus",
+        "Profile": "Ein schöner Blumenstab, der unter dem Nachthimmel blüht. Jedes Mal, wenn er ein Blütenblatt verliert, geht ein weiteres Leben zu Ende.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Stab",
+        "Cost": 17,
+        "Atk_Base": 571,
+        "Hp_Base": 3645,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "ZE-Kosten reduziert",
+                "SkillDescription": "15% ZE-Kostenreduktion, wenn mind. 2 Verbündete lautlos sind."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "MyshaFlowerStaff03": {
+        "Name": "Astral-Lotus",
+        "FullName": "Astral-Lotus",
+        "Profile": "Ein schöner Blumenstab, der unter dem Nachthimmel blüht. Jedes Mal, wenn er ein Blütenblatt verliert, geht ein weiteres Leben zu Ende.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Stab",
+        "Cost": 23,
+        "Atk_Base": 608,
+        "Hp_Base": 3960,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "ZE-Kosten reduziert",
+                "SkillDescription": "20% ZE-Kostenreduktion, wenn mind. 2 Verbündete lautlos sind."
             }
         ],
         "ExtraEvoInitialCount": 2

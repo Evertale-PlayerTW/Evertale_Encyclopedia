@@ -10283,6 +10283,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -10593,6 +10604,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -17892,6 +17914,17 @@
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -18277,6 +18310,17 @@
                     "MonsterBoy01",
                     "RoseElf01",
                     "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "ATT+2%"
             }
@@ -23477,6 +23521,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -23684,6 +23739,17 @@
                     "SmokePipeFrog01",
                     "RoseElf01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "ATT+2%"
             }
@@ -126194,7 +126260,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Assalto Viscerale",
-                "SkillDescription": "600% di danno a 1 nemico. 100% di danno in meno per ogni alleato addormentato, ustionato o avvelenato in campo (fino a -400% se ci sono 4 alleati affetti). Questo attacco ignora gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Cura l'unità del 100% del danno totale inflitto. Il danno da quest'attacco non sveglia i nemici.\n\nPoi, il bersaglio colpito subisce Debolezza e Protezione Provocazione. Sostituisce altri effetti di Debolezza o Provocazione.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.",
+                "SkillDescription": "600% di danno a 1 nemico. 100% di danno in meno per ogni alleato addormentato, ustionato o avvelenato in campo (fino a -400% se ci sono 4 alleati affetti). Questo attacco ignora gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Cura l'unità del 100% del danno inflitto totale. Il danno da quest'attacco non sveglia i nemici addormentati.\n\nPoi, il bersaglio colpito subisce Debolezza e Protezione Provocazione. Sostituisce altri effetti di Debolezza o Provocazione.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.",
                 "TU": 70,
                 "Spirit": "+3"
             },
@@ -126206,7 +126272,7 @@
             },
             {
                 "SkillTitle": "Amore Profuso",
-                "SkillDescription": "Cura tutti gli alleati per un valore di HP pari al 1500% dell'attacco dell'unità. Rimuove Sonno, Ustione e Veleno (inclusi Sonno Profondo, Mega Ustione Curativa e Veleno Letale) da tutti gli alleati. Per ogni tipo di effetto di stato rimosso, l'unità diventa immune a quell'effetto di stato per 50TU.\n\nPoi, purifica tutti gli alleati (rimuove gli effetti di stato negativi).\n\nUtilizzabile se c'è un alleato ustionato, addormentato o avvelenato in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
+                "SkillDescription": "Cura tutti gli alleati in campo per un valore di HP pari al 1500% dell'attacco dell'unità. Rimuove Sonno, Ustione e Veleno (inclusi Sonno Profondo, Mega Ustione Curativa e Veleno Letale) da tutti gli alleati. Per ogni tipo di effetto di stato rimosso, l'unità diventa immune a quell'effetto di stato per 50TU.\n\nPoi, purifica tutti gli alleati (rimuove gli effetti di stato negativi).\n\nUtilizzabile se c'è un alleato ustionato, addormentato o avvelenato in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
                 "TU": 1,
                 "Spirit": "-1"
             },
@@ -126384,7 +126450,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Assalto Viscerale",
-                "SkillDescription": "600% di danno a 1 nemico. 100% di danno in meno per ogni alleato addormentato, ustionato o avvelenato in campo (fino a -400% se ci sono 4 alleati affetti). Questo attacco ignora gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Cura l'unità del 100% del danno totale inflitto. Il danno da quest'attacco non sveglia i nemici.\n\nPoi, il bersaglio colpito subisce Debolezza e Protezione Provocazione. Sostituisce altri effetti di Debolezza o Provocazione.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.",
+                "SkillDescription": "600% di danno a 1 nemico. 100% di danno in meno per ogni alleato addormentato, ustionato o avvelenato in campo (fino a -400% se ci sono 4 alleati affetti). Questo attacco ignora gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Cura l'unità del 100% del danno inflitto totale. Il danno da quest'attacco non sveglia i nemici addormentati.\n\nPoi, il bersaglio colpito subisce Debolezza e Protezione Provocazione. Sostituisce altri effetti di Debolezza o Provocazione.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.",
                 "TU": 70,
                 "Spirit": "+3"
             },
@@ -126396,7 +126462,7 @@
             },
             {
                 "SkillTitle": "Amore Profuso",
-                "SkillDescription": "Cura tutti gli alleati per un valore di HP pari al 1500% dell'attacco dell'unità. Rimuove Sonno, Ustione e Veleno (inclusi Sonno Profondo, Mega Ustione Curativa e Veleno Letale) da tutti gli alleati. Per ogni tipo di effetto di stato rimosso, l'unità diventa immune a quell'effetto di stato per 50TU.\n\nPoi, purifica tutti gli alleati (rimuove gli effetti di stato negativi).\n\nUtilizzabile se c'è un alleato ustionato, addormentato o avvelenato in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
+                "SkillDescription": "Cura tutti gli alleati in campo per un valore di HP pari al 1500% dell'attacco dell'unità. Rimuove Sonno, Ustione e Veleno (inclusi Sonno Profondo, Mega Ustione Curativa e Veleno Letale) da tutti gli alleati. Per ogni tipo di effetto di stato rimosso, l'unità diventa immune a quell'effetto di stato per 50TU.\n\nPoi, purifica tutti gli alleati (rimuove gli effetti di stato negativi).\n\nUtilizzabile se c'è un alleato ustionato, addormentato o avvelenato in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
                 "TU": 1,
                 "Spirit": "-1"
             },
@@ -126585,13 +126651,13 @@
             },
             {
                 "SkillTitle": "Massacro Assoluto",
-                "SkillDescription": "300% di danno a 1 nemico. Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Il danno da quest'attacco non sveglia i nemici.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta il 10% o meno degli HP massimi dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.\n\nUtilizzabile 10 volte per battaglia.",
+                "SkillDescription": "300% di danno a 1 nemico. Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Il danno da quest'attacco non sveglia i nemici addormentati.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta il 10% o meno degli HP massimi dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.\n\nUtilizzabile 10 volte per battaglia.",
                 "TU": 60,
                 "Spirit": "-1"
             },
             {
                 "SkillTitle": "Spinta Empia",
-                "SkillDescription": "Colpisce 1 nemico.\n\nSottrae fino a 1 Spirito dalla squadra nemica per ogni nemico in campo. Gli Impostori nemici sono conteggiati due volte.\n\nPoi, scambia 1 nemico con un Impostore. Il nemico scambiato viene mandato in un posto casuale tra i rinforzi nemici. Se non ci sono rinforzi nemici, aggiunge abbastanza Impostori alla squadra nemica per mandare lo stesso il nemico tra i rinforzi (fino a 3). L'effetto non si attiva se il bersaglio nemico è Irremovibile.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 200TU dopo l'uso.",
+                "SkillDescription": "Colpisce 1 nemico.\n\nSottrae fino a 1 Spirito dalla squadra nemica per ogni nemico in campo. Gli Impostori nemici sono conteggiati due volte.\n\nPoi, scambia il bersaglio con un Impostore. Il nemico scambiato viene mandato in un posto casuale tra i rinforzi nemici. Se non ci sono rinforzi nemici, aggiunge abbastanza Impostori alla squadra nemica per mandare lo stesso il nemico tra i rinforzi (fino a 3). L'effetto non si attiva se il bersaglio nemico è Irremovibile.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 200TU dopo l'uso.",
                 "TU": 1,
                 "Spirit": "-1"
             },
@@ -126605,7 +126671,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Musashi Crudele",
-                "SkillDescription": "Gli attacchi dell'unità curano l'unità del 100% del danno totale inflitto.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nFino alla fine del primo turno dell'unità da quando è entrata in campo, l'unità è immune a Stordimento e Sonno. Dopo, l'unità è immune a Stordimento e Sonno per 100TU.\n\nOgni volta che l'unità infligge danno a un nemico con un attacco, l'unità ottiene immediatamente il prossimo turno se il nemico aveva il 100% degli HP massimi all'inizio del turno, o se il danno lo lascia al 25% o meno degli HP massimi (anche se lo sconfigge).\n- Questo effetto non può riattivarsi sullo stesso bersaglio fino all'avanzamento dei TU.\n- Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU)."
+                "SkillDescription": "Gli attacchi dell'unità curano l'unità del 100% del danno inflitto totale.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nFino alla fine del primo turno dell'unità da quando è entrata in campo, l'unità è immune a Stordimento e Sonno. Dopo, l'unità è immune a Stordimento e Sonno per 100TU.\n\nOgni volta che l'unità infligge danno a un nemico con un attacco, l'unità ottiene immediatamente il turno successivo se il nemico aveva il 100% degli HP massimi all'inizio del turno, o se il danno lo lascia al 25% o meno degli HP massimi (anche se l'attacco lo sconfigge).\n- Questo effetto non può riattivarsi sullo stesso bersaglio fino all'avanzamento dei TU.\n- Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU)."
             },
             {
                 "SkillTitle": "Attacco+ Lv3",
@@ -126825,13 +126891,13 @@
             },
             {
                 "SkillTitle": "Massacro Assoluto",
-                "SkillDescription": "300% di danno a 1 nemico. Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Il danno da quest'attacco non sveglia i nemici.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta il 10% o meno degli HP massimi dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.\n\nUtilizzabile 10 volte per battaglia.",
+                "SkillDescription": "300% di danno a 1 nemico. Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, le abilità passive di contatto e l'effetto di stato Opposizione. Il danno da quest'attacco non sveglia i nemici addormentati.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta il 10% o meno degli HP massimi dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.\n\nUtilizzabile 10 volte per battaglia.",
                 "TU": 60,
                 "Spirit": "-1"
             },
             {
                 "SkillTitle": "Spinta Empia",
-                "SkillDescription": "Colpisce 1 nemico.\n\nSottrae fino a 1 Spirito dalla squadra nemica per ogni nemico in campo. Gli Impostori nemici sono conteggiati due volte.\n\nPoi, scambia 1 nemico con un Impostore. Il nemico scambiato viene mandato in un posto casuale tra i rinforzi nemici. Se non ci sono rinforzi nemici, aggiunge abbastanza Impostori alla squadra nemica per mandare lo stesso il nemico tra i rinforzi (fino a 3). L'effetto non si attiva se il bersaglio nemico è Irremovibile.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 200TU dopo l'uso.",
+                "SkillDescription": "Colpisce 1 nemico.\n\nSottrae fino a 1 Spirito dalla squadra nemica per ogni nemico in campo. Gli Impostori nemici sono conteggiati due volte.\n\nPoi, scambia il bersaglio con un Impostore. Il nemico scambiato viene mandato in un posto casuale tra i rinforzi nemici. Se non ci sono rinforzi nemici, aggiunge abbastanza Impostori alla squadra nemica per mandare lo stesso il nemico tra i rinforzi (fino a 3). L'effetto non si attiva se il bersaglio nemico è Irremovibile.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 200TU dopo l'uso.",
                 "TU": 1,
                 "Spirit": "-1"
             },
@@ -126845,7 +126911,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Musashi Crudele",
-                "SkillDescription": "Gli attacchi dell'unità curano l'unità del 100% del danno totale inflitto.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nFino alla fine del primo turno dell'unità da quando è entrata in campo, l'unità è immune a Stordimento e Sonno. Dopo, l'unità è immune a Stordimento e Sonno per 100TU.\n\nOgni volta che l'unità infligge danno a un nemico con un attacco, l'unità ottiene immediatamente il prossimo turno se il nemico aveva il 100% degli HP massimi all'inizio del turno, o se il danno lo lascia al 25% o meno degli HP massimi (anche se lo sconfigge).\n- Questo effetto non può riattivarsi sullo stesso bersaglio fino all'avanzamento dei TU.\n- Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU)."
+                "SkillDescription": "Gli attacchi dell'unità curano l'unità del 100% del danno inflitto totale.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nFino alla fine del primo turno dell'unità da quando è entrata in campo, l'unità è immune a Stordimento e Sonno. Dopo, l'unità è immune a Stordimento e Sonno per 100TU.\n\nOgni volta che l'unità infligge danno a un nemico con un attacco, l'unità ottiene immediatamente il turno successivo se il nemico aveva il 100% degli HP massimi all'inizio del turno, o se il danno lo lascia al 25% o meno degli HP massimi (anche se l'attacco lo sconfigge).\n- Questo effetto non può riattivarsi sullo stesso bersaglio fino all'avanzamento dei TU.\n- Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU)."
             },
             {
                 "SkillTitle": "Sangue dell'Oni",
@@ -127055,7 +127121,7 @@
         "Hp_Base": 6035,
         "Speed": 506,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Oh? Vuoi andare? Vuoi farlo davvero?\nDovrai affrontare la sottoscritta!",
         "LeaderSkill": {
             "SkillTitle": "ATT+ HP+ (Oscurità)",
@@ -127064,7 +127130,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lama Instabile",
-                "SkillDescription": "300% di danno a 1 nemico casuale, più il 100% di danno per ogni volta che l'unità ha colpito un nemico avvelenato con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver colpito 5 nemici avvelenati con attacchi). Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Qualsiasi attacco subito rimuoverà Invisibilità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
+                "SkillDescription": "300% di danno a 1 nemico casuale, più il 100% di danno per ogni volta che l'unità ha colpito un nemico avvelenato con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver colpito 5 nemici avvelenati con attacchi). Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Super Invisibilità sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Qualsiasi attacco subito rimuoverà Invisibilità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
                 "TU": 30,
                 "Spirit": "+2"
             },
@@ -127084,11 +127150,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Spada Ipnotica",
-                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità recupera il 100% degli HP massimi.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità ottiene un altro turno. Questi effetti non possono riattivarsi sui bersagli danneggiati fino all'avanzamento dei TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nLa prima volta che l'unità subisce danno da un attacco mentre non ci sono nemici ipnotizzati in campo, e non ci sono altre unità \"Kenshin, Maestra della Porta di Rashomon\" in campo, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di ipnotizzare tutti i nemici in campo. Un nemico ipnotizzato utilizzerà il suo prossimo turno per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi di quella unità terminerà. Ipnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss."
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità recupera il 100% degli HP massimi.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità ottiene un altro turno. Questi effetti non possono riattivarsi sui bersagli danneggiati fino all'avanzamento dei TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU).\n\nLa prima volta che l'unità subisce danno da un attacco mentre non ci sono nemici ipnotizzati in campo e non ci sono altre unità \"Kenshin, Capo della Porta di Rashomon\" in campo, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di ipnotizzare tutti i nemici in campo. Un nemico ipnotizzato utilizzerà il suo turno successivo per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi di quella unità terminerà. Ipnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss."
             },
             {
                 "SkillTitle": "Custode",
-                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Scudo Invisibile.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno.\n\nSe c'è un nemico avvelenato in campo, l'unità è immune a Stordimento e Ustione.\n\nOgni volta che un'unità (alleata o nemica) entra in campo dai rinforzi, questa unità recupera il 100% degli HP massimi ed è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nquesta unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP. Poi, fino al suo prossimo turno:\n- L'unità non può essere sconfitta.\n- L'unità recupera il 10% degli HP massimi alla fine di ogni turno.\nÈ considerato un effetto Vigore+ e termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo.\nQuando l'unità sconfigge un nemico con un attacco o con Rashomon, l'effetto Vigore+ si ripristina per potersi riattivare."
+                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Scudo Invisibile.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno.\n\nSe c'è un nemico avvelenato in campo, l'unità è immune a Stordimento e Ustione.\n\nOgni volta che un'unità (alleata o nemica) entra in campo dai rinforzi, questa unità recupera il 100% degli HP massimi ed è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nSe questa unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP. Poi, fino al suo prossimo turno:\n- L'unità non può essere sconfitta.\n- L'unità recupera il 10% degli HP massimi alla fine di ogni turno.\nÈ considerato un effetto Vigore+ e termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo.\nQuando l'unità sconfigge un nemico con un attacco o con Rashomon, l'effetto Vigore+ si ripristina per potersi riattivare."
             },
             {
                 "SkillTitle": "HP+ Lv3",
@@ -127200,6 +127266,19 @@
                     }
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
         }
     },
     "KenshinRegular02": {
@@ -127228,7 +127307,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lama Instabile",
-                "SkillDescription": "300% di danno a 1 nemico casuale, più il 100% di danno per ogni volta che l'unità ha colpito un nemico avvelenato con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver colpito 5 nemici avvelenati con attacchi). Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Qualsiasi attacco subito rimuoverà Invisibilità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
+                "SkillDescription": "300% di danno a 1 nemico casuale, più il 100% di danno per ogni volta che l'unità ha colpito un nemico avvelenato con un attacco da quando è entrata in campo (fino all'800% di danno totale dopo aver colpito 5 nemici avvelenati con attacchi). Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Super Invisibilità sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Qualsiasi attacco subito rimuoverà Invisibilità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
                 "TU": 30,
                 "Spirit": "+2"
             },
@@ -127246,7 +127325,7 @@
             },
             {
                 "SkillTitle": "Rashomon",
-                "SkillDescription": "Tutti i nemici in campo senza Effimerità e che non sono boss hanno il 50% di probabilità ognuno di essere sconfitti immediatamente. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive o gli effetti che impedirebbero al bersaglio di essere sconfitto. Ogni bersaglio conta come sconfitto dall'unità con attacchi se sconfitto da questo effetto.\n\nDopo aver usato quest'abilità, quando l'unità viene da sconfitta dal danno di un attacco, aggiunge una copia dell'unità al primo posto tra i rinforzi alleati al 100% di HP ed è considerata un'unità invocata. La trasmodazione, il risveglio, i bonus, il potenziale, la maestria, le armi e gli accessori combaceranno con quelli dell'unità.\n\nSi sblocca dopo che 5 unità non invocate in campo vengono sconfitte o sacrificate mentre l'unità è in campo. Utilizzabile una volta per battaglia.",
+                "SkillDescription": "Tutti i nemici in campo senza Effimerità e che non sono boss hanno il 50% di probabilità ognuno di essere sconfitti immediatamente. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive o gli effetti di abilità attive che impedirebbero al bersaglio di essere sconfitto. Ogni bersaglio conta come sconfitto dall'unità con attacchi se sconfitto da questo effetto.\n\nDopo aver usato quest'abilità, quando l'unità viene da sconfitta dal danno di un attacco, aggiunge una copia dell'unità al primo posto tra i rinforzi alleati al 100% di HP ed è considerata un'unità invocata. La trasmodazione, il risveglio, i bonus, il potenziale, la maestria, le armi e gli accessori combaceranno con quelli dell'unità.\n\nSi sblocca dopo che 5 unità non invocate in campo vengono sconfitte o sacrificate da quando l'unità è entrata in campo. Utilizzabile una volta per battaglia.",
                 "TU": 4,
                 "Spirit": "-10"
             }
@@ -127254,11 +127333,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Spada Ipnotica",
-                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità recupera il 100% degli HP massimi.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità ottiene un altro turno. Questi effetti non possono riattivarsi sui bersagli danneggiati fino all'avanzamento dei TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nLa prima volta che l'unità subisce danno da un attacco mentre non ci sono nemici ipnotizzati in campo, e non ci sono altre unità \"Kenshin, Maestra della Porta di Rashomon\" in campo, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di ipnotizzare tutti i nemici in campo. Un nemico ipnotizzato utilizzerà il suo prossimo turno per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi di quella unità terminerà. Ipnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss."
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità recupera il 100% degli HP massimi.\n\nOgni volta che l'unità infligge danno a un nemico avvelenato con un attacco, l'unità ottiene un altro turno. Questi effetti non possono riattivarsi sui bersagli danneggiati fino all'avanzamento dei TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU).\n\nLa prima volta che l'unità subisce danno da un attacco mentre non ci sono nemici ipnotizzati in campo e non ci sono altre unità \"Kenshin, Capo della Porta di Rashomon\" in campo, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di ipnotizzare tutti i nemici in campo. Un nemico ipnotizzato utilizzerà il suo turno successivo per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi di quella unità terminerà. Ipnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss."
             },
             {
                 "SkillTitle": "Custode",
-                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Scudo Invisibile.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno.\n\nSe c'è un nemico avvelenato in campo, l'unità è immune a Stordimento e Ustione.\n\nOgni volta che un'unità (alleata o nemica) entra in campo dai rinforzi, questa unità recupera il 100% degli HP massimi ed è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nquesta unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP. Poi, fino al suo prossimo turno:\n- L'unità non può essere sconfitta.\n- L'unità recupera il 10% degli HP massimi alla fine di ogni turno.\nÈ considerato un effetto Vigore+ e termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo.\nQuando l'unità sconfigge un nemico con un attacco o con Rashomon, l'effetto Vigore+ si ripristina per potersi riattivare."
+                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Scudo Invisibile.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno.\n\nSe c'è un nemico avvelenato in campo, l'unità è immune a Stordimento e Ustione.\n\nOgni volta che un'unità (alleata o nemica) entra in campo dai rinforzi, questa unità recupera il 100% degli HP massimi ed è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nSe questa unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP. Poi, fino al suo prossimo turno:\n- L'unità non può essere sconfitta.\n- L'unità recupera il 10% degli HP massimi alla fine di ogni turno.\nÈ considerato un effetto Vigore+ e termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo.\nQuando l'unità sconfigge un nemico con un attacco o con Rashomon, l'effetto Vigore+ si ripristina per potersi riattivare."
             },
             {
                 "SkillTitle": "HP+ Lv3",
@@ -127390,6 +127469,466 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
+    },
+    "MyshaKnight01": {
+        "Name": "Mysha",
+        "Name2": "Cavaliera del Vessillo Rosso",
+        "FullName": "Mysha - Cavaliera del Vessillo Rosso",
+        "Profile": "Mysha fu adottata da Gilgan quando era piccola e crebbe amandolo come un genitore. A Urg Roa, trascorse giorni felici tra i kud. Eppure, di tanto in tanto, una domanda attraversava la sua mente: \"Chi sono veramente?\"",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bastone",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 28,
+        "Atk_Base": 1077,
+        "Hp_Base": 5825,
+        "Speed": 430,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Più veloce di chiunque altro—",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Trapasso Fendente",
+                "SkillDescription": "300% di danno a tutti i nemici. 400% di danno invece se l'unità è invisibile. Questo attacco ignora gli effetti di stato nemici (incluso Invisibilità), gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, le abilità passive di Vendetta e le abilità passive di contatto. Questa abilità è considerata un'abilità di tipo Colpo Invisibile.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Se l'unità è già invisibile, tutti gli altri alleati ottengono Super Invisibilità e Scudo Invisibile.\n\nSuper Invisibilità sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Caduta Letale",
+                "SkillDescription": "300% di danno a 1 nemico. 450% di danno invece se c'è 1 Guardiano nemico in campo. 600% di danno invece se ci sono 2 Guardiani nemici in campo. Questo attacco ignora gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, se quel nemico non è ustionato, subisce Veleno Letale per 999TU.\n\nQuesta abilità è bloccata dopo l'uso finché l'unità non infligge danno con un attacco. Questa abilità non è considerata un'abilità attiva di tipo Combo Scoppio.\n\nVeleno Letale sostituisce altri effetti di stato sul nemico, non viene sostituito da altri effetti di stato tranne Ustione e Invisibilità, e non può essere purificato. Veleno Letale infligge 2 volte il danno del normale Veleno e ignora le abilità passive e gli effetti che impedirebbero al bersaglio di essere sconfitto, tranne quelli che impediscono specificamente la sconfitta dovuta a Veleno o danni non da attacchi. Veleno Letale non si applica alle unità boss o ustionate.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Alleanza Invisibile",
+                "SkillDescription": "Fornisce immediatamente i turni successivi a tutti gli altri alleati con Invisibilità o un'abilità attiva di tipo Colpo Invisibile riducendo i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nPoi, cura tutti gli alleati per il 100% dei loro HP massimi e fornisce loro Super Invisibilità e Scudo Invisibile.\n\nUtilizzabile se ci sono 2+ alleati invisibili in campo. Questa abilità è bloccata per 100TU dopo l'uso. Utilizzabile 3 volte per battaglia.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Spezzaterra",
+                "SkillDescription": "400% di danno a 2 nemici. 600% di danno invece ai bersagli avvelenati o addormentati. Questo attacco ignora gli effetti di stato nemici (incluso Invisibilità), gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, le abilità passive di Vendetta e le abilità passive di contatto.\n\nPoi, i bersagli non ustionati colpiti subiscono casualmente Sonno Maledetto per 200TU o Veleno Letale per 999TU.\n\nUtilizzabile solo se l'unità è invisibile. Questa abilità è bloccata per 50TU dopo l'uso.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Prodigio Invisibile",
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno inflitto totale.\n\nL'unità entra in campo con Super Invisibilità e Scudo Invisibile. Se l'unità entra in campo dai rinforzi, tutti gli Impostori alleati in campo vengono sconfitti immediatamente. Tutti i bersagli sconfitti da questo effetto contano come sconfitti dall'unità con un attacco. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti di abilità attive che impedirebbero ai bersagli di essere sconfitti.\n\nAlla fine di ogni turno, l'unità fornisce Super Invisibilità a un'unità casuale non ustionata e non invisibile in campo. Poi, un alleato invisibile casuale recupera il 30% degli HP massimi. Gli effetti non si attivano se non ci sono altri alleati di Mysha in campo.\n\nAlla fine di ogni turno degli altri alleati, se tutti gli alleati in campo sono invisibili, l'unità ottiene immediatamente il turno azzerando i suoi TU, poi questo effetto non può riattivarsi fino all'avanzamento di 20TU."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Acqua Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Acqua."
+            },
+            {
+                "SkillTitle": "Maestria Spada",
+                "SkillDescription": "Può usare le abilità delle Spade oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ciao, sono Mysha!\nSono la guerriera più veloce e più forte di Urg Roa.\nMa lo sapevi già, vero?\n\nMi sono allenata e sono diventata più forte di\nprima, in modo da poter affrontare qualunque ostacolo\nmi si pari davanti!"
+            ],
+            "Login": [
+                "Ah, eccoti! Sono stato troppo veloce per te? Scusa!"
+            ],
+            "Tap": [
+                "Non ricordo nulla di mia sorella perché ero piccola... Ma di una cosa sono sicura. Ricordo le mani calde che mi abbracciavano stretta.",
+                "Ehi, ti va di sbattere con me? Sai, fronte a fronte!\nEh...? Perché sei tutto rosso? Ahahah, sei strano!",
+                "Sento che proseguendo questo viaggio arriverò a scoprire chi sono veramente...\nEhi, tu resterai con me, qualunque cosa accada?"
+            ],
+            "Idle": [
+                "Sono super annoiata!\nEhi! Guarda che se non dici niente, vado da Tori!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "Trapasso Fendente": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "Caduta Letale": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "Alleanza Invisibile": {
+                    "BaseWeight": 100
+                },
+                "Spezzaterra": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
+    },
+    "MyshaKnight02": {
+        "Name": "Mysha",
+        "Name2": "Cavaliera del Vessillo Rosso",
+        "FullName": "Mysha - Cavaliera del Vessillo Rosso",
+        "Profile": "Fin da piccola, Mysha ripeteva spesso lo stesso sogno. Di notte, nel profondo di una fitta e ombrosa foresta, veniva dolcemente cullata tra le braccia di qualcuno. Una presenza gentile sussurrava con voce rotta dalle lacrime: \"Non ti preoccupare. Un giorno verrò a prenderti.\"",
+        "Profile_Ascended": "Quando Mysha mise piede nella capitale, sentì un presentimento. Era sicura che qui avrebbe finalmente scoperto le sue vere origini. Ma insieme a quella speranza provò un profondo disagio— come se un'oscurità sconosciuta in agguato dentro di lei stesse per spalancarsi.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bastone",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 430,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Trapasso Fendente",
+                "SkillDescription": "300% di danno a tutti i nemici. 400% di danno invece se l'unità è invisibile. Questo attacco ignora gli effetti di stato nemici (incluso Invisibilità), gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, le abilità passive di Vendetta e le abilità passive di contatto. Questa abilità è considerata un'abilità di tipo Colpo Invisibile.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Se l'unità è già invisibile, tutti gli altri alleati ottengono Super Invisibilità e Scudo Invisibile.\n\nSuper Invisibilità sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Caduta Letale",
+                "SkillDescription": "300% di danno a 1 nemico. 450% di danno invece se c'è 1 Guardiano nemico in campo. 600% di danno invece se ci sono 2 Guardiani nemici in campo. Questo attacco ignora gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, se quel nemico non è ustionato, subisce Veleno Letale per 999TU.\n\nQuesta abilità è bloccata dopo l'uso finché l'unità non infligge danno con un attacco. Questa abilità non è considerata un'abilità attiva di tipo Combo Scoppio.\n\nVeleno Letale sostituisce altri effetti di stato sul nemico, non viene sostituito da altri effetti di stato tranne Ustione e Invisibilità, e non può essere purificato. Veleno Letale infligge 2 volte il danno del normale Veleno e ignora le abilità passive e gli effetti che impedirebbero al bersaglio di essere sconfitto, tranne quelli che impediscono specificamente la sconfitta dovuta a Veleno o danni non da attacchi. Veleno Letale non si applica alle unità boss o ustionate.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Alleanza Invisibile",
+                "SkillDescription": "Fornisce immediatamente i turni successivi a tutti gli altri alleati con Invisibilità o un'abilità attiva di tipo Colpo Invisibile riducendo i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nPoi, cura tutti gli alleati per il 100% dei loro HP massimi e fornisce loro Super Invisibilità e Scudo Invisibile.\n\nUtilizzabile se ci sono 2+ alleati invisibili in campo. Questa abilità è bloccata per 100TU dopo l'uso. Utilizzabile 3 volte per battaglia.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Spezzaterra",
+                "SkillDescription": "400% di danno a 2 nemici. 600% di danno invece ai bersagli avvelenati o addormentati. Questo attacco ignora gli effetti di stato nemici (incluso Invisibilità), gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, le abilità passive di Vendetta e le abilità passive di contatto.\n\nPoi, i bersagli non ustionati colpiti subiscono casualmente Sonno Maledetto per 200TU o Veleno Letale per 999TU.\n\nUtilizzabile solo se l'unità è invisibile. Questa abilità è bloccata per 50TU dopo l'uso.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Prodigio Invisibile",
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno inflitto totale.\n\nL'unità entra in campo con Super Invisibilità e Scudo Invisibile. Se l'unità entra in campo dai rinforzi, tutti gli Impostori alleati in campo vengono sconfitti immediatamente. Tutti i bersagli sconfitti da questo effetto contano come sconfitti dall'unità con un attacco. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti di abilità attive che impedirebbero ai bersagli di essere sconfitti.\n\nAlla fine di ogni turno, l'unità fornisce Super Invisibilità a un'unità casuale non ustionata e non invisibile in campo. Poi, un alleato invisibile casuale recupera il 30% degli HP massimi. Gli effetti non si attivano se non ci sono altri alleati di Mysha in campo.\n\nAlla fine di ogni turno degli altri alleati, se tutti gli alleati in campo sono invisibili, l'unità ottiene immediatamente il turno azzerando i suoi TU, poi questo effetto non può riattivarsi fino all'avanzamento di 20TU."
+            },
+            {
+                "SkillTitle": "Retaggio Possente",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che un'unità invisibile (alleata o nemica) ottiene il turno, questa unità recupera il 50% degli HP massimi. L'effetto non si attiva se non ci sono altri alleati di Mysha in campo.\n\nL'unità riduce la durata degli effetti di Stordimento contro questa unità di 50TU per ogni alleato di tipo Vento o Terra in campo (fino a -200TU se ci sono 4 alleato di tipo Vento o Terra in campo).\n\nOgni volta che un altro alleato non invocato in campo viene sconfitto o sacrificato, si attivano i seguenti effetti:\n- Gli alleati ottengono 3 Spirito.\n- L'unità ottiene Super Invisibilità e Scudo Invisibile.\n- L'unità ottiene Provocazione. Sostituisce altri effetti di Debolezza o Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Acqua Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Acqua."
+            },
+            {
+                "SkillTitle": "Maestria Spada",
+                "SkillDescription": "Può usare le abilità delle Spade oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ciao, sono Mysha!\nSono la guerriera più veloce e più forte di Urg Roa.\nMa lo sapevi già, vero?\n\nMi sono allenata e sono diventata più forte di\nprima, in modo da poter affrontare qualunque ostacolo\nmi si pari davanti!"
+            ],
+            "Login": [
+                "Ah, eccoti! Sono stato troppo veloce per te? Scusa!"
+            ],
+            "Tap": [
+                "Non ricordo nulla di mia sorella perché ero piccola... Ma di una cosa sono sicura. Ricordo le mani calde che mi abbracciavano stretta.",
+                "Ehi, ti va di sbattere con me? Sai, fronte a fronte!\nEh...? Perché sei tutto rosso? Ahahah, sei strano!",
+                "Sento che proseguendo questo viaggio arriverò a scoprire chi sono veramente...\nEhi, tu resterai con me, qualunque cosa accada?"
+            ],
+            "Idle": [
+                "Sono super annoiata!\nEhi! Guarda che se non dici niente, vado da Tori!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "Trapasso Fendente": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "Caduta Letale": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "Alleanza Invisibile": {
+                    "BaseWeight": 100
+                },
+                "Spezzaterra": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Volto Familiare",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1770085694,
+	"Time": 1770344831,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -78026,6 +78026,222 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"StealthPassiveAMyshaKnight": {
+			"class": "Buff",
+			"stackName": "StealthPassiveAMyshaKnight",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+				"behaviorOverrides": [{
+				"sourceBuffs": ["SuperStealth","StealthShieldOnce","StoreEnergyHidden"]
+			},{
+				"selfBuffs": ["SacrificeAllAllyImpostersEBB"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"randomAllyBuffs": ["GenericStealthFX","SuperStealth"],
+				"numRandomToBuff": 1,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "IsNotBurningStealthOrAlone"
+			}, {
+				"randomAllyBuffs": ["30PercentHealMaxHP"],
+				"numRandomToBuff": 1,
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "IsStealthAndNotAlone"
+			}, {
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","ExtraTurnLockMyshaKnight"],
+				"sameTeam": true,
+				"disallowSelf": true,
+				"activeMonsterConditions": "AllAlliesIsStealth",
+				"spreadCondition": "NotExtraTurnLockMyshaKnight"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"ExtraTurnLockMyshaKnight": {
+			"class": "Buff",
+			"stackName": "ExtraTurnLockMyshaKnight",
+			"duration": 20,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"AllAlliesGainSuperStealthandStealthShieldEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allyBuffs": ["SuperStealth","StealthShieldOnce"],
+				"selfBuffs": ["SuperStealth","StealthShieldOnce"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SacrificeAllAllyImpostersEBB": {
+			"class": "Buff",
+			"stackName": "SacrificeAllAllyImpostersEBB",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["InstantDeathAndCreditSourceKill"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsImposter"
+			}],
+			"duration": 0,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SelfBuffPassiveAMyshaKnight": {
+			"class": "Buff",
+			"stackName": "SelfBuffPassiveAMyshaKnight",
+			"behaviors": ["EnterBattleBuff","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGround"]
+			},{
+				"selfBuffs": ["Stun50TUMinusFor1TurnwithStackname"],
+				"spreadCondition": "1AllyIsEarthOrAir"
+			},{
+				"selfBuffs": ["Stun100TUMinusFor1TurnwithStackname"],
+				"spreadCondition": "2AlliesIsEarthOrAir"
+			},{
+				"selfBuffs": ["Stun150TUMinusFor1TurnwithStackname"],
+				"spreadCondition": "3AlliesIsEarthOrAir"
+			},{
+				"selfBuffs": ["Stun200TUMinusFor1TurnwithStackname"],
+				"spreadCondition": "4AlliesIsEarthOrAir"
+			},{
+				"sourceBuffs": ["Stun50TUMinusFor1TurnwithStackname"],
+				"spreadCondition":"1AllyIsEarthOrAir",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"sourceBuffs": ["Stun100TUMinusFor1TurnwithStackname"],
+				"spreadCondition":"2AlliesIsEarthOrAir",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"sourceBuffs": ["Stun150TUMinusFor1TurnwithStackname"],
+				"spreadCondition":"3AlliesIsEarthOrAir",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"sourceBuffs": ["Stun200TUMinusFor1TurnwithStackname"],
+				"spreadCondition":"4AlliesIsEarthOrAir",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"selfBuffs": ["AttackPlus50Percent1TurnOnly","SuperStealth","StealthShieldOnce","SpiritGainD","SpiritGainD","SpiritGainD"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"selfBuffs": ["HealHalf"],
+				"sameTeam": false,
+				"activeMonsterConditions": "IsStealth",
+				"spreadCondition": "IsNotAlone"
+			},{
+				"selfBuffs": ["HealHalf"],
+				"sameTeam": true,
+				"activeMonsterConditions": "IsStealth",
+				"spreadCondition": "IsNotAlone"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"Stun50TUMinusFor1TurnwithStackname": {
+			"class": "Buff",
+			"stackName": "StunTUMinusFor1Turn",
+			"behaviors": ["StunModifier"],
+			"behaviorOverrides": [{
+				"textKey": "StunReduc6StunNameKey",
+				"reduction": 50
+			}],
+			"iconSpriteName": "IconYellowStunReductionLightning01",
+			"noIconShownOnBattleStatus": true,
+			"tags": ["StunResistance"],
+			"duration": 0,
+			"showAsTimer": false
+		},
+		"Stun100TUMinusFor1TurnwithStackname": {
+			"class": "Buff",
+			"stackName": "StunTUMinusFor1Turn",
+			"behaviors": ["StunModifier"],
+			"behaviorOverrides": [{
+				"textKey": "StunReduc6StunNameKey",
+				"reduction": 100
+			}],
+			"iconSpriteName": "IconYellowStunReductionLightning01",
+			"noIconShownOnBattleStatus": true,
+			"tags": ["StunResistance"],
+			"duration": 0,
+			"showAsTimer": false
+		},
+		"Stun150TUMinusFor1TurnwithStackname": {
+			"class": "Buff",
+			"stackName": "StunTUMinusFor1Turn",
+			"behaviors": ["StunModifier"],
+			"behaviorOverrides": [{
+				"textKey": "StunReduc6StunNameKey",
+				"reduction": 150
+			}],
+			"iconSpriteName": "IconYellowStunReductionLightning01",
+			"noIconShownOnBattleStatus": true,
+			"tags": ["StunResistance"],
+			"duration": 0,
+			"showAsTimer": false
+		},
+		"Stun200TUMinusFor1TurnwithStackname": {
+			"class": "Buff",
+			"stackName": "StunTUMinusFor1Turn",
+			"behaviors": ["StunModifier"],
+			"behaviorOverrides": [{
+				"textKey": "StunReduc6StunNameKey",
+				"reduction": 200
+			}],
+			"iconSpriteName": "IconYellowStunReductionLightning01",
+			"noIconShownOnBattleStatus": true,
+			"tags": ["StunResistance"],
+			"duration": 0,
+			"showAsTimer": false
+		},
+		"GrantAllOtherAlliesSuperStealthAndStealthShieldEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allAlliesButSelfBuffs": ["ActiveStealthJustGained","SuperStealth","StealthShieldOnce"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantAlliesTurnsAndStealthBuffsMyshaKnightEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allAlliesButSelfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"spreadCondition": "IsSneakOrStealth"
+			},{
+				"randomAllyBuffs": ["SuperStealth","StealthShieldOnce","HealFull"],
+				"numRandomToBuff": 4
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"MyshaKnightCooldown100Active3":{
+			"class": "Buff",
+			"duration": 100,
+			"stackName": "InstantCooldown2",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"MyshaKnightCooldown50Active4":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
 		}
 	}
 }

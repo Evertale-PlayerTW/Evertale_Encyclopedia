@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769668595,
+  "Time": 1769762489,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28259,6 +28259,60 @@
       "tuCost": 4,
       "useLimit": 1,
       "spiritCost": 10,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackAMyshaKnight",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3
+      ],
+      "config": "AllAttackAMyshaKnight",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAMyshaKnight",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        3.5,
+        5
+      ],
+      "config": "SingleAttackAMyshaKnight",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllyBuffAMyshaKnight",
+      "class": "Ability",
+      "config": "AllyBuffAMyshaKnight",
+      "tuCost": 10,
+      "useLimit": 3,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAMyshaKnight",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        5,
+        5
+      ],
+      "config": "DoubleAttackAMyshaKnight",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

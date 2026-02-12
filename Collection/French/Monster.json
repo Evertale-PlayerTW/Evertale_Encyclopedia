@@ -10283,6 +10283,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -10593,6 +10604,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -17892,6 +17914,17 @@
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -18277,6 +18310,17 @@
                     "MonsterBoy01",
                     "RoseElf01",
                     "TrainerGirl01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -23477,6 +23521,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -23684,6 +23739,17 @@
                     "SmokePipeFrog01",
                     "RoseElf01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -127055,7 +127121,7 @@
         "Hp_Base": 6035,
         "Speed": 506,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Oh ? Veux-tu te battre ? Veux-tu vraiment faire ça ?\nTu vas me faire face à moi, Kenshin !",
         "LeaderSkill": {
             "SkillTitle": "Obscurité ATT & PV+",
@@ -127199,6 +127265,19 @@
                         "IsMechaSisterNew": 0
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -127390,6 +127469,466 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "MyshaKnight01": {
+        "Name": "Mysha",
+        "Name2": "Chevalière de l'Étendard Rouge",
+        "FullName": "Mysha - Chevalière de l'Étendard Rouge",
+        "Profile": "Mysha fut adoptée par Gilgan lorsqu'elle était jeune et l'aima en tant que parent. À Urg Roa, elle passa des jours heureux parmi les kuds. Pourtant, de temps en temps, une question lui traversait l'esprit : « Qui suis-je vraiment ? »",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 28,
+        "Atk_Base": 1077,
+        "Hp_Base": 5825,
+        "Speed": 430,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Plus rapide que quiconque––",
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT & PV+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Poussée Balayante",
+                "SkillDescription": "300% de dégâts à tous les ennemis. 400% de dégâts à la place si l'utilisateur est Furtif. Cette attaque ignore tout effet de statut ennemi (y compris la Furtivité), les effets de réduction de dégâts, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Vengeance et de Reflet. Ceci est considéré comme étant une compétence de type Frappe Furtive.\n\nL'utilisateur gagne la Super Furtivité et un Bouclier Furtif. Si l'utilisateur est déjà Furtif, tous les autres alliés gagneront la Furtivité et un Bouclier Furtif à sa place.\n\n La Super Furtivité remplacera les autres effets de statut. Les unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité. Les Boucliers Furtifs empêchent l'application du prochain effet de statut non-furtivité qu'une unité gagnerait lorsqu'elle est Furtive.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Chute Létale",
+                "SkillDescription": "300% de dégâts à 1 ennemi. 450% à la place si l'ennemi possède 1 Gardien sur le champ de bataille. 600% à la place si l'ennemi possède 2+ Gardiens sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre-Relais.\n\nPuis, inflige à cet ennemi le Poison Létal pendant 999TU s'il n'est pas brûlé.\n\nCette compétence se verrouille après son utilisation jusqu'à ce que l'utilisateur inflige des dégâts avec une autre attaque. Ceci n'est pas considéré comme étant une compétence active de type Rafale Combo.\n\nLe Poison Létal remplacera tout autre effet de statut sur l'ennemi affecté, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Alliance Furtive",
+                "SkillDescription": "Donne immédiatement les prochains tours à tous les autres alliés Furtifs ou possédant une compétence active de type Frappe Furtive en réduisant leurs TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour.\n\nTous les alliés du champ de bataille sont ensuite soignés de 100% de leurs PV max, et gagnent la Super Furtivité et un Bouclier Furtif.\n\nUtilisable si 2+ alliés du champ de bataille sont Furtifs. Cette compétence se verrouille pendant 100TU après son utilisation. Utilisable 3 fois par bataille.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Pionnier",
+                "SkillDescription": "400% de dégâts à 2 ennemis. 600% de dégâts à la place aux cibles empoisonnées ou endormies. Cette attaque ignore tout effet de statut (y compris la Furtivité), les effets de réduction de dégâts, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Vengeance et de Reflet.\n\nPuis les cibles non-brûlées touchées gagnent au hasard soit le Sommeil Maudit pendant 200TU ou le Poison Létal pendant 999TU.\n\nUtilisable seulement si l'utilisateur possède l'effet de statut de Furtivité. Cette compétence se verrouille pendant 50TU après son utilisation.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Champion Furtif",
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis et soigneront cette unité d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité entre sur le champ de bataille avec la Super Furtivité et un Bouclier Furtif.\n\nÀ la fin de chaque autre tour allié, un allié aléatoire gagne la Furtivité et est soigné de 1% de ses PV max. Si cette unité entre sur le champ de bataille depuis les renforts, tous les Imposteurs alliés du champ de bataille seront immédiatement vaincus. Cette unité sera considérée comme ayant vaincu par attaques autant d'unités vaincues par cette effet. Cette effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait les cibles d'être vaincues.\n\nÀ la fin de chaque tour, cette unité donnera l'effet de statut de Super Furtivité à un allié aléatoire non-brûlé, non-furtif du champ de bataille. Puis un allié Furtif aléatoire sera soigné de 30% de ses PV max. Ces effets ne peuvent être déclenchés si Mysha n'a pas d'autre alliés sur le champ de bataille.\n\nÀ la fin de chaque tour allié, si toutes les unités alliées du champ de bataille sont Furtives, cette unité prendra immédiatement le prochain tour en ayant ses TU réduits à 0. Cet effet ne peut être ensuite déclenché à nouveau jusqu'à ce que 20TU se soient écoulés."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Eau LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités de type Eau."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Salut, je m'appelle Mysha !\nJe suis la plus forte et rapide guerrière d'Urg Roa.\nMais tu savais déjà ça, pas vrai ?\n\nJe suis encore plus musclée et plus forte\nqu'avant, donc je peux me m'occuper de quoi que\nce soit qui m'arrive !"
+            ],
+            "Login": [
+                "Ah, te voilà ! J'étais trop rapide pour toi ? Désolée !"
+            ],
+            "Tap": [
+                "Je n'ai pas de souvenirs de ma soeur car j'étais trop petite... Mais je sais au moins une chose. Je me souviens de ses mains chaleureuses qui me serraient bien fort.",
+                "Hé, tu veux cogner ta tête avec la mienne ? Tu sais, front contre front !\nHein...? Pourquoi est-ce que ta tête est toute rouge ? Hahaha, tellement marrant !",
+                "J'ai l'impression que je vais enfin découvrir véritablement qui je suis si je continue à voyager...\nHé, resteras-tu avec moi quoi qu'il nous arrive ?"
+            ],
+            "Idle": [
+                "Je m'ennuie teeeeellement !\nHé ! Si tu restes là à ne rien dire, je vais aller chez Tori !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "Poussée Balayante": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "Chute Létale": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "Alliance Furtive": {
+                    "BaseWeight": 100
+                },
+                "Pionnier": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "MyshaKnight02": {
+        "Name": "Mysha",
+        "Name2": "Chevalière de l'Étendard Rouge",
+        "FullName": "Mysha - Chevalière de l'Étendard Rouge",
+        "Profile": "Depuis qu'elle était jeune, Mysha faisait de temps en temps le même rêve. Pendant la nuit, en profondeur d'une dense forêt ombragée, elle était bercée dans les bras de quelqu'un. Une douce présence lui chuchotait d'une voix pleine de larmes : « Ne t'en fais pas. Je viendrais un jour te chercher. »",
+        "Profile_Ascended": "Lorsque Mysha arriva à la capitale, elle eut une prémonition. Elle était sûre d'enfin découvrir qui elle était véritable en arrivant ici. Pourtant, un profond malaise s'installa en elle en même temps que cet espoir––comme si des ténèbres inconnues se cachant en elle s'apprêtaient à se déchaîner.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 430,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT & PV+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Poussée Balayante",
+                "SkillDescription": "300% de dégâts à tous les ennemis. 400% de dégâts à la place si l'utilisateur est Furtif. Cette attaque ignore tout effet de statut ennemi (y compris la Furtivité), les effets de réduction de dégâts, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Vengeance et de Reflet. Ceci est considéré comme étant une compétence de type Frappe Furtive.\n\nL'utilisateur gagne la Super Furtivité et un Bouclier Furtif. Si l'utilisateur est déjà Furtif, tous les autres alliés gagneront la Furtivité et un Bouclier Furtif à sa place.\n\n La Super Furtivité remplacera les autres effets de statut. Les unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité. Les Boucliers Furtifs empêchent l'application du prochain effet de statut non-furtivité qu'une unité gagnerait lorsqu'elle est Furtive.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Chute Létale",
+                "SkillDescription": "300% de dégâts à 1 ennemi. 450% à la place si l'ennemi possède 1 Gardien sur le champ de bataille. 600% à la place si l'ennemi possède 2+ Gardiens sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre-Relais.\n\nPuis, inflige à cet ennemi le Poison Létal pendant 999TU s'il n'est pas brûlé.\n\nCette compétence se verrouille après son utilisation jusqu'à ce que l'utilisateur inflige des dégâts avec une autre attaque. Ceci n'est pas considéré comme étant une compétence active de type Rafale Combo.\n\nLe Poison Létal remplacera tout autre effet de statut sur l'ennemi affecté, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Alliance Furtive",
+                "SkillDescription": "Donne immédiatement les prochains tours à tous les autres alliés Furtifs ou possédant une compétence active de type Frappe Furtive en réduisant leurs TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour.\n\nTous les alliés du champ de bataille sont ensuite soignés de 100% de leurs PV max, et gagnent la Super Furtivité et un Bouclier Furtif.\n\nUtilisable si 2+ alliés du champ de bataille sont Furtifs. Cette compétence se verrouille pendant 100TU après son utilisation. Utilisable 3 fois par bataille.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Pionnier",
+                "SkillDescription": "400% de dégâts à 2 ennemis. 600% de dégâts à la place aux cibles empoisonnées ou endormies. Cette attaque ignore tout effet de statut (y compris la Furtivité), les effets de réduction de dégâts, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Vengeance et de Reflet.\n\nPuis les cibles non-brûlées touchées gagnent au hasard soit le Sommeil Maudit pendant 200TU ou le Poison Létal pendant 999TU.\n\nUtilisable seulement si l'utilisateur possède l'effet de statut de Furtivité. Cette compétence se verrouille pendant 50TU après son utilisation.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Champion Furtif",
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis et soigneront cette unité d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité entre sur le champ de bataille avec la Super Furtivité et un Bouclier Furtif.\n\nÀ la fin de chaque autre tour allié, un allié aléatoire gagne la Furtivité et est soigné de 1% de ses PV max. Si cette unité entre sur le champ de bataille depuis les renforts, tous les Imposteurs alliés du champ de bataille seront immédiatement vaincus. Cette unité sera considérée comme ayant vaincu par attaques autant d'unités vaincues par cette effet. Cette effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait les cibles d'être vaincues.\n\nÀ la fin de chaque tour, cette unité donnera l'effet de statut de Super Furtivité à un allié aléatoire non-brûlé, non-furtif du champ de bataille. Puis un allié Furtif aléatoire sera soigné de 30% de ses PV max. Ces effets ne peuvent être déclenchés si Mysha n'a pas d'autre alliés sur le champ de bataille.\n\nÀ la fin de chaque tour allié, si toutes les unités alliées du champ de bataille sont Furtives, cette unité prendra immédiatement le prochain tour en ayant ses TU réduits à 0. Cet effet ne peut être ensuite déclenché à nouveau jusqu'à ce que 20TU se soient écoulés."
+            },
+            {
+                "SkillTitle": "Héritage Puissant",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut lorsqu'elle a plus de 1PV.\n\nChaque fois qu'une unité (alliée ou ennemie) prend son tour, cette unité sera soignée de 50% de ses PV max. Cet effet ne peut être déclenché si Mysha n'a pas d'autres alliés sur le champ de bataille.\n\nCette unité réduit la durée de tout effet d'Étourdissement contre elle de 50TU par le nombre d'alliés Tempête ou Terre du champ de bataille (maximum de -200TU s'il y a plus de 4 alliés Tempête our Terre sur le champ de bataille).\n\nLes effets suivant sont déclenchés à chaque fois qu'un autre allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque :\n- Les Alliés gagnent 3 Essences.\n- Cette unité gagne la Super Furtivité et un Bouclier Furtif.\n- Cette unité devient Enragée. Ceci remplacera tout effet d'Affaiblissement ou d'Enragé existant. L'attaque des unités Enragées augmente à x1.5 jusqu'à la fin de leurs prochains tours."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Eau LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités de type Eau."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Salut, je m'appelle Mysha !\nJe suis la plus forte et rapide guerrière d'Urg Roa.\nMais tu savais déjà ça, pas vrai ?\n\nJe suis encore plus musclée et plus forte\nqu'avant, donc je peux me m'occuper de quoi que\nce soit qui m'arrive !"
+            ],
+            "Login": [
+                "Ah, te voilà ! J'étais trop rapide pour toi ? Désolée !"
+            ],
+            "Tap": [
+                "Je n'ai pas de souvenirs de ma soeur car j'étais trop petite... Mais je sais au moins une chose. Je me souviens de ses mains chaleureuses qui me serraient bien fort.",
+                "Hé, tu veux cogner ta tête avec la mienne ? Tu sais, front contre front !\nHein...? Pourquoi est-ce que ta tête est toute rouge ? Hahaha, tellement marrant !",
+                "J'ai l'impression que je vais enfin découvrir véritablement qui je suis si je continue à voyager...\nHé, resteras-tu avec moi quoi qu'il nous arrive ?"
+            ],
+            "Idle": [
+                "Je m'ennuie teeeeellement !\nHé ! Si tu restes là à ne rien dire, je vais aller chez Tori !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "Poussée Balayante": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "Chute Létale": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "Alliance Furtive": {
+                    "BaseWeight": 100
+                },
+                "Pionnier": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "Visage Familier",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

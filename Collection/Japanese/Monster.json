@@ -10285,6 +10285,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -10595,6 +10606,17 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -17894,6 +17916,17 @@
                     "TrainerGirl01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -18279,6 +18312,17 @@
                     "MonsterBoy01",
                     "RoseElf01",
                     "TrainerGirl01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -23479,6 +23523,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -23686,6 +23741,17 @@
                     "SmokePipeFrog01",
                     "RoseElf01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -127057,7 +127123,7 @@
         "Hp_Base": 6035,
         "Speed": 506,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "お？やるか？やんのか？\nこの、謙信ちゃんとよぉ！",
         "LeaderSkill": {
             "SkillTitle": "攻撃力&HPアップ（闇）",
@@ -127201,6 +127267,19 @@
                         "IsMechaSisterNew": 0
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -127392,6 +127471,466 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "MyshaKnight01": {
+        "Name": "ミァシア",
+        "Name2": "疾風の狐少女",
+        "FullName": "ミァシア - 疾風の狐少女",
+        "Profile": "ミァシアは幼い頃にギルガンに拾われ、彼を育ての親として慕ってきた。ウルグロワではヴァルク族と共に過ごし、それは幸せな日々だった。だが、時々胸をよぎる疑問があった。『私は本当は何者なんだろう？』",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Earth",
+        "Element": "土",
+        "Cost": 28,
+        "Atk_Base": 1077,
+        "Hp_Base": 5825,
+        "Speed": 430,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "誰よりも速く――",
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（地）",
+            "SkillDescription": "地属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ステルスレイピア",
+                "SkillDescription": "敵全員に300%ダメージ。使用者がステルス状態だと400%ダメージ。この攻撃は対象の状態変化（ステルス含む）を無視し、ダメージ減少効果及び一部のパッシブスキル(リベンジ系、スキン系)の効果を無視する。また、アイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果も無視する（ボスの持つスキルは除く）。このスキルは、ステルスショット系のスキルとみなされる。\n\n使用者は状態変化「ステルス(3回)」および「ステルスシールド」が付与される。この効果は使用者がすでにステルス状態だった場合は発動せず、代わりに使用者を除く味方全員に状態変化「ステルス(3回)」および「ステルスシールド」が付与される。既存の状態変化は上書きされる。\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。\n-ステルスシールドを持つキャラは、自身がステルス状態のとき、それがステルス状態以外の状態変化に上書きされるのを一度だけ無効化する。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "メテオクラッシュ",
+                "SkillDescription": "敵1体に300%ダメージ。ブロック中の敵が場に1体いると450%ダメージ、2体以上いれば600%ダメージ（攻撃対象がブロック中である必要はない）。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。\n\nその後、対象が燃焼状態でない場合、状態変化「毒(致命)」(999TU持続)を付与する。既存の状態変化は上書きされる。\n\nこのスキルは使用後、他のスキルで敵にダメージを与えるまでロックされる。このスキルは、コンボバースト系のスキルとはみなされない。\n\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」及び「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、及びボスには付与されない。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "テイルウィンド",
+                "SkillDescription": "「ステルス状態である」または「ステルスショット系のアクティブスキルを持っている」のいずれかを満たす、自身を除く味方全員のTUを0にしてターンを与える。この効果で与えられたターンにおいて、その味方は「ギフトターン」系のスキルは使用できない。\n\nその後、場にいる味方全員のHPを最大まで回復し、状態変化「ステルス(3回)」および「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\nステルス状態の味方が場に2体以上いれば使用可能。このスキルは使用のたびに100TUの間ロックされ、また1回のバトルにつき3回までしか使用できない。",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "フラグシップ",
+                "SkillDescription": "敵2体に400%ダメージ。毒状態または眠り状態の対象には600%ダメージ。この攻撃は対象の状態変化（ステルス含む）を無視し、ダメージ減少効果及び一部のパッシブスキル(リベンジ系、スキン系)の効果を無視する。また、アイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果も無視する（ボスの持つスキルは除く）。\n\nその後、この攻撃を受けた燃焼状態でない敵に、状態変化「眠り(呪い)」(200TU持続)か状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。既存の状態変化は上書きされる。\n\n自身がステルス状態の時のみ使用可能。また、使用のたびに50TUの間ロックされる。\n\n-眠り(呪い)状態は燃焼状態を上書きできず、また毒状態によって上書きされない。眠り(呪い)状態は一度眠り状態になっている対象にも付与することができ、また、ドリームハンター系のスキルによる攻撃で解除されない。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "疾風の狐少女",
+                "SkillDescription": "・このキャラの攻撃では、対象の眠り状態は解除されない。\n\n・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に状態変化「ステルス(3回)」及び「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\n・このキャラが控えから場に出た時、味方の場にいるインポスターを全て戦闘不能にする。この効果で戦闘不能にしたキャラについて、使用者は攻撃で倒したとみなされる。この効果は対象のリベンジ系及び蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する。\n\n・敵味方問わず任意のキャラのターン終了時、場にいる燃焼状態でもステルス状態でもないランダムな味方1体に、状態変化「ステルス(3回)」を付与する（既存の状態変化は上書きされる）。その後、場にいるステルス状態のランダムな味方1体のHPを、最大値の30%分回復する。これらの効果は、場に自身の他に味方がいない場合は発動しない。\n\n・このキャラは、自身を除く味方のターン終了時、場にいる味方全員がステルス状態であれば、自身のTUを0にして即座に次のターンを得る。この効果は一度発動すると、それから20TUの間は条件を満たしても発動しなくなる。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "水耐性Lv3",
+                "SkillDescription": "水属性のキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "やっほー、あたしはミァシア！\n最速最強のウルグロワの戦士。\nって、君ならもう知ってるよね。\n\n前よりムッキムキに\nパワーアップしたから\nどんな敵でもいちころだよ！"
+            ],
+            "Login": [
+                "あ、みつけたー！"
+            ],
+            "Tap": [
+                "お姉ちゃんのこと",
+                "ねぇねぇ、あたしと",
+                "このまま冒険を続けて"
+            ],
+            "Idle": [
+                "ひまひまひまー！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "ステルスレイピア": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "メテオクラッシュ": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "テイルウィンド": {
+                    "BaseWeight": 100
+                },
+                "フラグシップ": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "MyshaKnight02": {
+        "Name": "ミァシア",
+        "Name2": "疾風の狐少女",
+        "FullName": "ミァシア - 疾風の狐少女",
+        "Profile": "ミァシアは幼い頃から、時々見る夢があった。夜、鬱蒼と茂る森の中、誰かの腕に包まれながら揺れている。『大丈夫、いつか迎えに来るからね』。その優しい影は涙声で、自分に話しかけていた。",
+        "Profile_Ascended": "都に足を踏み入れたミァシアには予感があった。ここにくれば私が何者なのか、きっとわかる。期待と同時に、深い不安があった。己の中に潜む、未知の闇がぱっくりと口を開きそうで。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Earth",
+        "Element": "土",
+        "Cost": 34,
+        "Atk_Base": 1367,
+        "Hp_Base": 7585,
+        "Speed": 430,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（地）",
+            "SkillDescription": "地属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ステルスレイピア",
+                "SkillDescription": "敵全員に300%ダメージ。使用者がステルス状態だと400%ダメージ。この攻撃は対象の状態変化（ステルス含む）を無視し、ダメージ減少効果及び一部のパッシブスキル(リベンジ系、スキン系)の効果を無視する。また、アイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果も無視する（ボスの持つスキルは除く）。このスキルは、ステルスショット系のスキルとみなされる。\n\n使用者は状態変化「ステルス(3回)」および「ステルスシールド」が付与される。この効果は使用者がすでにステルス状態だった場合は発動せず、代わりに使用者を除く味方全員に状態変化「ステルス(3回)」および「ステルスシールド」が付与される。既存の状態変化は上書きされる。\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。\n-ステルスシールドを持つキャラは、自身がステルス状態のとき、それがステルス状態以外の状態変化に上書きされるのを一度だけ無効化する。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "メテオクラッシュ",
+                "SkillDescription": "敵1体に300%ダメージ。ブロック中の敵が場に1体いると450%ダメージ、2体以上いれば600%ダメージ（攻撃対象がブロック中である必要はない）。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。\n\nその後、対象が燃焼状態でない場合、状態変化「毒(致命)」(999TU持続)を付与する。既存の状態変化は上書きされる。\n\nこのスキルは使用後、他のスキルで敵にダメージを与えるまでロックされる。このスキルは、コンボバースト系のスキルとはみなされない。\n\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」及び「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、及びボスには付与されない。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "テイルウィンド",
+                "SkillDescription": "「ステルス状態である」または「ステルスショット系のアクティブスキルを持っている」のいずれかを満たす、自身を除く味方全員のTUを0にしてターンを与える。この効果で与えられたターンにおいて、その味方は「ギフトターン」系のスキルは使用できない。\n\nその後、場にいる味方全員のHPを最大まで回復し、状態変化「ステルス(3回)」および「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\nステルス状態の味方が場に2体以上いれば使用可能。このスキルは使用のたびに100TUの間ロックされ、また1回のバトルにつき3回までしか使用できない。",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "フラグシップ",
+                "SkillDescription": "敵2体に400%ダメージ。毒状態または眠り状態の対象には600%ダメージ。この攻撃は対象の状態変化（ステルス含む）を無視し、ダメージ減少効果及び一部のパッシブスキル(リベンジ系、スキン系)の効果を無視する。また、アイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果も無視する（ボスの持つスキルは除く）。\n\nその後、この攻撃を受けた燃焼状態でない敵に、状態変化「眠り(呪い)」(200TU持続)か状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。既存の状態変化は上書きされる。\n\n自身がステルス状態の時のみ使用可能。また、使用のたびに50TUの間ロックされる。\n\n-眠り(呪い)状態は燃焼状態を上書きできず、また毒状態によって上書きされない。眠り(呪い)状態は一度眠り状態になっている対象にも付与することができ、また、ドリームハンター系のスキルによる攻撃で解除されない。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "疾風の狐少女",
+                "SkillDescription": "・このキャラの攻撃では、対象の眠り状態は解除されない。\n\n・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に状態変化「ステルス(3回)」及び「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\n・このキャラが控えから場に出た時、味方の場にいるインポスターを全て戦闘不能にする。この効果で戦闘不能にしたキャラについて、使用者は攻撃で倒したとみなされる。この効果は対象のリベンジ系及び蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する。\n\n・敵味方問わず任意のキャラのターン終了時、場にいる燃焼状態でもステルス状態でもないランダムな味方1体に、状態変化「ステルス(3回)」を付与する（既存の状態変化は上書きされる）。その後、場にいるステルス状態のランダムな味方1体のHPを、最大値の30%分回復する。これらの効果は、場に自身の他に味方がいない場合は発動しない。\n\n・このキャラは、自身を除く味方のターン終了時、場にいる味方全員がステルス状態であれば、自身のTUを0にして即座に次のターンを得る。この効果は一度発動すると、それから20TUの間は条件を満たしても発動しなくなる。"
+            },
+            {
+                "SkillTitle": "天狐の末裔",
+                "SkillDescription": "・このキャラのHPが1より多い状態から、敵の攻撃や状態異常によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラは、ステルス状態のキャラ（敵味方問わず）にターンが回るたびに、HPが最大値の50%分回復する。この効果は、場に自身の他に味方がいない場合は発動しない。\n\n・このキャラが受けるスタンの効果は、場にいる雷属性または地属性の味方1体につき50TU減少する。\n\n・このキャラは、場にいる味方（自身および、このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になるたびに以下の効果が発動する。\n-味方のスピリットが3増加する。\n-自身に状態変化「ステルス(3回)」及び「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n-自身にアンガーを付与する。既存の「アンガー」系または「怯え」系の効果は上書きされる。アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "水耐性Lv3",
+                "SkillDescription": "水属性のキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "やっほー、あたしはミァシア！\n最速最強のウルグロワの戦士。\nって、君ならもう知ってるよね。\n\n前よりムッキムキに\nパワーアップしたから\nどんな敵でもいちころだよ！"
+            ],
+            "Login": [
+                "あ、みつけたー！"
+            ],
+            "Tap": [
+                "お姉ちゃんのこと",
+                "ねぇねぇ、あたしと",
+                "このまま冒険を続けて"
+            ],
+            "Idle": [
+                "ひまひまひまー！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsStealth": 1.01,
+                "AllAlliesIsStealth": 1.05,
+                "2ProtectingInEnemyTeam": 1.1
+            },
+            "SkillUse": {
+                "ステルスレイピア": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "1MechaSisterNewOnEnemyTeam": 1.01
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.35,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsSleeping": 0.89,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsPoisoned": 1.25
+                    }
+                },
+                "メテオクラッシュ": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "1MechaSisterNewOnEnemyTeam": 0.75
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.5,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsJeanneDarkSwimsuitNotAlone": 0.000001,
+                        "IsJeanneDarkSwimsuitNotAloneAlt": 0.000001,
+                        "IsMechaSisterNewAndHPBelow50": 3
+                    }
+                },
+                "テイルウィンド": {
+                    "BaseWeight": 100
+                },
+                "フラグシップ": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "HasSkin",
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.075,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 0.01,
+                        "IsPoisoned": 1,
+                        "IsSleeping": 1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB75": {
+                "RelationshipName": "揺れる面影",
+                "RelationshipFamily": [
+                    "MyshaKnight01",
+                    "KenshinRegular01",
+                    "SmokePipeFrog01",
+                    "AirElfWarrior01",
+                    "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
     }
 }

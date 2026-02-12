@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769639568,
+  "Time": 1769733438,
   "AnimationData": {
     "AnimationData": [
       {
@@ -45381,6 +45381,30 @@
         "endOfTurnDelay": 1,
         "fadeMonsterDelay": 0,
         "fadeMonsterDuration": 4
+      },
+      {
+        "config": "default",
+        "attack": "AllAttackAMyshaKnight",
+        "class": "AnimConfig",
+        "overrideAttackName": "MyshaKnightAttack1"
+      },
+      {
+        "config": "default",
+        "attack": "SingleAttackAMyshaKnight",
+        "class": "AnimConfig",
+        "overrideAttackName": "MyshaKnightRocksFalling"
+      },
+      {
+        "config": "default",
+        "attack": "AllyBuffAMyshaKnight",
+        "class": "AnimConfig",
+        "overrideAttackName": "MyshaKnightPurify"
+      },
+      {
+        "config": "default",
+        "attack": "DoubleAttackAMyshaKnight",
+        "class": "AnimConfig",
+        "overrideAttackName": "MyshaKnightSpecial"
       }
     ]
   }

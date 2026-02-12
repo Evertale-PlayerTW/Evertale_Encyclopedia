@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769639621,
+  "Time": 1769733039,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6826,6 +6826,36 @@
       "name": "KenshinRegular02",
       "condition": "HoldGroundPlusTriggeredWaitingForTurn",
       "value": 0.01
+    },
+    {
+      "name": "MyshaKnight01",
+      "condition": "IsStealth",
+      "value": 1.01
+    },
+    {
+      "name": "MyshaKnight01",
+      "condition": "AllAlliesIsStealth",
+      "value": 1.05
+    },
+    {
+      "name": "MyshaKnight01",
+      "condition": "2ProtectingInEnemyTeam",
+      "value": 1.1
+    },
+    {
+      "name": "MyshaKnight02",
+      "condition": "IsStealth",
+      "value": 1.01
+    },
+    {
+      "name": "MyshaKnight02",
+      "condition": "AllAlliesIsStealth",
+      "value": 1.05
+    },
+    {
+      "name": "MyshaKnight02",
+      "condition": "2ProtectingInEnemyTeam",
+      "value": 1.1
     }
   ]
 }

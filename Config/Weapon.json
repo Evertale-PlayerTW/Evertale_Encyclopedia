@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769668468,
+  "Time": 1769762489,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15872,7 +15872,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "KenshinKatana02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "KenshinKatana02",
@@ -15892,7 +15893,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "KenshinKatana03",
       "evolveFrom": "KenshinKatana01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "KenshinKatana03",
@@ -15911,6 +15913,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "KenshinKatana02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "MyshaFlowerStaff01",
+      "family": "MyshaFlowerStaff",
+      "class": "Weapon",
+      "passives": {
+        "0": "HasteUp4StealthAllies"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 456,
+      "baseMaxHp": 3095,
+      "bundleNumber": 9,
+      "weaponPref": "Staff",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "MyshaFlowerStaff02",
+      "cost": 11
+    },
+    {
+      "name": "MyshaFlowerStaff02",
+      "family": "MyshaFlowerStaff",
+      "class": "Weapon",
+      "passives": {
+        "0": "HasteUp5StealthAllies"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 571,
+      "baseMaxHp": 3645,
+      "bundleNumber": 9,
+      "weaponPref": "Staff",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "MyshaFlowerStaff03",
+      "evolveFrom": "MyshaFlowerStaff01",
+      "cost": 17
+    },
+    {
+      "name": "MyshaFlowerStaff03",
+      "family": "MyshaFlowerStaff",
+      "class": "Weapon",
+      "passives": {
+        "0": "HasteUp6StealthAllies"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 608,
+      "baseMaxHp": 3960,
+      "bundleNumber": 9,
+      "weaponPref": "Staff",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "MyshaFlowerStaff02",
       "cost": 23
     }
   ]

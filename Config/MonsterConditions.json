@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1770085543,
+    "Time": 1770086307,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29078,6 +29078,64 @@
 				"buffStackNames": ["SuperStealthPT3"]
 			}
 		}
+	},
+	"IsEarthOrAir": {
+		"class": "MonsterConditions",
+		"elements": ["Earth"],
+		"or": {
+			"class": "MonsterConditions",
+			"elements": ["Air"]
+		}	
+	},
+	"1AllyIsEarthOrAir":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsEarthOrAir": 1
+		}
+	},
+	"2AlliesIsEarthOrAir":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsEarthOrAir": 2
+		}
+	},
+	"3AlliesIsEarthOrAir":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsEarthOrAir": 3
+		}
+	},
+	"4AlliesIsEarthOrAir":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsEarthOrAir": 4
+		}
+	},
+	"IsNotBurningStealthOrAlone": {
+		"class": "MonsterConditions",
+		"allyTeamSize": 2,
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Burn"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["Stealth"]
+			}
+		}
+	},
+	"AllAlliesIsStealth":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded": {
+				"IsNotStealth": 1
+			}
+		}
+	},
+	"IsStealthAndNotAlone": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Stealth"],
+		"allyTeamSize": 2
 	}
 }
 }
