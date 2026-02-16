@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1770344831,
+	"Time": 1771217979,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -78034,7 +78034,7 @@
 				"behaviorOverrides": [{
 				"sourceBuffs": ["SuperStealth","StealthShieldOnce","StoreEnergyHidden"]
 			},{
-				"selfBuffs": ["SacrificeAllAllyImpostersEBB"],
+				"allyBuffs": ["SacrificeSelfIfImposterAtEndOfNextTurn"],
 				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
 			},{
 				"randomAllyBuffs": ["GenericStealthFX","SuperStealth"],
@@ -78058,6 +78058,20 @@
 			"isHiddenFromPlayers": true,
 			"duration": -1
 		},
+		"SacrificeSelfIfImposterAtEndOfNextTurn": {
+			"class": "Buff",
+			"stackName": "SacrificeSelfAtEndOfNextTurn",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["InstantDeath"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "IsImposter"
+			}],
+			"duration": 0,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
 		"ExtraTurnLockMyshaKnight": {
 			"class": "Buff",
 			"stackName": "ExtraTurnLockMyshaKnight",
@@ -78074,20 +78088,6 @@
 				"selfBuffs": ["SuperStealth","StealthShieldOnce"]
 			}],
 			"duration": 0,
-			"showAsTimer": false,
-			"isHiddenFromPlayers": true
-		},
-		"SacrificeAllAllyImpostersEBB": {
-			"class": "Buff",
-			"stackName": "SacrificeAllAllyImpostersEBB",
-			"behaviors": ["EnterBattleBuff"],
-			"behaviorOverrides": [{
-				"randomAllyBuffs": ["InstantDeathAndCreditSourceKill"],
-				"numRandomToBuff": 4,
-				"spreadCondition": "IsImposter"
-			}],
-			"duration": 0,
-			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true
 		},
