@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769761950,
+  "Time": 1771920003,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -28560,11 +28560,11 @@
 					"IsBadFriend": 0.0
 			}
 		},
-        "UserBuffAMusashiDark_AI": {
-            "class": "AbilityAI","baseAITargetingWeight": 500000,
-            "aiTargetingSourceMonsterConditions": {
-                        "Kills0": 500000.0
-                }
+	    "UserBuffAMusashiDark_AI": {
+        	"class": "AbilityAI","baseAITargetingWeight": 500000,
+        	"aiTargetingSourceMonsterConditions": {
+						"Kills0": 500000.0
+				}
     },
     "SingleAttackAKenshinRegular_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 1.5,
@@ -28718,6 +28718,210 @@
 						"IsBurning": 0.01,
 						"IsPoisoned": 1.0,
 						"IsSleeping": 1.0
+					}
+    },
+    "SingleAttackAThorRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingMonsterConditions": {
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.1,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.1,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"CurrentTULessThan100": 1.01,
+							"CurrentTUGreaterThan100": 0.75,
+							"CurrentTUGreaterThan200": 0.5,
+							"ThorActive1StunNotLOCKED": 1.01,
+							"IsStunImmuneNotThorLOCKED": 0.5
+					}
+    },
+    "EnemyBuffAThorRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 150.0,
+					"aiTargetingSourceMonsterConditions":{
+					  "AllEnemiesImposters": 0.0,
+						"AllEnemiesImpostersAlt": 0.0
+					}
+    },
+    "DisableEffectAThorRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 100.0
+    },
+    "SpecialAttackAThorRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 10.0,
+							"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.1,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.1,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5
+					}
+    },
+    "SingleAttackACalKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+							"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.1,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"IsBurning": 1.1
+					}
+    },
+    "BuffACalKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 100.0
+    },
+    "BigSingleAttackACalKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2.0,
+							"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.1,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"HPBelow25Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"IsBurning": 1.1
+					}
+    },
+    "SpecialAttackACalKouhaiRegularBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 3.0,
+					"aiTargetingSourceMonsterConditions":{
+					  "AllEnemiesImposters": 0.0,
+						"AllEnemiesAlwaysDodging": 0.0,
+						"AllEnemiesNotProtectingDodging": 0.0
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.50,
+						"IsMirage": 0.75,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 0.30,
+						"IsAlwaysDodging": 0.25,
+						"NotProtectingDodging": 0.25,
+						"IsProtectedNotProtector": 0.75,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+						"IsPloyed": 0.70,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 10,
+						"On1HPIsProtecting": 10,
+						"HPBelow50Percent": 1.0,
+						"HPBelow25Percent": 1.0,
+						"HPFull": 0.89,
+						"IsBurning": 1.1
+					}
+    },
+   	"SingleAttackAFreyaNewBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 0.5,
+					"aiTargetingSourceMonsterConditions":{
+						"NoFreshNewMomentum": 5.0
+				},
+					"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.25,
+							"IsMirage": 0.25,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"HPBelow25Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5
+					}
+    },
+    "DoubleAttackAFreyaNewBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2.0,
+					"aiTargetingSourceMonsterConditions":{
+						"NoFreshNewMomentum": 0.25,
+						"AllEnemiesImposters": 0.8,
+						"AllEnemiesAlwaysDodging": 0.8,
+						"AllEnemiesNotProtectingDodging": 0.8
+				},
+					"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.25,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 0.25,
+							"IsAlwaysDodging": 0.25,
+							"NotProtectingDodging": 0.25,
+							"IsProtectedNotProtector": 0.75,
+							"IsFrostbitten": 0.89,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"HPBelow25Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5
+					}
+    },
+    "BuffAFreyaNewBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 100.0
+    },
+    "SpecialAttackAFreyaNewBoss_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"aiTargetingSourceMonsterConditions":{
+					  "AllEnemiesImposters": 0.0,
+						"NoFreshNewMomentum": 0.25
+					},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsImposter": 0.1,
+						"IsMirage": 0.25,
+						"IsBadFriend": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsStealth": 1.0,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+						"IsPloyed": 0.70,
+						"IsFrostbitten": 0.89,
+						"On1HPNotProtected": 2.5,
+						"On1HPIsProtecting": 2.5,
+						"HPBelow50Percent": 1.0,
+						"HPBelow25Percent": 1.0,
+						"HPFull": 0.89
 					}
     }
 }

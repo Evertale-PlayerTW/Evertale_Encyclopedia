@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769042801,
+  "Time": 1771907282,
   "Monster": [
     {
       "name": "Mibone01",
@@ -23721,12 +23721,12 @@
       "battleOrbImageFlip": 0,
       "skillVoices": {
         "0": [
-          5,
-          6
+          1,
+          5
         ],
         "1": [
-          1,
-          2
+          2,
+          6
         ],
         "2": [
           9,
@@ -23777,16 +23777,16 @@
       "battleOrbImageFlip": 0,
       "skillVoices": {
         "0": [
+          1,
           5,
-          6,
           7,
           8
         ],
         "1": [
-          1,
           2,
           3,
-          4
+          4,
+          6
         ],
         "2": [
           9,
@@ -23836,6 +23836,374 @@
       "speed": 625,
       "element": "Earth",
       "weaponPref": "Staff",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "ThorRegularBoss01",
+      "class": "Monster",
+      "family": "ThorRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAThorRegularBoss",
+        "1": "EnemyBuffAThorRegularBoss",
+        "2": "DisableEffectAThorRegularBoss",
+        "3": "SpecialAttackAThorRegularBoss"
+      },
+      "passives": {
+        "0": "StartOfBattlePassiveAThorRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1257,
+      "baseMaxHp": 20000,
+      "speed": 353,
+      "element": "Air",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "ThorRegularBoss03",
+      "class": "Monster",
+      "family": "ThorRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAThorRegularBoss",
+        "1": "EnemyBuffAThorRegularBoss",
+        "2": "DisableEffectAThorRegularBoss",
+        "3": "SpecialAttackAThorRegularBoss"
+      },
+      "passives": {
+        "0": "StartOfBattlePassiveAThorRegularBoss",
+        "1": "HoldGroundPlusPassiveAThorRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 2900,
+      "baseMaxHp": 232000,
+      "speed": 353,
+      "element": "Air",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "CalKouhaiRegularBoss01",
+      "class": "Monster",
+      "family": "CalKouhaiRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackACalKouhaiRegularBoss",
+        "1": "BuffACalKouhaiRegularBoss",
+        "2": "BigSingleAttackACalKouhaiRegularBoss"
+      },
+      "passives": {
+        "0": "SwoopDownPassiveACalKouhaiRegularBoss",
+        "1": "DragonScalePassiveACalKouhaiRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 423,
+      "element": "Fire",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "CalKouhaiRegularBoss03",
+      "class": "Monster",
+      "family": "CalKouhaiRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackACalKouhaiRegularBoss",
+        "1": "BuffACalKouhaiRegularBoss",
+        "2": "BigSingleAttackACalKouhaiRegularBoss",
+        "3": "SpecialAttackACalKouhaiRegularBoss"
+      },
+      "passives": {
+        "0": "SwoopDownPassiveACalKouhaiRegularBoss",
+        "1": "DragonScalePassiveACalKouhaiRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 3500,
+      "baseMaxHp": 178000,
+      "speed": 423,
+      "element": "Fire",
+      "weaponPref": "Axe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "FreyaNewBoss01",
+      "class": "Monster",
+      "family": "FreyaNewBoss",
+      "activeSkills": {
+        "0": "SingleAttackAFreyaNewBoss",
+        "1": "DoubleAttackAFreyaNewBoss",
+        "2": "BuffAFreyaNewBoss",
+        "3": "SpecialAttackAFreyaNewBoss"
+      },
+      "passives": {
+        "0": "WarModePassiveAFreyaNewBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 512,
+      "element": "Fire",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "FreyaNewBoss03",
+      "class": "Monster",
+      "family": "FreyaNewBoss",
+      "activeSkills": {
+        "0": "SingleAttackAFreyaNewBoss",
+        "1": "DoubleAttackAFreyaNewBoss",
+        "2": "BuffAFreyaNewBoss",
+        "3": "SpecialAttackAFreyaNewBoss"
+      },
+      "passives": {
+        "0": "WarModePassiveAFreyaNewBoss",
+        "1": "BurningGoddessPassiveAFreyaNewBoss"
+      },
+      "cost": 999,
+      "baseAttack": 3000,
+      "baseMaxHp": 178000,
+      "speed": 512,
+      "element": "Fire",
+      "weaponPref": "Spear",
       "weaponPivotIndex": 0,
       "walkSound": "TestSound",
       "secure": 1,

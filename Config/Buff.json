@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1771217979,
+	"Time": 1771989833,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -62650,6 +62650,7 @@
 				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
 			}],
 			"duration": -1,
+			"tags": ["MegaHealingBurnPassiveTag"],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
@@ -69962,7 +69963,7 @@
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
 			"noIconShownOnBattleStatus": true,
-			"tags": ["GoodToBurn"],
+			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag"],
 			"duration": -1,
 			"iconSpriteName": "IconRedHoldGroundBurn01"
 		},
@@ -73703,7 +73704,7 @@
 				"selfBuffs": ["SourceDonQuixoteRegular"]
 			}],
 			"duration": -1,
-			"tags": ["GoodToBurn"],
+			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag"],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
@@ -78238,6 +78239,599 @@
 		"MyshaKnightCooldown50Active4":{
 			"class": "Buff",
 			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
+		},
+		"StartOfBattlePassiveAThorRegularBoss": {
+			"class": "Buff",
+			"stackName": "StartOfBattlePassiveAThorRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["KnockbackImmunity","NotProtectingNotEnragedAttackBuffThorRegular","ProtecterAThorRegularBoss","SleepImmunityFor100TU"]
+			},{
+				"sourceBuffs": ["ProtecterAThorRegularBoss","SleepImmunityFor100TU","FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"enemyBuffs": ["TriggerStunEnemy100ThorRegular"]
+			},{
+				"randomEnemyBuffs": ["LowestAndHighestTUEnemiesMarkedThorRegular"],
+				"numRandomToBuff": 1,
+				"randomTargetingMonsterRanker": "ActingLatest"
+			},{
+				"randomEnemyBuffs": ["LowestAndHighestTUEnemiesMarkedThorRegular"],
+				"numRandomToBuff": 1,
+				"randomTargetingMonsterRanker": "ActingSoonest"	
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"duration": -1
+		},
+		"LowestAndHighestTUEnemiesMarkedThorRegular":{
+			"class": "Buff",
+			"stackName": "MarkedEnemiesThorRegular",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"TriggerStunEnemy100ThorRegular":{
+			"class": "Buff",
+			"stackName": "TriggerStunEnemy100ThorRegular",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides":[{
+				"selfBuffs": ["Stun100IfNotLockedThorRegular","ApplyThorRegularActive1LockEOT"],
+				"onlyFromDamageFlags": ["StunHitTriggerThorRegular"]
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"Stun100IfNotLockedThorRegular": {
+			"class": "Buff",
+			"stackName": "Stun",
+			"behaviors": ["Stun"],
+			"behaviorOverrides": [{
+				"stunTU": 100,
+				"abilityEffect": "StunStatus1"
+			}],
+			"tags": ["Stun"],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "ThorActive1StunNotLOCKED"
+		},
+		"ApplyThorRegularActive1LockEOT": {
+			"class": "Buff",
+			"stackName": "ApplyThorRegularActive1LockEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["ThorActive1StunLOCKED"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "NotStunAbsorber"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "ThorActive1StunNotLOCKED"
+		},
+		"ThorActive1StunLOCKED":{
+			"class": "Buff",
+			"stackName": "ThorActive1StunLOCKED",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"applyConditions": "CurrentTUGreaterThan200"
+		},
+		"ProtecterAThorRegularBoss":{
+			"class": "Buff",
+			"stackName": "TimedProtector",
+			"behaviors": ["ManipulateTargeting","RemoveOnSourceDeath","ModifyDamage","Immunity"],
+			"behaviorOverrides": [{
+				"redirectToMe": true,
+				"redirectAlways": true,
+				"chanceToBlock": 1.0,
+				"consumeRedirectCountEvenOnSelf": true,
+				"failOnAllSkills": true,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage"]
+			},{},{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"duration": 100,
+			"tags": ["BigDamageMinus","StunImmune"],
+			"iconSpriteName": "IconPurpleArmorStunImmune01"
+		},
+		"NotProtectingNotEnragedAttackBuffThorRegular":{
+			"class": "Buff",
+			"behaviors": ["StatOnly"],	
+			"behaviorOverrides":[{
+				"conditions": "NotProtectingNotEnraged",
+				"scalorStatBonuses": {
+					"Attack": 0.50
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"HoldGroundPlusPassiveAThorRegularBoss": {
+			"class": "Buff",
+			"stackName": "HoldGroundPlusPassiveAThorRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["FirstTimeHitDisableEnemyUnitThorRegularBoss","HoldGroundOnceForHoldGroundPlusBoss","BlockDeathUntilNextTurnForHoldGroundPlusBoss"]
+			},{
+				"selfBuffs": ["2EnemiesWeakenedRageWardAllNonBurningAlliesPurifiedEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"showAsPermanent": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"tags": ["HoldGroundPlus"],
+			"duration": -1
+		},
+		"2EnemiesWeakenedRageWardAllNonBurningAlliesPurifiedEOT": {
+			"class": "Buff",
+			"stackName": "2EnemiesWeakenedRageWardAllNonBurningAlliesPurifiedEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["AttackMinus25Percent1TurnOnly","EnrageImmunityOnce"],
+				"numRandomToBuff": 2,
+				"activeMonsterConditions": "NotAlwaysMyTurn"
+			},{
+				"randomAllyBuffs": ["RemoveBuffs"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsNotBurning",
+				"activeMonsterConditions": "NotAlwaysMyTurn"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"FirstTimeHitDisableEnemyUnitThorRegularBoss": {
+			"class": "Buff",
+			"stackName": "FirstTimeHitDisableEnemyUnitThorRegular",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"contextBuffs": ["NoTurnsFor100TU"],
+				"selfBuffs": ["TUMinus50","TriggerRemoveFirstTimeHitDisableEnemyUnitThorRegularEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"TriggerRemoveFirstTimeHitDisableEnemyUnitThorRegularEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveFirstTimeHitDisableEnemyUnitThorRegular"],
+				"activeMonsterConditions": "NotAlwaysMyTurn"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveFirstTimeHitDisableEnemyUnitThorRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "FirstTimeHitDisableEnemyUnitThorRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"NoTurnsFor100TU": {
+			"class": "Buff",
+			"stackName": "BlockGiveTurn",
+			"behaviors": ["LoseTurn","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+			},{},{},{
+			}],
+			"duration": 100,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["BlockTurnTag"],
+			"iconSpriteName": "IconRedDisabled01",
+			"statusEffect": "TurnGiftStunStatus",
+			"applyConditions": "IsNotBoss"
+		},
+		"GrantBlockTurnTo2EnemiesWithHighestAndLowestTUEBB":{
+			"class": "Buff",
+			"stackName": "GrantBlockTurnTo2EnemiesWithHighestAndLowestTUEBB",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["NoTurnsFor50TU"],
+				"numRandomToBuff": 1,
+				"randomTargetingMonsterRanker": "ActingLatest"
+			},{
+				"randomEnemyBuffs": ["NoTurnsFor50TU"],
+				"numRandomToBuff": 1,
+				"randomTargetingMonsterRanker": "ActingSoonest"
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"ThorRegularBossCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"SwoopDownPassiveACalKouhaiRegularBoss":{
+			"class": "Buff",
+			"stackName": "SwoopDownPassiveACalKouhaiRegular",
+			"behaviors": ["EnterBattleBuff","BlockDeath","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides":[{
+				"sourceBuffs": ["StunImmunityIfAllyBurning","50PercentAttackIncreaseIfAllEnemiesBurning","Charged1Icon","Charged2Icon","Charged3Icon"]
+			},{
+				"blockDeathFromDamageFlags": ["Burn"]
+			},{
+				"enemyBuffs": ["TriggerHitCountForCalKouhaiRegular"],
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"enemyBuffs": ["TriggerGrantPiercingWhenBurningEnemyHit"],
+				"spreadCondition": "IsBurning",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"enemyBuffs": ["Stun25"],
+				"spreadCondition": "IsBurning"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconRedHoldGroundBurn01"
+		},
+		"TriggerGrantPiercingWhenBurningEnemyHit": {
+			"class": "Buff",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides":[{
+				"randomAllyBuffs": ["IgnoreDamageReduction1TurnOnly"],
+				"numRandomToBuff": 1,
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"TriggerHitCountForCalKouhaiRegular": {
+			"class": "Buff",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides":[{
+				"sourceBuffs": ["StoreEnergy"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": 0,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantBurningAllyTheTurnIfNotAloneEBB": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsBurning",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0,
+			"applyConditions": "2AlliesBurning"
+		},
+		"StunImmunityIfAllyBurning": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"],
+				"activateCondition": "AtLeast1AllyIsBurning"
+			}],
+			"duration": -1,
+			"showAsTimer": true,
+			"tags": ["StunImmuneIfAnyBurningAllies"],
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconRedStunInvalidLightning01"
+		},
+		"50PercentAttackIncreaseIfAllEnemiesBurning":{
+			"class": "Buff",
+			"behaviors": ["StatOnly"],	
+			"behaviorOverrides":[{
+				"conditions": "AllEnemiesIsBurning",
+				"scalorStatBonuses": {
+					"Attack": 0.50
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"DragonScalePassiveACalKouhaiRegularBoss":{
+			"class": "Buff",
+			"stackName": "DragonScalePassiveACalKouhaiRegular",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","OthersEnterBattle","BuffWhenMonsterHurt","Revenge"],
+			"behaviorOverrides":[{
+				"sourceBuffs": ["KnockbackImmunity","HoldGroundBoss","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","6LevelsOfDamageReductionBasedOnDamageTaken"]
+			},{
+				"allyBuffs": ["HasteUp20Percent"],
+				"sourceBuffs": ["HasteUp20Percent"],
+				"spreadCondition": "IsBurnBlastOrForceOrFire"
+			},{
+				"sameTeam": true,
+				"spreadCondition": "IsBurnBlastOrForceOrFire",
+				"chance": 1.0,
+				"contextBuffs": ["HasteUp20Percent"]
+			},{
+				"selfBuffs": ["GoodGirlBuffCounter"],
+				"cancelFromDamageTypes": ["BuffDamage"]	
+			},{
+				"randomAllyBuffs": ["Burn"],
+				"numRandomToBuff": 4,
+				"effectTextKey": "DragonScalePassiveACalKouhaiRegularBossNameKey"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddSpiritEqualToBurningEnemiesEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"enemyBuffs": ["SpiritGainDContra"],
+				"spreadCondition": "IsBurning"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"6LevelsOfDamageReductionBasedOnDamageTaken": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage","ModifyDamage","ModifyDamage","ModifyDamage","ModifyDamage","ModifyDamage"],
+			"behaviorOverrides": [{
+				"percent": 0.70,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Has5GoodGirlBuff"
+			},{
+				"percent": 0.60,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Has4GoodGirlBuffExactly"
+			},{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Has3GoodGirlBuffExactly"
+			},{
+				"percent": 0.40,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Has2GoodGirlBuffExactly"
+			},{
+				"percent": 0.30,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Has1GoodGirlBuffExactly"
+			},{
+				"percent": 0.20,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "IsNotGoodGirlBuff"
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"AllyAndEnemyGrantedBurningInfectionEBB": {
+			"class": "Buff",
+			"stackName": "AllyAndEnemyGrantedBurningInfectionEBB",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["Burn","SpreadPlagueBurn"],
+				"numRandomToBuff": 1
+			},{
+				"randomAllyBuffs": ["Burn","AllySpreadPlagueBurn"],
+				"numRandomToBuff": 1
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"AllySpreadPlagueBurn":{
+			"class": "Buff",
+			"stackName": "SpreadPlague",
+			"behaviors":["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides":[{
+				"randomAllyBuffs": ["SpreadingPlagueFX","Burn"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotBurning",
+				"activeMonsterConditions": "AlwaysTrue",
+				"removeAfterTriggers": 3,
+				"forwardSource": true
+			}],
+			"duration": -1,
+			"iconSpriteName": "IconRedInfection01",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["SpreadPlagueBurn"],
+			"applyConditions": "IsNotSpreadPlague"
+		},
+		"CalKouhaiRegularBossCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"WarModePassiveAFreyaNewBoss":{
+			"class": "Buff",
+			"stackName": "WarModePassiveAFreyaNew",
+			"behaviors": ["BlockDeath","EnterBattleBuff","BuffOnMonsterTurnEnd","OthersEnterBattle"],
+				"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Burn"]
+			},{
+				"selfBuffs": ["KnockbackImmunity","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","GetTurnSkinA"]
+			},{
+				"selfBuffs": ["AttackPlus50Percent1TurnOnly"],
+				"spreadCondition": "IsBurning"
+			},{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"sameTeam": false,
+				"chance": 1.0
+			}],
+			"duration": -1,
+			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag"],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"BurningGoddessPassiveAFreyaNewBoss": {
+			"class": "Buff",
+			"stackName": "BurningGoddessPassiveAFreyaNew",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["StunImmunity","HoldGroundBoss","50PercentDamageReduction"]
+			},{
+				"sourceBuffs": ["FreyaNewKillsMoreThanSkillsUsed","MarkedFreyaNew"],
+				"spreadCondition": "IsNotImmediateDefeatLockedFreyaNew"
+			},{
+				"selfBuffs": ["RemoveInstantDefeatLOCKFreyaNew"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"StunAllBurningEnemiesFor50TUEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["Stun50"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsBurning"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"MarkedFreyaNew":{
+			"class": "Buff",
+			"stackName": "SourceFreyaNew",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"InstantDefeatLOCKFreyaNew":{
+			"class": "Buff",
+			"stackName": "InstantDefeatLOCKFreyaNew",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveInstantDefeatLOCKFreyaNew": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "InstantDefeatLOCKFreyaNew"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"FreyaNewKillsMoreThanSkillsUsed": {
+			"class": "Buff",
+			"stackName": "FreyaNewKillsMoreThanSkillsUsed",
+			"behaviors": ["BuffWhenMonstersDie", "BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["InstantDefeatLOCKFreyaNew","KillAllyAndCreditKillFreyaNew"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedAltAlt",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAltAlt"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsedAltAlt"
+			}],
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"KillAllyAndCreditKillFreyaNew":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKillFreyaNew"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"PT2InstantKillAndCreditKillFreyaNew": {
+			"class": "Buff",
+			"stackName": "InstantKill",
+			"behaviors": ["EnterBattleBuff","InstantDeath"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["Add1Kill"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsMarkedFreyaNew"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "RavenSacrifice1",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"FreyaNewBossCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown2",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"FreyaNewBossCooldown100":{
+			"class": "Buff",
+			"duration": 100,
 			"stackName": "InstantCooldown",
 			"showAsTimer": true,
 			"showAsPermanent": false,

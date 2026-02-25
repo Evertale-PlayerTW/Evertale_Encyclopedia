@@ -117632,7 +117632,7 @@
             },
             {
                 "SkillTitle": "赤紅之斬",
-                "SkillDescription": "對1個敵人造成600%的傷害。此技能無視目標的減傷效果。僅當使用者不為守衛者時才能使用此技能。",
+                "SkillDescription": "對1個敵人造成600%的傷害。此技能無視目標的減傷效果。僅當使用者不為守衛者時才能使用。",
                 "TU": 50,
                 "Spirit": "-3"
             }
@@ -125532,7 +125532,7 @@
             },
             {
                 "SkillTitle": "暴風雨",
-                "SkillDescription": "隨機眩暈1個敵方單位100TU；再隨機眩暈1個敵方單位200TU；再隨機眩暈1個敵方單位300TU；再隨機封鎖1個不高於50TU的敵方單位50TU。當該敵人在此期間獲得回合時會失去該回合（類似睡眠狀態）。此封鎖效果無法對BOSS類單位生效，無法淨化，在此單位被擊敗後失效。\n使用者進場後獲得的第4個回合起才可使用且每次使用後必須等100TU後才能再次使用。",
+                "SkillDescription": "隨機眩暈1個敵方單位100TU；再隨機眩暈1個敵方單位200TU；再隨機眩暈1個敵方單位300TU；再隨機封鎖1個不高於50TU的敵方單位主動技能50TU。當該敵人在此期間獲得回合時會失去該回合（類似睡眠狀態）。此封鎖效果無法對BOSS類單位生效，無法淨化，在此單位被擊敗後失效。\n使用者進場後獲得的第4個回合起才可使用且每次使用後必須等100TU後才能再次使用。",
                 "TU": 30,
                 "Spirit": "-3"
             },
@@ -125725,7 +125725,7 @@
             },
             {
                 "SkillTitle": "暴風雨",
-                "SkillDescription": "隨機眩暈1個敵方單位100TU；再隨機眩暈1個敵方單位200TU；再隨機眩暈1個敵方單位300TU；再隨機封鎖1個不高於50TU的敵方單位50TU。當該敵人在此期間獲得回合時會失去該回合（類似睡眠狀態）。此封鎖效果無法對BOSS類單位生效，無法淨化，在此單位被擊敗後失效。\n使用者進場後獲得的第4個回合起才可使用且每次使用後必須等100TU後才能再次使用。",
+                "SkillDescription": "隨機眩暈1個敵方單位100TU；再隨機眩暈1個敵方單位200TU；再隨機眩暈1個敵方單位300TU；再隨機封鎖1個不高於50TU的敵方單位主動技能50TU。當該敵人在此期間獲得回合時會失去該回合（類似睡眠狀態）。此封鎖效果無法對BOSS類單位生效，無法淨化，在此單位被擊敗後失效。\n使用者進場後獲得的第4個回合起才可使用且每次使用後必須等100TU後才能再次使用。",
                 "TU": 30,
                 "Spirit": "-3"
             },
@@ -127536,7 +127536,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "疾風之狐少女",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "此單位的攻擊不會移除目標的睡眠狀態。此單位回復所造成傷害100%的生命值。\n此單位在進入戰場後獲得匿蹤（3次）狀態與匿蹤護盾。當使用者從援軍進場時，在下一個任意單位的回合結束時立即擊敗己方場上所有冒牌貨。此單位被視為透過攻擊擊敗該數量的目標。此效果無視防止目標被擊敗的效果或被動技能，且不會觸發目標的詛咒與祝福或復活類被動技能。\n每當任意單位的回合結束時，己方場上隨機1個不處於燃燒或匿蹤狀態的隊友獲得匿蹤（3次）狀態，再回復隨機1個處於匿蹤狀態的隊友最大生命值的30%。此效果僅當己方場上存在其他己方單位時才會觸發。\n每當其他隊友回合結束時，若場上所有己方單位處於匿蹤狀態，此單位TU歸零立即獲得一回合，此效果在此後20TU內無法再次觸發。"
             },
             {
                 "SkillTitle": "提升攻擊力Lv3",
@@ -127757,7 +127757,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "疾風之狐少女",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "此單位的攻擊不會移除目標的睡眠狀態。此單位回復所造成傷害100%的生命值。\n此單位在進入戰場後獲得匿蹤（3次）狀態與匿蹤護盾。當使用者從援軍進場時，在下一個任意單位的回合結束時立即擊敗己方場上所有冒牌貨。此單位被視為透過攻擊擊敗該數量的目標。此效果無視防止目標被擊敗的效果或被動技能，且不會觸發目標的詛咒與祝福或復活類被動技能。\n每當任意單位的回合結束時，己方場上隨機1個不處於燃燒或匿蹤狀態的隊友獲得匿蹤（3次）狀態，再回復隨機1個處於匿蹤狀態的隊友最大生命值的30%。此效果僅當己方場上存在其他己方單位時才會觸發。\n每當其他隊友回合結束時，若場上所有己方單位處於匿蹤狀態，此單位TU歸零立即獲得一回合，此效果在此後20TU內無法再次觸發。"
             },
             {
                 "SkillTitle": "天狐的後裔",

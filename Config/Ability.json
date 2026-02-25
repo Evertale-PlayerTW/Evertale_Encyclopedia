@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769762489,
+  "Time": 1771919779,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28313,6 +28313,155 @@
       "tuCost": 50,
       "useLimit": 0,
       "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAThorRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        4,
+        5
+      ],
+      "config": "SingleAttackAThorRegularBoss",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "EnemyBuffAThorRegularBoss",
+      "class": "Ability",
+      "config": "EnemyBuffAThorRegularBoss",
+      "tuCost": 1,
+      "useLimit": 1,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DisableEffectAThorRegularBoss",
+      "class": "Ability",
+      "config": "DisableEffectAThorRegularBoss",
+      "tuCost": 1,
+      "useLimit": 5,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAThorRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 5,
+      "config": "SpecialAttackAThorRegularBoss",
+      "tuCost": 70,
+      "useLimit": 3,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackACalKouhaiRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        4
+      ],
+      "config": "SingleAttackACalKouhaiRegularBoss",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BuffACalKouhaiRegularBoss",
+      "class": "Ability",
+      "config": "BuffACalKouhaiRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BigSingleAttackACalKouhaiRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        5
+      ],
+      "config": "BigSingleAttackACalKouhaiRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackACalKouhaiRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 6,
+      "config": "SpecialAttackACalKouhaiRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 4,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAFreyaNewBoss",
+      "class": "Ability",
+      "abilityScalor": 1.5,
+      "conditionalAbilityScalors": [
+        3,
+        4.5,
+        6,
+        7.5,
+        9
+      ],
+      "config": "SingleAttackAFreyaNewBoss",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAFreyaNewBoss",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        7,
+        9
+      ],
+      "config": "DoubleAttackAFreyaNewBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BuffAFreyaNewBoss",
+      "class": "Ability",
+      "config": "BuffAFreyaNewBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAFreyaNewBoss",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "config": "SpecialAttackAFreyaNewBoss",
+      "tuCost": 10,
+      "useLimit": 3,
+      "spiritGain": 3,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1770086307,
+    "Time": 1771981521,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -6900,38 +6900,45 @@
 						},
 						"or":{
 							"class": "MonsterConditions",
-							"monsterTags": ["StunImmuneIfEnemyIsFireBurnBlastOrForce"],
-							"checkEnemyTeamOfMonster": true,
-							"enemyTeamMonsterConditionMatchesNeeded": {
-									"IsBurnBlastOrForceOrFire": 1
+							"monsterTags": ["StunImmuneIfAnyBurningAllies"],
+							"myTeamMonsterConditionMatchesNeeded":{
+								"IsBurning": 1
 							},
 							"or":{
 								"class": "MonsterConditions",
-								"monsterTags": ["StunImmuneIfAllyIsFireBurnBlastOrForce"],
-								"myTeamMonsterConditionMatchesNeeded": {
+								"monsterTags": ["StunImmuneIfEnemyIsFireBurnBlastOrForce"],
+								"checkEnemyTeamOfMonster": true,
+								"enemyTeamMonsterConditionMatchesNeeded": {
 										"IsBurnBlastOrForceOrFire": 1
 								},
 								"or":{
 									"class": "MonsterConditions",
-									"monsterTags": ["StunImmuneIfPoisonedEnemy"],
-									"checkEnemyTeamOfMonster": true,
-									"enemyTeamMonsterConditionMatchesNeeded": {
-											"IsPoisoned": 1
+									"monsterTags": ["StunImmuneIfAllyIsFireBurnBlastOrForce"],
+									"myTeamMonsterConditionMatchesNeeded": {
+											"IsBurnBlastOrForceOrFire": 1
 									},
 									"or":{
 										"class": "MonsterConditions",
-										"monsterTags": ["StunImmunityIfNotBurning"],
-										"not":{
-											"class": "MonsterConditions",
-											"buffStackNames": ["Burn"]
+										"monsterTags": ["StunImmuneIfPoisonedEnemy"],
+										"checkEnemyTeamOfMonster": true,
+										"enemyTeamMonsterConditionMatchesNeeded": {
+												"IsPoisoned": 1
 										},
 										"or":{
 											"class": "MonsterConditions",
-											"monsterTags": ["StunImmuneIfHoldGroundPlusTriggered"],
-											"buffStackNames": ["BlockDeathUntilNextTurn"],
-											"not": {
+											"monsterTags": ["StunImmunityIfNotBurning"],
+											"not":{
 												"class": "MonsterConditions",
-												"buffStackNames": ["HoldGroundOnceForHoldGroundPlus"]
+												"buffStackNames": ["Burn"]
+											},
+											"or":{
+												"class": "MonsterConditions",
+												"monsterTags": ["StunImmuneIfHoldGroundPlusTriggered"],
+												"buffStackNames": ["BlockDeathUntilNextTurn"],
+												"not": {
+													"class": "MonsterConditions",
+													"buffStackNames": ["HoldGroundOnceForHoldGroundPlus"]
+												}	
 											}
 										}	
 									}	
@@ -14436,7 +14443,11 @@
 		"class": "MonsterConditions",
 		"not":{
 			"class": "MonsterConditions",
-			"buffStackNames": ["KillGuardMode"]
+			"buffStackNames": ["KillGuardMode"],
+			"or": {
+				"class": "MonsterConditions",
+				"buffStackNames": ["StartOfBattlePassiveAThorRegular"]
+			}	
 		}
 	},
 	"HPBelow25PercentIsNotSleeping": {
@@ -16217,7 +16228,8 @@
 			"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
             "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
             "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        	"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        	"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        	"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 	},
 	"IsBossOrInstantKillImmune": {
 		"class": "MonsterConditions",
@@ -16248,7 +16260,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 		}
 	},
 	"IsNotBoss": {
@@ -16279,7 +16292,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 		}
 	},
 	"IsNotBossNotAloneAndNoAllyIsPloyed": {
@@ -16311,7 +16325,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"myTeamMonsterConditionMatchesNeeded":{
@@ -16351,7 +16366,8 @@
 					"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                     "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                     "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        			"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        			"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        			"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 			}
 		}
 	},
@@ -16387,7 +16403,8 @@
 					"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                     "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                     "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        			"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        			"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        			"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 			}
 		}
 	},
@@ -16431,7 +16448,8 @@
 								"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        						"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        						"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        						"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 						}
 					}
 				}
@@ -16467,7 +16485,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 		}
 	},
 	"IsAccelerated20Percent": {
@@ -19916,7 +19935,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 			}
 	},
 	"On10PercentHPNotBossNotInstantKillImmune": {
@@ -19948,7 +19968,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["InstantKillImmune"],
@@ -21212,7 +21233,8 @@
 					"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                     "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                     "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        			"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        			"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        			"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 			}
 		}
 	},
@@ -23273,7 +23295,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 		}
 	},
 	"HPBelow1Percent": {
@@ -23316,7 +23339,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["InstantKillImmune"],
@@ -23522,7 +23546,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"buffStackNames": ["MirageMonster"]
@@ -23558,7 +23583,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"buffStackNames": ["MirageMonster"]
@@ -23708,7 +23734,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 			}
 	},
 	"IsSummonedNotBossOrInstantKillImmune": {
@@ -23740,7 +23767,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["InstantKillImmune"],
@@ -24260,7 +24288,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"not":{
@@ -24624,7 +24653,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["InstantKillImmune"],
@@ -25351,7 +25381,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 			}
 	},
 	"On50PercentHPNotBossNotInstantKillImmune": {
@@ -25383,7 +25414,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["InstantKillImmune"],
@@ -25423,7 +25455,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"hpMoreThanPercent": 0.4999999
@@ -25804,7 +25837,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 		}
 	},
 	"CurrentTUGreaterThan300NotBossOrMirageAndNotInstantKillImmune": {
@@ -25836,7 +25870,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["InstantKillImmune"],
@@ -26524,7 +26559,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"monsterTags": ["InstantKillImmune"],
@@ -26814,7 +26850,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"buffStackNames": ["MirageMonster"]
@@ -26928,7 +26965,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"buffStackNames": ["MirageMonster"]
@@ -27576,7 +27614,8 @@
 					"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
 					"MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
 					"KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"]
+        			"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        			"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"]
 			}
 		}
 	},
@@ -27722,7 +27761,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
 				"MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
 				"KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"buffStackNames": ["MirageMonster"]
@@ -28562,7 +28602,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"buffStackNames": ["MirageMonster"]
@@ -28684,7 +28725,8 @@
 				"NikeRegularBoss","ChronosRegularBoss","RolotiaDarkBoss","RizKouhaiRegularBoss","KongmingRegularBoss","PinocchioRegularBoss",
                 "MasamuneRegularBoss","RyomaRegularBoss","PerryRegularBoss","OniSchoolDarkBoss","ElminaModernBoss","PeachGirlRegularBoss",
                 "KingArthurEvilBoss", "DonQuixoteRegularBoss", "AnastasiaRegularBoss","BahamutGirlRegularBoss","ElmKouhaiRegularBoss","SiegfriedRegularBoss",
-        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss"],
+        		"ZeusRegularBoss","RizetteBraveBoss","VenusRegularBoss","MusashiDarkBoss","KenshinRegularBoss","MyshaKnightBoss",
+        		"ThorRegularBoss","CalKouhaiRegularBoss","FreyaNewBoss"],
 			"or":{
 				"class": "MonsterConditions",
 				"buffStackNames": ["MirageMonster"]
@@ -28780,6 +28822,13 @@
 			"enemyTeamMonsterConditionMatchesNeeded": {
 				"IsImposter": 1
 			}
+		}
+	},
+	"IsNotGoodGirlBuff": {
+		"class":"MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["GoodGirlBuffCounter"]
 		}
 	},
 	"Has1GoodGirlBuffExactly": {
@@ -29136,6 +29185,70 @@
 		"class": "MonsterConditions",
 		"buffStackNames": ["Stealth"],
 		"allyTeamSize": 2
+	},
+	"IsStunImmuneNotThorLOCKED": {
+		"class": "MonsterConditions",
+		"monsterTags": ["StunImmune"],
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["ThorActive1StunLOCKED"]
+		}
+	},
+	"ThorActive1StunNotLOCKED": {
+		"class":"MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["ThorActive1StunLOCKED"]
+		}
+	},
+	"IsMarkedEnemiesThorRegular": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["MarkedEnemiesThorRegular"]
+	},
+	"NotInstantCooldownAnd2AlliesOr2EnemiesBurning": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["InstantCooldown"]
+		},
+		"and":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded": {
+				"IsBurning": 2
+			},
+			"or": {
+				"class": "MonsterConditions",
+				"checkEnemyTeamOfMonster": true,
+				"enemyTeamMonsterConditionMatchesNeeded": {
+					"IsBurning": 2
+				}
+			}
+		}
+	},
+	"AtLeast1AllyIsBurning": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsBurning": 1
+		}
+	},
+	"IsNotImmediateDefeatLockedFreyaNew":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["InstantDefeatLOCKFreyaNew"]
+		}	
+	},
+	"IsMegaHealingBurnFlagOrTagUser": {
+		"class": "MonsterConditions",
+		"abilityConfigFlag": "MegaHealingBurnFlag",
+		"or":{
+			"class": "MonsterConditions",
+			"monsterTags": ["MegaHealingBurnPassiveTag"]
+		}
+	},
+	"IsMarkedFreyaNew": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["SourceFreyaNew"]
 	}
 }
 }

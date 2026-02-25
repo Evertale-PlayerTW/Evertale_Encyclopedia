@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1769762041,
+	"Time": 1771473573,
 	"AttackScalor": {
 		"TimeInCombat500":
 		{
@@ -742,6 +742,10 @@
 		"GoodIfEnemyHas2Guardians":{
 			"class":"AttackScalor",
 			"sourceCondition":"2ProtectingInEnemyTeam"
+		},
+		"GoodIfAllAlliesIsBurning":{
+			"class":"AttackScalor",
+			"sourceCondition":"AllAlliesIsBurning"
 		}
 	}
 }
