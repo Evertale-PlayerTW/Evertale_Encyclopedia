@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1771981521,
+    "Time": 1771983890,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29249,6 +29249,24 @@
 	"IsMarkedFreyaNew": {
 		"class": "MonsterConditions",
 		"buffStackNames": ["SourceFreyaNew"]
+	},
+	"1AllyIsHPBelow95PercentNotInstantCooldown2": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+				"HPBelow95Percent": 1
+		},		
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["InstantCooldown2"]
+		}
+	},
+	"IsSleepingOrHPBelow95Percent": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Sleep"],
+		"or":{
+			"class": "MonsterConditions",
+			"hpLessThanPercent": 0.9500001
+		}
 	}
 }
 }

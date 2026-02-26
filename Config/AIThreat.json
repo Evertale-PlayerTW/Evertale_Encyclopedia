@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769733039,
+  "Time": 1771869452,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6856,6 +6856,26 @@
       "name": "MyshaKnight02",
       "condition": "2ProtectingInEnemyTeam",
       "value": 1.1
+    },
+    {
+      "name": "ThorRegular01",
+      "condition": "TimeInCombat100",
+      "value": 1.1
+    },
+    {
+      "name": "ThorRegular01",
+      "condition": "TimeInCombat200",
+      "value": 1.15
+    },
+    {
+      "name": "ThorRegular02",
+      "condition": "TimeInCombat100",
+      "value": 1.1
+    },
+    {
+      "name": "ThorRegular02",
+      "condition": "TimeInCombat200",
+      "value": 1.15
     }
   ]
 }

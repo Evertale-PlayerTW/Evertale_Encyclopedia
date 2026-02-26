@@ -11557,6 +11557,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -11906,6 +11917,17 @@
                     "KojiroRegular01",
                     "CatEaredFighter01",
                     "TrainerGirl01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "生命值+3%"
@@ -15056,6 +15078,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -15423,6 +15456,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -29154,6 +29198,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -29336,6 +29391,17 @@
                     "AnimalFamiliar01",
                     "WaterElfWarrior01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
                 ],
                 "RelationshipBuff": "生命值+3%"
             }
@@ -124912,6 +124978,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -125088,6 +125165,17 @@
                     "MistDragon01",
                     "FloatingMage01",
                     "RoseElf01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
                 ],
                 "RelationshipBuff": "生命值+3%"
             }
@@ -127501,7 +127589,7 @@
         "Hp_Base": 5825,
         "Speed": 430,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "比谁都快——",
         "LeaderSkill": {
             "SkillTitle": "地属性强化",
@@ -127928,6 +128016,330 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "ThorRegular01": {
+        "Name": "托尔",
+        "Name2": "终末的雷神",
+        "FullName": "托尔 - 终末的雷神",
+        "Profile": "托尔，拥有现存诸神之中除主神奥丁之外的最强力量。然而她性情无常，随意杀戮人类，甚至连神族也毫不犹豫地屠戮。正因这份暴虐，她被判为“最恶之神”，作为大罪人被封印于大穴最深处。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Air",
+        "Element": "雷",
+        "Cost": 28,
+        "Atk_Base": 808,
+        "Hp_Base": 10089,
+        "Speed": 353,
+        "Power": 169548,
+        "Visible": false,
+        "GachaIntro": "嘻嘻……闻到血的味道了……",
+        "LeaderSkill": {
+            "SkillTitle": "雷属性振奋",
+            "SkillDescription": "所有雷属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "妙尔尼尔",
+                "SkillDescription": "对所有敌人造成400%的伤害。若使用者在场期间已存活100TU或以上，则改为造成500%的伤害；若已存活200TU或以上，则改为造成600%的伤害；眩晕目标100TU，若非眩晕吸收者的目标在被眩晕后有至少200TU，则其在离场前无法再被此技能眩晕。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "狂神加护",
+                "SkillDescription": "己方场上每有1个处于睡眠状态或生命值不高于最大值95%的单位，己方获得1点灵气并随机眩晕1个敌方单位100TU，净化所有己方单位并回复其相当于使用者攻击力1000%的生命值且使其获得眩晕抵抗与睡眠抵抗。\n仅当己方场上存在生命值不高于最大值95%的单位时可以使用。此技能使用后必须等50TU后才能再次使用。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "天雷之楔",
+                "SkillDescription": "封锁敌方场上TU最高和最低的单位主动技能各50TU。当该敌人在此期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果无法对BOSS类单位生效，无法被净化，在此单位被击败后失效。\n仅当敌方场上存在至少2个非冒牌货单位时才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用五次。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "终末雷神",
+                "SkillDescription": "此单位回复所造成伤害100%的生命值。此单位无法从场上回到援军队伍。此单位在进入战场后获得速败抵抗效果。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。\n当满足以下条件时，此单位在100TU内成为守卫者：\n·此单位进场时。\n·每当此单位通过攻击击败非召唤物敌方单位时。\n此单位无法因其他技能的效果成为守卫者。\n在此单位成为守卫者的期间，触发以下效果：\n·当敌方使用单体或双体类攻击时，此单位会将一个攻击目标强制改为自身。不直接造成伤害的技能不会被改变目标。\n·此单位受到敌方攻击的伤害减少50%。\n·此单位免疫眩晕与睡眠。\n·每当任意单位回合开始时，此单位回复最大生命值的100%。\n不为守卫者的此单位攻击力增加为1.5倍。此效果不会和其他“狂热”效果累加。"
+            },
+            {
+                "SkillTitle": "嗜血之刃",
+                "SkillDescription": "当此单位进场后第一次受到敌方攻击伤害时，封锁该敌人的主动技能20TU，且此单位减少50TU。此单位每觉醒一次额外延长20TU封锁时间。每当此单位使用杀戮游戏主动技能后，此封锁与减少TU的效果触发次数归零并可再次触发。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，则使随机2个敌方单位攻击力降低为0.75倍直到其下一个回合结束并获得狂热抵抗，且净化场上所有不处于燃烧状态的队友。此效果会覆盖原先的虚弱或狂热效果。虚弱的效果可能会因其他提升攻击力的效果而减弱。狂热抵抗会阻止一次狂热，之后狂热抵抗会被移除。狂热抵抗效果次数无法叠加。\n若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。每当场上1个其他非召唤物队友被击败后，此单位的坚守阵地+效果的触发次数归零并可再次触发且净化场上所有己方单位并使其获得战甲。“战甲”会使该单位此后一次遭受敌方攻击时所受的伤害减少50%，之后战甲会被移除。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "单手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备单手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手剑大师",
+                "SkillDescription": "若此单位装备单手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "单手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "唤醒我的是你……？\n难道，是想让我借你力量吗？\n\n可以哦，只要你把你的\n血、肉、骨头都交给我……\n开玩笑的啦，嘻嘻♪"
+            ],
+            "Login": [
+                "啊，太好了，我还以为被你丢下了呢……\n差点就跑到你身边去了哦，对，就是你背后……"
+            ],
+            "Tap": [
+                "生命力真是厉害呢。像虫子那样拼命活着的样子，真是让人感动得想流泪。\n就算身首异处还那么努力地想活下去呢……",
+                "我不喜欢睡觉呢，因为太无聊了。\n比起那个，还有更多更有趣的事情吧。\n所以，你也不要睡哦。",
+                "我笑起来……很奇怪吗？\n呵呵？嘻……咿嘻？嗯……我也不太明白呢。\n是要把嘴角再往上扬一点吗？像这样，咧——一下？"
+            ],
+            "Idle": [
+                "这么安静的话，不禁就会……嘻嘻……\n差点又想给我的收藏添点新东西了……啊，有没有谁在呢……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15
+            },
+            "SkillUse": {
+                "妙尔尼尔": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1.1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.01,
+                        "CurrentTUGreaterThan100": 0.75,
+                        "CurrentTUGreaterThan200": 0.5,
+                        "ThorActive1StunNotLOCKED": 1.01,
+                        "IsStunImmuneNotThorLOCKED": 0.5
+                    }
+                },
+                "狂神加护": {
+                    "BaseWeight": 1000
+                },
+                "天雷之楔": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            }
+        }
+    },
+    "ThorRegular02": {
+        "Name": "托尔",
+        "Name2": "终末的雷神",
+        "FullName": "托尔 - 终末的雷神",
+        "Profile": "巨人们被囚禁于深渊的真正理由，是为了在她万一解除封印之时，成为支撑封印的支柱。巨人们虽不知托尔的存在，却能够感受到。那混杂在夜之寂静中的笑声，以及令人战栗、冰冷至极的死亡气息。",
+        "Profile_Ascended": "也曾有人对她怀有近似亲爱与敬意的感情。然而她的爱即是“毁灭”，当她回过神来时，已无人再留在她身边。她是孤独的，甚至她从未明白那意味着什么。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Air",
+        "Element": "雷",
+        "Cost": 34,
+        "Atk_Base": 997,
+        "Hp_Base": 13058,
+        "Speed": 353,
+        "Power": 216516,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "雷属性振奋",
+            "SkillDescription": "所有雷属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "妙尔尼尔",
+                "SkillDescription": "对所有敌人造成400%的伤害。若使用者在场期间已存活100TU或以上，则改为造成500%的伤害；若已存活200TU或以上，则改为造成600%的伤害；眩晕目标100TU，若非眩晕吸收者的目标在被眩晕后有至少200TU，则其在离场前无法再被此技能眩晕。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "狂神加护",
+                "SkillDescription": "己方场上每有1个处于睡眠状态或生命值不高于最大值95%的单位，己方获得1点灵气并随机眩晕1个敌方单位100TU，净化所有己方单位并回复其相当于使用者攻击力1000%的生命值且使其获得眩晕抵抗与睡眠抵抗。\n仅当己方场上存在生命值不高于最大值95%的单位时可以使用。此技能使用后必须等50TU后才能再次使用。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "天雷之楔",
+                "SkillDescription": "封锁敌方场上TU最高和最低的单位主动技能各50TU。当该敌人在此期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果无法对BOSS类单位生效，无法被净化，在此单位被击败后失效。\n仅当敌方场上存在至少2个非冒牌货单位时才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用五次。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "杀戮游戏",
+                "SkillDescription": "对1个敌人造成600%的伤害。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。\n仅当使用者不为守卫者时才能使用，且此技能在一场战斗中只能使用三次。",
+                "TU": 70,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "终末雷神",
+                "SkillDescription": "此单位回复所造成伤害100%的生命值。此单位无法从场上回到援军队伍。此单位在进入战场后获得速败抵抗效果。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。\n当满足以下条件时，此单位在100TU内成为守卫者：\n·此单位进场时。\n·每当此单位通过攻击击败非召唤物敌方单位时。\n此单位无法因其他技能的效果成为守卫者。\n在此单位成为守卫者的期间，触发以下效果：\n·当敌方使用单体或双体类攻击时，此单位会将一个攻击目标强制改为自身。不直接造成伤害的技能不会被改变目标。\n·此单位受到敌方攻击的伤害减少50%。\n·此单位免疫眩晕与睡眠。\n·每当任意单位回合开始时，此单位回复最大生命值的100%。\n不为守卫者的此单位攻击力增加为1.5倍。此效果不会和其他“狂热”效果累加。"
+            },
+            {
+                "SkillTitle": "嗜血之刃",
+                "SkillDescription": "当此单位进场后第一次受到敌方攻击伤害时，封锁该敌人的主动技能20TU，且此单位减少50TU。此单位每觉醒一次额外延长20TU封锁时间。每当此单位使用杀戮游戏主动技能后，此封锁与减少TU的效果触发次数归零并可再次触发。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，则使随机2个敌方单位攻击力降低为0.75倍直到其下一个回合结束并获得狂热抵抗，且净化场上所有不处于燃烧状态的队友。此效果会覆盖原先的虚弱或狂热效果。虚弱的效果可能会因其他提升攻击力的效果而减弱。狂热抵抗会阻止一次狂热，之后狂热抵抗会被移除。狂热抵抗效果次数无法叠加。\n若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。每当场上1个其他非召唤物队友被击败后，此单位的坚守阵地+效果的触发次数归零并可再次触发且净化场上所有己方单位并使其获得战甲。“战甲”会使该单位此后一次遭受敌方攻击时所受的伤害减少50%，之后战甲会被移除。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "单手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备单手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手剑大师",
+                "SkillDescription": "若此单位装备单手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "单手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "唤醒我的是你……？\n难道，是想让我借你力量吗？\n\n可以哦，只要你把你的\n血、肉、骨头都交给我……\n开玩笑的啦，嘻嘻♪"
+            ],
+            "Login": [
+                "啊，太好了，我还以为被你丢下了呢……\n差点就跑到你身边去了哦，对，就是你背后……"
+            ],
+            "Tap": [
+                "生命力真是厉害呢。像虫子那样拼命活着的样子，真是让人感动得想流泪。\n就算身首异处还那么努力地想活下去呢……",
+                "我不喜欢睡觉呢，因为太无聊了。\n比起那个，还有更多更有趣的事情吧。\n所以，你也不要睡哦。",
+                "我笑起来……很奇怪吗？\n呵呵？嘻……咿嘻？嗯……我也不太明白呢。\n是要把嘴角再往上扬一点吗？像这样，咧——一下？"
+            ],
+            "Idle": [
+                "这么安静的话，不禁就会……嘻嘻……\n差点又想给我的收藏添点新东西了……啊，有没有谁在呢……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15
+            },
+            "SkillUse": {
+                "妙尔尼尔": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1.1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.01,
+                        "CurrentTUGreaterThan100": 0.75,
+                        "CurrentTUGreaterThan200": 0.5,
+                        "ThorActive1StunNotLOCKED": 1.01,
+                        "IsStunImmuneNotThorLOCKED": 0.5
+                    }
+                },
+                "狂神加护": {
+                    "BaseWeight": 1000
+                },
+                "天雷之楔": {
+                    "BaseWeight": 500
+                },
+                "杀戮游戏": {
+                    "BaseWeight": 10,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1.1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA38": {
+                "RelationshipName": "破灭的美德",
+                "RelationshipFamily": [
+                    "ThorRegular01",
+                    "ElmKouhaiRegular01",
+                    "AnimalFamiliar01",
+                    "TwoFaceDemon01",
+                    "FireElfKnight01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1769762489,
+  "Time": 1771898757,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15933,7 +15933,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "MyshaFlowerStaff02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "MyshaFlowerStaff02",
@@ -15953,7 +15954,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "MyshaFlowerStaff03",
       "evolveFrom": "MyshaFlowerStaff01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "MyshaFlowerStaff03",
@@ -15972,6 +15974,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "MyshaFlowerStaff02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "ThorMace01",
+      "family": "ThorMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc4UserIsSleeping"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 425,
+      "baseMaxHp": 3250,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ThorMace02",
+      "cost": 11
+    },
+    {
+      "name": "ThorMace02",
+      "family": "ThorMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc5UserIsSleeping"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 520,
+      "baseMaxHp": 3900,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ThorMace03",
+      "evolveFrom": "ThorMace01",
+      "cost": 17
+    },
+    {
+      "name": "ThorMace03",
+      "family": "ThorMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "DamageReduc6UserIsSleeping"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 561,
+      "baseMaxHp": 4195,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "ThorMace02",
       "cost": 23
     }
   ]

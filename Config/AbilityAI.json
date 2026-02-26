@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1771920003,
+  "Time": 1771923985,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -28922,6 +28922,55 @@
 						"HPBelow50Percent": 1.0,
 						"HPBelow25Percent": 1.0,
 						"HPFull": 0.89
+					}
+    },
+    "SingleAttackAThorRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingMonsterConditions": {
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.1,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.1,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"CurrentTULessThan100": 1.01,
+							"CurrentTUGreaterThan100": 0.75,
+							"CurrentTUGreaterThan200": 0.5,
+							"ThorActive1StunNotLOCKED": 1.01,
+							"IsStunImmuneNotThorLOCKED": 0.5
+					}
+    },
+    "AllyAndEnemyBuffAThorRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1000.0
+    },
+    "DisableEffectAThorRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 500.0
+    },
+    "SpecialAttackAThorRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 10.0,
+							"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.1,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.1,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5
 					}
     }
 }

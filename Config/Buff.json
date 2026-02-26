@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1771989833,
+	"Time": 1772000392,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -78836,6 +78836,308 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3Numbered04"
+		},
+		"DamageReduc4UserIsSleeping": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "IsSleeping",
+				"percent": 0.93,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"DamageReduc5UserIsSleeping": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "IsSleeping",
+				"percent": 0.9,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"DamageReduc6UserIsSleeping": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "IsSleeping",
+				"percent": 0.85,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"StartOfBattlePassiveAThorRegular": {
+			"class": "Buff",
+			"stackName": "StartOfBattlePassiveAThorRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["KnockbackImmunity","InstantKillImmunityOnce","NotProtectingNotEnragedAttackBuffThorRegular",
+					"ProtecterAThorRegular","SleepImmunityFor100TU","StunImmunityFor100TU","50PercentDamageReductionFor100TU"]
+			},{
+				"sourceBuffs": ["ProtecterAThorRegular","SleepImmunityFor100TU","StunImmunityFor100TU","50PercentDamageReductionFor100TU","FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			},{
+				"enemyBuffs": ["TriggerStunEnemy100ThorRegular"]
+			},{
+				"randomEnemyBuffs": ["LowestAndHighestTUEnemiesMarkedThorRegular"],
+				"numRandomToBuff": 1,
+				"randomTargetingMonsterRanker": "ActingLatest"
+			},{
+				"randomEnemyBuffs": ["LowestAndHighestTUEnemiesMarkedThorRegular"],
+				"numRandomToBuff": 1,
+				"randomTargetingMonsterRanker": "ActingSoonest"		
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"duration": -1
+		},
+		"ProtecterAThorRegular":{
+			"class": "Buff",
+			"stackName": "TimedProtector",
+			"behaviors": ["ManipulateTargeting","RemoveOnSourceDeath","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"redirectToMe": true,
+				"redirectAlways": true,
+				"chanceToBlock": 1.0,
+				"consumeRedirectCountEvenOnSelf": true,
+				"failOnAllSkills": true,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage"]
+			},{},{
+				"selfBuffs": ["HealFull"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": 100,
+			"iconSpriteName": "IconBlueDefenseShield01"
+		},
+		"50PercentDamageReductionFor100TU": {
+			"class": "Buff",
+			"stackName": "50PercentDamageReduction",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"duration": 100,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"HoldGroundPlusPassiveAThorRegular": {
+			"class": "Buff",
+			"stackName": "HoldGroundPlusPassiveAThorRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus","FirstTimeHitDisableEnemyUnitThorRegularLV1","FirstTimeHitDisableEnemyUnitThorRegularLV2","FirstTimeHitDisableEnemyUnitThorRegularLV3","FirstTimeHitDisableEnemyUnitThorRegularLV4","FirstTimeHitDisableEnemyUnitThorRegularLV5"]
+			},{
+				"selfBuffs": ["2EnemiesWeakenedRageWardAllNonBurningAlliesPurifiedEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"sourceBuffs": ["RemoveBuffs","Armor"],
+				"allyBuffs": ["RemoveBuffs","Armor"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"selfBuffs": ["HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			}],
+			"showAsPermanent": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"tags": ["HoldGroundPlus"],
+			"duration": -1
+		},
+		"Stun1RandomEnemyFor100TUNoStacknameEBB":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["Stun100"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"NoTurnsFor20TU": {
+			"class": "Buff",
+			"stackName": "BlockGiveTurn",
+			"behaviors": ["LoseTurn","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+			},{},{},{
+			}],
+			"duration": 20,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["BlockTurnTag"],
+			"iconSpriteName": "IconRedDisabled01",
+			"statusEffect": "TurnGiftStunStatus",
+			"applyConditions": "IsNotBoss"
+		},
+		"NoTurnsFor40TU": {
+			"class": "Buff",
+			"stackName": "BlockGiveTurn",
+			"behaviors": ["LoseTurn","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+			},{},{},{
+			}],
+			"duration": 40,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["BlockTurnTag"],
+			"iconSpriteName": "IconRedDisabled01",
+			"statusEffect": "TurnGiftStunStatus",
+			"applyConditions": "IsNotBoss"
+		},
+		"NoTurnsFor60TU": {
+			"class": "Buff",
+			"stackName": "BlockGiveTurn",
+			"behaviors": ["LoseTurn","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+			},{},{},{
+			}],
+			"duration": 60,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["BlockTurnTag"],
+			"iconSpriteName": "IconRedDisabled01",
+			"statusEffect": "TurnGiftStunStatus",
+			"applyConditions": "IsNotBoss"
+		},
+		"NoTurnsFor80TU": {
+			"class": "Buff",
+			"stackName": "BlockGiveTurn",
+			"behaviors": ["LoseTurn","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+			},{},{},{
+			}],
+			"duration": 80,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["BlockTurnTag"],
+			"iconSpriteName": "IconRedDisabled01",
+			"statusEffect": "TurnGiftStunStatus",
+			"applyConditions": "IsNotBoss"
+		},
+		"FirstTimeHitDisableEnemyUnitThorRegularLV1": {
+			"class": "Buff",
+			"stackName": "FirstTimeHitDisableEnemyUnitThorRegular",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"contextBuffs": ["NoTurnsFor20TU"],
+				"selfBuffs": ["TUMinus50","TriggerRemoveFirstTimeHitDisableEnemyUnitThorRegularEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "HasNoAwakening"
+		},
+		"FirstTimeHitDisableEnemyUnitThorRegularLV2": {
+			"class": "Buff",
+			"stackName": "FirstTimeHitDisableEnemyUnitThorRegular",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"contextBuffs": ["NoTurnsFor40TU"],
+				"selfBuffs": ["TUMinus50","TriggerRemoveFirstTimeHitDisableEnemyUnitThorRegularEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "Has1AwakeningExact"
+		},
+		"FirstTimeHitDisableEnemyUnitThorRegularLV3": {
+			"class": "Buff",
+			"stackName": "FirstTimeHitDisableEnemyUnitThorRegular",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"contextBuffs": ["NoTurnsFor60TU"],
+				"selfBuffs": ["TUMinus50","TriggerRemoveFirstTimeHitDisableEnemyUnitThorRegularEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "Has2AwakeningsExact"
+		},
+		"FirstTimeHitDisableEnemyUnitThorRegularLV4": {
+			"class": "Buff",
+			"stackName": "FirstTimeHitDisableEnemyUnitThorRegular",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"contextBuffs": ["NoTurnsFor80TU"],
+				"selfBuffs": ["TUMinus50","TriggerRemoveFirstTimeHitDisableEnemyUnitThorRegularEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "Has3AwakeningsExact"
+		},
+		"FirstTimeHitDisableEnemyUnitThorRegularLV5": {
+			"class": "Buff",
+			"stackName": "FirstTimeHitDisableEnemyUnitThorRegular",
+			"behaviors": ["BuffWhenMonsterHurt"],
+			"behaviorOverrides": [{
+				"contextBuffs": ["NoTurnsFor100TU"],
+				"selfBuffs": ["TUMinus50","TriggerRemoveFirstTimeHitDisableEnemyUnitThorRegularEOT"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "Has4Awakenings"	
+		},
+		"ThorRegularActive2Cooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown2",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered02"
+		},
+		"ThorRegularCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1771919779,
+  "Time": 1771923976,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28462,6 +28462,52 @@
       "tuCost": 10,
       "useLimit": 3,
       "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAThorRegular",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        4,
+        5
+      ],
+      "config": "SingleAttackAThorRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllyAndEnemyBuffAThorRegular",
+      "class": "Ability",
+      "config": "AllyAndEnemyBuffAThorRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DisableEffectAThorRegular",
+      "class": "Ability",
+      "config": "DisableEffectAThorRegular",
+      "tuCost": 1,
+      "useLimit": 5,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAThorRegular",
+      "class": "Ability",
+      "abilityScalor": 5,
+      "config": "SpecialAttackAThorRegular",
+      "tuCost": 70,
+      "useLimit": 3,
+      "spiritCost": 3,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }
