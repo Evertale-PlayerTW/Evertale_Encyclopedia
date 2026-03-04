@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1772511866,
+	"Time": 1772600349,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -11666,6 +11666,14 @@
 		"duration": 0,
 		"showAsTimer": false,
 		"isHiddenFromPlayers": true
+	},
+	"RemoveBuffsIfNotKnockbackImmune": {
+		"class": "Buff",
+		"behaviors": ["RemoveBuffs"],
+		"duration": 0,
+		"showAsTimer": false,
+		"isHiddenFromPlayers": true,
+		"applyConditions": "NotKnockbackImmune"
 	},
 	"RemovePoison": {
 		"class": "Buff",
@@ -43461,7 +43469,7 @@
 		},
 		"Add1DeathMinionNextSendToBackOfReinforcementRemoveBuffs": {
 			"class": "Buff",
-			"behaviors": ["SummonMonster","SendToReinforcements","RemoveBuffs"],
+			"behaviors": ["SummonMonster","SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
 			"behaviorOverrides": [{
 				"monsterType": "DeathMinion01",
 				"frontOfLineup": true
@@ -43473,7 +43481,7 @@
 		},
 		"Add2DeathMinionNextSendToBackOfReinforcementRemoveBuffs": {
 			"class": "Buff",
-			"behaviors": ["SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffs"],
+			"behaviors": ["SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
 			"behaviorOverrides": [{
 				"monsterType": "DeathMinion01",
 				"frontOfLineup": true
@@ -43488,7 +43496,7 @@
 		},
 		"Add3DeathMinionNextSendToBackOfReinforcementRemoveBuffs": {
 			"class": "Buff",
-			"behaviors": ["SummonMonster","SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffs"],
+			"behaviors": ["SummonMonster","SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
 			"behaviorOverrides": [{
 				"monsterType": "DeathMinion01",
 				"frontOfLineup": true
@@ -49333,9 +49341,9 @@
 		"FallenAllyBuffPercivalRegular": {
 			"class": "Buff",
 			"stackName": "MakeshiftGuardianPercivalRegular",
-			"behaviors": ["EnterBattleBuff", "BuffWhenMonstersDie", "BuffWhenMonstersDie", "Revenge", "BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff", "BuffWhenMonstersDie", "BuffWhenMonstersDie", "Revenge", "BuffOnMonsterTurn","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunityUntilNextTurn", "CountDownSurvivorDoubleHealPercivalRegular"]
+				"selfBuffs": ["StunImmunityUntilNextTurn", "CountDownSurvivorDoubleHealPercivalRegular","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["DamageReducWhenAllyDefeatedPercivalRegular", "HealFull", "AttackPlus50Percent1TurnOnly"],
 				"sameTeam": true,
@@ -49350,7 +49358,7 @@
 				"effectTextKey": "HealLowestHPRevengeANameKey"
 			},{
 				"enemyBuffs": ["TriggerStunEnemies200SurvivorDoubleHealPercivalRegular"]
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
 			"duration": -1
@@ -51055,9 +51063,9 @@
 		"DollShieldAFrankensteinRegularBoss": {
 			"class": "Buff",
 			"stackName": "DollShieldAFrankensteinRegular",
-			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurnEnd","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["SleepImmunityHidden", "BlockDeathForFrankensteinRegularBoss"]
+				"selfBuffs": ["SleepImmunityHidden", "BlockDeathForFrankensteinRegularBoss","DisableFallBackImmunity"]
 			},{
 				"allyBuffs": ["SleepImmunityRemoveOnSourceDeathBoss"],
 				"spreadCondition": "IsFrankensteinRegularDollBoss"
@@ -51068,7 +51076,7 @@
 				"sourceBuffs": ["RemoveStunImmunityBoss"],
 				"activeMonsterConditions": "AlwaysTrue",
 				"spreadCondition": "NoFrankensteinRegularDollBossAllyOnBattlefield"
-			}],
+			},{}],
 			"duration": -1,
 			"iconSpriteName": "IconWhiteFightSwordMinion01",
 			"showAsTimer": true,
@@ -51153,16 +51161,16 @@
 		"BuffAFrankensteinRegularDollBoss": {
 			"class": "Buff",
 			"stackName": "AloneBuffAFrankensteinRegularDollBoss",
-			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle"],
+			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunityHidden"]
+				"selfBuffs": ["StunImmunityHidden","DisableFallBackImmunity"]
 			},{
 				"allyBuffs": ["StunImmunityRemoveOnSourceDeathBoss"],
 				"spreadCondition": "IsFrankensteinRegularBoss"
 			},{
 				"allyBuffs": ["StunImmunityRemoveOnSourceDeathBoss"],
 				"spreadCondition": "IsFrankensteinRegularBoss"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": true,
 			"duration": -1,
@@ -51636,9 +51644,9 @@
 		"DollShieldAFrankensteinRegular": {
 			"class": "Buff",
 			"stackName": "DollShieldAFrankensteinRegular",
-			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurnEnd","BuffOnMonsterTurn", "BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurnEnd","BuffOnMonsterTurn", "BuffOnMonsterTurn","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["SleepImmunityHidden"]
+				"selfBuffs": ["SleepImmunityHidden","DisableFallBackImmunity"]
 			},{
 				"allyBuffs": ["SleepImmunityRemoveOnSourceDeath"],
 				"spreadCondition": "IsFrankensteinRegularDoll"
@@ -51657,7 +51665,7 @@
 				"activeMonsterConditions": "FrankensteinRegularDollAllyOnBattlefield",
 				"sameTeam": true,
 				"selfBuffs": ["BlockDeathForFrankensteinRegular","HealSacDollForFrankensteinRegular"]
-			}],
+			},{}],
 			"duration": -1,
 			"iconSpriteName": "IconWhiteFightSwordMinion01",
 			"showAsTimer": true,
@@ -51783,9 +51791,9 @@
 		"AloneBuffAFrankensteinRegularDoll": {
 			"class": "Buff",
 			"stackName": "AloneBuffAFrankensteinRegularDoll",
-			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle", "BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","OthersEnterBattle", "BuffOnMonsterTurnEnd","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunityHidden","AttackUpDamageReduceHasteUp50PercentFrankensteinRegular"]
+				"selfBuffs": ["StunImmunityHidden","AttackUpDamageReduceHasteUp50PercentFrankensteinRegular","DisableFallBackImmunity"]
 			},{
 				"allyBuffs": ["StunImmunityRemoveOnSourceDeath"],
 				"spreadCondition": "IsFrankensteinRegular"
@@ -51796,7 +51804,7 @@
 				"sourceBuffs": ["RemoveSleepImmunity"],
 				"spreadCondition": "NoFrankensteinRegularAllyOnBattlefield",
 				"activeMonsterConditions": "AlwaysTrue"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": true,
 			"duration": -1,
@@ -53779,9 +53787,9 @@
 		"LongFightANapoleonRegular": {
 			"class": "Buff",
 			"stackName": "LongFightANapoleonRegular",
-			"behaviors": ["EnterBattleBuff", "StatOnly","StatOnly","StatOnly", "BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff", "StatOnly","StatOnly","StatOnly", "BuffOnMonsterTurn","SleepImmunityIf1WaterEnemyFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["KnockbackImmunity", "SleepImmunityIfWaterEnemy"]
+				"sourceBuffs": ["KnockbackImmunity", "SleepImmunityIfWaterEnemy","DisableFallBackImmunity"]
 			},{
 				"conditions": "Has3ChargesNotAccelerated",
 				"flatStatBonuses": {
@@ -53801,7 +53809,7 @@
 				"selfBuffs": ["NapoleonActing","FudgeUsed"],
 				"randomAllyBuffs": ["PurifySelfIfNapoleonKills"],
 				"numRandomToBuff": 4
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"tags": ["PassiveHaste"],
@@ -54005,9 +54013,9 @@
 		},
 		"StrongQueenACleopatraDark": {
 			"class": "Buff",
-			"behaviors": ["EnterBattleBuff", "BuffOnMonsterTurn","ModifyDamage"],
+			"behaviors": ["EnterBattleBuff", "BuffOnMonsterTurn","ModifyDamage","StunImmunityIfNotBurningFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunityIfNotBurning","HoldGroundHidden", "CleopatraDarkTeamBuffsLock"]
+				"sourceBuffs": ["StunImmunityIfNotBurning","HoldGroundHidden", "CleopatraDarkTeamBuffsLock","DisableFallBackImmunity"]
 			},{
 				"enemyBuffs": ["TriggerMegaPoisonCleopatraDark"]
 			},{
@@ -54015,7 +54023,7 @@
 				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
 				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
 				"conditions": "IsNotBurning"
-			}],
+			},{}],
 			"stackName": "StrongQueenACleopatraDark",
 			"duration": -1,
 			"showAsPermanent": false,
@@ -55812,7 +55820,7 @@
 		"SendToRandomReinforcementsIfNotSleepingBoss": {
 			"class": "Buff",
 			"stackName": "KnockRandom",
-			"behaviors": ["SendToReinforcements","RemoveBuffs"],
+			"behaviors": ["SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
 			"behaviorOverrides": [{
 				"randomLocation": true
 			},{
@@ -56421,7 +56429,7 @@
 		"SendToRandomReinforcementsIfNotSleeping": {
 			"class": "Buff",
 			"stackName": "KnockRandom",
-			"behaviors": ["SendToReinforcements","RemoveBuffs"],
+			"behaviors": ["SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
 			"behaviorOverrides": [{
 				"randomLocation": true
 			},{
@@ -56849,7 +56857,7 @@
 		"TimeBreakerPassiveARoundTableKnightDarkBoss": {
 			"class": "Buff",
 			"stackName": "TimeBreakerPassiveARoundTableKnightDarkBoss",
-			"behaviors": ["BuffChanceOnHit","BuffChanceOnHit","EnterBattleBuff"],
+			"behaviors": ["BuffChanceOnHit","BuffChanceOnHit","EnterBattleBuff","SleepImmunityIf1WaterEnemyFallback"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
 				"chance": 1.0,
@@ -56859,8 +56867,8 @@
 				"targetCondition": "NotHitAlreadyRoundTableKnightDarkBoss",
 				"contextBuffs": ["HitExtraTurnRoundTableKnightDarkBoss"]
 			},{
-				"sourceBuffs": ["HoldGroundBoss","SleepImmunityIfWaterEnemy"]
-			}],
+				"sourceBuffs": ["HoldGroundBoss","SleepImmunityIfWaterEnemy","DisableFallBackImmunity"]
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -57237,7 +57245,7 @@
 		"TimeBreakerPassiveARoundTableKnightDark": {
 			"class": "Buff",
 			"stackName": "TimeBreakerPassiveARoundTableKnightDark",
-			"behaviors": ["BuffChanceOnHit","BuffChanceOnHit","EnterBattleBuff","BuffOnMonsterTurn"],
+			"behaviors": ["BuffChanceOnHit","BuffChanceOnHit","EnterBattleBuff","BuffOnMonsterTurn","SleepImmunityIf1WaterEnemyFallback"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
 				"chance": 1.0,
@@ -57247,12 +57255,12 @@
 				"targetCondition": "NotHitAlreadyRoundTableKnightDark",
 				"contextBuffs": ["HitExtraTurnRoundTableKnightDark"]
 			},{
-				"sourceBuffs": ["HoldGround","SleepImmunityIfWaterEnemy"]
+				"sourceBuffs": ["HoldGround","SleepImmunityIfWaterEnemy","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["20PercentHealMaxHP"],
 				"sameTeam": false,
 				"activeMonsterConditions": "IsPoisoned"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -57480,11 +57488,11 @@
 		"BurningPassiveALuciferRegular":{
 			"class": "Buff",
 			"stackName": "HoldGroundIfBurningForBurn",
-			"behaviors": ["BlockDeath","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffWhenMonsterHurt"],
+			"behaviors": ["BlockDeath","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffWhenMonsterHurt","StunImmunityFallback"],
 			"behaviorOverrides": [{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
-				"sourceBuffs": ["AvoidAttacksIfBurningHideText","BlockDeathOnceBurnNoTrigger", "StunImmunity"]
+				"sourceBuffs": ["AvoidAttacksIfBurningHideText","BlockDeathOnceBurnNoTrigger", "StunImmunity","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["AvoidAttacksIfBurningHideText"],
 				"activeMonsterConditions": "AlwaysTrue",
@@ -57497,7 +57505,7 @@
 				"selfBuffs": ["30PercentHealMaxHPEndOfTurn"],
 				"cancelFromDamageTypes": ["BuffDamage"],
 				"spreadCondition": "IsBurning"
-			}],
+			},{}],
 			"duration": -1,
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -58805,9 +58813,9 @@
 		},
 		"DeusExBarrierPassiveAMurasakiRegular": {
 			"class": "Buff",
-			"behaviors": ["EnterBattleBuff", "OthersEnterBattle","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff", "OthersEnterBattle","BuffOnMonsterTurn","StunImmunityIfNotBurningFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunityIfNotBurningHidden","SourceBoundBarrierForSelf","BarrierStackName"],
+				"sourceBuffs": ["StunImmunityIfNotBurningHidden","SourceBoundBarrierForSelf","BarrierStackName","DisableFallBackImmunity"],
 				"allyBuffs": ["SourceBoundBarrierMurasaki"]
 			},{
 				"contextBuffs": ["SourceBoundBarrierMurasaki"],
@@ -58816,7 +58824,7 @@
 				"allyBuffs": ["TriggerMegaPoisonWhenHit"],
 				"selfBuffs": ["TriggerMegaPoisonWhenHit"],
 				"activeMonsterConditions": "AlwaysTrue"
-			}],
+			},{}],
 			"stackName": "DeusExBarrierPassiveAMurasakiRegular",
 			"tags": ["Barrier"],
 			"duration": -1,
@@ -60797,9 +60805,9 @@
 		"BloodSpeedPassiveAKojiroRegular": {
 			"class": "Buff",
 			"stackName": "BloodSpeedPassiveAKojiroRegular",
-			"behaviors": ["EnterBattleBuff", "StatOnly","StatOnly","StatOnly","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff", "StatOnly","StatOnly","StatOnly","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["KnockbackImmunity","StunImmunityIf0Kills"]
+				"sourceBuffs": ["KnockbackImmunity","StunImmunityIf0Kills","DisableFallBackImmunity"]
 			},{
 				"conditions": "Kills1",
 				"flatStatBonuses": {
@@ -60822,7 +60830,7 @@
 				"selfBuffs": ["Overwatch300TU","BrideHeal30PercentAndCounterStanceKojiro"],
 				"activeMonsterConditions": "NotAlwaysMyTurn",
 				"spreadCondition": "BrideHealReady"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
@@ -61482,11 +61490,11 @@
 		"FireFocusPassiveADragonGirlRegularBoss":{
 			"class": "Buff",
 			"stackName": "FireFocusPassiveADragonGirlRegularBoss",
-			"behaviors": ["BlockDeath","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffWhenMonstersDie","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle"],
+			"behaviors": ["BlockDeath","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffWhenMonstersDie","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","StunImmunityFallback"],
 			"behaviorOverrides":[{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
-				"sourceBuffs": ["StunImmunity","HoldGroundIfBurningHideText"]
+				"sourceBuffs": ["StunImmunity","HoldGroundIfBurningHideText","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["Add1SuperFireMinionToEndBoss"],
 				"sameTeam": false,
@@ -61524,7 +61532,7 @@
 			},{
 				"sameTeam": true,
 				"contextBuffs": ["RemoveFireTokenEntryMarkDragonGirlRegularBoss"]
-			}],
+			},{}],
 			"duration": -1,
 			"tags": ["GoodToBurn"],
 			"isHiddenFromPlayers": true
@@ -62252,11 +62260,11 @@
 		"DevilImmunityASatanRegular":{
 			"class": "Buff",
 			"stackName": "DevilImmunityASatanRegular",
-			"behaviors": ["BlockDeath","EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviors": ["BlockDeath","EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides":[{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
-				"sourceBuffs": ["AttackScalor50PlusIfAllUnitsInBattleBurnBlastOrForceOrFire","InstantKillImmunityOnce","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","KnockbackImmunity","StunImmunity","Charged1IconShowInStatus","Charged2IconShowInStatus","Charged3IconShowInStatus"]
+				"sourceBuffs": ["AttackScalor50PlusIfAllUnitsInBattleBurnBlastOrForceOrFire","InstantKillImmunityOnce","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","KnockbackImmunity","StunImmunity","Charged1IconShowInStatus","Charged2IconShowInStatus","Charged3IconShowInStatus","DisableFallBackImmunity"]
 			},{
 				"enemyBuffs": ["OnHitRemoveGiveTurnASatanRegularLock"],
 				"sourceBuffs": ["MarkedSatanRegular"]
@@ -62266,7 +62274,7 @@
 				"allyBuffs": ["AttackPlus50Percent1TurnOnly"],
 				"sameTeam": true,
 				"deadMonsterConditions": "IsFireNotTransformingOrMirage"
-			}],
+			},{}],
 			"duration": -1,
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -62577,11 +62585,11 @@
 		"FireFocusPassiveADragonGirlRegular":{
 			"class": "Buff",
 			"stackName": "FireFocusPassiveADragonGirlRegular",
-			"behaviors": ["BlockDeath","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffWhenMonstersDie","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle"],
+			"behaviors": ["BlockDeath","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffWhenMonstersDie","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","StunImmunityFallback"],
 			"behaviorOverrides":[{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
-				"sourceBuffs": ["StunImmunity","HoldGroundIfBurningHideText"]
+				"sourceBuffs": ["StunImmunity","HoldGroundIfBurningHideText","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["Add1SuperFireMinionToEnd"],
 				"sameTeam": false,
@@ -62619,7 +62627,7 @@
 			},{
 				"sameTeam": true,
 				"contextBuffs": ["RemoveFireTokenEntryMarkDragonGirlRegular"]
-			}],
+			},{}],
 			"duration": -1,
 			"tags": ["GoodToBurn"],
 			"isHiddenFromPlayers": true
@@ -65684,14 +65692,14 @@
 		"KirinEnlightenmentAKirinGirlRegular": {
 			"class": "Buff",
 			"stackName": "KirinEnlightenmentAKirinGirlRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","SleepImmunityIf1WaterEnemyFallback","StunImmunityIf2AirAlliesFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunityIf2AirAllies","HoldGround","50DamageReductionIfHPAbove50PercentOrEnemyCurrentTUGreaterThan100","SleepImmunityIfWaterEnemy"]
+				"sourceBuffs": ["StunImmunityIf2AirAllies","HoldGround","50DamageReductionIfHPAbove50PercentOrEnemyCurrentTUGreaterThan100","SleepImmunityIfWaterEnemy","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["30PercentHealMaxHP"],
 				"sameTeam": true,
 				"activeMonsterConditions": "AlwaysTrue"
-			}],
+			},{},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -65925,7 +65933,7 @@
 				"selfBuffs": ["KnockbackImmunity","HoldGroundOnceForHoldGroundPlusBoss","BlockDeathUntilNextTurnForHoldGroundPlusBoss"]
 			},{
 				"selfBuffs": ["ProtecterALudmillaDarkNewBoss"],
-				"spreadCondition": "NotProtected"
+				"spreadCondition": "NotProtectedAndNoOtherAllyGuardianOnEntry"
 			},{
 				"sourceBuffs": ["DamageReductionLudmillaDarkNewBoss"]
 			}],
@@ -66018,9 +66026,10 @@
 		"DarkModeLudmillaDarkNewBoss": {
 			"class": "Buff",
 			"stackName": "DarkModeLudmillaDarkNew",
-			"behaviors": ["EnterBattleBuff"],
+			"behaviors": ["EnterBattleBuff","StunImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunityFor100TU","SleepImmunityFor100TU","AttackUpDamage50PercentFor100TU","LudmillaDarkNewChaosModeStatusEffectBoss"]
+				"selfBuffs": ["StunImmunityFor100TU","SleepImmunityFor100TU","AttackUpDamage50PercentFor100TU","LudmillaDarkNewChaosModeStatusEffectBoss","DisableFallBackImmunity"]
+			},{},{
 			}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
@@ -66402,9 +66411,9 @@
 		"EvasionPassiveAYandereMaidDarkBoss": {
 			"class": "Buff",
 			"stackName": "EvasionPassiveAYandereMaidDark",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BurnImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["BlockDeathByBuffDamage","YandereMaidDark100TUEnterBattleStanceBoss","BurnImmunityFor100TU"]
+				"sourceBuffs": ["BlockDeathByBuffDamage","YandereMaidDark100TUEnterBattleStanceBoss","BurnImmunityFor100TU","DisableFallBackImmunity"]
 			},{
 				"sameTeam": false,
 				"sourceBuffs": ["YandereMaidDarkNoPoisonedEnemiesTriggerBoss"],
@@ -66415,7 +66424,7 @@
 				"sameTeam": false,
 				"activeMonsterConditions": "AlwaysTrue",
 				"spreadCondition": "YMDNoPoisonedEnemiesMark"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -66552,12 +66561,15 @@
 		"GuardPassiveALudmillaDarkNew": {
 			"class": "Buff",
 			"stackName": "GuardPassiveALudmillaDarkNew",
-			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonstersDie","EnterBattleBuff"],
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonstersDie","EnterBattleBuff"],
 			"behaviorOverrides": [{
 				"selfBuffs": ["KnockbackImmunity","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus","StunImmunityIfHoldGroundPlusTriggeredWaitingForTurn"]
 			},{
-				"selfBuffs": ["ProtecterALudmillaDarkNew"],
-				"spreadCondition": "NotProtected"
+				"selfBuffs": ["ProtecterALudmillaDarkNewStartOnBattlefield"],
+				"spreadCondition": "NotBattleTimeOver1OrNoDeadMonsters"
+			},{
+				"selfBuffs": ["ProtecterALudmillaDarkNewFromReinforcements"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
 			},{
 				"selfBuffs": ["HealHalf"],
 				"sameTeam": false,
@@ -66718,12 +66730,51 @@
 			"duration": -1,
 			"iconSpriteName": "IconBlueDefenseShield01"
 		},
+		"ProtecterALudmillaDarkNewStartOnBattlefield":{
+			"class": "Buff",
+			"stackName": "TimedProtector",
+			"behaviors": ["ManipulateTargeting","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"redirectToMe": true,
+				"redirectAlways": true,
+				"chanceToBlock": 1.0,
+				"consumeRedirectCountEvenOnSelf": true,
+				"failOnAllSkills": true,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage"]
+			},{},{
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"iconSpriteName": "IconBlueDefenseShield01",
+			"applyConditions": "NotProtectedAndNoOtherAllyGuardianOnEntry"
+		},
+		"ProtecterALudmillaDarkNewFromReinforcements":{
+			"class": "Buff",
+			"stackName": "TimedProtector",
+			"behaviors": ["ManipulateTargeting","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"redirectToMe": true,
+				"redirectAlways": true,
+				"chanceToBlock": 1.0,
+				"consumeRedirectCountEvenOnSelf": true,
+				"failOnAllSkills": true,
+				"abilityFlagsToIgnore": ["Stun", "NoDamage"]
+			},{},{
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"iconSpriteName": "IconBlueDefenseShield01",
+			"applyConditions": "NotProtected"
+		},
 		"DarkModeLudmillaDarkNew": {
 			"class": "Buff",
 			"stackName": "DarkModeLudmillaDarkNew",
-			"behaviors": ["EnterBattleBuff"],
+			"behaviors": ["EnterBattleBuff","StunImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunityFor100TU","SleepImmunityFor100TU","AttackUpDamage50PercentFor100TU","LudmillaDarkNewChaosModeStatusEffect"]
+				"selfBuffs": ["StunImmunityFor100TU","SleepImmunityFor100TU","AttackUpDamage50PercentFor100TU","LudmillaDarkNewChaosModeStatusEffect","DisableFallBackImmunity"]
+			},{},{
 			}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
@@ -67219,9 +67270,9 @@
 		"EvasionPassiveAYandereMaidDark": {
 			"class": "Buff",
 			"stackName": "EvasionPassiveAYandereMaidDark",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BurnImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["BlockDeathByBuffDamage","YandereMaidDark200TUEnterBattleStance","BurnImmunityFor200TU"]
+				"sourceBuffs": ["BlockDeathByBuffDamage","YandereMaidDark200TUEnterBattleStance","BurnImmunityFor200TU","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["10PercentHealMaxHP"],
 				"sameTeam": true,
@@ -67241,7 +67292,7 @@
 				"sameTeam": false,
 				"activeMonsterConditions": "AlwaysTrue",
 				"spreadCondition": "YMDNoPoisonedEnemiesMark"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -67452,13 +67503,13 @@
 		"VictoryChantPassiveANikeRegularBoss": {
 			"class": "Buff",
 			"stackName": "VictoryChantPassiveANikeRegular",
-			"behaviors": ["EnterBattleBuff", "EnterBattleBuff"],
+			"behaviors": ["EnterBattleBuff", "EnterBattleBuff","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["SleepImmunity","200TUWhenAllyGetsTurnNikeRegularBoss"]
+				"sourceBuffs": ["SleepImmunity","200TUWhenAllyGetsTurnNikeRegularBoss","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["PowerCharge"],
 				"spreadCondition": "AllAlliesAtMaxHP"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -67510,9 +67561,9 @@
 		"PrimordialPassiveAChronosRegularBoss": {
 			"class": "Buff",
 			"stackName": "PrimordialPassiveAChronosRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","StunImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-					"selfBuffs": ["StunImmunity","SleepImmunity","KnockbackImmunity"]
+					"selfBuffs": ["StunImmunity","SleepImmunity","KnockbackImmunity","DisableFallBackImmunity"]
 				},{
 					"randomEnemyBuffs": ["Stun25CannotBeAbsorbedWithChronosFX"],
 					"randomAllyBuffs": ["TUMinus25WithChronosFX"],
@@ -67520,6 +67571,7 @@
 					"activeMonsterConditions": "25PercentChanceNOTTimeStopRUNNING"
 				},{
 					"enemyBuffs": ["TriggerStunEnemy300ChronosRegularBoss"]
+				},{},{
 				}],
 			"duration": -1,
 			"showAsTimer": false
@@ -68165,9 +68217,9 @@
 		"VictoryChantPassiveANikeRegular": {
 			"class": "Buff",
 			"stackName": "VictoryChantPassiveANikeRegular",
-			"behaviors": ["EnterBattleBuff", "EnterBattleBuff", "EnterBattleBuff"],
+			"behaviors": ["EnterBattleBuff", "EnterBattleBuff", "EnterBattleBuff","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["SleepImmunity","200TUWhenAllyGetsTurnNikeRegular4Awakenings","200TUWhenAllyGetsTurnNikeRegular3Awakenings","200TUWhenAllyGetsTurnNikeRegular2Awakenings","200TUWhenAllyGetsTurnNikeRegular1Awakening","200TUWhenAllyGetsTurnNikeRegularNOAwakenings"]
+				"sourceBuffs": ["SleepImmunity","200TUWhenAllyGetsTurnNikeRegular4Awakenings","200TUWhenAllyGetsTurnNikeRegular3Awakenings","200TUWhenAllyGetsTurnNikeRegular2Awakenings","200TUWhenAllyGetsTurnNikeRegular1Awakening","200TUWhenAllyGetsTurnNikeRegularNOAwakenings","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["PowerCharge", "AttackPlus50Percent3TurnsOnly"],
 				"spreadCondition": "AllAlliesAtMaxHP"
@@ -68175,7 +68227,7 @@
 				"selfBuffs": ["StunImmunityOnce50PercentChance","SleepImmunityOnce50PercentChance","PoisonImmunityOnce50PercentChance"],
 				"allyBuffs": ["StunImmunityOnce50PercentChance","SleepImmunityOnce50PercentChance","PoisonImmunityOnce50PercentChance","AllAlliesFullHealAndArePurifiedMechaSisterNewEBB"],
 				"spreadCondition": "Atleast1AllyBelowMaxHP"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -68545,9 +68597,9 @@
 		"PrimordialPassiveAChronosRegular": {
 			"class": "Buff",
 			"stackName": "PrimordialPassiveAChronosRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","StunImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-					"selfBuffs": ["StunImmunity","SleepImmunity","KnockbackImmunity"]
+					"selfBuffs": ["StunImmunity","SleepImmunity","KnockbackImmunity","DisableFallBackImmunity"]
 				},{
 					"randomEnemyBuffs": ["Stun25CannotBeAbsorbedWithChronosFX"],
 					"randomAllyBuffs": ["TUMinus25WithChronosFX"],
@@ -68555,6 +68607,7 @@
 					"activeMonsterConditions": "25PercentChanceNOTTimeStopRUNNING"
 				},{
 					"enemyBuffs": ["TriggerStunEnemy300ChronosRegular"]
+				},{},{
 				}],
 			"duration": -1,
 			"showAsTimer": false
@@ -69199,9 +69252,9 @@
 		"SchoolFriendsPassiveARizKouhaiBoss": {
 			"class": "Buff",
 			"stackName": "SchoolFriendsPassiveARizKouhai",
-			"behaviors": ["EnterBattleBuff","BlockDeath","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","BlockDeath","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunity", "KnockbackImmunity","BlockDeathIf3AlliesBurningBoss"]
+				"sourceBuffs": ["StunImmunity", "KnockbackImmunity","BlockDeathIf3AlliesBurningBoss","DisableFallBackImmunity"]
 			},{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
@@ -69216,7 +69269,7 @@
 			},{
 				"sourceBuffs": ["RemoveLockRizKouhaiRegularBoss"],
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
@@ -69354,9 +69407,9 @@
 		"BurnArmorAKongmingRegularBoss": {
 			"class": "Buff",
 			"stackName": "BurnArmorAKongmingRegular",
-			"behaviors": ["EnterBattleBuff","BlockDeath","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BlockDeath","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunity","HealingBurn","3LevelsOfDamageReductionForBurningUnitsOnBattlefieldBoss","Charged1Icon","Charged2Icon","Charged3Icon"]
+				"sourceBuffs": ["StunImmunity","HealingBurn","3LevelsOfDamageReductionForBurningUnitsOnBattlefieldBoss","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"]
 			},{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
@@ -69371,7 +69424,7 @@
 				"selfBuffs": ["IsBurningMarked"],
 				"enemyBuffs": ["IsBurningMarked"],
 				"spreadCondition": "IsBurning"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
@@ -69722,9 +69775,9 @@
 		"SchoolFriendsPassiveARizKouhai": {
 			"class": "Buff",
 			"stackName": "SchoolFriendsPassiveARizKouhai",
-			"behaviors": ["EnterBattleBuff","BlockDeath","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","BlockDeath","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunity", "KnockbackImmunity","BlockDeathIf3AlliesBurning"]
+				"sourceBuffs": ["StunImmunity", "KnockbackImmunity","BlockDeathIf3AlliesBurning","DisableFallBackImmunity"]
 			},{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
@@ -69739,7 +69792,7 @@
 			},{
 				"sourceBuffs": ["RemoveLockRizKouhaiRegular"],
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
@@ -69941,9 +69994,9 @@
 		"BurnArmorAKongmingRegular": {
 			"class": "Buff",
 			"stackName": "BurnArmorAKongmingRegular",
-			"behaviors": ["EnterBattleBuff","BlockDeath","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BlockDeath","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunity","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","4LevelsOfDamageReductionIfOneOrMoreAlliesAreBurning","Charged1Icon","Charged2Icon","Charged3Icon"]
+				"sourceBuffs": ["StunImmunity","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","4LevelsOfDamageReductionIfOneOrMoreAlliesAreBurning","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"]
 			},{
 				"blockDeathFromDamageFlags": ["Burn"]
 			},{
@@ -69958,7 +70011,7 @@
 				"selfBuffs": ["IsBurningMarked"],
 				"enemyBuffs": ["IsBurningMarked"],
 				"spreadCondition": "IsBurning"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
@@ -70300,9 +70353,9 @@
 		},
 		"GrowingNosePassiveAPinocchioRegular": {
 			"class": "Buff",
-			"behaviors": ["EnterBattleBuff","OthersEnterBattle","OthersEnterBattle","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","OthersEnterBattle","OthersEnterBattle","BuffWhenMonstersDie","PoisonImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["PoisonImmunity","Stun50TUMinus"]
+				"sourceBuffs": ["PoisonImmunity","Stun50TUMinus","DisableFallBackImmunity"]
 			},{
 				"sameTeam": false,
 				"chance": 1.0,
@@ -70317,7 +70370,7 @@
 				"sourceBuffs": ["RemovePinocchioRegularLock"],
 				"sameTeam": false,
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
-			}],
+			},{}],
 			"stackName": "GrowingNosePassiveAPinocchioRegular",
 			"duration": -1,
 			"isHiddenFromPlayers": true,
@@ -70460,9 +70513,9 @@
 		"StormAllyPassiveAMasamuneRegularBoss": {
 			"class": "Buff",
 			"stackName": "StormAllyPassiveAMasamuneRegular",
-			"behaviors": ["EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurn","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunSkinBoss1","StunImmunity","KnockbackImmunity","MasamuneRegularLockBoss"],
+				"sourceBuffs": ["StunSkinBoss1","StunImmunity","KnockbackImmunity","MasamuneRegularLockBoss","DisableFallBackImmunity"],
 				"enemyBuffs": ["StaticDischargeCounter","StaticDischargeCounter","StaticDischargeCounter", "StaticCounter1IconShowInStatus", "StaticCounter2IconShowInStatus", "StaticCounter3IconShowInStatus"]
 			},{
 				"sameTeam": false,
@@ -70476,7 +70529,7 @@
 				"selfBuffs": ["RemoveMasamuneRegularLockBoss"],
 				"sameTeam": true,
 				"deadMonsterConditions": "NotTransformingOrMirage"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -70606,12 +70659,12 @@
 		"EarthRootPassiveARyomaRegularBoss": {
 			"class": "Buff",
 			"stackName": "EarthRootPassiveARyomaRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","StunImmunityIfNotBurningFallback"],
 				"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunityIfNotBurning","SleepThorns"]
+				"sourceBuffs": ["StunImmunityIfNotBurning","SleepThorns","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["Active4ReadyRyomaRegularBoss"]
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"duration": -1
@@ -70845,9 +70898,9 @@
 		"StormAllyPassiveAMasamuneRegular": {
 			"class": "Buff",
 			"stackName": "StormAllyPassiveAMasamuneRegular",
-			"behaviors": ["EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurn","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunSkinBoss1","StunImmunity","KnockbackImmunity","MasamuneRegularLock","MasamuneActive1Helper"],
+				"sourceBuffs": ["StunSkinBoss1","StunImmunity","KnockbackImmunity","MasamuneRegularLock","MasamuneActive1Helper","DisableFallBackImmunity"],
 				"enemyBuffs": ["StaticDischargeCounter","StaticDischargeCounter","StaticDischargeCounter", "StaticCounter1IconShowInStatus", "StaticCounter2IconShowInStatus", "StaticCounter3IconShowInStatus"]
 			},{
 				"sameTeam": false,
@@ -70861,7 +70914,7 @@
 				"selfBuffs": ["RemoveMasamuneRegularLock"],
 				"sameTeam": true,
 				"deadMonsterConditions": "NotTransformingOrMirage"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -71069,9 +71122,9 @@
 		"EarthRootPassiveARyomaRegular": {
 			"class": "Buff",
 			"stackName": "EarthRootPassiveARyomaRegular",
-			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","StunImmunityIfNotBurningFallback"],
 				"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunityIfNotBurning","IfThornedHealWhenHurt100PercentMaxHP","SleepThorns"]
+				"sourceBuffs": ["StunImmunityIfNotBurning","IfThornedHealWhenHurt100PercentMaxHP","SleepThorns","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["HealFull"],
 				"chance": 1.0,
@@ -71091,7 +71144,7 @@
 			},{
 				"selfBuffs": ["Level5Active4ReadyRyomaRegular"],
 				"spreadCondition": "Has4Awakenings"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"duration": -1
@@ -71322,10 +71375,10 @@
 		},
 		"OutToSeaPassiveAPerryRegular": {
 			"class": "Buff",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","BurnImmunityFallback"],
 			"behaviorOverrides": [{
 				"sourceBuffs": ["BurnImmunitywithStackName","40DamageReductionPlusIncreaseForSleepingAndBurningEnemies","Level1IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies",
-					"Level2IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies","Level3IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies","Level4IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies","Level5IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies"]
+					"Level2IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies","Level3IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies","Level4IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies","Level5IfHurtGrantSourceTurnIf2SleepingOrBurningEnemies","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["1EnemyIsSleepingBuff","Active2ExtraTurnLockPerryRegular"],
 				"spreadCondition": "EnemyTeamSleeping"
@@ -71346,7 +71399,7 @@
 			},{
 				"enemyBuffs": ["YouAreSleepingAtStartOfTurnBuff"],
 				"spreadCondition": "IsSleeping"
-			}],
+			},{}],
 			"stackName": "OutToSeaPassiveAPerryRegular",
 			"duration": -1,
 			"showAsPermanent": false,
@@ -71809,12 +71862,12 @@
 		"PlanAPassiveAElminaModernBoss": {
 			"class": "Buff",
 			"stackName": "PlanAPassiveAElminaModern",
-			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["HoldGroundBoss","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon"],
+				"sourceBuffs": ["HoldGroundBoss","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"],
 				"spreadCondition": "IsNotSummoned"
 			},{
-				"sourceBuffs": ["BlockDeathOnce","ElminaModernCloneIdleStatusEffect","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon"],
+				"sourceBuffs": ["BlockDeathOnce","ElminaModernCloneIdleStatusEffect","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"],
 				"spreadCondition": "IsSummoned"
 			},{
 				"sourceBuffs": ["Add1BossElminaModernCloneToFront"],
@@ -71834,7 +71887,7 @@
 				"sourceBuffs": ["FudgeUsedAlt"],
 				"sameTeam": false,
 				"spreadCondition": "KillsMoreThanSkillUsedAlt"	
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
@@ -72056,9 +72109,9 @@
 		"PoisonFruitPassiveAPeachGirlRegularBoss": {
 			"class": "Buff",
 			"stackName": "PoisonFruitPassiveAPeachGirlRegular",
-			"behaviors": ["EnterBattleBuff","ModifyDamage","ModifyDamage","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","ModifyDamage","ModifyDamage","BuffOnMonsterTurn","BuffOnMonsterTurn","BurnImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["BurnImmunitywithStackName","KnockbackImmunity"]
+				"selfBuffs": ["BurnImmunitywithStackName","KnockbackImmunity","DisableFallBackImmunity"]
 			},{
 				"percent": 0.70,
 				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
@@ -72076,7 +72129,7 @@
 			},{
 				"sourceBuffs": ["FirstTimeHurtByAttackAndNotBlockedGrantSourceTurnBoss"],
 				"activeMonsterConditions": "AlwaysTrue"
-			}],
+			},{}],
 			"duration": -1,
 			"showAsPermanent": false,
 			"showAsTimer": true,
@@ -72465,12 +72518,12 @@
 		"PlanAPassiveAElminaModern": {
 			"class": "Buff",
 			"stackName": "PlanAPassiveAElminaModern",
-			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["HoldGround","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon"],
+				"sourceBuffs": ["HoldGround","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"],
 				"spreadCondition": "IsNotSummoned"
 			},{
-				"sourceBuffs": ["BlockDeathOnce","ElminaModernCloneIdleStatusEffect","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon"],
+				"sourceBuffs": ["BlockDeathOnce","ElminaModernCloneIdleStatusEffect","StunImmunity","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"],
 				"spreadCondition": "IsSummoned"
 			},{
 				"sourceBuffs": ["Add1ElminaModernCloneToFront"],
@@ -72493,7 +72546,7 @@
 				"sourceBuffs": ["FudgeUsedAlt"],
 				"sameTeam": false,
 				"spreadCondition": "KillsMoreThanSkillUsedAlt"	
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
@@ -72751,9 +72804,9 @@
 		"SleepyPassiveAPeachGirlRegular": {
 			"class": "Buff",
 			"stackName": "SleepyPassiveAPeachGirlRegular",
-			"behaviors": ["EnterBattleBuff","ModifyDamage","ModifyDamage","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","ModifyDamage","ModifyDamage","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BurnImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["BurnImmunitywithStackName","KnockbackImmunity"]
+				"selfBuffs": ["BurnImmunitywithStackName","KnockbackImmunity","DisableFallBackImmunity"]
 			},{
 				"percent": 0.70,
 				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
@@ -72778,7 +72831,7 @@
 			},{
 				"enemyBuffs": ["MarkedDoNotBeKnockedBackByPeachGirlRegular"],
 				"activeMonsterConditions": "IsPeachGirlRegularCounter3"
-			}],
+			},{}],
 			"duration": -1,
 			"showAsPermanent": false,
 			"showAsTimer": true,
@@ -72839,9 +72892,9 @@
 		"PinkHairPassiveAPeachGirlRegular": {
 			"class": "Buff",
 			"stackName": "PinkHairPassiveAPeachGirlRegular",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","StunImmunityIfEnemyIsFireOrBurnBlastOrBurnForceFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunityIfEnemyIsFireOrBurnBlastOrBurnForce","BlockDeathPurifyAndHealBuff150TUPeachGirlRegular"]
+				"selfBuffs": ["StunImmunityIfEnemyIsFireOrBurnBlastOrBurnForce","BlockDeathPurifyAndHealBuff150TUPeachGirlRegular","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["NextEnemyGetsColdSleepFor100TU"],
 				"sameTeam": false,
@@ -72862,7 +72915,7 @@
 				"randomAllyBuffs": ["TUMinus50"],
 				"numRandomToBuff": 1,
 				"deadMonsterConditions": "IsImposter"	
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
@@ -73229,9 +73282,9 @@
 		"LoneKnightPassiveADonQuixoteRegularBoss": {
 			"class": "Buff",
 			"stackName": "LoneKnightPassiveADonQuixoteRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","ModifyDamage"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","ModifyDamage","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunityHidden"]
+				"sourceBuffs": ["StunImmunityHidden","DisableFallBackImmunity"]
 			},{
 				"sameTeam": true,
 				"activeMonsterConditions": "AlwaysTrue",
@@ -73247,7 +73300,7 @@
 				"percent": 0.5,
 				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
 				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor", "RemoveStatus"]	
-			}],
+			},{}],
 			"duration": -1,
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -73375,12 +73428,13 @@
 		"ColdWindsPassiveAAnastasiaRegularBoss": {
 			"class": "Buff",
 			"stackName": "ColdWindsPassiveAAnastasiaRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BurnImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["BurnImmunity","SleepImmunity","SuperManUntilThirdTurnAnastasiaRegularBoss"]
+				"sourceBuffs": ["BurnImmunity","SleepImmunity","SuperManUntilThirdTurnAnastasiaRegularBoss","DisableFallBackImmunity"]
 			},{
 				"activeMonsterConditions": "AtLeast1BurningOrFrozenUnitInBattle",
 				"sourceBuffs": ["1PercentHealMaxHPBoss","Gain1SpiritEOT"]
+			},{},{
 				}],
 			"duration": -1,
 			"showAsPermanent": false,
@@ -73782,9 +73836,9 @@
 		"LoneKnightPassiveADonQuixoteRegular": {
 			"class": "Buff",
 			"stackName": "LoneKnightPassiveADonQuixoteRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StunImmunity","DamageReduceBasedOn150TimeInCombat"]
+				"sourceBuffs": ["StunImmunity","DamageReduceBasedOn150TimeInCombat","DisableFallBackImmunity"]
 			},{
 				"sameTeam": true,
 				"activeMonsterConditions": "AlwaysTrue",
@@ -73796,7 +73850,7 @@
 				"selfBuffs": ["GrantRandomBurningAllyTurnAndHeal10PercentForEachBurningAlly"],
 				"activeMonsterConditions": "NotAlwaysMyTurn",
 				"spreadCondition": "BrideHealReady"
-			}],
+			},{}],
 			"duration": -1,
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -73955,9 +74009,9 @@
 		"ColdWindsPassiveAAnastasiaRegular": {
 			"class": "Buff",
 			"stackName": "ColdWindsPassiveAAnastasiaRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","BurnImmunityFallback","PoisonImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["BurnImmunity","PoisonImmunity","SuperManUntilThirdTurnAnastasiaRegular"]
+				"sourceBuffs": ["BurnImmunity","PoisonImmunity","SuperManUntilThirdTurnAnastasiaRegular","DisableFallBackImmunity"]
 			},{
 				"activeMonsterConditions": "AtLeast1SleepingBurningOrFrostbittenInBattle",
 				"sourceBuffs": ["25PercentHealMaxHP","Gain1SpiritEOT","GainExtraTurnIfNotTriggeredAnastasiaEOT"]
@@ -73983,6 +74037,7 @@
 			},{
 				"sameTeam": true,
 				"contextBuffs": ["RemoveWaterOrFireEntryMarkAnastasiaRegular"]	
+			},{},{	
 				}],
 			"duration": -1,
 			"showAsPermanent": false,
@@ -74176,19 +74231,19 @@
 		"BarrierPassiveABahamutGirlRegularBoss": {
 			"class": "Buff",
 			"stackName": "BarrierPassiveABahamutGirlRegular",
-			"behaviors": ["ModifyDamage","EnterBattleBuff","BuffWhenMonstersDie"],
+			"behaviors": ["ModifyDamage","EnterBattleBuff","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
 				"percent": 0.30,
 				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
 				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
 			}, {
-				"sourceBuffs": ["StunImmunity","KnockbackImmunity"]
+				"sourceBuffs": ["StunImmunity","KnockbackImmunity","DisableFallBackImmunity"]
 			},{
 				"sameTeam": true,
 				"selfBuffs": ["Burn","GiveTurn","OnExtraTurn","JustGivenTurn"],
 				"allyBuffs": ["Burn","GiveTurn","OnExtraTurn","JustGivenTurn"],
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
-			}],
+			},{}],
 			"duration": -1,
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -74258,11 +74313,12 @@
 		"IfBurningPassiveAElmKouhaiRegularBoss": {
 			"class": "Buff",
 			"stackName": "IfBurningPassiveAElmKouhaiRegularBoss",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","PoisonImmunityFallback","StunImmunityFallback"],
 				"behaviorOverrides": [{
-				"sourceBuffs": ["BlockDeathFor200TUIfBurning","60PercentDamageReduceFor200TUIfBurning","PoisonImmunity","StunImmunity"]
+				"sourceBuffs": ["BlockDeathFor200TUIfBurning","60PercentDamageReduceFor200TUIfBurning","PoisonImmunity","StunImmunity","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["SacrificeAllAllyImpostersEOT"]
+			},{},{
 			}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
@@ -74423,9 +74479,9 @@
 		"DragonHeartPassiveASiegfriedRegularBoss":{
 			"class": "Buff",
 			"stackName": "DragonHeartPassiveASiegfriedRegularBoss",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BlockDeath"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BlockDeath","PoisonImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["HealingBurn","BurnShieldOnce","ActiveSkillLocked","KnockbackImmunity","Charged1Icon","Charged2Icon","Charged3Icon","50PercentDamageReduction","SleepImmunitywithStackName","PoisonImmunitywithStackName"]
+				"sourceBuffs": ["HealingBurn","BurnShieldOnce","ActiveSkillLocked","KnockbackImmunity","Charged1Icon","Charged2Icon","Charged3Icon","50PercentDamageReduction","SleepImmunitywithStackName","PoisonImmunitywithStackName","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["RemoveActiveSkillLocked","Remove50PercentDamageReduction","RemoveSleepImmunity","RemovePoisonImmunity","FudgeUsed"],
 				"sameTeam": false,
@@ -74437,6 +74493,7 @@
 				"spreadCondition": "KillsMoreThanSkillUsed"
 			},{
 				"blockDeathFromDamageFlags": ["Burn"]	
+			},{},{
 			}],
 			"tags": ["GoodToBurn"],
 			"duration": -1,
@@ -74448,9 +74505,9 @@
 		"FafnirsBanePassiveASiegfriedRegularBoss": {
 			"class": "Buff",
 			"stackName": "FafnirsBanePassiveASiegfriedRegular",
-			"behaviors": ["EnterBattleBuff","StatOnly","StatOnly","StatOnly","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","StatOnly","StatOnly","StatOnly","BuffOnMonsterTurn","StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForceFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["StoreEnergy","BlockDeathOnceBoss","HPRegen1PercentMaxHPEndEveryTurnFor100TU","StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForce"]
+				"sourceBuffs": ["StoreEnergy","BlockDeathOnceBoss","HPRegen1PercentMaxHPEndEveryTurnFor100TU","StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForce","DisableFallBackImmunity"]
 			},{
 				"conditions": "IsCharged1",
 				"flatStatBonuses": {
@@ -74470,7 +74527,7 @@
 				"selfBuffs": ["Give1RandomNonSleepingEnemyFrostburnIfSelfIsNotAloneEOT"],
 				"sameTeam": false,
 				"activeMonsterConditions": "NoFrostbittenAllies"
-				}],
+				},{}],
 			"duration": -1,
 			"showAsPermanent": false,
 			"showAsTimer": false,
@@ -74620,13 +74677,13 @@
 		"BarrierPassiveABahamutGirlRegular": {
 			"class": "Buff",
 			"stackName": "BarrierPassiveABahamutGirlRegular",
-			"behaviors": ["ModifyDamage","EnterBattleBuff","OthersEnterBattle","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviors": ["ModifyDamage","EnterBattleBuff","OthersEnterBattle","BuffWhenMonstersDie","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
 				"percent": 0.65,
 				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
 				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
 			}, {
-				"sourceBuffs": ["StunImmunity","KnockbackImmunity","HeatedBarrierIfBurning"],
+				"sourceBuffs": ["StunImmunity","KnockbackImmunity","HeatedBarrierIfBurning","DisableFallBackImmunity"],
 				"allyBuffs": ["HeatedBarrierIfBurning"]
 			},{
 				"sameTeam": true,
@@ -74642,7 +74699,7 @@
 				"allyBuffs": ["Burn"],
 				"spreadCondition": "IsBurnBlastOrForceOrFire",
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"		
-			}],
+			},{}],
 			"duration": -1,
 			"showAsPermanent": false,
 			"showAsTimer": false,
@@ -74752,9 +74809,9 @@
 		"UnlessBurningPassiveAElmKouhaiRegular": {
 			"class": "Buff",
 			"stackName": "UnlessBurningPassiveAElmKouhaiRegular",
-			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","PoisonImmunityFallback"],
 				"behaviorOverrides": [{
-				"sourceBuffs": ["BlockDeathFor200TUIfNotBurning","60PercentDamageReduceFor200TUIfNotBurning","PoisonImmunity","StunImmunityIfAllyThorned"]
+				"sourceBuffs": ["BlockDeathFor200TUIfNotBurning","60PercentDamageReduceFor200TUIfNotBurning","PoisonImmunity","StunImmunityIfAllyThorned","DisableFallBackImmunity"]
 			},{
 				"allyBuffs": ["SleepThorns"],
 				"sourceBuffs": ["SleepThorns"],
@@ -74767,7 +74824,7 @@
 			},{
 				"selfBuffs": ["1EnemyIsSleepingBuff"],
 				"spreadCondition": "EnemyTeamSleeping"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
@@ -75116,9 +75173,9 @@
 		"DragonHeartPassiveASiegfriedRegular":{
 			"class": "Buff",
 			"stackName": "Burn",
-			"behaviors": ["EnterBattleBuff","Immunity","BuffChanceOnHit","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","Immunity","BuffChanceOnHit","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","SleepImmunityFallback","PoisonImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["ActiveSkillLocked","KnockbackImmunity","Charged1Icon","Charged2Icon","Charged3Icon","50PercentDamageReduction","SleepImmunitywithStackName","PoisonImmunitywithStackName"]
+				"sourceBuffs": ["ActiveSkillLocked","KnockbackImmunity","Charged1Icon","Charged2Icon","Charged3Icon","50PercentDamageReduction","SleepImmunitywithStackName","PoisonImmunitywithStackName","DisableFallBackImmunity"]
 			},{
 				"stackNamesToBlock": ["Burn"],
 				"dontShowText": true
@@ -75139,6 +75196,7 @@
 				"selfBuffs": ["Active4UnlockedASiegfriedRegular"],
 				"sameTeam": true,
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
+			},{},{
 			}],
 			"tags": ["Burn","SilentBurn","BurnImmune"],
 			"duration": -1,
@@ -75150,9 +75208,9 @@
 		"FafnirsBanePassiveASiegfriedRegular": {
 			"class": "Buff",
 			"stackName": "FafnirsBanePassiveASiegfriedRegular",
-			"behaviors": ["EnterBattleBuff","StatOnly","StatOnly","StatOnly","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","StatOnly","StatOnly","StatOnly","BuffOnMonsterTurn","StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForceFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["CountDownActive4SiegfriedRegular","StoreEnergy","BlockDeathOnce","HPRegen10PercentMaxHPEndEveryTurnFor200TU","StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForce"]
+				"sourceBuffs": ["CountDownActive4SiegfriedRegular","StoreEnergy","BlockDeathOnce","HPRegen10PercentMaxHPEndEveryTurnFor200TU","StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForce","DisableFallBackImmunity"]
 			},{
 				"conditions": "IsCharged1",
 				"flatStatBonuses": {
@@ -75172,7 +75230,7 @@
 				"selfBuffs": ["GiveFrostburnIfCorrectConditionsSiegfriedRegular0Awakenings","GiveFrostburnIfCorrectConditionsSiegfriedRegular1Awakening","GiveFrostburnIfCorrectConditionsSiegfriedRegular2Awakenings","GiveFrostburnIfCorrectConditionsSiegfriedRegular3Awakenings","GiveFrostburnIfCorrectConditionsSiegfriedRegular4Awakenings"],
 				"sameTeam": false,
 				"activeMonsterConditions": "NoFrostbittenAllies"
-				}],
+				},{}],
 			"duration": -1,
 			"showAsPermanent": false,
 			"showAsTimer": false,
@@ -75328,10 +75386,10 @@
 		"LightningPassiveAZeusRegularBoss": {
 			"class": "Buff",
 			"stackName": "LightningPassiveAZeusRegular",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","StunImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
 				"sourceBuffs": ["StunImmunitywithStackName","SleepImmunitywithStackName","KnockbackImmunity","ZeusRegularBossActive2Lock","ZeusRegularBossActive4Lock","Active3TurnLockZeusRegularBoss",
-					"EOTStunEnemiesZeusRegularPart1","GetTurnSkinA","StoreEnergy","StoreEnergy","StoreEnergy","Charged1Icon","Charged2Icon","Charged3Icon"]
+					"EOTStunEnemiesZeusRegularPart1","GetTurnSkinA","StoreEnergy","StoreEnergy","StoreEnergy","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["RemoveZeusRegularBossActive2Lock","FudgeUsed"],
 				"sameTeam": false,
@@ -75343,6 +75401,7 @@
 				"spreadCondition": "KillsMoreThanSkillUsed"
 			},{
 				"enemyBuffs": ["Active1DisableIsReadyZeusRegularBoss"]	
+			},{},{
 			}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -75429,9 +75488,9 @@
 		"ChargedUpPassiveAZeusRegularBoss": {
 			"class": "Buff",
 			"stackName": "ChargedUpPassiveAZeusRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BurnImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["HoldGroundBoss","BurnImmunityFor200TU"]
+				"sourceBuffs": ["HoldGroundBoss","BurnImmunityFor200TU","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["1PercentHealMaxHPBoss"],
 				"sameTeam": true,
@@ -75443,7 +75502,7 @@
 				"selfBuffs": ["BrideHealPurifyZeusRegularBoss"],
 				"activeMonsterConditions": "NotAlwaysMyTurn",
 				"spreadCondition": "BrideHealReady"
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -75868,9 +75927,10 @@
 		"LovingOthersPassiveAVenusRegularBoss": {
 			"class": "Buff",
 			"stackName": "LovingOthersPassiveAVenusRegular",
-			"behaviors": ["EnterBattleBuff"],
+			"behaviors": ["EnterBattleBuff","PoisonImmunityFallback","SleepImmunityFallback","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["KnockbackImmunity","50PercentDamageReduction","ImmunityFromPoisonUntilFirstTurn","ImmunityFromSleepUntilThirdTurn","ImmunityFromStunUntilFifthTurn"]
+				"sourceBuffs": ["KnockbackImmunity","50PercentDamageReduction","ImmunityFromPoisonUntilFirstTurn","ImmunityFromSleepUntilThirdTurn","ImmunityFromStunUntilFifthTurn","DisableFallBackImmunity"]
+			},{},{},{
 			}],
 			"isHiddenFromPlayers": true,
 			"showAsPermanent": false,
@@ -75992,10 +76052,10 @@
 		"LightningPassiveAZeusRegular": {
 			"class": "Buff",
 			"stackName": "LightningPassiveAZeusRegular",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","StunImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
 				"sourceBuffs": ["StunImmunitywithStackName","SleepImmunitywithStackName","KnockbackImmunity","ZeusRegularActive2Lock","ZeusRegularActive4Lock","Active3TurnLockZeusRegular",
-					"EOTStunEnemiesZeusRegularPart1","GetTurnSkinA","StoreEnergy","StoreEnergy","StoreEnergy","Charged1Icon","Charged2Icon","Charged3Icon"]
+					"EOTStunEnemiesZeusRegularPart1","GetTurnSkinA","StoreEnergy","StoreEnergy","StoreEnergy","Charged1Icon","Charged2Icon","Charged3Icon","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["RemoveZeusRegularActive2Lock","FudgeUsed"],
 				"sameTeam": false,
@@ -76020,6 +76080,7 @@
 			},{
 				"enemyBuffs": ["Active1DisableIsReadyLV5"],
 				"activeMonsterConditions": "Has4Awakenings"	
+			},{},{
 			}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -76085,9 +76146,9 @@
 		"ChargedUpPassiveAZeusRegular": {
 			"class": "Buff",
 			"stackName": "ChargedUpPassiveAZeusRegular",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","StatOnly","StatOnly","StatOnly","StatOnly"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","StatOnly","StatOnly","StatOnly","StatOnly","BurnImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["HoldGround","BurnImmunityFor200TU"]
+				"sourceBuffs": ["HoldGround","BurnImmunityFor200TU","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["30PercentHealMaxHP"],
 				"activeMonsterConditions": "AlwaysTrue"
@@ -76118,7 +76179,7 @@
 				"scalorStatBonuses": {
 					"Attack": 0.25
 				}		
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
@@ -76325,9 +76386,9 @@
 		"DualBondPassiveARizetteBrave":{
 			"class": "Buff",
 			"stackName": "DualBondPassiveARizetteBrave",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","ModifyDamage","ModifyDamage","BuffOnMonsterTurnEnd","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","ModifyDamage","ModifyDamage","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","StunImmunityFallback","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["HoldGround","KnockbackImmunity","StunImmunitywithStackName","SleepImmunitywithStackName"]
+				"selfBuffs": ["HoldGround","KnockbackImmunity","StunImmunitywithStackName","SleepImmunitywithStackName","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["RemoveStunImmunity","RemoveSleepImmunity"],
 				"spreadCondition": "2AlliesIsNotRizetteBonding",
@@ -76353,6 +76414,7 @@
 				"randomAllyBuffs": ["ReadyForBondingRizetteBraveActive2"],
 				"numRandomToBuff": 1,
 				"spreadCondition": "IsNotSummonedOrBonding"	
+			},{},{
 			}],
 			"duration": -1,
 			"tags": ["BigDamageMinus"],
@@ -76586,12 +76648,12 @@
 		"LovingOthersPassiveAVenusRegular": {
 			"class": "Buff",
 			"stackName": "LovingOthersPassiveAVenusRegular",
-			"behaviors": ["Immunity","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["Immunity","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","SleepImmunityFallback","BurnImmunityFallback","PoisonImmunityFallback","StunImmunityFallback"],
 			"behaviorOverrides": [{
 				"stackNamesToBlock": ["IsCurrentlyCharmed"]
 			},{	
 				"sourceBuffs": ["KnockbackImmunity","4LevelsOfDamageReductionBasedOnAlliesOnTheBattlefieldVersion2","Charged1IconShowInStatus","Charged2IconShowInStatus","Charged3IconShowInStatus","HoldGroundEnergyFullyChargedStartShowInStatus",
-					"ImmunityFromSleepUntilNextTurn","ImmunityFromBurnUntilNextTurn","ImmunityFromPoisonUntilFirstTurn","StunImmunityUntilNextTurnGenericTitle"]
+					"ImmunityFromSleepUntilNextTurn","ImmunityFromBurnUntilNextTurn","ImmunityFromPoisonUntilFirstTurn","StunImmunityUntilNextTurnGenericTitle","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["PurifyAndExtraTurnVenusRegularLV5"],
 				"sameTeam": false,
@@ -76617,6 +76679,7 @@
 				"sameTeam": false,
 				"activeMonsterConditions": "IsCharmed",
 				"spreadCondition": "HasNoAwakening"	
+			},{},{},{},{
 			}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
@@ -77050,9 +77113,9 @@
 		"GainTurnPassiveAMusashiDarkBoss": {
 			"class": "Buff",
 			"stackName": "GainTurnPassiveAMusashiDark",
-			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn","SleepImmunityFallback","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["KnockbackImmunity","ImmunityFromSleepUntilNextTurn","StunImmunityUntilNextTurnGenericTitle","GrantSleepandStunImmunityFor150TUMusashiDarkBoss"]
+				"sourceBuffs": ["KnockbackImmunity","ImmunityFromSleepUntilNextTurn","StunImmunityUntilNextTurnGenericTitle","GrantSleepandStunImmunityFor150TUMusashiDarkBoss","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
 				"chance": 1.0,
@@ -77061,6 +77124,7 @@
 			},{
 				"enemyBuffs": ["MarkedMaxHP"],
 				"spreadCondition": "OnMaxHP"
+			},{},{
 			}],
 			"showAsPermanent": false,
 			"showAsTimer": true,
@@ -77374,9 +77438,9 @@
 		"SelfBuffPassiveAMyshaKnightBoss": {
 			"class": "Buff",
 			"stackName": "SelfBuffPassiveAMyshaKnightBoss",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffOnMonsterTurnEnd","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["HoldGroundBoss","StunImmunity"]
+				"sourceBuffs": ["HoldGroundBoss","StunImmunity","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["AttackPlus50Percent1TurnOnly","SpiritGainD","SpiritGainD","SpiritGainD"],
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
@@ -77385,7 +77449,7 @@
 				"sameTeam": false,
 				"activeMonsterConditions": "IsNotStealth",
 				"spreadCondition": "NotExtraTurnLockMyshaKnight"
-			}],
+			},{}],
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
@@ -77444,9 +77508,9 @@
 		"GainTurnPassiveAMusashiDark": {
 			"class": "Buff",
 			"stackName": "GainTurnPassiveAMusashiDark",
-			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurn","SleepImmunityFallback","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["KnockbackImmunity","ImmunityFromSleepUntilNextTurn","StunImmunityUntilNextTurnGenericTitle","GrantSleepandStunImmunityFor100TUMusashiDark"]
+				"sourceBuffs": ["KnockbackImmunity","ImmunityFromSleepUntilNextTurn","StunImmunityUntilNextTurnGenericTitle","GrantSleepandStunImmunityFor100TUMusashiDark","DisableFallBackImmunity"]
 			},{
 				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
 				"chance": 1.0,
@@ -77455,6 +77519,7 @@
 			},{
 				"enemyBuffs": ["MarkedMaxHP"],
 				"spreadCondition": "OnMaxHP"
+			},{},{
 			}],
 			"showAsPermanent": false,
 			"showAsTimer": true,
@@ -78247,9 +78312,9 @@
 		"StartOfBattlePassiveAThorRegularBoss": {
 			"class": "Buff",
 			"stackName": "StartOfBattlePassiveAThorRegular",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","SleepImmunityFallback"],
 			"behaviorOverrides": [{
-				"sourceBuffs": ["KnockbackImmunity","NotProtectingNotEnragedAttackBuffThorRegular","ProtecterAThorRegularBoss","SleepImmunityFor100TU"]
+				"sourceBuffs": ["KnockbackImmunity","NotProtectingNotEnragedAttackBuffThorRegular","ProtecterAThorRegularBoss","SleepImmunityFor100TU","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["ProtecterAThorRegularBoss","SleepImmunityFor100TU","FudgeUsed"],
 				"sameTeam": false,
@@ -78269,9 +78334,10 @@
 				"randomEnemyBuffs": ["LowestAndHighestTUEnemiesMarkedThorRegular"],
 				"numRandomToBuff": 1,
 				"randomTargetingMonsterRanker": "ActingSoonest"	
-			}],
+			},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
+			"tags": ["GuardianOnEntry"],
 			"duration": -1
 		},
 		"LowestAndHighestTUEnemiesMarkedThorRegular":{
@@ -78721,9 +78787,9 @@
 		"BurningGoddessPassiveAFreyaNewBoss": {
 			"class": "Buff",
 			"stackName": "BurningGoddessPassiveAFreyaNew",
-			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie"],
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie","StunImmunityFallback"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunity","HoldGroundBoss","50PercentDamageReduction"]
+				"selfBuffs": ["StunImmunity","HoldGroundBoss","50PercentDamageReduction","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["FreyaNewKillsMoreThanSkillsUsed","MarkedFreyaNew"],
 				"spreadCondition": "IsNotImmediateDefeatLockedFreyaNew"
@@ -78731,7 +78797,7 @@
 				"selfBuffs": ["RemoveInstantDefeatLOCKFreyaNew"],
 				"sameTeam": true,
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
-			}],
+			},{}],
 			"duration": -1,
 			"showAsTimer": false,
 			"showAsPermanent": false,
@@ -78888,10 +78954,10 @@
 		"StartOfBattlePassiveAThorRegular": {
 			"class": "Buff",
 			"stackName": "StartOfBattlePassiveAThorRegular",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","SleepImmunityFallback","StunImmunityFallback"],
 			"behaviorOverrides": [{
 				"sourceBuffs": ["KnockbackImmunity","InstantKillImmunityOnce","NotProtectingNotEnragedAttackBuffThorRegular",
-					"ProtecterAThorRegular","SleepImmunityFor100TU","StunImmunityFor100TU","50PercentDamageReductionFor100TU"]
+					"ProtecterAThorRegular","SleepImmunityFor100TU","StunImmunityFor100TU","50PercentDamageReductionFor100TU","DisableFallBackImmunity"]
 			},{
 				"sourceBuffs": ["ProtecterAThorRegular","SleepImmunityFor100TU","StunImmunityFor100TU","50PercentDamageReductionFor100TU","FudgeUsed"],
 				"sameTeam": false,
@@ -78911,9 +78977,11 @@
 				"randomEnemyBuffs": ["LowestAndHighestTUEnemiesMarkedThorRegular"],
 				"numRandomToBuff": 1,
 				"randomTargetingMonsterRanker": "ActingSoonest"		
+			},{},{
 			}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
+			"tags": ["GuardianOnEntry"],
 			"duration": -1
 		},
 		"ProtecterAThorRegular":{
@@ -79138,6 +79206,14 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
+		},
+		"DisableFallBackImmunity":{
+			"class": "Buff",
+			"stackName": "DisableFallBackImmunity",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
 		}
 	}
 }

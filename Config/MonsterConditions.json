@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1771983890,
+    "Time": 1772600353,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -25272,6 +25272,28 @@
 			"buffStackNames": ["LudmillaDarkNewGaveSelfTurnBuff"]
 		}
 	},
+	"NotProtectedAndNoOtherAllyGuardianOnEntry": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded": {
+				"IsProtecting": 1
+				}
+			},
+			"and":{
+				"class": "MonsterConditions",
+				"not": {
+					"class": "MonsterConditions",
+					"myTeamMonsterConditionMatchesNeeded": {
+						"IsGuardianOnEntry": 1
+				}
+			}
+		}
+	},
+	"IsGuardianOnEntry":{
+		"class": "MonsterConditions",
+		"monsterTags": ["GuardianOnEntry"]
+	},
 	"AllySpirit6OrMoreNotInstantCooldown": {
 		"class": "MonsterConditions",
 		"teamSpiritGreaterThan": 500,
@@ -29266,6 +29288,73 @@
 		"or":{
 			"class": "MonsterConditions",
 			"hpLessThanPercent": 0.9500001
+		}
+	},
+	"NotDisableFallBackImmunity": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["DisableFallBackImmunity"]
+		}
+	},
+	"IsNotBurningOrDisabledFallback": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["Burn"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["DisableFallBackImmunity"]
+			}
+		}
+	},
+	"2AirAlliesNotDisableFallBack":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsAir": 2
+		},
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["DisableFallBackImmunity"]
+		}
+	},
+	"AtLeast1BurnBlastOrForceOrFireEnemyNotDisableFallBack": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsBurnBlastOrForceOrFire": 1
+		},
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["DisableFallBackImmunity"]
+		}
+	},
+	"AtLeast1UnitIsBurnBlastOrForceOrFireOnBattleNotDisable": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsBurnBlastOrForceOrFire": 1
+		},
+		"or": {
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsBurnBlastOrForceOrFire": 1
+			}
+		},
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["DisableFallBackImmunity"]
+		}
+	},
+	"AtLeast1WaterEnemyNotDisableFallBack": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"IsWater": 1
+		},
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["DisableFallBackImmunity"]
 		}
 	}
 }

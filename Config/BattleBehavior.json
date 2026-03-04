@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1761290857,
+	"Time": 1772600361,
 	"BattleBehavior": {
 		"AddBattleProperty": {
 			"class": "AddBattlePropertyBehavior"
@@ -141,6 +141,51 @@
 		"PseudoGiveTurn": {
 			"class": "StunBehavior",
 			"stunTU": -2147483000
+		},
+		"StunImmunityFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Stun", "StunNoAbsorb"],
+			"activateCondition": "NotDisableFallBackImmunity"
+		},
+		"StunImmunityIfNotBurningFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Stun", "StunNoAbsorb"],
+			"activateCondition": "IsNotBurningOrDisabledFallback"
+		},
+		"StunImmunityIfEnemyIsFireOrBurnBlastOrBurnForceFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Stun", "StunNoAbsorb"],
+			"activateCondition": "AtLeast1BurnBlastOrForceOrFireEnemyNotDisableFallBack"
+		},
+		"StunImmunityIfAnyUnitIsFireOrBurnBlastOrBurnForceFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Stun", "StunNoAbsorb"],
+			"activateCondition": "AtLeast1UnitIsBurnBlastOrForceOrFireOnBattleNotDisable"
+		},
+		"StunImmunityIf2AirAlliesFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Stun", "StunNoAbsorb"],
+			"activateCondition": "2AirAlliesNotDisableFallBack"
+		},
+		"BurnImmunityFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Burn"],
+			"activateCondition": "NotDisableFallBackImmunity"
+		},
+		"PoisonImmunityFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Poison"],
+			"activateCondition": "NotDisableFallBackImmunity"	
+		},
+		"SleepImmunityFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Sleep"],
+			"activateCondition": "NotDisableFallBackImmunity"	
+		},
+		"SleepImmunityIf1WaterEnemyFallback": {
+			"class": "ImmunityBehavior",
+			"stackNamesToBlock": ["Sleep"],
+			"activateCondition": "AtLeast1WaterEnemyNotDisableFallBack"
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1771983765,
+	"Time": 1772597263,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -1311,7 +1311,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"abilityEffect": "KnockbackEffect",
@@ -1325,7 +1325,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -1339,7 +1339,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -1408,7 +1408,7 @@
 			"targetingData": "1Ally",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["Add1RabbitToFront", "SendToFrontOfReinforcements", "RemoveBuffs"]
+				"buffs": ["Add1RabbitToFront", "SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"immuneSuggestionCondition": "IsKnockbackImmune",
 			"recommendEffectWhenUsable":-1,
@@ -1452,7 +1452,7 @@
 			"targetingData": "1Ally",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"immuneSuggestionCondition": "IsKnockbackImmune",
 			"recommendEffectWhenUsable":-1,
@@ -1465,7 +1465,7 @@
 			"targetingData": "2Ally",
 			"components": ["ApplyBuff", "ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"],
+				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 				"applyToTargetType": "Friendly",
 				"chance": 1.0
 			},
@@ -1502,7 +1502,7 @@
 			"targetingData": "1Ally",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"immuneSuggestionCondition": "IsKnockbackImmune",
 			"recommendEffectWhenUsable":-1,
@@ -1515,7 +1515,7 @@
 			"targetingData": "2Ally",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"immuneSuggestionCondition": "IsKnockbackImmune",
 			"recommendEffectWhenUsable":-1,
@@ -8303,7 +8303,7 @@
 			"components": ["ApplyBuff", "ApplyBuff"],
 			"componentOverrides": [{
 				"applyToTargetOnly": true,
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			},
 				{
 					"applyToSourceOnly": true,
@@ -8520,7 +8520,7 @@
 			"components": ["ApplyBuff","ApplyBuff"],
 			"componentOverrides": [
 				{
-					"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"],
+					"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 					"applyConditions": "AtLeast4AlliesLeft"
 				},
 				{
@@ -8610,7 +8610,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -8624,7 +8624,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -8638,7 +8638,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -11709,7 +11709,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -13485,7 +13485,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -13549,7 +13549,7 @@
 				"skipAbilityEffect": true
 			},
 			{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"],
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 				"applyToTargetOnly": true
 			}],
 			"sourceEventType": "Hit",
@@ -13572,7 +13572,7 @@
 				"skipAbilityEffect": true
 			},
 			{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"],
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 				"applyToTargetOnly": true
 			}],
 			"sourceEventType": "Hit",
@@ -13649,7 +13649,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -14751,7 +14751,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -18475,7 +18475,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"]
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"]
 			}],
 			"enemyEventType": "Finish",
 			"immuneSuggestionCondition": "IsKnockbackImmune",
@@ -24520,7 +24520,7 @@
 				"applyConditions": "4AlliesLeftNoReinforcements",
 				"showMissConditions": "ShowNoMiss"
 			},{
-				"buffs": ["SendToBackOfReinforcementsIfAny", "RemoveBuffs"],
+				"buffs": ["SendToBackOfReinforcementsIfAny", "RemoveBuffsIfNotKnockbackImmune"],
 				"applyToTargetType": "Enemy"
 			},{
 				"buffs": ["LifeFlip"],
@@ -24915,7 +24915,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff", "ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"],
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 				"applyToTargetType": "Enemy"
 			},{
 				"buffs": ["MoveFrontReinforcementToLast","DamagePact"],
@@ -29274,7 +29274,7 @@
 					"showMissConditions": "ShowNoMiss",
 					"skipAbilityEffect": true
 				},{
-					"buffs": ["SendToRandomReinforcements", "RemoveBuffs"],
+					"buffs": ["SendToRandomReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 					"applyConditions": "IsNotAlone",
 					"applyToTargetType": "Enemy"
 				},{
@@ -29440,7 +29440,7 @@
 					"showMissConditions": "ShowNoMiss",
 					"skipAbilityEffect": true
 				},{
-					"buffs": ["SendToRandomReinforcements", "RemoveBuffs"],
+					"buffs": ["SendToRandomReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 					"applyConditions": "IsNotAlone",
 					"applyToTargetType": "Enemy"
 				},{
@@ -32471,7 +32471,7 @@
 			"targetingData": "1Enemy",
 			"components": ["ApplyBuff", "ApplyBuff"],
 			"componentOverrides": [{
-				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffs"],
+				"buffs": ["SendToFrontOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 				"applyToTargetType": "Enemy"
 			},{
 				"buffs": ["UnicornRegularCooldown100"],
@@ -40598,7 +40598,7 @@
 				"applyToSourceOnly": true,
 				"skipAbilityEffect": true
 			},{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"],
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 				"showMissConditions": "ShowNoMiss",
 				"applyToSourceOnly": true,
 				"skipAbilityEffect": true
@@ -40941,7 +40941,7 @@
 				"applyToSourceOnly": true,
 				"skipAbilityEffect": true
 			},{
-				"buffs": ["SendToBackOfReinforcements", "RemoveBuffs"],
+				"buffs": ["SendToBackOfReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 				"showMissConditions": "ShowNoMiss",
 				"applyToSourceOnly": true,
 				"skipAbilityEffect": true
@@ -42846,7 +42846,7 @@
 					"showMissConditions": "ShowNoMiss",
 					"skipAbilityEffect": true
 				},{
-					"buffs": ["SendToRandomReinforcements", "RemoveBuffs"],
+					"buffs": ["SendToRandomReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 					"applyConditions": "IsNotAlone",
 					"applyToTargetType": "Enemy"
 			}],
@@ -43160,7 +43160,7 @@
 					"showMissConditions": "ShowNoMiss",
 					"skipAbilityEffect": true
 				},{
-					"buffs": ["SendToRandomReinforcements", "RemoveBuffs"],
+					"buffs": ["SendToRandomReinforcements", "RemoveBuffsIfNotKnockbackImmune"],
 					"applyConditions": "IsNotAlone",
 					"applyToTargetType": "Enemy"
 			}],
