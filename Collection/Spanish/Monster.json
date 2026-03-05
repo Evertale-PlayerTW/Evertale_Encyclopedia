@@ -128036,7 +128036,7 @@
         "Hp_Base": 10089,
         "Speed": 353,
         "Power": 169548,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Jejeje... Huele a sangre...",
         "LeaderSkill": {
             "SkillTitle": "Sube HP Trueno",
@@ -128342,5 +128342,342 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "CalKouhaiRegular01": {
+        "Name": "Ruvi",
+        "Name2": "Fiel dragona roja",
+        "FullName": "Ruvi - Fiel dragona roja",
+        "Profile": "Para la joven Ruvi, Callen fue su salvadora. Sus padres fueron asesinados por demonios durante el Pandemonium, dejando a la joven dragona moribunda en el frío nido. Fue nada menos que Callen quien la salvó y la crió.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hacha",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 28,
+        "Atk_Base": 823,
+        "Hp_Base": 7095,
+        "Speed": 423,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Estas alas serán el escudo que te protegerá.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Prisma Dragón",
+                "SkillDescription": "300% de daño a 1 enemigo. 500% de daño si el usuario está quemando. Este ataque cura al usuario el 100% del daño total infligido e ignora cualquier efecto de enemigos que no sean jefes que impidan su derrota.\n\nEl usuario recibe entonces el efecto de estado Quemar. Esto sobrescribe otros efectos de estado del usuario. Los aliados obtienen una cantidad de Espíritu igual a la cantidad de enemigos quemados en el campo de batalla después de este ataque. Cualquier unidad que inflija daño a una unidad en llamas, o que reciba daño de esta, también quedará ardiendo.",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ignición Rugiente",
+                "SkillDescription": "Cura a todos los aliados en llamas por el 800% del ataque del usuario y los Enfurece. Esto sobrescribirá los efectos de otras habilidades de Enfurecer en esas unidades. Las unidades enfurecidas tienen su Ataque aumentado a 1.5x hasta el final de su siguiente turno.\n\nLuego, 1 aliado aleatorio y 1 enemigo aleatorio reciben el efecto de estado Quemar y se infectan con él.\n\nSólo se puede usar si el usuario ha almacenado 3 Cargas. Consume todas las Cargas del usuario.\n\nDespués del final de cada turno, esta infección se activará para aplicar Quemar a una unidad aleatoria que no esté en llamas en el equipo de la unidad infectada. Cada infección termina después de 3 activaciones (incluso si no encuentran un objetivo válido) o una vez que la unidad infectada es derrotada o abandona el campo de batalla. La infección no es un efecto de estado y no se puede prevenir ni purificar, pero el efecto de estado propagado por la infección sí puede serlo. Una unidad no puede contraer una nueva infección hasta que termine la que ya tiene.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Combo Arder",
+                "SkillDescription": "400% de daño a 1 enemigo. 600% de daño si todos los aliados en el campo de batalla están en llamas. Este ataque cura al usuario el 100% del daño total infligido e ignora cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nSe desbloquea cada vez que el usuario daña a un enemigo con otro ataque. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 1,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Scorching Descent",
+                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+            },
+            {
+                "SkillTitle": "Devoción Eterna",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad tiene un 80% de reducción de daño por ataques. Esta reducción se reduce un 10% por cada vez que la unidad es golpeada por un ataque enemigo mientras está en el campo de batalla (hasta un mínimo del 30% después de ser golpeada por 5 ataques enemigos).\n\nQuema a todos los aliados en el campo de batalla cuando esta unidad es derrotada por un enemigo. Esto sobrescribirá otros efectos de estado en esas unidades.\n\nCuando esta unidad entra al campo de batalla, se le otorga Mega Quemado Sanador por 100TU, y todos los aliados que sean del elemento Fuego o tengan una habilidad activa de tipo Explosión de Fuego o Impulso Ardiente verán los costos de TU de todas sus habilidades reducidos en un 20%. Esto sobrescribirá los efectos de otras habilidades de Aceleración. Siempre que otro aliado que sea del elemento Fuego o tenga una habilidad activa de tipo Explosión de Fuego o Impulso Ardiente entre al campo de batalla desde refuerzos, verán los costos de TU de todas sus habilidades reducidos en un 20%.\n\nUna unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces superior a la de Quemado Sanador. Esto sobrescribirá otros efectos de estado, incluyendo Quemado Sanador, no podrá ser sobrescrito por efectos de estado de Quemado, Veneno o Sueño, ni podrá ser Purificada. Cualquier unidad que inflija daño a, o que reciba daño de, una unidad con Mega Quemado Sanador obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300 TU cuando expire el Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Oscuro Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Oscuro."
+            },
+            {
+                "SkillTitle": "Dominio Báculo",
+                "SkillDescription": "Puede usar habilidades de arma de Báculos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Báculo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Es nuestro primer encuentro... ¿Verdad?\nSoy Ruvi, la dragona de Lady Callen.\nApenas me reconoces, ¿verdad?\n\nBueno, ¿nos vamos?\nMe alegra mucho poder ayudarte\nde esta manera."
+            ],
+            "Login": [
+                "Oh, hola. ¿Podrías esperar un momento? Lady Callen aún no ha llegado.\nLa llamaré enseguida."
+            ],
+            "Tap": [
+                "Lady Callen, puede que hayas crecido un poco... hacia los lados, otra vez. Supongo que tendré que confiscar tus bocadillos.",
+                "Aunque me vea así, sigo siendo una dragona.\nNo he perdido mi orgullo como tal. ¡Lo juro por estas magníficas alas!",
+                "¿Por qué mencionas que solía llorar \"krrr\"? Es bastante vergonzoso decirlo así...\n¿Te parece adorable? E... eso no es verdad"
+            ],
+            "Idle": [
+                "Suspiro... Lady Callen, ¿adónde se fue ahora?\nEn serio... Lady Callen, ¿Lady Callen～?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "Prisma Dragón": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Ignición Rugiente": {
+                    "BaseWeight": 100
+                },
+                "Combo Arder": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "CalKouhaiRegular02": {
+        "Name": "Ruvi",
+        "Name2": "Fiel dragona roja",
+        "FullName": "Ruvi - Fiel dragona roja",
+        "Profile": "Incluso sin palabras, Ruvi poseía la inteligencia para captar las intenciones de Callen con sólo una expresión. Cuando Callen rompía una herramienta mágica, era Ruvi quien la arreglaba. Cuando le entraban antojos de dulces, era Ruvi quien, con mucho cuidado, los escondía.",
+        "Profile_Ascended": "Ruvi agradeció la transformación provocada por el dispositivo de Odín. Ahora podía hablar con Callen y apoyarla aún más. Para Ruvi, Callen era irremplazable. No sólo era como una madre, sino también como una hermana pequeña a la que no podía dejar de cuidar.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hacha",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 34,
+        "Atk_Base": 1001,
+        "Hp_Base": 9415,
+        "Speed": 423,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Prisma Dragón",
+                "SkillDescription": "300% de daño a 1 enemigo. 500% de daño si el usuario está quemando. Este ataque cura al usuario el 100% del daño total infligido e ignora cualquier efecto de enemigos que no sean jefes que impidan su derrota.\n\nEl usuario recibe entonces el efecto de estado Quemar. Esto sobrescribe otros efectos de estado del usuario. Los aliados obtienen una cantidad de Espíritu igual a la cantidad de enemigos quemados en el campo de batalla después de este ataque. Cualquier unidad que inflija daño a una unidad en llamas, o que reciba daño de esta, también quedará ardiendo.",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ignición Rugiente",
+                "SkillDescription": "Cura a todos los aliados en llamas por el 800% del ataque del usuario y los Enfurece. Esto sobrescribirá los efectos de otras habilidades de Enfurecer en esas unidades. Las unidades enfurecidas tienen su Ataque aumentado a 1.5x hasta el final de su siguiente turno.\n\nLuego, 1 aliado aleatorio y 1 enemigo aleatorio reciben el efecto de estado Quemar y se infectan con él.\n\nSólo se puede usar si el usuario ha almacenado 3 Cargas. Consume todas las Cargas del usuario.\n\nDespués del final de cada turno, esta infección se activará para aplicar Quemar a una unidad aleatoria que no esté en llamas en el equipo de la unidad infectada. Cada infección termina después de 3 activaciones (incluso si no encuentran un objetivo válido) o una vez que la unidad infectada es derrotada o abandona el campo de batalla. La infección no es un efecto de estado y no se puede prevenir ni purificar, pero el efecto de estado propagado por la infección sí puede serlo. Una unidad no puede contraer una nueva infección hasta que termine la que ya tiene.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Combo Arder",
+                "SkillDescription": "400% de daño a 1 enemigo. 600% de daño si todos los aliados en el campo de batalla están en llamas. Este ataque cura al usuario el 100% del daño total infligido e ignora cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nSe desbloquea cada vez que el usuario daña a un enemigo con otro ataque. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Doble Destrucción",
+                "SkillDescription": "700% de daño a 2 enemigos. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nSólo se puede usar si 2 o más unidades del mismo equipo están en llamas. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 50TU.",
+                "TU": 1,
+                "Spirit": "-4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Scorching Descent",
+                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+            },
+            {
+                "SkillTitle": "Devoción Eterna",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad tiene un 80% de reducción de daño por ataques. Esta reducción se reduce un 10% por cada vez que la unidad es golpeada por un ataque enemigo mientras está en el campo de batalla (hasta un mínimo del 30% después de ser golpeada por 5 ataques enemigos).\n\nQuema a todos los aliados en el campo de batalla cuando esta unidad es derrotada por un enemigo. Esto sobrescribirá otros efectos de estado en esas unidades.\n\nCuando esta unidad entra al campo de batalla, se le otorga Mega Quemado Sanador por 100TU, y todos los aliados que sean del elemento Fuego o tengan una habilidad activa de tipo Explosión de Fuego o Impulso Ardiente verán los costos de TU de todas sus habilidades reducidos en un 20%. Esto sobrescribirá los efectos de otras habilidades de Aceleración. Siempre que otro aliado que sea del elemento Fuego o tenga una habilidad activa de tipo Explosión de Fuego o Impulso Ardiente entre al campo de batalla desde refuerzos, verán los costos de TU de todas sus habilidades reducidos en un 20%.\n\nUna unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces superior a la de Quemado Sanador. Esto sobrescribirá otros efectos de estado, incluyendo Quemado Sanador, no podrá ser sobrescrito por efectos de estado de Quemado, Veneno o Sueño, ni podrá ser Purificada. Cualquier unidad que inflija daño a, o que reciba daño de, una unidad con Mega Quemado Sanador obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300 TU cuando expire el Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Oscuro Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Oscuro."
+            },
+            {
+                "SkillTitle": "Dominio Báculo",
+                "SkillDescription": "Puede usar habilidades de arma de Báculos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Báculo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Es nuestro primer encuentro... ¿Verdad?\nSoy Ruvi, la dragona de Lady Callen.\nApenas me reconoces, ¿verdad?\n\nBueno, ¿nos vamos?\nMe alegra mucho poder ayudarte\nde esta manera."
+            ],
+            "Login": [
+                "Oh, hola. ¿Podrías esperar un momento? Lady Callen aún no ha llegado.\nLa llamaré enseguida."
+            ],
+            "Tap": [
+                "Lady Callen, puede que hayas crecido un poco... hacia los lados, otra vez. Supongo que tendré que confiscar tus bocadillos.",
+                "Aunque me vea así, sigo siendo una dragona.\nNo he perdido mi orgullo como tal. ¡Lo juro por estas magníficas alas!",
+                "¿Por qué mencionas que solía llorar \"krrr\"? Es bastante vergonzoso decirlo así...\n¿Te parece adorable? E... eso no es verdad"
+            ],
+            "Idle": [
+                "Suspiro... Lady Callen, ¿adónde se fue ahora?\nEn serio... Lady Callen, ¿Lady Callen～?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "Prisma Dragón": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Ignición Rugiente": {
+                    "BaseWeight": 100
+                },
+                "Combo Arder": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Doble Destrucción": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.3,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

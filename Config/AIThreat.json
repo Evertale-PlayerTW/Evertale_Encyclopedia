@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1771869452,
+  "Time": 1772061599,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6876,6 +6876,36 @@
       "name": "ThorRegular02",
       "condition": "TimeInCombat200",
       "value": 1.15
+    },
+    {
+      "name": "CalKouhaiRegular01",
+      "condition": "IsCharged3",
+      "value": 1.01
+    },
+    {
+      "name": "CalKouhaiRegular01",
+      "condition": "AllAlliesIsBurning",
+      "value": 1.01
+    },
+    {
+      "name": "CalKouhaiRegular01",
+      "condition": "AllEnemiesIsBurning",
+      "value": 1.01
+    },
+    {
+      "name": "CalKouhaiRegular02",
+      "condition": "IsCharged3",
+      "value": 1.01
+    },
+    {
+      "name": "CalKouhaiRegular02",
+      "condition": "AllAlliesIsBurning",
+      "value": 1.01
+    },
+    {
+      "name": "CalKouhaiRegular02",
+      "condition": "AllEnemiesIsBurning",
+      "value": 1.01
     }
   ]
 }

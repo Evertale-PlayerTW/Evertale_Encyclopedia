@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1772600349,
+	"Time": 1772613628,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -79214,6 +79214,121 @@
 			"isHiddenFromPlayers": true,
 			"showAsPermanent": false,
 			"showAsTimer": false
+		},
+		"AttackUp4TargetKillOrHPBelow50Percent": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "HPBelow50PercentOr1Kill",
+				"scalor": 0.07
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5TargetKillOrHPBelow50Percent": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "HPBelow50PercentOr1Kill",
+				"scalor": 0.1
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6TargetKillOrHPBelow50Percent": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "HPBelow50PercentOr1Kill",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"SwoopDownPassiveACalKouhaiRegular":{
+			"class": "Buff",
+			"stackName": "SwoopDownPassiveACalKouhaiRegular",
+			"behaviors": ["EnterBattleBuff","BlockDeath","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides":[{
+				"allyBuffs": ["InstantKillImmunityOnce"],
+				"enemyBuffs": ["BurnSelfEOT"],
+				"sourceBuffs": ["InstantKillImmunityOnce","StunImmunityIfAllyBurning","50PercentAttackIncreaseIfAllEnemiesBurning","Charged1Icon","Charged2Icon","Charged3Icon"]
+			},{
+				"blockDeathFromDamageFlags": ["Burn"]
+			},{
+				"enemyBuffs": ["TriggerHitCountForCalKouhaiRegular"],
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"enemyBuffs": ["TriggerGrantPiercingWhenBurningEnemyHit"],
+				"spreadCondition": "IsBurning",
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"enemyBuffs": ["Stun25"],
+				"spreadCondition": "IsBurning"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconRedHoldGroundBurn01"
+		},
+		"BurnSelfEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["Burn"],
+				"forwardSource": true,
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"DragonScalePassiveACalKouhaiRegular":{
+			"class": "Buff",
+			"stackName": "DragonScalePassiveACalKouhaiRegular",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","OthersEnterBattle","BuffWhenMonsterHurt","Revenge"],
+			"behaviorOverrides":[{
+				"sourceBuffs": ["KnockbackImmunity","HoldGround","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn","6LevelsOfDamageReductionBasedOnDamageTaken"]
+			},{
+				"allyBuffs": ["HasteUp20Percent"],
+				"sourceBuffs": ["HasteUp20Percent"],
+				"spreadCondition": "IsBurnBlastOrForceOrFire"
+			},{
+				"sameTeam": true,
+				"spreadCondition": "IsBurnBlastOrForceOrFire",
+				"chance": 1.0,
+				"contextBuffs": ["HasteUp20Percent"]
+			},{
+				"selfBuffs": ["GoodGirlBuffCounter"],
+				"cancelFromDamageTypes": ["BuffDamage"]	
+			},{
+				"randomAllyBuffs": ["Burn"],
+				"numRandomToBuff": 4,
+				"effectTextKey": "DragonScalePassiveACalKouhaiRegularNameKey"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"CalKouhaiRegularCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
 		}
 	}
 }

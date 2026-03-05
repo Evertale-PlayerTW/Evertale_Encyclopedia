@@ -128036,7 +128036,7 @@
         "Hp_Base": 10089,
         "Speed": 353,
         "Power": 169548,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "히히히... 피 냄새가 나네요...",
         "LeaderSkill": {
             "SkillTitle": "풍속성 HP 증가",
@@ -128342,5 +128342,342 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "CalKouhaiRegular01": {
+        "Name": "루비",
+        "Name2": "충실한 붉은 용",
+        "FullName": "루비 - 충실한 붉은 용",
+        "Profile": "어린 루비에게 콜른은 구원자였다. 아수라장 동안 루비의 부모는 악마들에게 살해당했고, 죽어가는 어린 용 루비는 차가운 둥지에 남겨졌다. 그녀를 구해 키워준 이는 다름 아닌 콜른이었다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "엑스",
+        "forFilter_Element": "Fire",
+        "Element": "화속성",
+        "Cost": 28,
+        "Atk_Base": 823,
+        "Hp_Base": 7095,
+        "Speed": 423,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "이 날개들이 당신을 보호하는 방패가 될 겁니다.",
+        "LeaderSkill": {
+            "SkillTitle": "화속성 HP 증가",
+            "SkillDescription": "아군 화속성 유닛 최대 HP 10% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "드래곤 프리즘",
+                "SkillDescription": "적 1기에 300% 데미지. 사용자가 화염 상태인 경우 500% 데미지. 이 공격은 사용자가 입은 총 데미지 100%만큼 회복시키고, 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n그런 다음 사용자에게 화염 상태 효과가 부여된다. 이는 사용자의 다른 상태 효과를 덮어쓴다. 이 공격 후 아군은 전장에 있는 화염 상태 적의 수만큼 기력을 얻는다. 화염 상태 유닛에 데미지를 가하거나 받은 모든 유닛도 화염 상태가 된다.",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "포효하는 점화",
+                "SkillDescription": "모든 화염 상태 아군을 사용자 공격의 800%만큼 회복시키고, 격분시킨다. 이는 해당 유닛의 다른 격분 스킬 효과를 덮어쓴다. 격분한 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.\n\n그런 다음 랜덤 아군 1기와 랜덤 적 1기에 화염 상태 효과가 부여되고 감염 상태가 된다.\n\n사용자가 충전을 3회 가진 경우에만 사용 가능하다. 사용자의 모든 충전을 소모한다.\n\n매 턴 종료 후, 이 감염이 발동하여 감염된 유닛 팀의 화염 상태가 아닌 랜덤 유닛 1기에 화염 상태를 적용한다. 각 감염은 3회 발동 후(유효한 타겟이 없더라도) 또는 감염된 유닛이 패배하거나 전장을 떠나면 종료된다. 감염은 상태 효과가 아니며 방지하거나 정화할 수 없지만, 감염으로 확산된 상태 효과는 그럴 수 있다. 유닛은 기존 감염이 종료될 때까지 새로운 감염을 가질 수 없다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "콤보 불길",
+                "SkillDescription": "적 1기에 400% 데미지. 전장의 모든 아군이 화염 상태인 경우 600% 데미지. 이 공격은 사용자가 입은 총 데미지의 100%만큼 회복시키고, 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n사용자가 다른 공격으로 적에게 데미지를 줄 때마다 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 1,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Scorching Descent",
+                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+            },
+            {
+                "SkillTitle": "영원히 타오르는 헌신",
+                "SkillDescription": "이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛은 공격으로 받는 데미지가 80% 감소한다. 이 유닛이 전장에 있는 동안 적의 공격을 받을 때마다 데미지 감소율이 10%씩 낮아진다(적 공격 5회시 최소 30%까지).\n\n이 유닛이 적에게 패배하면 전장의 모든 아군이 화염 상태가 되며, 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n이 유닛이 전장에 진입하면 100TU 동안 메가 회복 화염이 부여되고, 화속성이거나화염 블라스트 또는화염 드라이브 타입 액티브 스킬을 가진 모든 아군의 스킬 TU 코스트가 20% 감소한다. 이는 다른 가속 스킬의 효과를 덮어쓴다. 화속성이거나 화염 블라스트 또는 화염 드라이브 타입 액티브 스킬을 가진 다른 아군이 증원군에서 전장에 진입할 때마다, 해당 아군의 모든 스킬 TU 코스트가 20% 감소한다.\n\n메가 회복 화염을 가진 유닛은 매 턴 후 회복 화염의 20배 속도로 회복한다. 이는 이 유닛의 회복 화염을 포함한 다른 상태 효과를 덮어쓰며, 화염, 중독, 수면 상태 효과로는 덮어쓸 수 없고, 정화될 수 없다. 메가 회복 화염을 가진유닛에 데미지를 가하거나 받은 모든 유닛은 화염 상태 효과를 얻는다. 메가 회복 화염 만료 시 해당 유닛은 300 TU 동안 회복 화염 효과를 부여받는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "암속성 저항 Lv3",
+                "SkillDescription": "암속성 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "스태프 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 스태프 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "스태프"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "우리 첫 만남이죠... 그렇지요?\n나는 루비, 콜른님의 용입니다.\n나를 잘 못 알아보시는군요?\n\n자 그럼, 가볼까요?\n이런 식으로 도울 수 있게 되어 \n아주 기쁩니다."
+            ],
+            "Login": [
+                "아, 안녕하세요. 잠시만 기다려 주시겠어요? 콜른님은 아직 도착하지 않았어요.\n바로 불러 드리겠습니다."
+            ],
+            "Tap": [
+                "콜른님, 다시 조금... 옆으로 커졌을지 모르겠어요. 아무래도 간식을 압수해야 할 것 같네요.",
+                "이런 모습이라 할지라도 나는 여전히 용입니다.\n용으로서의 자부심을 잃지 않았지요. 이 웅장한 날개를 두고 맹세합니다!",
+                "내가 예전에 \"크르ㄹ\"하고 울었다는 사실을 굳이 왜 꺼내시는 건가요? 이런 모습으로 그걸 말하기가 꽤 부끄럽네요...\n귀엽다고 생각하세요? 그-그럴 리 없어."
+            ],
+            "Idle": [
+                "한숨… 콜른님, 이번엔 어디로 가신 거예요?\n정말이지… 콜른님, 콜른님~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "드래곤 프리즘": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "포효하는 점화": {
+                    "BaseWeight": 100
+                },
+                "콤보 불길": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "CalKouhaiRegular02": {
+        "Name": "루비",
+        "Name2": "충실한 붉은 용",
+        "FullName": "루비 - 충실한 붉은 용",
+        "Profile": "말이 없어도 루비는 표정 하나만으로 콜른의 의도를 파악하는 지능을 지니고 있었다. 콜른이 마법으로 작동하는 도구를 부쉈을 때, 그것을 고쳐준 건 루비였다. 단 것이 먹고 싶어질 때, 사려깊게 숨겨 버리는 것도 루비였다.",
+        "Profile_Ascended": "루비는 오딘의 장치로 인한 변신을 환영했다. 이제 콜른과 이야기하며 더욱 지원할 수 있었다. 루비에게 콜른은 대체할 수 없는 존재였다. 어머니 같은 존재였을 뿐만 아니라, 혼자 둘 수 없는 여동생 같기도 하였다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "엑스",
+        "forFilter_Element": "Fire",
+        "Element": "화속성",
+        "Cost": 34,
+        "Atk_Base": 1001,
+        "Hp_Base": 9415,
+        "Speed": 423,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "화속성 HP 증가",
+            "SkillDescription": "아군 화속성 유닛 최대 HP 10% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "드래곤 프리즘",
+                "SkillDescription": "적 1기에 300% 데미지. 사용자가 화염 상태인 경우 500% 데미지. 이 공격은 사용자가 입은 총 데미지 100%만큼 회복시키고, 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n그런 다음 사용자에게 화염 상태 효과가 부여된다. 이는 사용자의 다른 상태 효과를 덮어쓴다. 이 공격 후 아군은 전장에 있는 화염 상태 적의 수만큼 기력을 얻는다. 화염 상태 유닛에 데미지를 가하거나 받은 모든 유닛도 화염 상태가 된다.",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "포효하는 점화",
+                "SkillDescription": "모든 화염 상태 아군을 사용자 공격의 800%만큼 회복시키고, 격분시킨다. 이는 해당 유닛의 다른 격분 스킬 효과를 덮어쓴다. 격분한 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.\n\n그런 다음 랜덤 아군 1기와 랜덤 적 1기에 화염 상태 효과가 부여되고 감염 상태가 된다.\n\n사용자가 충전을 3회 가진 경우에만 사용 가능하다. 사용자의 모든 충전을 소모한다.\n\n매 턴 종료 후, 이 감염이 발동하여 감염된 유닛 팀의 화염 상태가 아닌 랜덤 유닛 1기에 화염 상태를 적용한다. 각 감염은 3회 발동 후(유효한 타겟이 없더라도) 또는 감염된 유닛이 패배하거나 전장을 떠나면 종료된다. 감염은 상태 효과가 아니며 방지하거나 정화할 수 없지만, 감염으로 확산된 상태 효과는 그럴 수 있다. 유닛은 기존 감염이 종료될 때까지 새로운 감염을 가질 수 없다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "콤보 불길",
+                "SkillDescription": "적 1기에 400% 데미지. 전장의 모든 아군이 화염 상태인 경우 600% 데미지. 이 공격은 사용자가 입은 총 데미지의 100%만큼 회복시키고, 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n사용자가 다른 공격으로 적에게 데미지를 줄 때마다 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "이중 파괴",
+                "SkillDescription": "적 2기에 700% 데미지. 이 공격은 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n같은 팀의 유닛 2기 이상이 화염 상태인 경우에만 사용 가능하다. 10TU 이내에 이 스킬을 3회 사용하면 50TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "-4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Scorching Descent",
+                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+            },
+            {
+                "SkillTitle": "영원히 타오르는 헌신",
+                "SkillDescription": "이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛은 공격으로 받는 데미지가 80% 감소한다. 이 유닛이 전장에 있는 동안 적의 공격을 받을 때마다 데미지 감소율이 10%씩 낮아진다(적 공격 5회시 최소 30%까지).\n\n이 유닛이 적에게 패배하면 전장의 모든 아군이 화염 상태가 되며, 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n이 유닛이 전장에 진입하면 100TU 동안 메가 회복 화염이 부여되고, 화속성이거나화염 블라스트 또는화염 드라이브 타입 액티브 스킬을 가진 모든 아군의 스킬 TU 코스트가 20% 감소한다. 이는 다른 가속 스킬의 효과를 덮어쓴다. 화속성이거나 화염 블라스트 또는 화염 드라이브 타입 액티브 스킬을 가진 다른 아군이 증원군에서 전장에 진입할 때마다, 해당 아군의 모든 스킬 TU 코스트가 20% 감소한다.\n\n메가 회복 화염을 가진 유닛은 매 턴 후 회복 화염의 20배 속도로 회복한다. 이는 이 유닛의 회복 화염을 포함한 다른 상태 효과를 덮어쓰며, 화염, 중독, 수면 상태 효과로는 덮어쓸 수 없고, 정화될 수 없다. 메가 회복 화염을 가진유닛에 데미지를 가하거나 받은 모든 유닛은 화염 상태 효과를 얻는다. 메가 회복 화염 만료 시 해당 유닛은 300 TU 동안 회복 화염 효과를 부여받는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "암속성 저항 Lv3",
+                "SkillDescription": "암속성 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "스태프 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 스태프 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "스태프"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "우리 첫 만남이죠... 그렇지요?\n나는 루비, 콜른님의 용입니다.\n나를 잘 못 알아보시는군요?\n\n자 그럼, 가볼까요?\n이런 식으로 도울 수 있게 되어 \n아주 기쁩니다."
+            ],
+            "Login": [
+                "아, 안녕하세요. 잠시만 기다려 주시겠어요? 콜른님은 아직 도착하지 않았어요.\n바로 불러 드리겠습니다."
+            ],
+            "Tap": [
+                "콜른님, 다시 조금... 옆으로 커졌을지 모르겠어요. 아무래도 간식을 압수해야 할 것 같네요.",
+                "이런 모습이라 할지라도 나는 여전히 용입니다.\n용으로서의 자부심을 잃지 않았지요. 이 웅장한 날개를 두고 맹세합니다!",
+                "내가 예전에 \"크르ㄹ\"하고 울었다는 사실을 굳이 왜 꺼내시는 건가요? 이런 모습으로 그걸 말하기가 꽤 부끄럽네요...\n귀엽다고 생각하세요? 그-그럴 리 없어."
+            ],
+            "Idle": [
+                "한숨… 콜른님, 이번엔 어디로 가신 거예요?\n정말이지… 콜른님, 콜른님~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "드래곤 프리즘": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "포효하는 점화": {
+                    "BaseWeight": 100
+                },
+                "콤보 불길": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "이중 파괴": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.3,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

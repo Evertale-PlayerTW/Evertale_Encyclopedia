@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1772600353,
+    "Time": 1772605201,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29288,6 +29288,14 @@
 		"or":{
 			"class": "MonsterConditions",
 			"hpLessThanPercent": 0.9500001
+		}
+	},
+	"HPBelow50PercentOr1Kill": {
+		"class": "MonsterConditions",
+		"hpLessThanPercent": 0.5000001,
+		"or":{
+			"class": "MonsterConditions",
+			"killsMade": 1
 		}
 	},
 	"NotDisableFallBackImmunity": {

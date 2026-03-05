@@ -128036,7 +128036,7 @@
         "Hp_Base": 10089,
         "Speed": 353,
         "Power": 169548,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "嘻嘻……闻到血的味道了……",
         "LeaderSkill": {
             "SkillTitle": "雷属性振奋",
@@ -128342,5 +128342,342 @@
                 "RelationshipBuff": "生命值+3%"
             }
         }
+    },
+    "CalKouhaiRegular01": {
+        "Name": "卢比",
+        "Name2": "红翼守护龙",
+        "FullName": "卢比 - 红翼守护龙",
+        "Profile": "对于幼龙卢比而言，卡莲是她的救命恩人。在永恒之灾的时候，双亲被魔物杀害，她被遗弃在冰冷巢穴中，奄奄一息。而将她救起，并如母亲般抚养她长大的，正是卡莲。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 28,
+        "Atk_Base": 823,
+        "Hp_Base": 7095,
+        "Speed": 423,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "这对翅膀，将成为守护你的盾——",
+        "LeaderSkill": {
+            "SkillTitle": "火属性振奋",
+            "SkillDescription": "所有火属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "龙之棱镜",
+                "SkillDescription": "对1个敌人造成300%的伤害并使自身获得燃烧状态；若使用者已经处于燃烧状态则改为500%的伤害；己方获得数量等同于届时场上处于燃烧状态敌方单位数量的灵气。使用者回复所造成伤害100%的生命值。此技能无视非BOSS目标防止被击败的效果或被动技能。燃烧将覆盖身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "升龙炎",
+                "SkillDescription": "回复场上所有处于燃烧状态的队友相当于使用者攻击力800%的生命值并使其攻击力增加为1.5倍直到其下个回合结束；场上随机1个敌方单位与1个我方单位获得燃烧状态，并使其传染。使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。\n此效果会覆盖原先的狂热效果。每当任意单位的回合结束后，有传染效果的敌方单位将使随机1个不处于燃烧状态的其他敌方单位陷入燃烧状态。传染将在触发3次（无论是否存在有效目标）或该单位离场后被移除。传染无法被净化，但其施加的状态效果可以被净化。同一个单位在其传染效果结束前不会获得新的传染。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "龙之气息",
+                "SkillDescription": "每当使用者成功用另一个主动技能对敌人造成伤害后才能发动，对1个敌人造成400%的伤害；若场上全部己方单位处于燃烧状态则伤害上升为600%。使用者回复所造成伤害100%的生命值。此技能无视非BOSS目标防止被击败的效果或被动技能。在离场或使用一次后需要再度满足发动条件才能第二次发动。此技能为顺势类主动技能。",
+                "TU": 1,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "龙之报恩",
+                "SkillDescription": "此单位在进入战场后场上所有己方单位获得速败抵抗并在下一个任意单位的回合结束时使场上所有敌方单位陷入燃烧状态。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。\n此单位不会因为燃烧的伤害被击败。若己方场上存在其他处于燃烧状态的单位，此单位不会被眩晕。\n若场上全部敌方单位处于燃烧状态，此单位攻击力增加0.5倍。此效果可与其他增加攻击力的效果叠加（和狂热同时生效时攻击力将会变为原本的2倍）。\n每当此单位回合结束时，眩晕场上所有处于燃烧状态的敌人25TU。\n若己方场上存在至少2个处于燃烧状态的单位，每当此单位通过攻击对处于燃烧状态的敌人造成伤害时，随机1个处于燃烧状态的己方单位TU归零立即获得一个回合。\n每当己方单位通过攻击对敌方单位造成伤害时，此单位获得1格“能量”。若该敌方单位处于燃烧状态，则随机1个己方单位获得贯通。“贯通”将使单位在其下一个回合结束前的攻击无视敌方的减伤效果。能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。"
+            },
+            {
+                "SkillTitle": "红翼守护龙",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。此单位无法从场上回到援军队伍。\n此单位受到敌方攻击的伤害减少80%，每当此单位受到敌方攻击伤害时，此减伤效果降低10%，至多降低至30%。\n此单位被敌方攻击击败时，场上所有己方单位获得燃烧状态。燃烧会覆盖身上其他的状态效果。\n此单位进场时获得持续100TU的燃烧（治愈）状态，且火属性或有“火焰”类的主动技能的己方单位所有技能TU减少20%。火属性或有“火焰”类的主动技能的己方单位进场时其所有技能TU减少20%。此效果会覆盖先前的“加速”效果。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时此单位获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "暗系耐性Lv3",
+                "SkillDescription": "若此单位受到暗属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "法杖大师",
+                "SkillDescription": "若此单位装备法杖类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "法杖"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "初次见面……对吧？\n我是卡莲大人的龙，卢比。\n是不是有些认不出来了呢？\n\n那么，出发吧。\n此刻能这样为您效力，\n我真的很高兴。"
+            ],
+            "Login": [
+                "啊，您好。卡莲大人还未到场，可以稍等一下吗？\n非常抱歉，我这就去请她过来。"
+            ],
+            "Tap": [
+                "卡莲大人，最近好像又稍微……\n横向变大了一点。看来得把她的零食收走才行……",
+                "即便如此，我依然是龙。\n就算化为人形，也未曾舍弃这份骄傲。以这对威严的翅膀为誓！",
+                "“咕噜噜”……吗……如今再说起来，多少有些害羞。\n用现在这副模样说出来……嗯，说很可爱？怎、怎么可能……"
+            ],
+            "Idle": [
+                "唉……卡莲大人，又跑到哪里去了呢。\n那个人真是的……卡莲大人，卡莲大人～？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "龙之棱镜": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "升龙炎": {
+                    "BaseWeight": 100
+                },
+                "龙之气息": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "CalKouhaiRegular02": {
+        "Name": "卢比",
+        "Name2": "红翼守护龙",
+        "FullName": "卢比 - 红翼守护龙",
+        "Profile": "即便尚未学会言语，卢比也拥有仅凭卡莲一个表情便能领会其心意的聪慧。每当卡莲弄坏魔导具，或是贪嘴多拿点心时，悄悄将器具修好，或偷偷把点心藏起来，那正是卢比默默的体贴。",
+        "Profile_Ascended": "对于因奥丁装置而发生的变化，卢比坦率地感到欣喜。这样一来，她就能与卡莲交谈，也能更好地支持她。对卢比而言，卡莲既是已逝双亲的替代，同时又像一个让人放不下心的妹妹，是独一无二的人。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 34,
+        "Atk_Base": 1001,
+        "Hp_Base": 9415,
+        "Speed": 423,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "火属性振奋",
+            "SkillDescription": "所有火属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "龙之棱镜",
+                "SkillDescription": "对1个敌人造成300%的伤害并使自身获得燃烧状态；若使用者已经处于燃烧状态则改为500%的伤害；己方获得数量等同于届时场上处于燃烧状态敌方单位数量的灵气。使用者回复所造成伤害100%的生命值。此技能无视非BOSS目标防止被击败的效果或被动技能。燃烧将覆盖身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "升龙炎",
+                "SkillDescription": "回复场上所有处于燃烧状态的队友相当于使用者攻击力800%的生命值并使其攻击力增加为1.5倍直到其下个回合结束；场上随机1个敌方单位与1个我方单位获得燃烧状态，并使其传染。使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。\n此效果会覆盖原先的狂热效果。每当任意单位的回合结束后，有传染效果的敌方单位将使随机1个不处于燃烧状态的其他敌方单位陷入燃烧状态。传染将在触发3次（无论是否存在有效目标）或该单位离场后被移除。传染无法被净化，但其施加的状态效果可以被净化。同一个单位在其传染效果结束前不会获得新的传染。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "龙之气息",
+                "SkillDescription": "每当使用者成功用另一个主动技能对敌人造成伤害后才能发动，对1个敌人造成400%的伤害；若场上全部己方单位处于燃烧状态则伤害上升为600%。使用者回复所造成伤害100%的生命值。此技能无视非BOSS目标防止被击败的效果或被动技能。在离场或使用一次后需要再度满足发动条件才能第二次发动。此技能为顺势类主动技能。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "最强二人",
+                "SkillDescription": "对2个敌人造成700%的伤害。此技能无视非BOSS目标防止被击败的效果或被动技能。\n仅当场上存在一方同时有至少2个单位处于燃烧状态时可以使用。若此技能在10TU内使用达到3次，则有50TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "-4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "龙之报恩",
+                "SkillDescription": "此单位在进入战场后场上所有己方单位获得速败抵抗并在下一个任意单位的回合结束时使场上所有敌方单位陷入燃烧状态。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。\n此单位不会因为燃烧的伤害被击败。若己方场上存在其他处于燃烧状态的单位，此单位不会被眩晕。\n若场上全部敌方单位处于燃烧状态，此单位攻击力增加0.5倍。此效果可与其他增加攻击力的效果叠加（和狂热同时生效时攻击力将会变为原本的2倍）。\n每当此单位回合结束时，眩晕场上所有处于燃烧状态的敌人25TU。\n若己方场上存在至少2个处于燃烧状态的单位，每当此单位通过攻击对处于燃烧状态的敌人造成伤害时，随机1个处于燃烧状态的己方单位TU归零立即获得一个回合。\n每当己方单位通过攻击对敌方单位造成伤害时，此单位获得1格“能量”。若该敌方单位处于燃烧状态，则随机1个己方单位获得贯通。“贯通”将使单位在其下一个回合结束前的攻击无视敌方的减伤效果。能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。"
+            },
+            {
+                "SkillTitle": "红翼守护龙",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。此单位无法从场上回到援军队伍。\n此单位受到敌方攻击的伤害减少80%，每当此单位受到敌方攻击伤害时，此减伤效果降低10%，至多降低至30%。\n此单位被敌方攻击击败时，场上所有己方单位获得燃烧状态。燃烧会覆盖身上其他的状态效果。\n此单位进场时获得持续100TU的燃烧（治愈）状态，且火属性或有“火焰”类的主动技能的己方单位所有技能TU减少20%。火属性或有“火焰”类的主动技能的己方单位进场时其所有技能TU减少20%。此效果会覆盖先前的“加速”效果。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时此单位获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "暗系耐性Lv3",
+                "SkillDescription": "若此单位受到暗属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "法杖大师",
+                "SkillDescription": "若此单位装备法杖类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "法杖"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "初次见面……对吧？\n我是卡莲大人的龙，卢比。\n是不是有些认不出来了呢？\n\n那么，出发吧。\n此刻能这样为您效力，\n我真的很高兴。"
+            ],
+            "Login": [
+                "啊，您好。卡莲大人还未到场，可以稍等一下吗？\n非常抱歉，我这就去请她过来。"
+            ],
+            "Tap": [
+                "卡莲大人，最近好像又稍微……\n横向变大了一点。看来得把她的零食收走才行……",
+                "即便如此，我依然是龙。\n就算化为人形，也未曾舍弃这份骄傲。以这对威严的翅膀为誓！",
+                "“咕噜噜”……吗……如今再说起来，多少有些害羞。\n用现在这副模样说出来……嗯，说很可爱？怎、怎么可能……"
+            ],
+            "Idle": [
+                "唉……卡莲大人，又跑到哪里去了呢。\n那个人真是的……卡莲大人，卡莲大人～？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "龙之棱镜": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "升龙炎": {
+                    "BaseWeight": 100
+                },
+                "龙之气息": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "最强二人": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.3,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

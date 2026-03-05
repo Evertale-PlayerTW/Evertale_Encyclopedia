@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1771898757,
+  "Time": 1772095125,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -15994,7 +15994,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "ThorMace02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "ThorMace02",
@@ -16014,7 +16015,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "ThorMace03",
       "evolveFrom": "ThorMace01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "ThorMace03",
@@ -16033,6 +16035,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "ThorMace02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "FireDragonAxe01",
+      "family": "FireDragonAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4TargetKillOrHPBelow50Percent"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 517,
+      "baseMaxHp": 2790,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "FireDragonAxe02",
+      "cost": 11
+    },
+    {
+      "name": "FireDragonAxe02",
+      "family": "FireDragonAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5TargetKillOrHPBelow50Percent"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 625,
+      "baseMaxHp": 3375,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "FireDragonAxe03",
+      "evolveFrom": "FireDragonAxe01",
+      "cost": 17
+    },
+    {
+      "name": "FireDragonAxe03",
+      "family": "FireDragonAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6TargetKillOrHPBelow50Percent"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 678,
+      "baseMaxHp": 3610,
+      "bundleNumber": 9,
+      "weaponPref": "Axe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "FireDragonAxe02",
       "cost": 23
     }
   ]

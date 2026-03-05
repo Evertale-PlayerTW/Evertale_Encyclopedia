@@ -128036,7 +128036,7 @@
         "Hp_Base": 10089,
         "Speed": 353,
         "Power": 169548,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Hehehe... Da ist der Geruch von Blut...",
         "LeaderSkill": {
             "SkillTitle": "Sturm-LP hoch",
@@ -128342,5 +128342,342 @@
                 "RelationshipBuff": "LP+3%"
             }
         }
+    },
+    "CalKouhaiRegular01": {
+        "Name": "Ruvi",
+        "Name2": "Treuer Roter Drache",
+        "FullName": "Ruvi - Treuer Roter Drache",
+        "Profile": "Für die junge Ruvi war Callen ihr Retter. Ihre Eltern wurden während des Pandemoniums von Dämonen getötet und ließen die sterbende junge Drachenfrau in ihrem kalten Nest zurück. Es war niemand anderes als Callen, der sie rettete und großzog.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axt",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 28,
+        "Atk_Base": 823,
+        "Hp_Base": 7095,
+        "Speed": 423,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Diese Flügel sind der Schild, der dich schützt.",
+        "LeaderSkill": {
+            "SkillTitle": "Feuer-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Feuer-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Drachenprisma",
+                "SkillDescription": "300% Schaden an 1 Gegner. 500% Schaden stattdessen, wenn der Benutzer brennt. Dieser Angriff heilt den Benutzer um 100% des verursachten Schadens und ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\nDem Benutzer wird dann der Statuseffekt Brennen verliehen. Dieser überschreibt andere Statuseffekte des Benutzers. Verbündete erhalten nach diesem Angriff Geist in Höhe der Anzahl der brennenden Gegner auf dem Schlachtfeld. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, wird ebenfalls verbrannt.",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Brüllende Zündung",
+                "SkillDescription": "Heilt alle brennenden Verbündeten um 800% des Angriffs des Benutzers und macht sie wütend. Dies überschreibt die Effekte anderer Fertigkeiten der Wut auf diese Einheiten. Der Angriff der wütenden Einheiten wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht.\n\nDann erhalten 1 zufälliger Verbündeter und 1 zufälliger Gegner den Statuseffekt Brennen und werden damit infiziert.\n\nNur möglich, wenn der Anwender 3 Ladungen gespeichert hat. Verbraucht alle Ladungen des Benutzers.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um eine zufällige, nicht brennende Einheit im Team der infizierten Einheit mit Brennen zu belegen. Jede Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder wenn die infizierte Einheit besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Statuseffekt, der durch die Infektion verbreitet wird, kann es. Eine Einheit kann erst dann eine neue Infektion bekommen, wenn ihre bestehende endet.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Komboflamme",
+                "SkillDescription": "400% Schaden an 1 Gegner. 600% Schaden stattdessen, wenn alle Verbündeten auf dem Schlachtfeld brennen. Dieser Angriff heilt den Anwender um 100% des verursachten Schadens und ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\n Wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 1,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Scorching Descent",
+                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+            },
+            {
+                "SkillTitle": "Immerbrandhingabe",
+                "SkillDescription": "Wenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\nDiese Einheit hat eine 80%ige Schadensreduzierung durch Angriffe. Diese Reduktion wird jedes Mal um 10% verringert, wenn diese Einheit von einem gegnerischen Angriff getroffen wird, während sie sich auf dem Schlachtfeld befindet (bis zu einem Minimum von 30%, nachdem sie von 5 gegnerischen Angriffen getroffen wurde).\n\nWenn diese Einheit von einem Gegner besiegt wird, werden alle Verbündeten auf dem Schlachtfeld verbrannt, was andere Statuseffekte auf diesen Einheiten überschreibt. \n\nWenn diese Einheit das Schlachtfeld betritt, erhält sie Mega-Heilbrand für 100 ZE, und bei allen Verbündeten, die entweder dem Feuerelement angehören oder eine aktive Fertigkeit vom Typ Flammenmeer\n oder Flammen-Explosion haben, werden die ZE-Kosten für alle ihre Fertigkeiten um 20% reduziert. Dies überschreibt die Effekte anderer Fertigkeiten des Typs Hast. Wenn ein anderer Verbündeter, der entweder dem Feuerelement angehört oder über eine aktive Fertigkeit des Typs Flammenmeer\n oder Flammen-Explosion verfügt, das Schlachtfeld durch Verstärkung betritt, werden die ZE-Kosten für alle seine Fertigkeiten um 20 % gesenkt.\n\nEine Einheit mit Mega-Heilbrand heilt sich nach jeder Runde mit der 20-fachen Rate wie Heilbrand. Dieser Effekt überschreibt andere Statuseffekte einschließlich Heilbrand auf dieser Einheit, kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben werden und kann nicht geläutert werden. Jede Einheit, die einer Einheit mit Megaheilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Schatten-Widerst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Schatten-Einheiten."
+            },
+            {
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Es ist unser erstes Treffen... Richtig?\n Ich bin Ruvi, Lady Callens Drache.\n Du erkennst mich kaum wieder, oder?\n Nun denn, sollen wir gehen?\n Es freut mich sehr, dir auf diese Weise helfen zu können."
+            ],
+            "Login": [
+                "Oh, hallo. Könntest du einen Moment warten? Lady Callen ist noch nicht da. \nIch werde sie sofort anrufen."
+            ],
+            "Tap": [
+                "Lady Callen, du bist vielleicht wieder ein bisschen... schräg gewachsen. Ich nehme an, ich muss deine Snacks konfiszieren.",
+                "Ich bin immer noch ein Drache, auch wenn ich so aussehe.\n Ich habe meinen Stolz als Drache nicht verloren. Ich schwöre es bei diesen prächtigen Flügeln!",
+                "Warum erwähnst du die Tatsache, dass ich früher \"krrr\" geweint habe? Es ist ziemlich peinlich, es in dieser Form zu sagen...\nDu findest das süß? Das kann nicht wahr sein."
+            ],
+            "Idle": [
+                "Seufz... Lady Callen, wo bist du diesmal hingegangen?\nEhrlich gesagt... Lady Callen, Lady Callen～?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "Drachenprisma": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Brüllende Zündung": {
+                    "BaseWeight": 100
+                },
+                "Komboflamme": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "CalKouhaiRegular02": {
+        "Name": "Ruvi",
+        "Name2": "Treuer Roter Drache",
+        "FullName": "Ruvi - Treuer Roter Drache",
+        "Profile": "Auch ohne Worte war Ruvi schlau genug, um Callens Absichten aus einem einzigen Blick zu lesen. Wenn Callen ein magisches Werkzeug kaputt machte, war es Ruvi, die es reparierte. Wenn sie Lust auf Süßigkeiten hatte, war es Ruvi, die sie heimlich versteckte.",
+        "Profile_Ascended": "Ruvi war total begeistert von der Veränderung, die Odins Gerät gebracht hat. Jetzt konnte sie mit Callen quatschen und sie noch mehr unterstützen. Für Ruvi war Callen einfach unersetzlich. Sie war nicht nur wie eine Mutter für sie, sondern auch wie eine kleine Schwester, die man nicht allein lassen konnte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axt",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 34,
+        "Atk_Base": 1001,
+        "Hp_Base": 9415,
+        "Speed": 423,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Feuer-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Feuer-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Drachenprisma",
+                "SkillDescription": "300% Schaden an 1 Gegner. 500% Schaden stattdessen, wenn der Benutzer brennt. Dieser Angriff heilt den Benutzer um 100% des verursachten Schadens und ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\nDem Benutzer wird dann der Statuseffekt Brennen verliehen. Dieser überschreibt andere Statuseffekte des Benutzers. Verbündete erhalten nach diesem Angriff Geist in Höhe der Anzahl der brennenden Gegner auf dem Schlachtfeld. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit Schaden erlitten hat, wird ebenfalls verbrannt.",
+                "TU": 70,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Brüllende Zündung",
+                "SkillDescription": "Heilt alle brennenden Verbündeten um 800% des Angriffs des Benutzers und macht sie wütend. Dies überschreibt die Effekte anderer Fertigkeiten der Wut auf diese Einheiten. Der Angriff der wütenden Einheiten wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht.\n\nDann erhalten 1 zufälliger Verbündeter und 1 zufälliger Gegner den Statuseffekt Brennen und werden damit infiziert.\n\nNur möglich, wenn der Anwender 3 Ladungen gespeichert hat. Verbraucht alle Ladungen des Benutzers.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um eine zufällige, nicht brennende Einheit im Team der infizierten Einheit mit Brennen zu belegen. Jede Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder wenn die infizierte Einheit besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Statuseffekt, der durch die Infektion verbreitet wird, kann es. Eine Einheit kann erst dann eine neue Infektion bekommen, wenn ihre bestehende endet.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Komboflamme",
+                "SkillDescription": "400% Schaden an 1 Gegner. 600% Schaden stattdessen, wenn alle Verbündeten auf dem Schlachtfeld brennen. Dieser Angriff heilt den Anwender um 100% des verursachten Schadens und ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\n Wird jedes Mal freigeschaltet, wenn der Anwender einen Gegner mit einem anderen Angriff schädigt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Dualzerstörung",
+                "SkillDescription": "700% Schaden an 2 Gegnern. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\nNur anwendbar, wenn 2 oder mehr Einheiten desselben Teams brennen. Wenn diese Fertigkeit 3 Mal innerhalb von 10 ZE eingesetzt wird, wird sie für 50 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "-4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Scorching Descent",
+                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+            },
+            {
+                "SkillTitle": "Immerbrandhingabe",
+                "SkillDescription": "Wenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\nDiese Einheit hat eine 80%ige Schadensreduzierung durch Angriffe. Diese Reduktion wird jedes Mal um 10% verringert, wenn diese Einheit von einem gegnerischen Angriff getroffen wird, während sie sich auf dem Schlachtfeld befindet (bis zu einem Minimum von 30%, nachdem sie von 5 gegnerischen Angriffen getroffen wurde).\n\nWenn diese Einheit von einem Gegner besiegt wird, werden alle Verbündeten auf dem Schlachtfeld verbrannt, was andere Statuseffekte auf diesen Einheiten überschreibt. \n\nWenn diese Einheit das Schlachtfeld betritt, erhält sie Mega-Heilbrand für 100 ZE, und bei allen Verbündeten, die entweder dem Feuerelement angehören oder eine aktive Fertigkeit vom Typ Flammenmeer\n oder Flammen-Explosion haben, werden die ZE-Kosten für alle ihre Fertigkeiten um 20% reduziert. Dies überschreibt die Effekte anderer Fertigkeiten des Typs Hast. Wenn ein anderer Verbündeter, der entweder dem Feuerelement angehört oder über eine aktive Fertigkeit des Typs Flammenmeer\n oder Flammen-Explosion verfügt, das Schlachtfeld durch Verstärkung betritt, werden die ZE-Kosten für alle seine Fertigkeiten um 20 % gesenkt.\n\nEine Einheit mit Mega-Heilbrand heilt sich nach jeder Runde mit der 20-fachen Rate wie Heilbrand. Dieser Effekt überschreibt andere Statuseffekte einschließlich Heilbrand auf dieser Einheit, kann nicht von den Statuseffekten Brennen, Gift oder Schlaf überschrieben werden und kann nicht geläutert werden. Jede Einheit, die einer Einheit mit Megaheilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Schatten-Widerst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Schatten-Einheiten."
+            },
+            {
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Es ist unser erstes Treffen... Richtig?\n Ich bin Ruvi, Lady Callens Drache.\n Du erkennst mich kaum wieder, oder?\n Nun denn, sollen wir gehen?\n Es freut mich sehr, dir auf diese Weise helfen zu können."
+            ],
+            "Login": [
+                "Oh, hallo. Könntest du einen Moment warten? Lady Callen ist noch nicht da. \nIch werde sie sofort anrufen."
+            ],
+            "Tap": [
+                "Lady Callen, du bist vielleicht wieder ein bisschen... schräg gewachsen. Ich nehme an, ich muss deine Snacks konfiszieren.",
+                "Ich bin immer noch ein Drache, auch wenn ich so aussehe.\n Ich habe meinen Stolz als Drache nicht verloren. Ich schwöre es bei diesen prächtigen Flügeln!",
+                "Warum erwähnst du die Tatsache, dass ich früher \"krrr\" geweint habe? Es ist ziemlich peinlich, es in dieser Form zu sagen...\nDu findest das süß? Das kann nicht wahr sein."
+            ],
+            "Idle": [
+                "Seufz... Lady Callen, wo bist du diesmal hingegangen?\nEhrlich gesagt... Lady Callen, Lady Callen～?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.01,
+                "AllAlliesIsBurning": 1.01,
+                "AllEnemiesIsBurning": 1.01
+            },
+            "SkillUse": {
+                "Drachenprisma": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Brüllende Zündung": {
+                    "BaseWeight": 100
+                },
+                "Komboflamme": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Dualzerstörung": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.5,
+                        "IsMirage": 0.75,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 0.3,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 10,
+                        "On1HPIsProtecting": 10,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

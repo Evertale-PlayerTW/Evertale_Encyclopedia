@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1772597263,
+	"Time": 1772605021,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -43805,6 +43805,137 @@
 			"abilityEffect": "ThorSpecial",
 			"recommendEffectWhenUsable": 1,
 			"useCondition": "NotProtecting"
+		},
+		"SingleAttackACalKouhaiRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath","AttackerIgnition"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs":["Burn","MomentumReady","AddSpiritEqualToBurningEnemiesEOT"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"buffAppliedEffects": ["BurnSelf1"]
+			},{
+				"buffs": ["GrantBurningAllyTheTurnIfNotAloneEBB"],
+				"buffBackMode": true,
+				"applyConditions": "IsBurning",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "CalKouhaiAttack1",
+			"attackScalors": ["GoodIfBurning"],
+			"conditionedAbilityEffects": ["CalKouhaiAttack1","CalKouhaiAttack1"],
+			"flags": ["Burn", "ApplyStatusToSelf"],
+			"recommendEffectWhenUsable": -2
+		},
+		"BuffACalKouhaiRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["Heal800Percent","AttackPlus50Percent1TurnOnly"],
+				"applyToTargetType": "Friendly",
+				"skipAbilityEffect": true,
+				"buffAppliedEffects": ["SmallHeal1"],
+				"applyConditions": "IsBurning"
+			},{
+				"buffs": ["AllyAndEnemyGrantedBurningInfectionEBB","RemoveEnergy"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["Healer"],
+			"hideTargetingInfo": true,
+			"abilityEffect": "CalKouhaiBuff",
+			"useCondition": "IsCharged3"
+		},
+		"BigSingleAttackACalKouhaiRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["MomentumUsed"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["GrantBurningAllyTheTurnIfNotAloneEBB"],
+				"buffBackMode": true,
+				"applyConditions": "IsBurning",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "CalKouhaiStorm",
+			"attackScalors": ["GoodIfAllAlliesIsBurning"],
+			"conditionedAbilityEffects": ["CalKouhaiStorm","CalKouhaiStorm"],
+			"flags": ["Momentum","MomentumReadyUser","BurnForce"],
+			"useCondition": "HasDamagedWithAttack",
+			"recommendEffectWhenUsable": -1,
+			"killLockSkillIcon": "IconRedEx01",
+			"killLockUnlockedSkillIcon": "IconGreenCircle01",
+			"killLockUnlockedKey": "SkillReadyToUseKey",
+			"killLockLockedKey": "NeedToDamageWithAttackLockLockedKey"
+		},
+		"SpecialAttackACalKouhaiRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs":["MomentumReady"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["GrantBurningAllyTheTurnIfNotAloneEBB"],
+				"buffBackMode": true,
+				"applyConditions": "IsBurning",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["HijikataCounter","HijikataCounterFuseAfterTime"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["CalKouhaiRegularCooldown50"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"applyConditions": "IsHijikataCharged2",
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"recommendEffectWhenUsable": 1,
+			"ignoreEffectForSourceEvent": true,
+			"abilityEffect": "CalKouhaiSpecial",
+			"useCondition": "NotInstantCooldownAnd2AlliesOr2EnemiesBurning"
 		}
 	}
 }

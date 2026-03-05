@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1771923976,
+  "Time": 1772089872,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28508,6 +28508,55 @@
       "tuCost": 70,
       "useLimit": 3,
       "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackACalKouhaiRegular",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        4
+      ],
+      "config": "SingleAttackACalKouhaiRegular",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BuffACalKouhaiRegular",
+      "class": "Ability",
+      "config": "BuffACalKouhaiRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BigSingleAttackACalKouhaiRegular",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        5
+      ],
+      "config": "BigSingleAttackACalKouhaiRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackACalKouhaiRegular",
+      "class": "Ability",
+      "abilityScalor": 6,
+      "config": "SpecialAttackACalKouhaiRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 4,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }
