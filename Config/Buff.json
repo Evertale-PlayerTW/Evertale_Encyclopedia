@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1772613628,
+	"Time": 1772758483,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -43469,7 +43469,7 @@
 		},
 		"Add1DeathMinionNextSendToBackOfReinforcementRemoveBuffs": {
 			"class": "Buff",
-			"behaviors": ["SummonMonster","SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
+			"behaviors": ["SummonMonster","SendToReinforcements","RemoveBuffs"],
 			"behaviorOverrides": [{
 				"monsterType": "DeathMinion01",
 				"frontOfLineup": true
@@ -43481,7 +43481,7 @@
 		},
 		"Add2DeathMinionNextSendToBackOfReinforcementRemoveBuffs": {
 			"class": "Buff",
-			"behaviors": ["SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
+			"behaviors": ["SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffs"],
 			"behaviorOverrides": [{
 				"monsterType": "DeathMinion01",
 				"frontOfLineup": true
@@ -43496,7 +43496,7 @@
 		},
 		"Add3DeathMinionNextSendToBackOfReinforcementRemoveBuffs": {
 			"class": "Buff",
-			"behaviors": ["SummonMonster","SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
+			"behaviors": ["SummonMonster","SummonMonster","SummonMonster","SendToReinforcements","RemoveBuffs"],
 			"behaviorOverrides": [{
 				"monsterType": "DeathMinion01",
 				"frontOfLineup": true
@@ -55820,7 +55820,7 @@
 		"SendToRandomReinforcementsIfNotSleepingBoss": {
 			"class": "Buff",
 			"stackName": "KnockRandom",
-			"behaviors": ["SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
+			"behaviors": ["SendToReinforcements","RemoveBuffs"],
 			"behaviorOverrides": [{
 				"randomLocation": true
 			},{
@@ -56429,7 +56429,7 @@
 		"SendToRandomReinforcementsIfNotSleeping": {
 			"class": "Buff",
 			"stackName": "KnockRandom",
-			"behaviors": ["SendToReinforcements","RemoveBuffsIfNotKnockbackImmune"],
+			"behaviors": ["SendToReinforcements","RemoveBuffs"],
 			"behaviorOverrides": [{
 				"randomLocation": true
 			},{
