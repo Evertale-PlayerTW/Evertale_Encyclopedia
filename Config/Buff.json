@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1772758483,
+	"Time": 1772793564,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -78598,9 +78598,21 @@
 		},
 		"GrantBurningAllyTheTurnIfNotAloneEBB": {
 			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["GrantBurningAllyTheTurnCalKouhai"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0,
+			"applyConditions": "2AlliesBurning"
+		},
+		"GrantBurningAllyTheTurnCalKouhai": {
+			"class": "Buff",
 			"behaviors": ["BuffOnMonsterTurnEnd"],
 			"behaviorOverrides": [{
-				"randomEnemyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"randomAllyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
 				"numRandomToBuff": 1,
 				"spreadCondition": "IsBurning",
 				"activeMonsterConditions": "AlwaysTrue"
@@ -78608,8 +78620,7 @@
 			"showAsPermanent": false,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
-			"duration": 0,
-			"applyConditions": "2AlliesBurning"
+			"duration": 0
 		},
 		"StunImmunityIfAllyBurning": {
 			"class": "Buff",
