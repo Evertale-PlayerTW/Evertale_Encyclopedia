@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1772090590,
+  "Time": 1772091498,
   "Monster": [
     {
       "name": "HammerPantsThief01",
@@ -71162,6 +71162,7 @@
       "consolationMultiplier": 0,
       "battleOrbImageFlip": 0,
       "attackType": "Bash",
+      "visible": 1,
       "skillVoices": {
         "0": [
           1,
@@ -71261,6 +71262,223 @@
       "battleOrbImageFlip": 1,
       "attackType": "Bash",
       "cosmoName": "CalKouhaiRegular03",
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "victoryVoices": [
+        25,
+        26
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "FreyaNew01",
+      "family": "FreyaNew",
+      "class": "Monster",
+      "leaderBuff": "AttackUpFireD",
+      "leaderBuffCondition": "IsFire",
+      "activeSkills": {
+        "0": "SingleAttackAFreyaNew",
+        "1": "DoubleAttackAFreyaNew",
+        "2": "BuffAFreyaNew"
+      },
+      "passives": {
+        "0": "WarModePassiveAFreyaNew",
+        "1": "BurningGoddessPassiveAFreyaNew",
+        "2": "PlusHPBoostLv3",
+        "3": "PlusAttackBoostLv3",
+        "4": "DeathMinusDamageLv3",
+        "5": "AddWeaponPrefGreatSword"
+      },
+      "cost": 28,
+      "baseAttack": 855,
+      "baseMaxHp": 6935,
+      "speed": 512,
+      "element": "Fire",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "superEvolve1": "FreyaNew02",
+      "aiTargetPickWeight": 1,
+      "stars": 5,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 0,
+      "attackType": "Bash",
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ],
+      "victoryVoices": [
+        25
+      ],
+      "lineupVoices": [
+        27,
+        28,
+        29
+      ],
+      "evolutionVoices": [
+        38
+      ],
+      "trainVoices": [
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "titleVoices": [
+        44
+      ],
+      "gachaVoices": [
+        45
+      ],
+      "loginVoices": [
+        46
+      ],
+      "tapVoices": [
+        47,
+        48,
+        49
+      ],
+      "idleVoices": [
+        50
+      ]
+    },
+    {
+      "name": "FreyaNew02",
+      "family": "FreyaNew",
+      "class": "Monster",
+      "leaderBuff": "AttackUpFireD",
+      "leaderBuffCondition": "IsFire",
+      "activeSkills": {
+        "0": "SingleAttackAFreyaNew",
+        "1": "DoubleAttackAFreyaNew",
+        "2": "BuffAFreyaNew",
+        "3": "SpecialAttackAFreyaNew"
+      },
+      "passives": {
+        "0": "WarModePassiveAFreyaNew",
+        "1": "BurningGoddessPassiveAFreyaNew",
+        "2": "PlusHPBoostLv3",
+        "3": "PlusAttackBoostLv3",
+        "4": "DeathMinusDamageLv3",
+        "5": "AddWeaponPrefGreatSword"
+      },
+      "cost": 34,
+      "baseAttack": 914,
+      "baseMaxHp": 9850,
+      "speed": 512,
+      "element": "Fire",
+      "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "secure": 1,
+      "evolveFrom": "FreyaNew01",
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 0,
+      "battleOrbImageFlip": 1,
+      "attackType": "Bash",
+      "cosmoName": "FreyaNew03",
       "skillVoices": {
         "0": [
           1,

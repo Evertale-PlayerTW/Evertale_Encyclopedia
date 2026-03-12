@@ -17266,6 +17266,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -17598,6 +17609,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -20937,6 +20959,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -21330,6 +21363,17 @@
                     "FurCoatLizard01",
                     "SquidHead01",
                     "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATT+2%"
             }
@@ -26596,6 +26640,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -26808,6 +26863,17 @@
                     "FrogSorceror01",
                     "BeastCleric01",
                     "TrainerBoy01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATT+2%"
             }
@@ -118978,7 +119044,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lancia Temporale",
-                "SkillDescription": "Colpisce 1 nemico e ignora i Guardiani. 600% di danno se il bersaglio ha 50+ TU o Tempo Immobile è attivo.\n\nSe Tempo Immobile non è attivo, stordisce il bersaglio per 300TU, poi se il bersaglio ha 200+ TU e non ha Assorbistordimento non può più essere stordito da questa abilità attiva finché non abbandona il campo.",
+                "SkillDescription": "Colpisce 1 nemico e ignora i Guardiani. 600% di danno se il bersaglio ha 50+TU o se Tempo Immobile è attivo.\n\nSe Tempo Immobile non è attivo, stordisce il bersaglio per 300TU. Poi, se il bersaglio ha 200+TU e non ha Assorbistordimento, non può essere stordito da Lancia Temporale finché non abbandona il campo.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -119186,7 +119252,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lancia Temporale",
-                "SkillDescription": "Colpisce 1 nemico e ignora i Guardiani. 600% di danno se il bersaglio ha 50+ TU o Tempo Immobile è attivo.\n\nSe Tempo Immobile non è attivo, stordisce il bersaglio per 300TU, poi se il bersaglio ha 200+ TU e non ha Assorbistordimento non può più essere stordito da questa abilità attiva finché non abbandona il campo.",
+                "SkillDescription": "Colpisce 1 nemico e ignora i Guardiani. 600% di danno se il bersaglio ha 50+TU o se Tempo Immobile è attivo.\n\nSe Tempo Immobile non è attivo, stordisce il bersaglio per 300TU. Poi, se il bersaglio ha 200+TU e non ha Assorbistordimento, non può essere stordito da Lancia Temporale finché non abbandona il campo.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -127624,7 +127690,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Prodigio Invisibile",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno totale inflitto.\n\nL'unità entra in campo con Super Invisibilità e Scudo Invisibile. Ogni volta che l'unità entra in campo dai rinforzi, tutti gli Impostori alleati in campo vengono sconfitti immediatamente alla fine del prossimo turno. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero ai bersagli di essere sconfitti.\n\nAlla fine di ogni turno, l'unità fornisce Super Invisibilità a un'unità casuale non ustionata e non invisibile in campo. Poi, un alleato invisibile casuale recupera il 30% degli HP massimi. Gli effetti non si attivano se non ci sono altri alleati di Mysha in campo.\n\nAlla fine di ogni turno degli altri alleati, se tutti gli alleati in campo sono invisibili, l'unità ottiene immediatamente il turno azzerando i suoi TU, poi questo effetto non può riattivarsi fino all'avanzamento di 20TU."
             },
             {
                 "SkillTitle": "Attacco+ Lv3",
@@ -127845,7 +127911,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Prodigio Invisibile",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "Gli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno totale inflitto.\n\nL'unità entra in campo con Super Invisibilità e Scudo Invisibile. Ogni volta che l'unità entra in campo dai rinforzi, tutti gli Impostori alleati in campo vengono sconfitti immediatamente alla fine del prossimo turno. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero ai bersagli di essere sconfitti.\n\nAlla fine di ogni turno, l'unità fornisce Super Invisibilità a un'unità casuale non ustionata e non invisibile in campo. Poi, un alleato invisibile casuale recupera il 30% degli HP massimi. Gli effetti non si attivano se non ci sono altri alleati di Mysha in campo.\n\nAlla fine di ogni turno degli altri alleati, se tutti gli alleati in campo sono invisibili, l'unità ottiene immediatamente il turno azzerando i suoi TU, poi questo effetto non può riattivarsi fino all'avanzamento di 20TU."
             },
             {
                 "SkillTitle": "Retaggio Possente",
@@ -128051,13 +128117,13 @@
             },
             {
                 "SkillTitle": "Scudo del Fulmine",
-                "SkillDescription": "Per ogni alleato addormentato o che ha meno del 95% degli HP massimi in campo, gli alleati ottengono 1 Spirito e stordisce un nemico casuale per 100TU. Poi, tutti gli alleati in tempo recuperano un valore di HP pari al 1000% dell'attacco dell'unità, sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Protezione Stordimento e Protezione Sonno.\n\nUtilizzabile se ci sono alleati in campo con il 95% o meno degli HP massimi. Questa abilità è bloccata per 50TU dopo l'uso.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "SkillDescription": "Per ogni alleato addormentato o che ha meno del 95% degli HP massimi in campo, gli alleati ottengono 1 Spirito e viene stordito un nemico casuale per 100TU. Poi, tutti gli alleati in campo recuperano un valore di HP pari al 1000% dell'attacco dell'unità, sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Protezione Stordimento e Protezione Sonno.\n\nUtilizzabile se ci sono alleati in campo con il 95% o meno degli HP massimi. Questa abilità è bloccata per 50TU dopo l'uso.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillTitle": "Saette Inibitrici",
-                "SkillDescription": "Disattiva le abilità attive del nemico con meno TU attuali e del nemico con più TU attuali per 50TU. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia.",
+                "SkillDescription": "Disattiva le abilità attive del nemico con meno TU attuali e del nemico con più TU attuali per 50TU. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se questa unità viene sconfitta.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia.",
                 "TU": 1,
                 "Spirit": "-2"
             }
@@ -128069,7 +128135,7 @@
             },
             {
                 "SkillTitle": "Potere Scatenato",
-                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico, disattiva le abilità attive di quel nemico per 20TU, più ulteriori 20TU per risveglio (fino a 100TU con 4 risvegli) e l'unità riduce i suoi TU attuali di 50TU. Quando l'unità utilizza Furia del Fulmine, l'effetto si azzera e può riattivarsi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, 2 nemici casuali subiscono Debolezza e ottengono Protezione Provocazione. Poi, gli alleati non ustionati sono purificati. L'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nSe questa unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP e non può essere sconfitta fino al turno successivo. L'effetto termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo. Quando un altro alleato non invocato in campo è sconfitto, l'effetto Vigore+ si ripristina per potersi riattivare, poi tutti gli alleati sono purificati e ottengono Armatura. Non si attiva se l'unità viene sconfitta o sacrificata. Armatura sostituisce altri effetti di stato. Armatura riduce del 50% i danni del prossimo attacco, poi l'effetto è rimosso."
+                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico, disattiva le abilità attive di quel nemico per 20TU, più ulteriori 20TU per risveglio (fino a 100TU con 4 risvegli) e l'unità riduce i suoi TU attuali di 50TU. Quando l'unità utilizza Furia del Fulmine, l'effetto si azzera e può riattivarsi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, 2 nemici casuali subiscono Debolezza e ottengono Protezione Provocazione. Poi, gli alleati non ustionati sono purificati. L'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nSe questa unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP e non può essere sconfitta fino al turno successivo. L'effetto termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo. Quando un altro alleato non invocato in campo è sconfitto, l'effetto Vigore+ si ripristina per potersi riattivare, poi tutti gli alleati sono purificati e ottengono Armatura. Non si attiva se l'unità viene sconfitta o sacrificata nello stesso momento. Armatura sostituisce altri effetti di stato. Armatura riduce del 50% i danni dell'attacco successivo, poi l'effetto è rimosso."
             },
             {
                 "SkillTitle": "HP+ Lv3",
@@ -128200,13 +128266,13 @@
             },
             {
                 "SkillTitle": "Scudo del Fulmine",
-                "SkillDescription": "Per ogni alleato addormentato o che ha meno del 95% degli HP massimi in campo, gli alleati ottengono 1 Spirito e stordisce un nemico casuale per 100TU. Poi, tutti gli alleati in tempo recuperano un valore di HP pari al 1000% dell'attacco dell'unità, sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Protezione Stordimento e Protezione Sonno.\n\nUtilizzabile se ci sono alleati in campo con il 95% o meno degli HP massimi. Questa abilità è bloccata per 50TU dopo l'uso.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "SkillDescription": "Per ogni alleato addormentato o che ha meno del 95% degli HP massimi in campo, gli alleati ottengono 1 Spirito e viene stordito un nemico casuale per 100TU. Poi, tutti gli alleati in campo recuperano un valore di HP pari al 1000% dell'attacco dell'unità, sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Protezione Stordimento e Protezione Sonno.\n\nUtilizzabile se ci sono alleati in campo con il 95% o meno degli HP massimi. Questa abilità è bloccata per 50TU dopo l'uso.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillTitle": "Saette Inibitrici",
-                "SkillDescription": "Disattiva le abilità attive del nemico con meno TU attuali e del nemico con più TU attuali per 50TU. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia.",
+                "SkillDescription": "Disattiva le abilità attive del nemico con meno TU attuali e del nemico con più TU attuali per 50TU. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se questa unità viene sconfitta.\n\nUtilizzabile solo se ci sono almeno 2 nemici non Impostori in campo ed è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia.",
                 "TU": 1,
                 "Spirit": "-2"
             },
@@ -128224,7 +128290,7 @@
             },
             {
                 "SkillTitle": "Potere Scatenato",
-                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico, disattiva le abilità attive di quel nemico per 20TU, più ulteriori 20TU per risveglio (fino a 100TU con 4 risvegli) e l'unità riduce i suoi TU attuali di 50TU. Quando l'unità utilizza Furia del Fulmine, l'effetto si azzera e può riattivarsi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, 2 nemici casuali subiscono Debolezza e ottengono Protezione Provocazione. Poi, gli alleati non ustionati sono purificati. L'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro prossimo turno. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nSe questa unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP e non può essere sconfitta fino al turno successivo. L'effetto termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo. Quando un altro alleato non invocato in campo è sconfitto, l'effetto Vigore+ si ripristina per potersi riattivare, poi tutti gli alleati sono purificati e ottengono Armatura. Non si attiva se l'unità viene sconfitta o sacrificata. Armatura sostituisce altri effetti di stato. Armatura riduce del 50% i danni del prossimo attacco, poi l'effetto è rimosso."
+                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico, disattiva le abilità attive di quel nemico per 20TU, più ulteriori 20TU per risveglio (fino a 100TU con 4 risvegli) e l'unità riduce i suoi TU attuali di 50TU. Quando l'unità utilizza Furia del Fulmine, l'effetto si azzera e può riattivarsi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, 2 nemici casuali subiscono Debolezza e ottengono Protezione Provocazione. Poi, gli alleati non ustionati sono purificati. L'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nSe questa unità subisce un attacco tale da sconfiggerla, sopravvive con 1 HP e non può essere sconfitta fino al turno successivo. L'effetto termina dopo essersi attivato una volta, ogni volta che l'unità entra in campo. Quando un altro alleato non invocato in campo è sconfitto, l'effetto Vigore+ si ripristina per potersi riattivare, poi tutti gli alleati sono purificati e ottengono Armatura. Non si attiva se l'unità viene sconfitta o sacrificata nello stesso momento. Armatura sostituisce altri effetti di stato. Armatura riduce del 50% i danni dell'attacco successivo, poi l'effetto è rimosso."
             },
             {
                 "SkillTitle": "HP+ Lv3",
@@ -128360,7 +128426,7 @@
         "Hp_Base": 7095,
         "Speed": 423,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Con queste ali, ti farò da scudo.",
         "LeaderSkill": {
             "SkillTitle": "HP+ (Fuoco)",
@@ -128375,21 +128441,21 @@
             },
             {
                 "SkillTitle": "Innesco Ruggente",
-                "SkillDescription": "Cura tutti gli alleati ustionati per un valore di HP pari all'800% dell'attacco dell'unità e li provoca. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro prossimo turno.\n\nPoi, 1 alleato casuale e 1 nemico casuale vengono ustionati e sono infettati.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.\n\nAlla fine di ogni turno, l'infezione infligge Ustione a un'unità casuale non ustionata della squadra infetta. L'infezione dura per 3 attivazioni, anche se non trova un bersaglio valido, o finché il nemico non viene sconfitto o abbandona il campo. L'infezione non è un effetto di stato e non può essere impedita o purificata, ma l'effetto di stato che diffonde invece sì. Un'unità non può essere infettata nuovamente finché la sua infezione attuale non termina.",
+                "SkillDescription": "Cura tutti gli alleati ustionati per un valore di HP pari all'800% dell'attacco dell'unità e li provoca. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nPoi, 1 alleato casuale e 1 nemico casuale vengono ustionati e sono infettati.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.\n\nAlla fine di ogni turno, l'infezione infligge Ustione a un'unità casuale non ustionata della squadra infetta. L'infezione dura per 3 attivazioni, anche se non trova un bersaglio valido, o finché il nemico non viene sconfitto o abbandona il campo. L'infezione non è un effetto di stato e non può essere impedita o purificata, ma l'effetto di stato che diffonde invece sì. Un'unità non può essere infettata nuovamente finché la sua infezione attuale non termina.",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillTitle": "Combo di Fiamme",
-                "SkillDescription": "400% di danno a 1 nemico. 600% di danno invece se tutti gli alleati in campo sono ustionati. L'attacco cura l'unità del 100% del danno totale inflitto e ignora gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "SkillDescription": "400% di danno a 1 nemico. 600% di danno invece se tutti gli alleati in campo sono ustionati. L'attacco cura l'unità del 100% del danno inflitto totale e ignora gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
                 "TU": 1,
                 "Spirit": "-1"
             }
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Scorching Descent",
-                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+                "SkillTitle": "Discesa Rovente",
+                "SkillDescription": "Quando l'unità entra in campo, tutti gli alleati ottengono Protezione Morte. Poi, alla fine del turno, ustiona tutti i nemici in campo. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione.\n\nL'unità è immune a Stordimento se c'è un alleato ustionato in campo.\n\nFinché tutti i nemici in campo sono ustionati, l'unità aggiunge lo 0.5x dell'attacco originale al proprio attacco. L'effetto si accumula con Provocazione e con altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,5x = 2,0x totale).\n\nAlla fine di ogni turno di questa unità, tutti i nemici ustionati in campo vengono storditi per 25TU.\n\nOgni volta che l'unità infligge danno a un nemico ustionato con un attacco, un alleato ustionato casuale azzera i suoi TU alla fine del turno. L'effetto non si attiva se non ci sono almeno 2 alleati ustionati in campo.\n\nOgni volta che un alleato danneggia un nemico con un attacco, l'unità ottiene una Carica. Se quel nemico è ustionato, un alleato casuale ottiene Perforazione. Un'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare fino a 3 Cariche e le perde tutte quando abbandona il campo."
             },
             {
                 "SkillTitle": "Devozione Ardente",
@@ -128492,6 +128558,19 @@
                     }
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
         }
     },
     "CalKouhaiRegular02": {
@@ -128526,13 +128605,13 @@
             },
             {
                 "SkillTitle": "Innesco Ruggente",
-                "SkillDescription": "Cura tutti gli alleati ustionati per un valore di HP pari all'800% dell'attacco dell'unità e li provoca. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro prossimo turno.\n\nPoi, 1 alleato casuale e 1 nemico casuale vengono ustionati e sono infettati.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.\n\nAlla fine di ogni turno, l'infezione infligge Ustione a un'unità casuale non ustionata della squadra infetta. L'infezione dura per 3 attivazioni, anche se non trova un bersaglio valido, o finché il nemico non viene sconfitto o abbandona il campo. L'infezione non è un effetto di stato e non può essere impedita o purificata, ma l'effetto di stato che diffonde invece sì. Un'unità non può essere infettata nuovamente finché la sua infezione attuale non termina.",
+                "SkillDescription": "Cura tutti gli alleati ustionati per un valore di HP pari all'800% dell'attacco dell'unità e li provoca. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nPoi, 1 alleato casuale e 1 nemico casuale vengono ustionati e sono infettati.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.\n\nAlla fine di ogni turno, l'infezione infligge Ustione a un'unità casuale non ustionata della squadra infetta. L'infezione dura per 3 attivazioni, anche se non trova un bersaglio valido, o finché il nemico non viene sconfitto o abbandona il campo. L'infezione non è un effetto di stato e non può essere impedita o purificata, ma l'effetto di stato che diffonde invece sì. Un'unità non può essere infettata nuovamente finché la sua infezione attuale non termina.",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillTitle": "Combo di Fiamme",
-                "SkillDescription": "400% di danno a 1 nemico. 600% di danno invece se tutti gli alleati in campo sono ustionati. L'attacco cura l'unità del 100% del danno totale inflitto e ignora gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "SkillDescription": "400% di danno a 1 nemico. 600% di danno invece se tutti gli alleati in campo sono ustionati. L'attacco cura l'unità del 100% del danno inflitto totale e ignora gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSi sblocca ogni volta che l'unità danneggia un nemico con un altro attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
                 "TU": 1,
                 "Spirit": "-1"
             },
@@ -128545,8 +128624,8 @@
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Scorching Descent",
-                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+                "SkillTitle": "Discesa Rovente",
+                "SkillDescription": "Quando l'unità entra in campo, tutti gli alleati ottengono Protezione Morte. Poi, alla fine del turno, ustiona tutti i nemici in campo. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione.\n\nL'unità è immune a Stordimento se c'è un alleato ustionato in campo.\n\nFinché tutti i nemici in campo sono ustionati, l'unità aggiunge lo 0.5x dell'attacco originale al proprio attacco. L'effetto si accumula con Provocazione e con altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,5x = 2,0x totale).\n\nAlla fine di ogni turno di questa unità, tutti i nemici ustionati in campo vengono storditi per 25TU.\n\nOgni volta che l'unità infligge danno a un nemico ustionato con un attacco, un alleato ustionato casuale azzera i suoi TU alla fine del turno. L'effetto non si attiva se non ci sono almeno 2 alleati ustionati in campo.\n\nOgni volta che un alleato danneggia un nemico con un attacco, l'unità ottiene una Carica. Se quel nemico è ustionato, un alleato casuale ottiene Perforazione. Un'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare fino a 3 Cariche e le perde tutte quando abbandona il campo."
             },
             {
                 "SkillTitle": "Devozione Ardente",
@@ -128678,6 +128757,403 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
+    },
+    "FreyaNew01": {
+        "Name": "Freya",
+        "Name2": "Dea delle Fiamme Ardenti",
+        "FullName": "Freya - Dea delle Fiamme Ardenti",
+        "Profile": "La battaglia era tutto il suo mondo. Era il modo di parlare cuore a cuore, di trasmettere amore e di incidere la sua esistenza nel mondo.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lancia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 28,
+        "Atk_Base": 855,
+        "Hp_Base": 6935,
+        "Speed": 512,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Una fiamma sul campo di battaglia—\nUna pira ardente che non si spegnerà mai.",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Passione Fendente",
+                "SkillDescription": "250% di danno a 1 nemico, più il 150% per ogni volta che l'abilità è stata attivata da quando l'unità è entrata in campo (fino al 1000% di danno totale). L'unità ottiene immediatamente il turno se è la prima volta che usa questa abilità da quando è entrata in campo o se ha utilizzato Richiamo Meteore oppure Maree di Guerra da quando è stata usata questa abilità.\n\nPoi, cura tutti gli alleati per un valore di HP pari all'800% dell'attacco dell'unità e li ustiona. Sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Richiamo Meteore",
+                "SkillDescription": "400% di danno a 2 nemici. 800 o 1000% di danno invece ogni seconda volta che l'abilità viene attivata da quando l'unità è entrata in campo. Questo attacco ignora l'effetto di stato Opposizione e le abilità passive di contatto.\n\nUtilizzabile se l'unità è ustionata.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Fuoco Infernale",
+                "SkillDescription": "Ustiona tutti i nemici. L'unità recupera il 100% degli HP massimi, ottiene Protezione Morte, Ustione e Scudo Ustione.\n\nPoi, se l'unità è in Frenesia di Guerra, stordisce tutti i nemici ustionati in campo per 50TU.\n\nQuesta abilità è bloccata per 50TU dopo l'uso. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Scudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Amore e Guerra",
+                "SkillDescription": "L'unità entra in battaglia con Protezione Morte e Mega Ustione Curativa per 100TU.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione e non può essere mandata tra i rinforzi dal campo.\n\nGli attacchi dell'unità curano l'unità del 100% del danno totale inflitto e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nLa prima volta che l'unità subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità attiva Frenesia di Guerra per 100TU e azzera i suoi TU. Durante Frenesia di Guerra:\n- Gli attacchi dell'unità ignorano gli effetti di riduzione del danno.\n- Quando l'unità subisce danno da un attacco, ottiene immediatamente il turno successivo. Questo effetto non potrà riattivarsi finché i TU non saranno avanzati di nuovo. Questo effetto è di contatto.\n- L'unità ottiene Provocazione alla fine dei suoi turni se è ustionata. Sostituisce altri effetti di tipo Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nOgni volta che un nemico entra in campo dai rinforzi, l'unità ha il 20% di probabilità, più il 20% ulteriore per risveglio (fino al 100% con 4 risvegli), di azzerare i suoi TU e subire Ustione.\n\nUn'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillTitle": "Pegno di Yggdrasil",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nL'unità ha una riduzione danni del 50%, più il 10% per ogni nemico sconfitto dall'unità da quando è entrata in campo (fino all'80% dopo aver sconfitto 3+ nemici con attacchi).\n\nSe l'unità subisce danno da un attacco mentre non è addormentata e sopravvive fino alla fine del turno, l'unità recupera il 50% degli HP massimi.\n\nLa prima volta che l'unità sconfigge un nemico non invocato con attacchi, un altro bersaglio senza Effimerità e che non è un boss viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico casuale di essere sconfitto. L'effetto si azzera e può riattivarsi ogni volta che un alleato non invocato in campo è sconfitto mentre l'unità è in campo."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Oscurità Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Oscurità."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Quindi questa è la potenza del Nucleo Yggdrasil...\nSia lode e gloria alla nuova e migliorata Freya!\nAhahahah!!\nCosa? Vuoi vedere il mio nuovo potere?\nAllora parliamo del nostro amore!\nL'amore conosciuto come guerra!"
+            ],
+            "Login": [
+                "Ti stavo aspettando! Parliamo di amore!\nEh? Stai uscendo? Va bene, se le cose stanno così... Combatteremo quando sarai giunto a destinazione!"
+            ],
+            "Tap": [
+                "Incontri, strategie, trattative... Che vadano al diavolo! Voglio uscire e combattere!\nNon puoi fermarmi— Mi farò strada con la forza sul campo di battaglia!",
+                "Mmm... Sento un buon profumino... È curry? Che bell'aspetto...\nSolo un piccolo assaggino... mmn?! Mmmngh! P-Piccante!!",
+                "Hai detto che il drago umanoide si chiama Ruvi, giusto? Eheheh... Ha uno sguardo così provocatorio!\nHo deciso, la sfiderò a duello la prossima volta che la vedo!"
+            ],
+            "Idle": [
+                "Dov'è andato quel ragazzo...? Ha promesso che avremmo espresso il nostro amore...\nEheheh, non farmi aspettare, ragazzo! Vieni fuori, vieni fuori, ovunque tu sia!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Passione Fendente": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Richiamo Meteore": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Fuoco Infernale": {
+                    "BaseWeight": 100
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
+    },
+    "FreyaNew02": {
+        "Name": "Freya",
+        "Name2": "Dea delle Fiamme Ardenti",
+        "FullName": "Freya - Dea delle Fiamme Ardenti",
+        "Profile": "Tuttavia, ora che deve guidare i sopravvissuti e proteggere i deboli, i suoi valori hanno vacillato per la prima volta. I singhiozzi ovattati che sente nelle notti insonni, i lamenti di coloro che hanno perso le loro case, le piccole dei bambini che gridano per la fame... Queste erano cose che il suo potere, per quanto vasto, non poteva sconfiggere.",
+        "Profile_Ascended": "Per proteggere le persone che si erano affidate a lei, per la prima volta nella sua vita, Freya andò a prendere l'acqua, rimase nascosta e lottò non per distruggere— ma per proteggere. Prese le distanze dalle sanguinose, emozionanti battaglie che una volta amava. Eppure, lo sentiva chiaramente— stava diventando più forte che mai.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lancia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 34,
+        "Atk_Base": 914,
+        "Hp_Base": 9850,
+        "Speed": 512,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Passione Fendente",
+                "SkillDescription": "250% di danno a 1 nemico, più il 150% per ogni volta che l'abilità è stata attivata da quando l'unità è entrata in campo (fino al 1000% di danno totale). L'unità ottiene immediatamente il turno se è la prima volta che usa questa abilità da quando è entrata in campo o se ha utilizzato Richiamo Meteore oppure Maree di Guerra da quando è stata usata questa abilità.\n\nPoi, cura tutti gli alleati per un valore di HP pari all'800% dell'attacco dell'unità e li ustiona. Sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Richiamo Meteore",
+                "SkillDescription": "400% di danno a 2 nemici. 800 o 1000% di danno invece ogni seconda volta che l'abilità viene attivata da quando l'unità è entrata in campo. Questo attacco ignora l'effetto di stato Opposizione e le abilità passive di contatto.\n\nUtilizzabile se l'unità è ustionata.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Fuoco Infernale",
+                "SkillDescription": "Ustiona tutti i nemici. L'unità recupera il 100% degli HP massimi, ottiene Protezione Morte, Ustione e Scudo Ustione.\n\nPoi, se l'unità è in Frenesia di Guerra, stordisce tutti i nemici ustionati in campo per 50TU.\n\nQuesta abilità è bloccata per 50TU dopo l'uso. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Scudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Maree di Guerra",
+                "SkillDescription": "1000% di danno a 1 nemico.\n\nPoi, l'unità ottiene Frenesia di Guerra per 100TU e fornisce immediatamente i turni successivi a tutti gli altri alleati ustionati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile se l'unità ha sconfitto con un attacco almeno 1 nemico da quando è entrata in campo e l'unità non è in Frenesia di Guerra. Utilizzabile 3 volte per battaglia.",
+                "TU": 10,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Amore e Guerra",
+                "SkillDescription": "L'unità entra in battaglia con Protezione Morte e Mega Ustione Curativa per 100TU.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione e non può essere mandata tra i rinforzi dal campo.\n\nGli attacchi dell'unità curano l'unità del 100% del danno totale inflitto e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nLa prima volta che l'unità subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità attiva Frenesia di Guerra per 100TU e azzera i suoi TU. Durante Frenesia di Guerra:\n- Gli attacchi dell'unità ignorano gli effetti di riduzione del danno.\n- Quando l'unità subisce danno da un attacco, ottiene immediatamente il turno successivo. Questo effetto non potrà riattivarsi finché i TU non saranno avanzati di nuovo. Questo effetto è di contatto.\n- L'unità ottiene Provocazione alla fine dei suoi turni se è ustionata. Sostituisce altri effetti di tipo Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nOgni volta che un nemico entra in campo dai rinforzi, l'unità ha il 20% di probabilità, più il 20% ulteriore per risveglio (fino al 100% con 4 risvegli), di azzerare i suoi TU e subire Ustione.\n\nUn'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillTitle": "Pegno di Yggdrasil",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nL'unità ha una riduzione danni del 50%, più il 10% per ogni nemico sconfitto dall'unità da quando è entrata in campo (fino all'80% dopo aver sconfitto 3+ nemici con attacchi).\n\nSe l'unità subisce danno da un attacco mentre non è addormentata e sopravvive fino alla fine del turno, l'unità recupera il 50% degli HP massimi.\n\nLa prima volta che l'unità sconfigge un nemico non invocato con attacchi, un altro bersaglio senza Effimerità e che non è un boss viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico casuale di essere sconfitto. L'effetto si azzera e può riattivarsi ogni volta che un alleato non invocato in campo è sconfitto mentre l'unità è in campo."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Oscurità Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Oscurità."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Quindi questa è la potenza del Nucleo Yggdrasil...\nSia lode e gloria alla nuova e migliorata Freya!\nAhahahah!!\nCosa? Vuoi vedere il mio nuovo potere?\nAllora parliamo del nostro amore!\nL'amore conosciuto come guerra!"
+            ],
+            "Login": [
+                "Ti stavo aspettando! Parliamo di amore!\nEh? Stai uscendo? Va bene, se le cose stanno così... Combatteremo quando sarai giunto a destinazione!"
+            ],
+            "Tap": [
+                "Incontri, strategie, trattative... Che vadano al diavolo! Voglio uscire e combattere!\nNon puoi fermarmi— Mi farò strada con la forza sul campo di battaglia!",
+                "Mmm... Sento un buon profumino... È curry? Che bell'aspetto...\nSolo un piccolo assaggino... mmn?! Mmmngh! P-Piccante!!",
+                "Hai detto che il drago umanoide si chiama Ruvi, giusto? Eheheh... Ha uno sguardo così provocatorio!\nHo deciso, la sfiderò a duello la prossima volta che la vedo!"
+            ],
+            "Idle": [
+                "Dov'è andato quel ragazzo...? Ha promesso che avremmo espresso il nostro amore...\nEheheh, non farmi aspettare, ragazzo! Vieni fuori, vieni fuori, ovunque tu sia!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Passione Fendente": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Richiamo Meteore": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Fuoco Infernale": {
+                    "BaseWeight": 100
+                },
+                "Maree di Guerra": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.1,
+                        "IsMirage": 0.25,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amore e Devozione",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
     }
 }

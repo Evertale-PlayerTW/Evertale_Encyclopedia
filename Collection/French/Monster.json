@@ -17266,6 +17266,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -17598,6 +17609,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -20937,6 +20959,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -21330,6 +21363,17 @@
                     "FurCoatLizard01",
                     "SquidHead01",
                     "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -26596,6 +26640,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -26808,6 +26863,17 @@
                     "FrogSorceror01",
                     "BeastCleric01",
                     "TrainerBoy01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -118978,7 +119044,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lance de Temps",
-                "SkillDescription": "Cible 1 ennemi et ignore les Gardiens. Inflige 600% de dégâts si la cible a 50TU voire plus, ou si Arrêt de Temps est activé.\n\nSi Arrêt de Temps n'est pas activé, la cible est étourdie pendant 300TU, puis si la cible touchée a 200TU voire plus et n'est pas un Absorbeur d'Étourdissement, elle ne peut plus être Étourdie par cette compétence active à moins qu'elle quitte le champ de bataille.",
+                "SkillDescription": "Cible 1 ennemi et ignore les Gardiens. Inflige 600% de dégâts si la cible possède 50TU voire davantage, ou si Arrêt de Temps est activé.\n\nSi Arrêt de Temps n'est pas activé, la cible est étourdie pendant 300TU, puis si la cible touchée possède 200TU voire davantage et n'est pas un Absorbeur d'Étourdissement, elle ne peut être à nouveau étourdie par la compétence Lance de Temps jusqu'à ce qu'elle quitte le champ de bataille.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -119186,7 +119252,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lance de Temps",
-                "SkillDescription": "Cible 1 ennemi et ignore les Gardiens. Inflige 600% de dégâts si la cible a 50TU voire plus, ou si Arrêt de Temps est activé.\n\nSi Arrêt de Temps n'est pas activé, la cible est étourdie pendant 300TU, puis si la cible touchée a 200TU voire plus et n'est pas un Absorbeur d'Étourdissement, elle ne peut plus être Étourdie par cette compétence active à moins qu'elle quitte le champ de bataille.",
+                "SkillDescription": "Cible 1 ennemi et ignore les Gardiens. Inflige 600% de dégâts si la cible possède 50TU voire davantage, ou si Arrêt de Temps est activé.\n\nSi Arrêt de Temps n'est pas activé, la cible est étourdie pendant 300TU, puis si la cible touchée possède 200TU voire davantage et n'est pas un Absorbeur d'Étourdissement, elle ne peut être à nouveau étourdie par la compétence Lance de Temps jusqu'à ce qu'elle quitte le champ de bataille.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -127624,7 +127690,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Champion Furtif",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis et soigneront cette unité de 100% des dégâts totaux infligés.\n\nCette unitee entre en bataille avec la Super Furtivité et un Bouclier Furtif. Lorsque cette unité entre en bataille depuis les renforts, tous les Imposteurs alliés du champ de bataille sont vaincus à la fin du prochain tour. Cet effet ignore les compétences passives de Vengeance et Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait les cibles d'être vaincues.\n\nÀ la fin de chaque tour, cette unité donne l'effet de statut de Super Furtivité à un allié aléatoire non-Brûlé, non-Furtif du champ de bataille. Puis un allié aléatoire Furtif sera soigné de 30% de ses PV max. Ces effets ne peuvent être déclenchés si Mysha n'a pas d'autre alliés sur le champ de bataille.\n\nÀ la fin de chaque tour des autres alliés du champ de bataille, cette unité prendra immédiatement le prochain tour en ayant ses TU actuels réduits à 0 si toutes les unités alliées du champ de bataille sont Furtives. Cet effet ne pourra être à nouveau déclenché jusqu'à ce que 20TU s'écoulent."
             },
             {
                 "SkillTitle": "Attaque + LV3",
@@ -127845,7 +127911,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Champion Furtif",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "Les attaques de cette unité ne réveilleront pas les ennemis endormis et soigneront cette unité de 100% des dégâts totaux infligés.\n\nCette unitee entre en bataille avec la Super Furtivité et un Bouclier Furtif. Lorsque cette unité entre en bataille depuis les renforts, tous les Imposteurs alliés du champ de bataille sont vaincus à la fin du prochain tour. Cet effet ignore les compétences passives de Vengeance et Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait les cibles d'être vaincues.\n\nÀ la fin de chaque tour, cette unité donne l'effet de statut de Super Furtivité à un allié aléatoire non-Brûlé, non-Furtif du champ de bataille. Puis un allié aléatoire Furtif sera soigné de 30% de ses PV max. Ces effets ne peuvent être déclenchés si Mysha n'a pas d'autre alliés sur le champ de bataille.\n\nÀ la fin de chaque tour des autres alliés du champ de bataille, cette unité prendra immédiatement le prochain tour en ayant ses TU actuels réduits à 0 si toutes les unités alliées du champ de bataille sont Furtives. Cet effet ne pourra être à nouveau déclenché jusqu'à ce que 20TU s'écoulent."
             },
             {
                 "SkillTitle": "Héritage Puissant",
@@ -128051,7 +128117,7 @@
             },
             {
                 "SkillTitle": "Bouclier Tonnerre",
-                "SkillDescription": "Les Alliés gagnent 1 Essence par le nombre d'alliés du champ de bataille étant Endormis ou ayant 95% de leurs PV max voire moins, et 1 ennemi aléatoire est Étourdi pendant 100TU. Puis tous les alliés du champ de bataille sont soignés d'une valeur de 1000% de l'Attaque de l'utilisateur, sont Purifiés (retire les effets de statut négatifs tels que le sommeil, la brûlure ou le poison), et gagnent une Protection Étourdissement et une Protection Sommeil.\n\nUtilisable si tout allié du champ de bataille a 95% de ses PV voire moins. Cette compétence se verrouille pendant 50TU après son utilisation.\n\nChaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées.",
+                "SkillDescription": "Les Alliés gagnent 1 Essence par allié sur le champ de bataille Endormis ou ayant 95% de leurs PV max voire moins, et 1 ennemi aléatoire est Étourdi pendant 100TU. Puis tous les alliés du champ de bataille sont soignés d'une valeur de 1000% de l'Attaque de l'utilisateur, sont Purifiés (retire les effets de statut négatifs tels que le sommeil, la brûlure ou le poison), et gagnent une Protection Étourdissement et une Protection Sommeil.\n\nUtilisable si tout allié du champ de bataille a 95% de ses PV voire moins. Cette compétence se verrouille pendant 50TU après son utilisation.\n\nChaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées.",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -128065,7 +128131,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Dieu du Tonnerre",
-                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité entre sur le champ de bataille avec une Protection Mort Instantanée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité devient un Gardien pendant 100TU :\n- Lorsque cette unité entre sur le champ de bataille.\n- Chaque fois que cette unité vainc un ennemi non-invoqué avec une attaque sur le champ de bataille.\n\nCette unité ne peut pas devenir un Gardien à l'aide d'autres compétences.\n\nLorsque cette unité est un Gardien :\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques.\n- Elle bénéficie d'une Immunité Étourdissement et d'une Immunité Sommeil./n- Chaque fois que cette unité prend son tour, elle sera soignée de 100% de ses PV max.\n\nLorsque cette unité n'est pas un Gardien, son Attaque augmente à 1,5x. Cette augmentation d'Attaque ne s'empile pas avec les effets d'Enragé.\n\nTant que cette unité est un Gardien, pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés, cette unité a 100% de chances de rediriger 1 coup vers elle-même à la place. Cette unité ne redirige pas les compétences qui n'infligent pas de dégâts."
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité entre sur le champ de bataille avec une Protection Mort Instantanée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité devient un Gardien pendant 100TU :\n- Lorsque cette unité entre sur le champ de bataille.\n- Chaque fois que cette unité vainc un ennemi non-invoqué avec une attaque sur le champ de bataille.\n\nCette unité ne peut pas devenir un Gardien à l'aide d'autres compétences.\n\nLorsque cette unité est un Gardien :\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques.\n- Elle bénéficie d'une Immunité Étourdissement et d'une Immunité Sommeil./n- Chaque fois que cette unité prend son tour, elle sera soignée de 100% de ses PV max.\n\nLorsque cette unité n'est pas un Gardien, son Attaque augmente de 150%. Cette augmentation d'Attaque ne s'empile pas avec les effets d'Enragé.\n\nTant que cette unité est un Gardien, pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés, cette unité a 100% de chances de rediriger 1 coup vers elle-même à la place. Cette unité ne redirige pas les compétences qui n'infligent pas de dégâts."
             },
             {
                 "SkillTitle": "Pouvoir Libéré",
@@ -128200,7 +128266,7 @@
             },
             {
                 "SkillTitle": "Bouclier Tonnerre",
-                "SkillDescription": "Les Alliés gagnent 1 Essence par le nombre d'alliés du champ de bataille étant Endormis ou ayant 95% de leurs PV max voire moins, et 1 ennemi aléatoire est Étourdi pendant 100TU. Puis tous les alliés du champ de bataille sont soignés d'une valeur de 1000% de l'Attaque de l'utilisateur, sont Purifiés (retire les effets de statut négatifs tels que le sommeil, la brûlure ou le poison), et gagnent une Protection Étourdissement et une Protection Sommeil.\n\nUtilisable si tout allié du champ de bataille a 95% de ses PV voire moins. Cette compétence se verrouille pendant 50TU après son utilisation.\n\nChaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées.",
+                "SkillDescription": "Les Alliés gagnent 1 Essence par allié sur le champ de bataille Endormis ou ayant 95% de leurs PV max voire moins, et 1 ennemi aléatoire est Étourdi pendant 100TU. Puis tous les alliés du champ de bataille sont soignés d'une valeur de 1000% de l'Attaque de l'utilisateur, sont Purifiés (retire les effets de statut négatifs tels que le sommeil, la brûlure ou le poison), et gagnent une Protection Étourdissement et une Protection Sommeil.\n\nUtilisable si tout allié du champ de bataille a 95% de ses PV voire moins. Cette compétence se verrouille pendant 50TU après son utilisation.\n\nChaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées.",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -128220,7 +128286,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Dieu du Tonnerre",
-                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité entre sur le champ de bataille avec une Protection Mort Instantanée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité devient un Gardien pendant 100TU :\n- Lorsque cette unité entre sur le champ de bataille.\n- Chaque fois que cette unité vainc un ennemi non-invoqué avec une attaque sur le champ de bataille.\n\nCette unité ne peut pas devenir un Gardien à l'aide d'autres compétences.\n\nLorsque cette unité est un Gardien :\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques.\n- Elle bénéficie d'une Immunité Étourdissement et d'une Immunité Sommeil./n- Chaque fois que cette unité prend son tour, elle sera soignée de 100% de ses PV max.\n\nLorsque cette unité n'est pas un Gardien, son Attaque augmente à 1,5x. Cette augmentation d'Attaque ne s'empile pas avec les effets d'Enragé.\n\nTant que cette unité est un Gardien, pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés, cette unité a 100% de chances de rediriger 1 coup vers elle-même à la place. Cette unité ne redirige pas les compétences qui n'infligent pas de dégâts."
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité entre sur le champ de bataille avec une Protection Mort Instantanée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité devient un Gardien pendant 100TU :\n- Lorsque cette unité entre sur le champ de bataille.\n- Chaque fois que cette unité vainc un ennemi non-invoqué avec une attaque sur le champ de bataille.\n\nCette unité ne peut pas devenir un Gardien à l'aide d'autres compétences.\n\nLorsque cette unité est un Gardien :\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques.\n- Elle bénéficie d'une Immunité Étourdissement et d'une Immunité Sommeil./n- Chaque fois que cette unité prend son tour, elle sera soignée de 100% de ses PV max.\n\nLorsque cette unité n'est pas un Gardien, son Attaque augmente de 150%. Cette augmentation d'Attaque ne s'empile pas avec les effets d'Enragé.\n\nTant que cette unité est un Gardien, pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés, cette unité a 100% de chances de rediriger 1 coup vers elle-même à la place. Cette unité ne redirige pas les compétences qui n'infligent pas de dégâts."
             },
             {
                 "SkillTitle": "Pouvoir Libéré",
@@ -128360,7 +128426,7 @@
         "Hp_Base": 7095,
         "Speed": 423,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Ces ailes seront le bouclier pour te protéger.",
         "LeaderSkill": {
             "SkillTitle": "Feu PV+",
@@ -128375,7 +128441,7 @@
             },
             {
                 "SkillTitle": "Ignition Hurlante",
-                "SkillDescription": "Soigne tous les alliés d'une valeur de 800% de l'attaque de l'utilisateur et les Enrage. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée à x1.5 jusqu'à la fin de leur prochain tour.\n\nPuis 1 allié aléatoire et 1 ennemi aléatoire gagnent l'effet de statut de Brûlure et en deviennent infectés.\n\nUtilisable seulement si le lanceur a 3 Charges stockées. Consomme toutes les Charges sur le lanceur.\n\nCette infection se déclenchera après la fin de chaque tour pour appliquer la Brûlure à une unité aléatoire non-brûlée au sein de l'équipe de l'unité infectée. Chaque infection s'achève après avoir été déclenchée 3 fois (même s'il n'y a pas de cible valable) ou une fois que l'unité infectée est vaincue ou quitte le champ de bataille. L'infection n'est pas un effet de statut et ne peut être empêchée ou purifiée, mais l'effet de statut propagé par l'infection peut l'être. Une unité ne peut être infectée à nouveau jusqu'à ce que celle en application touche à sa fin.",
+                "SkillDescription": "Soigne tous les alliés d'une valeur de 800% de l'attaque de l'utilisateur et les Enrage. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nPuis 1 allié aléatoire et 1 ennemi aléatoire gagnent l'effet de statut de Brûlure et en deviennent infectés.\n\nUtilisable seulement si le lanceur a 3 Charges stockées. Consomme toutes les Charges sur le lanceur.\n\nCette infection se déclenchera après la fin de chaque tour pour appliquer la Brûlure à une unité aléatoire non-brûlée au sein de l'équipe de l'unité infectée. Chaque infection s'achève après avoir été déclenchée 3 fois (même s'il n'y a pas de cible valable) ou une fois que l'unité infectée est vaincue ou quitte le champ de bataille. L'infection n'est pas un effet de statut et ne peut être empêchée ou purifiée, mais l'effet de statut propagé par l'infection peut l'être. Une unité ne peut être infectée à nouveau jusqu'à ce que celle en application touche à sa fin.",
                 "TU": 1,
                 "Spirit": "+1"
             },
@@ -128388,8 +128454,8 @@
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Scorching Descent",
-                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+                "SkillTitle": "Descente brûlante",
+                "SkillDescription": "Tous les alliés gagnent des Protections Mort Instantanées lorsque cette unité entre en bataille. Puis tous les ennemis du champ de bataille gagneront l'effet de statut de Brûlure à la fin du tour. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité ne peut être vaincu par des dégâts provenant d'effets de statut de Brûlure.\n\nCette unité ne peut être étourdie si un allié quelconque du champ de bataille est brûlé.\n\nTant que tous les ennemis du champ de bataille sont brûlés, cette unité bénéficie d'une addition à son Attaque de la moitié de son Attaque d'origine. Cette augmentation peut être empilée avec les effets d'Enragé et avec les autres augmentations d'Attaques (p. ex. 1,5x + 0,5x => total de 2,0x).\n\nTous les ennemis brûlés du champ de bataille seront étourdis pendant 25TU à la fin de chaque tour de cette unité.\n\nChaque fois que cette unité inflige des dégâts à un ennemi brûlé avec une attaque, les TU d'un allié brûlé aléatoire seront réduits à 0 à la fin du tour. Ceci peut être déclenché uniquement s'il y a 2 alliés brûlés sur le champ de bataille.\n\nCette unité gagne une Charge à chaque fois qu'une unité alliée inflige des dégâts à un ennemi avec une attaque. Un allié aléatoire gagnera Perçage si l'ennemi touché était brûlé. Les Attaques d'une unité avec Perçage ignoreront les effets de réduction de dégâts ennemis jusqu'à la fin de son prochain tour. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver jusqu'à 3 Charges et toutes les Charges sont retirées d'une unité qui quitte le champ de bataille."
             },
             {
                 "SkillTitle": "Dévotion Éternelle",
@@ -128492,6 +128558,19 @@
                     }
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
         }
     },
     "CalKouhaiRegular02": {
@@ -128526,7 +128605,7 @@
             },
             {
                 "SkillTitle": "Ignition Hurlante",
-                "SkillDescription": "Soigne tous les alliés d'une valeur de 800% de l'attaque de l'utilisateur et les Enrage. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée à x1.5 jusqu'à la fin de leur prochain tour.\n\nPuis 1 allié aléatoire et 1 ennemi aléatoire gagnent l'effet de statut de Brûlure et en deviennent infectés.\n\nUtilisable seulement si le lanceur a 3 Charges stockées. Consomme toutes les Charges sur le lanceur.\n\nCette infection se déclenchera après la fin de chaque tour pour appliquer la Brûlure à une unité aléatoire non-brûlée au sein de l'équipe de l'unité infectée. Chaque infection s'achève après avoir été déclenchée 3 fois (même s'il n'y a pas de cible valable) ou une fois que l'unité infectée est vaincue ou quitte le champ de bataille. L'infection n'est pas un effet de statut et ne peut être empêchée ou purifiée, mais l'effet de statut propagé par l'infection peut l'être. Une unité ne peut être infectée à nouveau jusqu'à ce que celle en application touche à sa fin.",
+                "SkillDescription": "Soigne tous les alliés d'une valeur de 800% de l'attaque de l'utilisateur et les Enrage. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nPuis 1 allié aléatoire et 1 ennemi aléatoire gagnent l'effet de statut de Brûlure et en deviennent infectés.\n\nUtilisable seulement si le lanceur a 3 Charges stockées. Consomme toutes les Charges sur le lanceur.\n\nCette infection se déclenchera après la fin de chaque tour pour appliquer la Brûlure à une unité aléatoire non-brûlée au sein de l'équipe de l'unité infectée. Chaque infection s'achève après avoir été déclenchée 3 fois (même s'il n'y a pas de cible valable) ou une fois que l'unité infectée est vaincue ou quitte le champ de bataille. L'infection n'est pas un effet de statut et ne peut être empêchée ou purifiée, mais l'effet de statut propagé par l'infection peut l'être. Une unité ne peut être infectée à nouveau jusqu'à ce que celle en application touche à sa fin.",
                 "TU": 1,
                 "Spirit": "+1"
             },
@@ -128545,8 +128624,8 @@
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Scorching Descent",
-                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+                "SkillTitle": "Descente brûlante",
+                "SkillDescription": "Tous les alliés gagnent des Protections Mort Instantanées lorsque cette unité entre en bataille. Puis tous les ennemis du champ de bataille gagneront l'effet de statut de Brûlure à la fin du tour. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité ne peut être vaincu par des dégâts provenant d'effets de statut de Brûlure.\n\nCette unité ne peut être étourdie si un allié quelconque du champ de bataille est brûlé.\n\nTant que tous les ennemis du champ de bataille sont brûlés, cette unité bénéficie d'une addition à son Attaque de la moitié de son Attaque d'origine. Cette augmentation peut être empilée avec les effets d'Enragé et avec les autres augmentations d'Attaques (p. ex. 1,5x + 0,5x => total de 2,0x).\n\nTous les ennemis brûlés du champ de bataille seront étourdis pendant 25TU à la fin de chaque tour de cette unité.\n\nChaque fois que cette unité inflige des dégâts à un ennemi brûlé avec une attaque, les TU d'un allié brûlé aléatoire seront réduits à 0 à la fin du tour. Ceci peut être déclenché uniquement s'il y a 2 alliés brûlés sur le champ de bataille.\n\nCette unité gagne une Charge à chaque fois qu'une unité alliée inflige des dégâts à un ennemi avec une attaque. Un allié aléatoire gagnera Perçage si l'ennemi touché était brûlé. Les Attaques d'une unité avec Perçage ignoreront les effets de réduction de dégâts ennemis jusqu'à la fin de son prochain tour. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver jusqu'à 3 Charges et toutes les Charges sont retirées d'une unité qui quitte le champ de bataille."
             },
             {
                 "SkillTitle": "Dévotion Éternelle",
@@ -128678,6 +128757,403 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "FreyaNew01": {
+        "Name": "Freya",
+        "Name2": "Déesse des flammes furieuses",
+        "FullName": "Freya - Déesse des flammes furieuses",
+        "Profile": "La bataille était son monde entier. C'était l'ultime façon de parler de coeur à coeur pour exprimer l'amour et pour graver son existence dans ce monde.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 28,
+        "Atk_Base": 855,
+        "Hp_Base": 6935,
+        "Speed": 512,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Une flamme a été allumée sur le champ de bataille––\nUn brasier étouffant, inextinguible.",
+        "LeaderSkill": {
+            "SkillTitle": "Feu ATT+",
+            "SkillDescription": "Les alliés Feu voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fente Passionnée",
+                "SkillDescription": "250% de dégâts à 1 ennemi, et 150% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux). L'utilisateur prendra immédiatement le prochain tour si cette compétence est utilisée pour la première fois sur le champ de bataille ou si cette unité a utilisé Appel de Météore ou Vagues de Guerre depuis la dernière utilisation de cette compétence.\n\nSoigne ensuite tous les alliés d'une valeur de 800% de l'Attaque de l'utilisateur puis ils subissent l'effet de statut de Brûlure. Ceci remplacera les autres effets de statut sur ces unités. Toute unité qui inflige des dégâts à une unité brûlée ou en subit des dégâts sera également brûlée.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Appel de Météore",
+                "SkillDescription": "400% de dégâts à 2 ennemis. À chaque deuxième activation sur le champ de bataille, cette compétence infligera aléatoirement soit 800% ou 1000% de dégâts à la place. Cette attaque ignore l'effet de statut de Contre Relais et les effets des compétences passives de Reflet.\n\nUtilisable si le lanceur possède l'effet de statut de Brûlure.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Brasier Infernal",
+                "SkillDescription": "Inflige l'effet de statut de Brûlure à tous les ennemis. L'utilisateur est soigné de 100% de ses PV max et gagne une Protection Mort Instantanée, une Protection Brûlure et un Bouclier Brûlure.\n\nPuis si l'utilisateur est en Frénésie de Guerre, tous les ennemis brûlés du champ de bataille sont Étourdis pendant 50TU.\n\nCette compétence se verrouille pendant 50TU après son utilisation. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Les Boucliers Brûlure empêchent l'application du prochain effet de statut non-Brûlure qu'une unité subirait lorsqu'elle est brûlée.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Amour et Guerre",
+                "SkillDescription": "Cette unité entre sur le champ de bataille avec une Protection Mort Instantanée et la Méga Brûlure Soin pendant 100TU.\n\nCette unité ne peut être vaincue par des dégâts provenant d'effets de statut de Brûlure, et ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues. La première fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle entrera en Frénésie de Guerre pendant 100TU et ses TU actuels seront réduits à 0. Lorsque cette unité est en Frénésie de Guerre :\n- Les attaques de cette unité ignorent les effets de réduction de dégâts.\n- Lorsque cette unité subit des dégâts provenant d'une attaque, elle prendre immédiatement le prochain tour. Ceci ne peut être déclenché à nouveau jusqu'à ce que les TU s'écoulent. Ceci est un effet Reflet.\n- Cette unité devient Enragée à la fin de ses tours si elle est Brûlée. Ceci remplacera les effets d'autres compétences d'Enragé sur cette unité. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nCette unité bénéficie d'une chance de 20% et 20% de plus par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) de réduire immédiatement ses TU actuels à 0 et de gagner l'effet de statut de Brûlure à chaque fois qu'un ennemi entre sur le champ de bataille depuis les renforts.\n\nUne unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera toute autre effet de statut sur cette unité y compris la Brûlure Soin, ne peut être remplacé par les effets de statut de Brûlure, Poison, ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillTitle": "Lueur d'Yggdrasil",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut.\n\nCette unité bénéficie d'une Immunité Étourdissement. À chaque tour de cette unité, si ses Compétences Actives ne sont pas déjà désactivées, ses Compétences Actives ne peuvent être désactivées jusqu'à la fin de son tour.\n\nCette unité bénéficie d'une réduction de dégâts de 50%, et 10% de plus par ennemi que cette unité a vaincu par attaques sur le champ de bataille (maximum de 80% après avoir vaincu 3+ ennemis par attaques).\n\nCette unité est soignée de 50% de ses PV max si elle subit des dégâts provenant d'une attaque alors qu'elle n'est pas endormie et si elle survit jusqu'à la fin du tour.\n\nLa première fois que des dégâts provenant d'une des attaques de cette unité vainquent un ennemi non-invoqué, un autre ennemi aléatoire non-boss et non-Éphémère du champ de bataille sera immédiatement vaincu (l'utilisateur sera considéré avoir vaincu cet ennemi par attaque). Cet effet ignore les compétences passives de Vengeance et Résurrection et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi aléatoire d'être vaincu. Cet effet est réinitialisé pour pouvoir être à nouveau déclenché chaque fois qu'un allié non-invoqué du champ de bataille est vaincu lorsque cette unité est sur le champ de bataille."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Obscur. LV3",
+                "SkillDescription": "10% de dégâts en moins venant des attaques d'unités de type Obscurité."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "C'est donc la force du Coeur Yggdrasil...\nVive la nouvelle Freya améliorée !\nHahaha !!\nQuoi ? Tu veux voir ma nouvelle force ?\nAlors parlons donc de notre amour !\nL'amour connu sous le nom de guerre !"
+            ],
+            "Login": [
+                "Je t'attendais ! Parlons d'amour !\nHein ? Tu t'apprêtes à partir ? Très bien. Il n'y a rien à faire. Nous nous battrons donc une fois arrivés à ta destination."
+            ],
+            "Tap": [
+                "Réunions, stratèges, négociations... Oublie tout ça ! Je veux sortir et aller me battre !\nTu ne peux pas m'arrêter––Je vais me frayer un passage vers le champ de bataille !",
+                "Hm... Quelque chose sent bon... Est-ce un curry ? Ça a aussi l'air délicieux...\nJe peux goûter juste un petit peu... Mmm !? Mmmmm ! T-Tellement piquant !!",
+                "Tu as dit que ce dragon humanoïde s'appelait Ruvi, pas vrai ? Héhéhé... Elle a un regard superbement défiant !\nTrès bien, je vais la défier en duel la prochaine fois que je la vois !"
+            ],
+            "Idle": [
+                "Où est passé le garçon...? On s'est promis d'exprimer notre amour...\nHéhéhé, ne me fais pas attendre, garçon ! Sors et montre-toi, où que tu sois !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Fente Passionnée": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Appel de Météore": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Brasier Infernal": {
+                    "BaseWeight": 100
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "FreyaNew02": {
+        "Name": "Freya",
+        "Name2": "Déesse des flammes furieuses",
+        "FullName": "Freya - Déesse des flammes furieuses",
+        "Profile": "Cependant, maintenant qu'elle doit diriger les survivants et protéger les faibles, ses valeurs vacillent pour la première fois. Les pleurs étouffés qu'elle entend lors des nuits sans sommeil, les lamentations de ceux ayant perdu leurs maison, les petites voix hurlant de faim... Ces choses-ci ne pouvaient être vaincues par sa force, quelle que soit son ampleur.",
+        "Profile_Ascended": "Pour protéger ceux sous sa protection, pour la première fois de sa vie, Freya allait chercher de l'eau, restait cachée et se battait, non pas pour détruire––Mais pour protéger. Elle prit ses distances des palpitantes et exaspérantes batailles qu'elle avait jadis aimées. Et pourtant, elle ressentait clairement une chose––Elle devenait plus forte que jamais.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 34,
+        "Atk_Base": 914,
+        "Hp_Base": 9850,
+        "Speed": 512,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Feu ATT+",
+            "SkillDescription": "Les alliés Feu voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fente Passionnée",
+                "SkillDescription": "250% de dégâts à 1 ennemi, et 150% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux). L'utilisateur prendra immédiatement le prochain tour si cette compétence est utilisée pour la première fois sur le champ de bataille ou si cette unité a utilisé Appel de Météore ou Vagues de Guerre depuis la dernière utilisation de cette compétence.\n\nSoigne ensuite tous les alliés d'une valeur de 800% de l'Attaque de l'utilisateur puis ils subissent l'effet de statut de Brûlure. Ceci remplacera les autres effets de statut sur ces unités. Toute unité qui inflige des dégâts à une unité brûlée ou en subit des dégâts sera également brûlée.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Appel de Météore",
+                "SkillDescription": "400% de dégâts à 2 ennemis. À chaque deuxième activation sur le champ de bataille, cette compétence infligera aléatoirement soit 800% ou 1000% de dégâts à la place. Cette attaque ignore l'effet de statut de Contre Relais et les effets des compétences passives de Reflet.\n\nUtilisable si le lanceur possède l'effet de statut de Brûlure.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Brasier Infernal",
+                "SkillDescription": "Inflige l'effet de statut de Brûlure à tous les ennemis. L'utilisateur est soigné de 100% de ses PV max et gagne une Protection Mort Instantanée, une Protection Brûlure et un Bouclier Brûlure.\n\nPuis si l'utilisateur est en Frénésie de Guerre, tous les ennemis brûlés du champ de bataille sont Étourdis pendant 50TU.\n\nCette compétence se verrouille pendant 50TU après son utilisation. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Les Boucliers Brûlure empêchent l'application du prochain effet de statut non-Brûlure qu'une unité subirait lorsqu'elle est brûlée.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Vagues de Guerre",
+                "SkillDescription": "1000% de dégâts à 1 ennemi.\n\nL'utilisateur entre ensuite en Frénésie de Guerre pendant 100TU. Donne immédiatement les prochains tours à tous les autres alliés brûlés en réduisant leurs TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour.\n\nUtilisable si le lanceur a vaincu 1+ unités par attaques sur le champ de bataille et seulement si le lanceur n'est pas en Frénésie de Guerre. Utilisable 3 fois par bataille.",
+                "TU": 10,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Amour et Guerre",
+                "SkillDescription": "Cette unité entre sur le champ de bataille avec une Protection Mort Instantanée et la Méga Brûlure Soin pendant 100TU.\n\nCette unité ne peut être vaincue par des dégâts provenant d'effets de statut de Brûlure, et ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues. La première fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle entrera en Frénésie de Guerre pendant 100TU et ses TU actuels seront réduits à 0. Lorsque cette unité est en Frénésie de Guerre :\n- Les attaques de cette unité ignorent les effets de réduction de dégâts.\n- Lorsque cette unité subit des dégâts provenant d'une attaque, elle prendre immédiatement le prochain tour. Ceci ne peut être déclenché à nouveau jusqu'à ce que les TU s'écoulent. Ceci est un effet Reflet.\n- Cette unité devient Enragée à la fin de ses tours si elle est Brûlée. Ceci remplacera les effets d'autres compétences d'Enragé sur cette unité. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nCette unité bénéficie d'une chance de 20% et 20% de plus par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) de réduire immédiatement ses TU actuels à 0 et de gagner l'effet de statut de Brûlure à chaque fois qu'un ennemi entre sur le champ de bataille depuis les renforts.\n\nUne unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera toute autre effet de statut sur cette unité y compris la Brûlure Soin, ne peut être remplacé par les effets de statut de Brûlure, Poison, ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillTitle": "Lueur d'Yggdrasil",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut.\n\nCette unité bénéficie d'une Immunité Étourdissement. À chaque tour de cette unité, si ses Compétences Actives ne sont pas déjà désactivées, ses Compétences Actives ne peuvent être désactivées jusqu'à la fin de son tour.\n\nCette unité bénéficie d'une réduction de dégâts de 50%, et 10% de plus par ennemi que cette unité a vaincu par attaques sur le champ de bataille (maximum de 80% après avoir vaincu 3+ ennemis par attaques).\n\nCette unité est soignée de 50% de ses PV max si elle subit des dégâts provenant d'une attaque alors qu'elle n'est pas endormie et si elle survit jusqu'à la fin du tour.\n\nLa première fois que des dégâts provenant d'une des attaques de cette unité vainquent un ennemi non-invoqué, un autre ennemi aléatoire non-boss et non-Éphémère du champ de bataille sera immédiatement vaincu (l'utilisateur sera considéré avoir vaincu cet ennemi par attaque). Cet effet ignore les compétences passives de Vengeance et Résurrection et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi aléatoire d'être vaincu. Cet effet est réinitialisé pour pouvoir être à nouveau déclenché chaque fois qu'un allié non-invoqué du champ de bataille est vaincu lorsque cette unité est sur le champ de bataille."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Obscur. LV3",
+                "SkillDescription": "10% de dégâts en moins venant des attaques d'unités de type Obscurité."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "C'est donc la force du Coeur Yggdrasil...\nVive la nouvelle Freya améliorée !\nHahaha !!\nQuoi ? Tu veux voir ma nouvelle force ?\nAlors parlons donc de notre amour !\nL'amour connu sous le nom de guerre !"
+            ],
+            "Login": [
+                "Je t'attendais ! Parlons d'amour !\nHein ? Tu t'apprêtes à partir ? Très bien. Il n'y a rien à faire. Nous nous battrons donc une fois arrivés à ta destination."
+            ],
+            "Tap": [
+                "Réunions, stratèges, négociations... Oublie tout ça ! Je veux sortir et aller me battre !\nTu ne peux pas m'arrêter––Je vais me frayer un passage vers le champ de bataille !",
+                "Hm... Quelque chose sent bon... Est-ce un curry ? Ça a aussi l'air délicieux...\nJe peux goûter juste un petit peu... Mmm !? Mmmmm ! T-Tellement piquant !!",
+                "Tu as dit que ce dragon humanoïde s'appelait Ruvi, pas vrai ? Héhéhé... Elle a un regard superbement défiant !\nTrès bien, je vais la défier en duel la prochaine fois que je la vois !"
+            ],
+            "Idle": [
+                "Où est passé le garçon...? On s'est promis d'exprimer notre amour...\nHéhéhé, ne me fais pas attendre, garçon ! Sors et montre-toi, où que tu sois !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Fente Passionnée": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Appel de Météore": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Brasier Infernal": {
+                    "BaseWeight": 100
+                },
+                "Vagues de Guerre": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.1,
+                        "IsMirage": 0.25,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amour et Dévotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

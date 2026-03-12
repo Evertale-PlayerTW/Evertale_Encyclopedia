@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1772089872,
+  "Time": 1772091593,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28557,6 +28557,60 @@
       "tuCost": 1,
       "useLimit": 0,
       "spiritCost": 4,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAFreyaNew",
+      "class": "Ability",
+      "abilityScalor": 1.5,
+      "conditionalAbilityScalors": [
+        3,
+        4.5,
+        6,
+        7.5,
+        9
+      ],
+      "config": "SingleAttackAFreyaNew",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAFreyaNew",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        7,
+        9
+      ],
+      "config": "DoubleAttackAFreyaNew",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BuffAFreyaNew",
+      "class": "Ability",
+      "config": "BuffAFreyaNew",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackAFreyaNew",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "config": "SpecialAttackAFreyaNew",
+      "tuCost": 10,
+      "useLimit": 3,
+      "spiritGain": 3,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

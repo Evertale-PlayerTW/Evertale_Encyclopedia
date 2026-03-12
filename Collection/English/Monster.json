@@ -17266,6 +17266,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -17598,6 +17609,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -20937,6 +20959,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -21330,6 +21363,17 @@
                     "FurCoatLizard01",
                     "SquidHead01",
                     "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATK+2%"
             }
@@ -26596,6 +26640,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -26808,6 +26863,17 @@
                     "FrogSorceror01",
                     "BeastCleric01",
                     "TrainerBoy01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATK+2%"
             }
@@ -118978,7 +119044,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Time Spears",
-                "SkillDescription": "Targets 1 enemy and ignores Guardians. If the target has 50TU or more, or if Time Stop is active, deals 600% damage.\n\nIf Time Stop is not active, Stuns the target for 300TU, then if the hit target has 200TU or more and is not a Stun Absorber, they can no longer be Stunned by this active skill unless they leave the battlefield.",
+                "SkillDescription": "Targets 1 enemy and ignores Guardians. If the target has 50TU or more, or if Time Stop is active, deals 600% damage.\n\nIf Time Stop is not active, Stuns the target for 300TU, then if the hit target has 200TU or more and is not a Stun Absorber, they can no longer be Stunned by Time Spears skill unless they leave the battlefield.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -119186,7 +119252,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Time Spears",
-                "SkillDescription": "Targets 1 enemy and ignores Guardians. If the target has 50TU or more, or if Time Stop is active, deals 600% damage.\n\nIf Time Stop is not active, Stuns the target for 300TU, then if the hit target has 200TU or more and is not a Stun Absorber, they can no longer be Stunned by this active skill unless they leave the battlefield.",
+                "SkillDescription": "Targets 1 enemy and ignores Guardians. If the target has 50TU or more, or if Time Stop is active, deals 600% damage.\n\nIf Time Stop is not active, Stuns the target for 300TU, then if the hit target has 200TU or more and is not a Stun Absorber, they can no longer be Stunned by Time Spears skill unless they leave the battlefield.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -128360,7 +128426,7 @@
         "Hp_Base": 7095,
         "Speed": 423,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "These wings will be the shield to protect you.",
         "LeaderSkill": {
             "SkillTitle": "Fire HP Up",
@@ -128491,6 +128557,19 @@
                         "IsBurning": 1.1
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -128678,6 +128757,403 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
+    },
+    "FreyaNew01": {
+        "Name": "Freya",
+        "Name2": "Goddess of Blazing Flames",
+        "FullName": "Freya - Goddess of Blazing Flames",
+        "Profile": "Battle was the entirety of her world. It was the ultimate way to speak heart to heart, to convey love, and to etch her existence into the world.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Fire",
+        "Element": "Fire",
+        "Cost": 28,
+        "Atk_Base": 855,
+        "Hp_Base": 6935,
+        "Speed": 512,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "A flame has been lit upon the battlefield—\na scorching blaze, never to be extinguished.",
+        "LeaderSkill": {
+            "SkillTitle": "Fire Attack Up",
+            "SkillDescription": "Allied Fire element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Passionate Cleave",
+                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time this skill has already been used while on the battlefield (max of 1000% total damage). The user will immediately get the next turn if this is the first time this skill has been used while on the battlefield or if this unit has used Meteor Call or Tides of War since this skill was last used.\n\nThen heals all allies for 800% of the user's attack, and grant them the Burn status effect. This will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Meteor Call",
+                "SkillDescription": "400% damage to 2 enemies. Every second time this skill is activated while on the battlefield, this skill will randomly deal either 800% or 1000% damage instead. This attack ignores the Counter Stance Status Effect and the effects of Skin passive skills.\n\nUsable if the user has the Burn status effect.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Infernal Blaze",
+                "SkillDescription": "Grants all enemies the Burn status effect. The user is healed for 100% of max HP,  granted an Instant Death Ward, Burn, and a Burn Shield.\n\nThen if the user is in War Frenzy, all burning enemies on the battlefield are Stunned for 50TU.\n\nThis skill becomes locked for 50TU after use. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Love and War",
+                "SkillDescription": "This unit enters battle with an Instant Death Ward, and Mega Healing Burn for 100TU.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, and ignore any effects of non-boss enemies that would prevent their targets from being defeated.\n\nThe first time this unit takes damage from an attack and survives until after the end of the turn, this unit will enter War Frenzy for 100TU, and have its TU reduced to 0. While in War Frenzy:\n- This unit's attacks ignore damage reduction effects.\n- When this unit takes damage from an attack, they will immediately get the next turn, this cannot trigger again until TU advances. This is a Skin effect.\n- This unit becomes Enraged at the end of its turns if this unit is Burning. This will overwrite the effects of other Enrage skills on this unit. Enraged units have their Attack increased to 1.5x until the end of their next turn.\n\nWhenever an enemy enters the battlefield from reinforcements, this unit has a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) to immediately have its TU reduced to 0,  and be granted the Burn status effect.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. Mega Healing Burn will overwrite other status effects including Healing Burn, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillTitle": "Spark of Yggdrasil",
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit has Stun immunity. Whenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nThis unit has 50% damage reduction, plus 10% for each enemy this unit has defeated with attacks while on the battlefield (max of 80% after defeating 3+ enemies with attacks).\n\nIf this unit takes damage from an attack while not sleeping, and survives until after the end of the turn, this unit will heal for 50% of max HP.\n\nThe first time damage from one of this unit's attacks defeats a non-conjured enemy, another random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (this unit is considered to have defeated that enemy with an attack). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated. This effect is reset so it can trigger again whenever a non-conjured ally on the battlefield is defeated while this unit is on the battlefield."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Dark Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Dark units."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "So this is the power of the Yggdrasil Core...\nAll hail the new and improved Freya!\nHahaha!!\nWhat? You want to see my new power?\nThen let's speak of our love!\nThe love known as war!"
+            ],
+            "Login": [
+                "I've been waiting for you! Let's talk about love!\nHuh? You're about to head out? Very well, it can't be helped. Then we shall fight at your destination!"
+            ],
+            "Tap": [
+                "Meetings, strategies, negotiations... Forget all that! I want to go out and fight!\nYou can't stop me—I'm going to force my way onto the battlefield!",
+                "Hm... Something smells good... Is that curry? It looks delicious too...\nJust a little taste... mmn!? Mmmngh! S-So spicy!!",
+                "You said that humanoid dragon is called Ruvi, right? Hehehe... She has wonderfully defiant eyes!\nAll right, I'll challenge her to a fight the next time I see her!"
+            ],
+            "Idle": [
+                "Where did the boy go...? We promised to express our love...\nHehehe, don't keep me waiting, boy! Come out, come out, wherever you are!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Passionate Cleave": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Meteor Call": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Infernal Blaze": {
+                    "BaseWeight": 100
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
+    },
+    "FreyaNew02": {
+        "Name": "Freya",
+        "Name2": "Goddess of Blazing Flames",
+        "FullName": "Freya - Goddess of Blazing Flames",
+        "Profile": "However, now that she has to lead survivors and protect the weak, her values have wavered for the first time. The muffled sobs she hears on sleepless nights, the laments of those who have lost their homes, the small voices crying out in hunger... these were things her power, no matter how great, could not defeat.",
+        "Profile_Ascended": "To protect those under her care, for the first time her life, Freya fetched water, stayed in hiding, and fought not to destroy—but to protect. She distanced herself from the blood-boiling, thrilling battles she once loved. And yet, she could feel it clearly—she was becoming stronger than ever before.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Fire",
+        "Element": "Fire",
+        "Cost": 34,
+        "Atk_Base": 914,
+        "Hp_Base": 9850,
+        "Speed": 512,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Fire Attack Up",
+            "SkillDescription": "Allied Fire element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Passionate Cleave",
+                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time this skill has already been used while on the battlefield (max of 1000% total damage). The user will immediately get the next turn if this is the first time this skill has been used while on the battlefield or if this unit has used Meteor Call or Tides of War since this skill was last used.\n\nThen heals all allies for 800% of the user's attack, and grant them the Burn status effect. This will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Meteor Call",
+                "SkillDescription": "400% damage to 2 enemies. Every second time this skill is activated while on the battlefield, this skill will randomly deal either 800% or 1000% damage instead. This attack ignores the Counter Stance Status Effect and the effects of Skin passive skills.\n\nUsable if the user has the Burn status effect.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Infernal Blaze",
+                "SkillDescription": "Grants all enemies the Burn status effect. The user is healed for 100% of max HP,  granted an Instant Death Ward, Burn, and a Burn Shield.\n\nThen if the user is in War Frenzy, all burning enemies on the battlefield are Stunned for 50TU.\n\nThis skill becomes locked for 50TU after use. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Tides of War",
+                "SkillDescription": "1000% damage to 1 enemy.\n\nThen the user will enter War Frenzy for 100TU, and immediately give all other allies that are burning the next turns by reducing their current TU. Active skills that grant turns cannot be used by any affected units until after they have had the turn.\n\nUsable if the user has defeated 1+ units with attacks while on the battlefield, and only if the user is not in War Frenzy. Usable 3 times per battle.",
+                "TU": 10,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Love and War",
+                "SkillDescription": "This unit enters battle with an Instant Death Ward, and Mega Healing Burn for 100TU.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, and ignore any effects of non-boss enemies that would prevent their targets from being defeated.\n\nThe first time this unit takes damage from an attack and survives until after the end of the turn, this unit will enter War Frenzy for 100TU, and have its TU reduced to 0. While in War Frenzy:\n- This unit's attacks ignore damage reduction effects.\n- When this unit takes damage from an attack, they will immediately get the next turn, this cannot trigger again until TU advances. This is a Skin effect.\n- This unit becomes Enraged at the end of its turns if this unit is Burning. This will overwrite the effects of other Enrage skills on this unit. Enraged units have their Attack increased to 1.5x until the end of their next turn.\n\nWhenever an enemy enters the battlefield from reinforcements, this unit has a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) to immediately have its TU reduced to 0,  and be granted the Burn status effect.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. Mega Healing Burn will overwrite other status effects including Healing Burn, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillTitle": "Spark of Yggdrasil",
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit has Stun immunity. Whenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nThis unit has 50% damage reduction, plus 10% for each enemy this unit has defeated with attacks while on the battlefield (max of 80% after defeating 3+ enemies with attacks).\n\nIf this unit takes damage from an attack while not sleeping, and survives until after the end of the turn, this unit will heal for 50% of max HP.\n\nThe first time damage from one of this unit's attacks defeats a non-conjured enemy, another random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (this unit is considered to have defeated that enemy with an attack). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated. This effect is reset so it can trigger again whenever a non-conjured ally on the battlefield is defeated while this unit is on the battlefield."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Dark Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Dark units."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "So this is the power of the Yggdrasil Core...\nAll hail the new and improved Freya!\nHahaha!!\nWhat? You want to see my new power?\nThen let's speak of our love!\nThe love known as war!"
+            ],
+            "Login": [
+                "I've been waiting for you! Let's talk about love!\nHuh? You're about to head out? Very well, it can't be helped. Then we shall fight at your destination!"
+            ],
+            "Tap": [
+                "Meetings, strategies, negotiations... Forget all that! I want to go out and fight!\nYou can't stop me—I'm going to force my way onto the battlefield!",
+                "Hm... Something smells good... Is that curry? It looks delicious too...\nJust a little taste... mmn!? Mmmngh! S-So spicy!!",
+                "You said that humanoid dragon is called Ruvi, right? Hehehe... She has wonderfully defiant eyes!\nAll right, I'll challenge her to a fight the next time I see her!"
+            ],
+            "Idle": [
+                "Where did the boy go...? We promised to express our love...\nHehehe, don't keep me waiting, boy! Come out, come out, wherever you are!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Passionate Cleave": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Meteor Call": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Infernal Blaze": {
+                    "BaseWeight": 100
+                },
+                "Tides of War": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.1,
+                        "IsMirage": 0.25,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Love and Devotion",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
     }
 }

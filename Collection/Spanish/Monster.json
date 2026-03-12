@@ -17266,6 +17266,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -17598,6 +17609,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -20937,6 +20959,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -21330,6 +21363,17 @@
                     "FurCoatLizard01",
                     "SquidHead01",
                     "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -26596,6 +26640,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -26808,6 +26863,17 @@
                     "FrogSorceror01",
                     "BeastCleric01",
                     "TrainerBoy01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -118978,7 +119044,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lanzas de Tiempo",
-                "SkillDescription": "Apunta a 1 enemigo e ignora a los Guardianes. Si el objetivo tiene 50TU o más, o si Detener  Tiempo está activo, inflige 600% de daño.\n\nSi Detener Tiempo no está activo, aturde al objetivo por 300TU, luego si el objetivo impactado tiene 200TU o más y no es un Absorbedor de Aturdir, ya no puede ser Aturdido por esta habilidad activa a menos que abandone el campo de batalla.",
+                "SkillDescription": "Selecciona a 1 enemigo e ignora a los Guardianes. Si el objetivo tiene 50TU o más, o si Detener Tiempo está activo, inflige 600% de daño. Si Detener Tiempo no está activo, Aturde al objetivo durante 300TU. Si el objetivo impactado tiene 200TU o más y no tiene Absorber Aturdir, ya no puede ser Aturdido por la habilidad Lanzas de Tiempo a menos que abandone el campo de batalla.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -119186,7 +119252,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Lanzas de Tiempo",
-                "SkillDescription": "Apunta a 1 enemigo e ignora a los Guardianes. Si el objetivo tiene 50TU o más, o si Detener  Tiempo está activo, inflige 600% de daño.\n\nSi Detener Tiempo no está activo, aturde al objetivo por 300TU, luego si el objetivo impactado tiene 200TU o más y no es un Absorbedor de Aturdir, ya no puede ser Aturdido por esta habilidad activa a menos que abandone el campo de batalla.",
+                "SkillDescription": "Selecciona a 1 enemigo e ignora a los Guardianes. Si el objetivo tiene 50TU o más, o si Detener Tiempo está activo, inflige 600% de daño. Si Detener Tiempo no está activo, Aturde al objetivo durante 300TU. Si el objetivo impactado tiene 200TU o más y no tiene Absorber Aturdir, ya no puede ser Aturdido por la habilidad Lanzas de Tiempo a menos que abandone el campo de batalla.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -127624,7 +127690,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Campeón Sigiloso",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos y la curarán el 100% del daño total infligido.\n\nEsta unidad entra en batalla con Súper Sigilo y un Escudo de Sigilo. Siempre que esta unidad entre en batalla tras recibir refuerzos, todos los Impostores aliados en el campo de batalla serán derrotados al final del siguiente turno. Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan que un objetivo sea derrotado.\n\nAl final de cada turno, esta unidad otorga a un aliado aleatorio que no esté en sigilo ni queme en el campo de batalla el efecto de estado Súper Sigilo. Luego, un aliado aleatorio en Sigilo se curará el 30% de sus HP máximos. Estos efectos no se pueden activar si Mysha no tiene otros aliados en el campo de batalla.\n\nAl final de cada turno de cada aliado, si todas las unidades aliadas en el campo de batalla tienen Sigilo, esta unidad obtendrá inmediatamente el siguiente turno al reducir su TU a 0, y después este efecto no se puede activar de nuevo hasta que avancen 20TU."
             },
             {
                 "SkillTitle": "Ataque+ Niv3",
@@ -127845,7 +127911,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Campeón Sigiloso",
-                "SkillDescription": "This unit's attacks will not wake sleeping enemies, and heal this unit for 100% of total damage dealt.\n\nThis unit enters battle with Super Stealth, and a Stealth Shield. Whenever this unit enters battle from reinforcements, all ally Imposters on the battlefield are defeated at the end of the next turn. This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the targets from being defeated.\n\nAt the end of each turn, this unit grants a random non-burning, non-stealthed ally on the battlefield the Super Stealth status effect. Then a random Stealthed ally will heal for 30% of their max HP. These effects cannot trigger if Mysha has no other allies on the battlefield.\n\nAt the end of each other ally turn, if all ally units on the battlefield have Stealth, this unit will immediately get the next turn by having its TU reduced to 0, then this effect cannot trigger again until 20TU advances."
+                "SkillDescription": "Los ataques de esta unidad no despertarán a los enemigos dormidos y la curarán el 100% del daño total infligido.\n\nEsta unidad entra en batalla con Súper Sigilo y un Escudo de Sigilo. Siempre que esta unidad entre en batalla tras recibir refuerzos, todos los Impostores aliados en el campo de batalla serán derrotados al final del siguiente turno. Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan que un objetivo sea derrotado.\n\nAl final de cada turno, esta unidad otorga a un aliado aleatorio que no esté en sigilo ni queme en el campo de batalla el efecto de estado Súper Sigilo. Luego, un aliado aleatorio en Sigilo se curará el 30% de sus HP máximos. Estos efectos no se pueden activar si Mysha no tiene otros aliados en el campo de batalla.\n\nAl final de cada turno de cada aliado, si todas las unidades aliadas en el campo de batalla tienen Sigilo, esta unidad obtendrá inmediatamente el siguiente turno al reducir su TU a 0, y después este efecto no se puede activar de nuevo hasta que avancen 20TU."
             },
             {
                 "SkillTitle": "Legado Poderoso",
@@ -128045,7 +128111,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Hoja Martilladora",
-                "SkillDescription": "400% de daño a 1 enemigo. 500% de daño en su lugar si el usuario ha sobrevivido 100TU o más en el campo de batalla. 600% de daño en su lugar si el usuario ha sobrevivido 200TU o más en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nLuego aturde al objetivo por 100TU. Si el objetivo impactado tiene 200TU o más y no es un Absorber Aturdir, ya no puede ser aturdido por Hoja Martilladora a menos que abandone el campo de batalla.",
+                "SkillDescription": "400% de daño a 1 enemigo. 500% de daño en su lugar si el usuario ha sobrevivido 100TU o más en el campo de batalla. 600% de daño en su lugar si el usuario ha sobrevivido 200TU o más en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nLuego, aturde al objetivo por 100TU. Si el objetivo impactado tiene 200TU o más y no es un Absorber Aturdir, ya no puede ser aturdido por Hoja Martilladora a menos que abandone el campo de batalla.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -128065,7 +128131,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Dios del Trueno",
-                "SkillDescription": "Los ataques de esta unidad curan a esta unidad por 100% del daño total infligido. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea. Un Guarda Muerte Instantánea evita que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guardas Muerte Instantánea no pueden ser ignoradas y no se pueden acumular.\n\nEsta unidad se convertirá en un Guardián por 100TU:\n- Cuando esta unidad entra al campo de batalla.\n- Cada vez que esta unidad derrota a un enemigo no conjurado con un ataque mientras está en el campo de batalla.\n\nEsta unidad no puede convertirse en un Guardián de otras habilidades.\n\nMientras esta unidad es un Guardián:\n- Tiene 50% de reducción de daño de ataques.\n- Esta unidad tiene inmunidad a Aturdir y al Sueño.\n- Cada vez que una unidad obtiene el turno, esta unidad será curada por 100% de su HP máximo.\n\nMientras esta unidad no es un Guardián, el Ataque de esta unidad aumenta a 1.5x. Este aumento de Ataque no se acumula con efectos de Enfurecer.\n\nAnte cualquier ataque enemigo que impacte a 1 o 2 aliados mientras esta unidad es un Guardián, esta unidad tiene un 100% de probabilidad de redirigir un golpe hacia sí misma. Esta unidad no redirigirá habilidades que no inflijan daño."
+                "SkillDescription": "Los ataques de esta unidad curan a esta unidad por 100% del daño total infligido. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea. Un Guarda Muerte Instantánea evita que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guardas Muerte Instantánea no pueden ser ignorados y no se pueden acumular.\n\nEsta unidad se convertirá en un Guardián por 100TU:\n- Cuando esta unidad entra al campo de batalla.\n- Cada vez que esta unidad derrota a un enemigo no conjurado con un ataque mientras está en el campo de batalla.\n\nEsta unidad no puede convertirse en un Guardián de otras habilidades.\n\nMientras esta unidad es un Guardián:\n- Tiene 50% de reducción de daño de ataques.\n- Esta unidad tiene inmunidad a Aturdir y al Sueño.\n- Cada vez que una unidad obtiene el turno, esta unidad será curada por 100% de su HP máximo.\n\nMientras esta unidad no es un Guardián, el Ataque de esta unidad aumenta a 1.5x. Este aumento de Ataque no se acumula con efectos de Enfurecer.\n\nAnte cualquier ataque enemigo que impacte a 1 o 2 aliados mientras esta unidad es un Guardián, esta unidad tiene un 100% de probabilidad de redirigir un golpe hacia sí misma. Esta unidad no redirigirá habilidades que no inflijan daño."
             },
             {
                 "SkillTitle": "Poder Ilimitado",
@@ -128194,7 +128260,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Hoja Martilladora",
-                "SkillDescription": "400% de daño a 1 enemigo. 500% de daño en su lugar si el usuario ha sobrevivido 100TU o más en el campo de batalla. 600% de daño en su lugar si el usuario ha sobrevivido 200TU o más en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nLuego aturde al objetivo por 100TU. Si el objetivo impactado tiene 200TU o más y no es un Absorber Aturdir, ya no puede ser aturdido por Hoja Martilladora a menos que abandone el campo de batalla.",
+                "SkillDescription": "400% de daño a 1 enemigo. 500% de daño en su lugar si el usuario ha sobrevivido 100TU o más en el campo de batalla. 600% de daño en su lugar si el usuario ha sobrevivido 200TU o más en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nLuego, aturde al objetivo por 100TU. Si el objetivo impactado tiene 200TU o más y no es un Absorber Aturdir, ya no puede ser aturdido por Hoja Martilladora a menos que abandone el campo de batalla.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -128220,7 +128286,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Dios del Trueno",
-                "SkillDescription": "Los ataques de esta unidad curan a esta unidad por 100% del daño total infligido. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea. Un Guarda Muerte Instantánea evita que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guardas Muerte Instantánea no pueden ser ignoradas y no se pueden acumular.\n\nEsta unidad se convertirá en un Guardián por 100TU:\n- Cuando esta unidad entra al campo de batalla.\n- Cada vez que esta unidad derrota a un enemigo no conjurado con un ataque mientras está en el campo de batalla.\n\nEsta unidad no puede convertirse en un Guardián de otras habilidades.\n\nMientras esta unidad es un Guardián:\n- Tiene 50% de reducción de daño de ataques.\n- Esta unidad tiene inmunidad a Aturdir y al Sueño.\n- Cada vez que una unidad obtiene el turno, esta unidad será curada por 100% de su HP máximo.\n\nMientras esta unidad no es un Guardián, el Ataque de esta unidad aumenta a 1.5x. Este aumento de Ataque no se acumula con efectos de Enfurecer.\n\nAnte cualquier ataque enemigo que impacte a 1 o 2 aliados mientras esta unidad es un Guardián, esta unidad tiene un 100% de probabilidad de redirigir un golpe hacia sí misma. Esta unidad no redirigirá habilidades que no inflijan daño."
+                "SkillDescription": "Los ataques de esta unidad curan a esta unidad por 100% del daño total infligido. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea. Un Guarda Muerte Instantánea evita que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guardas Muerte Instantánea no pueden ser ignorados y no se pueden acumular.\n\nEsta unidad se convertirá en un Guardián por 100TU:\n- Cuando esta unidad entra al campo de batalla.\n- Cada vez que esta unidad derrota a un enemigo no conjurado con un ataque mientras está en el campo de batalla.\n\nEsta unidad no puede convertirse en un Guardián de otras habilidades.\n\nMientras esta unidad es un Guardián:\n- Tiene 50% de reducción de daño de ataques.\n- Esta unidad tiene inmunidad a Aturdir y al Sueño.\n- Cada vez que una unidad obtiene el turno, esta unidad será curada por 100% de su HP máximo.\n\nMientras esta unidad no es un Guardián, el Ataque de esta unidad aumenta a 1.5x. Este aumento de Ataque no se acumula con efectos de Enfurecer.\n\nAnte cualquier ataque enemigo que impacte a 1 o 2 aliados mientras esta unidad es un Guardián, esta unidad tiene un 100% de probabilidad de redirigir un golpe hacia sí misma. Esta unidad no redirigirá habilidades que no inflijan daño."
             },
             {
                 "SkillTitle": "Poder Ilimitado",
@@ -128360,7 +128426,7 @@
         "Hp_Base": 7095,
         "Speed": 423,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Estas alas serán el escudo que te protegerá.",
         "LeaderSkill": {
             "SkillTitle": "Sube HP Fuego",
@@ -128388,8 +128454,8 @@
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Scorching Descent",
-                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+                "SkillTitle": "Descenso Abrasador",
+                "SkillDescription": "Cuando esta unidad entra en batalla, todos los aliados reciben Guarda Muerte Instantánea. Al final del turno, todos los enemigos en el campo de batalla recibirán el efecto de estado Quemado. Un Guarda Muerte Instantánea impide que una unidad sea derrotada inmediatamente sin daño por un enemigo que no sea jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular.\n\nEsta unidad no puede ser derrotada por daño de efectos de estado de Quemado.\n\nEsta unidad no puede ser Aturdida si algún aliado en el campo de batalla está ardiendo.\n\nMientras todos los enemigos en el campo de batalla estén ardiendo, esta unidad tiene 0.5x de su Ataque original añadido a su Ataque. Esto se acumula sobre los efectos de Enfurecer y otros aumentos de Ataque (por ejemplo, 1.5x + 0.5x => 2.0x en total).\n\nAl final de cada uno de los turnos de esta unidad, todos los enemigos en llamas en el campo de batalla quedarán aturdidos por 25TU.\n\nCada vez que esta unidad daña a un enemigo en llamas con un ataque, un aliado aleatorio en llamas verá su TU reducida a 0 al final del turno. Esto no puede activarse a menos que haya 2 aliados en llamas en el campo de batalla.\n\nCada vez que una unidad aliada daña a un enemigo con un ataque, esta unidad obtendrá una Carga. Si ese enemigo estaba ardiendo, un aliado aleatorio recibirá Perforado. Una unidad con Perforado hará que sus Ataques ignoren los efectos de reducción de daño del enemigo hasta el final de su siguiente turno. Ciertas habilidades se ven afectadas por y pueden consumir cargas. Una unidad puede almacenar hasta 3 cargas y todas las cargas se eliminan de una unidad que abandona el campo de batalla."
             },
             {
                 "SkillTitle": "Devoción Eterna",
@@ -128492,6 +128558,19 @@
                     }
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
         }
     },
     "CalKouhaiRegular02": {
@@ -128545,8 +128624,8 @@
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Scorching Descent",
-                "SkillDescription": "When this unit enters battle, all allies are granted Instant Death Wards. Then at the end of the turn, all enemies on the battlefield will be granted the Burn status effect. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nThis unit cannot be defeated by damage from Burn status effects.\n\nThis unit cannot be Stunned if any ally on the battlefield is burning.\n\nWhile all enemies on the battlefield are burning, this unit has 0.5x of their original Attack added to their Attack. This does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total)\n\nAt the end of each of this unit's turns, all burning enemies on the battlefield will be stunned for 25TU.\n\nEach time this unit damages a burning enemy with an attack, a random burning ally will have their TU reduced to 0 at the end of the turn. This cannot trigger unless there are 2 burning allies on the battlefield.\n\nEach time an ally unit damages an enemy with an attack, this unit will gain a Charge. If that enemy was burning, a random ally will be granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield."
+                "SkillTitle": "Descenso Abrasador",
+                "SkillDescription": "Cuando esta unidad entra en batalla, todos los aliados reciben Guarda Muerte Instantánea. Al final del turno, todos los enemigos en el campo de batalla recibirán el efecto de estado Quemado. Un Guarda Muerte Instantánea impide que una unidad sea derrotada inmediatamente sin daño por un enemigo que no sea jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular.\n\nEsta unidad no puede ser derrotada por daño de efectos de estado de Quemado.\n\nEsta unidad no puede ser Aturdida si algún aliado en el campo de batalla está ardiendo.\n\nMientras todos los enemigos en el campo de batalla estén ardiendo, esta unidad tiene 0.5x de su Ataque original añadido a su Ataque. Esto se acumula sobre los efectos de Enfurecer y otros aumentos de Ataque (por ejemplo, 1.5x + 0.5x => 2.0x en total).\n\nAl final de cada uno de los turnos de esta unidad, todos los enemigos en llamas en el campo de batalla quedarán aturdidos por 25TU.\n\nCada vez que esta unidad daña a un enemigo en llamas con un ataque, un aliado aleatorio en llamas verá su TU reducida a 0 al final del turno. Esto no puede activarse a menos que haya 2 aliados en llamas en el campo de batalla.\n\nCada vez que una unidad aliada daña a un enemigo con un ataque, esta unidad obtendrá una Carga. Si ese enemigo estaba ardiendo, un aliado aleatorio recibirá Perforado. Una unidad con Perforado hará que sus Ataques ignoren los efectos de reducción de daño del enemigo hasta el final de su siguiente turno. Ciertas habilidades se ven afectadas por y pueden consumir cargas. Una unidad puede almacenar hasta 3 cargas y todas las cargas se eliminan de una unidad que abandona el campo de batalla."
             },
             {
                 "SkillTitle": "Devoción Eterna",
@@ -128678,6 +128757,403 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "FreyaNew01": {
+        "Name": "Freya",
+        "Name2": "Diosa de las llamas ardientes",
+        "FullName": "Freya - Diosa de las llamas ardientes",
+        "Profile": "La batalla era la esencia de su mundo. Era la forma definitiva de hablar de corazón a corazón, transmitir amor y dejar huella en el mundo.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 28,
+        "Atk_Base": 855,
+        "Hp_Base": 6935,
+        "Speed": 512,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Una llama se ha encendido en el campo de batalla...\nun fuego abrasador que nunca se extinguirá.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Tajo Pasional",
+                "SkillDescription": "250% de daño a 1 enemigo, más 150% por cada vez que esta habilidad se haya usado en el campo de batalla (máximo de 1000% de daño total). El usuario obtendrá inmediatamente el siguiente turno si es la primera vez que usa esta habilidad en el campo de batalla o si esta unidad ha usado Llamada Meteoro o Mareas de Guerra desde la última vez que la usó.\n\nLuego, cura a todos los aliados por un 800% de su ataque y les otorga el efecto de estado Quemado. Esto sobrescribirá otros efectos de estado en esas unidades. Cualquier unidad que inflija daño a una unidad con Quemado, o que reciba daño de esta, también será quemada.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Llamada Meteoro",
+                "SkillDescription": "400% de daño a 2 enemigos. Cada segunda vez que se activa esta habilidad en el campo de batalla, inflige aleatoriamente un 800% o un 1000% de daño. Este ataque ignora el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel. Disponible si el usuario tiene el efecto de estado de Quemado.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Llamarada Infernal",
+                "SkillDescription": "Otorga a todos los enemigos el efecto de estado Quemado. El usuario se cura al 100% de sus HP máximos, recibe un Guarda Muerte Instantánea, Quemado y un Escudo Quemado.\n\nSi el usuario está en Frenesí de Guerra, todos los enemigos en llamas en el campo de batalla quedan Aturdidos durante 50TU.\n\nEsta habilidad se bloquea durante 50 TU tras su uso. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Los Escudos Quemado impiden que se aplique el siguiente efecto de estado que no sea quemadura que una unidad obtendría mientras estuviera en llamas.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Amor y Guerra",
+                "SkillDescription": "Esta unidad entra en batalla con un Guarda Muerte Instantánea y un Quemado Mega Sanador por 100TU.\n\nEsta unidad no puede ser derrotada por daño de efectos de estado de Quemado y no puede ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad curan a esta unidad por el 100% del daño total infligido e ignoran cualquier efecto de enemigos que no sean jefes que impidan que sus objetivos sean derrotados.\n\nLa primera vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad entrará en Frenesí de Guerra por 100TU y verá su TU reducida a 0. Mientras está en Frenesí de Guerra:\n- Los ataques de esta unidad ignoran los efectos de reducción de daño\n- Cuando esta unidad recibe daño de un ataque, inmediatamente obtendrá el siguiente turno, esto no puede activarse de nuevo hasta que la TU avance. Este es un efecto de Piel.\n- Esta unidad se enfurece al final de sus turnos si esta unidad está en llamas. Esto sobrescribirá los efectos de otras habilidades de Enfurecer en esta unidad. Las unidades enfurecidas tienen su Ataque aumentado a 1.5x hasta el final de su siguiente turno.\n\nSiempre que un enemigo entre al campo de batalla desde los refuerzos, esta unidad tiene un 20% de posibilidades, más 20% por cada Despertar (hasta 100% de posibilidades si tiene 4 Despertares) de que su TU se reduzca a 0, y recibir el efecto de estado Quemado.\n\nUna unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces superior a la de Quemado Sanador. Mega Quemado Sanador sobrescribirá otros efectos de estado, incluyendo Quemado Sanador, no puede ser sobrescrito por efectos de estado de Quemado, Veneno o Sueño, y no puede ser Purificado. Cualquier unidad que inflija daño a o reciba daño de una unidad con Mega Quemado Sanador obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300TU cuando expire Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Chispa de Yggdrasil",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad tiene inmunidad a Aturdir. Siempre que esta unidad tenga el turno, si sus habilidades activas no están deshabilitadas, no podrá tener sus habilidades activas deshabilitadas hasta el final de su turno.\n\nEsta unidad tiene un 50% de reducción de daño, más un 10% por cada enemigo que esta unidad haya derrotado con ataques mientras esté en el campo de batalla (máximo del 80% después de derrotar a 3 o más enemigos con ataques).\n\nSi esta unidad recibe daño de un ataque mientras no está dormida y sobrevive hasta después del final del turno, se curará el 50% de su HP máximo.\n\nLa primera vez que el daño de uno de los ataques de esta unidad derrote a un enemigo no conjurado, otro enemigo aleatorio que no sea un jefe ni un efímero en el campo de batalla será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota de un enemigo aleatorio. Este efecto se reinicia para que pueda activarse de nuevo cuando un aliado no conjurado en el campo de batalla sea derrotado mientras esta unidad esté en el campo de batalla."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Oscuro Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Oscuro."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Así que este es el poder del Núcleo de Yggdrasil...\n¡Saluden a la nueva y mejorada Freya!\n¡Jajaja!\n¿Qué? ¿Quieres ver mi nuevo poder?\n¡Pues hablemos de nuestro amor!\n¡El amor conocido como guerra!"
+            ],
+            "Login": [
+                "¡Te estaba esperando! ¡Hablemos de amor!\n¿Eh? ¿Estás a punto de partir? Bueno, no hay nada que hacer. ¡Lucharemos en tu destino!"
+            ],
+            "Tap": [
+                "Reuniones, estrategias, negociaciones... ¡Olvídate de todo eso! ¡Quiero salir a luchar!\n¡No puedes detenerme! ¡Voy a abrirme paso en el campo de batalla!",
+                "Mm... Algo huele bien... ¿Es curry? ¡Y se ve delicioso!\nSólo un poquito... ¡Mmm! ¡Mmmnggh! ¡¡Qué picante!!",
+                "Dijiste que esa dragona humanoide se llama Ruvi, ¿verdad? Jejeje... ¡Tiene unos ojos maravillosamente desafiantes!\n¡De acuerdo, la retaré a pelear la próxima vez que la vea!"
+            ],
+            "Idle": [
+                "¿Adónde fue el chico...? Prometimos expresar nuestro amor...\nJejeje, ¡no me hagas esperar, chico! ¡Ven, sal, donde quiera que estés!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Tajo Pasional": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Llamada Meteoro": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Llamarada Infernal": {
+                    "BaseWeight": 100
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "FreyaNew02": {
+        "Name": "Freya",
+        "Name2": "Diosa de las llamas ardientes",
+        "FullName": "Freya - Diosa de las llamas ardientes",
+        "Profile": "Sin embargo, ahora que tiene que liderar a los supervivientes y proteger a los débiles, sus valores han flaqueado por primera vez. Los sollozos ahogados que oye en noches de insomnio, los lamentos de quienes han perdido sus hogares, las pequeñas voces que claman de hambre... eran cosas que su poder, por grande que fuera, no podía vencer.",
+        "Profile_Ascended": "Para proteger a quienes estaban bajo su cuidado, por primera vez en su vida, Freya fue a buscar agua, se escondió y luchó... no para destruir, sino para proteger. Se distanció de las sangrientas y emocionantes batallas que una vez amó. Y, sin embargo, podía sentirlo claramente: se estaba volviendo más fuerte que nunca.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 34,
+        "Atk_Base": 914,
+        "Hp_Base": 9850,
+        "Speed": 512,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Tajo Pasional",
+                "SkillDescription": "250% de daño a 1 enemigo, más 150% por cada vez que esta habilidad se haya usado en el campo de batalla (máximo de 1000% de daño total). El usuario obtendrá inmediatamente el siguiente turno si es la primera vez que usa esta habilidad en el campo de batalla o si esta unidad ha usado Llamada Meteoro o Mareas de Guerra desde la última vez que la usó.\n\nLuego, cura a todos los aliados por un 800% de su ataque y les otorga el efecto de estado Quemado. Esto sobrescribirá otros efectos de estado en esas unidades. Cualquier unidad que inflija daño a una unidad con Quemado, o que reciba daño de esta, también será quemada.",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Llamada Meteoro",
+                "SkillDescription": "400% de daño a 2 enemigos. Cada segunda vez que se activa esta habilidad en el campo de batalla, inflige aleatoriamente un 800% o un 1000% de daño. Este ataque ignora el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel. Disponible si el usuario tiene el efecto de estado de Quemado.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Llamarada Infernal",
+                "SkillDescription": "Otorga a todos los enemigos el efecto de estado Quemado. El usuario se cura al 100% de sus HP máximos, recibe un Guarda Muerte Instantánea, Quemado y un Escudo Quemado.\n\nSi el usuario está en Frenesí de Guerra, todos los enemigos en llamas en el campo de batalla quedan Aturdidos durante 50TU.\n\nEsta habilidad se bloquea durante 50 TU tras su uso. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Los Escudos Quemado impiden que se aplique el siguiente efecto de estado que no sea quemadura que una unidad obtendría mientras estuviera en llamas.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Mareas de Guerra",
+                "SkillDescription": "1000% de daño a 1 enemigo.\n\nLuego, el usuario entrará en Frenesí de Guerra por 100TU e inmediatamente otorgará turnos a todos los demás aliados que estén ardiendo, reduciendo su TU actual. Las habilidades activas que otorgan turnos no pueden ser usadas por las unidades afectadas hasta que hayan tenido el turno.\n\nSe puede usar si el usuario ha derrotado a 1 o más unidades con ataques en el campo de batalla, y sólo si no está en Frenesí de Guerra. Se puede usar 3 veces por batalla.",
+                "TU": 10,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Amor y Guerra",
+                "SkillDescription": "Esta unidad entra en batalla con un Guarda Muerte Instantánea y un Quemado Mega Sanador por 100TU.\n\nEsta unidad no puede ser derrotada por daño de efectos de estado de Quemado y no puede ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad curan a esta unidad por el 100% del daño total infligido e ignoran cualquier efecto de enemigos que no sean jefes que impidan que sus objetivos sean derrotados.\n\nLa primera vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad entrará en Frenesí de Guerra por 100TU y verá su TU reducida a 0. Mientras está en Frenesí de Guerra:\n- Los ataques de esta unidad ignoran los efectos de reducción de daño\n- Cuando esta unidad recibe daño de un ataque, inmediatamente obtendrá el siguiente turno, esto no puede activarse de nuevo hasta que la TU avance. Este es un efecto de Piel.\n- Esta unidad se enfurece al final de sus turnos si esta unidad está en llamas. Esto sobrescribirá los efectos de otras habilidades de Enfurecer en esta unidad. Las unidades enfurecidas tienen su Ataque aumentado a 1.5x hasta el final de su siguiente turno.\n\nSiempre que un enemigo entre al campo de batalla desde los refuerzos, esta unidad tiene un 20% de posibilidades, más 20% por cada Despertar (hasta 100% de posibilidades si tiene 4 Despertares) de que su TU se reduzca a 0, y recibir el efecto de estado Quemado.\n\nUna unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces superior a la de Quemado Sanador. Mega Quemado Sanador sobrescribirá otros efectos de estado, incluyendo Quemado Sanador, no puede ser sobrescrito por efectos de estado de Quemado, Veneno o Sueño, y no puede ser Purificado. Cualquier unidad que inflija daño a o reciba daño de una unidad con Mega Quemado Sanador obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300TU cuando expire Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Chispa de Yggdrasil",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad tiene inmunidad a Aturdir. Siempre que esta unidad tenga el turno, si sus habilidades activas no están deshabilitadas, no podrá tener sus habilidades activas deshabilitadas hasta el final de su turno.\n\nEsta unidad tiene un 50% de reducción de daño, más un 10% por cada enemigo que esta unidad haya derrotado con ataques mientras esté en el campo de batalla (máximo del 80% después de derrotar a 3 o más enemigos con ataques).\n\nSi esta unidad recibe daño de un ataque mientras no está dormida y sobrevive hasta después del final del turno, se curará el 50% de su HP máximo.\n\nLa primera vez que el daño de uno de los ataques de esta unidad derrote a un enemigo no conjurado, otro enemigo aleatorio que no sea un jefe ni un efímero en el campo de batalla será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota de un enemigo aleatorio. Este efecto se reinicia para que pueda activarse de nuevo cuando un aliado no conjurado en el campo de batalla sea derrotado mientras esta unidad esté en el campo de batalla."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Oscuro Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Oscuro."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Así que este es el poder del Núcleo de Yggdrasil...\n¡Saluden a la nueva y mejorada Freya!\n¡Jajaja!\n¿Qué? ¿Quieres ver mi nuevo poder?\n¡Pues hablemos de nuestro amor!\n¡El amor conocido como guerra!"
+            ],
+            "Login": [
+                "¡Te estaba esperando! ¡Hablemos de amor!\n¿Eh? ¿Estás a punto de partir? Bueno, no hay nada que hacer. ¡Lucharemos en tu destino!"
+            ],
+            "Tap": [
+                "Reuniones, estrategias, negociaciones... ¡Olvídate de todo eso! ¡Quiero salir a luchar!\n¡No puedes detenerme! ¡Voy a abrirme paso en el campo de batalla!",
+                "Mm... Algo huele bien... ¿Es curry? ¡Y se ve delicioso!\nSólo un poquito... ¡Mmm! ¡Mmmnggh! ¡¡Qué picante!!",
+                "Dijiste que esa dragona humanoide se llama Ruvi, ¿verdad? Jejeje... ¡Tiene unos ojos maravillosamente desafiantes!\n¡De acuerdo, la retaré a pelear la próxima vez que la vea!"
+            ],
+            "Idle": [
+                "¿Adónde fue el chico...? Prometimos expresar nuestro amor...\nJejeje, ¡no me hagas esperar, chico! ¡Ven, sal, donde quiera que estés!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "Tajo Pasional": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Llamada Meteoro": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Llamarada Infernal": {
+                    "BaseWeight": 100
+                },
+                "Mareas de Guerra": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.1,
+                        "IsMirage": 0.25,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "Amor y Devoción",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

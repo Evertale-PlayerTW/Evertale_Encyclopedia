@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1772605201,
+    "Time": 1772696877,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29364,6 +29364,47 @@
 			"class": "MonsterConditions",
 			"buffStackNames": ["DisableFallBackImmunity"]
 		}
+	},
+	"2EnemiesHPBelow50Percent": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded": {
+			"HPBelow50Percent": 2
+		}
+	},
+	"BattleTranceActivatedFreyaNew":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["BattleTranceTrigger"],
+			"or":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["WarModeFreyaNew150TU"],
+				"or":{
+					"class": "MonsterConditions",
+					"buffStackNames": ["FreyaNewBattleTranceLock"]
+				}
+			}
+		}
+	},
+	"IsWarModeFreyaNew":{
+		"class": "MonsterConditions",
+		"buffStackNames": ["WarModeFreyaNew100TU"]	
+	},
+	"IsNotWarModeFreyaNew100TU":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["WarModeFreyaNew100TU"]
+		}	
+	},
+	"Kills1AndIsNotWarModeFreyaNew":{
+		"class": "MonsterConditions",
+		"killsMade": 1,
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["WarModeFreyaNew100TU"]
+		}	
 	}
 }
 }

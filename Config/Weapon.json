@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1772095125,
+  "Time": 1772757757,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -16055,7 +16055,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "FireDragonAxe02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "FireDragonAxe02",
@@ -16075,7 +16076,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "FireDragonAxe03",
       "evolveFrom": "FireDragonAxe01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "FireDragonAxe03",
@@ -16094,6 +16096,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "FireDragonAxe02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "DivineSpear01",
+      "family": "DivineSpear",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackHasteUp4EnemiesHPBelow50Percent2"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 469,
+      "baseMaxHp": 3030,
+      "bundleNumber": 9,
+      "weaponPref": "Spear",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "DivineSpear02",
+      "cost": 11
+    },
+    {
+      "name": "DivineSpear02",
+      "family": "DivineSpear",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackHasteUp5EnemiesHPBelow50Percent2"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 572,
+      "baseMaxHp": 3640,
+      "bundleNumber": 9,
+      "weaponPref": "Spear",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "DivineSpear03",
+      "evolveFrom": "DivineSpear01",
+      "cost": 17
+    },
+    {
+      "name": "DivineSpear03",
+      "family": "DivineSpear",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackHasteUp6EnemiesHPBelow50Percent2"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 605,
+      "baseMaxHp": 3975,
+      "bundleNumber": 9,
+      "weaponPref": "Spear",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "DivineSpear02",
       "cost": 23
     }
   ]

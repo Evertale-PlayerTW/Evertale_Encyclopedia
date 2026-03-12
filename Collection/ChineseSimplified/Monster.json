@@ -17266,6 +17266,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -17598,6 +17609,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -20937,6 +20959,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -21330,6 +21363,17 @@
                     "FurCoatLizard01",
                     "SquidHead01",
                     "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -26596,6 +26640,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -26808,6 +26863,17 @@
                     "FrogSorceror01",
                     "BeastCleric01",
                     "TrainerBoy01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -118978,7 +119044,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "时之矛",
-                "SkillDescription": "以1个敌人为目标，若目标当前TU不低于50TU或时间停止已激活，则造成600%的伤害。此技能无视“守卫者”类效果。\n若时间停止尚未激活，则眩晕目标300TU，且若不为眩晕吸收者的目标受此影响后TU不低于200TU，则直到其离场为止无法再因此技能被眩晕。",
+                "SkillDescription": "以1个敌人为目标，若目标当前TU不低于50TU或时间停止已激活，则造成600%的伤害。此技能无视“守卫者”类效果。\n若时间停止尚未激活，则眩晕目标300TU，且若不为眩晕吸收者的目标受此影响后TU不低于200TU，则直到其离场为止无法再因时之矛技能被眩晕。",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -119186,7 +119252,7 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "时之矛",
-                "SkillDescription": "以1个敌人为目标，若目标当前TU不低于50TU或时间停止已激活，则造成600%的伤害。此技能无视“守卫者”类效果。\n若时间停止尚未激活，则眩晕目标300TU，且若不为眩晕吸收者的目标受此影响后TU不低于200TU，则直到其离场为止无法再因此技能被眩晕。",
+                "SkillDescription": "以1个敌人为目标，若目标当前TU不低于50TU或时间停止已激活，则造成600%的伤害。此技能无视“守卫者”类效果。\n若时间停止尚未激活，则眩晕目标300TU，且若不为眩晕吸收者的目标受此影响后TU不低于200TU，则直到其离场为止无法再因时之矛技能被眩晕。",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -125634,7 +125700,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "支配的绝对神",
-                "SkillDescription": "此单位的攻击无视“守卫者”类的效果，且此单位回复所造成伤害100%的生命值。此单位不能从场上回到援军。\n直到此单位使用“奇迹”技能为止，此单位免疫睡眠与眩晕。\n当此单位受到敌方攻击伤害时，将立即获得下一回合。此效果在同一TU内至多触发一次。此效果为反弹效果。此单位不能成为守卫者或获得“眩晕吸收”。\n此单位在进入战场后获得3格“能量”。能量可用在特定技能。每个单位最多可累积3格能量。\n每当此单位回合结束时，根据此单位的能量触发以下效果：\n3格：眩晕场上所有不高于50TU的敌方单位100TU。\n2格：眩晕场上所有不高于100TU的敌方单位200TU。\n1格：眩晕场上所有不高于200TU的敌方单位300TU。\n眩晕效果触发后此单位消耗1格能量。"
+                "SkillDescription": "此单位的攻击无视“守卫者”类的效果，且此单位回复所造成伤害100%的生命值。此单位不能从场上回到援军。\n直到此单位使用“奇迹”技能为止，此单位免疫睡眠与眩晕。\n当此单位受到敌方攻击伤害时，将立即获得下一回合。此效果在同一TU内至多触发一次。此效果为反弹被动技能。此单位不能成为守卫者或获得“眩晕吸收”。\n此单位在进入战场后获得3格“能量”。能量可用在特定技能。每个单位最多可累积3格能量。\n每当此单位回合结束时，根据此单位的能量触发以下效果：\n3格：眩晕场上所有不高于50TU的敌方单位100TU。\n2格：眩晕场上所有不高于100TU的敌方单位200TU。\n1格：眩晕场上所有不高于200TU的敌方单位300TU。\n眩晕效果触发后此单位消耗1格能量。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -125827,7 +125893,7 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "支配的绝对神",
-                "SkillDescription": "此单位的攻击无视“守卫者”类的效果，且此单位回复所造成伤害100%的生命值。此单位不能从场上回到援军。\n直到此单位使用“奇迹”技能为止，此单位免疫睡眠与眩晕。\n当此单位受到敌方攻击伤害时，将立即获得下一回合。此效果在同一TU内至多触发一次。此效果为反弹效果。此单位不能成为守卫者或获得“眩晕吸收”。\n此单位在进入战场后获得3格“能量”。能量可用在特定技能。每个单位最多可累积3格能量。\n每当此单位回合结束时，根据此单位的能量触发以下效果：\n3格：眩晕场上所有不高于50TU的敌方单位100TU。\n2格：眩晕场上所有不高于100TU的敌方单位200TU。\n1格：眩晕场上所有不高于200TU的敌方单位300TU。\n眩晕效果触发后此单位消耗1格能量。"
+                "SkillDescription": "此单位的攻击无视“守卫者”类的效果，且此单位回复所造成伤害100%的生命值。此单位不能从场上回到援军。\n直到此单位使用“奇迹”技能为止，此单位免疫睡眠与眩晕。\n当此单位受到敌方攻击伤害时，将立即获得下一回合。此效果在同一TU内至多触发一次。此效果为反弹被动技能。此单位不能成为守卫者或获得“眩晕吸收”。\n此单位在进入战场后获得3格“能量”。能量可用在特定技能。每个单位最多可累积3格能量。\n每当此单位回合结束时，根据此单位的能量触发以下效果：\n3格：眩晕场上所有不高于50TU的敌方单位100TU。\n2格：眩晕场上所有不高于100TU的敌方单位200TU。\n1格：眩晕场上所有不高于200TU的敌方单位300TU。\n眩晕效果触发后此单位消耗1格能量。"
             },
             {
                 "SkillTitle": "绝对权能",
@@ -128360,7 +128426,7 @@
         "Hp_Base": 7095,
         "Speed": 423,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "这对翅膀，将成为守护你的盾——",
         "LeaderSkill": {
             "SkillTitle": "火属性振奋",
@@ -128491,6 +128557,19 @@
                         "IsBurning": 1.1
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -128678,6 +128757,403 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "FreyaNew01": {
+        "Name": "芙蕾雅",
+        "Name2": "灼热女神",
+        "FullName": "芙蕾雅 - 灼热女神",
+        "Profile": "曾经的她，将战斗视为世界的一切。战斗既是诉说真实的对话，也是传达爱意、将自身存在刻入世间的唯一手段。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 28,
+        "Atk_Base": 855,
+        "Hp_Base": 6935,
+        "Speed": 512,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "战场上，再度燃起火焰\n那永不熄灭的，灼热之炎",
+        "LeaderSkill": {
+            "SkillTitle": "火属性猛攻",
+            "SkillDescription": "所有火属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "激情之斩",
+                "SkillDescription": "对1个敌人造成250%的伤害，使用者进场后每使用过此技能一次，伤害上升150%，至多上升为1000%。若使用者进场后未使用过此技能或上一次使用此技能后已使用过“红莲陨石”或“朱红烈焰”主动技能，则使用者TU归零立即获得一个回合。回复场上所有队友相当于使用者攻击力800%的生命值并使其获得燃烧状态。\n燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "红莲陨石",
+                "SkillDescription": "对2个敌人造成400%的伤害，此单位每次进场后第偶数次使用此技能时伤害随机上升为800%或1000%。此技能无视目标的反弹被动技能和“反击态势”状态。使用者必须处于燃烧状态才可使用。",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "大爱",
+                "SkillDescription": "场上所有敌人陷入燃烧状态，使用者回复最大生命值的100%并获得速败抵抗、燃烧状态与燃烧护盾效果。若使用者处于热情解放模式，则眩晕所有处于燃烧状态的敌方单位50TU。\n此技能使用后必须等50TU后才能再次使用。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。燃烧护盾效果将防止此后一次该单位的燃烧状态被其他状态效果覆盖。",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "灼热女神",
+                "SkillDescription": "此单位在进入战场后获得速败抵抗效果与持续100TU的燃烧（治愈）状态。此单位不会因燃烧状态造成的伤害被击败。此单位无法从场上回到援军队伍。此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS单位防止目标被击败的效果或被动技能。\n此单位进场后第一次受到敌方攻击伤害并在当前回合结束之后仍然存活时，此单位进入持续100TU的热情解放模式且TU归零立即获得一个回合。处于热情解放模式时获得下述效果：\n·此单位的攻击无视目标的减伤效果。\n·当此单位受到敌方攻击伤害时，将立即获得下一回合。此效果在同一TU内至多触发一次。此效果为反弹被动技能。\n·若此单位处于燃烧状态，则在其回合结束时攻击力增加为1.5倍直到其下一个回合结束。此效果会覆盖先前的“狂热”类效果。\n当敌方单位从援军队伍进场时，此单位有20%概率TU归零立即获得一个回合并获得燃烧状态。此单位每觉醒一次额外提高20%此效果触发的概率。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时此单位获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillTitle": "世界树之火",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。\n此单位不会被眩晕。此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。\n此单位受到敌方攻击的伤害减少50%，此单位从进场后每通过攻击击败过1个敌人，减少的伤害量增加10%，至多增加至减伤80%。\n如果不处于睡眠状态的此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的50%。\n当此单位第一次通过攻击击败非召唤物的敌方单位时，立即击败场上随机1个非BOSS非幻影的敌方单位。此效果无视防止目标被击败的效果或被动技能，且不会触发目标的诅咒与祝福或复活类被动技能。此单位被视为通过攻击击败目标。此单位在场期间每当场上1个非召唤物队友被击败后，此效果的触发次数归零并可再次触发。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "暗系耐性Lv3",
+                "SkillDescription": "若此单位受到暗属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "这就是世界树核心的力量……\n新芙蕾雅诞生了！\n哈哈哈哈哈！\n\n嗯？想见识我全新的力量吗？\n那就来彼此诉说爱吧！\n以战斗之名的爱！"
+            ],
+            "Login": [
+                "我等你很久了，来吧，让我们彼此诉说爱吧！\n什么……现在就要出发吗？嗯，也罢。那就到目的地再一决胜负吧！"
+            ],
+            "Tap": [
+                "会议、部署、交涉……比起这些，我其实更想上战场！\n就算被阻止，我也会强行冲出去，奔赴战场！",
+                "嗯？好像有什么香味……\n咖喱？闻起来不错啊……\n那我就先尝一口……嗯嗯嗯？！嗯呜呜呜呜……好、好辣～～～！！",
+                "你叫卢比是吧……那个化为人形的龙？呵呵呵……那双充满反抗之意的眼睛，真不错！\n好，下次见到你，我马上就向你发起挑战！"
+            ],
+            "Idle": [
+                "小子跑到哪里去了……真是的，明明和我约好要一起谈论爱的……\n呵呵，居然让我久等……小子～你在哪里，小子～？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "激情之斩": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "红莲陨石": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "大爱": {
+                    "BaseWeight": 100
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "FreyaNew02": {
+        "Name": "芙蕾雅",
+        "Name2": "灼热女神",
+        "FullName": "芙蕾雅 - 灼热女神",
+        "Profile": "然而，当她率领幸存者、肩负起守护弱者的责任时，她的价值观第一次动摇了。无法入眠的夜里传来的抽泣声，失去故乡之人的叹息，以及那一句句稚嫩的“我饿了……”。那是无论拥有多么强大的力量也无法击碎的东西。",
+        "Profile_Ascended": "芙蕾雅为了应当守护的人们，第一次去打水、学会潜藏身形，以“守护”为目的而战。远离了那种令血液沸腾、筋骨震颤的战斗，她依然清晰地感受到——自己正变得比过去的自己更强。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 34,
+        "Atk_Base": 914,
+        "Hp_Base": 9850,
+        "Speed": 512,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "火属性猛攻",
+            "SkillDescription": "所有火属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "激情之斩",
+                "SkillDescription": "对1个敌人造成250%的伤害，使用者进场后每使用过此技能一次，伤害上升150%，至多上升为1000%。若使用者进场后未使用过此技能或上一次使用此技能后已使用过“红莲陨石”或“朱红烈焰”主动技能，则使用者TU归零立即获得一个回合。回复场上所有队友相当于使用者攻击力800%的生命值并使其获得燃烧状态。\n燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 70,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "红莲陨石",
+                "SkillDescription": "对2个敌人造成400%的伤害，此单位每次进场后第偶数次使用此技能时伤害随机上升为800%或1000%。此技能无视目标的反弹被动技能和“反击态势”状态。使用者必须处于燃烧状态才可使用。",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "大爱",
+                "SkillDescription": "场上所有敌人陷入燃烧状态，使用者回复最大生命值的100%并获得速败抵抗、燃烧状态与燃烧护盾效果。若使用者处于热情解放模式，则眩晕所有处于燃烧状态的敌方单位50TU。\n此技能使用后必须等50TU后才能再次使用。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。燃烧护盾效果将防止此后一次该单位的燃烧状态被其他状态效果覆盖。",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "朱红烈焰",
+                "SkillDescription": "对1个敌人造成1000%的伤害，使用者进入持续100TU的热情解放模式并使己方场上其他处于燃烧状态的单位TU归零，使其顺次获得下一回合。在由此技能而获得的回合无法使用给予其他队友回合的主动技能。\n使用者入场后必须通过攻击击败过至少1个敌人且不处于热情解放模式时才可使用。此技能在一场战斗中只能使用三次。",
+                "TU": 10,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "灼热女神",
+                "SkillDescription": "此单位在进入战场后获得速败抵抗效果与持续100TU的燃烧（治愈）状态。此单位不会因燃烧状态造成的伤害被击败。此单位无法从场上回到援军队伍。此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS单位防止目标被击败的效果或被动技能。\n此单位进场后第一次受到敌方攻击伤害并在当前回合结束之后仍然存活时，此单位进入持续100TU的热情解放模式且TU归零立即获得一个回合。处于热情解放模式时获得下述效果：\n·此单位的攻击无视目标的减伤效果。\n·当此单位受到敌方攻击伤害时，将立即获得下一回合。此效果在同一TU内至多触发一次。此效果为反弹被动技能。\n·若此单位处于燃烧状态，则在其回合结束时攻击力增加为1.5倍直到其下一个回合结束。此效果会覆盖先前的“狂热”类效果。\n当敌方单位从援军队伍进场时，此单位有20%概率TU归零立即获得一个回合并获得燃烧状态。此单位每觉醒一次额外提高20%此效果触发的概率。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时此单位获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillTitle": "世界树之火",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。\n此单位不会被眩晕。此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。\n此单位受到敌方攻击的伤害减少50%，此单位从进场后每通过攻击击败过1个敌人，减少的伤害量增加10%，至多增加至减伤80%。\n如果不处于睡眠状态的此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的50%。\n当此单位第一次通过攻击击败非召唤物的敌方单位时，立即击败场上随机1个非BOSS非幻影的敌方单位。此效果无视防止目标被击败的效果或被动技能，且不会触发目标的诅咒与祝福或复活类被动技能。此单位被视为通过攻击击败目标。此单位在场期间每当场上1个非召唤物队友被击败后，此效果的触发次数归零并可再次触发。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "暗系耐性Lv3",
+                "SkillDescription": "若此单位受到暗属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "这就是世界树核心的力量……\n新芙蕾雅诞生了！\n哈哈哈哈哈！\n\n嗯？想见识我全新的力量吗？\n那就来彼此诉说爱吧！\n以战斗之名的爱！"
+            ],
+            "Login": [
+                "我等你很久了，来吧，让我们彼此诉说爱吧！\n什么……现在就要出发吗？嗯，也罢。那就到目的地再一决胜负吧！"
+            ],
+            "Tap": [
+                "会议、部署、交涉……比起这些，我其实更想上战场！\n就算被阻止，我也会强行冲出去，奔赴战场！",
+                "嗯？好像有什么香味……\n咖喱？闻起来不错啊……\n那我就先尝一口……嗯嗯嗯？！嗯呜呜呜呜……好、好辣～～～！！",
+                "你叫卢比是吧……那个化为人形的龙？呵呵呵……那双充满反抗之意的眼睛，真不错！\n好，下次见到你，我马上就向你发起挑战！"
+            ],
+            "Idle": [
+                "小子跑到哪里去了……真是的，明明和我约好要一起谈论爱的……\n呵呵，居然让我久等……小子～你在哪里，小子～？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.01,
+                "Has5GoodGirlBuff": 1.2,
+                "IsBurning": 1.01,
+                "IsWarModeFreyaNew": 1.01
+            },
+            "SkillUse": {
+                "激情之斩": {
+                    "BaseWeight": 0.5,
+                    "Source": {
+                        "NoFreshNewMomentum": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "红莲陨石": {
+                    "BaseWeight": 2,
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25,
+                        "AllEnemiesImposters": 0.8,
+                        "AllEnemiesAlwaysDodging": 0.8,
+                        "AllEnemiesNotProtectingDodging": 0.8
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "大爱": {
+                    "BaseWeight": 100
+                },
+                "朱红烈焰": {
+                    "BaseWeight": 3,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsImposter": 0.1,
+                        "IsMirage": 0.25,
+                        "IsBadFriend": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsStealth": 1,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "HPFull": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB76": {
+                "RelationshipName": "爱与奉献",
+                "RelationshipFamily": [
+                    "CalKouhaiRegular01",
+                    "FreyaNew01",
+                    "FrogSorceror01",
+                    "RedHairKnight01",
+                    "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
     }
 }

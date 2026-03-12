@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1772793564,
+	"Time": 1773285481,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -78894,7 +78894,7 @@
 				"spreadCondition": "IsMarkedFreyaNew"
 			},{}],
 			"duration": 0,
-			"effectToShowWhenApplied": "RavenSacrifice1",
+			"effectToShowWhenApplied": "FreyaNewInstantdeath1",
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true
 		},
@@ -79334,6 +79334,310 @@
 			"isHiddenFromPlayers": true
 		},
 		"CalKouhaiRegularCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"AttackHasteUp4EnemiesHPBelow50Percent2": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor", "StatOnly"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2EnemiesHPBelow50Percent",
+				"scalor": 0.07
+			}, {
+				"conditions": "2EnemiesHPBelow50Percent",
+				"flatStatBonuses": {
+					"Haste": -64
+				}
+			}],
+			"iconSpriteName": "IconYellowOffenseUpSwordClock01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackHasteUp5EnemiesHPBelow50Percent2": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor", "StatOnly"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2EnemiesHPBelow50Percent",
+				"scalor": 0.10
+			}, {
+				"conditions": "2EnemiesHPBelow50Percent",
+				"flatStatBonuses": {
+					"Haste": -87
+				}
+			}],
+			"iconSpriteName": "IconYellowOffenseUpSwordClock01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackHasteUp6EnemiesHPBelow50Percent2": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor", "StatOnly"],
+			"stackName": "AttackBoosted",
+			"behaviorOverrides": [{
+				"attackerCondition": "2EnemiesHPBelow50Percent",
+				"scalor": 0.15
+			}, {
+				"conditions": "2EnemiesHPBelow50Percent",
+				"flatStatBonuses": {
+					"Haste": -111
+				}
+			}],
+			"iconSpriteName": "IconYellowOffenseUpSwordClock01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"WarModePassiveAFreyaNew":{
+			"class": "Buff",
+			"stackName": "WarModePassiveAFreyaNew",
+			"behaviors": ["BlockDeath","EnterBattleBuff","BuffOnMonsterTurnEnd"],
+				"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Burn"]
+			},{
+				"selfBuffs": ["KnockbackImmunity","BattleTranceTrigger","InstantKillImmunityOnce","MegaHealingBurn","RemoveMegaHealingBurnApplyHealingBurn",
+					"EnemyEnterFromReinforcementsBuffFreyaNewLv1","EnemyEnterFromReinforcementsBuffFreyaNewLv2","EnemyEnterFromReinforcementsBuffFreyaNewLv3","EnemyEnterFromReinforcementsBuffFreyaNewLv4","EnemyEnterFromReinforcementsBuffFreyaNewLv5"]
+			},{
+				"selfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","WarModeFreyaNew100TU"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "BattleTranceActivatedFreyaNew"
+			}],
+			"duration": -1,
+			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag"],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"BurningGoddessPassiveAFreyaNew": {
+			"class": "Buff",
+			"stackName": "BurningGoddessPassiveAFreyaNew",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffOnMonsterTurn","StunImmunityFallback"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["StunImmunity","4LevelsOfDamageReductionBasedOnKills","HoldGround","DisableFallBackImmunity"]
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"],
+				"spreadCondition": "IsNotSleeping"
+			},{
+				"selfBuffs": ["BrideHeal50PercentFreyaNew"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{
+				"sourceBuffs": ["FreyaNewKillsMoreThanSkillsUsed","MarkedFreyaNew"],
+				"spreadCondition": "IsNotImmediateDefeatLockedFreyaNew"
+			},{
+				"selfBuffs": ["RemoveInstantDefeatLOCKFreyaNew"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"selfBuffs": ["BlockGiveTurnImmunityOneTurn"],
+				"spreadCondition": "IsNotBlockTurn"
+			},{}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"4LevelsOfDamageReductionBasedOnKills": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage","ModifyDamage","ModifyDamage","ModifyDamage"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Kills0"
+			},{
+				"percent": 0.40,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "1KillOnly"
+			},{
+				"percent": 0.30,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "2KillsOnly"
+			},{
+				"percent": 0.20,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Kills3"
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"Active1LargeBuffForAlliesFreyaNew": {
+			"class": "Buff",
+			"stackName": "Active1LargeBuffForAlliesFreyaNew",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+					"randomAllyBuffs": ["Heal800Percent","Burn"],
+					"numRandomToBuff": 4	
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"BrideHeal50PercentFreyaNew": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp", "RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"BlockGiveTurnImmunityOneTurn": {
+			"class": "Buff",
+			"stackName": "BlockGiveTurnImmunity",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["BlockGiveTurnFor20TU","BlockGiveTurnFor30TU","BlockGiveTurnFor40TU","BlockGiveTurnFor50TU","BlockGiveTurnFor60TU","BlockGiveTurnFor80TU","BlockGiveTurnFor100TU","BlockGiveTurnFor50TUZeusReady","BlockGiveTurnChronos"]
+			}],
+			"duration": 0,
+			"noIconShownOnBattleStatus": true,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"tags": ["BlockGiveTurnImmune"],
+			"iconSpriteName": "IconRedDisabled01"
+		},
+		"WarModeFreyaNew100TU": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff","DamageFlagContributor","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["FreyaNewBattleTranceLock"]
+			},{
+				"flags": ["IgnoreArmor"]
+			},{
+				"selfBuffs": ["GiveTurnCounterSkin", "BlockGiveTurnSkinLoop"],
+				"cancelFromDamageTypes": ["BuffDamage"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreSkin"],
+				"spreadCondition": "IsNotBlockingGiveTurnSkin"
+			},{
+				"selfBuffs": ["AttackPlus50Percent1TurnOnly"],
+				"spreadCondition": "IsBurning"	
+			}],
+			"stackName": "WarModeFreyaNew100TU",
+			"iconSpriteName": "IconWarGoddess01",
+			"statusEffect": "FreyaNewstance1",
+			"textKeyToShowWhenApplied": "WarModeFreyaNew100TUNameKey",
+			"tags": ["Skin","GetTurnSkin"],
+			"duration": 100,
+			"showAsTimer": true
+		},
+		"EnemyEnterFromReinforcementsBuffFreyaNewLv1":{
+			"class": "Buff",
+			"stackName": "EnemyEnterFromReinforcementsBuffFreyaNew",
+			"behaviors": ["OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sameTeam": false,
+				"chance": 0.20,
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","Burn"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconExtraTurnReady01",
+			"applyConditions": "HasNoAwakening"
+		},
+		"EnemyEnterFromReinforcementsBuffFreyaNewLv2":{
+			"class": "Buff",
+			"stackName": "EnemyEnterFromReinforcementsBuffFreyaNew",
+			"behaviors": ["OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sameTeam": false,
+				"chance": 0.40,
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","Burn"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconExtraTurnReady01",
+			"applyConditions": "Has1AwakeningExact"
+		},
+		"EnemyEnterFromReinforcementsBuffFreyaNewLv3":{
+			"class": "Buff",
+			"stackName": "EnemyEnterFromReinforcementsBuffFreyaNew",
+			"behaviors": ["OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sameTeam": false,
+				"chance": 0.60,
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","Burn"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconExtraTurnReady01",
+			"applyConditions": "Has2AwakeningsExact"
+		},
+		"EnemyEnterFromReinforcementsBuffFreyaNewLv4":{
+			"class": "Buff",
+			"stackName": "EnemyEnterFromReinforcementsBuffFreyaNew",
+			"behaviors": ["OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sameTeam": false,
+				"chance": 0.80,
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","Burn"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconExtraTurnReady01",
+			"applyConditions": "Has3AwakeningsExact"
+		},
+		"EnemyEnterFromReinforcementsBuffFreyaNewLv5":{
+			"class": "Buff",
+			"stackName": "EnemyEnterFromReinforcementsBuffFreyaNew",
+			"behaviors": ["OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sameTeam": false,
+				"chance": 1.0,
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","Burn"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconExtraTurnReady01",
+			"applyConditions": "Has4Awakenings"
+		},
+		"FreyaNewBattleTranceLock": {
+			"class": "Buff",
+			"duration": -1,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"stackName": "FreyaNewBattleTranceLock"
+		},
+		"FreyaNewCooldown50":{
 			"class": "Buff",
 			"duration": 50,
 			"stackName": "InstantCooldown",
