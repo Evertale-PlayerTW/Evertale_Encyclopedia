@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1773285481,
+	"Time": 1774329036,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -79067,6 +79067,21 @@
 			"showAsPermanent": false,
 			"showAsTimer": false
 		},
+		"NoTurnsFor10TU": {
+			"class": "Buff",
+			"stackName": "BlockGiveTurnFor10TU",
+			"behaviors": ["LoseTurn","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+			},{},{},{
+			}],
+			"duration": 10,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"tags": ["BlockTurnTag"],
+			"iconSpriteName": "IconRedDisabled01",
+			"statusEffect": "TurnGiftStunStatus",
+			"applyConditions": "IsNotBoss"
+		},
 		"NoTurnsFor20TU": {
 			"class": "Buff",
 			"stackName": "BlockGiveTurnFor20TU",
@@ -79517,7 +79532,7 @@
 			"stackName": "BlockGiveTurnImmunity",
 			"behaviors": ["Immunity"],
 			"behaviorOverrides": [{
-				"stackNamesToBlock": ["BlockGiveTurnFor20TU","BlockGiveTurnFor30TU","BlockGiveTurnFor40TU","BlockGiveTurnFor50TU","BlockGiveTurnFor60TU","BlockGiveTurnFor80TU","BlockGiveTurnFor100TU","BlockGiveTurnFor50TUZeusReady","BlockGiveTurnChronos"]
+				"stackNamesToBlock": ["BlockGiveTurnFor10TU","BlockGiveTurnFor20TU","BlockGiveTurnFor30TU","BlockGiveTurnFor40TU","BlockGiveTurnFor50TU","BlockGiveTurnFor60TU","BlockGiveTurnFor80TU","BlockGiveTurnFor100TU","BlockGiveTurnFor50TUZeusReady","BlockGiveTurnChronos"]
 			}],
 			"duration": 0,
 			"noIconShownOnBattleStatus": true,
@@ -79644,6 +79659,780 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"
-		}
-	}
+		},
+		"BandsAllHerePassiveAMechaSisterBandBoss": {
+			"class": "Buff",
+			"stackName": "BandsAllHerePassiveAMechaSisterBand",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RandomDamageGenerator","KnockbackImmunity","HoldGroundPlusBoss","Active2LOCKMechaSisterBand","Active3LOCKMechaSisterBand"]
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal1PercentMechaSisterBandBoss"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			}],
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"SuperStarPassiveAMechaSisterBandBoss":{
+			"class": "Buff",
+			"stackName": "SuperStarPassiveAMechaSisterBand",
+			"behaviors": ["EnterBattleBuff","ModifyDamage","SleepImmunityFallback","StunImmunityFallback"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["Armor","SleepImmunity","StunImmunity","DisableFallBackImmunity"],
+				"allyBuffs": ["Armor"]
+			},{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{},{	
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconPurpleDamageMinus01",
+			"tags": ["BigDamageMinus"],
+			"duration": -1
+		},
+		"BrideHeal1PercentMechaSisterBandBoss": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.01,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantBurnEOTMechaSisterBand": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["BurnAllNonBurnBlastOrForceOrFireAlliesEOT"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"BurnAllNonBurnBlastOrForceOrFireAlliesEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"enemyBuffs": ["Burn"],
+				"spreadCondition": "NotBurnBlastOrForceOrFire",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantSleepEOTMechaSisterBand": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["SleepAllNonPoisonedAlliesEOT"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"SleepAllNonPoisonedAlliesEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"enemyBuffs": ["SleepForced100TU"],
+				"spreadCondition": "NotPoisoned",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GrantPoisonEOTMechaSisterBand": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["PoisonAllNonSleepingAlliesEOT"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"PoisonAllNonSleepingAlliesEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"enemyBuffs": ["MegaPoison"],
+				"spreadCondition": "IsNotSleeping",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GainSpiritBuffMechaSisterBandEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allyBuffs": ["SpiritGainD"],
+				"selfBuffs": ["SpiritGainD","DontPickMeBuffMechaSisterBand"]
+			},{
+				"selfBuffs": ["PurifyAllAlliesEOT"],
+				"spreadCondition": "AllySpirit1OrMore"
+			},{
+				"selfBuffs": ["GiveAnotherAllyTurnMechaSisterBandEOT"],
+				"spreadCondition": "AllySpirit5OrMore"
+			},{
+				"selfBuffs": ["AttackUpMechaSisterBandEOT"],
+				"spreadCondition": "AllySpirit10OrMore"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"PurifyAllAlliesEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"allyBuffs": ["RemoveBuffs","PurifyFXOnly"],
+				"selfBuffs": ["RemoveBuffs","PurifyFXOnly"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GiveAnotherAllyTurnMechaSisterBandEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotSourceOfBuffUnitMechaSBandAndSpirit5OrMore",
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AttackUpMechaSisterBandEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["AttackUpMechaSisterBand"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"DontPickMeBuffMechaSisterBand":{
+			"class": "Buff",
+			"stackName": "DontPickMeBuffMarkMSB",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"AttackUpMechaSisterBand": {
+			"class": "Buff",
+			"behaviors": ["StatOnly"],
+			"stackName": "MechaSisterBandAttackDamageBoost",
+			"behaviorOverrides": [{
+				"boosts": {
+					"MechaSBDamageBoost": 5.0
+				}
+			}],
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveMechaSisterBandAttackDamageBoost": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "MechaSisterBandAttackDamageBoost"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveMechaSisterBandDamageBoostEOT": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RemoveMechaSisterBandAttackDamageBoost"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"duration": 0
+		},
+		"Active2LOCKMechaSisterBand":{
+			"class": "Buff",
+			"stackName": "Active2LOCKMechaSisterBand",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive2LOCKMechaSisterBand": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active2LOCKMechaSisterBand"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Active3LOCKMechaSisterBand":{
+			"class": "Buff",
+			"stackName": "Active3LOCKMechaSisterBand",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive3LOCKMechaSisterBand": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active3LOCKMechaSisterBand"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"MechaSisterBandBossCooldown50":{
+			"class": "Buff",
+			"duration": 50,
+			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"PianoMusicPassiveAChopinRegularBoss": {
+			"class": "Buff",
+			"stackName": "PianoMusicPassiveAChopinRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["KnockbackImmunity","StunImmunityOnce","SleepImmunityOnce","PoisonImmunityOnce","BurnImmunityOnce","Active3LOCKChopinRegular","Charged1Icon","Charged2Icon","Charged3Icon"]
+			},{
+				"sourceBuffs": ["GainRandomMelodyChopinRegularBoss","FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "NotTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			}],
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"MusicalWarfarePassiveAChopinRegularBoss":{
+			"class": "Buff",
+			"stackName": "MusicalWarfarePassiveAChopinRegular",
+			"behaviors": ["EnterBattleBuff","ModifyDamage","BuffOnMonsterTurnEnd","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HoldGroundPlusBoss"]
+			},{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{
+				"sameTeam": false,
+				"sourceBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","RemoveBuffs","ChopinRegularBossExtraTurn50TUCooldown"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "ChopinPassiveExtraTurnNotCooldown"
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal1PercentChopinRegularBoss"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconPurpleDamageMinus01",
+			"tags": ["BigDamageMinus"],
+			"duration": -1
+		},
+		"GrantAllOtherAlliesTurnEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"allAlliesButSelfBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn"]
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"BrideHeal1PercentChopinRegularBoss": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.01,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ChopinRegularBossExtraTurn50TUCooldown": {
+			"class": "Buff",
+			"stackName": "ChopinInstantCooldown",
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"WaterMelodySleepImmunity": {
+			"class": "Buff",
+			"behaviors": ["Immunity","StatOnly"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Sleep"]
+				},{
+					"boosts": {
+						"ChopinDamageBoost": 1.0
+					}
+			}],
+			"stackName": "WaterMelody",
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": true,
+			"statusEffect": "WaterMelodyStatus",
+			"iconSpriteName": "IconRedSleepInvalidZs01",
+			"tags": ["SleepImmune"]
+		},
+		"FireMelodyBurnImmunity": {
+			"class": "Buff",
+			"behaviors": ["Immunity","StatOnly"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Burn"]
+				},{
+					"boosts": {
+						"ChopinDamageBoost": 1.0
+					}
+			}],
+			"stackName": "FireMelody",
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": true,
+			"tags": ["BurnImmune"],
+			"statusEffect": "FireMelodyStatus",
+			"iconSpriteName": "IconRedBurnInvalid01"
+		},
+		"StormMelodyStunImmunity": {
+			"class": "Buff",
+			"behaviors": ["Immunity","StatOnly"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"]
+				},{
+					"boosts": {
+						"ChopinDamageBoost": 1.0
+					}
+			}],
+			"stackName": "StormMelody",
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": true,
+			"tags": ["StunImmune"],
+			"statusEffect": "StormMelodyStatus",
+			"iconSpriteName": "IconRedStunInvalidLightning01"
+		},
+		"EarthMelodyPoisonImmunity": {
+			"class": "Buff",
+			"behaviors": ["Immunity","StatOnly"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Poison"]
+				},{
+					"boosts": {
+						"ChopinDamageBoost": 1.0
+					}
+			}],
+			"stackName": "EarthMelody",
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": true,
+			"tags": ["PoisonImmune"],
+			"statusEffect": "EarthMelodyStatus",
+			"iconSpriteName": "IconRedPoisonInvalid01"
+		},
+		"WaterMelodyREADY": {
+			"class": "Buff",
+			"stackName": "WaterMelodyREADY",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"FireMelodyREADY": {
+			"class": "Buff",
+			"stackName": "FireMelodyREADY",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"StormMelodyREADY": {
+			"class": "Buff",
+			"stackName": "StormMelodyREADY",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"EarthMelodyREADY": {
+			"class": "Buff",
+			"stackName": "EarthMelodyREADY",
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"RemoveAllMelodyReady": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs","RemoveBuffs","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "WaterMelodyREADY"
+			},
+            {
+                "name": "FireMelodyREADY"
+            },
+            {
+                "name": "StormMelodyREADY"
+            },
+            {
+                "name": "EarthMelodyREADY"	
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ChopinRegularBossActive4Cooldown50": {
+			"class": "Buff",
+			"stackName": "InstantCooldown",
+			"duration": 50,
+			"isHiddenFromPlayers": false,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"Active2LOCKChopinRegular":{
+			"class": "Buff",
+			"stackName": "Active2LOCKChopinRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive2LOCKChopinRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active2LOCKChopinRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Active3LOCKChopinRegular":{
+			"class": "Buff",
+			"stackName": "Active3LOCKChopinRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive3LOCKChopinRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active3LOCKChopinRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"GainRandomMelodyChopinRegularBoss": {
+			"class": "Buff",
+			"stackName": "GainRandomMelodyChopinRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["WaterMelodySleepImmunity","1PercentHealMaxHPBoss"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsWaterMelodyREADY"
+			},{
+				"selfBuffs": ["FireMelodyBurnImmunity","1PercentHealMaxHPBoss"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsFireMelodyREADY"
+			},{
+				"selfBuffs": ["StormMelodyStunImmunity","1PercentHealMaxHPBoss"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsStormMelodyREADY"
+			},{
+				"selfBuffs": ["EarthMelodyPoisonImmunity","1PercentHealMaxHPBoss"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsEarthMelodyREADY"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"CrossingDelawarePassiveAWashingtonRegularBoss":{
+			"class": "Buff",
+			"stackName": "CrossingDelawarePassiveAWashingtonRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+					"sourceBuffs": ["NavyBarrier100TU","HoldGroundBossIfNavyBarrier","Active2LOCKWashingtonRegular","Active4LOCKWashingtonRegular","EndOfFirstTurnWashingtonRegularBossEOT"],
+					"allyBuffs": ["NavyBarrier100TU"]
+				},{
+					"selfBuffs": ["BrideHealOK"],
+					"cancelFromDamageTypes": ["BuffDamage"]
+				},{
+					"selfBuffs": ["BrideHeal1PercentWashingtonRegularBoss"],
+					"activeMonsterConditions": "NotAlwaysMyTurn",
+					"spreadCondition": "BrideHealReady"
+				},{
+					"sourceBuffs": ["RemoveActive4LOCKWashingtonRegular","FudgeUsedAlt"],
+					"sameTeam": false,
+					"spreadCondition": "KillsMoreThanSkillUsedAlt",
+					"deadMonsterConditions": "NotTransformingOrMirage"
+				},{
+					"sourceBuffs": ["FudgeUsedAltEndOfTurn"],
+					"sameTeam": false,
+					"spreadCondition": "KillsMoreThanSkillUsedAlt"
+				},{
+					"allyBuffs": ["RemoveBuffs"],
+					"selfBuffs": ["RemoveBuffs"],
+					"spreadCondition": "IsNotFirstTurnBuffLockWashingtonRegular"
+				},{
+					"selfBuffs": ["RemoveEndOfWashingtonRegularFirstTurnEOT","FirstTurnBuffLockWashingtonRegularBoss"],
+					"spreadCondition": "IsNotFirstTurnBuffLockWashingtonRegular"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"BrideHeal1PercentWashingtonRegularBoss": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.01,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"HoldGroundBossIfNavyBarrier": {
+			"class": "Buff",
+			"behaviors": ["BlockDeath"],
+			"behaviorOverrides": [{
+				"conditions": "IsNavyBarrier",
+				"conditionToCheckToShowIcon": "IsNavyBarrier",
+                "onlyShowIconWhenConditionIsMet": true
+			}],
+			"stackName": "HoldGroundIfNavyBarrier",
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconWhiteFightSword01"
+		},
+		"NavyBarrier100TU":{
+			"class": "Buff",
+			"stackName": "NavyBarrier",
+			"behaviors": [ "ModifyDamage"],
+			"behaviorOverrides": [{
+				"conditions": "NoOtherBarrierShieldActiveNavyBarrier",
+				"percent": 0.65,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": 100,
+			"iconSpriteName": "IconGoldArmor01",
+			"tags": ["BigDamageMinus","NavyBarrier"]
+		},
+		"ModernRoyaltyPassiveAWashingtonRegularBoss":{
+			"class": "Buff",
+			"stackName": "ModernRoyaltyPassiveAWashingtonRegular",
+			"behaviors": ["BlockDeath","EnterBattleBuff","BuffChanceOnHit","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"blockDeathFromDamageFlags": ["Burn"]
+			},{
+				"sourceBuffs": ["KnockbackImmunity"]
+			},{
+				"sourceBuffs": ["DoubleSpiritUponHittingEnemyWashingtonRegularBoss"]
+			},{
+				"sourceBuffs": ["SpiritGainD"],
+				"spreadCondition": "AllySpirit7OrLess",
+				"activeMonsterConditions": "AlwaysTrue",
+				"sameTeam": false
+			},{
+				"sourceBuffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn","ExtraTurnSpiritTriggerWashingtonRegularBoss"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "NoWashingtonTriggerAndAllySpirit8OrMore"
+			},{
+				"sourceBuffs": ["RemoveActive2LOCKWashingtonRegular"],
+				"sameTeam": false,
+				"spreadCondition": "IsNotSummonedOrTransformingOrMirage"	
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconRedHoldGroundBurn01"
+		},
+		"DoubleSpiritUponHittingEnemyWashingtonRegularBoss":{
+			"class": "Buff",
+			"stackName": "DoubleSpiritUponHittingEnemyWashingtonRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["Double5PlusSpirit","Double4Spirit","Double3Spirit","Double2Spirit","Double1MinusSpirit"]
+			},{
+				"sourceBuffs": ["RemoveBuffs","GiveTurn","OnExtraTurn","JustGivenTurn","ExtraTurnSpiritTriggerWashingtonRegularBoss"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "NoWashingtonTriggerAndAllySpirit8OrMore"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"ExtraTurnSpiritTriggerWashingtonRegularBoss": {
+			"class": "Buff",
+			"stackName": "Ally8SpiritTriggerWashingtonRegular",
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"EndOfFirstTurnWashingtonRegularBossEOT": {
+			"class": "Buff",
+			"stackName": "EndOfWashingtonRegularFirstTurnEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"enemyBuffs": ["FrostBiteCounter"],
+				"spreadCondition": "IsNotBoss"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"FirstTurnBuffLockWashingtonRegularBoss":{
+			"class": "Buff",
+			"stackName": "FirstTurnBuffLockWashingtonRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsTimer": false,
+			"showAsPermanent": false
+		},
+		"RemoveEndOfWashingtonRegularFirstTurnEOT": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "EndOfWashingtonRegularFirstTurnEOT"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"NextEnemyGetsFrostBurn":{
+			"class": "Buff",
+			"stackName": "NextEnemyGetsFrostBurn",
+			"behaviors": ["OthersEnterBattle"],
+			"behaviorOverrides": [{
+				"sameTeam": false,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster",
+				"chance": 1.0,
+				"removeAfterTriggers": 1,
+				"contextBuffs": ["FrostBiteCounter"]
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"Active2LOCKWashingtonRegular":{
+			"class": "Buff",
+			"stackName": "Active2LOCKWashingtonRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive2LOCKWashingtonRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active2LOCKWashingtonRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Active4LOCKWashingtonRegular":{
+			"class": "Buff",
+			"stackName": "Active4LOCKWashingtonRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive4LOCKWashingtonRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active4LOCKWashingtonRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+        }
+    }
 }

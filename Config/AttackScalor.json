@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1772091224,
+	"Time": 1773903426,
 	"AttackScalor": {
 		"TimeInCombat500":
 		{
@@ -746,6 +746,22 @@
 		"GoodIfAllAlliesIsBurning":{
 			"class":"AttackScalor",
 			"sourceCondition":"AllAlliesIsBurning"
+		},
+		"GoodWithSleepingOrFrostburnEnemy":{
+			"class": "AttackScalor",
+			"targetCondition": "1AllySleepingOrFrostburned"
+		},
+		"GoodWith2SleepingOrFrostburnEnemies":{
+			"class": "AttackScalor",
+			"targetCondition": "2AllySleepingOrFrostburned"
+		},
+		"GoodWith3SleepingOrFrostburnEnemies":{
+			"class": "AttackScalor",
+			"targetCondition": "3AllySleepingOrFrostburned"
+		},
+		"GoodWith4SleepingOrFrostburnEnemies":{
+			"class": "AttackScalor",
+			"targetCondition": "4AllySleepingOrFrostburned"
 		}
 	}
 }

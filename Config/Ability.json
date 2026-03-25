@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1772091593,
+  "Time": 1773903776,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28611,6 +28611,145 @@
       "tuCost": 10,
       "useLimit": 3,
       "spiritGain": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAMechaSisterBandBoss",
+      "class": "Ability",
+      "abilityScalor": 0,
+      "conditionalAbilityScalors": [
+        2,
+        5,
+        8
+      ],
+      "config": "SingleAttackAMechaSisterBandBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SmallerBuffAMechaSisterBandBoss",
+      "class": "Ability",
+      "config": "SmallerBuffAMechaSisterBandBoss",
+      "tuCost": 25,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BigAttackAMechaSisterBandBoss",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "config": "BigAttackAMechaSisterBandBoss",
+      "tuCost": 75,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialBuffAMechaSisterBandBoss",
+      "class": "Ability",
+      "config": "SpecialBuffAMechaSisterBandBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackAChopinRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "config": "AllAttackAChopinRegularBoss",
+      "tuCost": 75,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAChopinRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 4,
+      "config": "SingleAttackAChopinRegularBoss",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAChopinRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 1.5,
+      "config": "DoubleAttackAChopinRegularBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "LargeBuffAChopinRegularBoss",
+      "class": "Ability",
+      "config": "LargeBuffAChopinRegularBoss",
+      "tuCost": 10,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAWashingtonRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 0,
+      "conditionalAbilityScalors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "config": "SingleAttackAWashingtonRegularBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "LargeBuffAWashingtonRegularBoss",
+      "class": "Ability",
+      "config": "LargeBuffAWashingtonRegularBoss",
+      "tuCost": 10,
+      "useLimit": 0,
+      "spiritGain": 5,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackAWashingtonRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 5,
+      "config": "AllAttackAWashingtonRegularBoss",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAWashingtonRegularBoss",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "config": "DoubleAttackAWashingtonRegularBoss",
+      "tuCost": 75,
+      "useLimit": 2,
+      "spiritCost": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

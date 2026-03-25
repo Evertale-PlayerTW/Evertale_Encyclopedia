@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1771907282,
+  "Time": 1773903837,
   "Monster": [
     {
       "name": "Mibone01",
@@ -24204,6 +24204,376 @@
       "speed": 512,
       "element": "Fire",
       "weaponPref": "Spear",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "MechaSisterBandBoss01",
+      "class": "Monster",
+      "family": "MechaSisterBandBoss",
+      "activeSkills": {
+        "0": "SingleAttackAMechaSisterBandBoss",
+        "1": "SmallerBuffAMechaSisterBandBoss",
+        "2": "BigAttackAMechaSisterBandBoss"
+      },
+      "passives": {
+        "0": "BandsAllHerePassiveAMechaSisterBandBoss",
+        "1": "SuperStarPassiveAMechaSisterBandBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1257,
+      "baseMaxHp": 20000,
+      "speed": 338,
+      "element": "Life",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "MechaSisterBandBoss03",
+      "class": "Monster",
+      "family": "MechaSisterBandBoss",
+      "activeSkills": {
+        "0": "SingleAttackAMechaSisterBandBoss",
+        "1": "SmallerBuffAMechaSisterBandBoss",
+        "2": "BigAttackAMechaSisterBandBoss",
+        "3": "SpecialBuffAMechaSisterBandBoss"
+      },
+      "passives": {
+        "0": "BandsAllHerePassiveAMechaSisterBandBoss",
+        "1": "SuperStarPassiveAMechaSisterBandBoss"
+      },
+      "cost": 999,
+      "baseAttack": 3000,
+      "baseMaxHp": 190500,
+      "speed": 338,
+      "element": "Life",
+      "weaponPref": "GreatAxe",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "ChopinRegularBoss01",
+      "class": "Monster",
+      "family": "ChopinRegularBoss",
+      "activeSkills": {
+        "0": "AllAttackAChopinRegularBoss",
+        "1": "SingleAttackAChopinRegularBoss",
+        "2": "DoubleAttackAChopinRegularBoss"
+      },
+      "passives": {
+        "0": "PianoMusicPassiveAChopinRegularBoss",
+        "1": "MusicalWarfarePassiveAChopinRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 457,
+      "element": "Life",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "ChopinRegularBoss03",
+      "class": "Monster",
+      "family": "ChopinRegularBoss",
+      "activeSkills": {
+        "0": "AllAttackAChopinRegularBoss",
+        "1": "SingleAttackAChopinRegularBoss",
+        "2": "DoubleAttackAChopinRegularBoss",
+        "3": "LargeBuffAChopinRegularBoss"
+      },
+      "passives": {
+        "0": "PianoMusicPassiveAChopinRegularBoss",
+        "1": "MusicalWarfarePassiveAChopinRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 4000,
+      "baseMaxHp": 178000,
+      "speed": 457,
+      "element": "Life",
+      "weaponPref": "Mace",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "1": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "2": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "3": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "damageVoices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "deathVoices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "WashingtonRegularBoss01",
+      "class": "Monster",
+      "family": "WashingtonRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAWashingtonRegularBoss",
+        "1": "LargeBuffAWashingtonRegularBoss",
+        "2": "AllAttackAWashingtonRegularBoss"
+      },
+      "passives": {
+        "0": "CrossingDelawarePassiveAWashingtonRegularBoss",
+        "1": "ModernRoyaltyPassiveAWashingtonRegularBoss"
+      },
+      "cost": 999,
+      "baseAttack": 1400,
+      "baseMaxHp": 20100,
+      "speed": 620,
+      "element": "Water",
+      "weaponPref": "GreatSword",
+      "weaponPivotIndex": 0,
+      "walkSound": "TestSound",
+      "secure": 1,
+      "aiTargetPickWeight": 1,
+      "stars": 6,
+      "evolvedStars": 6,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "battleOrbImageFlip": 0,
+      "skillVoices": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          5,
+          6
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          13,
+          14
+        ]
+      },
+      "damageVoices": [
+        17,
+        18
+      ],
+      "deathVoices": [
+        21,
+        22
+      ]
+    },
+    {
+      "name": "WashingtonRegularBoss03",
+      "class": "Monster",
+      "family": "WashingtonRegularBoss",
+      "activeSkills": {
+        "0": "SingleAttackAWashingtonRegularBoss",
+        "1": "LargeBuffAWashingtonRegularBoss",
+        "2": "AllAttackAWashingtonRegularBoss",
+        "3": "DoubleAttackAWashingtonRegularBoss"
+      },
+      "passives": {
+        "0": "CrossingDelawarePassiveAWashingtonRegularBoss",
+        "1": "ModernRoyaltyPassiveAWashingtonRegularBoss",
+        "2": "SleepImmunity"
+      },
+      "cost": 999,
+      "baseAttack": 3000,
+      "baseMaxHp": 178000,
+      "speed": 620,
+      "element": "Water",
+      "weaponPref": "GreatSword",
       "weaponPivotIndex": 0,
       "walkSound": "TestSound",
       "secure": 1,
