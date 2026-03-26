@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1772757757,
+  "Time": 1773899315,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -16116,7 +16116,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "DivineSpear02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "DivineSpear02",
@@ -16136,7 +16137,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "DivineSpear03",
       "evolveFrom": "DivineSpear01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "DivineSpear03",
@@ -16155,6 +16157,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "DivineSpear02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "ElectricGuitarGreatAxe01",
+      "family": "ElectricGuitarGreatAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp4TargetStealth"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 522,
+      "baseMaxHp": 2765,
+      "bundleNumber": 9,
+      "weaponPref": "GreatAxe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ElectricGuitarGreatAxe02",
+      "cost": 11
+    },
+    {
+      "name": "ElectricGuitarGreatAxe02",
+      "family": "ElectricGuitarGreatAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp5TargetStealth"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 636,
+      "baseMaxHp": 3320,
+      "bundleNumber": 9,
+      "weaponPref": "GreatAxe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ElectricGuitarGreatAxe03",
+      "evolveFrom": "ElectricGuitarGreatAxe01",
+      "cost": 17
+    },
+    {
+      "name": "ElectricGuitarGreatAxe03",
+      "family": "ElectricGuitarGreatAxe",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUp6TargetStealth"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 688,
+      "baseMaxHp": 3560,
+      "bundleNumber": 9,
+      "weaponPref": "GreatAxe",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "ElectricGuitarGreatAxe02",
       "cost": 23
     }
   ]

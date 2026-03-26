@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1774329036,
+	"Time": 1774329159,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -80433,6 +80433,184 @@
 			"duration": 0,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true
-        }
+		},
+		"AttackUp4TargetStealth": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsStealth",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp5TargetStealth": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsStealth",
+				"scalor": 0.2
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"AttackUp6TargetStealth": {
+			"class": "Buff",
+			"behaviors": ["ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"targetCondition": "IsStealth",
+				"scalor": 0.25
+			}],
+			"iconSpriteName": "IconYellowAttackUpSword01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true
+		},
+		"BandsAllHerePassiveAMechaSisterBand": {
+			"class": "Buff",
+			"stackName": "BandsAllHerePassiveAMechaSisterBand",
+			"behaviors": ["EnterBattleBuff","OthersEnterBattle","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","SleepImmunityFallback","StunImmunityFallback"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["RandomDamageGenerator","HoldGround","KnockbackImmunity","SleepImmunity","StunImmunity","Active2LOCKMechaSisterBand","Active3LOCKMechaSisterBand","DisableFallBackImmunity"]
+			},{
+				"sameTeam": true,
+				"chance": 1.0,
+				"selfBuffs": ["HealFull"]
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal50PercentMechaSisterBand"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{},{
+			}],
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"SuperStarPassiveAMechaSisterBand":{
+			"class": "Buff",
+			"stackName": "SuperStarPassiveAMechaSisterBand",
+			"behaviors": ["EnterBattleBuff","OthersEnterBattle","ModifyDamage","ModifyDamage"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["FortifyFor3Attacks","InstantKillImmunityOnce"],
+				"allyBuffs": ["FortifyFor3Attacks"]
+			},{
+				"sameTeam": true,
+				"chance": 1.0,
+				"contextBuffs": ["FortifyFor3Attacks"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"percent": 0.65,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "IsFortified"
+			},{
+				"percent": 0.30,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "IsNotFortified"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconPurpleDamageMinus01",
+			"tags": ["BigDamageMinus"],
+			"duration": -1
+		},
+		"BrideHeal50PercentMechaSisterBand": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"FortifyFor3Attacks": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["FortifyFor3AttacksPart3","FortifyFor3AttacksPart2","FortifyFor3AttacksPart1"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"FortifyFor3AttacksPart1": {
+			"class": "Buff",
+			"stackName": "FortifyPT1",
+			"behaviors": ["ModifyDamage","Immunity"],
+			"behaviorOverrides": [{
+					"useLimit": 1,
+					"percent": 0.5,
+					"cancelFromDamageTypes": ["BuffDamage","Poison","Burn"],
+					"cancelFromDamageFlags": ["IgnoreFortify"],
+					"conditions": "NotFortifyPT2"
+				},{
+					"stackNamesToBlock": ["Placeholder"],
+					"dontShowText": true,
+					"activateCondition": "NotFortifyPT2"
+			}],
+			"hideFromPlayerCondition": "IsFortifyPT2",
+			"tags": ["Fortify","Fortify3Attacks"],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconBlackFortifyCount01"
+		},
+		"FortifyFor3AttacksPart2": {
+			"class": "Buff",
+			"stackName": "FortifyPT2",
+			"behaviors": ["ModifyDamage","Immunity"],
+			"behaviorOverrides": [{
+					"useLimit": 1,
+					"percent": 0.5,
+					"cancelFromDamageTypes": ["BuffDamage","Poison","Burn"],
+					"cancelFromDamageFlags": ["IgnoreFortify"],
+					"conditions": "NotFortifyPT3"
+				},{
+					"stackNamesToBlock": ["Placeholder"],
+					"dontShowText": true,
+					"activateCondition": "NotFortifyPT3"
+			}],
+			"hideFromPlayerCondition": "IsFortifyPT3",
+			"tags": ["Fortify","Fortify3Attacks"],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconBlackFortifyCount02"
+		},
+		"FortifyFor3AttacksPart3": {
+			"class": "Buff",
+			"stackName": "FortifyPT3",
+			"behaviors": ["ModifyDamage"],
+			"behaviorOverrides": [{
+					"useLimit": 1,
+					"percent": 0.5,
+					"cancelFromDamageTypes": ["BuffDamage","Poison","Burn"],
+					"cancelFromDamageFlags": ["IgnoreFortify"]
+			}],
+			"tags": ["Fortify","Fortify3Attacks"],
+			"duration": -1,
+			"showAsTimer": true,
+			"iconSpriteName": "IconBlackFortifyCount03"
+		}
     }
 }

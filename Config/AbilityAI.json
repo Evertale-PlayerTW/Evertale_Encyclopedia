@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1773903426,
+  "Time": 1774312782,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -29314,6 +29314,49 @@
 							"IsProtectingAndNotAlone": 0.5,
 							"IsMechaSisterNew": 0.25
 					}
+    },
+    "SingleAttackAMechaSisterBand_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.25,
+							"IsMirage": 0.25,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"HPBelow25Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"IsSleeping": 1.15,
+							"IsPoisoned": 1.1,
+							"IsBurning": 1.0
+					}
+    },
+    "SmallerBuffAMechaSisterBand_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 500.0
+    },
+    "BigAttackAMechaSisterBand_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 3.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"EnemyHas2Imposters": 0.85,
+						"AllEnemiesImposters": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"IsMechaSisterBandAttackDamageBoost": 2.0
+				},
+					"aiTargetingMonsterConditions": {
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.25
+				}
+    },
+    "SpecialBuffAMechaSisterBand_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 2000.0
     }
 }
 }

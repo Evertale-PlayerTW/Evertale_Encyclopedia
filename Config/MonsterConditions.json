@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1773903426,
+    "Time": 1774321245,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29598,6 +29598,49 @@
 		"not":{
 			"class": "MonsterConditions",
 			"buffStackNames": ["FirstTurnBuffLockWashingtonRegular"]
+		}
+	},
+	"IsFortified":{
+		"class": "MonsterConditions",
+		"monsterTags": ["Fortify"]	
+	},
+	"IsNotFortified":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"monsterTags": ["Fortify"]
+		}	
+	},
+	"IsFortifyPT2": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["FortifyPT2"]
+	},
+	"NotFortifyPT2": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["FortifyPT2"]
+		}
+	},
+	"IsFortifyPT3": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["FortifyPT3"]
+	},
+	"NotFortifyPT3": {
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["FortifyPT3"]
+		}
+	},
+	"1AllyIsNotFortifiedAndNotAlone":{
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsNotFortified": 1
+		},
+		"and": {
+			"class": "MonsterConditions",
+			"allyTeamSize": 2
 		}
 	}
 }

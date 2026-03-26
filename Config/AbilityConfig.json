@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1774321719,
+	"Time": 1774419791,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -44339,6 +44339,108 @@
 			"sourceEventType": "Finish",
 			"abilityEffect": "WashingtonSpecial",
 			"useCondition": "IsNotActive4LOCKWashingtonRegular"
+		},
+		"SingleAttackAMechaSisterBand":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage", "ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"damageFlags": ["IgnoreArmor","DoNotWake"],
+				"damageBoosts": ["MechaSBDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["GrantBurnEOTMechaSisterBand"],
+				"buffBackMode": true,
+				"applyConditions": "IsBurning",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["GrantSleepEOTMechaSisterBand"],
+				"buffBackMode": true,
+				"applyConditions": "IsSleeping",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["GrantPoisonEOTMechaSisterBand"],
+				"buffBackMode": true,
+				"applyConditions": "IsPoisoned",
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs":["RemoveActive2LOCKMechaSisterBand","RemoveMechaSisterBandDamageBoostEOT"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"flags": ["BurnChance", "PoisonChance", "SleepChance"],
+			"abilityEffect": "MechasisBandAttack1",
+			"hideTargetingInfo": true,
+			"attackScalors": ["NotGoodRandomDamage","Good50PercentChance","GoodOneThirdChance"],
+			"conditionedAbilityEffects": ["MechasisBandAttack1","MechasisBandAttack1","MechasisBandAttack1"],
+			"recommendEffectWhenUsable": -2
+		},
+		"SmallerBuffAMechaSisterBand": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs":["GainSpiritBuffMechaSisterBandEBB","Active2LOCKMechaSisterBand","RemoveActive3LOCKMechaSisterBand"],
+				"applyToTargetType": "Source"
+			}],
+			"sourceEventType": "Finish",
+			"abilityEffect": "MechasisBandBuff",
+			"flags": ["Purify"],
+			"recommendEffectWhenUsable": -1,
+			"useCondition": "IsNotActive2LOCKMechaSisterBand"
+		},
+		"BigAttackAMechaSisterBand":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"damageFlags": ["HardIgnoreBlockDeath","IgnoreSkin","IgnoreArmor","DoNotWake"],
+				"damageBoosts": ["MechaSBDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["Active3LOCKMechaSisterBand","RemoveMechaSisterBandDamageBoostEOT"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["NoTurnsFor10TU"],
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true	
+			}],
+			"enemyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"attackScalors": ["GoodIfUsedThrice"],
+			"conditionedAbilityEffects": ["MechasisBandSoundWave","MechasisBandSoundWave"],
+			"abilityEffect": "MechasisBandSoundWave",
+			"recommendEffectWhenUsable": -2,
+			"useCondition": "IsNotActive3LOCKMechaSisterBand"
+		},
+		"SpecialBuffAMechaSisterBand": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["FortifyFor3Attacks","Heal1000Percent"],
+				"buffAppliedEffects": ["SmallHeal1"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["UsedAbilityCounter"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["Healer"],
+			"abilityEffect": "MechasisBandSpecial",
+			"useCondition": "1AllyIsNotFortifiedAndNotAlone"
 		}
 	}
 }

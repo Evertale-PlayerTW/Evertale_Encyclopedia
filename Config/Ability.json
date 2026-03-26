@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1773903776,
+  "Time": 1774312764,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28749,6 +28749,56 @@
       "config": "DoubleAttackAWashingtonRegularBoss",
       "tuCost": 75,
       "useLimit": 2,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAMechaSisterBand",
+      "class": "Ability",
+      "abilityScalor": 0,
+      "conditionalAbilityScalors": [
+        2,
+        5,
+        8
+      ],
+      "config": "SingleAttackAMechaSisterBand",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SmallerBuffAMechaSisterBand",
+      "class": "Ability",
+      "config": "SmallerBuffAMechaSisterBand",
+      "tuCost": 25,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BigAttackAMechaSisterBand",
+      "class": "Ability",
+      "abilityScalor": 2,
+      "conditionalAbilityScalors": [
+        4
+      ],
+      "config": "BigAttackAMechaSisterBand",
+      "tuCost": 75,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialBuffAMechaSisterBand",
+      "class": "Ability",
+      "config": "SpecialBuffAMechaSisterBand",
+      "tuCost": 100,
+      "useLimit": 3,
       "spiritCost": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0

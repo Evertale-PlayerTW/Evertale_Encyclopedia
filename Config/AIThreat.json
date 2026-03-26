@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1772062651,
+  "Time": 1773872759,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6946,6 +6946,36 @@
       "name": "FreyaNew02",
       "condition": "IsWarModeFreyaNew",
       "value": 1.01
+    },
+    {
+      "name": "MechaSisterBand01",
+      "condition": "AllySpirit5OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "MechaSisterBand01",
+      "condition": "UsedAbilityCounter3",
+      "value": 1.2
+    },
+    {
+      "name": "MechaSisterBand01",
+      "condition": "IsNotAlone",
+      "value": 0.75
+    },
+    {
+      "name": "MechaSisterBand02",
+      "condition": "AllySpirit10OrMore",
+      "value": 1.15
+    },
+    {
+      "name": "MechaSisterBand02",
+      "condition": "UsedAbilityCounter3",
+      "value": 1.2
+    },
+    {
+      "name": "MechaSisterBand02",
+      "condition": "IsNotAlone",
+      "value": 0.75
     }
   ]
 }
