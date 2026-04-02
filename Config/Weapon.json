@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1773899315,
+  "Time": 1774504769,
   "Weapon": [
     {
       "name": "BasicHammer01",
@@ -16177,7 +16177,8 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "superEvolve1": "ElectricGuitarGreatAxe02",
-      "cost": 11
+      "cost": 11,
+      "visible": 1
     },
     {
       "name": "ElectricGuitarGreatAxe02",
@@ -16197,7 +16198,8 @@
       "consolationMultiplier": 1,
       "superEvolve1": "ElectricGuitarGreatAxe03",
       "evolveFrom": "ElectricGuitarGreatAxe01",
-      "cost": 17
+      "cost": 17,
+      "visible": 1
     },
     {
       "name": "ElectricGuitarGreatAxe03",
@@ -16216,6 +16218,65 @@
       "goldMultiplier": 1,
       "consolationMultiplier": 1,
       "evolveFrom": "ElectricGuitarGreatAxe02",
+      "cost": 23,
+      "visible": 1
+    },
+    {
+      "name": "ChopinPianoMace01",
+      "family": "ChopinPianoMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUpDamageReduc4UserHighHP"
+      },
+      "stars": 4,
+      "evolvedStars": 6,
+      "baseAttack": 421,
+      "baseMaxHp": 3270,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ChopinPianoMace02",
+      "cost": 11
+    },
+    {
+      "name": "ChopinPianoMace02",
+      "family": "ChopinPianoMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUpDamageReduc5UserHighHP"
+      },
+      "stars": 5,
+      "evolvedStars": 6,
+      "baseAttack": 527,
+      "baseMaxHp": 3865,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "superEvolve1": "ChopinPianoMace03",
+      "evolveFrom": "ChopinPianoMace01",
+      "cost": 17
+    },
+    {
+      "name": "ChopinPianoMace03",
+      "family": "ChopinPianoMace",
+      "class": "Weapon",
+      "passives": {
+        "0": "AttackUpDamageReduc6UserHighHP"
+      },
+      "stars": 6,
+      "evolvedStars": 6,
+      "baseAttack": 564,
+      "baseMaxHp": 4180,
+      "bundleNumber": 9,
+      "weaponPref": "Mace",
+      "secure": 1,
+      "goldMultiplier": 1,
+      "consolationMultiplier": 1,
+      "evolveFrom": "ChopinPianoMace02",
       "cost": 23
     }
   ]

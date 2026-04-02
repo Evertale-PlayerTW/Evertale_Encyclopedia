@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1774550039,
+  "Time": 1774577541,
   "AIThreat": [
     {
       "name": "AirGenie01",
@@ -6976,6 +6976,36 @@
       "name": "MechaSisterBand02",
       "condition": "IsNotAlone",
       "value": 0.75
+    },
+    {
+      "name": "ChopinRegular01",
+      "condition": "IsCharged3",
+      "value": 1.1
+    },
+    {
+      "name": "ChopinRegular01",
+      "condition": "TimeInCombat100",
+      "value": 1.1
+    },
+    {
+      "name": "ChopinRegular01",
+      "condition": "ChopinHearsAll5Melodies",
+      "value": 1.2
+    },
+    {
+      "name": "ChopinRegular02",
+      "condition": "IsCharged3",
+      "value": 1.1
+    },
+    {
+      "name": "ChopinRegular02",
+      "condition": "TimeInCombat100",
+      "value": 1.1
+    },
+    {
+      "name": "ChopinRegular02",
+      "condition": "ChopinHearsAll5Melodies",
+      "value": 1.2
     }
   ]
 }

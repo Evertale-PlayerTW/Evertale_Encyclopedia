@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1774329159,
+	"Time": 1774511724,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -80030,7 +80030,7 @@
 			"stackName": "WaterMelody",
 			"duration": -1,
 			"showAsTimer": true,
-			"showAsPermanent": true,
+			"showAsPermanent": false,
 			"statusEffect": "WaterMelodyStatus",
 			"iconSpriteName": "IconRedSleepInvalidZs01",
 			"tags": ["SleepImmune"]
@@ -80048,7 +80048,7 @@
 			"stackName": "FireMelody",
 			"duration": -1,
 			"showAsTimer": true,
-			"showAsPermanent": true,
+			"showAsPermanent": false,
 			"tags": ["BurnImmune"],
 			"statusEffect": "FireMelodyStatus",
 			"iconSpriteName": "IconRedBurnInvalid01"
@@ -80066,7 +80066,7 @@
 			"stackName": "StormMelody",
 			"duration": -1,
 			"showAsTimer": true,
-			"showAsPermanent": true,
+			"showAsPermanent": false,
 			"tags": ["StunImmune"],
 			"statusEffect": "StormMelodyStatus",
 			"iconSpriteName": "IconRedStunInvalidLightning01"
@@ -80084,7 +80084,7 @@
 			"stackName": "EarthMelody",
 			"duration": -1,
 			"showAsTimer": true,
-			"showAsPermanent": true,
+			"showAsPermanent": false,
 			"tags": ["PoisonImmune"],
 			"statusEffect": "EarthMelodyStatus",
 			"iconSpriteName": "IconRedPoisonInvalid01"
@@ -80611,6 +80611,192 @@
 			"duration": -1,
 			"showAsTimer": true,
 			"iconSpriteName": "IconBlackFortifyCount03"
+		},
+		"AttackUpDamageReduc4UserHighHP": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage","ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"conditions": "HPAbove90Percent",
+				"percent": 0.94,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{
+				"attackerCondition": "HPAbove90Percent",
+				"scalor": 0.07
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"AttackUpDamageReduc5UserHighHP": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage","ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"conditions": "HPAbove90Percent",
+				"percent": 0.92,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{
+				"attackerCondition": "HPAbove90Percent",
+				"scalor": 0.10
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"AttackUpDamageReduc6UserHighHP": {
+			"class": "Buff",
+			"behaviors": ["ModifyDamage","ExtraAttackScalor"],
+			"behaviorOverrides": [{
+				"conditions": "HPAbove90Percent",
+				"percent": 0.9,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{
+				"attackerCondition": "HPAbove90Percent",
+				"scalor": 0.15
+			}],
+			"iconSpriteName": "IconBrownDefenseShield01",
+			"noIconShownOnBattleStatus": true,
+			"duration": -1,
+			"showAsTimer": false,
+			"isWeaponBuff": true,
+			"hideActivatedIcon": true
+		},
+		"PianoMusicPassiveAChopinRegular": {
+			"class": "Buff",
+			"stackName": "PianoMusicPassiveAChopinRegular",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["KnockbackImmunity","StunImmunityOnce","SleepImmunityOnce","PoisonImmunityOnce","BurnImmunityOnce","InstantKillImmunityOnce","Active3LOCKChopinRegular","Charged1Icon","Charged2Icon","Charged3Icon"]
+			},{
+				"sourceBuffs": ["GainRandomMelodyChopinRegular","FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "NotTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			}],
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"MusicalWarfarePassiveAChopinRegular":{
+			"class": "Buff",
+			"stackName": "MusicalWarfarePassiveAChopinRegular",
+			"behaviors": ["EnterBattleBuff","ModifyDamage","BuffOnMonsterTurnEnd","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HoldGround"]
+			},{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"]
+			},{
+				"sameTeam": false,
+				"sourceBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","RemoveBuffs","ChopinExtraTurn50TUCooldown"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "ChopinPassiveExtraTurnNotCooldown"
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal50PercentChopinRegular"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"iconSpriteName": "IconPurpleDamageMinus01",
+			"tags": ["BigDamageMinus"],
+			"duration": -1
+		},
+		"BrideHeal50PercentChopinRegular": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"ChopinExtraTurn50TUCooldown": {
+			"class": "Buff",
+			"stackName": "ChopinInstantCooldown",
+			"duration": 50,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3"
+		},
+		"RecoveryMelodyHPRegen25PercentMaxHPOnAllyTurn": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurn","StatOnly"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["25PercentHealMaxHP"],
+				"sameTeam": true,
+				"activeMonsterConditions": "AlwaysTrue"
+			},{
+				"boosts": {
+					"ChopinDamageBoost": 1.0
+				}
+			}],
+			"stackName": "RecoveryMelody",
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"statusEffect": "RecoveryMelodyStatus",
+			"iconSpriteName": "IconGreenRegenerationHeart01"
+		},
+		"ChopinRegularActive4Cooldown50": {
+			"class": "Buff",
+			"stackName": "InstantCooldown",
+			"duration": 50,
+			"isHiddenFromPlayers": false,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"GainRandomMelodyChopinRegular": {
+			"class": "Buff",
+			"stackName": "GainRandomMelodyChopinRegular",
+			"behaviors": ["BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["WaterMelodySleepImmunity","HealFull"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsWaterMelodyREADY"
+			},{
+				"selfBuffs": ["FireMelodyBurnImmunity","HealFull"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsFireMelodyREADY"
+			},{
+				"selfBuffs": ["StormMelodyStunImmunity","HealFull"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsStormMelodyREADY"
+			},{
+				"selfBuffs": ["EarthMelodyPoisonImmunity","HealFull"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition":"IsEarthMelodyREADY"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
 		}
     }
 }

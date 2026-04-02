@@ -129261,7 +129261,7 @@
         "Hp_Base": 7215,
         "Speed": 338,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Bumm, tsisch, bumm, tsisch, chicka-chicka bumm!",
         "LeaderSkill": {
             "SkillTitle": "Licht-ANG/LP hoch",
@@ -129586,5 +129586,377 @@
                 "RelationshipBuff": "LP+3%"
             }
         }
+    },
+    "ChopinRegular01": {
+        "Name": "Chopin",
+        "Name2": "Maestro der Träumereien",
+        "FullName": "Chopin - Maestro der Träumereien",
+        "Profile": "Sie und Washington arbeiteten schon seit ihrer Schulzeit eng zusammen. Gemeinsam nahmen sie an zahllosen Robotik-Wettbewerben teil und räumten jede Menge Preise ab.\nImmer wenn sie als geniales Duo bezeichnet wurden, neckte sie Washington, um ihre eigene Verlegenheit zu verbergen - und wurde prompt von ihrem Freund ausgeschimpft. Das war Glück für sie. Chopin wünschte sich, dass diese Tage ewig andauern könnten.\nUnd doch wusste sie tief in ihrem Herzen, dass ihre Krankheit leise, aber stetig schlimmer wurde. Aber auch wenn sie an ihre nahende Sterblichkeit dachte, verbrachte sie ihre Tage damit, Washington wie immer zu ärgern.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 28,
+        "Atk_Base": 897,
+        "Hp_Base": 6725,
+        "Speed": 457,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Ein hilfsbereiter Taugenichts... so sagt man jedenfalls!",
+        "LeaderSkill": {
+            "SkillTitle": "Licht-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Licht-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Großes Finale",
+                "SkillDescription": "400% Schaden an allen Gegnern. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nWenn dieser Angriff ein Ziel trifft, das kein Boss und kein flüchtiges Ziel ist, und dieses Ziel nach dem Schaden noch 10 % oder weniger seiner maximalen LP hat, wird das Ziel sofort besiegt (bei einem erfolgreichen Angriff wird davon ausgegangen, dass der Benutzer das Ziel mit einem Angriff besiegt hat). Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nNur möglich, wenn der Anwender 3 Ladungen gespeichert hat. Verbraucht alle Ladungen des Benutzers.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Scharfe Note",
+                "SkillDescription": "500% Schaden an 1 Gegner und verleiht diesem Gegner dann für 200 ZE den Statuseffekt Schlaf, auch wenn er bereits geschlafen hat, während er auf dem Schlachtfeld war. Dann erhält der Anwender eine Ladung. Dieser Angriff ignoriert Wächter, Schadensreduzierungseffekte, den Statuseffekt Konterstellung und die Effekte passiver Fertigkeiten der Haut. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\n Diese Fertigkeit schaltet Gebrochener Akkord bei der Benutzung frei und bleibt nach der Benutzung gesperrt, bis der Benutzer Akkordbruch oder Großes Finale benutzt. Bestimmte Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Akkordbruch",
+                "SkillDescription": "250% Schaden an 2 Gegnern, und der Benutzer erhält eine Ladung. Dieser Angriff ignoriert Effekte zur Schadensreduzierung von Gegnern und Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird. Der Schaden dieses Angriffs weckt keine schlafenden Gegner auf.\n\nWenn der Geist des Verbündeten weniger als 5 beträgt, wird der Geist des Verbündeten auf 5 erhöht. Wenn der Geist des Gegners mehr als 5 beträgt, wird der Geist des Gegners auf 5 gesenkt.\n\nDiese Fertigkeit ist gesperrt, bis sie durch die Scharfe Note freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, erneut gesperrt.",
+                "TU": 50,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Chopin's Reverie",
+                "SkillDescription": "Wenn diese Einheit in den Kampf zieht, erhält sie einen Soforttodschutz, einen Schlafschutz, einen Betäubungsschutz, einen Giftschutz und einen Brandschutz. Ein Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden. Wenn diese Einheit eine beliebige Anzahl von Gegnern mit einem Angriff besiegt, während sie sich auf dem Schlachtfeld befindet, wird sie am Ende des Zuges um 100 % ihrer maximalen LP geheilt und erhält eine der folgenden zufälligen Melodien:\n- Wassermelodie: Gewährt dieser Einheit Schlafimmunität.\n- Sturmmelodie: Gewährt dieser Einheit Immunität gegen Betäubung.\n- Erdmelodie: Macht diese Einheit immun gegen Gift.\n- Feuermelodie: Gewährt dieser Einheit Immunität gegen Verbrennung.\n\nMelodien enden erst, wenn Chopin besiegt wird oder das Schlachtfeld verlässt. Chopin kann mehrere Melodien gleichzeitig aktiv haben, aber es ist nicht garantiert, dass sie eine Melodie erhält, die sie nicht schon hat, wenn eine Melodie durch ihre Fertigkeiten zufällig ausgewählt wird."
+            },
+            {
+                "SkillTitle": "Musikalischer Krieg",
+                "SkillDescription": "Wenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit hat eine Schadensreduzierung von 50% bei Angriffen.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, heilt sie sich um 50 % ihrer maximalen LP.\n\nWenn sie angreift, wird der Schadensprozentsatz der Angriffe dieser Einheit um 100 % für jede einzigartige Melodie erhöht, die diese Einheit aktiv hat. (z.B. Großes Finale: 400% => 900% Schaden mit allen 5 aktiven Melodien).\n\nAm Ende jedes Zuges des Gegners wird diese Einheit gereinigt (alle negativen Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt), und ihre ZE werden auf 0 reduziert. Dann kann dieser Effekt erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Licht-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Licht-Einheiten."
+            },
+            {
+                "SkillTitle": "Schwert-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Schwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Schwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich bin Chopin... falls das nicht offensichtlich war.\nOh? Du brauchst einen Gefallen von mir?\nWie herrlich ungewöhnlich.\nSehr gut. Ich könnte ein wenig Abwechslung gebrauchen. Vielleicht kannst du mich bis zu meinem Tod unterhalten! ♪"
+            ],
+            "Login": [
+                "Nun, du hast mich lange genug warten lassen! Sollen wir uns auf die Suche machen?\nDu wirst mir helfen, jemanden zu finden, der in so schrecklichen Schwierigkeiten steckt, dass er nicht weiß, was er mit sich anfangen soll!"
+            ],
+            "Tap": [
+                "Wisst ihr das nicht? Ich bin nicht in der Lage, etwas zu essen.\nAlso solltest du dieses Gemüse für mich essen! Oh, du würdest dieses arme Gemüse doch nicht wegwerfen, oder?\n... Warte, du magst Gemüse? Was ist denn mit dir los?",
+                "Washington ist ein guter, ehrlicher Typ. Ich denke, du wirst sie mögen.\nSag ihr nur nicht, dass ich das gesagt habe, okay?",
+                "Wenn ich mich zwischen dem Musikmachen und dem Maschinenbauen entscheiden müsste... hmm...\nIch denke, ich könnte keines von beiden aufgeben. Ich könnte keines von beiden aufgeben."
+            ],
+            "Idle": [
+                "Hmm-hmm, hmm-hmm-hmm～\n Eine entzückende kleine Melodie... und eine ebenso entzückende Idee für einen Streich ist mir gerade eingefallen...\nNun denn... mit welchem soll ich zuerst anfangen...? Hehe..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Großes Finale": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Scharfe Note": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Akkordbruch": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ChopinRegular02": {
+        "Name": "Chopin",
+        "Name2": "Maestro der Träumereien",
+        "FullName": "Chopin - Maestro der Träumereien",
+        "Profile": "Nach ihrem Abschluss wurden die beiden von der RDO einberufen und mit der Leitung des \"Drachenkopfprojekts\" betraut.\nGemeinsam konnten sie die theoretischen Grundlagen für das Gerät perfektionieren und auch die Konstruktion des Geräts selbst fast abschließen. Doch ein letztes Hindernis stand ihnen im Weg: Das Gerät benötigte einen Rechenkern, der dem menschlichen Gehirn in nichts nachstand. Das war die einzige, eklatante Lücke in ihrem ansonsten perfekten Plan.\n\n In diesem Moment flackerte in Chopins Kopf eine Antwort auf.\n\n Natürlich. Sie könnten einfach ein echtes Gehirn als Ersatz verwenden. Und da ihr ohnehin nur noch so wenig Zeit blieb, war sie mehr als bereit, diese Person zu sein.",
+        "Profile_Ascended": "Es war ihre eigene Entscheidung, das Drachenkopfprojekt im Tausch gegen ihr Leben abzuschließen. Sie glaubte, dass es die beste Lösung war - und war sich gleichzeitig bewusst, dass es auch eine törichte Lösung war. Trotzdem bedauerte sie es nicht. Es war ein Weg, den nur jemand wählen konnte, dem nur noch so wenig Zeit blieb.\n\nChopin genießt es, andere zu necken und zu verwirren, ihre besorgten Gesichter zu beobachten - aber sie ist kein Schurke. Sie würde nicht zögern, einem Menschen in Not die Hand zu reichen, und sie wäre bereit, alles zu tun, um die Welt zu einem besseren Ort zu machen.\n\nSie hat sich selbst davon überzeugt, dass dies die optimale Wahl war. Und doch war da etwas, das in ihrem Herzen verweilte. Eine kindliche Hoffnung, dass Washington sie ausschimpfen würde, weil sie etwas so Leichtsinniges tat. Dieser kleine Wunsch wurde zusammen mit ihrem Bewusstsein in den Drachenkopf absorbiert.\n\nWenn sie diese verhängnisvolle Debatte noch einmal führen könnte... vielleicht wäre Washington dieses Mal in der Lage, sie zu schelten.\n\nNur vielleicht.\n\n\n",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 34,
+        "Atk_Base": 1123,
+        "Hp_Base": 8805,
+        "Speed": 457,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Licht-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Licht-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Großes Finale",
+                "SkillDescription": "400% Schaden an allen Gegnern. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nWenn dieser Angriff ein Ziel trifft, das kein Boss und kein flüchtiges Ziel ist, und dieses Ziel nach dem Schaden noch 10 % oder weniger seiner maximalen LP hat, wird das Ziel sofort besiegt (bei einem erfolgreichen Angriff wird davon ausgegangen, dass der Benutzer das Ziel mit einem Angriff besiegt hat). Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nNur möglich, wenn der Anwender 3 Ladungen gespeichert hat. Verbraucht alle Ladungen des Benutzers.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Scharfe Note",
+                "SkillDescription": "500% Schaden an 1 Gegner und verleiht diesem Gegner dann für 200 ZE den Statuseffekt Schlaf, auch wenn er bereits geschlafen hat, während er auf dem Schlachtfeld war. Dann erhält der Anwender eine Ladung. Dieser Angriff ignoriert Wächter, Schadensreduzierungseffekte, den Statuseffekt Konterstellung und die Effekte passiver Fertigkeiten der Haut. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\n Diese Fertigkeit schaltet Gebrochener Akkord bei der Benutzung frei und bleibt nach der Benutzung gesperrt, bis der Benutzer Akkordbruch oder Großes Finale benutzt. Bestimmte Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Akkordbruch",
+                "SkillDescription": "250% Schaden an 2 Gegnern, und der Benutzer erhält eine Ladung. Dieser Angriff ignoriert Effekte zur Schadensreduzierung von Gegnern und Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird. Der Schaden dieses Angriffs weckt keine schlafenden Gegner auf.\n\nWenn der Geist des Verbündeten weniger als 5 beträgt, wird der Geist des Verbündeten auf 5 erhöht. Wenn der Geist des Gegners mehr als 5 beträgt, wird der Geist des Gegners auf 5 gesenkt.\n\nDiese Fertigkeit ist gesperrt, bis sie durch die Scharfe Note freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, erneut gesperrt.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Aufbauender Song",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 1000% des Angriffs des Anwenders, reinigt sie (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Gift) und gewährt jedem von ihnen eine Schlaf-, Betäubungs-, Gift-, Verbrennungsschutz und intensive Wut.\n\nDer Nutzer erhält die Erholungsmelodie. Wenn die Erholungsmelodie bereits aktiv ist, erhält der Benutzer stattdessen zufällig entweder die Wasser-, Sturm-, Erd- oder Feuermelodie. Solange sie aktiv ist, heilt die Erholungsmelodie Chopin jedes Mal, wenn ein Verbündeter an der Reihe ist, um 25% seiner maximalen LP.\n\nDanach erhalten alle anderen Verbündeten sofort die nächsten Züge, indem sie ihre aktuellen ZE reduzieren. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie den Zug erhalten haben. Gesperrt für 50 ZE, nachdem der Benutzer das Schlachtfeld betreten hat, und erneut gesperrt für 50 ZE nach jeder Verwendung.\n\nIntensive Wut erhöht den Angriff einer Einheit für die nächsten 3 Runden auf das 1,5-fache und überschreibt bestehende Schwäche- oder Wut-Effekte. Er kann nicht durch andere Wut-Effekte überschrieben werden, wohl aber durch Schwäche-Effekte. Jeder Schutz verhindert, dass der benannte Effekt einmal angewendet wird, und wird dann entfernt. Identische Schutze können nicht gestapelt werden.",
+                "TU": 10,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Chopin's Reverie",
+                "SkillDescription": "Wenn diese Einheit in den Kampf zieht, erhält sie einen Soforttodschutz, einen Schlafschutz, einen Betäubungsschutz, einen Giftschutz und einen Brandschutz. Ein Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden. Wenn diese Einheit eine beliebige Anzahl von Gegnern mit einem Angriff besiegt, während sie sich auf dem Schlachtfeld befindet, wird sie am Ende des Zuges um 100 % ihrer maximalen LP geheilt und erhält eine der folgenden zufälligen Melodien:\n- Wassermelodie: Gewährt dieser Einheit Schlafimmunität.\n- Sturmmelodie: Gewährt dieser Einheit Immunität gegen Betäubung.\n- Erdmelodie: Macht diese Einheit immun gegen Gift.\n- Feuermelodie: Gewährt dieser Einheit Immunität gegen Verbrennung.\n\nMelodien enden erst, wenn Chopin besiegt wird oder das Schlachtfeld verlässt. Chopin kann mehrere Melodien gleichzeitig aktiv haben, aber es ist nicht garantiert, dass sie eine Melodie erhält, die sie nicht schon hat, wenn eine Melodie durch ihre Fertigkeiten zufällig ausgewählt wird."
+            },
+            {
+                "SkillTitle": "Musikalischer Krieg",
+                "SkillDescription": "Wenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit hat eine Schadensreduzierung von 50% bei Angriffen.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, heilt sie sich um 50 % ihrer maximalen LP.\n\nWenn sie angreift, wird der Schadensprozentsatz der Angriffe dieser Einheit um 100 % für jede einzigartige Melodie erhöht, die diese Einheit aktiv hat. (z.B. Großes Finale: 400% => 900% Schaden mit allen 5 aktiven Melodien).\n\nAm Ende jedes Zuges des Gegners wird diese Einheit gereinigt (alle negativen Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt), und ihre ZE werden auf 0 reduziert. Dann kann dieser Effekt erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Licht-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Licht-Einheiten."
+            },
+            {
+                "SkillTitle": "Schwert-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Schwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Schwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich bin Chopin... falls das nicht offensichtlich war.\nOh? Du brauchst einen Gefallen von mir?\nWie herrlich ungewöhnlich.\nSehr gut. Ich könnte ein wenig Abwechslung gebrauchen. Vielleicht kannst du mich bis zu meinem Tod unterhalten! ♪"
+            ],
+            "Login": [
+                "Nun, du hast mich lange genug warten lassen! Sollen wir uns auf die Suche machen?\nDu wirst mir helfen, jemanden zu finden, der in so schrecklichen Schwierigkeiten steckt, dass er nicht weiß, was er mit sich anfangen soll!"
+            ],
+            "Tap": [
+                "Wisst ihr das nicht? Ich bin nicht in der Lage, etwas zu essen.\nAlso solltest du dieses Gemüse für mich essen! Oh, du würdest dieses arme Gemüse doch nicht wegwerfen, oder?\n... Warte, du magst Gemüse? Was ist denn mit dir los?",
+                "Washington ist ein guter, ehrlicher Typ. Ich denke, du wirst sie mögen.\nSag ihr nur nicht, dass ich das gesagt habe, okay?",
+                "Wenn ich mich zwischen dem Musikmachen und dem Maschinenbauen entscheiden müsste... hmm...\nIch denke, ich könnte keines von beiden aufgeben. Ich könnte keines von beiden aufgeben."
+            ],
+            "Idle": [
+                "Hmm-hmm, hmm-hmm-hmm～\n Eine entzückende kleine Melodie... und eine ebenso entzückende Idee für einen Streich ist mir gerade eingefallen...\nNun denn... mit welchem soll ich zuerst anfangen...? Hehe..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Großes Finale": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Scharfe Note": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Akkordbruch": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Aufbauender Song": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

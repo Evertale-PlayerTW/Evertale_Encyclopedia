@@ -129261,7 +129261,7 @@
         "Hp_Base": 7215,
         "Speed": 338,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Boum-tss, boum-tss, chica-chica boum !",
         "LeaderSkill": {
             "SkillTitle": "Lumière ATT & PV+",
@@ -129586,5 +129586,377 @@
                 "RelationshipBuff": "PV+3%"
             }
         }
+    },
+    "ChopinRegular01": {
+        "Name": "Chopin",
+        "Name2": "Maestro des rêveries",
+        "FullName": "Chopin - Maestro des rêveries",
+        "Profile": "Washington et elle avaient été de proches collaboratrices depuis leurs années d'étudiantes. Ensemble, elles entreprirent d'innombrables compétitions en robotique, remportant sans arrêt des prix.\nChaque fois qu'on les qualifiait de duo de génies, elle taquinait Washington pour cacher son propre embarras––Et se faisait de suite gronder par son amie. C'était une partie de bonheur pour elle. Chopin espérait que ces journées ne cessent jamais.\nEt pourtant, au fond de son coeur, elle savait que sa maladie s'aggravait silencieusement mais progressivement. Mais même alors que ses pensées se focalisaient sur sa mort imminente, elle passait néanmoins ses journées à taquiner Washington, comme d'habitude.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 28,
+        "Atk_Base": 897,
+        "Hp_Base": 6725,
+        "Speed": 457,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Une vaurienne serviable... Ou c'est ce que les gens disent !",
+        "LeaderSkill": {
+            "SkillTitle": "Lumière PV+",
+            "SkillDescription": "Les alliés Lumière voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Point d'Orgue",
+                "SkillDescription": "400% de dégâts à tous les ennemis. Cette attaque ignore les effets de réduction de dégâts ennemis, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nLorsque cette attaque touche une cible non-boss, non-Éphémère et qu'elle possède 10% voire moins de ses PV max après les dégâts infligés, cette cible est immédiatement vaincue (l'utilisateur est considéré avoir vaincu la cible avec une attaque s'il y parvient). Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi d'être vaincu.\n\nUtilisable seulement si le lanceur possède 3 Charges stockées. Consomme toutes les charges sur l'utilisateur.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Note Dièse",
+                "SkillDescription": "500% de dégâts à 1 ennemi, puis inflige ensuite l'effet de statut de Sommeil à cet ennemi pendant 200TU, même s'il a déjà été endormi sur le champ de bataille. L'utilisateur gagne ensuite une Charge. Cette attaque ignore les Gardiens, les effets de réduction de dégâts, l'effet de statut de Contre Relais et les effets des compétences passives de Reflet. Les dégâts provenant de cette attaque ne réveillent pas les ennemis endormis.\n\nCette compétence déverrouille Accord Brisé lors de son utilisation, et se verrouille après son utilisation jusqu'à ce que le lanceur utilise Accord Brisé ou Point d'Orgue. Certaines compétences sont affectées par des charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Accord Brisé",
+                "SkillDescription": "250% de dégâts à 2 ennemis et l'utilisateur gagne une Charge. Cette attaque ignore les effets de réduction de dégâts ennemis et tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue. Les dégâts de cette attaque ne réveillent pas les ennemis endormis.\n\nSi les Alliés possèdent moins de 5 Essences, leur nombre d'Essences est élevée à 5. Si les Ennemis possèdent plus de 5 Essences, leur nombre d'Essences est abaissée à 5.\n\nCette compétence se verrouille jusqu'à ce que Note Dièse soit utilisée. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 50,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rêverie de Chopin",
+                "SkillDescription": "Cette unité gagne une Protection Mort Instantanée, Protection Sommeil, Protection Étourdissement, Protection Poison et Protection Brûlure lors de son entrée sur le champ de bataille. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLorsque cette unité vainc un nombre quelconque d'ennemis avec une attaque sur le champ de bataille, elle est soignée de 100% de ses PV max à la fin du tour et gagne aléatoirement une des Mélodies suivantes :\n- Mélodie Eau : Cette unité gagne une Immunité Sommeil.\n- Mélodie Tempête : Cette unité gagne une Immunité Étourdissement.\n- Mélodie Terre : Cette unité gagne une Immunité Poison.\n- Mélodie Feu : Cette unité gagne une Immunité Brûlure.\n\nLes Mélodies ne prennent pas fin à moins que Chopin soit vaincue ou quitte le champ de bataille. Chopin peut posséder plusieurs Mélodies actives en même temps, mais il n'est pas garanti qu'elle en gagne une qu'elle ne possède pas déjà lorsqu'une Mélodie est tirée au sort par ses compétences.\n\nChaque Protection empêche l'application de son effet nommé, puis est retirée. Les Protections Identiques ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Guerre Musicale",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut.\n\nCette unité bénéficie d'une réduction de 50% des dégâts provenant des attaques.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'après la fin du tour, elle sera soignée de 50% de ses PV max.\n\nAjoute 100% au % de dégâts des attaques de cette unité par le nombre de Mélodie unique active que cette unité possède lorsqu'elle attaque (p. ex. Point d'Orgue : 400% => 900% de dégâts avec les 5 Mélodies actives).\n\nÀ la fin de chaque tour ennemi, cette unité sera Purifiée (tout effet de statut négatif tel que le Sommeil, la Brûlure ou le Poison sont retirés), et ses TU seront réduits à 0. Puis cet effet ne peut être à nouveau déclenché jusqu'à ce que 50TU s'écoulent."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Lumière LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques d'unités de type Lumière"
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Je m'appelle... Au cas où ce n'était pas évident.\nOh ? Tu as besoin d'une faveur de ma part ?\nQu'est-ce que c'est agréablement inhabituel.\n\nTrès bien. Une petite distraction me ferait du bien.\nPeut-être que tu pourrais m'amuser jusqu'au jour de ma mort ! ♪"
+            ],
+            "Login": [
+                "Bon, tu m'as fait attendre assez longtemps ! Commençons donc notre recherche !\nTu vas m'aider à trouver quelqu'un qui soit dans un pétrin tellement terrible et épouvantable qu'il ne saurait pas quoi faire !"
+            ],
+            "Tap": [
+                "Tu ne le sais pas ? Je ne peux pas manger de nourriture.\nDonc tu ferais mieux de manger ces légumes à ma place ! Oh, tu ne gâcherais pas ces pauvres légumes, n'est-ce pas ?\n... Attends, tu aimes les légumes ? Quel est ton problème ?",
+                "Washington est quelqu'un d'honnête et de bien. Je pense que tu l'aimerais bien.\n... Mais ne lui raconte pas que je t'ai dit ça, d'accord ?",
+                "Si je devais choisir entre composer de la musique et construire des machines... Hmm... Je suppose que je ne pourrais pas abandonner l'un pour l'autre.\nLes deux font partie de ce qui fait ma personne. Je ne pourrais pas les abandonner."
+            ],
+            "Idle": [
+                "Hmm-hmm, hmm-hmm-hmm ~ ♪\nUne merveilleuse petite mélodie... Et une idée aussi merveilleuse pour une farce m'est venue à l'esprit...\nMaintenant... Avec laquelle devrais-je commencer d'abord...? Héhé..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Point d'Orgue": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Note Dièse": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Accord Brisé": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ChopinRegular02": {
+        "Name": "Chopin",
+        "Name2": "Maestro des rêveries",
+        "FullName": "Chopin - Maestro des rêveries",
+        "Profile": "Après leur remise de diplôme, elles furent toutes les deux recrutées par l'ODR et furent chargées de diriger le « Projet Tête de Dragon » .\nEnsemble, elles réussirent à perfectionner la base théorique pour l'appareil et à finir pratiquement la construction-même de ce dernier. Mais un obstacle final se tenait sur leur chemin : L'appareil nécessitait un coeur informatique égal à un cerveau humain. Ceci devint la seule faille flagrante de leur parfait modèle.\n\nEn cet instant, une réponse apparut dans les pensées de Chopin.\n\n––Bien sûr. Elles pouvaient simplement extraire le cerveau de quelqu'un et l'utiliser à place du coeur informatique.\nEt ayant si peu de temps restant de toute façon, elle était plus que disposée d'être cette personne.",
+        "Profile_Ascended": "C'était sa propre décision d'achever le Projet Tête de Dragon en échange de sa vie. Elle pensait que c'était la meilleure solution––Et comprenait en même temps que c'était quelque chose d'idiot. Malgré cela, elle n'avait pas de regrets. C'était une décision uniquement possible pour quelqu'un n'ayant plus beaucoup de temps.\n\nChopin prend plaisir à taquiner et embrouiller les autres, à voir les visages troublés qui suivent––Mais elle n'est pas méchante. Elle n'hésiterait pas à tendre sa main à quelqu'un en besoin, elle ferait tout pour rendre le monde meilleur.\n\nElle s'est convaincue que c'était le meilleur choix. Et pourtant, il y avait une pensée en elle qui persistait. Un espoir enfantin que Washington la gronderait pour vouloir faire quelque chose de si imprudent. Ce petit souhait fut absorbé dans le programme Tête de Dragon avec sa conscience.\n\nSi elle pouvait refaire ce débat une fois de plus... Peut-être que cette fois-ci, Washington pourrait la gronder.\n\n...Seulement, peut-être.\n\n\n",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 34,
+        "Atk_Base": 1123,
+        "Hp_Base": 8805,
+        "Speed": 457,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Lumière PV+",
+            "SkillDescription": "Les alliés Lumière voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Point d'Orgue",
+                "SkillDescription": "400% de dégâts à tous les ennemis. Cette attaque ignore les effets de réduction de dégâts ennemis, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nLorsque cette attaque touche une cible non-boss, non-Éphémère et qu'elle possède 10% voire moins de ses PV max après les dégâts infligés, cette cible est immédiatement vaincue (l'utilisateur est considéré avoir vaincu la cible avec une attaque s'il y parvient). Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi d'être vaincu.\n\nUtilisable seulement si le lanceur possède 3 Charges stockées. Consomme toutes les charges sur l'utilisateur.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Note Dièse",
+                "SkillDescription": "500% de dégâts à 1 ennemi, puis inflige ensuite l'effet de statut de Sommeil à cet ennemi pendant 200TU, même s'il a déjà été endormi sur le champ de bataille. L'utilisateur gagne ensuite une Charge. Cette attaque ignore les Gardiens, les effets de réduction de dégâts, l'effet de statut de Contre Relais et les effets des compétences passives de Reflet. Les dégâts provenant de cette attaque ne réveillent pas les ennemis endormis.\n\nCette compétence déverrouille Accord Brisé lors de son utilisation, et se verrouille après son utilisation jusqu'à ce que le lanceur utilise Accord Brisé ou Point d'Orgue. Certaines compétences sont affectées par des charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Accord Brisé",
+                "SkillDescription": "250% de dégâts à 2 ennemis et l'utilisateur gagne une Charge. Cette attaque ignore les effets de réduction de dégâts ennemis et tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue. Les dégâts de cette attaque ne réveillent pas les ennemis endormis.\n\nSi les Alliés possèdent moins de 5 Essences, leur nombre d'Essences est élevée à 5. Si les Ennemis possèdent plus de 5 Essences, leur nombre d'Essences est abaissée à 5.\n\nCette compétence se verrouille jusqu'à ce que Note Dièse soit utilisée. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Chant Inspirant",
+                "SkillDescription": "Soigne tous les alliés du champ de bataille d'une valeur de 1000% de l'Attaque de l'utilisateur, les Purifie (retire les effets de statut négatif tels que le Sommeil, la Brûlure ou le Poison) et leur donne une Protection Sommeil, Protection Étourdissement, Protection Poison, Protection Brûlure et Rage Intense.\n\nL'utilisateur gagne Mélodie Récupérante. Si l'utilisateur possède déjà une Mélodie Récupérante active, il gagnera aléatoirement soit une Mélodie Eau, Tempête, Terre ou Feu à la place. Lorsqu'elle est active, Mélodie Récupérante soignera Chopin de 25% de ses PV max à chaque fois qu'un allié prendra son tour.\n\nPuis donne immédiatement les prochains tours à tous les alliés en réduisant leurs TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour. Verrouillé pendant 50TU après l'entrée de l'utilisateur sur le champ de bataille, et se verrouille à nouveau pendant 50TU après chaque utilisation.\n\nRage Intense amplifie l'Attaque d'une unité de 1,5 fois pendant ses 3 prochains tours, et remplacera les effets d'Affaiblissement ou d'Enragé existants. Elle ne peut être remplacée par d'autres effets d'Enragé mais peut l'être par les effets d'Affaiblissement. Chaque Protection empêche l'application de son effet nommé, puis est retirée. Les Protections Identiques ne peuvent être empilées.",
+                "TU": 10,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rêverie de Chopin",
+                "SkillDescription": "Cette unité gagne une Protection Mort Instantanée, Protection Sommeil, Protection Étourdissement, Protection Poison et Protection Brûlure lors de son entrée sur le champ de bataille. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLorsque cette unité vainc un nombre quelconque d'ennemis avec une attaque sur le champ de bataille, elle est soignée de 100% de ses PV max à la fin du tour et gagne aléatoirement une des Mélodies suivantes :\n- Mélodie Eau : Cette unité gagne une Immunité Sommeil.\n- Mélodie Tempête : Cette unité gagne une Immunité Étourdissement.\n- Mélodie Terre : Cette unité gagne une Immunité Poison.\n- Mélodie Feu : Cette unité gagne une Immunité Brûlure.\n\nLes Mélodies ne prennent pas fin à moins que Chopin soit vaincue ou quitte le champ de bataille. Chopin peut posséder plusieurs Mélodies actives en même temps, mais il n'est pas garanti qu'elle en gagne une qu'elle ne possède pas déjà lorsqu'une Mélodie est tirée au sort par ses compétences.\n\nChaque Protection empêche l'application de son effet nommé, puis est retirée. Les Protections Identiques ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Guerre Musicale",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut.\n\nCette unité bénéficie d'une réduction de 50% des dégâts provenant des attaques.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'après la fin du tour, elle sera soignée de 50% de ses PV max.\n\nAjoute 100% au % de dégâts des attaques de cette unité par le nombre de Mélodie unique active que cette unité possède lorsqu'elle attaque (p. ex. Point d'Orgue : 400% => 900% de dégâts avec les 5 Mélodies actives).\n\nÀ la fin de chaque tour ennemi, cette unité sera Purifiée (tout effet de statut négatif tel que le Sommeil, la Brûlure ou le Poison sont retirés), et ses TU seront réduits à 0. Puis cet effet ne peut être à nouveau déclenché jusqu'à ce que 50TU s'écoulent."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Lumière LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques d'unités de type Lumière"
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Je m'appelle... Au cas où ce n'était pas évident.\nOh ? Tu as besoin d'une faveur de ma part ?\nQu'est-ce que c'est agréablement inhabituel.\n\nTrès bien. Une petite distraction me ferait du bien.\nPeut-être que tu pourrais m'amuser jusqu'au jour de ma mort ! ♪"
+            ],
+            "Login": [
+                "Bon, tu m'as fait attendre assez longtemps ! Commençons donc notre recherche !\nTu vas m'aider à trouver quelqu'un qui soit dans un pétrin tellement terrible et épouvantable qu'il ne saurait pas quoi faire !"
+            ],
+            "Tap": [
+                "Tu ne le sais pas ? Je ne peux pas manger de nourriture.\nDonc tu ferais mieux de manger ces légumes à ma place ! Oh, tu ne gâcherais pas ces pauvres légumes, n'est-ce pas ?\n... Attends, tu aimes les légumes ? Quel est ton problème ?",
+                "Washington est quelqu'un d'honnête et de bien. Je pense que tu l'aimerais bien.\n... Mais ne lui raconte pas que je t'ai dit ça, d'accord ?",
+                "Si je devais choisir entre composer de la musique et construire des machines... Hmm... Je suppose que je ne pourrais pas abandonner l'un pour l'autre.\nLes deux font partie de ce qui fait ma personne. Je ne pourrais pas les abandonner."
+            ],
+            "Idle": [
+                "Hmm-hmm, hmm-hmm-hmm ~ ♪\nUne merveilleuse petite mélodie... Et une idée aussi merveilleuse pour une farce m'est venue à l'esprit...\nMaintenant... Avec laquelle devrais-je commencer d'abord...? Héhé..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Point d'Orgue": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Note Dièse": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Accord Brisé": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Chant Inspirant": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

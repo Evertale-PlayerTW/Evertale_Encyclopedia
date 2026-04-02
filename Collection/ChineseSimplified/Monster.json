@@ -129261,7 +129261,7 @@
         "Hp_Base": 7215,
         "Speed": 338,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "咚突、咚突——",
         "LeaderSkill": {
             "SkillTitle": "光属性强化",
@@ -129586,5 +129586,377 @@
                 "RelationshipBuff": "生命值+3%"
             }
         }
+    },
+    "ChopinRegular01": {
+        "Name": "肖邦",
+        "Name2": "幻想的作曲家",
+        "FullName": "肖邦 - 幻想的作曲家",
+        "Profile": "她与华盛顿自学生时代起便是搭档。\n两人一同挑战过无数机器人竞赛，总是如风暴般横扫奖项。\n每当被称为天才组合时，她总会害羞地掩饰，故意捉弄华盛顿，而对方也总是立刻出言制止。那样就已经足够了。她曾希望这样的日子能一直持续下去。\n然而在内心深处，她也清楚，自己的疾病正悄然加重。在感慨未来有限的同时，今天的她依旧如往常一样，去逗弄华盛顿。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 28,
+        "Atk_Base": 897,
+        "Hp_Base": 6725,
+        "Speed": 457,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "靠得住的废柴……哈哈！",
+        "LeaderSkill": {
+            "SkillTitle": "光属性振奋",
+            "SkillDescription": "所有光属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "盛大终章",
+                "SkillDescription": "对场上所有敌人造成400%的伤害。此技能无视目标的反击态势状态效果、减伤效果及反弹技能。若非BOSS非幻影目标在受到此攻击伤害后生命值不高于最大值的10％，则将其立即击败。此单位被视为通过攻击击败该目标。此效果无视目标的诅咒或祝福被动技能、复活被动技能与防止目标被击败的被动技能或主动技能效果。\n使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。此技能每次使用后解锁“安眠音符”技能。",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "安眠音符",
+                "SkillDescription": "对1个敌人造成500%的伤害，并强制其睡眠200TU，使用者获得1格“能量”。对进场后已经陷入过睡眠状态的敌方单位亦可生效。睡眠将覆盖目标身上的其他状态效果。此技能无视“守卫者”类效果、目标的减伤效果、反击态势状态效果及反弹被动技能。此攻击的伤害不会移除目标的睡眠状态。\n此技能每次使用后解锁“血腥和弦”技能，且需通过“血腥和弦”或“盛大终章”的效果解锁后才可使用一次。在离场或使用一次后需要再度满足发动条件才能第二次发动。能量可用在特定技能。每个单位最多可累积3格能量。",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "血腥和弦",
+                "SkillDescription": "对2个敌人造成250%的伤害，使用者获得1格“能量”；若己方灵气低于5，则己方灵气上升为5；若敌方灵气高于5，则敌方灵气下降为5。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。此攻击的伤害不会移除目标的睡眠状态。\n此技能需通过“安眠音符”的效果解锁后才可使用一次，且每次使用后解锁“安眠音符”技能。在离场或使用一次后需要再度满足发动条件才能第二次发动。",
+                "TU": 50,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "幻想作曲家",
+                "SkillDescription": "此单位进场时获得速败抵抗、睡眠抵抗、眩晕抵抗、中毒抵抗与燃烧抵抗。此单位不能从场上回到援军。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。\n每当此单位的一次攻击击败场上任意数量敌方单位后，该回合结束时此单位回复最大生命值的100%并获得下述旋律中的一种：\n·水之旋律：此单位不会陷入睡眠状态。\n·雷之旋律：此单位不会被眩晕。\n·地之旋律：此单位不会陷入中毒状态。\n·火之旋律：此单位不会陷入燃烧状态。\n各种旋律仅在此单位被击败或离场时被移除。可以同时有各种不同旋律，但在随机获得旋律时不保证获得尚未获得之旋律。"
+            },
+            {
+                "SkillTitle": "旋律之心",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。此单位受到敌方攻击的伤害减少50%。每当此单位受到攻击伤害并在该回合结束时仍然存活，此单位回复最大生命值的50％。\n此单位每有1种旋律，其主动技能的攻击倍率增加100%。（如有4种旋律时，400%的伤害将提升至800%）\n每当敌方回合结束时，此单位净化自身且TU归零立即获得下一个回合，此效果在此后50TU内无法再次触发。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "光系耐性Lv3",
+                "SkillDescription": "若此单位受到光属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手剑大师",
+                "SkillDescription": "若此单位装备单手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "单手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "肖邦就是我……\n哦？是来找我帮忙的吗？\n还真是个有趣的人啊。\n\n也罢，就当打发时间了。\n在我死之前，就让我好好\n享受一下吧♪"
+            ],
+            "Login": [
+                "等得我都不耐烦了，走吧，赶紧去找找看吧。\n那种已经山穷水尽、走投无路的人！"
+            ],
+            "Tap": [
+                "我可是做不到“吃东西”这种事的。\n所以呢，就由你来把这些蔬菜吃掉吧！怎么样，很困扰吧！\n……诶，你喜欢吃蔬菜？怎么可能……",
+                "华盛顿是个坦率的好人。你一定也会喜欢上她的。\n……可别让她知道我说过这种话啊。",
+                "如果要在音乐与机械之间做出选择的话……这个嘛……两者都难以割舍。\n正是这两者构成了现在的我。无论哪一个，我都无法舍弃。"
+            ],
+            "Idle": [
+                "哼哼～哼哼哼～♪\n愉快的音乐，还有……愉快有趣的恶作剧点子也浮现出来了……\n那么，先从哪一个开始好呢……呵呵……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "盛大终章": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "安眠音符": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "血腥和弦": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ChopinRegular02": {
+        "Name": "肖邦",
+        "Name2": "幻想的作曲家",
+        "FullName": "肖邦 - 幻想的作曲家",
+        "Profile": "毕业后，两人被召集至机构，成为“龙首计划”的核心成员。\n理论已经构建完成，装置也推进到了接近完成的阶段。然而，最后横亘在他们面前的，是足以匹敌人类大脑的运算中枢这一难题。完美的设计中，仍存在一处空白。\n就在这时，肖邦的心中闪过一个答案。\n——没错。只要以生命为代价来使用大脑就可以。对寿命所剩无几的自己而言，这正是能够做到的事。",
+        "Profile_Ascended": "决定以生命为代价完成“龙首计划”的，是她自己。她认为这是完美的理论，同时也明白这是愚蠢的选择。即便如此，她也毫不后悔。这正是因为自己时日无多，才有资格选择的道路。\n\n肖邦喜欢捉弄他人、欣赏对方为难的表情，但她并非恶人。她同样是那种会希望拯救眼前之人、为让世界变得更好而付诸行动的人。\n\n她不断对自己说，这个选择是合理的。即便如此，心中仍残留着唯一的真实想法——其实她只是想被华盛顿骂一句“别做这种蠢事”。连同这份心情，肖邦的意识逐渐融入了龙首之中。\n\n如果还能再来一次那场争论，这一次，或许真的能被骂一顿吧——只是说说而已。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 34,
+        "Atk_Base": 1123,
+        "Hp_Base": 8805,
+        "Speed": 457,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "光属性振奋",
+            "SkillDescription": "所有光属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "盛大终章",
+                "SkillDescription": "对场上所有敌人造成400%的伤害。此技能无视目标的反击态势状态效果、减伤效果及反弹技能。若非BOSS非幻影目标在受到此攻击伤害后生命值不高于最大值的10％，则将其立即击败。此单位被视为通过攻击击败该目标。此效果无视目标的诅咒或祝福被动技能、复活被动技能与防止目标被击败的被动技能或主动技能效果。\n使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。此技能每次使用后解锁“安眠音符”技能。",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "安眠音符",
+                "SkillDescription": "对1个敌人造成500%的伤害，并强制其睡眠200TU，使用者获得1格“能量”。对进场后已经陷入过睡眠状态的敌方单位亦可生效。睡眠将覆盖目标身上的其他状态效果。此技能无视“守卫者”类效果、目标的减伤效果、反击态势状态效果及反弹被动技能。此攻击的伤害不会移除目标的睡眠状态。\n此技能每次使用后解锁“血腥和弦”技能，且需通过“血腥和弦”或“盛大终章”的效果解锁后才可使用一次。在离场或使用一次后需要再度满足发动条件才能第二次发动。能量可用在特定技能。每个单位最多可累积3格能量。",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "血腥和弦",
+                "SkillDescription": "对2个敌人造成250%的伤害，使用者获得1格“能量”；若己方灵气低于5，则己方灵气上升为5；若敌方灵气高于5，则敌方灵气下降为5。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。此攻击的伤害不会移除目标的睡眠状态。\n此技能需通过“安眠音符”的效果解锁后才可使用一次，且每次使用后解锁“安眠音符”技能。在离场或使用一次后需要再度满足发动条件才能第二次发动。",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "四重奏",
+                "SkillDescription": "净化并回复场上所有己方单位相当于使用者攻击力1000%的生命值，并使其获得睡眠抵抗、眩晕抵抗、中毒抵抗、燃烧抵抗与暴怒。使用者获得回复旋律，若使用者已经有回复旋律则改为随机获得水之旋律、火之旋律、雷之旋律或地之旋律。使场上其他队友TU归零，使其顺次获得下一回合。在受此技能影响后直到这些单位的下一个回合结束后无法使用给予其他队友回合的主动技能。\n使用者进场至少50TU后才可使用且每次使用后必须等50TU后才能再次使用。每当己方单位获得回合时，若此单位有回复旋律则回复最大生命值的25%。获得暴怒效果的单位攻击力增加为1.5倍直到其之后的第三个回合结束。暴怒效果会覆盖原先的虚弱或狂热效果，也会被虚弱效果覆盖，但不会被狂热效果覆盖。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。",
+                "TU": 10,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "幻想作曲家",
+                "SkillDescription": "此单位进场时获得速败抵抗、睡眠抵抗、眩晕抵抗、中毒抵抗与燃烧抵抗。此单位不能从场上回到援军。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。\n每当此单位的一次攻击击败场上任意数量敌方单位后，该回合结束时此单位回复最大生命值的100%并获得下述旋律中的一种：\n·水之旋律：此单位不会陷入睡眠状态。\n·雷之旋律：此单位不会被眩晕。\n·地之旋律：此单位不会陷入中毒状态。\n·火之旋律：此单位不会陷入燃烧状态。\n各种旋律仅在此单位被击败或离场时被移除。可以同时有各种不同旋律，但在随机获得旋律时不保证获得尚未获得之旋律。"
+            },
+            {
+                "SkillTitle": "旋律之心",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。此单位受到敌方攻击的伤害减少50%。每当此单位受到攻击伤害并在该回合结束时仍然存活，此单位回复最大生命值的50％。\n此单位每有1种旋律，其主动技能的攻击倍率增加100%。（如有4种旋律时，400%的伤害将提升至800%）\n每当敌方回合结束时，此单位净化自身且TU归零立即获得下一个回合，此效果在此后50TU内无法再次触发。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "光系耐性Lv3",
+                "SkillDescription": "若此单位受到光属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "单手剑大师",
+                "SkillDescription": "若此单位装备单手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "单手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "肖邦就是我……\n哦？是来找我帮忙的吗？\n还真是个有趣的人啊。\n\n也罢，就当打发时间了。\n在我死之前，就让我好好\n享受一下吧♪"
+            ],
+            "Login": [
+                "等得我都不耐烦了，走吧，赶紧去找找看吧。\n那种已经山穷水尽、走投无路的人！"
+            ],
+            "Tap": [
+                "我可是做不到“吃东西”这种事的。\n所以呢，就由你来把这些蔬菜吃掉吧！怎么样，很困扰吧！\n……诶，你喜欢吃蔬菜？怎么可能……",
+                "华盛顿是个坦率的好人。你一定也会喜欢上她的。\n……可别让她知道我说过这种话啊。",
+                "如果要在音乐与机械之间做出选择的话……这个嘛……两者都难以割舍。\n正是这两者构成了现在的我。无论哪一个，我都无法舍弃。"
+            ],
+            "Idle": [
+                "哼哼～哼哼哼～♪\n愉快的音乐，还有……愉快有趣的恶作剧点子也浮现出来了……\n那么，先从哪一个开始好呢……呵呵……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "盛大终章": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "安眠音符": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "血腥和弦": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "四重奏": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

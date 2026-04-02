@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1774312764,
+  "Time": 1774504877,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28800,6 +28800,49 @@
       "tuCost": 100,
       "useLimit": 3,
       "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackAChopinRegular",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "config": "AllAttackAChopinRegular",
+      "tuCost": 75,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAChopinRegular",
+      "class": "Ability",
+      "abilityScalor": 4,
+      "config": "SingleAttackAChopinRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAChopinRegular",
+      "class": "Ability",
+      "abilityScalor": 1.5,
+      "config": "DoubleAttackAChopinRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 0,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "LargeBuffAChopinRegular",
+      "class": "Ability",
+      "config": "LargeBuffAChopinRegular",
+      "tuCost": 10,
+      "useLimit": 0,
+      "spiritGain": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

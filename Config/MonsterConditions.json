@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1774321245,
+    "Time": 1774504999,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29641,6 +29641,37 @@
 		"and": {
 			"class": "MonsterConditions",
 			"allyTeamSize": 2
+		}
+	},
+	"IsRecoveryMelodyChopinRegular":{
+		"class": "MonsterConditions",
+		"buffStackNames": ["RecoveryMelody"]	
+	},
+	"IsNotRecoveryMelody": {
+		"class":"MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["RecoveryMelody"]
+		}
+	},
+	"ChopinHearsAll5Melodies": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["WaterMelody"],
+			"and":{
+				"class": "MonsterConditions",
+				"buffStackNames": ["FireMelody"],
+				"and":{
+					"class": "MonsterConditions",
+					"buffStackNames": ["StormMelody"],
+					"and":{
+						"class": "MonsterConditions",
+						"buffStackNames": ["EarthMelody"],
+						"and":{
+							"class": "MonsterConditions",
+							"buffStackNames": ["RecoveryMelody"]
+					}
+				}
+			}
 		}
 	}
 }

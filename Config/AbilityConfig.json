@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1774419791,
+	"Time": 1775031113,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -44441,6 +44441,121 @@
 			"flags": ["Healer"],
 			"abilityEffect": "MechasisBandSpecial",
 			"useCondition": "1AllyIsNotFortifiedAndNotAlone"
+		},
+		"AllAttackAChopinRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"],
+				"damageBoosts": ["ChopinDamageBoost"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["InstantKillAndCreditSource"],
+				"applyConditions": "On10PercentMaxHPIsNotBossAndNotMirage",
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true		
+			},{
+				"buffs": ["RemoveAllMelodyReady","RemoveEnergy","RemoveActive2LOCKChopinRegular"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"randomBuffFromList": ["WaterMelodyREADY","FireMelodyREADY","StormMelodyREADY","EarthMelodyREADY"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ChopinSpecial",
+			"useCondition": "IsCharged3"
+		},
+		"SingleAttackAChopinRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["ChopinDamageBoost"],
+				"damageFlags": ["DoNotWake","IgnoreArmor","IgnoreSkin"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["SleepForced"],
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["RemoveAllMelodyReady","StoreEnergy","Active2LOCKChopinRegular","RemoveActive3LOCKChopinRegular"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"randomBuffFromList": ["WaterMelodyREADY","FireMelodyREADY","StormMelodyREADY","EarthMelodyREADY"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ChopinAttack1",
+			"flags": ["Sleep","SleepChance"],
+			"recommendEffectWhenUsable": -1,
+			"useCondition": "IsNotActive2LOCKChopinRegular"
+		},
+		"DoubleAttackAChopinRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"damageBoosts": ["ChopinDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath","DoNotWake","IgnoreArmor"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["RemoveAllMelodyReady","StoreEnergy","Active3LOCKChopinRegular","RemoveActive2LOCKChopinRegular","IncreaseSpiritTo5", "IncreaseSpiritTo5", "IncreaseSpiritTo5", "IncreaseSpiritTo5", "IncreaseSpiritTo5",
+				"ReduceSpiritTo5Enemy","ReduceSpiritTo5Enemy","ReduceSpiritTo5Enemy","ReduceSpiritTo5Enemy","ReduceSpiritTo5Enemy"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			},{
+				"randomBuffFromList": ["WaterMelodyREADY","FireMelodyREADY","StormMelodyREADY","EarthMelodyREADY"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ChopinStrings1",
+			"useCondition": "IsNotActive3LOCKChopinRegular"
+		},
+		"LargeBuffAChopinRegular": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Heal1000Percent","RemoveBuffs","AttackPlus50Percent3TurnsOnly","StunImmunityOnce","SleepImmunityOnce","PoisonImmunityOnce","BurnImmunityOnce"],
+				"applyToTargetType": "Friendly",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"randomBuffFromList": ["WaterMelodySleepImmunity","FireMelodyBurnImmunity","StormMelodyStunImmunity","EarthMelodyPoisonImmunity"],
+				"buffs": ["GrantAllOtherAlliesTurnEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "IsRecoveryMelodyChopinRegular"
+			},{
+				"buffs": ["RecoveryMelodyHPRegen25PercentMaxHPOnAllyTurn","GrantAllOtherAlliesTurnEBB"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "IsNotRecoveryMelody"
+			},{
+				"buffs": ["ChopinRegularActive4Cooldown50"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"friendlyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ChopinHeal1",
+			"flags": ["Duration","Healer","GiveTurn"],
+			"useCondition": "TimeInCombat50NotInstantCooldown"
 		}
 	}
 }

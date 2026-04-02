@@ -129261,7 +129261,7 @@
         "Hp_Base": 7215,
         "Speed": 338,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "붐츠, 붐츠, 치카치카 붐!",
         "LeaderSkill": {
             "SkillTitle": "명속성 공격력 및 HP 증가",
@@ -129586,5 +129586,377 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "ChopinRegular01": {
+        "Name": "쇼팽",
+        "Name2": "몽상의 거장",
+        "FullName": "쇼팽 - 몽상의 거장",
+        "Profile": "그녀와 워싱턴은 학창 시절부터 긴밀한 협력자였다. 둘은 함께 수많은 로봇 경진 대회에 참가하여 좌우로 상을 쓸어 담았다.\n천재 듀오라고 불릴 때마다 그녀는 부끄러움을 감추기 위해 워싱턴을 놀렸고ㅡ 곧바로 친구에게 꾸지람을 들었다. 그것이 그녀에게는 행복이었다. 쇼팽은 그런 날들이 영원히 계속되기를 바랐다. \n하지만 마음속 깊은 곳에서는 자신의 병이 조용히, 그러나 꾸준히 악화되고 있음을 알고 있었다. 다가오는 죽음을 의식하면서도 그럼에도 그녀는 평소처럼 워싱턴을 놀리며 하루하루를 보냈다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "메이스",
+        "forFilter_Element": "Life",
+        "Element": "명속성",
+        "Cost": 28,
+        "Atk_Base": 897,
+        "Hp_Base": 6725,
+        "Speed": 457,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "도움되는 무쓸모…인가 그렇게들 말하더군!",
+        "LeaderSkill": {
+            "SkillTitle": "명속성 HP 증가",
+            "SkillDescription": "아군 명속성 유닛 최대 HP 10% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "그랜드 피날레",
+                "SkillDescription": "모든 적에게 400% 데미지. 이 공격은 적의 데미지 감소 효과, 스킨 패시브 스킬, 그리고 카운터 스탠스 상태 효과를 무시한다.\n\n이 공격이 보스나 신기루가 아닌 타겟을 적중하고, 데미지 후 해당 타겟이 최대 HP의 10% 이하가 남은 경우, 해당 타겟은 즉시 패배한다(성공하면, 사용자가 타겟을 공격으로 물리친 것으로 간주된다). 이 효과는 복수 패시브 스킬, 부활 패시브 스킬, 그리고 적의 패배를 막는 모든 패시브 스킬이나 액티브 스킬의 효과를 무시한다.\n\n사용자가 충전을 3회 가진 경우에만 사용 가능하다. 사용자의 모든 충전이 소모된다.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "샤프 노트",
+                "SkillDescription": "적 1기에 500% 데미지를 준 다음, 해당 적이 전장에 있는 동안 이미 수면 상태였더라도 200TU 동안 수면 상태 효과를 부여한다. 그 후 사용자에게 충전이 1회 부여된다. 이 공격은 가디언, 데미지 감소 효과, 카운터 스탠스 상태 효과, 그리고 스킨 패시브 스킬의 효과를 무시한다. 이 공격으로 인한 데미지는 수면 상태인 적을 깨우지 않는다.\n\n이 스킬 사용 시 브로큰 코드가 잠금 해제되고, 사용 후에는 사용자가 브로큰 코드나 그랜드 피날레를 사용할 때까지 잠긴다. 특정 스킬은 충전 횟수의 영향을 받거나, 충전을 소모힌다. 한 유닛은 최대 3회까지 충전할 수 있다.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "브로큰 코드",
+                "SkillDescription": "적 2기에 250% 데미지를 주고, 사용자에게 충전이 1회 부여된다. 이 공격은 적의 데미지 감소 효과와 보스가 아닌 적이 지닌 타겟의 패배를 막는 효과를 무시한다. 이 공격으로 인한 데미지는 수면 상태 적을 깨우지 않는다.\n\n아군 기력이 5 미만인 경우, 아군 기력을 5로 올린다. 적 기력이 5 이상인 경우, 적 기력을 5로 내린다.\n\n이 스킬은 샤프 노트로 잠금 해제될 때까지 잠긴다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 50,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "쇼팽의 몽상",
+                "SkillDescription": "이 유닛이 전투에 들어갈 때, 이 유닛에게 원타임 즉사 면역, 원타임 수면 면역, 원타임 스턴 면역, 원타임 포이즌 면역, 원타임 화염 면역이 부여된다. 원타임 즉사 면역은 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막아준 다음 사라진다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 전장에 있는 동안 공격으로 적을 물리치면 턴 종료 시 최대 HP의 100%만큼 회복하고 다음 멜로디 중 하나를 랜덤으로 획득한다:\n- 수속성 멜로디: 이 유닛에게 수면 면역을 부여한다.\n- 풍속성 멜로디: 이 유닛에게 스턴 면역을 부여한다.\n- 지속성 멜로디: 이 유닛에게 포이즌 면역을 부여한다.\n- 화속성 멜로디: 이 유닛에게 화염 면역을 부여한다.\n\n멜로디는 쇼팽이 패배하거나 전장을 떠나지 않는 한 종료되지 않는다. 쇼팽은 다수의 멜로디를 동시에 활성화할 수 있지만, 스킬에 의해 멜로디가 랜덤으로 정해질 때 이미 보유하고 있지 않은 다른 멜로디를 반드시 획득하는 것은 아니다."
+            },
+            {
+                "SkillTitle": "음악 전쟁",
+                "SkillDescription": "이 유닛은 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 공격으로 인한 데미지가 50% 감소한다.\n\n이 유닛은 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 최대 HP의 50%만큼 회복한다.\n\n공격 시, 이 유닛이 활성화한 고유의 멜로디당 이 유닛의 공격 데미지 %에 100%가 추가된다. (예: 그랜드 피날레: 400% => 5개 멜로디 모두 활성화 시 900% 데미지)\n\n적의 매 턴 종료 시, 이 유닛은 정화되고(수면, 화염, 중독과 같은 모든 부정적인 상태 효과가 제거), TU가 0으로 감소한다. 그런 다음 50TU가 진행될 때까지 이 효과는 다시 발동되지 않는다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "명속성 저항 Lv3",
+                "SkillDescription": "명속성 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "검"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "난 쇼팽이야… 혹시 모르셨을까 봐 말야.\n오? 나한테 부탁이 있다고?\n기쁘게도 흔치 않은 일.\n\n아주 좋아. 잠깐 심심풀이 좀 할까.\n내가 죽는 날까지 날 즐겁게 해 줄 수 있을지도! ♪"
+            ],
+            "Login": [
+                "자, 날 충분히 오래 기다리게 했어! 그럼 수색을 시작해 볼까?\n넌 내가 스스로 어찌할 바 모르는, 정말 끔찍한 곤경에 처한 사람을 찾는 걸 도와줘야 해!"
+            ],
+            "Tap": [
+                "모르겠어? 난 음식을 먹을 수가 없다고.\n그러니까 네가 나 대신 이 채소들을 먹어줘야 해! 아, 이 불쌍한 야채들을 버리게 두진 않겠지?\n…잠깐, 야채를 좋아한다고? 너 뭐가 문제야?",
+                "워싱턴은 착하고 정직하달까. 네가 좋아할 거라고 생각해.\n…다만 내가 그렇게 말했다는 건 말하지 마, 알았지?",
+                "음악을 만드는 것과 기계를 만드는 것 사이에서 선택해야 한다면… 흐음ㅁ… 둘 다 포기할 수 없을 것 같아.\n둘 다 나를 나답게 만드는 일부니까. 어느 쪽도 버릴 수 없어."
+            ],
+            "Idle": [
+                "흠ㅁ-음, 흠ㅁ-음-음~♪\n기분 좋은 작은 멜로디… 그리고 그에 못지 않게 기분 좋은 장난 아이디어가 방금 떠올랐어…\n자 그럼… 어느 것부터 먼저 시작할까…? 헤헤…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "그랜드 피날레": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "샤프 노트": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "브로큰 코드": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ChopinRegular02": {
+        "Name": "쇼팽",
+        "Name2": "몽상의 거장",
+        "FullName": "쇼팽 - 몽상의 거장",
+        "Profile": "졸업 후, 두 사람은 붉은용 기관에 징집되어 \"드래곤 헤드 프로젝트\"를 이끄는 임무를 맡았다.\n그들은 함께 장치의 이론적 기반을 완성했을 뿐만 아니라, 장치 자체의 제작도 거의 마무리지을 수 있었다. 그러나 마지막 장애물이 하나 남아 있었으니: 인간 두뇌에 필적하는 연산 코어를 필요로 하는 장치라는 것. 이는 완벽한 청사진에 확연히 두드러진 유일한 허점이었다.\n그 순간, 쇼팽의 머릿속에 해답이 번득였다.\n\nㅡ물론이지. 누군가의 실제 뇌를 적출해서 대체품으로 사용하면 된다.\n어차피 남은 시간도 얼마 없었기에, 그녀는 기꺼이 그 누군가가 되기로 했다.",
+        "Profile_Ascended": "목숨과 맞바꿔 드래곤 헤드 프로젝트를 완수하기로 한 것은 그녀 자신의 결정이었다. 그것이 최선의 해결책이라고 믿었고ㅡ동시에 어리석은 짓이라는 것도 이해하고 있었다. 그럼에도, 후회는 없었다. 남은 시간이 얼마 없는 사람만이 선택할 수 있는 길이었다.\n\n쇼팽은 남들을 놀리고 당황하게 하고 뒤따르는 난처한 얼굴을 보는 것을 즐긴다ㅡ 하지만 악당은 아니다. 도움이 필요한 사람에게는 주저 없이 손을 내밀 것이고, 세상을 더 나은 곳으로 만들기 위해서라면 무엇이든 기꺼이 할 것이다.\n\n그녀는 이것이 최선의 선택이라고 스스로를 설득했다. 하지만 마음 한켠에 무엇인가 남아 있었다. 워싱턴이 자신의 무모한 행동을 꾸짖어 주기를 바라는 유치한 희망. 이 작은 소망은 그녀의 의식과 함께 드래곤 헤드 속으로 흡수되었다.\n\n만약 그 운명적인 논쟁을 한 번 더 다시 할 수 있다면… 아마 이번에는 워싱턴이 그녀를 꾸짖을 수 있을지도 모른다.\n\n…그냥 아마도.\n\n\n",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "메이스",
+        "forFilter_Element": "Life",
+        "Element": "명속성",
+        "Cost": 34,
+        "Atk_Base": 1123,
+        "Hp_Base": 8805,
+        "Speed": 457,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "명속성 HP 증가",
+            "SkillDescription": "아군 명속성 유닛 최대 HP 10% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "그랜드 피날레",
+                "SkillDescription": "모든 적에게 400% 데미지. 이 공격은 적의 데미지 감소 효과, 스킨 패시브 스킬, 그리고 카운터 스탠스 상태 효과를 무시한다.\n\n이 공격이 보스나 신기루가 아닌 타겟을 적중하고, 데미지 후 해당 타겟이 최대 HP의 10% 이하가 남은 경우, 해당 타겟은 즉시 패배한다(성공하면, 사용자가 타겟을 공격으로 물리친 것으로 간주된다). 이 효과는 복수 패시브 스킬, 부활 패시브 스킬, 그리고 적의 패배를 막는 모든 패시브 스킬이나 액티브 스킬의 효과를 무시한다.\n\n사용자가 충전을 3회 가진 경우에만 사용 가능하다. 사용자의 모든 충전이 소모된다.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "샤프 노트",
+                "SkillDescription": "적 1기에 500% 데미지를 준 다음, 해당 적이 전장에 있는 동안 이미 수면 상태였더라도 200TU 동안 수면 상태 효과를 부여한다. 그 후 사용자에게 충전이 1회 부여된다. 이 공격은 가디언, 데미지 감소 효과, 카운터 스탠스 상태 효과, 그리고 스킨 패시브 스킬의 효과를 무시한다. 이 공격으로 인한 데미지는 수면 상태인 적을 깨우지 않는다.\n\n이 스킬 사용 시 브로큰 코드가 잠금 해제되고, 사용 후에는 사용자가 브로큰 코드나 그랜드 피날레를 사용할 때까지 잠긴다. 특정 스킬은 충전 횟수의 영향을 받거나, 충전을 소모힌다. 한 유닛은 최대 3회까지 충전할 수 있다.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "브로큰 코드",
+                "SkillDescription": "적 2기에 250% 데미지를 주고, 사용자에게 충전이 1회 부여된다. 이 공격은 적의 데미지 감소 효과와 보스가 아닌 적이 지닌 타겟의 패배를 막는 효과를 무시한다. 이 공격으로 인한 데미지는 수면 상태 적을 깨우지 않는다.\n\n아군 기력이 5 미만인 경우, 아군 기력을 5로 올린다. 적 기력이 5 이상인 경우, 적 기력을 5로 내린다.\n\n이 스킬은 샤프 노트로 잠금 해제될 때까지 잠긴다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "영감 주는 노래",
+                "SkillDescription": "전장의 모든 아군을 사용자 공격력의 1000%만큼 회복시키고, 정화하며(수면, 화염, 중독과 같은 부정적인 상태 효과 제거), 각 아군에게 원타임 수면 면역, 원타임 스턴 면역, 원타임 포이즌 면역, 원타임 화염 면역, 그리고 강렬한 분노를 부여한다.\n\n사용자는 복구 멜로디를 획득한다. 사용자가 이미 복구 멜로디를 활성화한 경우, 수속성, 풍속성, 지속성, 화속성 멜로디 중 하나를 랜덤으로 얻는다. 활성화된 동안, 복구 멜로디는 아군이 턴을 가질 때마다 쇼팽의 최대 HP의 25%를 회복시킨다.\n\n그런 다음, 다른 모든 아군의 현재 TU를 감소시켜 즉시 다음 턴을 부여한다. 턴을 부여하는 액티브 스킬은 영향 받은 유닛이 턴을 가진 후까지 사용할 수 없다. 사용자가 전장에 진입한 후 50TU 동안 잠기며, 매 사용 후 50TU 동안 다시 잠긴다.\n\n강렬한 분노는 다음 턴 3회 동안 유닛의 공격력을 1.5배 증가시키며, 기존 약화 또는 격분 효과를 덮어쓴다. 다른 격분 효과로는 덮어쓸 수 없지만, 약화 효과로는 덮어쓸 수 있다. 각 면역은 명명된 효과의 적용을 한 번 막은 다음 사라진다. 동일한 면역은 중첩되지 않는다.",
+                "TU": 10,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "쇼팽의 몽상",
+                "SkillDescription": "이 유닛이 전투에 들어갈 때, 이 유닛에게 원타임 즉사 면역, 원타임 수면 면역, 원타임 스턴 면역, 원타임 포이즌 면역, 원타임 화염 면역이 부여된다. 원타임 즉사 면역은 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막아준 다음 사라진다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 전장에 있는 동안 공격으로 적을 물리치면 턴 종료 시 최대 HP의 100%만큼 회복하고 다음 멜로디 중 하나를 랜덤으로 획득한다:\n- 수속성 멜로디: 이 유닛에게 수면 면역을 부여한다.\n- 풍속성 멜로디: 이 유닛에게 스턴 면역을 부여한다.\n- 지속성 멜로디: 이 유닛에게 포이즌 면역을 부여한다.\n- 화속성 멜로디: 이 유닛에게 화염 면역을 부여한다.\n\n멜로디는 쇼팽이 패배하거나 전장을 떠나지 않는 한 종료되지 않는다. 쇼팽은 다수의 멜로디를 동시에 활성화할 수 있지만, 스킬에 의해 멜로디가 랜덤으로 정해질 때 이미 보유하고 있지 않은 다른 멜로디를 반드시 획득하는 것은 아니다."
+            },
+            {
+                "SkillTitle": "음악 전쟁",
+                "SkillDescription": "이 유닛은 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 공격으로 인한 데미지가 50% 감소한다.\n\n이 유닛은 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 최대 HP의 50%만큼 회복한다.\n\n공격 시, 이 유닛이 활성화한 고유의 멜로디당 이 유닛의 공격 데미지 %에 100%가 추가된다. (예: 그랜드 피날레: 400% => 5개 멜로디 모두 활성화 시 900% 데미지)\n\n적의 매 턴 종료 시, 이 유닛은 정화되고(수면, 화염, 중독과 같은 모든 부정적인 상태 효과가 제거), TU가 0으로 감소한다. 그런 다음 50TU가 진행될 때까지 이 효과는 다시 발동되지 않는다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "명속성 저항 Lv3",
+                "SkillDescription": "명속성 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "검"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "난 쇼팽이야… 혹시 모르셨을까 봐 말야.\n오? 나한테 부탁이 있다고?\n기쁘게도 흔치 않은 일.\n\n아주 좋아. 잠깐 심심풀이 좀 할까.\n내가 죽는 날까지 날 즐겁게 해 줄 수 있을지도! ♪"
+            ],
+            "Login": [
+                "자, 날 충분히 오래 기다리게 했어! 그럼 수색을 시작해 볼까?\n넌 내가 스스로 어찌할 바 모르는, 정말 끔찍한 곤경에 처한 사람을 찾는 걸 도와줘야 해!"
+            ],
+            "Tap": [
+                "모르겠어? 난 음식을 먹을 수가 없다고.\n그러니까 네가 나 대신 이 채소들을 먹어줘야 해! 아, 이 불쌍한 야채들을 버리게 두진 않겠지?\n…잠깐, 야채를 좋아한다고? 너 뭐가 문제야?",
+                "워싱턴은 착하고 정직하달까. 네가 좋아할 거라고 생각해.\n…다만 내가 그렇게 말했다는 건 말하지 마, 알았지?",
+                "음악을 만드는 것과 기계를 만드는 것 사이에서 선택해야 한다면… 흐음ㅁ… 둘 다 포기할 수 없을 것 같아.\n둘 다 나를 나답게 만드는 일부니까. 어느 쪽도 버릴 수 없어."
+            ],
+            "Idle": [
+                "흠ㅁ-음, 흠ㅁ-음-음~♪\n기분 좋은 작은 멜로디… 그리고 그에 못지 않게 기분 좋은 장난 아이디어가 방금 떠올랐어…\n자 그럼… 어느 것부터 먼저 시작할까…? 헤헤…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "그랜드 피날레": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "샤프 노트": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "브로큰 코드": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "영감 주는 노래": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

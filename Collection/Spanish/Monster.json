@@ -129261,7 +129261,7 @@
         "Hp_Base": 7215,
         "Speed": 338,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¡Bum-tass, bum-tass, chaka-chaka bum!",
         "LeaderSkill": {
             "SkillTitle": "Sube ATT & HP Luz",
@@ -129586,5 +129586,377 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "ChopinRegular01": {
+        "Name": "Chopin",
+        "Name2": "Maestra de Ensueños",
+        "FullName": "Chopin - Maestra de Ensueños",
+        "Profile": "Ella y Washington habían trabajado de cerca desde sus días de estudiantes. Juntas participaron en innumerables competiciones de robótica, arrasando con premios a diestra y siniestra.\nCada vez que las llamaban un dúo genial, ella se burlaba de Washington para ocultar su propia vergüenza, y su amiga la reprendía de inmediato. Eso era la felicidad para ella. Chopin deseaba que esos días duraran para siempre.\nY, sin embargo, en el fondo de su corazón, sabía que su enfermedad empeoraba silenciosa pero constantemente. Pero incluso aún cuando pensaba intensamente en su inminente muerte, pasaba sus días bromeando con Washington como de costumbre.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 28,
+        "Atk_Base": 897,
+        "Hp_Base": 6725,
+        "Speed": 457,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡Una buena para nada servicial... o eso dicen!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Luz",
+            "SkillDescription": "Las unidades de Luz aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Gran Final",
+                "SkillDescription": "400% de daño a todos los enemigos. Este ataque ignora los efectos de reducción de daño del enemigo, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nCuando este ataque golpea a un objetivo que no es jefe ni efímero y ese objetivo tiene un 10% o menos de HP máximo restante después del daño, ese objetivo es derrotado inmediatamente (se considera que el usuario ha derrotado al objetivo con un ataque si tiene éxito). Este efecto ignora las habilidades pasivas Venganza, las habilidades pasivas Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impediría que el enemigo fuera derrotado.\n\nUtilizable sólo si el usuario ha almacenado 3 Cargas. Consume todas las Cargas del usuario.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Nota Aguda",
+                "SkillDescription": "500% de daño a 1 enemigo, y luego le aplica el efecto de estado Sueño durante 200TU, incluso si ya estaba dormido en el campo de batalla. Después, el usuario obtiene una Carga. Este ataque ignora a los Guardianes, los efectos de reducción de daño, el efecto de estado Contraofensiva, y los efectos de las habilidades pasivas de Piel. El daño de este ataque no despierta a los enemigos dormidos.\n\nEsta habilidad desbloquea Acorde Roto al usarse y se bloquea después de su uso hasta que el usuario use Acorde Roto o Gran Final. Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Acorde Roto",
+                "SkillDescription": "250% de daño a 2 enemigos, y el usuario obtiene una Carga. Este ataque ignora los efectos de reducción de daño de los enemigos y cualquier efecto de enemigos que no sean jefes que impida que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nSi el Espíritu Aliado es menor que 5, lo aumenta a 5. Si el Espíritu del Enemigo es mayor que 5, lo reduce a 5.\n\nEsta habilidad permanece bloqueada hasta que se desbloquee con Nota Aguda. Se bloquea de nuevo tras cada uso, o si el usuario abandona el campo de batalla.",
+                "TU": 50,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ensueño de Chopin",
+                "SkillDescription": "Cuando esta unidad entra en combate, recibe un Guarda Muerte Instantánea, Guarda Sueño, Guarda Aturdir, Guarda Veneno y Guarda Quemado. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una vez, tras lo cual se elimina. Los Guardas Muerte Instantánea no se pueden ignorar ni acumular.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nCuando esta unidad derrota a cualquier número de enemigos con un ataque mientras está en el campo de batalla, al final del turno se cura al 100% de sus HP máximos y obtiene una de las siguientes melodías al azar:\n- Melodía Agua: Otorga Inmunidad contra Sueño.\n- Melodía Tormenta: Otorga Inmunidad contra Aturdir.\n- Melodía Tierra: Otorga Inmunidad contra Veneno.\n- Melodía Fuego: Otorga Inmunidad contra Quemado.\n\nLas melodías no terminan a menos que Chopin sea derrotada o abandone el campo de batalla. Chopin puede tener varias Melodías activas a la vez, pero no se garantiza que obtenga una que no tenga ya cuando sus habilidades seleccionan aleatoriamente una Melodía."
+            },
+            {
+                "SkillTitle": "Guerra Musical",
+                "SkillDescription": "Si esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad tiene una reducción del 50% en el daño de los ataques.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nAl atacar, añade un 100% al porcentaje de daño de los ataques de esta unidad por cada Melodía única que tenga activa (por ejemplo, Gran Final: 400% => 900% de daño con las 5 Melodías activas).\n\nAl final de cada turno enemigo, esta unidad se purifica (se eliminan los efectos de estado negativos como sueño, quemado o veneno) y sus TU se reducen a 0. Este efecto no se puede activar de nuevo hasta que avancen 50TU."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Luz Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Luz."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Soy Chopin... por si no era obvio.\n¿Ah? ¿Necesitas un favor mío?\nQué deliciosamente inusual.\n\nMuy bien. Me vendría bien una pequeña distracción.\n¡Quizás puedas mantenerme entretenida hasta el día de mi muerte! ♪"
+            ],
+            "Login": [
+                "¡Bueno, ya me has hecho esperar bastante! ¿Empezamos la búsqueda entonces?\nVas a ayudarme a encontrar a alguien que esté metido en un lío tan terrible que no sepa qué hacer consigo mismo."
+            ],
+            "Tap": [
+                "¿No lo sabes? No puedo comer.\n¡Así que más te vale comer estas verduras por mí! Oh, no dejarías que estas pobres verduras se desperdicien, ¿verdad?\n…Espera, ¿te gustan las verduras? ¿Qué te pasa?",
+                "Washington es buena y honesta. Creo que te caerá bien.\n…Pero no le digas que yo dije eso, ¿de acuerdo?",
+                "Si tuviera que elegir entre hacer música y fabricar maquinaria... hmmm... Supongo que no podría renunciar a ninguna de las dos.\nAmbas son parte de lo que me hace ser quien soy. No podría abandonar ninguna de las dos."
+            ],
+            "Idle": [
+                "Mmm-mmm, hmm-hmm-hmm～♪\nUna melodía encantadora... y una idea igual de encantadora para una broma se me acaba de ocurrir...\nAhora bien... ¿con cuál debería empezar primero...? Jeje..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Gran Final": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Nota Aguda": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Acorde Roto": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ChopinRegular02": {
+        "Name": "Chopin",
+        "Name2": "Maestra de Ensueños",
+        "FullName": "Chopin - Maestra de Ensueños",
+        "Profile": "Tras graduarse, ambas fueron reclutadas por la ODR y se les encomendó la tarea de liderar el \"Proyecto Cabeza de Dragón\".\nJuntas lograron perfeccionar la base teórica del dispositivo, además de casi completar su construcción. Pero un último obstáculo se interponía en su camino: el dispositivo requería un núcleo computacional equivalente a un cerebro humano. Este se convirtió en el único y evidente vacío en su, por lo demás, perfecto plan.\n\nEn ese momento, una respuesta brilló en la mente de Chopin:\n\n—Por supuesto. Podrían extraer el cerebro de alguien para usarlo como sustituto.\nY, con tan poco tiempo restante, estaba más que dispuesta a ser ese alguien.",
+        "Profile_Ascended": "Fue su propia decisión completar el Proyecto Cabeza de Dragón a cambio de su vida. Creía que era la mejor solución, y al mismo tiempo comprendía que también era una locura. Aun así, no se arrepentía. Era un camino que sólo alguien con tan poco tiempo podía elegir.\n\nChopin disfruta burlando y confundiendo a los demás, observando sus rostros de preocupación, pero ella no es una villana. No dudaría en ayudar a quien la necesitara y estaría dispuesta a hacer cualquier cosa para mejorar el mundo.\n\nSe había convencido de que esta era la mejor opción. Y, sin embargo, algo persistía en su corazón. Una esperanza infantil de que Washington la regañara por hacer algo tan imprudente. Este pequeño deseo fue absorbido por la Cabeza de Dragón junto con su consciencia.\n\nSi pudiera repetir ese fatídico debate una vez más... tal vez esta vez, Washington podría regañarla.\n\n...sólo tal vez.\n\n\n",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 34,
+        "Atk_Base": 1123,
+        "Hp_Base": 8805,
+        "Speed": 457,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Luz",
+            "SkillDescription": "Las unidades de Luz aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Gran Final",
+                "SkillDescription": "400% de daño a todos los enemigos. Este ataque ignora los efectos de reducción de daño del enemigo, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nCuando este ataque golpea a un objetivo que no es jefe ni efímero y ese objetivo tiene un 10% o menos de HP máximo restante después del daño, ese objetivo es derrotado inmediatamente (se considera que el usuario ha derrotado al objetivo con un ataque si tiene éxito). Este efecto ignora las habilidades pasivas Venganza, las habilidades pasivas Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impediría que el enemigo fuera derrotado.\n\nUtilizable sólo si el usuario ha almacenado 3 Cargas. Consume todas las Cargas del usuario.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Nota Aguda",
+                "SkillDescription": "500% de daño a 1 enemigo, y luego le aplica el efecto de estado Sueño durante 200TU, incluso si ya estaba dormido en el campo de batalla. Después, el usuario obtiene una Carga. Este ataque ignora a los Guardianes, los efectos de reducción de daño, el efecto de estado Contraofensiva, y los efectos de las habilidades pasivas de Piel. El daño de este ataque no despierta a los enemigos dormidos.\n\nEsta habilidad desbloquea Acorde Roto al usarse y se bloquea después de su uso hasta que el usuario use Acorde Roto o Gran Final. Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Acorde Roto",
+                "SkillDescription": "250% de daño a 2 enemigos, y el usuario obtiene una Carga. Este ataque ignora los efectos de reducción de daño de los enemigos y cualquier efecto de enemigos que no sean jefes que impida que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nSi el Espíritu Aliado es menor que 5, lo aumenta a 5. Si el Espíritu del Enemigo es mayor que 5, lo reduce a 5.\n\nEsta habilidad permanece bloqueada hasta que se desbloquee con Nota Aguda. Se bloquea de nuevo tras cada uso, o si el usuario abandona el campo de batalla.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Canción Inspiración",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla un 1000% del ataque del usuario, los Purifica (elimina efectos de estado negativos como sueño, quemado o veneno) y les otorga Guarda Sueño, Guarda Aturdir, Guarda Veneno, Guarda Quemado y Guarda Ira intensa.\n\nEl usuario obtiene Melodía Recuperar. Si el usuario ya tiene activa la Melodía Recuperar, obtiene aleatoriamente la Melodía Agua, Tormenta, Tierra o Fuego. Mientras esté activa, Melodía Recuperar curará a Chopin un 25% de su HP máximo cada vez que un aliado tenga su turno.\n\nLuego, otorga inmediatamente los siguientes turnos a todos los demás aliados reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta que hayan tenido su turno. Se bloquea durante 50TU después de la entrada del usuario al campo de batalla, y se bloquea de nuevo durante 50TU tras cada uso.\n\nIra Intensa aumenta el Ataque de una unidad a 1,5x durante sus próximos 3 turnos y sobrescribe los efectos de Debilitar o Enfurecer existentes. No puede ser sobrescrita por otros efectos de Enfurecer, pero sí por efectos de Debilitar. Cada Guarda impide que su efecto designado se aplique una vez, tras lo cual se elimina. Los Guardas idénticos no se acumulan.",
+                "TU": 10,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ensueño de Chopin",
+                "SkillDescription": "Cuando esta unidad entra en combate, recibe un Guarda Muerte Instantánea, Guarda Sueño, Guarda Aturdir, Guarda Veneno y Guarda Quemado. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una vez, tras lo cual se elimina. Los Guardas Muerte Instantánea no se pueden ignorar ni acumular.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nCuando esta unidad derrota a cualquier número de enemigos con un ataque mientras está en el campo de batalla, al final del turno se cura al 100% de sus HP máximos y obtiene una de las siguientes melodías al azar:\n- Melodía Agua: Otorga Inmunidad contra Sueño.\n- Melodía Tormenta: Otorga Inmunidad contra Aturdir.\n- Melodía Tierra: Otorga Inmunidad contra Veneno.\n- Melodía Fuego: Otorga Inmunidad contra Quemado.\n\nLas melodías no terminan a menos que Chopin sea derrotada o abandone el campo de batalla. Chopin puede tener varias Melodías activas a la vez, pero no se garantiza que obtenga una que no tenga ya cuando sus habilidades seleccionan aleatoriamente una Melodía."
+            },
+            {
+                "SkillTitle": "Guerra Musical",
+                "SkillDescription": "Si esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad tiene una reducción del 50% en el daño de los ataques.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nAl atacar, añade un 100% al porcentaje de daño de los ataques de esta unidad por cada Melodía única que tenga activa (por ejemplo, Gran Final: 400% => 900% de daño con las 5 Melodías activas).\n\nAl final de cada turno enemigo, esta unidad se purifica (se eliminan los efectos de estado negativos como sueño, quemado o veneno) y sus TU se reducen a 0. Este efecto no se puede activar de nuevo hasta que avancen 50TU."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Luz Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Luz."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Soy Chopin... por si no era obvio.\n¿Ah? ¿Necesitas un favor mío?\nQué deliciosamente inusual.\n\nMuy bien. Me vendría bien una pequeña distracción.\n¡Quizás puedas mantenerme entretenida hasta el día de mi muerte! ♪"
+            ],
+            "Login": [
+                "¡Bueno, ya me has hecho esperar bastante! ¿Empezamos la búsqueda entonces?\nVas a ayudarme a encontrar a alguien que esté metido en un lío tan terrible que no sepa qué hacer consigo mismo."
+            ],
+            "Tap": [
+                "¿No lo sabes? No puedo comer.\n¡Así que más te vale comer estas verduras por mí! Oh, no dejarías que estas pobres verduras se desperdicien, ¿verdad?\n…Espera, ¿te gustan las verduras? ¿Qué te pasa?",
+                "Washington es buena y honesta. Creo que te caerá bien.\n…Pero no le digas que yo dije eso, ¿de acuerdo?",
+                "Si tuviera que elegir entre hacer música y fabricar maquinaria... hmmm... Supongo que no podría renunciar a ninguna de las dos.\nAmbas son parte de lo que me hace ser quien soy. No podría abandonar ninguna de las dos."
+            ],
+            "Idle": [
+                "Mmm-mmm, hmm-hmm-hmm～♪\nUna melodía encantadora... y una idea igual de encantadora para una broma se me acaba de ocurrir...\nAhora bien... ¿con cuál debería empezar primero...? Jeje..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Gran Final": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Nota Aguda": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Acorde Roto": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Canción Inspiración": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

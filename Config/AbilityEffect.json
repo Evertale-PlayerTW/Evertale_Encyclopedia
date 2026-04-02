@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1774329177, 
+	"Time": 1774504471, 
 	"AbilityEffect": {
 		"DamageReaction": {
 			"class": "AbilityEffect",
@@ -17134,7 +17134,16 @@
 			"damagePercents": [1.0],
 			"damageHitReactions": [true],
 			"forceHitReactions": []
-		},				
+		},
+        "RecoveryMelodyStatus": {
+			"class": "AbilityEffect",
+			"delays": [0.0],
+			"prefabs": ["batfx_Chopin/batfx_MelodyRecovery"],
+			"assetBundles": ["BattleEffectsBundle3"],
+			"damagePercents": [1.0],
+			"damageHitReactions": [true],
+			"forceHitReactions": []
+		},			
         "StormMelodyStatus": {
 			"class": "AbilityEffect",
 			"delays": [0.0],

@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1774312848,
+  "Time": 1774481529,
   "AnimationData": {
     "AnimationData": [
       {
@@ -46209,7 +46209,7 @@
         "config": "default",
         "attack": "ChopinAttack1",
         "class": "AnimConfig",
-        "animName": "Attack1",
+        "animName": "Ability1",
         "effectDelay": 0,
         "isMelee": 0,
         "isSpecial": 0,
@@ -46217,7 +46217,7 @@
         "moveDelay": 0,
         "postAttackDelay": 0,
         "moveBackDuration": 0,
-        "altAnimName": "Attack1",
+        "altAnimName": "Ability1",
         "altEffectDelay": 0,
         "altIsMelee": 0,
         "altIsSpecial": 0,
@@ -46304,6 +46304,30 @@
         "backgroundFadeOutDuration": 0.2,
         "fadeMonsterDelay": 0,
         "fadeMonsterDuration": 2.2
+      },
+      {
+        "config": "default",
+        "attack": "AllAttackAChopinRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "ChopinSpecial"
+      },
+      {
+        "config": "default",
+        "attack": "SingleAttackAChopinRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "ChopinAttack1"
+      },
+      {
+        "config": "default",
+        "attack": "DoubleAttackAChopinRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "ChopinStrings1"
+      },
+      {
+        "config": "default",
+        "attack": "LargeBuffAChopinRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "ChopinHeal1"
       },
       {
         "config": "default",

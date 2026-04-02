@@ -129261,7 +129261,7 @@
         "Hp_Base": 7215,
         "Speed": 338,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Boom-tss, boom-tss, chicka-chicka boom!",
         "LeaderSkill": {
             "SkillTitle": "ATT+ HP+ (Luce)",
@@ -129586,5 +129586,377 @@
                 "RelationshipBuff": "PV+3%"
             }
         }
+    },
+    "ChopinRegular01": {
+        "Name": "Chopin",
+        "Name2": "Maestra dei Sogni",
+        "FullName": "Chopin - Maestra dei Sogni",
+        "Profile": "Lei e Washington erano state strette collaboratrici fin dai tempi della scuola. Insieme, hanno affrontato innumerevoli competizioni di robotica, conquistando premi a destra e a manca.\nQuando le definivano \"un duo geniale\", Chopin prendeva in giro Washington per nascondere il proprio imbarazzo— ed essere prontamente rimproverata dall'amica. Per lei, quella era la felicità. Chopin desiderava che quei giorni potessero continuare per sempre.\nEppure, nel profondo del suo cuore, sapeva che la sua malattia stava peggiorando, silenziosa e inarrestabile. Ma anche se la sua mente indugiava sulla sua mortalità incombente, passava il tempo a prendere in giro Washington come al solito.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Life",
+        "Element": "Luce",
+        "Cost": 28,
+        "Atk_Base": 897,
+        "Hp_Base": 6725,
+        "Speed": 457,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Un'utile buona a nulla... o così dicono!",
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Luce)",
+            "SkillDescription": "Nelle unità alleate di tipo Luce gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Gran Finale",
+                "SkillDescription": "400% di danno a tutti i nemici. Questo attacco ignora gli effetti di riduzione del danno nemici, le abilità passive di contatto e l'effetto di stato Opposizione.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta il 10% o meno degli HP massimi dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Nota Acuta",
+                "SkillDescription": "500% di danno a 1 nemico, poi lo addormenta per 200TU, anche se ha già dormito da quando è entrato in campo. Poi, l'unità ottiene una Carica. Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto. Il danno da quest'attacco non sveglia i nemici.\n\nQuesta abilità sblocca Accordo Spezzato dopo l'uso ed è bloccata dopo l'uso finché l'unità non usa Accordo Spezzato o Gran Finale. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Accordo Spezzato",
+                "SkillDescription": "250% di danno a 2 nemici e l'unità ottiene una Carica. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto. Il danno da quest'attacco non sveglia i nemici.\n\nSe gli alleati hanno meno di 5 Spiriti, aumenta gli Spiriti degli alleati a 5. Se i nemici hanno più di 5 Spiriti, riduce gli Spiriti dei nemici a 5.\n\nQuesta abilità è bloccata finché non viene sbloccata da Nota Acuta. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 50,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Fantasia di Chopin",
+                "SkillDescription": "Quando l'unità entra in campo, l'unità ottiene Protezione Morte, Protezione Sonno, Protezione Stordimento, Protezione Veleno e Protezione Ustione. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nQuando l'unità sconfigge un numero qualsiasi di nemici con un attacco da quando è entrata in campo, alla fine del turno l'unità recupera il 100% degli HP massimi e ottiene una Melodia casuale:\n- Melodia dell'Acqua: l'unità è immune a Sonno.\n- Melodia del Vento: l'unità è immune a Stordimento.\n- Melodia della Terra: l'unità è immune a Veleno.\n- Melodia del Fuoco: l'unità è immune a Ustione.\n\nLe Melodie non terminano finché Chopin non viene sconfitta o abbandona il campo. Chopin può avere più Melodie attive per volta, ma potrebbe riottenerne una già posseduta quando le sue abilità selezionano una Melodia casuale."
+            },
+            {
+                "SkillTitle": "Musica Aggressiva",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 50% dagli attacchi ricevuti.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità recupera il 50% degli HP massimi.\n\nQuando attacca, aggiunge il 100% al danno percentuale degli attacchi dell'unità per ogni Melodia unica attiva dell'unità (per esempio: Gran Finale: 400% => 900% con 5 Melodie attive).\n\nAlla fine di ogni turno nemico, l'unità è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno) e azzera i suoi TU. Poi, l'effetto non può riattivarsi fino all'avanzamento di 50TU."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Luce Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Luce."
+            },
+            {
+                "SkillTitle": "Maestria Spada",
+                "SkillDescription": "Può usare le abilità delle Spade oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Sono Chopin... nel caso in cui non fosse ovvio.\nOh? Vuoi chiedermi un favore?\nChe cosa deliziosamente insolita.\n\nMolto bene. Non mi dispiacerebbe un piccolo diversivo.\nForse riuscirai a farmi divertire fino al giorno in cui morirò! ♪"
+            ],
+            "Login": [
+                "Beh, mi hai fatto aspettare abbastanza! Vogliamo iniziare con la nostra ricerca?\nMi aiuterai a trovare qualcuno in guai così terribili che non sanno da che parte girarsi!"
+            ],
+            "Tap": [
+                "Non lo sai? Non posso mangiare cibo.\nQuindi dovrai mangiare tu queste verdure al posto mio! Oh, non lascerai che queste povere verdure vadano sprecate, vero?\n...aspetta, ti piacciono le verdure? Che problemi hai?",
+                "Washington è buona e onesta. Penso che ti piacerà.\n...però non dirle che te l'ho detto, d'accordo?",
+                "Se dovessi scegliere tra il comporre musica e il creare macchine... Mmm... Suppongo che non potrei rinunciare a nessuno dei due.\nEntrambi mi rendono la persona che sono. Non potrei rinunciare a nessuno dei due."
+            ],
+            "Idle": [
+                "Mmm-mmm, mmm-mmm-mmm～ ♪\nMi è appena sovvenuta una deliziosa melodia... e anche un'idea altrettanto deliziosa per uno scherzo...\nDunque... con quale dovrei iniziare...? Eheh…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Gran Finale": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Nota Acuta": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Accordo Spezzato": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ChopinRegular02": {
+        "Name": "Chopin",
+        "Name2": "Maestra dei Sogni",
+        "FullName": "Chopin - Maestra dei Sogni",
+        "Profile": "Dopo la laurea, le due vennero arruolate dall'ODR con il compito di guidare il \"Progetto Testa di Drago\".\nInsieme, riuscirono a perfezionare le basi teoriche per il dispositivo, oltre a quasi completare la costruzione del dispositivo stesso. Ma un ultimo ostacolo si parò sulla loro strada: il dispositivo richiedeva un nucleo computazionale alla pari di un cervello umano. Questa divenne l'unica lampante lacuna nel loro progetto altrimenti perfetto.\n\nIn quel momento, una risposta balenò nella mente di Chopin.\n\n—Ma certo. Sarebbe bastato estrarre il cervello di qualcuno da usare come sostituto.\nE con il poco tempo che le restava a disposizione, era più che disposta a essere lei quel qualcuno.",
+        "Profile_Ascended": "Fu una sua decisione completare il progetto Testa di Drago in cambio della sua vita. Era convinta che fosse la soluzione migliore... e comprendeva, allo stesso tempo, che era anche una sciocchezza. Ma non provò alcun rimpianto. Era una strada che solo una persona con così poco tempo a disposizione poteva scegliere.\n\nChopin si diletta nel prendere in giro e confondere gli altri, nel guardare i loro volti turbati... ma non è cattiva. Non esiterebbe a offrire aiuto a una persona bisognosa e sarebbe disposta a fare qualsiasi cosa per rendere il mondo un posto migliore.\n\nSi è auto-convinta che questa fosse la scelta ottimale. Nondimeno, qualcosa indugiava ancora nel suo cuore. Una speranza infantile che Washington l'avrebbe rimproverata per essere stata così sconsiderata. Questo flebile desiderio fu assorbito nel Testa del Drago insieme alla sua coscienza.\n\nSe potesse ripetere quella fatidica discussione... Forse, questa volta, Washington riuscirebbe a rimproverarla.\n\n...forse.\n\n\n",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Life",
+        "Element": "Luce",
+        "Cost": 34,
+        "Atk_Base": 1123,
+        "Hp_Base": 8805,
+        "Speed": 457,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Luce)",
+            "SkillDescription": "Nelle unità alleate di tipo Luce gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Gran Finale",
+                "SkillDescription": "400% di danno a tutti i nemici. Questo attacco ignora gli effetti di riduzione del danno nemici, le abilità passive di contatto e l'effetto di stato Opposizione.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta il 10% o meno degli HP massimi dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Nota Acuta",
+                "SkillDescription": "500% di danno a 1 nemico, poi lo addormenta per 200TU, anche se ha già dormito da quando è entrato in campo. Poi, l'unità ottiene una Carica. Questo attacco ignora i Guardiani, gli effetti di riduzione del danno, l'effetto di stato Opposizione e le abilità passive di contatto. Il danno da quest'attacco non sveglia i nemici.\n\nQuesta abilità sblocca Accordo Spezzato dopo l'uso ed è bloccata dopo l'uso finché l'unità non usa Accordo Spezzato o Gran Finale. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Accordo Spezzato",
+                "SkillDescription": "250% di danno a 2 nemici e l'unità ottiene una Carica. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto. Il danno da quest'attacco non sveglia i nemici.\n\nSe gli alleati hanno meno di 5 Spiriti, aumenta gli Spiriti degli alleati a 5. Se i nemici hanno più di 5 Spiriti, riduce gli Spiriti dei nemici a 5.\n\nQuesta abilità è bloccata finché non viene sbloccata da Nota Acuta. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Canto Ispiratore",
+                "SkillDescription": "Cura tutti gli alleati per un valore di HP pari al 1000% dell'attacco dell'unità, li purifica (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno) e fornisce loro Protezione Sonno, Protezione Stordimento, Protezione Veleno, Protezione Ustione e Furia Intensa.\n\nL'unità ottiene Melodia di Recupero. Se l'unità ha già Melodia di Recupero attiva, ottiene casualmente Melodia dell'Acqua, del Vento, della Terra o del Fuoco invece. Mentre è attivo, Melodia di Recupero cura Chopin del 25% degli HP massimi ogni volta che un alleato ottiene il turno.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno. Bloccata per 50TU da quando questa unità entra in campo, ed è bloccata per 50TU dopo ogni uso.\n\nFuria Intensa aumenta l'attacco di un'unità a 1,5x per i prossimi 3 turni e sostituisce altri effetti di Debolezza o Provocazione. Non può essere sostituito da effetti di Provocazione, ma può esserlo da effetti di Debolezza. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "TU": 10,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Fantasia di Chopin",
+                "SkillDescription": "Quando l'unità entra in campo, l'unità ottiene Protezione Morte, Protezione Sonno, Protezione Stordimento, Protezione Veleno e Protezione Ustione. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.\n\nL'unità non può essere mandata tra i rinforzi dal campo.\n\nQuando l'unità sconfigge un numero qualsiasi di nemici con un attacco da quando è entrata in campo, alla fine del turno l'unità recupera il 100% degli HP massimi e ottiene una Melodia casuale:\n- Melodia dell'Acqua: l'unità è immune a Sonno.\n- Melodia del Vento: l'unità è immune a Stordimento.\n- Melodia della Terra: l'unità è immune a Veleno.\n- Melodia del Fuoco: l'unità è immune a Ustione.\n\nLe Melodie non terminano finché Chopin non viene sconfitta o abbandona il campo. Chopin può avere più Melodie attive per volta, ma potrebbe riottenerne una già posseduta quando le sue abilità selezionano una Melodia casuale."
+            },
+            {
+                "SkillTitle": "Musica Aggressiva",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 50% dagli attacchi ricevuti.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità recupera il 50% degli HP massimi.\n\nQuando attacca, aggiunge il 100% al danno percentuale degli attacchi dell'unità per ogni Melodia unica attiva dell'unità (per esempio: Gran Finale: 400% => 900% con 5 Melodie attive).\n\nAlla fine di ogni turno nemico, l'unità è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno) e azzera i suoi TU. Poi, l'effetto non può riattivarsi fino all'avanzamento di 50TU."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Luce Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Luce."
+            },
+            {
+                "SkillTitle": "Maestria Spada",
+                "SkillDescription": "Può usare le abilità delle Spade oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Sono Chopin... nel caso in cui non fosse ovvio.\nOh? Vuoi chiedermi un favore?\nChe cosa deliziosamente insolita.\n\nMolto bene. Non mi dispiacerebbe un piccolo diversivo.\nForse riuscirai a farmi divertire fino al giorno in cui morirò! ♪"
+            ],
+            "Login": [
+                "Beh, mi hai fatto aspettare abbastanza! Vogliamo iniziare con la nostra ricerca?\nMi aiuterai a trovare qualcuno in guai così terribili che non sanno da che parte girarsi!"
+            ],
+            "Tap": [
+                "Non lo sai? Non posso mangiare cibo.\nQuindi dovrai mangiare tu queste verdure al posto mio! Oh, non lascerai che queste povere verdure vadano sprecate, vero?\n...aspetta, ti piacciono le verdure? Che problemi hai?",
+                "Washington è buona e onesta. Penso che ti piacerà.\n...però non dirle che te l'ho detto, d'accordo?",
+                "Se dovessi scegliere tra il comporre musica e il creare macchine... Mmm... Suppongo che non potrei rinunciare a nessuno dei due.\nEntrambi mi rendono la persona che sono. Non potrei rinunciare a nessuno dei due."
+            ],
+            "Idle": [
+                "Mmm-mmm, mmm-mmm-mmm～ ♪\nMi è appena sovvenuta una deliziosa melodia... e anche un'idea altrettanto deliziosa per uno scherzo...\nDunque... con quale dovrei iniziare...? Eheh…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsCharged3": 1.1,
+                "TimeInCombat100": 1.1,
+                "ChopinHearsAll5Melodies": 1.2
+            },
+            "SkillUse": {
+                "Gran Finale": {
+                    "BaseWeight": 25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Nota Acuta": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Accordo Spezzato": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.85,
+                        "AllEnemiesAlwaysDodging": 0.5,
+                        "AllEnemiesNotProtectingDodging": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5
+                    }
+                },
+                "Canto Ispiratore": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }
