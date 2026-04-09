@@ -11590,6 +11590,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -11953,6 +11964,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -20239,6 +20261,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -20613,6 +20646,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -25019,6 +25063,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -25244,6 +25299,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -129276,7 +129342,7 @@
             },
             {
                 "SkillTitle": "Ritmo Espiritual",
-                "SkillDescription": "Los aliados obtienen 1 Espíritu por cada aliado en el campo de batalla. Esta habilidad desbloquea Coro Inutilizante al usarse.\n\nLuego, si el Espíritu del aliado es:\n- Al menos 1, todos los aliados en el campo de batalla son Purificados (se eliminan los efectos de estado negativos como sueño, quemado o veneno) al final del turno.\n\n- Al menos 5, otro aliado aleatorio también recibe el siguiente turno reduciendo su TU actual a 0 al final del turno. Las habilidades activas que otorgan turnos no se pueden usar en turnos dados por esta habilidad.\n- Está en 10, también agrega 500% al % de daño del siguiente ataque de este usuario (por ejemplo, Coro Inutilizante: 300% => 800% de daño cuando Escenario Central no se ha usado 3 veces).\n\nEsta habilidad está bloqueada hasta que se desbloquee con Voz Prismática. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "SkillDescription": "Los aliados obtienen 1 Espíritu por cada aliado en el campo de batalla. Esta habilidad desbloquea Coro Inutilizante al usarse.\n\nLuego, si el Espíritu del aliado es:\n- Al menos 1, todos los aliados en el campo de batalla son Purificados (se eliminan los efectos de estado negativos como sueño, quemado o veneno) al final del turno.\n\n- Al menos 5, otro aliado aleatorio también recibe el siguiente turno reduciendo su TU actual a 0 al final del turno. Las habilidades activas que otorgan turnos no se pueden usar en turnos dados por esta habilidad.\n- Cuando está en 10, también agrega 500% al % de daño del siguiente ataque de este usuario (por ejemplo, Coro Inutilizante: 300% => 800% de daño cuando Escenario Central no se ha usado 3 veces).\n\nEsta habilidad está bloqueada hasta que se desbloquee con Voz Prismática. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
                 "TU": 25,
                 "Spirit": "+0"
             },
@@ -129445,7 +129511,7 @@
             },
             {
                 "SkillTitle": "Ritmo Espiritual",
-                "SkillDescription": "Los aliados obtienen 1 Espíritu por cada aliado en el campo de batalla. Esta habilidad desbloquea Coro Inutilizante al usarse.\n\nLuego, si el Espíritu del aliado es:\n- Al menos 1, todos los aliados en el campo de batalla son Purificados (se eliminan los efectos de estado negativos como sueño, quemado o veneno) al final del turno.\n\n- Al menos 5, otro aliado aleatorio también recibe el siguiente turno reduciendo su TU actual a 0 al final del turno. Las habilidades activas que otorgan turnos no se pueden usar en turnos dados por esta habilidad.\n- Está en 10, también agrega 500% al % de daño del siguiente ataque de este usuario (por ejemplo, Coro Inutilizante: 300% => 800% de daño cuando Escenario Central no se ha usado 3 veces).\n\nEsta habilidad está bloqueada hasta que se desbloquee con Voz Prismática. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "SkillDescription": "Los aliados obtienen 1 Espíritu por cada aliado en el campo de batalla. Esta habilidad desbloquea Coro Inutilizante al usarse.\n\nLuego, si el Espíritu del aliado es:\n- Al menos 1, todos los aliados en el campo de batalla son Purificados (se eliminan los efectos de estado negativos como sueño, quemado o veneno) al final del turno.\n\n- Al menos 5, otro aliado aleatorio también recibe el siguiente turno reduciendo su TU actual a 0 al final del turno. Las habilidades activas que otorgan turnos no se pueden usar en turnos dados por esta habilidad.\n- Cuando está en 10, también agrega 500% al % de daño del siguiente ataque de este usuario (por ejemplo, Coro Inutilizante: 300% => 800% de daño cuando Escenario Central no se ha usado 3 veces).\n\nEsta habilidad está bloqueada hasta que se desbloquee con Voz Prismática. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
                 "TU": 25,
                 "Spirit": "+0"
             },
@@ -129604,7 +129670,7 @@
         "Hp_Base": 6725,
         "Speed": 457,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¡Una buena para nada servicial... o eso dicen!",
         "LeaderSkill": {
             "SkillTitle": "Sube HP Luz",
@@ -129765,6 +129831,19 @@
                         "IsProtectingAndNotAlone": 0.5
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -129957,6 +130036,405 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "WashingtonRegular01": {
+        "Name": "Washington",
+        "Name2": "¡Siempre la número uno!",
+        "FullName": "Washington - ¡Siempre la número uno!",
+        "Profile": "Washington era una chica normal y corriente con notas mediocres, de esas que se pueden encontrar en cualquier lugar. Entonces conoció a Chopin, una genio deslumbrante, casi cegador.\n\nCuriosamente, conectaron. Y por alguna razón, sólo ella podía comprender las ideas extravagantes de Chopin. Sin darse cuenta, se habían vuelto inseparables.\n\nNunca dudó de que permanecería al lado de Chopin para siempre.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 28,
+        "Atk_Base": 776,
+        "Hp_Base": 7330,
+        "Speed": 620,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡¿Alguien llamó a esta científica genio?!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Disparo Compuesto",
+                "SkillDescription": "100% de daño a 1 enemigo, más 100% por cada enemigo dormido o con quemado escarcha (máximo de 500% de daño total). El usuario obtiene una Carga Poder. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nLas Cargas Poder no se acumulan y se eliminan cuando el usuario abandona el campo de batalla.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Estrellas Victoria",
+                "SkillDescription": "Debilita a todos los enemigos. Enfurece y cura a todos los aliados en el campo de batalla un 1000% del ataque del usuario.\n\nLuego, otorga inmediatamente los siguientes turnos a todos los demás aliados que estén en llamas o sean del elemento Agua, reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta que hayan tenido su turno.\n\nSe desbloquea cada vez que un enemigo no invocado en el campo de batalla es derrotado o sacrificado por cualquier causa. Esta habilidad se bloquea nuevamente después de cada uso o si el usuario abandona el campo de batalla.\n\nLas unidades enfurecidas ven su Ataque aumentado a 1.5x hasta el final de su siguiente turno. Las unidades debilitadas ven su Ataque reducido a 0.75x hasta el final de su siguiente turno. Estos efectos sobrescribirán cualquier efecto de Debilitar o Enfurecer existente en las unidades afectadas. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser anulado por efectos de Enfurecer.",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Tormenta Misiles",
+                "SkillDescription": "Consume una Carga Poder para infligir un 600% de daño a todos los enemigos. Este ataque ignora los efectos de reducción de daño enemigos, las habilidades pasivas de Piel y el efecto de estado Contraofensiva. Cada enemigo alcanzado recibe aleatoriamente el efecto de estado Sueño Profundo durante 100TU (incluso si ya estaba dormido en el campo de batalla) o Quemado Escarcha. Sólo se puede usar si el usuario tiene una Carga Poder.\n\nSueño Profundo anula otros efectos de estado, no puede ser anulado por Quemado ni Sueño, y no puede ser Purificado. Cuando una unidad tiene Quemado Escarcha y le toca el turno, lo pierde como si estuviera durmiendo, luego se elimina Quemado Escarcha y se le otorga el efecto de estado Quemadura. Quemado Escarcha no es un efecto de estado, pero los efectos que eliminan efectos de estado negativos también la eliminan. Quemado Escarcha termina si la unidad afectada es derrotada o abandona el campo de batalla. Quemado Escarcha no se aplica a las unidades jefe y no se acumula. Quemado anula otros efectos de estado. Cualquier unidad que inflija daño a una unidad con Quemado o que reciba daño de ella también se quemará.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Libertad Firme",
+                "SkillDescription": "Esta unidad entra en combate con un Guarda Muerte Instantánea. Este Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una sola vez, tras lo cual se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular.\n\nTras el primer turno de esta unidad en el campo de batalla, todos los aliados en el campo de batalla se Purifican (se eliminan todos los efectos de estado negativos como sueño, quemado o veneno) y se curan al 100% de sus HP máximos. Luego hay una probabilidad del 20%, más una probabilidad del 20% por cada Despertar (hasta un 100% si esta unidad tiene 4 Despertares) de que esta unidad otorgue Quemado Escarcha a todos los enemigos en el campo de batalla.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad será Purificada y se curará un 25% de sus HP máximos.\n\nCuando esta unidad entra en combate, todos los aliados reciben Barrera Naval por 200TU. Una unidad con Barrera Naval obtendrá un 35% de reducción de daño en los ataques. Este efecto se puede acumular con otros efectos de reducción de daño, como Armadura, pero no se acumula con sí mismo ni con las habilidades de tipo Barrera de otros aliados.\n\nMientras esta unidad tenga Barrera Naval, sobrevivirá a cualquier daño que la derrotaría con 1 HP."
+            },
+            {
+                "SkillTitle": "Genio Espiritual",
+                "SkillDescription": "Los ataques de esta unidad no despiertan a los enemigos dormidos.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla. Esta unidad no puede ser derrotada por el daño de los efectos de estado de Quemado.\n\nAl final de cada turno enemigo, si el Espíritu Aliado es menor a 8, los Aliados ganan 1 Espíritu.\n\nSiempre que esta unidad dañe a cualquier número de unidades con un ataque, el Espíritu Aliado se duplica al final del turno; si el Espíritu Aliado es 0, gana 1 de Espíritu en su lugar.\n\nSiempre que el Espíritu Aliado sea 8 o más al final de cualquier turno, esta unidad se purificará (se eliminarán los efectos de estado negativos como sueño, quemadura o veneno) y sus TU se reducirán a 0. Este efecto no se puede activar de nuevo hasta que avancen 50TU."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Fuego Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Fuego."
+            },
+            {
+                "SkillTitle": "Dominio Lanza",
+                "SkillDescription": "Puede usar habilidades de arma de Lanzas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Lanza"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Un momento... bueno, esto va aquí, y aquello se conecta así...\n¡Ya está! ¡Problema resuelto! Cuando se trata de esta científica genio,\n¡no hay problema que no pueda solucionar!\n\n¿Ah? ¿Te hice esperar, verdad? ¡Soy Washington! ¡Científica genio y cerebro de la Organización del Dragón Rojo!\n¡No hay nada que \"no pueda\" hacer!"
+            ],
+            "Login": [
+                "El comandante Luther ya me lo contó todo. ¡A movernos, y rápido! ¡Je! Pase lo que pase, estaremos bien: yo, la genio Washington, estoy contigo."
+            ],
+            "Tap": [
+                "¡Ah, ahí estás! No te dejaré escapar porque aún tenemos cuentas pendientes.\n¡Ahora, acéptalo! ¡No irás a ningún lado hasta que gane!",
+                "Aprender a tocar el piano es más difícil de lo que pensaba... ¡pero lo voy a dominar, pase lo que pase!\n¡Y algún día, incluso superaré a la mismísima Chopin!",
+                "¿Todas esas nuevas teorías que están causando furor en las revistas científicas? ¡Ah, yo construí el marco teórico fundamental para cada una de ellas!\nMe aburrí cuando pasaron a la fase de aplicación. Ya estoy investigando la próxima frontera."
+            ],
+            "Idle": [
+                "¿Mmm? Justo ahora... Creo que oí a alguien decir \"no se puede\" por allá a lo lejos...\n¡Uf, me pone tan nerviosa... ¡Simplemente no soporto escucharlas cuando las oigo!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "Disparo Compuesto": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "Estrellas Victoria": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "Tormenta Misiles": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "WashingtonRegular02": {
+        "Name": "Washington",
+        "Name2": "¡Siempre la número uno!",
+        "FullName": "Washington - ¡Siempre la número uno!",
+        "Profile": "A medida que crecían, la brillantez de Chopin comenzó a florecer a un ritmo asombroso.\nMientras ella hablaba alegremente de teorías científicas cada vez más complejas, Washington sentía cada vez más distancia entre ellas.\nSolía entender a Chopin. Creía ser la única que realmente podía. Pero la realidad de que ella —la chica común que era— se estaba quedando cada vez más atrás, la asustaba...",
+        "Profile_Ascended": "La idea de no poder estar al lado de Chopin era insoportable. Así que Washington tomó una decisión: ella también se convertiría en un genio.\n\nSi le faltaba talento, lo compensaría con esfuerzo. Para permanecer al lado de Chopin, estudió más que nadie, pensó con más ahínco que nadie y nunca dejó de desafiarse a sí misma. Al final, esa extraordinaria determinación le permitió a Washington estar al nivel de Chopin. Fue una lucha que eligió voluntariamente, para que ambas pudieran permanecer siempre juntos.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 34,
+        "Atk_Base": 1447,
+        "Hp_Base": 7185,
+        "Speed": 620,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Disparo Compuesto",
+                "SkillDescription": "100% de daño a 1 enemigo, más 100% por cada enemigo dormido o con quemado escarcha (máximo de 500% de daño total). El usuario obtiene una Carga Poder. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo.\n\nLas Cargas Poder no se acumulan y se eliminan cuando el usuario abandona el campo de batalla.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Estrellas Victoria",
+                "SkillDescription": "Debilita a todos los enemigos. Enfurece y cura a todos los aliados en el campo de batalla un 1000% del ataque del usuario.\n\nLuego, otorga inmediatamente los siguientes turnos a todos los demás aliados que estén en llamas o sean del elemento Agua, reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta que hayan tenido su turno.\n\nSe desbloquea cada vez que un enemigo no invocado en el campo de batalla es derrotado o sacrificado por cualquier causa. Esta habilidad se bloquea nuevamente después de cada uso o si el usuario abandona el campo de batalla.\n\nLas unidades enfurecidas ven su Ataque aumentado a 1.5x hasta el final de su siguiente turno. Las unidades debilitadas ven su Ataque reducido a 0.75x hasta el final de su siguiente turno. Estos efectos sobrescribirán cualquier efecto de Debilitar o Enfurecer existente en las unidades afectadas. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser anulado por efectos de Enfurecer.",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Tormenta Misiles",
+                "SkillDescription": "Consume una Carga Poder para infligir un 600% de daño a todos los enemigos. Este ataque ignora los efectos de reducción de daño enemigos, las habilidades pasivas de Piel y el efecto de estado Contraofensiva. Cada enemigo alcanzado recibe aleatoriamente el efecto de estado Sueño Profundo durante 100TU (incluso si ya estaba dormido en el campo de batalla) o Quemado Escarcha. Sólo se puede usar si el usuario tiene una Carga Poder.\n\nSueño Profundo anula otros efectos de estado, no puede ser anulado por Quemado ni Sueño, y no puede ser Purificado. Cuando una unidad tiene Quemado Escarcha y le toca el turno, lo pierde como si estuviera durmiendo, luego se elimina Quemado Escarcha y se le otorga el efecto de estado Quemadura. Quemado Escarcha no es un efecto de estado, pero los efectos que eliminan efectos de estado negativos también la eliminan. Quemado Escarcha termina si la unidad afectada es derrotada o abandona el campo de batalla. Quemado Escarcha no se aplica a las unidades jefe y no se acumula. Quemado anula otros efectos de estado. Cualquier unidad que inflija daño a una unidad con Quemado o que reciba daño de ella también se quemará.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Exceso Táctico",
+                "SkillDescription": "1000% de daño a 2 enemigos. El usuario otorga Quemado Escarcha al siguiente enemigo que entre al campo de batalla. Este ataque ignora los efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida la derrota del objetivo, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nSe desbloquea cada vez que el usuario derrota a un enemigo no invocado con un ataque. Esta habilidad se bloquea nuevamente después de cada uso, a menos que derrote a un enemigo. Se puede usar dos veces por batalla.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Libertad Firme",
+                "SkillDescription": "Esta unidad entra en combate con un Guarda Muerte Instantánea. Este Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una sola vez, tras lo cual se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular.\n\nTras el primer turno de esta unidad en el campo de batalla, todos los aliados en el campo de batalla se Purifican (se eliminan todos los efectos de estado negativos como sueño, quemado o veneno) y se curan al 100% de sus HP máximos. Luego hay una probabilidad del 20%, más una probabilidad del 20% por cada Despertar (hasta un 100% si esta unidad tiene 4 Despertares) de que esta unidad otorgue Quemado Escarcha a todos los enemigos en el campo de batalla.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad será Purificada y se curará un 25% de sus HP máximos.\n\nCuando esta unidad entra en combate, todos los aliados reciben Barrera Naval por 200TU. Una unidad con Barrera Naval obtendrá un 35% de reducción de daño en los ataques. Este efecto se puede acumular con otros efectos de reducción de daño, como Armadura, pero no se acumula con sí mismo ni con las habilidades de tipo Barrera de otros aliados.\n\nMientras esta unidad tenga Barrera Naval, sobrevivirá a cualquier daño que la derrotaría con 1 HP."
+            },
+            {
+                "SkillTitle": "Genio Espiritual",
+                "SkillDescription": "Los ataques de esta unidad no despiertan a los enemigos dormidos.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla. Esta unidad no puede ser derrotada por el daño de los efectos de estado de Quemado.\n\nAl final de cada turno enemigo, si el Espíritu Aliado es menor a 8, los Aliados ganan 1 Espíritu.\n\nSiempre que esta unidad dañe a cualquier número de unidades con un ataque, el Espíritu Aliado se duplica al final del turno; si el Espíritu Aliado es 0, gana 1 de Espíritu en su lugar.\n\nSiempre que el Espíritu Aliado sea 8 o más al final de cualquier turno, esta unidad se purificará (se eliminarán los efectos de estado negativos como sueño, quemadura o veneno) y sus TU se reducirán a 0. Este efecto no se puede activar de nuevo hasta que avancen 50TU."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Fuego Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Fuego."
+            },
+            {
+                "SkillTitle": "Dominio Lanza",
+                "SkillDescription": "Puede usar habilidades de arma de Lanzas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Lanza"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Un momento... bueno, esto va aquí, y aquello se conecta así...\n¡Ya está! ¡Problema resuelto! Cuando se trata de esta científica genio,\n¡no hay problema que no pueda solucionar!\n\n¿Ah? ¿Te hice esperar, verdad? ¡Soy Washington! ¡Científica genio y cerebro de la Organización del Dragón Rojo!\n¡No hay nada que \"no pueda\" hacer!"
+            ],
+            "Login": [
+                "El comandante Luther ya me lo contó todo. ¡A movernos, y rápido! ¡Je! Pase lo que pase, estaremos bien: yo, la genio Washington, estoy contigo."
+            ],
+            "Tap": [
+                "¡Ah, ahí estás! No te dejaré escapar porque aún tenemos cuentas pendientes.\n¡Ahora, acéptalo! ¡No irás a ningún lado hasta que gane!",
+                "Aprender a tocar el piano es más difícil de lo que pensaba... ¡pero lo voy a dominar, pase lo que pase!\n¡Y algún día, incluso superaré a la mismísima Chopin!",
+                "¿Todas esas nuevas teorías que están causando furor en las revistas científicas? ¡Ah, yo construí el marco teórico fundamental para cada una de ellas!\nMe aburrí cuando pasaron a la fase de aplicación. Ya estoy investigando la próxima frontera."
+            ],
+            "Idle": [
+                "¿Mmm? Justo ahora... Creo que oí a alguien decir \"no se puede\" por allá a lo lejos...\n¡Uf, me pone tan nerviosa... ¡Simplemente no soporto escucharlas cuando las oigo!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "Disparo Compuesto": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "Estrellas Victoria": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "Tormenta Misiles": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                },
+                "Exceso Táctico": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Mentes Grandiosas",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

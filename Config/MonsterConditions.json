@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1774504999,
+    "Time": 1774512317,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29672,6 +29672,40 @@
 					}
 				}
 			}
+		}
+	},
+	"AtLeast2UnitsFrostburnedInBattle": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsFrostbitten": 2
+		},
+		"or": {
+			"class": "MonsterConditions",
+			"checkEnemyTeamOfMonster": true,
+			"enemyTeamMonsterConditionMatchesNeeded": {
+				"IsFrostbitten": 2
+			},
+			"or": {
+				"class": "MonsterConditions",
+				"myTeamMonsterConditionMatchesNeeded": {
+					"IsFrostbitten": 1
+				},
+				"and": {
+					"class": "MonsterConditions",
+					"checkEnemyTeamOfMonster": true,
+					"enemyTeamMonsterConditionMatchesNeeded": {
+						"IsFrostbitten": 1
+					}
+				}
+			}
+		}
+	},
+	"IsBurningOrWater": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Burn"],
+		"or":{
+			"class": "MonsterConditions",
+			"elements": ["Water"]
 		}
 	}
 }

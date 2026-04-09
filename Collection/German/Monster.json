@@ -11590,6 +11590,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -11953,6 +11964,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -20239,6 +20261,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -20613,6 +20646,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -25019,6 +25063,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -25244,6 +25299,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
                 ],
                 "RelationshipBuff": "ANG+2%"
             }
@@ -129270,25 +129336,25 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Prismasstimme",
-                "SkillDescription": "Zielt auf 1 Gegner. Diese Fertigkeit verursacht nach dem Zufallsprinzip entweder 300%, 600% oder 900% Schaden. Dieser Angriff ignoriert die Schadensreduzierungseffekte des Gegners. Diese Fertigkeit schaltet bei ihrer Anwendung Temperament-BEat frei.\n\nWenn dieser Angriff einen:\n- brennenden Gegner schädigt, erhalten alle Gegner, die nicht aus dem Feuerelement stammen und keine aktive Fertigkeit vom Typ Flammenmeer oder Flammen-Explosion besitzen, am Ende des Zuges den Statuseffekt Brand. \n- schlafende Gegner, alle nicht vergifteten Gegner erhalten am Ende des Zuges den Statuseffekt Schlaf für 100 ZE, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren.\n- vergiftete Gegner, alle nicht schlafenden Gegner erhalten am Ende des Zuges den Statuseffekt Mega-Gift für 200 ZE.\n\nBrand, Schlaf und Mega-Gift überschreiben andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden.",
+                "SkillDescription": "Zielt auf 1 Gegner. Diese Fertigkeit verursacht nach dem Zufallsprinzip entweder 300%, 600% oder 900% Schaden. Dieser Angriff ignoriert die Schadensreduzierungseffekte des Gegners. Diese Fertigkeit schaltet bei ihrer Anwendung Temperament-Beat frei.\n\nWenn dieser Angriff einen:\n- brennenden Gegner schädigt, erhalten alle Gegner, die nicht dem Feuerelement entstammen und keine aktive Fertigkeit vom Typ Flammenmeer oder Flammen-Explosion besitzen, am Ende des Zuges den Statuseffekt Brennen. \n- schlafenden Gegner schädigt, alle nicht vergifteten Gegner erhalten am Ende des Zuges den Statuseffekt Schlaf für 100 ZE, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren.\n- vergifteten Gegner schädigt, alle nicht schlafenden Gegner erhalten am Ende des Zuges den Statuseffekt Mega-Gift für 200 ZE.\n\nBrennen, Schlaf und Mega-Gift überschreiben andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillTitle": "Temperament-Beat",
-                "SkillDescription": "Verbündete erhalten 1 Geist für jeden Verbündeten auf dem Schlachtfeld. Diese Fertigkeit schaltet beim Einsatz Chorus deaktivieren frei.\n\nWenn der Geist des Verbündeten:\n- Mindestens 1, werden alle Verbündeten auf dem Schlachtfeld am Ende der Runde gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt).\n\n- Mindestens 5, ein anderer zufälliger Verbündeter erhält den nächsten Zug, indem seine aktuellen ZE am Ende der Runde auf 0 reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können nicht bei Zügen verwendet werden. die durch diese Fertigkeit erlangt wurden.\n- Mindestens 10, und fügt 500% zum Schadensprozentsatz des nächsten Angriffs dieses Benutzers hinzu (z.B. Stopp-Chorus: 300% => 800% Schaden, wenn Center Stage nicht 3 Mal benutzt wurde).\n\nDiese Fertigkeit ist gesperrt, bis sie durch Prismatic Voice freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "SkillDescription": "Verbündete erhalten 1 Geist für jeden Verbündeten auf dem Schlachtfeld. Diese Fertigkeit schaltet beim Einsatz Stoppchorus frei.\n\nWenn der Geist des Verbündeten:\n- Mindestens 1 beträgt, werden alle Verbündeten auf dem Schlachtfeld am Ende der Runde gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt).\n\n- Mindestens 5 beträgt, ein anderer zufälliger Verbündeter erhält den nächsten Zug, indem seine aktuellen ZE am Ende der Runde auf 0 reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können nicht bei Zügen verwendet werden, die durch diese Fertigkeit erlangt wurden.\n-10 beträgt, fügt 500% zum Schadensprozentsatz des nächsten Angriffs dieses Benutzers hinzu (z.B. Stopp-Chorus: 300% => 800% Schaden, wenn Center Stage nicht 3 Mal benutzt wurde).\n\nDiese Fertigkeit ist gesperrt, bis sie durch Prismatic Voice freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
                 "TU": 25,
                 "Spirit": "+0"
             },
             {
-                "SkillTitle": "Stoppchorus",
-                "SkillDescription": "300% Schaden an allen Gegnern. 500% Schaden stattdessen, wenn der Benutzer 3 Mal Center Stage in diesem Kampf benutzt hat. Dieser Angriff ignoriert Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, passive Fertigkeiten der Haut und den Statuseffekt Konterstellung.\n\nAlle getroffenen Gegner haben ihre aktiven Fertigkeiten für 10 ZE deaktiviert. Wenn die Aktiven Fertigkeiten einer Einheit deaktiviert sind und sie die Runde bekommt, verliert sie die Runde, als ob sie schlafen würde. Dieser Effekt kann sich nicht auf Boss-Einheiten auswirken, kann nicht geläutert werden und endet, wenn der Benutzer besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis sie durch Geistschlag freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "SkillTitle": "Stopp-Chorus",
+                "SkillDescription": "300% Schaden an allen Gegnern. 500% Schaden stattdessen, wenn der Benutzer 3 Mal Center Stage in diesem Kampf benutzt hat. Dieser Angriff ignoriert Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, passive Fertigkeiten der Haut und den Statuseffekt Konterstellung.\n\nAlle getroffenen Gegner haben ihre aktiven Fertigkeiten für 10 ZE deaktiviert. Wenn die Aktiven Fertigkeiten einer Einheit deaktiviert sind und sie die Runde bekommt, verliert sie die Runde, als ob sie schlafen würde. Dieser Effekt kann sich nicht auf Boss-Einheiten auswirken, kann nicht geläutert werden und endet, wenn der Benutzer besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis sie durch Temperament-Beat freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
                 "TU": 75,
                 "Spirit": "-2"
             },
             {
                 "SkillTitle": "Center Stage",
-                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 1000% des Angriffs des Benutzers und stärkt sie.\n\nNur anwendbar, wenn der Benutzer nicht allein ist und 1 oder mehr Verbündete auf dem Schlachtfeld nicht gestärkt sind. Kann 3 Mal pro Schlacht eingesetzt werden.\n\nEine verstärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht durch Angriffe ignoriert werden, die nicht ausdrücklich die Verstärkung ignorieren. Die Verstärkung wird entfernt, nachdem der Schaden 3 Mal seit ihrer Anwendung reduziert wurde, und wird zurückgesetzt, wenn sie erneut angewendet wird. Es handelt sich nicht um einen Statuseffekt.",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 1000% des Angriffs des Benutzers und verstärkt sie.\n\nNur anwendbar, wenn der Benutzer nicht allein ist und 1 oder mehr Verbündete auf dem Schlachtfeld nicht verstärkt sind. Kann 3 Mal pro Schlacht eingesetzt werden.\n\nEine verstärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht durch Angriffe ignoriert werden, die nicht ausdrücklich die Verstärkung ignorieren. Die Verstärkung wird entfernt, nachdem der Schaden 3 Mal seit ihrer Anwendung reduziert wurde, und wird zurückgesetzt, wenn sie erneut angewendet wird. Es handelt sich nicht um einen Statuseffekt.",
                 "TU": 100,
                 "Spirit": "-2"
             }
@@ -129379,7 +129445,7 @@
                 "Temperament-Beat": {
                     "BaseWeight": 500
                 },
-                "Stoppchorus": {
+                "Stopp-Chorus": {
                     "BaseWeight": 3,
                     "Ignore": [
                         "IsSleeping"
@@ -129439,25 +129505,25 @@
         "ActiveSkill": [
             {
                 "SkillTitle": "Prismasstimme",
-                "SkillDescription": "Zielt auf 1 Gegner. Diese Fertigkeit verursacht nach dem Zufallsprinzip entweder 300%, 600% oder 900% Schaden. Dieser Angriff ignoriert die Schadensreduzierungseffekte des Gegners. Diese Fertigkeit schaltet bei ihrer Anwendung Temperament-BEat frei.\n\nWenn dieser Angriff einen:\n- brennenden Gegner schädigt, erhalten alle Gegner, die nicht aus dem Feuerelement stammen und keine aktive Fertigkeit vom Typ Flammenmeer oder Flammen-Explosion besitzen, am Ende des Zuges den Statuseffekt Brand. \n- schlafende Gegner, alle nicht vergifteten Gegner erhalten am Ende des Zuges den Statuseffekt Schlaf für 100 ZE, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren.\n- vergiftete Gegner, alle nicht schlafenden Gegner erhalten am Ende des Zuges den Statuseffekt Mega-Gift für 200 ZE.\n\nBrand, Schlaf und Mega-Gift überschreiben andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden.",
+                "SkillDescription": "Zielt auf 1 Gegner. Diese Fertigkeit verursacht nach dem Zufallsprinzip entweder 300%, 600% oder 900% Schaden. Dieser Angriff ignoriert die Schadensreduzierungseffekte des Gegners. Diese Fertigkeit schaltet bei ihrer Anwendung Temperament-Beat frei.\n\nWenn dieser Angriff einen:\n- brennenden Gegner schädigt, erhalten alle Gegner, die nicht dem Feuerelement entstammen und keine aktive Fertigkeit vom Typ Flammenmeer oder Flammen-Explosion besitzen, am Ende des Zuges den Statuseffekt Brennen. \n- schlafenden Gegner schädigt, alle nicht vergifteten Gegner erhalten am Ende des Zuges den Statuseffekt Schlaf für 100 ZE, auch wenn sie bereits geschlafen haben, während sie auf dem Schlachtfeld waren.\n- vergifteten Gegner schädigt, alle nicht schlafenden Gegner erhalten am Ende des Zuges den Statuseffekt Mega-Gift für 200 ZE.\n\nBrennen, Schlaf und Mega-Gift überschreiben andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillTitle": "Temperament-Beat",
-                "SkillDescription": "Verbündete erhalten 1 Geist für jeden Verbündeten auf dem Schlachtfeld. Diese Fertigkeit schaltet beim Einsatz Chorus deaktivieren frei.\n\nWenn der Geist des Verbündeten:\n- Mindestens 1, werden alle Verbündeten auf dem Schlachtfeld am Ende der Runde gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt).\n\n- Mindestens 5, ein anderer zufälliger Verbündeter erhält den nächsten Zug, indem seine aktuellen ZE am Ende der Runde auf 0 reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können nicht bei Zügen verwendet werden. die durch diese Fertigkeit erlangt wurden.\n- Mindestens 10, und fügt 500% zum Schadensprozentsatz des nächsten Angriffs dieses Benutzers hinzu (z.B. Stopp-Chorus: 300% => 800% Schaden, wenn Center Stage nicht 3 Mal benutzt wurde).\n\nDiese Fertigkeit ist gesperrt, bis sie durch Prismatic Voice freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "SkillDescription": "Verbündete erhalten 1 Geist für jeden Verbündeten auf dem Schlachtfeld. Diese Fertigkeit schaltet beim Einsatz Stoppchorus frei.\n\nWenn der Geist des Verbündeten:\n- Mindestens 1 beträgt, werden alle Verbündeten auf dem Schlachtfeld am Ende der Runde gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt).\n\n- Mindestens 5 beträgt, ein anderer zufälliger Verbündeter erhält den nächsten Zug, indem seine aktuellen ZE am Ende der Runde auf 0 reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können nicht bei Zügen verwendet werden, die durch diese Fertigkeit erlangt wurden.\n-10 beträgt, fügt 500% zum Schadensprozentsatz des nächsten Angriffs dieses Benutzers hinzu (z.B. Stopp-Chorus: 300% => 800% Schaden, wenn Center Stage nicht 3 Mal benutzt wurde).\n\nDiese Fertigkeit ist gesperrt, bis sie durch Prismatic Voice freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
                 "TU": 25,
                 "Spirit": "+0"
             },
             {
-                "SkillTitle": "Stoppchorus",
-                "SkillDescription": "300% Schaden an allen Gegnern. 500% Schaden stattdessen, wenn der Benutzer 3 Mal Center Stage in diesem Kampf benutzt hat. Dieser Angriff ignoriert Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, passive Fertigkeiten der Haut und den Statuseffekt Konterstellung.\n\nAlle getroffenen Gegner haben ihre aktiven Fertigkeiten für 10 ZE deaktiviert. Wenn die Aktiven Fertigkeiten einer Einheit deaktiviert sind und sie die Runde bekommt, verliert sie die Runde, als ob sie schlafen würde. Dieser Effekt kann sich nicht auf Boss-Einheiten auswirken, kann nicht geläutert werden und endet, wenn der Benutzer besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis sie durch Geistschlag freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "SkillTitle": "Stopp-Chorus",
+                "SkillDescription": "300% Schaden an allen Gegnern. 500% Schaden stattdessen, wenn der Benutzer 3 Mal Center Stage in diesem Kampf benutzt hat. Dieser Angriff ignoriert Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, passive Fertigkeiten der Haut und den Statuseffekt Konterstellung.\n\nAlle getroffenen Gegner haben ihre aktiven Fertigkeiten für 10 ZE deaktiviert. Wenn die Aktiven Fertigkeiten einer Einheit deaktiviert sind und sie die Runde bekommt, verliert sie die Runde, als ob sie schlafen würde. Dieser Effekt kann sich nicht auf Boss-Einheiten auswirken, kann nicht geläutert werden und endet, wenn der Benutzer besiegt wird.\n\nDiese Fertigkeit ist gesperrt, bis sie durch Temperament-Beat freigeschaltet wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.",
                 "TU": 75,
                 "Spirit": "-2"
             },
             {
                 "SkillTitle": "Center Stage",
-                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 1000% des Angriffs des Benutzers und stärkt sie.\n\nNur anwendbar, wenn der Benutzer nicht allein ist und 1 oder mehr Verbündete auf dem Schlachtfeld nicht gestärkt sind. Kann 3 Mal pro Schlacht eingesetzt werden.\n\nEine verstärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht durch Angriffe ignoriert werden, die nicht ausdrücklich die Verstärkung ignorieren. Die Verstärkung wird entfernt, nachdem der Schaden 3 Mal seit ihrer Anwendung reduziert wurde, und wird zurückgesetzt, wenn sie erneut angewendet wird. Es handelt sich nicht um einen Statuseffekt.",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 1000% des Angriffs des Benutzers und verstärkt sie.\n\nNur anwendbar, wenn der Benutzer nicht allein ist und 1 oder mehr Verbündete auf dem Schlachtfeld nicht verstärkt sind. Kann 3 Mal pro Schlacht eingesetzt werden.\n\nEine verstärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht durch Angriffe ignoriert werden, die nicht ausdrücklich die Verstärkung ignorieren. Die Verstärkung wird entfernt, nachdem der Schaden 3 Mal seit ihrer Anwendung reduziert wurde, und wird zurückgesetzt, wenn sie erneut angewendet wird. Es handelt sich nicht um einen Statuseffekt.",
                 "TU": 100,
                 "Spirit": "-2"
             }
@@ -129469,7 +129535,7 @@
             },
             {
                 "SkillTitle": "Superstar",
-                "SkillDescription": "Diese Einheit betritt den Kampf mit einem Soforttodschutz. Ein Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar.\n\nDiese Einheit hat 35% Schadensreduktion durch Angriffe. Diese Einheit hat stattdessen 70% Schadensreduktion durch Angriffe, wenn sie nicht befestigt ist.\n\nWenn diese Einheit den Kampf betritt, werden alle Verbündeten befestigt. Immer wenn ein weiterer Verbündeter durch Verstärkung das Schlachtfeld betritt, wird er verstärkt."
+                "SkillDescription": "Diese Einheit betritt den Kampf mit einem Soforttodschutz. Ein Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar.\n\nDiese Einheit hat 35% Schadensreduktion durch Angriffe. Diese Einheit hat stattdessen 70% Schadensreduktion durch Angriffe, wenn sie nicht verstärkt ist.\n\nWenn diese Einheit den Kampf betritt, werden alle Verbündeten verstärkt. Immer wenn ein weiterer Verbündeter durch Verstärkung das Schlachtfeld betritt, wird er verstärkt."
             },
             {
                 "SkillTitle": "Angriff+ Lv3",
@@ -129552,7 +129618,7 @@
                 "Temperament-Beat": {
                     "BaseWeight": 500
                 },
-                "Stoppchorus": {
+                "Stopp-Chorus": {
                     "BaseWeight": 3,
                     "Ignore": [
                         "IsSleeping"
@@ -129604,7 +129670,7 @@
         "Hp_Base": 6725,
         "Speed": 457,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Ein hilfsbereiter Taugenichts... so sagt man jedenfalls!",
         "LeaderSkill": {
             "SkillTitle": "Licht-LP hoch",
@@ -129765,6 +129831,19 @@
                         "IsProtectingAndNotAlone": 0.5
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
             }
         }
     },
@@ -129957,6 +130036,405 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            }
+        }
+    },
+    "WashingtonRegular01": {
+        "Name": "Washington",
+        "Name2": "Immer die Nummer eins",
+        "FullName": "Washington - Immer die Nummer eins",
+        "Profile": "Washington war ein gewöhnliches Mädchen mit unauffälligen Noten - so wie man sie überall finden konnte. Dann lernte sie Chopin kennen, ein schillerndes, fast blendendes Genie.\n\nSeltsamerweise hat es zwischen ihnen gefunkt. Und aus irgendeinem Grund konnte nur sie Chopins unerhörte Ideen verstehen. Ehe sie sich versah, waren die beiden unzertrennlich geworden.\n\nSie zweifelte nicht ein einziges Mal daran, dass sie für immer an Chopins Seite bleiben würde.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 28,
+        "Atk_Base": 776,
+        "Hp_Base": 7330,
+        "Speed": 620,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Hat jemand nach diesem genialen Wissenschaftler gerufen?!",
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Wasser-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Aufzinsschuss",
+                "SkillDescription": "100% Schaden an 1 Gegner, plus 100% für jeden schlafenden oder frostverbrannten Gegner (max. 500% Gesamtschaden). Der Benutzer erhält eine Ladung. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\nLadungen können nicht gestapelt werden und werden entfernt, wenn der Benutzer das Schlachtfeld verlässt.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Siegessterne",
+                "SkillDescription": "Schwächt alle Gegner. Macht alle Verbündeten auf dem Schlachtfeld wütend und heilt sie für 1000% des Angriffs des Anwenders.\n\nGewährt dann allen anderen Verbündeten, die brennen oder das Element Wasser haben, sofort die nächsten Runden, indem ihre aktuellen ZE reduziert werden. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie den Zug hatten.\n\nDie Fertigkeit wird jedes Mal gesperrt, wenn ein nicht-beschworener Gegner auf dem Schlachtfeld durch eine beliebige Quelle besiegt oder geopfert wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.\n\nWütende Einheiten haben bis zum Ende ihres nächsten Zuges einen um das 1,5-fache erhöhten Angriffswert. Bei geschwächten Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf 0,75x reduziert. Diese Effekte überschreiben alle bestehenden Schwächungs- oder Wut-Effekte der betroffenen Einheiten. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden.",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Raketensturm",
+                "SkillDescription": "Verbraucht eine Ladung für 600% Schaden an allen Gegnern. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Jeder getroffene Gegner erhält dann zufällig entweder den Statuseffekt Tiefschlaf für 100 ZE (auch wenn er bereits geschlafen hat, während er auf dem Schlachtfeld war), oder Frostbrand. Der Tiefschlaf überschreibt andere Statuseffekte, kann nicht von den Statuseffekten Verbrennen oder Schlafen überschrieben werden und kann nicht geläutert werden. Wenn eine Einheit Frostbrand hat und an der Reihe ist, verliert sie die Runde, als ob sie schlafen würde, dann wird Frostbrand entfernt und die Einheit erhält den Statuseffekt Brennen. Frostbrand ist kein Statuseffekt, aber Effekte, die negative Statuseffekte entfernen, entfernen auch Frostbrand. Frostbrand endet, wenn die betroffene Einheit besiegt wird oder das Schlachtfeld verlässt. Frostbrand kann nicht auf Bosseinheiten angewendet werden und ist nicht stapelbar. Frostbrand überschreibt andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Starke Freiheit",
+                "SkillDescription": "Diese Einheit betritt den Kampf mit einem Soforttodschutz. Ein Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt werden kann. Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar.\n\nNach dem ersten Zug dieser Einheit auf dem Schlachtfeld werden alle Verbündeten auf dem Schlachtfeld gereinigt (alle negativen Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt) und um 100% der maximalen LP geheilt. Dann besteht eine Chance von 20% plus 20% pro Erwachen (bis zu 100%, wenn diese Einheit 4 Erwachen hat), dass diese Einheit allen Gegnern auf dem Schlachtfeld Frostbrand verleiht.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie geläutert und um 25% ihrer maximalen LP geheilt.\n\nWenn diese Einheit in den Kampf zieht, erhalten alle Verbündeten für 200 ZE Seebarriere. Eine Einheit mit Seebarriere erhält 35% Schadensreduzierung durch Angriffe. Dieser Effekt kann mit anderen Schadensreduzierungseffekten wie Rüstung gestapelt werden, aber nicht mit sich selbst oder anderen Fertigkeiten des Typs Barriere von Verbündeten.\n\nSolange diese Einheit über Seebarriere verfügt, überlebt sie jeden Schaden, der sie mit 1 LP besiegen würde."
+            },
+            {
+                "SkillTitle": "Temperamentgenie",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken keine schlafenden Gegner auf.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden. Diese Einheit kann nicht durch Schaden von Brennen-Statuseffekten besiegt werden.\n\nAm Ende jedes Zuges des Gegners, wenn der Geist des Verbündeten weniger als 8 beträgt, erhalten die Verbündeten 1 Geist.\n\nWenn diese Einheit eine beliebige Anzahl von Einheiten mit einem Angriff beschädigt, wird der Geist des Verbündeten am Ende des Zuges verdoppelt; wenn der Geist des Verbündeten 0 beträgt, erhält er stattdessen 1 Geist. \n\nWenn der Geist eines Verbündeten am Ende einer beliebigen Runde 8 oder mehr beträgt, wird diese Einheit gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt) und ihre ZE wird auf 0 reduziert. Dieser Effekt kann erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Feuer-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Feuer-Einheiten."
+            },
+            {
+                "SkillTitle": "Speer-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Speeren nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Speer"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Warte mal kurz... okay, das kommt hier hin und das verbindet sich so...\nDa! Problem gelöst! Wenn es um diesen genialen Wissenschaftler geht, gibt es kein Problem, das ich nicht lösen kann! Hab ich dich etwa warten lassen? Ich bin Washington!\nEin genialer Wissenschaftler und der Kopf der Rotdrachenorganisation!\nEs gibt nichts, was ich nicht tun kann!"
+            ],
+            "Login": [
+                "Kommandant Luther hat mir schon alles gesagt. Lasst uns aufbrechen, und zwar schnell!\nEgal, was passiert, wir schaffen das schon - ich, Washington das Genie, bin bei dir!"
+            ],
+            "Tap": [
+                "Ah, da bist du ja! Ich lasse dich nicht entkommen, wenn wir noch eine Rechnung offen haben\nAlso, stell dich mir! Du gehst nirgendwo hin, bis ich gewonnen habe!",
+                "Klavierspielen zu lernen ist schwieriger, als ich dachte... aber ich werde es meistern, egal was passiert!\nUnd eines Tages werde ich sogar Chopin selbst übertreffen!",
+                "All die neuen Theorien, die gerade in den wissenschaftlichen Fachzeitschriften Wellen schlagen? Oh, ich habe das Grundgerüst für jede von ihnen entwickelt.\nSobald sie in die Anwendungsphase kamen, wurde mir langweilig. Ich forsche schon an der nächsten Grenze."
+            ],
+            "Idle": [
+                "Hm? Gerade eben... Ich glaube, ich habe irgendwo in der Ferne jemanden \"kann nicht\" sagen hören...\nUgh, das regt mich so auf... Immer wenn ich dieses Wort höre, kann ich es einfach nicht ertragen!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "Aufzinsschuss": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "Siegessterne": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "Raketensturm": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            }
+        }
+    },
+    "WashingtonRegular02": {
+        "Name": "Washington",
+        "Name2": "Immer die Nummer eins",
+        "FullName": "Washington - Immer die Nummer eins",
+        "Profile": "Als sie älter wurden, begann Chopins Brillanz in einem erstaunlichen Tempo zu erblühen.NNachdem sie fröhlich von immer komplexeren wissenschaftlichen Theorien sprach, spürte Washington immer mehr Distanz zwischen ihnen.NFrüher hatte sie Chopin verstanden. Sie hatte geglaubt, sie sei die Einzige, die das wirklich konnte. Aber die Realität, dass sie - das gewöhnliche Mädchen, das sie war - langsam ins Hintertreffen geriet, machte ihr Angst...",
+        "Profile_Ascended": "Der Gedanke, nicht an der Seite von Chopin bleiben zu können, war unerträglich. Und so fasste Washington einen Entschluss: Sie würde auch ein Genie werden.\n\nWenn es ihr an Talent fehlte, würde sie das durch Anstrengung ausgleichen. Um an Chopins Seite zu bleiben, studierte sie mehr als jeder andere, dachte härter als jeder andere und hörte nie auf, sich selbst herauszufordern. Diese außergewöhnliche Entschlossenheit ermöglichte es Washington schließlich, Chopin einzuholen.\n\nEs war ein Kampf, den sie freiwillig aufnahm - damit die beiden immer zusammenbleiben konnten.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 34,
+        "Atk_Base": 1447,
+        "Hp_Base": 7185,
+        "Speed": 620,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Wasser-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Aufzinsschuss",
+                "SkillDescription": "100% Schaden an 1 Gegner, plus 100% für jeden schlafenden oder frostverbrannten Gegner (max. 500% Gesamtschaden). Der Benutzer erhält eine Ladung. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird.\n\nLadungen können nicht gestapelt werden und werden entfernt, wenn der Benutzer das Schlachtfeld verlässt.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Siegessterne",
+                "SkillDescription": "Schwächt alle Gegner. Macht alle Verbündeten auf dem Schlachtfeld wütend und heilt sie für 1000% des Angriffs des Anwenders.\n\nGewährt dann allen anderen Verbündeten, die brennen oder das Element Wasser haben, sofort die nächsten Runden, indem ihre aktuellen ZE reduziert werden. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie den Zug hatten.\n\nDie Fertigkeit wird jedes Mal gesperrt, wenn ein nicht-beschworener Gegner auf dem Schlachtfeld durch eine beliebige Quelle besiegt oder geopfert wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.\n\nWütende Einheiten haben bis zum Ende ihres nächsten Zuges einen um das 1,5-fache erhöhten Angriffswert. Bei geschwächten Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf 0,75x reduziert. Diese Effekte überschreiben alle bestehenden Schwächungs- oder Wut-Effekte der betroffenen Einheiten. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden.",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Raketensturm",
+                "SkillDescription": "Verbraucht eine Ladung für 600% Schaden an allen Gegnern. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Jeder getroffene Gegner erhält dann zufällig entweder den Statuseffekt Tiefschlaf für 100 ZE (auch wenn er bereits geschlafen hat, während er auf dem Schlachtfeld war), oder Frostbrand. Der Tiefschlaf überschreibt andere Statuseffekte, kann nicht von den Statuseffekten Verbrennen oder Schlafen überschrieben werden und kann nicht geläutert werden. Wenn eine Einheit Frostbrand hat und an der Reihe ist, verliert sie die Runde, als ob sie schlafen würde, dann wird Frostbrand entfernt und die Einheit erhält den Statuseffekt Brennen. Frostbrand ist kein Statuseffekt, aber Effekte, die negative Statuseffekte entfernen, entfernen auch Frostbrand. Frostbrand endet, wenn die betroffene Einheit besiegt wird oder das Schlachtfeld verlässt. Frostbrand kann nicht auf Bosseinheiten angewendet werden und ist nicht stapelbar. Frostbrand überschreibt andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Taktischer Overkill",
+                "SkillDescription": "1000% Schaden an 2 Gegnern. Der Benutzer gewährt dem nächsten Gegner, der das Schlachtfeld betritt, Frostbrand. Dieser Angriff ignoriert Schadensreduzierungseffekte, alle Effekte von Gegnern, die keine Bossgegner sind und die verhindern würden, dass das Ziel besiegt wird, sowie passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nDiese Fertigkeit wird jedes Mal freigeschaltet, wenn der Benutzer einen nicht beschworenen Gegner mit einem Angriff besiegt. Diese Fertigkeit wird nach jeder Anwendung erneut gesperrt, es sei denn, sie besiegt einen Gegner. Kann zweimal pro Kampf verwendet werden.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Starke Freiheit",
+                "SkillDescription": "Diese Einheit betritt den Kampf mit einem Soforttodschutz. Ein Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt werden kann. Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar.\n\nNach dem ersten Zug dieser Einheit auf dem Schlachtfeld werden alle Verbündeten auf dem Schlachtfeld gereinigt (alle negativen Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt) und um 100% der maximalen LP geheilt. Dann besteht eine Chance von 20% plus 20% pro Erwachen (bis zu 100%, wenn diese Einheit 4 Erwachen hat), dass diese Einheit allen Gegnern auf dem Schlachtfeld Frostbrand verleiht.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie geläutert und um 25% ihrer maximalen LP geheilt.\n\nWenn diese Einheit in den Kampf zieht, erhalten alle Verbündeten für 200 ZE Seebarriere. Eine Einheit mit Seebarriere erhält 35% Schadensreduzierung durch Angriffe. Dieser Effekt kann mit anderen Schadensreduzierungseffekten wie Rüstung gestapelt werden, aber nicht mit sich selbst oder anderen Fertigkeiten des Typs Barriere von Verbündeten.\n\nSolange diese Einheit über Seebarriere verfügt, überlebt sie jeden Schaden, der sie mit 1 LP besiegen würde."
+            },
+            {
+                "SkillTitle": "Temperamentgenie",
+                "SkillDescription": "Die Angriffe dieser Einheit wecken keine schlafenden Gegner auf.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden. Diese Einheit kann nicht durch Schaden von Brennen-Statuseffekten besiegt werden.\n\nAm Ende jedes Zuges des Gegners, wenn der Geist des Verbündeten weniger als 8 beträgt, erhalten die Verbündeten 1 Geist.\n\nWenn diese Einheit eine beliebige Anzahl von Einheiten mit einem Angriff beschädigt, wird der Geist des Verbündeten am Ende des Zuges verdoppelt; wenn der Geist des Verbündeten 0 beträgt, erhält er stattdessen 1 Geist. \n\nWenn der Geist eines Verbündeten am Ende einer beliebigen Runde 8 oder mehr beträgt, wird diese Einheit gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt) und ihre ZE wird auf 0 reduziert. Dieser Effekt kann erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Feuer-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Feuer-Einheiten."
+            },
+            {
+                "SkillTitle": "Speer-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Speeren nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Speer"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Warte mal kurz... okay, das kommt hier hin und das verbindet sich so...\nDa! Problem gelöst! Wenn es um diesen genialen Wissenschaftler geht, gibt es kein Problem, das ich nicht lösen kann! Hab ich dich etwa warten lassen? Ich bin Washington!\nEin genialer Wissenschaftler und der Kopf der Rotdrachenorganisation!\nEs gibt nichts, was ich nicht tun kann!"
+            ],
+            "Login": [
+                "Kommandant Luther hat mir schon alles gesagt. Lasst uns aufbrechen, und zwar schnell!\nEgal, was passiert, wir schaffen das schon - ich, Washington das Genie, bin bei dir!"
+            ],
+            "Tap": [
+                "Ah, da bist du ja! Ich lasse dich nicht entkommen, wenn wir noch eine Rechnung offen haben\nAlso, stell dich mir! Du gehst nirgendwo hin, bis ich gewonnen habe!",
+                "Klavierspielen zu lernen ist schwieriger, als ich dachte... aber ich werde es meistern, egal was passiert!\nUnd eines Tages werde ich sogar Chopin selbst übertreffen!",
+                "All die neuen Theorien, die gerade in den wissenschaftlichen Fachzeitschriften Wellen schlagen? Oh, ich habe das Grundgerüst für jede von ihnen entwickelt.\nSobald sie in die Anwendungsphase kamen, wurde mir langweilig. Ich forsche schon an der nächsten Grenze."
+            ],
+            "Idle": [
+                "Hm? Gerade eben... Ich glaube, ich habe irgendwo in der Ferne jemanden \"kann nicht\" sagen hören...\nUgh, das regt mich so auf... Immer wenn ich dieses Wort höre, kann ich es einfach nicht ertragen!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "Aufzinsschuss": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "Siegessterne": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "Raketensturm": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                },
+                "Taktischer Overkill": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Geniale Geister",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ANG+2%"
+            }
+        }
     }
 }

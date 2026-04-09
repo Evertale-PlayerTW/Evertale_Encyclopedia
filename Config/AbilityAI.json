@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1774504410,
+  "Time": 1774512265,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -29428,6 +29428,86 @@
     },
     "LargeBuffAChopinRegular_AI":{
 					"class": "AbilityAI","baseAITargetingWeight": 2000.0
+    },
+    "SingleAttackAWashingtonRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.25,
+							"IsMirage": 0.25,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 1.0,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"HPBelow25Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"IsMechaSisterNew": 0.25,
+							"IsFrostbitten": 0.89,
+							"IsSleeping": 0.89,
+							"4AllySleepingOrFrostburned": 2.0
+				}
+    },
+    "LargeBuffAWashingtonRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AtLeast2WaterAllies": 1000,
+						"2AlliesBurning": 1000,
+						"1AllyAtHPBelow50Percent": 1000,
+						"2AlliesAtHPBelow75Percent": 1000,
+						"AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+				}
+    },
+    "AllAttackAWashingtonRegular_AI":{
+    			"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"EnemyHas2Imposters": 0.85,
+						"AllEnemiesImposters": 0.0,
+						"AllEnemiesIsStealth": 0.0,
+						"1MechaSisterNewOnEnemyTeam": 1.1
+				},
+					"aiTargetingMonsterConditions": {
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+						"4AllySleepingOrFrostburned": 0.25
+				}
+    },
+    "DoubleAttackAWashingtonRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 10.0,
+					"globalScalorsToIgnore": ["IsSleeping"],
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 0.0,
+						"AllEnemiesAlwaysDodging": 0.0,
+						"AllEnemiesNotProtectingDodging": 0.0
+				},
+					"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.25,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 0.25,
+							"IsAlwaysDodging": 0.25,
+							"NotProtectingDodging": 0.25,
+							"IsProtectedNotProtector": 0.75,
+							"IsFrostbitten": 0.89,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"HPBelow25Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"IsMechaSisterNew": 0.25
+					}
     }
 }
 }

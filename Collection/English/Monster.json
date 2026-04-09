@@ -11590,6 +11590,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -11953,6 +11964,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -20239,6 +20261,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -20613,6 +20646,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -25019,6 +25063,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -25244,6 +25299,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATK+2%"
             }
@@ -129604,7 +129670,7 @@
         "Hp_Base": 6725,
         "Speed": 457,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "A helpful good-for-nothing... or so they say!",
         "LeaderSkill": {
             "SkillTitle": "Light HP Up",
@@ -129765,6 +129831,19 @@
                         "IsProtectingAndNotAlone": 0.5
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
             }
         }
     },
@@ -129957,6 +130036,405 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
+    },
+    "WashingtonRegular01": {
+        "Name": "Washington",
+        "Name2": "Always the Number One!",
+        "FullName": "Washington - Always the Number One!",
+        "Profile": "Washington was an ordinary girl with unremarkable grades — the kind you could find anywhere. Then she met Chopin, a dazzling, almost blinding genius.\n\nStrangely enough, they clicked. And for some reason, she alone could understand Chopin's outrageous ideas. Before she knew it, the two had become inseparable.\n\nShe never once doubted that she would stay by Chopin's side forever.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greatsword",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 28,
+        "Atk_Base": 776,
+        "Hp_Base": 7330,
+        "Speed": 620,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Did someone call for this genius scientist?!",
+        "LeaderSkill": {
+            "SkillTitle": "Water ATK & HP Up",
+            "SkillDescription": "Allied Water element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Compounding Shot",
+                "SkillDescription": "100% damage to 1 enemy, plus 100% for each sleeping or frostburned enemy (max of 500% total damage). The user is granted a Power Charge. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nPower Charges cannot stack and will be removed when the user leaves the battlefield.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Stars of Victory",
+                "SkillDescription": "Weakens all enemies. Enrages and heals all allies on the battlefield for 1000% of the user's attack.\n\nThen immediately give all other allies that are burning or the Water element the next turns by reducing their current TU. Active skills that grant turns cannot be used by any affected units until after they have had the turn.\n\nUnlocked each time a non-conjured enemy on the battlefield is defeated or sacrificed by any source. This skill is locked again after each use or if the user leaves the battlefield.\n\nEnraged units have their Attack increased to 1.5x until the end of their next turn. Weakened units have their Attack reduced to 0.75x until the end of their next turn. These effects will overwrite any existing Weak or Enrage effects on affected units. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Missile Storm",
+                "SkillDescription": "Consumes a Power Charge for 600% damage to all enemies. This attack ignores enemy damage reduction effects, Skin passive skills and the Counter Stance status effect. Each enemy hit is then randomly granted either the Deep Sleep status effect for 100TU (even if they have already slept while on the battlefield), or Frostburn. Usable only if the user has a Power Charge.\n\nDeep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified. When a unit has Frostburn and they get the turn, they will lose the turn as if they were sleeping, then Frostburn is removed and that unit is granted the Burn status effect. Frostburn is not a status effect, but effects that remove negative status effects will also remove Frostburn. Frostburn will end if the affected unit is defeated or leaves the battlefield. Frostburn cannot apply to boss units, and cannot stack. Burn will overwrite other status effects. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Unyielding Liberty",
+                "SkillDescription": "This unit enters battle with an Instant Death Ward. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nAfter this unit's first turn on the battlefield, all allies on the battlefield are Purified (any negative status effects like sleep, burn or poison are removed) and healed for 100% of max HP. Then there is a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) for this unit to grant Frostburn to all enemies on the battlefield.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, and heal for 25% of its max HP.\n\nWhen this unit enters battle, all allies will be granted Naval Barrier for 200TU. A unit with Naval Barrier will gain 35% damage reduction from attacks. This effect can stack with other damage reduction effects such as Armor, but will not stack with itself or other ally Barrier type skills.\n\nWhile this unit has Naval Barrier, this unit will survive any damage that would defeat it with 1HP."
+            },
+            {
+                "SkillTitle": "Spirited Genius",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies.\n\nThis unit cannot be sent to the reinforcements from the battlefield. This unit cannot be defeated by damage from Burn status effects.\n\nAt the end of each enemy turn, if Ally Spirit is less than 8, Allies gain 1 Spirit.\n\nWhenever this unit damages any number of units with an attack, ally Spirit is doubled at the end of the turn, if ally Spirit is at 0, gain 1 Spirit instead.\n\nWhenever ally Spirit is at 8 or more at the end of any turn, this unit will be Purified (negative status effects like sleep, burn or poison are removed), and have its TU reduced to 0. This effect cannot trigger again until 50TU advances."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Fire Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Fire units."
+            },
+            {
+                "SkillTitle": "Spear Mastery",
+                "SkillDescription": "Can use weapon skills of Spears in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spear"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hold on just a second... okay, so this goes here, and that connects like this...\nThere! Problem solved! When it comes to this genius scientist,\nthere's no problem that I can't fix!\n\nOh? Kept you waiting, did I? I'm Washington!\nGenius scientist and the brains of the Red Dragon Organization!\nThere's nothing I \"can't\" do!"
+            ],
+            "Login": [
+                "Commander Luther's already told me everything. Let's move, and quickly!\nHeh. No matter what happens, we'll be fine — I, Washington the genius, is with you!"
+            ],
+            "Tap": [
+                "Ah—there you are! I won't let you get away when we've got a score to settle.\nNow then, face me! You're not going anywhere until I win!",
+                "Learning the piano's harder than I thought... but I'm going to master it, no matter what!\nAnd someday — I'll even surpass Chopin herself!",
+                "All those new theories making waves in the scientific journals right now? Oh, I built the foundational framework for every one of them.\nI just got bored once they moved into the application phase. I'm already researching the next frontier."
+            ],
+            "Idle": [
+                "Hm? Just now... I think I heard someone say \"can't\" somewhere in the distance...\nUgh, it makes me feel so agitated... Whenever I hear that word, I just can't stand it!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "Compounding Shot": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "Stars of Victory": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "Missile Storm": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
+    },
+    "WashingtonRegular02": {
+        "Name": "Washington",
+        "Name2": "Always the Number One!",
+        "FullName": "Washington - Always the Number One!",
+        "Profile": "As they grew older, Chopin's brilliance began to bloom at an astonishing pace.\nAs she merrily spoke of increasingly complex scientific theories, Washington felt more and more distance between them.\nShe used to understand Chopin. She had believed she was the only one who truly could. But the reality that she — the ordinary girl that she was — was slowly getting left behind frightened her...",
+        "Profile_Ascended": "The thought of not being able to stay beside Chopin was unbearable. And so Washington made a decision: she would become a genius as well.\n\nIf she lacked talent, then she would make up for it with effort. To remain at Chopin's side, she studied more than anyone, thought harder than anyone, and never stopped challenging herself. In the end, that extraordinary determination allowed Washington to finally catch up to Chopin.\n\nIt was a struggle that she chose willingly — so that the two of them could always remain together.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greatsword",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 34,
+        "Atk_Base": 1447,
+        "Hp_Base": 7185,
+        "Speed": 620,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Water ATK & HP Up",
+            "SkillDescription": "Allied Water element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Compounding Shot",
+                "SkillDescription": "100% damage to 1 enemy, plus 100% for each sleeping or frostburned enemy (max of 500% total damage). The user is granted a Power Charge. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nPower Charges cannot stack and will be removed when the user leaves the battlefield.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Stars of Victory",
+                "SkillDescription": "Weakens all enemies. Enrages and heals all allies on the battlefield for 1000% of the user's attack.\n\nThen immediately give all other allies that are burning or the Water element the next turns by reducing their current TU. Active skills that grant turns cannot be used by any affected units until after they have had the turn.\n\nUnlocked each time a non-conjured enemy on the battlefield is defeated or sacrificed by any source. This skill is locked again after each use or if the user leaves the battlefield.\n\nEnraged units have their Attack increased to 1.5x until the end of their next turn. Weakened units have their Attack reduced to 0.75x until the end of their next turn. These effects will overwrite any existing Weak or Enrage effects on affected units. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "Missile Storm",
+                "SkillDescription": "Consumes a Power Charge for 600% damage to all enemies. This attack ignores enemy damage reduction effects, Skin passive skills and the Counter Stance status effect. Each enemy hit is then randomly granted either the Deep Sleep status effect for 100TU (even if they have already slept while on the battlefield), or Frostburn. Usable only if the user has a Power Charge.\n\nDeep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified. When a unit has Frostburn and they get the turn, they will lose the turn as if they were sleeping, then Frostburn is removed and that unit is granted the Burn status effect. Frostburn is not a status effect, but effects that remove negative status effects will also remove Frostburn. Frostburn will end if the affected unit is defeated or leaves the battlefield. Frostburn cannot apply to boss units, and cannot stack. Burn will overwrite other status effects. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Tactical Overkill",
+                "SkillDescription": "1000% damage to 2 enemies. The user will grant Frostburn to the next enemy that enters the battlefield. This attack ignores damage reduction effects, any effects of non-boss enemies that would prevent the target from being defeated, skin passive skills and the Counter Stance status effect.\n\nUnlocked each time the user defeats a non-conjured enemy with an attack. This skill is locked again after each use unless it defeats an enemy. Usable twice per battle.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Unyielding Liberty",
+                "SkillDescription": "This unit enters battle with an Instant Death Ward. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nAfter this unit's first turn on the battlefield, all allies on the battlefield are Purified (any negative status effects like sleep, burn or poison are removed) and healed for 100% of max HP. Then there is a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) for this unit to grant Frostburn to all enemies on the battlefield.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, and heal for 25% of its max HP.\n\nWhen this unit enters battle, all allies will be granted Naval Barrier for 200TU. A unit with Naval Barrier will gain 35% damage reduction from attacks. This effect can stack with other damage reduction effects such as Armor, but will not stack with itself or other ally Barrier type skills.\n\nWhile this unit has Naval Barrier, this unit will survive any damage that would defeat it with 1HP."
+            },
+            {
+                "SkillTitle": "Spirited Genius",
+                "SkillDescription": "This unit's attacks will not wake sleeping enemies.\n\nThis unit cannot be sent to the reinforcements from the battlefield. This unit cannot be defeated by damage from Burn status effects.\n\nAt the end of each enemy turn, if Ally Spirit is less than 8, Allies gain 1 Spirit.\n\nWhenever this unit damages any number of units with an attack, ally Spirit is doubled at the end of the turn, if ally Spirit is at 0, gain 1 Spirit instead.\n\nWhenever ally Spirit is at 8 or more at the end of any turn, this unit will be Purified (negative status effects like sleep, burn or poison are removed), and have its TU reduced to 0. This effect cannot trigger again until 50TU advances."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Fire Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Fire units."
+            },
+            {
+                "SkillTitle": "Spear Mastery",
+                "SkillDescription": "Can use weapon skills of Spears in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spear"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hold on just a second... okay, so this goes here, and that connects like this...\nThere! Problem solved! When it comes to this genius scientist,\nthere's no problem that I can't fix!\n\nOh? Kept you waiting, did I? I'm Washington!\nGenius scientist and the brains of the Red Dragon Organization!\nThere's nothing I \"can't\" do!"
+            ],
+            "Login": [
+                "Commander Luther's already told me everything. Let's move, and quickly!\nHeh. No matter what happens, we'll be fine — I, Washington the genius, is with you!"
+            ],
+            "Tap": [
+                "Ah—there you are! I won't let you get away when we've got a score to settle.\nNow then, face me! You're not going anywhere until I win!",
+                "Learning the piano's harder than I thought... but I'm going to master it, no matter what!\nAnd someday — I'll even surpass Chopin herself!",
+                "All those new theories making waves in the scientific journals right now? Oh, I built the foundational framework for every one of them.\nI just got bored once they moved into the application phase. I'm already researching the next frontier."
+            ],
+            "Idle": [
+                "Hm? Just now... I think I heard someone say \"can't\" somewhere in the distance...\nUgh, it makes me feel so agitated... Whenever I hear that word, I just can't stand it!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "Compounding Shot": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "Stars of Victory": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "Missile Storm": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                },
+                "Tactical Overkill": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "Great Minds",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "ATK+2%"
+            }
+        }
     }
 }

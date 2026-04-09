@@ -11590,6 +11590,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -11953,6 +11964,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -20239,6 +20261,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -20613,6 +20646,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -25019,6 +25063,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -25244,6 +25299,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -129604,7 +129670,7 @@
         "Hp_Base": 6725,
         "Speed": 457,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "靠得住的废柴……哈哈！",
         "LeaderSkill": {
             "SkillTitle": "光属性振奋",
@@ -129765,6 +129831,19 @@
                         "IsProtectingAndNotAlone": 0.5
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -129957,6 +130036,405 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "WashingtonRegular01": {
+        "Name": "华盛顿",
+        "Name2": "无论何时我都是第一！",
+        "FullName": "华盛顿 - 无论何时我都是第一！",
+        "Profile": "华盛顿是个成绩平平、随处可见的普通少女。而她在年幼时遇见的肖邦，则是耀眼到令人目眩的非凡天才。\n两人不知为何十分投缘，那些天马行空的想法，唯独自己能够理解。不知不觉间，两人已成为挚友。\n她曾毫不怀疑地希望，能够一直待在她的身边。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手剑",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 28,
+        "Atk_Base": 776,
+        "Hp_Base": 7330,
+        "Speed": 620,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "在叫本天才科学家吗！",
+        "LeaderSkill": {
+            "SkillTitle": "水属性强化",
+            "SkillDescription": "所有水属性队友的攻击力增加10%且最大生命值增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "绝佳目标",
+                "SkillDescription": "对1个敌人造成100%的伤害，场上每有1个处于睡眠状态或有燃霜效果的敌人伤害上升100%。使用者获得蓄能。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。蓄能可用于触发或加强特定技能。蓄能无法叠加且单位离场时其蓄能将被移除。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "星光行军",
+                "SkillDescription": "所有敌人攻击力降低为0.75倍直到其下个回合结束，回复场上所有己方单位相当于使用者攻击力1000%的生命值并使其攻击力变为1.5倍直到其下一个回合结束，再令场上其他水属性或处于燃烧状态的己方单位TU归零，使其顺次获得下一回合。在受此技能影响后直到这些单位的下一个回合结束后无法使用给予其他队友回合的主动技能。\n每当场上1个非召唤物敌方单位被击败或被牺牲后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。\n此效果会覆盖原先的虚弱或狂热效果。虚弱的效果可能会因其他提升攻击力的效果而减弱。",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "大大大革命！",
+                "SkillDescription": "消耗此单位的蓄能对场上所有敌人造成600%的伤害。每个受到伤害的目标随机获得燃霜效果或陷入持续100TU的深度睡眠状态。对进场后已经陷入过睡眠状态的敌方单位亦可生效。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。使用者必须有蓄能才能使用。\n深度睡眠会覆盖对象身上的其他状态效果，且不会被燃烧或睡眠状态覆盖或被“净化”类的技能清除。有燃霜效果的单位获得回合时会失去该回合（类似睡眠状态），然后移除其燃霜效果并陷入燃烧状态。燃霜不是状态效果，但可以被净化。有燃霜的单位离场时会移除燃霜。燃霜对BOSS类单位无效且无法叠加。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "永远第一！",
+                "SkillDescription": "此单位进场时获得速败抵抗效果。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。\n此单位进场后自己的第一个回合结束时，净化场上所有己方单位并使其回复最大生命值的100%且所有敌方单位有20%概率获得燃霜效果。此单位每觉醒一次额外提高20%敌方获得燃霜的概率。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的25%并净化自身。\n此单位进场时所有队友获得持续200TU的天才屏障。有天才屏障的单位受到敌人攻击的伤害减少35%。天才屏障的减伤效果可与其他非屏障类减伤效果叠加。\n有天才屏障效果的此单位在受到超过其剩余生命值的伤害时，会以1点生命值幸存。"
+            },
+            {
+                "SkillTitle": "元气天才",
+                "SkillDescription": "此单位的攻击不会移除目标的睡眠状态。此单位无法从场上回到援军队伍。此单位不会因为燃烧的伤害被击败。\n每当敌方回合结束时，若己方灵气低于8，则己方获得1点灵气。每当此单位通过攻击对敌人造成伤害时，该回合结束后己方灵气翻倍。若己方灵气为0则获得1点灵气。\n每当任意单位回合结束时，若己方灵气不低于8，此单位净化自身且TU归零立即获得下一个回合，此效果在此后50TU内无法再次触发。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "火系耐性Lv3",
+                "SkillDescription": "若此单位受到火属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "长枪大师",
+                "SkillDescription": "若此单位装备长枪类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "长枪"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "稍等一下……嗯，这样再这样……\n好了，问题解决！只要交给我这位天才科学家，\n就没有解决不了的问题！\n\n哎呀，让你久等了，我是华盛顿！\n天才科学家，同时也是红龙机关的大脑！\n“做不到”的事情根本不存在！"
+            ],
+            "Login": [
+                "快点出发吧！\n呵呵，不管发生什么都没问题，有我这个天才华盛顿在一起呢！"
+            ],
+            "Tap": [
+                "啊～！找到你了！想赢了就跑，我可不允许！\n来吧，跟我一决胜负！在我赢之前，你都得陪我继续下去！",
+                "钢琴还真难啊……不过，我一定会变得更厉害的！\n而且，总有一天，我也要赢过那个肖邦给你看！",
+                "现在在科学界期刊上引起热议的那些理论？啊，那些基础理论全都是我构建的。\n不过一到应用阶段我就腻了。现在我已经在研究下一个领域了。"
+            ],
+            "Idle": [
+                "嗯，刚才……远处是不是有人说了“做不到”……\n总觉得有点坐不住……一听到那种话，就忍不住！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "绝佳目标": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "星光行军": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "大大大革命！": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "WashingtonRegular02": {
+        "Name": "华盛顿",
+        "Name2": "无论何时我都是第一！",
+        "FullName": "华盛顿 - 无论何时我都是第一！",
+        "Profile": "随着成长，肖邦的才能以惊人的速度不断绽放。\n她那轻松谈论复杂理论的话语，也渐渐让人觉得遥不可及。\n明明曾经是能够理解的。明明只有自己是她的理解者。那种平凡的自己，被一点点甩在身后的现实，让人感到恐惧。",
+        "Profile_Ascended": "不想和肖邦分开。华盛顿如此下定决心。要成为天才——为了能够一直站在她的身旁。\n\n既然天赋不足，那就只能用努力去弥补。比任何人都更努力学习，比任何人都更深入思考，不断挑战下去。在那份非凡努力的尽头，华盛顿终于追上了肖邦。\n\n这是她为了能够一直与她并肩而立，所选择的属于自己的战斗。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手剑",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 34,
+        "Atk_Base": 1447,
+        "Hp_Base": 7185,
+        "Speed": 620,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "水属性强化",
+            "SkillDescription": "所有水属性队友的攻击力增加10%且最大生命值增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "绝佳目标",
+                "SkillDescription": "对1个敌人造成100%的伤害，场上每有1个处于睡眠状态或有燃霜效果的敌人伤害上升100%。使用者获得蓄能。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。蓄能可用于触发或加强特定技能。蓄能无法叠加且单位离场时其蓄能将被移除。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "星光行军",
+                "SkillDescription": "所有敌人攻击力降低为0.75倍直到其下个回合结束，回复场上所有己方单位相当于使用者攻击力1000%的生命值并使其攻击力变为1.5倍直到其下一个回合结束，再令场上其他水属性或处于燃烧状态的己方单位TU归零，使其顺次获得下一回合。在受此技能影响后直到这些单位的下一个回合结束后无法使用给予其他队友回合的主动技能。\n每当场上1个非召唤物敌方单位被击败或被牺牲后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。\n此效果会覆盖原先的虚弱或狂热效果。虚弱的效果可能会因其他提升攻击力的效果而减弱。",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "大大大革命！",
+                "SkillDescription": "消耗此单位的蓄能对场上所有敌人造成600%的伤害。每个受到伤害的目标随机获得燃霜效果或陷入持续100TU的深度睡眠状态。对进场后已经陷入过睡眠状态的敌方单位亦可生效。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。使用者必须有蓄能才能使用。\n深度睡眠会覆盖对象身上的其他状态效果，且不会被燃烧或睡眠状态覆盖或被“净化”类的技能清除。有燃霜效果的单位获得回合时会失去该回合（类似睡眠状态），然后移除其燃霜效果并陷入燃烧状态。燃霜不是状态效果，但可以被净化。有燃霜的单位离场时会移除燃霜。燃霜对BOSS类单位无效且无法叠加。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "淘金热",
+                "SkillDescription": "对2个敌人造成1000%的伤害，下一个进场的敌方单位获得燃霜效果。此技能无视目标的减伤效果、反弹被动技能、“反击态势”状态与非BOSS目标防止被击败的效果或被动技能。每当使用者通过攻击击败1个非召唤物敌人后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "永远第一！",
+                "SkillDescription": "此单位进场时获得速败抵抗效果。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。\n此单位进场后自己的第一个回合结束时，净化场上所有己方单位并使其回复最大生命值的100%且所有敌方单位有20%概率获得燃霜效果。此单位每觉醒一次额外提高20%敌方获得燃霜的概率。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的25%并净化自身。\n此单位进场时所有队友获得持续200TU的天才屏障。有天才屏障的单位受到敌人攻击的伤害减少35%。天才屏障的减伤效果可与其他非屏障类减伤效果叠加。\n有天才屏障效果的此单位在受到超过其剩余生命值的伤害时，会以1点生命值幸存。"
+            },
+            {
+                "SkillTitle": "元气天才",
+                "SkillDescription": "此单位的攻击不会移除目标的睡眠状态。此单位无法从场上回到援军队伍。此单位不会因为燃烧的伤害被击败。\n每当敌方回合结束时，若己方灵气低于8，则己方获得1点灵气。每当此单位通过攻击对敌人造成伤害时，该回合结束后己方灵气翻倍。若己方灵气为0则获得1点灵气。\n每当任意单位回合结束时，若己方灵气不低于8，此单位净化自身且TU归零立即获得下一个回合，此效果在此后50TU内无法再次触发。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "火系耐性Lv3",
+                "SkillDescription": "若此单位受到火属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "长枪大师",
+                "SkillDescription": "若此单位装备长枪类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "长枪"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "稍等一下……嗯，这样再这样……\n好了，问题解决！只要交给我这位天才科学家，\n就没有解决不了的问题！\n\n哎呀，让你久等了，我是华盛顿！\n天才科学家，同时也是红龙机关的大脑！\n“做不到”的事情根本不存在！"
+            ],
+            "Login": [
+                "快点出发吧！\n呵呵，不管发生什么都没问题，有我这个天才华盛顿在一起呢！"
+            ],
+            "Tap": [
+                "啊～！找到你了！想赢了就跑，我可不允许！\n来吧，跟我一决胜负！在我赢之前，你都得陪我继续下去！",
+                "钢琴还真难啊……不过，我一定会变得更厉害的！\n而且，总有一天，我也要赢过那个肖邦给你看！",
+                "现在在科学界期刊上引起热议的那些理论？啊，那些基础理论全都是我构建的。\n不过一到应用阶段我就腻了。现在我已经在研究下一个领域了。"
+            ],
+            "Idle": [
+                "嗯，刚才……远处是不是有人说了“做不到”……\n总觉得有点坐不住……一听到那种话，就忍不住！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "绝佳目标": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "星光行军": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "大大大革命！": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                },
+                "淘金热": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "两位天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
     }
 }

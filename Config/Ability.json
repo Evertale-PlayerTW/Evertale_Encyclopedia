@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1774504877,
+  "Time": 1774512251,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -28843,6 +28843,55 @@
       "tuCost": 10,
       "useLimit": 0,
       "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackAWashingtonRegular",
+      "class": "Ability",
+      "abilityScalor": 0,
+      "conditionalAbilityScalors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "config": "SingleAttackAWashingtonRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "LargeBuffAWashingtonRegular",
+      "class": "Ability",
+      "config": "LargeBuffAWashingtonRegular",
+      "tuCost": 10,
+      "useLimit": 0,
+      "spiritGain": 5,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllAttackAWashingtonRegular",
+      "class": "Ability",
+      "abilityScalor": 5,
+      "config": "AllAttackAWashingtonRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "DoubleAttackAWashingtonRegular",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "config": "DoubleAttackAWashingtonRegular",
+      "tuCost": 75,
+      "useLimit": 2,
+      "spiritCost": 2,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

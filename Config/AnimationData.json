@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1774481529,
+  "Time": 1774489382,
   "AnimationData": {
     "AnimationData": [
       {
@@ -46357,7 +46357,7 @@
         "config": "default",
         "attack": "WashingtonShot",
         "class": "AnimConfig",
-        "animName": "Attack1",
+        "animName": "Ability1",
         "effectDelay": 0,
         "isMelee": 0,
         "isSpecial": 0,
@@ -46365,7 +46365,7 @@
         "moveDelay": 0,
         "postAttackDelay": 0,
         "moveBackDuration": 0,
-        "altAnimName": "Attack1",
+        "altAnimName": "Ability1",
         "altEffectDelay": 0,
         "altIsMelee": 0,
         "altIsSpecial": 0,
@@ -46473,6 +46473,30 @@
         "backgroundFadeOutDuration": 0.2,
         "fadeMonsterDelay": 0,
         "fadeMonsterDuration": 3.5
+      },
+      {
+        "config": "default",
+        "attack": "SingleAttackAWashingtonRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "WashingtonShot"
+      },
+      {
+        "config": "default",
+        "attack": "LargeBuffAWashingtonRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "WashingtonHappy"
+      },
+      {
+        "config": "default",
+        "attack": "AllAttackAWashingtonRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "WashingtonCannon1"
+      },
+      {
+        "config": "default",
+        "attack": "DoubleAttackAWashingtonRegular",
+        "class": "AnimConfig",
+        "overrideAttackName": "WashingtonSpecial"
       }
     ]
   }

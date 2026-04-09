@@ -11592,6 +11592,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -11955,6 +11966,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -20241,6 +20263,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -20615,6 +20648,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -25021,6 +25065,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -25246,6 +25301,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -129606,7 +129672,7 @@
         "Hp_Base": 6725,
         "Speed": 457,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "頼りになるロクデナシ…ってね！",
         "LeaderSkill": {
             "SkillTitle": "HPアップ（光）",
@@ -129767,6 +129833,19 @@
                         "IsProtectingAndNotAlone": 0.5
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -129959,6 +130038,405 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "WashingtonRegular01": {
+        "Name": "ワシントン",
+        "Name2": "いつでも私がナンバーワン！",
+        "FullName": "ワシントン - いつでも私がナンバーワン！",
+        "Profile": "ワシントンは平凡な成績の、どこにでもいる少女だった。幼いころ出会ったショパンは、眩しいほどに非凡な天才だった。\n不思議と気が合い、破天荒な発想もなぜか自分だけは理解できた。気づけば二人は親友になっていた。\nずっと隣にいたいと、疑いもなく願っていた。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大剣",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 28,
+        "Atk_Base": 776,
+        "Hp_Base": 7330,
+        "Speed": 620,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "この天才科学者を呼んだかしら！",
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（水）",
+            "SkillDescription": "水属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "抜群エイム",
+                "SkillDescription": "敵1体に100%ダメージを与え、使用者はパワーチャージ状態になる。この攻撃のダメージ量は、眠り状態またはフロストバーン状態の敵1体につき100%ずつ増加する（最大400%ダメージ増加。眠り状態であり、かつフロストバーン状態の敵は1体分として数える）。この攻撃は、対象のダメージ減少効果を無視し、またアイアンハートなどHPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n-パワーチャージは重複せず、場から離れると解除される。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "スターパレード",
+                "SkillDescription": "敵全員に「怯え」を付与する。また、味方全員に「アンガー」を付与し、HPを使用者の攻撃力の1000%分回復する。これらの効果は、対象の既存の「アンガー」系及び「怯え」系の効果を上書きする。\n\nその後、「燃焼状態」または「水属性」のいずれかを満たす、自身を除いた味方全員のTUを0にして即座に次のターンを与える。この効果で与えられたターンにおいて、その味方は「ギフトターン」系のスキルは使用できない。\n\nこのスキルはバトルに参加した（バトル開始時点で場に出ている、または控えから場に出た）時にロックされ、使用するたびに再度ロックされる。ロックは、場にいる敵（このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になると解除される。\n\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、怯え状態のキャラは次の自分のターンの攻撃力が0.75倍される。これらの状態はそのターン終了時に解除される。怯え状態の効果は、他の効果によって攻撃力が増加している場合に減少することがある。",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "大大大革命！",
+                "SkillDescription": "敵全員に600%ダメージ。このスキルは対象のカウンター状態及びスキン系のパッシブスキルの効果と、ダメージ減少効果を無視する。\n\nその後、この攻撃を受けた敵全員に、状態変化「眠り(熟睡)」(100TU持続)または「フロストバーン」のいずれかを、それぞれランダムで付与する。眠り(熟睡)状態は、対象の既存の状態変化を上書きし、また対象が場に出てからすでに眠り状態になって目覚めている場合にも付与される。\n\n使用者がパワーチャージ状態の時のみ使用可能。使用後、パワーチャージは解除される。\n\n-眠り(熟睡)状態は、燃焼状態及び眠り状態に上書きされず、またクリア系の効果で解除されない。\n-フロストバーン状態のキャラは、次に自身にターンが回った時、そのターンは眠り状態の時のようにスキップされる。その後、フロストバーンは解除され、状態変化「燃焼」が付与される（既存の状態変化は上書きされる）。フロストバーンは状態変化ではないが、クリア（悪影響のある状態変化を解除する）系の効果で解除される。フロストバーンは場を離れると解除される。フロストバーンは重複せず、またボスには付与されない。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "いつでも私がナンバーワン",
+                "SkillDescription": "・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、以下の効果が発動する。\n-このキャラは自身に、「ワンタイムアンチ即死」を付与する。\n-味方全員に「天才バリア」(200TU持続)を付与する。\n\n・このキャラが場に出てから自身の最初のターンの後、以下の効果が発動する。\n-場にいる味方全員の悪影響のある状態変化を解除し、またHPをそれぞれの最大値まで回復する。\n-その後、20%の確率で、敵全員に「フロストバーン」を付与する。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、このキャラは自身の悪影響のある状態変化を解除し、自身のHPを最大値の25%分回復する。\n\n・このキャラは、「天才バリア」を所持している間、HPが0になるダメージを受けてもHPを1残して生き残る。\n\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。\n-「天才バリア」を持つキャラは、敵の攻撃で受けるダメージが35%減少する。この効果はバリア系の効果とみなされ、アーマーなど他のダメージ減少効果と重複するが、天才バリア自身とは重複せず、また他のバリア系のダメージ減少効果とも重複しない。"
+            },
+            {
+                "SkillTitle": "元気ハツラツ天才ちゃん",
+                "SkillDescription": "・このキャラの攻撃では、対象の眠り状態は解除されない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・敵のターンの終了時に味方のスピリットが8未満であれば、味方のスピリットが1増加する。\n\n・このキャラが攻撃で敵にダメージを与えた時、そのターンの終了時に味方のスピリットが2倍になる（一度の攻撃で複数体にダメージを与えた場合にも、発動は一度のみ）。ただし、味方のスピリットが0だった場合は1増加する。\n\n・敵味方問わず任意のキャラのターン終了時に、味方のスピリットが8以上であった時、このキャラは自身の悪影響のある状態変化を解除し、さらに自身のTUを0にして即座に次のターンを得る。この効果は発動後、50TU経過するまで発動しなくなる。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "火耐性Lv3",
+                "SkillDescription": "火属性のキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:槍",
+                "SkillDescription": "槍も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "槍"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "ちょっと待ってなさい…ええとこれがこうで…\nはい、問題解決！この天才科学者にかかれば\n解決出来ない問題なんてないんだからっ！\n\nあら、待たせたわね、私はワシントン！\n天才科学者にして赤竜機関の頭脳！\n“出来ない”ことはなにもないわ！"
+            ],
+            "Login": [
+                "さっさと行きましょう！"
+            ],
+            "Tap": [
+                "あ～！見つけたわよ",
+                "ピアノって難しいわね…",
+                "次の領域を研究してるの"
+            ],
+            "Idle": [
+                "ムズムズしてくる…無性に！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "抜群エイム": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "スターパレード": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "大大大革命！": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "WashingtonRegular02": {
+        "Name": "ワシントン",
+        "Name2": "いつでも私がナンバーワン！",
+        "FullName": "ワシントン - いつでも私がナンバーワン！",
+        "Profile": "成長するにつれ、ショパンの才能は加速度的に開花していく。\n複雑な理論を楽しげに語る彼女の言葉が、次第に遠く感じられた。\nかつては理解できていたはずなのに。自分だけが彼女の理解者だったのに。平凡な自分が、少しずつ置いていかれていく現実が怖かった。",
+        "Profile_Ascended": "ショパンと一緒にいられないなんて、嫌だ。ワシントンはそう決意する。天才になろう、と。彼女の隣に立ち続けるために。\n才能が足りないなら、努力で埋めるしかない。誰よりも学び、誰よりも考え、挑み続けた。その非凡な努力の果てに、ワシントンはついにショパンに追いつく。\nずっと二人でいるために選んだ、彼女なりの戦いだった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大剣",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 34,
+        "Atk_Base": 1447,
+        "Hp_Base": 7185,
+        "Speed": 620,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（水）",
+            "SkillDescription": "水属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "抜群エイム",
+                "SkillDescription": "敵1体に100%ダメージを与え、使用者はパワーチャージ状態になる。この攻撃のダメージ量は、眠り状態またはフロストバーン状態の敵1体につき100%ずつ増加する（最大400%ダメージ増加。眠り状態であり、かつフロストバーン状態の敵は1体分として数える）。この攻撃は、対象のダメージ減少効果を無視し、またアイアンハートなどHPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n-パワーチャージは重複せず、場から離れると解除される。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "スターパレード",
+                "SkillDescription": "敵全員に「怯え」を付与する。また、味方全員に「アンガー」を付与し、HPを使用者の攻撃力の1000%分回復する。これらの効果は、対象の既存の「アンガー」系及び「怯え」系の効果を上書きする。\n\nその後、「燃焼状態」または「水属性」のいずれかを満たす、自身を除いた味方全員のTUを0にして即座に次のターンを与える。この効果で与えられたターンにおいて、その味方は「ギフトターン」系のスキルは使用できない。\n\nこのスキルはバトルに参加した（バトル開始時点で場に出ている、または控えから場に出た）時にロックされ、使用するたびに再度ロックされる。ロックは、場にいる敵（このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になると解除される。\n\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、怯え状態のキャラは次の自分のターンの攻撃力が0.75倍される。これらの状態はそのターン終了時に解除される。怯え状態の効果は、他の効果によって攻撃力が増加している場合に減少することがある。",
+                "TU": 10,
+                "Spirit": "+5"
+            },
+            {
+                "SkillTitle": "大大大革命！",
+                "SkillDescription": "敵全員に600%ダメージ。このスキルは対象のカウンター状態及びスキン系のパッシブスキルの効果と、ダメージ減少効果を無視する。\n\nその後、この攻撃を受けた敵全員に、状態変化「眠り(熟睡)」(100TU持続)または「フロストバーン」のいずれかを、それぞれランダムで付与する。眠り(熟睡)状態は、対象の既存の状態変化を上書きし、また対象が場に出てからすでに眠り状態になって目覚めている場合にも付与される。\n\n使用者がパワーチャージ状態の時のみ使用可能。使用後、パワーチャージは解除される。\n\n-眠り(熟睡)状態は、燃焼状態及び眠り状態に上書きされず、またクリア系の効果で解除されない。\n-フロストバーン状態のキャラは、次に自身にターンが回った時、そのターンは眠り状態の時のようにスキップされる。その後、フロストバーンは解除され、状態変化「燃焼」が付与される（既存の状態変化は上書きされる）。フロストバーンは状態変化ではないが、クリア（悪影響のある状態変化を解除する）系の効果で解除される。フロストバーンは場を離れると解除される。フロストバーンは重複せず、またボスには付与されない。",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "ゴールドラッシュ",
+                "SkillDescription": "敵2体に1000%ダメージ。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する。さらに、対象のスキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。\n\nこのキャラは、次に控えから場に出てくる敵1体に、「フロストバーン」を付与する。\n\nこのスキルはバトルに参加した（バトル開始時点で場に出ている、または控えから場に出た）時にロックされる。ロックは、このキャラが敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にすると解除される。このスキルは使用後にロックされる。ただし、この攻撃で敵（このバトル中にスキルの効果で召喚されたキャラを除く）を戦闘不能にした場合はロックされない。\n1回のバトルにつき2回まで使用可能。",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "いつでも私がナンバーワン",
+                "SkillDescription": "・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、以下の効果が発動する。\n-このキャラは自身に、「ワンタイムアンチ即死」を付与する。\n-味方全員に「天才バリア」(200TU持続)を付与する。\n\n・このキャラが場に出てから自身の最初のターンの後、以下の効果が発動する。\n-場にいる味方全員の悪影響のある状態変化を解除し、またHPをそれぞれの最大値まで回復する。\n-その後、20%の確率で、敵全員に「フロストバーン」を付与する。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、このキャラは自身の悪影響のある状態変化を解除し、自身のHPを最大値の25%分回復する。\n\n・このキャラは、「天才バリア」を所持している間、HPが0になるダメージを受けてもHPを1残して生き残る。\n\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。\n-「天才バリア」を持つキャラは、敵の攻撃で受けるダメージが35%減少する。この効果はバリア系の効果とみなされ、アーマーなど他のダメージ減少効果と重複するが、天才バリア自身とは重複せず、また他のバリア系のダメージ減少効果とも重複しない。"
+            },
+            {
+                "SkillTitle": "元気ハツラツ天才ちゃん",
+                "SkillDescription": "・このキャラの攻撃では、対象の眠り状態は解除されない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・敵のターンの終了時に味方のスピリットが8未満であれば、味方のスピリットが1増加する。\n\n・このキャラが攻撃で敵にダメージを与えた時、そのターンの終了時に味方のスピリットが2倍になる（一度の攻撃で複数体にダメージを与えた場合にも、発動は一度のみ）。ただし、味方のスピリットが0だった場合は1増加する。\n\n・敵味方問わず任意のキャラのターン終了時に、味方のスピリットが8以上であった時、このキャラは自身の悪影響のある状態変化を解除し、さらに自身のTUを0にして即座に次のターンを得る。この効果は発動後、50TU経過するまで発動しなくなる。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "火耐性Lv3",
+                "SkillDescription": "火属性のキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:槍",
+                "SkillDescription": "槍も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "槍"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "ちょっと待ってなさい…ええとこれがこうで…\nはい、問題解決！この天才科学者にかかれば\n解決出来ない問題なんてないんだからっ！\n\nあら、待たせたわね、私はワシントン！\n天才科学者にして赤竜機関の頭脳！\n“出来ない”ことはなにもないわ！"
+            ],
+            "Login": [
+                "さっさと行きましょう！"
+            ],
+            "Tap": [
+                "あ～！見つけたわよ",
+                "ピアノって難しいわね…",
+                "次の領域を研究してるの"
+            ],
+            "Idle": [
+                "ムズムズしてくる…無性に！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "Kills1": 1.01,
+                "AllySpirit8OrMore": 1.15
+            },
+            "SkillUse": {
+                "抜群エイム": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "4AllySleepingOrFrostburned": 2
+                    }
+                },
+                "スターパレード": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast2WaterAllies": 1000,
+                        "2AlliesBurning": 1000,
+                        "1AllyAtHPBelow50Percent": 1000,
+                        "2AlliesAtHPBelow75Percent": 1000,
+                        "AllySpirit3OrMoreNotExtraTurnTrigger": 1000
+                    }
+                },
+                "大大大革命！": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "EnemyHas2Imposters": 0.85,
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "1MechaSisterNewOnEnemyTeam": 1.1
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "4AllySleepingOrFrostburned": 0.25
+                    }
+                },
+                "ゴールドラッシュ": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB77": {
+                "RelationshipName": "ふたりの天才",
+                "RelationshipFamily": [
+                    "ChopinRegular01",
+                    "WashingtonRegular01",
+                    "ElfMusician01",
+                    "FireElfKnight01",
+                    "ArcDemon01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
     }
 }
