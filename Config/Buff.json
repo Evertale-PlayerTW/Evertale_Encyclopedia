@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1775714205,
+	"Time": 1775807248,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -83428,7 +83428,7 @@
 					"sourceBuffs": ["RemoveActive4LOCKWashingtonRegular","FudgeUsedAlt"],
 					"sameTeam": false,
 					"spreadCondition": "KillsMoreThanSkillUsedAlt",
-					"deadMonsterConditions": "NotTransformingOrMirage"
+					"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
 				},{
 					"sourceBuffs": ["FudgeUsedAltEndOfTurn"],
 					"sameTeam": false,
@@ -83518,7 +83518,7 @@
 			},{
 				"sourceBuffs": ["RemoveActive2LOCKWashingtonRegular"],
 				"sameTeam": false,
-				"spreadCondition": "IsNotSummonedOrTransformingOrMirage"	
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
 			}],
 			"duration": -1,
 			"showAsTimer": false,
@@ -84058,7 +84058,7 @@
 					"sourceBuffs": ["RemoveActive4LOCKWashingtonRegular","FudgeUsedAlt"],
 					"sameTeam": false,
 					"spreadCondition": "KillsMoreThanSkillUsedAlt",
-					"deadMonsterConditions": "NotTransformingOrMirage"
+					"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
 				},{
 					"sourceBuffs": ["FudgeUsedAltEndOfTurn"],
 					"sameTeam": false,
@@ -84164,7 +84164,7 @@
 			},{
 				"sourceBuffs": ["RemoveActive2LOCKWashingtonRegular"],
 				"sameTeam": false,
-				"spreadCondition": "IsNotSummonedOrTransformingOrMirage"	
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"	
 			}],
 			"duration": -1,
 			"showAsTimer": false,
