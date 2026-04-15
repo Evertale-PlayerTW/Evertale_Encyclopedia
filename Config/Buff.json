@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1775807248,
+	"Time": 1776224622,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -83439,6 +83439,7 @@
 					"spreadCondition": "IsNotFirstTurnBuffLockWashingtonRegular"
 				},{
 					"selfBuffs": ["RemoveEndOfWashingtonRegularFirstTurnEOT","FirstTurnBuffLockWashingtonRegularBoss"],
+					"allyBuffs": ["FirstTurnBuffLockWashingtonRegularBoss"],
 					"spreadCondition": "IsNotFirstTurnBuffLockWashingtonRegular"
 			}],
 			"duration": -1,
@@ -83574,9 +83575,12 @@
 		},
 		"RemoveEndOfWashingtonRegularFirstTurnEOT": {
 			"class": "Buff",
-			"behaviors": ["RemoveBuffs"],
+			"behaviors": ["RemoveBuffs","RemoveBuffs"],
 			"behaviorOverrides": [{
 				"name": "EndOfWashingtonRegularFirstTurnEOT"
+			},
+            {
+                "name": "PurifyAndHealFullAllAlliesEOT"
 			}],
 			"duration": 0,
 			"showAsTimer": false,
@@ -84043,7 +84047,7 @@
 		"CrossingDelawarePassiveAWashingtonRegular":{
 			"class": "Buff",
 			"stackName": "CrossingDelawarePassiveAWashingtonRegular",
-			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","BuffWhenMonstersDie","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","BuffWhenMonstersDie","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurnEnd"],
 			"behaviorOverrides": [{
 					"sourceBuffs": ["NavyBarrier200TU","HoldGroundIfNavyBarrier","Active2LOCKWashingtonRegular","Active4LOCKWashingtonRegular","InstantKillImmunityOnce"],
 					"allyBuffs": ["NavyBarrier200TU"]
@@ -84064,24 +84068,20 @@
 					"sameTeam": false,
 					"spreadCondition": "KillsMoreThanSkillUsedAlt"
 				},{
-					"selfBuffs": ["EndOfWashingtonRegularFirstTurnEOTLV1"],
+					"selfBuffs": ["PurifyAndHealFullAllAlliesEOT","EndOfWashingtonRegularFirstTurnEOTLV1"],
 					"spreadCondition": "HasNoAwakening"
 				},{
-					"selfBuffs": ["EndOfWashingtonRegularFirstTurnEOTLV2"],
+					"selfBuffs": ["PurifyAndHealFullAllAlliesEOT","EndOfWashingtonRegularFirstTurnEOTLV2"],
 					"spreadCondition": "Has1AwakeningExact"
 				},{
-					"selfBuffs": ["EndOfWashingtonRegularFirstTurnEOTLV3"],
+					"selfBuffs": ["PurifyAndHealFullAllAlliesEOT","EndOfWashingtonRegularFirstTurnEOTLV3"],
 					"spreadCondition": "Has2AwakeningsExact"
 				},{
-					"selfBuffs": ["EndOfWashingtonRegularFirstTurnEOTLV4"],
+					"selfBuffs": ["PurifyAndHealFullAllAlliesEOT","EndOfWashingtonRegularFirstTurnEOTLV4"],
 					"spreadCondition": "Has3AwakeningsExact"
 				},{
-					"selfBuffs": ["EndOfWashingtonRegularFirstTurnEOTLV5"],
+					"selfBuffs": ["PurifyAndHealFullAllAlliesEOT","EndOfWashingtonRegularFirstTurnEOTLV5"],
 					"spreadCondition": "Has4Awakenings"
-				},{
-					"allyBuffs": ["RemoveBuffs","HealFull"],
-					"selfBuffs": ["RemoveBuffs","HealFull"],
-					"spreadCondition": "IsNotFirstTurnBuffLockWashingtonRegular"
 				},{
 					"selfBuffs": ["RemoveEndOfWashingtonRegularFirstTurnEOT","FirstTurnBuffLockWashingtonRegular"],
 					"spreadCondition": "IsNotFirstTurnBuffLockWashingtonRegular"
@@ -84091,6 +84091,19 @@
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
 			"noIconShownOnBattleStatus": true
+		},
+		"PurifyAndHealFullAllAlliesEOT": {
+			"class": "Buff",
+			"stackName": "PurifyAndHealFullAllAlliesEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+					"allyBuffs": ["RemoveBuffs","HealFull"],
+					"selfBuffs": ["RemoveBuffs","HealFull"]
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
 		},
 		"BrideHeal25PercentWashingtonRegular": {
 			"class": "Buff",
