@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1776935264,
+  "Time": 1777008195,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -29100,6 +29100,62 @@
       "tuCost": 100,
       "useLimit": 0,
       "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackASnowWhiteNew",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        6,
+        9
+      ],
+      "config": "SingleAttackASnowWhiteNew",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "BloodyBuffASnowWhiteNew",
+      "class": "Ability",
+      "config": "BloodyBuffASnowWhiteNew",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritCost": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllyBuffASnowWhiteNew",
+      "class": "Ability",
+      "config": "AllyBuffASnowWhiteNew",
+      "tuCost": 1,
+      "useLimit": 10,
+      "spiritGain": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SpecialAttackASnowWhiteNew",
+      "class": "Ability",
+      "abilityScalor": 7,
+      "config": "SpecialAttackASnowWhiteNew",
+      "tuCost": 70,
+      "useLimit": 0,
+      "spiritCost": 2,
+      "blockTargetManipulation": 1,
+      "showConfirmation": 0
+    },
+    {
+      "name": "HealBombSingleAllyA",
+      "class": "Ability",
+      "config": "HealBombSingleAllyA",
+      "tuCost": 0,
+      "useLimit": 0,
+      "spiritCost": 1,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

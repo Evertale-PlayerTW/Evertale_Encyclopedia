@@ -15157,6 +15157,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -15535,6 +15546,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -15913,6 +15935,17 @@
                     "PeachGirlRegular01",
                     "FurCoatLizard01",
                     "SquidHead01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
@@ -16299,6 +16332,17 @@
                     "PeachGirlRegular01",
                     "FurCoatLizard01",
                     "SquidHead01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
@@ -36196,6 +36240,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -36441,6 +36496,17 @@
                     "GreenDragon01",
                     "SquidHead01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -127588,6 +127654,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -127789,6 +127866,17 @@
                     "SmokePipeFrog01",
                     "AirElfWarrior01",
                     "RoseElf01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -130070,7 +130158,7 @@
         "Hp_Base": 7330,
         "Speed": 620,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "この天才科学者を呼んだかしら！",
         "LeaderSkill": {
             "SkillTitle": "攻撃力&HPアップ（水）",
@@ -130436,6 +130524,476 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "SnowWhiteNew01": {
+        "Name": "白雪姫",
+        "Name2": "聖黒の雪姫",
+        "FullName": "白雪姫 - 聖黒の雪姫",
+        "Profile": "光と影――白雪姫と黒雪姫。だが、その影の魂は、自らの存在が次第に薄れていくのを感じていた。原因は、図らずも勇者や白雪姫と交流するうちに芽生えた感情にあった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 28,
+        "Atk_Base": 1049,
+        "Hp_Base": 5965,
+        "Speed": 540,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "白と黒の雪が交わる時\n新たな光が生まれる",
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力アップ（闇）",
+            "SkillDescription": "闇属性の味方の攻撃力を15%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "サバイバルアロー",
+                "SkillDescription": "敵1体に400%ダメージ。使用者が場に出てから100TU以上経過していれば700%ダメージ、200TU以上経過していれば1000%ダメージ。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。\n\n対象の眠り状態及び燃焼状態を解除し（眠り(熟睡)状態や燃焼(20倍回復)状態なども含む）、状態変化「毒(致命)」(999TU持続)を付与する。対象の既存の状態変化は上書きされる。\n\nその後、敵の控えのランダムな位置に、「デスモリー」を1体出現させる。このターンの開始時に敵の控えがいなかった場合、この効果は発動しない。\n\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」及び「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、及びボスには付与されない。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ブラッドサイクル",
+                "SkillDescription": "味方の控えの最後尾にモリー系の味方がいる場合、そのモリーを戦闘不能にして、そのモリーの属性に応じて以下の効果が発動する。\n-水属性、火属性、光属性:場にいる火属性でない敵全員に状態変化「燃焼」を付与する。その後、場にいる敵全員に状態変化「眠り」(100TU持続)を付与する（この効果は、場に出てからすでに眠り状態になって目覚めた敵にも発動する）。対象の既存の状態変化は上書きされる。\n-雷属性、地属性、闇属性:場にいる味方全員のTUを50TU減少させ、また状態変化「ステルス(3回)」および「ステルスシールド」を付与する。対象の既存の状態変化は上書きされる。\n\n味方の控えの最後尾にモリー系の味方がおらず、上記効果が発動しなかった場合、「超デスモリー」「超ライトモリー」のいずれかをそれぞれランダムで合計3体、味方の控えの最後尾に出現させる。\n\n使用後、このスキルは50TUの間ロックされる。\n\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。\n-ステルスシールドを持つキャラは、自身がステルス状態のとき、それがステルス状態以外の状態変化に上書きされるのを一度だけ無効化する。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "コントラスト",
+                "SkillDescription": "場にいる味方全員の毒状態および眠り状態を解除し（眠り(熟睡)状態や毒(致命)状態なども含む）、HPを使用者の攻撃力の500%分回復する。\n\nその後、場にいるHPが25%以下のランダムな敵1体を即座に戦闘不能にする（使用者は対象を攻撃で倒したとみなされる）。この効果の発動対象となるHPの条件は、使用者が場に出てからこのスキルを使用した回数に応じて25%ずつ増加していく（すでに3回使用している場合、4回目以降はHPが最大の敵も対象となる）。この効果は対象のリベンジ系及び蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキルおよびアクティブスキルの効果を無視する。ボス、および「幻影」のパッシブスキルを持つキャラは、この効果の対象にならない。\n\nこのスキルはバトルに参加した（バトル開始時点で場に出ている、または控えから場に出た）時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが別のアクティブスキルを使用すると解除される。1回のバトルにつき10回まで使用可能。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "黄昏の庭",
+                "SkillDescription": "ランダムな敵2体に800%ダメージ。この攻撃はブロックされず、また対象のダメージ減少効果や、アイアンハートなどHPが1を下回るダメージを耐えるパッシブスキルおよびアクティブスキルの効果も無視する（ボスの持つスキルは除く）。この攻撃はステルス状態の効果を無視し、またその他の、複数体を対象にした攻撃が当たらなくなる効果も無視する。\n\nこのキャラが場に出てから、場にいるキャラ（敵味方問わず、また「幻影」のパッシブスキルを持つ味方を含む）が5体以上戦闘不能になっていると使用可能。",
+                "TU": 70,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "聖黒の雪姫",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは毒状態にならない。\n\n・このキャラは、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果で戦闘不能にならない。\n\n・モリー系の味方が控えから場に出るたびに、このキャラは20%の確率で自身のTUを0にし、また自身の悪影響のある状態変化を解除する。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、以下の効果が発動する。\n-味方が控えを含めて5体以上いる場合、場にいる雷属性、地属性、闇属性の味方1体につき「超デスモリー」を1体、場にいる水属性、火属性、光属性の味方1体につき「超ライトモリー」を1体、味方の控えのランダムな位置にそれぞれ出現させる。このバトル中にスキルの効果で召喚されたキャラは、この効果のそれぞれの条件における数に含まれない。\n-敵が控えを含めて5体以上いる場合、場にいる敵1体につき「デスモリー」を1体、敵の控えのランダムな位置に出現させる。このバトル中にスキルの効果で召喚されたキャラは、この効果のそれぞれの条件における数に含まれない。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "眠り耐性Lv3",
+                "SkillDescription": "自分が受ける眠り状態の持続時間を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Conjures": [
+            "DeathMinion01",
+            "ExcaliburMinion01",
+            "SuperLifeMinion01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "もしかして…\nまた…会いに来てくれたんですか？\n\nどんな暗闇の中にいても\nいつでも私を見つけ出してくれる…\nあなたこそ、私の光です。"
+            ],
+            "Login": [
+                "あ…こっちですよ！"
+            ],
+            "Tap": [
+                "私って、妹というより…",
+                "…いいこと教えてあげる。",
+                "今のうちに教えなさい"
+            ],
+            "Idle": [
+                "ぐー、すぴー…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "CrappyMonsterInBack": 1.05,
+                "Kills1": 1.1,
+                "IsWorldDeathCounter5": 1.1
+            },
+            "SkillUse": {
+                "サバイバルアロー": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "TimeInCombat200AndEnemyHasNoProtector": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "ブラッドサイクル": {
+                    "BaseWeight": 75,
+                    "Source": {
+                        "Spirit2OrLessIsWorldDeathCounter5": 0.001,
+                        "Spirit2OrLessIsWorldDeathCounter5ALT": 0.001,
+                        "TimeInCombat200": 100
+                    }
+                },
+                "コントラスト": {
+                    "BaseWeight": 2000,
+                    "Source": {
+                        "TimeInCombat200": 100
+                    }
+                },
+                "黄昏の庭": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "TimeInCombat200AndEnemyHasNoProtector": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "SnowWhiteNew02": {
+        "Name": "白雪姫",
+        "Name2": "聖黒の雪姫",
+        "FullName": "白雪姫 - 聖黒の雪姫",
+        "Profile": "その心の隙に付け込むように、封印されていたはずの「もう一つの影」が再び息を吹き返す。かつて彼女の身体を奪おうとして、黒雪姫に葬り去られた、悪意と憎しみに塗れた黒き魔女である。",
+        "Profile_Ascended": "闇の底で、白雪姫と黒雪姫は互いに手を取り合った。それは、ほんの束の間の共闘。本来、光と闇は交わらないはずだった。闇は光にかき消されてしまうものだから。それでも、黒雪姫は消えなかった。\nいつしか彼女は、光へと至る境界を踏み越えていたのだ。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 34,
+        "Atk_Base": 1316,
+        "Hp_Base": 7840,
+        "Speed": 540,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力アップ（闇）",
+            "SkillDescription": "闇属性の味方の攻撃力を15%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "サバイバルアロー",
+                "SkillDescription": "敵1体に400%ダメージ。使用者が場に出てから100TU以上経過していれば700%ダメージ、200TU以上経過していれば1000%ダメージ。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。\n\n対象の眠り状態及び燃焼状態を解除し（眠り(熟睡)状態や燃焼(20倍回復)状態なども含む）、状態変化「毒(致命)」(999TU持続)を付与する。対象の既存の状態変化は上書きされる。\n\nその後、敵の控えのランダムな位置に、「デスモリー」を1体出現させる。このターンの開始時に敵の控えがいなかった場合、この効果は発動しない。\n\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」及び「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、及びボスには付与されない。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ブラッドサイクル",
+                "SkillDescription": "味方の控えの最後尾にモリー系の味方がいる場合、そのモリーを戦闘不能にして、そのモリーの属性に応じて以下の効果が発動する。\n-水属性、火属性、光属性:場にいる火属性でない敵全員に状態変化「燃焼」を付与する。その後、場にいる敵全員に状態変化「眠り」(100TU持続)を付与する（この効果は、場に出てからすでに眠り状態になって目覚めた敵にも発動する）。対象の既存の状態変化は上書きされる。\n-雷属性、地属性、闇属性:場にいる味方全員のTUを50TU減少させ、また状態変化「ステルス(3回)」および「ステルスシールド」を付与する。対象の既存の状態変化は上書きされる。\n\n味方の控えの最後尾にモリー系の味方がおらず、上記効果が発動しなかった場合、「超デスモリー」「超ライトモリー」のいずれかをそれぞれランダムで合計3体、味方の控えの最後尾に出現させる。\n\n使用後、このスキルは50TUの間ロックされる。\n\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。\n-ステルスシールドを持つキャラは、自身がステルス状態のとき、それがステルス状態以外の状態変化に上書きされるのを一度だけ無効化する。",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "コントラスト",
+                "SkillDescription": "場にいる味方全員の毒状態および眠り状態を解除し（眠り(熟睡)状態や毒(致命)状態なども含む）、HPを使用者の攻撃力の500%分回復する。\n\nその後、場にいるHPが25%以下のランダムな敵1体を即座に戦闘不能にする（使用者は対象を攻撃で倒したとみなされる）。この効果の発動対象となるHPの条件は、使用者が場に出てからこのスキルを使用した回数に応じて25%ずつ増加していく（すでに3回使用している場合、4回目以降はHPが最大の敵も対象となる）。この効果は対象のリベンジ系及び蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキルおよびアクティブスキルの効果を無視する。ボス、および「幻影」のパッシブスキルを持つキャラは、この効果の対象にならない。\n\nこのスキルはバトルに参加した（バトル開始時点で場に出ている、または控えから場に出た）時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが別のアクティブスキルを使用すると解除される。1回のバトルにつき10回まで使用可能。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "黄昏の庭",
+                "SkillDescription": "ランダムな敵2体に800%ダメージ。この攻撃はブロックされず、また対象のダメージ減少効果や、アイアンハートなどHPが1を下回るダメージを耐えるパッシブスキルおよびアクティブスキルの効果も無視する（ボスの持つスキルは除く）。この攻撃はステルス状態の効果を無視し、またその他の、複数体を対象にした攻撃が当たらなくなる効果も無視する。\n\nこのキャラが場に出てから、場にいるキャラ（敵味方問わず、また「幻影」のパッシブスキルを持つ味方を含む）が5体以上戦闘不能になっていると使用可能。",
+                "TU": 70,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "聖黒の雪姫",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは毒状態にならない。\n\n・このキャラは、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果で戦闘不能にならない。\n\n・モリー系の味方が控えから場に出るたびに、このキャラは20%の確率で自身のTUを0にし、また自身の悪影響のある状態変化を解除する。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、以下の効果が発動する。\n-味方が控えを含めて5体以上いる場合、場にいる雷属性、地属性、闇属性の味方1体につき「超デスモリー」を1体、場にいる水属性、火属性、光属性の味方1体につき「超ライトモリー」を1体、味方の控えのランダムな位置にそれぞれ出現させる。このバトル中にスキルの効果で召喚されたキャラは、この効果のそれぞれの条件における数に含まれない。\n-敵が控えを含めて5体以上いる場合、場にいる敵1体につき「デスモリー」を1体、敵の控えのランダムな位置に出現させる。このバトル中にスキルの効果で召喚されたキャラは、この効果のそれぞれの条件における数に含まれない。"
+            },
+            {
+                "SkillTitle": "蘇る魔女",
+                "SkillDescription": "・このキャラのHPが1より多い状態から、敵の攻撃や状態異常によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチバーン」「ワンタイムアンチスリープ」「ワンタイムアンチスタン」及び状態変化「ステルス(3回)」を付与する。既存の状態変化は上書きされる。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n\n・このキャラは、自身のターンが終了するたびに自身に「ワンタイムアンチバーン」「ワンタイムアンチスリープ」「ワンタイムアンチスタン」及び状態変化「ステルス(3回)」を付与する。既存の状態変化は上書きされる。\n\n・このキャラは、自身にターンが回るたびに、場にいる味方1体につき、自身のHPが最大値の25%分回復する。\n\n・このキャラが敵の攻撃で受けるダメージは30%減少する。この効果で減少するダメージ量は、場または控えにいるモリー系の味方1体につき10%増加する（最大70%まで減少）。\n\n・このキャラは、敵味方問わず任意のキャラのターン終了時に、自身のHPが最大値の50%未満であり、かつ味方の控えの最後尾にモリー系の味方がいた場合、そのモリーを戦闘不能にして以下の効果が発動する。\n-味方全員のHPを最大まで回復し、「アンガー」を付与する。対象の既存の「アンガー」系及び「怯え」系の効果は上書きされる。アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n-その後、自身のTUを0にして、即座に次のターンを得る。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "眠り耐性Lv3",
+                "SkillDescription": "自分が受ける眠り状態の持続時間を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Conjures": [
+            "DeathMinion01",
+            "ExcaliburMinion01",
+            "SuperLifeMinion01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "もしかして…\nまた…会いに来てくれたんですか？\n\nどんな暗闇の中にいても\nいつでも私を見つけ出してくれる…\nあなたこそ、私の光です。"
+            ],
+            "Login": [
+                "あ…こっちですよ！"
+            ],
+            "Tap": [
+                "私って、妹というより…",
+                "…いいこと教えてあげる。",
+                "今のうちに教えなさい"
+            ],
+            "Idle": [
+                "ぐー、すぴー…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "CrappyMonsterInBack": 1.05,
+                "Kills1": 1.1,
+                "IsWorldDeathCounter5": 1.1
+            },
+            "SkillUse": {
+                "サバイバルアロー": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "TimeInCombat200AndEnemyHasNoProtector": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "ブラッドサイクル": {
+                    "BaseWeight": 75,
+                    "Source": {
+                        "Spirit2OrLessIsWorldDeathCounter5": 0.001,
+                        "Spirit2OrLessIsWorldDeathCounter5ALT": 0.001,
+                        "TimeInCombat200": 100
+                    }
+                },
+                "コントラスト": {
+                    "BaseWeight": 2000,
+                    "Source": {
+                        "TimeInCombat200": 100
+                    }
+                },
+                "黄昏の庭": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "TimeInCombat200AndEnemyHasNoProtector": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "凍てつく鋼",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "SuperLifeMinion01": {
+        "Name": "超ライトモリー",
+        "FullName": "超ライトモリー",
+        "Profile": "光の守護精霊。日光浴が好き。",
+        "Rarity": "N",
+        "Stars": 0,
+        "Stars_Curr": 0,
+        "Stars_Max": 0,
+        "PreferredWeapon": "剣",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 0,
+        "Atk_Base": 208,
+        "Hp_Base": 1099,
+        "Speed": 584,
+        "Power": 12834,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "攻撃",
+                "SkillDescription": "敵1体に攻撃。味方のスピリットが1増加する。",
+                "TU": 100,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "ヒールボム",
+                "SkillDescription": "使用者を戦闘不能にして、自身を除く味方1体のHPを最大まで回復させる。",
+                "TU": 0,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "オートブロック+",
+                "SkillDescription": "このキャラは常にブロック中として扱われ、他の味方1体、もしくは2体を対象にした攻撃の一つを100%の確率で代わりに受ける。ダメージを与えないスキルには発動しない。"
+            },
+            {
+                "SkillTitle": "幻影",
+                "SkillDescription": "・このキャラは戦闘不能になっても、他のキャラのスキルの発動や強化などの条件判定において、戦闘不能になったとみなされない。\n\n・このキャラは攻撃でダメージを受けた時、そのターン後まで生き残っていた場合はHPが全回復する。\n\n・このキャラが「燃焼」「毒(4倍)」「毒(20倍)」のいずれかの状態で、敵味方問わず誰かにターンが回った時、そのターン終了後にこのキャラは戦闘不能になる。\n\n・このキャラが受けるダメージは、通常の2.5倍の量になる。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "攻撃": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HPAbove1Percent",
+                        "HPBelow5Percent"
+                    ],
+                    "Target": {
+                        "HPBelow10Percent": 2,
+                        "HPBelow50Percent": 1.1,
+                        "HasArmor": 1.05
+                    }
+                },
+                "ヒールボム": {
+                    "BaseWeight": 0.5,
+                    "Target": {
+                        "HPBelow75Percent": 1000.1,
+                        "HPBelow50Percent": 1000.1,
+                        "HPBelow25Percent": 1000.1
+                    }
+                }
             }
         }
     }

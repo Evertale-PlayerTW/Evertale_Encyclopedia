@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1777342755,
+	"Time": 1777345296,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -45111,6 +45111,142 @@
 			"attackScalors": ["GoodVsNotBurning"],
 			"conditionedAbilityEffects": ["KintaroSpecial","KintaroSpecial"],
 			"useCondition": "IsNotActive4LOCKKintaroRegular"
+		},
+		"SingleAttackASnowWhiteNew": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreArmor","IgnoreSkin","HardIgnoreBlockDeath"]
+			},{
+				"buffs": ["RemoveBurn","RemoveSleep","BurnImmunityTempForRevenge","LethalPoison"],
+				"chance": 1.0,
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true
+			},{
+				"buffs": ["Add1DeathMinionToRandomReinforcementsEOT"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "IsEnemyHasReinforcementsCheck"
+			},{
+				"buffs": ["RemoveActive3LOCKSnowWhiteNew"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"attackScalors":["TimeInCombat100","TimeInCombat200"],
+			"conditionedAbilityEffects": ["SnowWhiteNewAttack1","SnowWhiteNewAttack1"],
+			"flags": ["Summon","Poisoner"],
+			"recommendEffectWhenUsable": -2,
+			"abilityEffect": "SnowWhiteNewAttack1"
+		},
+		"BloodyBuffASnowWhiteNew": {
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Friendly",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"randomBuffFromList": ["Add1ExcaliburTokenToEnd","Add1SuperLifeMinionToEnd"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "NoTokenLastInReinforcements"
+			},{
+				"randomBuffFromList": ["Add1ExcaliburTokenToEnd","Add1SuperLifeMinionToEnd"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "NoTokenLastInReinforcements"
+			},{
+				"randomBuffFromList": ["Add1ExcaliburTokenToEnd","Add1SuperLifeMinionToEnd"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "NoTokenLastInReinforcements"		
+			},{
+				"buffs": ["TokenElementCheckSnowWhiteNew","SacLastReinforcement"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "AllyHasReinforcementsTokenInBack"
+			},{
+				"buffs": ["SnowWhiteNewActive2Cooldown50","RemoveActive3LOCKSnowWhiteNew"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "SnowWhiteNewMori",
+			"flags": ["Devour","Summon","SleepChance","NoDamage"],
+			"useCondition": "NotInstantCooldown"
+		},
+		"AllyBuffASnowWhiteNew": {
+			"class": "AbilityConfig",
+			"targetingData": "All",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["RemoveSleep","RemovePoison","Heal500Percent"],
+				"applyToTargetType": "Friendly",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["Active3LOCKSnowWhiteNew","KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV4","KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV3","KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV2","KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV1","UsedAbilityCounter"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"	
+			}],
+			"enemyEventType": "Hit",
+			"friendlyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "SnowWhiteNewWhiteSnow",
+			"flags": ["NoDamage","Healer"],
+			"useCondition": "IsNotActive3LOCKSnowWhiteNew"
+		},
+		"SpecialAttackASnowWhiteNew": {
+			"class": "AbilityConfig",
+			"targetingData": "2RandomEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageFlags": ["IgnoreArmor","HardIgnoreBlockDeath"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["RemoveActive3LOCKSnowWhiteNew"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			}],
+			"enemyEventType": "Hit",
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "SnowWhiteNewSpecial",
+			"useCondition": "IsWorldDeathCounter5"
+		},
+		"HealBombSingleAllyA": {
+			"class": "AbilityConfig",
+			"targetingData": "oneAllyNotMe",
+			"components": ["ApplyBuff", "ChanceToDie"],
+			"componentOverrides": [{
+				"buffs": ["HealFull"],
+				"applyToTargetType": "Friendly",
+				"showMissConditions": "ShowNoMiss"
+			}, {
+				"chance": 1.0
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Hit",
+			"flags": ["Healer"],
+			"recommendEffectWhenUsable": 1,
+			"abilityEffect": "MidLife1",
+			"killsUser": true,
+			"ignoreEffectForSourceEvent": true
 		}
 	}
 }

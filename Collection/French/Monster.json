@@ -15155,6 +15155,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -15533,6 +15544,17 @@
                     "FireElfKnight01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -15911,6 +15933,17 @@
                     "PeachGirlRegular01",
                     "FurCoatLizard01",
                     "SquidHead01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
@@ -16297,6 +16330,17 @@
                     "PeachGirlRegular01",
                     "FurCoatLizard01",
                     "SquidHead01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
@@ -36194,6 +36238,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -36439,6 +36494,17 @@
                     "GreenDragon01",
                     "SquidHead01",
                     "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -127586,6 +127652,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -127787,6 +127864,17 @@
                     "SmokePipeFrog01",
                     "AirElfWarrior01",
                     "RoseElf01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -130068,7 +130156,7 @@
         "Hp_Base": 7330,
         "Speed": 620,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Quelqu'un a appelé cette scientifique génie !?",
         "LeaderSkill": {
             "SkillTitle": "Eau ATT & PV+",
@@ -130434,6 +130522,476 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "SnowWhiteNew01": {
+        "Name": "Blanche-Neige",
+        "Name2": "Demoiselle Noire & Blanche",
+        "FullName": "Blanche-Neige - Demoiselle Noire & Blanche",
+        "Profile": "La lumière et l'ombre––Blanche-Neige et Noire-Neige. L'âme de l'ombre avait commencé à ressentir que sa propre existence s'effaçait graduellement. Ceci était à cause de certaines émotions qui s'étaient établies à l'intérieur d'elle de manière inattendue; Nées à partir de ses échanges avec le héros et Blanche-Neige.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 28,
+        "Atk_Base": 1049,
+        "Hp_Base": 5965,
+        "Speed": 540,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "À partir de la neige blanche et noire,\nune nouvelle lueur s'éveille.",
+        "LeaderSkill": {
+            "SkillTitle": "Obscurité ATT+",
+            "SkillDescription": "Les alliés Obscurité voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fragment d'Âme",
+                "SkillDescription": "400% de dégâts à 1 ennemi. 700% de dégâts à la place si l'utilisateur a survécu 100TU ou plus sur le champ de bataille. 1000% de dégâts à la place si l'utilisateur a survécu 200TU ou plus sur le champ de bataille. Cette attaque ignore tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais et les effets des compétences passives de Reflet.\n\nLe Sommeil et la Brûlure sont retirés de la cible touchée (y compris le Sommeil Profond et la Méga Brûlure Soin) et elle subira le Poison Létal pendant 999TU. Ceci remplacera les autres effets de statut de cet ennemi.\n\nPuis l'utilisateur ajoutera un Kuromori à un emplacement aléatoire au sein des renforts ennemis. Ceci ne se déclenchera pas s'il n'y a pas de renforts ennemis au début du tour.\n\n Le Poison Létal remplacera tout autre effet de statut, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Cycle de Sang",
+                "SkillDescription": "S'il y a un Mori en queue des renforts alliés, ce Mori sera sacrifié s'il est d'Élément de type :\n- Eau, Feu ou Lumière : tous les ennemis non-Feu du champ de bataille subiront l'effet de statut de Brûlure. Puis tous les ennemis du champ de bataille subiront l'effet de statut de Sommeil pendant 100TU, même s'ils ont déjà été endormis sur le champ de bataille. Ces effets remplaceront les autres effets de statut sur ces unités.\n- Tempête, Terre ou Obscurité : Les TU actuels de tous les alliés du champ de bataille seront réduits de 50TU et ils gagneront la Super Furtivité et un Bouclier Furtif.\n\nSi un Mori n'est pas sacrifié, 3 Super Moris seront ajoutés en queue des renforts alliés (ces derniers seront aléatoirement soit des Super Kuromoris et/ou des Super Shiromoris).\n\nCette compétence sera verrouillée pendant 50TU après son utilisation. Toute unité qui inflige des dégâts à une unité brûlée ou en subit des dégâts sera également brûlée. La Super Furtivité remplacera les autres effets de statut. Les unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité. Les Boucliers Furtifs empêchent l'application du prochain effet de statut non-furtivité qu'une unité gagnerait lorsqu'elle est Furtive.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Neige Fatidique",
+                "SkillDescription": "Retire le Poison et le Sommeil (y compris le Sommeil Profond et le Poison Létal) de tous les alliés du champ de bataille. Tous les Alliés du champ de bataille seront soignés d'une valeur de 500% de l'Attaque de l'utilisateur.\n\nPuis un ennemi aléatoire non-boss, non-Éphémère du champ de bataille ayant 25% voire moins de ses PV max sera immédiatement vaincu (l'utilisateur sera considéré avoir vaincu cet ennemi avec une attaque). Ce seuil de PV augmente de 25% à chaque fois que cette compétence à déjà été utilisée sur le champ de bataille (maximum de 100% des PV max après avoir été utilisée 3 fois voire plus). Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi aléatoire d'être vaincu.\n\nDéverrouillé chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille. Utilisable 10 fois par bataille.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Jugement Obscur",
+                "SkillDescription": "800% de dégâts à 2 ennemis aléatoires. Cette attaque ne peut être redirigée par des Gardiens, et ignorera tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues, et les effets de réduction de dégâts ennemis. Cette attaque peut toucher les cibles possédant l'effet de statut de Super Furtivité ou un effet passif qui ignore les attaques à cibles multiples.\n\nDéverrouillé une fois que 5 voire davantage d'unités (y compris les unités alliés Éphémères) du champ de bataille aient été vaincues ou sacrifiées par une source quelconque pendant que cette unité se trouve sur le champ de bataille.",
+                "TU": 70,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Graines du Destin",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être empoisonnée ou immédiatement vaincue sans dégâts provenant d'un ennemi non-Boss.\n\nChaque fois qu'un Mori entre sur le champ de bataille depuis les renforts alliés, cette unité a 20% de chance, et 20% plus de chance par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que ses TU soient immédiatement réduits à 0 et d'être Purifiée (les effets de statut négatifs tels que le sommeil, la brûlure ou le poison seront retirés).\n\nLorsque cette unité entre sur le champ de bataille :\n- Cette unité ajoute 1 Super Kuromori à un emplacement aléatoire au sein des renforts alliés par allié non-invoqué de type Tempête, Terre et Obscurité du champ de bataille, et ajoute 1 Super Shiromori à un emplacement aléatoire au sein des renforts alliés par allié non-invoqué de type Eau, Feu et Lumière du champ de bataille s'il y a au moins 5 unités non-invoquées dans l'équipe alliée (y compris les renforts alliés).\n- Cette unité ajoute 1 Kuromori par ennemi non-invoqué du champ de bataille à un emplacement aléatoire au sein des renforts ennemis s'il y a au moins 5 unités non-invoquées dans l'équipe ennemie (y compris les renforts ennemis)."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Sommeil LV3",
+                "SkillDescription": "Réduit la durée des effets de sommeil ennemis sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Conjures": [
+            "DeathMinion01",
+            "ExcaliburMinion01",
+            "SuperLifeMinion01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Êtes-vous encore venu à ma recherche...?\nMême lorsque que je me perds dans les plus profondes ténèbres,\nvous me retrouvez toujours...\nVous êtes ma lumière."
+            ],
+            "Login": [
+                "Oh, par ici !\nJ'avais tellement hâte de vous voir que je suis arrivée un peu en avance."
+            ],
+            "Tap": [
+                "Ne pensez-vous pas que je suis plutôt une grande soeur qu'une petite soeur ?\nNon ? M-Mais je me comporte clairement de façon plus mature que Noire-Neige, pas vrai ? Pas vrai ?",
+                "... Je vais te raconter un petit secret. Il y a quelque temps, tu-sais-qui parlait de toi et...\nSilence, Noire-Neige ! Ne dis pas un mot de plus !\nComment ? D-Désolée, je... Je ne me souviens pas de ce que j'ai dit...",
+                "C'est moi, Noire-Neige. Blanche-Neige dort, donc j'ai le contrôle de ce corps à présent.\nBien... Tant que cela dure, dévoile-moi donc toutes les faiblesses de Blanche-Neige."
+            ],
+            "Idle": [
+                "Zzzzzzzz...\nComment peut-elle dormir aussi souvent...?\n(Soupir) Bon, je m'ennuie. Divertis-moi."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "CrappyMonsterInBack": 1.05,
+                "Kills1": 1.1,
+                "IsWorldDeathCounter5": 1.1
+            },
+            "SkillUse": {
+                "Fragment d'Âme": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "TimeInCombat200AndEnemyHasNoProtector": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Cycle de Sang": {
+                    "BaseWeight": 75,
+                    "Source": {
+                        "Spirit2OrLessIsWorldDeathCounter5": 0.001,
+                        "Spirit2OrLessIsWorldDeathCounter5ALT": 0.001,
+                        "TimeInCombat200": 100
+                    }
+                },
+                "Neige Fatidique": {
+                    "BaseWeight": 2000,
+                    "Source": {
+                        "TimeInCombat200": 100
+                    }
+                },
+                "Jugement Obscur": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "TimeInCombat200AndEnemyHasNoProtector": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "SnowWhiteNew02": {
+        "Name": "Blanche-Neige",
+        "Name2": "Demoiselle Noire & Blanche",
+        "FullName": "Blanche-Neige - Demoiselle Noire & Blanche",
+        "Profile": "Comme si c'était pour profiter du vide laissé en son coeur, « l'autre ombre » qui était censée avoir été enfermée reprend vie une fois de plus. C'est la sorcière noire; pétrie de malveillance et de haine––Celle qui avait été vaincue par Noire-Neige après avoir tenté de voler son corps.",
+        "Profile_Ascended": "Dans les profondeurs des ténèbres, Blanche-Neige et Noire-Neige unirent leurs forces. Ce n'était qu'une alliance passagère––La lumière et l'ombre n'étaient jamais censées s'entremêler, car l'obscurité est destinée à être effacée par la lumière. Et pourtant, Noire-Neige ne disparut pas.\nSans s'en rendre compte, elle était déjà entrée dans le territoire de la lumière.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 34,
+        "Atk_Base": 1316,
+        "Hp_Base": 7840,
+        "Speed": 540,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Obscurité ATT+",
+            "SkillDescription": "Les alliés Obscurité voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fragment d'Âme",
+                "SkillDescription": "400% de dégâts à 1 ennemi. 700% de dégâts à la place si l'utilisateur a survécu 100TU ou plus sur le champ de bataille. 1000% de dégâts à la place si l'utilisateur a survécu 200TU ou plus sur le champ de bataille. Cette attaque ignore tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais et les effets des compétences passives de Reflet.\n\nLe Sommeil et la Brûlure sont retirés de la cible touchée (y compris le Sommeil Profond et la Méga Brûlure Soin) et elle subira le Poison Létal pendant 999TU. Ceci remplacera les autres effets de statut de cet ennemi.\n\nPuis l'utilisateur ajoutera un Kuromori à un emplacement aléatoire au sein des renforts ennemis. Ceci ne se déclenchera pas s'il n'y a pas de renforts ennemis au début du tour.\n\n Le Poison Létal remplacera tout autre effet de statut, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Cycle de Sang",
+                "SkillDescription": "S'il y a un Mori en queue des renforts alliés, ce Mori sera sacrifié s'il est d'Élément de type :\n- Eau, Feu ou Lumière : tous les ennemis non-Feu du champ de bataille subiront l'effet de statut de Brûlure. Puis tous les ennemis du champ de bataille subiront l'effet de statut de Sommeil pendant 100TU, même s'ils ont déjà été endormis sur le champ de bataille. Ces effets remplaceront les autres effets de statut sur ces unités.\n- Tempête, Terre ou Obscurité : Les TU actuels de tous les alliés du champ de bataille seront réduits de 50TU et ils gagneront la Super Furtivité et un Bouclier Furtif.\n\nSi un Mori n'est pas sacrifié, 3 Super Moris seront ajoutés en queue des renforts alliés (ces derniers seront aléatoirement soit des Super Kuromoris et/ou des Super Shiromoris).\n\nCette compétence sera verrouillée pendant 50TU après son utilisation. Toute unité qui inflige des dégâts à une unité brûlée ou en subit des dégâts sera également brûlée. La Super Furtivité remplacera les autres effets de statut. Les unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité. Les Boucliers Furtifs empêchent l'application du prochain effet de statut non-furtivité qu'une unité gagnerait lorsqu'elle est Furtive.",
+                "TU": 1,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Neige Fatidique",
+                "SkillDescription": "Retire le Poison et le Sommeil (y compris le Sommeil Profond et le Poison Létal) de tous les alliés du champ de bataille. Tous les Alliés du champ de bataille seront soignés d'une valeur de 500% de l'Attaque de l'utilisateur.\n\nPuis un ennemi aléatoire non-boss, non-Éphémère du champ de bataille ayant 25% voire moins de ses PV max sera immédiatement vaincu (l'utilisateur sera considéré avoir vaincu cet ennemi avec une attaque). Ce seuil de PV augmente de 25% à chaque fois que cette compétence à déjà été utilisée sur le champ de bataille (maximum de 100% des PV max après avoir été utilisée 3 fois voire plus). Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi aléatoire d'être vaincu.\n\nDéverrouillé chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille. Utilisable 10 fois par bataille.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Jugement Obscur",
+                "SkillDescription": "800% de dégâts à 2 ennemis aléatoires. Cette attaque ne peut être redirigée par des Gardiens, et ignorera tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues, et les effets de réduction de dégâts ennemis. Cette attaque peut toucher les cibles possédant l'effet de statut de Super Furtivité ou un effet passif qui ignore les attaques à cibles multiples.\n\nDéverrouillé une fois que 5 voire davantage d'unités (y compris les unités alliés Éphémères) du champ de bataille aient été vaincues ou sacrifiées par une source quelconque pendant que cette unité se trouve sur le champ de bataille.",
+                "TU": 70,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Graines du Destin",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être empoisonnée ou immédiatement vaincue sans dégâts provenant d'un ennemi non-Boss.\n\nChaque fois qu'un Mori entre sur le champ de bataille depuis les renforts alliés, cette unité a 20% de chance, et 20% plus de chance par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que ses TU soient immédiatement réduits à 0 et d'être Purifiée (les effets de statut négatifs tels que le sommeil, la brûlure ou le poison seront retirés).\n\nLorsque cette unité entre sur le champ de bataille :\n- Cette unité ajoute 1 Super Kuromori à un emplacement aléatoire au sein des renforts alliés par allié non-invoqué de type Tempête, Terre et Obscurité du champ de bataille, et ajoute 1 Super Shiromori à un emplacement aléatoire au sein des renforts alliés par allié non-invoqué de type Eau, Feu et Lumière du champ de bataille s'il y a au moins 5 unités non-invoquées dans l'équipe alliée (y compris les renforts alliés).\n- Cette unité ajoute 1 Kuromori par ennemi non-invoqué du champ de bataille à un emplacement aléatoire au sein des renforts ennemis s'il y a au moins 5 unités non-invoquées dans l'équipe ennemie (y compris les renforts ennemis)."
+            },
+            {
+                "SkillTitle": "Noir et Blanc",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut si elle possède plus de 1PV.\n\nCette unité entre en bataille avec une Protection Brûlure, une Protection Sommeil, une Protection Étourdissement et la Super Furtivité. À la fin de chaque tour de cette unité, elle gagne une Protection Brûlure, une Protection Sommeil, une Protection Étourdissement et la Super Furtivité. Chaque Protection empêche l'application de son effet nommé, puis est retirée. Les Protections Identiques ne peuvent être empilées.\n\nChaque fois que cette unité prendra son tour, elle sera soignée de 25% de ses PV max par le nombre d'alliés sur le champ de bataille (maximum de 100% si 4 alliés sont sur le champ de bataille).\n\nCette unité bénéficie d'une réduction des dégâts de 30% et de 10% de plus par le nombre d'alliés Mori sur le champ de bataille ou dans les renforts alliés (maximum de 70% si 4 Moris sont sur le champ de bataille ou dans les renforts alliés).\n\nSi cette unité possède moins de 50% de ses PV max à la fin d'un tour, et s'il y a un Mori en queue des renforts alliés, ce Mori sera sacrifié et tous les alliés seront soignés de 100% de leurs PV max et deviendront Enragés. Puis les TU de cette unité seront réduits à 0. Ceci remplacera les effets d'autres compétences d'Enragé de ces unités. L'Attaque des unités Enragées sera augmentée de 150% jusqu'à la fin de leurs prochains tours."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Sommeil LV3",
+                "SkillDescription": "Réduit la durée des effets de sommeil ennemis sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Conjures": [
+            "DeathMinion01",
+            "ExcaliburMinion01",
+            "SuperLifeMinion01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Êtes-vous encore venu à ma recherche...?\nMême lorsque que je me perds dans les plus profondes ténèbres,\nvous me retrouvez toujours...\nVous êtes ma lumière."
+            ],
+            "Login": [
+                "Oh, par ici !\nJ'avais tellement hâte de vous voir que je suis arrivée un peu en avance."
+            ],
+            "Tap": [
+                "Ne pensez-vous pas que je suis plutôt une grande soeur qu'une petite soeur ?\nNon ? M-Mais je me comporte clairement de façon plus mature que Noire-Neige, pas vrai ? Pas vrai ?",
+                "... Je vais te raconter un petit secret. Il y a quelque temps, tu-sais-qui parlait de toi et...\nSilence, Noire-Neige ! Ne dis pas un mot de plus !\nComment ? D-Désolée, je... Je ne me souviens pas de ce que j'ai dit...",
+                "C'est moi, Noire-Neige. Blanche-Neige dort, donc j'ai le contrôle de ce corps à présent.\nBien... Tant que cela dure, dévoile-moi donc toutes les faiblesses de Blanche-Neige."
+            ],
+            "Idle": [
+                "Zzzzzzzz...\nComment peut-elle dormir aussi souvent...?\n(Soupir) Bon, je m'ennuie. Divertis-moi."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "CrappyMonsterInBack": 1.05,
+                "Kills1": 1.1,
+                "IsWorldDeathCounter5": 1.1
+            },
+            "SkillUse": {
+                "Fragment d'Âme": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "TimeInCombat200AndEnemyHasNoProtector": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Cycle de Sang": {
+                    "BaseWeight": 75,
+                    "Source": {
+                        "Spirit2OrLessIsWorldDeathCounter5": 0.001,
+                        "Spirit2OrLessIsWorldDeathCounter5ALT": 0.001,
+                        "TimeInCombat200": 100
+                    }
+                },
+                "Neige Fatidique": {
+                    "BaseWeight": 2000,
+                    "Source": {
+                        "TimeInCombat200": 100
+                    }
+                },
+                "Jugement Obscur": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "TimeInCombat200AndEnemyHasNoProtector": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB78": {
+                "RelationshipName": "Fer Gelé",
+                "RelationshipFamily": [
+                    "SnowWhiteNew01",
+                    "KenshinRegular01",
+                    "GreenDragon01",
+                    "TwoFaceDemon01",
+                    "FloatingMage01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "SuperLifeMinion01": {
+        "Name": "Super-Shiromori",
+        "FullName": "Super-Shiromori",
+        "Profile": "Une âme gardienne avec le pouvoir de la Lumière.\nAime les bains de soleil.",
+        "Rarity": "N",
+        "Stars": 0,
+        "Stars_Curr": 0,
+        "Stars_Max": 0,
+        "PreferredWeapon": "Épée",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 0,
+        "Atk_Base": 208,
+        "Hp_Base": 1099,
+        "Speed": 584,
+        "Power": 12834,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Attaque",
+                "SkillDescription": "Dégâts à 1 ennemi et les alliés gagnent 1 Essence.",
+                "TU": 100,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Bombe de Soin",
+                "SkillDescription": "Sacrifie l'utilisateur pour soigner 1 autre allié du champ de bataille de 100% de ses PV max.",
+                "TU": 0,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Auto Garde+",
+                "SkillDescription": "Cette unité est un Gardien. Pour chaque attaque ennemie qui toucherait 1 ou 2 autres alliés, cette unité a 100% de chances d'en rediriger 1 attaque à elle-même. Cette unité ne redirigera pas les sorts qui ne causent pas de dégâts."
+            },
+            {
+                "SkillTitle": "Éphémère",
+                "SkillDescription": "Cette unité n'est jamais considérée comme étant vaincue par des attaques et ne déclenche pas les compétences passives d'autres unités lorsqu'elle est vaincue ou sacrifiée par une source quelconque sur le champ de bataille.\n\nCette unité sera soignée intégralement après chaque tours si elle subit des dégâts mais n'est pas vaincue. Cette unité sera vaincue après tout tour allié ou ennemi si elle a quelconque effet de statut de Brûlure, Super Poison, ou Méga Poison.\n\nLes dégâts infligés à cette unité augmentent de 2.5 fois plus que leur valeur normale."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Attaque": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HPAbove1Percent",
+                        "HPBelow5Percent"
+                    ],
+                    "Target": {
+                        "HPBelow10Percent": 2,
+                        "HPBelow50Percent": 1.1,
+                        "HasArmor": 1.05
+                    }
+                },
+                "Bombe de Soin": {
+                    "BaseWeight": 0.5,
+                    "Target": {
+                        "HPBelow75Percent": 1000.1,
+                        "HPBelow50Percent": 1000.1,
+                        "HPBelow25Percent": 1000.1
+                    }
+                }
             }
         }
     }

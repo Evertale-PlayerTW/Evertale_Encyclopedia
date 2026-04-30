@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1777340893,
+    "Time": 1777345411,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -30297,6 +30297,77 @@
 		"not":{
 			"class": "MonsterConditions",
 			"buffStackNames": ["Active4LOCKKintaroRegular"]
+		}
+	},
+	"IsSnowWhiteNewAndHPBelow50Percent": {
+		"class": "MonsterConditions",
+		"families": ["SnowWhiteNew"],
+		"hpLessThanPercent": 0.5000001
+	},
+	"AllyHasTokenInBackOfReinforcementsAndSnowWhiteNewBelow50PercentMaxHP": {
+		"class": "MonsterConditions",
+		"allyReinforcements": 1,
+		"myTeamLastReplacementMonsterCondition": "IsToken",
+		"and":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsSnowWhiteNewAndHPBelow50Percent": 1
+			}
+		}
+	},
+	"EnemyHasTokenInBackOfReinforcementsAndSnowWhiteNewBelow50PercentMaxHP": {
+		"class": "MonsterConditions",
+		"checkEnemyTeamOfMonster": true,
+		"enemyTeamMonsterConditionMatchesNeeded":{
+			"AllyHasTokenInBackOfReinforcementsAndSnowWhiteNewBelow50PercentMaxHP": 1
+		}
+	},
+	"IsFireAndIsNotSummoned": {
+		"class": "MonsterConditions",
+		"elements": ["Fire"],
+		"not":{
+			"class": "MonsterConditions",
+			"summoned":true
+		}
+	},
+	"IsWaterAndIsNotSummoned": {
+		"class": "MonsterConditions",
+		"elements": ["Water"],
+		"not":{
+			"class": "MonsterConditions",
+			"summoned":true
+		}
+	},
+	"IsEarthAndIsNotSummoned": {
+		"class": "MonsterConditions",
+		"elements": ["Earth"],
+		"not":{
+			"class": "MonsterConditions",
+			"summoned":true
+		}
+	},
+	"IsAirAndIsNotSummoned": {
+		"class": "MonsterConditions",
+		"elements": ["Air"],
+		"not":{
+			"class": "MonsterConditions",
+			"summoned":true
+		}
+	},
+	"IsDeathAndIsNotSummoned": {
+		"class": "MonsterConditions",
+		"elements": ["Death"],
+		"not":{
+			"class": "MonsterConditions",
+			"summoned":true
+		}
+	},
+	"IsLifeAndIsNotSummoned": {
+		"class": "MonsterConditions",
+		"elements": ["Life"],
+		"not":{
+			"class": "MonsterConditions",
+			"summoned":true
 		}
 	}
 }

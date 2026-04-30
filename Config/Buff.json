@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1777260755,
+	"Time": 1777261330,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -85243,6 +85243,396 @@
 			"class": "Buff",
 			"duration": 50,
 			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"TokenPassiveSnowWhiteNew":{
+			"class": "Buff",
+			"stackName": "WarModePassiveAFreyaNew",
+			"behaviors": ["Immunity","EnterBattleBuff","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","OthersEnterBattle","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffOnMonsterTurn"],
+				"behaviorOverrides": [{
+				"stackNamesToBlock": ["Poison"]
+			},{
+				"selfBuffs": ["KnockbackImmunity","BlockInstantKill","Active3LOCKSnowWhiteNew","AddSuperTokensBasedOnAllyElementToRandomSnowWhiteNew","AddDeathTokensToEnemyTeamIfFullPlatoon","FireMinionAtEndOfReinforcments","WaterMinionAtEndOfReinforcments","AirMinionAtEndOfReinforcments","EarthMinionAtEndOfReinforcments","LifeMinionAtEndOfReinforcments","DeathMinionAtEndOfReinforcments"]
+			},{
+				"sameTeam": true,
+				"chance": 1.0,
+				"contextBuffs": ["EntryMarkExcaliburRegular"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"sameTeam": true,
+				"spreadCondition": "TokenEntryMarkedExcaliburRegular",
+				"chance": 1.0
+			},{
+				"sameTeam": true,
+				"spreadCondition": "TokenWelcomeExcaliburRegular",
+				"sourceBuffs": ["SnowWhiteNewGainTurnLV1","SnowWhiteNewGainTurnLV2","SnowWhiteNewGainTurnLV3","SnowWhiteNewGainTurnLV4","SnowWhiteNewGainTurnLV5"]
+			},{
+				"sameTeam": true,
+				"contextBuffs": ["RemoveEntryMarkExcaliburRegular"]
+			},{
+				"sourceBuffs": ["WorldDeathCounter"],
+				"deadMonsterConditions": "NotTransformingOrMirage"
+			},{
+				"sourceBuffs": ["WorldDeathCounter"],
+				"sameTeam": true,
+				"deadMonsterConditions": "IsMirage"
+			},{
+				"sourceBuffs": ["EnemyHasReinforcementsCheck"]	
+			}],
+			"duration": -1,
+			"tags": ["PoisonImmune"],
+			"iconSpriteName": "IconRedPoisonInvalid01",
+			"showAsTimer": false,
+			"showAsPermanent": true,
+			"isHiddenFromPlayers": true
+		},
+		"SnowWhiteNewGainTurnLV1": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBuffs"],
+				"spreadCondition": "HasNoAwakening"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "20PercentChance"
+		},
+		"SnowWhiteNewGainTurnLV2": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBuffs"],
+				"spreadCondition": "Has1AwakeningExact"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "40PercentChance"
+		},
+		"SnowWhiteNewGainTurnLV3": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBuffs"],
+				"spreadCondition": "Has2AwakeningsExact"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "60PercentChance"
+		},
+		"SnowWhiteNewGainTurnLV4": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBuffs"],
+				"spreadCondition": "Has3AwakeningsExact"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "80PercentChance"
+		},
+		"SnowWhiteNewGainTurnLV5": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBuffs"],
+				"spreadCondition": "Has4Awakenings"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"BlockInstantKill": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"stackName": "BlockInstantKill",
+				"behaviorOverrides": [{
+					"stackNamesToBlock": ["InstantKill"]
+				}],
+			"duration": -1,
+			"showAsTimer": true,
+			"tags": ["InstantKillImmune"],
+			"iconSpriteName": "IconInstantDefeatInvalid01"
+		},
+		"StrongPassiveSnowWhiteNew": {
+			"class": "Buff",
+			"stackName": "StrongPassiveSnowWhiteNew",
+			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd","ModifyDamage","ModifyDamage","ModifyDamage","ModifyDamage","ModifyDamage"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGround","SleepImmunityOnce","BurnImmunityOnce","StunImmunityOnce","SuperStealth","OnTurnHeal25PercentForEachAllyOnBattlefield"]
+			},{
+				"selfBuffs": ["SleepImmunityOnce","BurnImmunityOnce","StunImmunityOnce","SuperStealth"]
+			},{
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","SacLastReinforcement","HealFullAndEnrageAllAlliesEBB"],
+				"sameTeam": true,
+				"activeMonsterConditions": "AllyHasTokenInBackOfReinforcementsAndSnowWhiteNewBelow50PercentMaxHP",
+				"spreadCondition": "HPBelow50Percent"
+			},{
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","SacLastReinforcement","HealFullAndEnrageAllAlliesEBB"],
+				"sameTeam": false,
+				"activeMonsterConditions": "EnemyHasTokenInBackOfReinforcementsAndSnowWhiteNewBelow50PercentMaxHP",
+				"spreadCondition": "HPBelow50Percent"	
+			},{
+				"percent": 0.70,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "NoTokenOnBattlefieldAndNoTokenInAllyReinforcements"
+			},{
+				"percent": 0.60,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Exact1TokenAllyIncludingReinforcments"
+			},{
+				"percent": 0.50,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Exact2TokenAlliesIncludingReinforcments"
+			},{
+				"percent": 0.40,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "Exact3TokenAlliesIncludingReinforcments"
+			},{
+				"percent": 0.30,
+				"cancelFromDamageTypes": ["BuffDamage", "Poison", "Burn"],
+				"cancelFromDamageFlags": ["Sneak", "IgnoreArmor"],
+				"conditions": "4TokenAlliesIncludingReinforcments"	
+			}],
+			"duration": -1,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"isHiddenFromPlayers": true,
+			"tags": ["BigDamageMinus"],
+			"iconSpriteName": "IconPurpleDamageMinus01"
+		},
+		"HealFullAndEnrageAllAlliesEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomAllyBuffs": ["HealFull","AttackPlus50Percent1TurnOnly"],
+				"numRandomToBuff": 4
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"OnTurnHeal25PercentForEachAllyOnBattlefield":{
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["25PercentHealMaxHP"],
+				"spreadCondition": "IsAlone"
+			},{
+				"selfBuffs": ["HealHalf"],
+				"spreadCondition": "2AlliesLeftNot3"
+			},{
+				"selfBuffs": ["75PercentHealMaxHP"],
+				"spreadCondition": "3AlliesLeftNot4"
+			},{
+				"selfBuffs": ["HealFull"],
+				"spreadCondition": "AtLeast4AlliesLeft"	
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": -1,
+			"isHiddenFromPlayers": true
+		},
+		"75PercentHealMaxHP": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp"],
+			"behaviorOverrides": [{
+				"percent": 0.75,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			}],
+			"duration": 0,
+			"effectToShowWhenApplied": "SmallHeal1",
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV1":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKillSnowWhiteNew"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "HPBelow25PercentIsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "IsNotUsedAbilityCounter"
+		},
+		"KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV2":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKillSnowWhiteNew"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "HPBelow50PercentIsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "UsedAbilityCounter1Exact"
+		},
+		"KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV3":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKillSnowWhiteNew"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "HPBelow75PercentIsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "UsedAbilityCounter2Exact"
+		},
+		"KillRandomEnemyEOTAndCreditKillSnowWhiteNewLV4":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKillSnowWhiteNew"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "UsedAbilityCounter3"
+		},
+		"PT2InstantKillAndCreditKillSnowWhiteNew": {
+			"class": "Buff",
+			"stackName": "InstantKill",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","InstantDeath"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["SnowWhiteNewInstantDeathFXBuff"]
+			},{	
+				"sourceBuffs": ["Add1Kill"]
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddDeathTokensToEnemyTeamIfFullPlatoon": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["Add1DeathMinionToRandomReinforcements"],
+				"numRandomToBuff": 4,
+				"spreadCondition": "IsNotSummonedHasFullPlatoon"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"AddSuperTokensBasedOnAllyElementToRandomSnowWhiteNew": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff"],
+			"behaviorOverrides": [{
+                "randomAllyBuffs": ["Add1SuperLifeMinionToRandomReinforcements"],
+                "numRandomToBuff": 4,
+                "spreadCondition": "IsFireAndIsNotSummoned"
+			},{
+                "randomAllyBuffs": ["Add1SuperLifeMinionToRandomReinforcements"],
+                "numRandomToBuff": 4,
+                "spreadCondition": "IsWaterAndIsNotSummoned"
+            },{
+                "randomAllyBuffs": ["Add1SuperLifeMinionToRandomReinforcements"],
+                "numRandomToBuff": 4,
+                "spreadCondition": "IsLifeAndIsNotSummoned"
+			},{
+                "randomAllyBuffs": ["Add1ExcaliburTokenToRandomReinforcements"],
+                "numRandomToBuff": 4,
+                "spreadCondition": "IsAirAndIsNotSummoned"
+			},{
+                "randomAllyBuffs": ["Add1ExcaliburTokenToRandomReinforcements"],
+                "numRandomToBuff": 4,
+                "spreadCondition": "IsEarthAndIsNotSummoned"
+			},{
+				"randomAllyBuffs": ["Add1ExcaliburTokenToRandomReinforcements"],
+                "numRandomToBuff": 4,
+                "spreadCondition": "IsDeathAndIsNotSummoned" 
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "AllyTeamIsFullPlatoon"
+		},
+		"Add1ExcaliburTokenToRandomReinforcements": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "ExcaliburMinion01",
+				"randomInLineup": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Add1SuperLifeMinionToRandomReinforcements": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "SuperLifeMinion01",
+				"randomInLineup": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Add1SuperLifeMinionToEnd": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "SuperLifeMinion01"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Active3LOCKSnowWhiteNew":{
+			"class": "Buff",
+			"stackName": "Active3LOCKSnowWhiteNew",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive3LOCKSnowWhiteNew": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active3LOCKSnowWhiteNew"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"SnowWhiteNewActive2Cooldown50": {
+			"class": "Buff",
+			"stackName": "InstantCooldown",
+			"duration": 50,
+			"isHiddenFromPlayers": false,
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"
