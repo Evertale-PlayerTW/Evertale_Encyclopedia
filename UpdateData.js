@@ -5,48 +5,48 @@ const path = require("path");
 async function downloadRequiredFiles() {
 	const requiredFiles = {
 		Localization: [
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_ChineseSimplified.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_ChineseTraditional.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_English.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_French.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_German.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_Japanese.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_Italian.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_Korean.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/Localizable_Spanish.txt",
-			"https://prd.evertaleserver.com/Prd280/Localization/FileHashes.json",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_ChineseSimplified.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_ChineseTraditional.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_English.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_French.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_German.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_Japanese.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_Italian.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_Korean.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/Localizable_Spanish.txt",
+			"https://prd.evertaleserver.com/Prd300/Localization/FileHashes.json",
 		],
 		Config: [
-			"https://prd.evertaleserver.com/Prd280/Monster.json",
-			"https://prd.evertaleserver.com/Prd280/Weapon.json",
-			"https://prd.evertaleserver.com/Prd280/Equipment.json",
-			"https://prd.evertaleserver.com/Prd280/Ability.json",
-			"https://prd.evertaleserver.com/Prd280/Boss.json",
-			"https://prd.evertaleserver.com/Prd280/AIThreat.json",
-			"https://prd.evertaleserver.com/Prd280/AttackScalor.json",
-			"https://prd.evertaleserver.com/Prd280/AbilityConfig.json",
-			"https://prd.evertaleserver.com/Prd280/AbilityEffect.json",
-			"https://prd.evertaleserver.com/Prd280/MonsterRanker.json",
-			"https://prd.evertaleserver.com/Prd280/BattleConditions.json",
-			"https://prd.evertaleserver.com/Prd280/BattleBehavior.json",
-			"https://prd.evertaleserver.com/Prd280/AbilityComponent.json",
-			"https://prd.evertaleserver.com/Prd280/AbilityAISequence.json",
-			"https://prd.evertaleserver.com/Prd280/TargetingData.json",
-			"https://prd.evertaleserver.com/Prd280/MonsterConditions.json",
-			"https://prd.evertaleserver.com/Prd280/AnimationData.json",
-			"https://prd.evertaleserver.com/Prd280/AbilityAI.json",
-			"https://prd.evertaleserver.com/Prd280/Buff.json",
-			"https://prd.evertaleserver.com/Prd280/QuestReward.json",
-			"https://prd.evertaleserver.com/Prd280/Shops.json",
-			"https://prd.evertaleserver.com/Prd280/Package.json",
-			"https://prd.evertaleserver.com/Prd280/GCodes.json",
-			"https://prd.evertaleserver.com/Prd280/BundleReqs.json",
-			"https://prd.evertaleserver.com/Prd280/ValidShards.json",
-			"https://prd.evertaleserver.com/Prd280/LocalNotifications.json",
-			"https://prd.evertaleserver.com/Prd280/ClientConfig.json",
-			"https://prd.evertaleserver.com/Prd280/Clusters.json",
-			"https://prd.evertaleserver.com/Prd280/Manifest.json",
-			"https://prd.evertaleserver.com/Prd280/Android/hashes.json",
+			"https://prd.evertaleserver.com/Prd300/Monster.json",
+			"https://prd.evertaleserver.com/Prd300/Weapon.json",
+			"https://prd.evertaleserver.com/Prd300/Equipment.json",
+			"https://prd.evertaleserver.com/Prd300/Ability.json",
+			"https://prd.evertaleserver.com/Prd300/Boss.json",
+			"https://prd.evertaleserver.com/Prd300/AIThreat.json",
+			"https://prd.evertaleserver.com/Prd300/AttackScalor.json",
+			"https://prd.evertaleserver.com/Prd300/AbilityConfig.json",
+			"https://prd.evertaleserver.com/Prd300/AbilityEffect.json",
+			"https://prd.evertaleserver.com/Prd300/MonsterRanker.json",
+			"https://prd.evertaleserver.com/Prd300/BattleConditions.json",
+			"https://prd.evertaleserver.com/Prd300/BattleBehavior.json",
+			"https://prd.evertaleserver.com/Prd300/AbilityComponent.json",
+			"https://prd.evertaleserver.com/Prd300/AbilityAISequence.json",
+			"https://prd.evertaleserver.com/Prd300/TargetingData.json",
+			"https://prd.evertaleserver.com/Prd300/MonsterConditions.json",
+			"https://prd.evertaleserver.com/Prd300/AnimationData.json",
+			"https://prd.evertaleserver.com/Prd300/AbilityAI.json",
+			"https://prd.evertaleserver.com/Prd300/Buff.json",
+			"https://prd.evertaleserver.com/Prd300/QuestReward.json",
+			"https://prd.evertaleserver.com/Prd300/Shops.json",
+			"https://prd.evertaleserver.com/Prd300/Package.json",
+			"https://prd.evertaleserver.com/Prd300/GCodes.json",
+			"https://prd.evertaleserver.com/Prd300/BundleReqs.json",
+			"https://prd.evertaleserver.com/Prd300/ValidShards.json",
+			"https://prd.evertaleserver.com/Prd300/LocalNotifications.json",
+			"https://prd.evertaleserver.com/Prd300/ClientConfig.json",
+			"https://prd.evertaleserver.com/Prd300/Clusters.json",
+			"https://prd.evertaleserver.com/Prd300/Manifest.json",
+			"https://prd.evertaleserver.com/Prd300/Android/hashes.json",
 		],
 	};
 
@@ -93,7 +93,7 @@ async function getRelationshipRaw() {
 	const userDevice = "Google Pixel 6";
 	const userOs = "Android OS 13";
 	const evtVersion = (
-		await fetchCheck("https://prd.evertaleserver.com/Prd280/Android/hashes.json").then((res) => res.json())
+		await fetchCheck("https://prd.evertaleserver.com/Prd300/Android/hashes.json").then((res) => res.json())
 	)["ver"];
 	const uuid = crypto.randomUUID();
 
@@ -208,7 +208,7 @@ let weaponType = {};
 let elementType = {};
 let passiveBonus = {};
 const proxyUrl = "";
-const resourceUrlPrefix = "https://prd.evertaleserver.com/Prd280/";
+const resourceUrlPrefix = "https://prd.evertaleserver.com/Prd300/";
 const langList = [
 	"ChineseSimplified",
 	"ChineseTraditional",
@@ -691,7 +691,7 @@ function getElementTypeName(elementTypeKey) {
 
 async function checkFilesChanged() {
 	const localization_local = path.join("Localization", "FileHashes.json");
-	const localization_remote = "https://prd.evertaleserver.com/Prd280/Localization/FileHashes.json";
+	const localization_remote = "https://prd.evertaleserver.com/Prd300/Localization/FileHashes.json";
 	if (
 		!fs.existsSync(localization_local) ||
 		fs.readFileSync(localization_local, "utf-8") !== (await fetchCheck(localization_remote).then((res) => res.text()))
@@ -700,7 +700,7 @@ async function checkFilesChanged() {
 	}
 
 	const manifest_local = path.join("Config", "Manifest.json");
-	const manifest_remote = "https://prd.evertaleserver.com/Prd280/Manifest.json";
+	const manifest_remote = "https://prd.evertaleserver.com/Prd300/Manifest.json";
 	if (
 		!fs.existsSync(manifest_local) ||
 		fs.readFileSync(manifest_local, "utf-8") !== (await fetchCheck(manifest_remote).then((res) => res.text()))

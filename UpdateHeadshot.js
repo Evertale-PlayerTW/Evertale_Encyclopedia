@@ -3,7 +3,7 @@ const https = require("https");
 const path = require("path");
 const { glob } = require("glob");
 
-const baseUrl = "https://prd.evertaleserver.com/Prd280/Android/";
+const baseUrl = "https://prd.evertaleserver.com/Prd300/Android/";
 
 const assetGroup = {
 	Monster: {
