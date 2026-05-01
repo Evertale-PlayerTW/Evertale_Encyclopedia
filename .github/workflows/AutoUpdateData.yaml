@@ -21,7 +21,7 @@ jobs:
 
       - name: Check last update time
         run: |
-          if [ -f "lastUpdate" ] && [ $(( $(date +%s) - $(cat "lastUpdate") )) -lt 3600 ]; then
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ -f "lastUpdate" ] && [ $(( $(date +%s) - $(cat "lastUpdate") )) -lt 3600 ]; then
             echo "SKIP_JOB=true" >> $GITHUB_ENV
             echo "Last update within 1 hour, skip!"
             exit 0
