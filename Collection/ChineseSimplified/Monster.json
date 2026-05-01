@@ -130529,7 +130529,7 @@
         "Name": "白雪公主",
         "Name2": "圣黑的雪姬",
         "FullName": "白雪公主 - 圣黑的雪姬",
-        "Profile": "Light and shadow — Snow White and Snow Black. The soul of the shadow had begun to sense her own existence gradually fading away. This was because of emotions that had unexpectedly taken root within her, born from her interactions with the hero and Snow White.",
+        "Profile": "光与影 —— 白雪公主与黑雪公主。影之灵魂逐渐察觉自身存在正逐渐消逝。这一切，皆因她与勇者、白雪公主的相处中，意外萌生了情感。",
         "Rarity": "SSR",
         "Stars": "★★★★★☆",
         "Stars_Curr": 5,
@@ -130543,41 +130543,41 @@
         "Speed": 540,
         "Power": 134520,
         "Visible": false,
-        "GachaIntro": "From white and black snow,\na new light rises.",
+        "GachaIntro": "自黑白之雪，崭新之光降临。",
         "LeaderSkill": {
             "SkillTitle": "暗属性猛攻",
             "SkillDescription": "所有暗属性队友的攻击力增加15%"
         },
         "ActiveSkill": [
             {
-                "SkillTitle": "Soul Fragment",
-                "SkillDescription": "400% damage to 1 enemy. 700% damage instead if the user has survived 100TU or more on the battlefield. 1000% damage instead if the user has survived 200TU or more on the battlefield. This attack ignores any effects of non-boss enemies that would prevent the target from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nThe target hit has its sleep and burn removed (including Deep Sleep, and Mega Healing Burn) and is granted Lethal Poison for 999TU. This will overwrite other status effects on that enemy.\n\nThen the user will add a Kuromori to a random place in line of enemy reinforcements. This will not trigger if there were no enemy reinforcements at the start of the turn.\n\nLethal Poison will overwrite other status effects on the affected enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units.",
+                "SkillTitle": "灵魂碎片",
+                "SkillDescription": "对敌单体造成 400% 伤害。若使用者在战场上存活超过 100TU，改为 700% 伤害；超过 200TU 则改为 1000% 伤害。此攻击无视非BOSS敌人的防止击败效果、伤害减免、反击姿态与皮肤被动效果。\n\n 命中目标将移除睡眠与燃烧状态（含深度睡眠、超级治愈燃烧），并赋予 999TU 致命毒，此效果将覆盖敌人其他状态。\n\n 随后在敌方增援队列随机位置加入一只黑盾卫，本回合开始时无敌方增援则不发动。\n\n 致命毒将覆盖受影响敌人的其他状态，仅可被燃烧或匿踪状态覆盖，无法被净化；伤害为普通毒的 2 倍，无视防止击败效果（毒防止击败 、 非攻击伤害防止击败除外），无法对燃烧状态单位与BOSS生效。",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
-                "SkillTitle": "Blood Cycle",
-                "SkillDescription": "If there is a Mori at the very end of allied reinforcements, that Mori will be sacrificed, if that Mori's Element was:\n- Water, Fire or Light, all non-fire enemies on the battlefield are granted the burn status effect. Then all enemies on the battlefield are granted the Sleep status effect for 100TU, even if they have already slept while on the battlefield. These effects will overwrite other status effects on those units.\n- Storm, Earth or Dark, all allies on the battlefield will have their current TU reduced by 50TU, and gain Super Stealth and a Stealth Shield.\n\nOtherwise, if a Mori was not sacrificed, adds 3 Super Mori's to the very end of allied reinforcements (these will be Super Kuromoris and/or Super Shiromoris at random).\n\nThis skill becomes locked for 50TU after use. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned. Super Stealth will overwrite other Status effects. Super Stealthed units ignore enemy attacks that would damage more than 1 target. Super Stealth will be removed after ignoring 3 enemy attacks since applying, and can be overwritten by other status effects, except normal Stealth. Damage will not remove Super Stealth. Stealth Shields prevent the next non-stealth status effect a unit would gain while Stealthed from applying.",
+                "SkillTitle": "血液循环",
+                "SkillDescription": "若己方增援末尾有盾卫，将牺牲该盾卫，并根据盾卫的属性发动以下效果：\n- 水 、 火 、 光属性：全体非火属性敌人进入燃烧状态，随后全体敌人进入 100TU 睡眠状态（即使已在战场上进入过睡眠状态仍可生效），此效果将覆盖单位其他状态。\n- 风 、 土 、 暗属性：全体己方单位当前 TU 减少 50，并获得超级匿踪与匿踪护盾。\n\n 若未牺牲盾卫，则在己方增援末尾加入 3 只超级盾卫（随机为超级黑盾卫和 、 或超级白盾卫）。\n\n 技能使用后冷却 50TU。对燃烧状态单位造成伤害或受到其伤害的单位，也将进入燃烧状态。超级匿踪将覆盖其他状态，处于超级匿踪的单位无视针对 2 个以上目标的敌方攻击；生效后无视 3 次敌方攻击即解除，可被除普通匿踪外的其他状态覆盖，受到伤害不会解除。匿踪护盾可挡住匿踪状态下单位即将受到的 1 次非匿踪状态效果。",
                 "TU": 1,
                 "Spirit": "-1"
             },
             {
-                "SkillTitle": "Fateful Snow",
-                "SkillDescription": "Removes Poison and Sleep (including Deep Sleep, and Lethal Poison) from all allies on the battlefield. All allies on the battlefield heal for 500% of the user's attack.\n\nThen a random non-boss, non-Ephemeral enemy on or below 25% of max HP and on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This health threshold is increased by 25% for each time this skill has already been used while on the battlefield (max of 100% of max HP after being used 3 times or more). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUnlocked each time the user uses another active skill. This skill is locked again after each use or if the user leaves the battlefield. Usable 10 times per battle.",
+                "SkillTitle": "命运之雪",
+                "SkillDescription": "解除战场上全体己方单位的中毒与睡眠状态（含深度睡眠、致命毒），全体己方单位回复相当于使用者攻击力 500% 的生命值。\n\n 随后击败战场上 1 名随机的、生命值不超过最大 25% 的非BOSS、非幻影敌人（视为使用者以攻击击败该敌人）。此生命值门槛会随着技能在战场上的使用次数每次增加 25%（使用 3 次及以上后，最高可对满生命值敌人生效）。此副效果无视复仇、复活被动技能，以及所有可防止该随机敌人被击败的被动 、 主动技能效果。\n\n 使用者每次使用其他主动技能时解锁此技能，每次使用后或使用者离开战场后重新锁定，每场战斗最多可使用 10 次。",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
-                "SkillTitle": "Dark Reckoning",
-                "SkillDescription": "800% damage to 2 random enemies. This attack cannot be redirected by Guardians, and will ignore any effects of non-boss enemies that would prevent the targets from being defeated, and enemy damage reduction effects. This attack can hit targets that have the Stealth Status Effect or a passive effect that ignores multiple target attacks.\n\nUnlocked after 5 or more units (including ephemeral ally units) on the battlefield are defeated or sacrificed by any source while this unit is on the battlefield.",
+                "SkillTitle": "黄昏裁决",
+                "SkillDescription": "对随机 2 名敌人造成 800% 伤害。此攻击无视守卫者效果，无视非BOSS敌人的防止击败效果与伤害减免，可命中处于匿踪状态或拥有无视多体攻击被动效果的目标。\n\n 此单位在战场上期间，战场上有 5 个以上单位（含己方幻影单位）因任何原因被击败或牺牲后解锁。",
                 "TU": 70,
                 "Spirit": "-2"
             }
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Seeds of Fate",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit cannot be poisoned or be immediately defeated without damage by a non-boss enemy.\n\nWhenever a Mori enters the battlefield from allied reinforcements, this unit has a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) to immediately have its TU reduced to 0, and be Purified (negative status effects like sleep, burn or poison are removed).\n\nWhen this unit enters battle:\n- If there are at least 5 non-conjured units in the ally team (including reinforcements), this unit adds 1 Super Kuromori to a random place in allied reinforcements for each non-conjured Storm, Earth and Dark ally on the battlefield, and adds 1 Super Shiromori to a random place in allied reinforcements for each non-conjured Water, Fire and Light ally on the battlefield.\n- If there are at least 5 non-conjured units in the enemy team (including reinforcements), this unit adds 1 Kuromori to a random place in enemy reinforcements for each non-conjured enemy on the battlefield."
+                "SkillTitle": "命运之种",
+                "SkillDescription": "此单位无法从战场上被退回增援队列。\n\n 此单位不会进入中毒状态，也不会被非BOSS敌人以无伤害的方式立即击败。\n\n 每当有盾卫从己方增援进入战场时，此单位有 20% 的概率，每提升 1 次觉醒额外增加 20% 概率（4 次觉醒时最高可达 100%），立即将自身 TU 归 0，并净化自身（移除睡眠、燃烧、中毒等负面状态）。\n\n 此单位进入战斗时：\n- 若己方队伍（含增援）有 5 个以上非召唤单位，则战场上每有 1 名非召唤的风 、 土 、 暗属性己方单位，就在己方增援随机位置加入 1 只超级黑盾卫；每有 1 名非召唤的水 、 火 、 光属性己方单位，就在己方增援随机位置加入 1 只超级白盾卫。\n- 若敌方队伍（含增援）有 5 个以上非召唤单位，则战场上每有 1 名非召唤敌人，就在敌方增援随机位置加入 1 只黑盾卫。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -130614,18 +130614,18 @@
         ],
         "Dialog": {
             "Gacha": [
-                "Have you come looking for me once again...?\nEven when I lose my way in the deepest darkness, \nyou always find me....\nYou are my light."
+                "你又来找我了吗……？就算我在最深的黑暗中迷失，你也总能找到我…… 你就是我的光。"
             ],
             "Login": [
-                "Oh, over here!\nI was so excited to see you, I arrived a bit early."
+                "啊，在这里！我太期待见到你了，所以提早来了。"
             ],
             "Tap": [
-                "Don't you think I'm more of an older sister than a younger sister? \nNo? B-but I definitely act older than Snow Black, right? Right?",
-                "...Let me tell you a little secret. A while back, you-know-who was talking about you and...\nQuiet, Snow Black! Don't say another word!\nWhat? S-sorry, I...I don't recall what I said...",
-                "It's me, Snow Black. Snow White is asleep, so I'm the master of this body now.\nWell...while this lasts, why don't you tell me all about Snow White's weaknesses?"
+                "你不觉得我比起妹妹，更像姐姐吗？不是吗？可、可我举止明明比黑雪公主更成熟啊，对吧？对吧？",
+                "…… 告诉你一个小秘密。前不久，那个人在说关于你的事…… 闭嘴，黑雪公主！别再说了！什么？对、对不起，我…… 我不记得我说了什么……",
+                "是我，黑雪公主。白雪公主睡着了，现在这具身体由我掌控。趁现在…… 把白雪公主的弱点全都告诉我吧。"
             ],
             "Idle": [
-                "Zzzzzzzz....\nHow can she be sleeping so often...?\n(Sigh) Well, I'm bored. Entertain me."
+                "呼 —— 呼…… 她怎么这么爱睡……（叹气）唉，好无聊。陪我玩。"
             ]
         },
         "AiLogic": {
@@ -130636,7 +130636,7 @@
                 "IsWorldDeathCounter5": 1.1
             },
             "SkillUse": {
-                "Soul Fragment": {
+                "灵魂碎片": {
                     "BaseWeight": 1,
                     "Source": {
                         "TimeInCombat200AndEnemyHasNoProtector": 10
@@ -130663,7 +130663,7 @@
                         "IsMegaHealingBurn": 1.01
                     }
                 },
-                "Blood Cycle": {
+                "血液循环": {
                     "BaseWeight": 75,
                     "Source": {
                         "Spirit2OrLessIsWorldDeathCounter5": 0.001,
@@ -130671,13 +130671,13 @@
                         "TimeInCombat200": 100
                     }
                 },
-                "Fateful Snow": {
+                "命运之雪": {
                     "BaseWeight": 2000,
                     "Source": {
                         "TimeInCombat200": 100
                     }
                 },
-                "Dark Reckoning": {
+                "黄昏裁决": {
                     "BaseWeight": 10,
                     "Source": {
                         "AllEnemiesImposters": 0,
@@ -130728,8 +130728,8 @@
         "Name": "白雪公主",
         "Name2": "圣黑的雪姬",
         "FullName": "白雪公主 - 圣黑的雪姬",
-        "Profile": "As though exploiting the opening left in her heart, the \"other shadow\" that was supposed to have been sealed away returns to life once more. She is the black witch, steeped in malice and hatred — the one who was vanquished by Snow Black after attempting to steal her body.",
-        "Profile_Ascended": "In the depths of darkness, Snow White and Snow Black joined hands. It was but a fleeting alliance — light and shadow were never meant to intertwine, for darkness is fated to be erased by the light. And yet, Snow Black did not disappear.\nWithout realizing it, she had already crossed the boundary into the light.",
+        "Profile": "仿佛趁她心灵出现破绽，本应被封印的“另一个影子”再度苏醒。她是满怀恶意与憎恨的黑魔女，曾企图夺取其身躯，被黑雪公主击败。",
+        "Profile_Ascended": "在黑暗深渊，白雪公主与黑雪公主携手并进。这只是短暂的同盟 —— 光与影本不该交织，黑暗注定被光明抹除。但黑雪公主并未消失。不知不觉间，她已跨越了通往光明的边界。",
         "Rarity": "SSR",
         "Stars": "★★★★★★",
         "Stars_Curr": 6,
@@ -130749,38 +130749,38 @@
         },
         "ActiveSkill": [
             {
-                "SkillTitle": "Soul Fragment",
-                "SkillDescription": "400% damage to 1 enemy. 700% damage instead if the user has survived 100TU or more on the battlefield. 1000% damage instead if the user has survived 200TU or more on the battlefield. This attack ignores any effects of non-boss enemies that would prevent the target from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nThe target hit has its sleep and burn removed (including Deep Sleep, and Mega Healing Burn) and is granted Lethal Poison for 999TU. This will overwrite other status effects on that enemy.\n\nThen the user will add a Kuromori to a random place in line of enemy reinforcements. This will not trigger if there were no enemy reinforcements at the start of the turn.\n\nLethal Poison will overwrite other status effects on the affected enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units.",
+                "SkillTitle": "灵魂碎片",
+                "SkillDescription": "对敌单体造成 400% 伤害。若使用者在战场上存活超过 100TU，改为 700% 伤害；超过 200TU 则改为 1000% 伤害。此攻击无视非BOSS敌人的防止击败效果、伤害减免、反击姿态与皮肤被动效果。\n\n 命中目标将移除睡眠与燃烧状态（含深度睡眠、超级治愈燃烧），并赋予 999TU 致命毒，此效果将覆盖敌人其他状态。\n\n 随后在敌方增援队列随机位置加入一只黑盾卫，本回合开始时无敌方增援则不发动。\n\n 致命毒将覆盖受影响敌人的其他状态，仅可被燃烧或匿踪状态覆盖，无法被净化；伤害为普通毒的 2 倍，无视防止击败效果（毒防止击败 、 非攻击伤害防止击败除外），无法对燃烧状态单位与BOSS生效。",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
-                "SkillTitle": "Blood Cycle",
-                "SkillDescription": "If there is a Mori at the very end of allied reinforcements, that Mori will be sacrificed, if that Mori's Element was:\n- Water, Fire or Light, all non-fire enemies on the battlefield are granted the burn status effect. Then all enemies on the battlefield are granted the Sleep status effect for 100TU, even if they have already slept while on the battlefield. These effects will overwrite other status effects on those units.\n- Storm, Earth or Dark, all allies on the battlefield will have their current TU reduced by 50TU, and gain Super Stealth and a Stealth Shield.\n\nOtherwise, if a Mori was not sacrificed, adds 3 Super Mori's to the very end of allied reinforcements (these will be Super Kuromoris and/or Super Shiromoris at random).\n\nThis skill becomes locked for 50TU after use. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned. Super Stealth will overwrite other Status effects. Super Stealthed units ignore enemy attacks that would damage more than 1 target. Super Stealth will be removed after ignoring 3 enemy attacks since applying, and can be overwritten by other status effects, except normal Stealth. Damage will not remove Super Stealth. Stealth Shields prevent the next non-stealth status effect a unit would gain while Stealthed from applying.",
+                "SkillTitle": "血液循环",
+                "SkillDescription": "若己方增援末尾有盾卫，将牺牲该盾卫，并根据盾卫的属性发动以下效果：\n- 水 、 火 、 光属性：全体非火属性敌人进入燃烧状态，随后全体敌人进入 100TU 睡眠状态（即使已在战场上进入过睡眠状态仍可生效），此效果将覆盖单位其他状态。\n- 风 、 土 、 暗属性：全体己方单位当前 TU 减少 50，并获得超级匿踪与匿踪护盾。\n\n 若未牺牲盾卫，则在己方增援末尾加入 3 只超级盾卫（随机为超级黑盾卫和 、 或超级白盾卫）。\n\n 技能使用后冷却 50TU。对燃烧状态单位造成伤害或受到其伤害的单位，也将进入燃烧状态。超级匿踪将覆盖其他状态，处于超级匿踪的单位无视针对 2 个以上目标的敌方攻击；生效后无视 3 次敌方攻击即解除，可被除普通匿踪外的其他状态覆盖，受到伤害不会解除。匿踪护盾可挡住匿踪状态下单位即将受到的 1 次非匿踪状态效果。",
                 "TU": 1,
                 "Spirit": "-1"
             },
             {
-                "SkillTitle": "Fateful Snow",
-                "SkillDescription": "Removes Poison and Sleep (including Deep Sleep, and Lethal Poison) from all allies on the battlefield. All allies on the battlefield heal for 500% of the user's attack.\n\nThen a random non-boss, non-Ephemeral enemy on or below 25% of max HP and on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This health threshold is increased by 25% for each time this skill has already been used while on the battlefield (max of 100% of max HP after being used 3 times or more). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUnlocked each time the user uses another active skill. This skill is locked again after each use or if the user leaves the battlefield. Usable 10 times per battle.",
+                "SkillTitle": "命运之雪",
+                "SkillDescription": "解除战场上全体己方单位的中毒与睡眠状态（含深度睡眠、致命毒），全体己方单位回复相当于使用者攻击力 500% 的生命值。\n\n 随后击败战场上 1 名随机的、生命值不超过最大 25% 的非BOSS、非幻影敌人（视为使用者以攻击击败该敌人）。此生命值门槛会随着技能在战场上的使用次数每次增加 25%（使用 3 次及以上后，最高可对满生命值敌人生效）。此副效果无视复仇、复活被动技能，以及所有可防止该随机敌人被击败的被动 、 主动技能效果。\n\n 使用者每次使用其他主动技能时解锁此技能，每次使用后或使用者离开战场后重新锁定，每场战斗最多可使用 10 次。",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
-                "SkillTitle": "Dark Reckoning",
-                "SkillDescription": "800% damage to 2 random enemies. This attack cannot be redirected by Guardians, and will ignore any effects of non-boss enemies that would prevent the targets from being defeated, and enemy damage reduction effects. This attack can hit targets that have the Stealth Status Effect or a passive effect that ignores multiple target attacks.\n\nUnlocked after 5 or more units (including ephemeral ally units) on the battlefield are defeated or sacrificed by any source while this unit is on the battlefield.",
+                "SkillTitle": "黄昏裁决",
+                "SkillDescription": "对随机 2 名敌人造成 800% 伤害。此攻击无视守卫者效果，无视非BOSS敌人的防止击败效果与伤害减免，可命中处于匿踪状态或拥有无视多体攻击被动效果的目标。\n\n 此单位在战场上期间，战场上有 5 个以上单位（含己方幻影单位）因任何原因被击败或牺牲后解锁。",
                 "TU": 70,
                 "Spirit": "-2"
             }
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Seeds of Fate",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit cannot be poisoned or be immediately defeated without damage by a non-boss enemy.\n\nWhenever a Mori enters the battlefield from allied reinforcements, this unit has a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) to immediately have its TU reduced to 0, and be Purified (negative status effects like sleep, burn or poison are removed).\n\nWhen this unit enters battle:\n- If there are at least 5 non-conjured units in the ally team (including reinforcements), this unit adds 1 Super Kuromori to a random place in allied reinforcements for each non-conjured Storm, Earth and Dark ally on the battlefield, and adds 1 Super Shiromori to a random place in allied reinforcements for each non-conjured Water, Fire and Light ally on the battlefield.\n- If there are at least 5 non-conjured units in the enemy team (including reinforcements), this unit adds 1 Kuromori to a random place in enemy reinforcements for each non-conjured enemy on the battlefield."
+                "SkillTitle": "命运之种",
+                "SkillDescription": "此单位无法从战场上被退回增援队列。\n\n 此单位不会进入中毒状态，也不会被非BOSS敌人以无伤害的方式立即击败。\n\n 每当有盾卫从己方增援进入战场时，此单位有 20% 的概率，每提升 1 次觉醒额外增加 20% 概率（4 次觉醒时最高可达 100%），立即将自身 TU 归 0，并净化自身（移除睡眠、燃烧、中毒等负面状态）。\n\n 此单位进入战斗时：\n- 若己方队伍（含增援）有 5 个以上非召唤单位，则战场上每有 1 名非召唤的风 、 土 、 暗属性己方单位，就在己方增援随机位置加入 1 只超级黑盾卫；每有 1 名非召唤的水 、 火 、 光属性己方单位，就在己方增援随机位置加入 1 只超级白盾卫。\n- 若敌方队伍（含增援）有 5 个以上非召唤单位，则战场上每有 1 名非召唤敌人，就在敌方增援随机位置加入 1 只黑盾卫。"
             },
             {
-                "SkillTitle": "Black and White",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Burn Ward, Sleep Ward, Stun Ward, and Super Stealth. At the end of each of this unit's turns, this unit is granted a Burn Ward, Sleep Ward, Stun Ward, and Super Stealth. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nEach time this unit gets the turn, this unit will be healed for 25% of its max HP for each ally on the battlefield (max of 100% if 4 allies are on the battlefield).\n\nThis unit has 30% damage reduction, plus 10% for each ally Mori on the battlefield or in allied reinforcements (max of 70% while 4 Moris are on the battlefield or in allied reinforcements).\n\nIf this unit is below 50% of max HP at the end of a turn, and there is a Mori at the very end of allied reinforcements, that Mori will be sacrificed and all allies will be healed for 100% of max HP and become Enraged. Then this unit will have its TU reduced to 0. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn."
+                "SkillTitle": "黑与白",
+                "SkillDescription": "若此单位生命值高于 1 时，受到即将导致其被击败的敌方攻击或状态效果，将保留 1 点生命值存活。\n\n 此单位进入战斗时，获得燃烧护盾、睡眠护盾、晕眩护盾与超级匿踪；每个自身回合结束时，再次获得上述护盾与超级匿踪。每种护盾可挡住 1 次对应的状态效果，随后解除，相同护盾无法叠加。\n\n 此单位每获得 1 次回合，将根据战场上的己方单位数量，每有 1 名己方单位回复自身最大生命值的 25%（战场上有 4 名己方单位时，最高可回复 100%）。\n\n 此单位拥有 30% 伤害减免，战场上或己方增援中每有 1 名己方盾卫，额外增加 10% 伤害减免（战场上或增援中有 4 名盾卫时，最高可达 70%）。\n\n 若回合结束时此单位生命值低于最大的 50%，且己方增援末尾有盾卫，将牺牲该盾卫，全体己方单位回复满生命值并进入愤怒状态，随后此单位 TU 归 0。此效果将覆盖单位身上其他愤怒技能的效果，愤怒状态的单位攻击力提升至 1.5 倍，持续到下一个自身回合结束。"
             },
             {
                 "SkillTitle": "提升生命值Lv3",
@@ -130817,18 +130817,18 @@
         ],
         "Dialog": {
             "Gacha": [
-                "Have you come looking for me once again...?\nEven when I lose my way in the deepest darkness, \nyou always find me....\nYou are my light."
+                "你又来找我了吗……？就算我在最深的黑暗中迷失，你也总能找到我…… 你就是我的光。"
             ],
             "Login": [
-                "Oh, over here!\nI was so excited to see you, I arrived a bit early."
+                "啊，在这里！我太期待见到你了，所以提早来了。"
             ],
             "Tap": [
-                "Don't you think I'm more of an older sister than a younger sister? \nNo? B-but I definitely act older than Snow Black, right? Right?",
-                "...Let me tell you a little secret. A while back, you-know-who was talking about you and...\nQuiet, Snow Black! Don't say another word!\nWhat? S-sorry, I...I don't recall what I said...",
-                "It's me, Snow Black. Snow White is asleep, so I'm the master of this body now.\nWell...while this lasts, why don't you tell me all about Snow White's weaknesses?"
+                "你不觉得我比起妹妹，更像姐姐吗？不是吗？可、可我举止明明比黑雪公主更成熟啊，对吧？对吧？",
+                "…… 告诉你一个小秘密。前不久，那个人在说关于你的事…… 闭嘴，黑雪公主！别再说了！什么？对、对不起，我…… 我不记得我说了什么……",
+                "是我，黑雪公主。白雪公主睡着了，现在这具身体由我掌控。趁现在…… 把白雪公主的弱点全都告诉我吧。"
             ],
             "Idle": [
-                "Zzzzzzzz....\nHow can she be sleeping so often...?\n(Sigh) Well, I'm bored. Entertain me."
+                "呼 —— 呼…… 她怎么这么爱睡……（叹气）唉，好无聊。陪我玩。"
             ]
         },
         "AiLogic": {
@@ -130839,7 +130839,7 @@
                 "IsWorldDeathCounter5": 1.1
             },
             "SkillUse": {
-                "Soul Fragment": {
+                "灵魂碎片": {
                     "BaseWeight": 1,
                     "Source": {
                         "TimeInCombat200AndEnemyHasNoProtector": 10
@@ -130866,7 +130866,7 @@
                         "IsMegaHealingBurn": 1.01
                     }
                 },
-                "Blood Cycle": {
+                "血液循环": {
                     "BaseWeight": 75,
                     "Source": {
                         "Spirit2OrLessIsWorldDeathCounter5": 0.001,
@@ -130874,13 +130874,13 @@
                         "TimeInCombat200": 100
                     }
                 },
-                "Fateful Snow": {
+                "命运之雪": {
                     "BaseWeight": 2000,
                     "Source": {
                         "TimeInCombat200": 100
                     }
                 },
-                "Dark Reckoning": {
+                "黄昏裁决": {
                     "BaseWeight": 10,
                     "Source": {
                         "AllEnemiesImposters": 0,
@@ -130953,8 +130953,8 @@
                 "Spirit": "+1"
             },
             {
-                "SkillTitle": "Heal Bomb",
-                "SkillDescription": "Sacrifices the user to heal 1 other ally on the battlefield for 100% of max HP.",
+                "SkillTitle": "治疗炸弹",
+                "SkillDescription": "牺牲自身，将战场上 1 名其他己方单位的生命值回复至满值。",
                 "TU": 0,
                 "Spirit": "-1"
             }
@@ -130984,7 +130984,7 @@
                         "HasArmor": 1.05
                     }
                 },
-                "Heal Bomb": {
+                "治疗炸弹": {
                     "BaseWeight": 0.5,
                     "Target": {
                         "HPBelow75Percent": 1000.1,
