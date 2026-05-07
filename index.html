@@ -3233,7 +3233,6 @@
 
 		function setDialog(id) {
 			if (wholeData[currentDisplayCategory][id]["Dialog"]) {
-				document.getElementById("dialogArea").classList.remove("hidden");
 				document.getElementById("dialogContent").innerHTML = "";
 
 				const dailogSort = {
@@ -3262,6 +3261,8 @@
 					templateDialog.querySelector(".dialogText").remove();
 					document.getElementById("dialogContent").appendChild(templateDialog);
 				}
+
+				if (document.getElementById("dialogContent").innerHTML) document.getElementById("dialogArea").classList.remove("hidden");
 			} else {
 				document.getElementById("dialogArea").classList.add("hidden");
 			}
