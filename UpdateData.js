@@ -429,7 +429,7 @@ async function buildMonsterData() {
 
 			monsterContent["Name"] = getTextByKey(entryID + "NameKey");
 			const name2 = getTextByKey(entryID + "SecondNameKey");
-			if (name2 && name2 !== monsterContent["Name"]) monsterContent["Name2"] = name2;
+			if (name2?.trim() && name2 !== monsterContent["Name"]) monsterContent["Name2"] = name2;
 			monsterContent["FullName"] = monsterContent["Name"]
 				? monsterContent["Name2"]
 					? `${monsterContent["Name"]} - ${monsterContent["Name2"]}`
