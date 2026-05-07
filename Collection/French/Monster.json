@@ -130542,7 +130542,7 @@
         "Hp_Base": 5965,
         "Speed": 540,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "À partir de la neige blanche et noire,\nune nouvelle lueur s'éveille.",
         "LeaderSkill": {
             "SkillTitle": "Obscurité ATT+",
@@ -130994,5 +130994,1030 @@
                 }
             }
         }
+    },
+    "BeautyBeastRegular01": {
+        "Name": "Belle & Bête",
+        "Name2": "Une paire de fleurs de rêve",
+        "FullName": "Belle & Bête - Une paire de fleurs de rêve",
+        "Profile": "Belle est née dans une petite ville. Elle fut élevée par ses parents, mais une faillite financière déchira sa famille––Et Belle fut abandonnée.\nAyant nulle part où aller, elle se retrouva dans les ruelles au sein d'un groupe de gamins. Grâce à son agilité naturelle et sa débrouillardise, elle se forgea rapidement une réputation parmi les résidents douteux des ruelles.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Même la mort ne nous séparera pas.",
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hache Vénéneuse",
+                "SkillDescription": "300% de dégâts à 1 ennemi. Inflige 600% de dégâts à la place si quelconque ennemi du champ de bataille est empoisonné. Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nPuis la cible touchée subit aléatoirement soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nLe Méga Poison remplacera les autres effets de statut sur ces ennemis. Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Le Poison Létal remplacera tout autre effet de statut, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Dons Naissants",
+                "SkillDescription": "Tous les alliés non-brûlés sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur et deviennent Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leurs prochains tours.\n\nSi 2 ennemis voire plus du champ de bataille sont empoisonnés, les coûts de TU de toutes les compétences de tous les alliés seront réduits de 30%. Ceci remplacera les effets d'autres compétences de Hâte. Puis si moins de 2 ennemis du champ de bataille sont empoisonnés, tous les ennemis du champ de bataille subiront soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nCette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle du Bal",
+                "SkillDescription": "600% de dégâts à 1 ennemi, puis inflige l'effet de statut de Poison Létal à cet ennemi pendant 999TU. Inflige ensuite l'effet de statut de Méga Poison à cet ennemi pendant 200TU. Cette attaque ignore les Gardiens et les effets de réduction de dégâts.\n\nUtilisable seulement s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés. Cette compétence se verrouille pendant 25TU si elle est utilisée 3 fois durant 10TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rêves Liés",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue et ne peut être vaincue jusqu'à la fin de son prochain tour. Cet effet ne peut être déclenché qu'une seule fois à chaque fois que cette unité entre sur le champ de bataille et considéré comme étant un effet Tenir Bon+. Chaque fois qu'un allié de type Obscurité nommé Aigis entre sur le champ de bataille depuis les renforts alliés, cet effet Tenir Bon+ est réinitialisé pour qu'il puisse être à nouveau déclenché.\n\nS'il n'y a pas déjà un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité ajoute Aigis en tête des renforts alliés à la fin du tour à chaque fois que :\n- Un autre allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque, tant que cette unité n'est pas vaincue ou sacrifiée en même temps.\n- Cette unité vainc un ennemi non-invoqué du champ de bataille avec une attaque. Les Seuils Limites, Éveils, Boosts, Potentiels, Maîtrise, Arme et Accessoire d'Aigis seront les mêmes que ceux de cette unité.\n\nCette unité ne peut être endormie ou étourdie s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés.\n\nCette unité bénéficie d'une réduction de 30% des dégâts provenant d'attaques. Tant qu'il y aura un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité bénéficiera à la place d'une réduction de 60% des dégâts provenant d'attaques."
+            },
+            {
+                "SkillTitle": "Force Libérée",
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité ne peut être empoisonnée ou renvoyée vers les renforts depuis le champ de bataille.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle sera soignée de 50% de ses PV max.\n\nCette unité gagne un autre tour à chaque fois qu'elle inflige des dégâts à un ennemi empoisonné avec une attaque. Cet effet ne peut être déclenché à nouveau contre la même cible jusqu'à ce que les TU avancent. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nCette unité gagne une Protection Mort Instantanée, une Protection Sommeil et une Protection Étourdissement. lorsque qu'elle entre en bataille. Chaque Protection empêche l'application de son effet respectif, puis est ensuite retirée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts une fois par un ennemi non-boss, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées. Les Protections identiques ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Je m'appelle Belle. Et elle, c'est Aigis.\nOn pourrait te passer un coup de main... Au juste prix.\nMais si tu reviens sur quelconque marché conclu avec nous... Je te tuerai.\n\nEuh, Belle... Ça ne ferait peut-être pas de mal d'être un peu plus sympathique...?\nMais vous faites du mal à Belle, alors Aigis ne vous pardonnera jamais."
+            ],
+            "Login": [
+                "Eh bien... Vous avez donc tenu votre promesse et vous êtes venu me voir. Je pensais que vous seriez trop peureux.\nBon alors, allons à... C'était quoi l'endroit où vous vouliez m'amener ?"
+            ],
+            "Tap": [
+                "Comment !?\nPourquoi est-ce que ce tableau démodé et délabré est-il plus cher que ce joli bijou scintillant !? Ça n'a aucun sens...",
+                "Dormons ensemble, Aigis !\n\nJ'adorerais ça, Belle ! Tous mes soucis disparaissent quand je te serre dans mes bras.\nTu es tellement douce et tellement chaleureuse... Tellement parfaite !",
+                "Je veux faire un cadeau à Belle... Que devrais-je lui offrir ?\nJe n'en ai vraiment aucune idée. Mais je veux voir son visage s'illuminer, donc je vais continuer à tenter de trouver quelque chose."
+            ],
+            "Idle": [
+                "Aigis, où es-tu ? Aigis ? Où aurait-elle pu aller ?\n... Aurait-elle pu m'abandonner ? Non... Il n'y a pas moyen...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hache Vénéneuse": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Dons Naissants": {
+                    "BaseWeight": 9999
+                },
+                "Belle du Bal": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyBeastRegular02": {
+        "Name": "Belle & Bête",
+        "Name2": "Une paire de fleurs de rêve",
+        "FullName": "Belle & Bête - Une paire de fleurs de rêve",
+        "Profile": "Aigis n'avait pas de famille non plus. Elle avait été abandonnée après sa naissance dans une forêt près d'une ville. Bien qu'elle avait été accueillie par une famille locale qui l'avait trouvée, on la traitait comme pas grand chose de plus que de la main-d'oeuvre––Et finalement, elle fut une fois de plus abandonnée.\nÀ cause de son apparence distinctive et sa nature timide, elle resta seule aussi loin que remontaient ses souvenirs.\n\nJusqu'à ce qu'elle rencontre Belle.",
+        "Profile_Ascended": "Le monde fragile dans lequel elles vivaient toutes les deux était différent de tout autre monde des rêves––Il était instable et voué à s'effondrer en un seul jour sans carburant pour l'entretenir.\nC'était la raison pour laquelle des victimes sacrificielles étaient nécessaires.\nMais même si cela signifiait qu'il fallait sacrifier toutes les âmes existantes jusqu'à la dernière, tant qu'elles pouvaient rester encore un jour de plus ensemble... C'était tout ce qui comptait.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hache Vénéneuse",
+                "SkillDescription": "300% de dégâts à 1 ennemi. Inflige 600% de dégâts à la place si quelconque ennemi du champ de bataille est empoisonné. Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nPuis la cible touchée subit aléatoirement soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nLe Méga Poison remplacera les autres effets de statut sur ces ennemis. Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Le Poison Létal remplacera tout autre effet de statut, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Dons Naissants",
+                "SkillDescription": "Tous les alliés non-brûlés sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur et deviennent Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leurs prochains tours.\n\nSi 2 ennemis voire plus du champ de bataille sont empoisonnés, les coûts de TU de toutes les compétences de tous les alliés seront réduits de 30%. Ceci remplacera les effets d'autres compétences de Hâte. Puis si moins de 2 ennemis du champ de bataille sont empoisonnés, tous les ennemis du champ de bataille subiront soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nCette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle du Bal",
+                "SkillDescription": "600% de dégâts à 1 ennemi, puis inflige l'effet de statut de Poison Létal à cet ennemi pendant 999TU. Inflige ensuite l'effet de statut de Méga Poison à cet ennemi pendant 200TU. Cette attaque ignore les Gardiens et les effets de réduction de dégâts.\n\nUtilisable seulement s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés. Cette compétence se verrouille pendant 25TU si elle est utilisée 3 fois durant 10TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Hache Mécanique",
+                "SkillDescription": "600% de dégâts à 1 ennemi. 800% de dégâts à la place aux cibles possédant l'effet de statut de Méga Poison ou l'effet de statut de Poison Létal. Cette attaque ignore tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nSi les dégâts de cette attaque vainquent un ennemi non-Éphémère, un autre ennemi aléatoire non-boss, non-Éphémère sera immédiatement vaincu (l'utilisateur sera considéré comme ayant vaincu cet ennemi avec une attaque). Cet effet secondaire ignore les compétences passives de Vengeance et Résurrection, et toute compétence passive ou tout effet de compétence active qui empêcherait l'ennemi aléatoire d'être vaincu.\n\nUtilisable si tout allié du champ de bataille a vaincu 1+ unité par attaques sur le champ de bataille.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rêves Liés",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue et ne peut être vaincue jusqu'à la fin de son prochain tour. Cet effet ne peut être déclenché qu'une seule fois à chaque fois que cette unité entre sur le champ de bataille et considéré comme étant un effet Tenir Bon+. Chaque fois qu'un allié de type Obscurité nommé Aigis entre sur le champ de bataille depuis les renforts alliés, cet effet Tenir Bon+ est réinitialisé pour qu'il puisse être à nouveau déclenché.\n\nS'il n'y a pas déjà un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité ajoute Aigis en tête des renforts alliés à la fin du tour à chaque fois que :\n- Un autre allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque, tant que cette unité n'est pas vaincue ou sacrifiée en même temps.\n- Cette unité vainc un ennemi non-invoqué du champ de bataille avec une attaque. Les Seuils Limites, Éveils, Boosts, Potentiels, Maîtrise, Arme et Accessoire d'Aigis seront les mêmes que ceux de cette unité.\n\nCette unité ne peut être endormie ou étourdie s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés.\n\nCette unité bénéficie d'une réduction de 30% des dégâts provenant d'attaques. Tant qu'il y aura un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité bénéficiera à la place d'une réduction de 60% des dégâts provenant d'attaques."
+            },
+            {
+                "SkillTitle": "Force Libérée",
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité ne peut être empoisonnée ou renvoyée vers les renforts depuis le champ de bataille.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle sera soignée de 50% de ses PV max.\n\nCette unité gagne un autre tour à chaque fois qu'elle inflige des dégâts à un ennemi empoisonné avec une attaque. Cet effet ne peut être déclenché à nouveau contre la même cible jusqu'à ce que les TU avancent. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nCette unité gagne une Protection Mort Instantanée, une Protection Sommeil et une Protection Étourdissement. lorsque qu'elle entre en bataille. Chaque Protection empêche l'application de son effet respectif, puis est ensuite retirée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts une fois par un ennemi non-boss, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées. Les Protections identiques ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Je m'appelle Belle. Et elle, c'est Aigis.\nOn pourrait te passer un coup de main... Au juste prix.\nMais si tu reviens sur quelconque marché conclu avec nous... Je te tuerai.\n\nEuh, Belle... Ça ne ferait peut-être pas de mal d'être un peu plus sympathique...?\nMais vous faites du mal à Belle, alors Aigis ne vous pardonnera jamais."
+            ],
+            "Login": [
+                "Eh bien... Vous avez donc tenu votre promesse et vous êtes venu me voir. Je pensais que vous seriez trop peureux.\nBon alors, allons à... C'était quoi l'endroit où vous vouliez m'amener ?"
+            ],
+            "Tap": [
+                "Comment !?\nPourquoi est-ce que ce tableau démodé et délabré est-il plus cher que ce joli bijou scintillant !? Ça n'a aucun sens...",
+                "Dormons ensemble, Aigis !\n\nJ'adorerais ça, Belle ! Tous mes soucis disparaissent quand je te serre dans mes bras.\nTu es tellement douce et tellement chaleureuse... Tellement parfaite !",
+                "Je veux faire un cadeau à Belle... Que devrais-je lui offrir ?\nJe n'en ai vraiment aucune idée. Mais je veux voir son visage s'illuminer, donc je vais continuer à tenter de trouver quelque chose."
+            ],
+            "Idle": [
+                "Aigis, où es-tu ? Aigis ? Où aurait-elle pu aller ?\n... Aurait-elle pu m'abandonner ? Non... Il n'y a pas moyen...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hache Vénéneuse": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Dons Naissants": {
+                    "BaseWeight": 9999
+                },
+                "Belle du Bal": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Hache Mécanique": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeautyRegular01": {
+        "Name": "Belle",
+        "Name2": " ",
+        "FullName": "Belle -  ",
+        "Profile": "Belle est née dans une petite ville. Elle fut élevée par ses parents, mais une faillite financière déchira sa famille––Et Belle fut abandonnée.\nAyant nulle part où aller, elle se retrouva dans les ruelles au sein d'un groupe de gamins. Grâce à son agilité naturelle et sa débrouillardise, elle se forgea rapidement une réputation parmi les résidents douteux des ruelles.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hache Vénéneuse",
+                "SkillDescription": "300% de dégâts à 1 ennemi. Inflige 600% de dégâts à la place si quelconque ennemi du champ de bataille est empoisonné. Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nPuis la cible touchée subit aléatoirement soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nLe Méga Poison remplacera les autres effets de statut sur ces ennemis. Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Le Poison Létal remplacera tout autre effet de statut, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Dons Naissants",
+                "SkillDescription": "Tous les alliés non-brûlés sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur et deviennent Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leurs prochains tours.\n\nSi 2 ennemis voire plus du champ de bataille sont empoisonnés, les coûts de TU de toutes les compétences de tous les alliés seront réduits de 30%. Ceci remplacera les effets d'autres compétences de Hâte. Puis si moins de 2 ennemis du champ de bataille sont empoisonnés, tous les ennemis du champ de bataille subiront soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nCette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle du Bal",
+                "SkillDescription": "600% de dégâts à 1 ennemi, puis inflige l'effet de statut de Poison Létal à cet ennemi pendant 999TU. Inflige ensuite l'effet de statut de Méga Poison à cet ennemi pendant 200TU. Cette attaque ignore les Gardiens et les effets de réduction de dégâts.\n\nUtilisable seulement s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés. Cette compétence se verrouille pendant 25TU si elle est utilisée 3 fois durant 10TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rêves Liés",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue et ne peut être vaincue jusqu'à la fin de son prochain tour. Cet effet ne peut être déclenché qu'une seule fois à chaque fois que cette unité entre sur le champ de bataille et considéré comme étant un effet Tenir Bon+. Chaque fois qu'un allié de type Obscurité nommé Aigis entre sur le champ de bataille depuis les renforts alliés, cet effet Tenir Bon+ est réinitialisé pour qu'il puisse être à nouveau déclenché.\n\nS'il n'y a pas déjà un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité ajoute Aigis en tête des renforts alliés à la fin du tour à chaque fois que :\n- Un autre allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque, tant que cette unité n'est pas vaincue ou sacrifiée en même temps.\n- Cette unité vainc un ennemi non-invoqué du champ de bataille avec une attaque. Les Seuils Limites, Éveils, Boosts, Potentiels, Maîtrise, Arme et Accessoire d'Aigis seront les mêmes que ceux de cette unité.\n\nCette unité ne peut être endormie ou étourdie s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés.\n\nCette unité bénéficie d'une réduction de 30% des dégâts provenant d'attaques. Tant qu'il y aura un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité bénéficiera à la place d'une réduction de 60% des dégâts provenant d'attaques."
+            },
+            {
+                "SkillTitle": "Force Libérée",
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité ne peut être empoisonnée ou renvoyée vers les renforts depuis le champ de bataille.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle sera soignée de 50% de ses PV max.\n\nCette unité gagne un autre tour à chaque fois qu'elle inflige des dégâts à un ennemi empoisonné avec une attaque. Cet effet ne peut être déclenché à nouveau contre la même cible jusqu'à ce que les TU avancent. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nCette unité gagne une Protection Mort Instantanée, une Protection Sommeil et une Protection Étourdissement. lorsque qu'elle entre en bataille. Chaque Protection empêche l'application de son effet respectif, puis est ensuite retirée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts une fois par un ennemi non-boss, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées. Les Protections identiques ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hache Vénéneuse": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Dons Naissants": {
+                    "BaseWeight": 9999
+                },
+                "Belle du Bal": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyRegular02": {
+        "Name": "Belle",
+        "Name2": " ",
+        "FullName": "Belle -  ",
+        "Profile": "Belle est née dans une petite ville. Elle fut élevée par ses parents, mais une faillite financière déchira sa famille––Et Belle fut abandonnée.\nAyant nulle part où aller, elle se retrouva dans les ruelles au sein d'un groupe de gamins. Grâce à son agilité naturelle et sa débrouillardise, elle se forgea rapidement une réputation parmi les résidents douteux des ruelles.",
+        "Profile_Ascended": "Belle est née dans une petite ville. Elle fut élevée par ses parents, mais une faillite financière déchira sa famille––Et Belle fut abandonnée.\nAyant nulle part où aller, elle se retrouva dans les ruelles au sein d'un groupe de gamins. Grâce à son agilité naturelle et sa débrouillardise, elle se forgea rapidement une réputation parmi les résidents douteux des ruelles.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hache Vénéneuse",
+                "SkillDescription": "300% de dégâts à 1 ennemi. Inflige 600% de dégâts à la place si quelconque ennemi du champ de bataille est empoisonné. Cette attaque ignore les effets de réduction de dégâts, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nPuis la cible touchée subit aléatoirement soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nLe Méga Poison remplacera les autres effets de statut sur ces ennemis. Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Le Poison Létal remplacera tout autre effet de statut, ne peut être remplacé par d'autres effets de statut que la Brûlure ou la Furtivité, et ne peut être Purifié. Le Poison Létal inflige 2 fois plus de dégâts que le Poison normal et ignore les compétences passives ou les effets des compétences actives qui empêcheraient la cible d'être vaincue, sauf celles qui empêchent spécifiquement la défaite par le Poison ou des dégâts ne provenant pas d'attaques. Le Poison Létal ne peut être appliqué aux unités Brûlées ou aux unités Boss.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Dons Naissants",
+                "SkillDescription": "Tous les alliés non-brûlés sont soignés d'une valeur de 500% de l'Attaque de l'utilisateur et deviennent Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leurs prochains tours.\n\nSi 2 ennemis voire plus du champ de bataille sont empoisonnés, les coûts de TU de toutes les compétences de tous les alliés seront réduits de 30%. Ceci remplacera les effets d'autres compétences de Hâte. Puis si moins de 2 ennemis du champ de bataille sont empoisonnés, tous les ennemis du champ de bataille subiront soit le Méga Poison pendant 200TU ou le Poison Létal pendant 999TU.\n\nCette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle du Bal",
+                "SkillDescription": "600% de dégâts à 1 ennemi, puis inflige l'effet de statut de Poison Létal à cet ennemi pendant 999TU. Inflige ensuite l'effet de statut de Méga Poison à cet ennemi pendant 200TU. Cette attaque ignore les Gardiens et les effets de réduction de dégâts.\n\nUtilisable seulement s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés. Cette compétence se verrouille pendant 25TU si elle est utilisée 3 fois durant 10TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Hache Mécanique",
+                "SkillDescription": "600% de dégâts à 1 ennemi. 800% de dégâts à la place aux cibles possédant l'effet de statut de Méga Poison ou l'effet de statut de Poison Létal. Cette attaque ignore tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nSi les dégâts de cette attaque vainquent un ennemi non-Éphémère, un autre ennemi aléatoire non-boss, non-Éphémère sera immédiatement vaincu (l'utilisateur sera considéré comme ayant vaincu cet ennemi avec une attaque). Cet effet secondaire ignore les compétences passives de Vengeance et Résurrection, et toute compétence passive ou tout effet de compétence active qui empêcherait l'ennemi aléatoire d'être vaincu.\n\nUtilisable si tout allié du champ de bataille a vaincu 1+ unité par attaques sur le champ de bataille.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rêves Liés",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue et ne peut être vaincue jusqu'à la fin de son prochain tour. Cet effet ne peut être déclenché qu'une seule fois à chaque fois que cette unité entre sur le champ de bataille et considéré comme étant un effet Tenir Bon+. Chaque fois qu'un allié de type Obscurité nommé Aigis entre sur le champ de bataille depuis les renforts alliés, cet effet Tenir Bon+ est réinitialisé pour qu'il puisse être à nouveau déclenché.\n\nS'il n'y a pas déjà un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité ajoute Aigis en tête des renforts alliés à la fin du tour à chaque fois que :\n- Un autre allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque, tant que cette unité n'est pas vaincue ou sacrifiée en même temps.\n- Cette unité vainc un ennemi non-invoqué du champ de bataille avec une attaque. Les Seuils Limites, Éveils, Boosts, Potentiels, Maîtrise, Arme et Accessoire d'Aigis seront les mêmes que ceux de cette unité.\n\nCette unité ne peut être endormie ou étourdie s'il y a un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés.\n\nCette unité bénéficie d'une réduction de 30% des dégâts provenant d'attaques. Tant qu'il y aura un allié de type Obscurité nommé Aigis sur le champ de bataille ou dans les renforts alliés, cette unité bénéficiera à la place d'une réduction de 60% des dégâts provenant d'attaques."
+            },
+            {
+                "SkillTitle": "Force Libérée",
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité ne peut être empoisonnée ou renvoyée vers les renforts depuis le champ de bataille.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle sera soignée de 50% de ses PV max.\n\nCette unité gagne un autre tour à chaque fois qu'elle inflige des dégâts à un ennemi empoisonné avec une attaque. Cet effet ne peut être déclenché à nouveau contre la même cible jusqu'à ce que les TU avancent. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nCette unité gagne une Protection Mort Instantanée, une Protection Sommeil et une Protection Étourdissement. lorsque qu'elle entre en bataille. Chaque Protection empêche l'application de son effet respectif, puis est ensuite retirée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts une fois par un ennemi non-boss, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées. Les Protections identiques ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hache Vénéneuse": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Dons Naissants": {
+                    "BaseWeight": 9999
+                },
+                "Belle du Bal": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Hache Mécanique": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeastRegular01": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Aigis n'avait pas de famille non plus. Elle avait été abandonnée après sa naissance dans une forêt près d'une ville. Bien qu'elle avait été accueillie par une famille locale qui l'avait trouvée, on la traitait comme pas grand chose de plus que de la main-d'oeuvre––Et finalement, elle fut une fois de plus abandonnée.\nÀ cause de son apparence distinctive et sa nature timide, elle resta seule aussi loin que remontaient ses souvenirs.\n\nJusqu'à ce qu'elle rencontre Belle.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 28,
+        "Atk_Base": 1125,
+        "Hp_Base": 8504,
+        "Speed": 304,
+        "Power": 169548,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Uppercut Bestial",
+                "SkillDescription": "700% de dégâts à 1 ennemi. 100% moins de dégâts par le nombre d'ennemis non-empoisonnés du champ de bataille (maximum de -400% s'il y a 4 ennemis non-empoisonnés). Cette attaque ignore tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nLa brûlure est ensuite retirée de la cible touchée (y compris la Méga Brûlure Soin) et subit aléatoirement soit le Méga Poison pendant 200TU, ou le Poison Létal pendant 999TU. Ceci remplacera les autres effets de statut sur cet ennemi.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Barrage de Ronces",
+                "SkillDescription": "500% de dégâts à tous les ennemis. Cette attaque ignore les effets de réduction de dégâts ennemis, les compétences passives de Reflet et l'effet de statut de Contre Relais. Tous les ennemis touchés subissent aléatoirement soit l'effet de statut de Méga Poison pendant 200TU, ou le Poison Létal pendant 999TU.\n\nUtilisable s'il n'y a pas plus de 1 ennemi empoisonné sur le champ de bataille. Cette compétence se verrouille pendant 30TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Fleur Immortelle",
+                "SkillDescription": "Ajoute une Belle en tête des renforts alliés, puis échange 1 autre allié avec elle s'il y a déjà 4 alliés sur le champ de bataille. Utilisable seulement s'il y a au moins 1 autre allié sur le champ de bataille, et s'il n'y a pas déjà un allié de type Terre nommé Belle ou « Belle & Bête, Une Paire de Fleurs de Rêve » sur le champ de bataille ou dans les renforts alliés.\n\nLa Belle ajoutée sera considérée comme étant une unité invoquée. Les Seuils Limites, Éveils, Boosts, Potentiels, Maîtrise, Arme et Accessoire de cette Belle seront les mêmes que ceux de l'utilisateur.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Protecteur de Belle",
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille, ou être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss.\n\nCette unité bénéficie d'une réduction de 30% des dégâts provenant des attaques. Tant que cette unité est un Gardien, elle bénéficie d'une réduction de 60% des dégâts à la place.\n\nCette unité devient un Gardien et ne peut être vaincue. Ces effets se déclenchent lorsque cette unité entre sur le champ de bataille, et prennent fin après son troisième tour sur le champ de bataille. Tant que cette unité est un Gardien, elle bénéficie d'une chance de 100% de rediriger 1 coup vers-elle même à la place pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés. Cette unité ne redirigera pas les compétences qui n'infligent pas de dégâts.\n\nCette unité sera soignée de 25% de ses PV max et gagnera la Super Furtivité si elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour. Ce soin augmentera à 100% de ses PV max lors des 3 premières fois qu'il sera déclenché après l'entrée de cette unité sur le champ de bataille.\n\nLes unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular01"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Uppercut Bestial": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Barrage de Ronces": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Fleur Immortelle": {
+                    "BaseWeight": 1000
+                }
+            }
+        }
+    },
+    "BeastRegular02": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Aigis n'avait pas de famille non plus. Elle avait été abandonnée après sa naissance dans une forêt près d'une ville. Bien qu'elle avait été accueillie par une famille locale qui l'avait trouvée, on la traitait comme pas grand chose de plus que de la main-d'oeuvre––Et finalement, elle fut une fois de plus abandonnée.\nÀ cause de son apparence distinctive et sa nature timide, elle resta seule aussi loin que remontaient ses souvenirs.\n\nJusqu'à ce qu'elle rencontre Belle.",
+        "Profile_Ascended": "Aigis n'avait pas de famille non plus. Elle avait été abandonnée après sa naissance dans une forêt près d'une ville. Bien qu'elle avait été accueillie par une famille locale qui l'avait trouvée, on la traitait comme pas grand chose de plus que de la main-d'oeuvre––Et finalement, elle fut une fois de plus abandonnée.\nÀ cause de son apparence distinctive et sa nature timide, elle resta seule aussi loin que remontaient ses souvenirs.\n\nJusqu'à ce qu'elle rencontre Belle.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lance",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 34,
+        "Atk_Base": 1438,
+        "Hp_Base": 10853,
+        "Speed": 304,
+        "Power": 216516,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Uppercut Bestial",
+                "SkillDescription": "700% de dégâts à 1 ennemi. 100% moins de dégâts par le nombre d'ennemis non-empoisonnés du champ de bataille (maximum de -400% s'il y a 4 ennemis non-empoisonnés). Cette attaque ignore tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les effets de réduction de dégâts ennemis, l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nLa brûlure est ensuite retirée de la cible touchée (y compris la Méga Brûlure Soin) et subit aléatoirement soit le Méga Poison pendant 200TU, ou le Poison Létal pendant 999TU. Ceci remplacera les autres effets de statut sur cet ennemi.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Barrage de Ronces",
+                "SkillDescription": "500% de dégâts à tous les ennemis. Cette attaque ignore les effets de réduction de dégâts ennemis, les compétences passives de Reflet et l'effet de statut de Contre Relais. Tous les ennemis touchés subissent aléatoirement soit l'effet de statut de Méga Poison pendant 200TU, ou le Poison Létal pendant 999TU.\n\nUtilisable s'il n'y a pas plus de 1 ennemi empoisonné sur le champ de bataille. Cette compétence se verrouille pendant 30TU après son utilisation.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Fleur Immortelle",
+                "SkillDescription": "Ajoute une Belle en tête des renforts alliés, puis échange 1 autre allié avec elle s'il y a déjà 4 alliés sur le champ de bataille. Utilisable seulement s'il y a au moins 1 autre allié sur le champ de bataille, et s'il n'y a pas déjà un allié de type Terre nommé Belle ou « Belle & Bête, Une Paire de Fleurs de Rêve » sur le champ de bataille ou dans les renforts alliés.\n\nLa Belle ajoutée sera considérée comme étant une unité invoquée. Les Seuils Limites, Éveils, Boosts, Potentiels, Maîtrise, Arme et Accessoire de cette Belle seront les mêmes que ceux de l'utilisateur.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Protecteur de Belle",
+                "SkillDescription": "Les attaques de cette unité la soigne d'une valeur de 100% des dégâts totaux infligés.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille, ou être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss.\n\nCette unité bénéficie d'une réduction de 30% des dégâts provenant des attaques. Tant que cette unité est un Gardien, elle bénéficie d'une réduction de 60% des dégâts à la place.\n\nCette unité devient un Gardien et ne peut être vaincue. Ces effets se déclenchent lorsque cette unité entre sur le champ de bataille, et prennent fin après son troisième tour sur le champ de bataille. Tant que cette unité est un Gardien, elle bénéficie d'une chance de 100% de rediriger 1 coup vers-elle même à la place pour toute attaque ennemie qui toucherait 1 ou 2 autres alliés. Cette unité ne redirigera pas les compétences qui n'infligent pas de dégâts.\n\nCette unité sera soignée de 25% de ses PV max et gagnera la Super Furtivité si elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour. Ce soin augmentera à 100% de ses PV max lors des 3 premières fois qu'il sera déclenché après l'entrée de cette unité sur le champ de bataille.\n\nLes unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité."
+            },
+            {
+                "SkillTitle": "Rêveurs de Morphée",
+                "SkillDescription": "Cette unité ne peut être endormie ou étourdie.\n\nÀ chaque fois que cette unité entre sur le champ de bataille depuis les renforts alliés :\n- Tous les ennemis du champ de bataille gagnent le Méga Poison pendant 200TU.\n- Les TU de tous les alliés de type Terre nommés Belle ou « Belle & Bête, Une Paire de Fleurs de Rêves » du champ de bataille seront réduits à 0, et ces alliés seront Purifiés (les effets de statut négatifs tels que le sommeil, la brûlure ou le poison seront retirés).\n- Puis cette unité prendra immédiatement son tour en ayant ses TU réduits à 0 et sera Purifiée.\n\nLorsque cette unité subit des dégâts provenant d'une attaque, les TU de tous les alliés de type Terre nommés Belle ou « Belle & Bête, Une Paire de Fleurs de Rêves » du champ de bataille seront réduits à 0. Ceci n'est pas un effet de Reflet.\n\nÀ la fin du tour lorsque cette unité vainc un nombre quelconque d'ennemis avec un attaque sur le champ de bataille :\n- Cette unité vole des Essences à l'équipe ennemie jusqu'à ce que l'Essence ennemie soit à 0.\n- Les TU de tous les alliés de type Terre nommés Belle ou « Belle & Bête, Une Paire de Fleurs de Rêves » du champ de bataille seront réduits à 0, et ces alliés seront Purifiés.\n- Puis cette unité prendra immédiatement son tour en ayant ses TU réduits à 0 et sera Purifiée.\nLes effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas)."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Etourd. LV3",
+                "SkillDescription": "Réduit la durée des effets d'étourdissement sur cette unité de 20TU."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular02"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Uppercut Bestial": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Barrage de Ronces": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Fleur Immortelle": {
+                    "BaseWeight": 1000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

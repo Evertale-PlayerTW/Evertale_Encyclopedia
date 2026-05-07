@@ -130542,7 +130542,7 @@
         "Hp_Base": 5965,
         "Speed": 540,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "自黑白之雪，崭新之光降临。",
         "LeaderSkill": {
             "SkillTitle": "暗属性猛攻",
@@ -130994,5 +130994,1030 @@
                 }
             }
         }
+    },
+    "BeautyBeastRegular01": {
+        "Name": "美女与野兽",
+        "Name2": "梦幻双花",
+        "FullName": "美女与野兽 - 梦幻双花",
+        "Profile": "贝儿出生于一座小城。她曾在父母身边长大，但随着家境恶化，一家人最终离散，而贝儿则被遗弃了下来。失去归宿的她，加入了后街那些不良少年们的团体。凭借天生的机灵与高超的处世能力，她很快便成为连后街众人都不敢小觑的存在。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "就算死了，也要一直在一起哦",
+        "LeaderSkill": {
+            "SkillTitle": "地属性猛攻",
+            "SkillDescription": "所有地属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "淬毒之斧",
+                "SkillDescription": "对1个敌人造成300%的伤害，若场上存在处于中毒状态的敌人，则造成600%的伤害；随机使其陷入持续200TU的急性剧毒或持续999TU的致命毒。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。\n急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖且会覆盖对象身上的其他状态效果。致命毒所造成的伤害是中毒的2倍，会覆盖对象身上的其他状态效果，可被燃烧或匿踪状态效果覆盖，但不会被其他状态覆盖或被“净化”类的技能清除。致命毒无视目标防止被击败的效果或被动技能，除非该效果能防止目标被中毒或非攻击伤害击败。致命毒对BOSS类或处于燃烧状态的单位无效。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "蔷薇面纱",
+                "SkillDescription": "场上全部不处于燃烧状态的己方单位回复相当于使用者攻击力500%的生命值且攻击力增加为1.5倍直到其下个回合结束。此效果会覆盖先前的“狂热”效果。\n若敌方场上存在至少2个处于中毒状态的单位，场上所有己方单位所有技能TU减少30%。此效果将覆盖先前的“加速”效果。若敌方场上存在至多1个处于中毒状态的单位，则随机使所有敌方单位陷入持续200TU的急性剧毒或持续999TU的致命毒。\n此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "舞会皇后",
+                "SkillDescription": "对1个敌人造成600%的伤害，然后使该敌人陷入持续999TU的致命毒状态。随后，使该敌人陷入持续200TU的剧毒状态。此攻击无视“守卫者”类效果与减伤效果。\n仅当场上或己方援军中存在名为“爱吉丝”的暗属性队友时可使用。若此技能在10TU内使用3次，则会有25TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "平行玫瑰",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。每当有名为“爱吉丝”的暗属性队友从己方援军进入战场时，该“坚守阵地+”效果将被重置，从而可以再次触发。\n若场上或己方援军中不存在名为“爱吉丝”的暗属性队友，则在以下情况发生时，若此单位未同时被击败或被牺牲，将在回合结束时把“爱吉丝”加入己方援军队列的下一位：\n- 场上有其他非召唤队友被任意来源击败或被牺牲时。\n- 此单位以攻击击败1个非召唤的敌人时。\n爱吉丝的等级、突破、觉醒、强化、潜能、专精、武器与饰品将与此单位相同。\n当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，此单位不会陷入睡眠或眩晕状态。\n此单位从攻击中受到的伤害减少30%。当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，改为减少60%。"
+            },
+            {
+                "SkillTitle": "后街领袖",
+                "SkillDescription": "此单位回复所造成伤害100%的生命值。此单位不会陷入中毒状态。此单位无法从场上回到援军队伍。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的50%。\n每当此单位通过攻击对处于中毒状态的敌人造成伤害后将立即获得下一回合。此效果在同一TU内对同一目标至多触发一次。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n此单位进场时获得速败抵抗、睡眠抵抗与眩晕抵抗。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "眩晕耐性Lv3",
+                "SkillDescription": "此单位受到的眩晕减少20TU。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "我叫贝儿。这位是爱吉丝。\n只要条件谈得拢，我们就会帮你。\n不过要是敢违约，我可是会杀了你的。\n\n贝儿，再稍微说得温柔一点吧……？\n但是，如果你伤害贝儿的话，\n爱吉丝也绝对不会原谅你的。"
+            ],
+            "Login": [
+                "啊，还真按约定来了啊。哼，我还以为你会害怕得不敢来呢。\n那就走吧……嗯，我们是要去哪里来着？"
+            ],
+            "Tap": [
+                "诶，为什么……！？\n明明这边闪闪发亮的宝石看起来更值钱，\n为什么那种老掉牙的画反而更贵啊？完全搞不懂……",
+                "爱吉丝，一起睡吧。\n嗯，好呀，贝儿。只要紧紧抱在一起，烦恼什么的就都会消失。\n软乎乎的，又暖呼呼的……完美！",
+                "我想送点什么给贝儿……到底送什么比较好呢。\n这种事我其实不太懂。不过，因为想看到她开心的样子，我会认真烦恼一下的。"
+            ],
+            "Idle": [
+                "爱吉丝在吗——？咦，哪里都不在……\n难道说，把我一个人丢下走掉了。怎么可能会这样……！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "淬毒之斧": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "蔷薇面纱": {
+                    "BaseWeight": 9999
+                },
+                "舞会皇后": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyBeastRegular02": {
+        "Name": "美女与野兽",
+        "Name2": "梦幻双花",
+        "FullName": "美女与野兽 - 梦幻双花",
+        "Profile": "爱吉丝也没有家人。她还是婴儿时便被遗弃在城镇附近的森林里，虽被镇上的居民捡回收养，却始终只是被当作劳力使唤，最终再次遭到抛弃。因为那副外表，以及胆小怯懦的性格，她一直孤独地活着。直到与贝儿相遇为止。",
+        "Profile_Ascended": "两人所栖身的虚假国度，与普通的梦之世界不同，极其不稳定，若放任不管，仅仅一天便会崩塌。因此，她们需要祭品。即便要牺牲这世上的所有灵魂，只要彼此还活着，对两人而言便已足够。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "地属性猛攻",
+            "SkillDescription": "所有地属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "淬毒之斧",
+                "SkillDescription": "对1个敌人造成300%的伤害，若场上存在处于中毒状态的敌人，则造成600%的伤害；随机使其陷入持续200TU的急性剧毒或持续999TU的致命毒。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。\n急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖且会覆盖对象身上的其他状态效果。致命毒所造成的伤害是中毒的2倍，会覆盖对象身上的其他状态效果，可被燃烧或匿踪状态效果覆盖，但不会被其他状态覆盖或被“净化”类的技能清除。致命毒无视目标防止被击败的效果或被动技能，除非该效果能防止目标被中毒或非攻击伤害击败。致命毒对BOSS类或处于燃烧状态的单位无效。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "蔷薇面纱",
+                "SkillDescription": "场上全部不处于燃烧状态的己方单位回复相当于使用者攻击力500%的生命值且攻击力增加为1.5倍直到其下个回合结束。此效果会覆盖先前的“狂热”效果。\n若敌方场上存在至少2个处于中毒状态的单位，场上所有己方单位所有技能TU减少30%。此效果将覆盖先前的“加速”效果。若敌方场上存在至多1个处于中毒状态的单位，则随机使所有敌方单位陷入持续200TU的急性剧毒或持续999TU的致命毒。\n此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "舞会皇后",
+                "SkillDescription": "对1个敌人造成600%的伤害，然后使该敌人陷入持续999TU的致命毒状态。随后，使该敌人陷入持续200TU的剧毒状态。此攻击无视“守卫者”类效果与减伤效果。\n仅当场上或己方援军中存在名为“爱吉丝”的暗属性队友时可使用。若此技能在10TU内使用3次，则会有25TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "梦之曲",
+                "SkillDescription": "对1个敌人造成600%的伤害。若目标处于剧毒或致命毒状态，则改为造成800%的伤害。此攻击无视非BOSS单位防止被击败的效果、敌方的减伤效果、“反击态势”状态效果以及反弹类被动技能的效果。\n若此攻击造成的伤害击败了1个非幻影敌人，则场上随机1个非BOSS且非幻影的敌人将被立即击败（视为由使用者以攻击击败）。该次级效果无视“复仇”类被动技能、“复活”类被动技能，以及任何会防止该随机目标被击败的被动技能或主动技能效果。\n仅当己方场上存在通过攻击击败过至少1个敌人的单位时才可使用。",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "平行玫瑰",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。每当有名为“爱吉丝”的暗属性队友从己方援军进入战场时，该“坚守阵地+”效果将被重置，从而可以再次触发。\n若场上或己方援军中不存在名为“爱吉丝”的暗属性队友，则在以下情况发生时，若此单位未同时被击败或被牺牲，将在回合结束时把“爱吉丝”加入己方援军队列的下一位：\n- 场上有其他非召唤队友被任意来源击败或被牺牲时。\n- 此单位以攻击击败1个非召唤的敌人时。\n爱吉丝的等级、突破、觉醒、强化、潜能、专精、武器与饰品将与此单位相同。\n当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，此单位不会陷入睡眠或眩晕状态。\n此单位从攻击中受到的伤害减少30%。当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，改为减少60%。"
+            },
+            {
+                "SkillTitle": "后街领袖",
+                "SkillDescription": "此单位回复所造成伤害100%的生命值。此单位不会陷入中毒状态。此单位无法从场上回到援军队伍。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的50%。\n每当此单位通过攻击对处于中毒状态的敌人造成伤害后将立即获得下一回合。此效果在同一TU内对同一目标至多触发一次。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n此单位进场时获得速败抵抗、睡眠抵抗与眩晕抵抗。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "眩晕耐性Lv3",
+                "SkillDescription": "此单位受到的眩晕减少20TU。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "我叫贝儿。这位是爱吉丝。\n只要条件谈得拢，我们就会帮你。\n不过要是敢违约，我可是会杀了你的。\n\n贝儿，再稍微说得温柔一点吧……？\n但是，如果你伤害贝儿的话，\n爱吉丝也绝对不会原谅你的。"
+            ],
+            "Login": [
+                "啊，还真按约定来了啊。哼，我还以为你会害怕得不敢来呢。\n那就走吧……嗯，我们是要去哪里来着？"
+            ],
+            "Tap": [
+                "诶，为什么……！？\n明明这边闪闪发亮的宝石看起来更值钱，\n为什么那种老掉牙的画反而更贵啊？完全搞不懂……",
+                "爱吉丝，一起睡吧。\n嗯，好呀，贝儿。只要紧紧抱在一起，烦恼什么的就都会消失。\n软乎乎的，又暖呼呼的……完美！",
+                "我想送点什么给贝儿……到底送什么比较好呢。\n这种事我其实不太懂。不过，因为想看到她开心的样子，我会认真烦恼一下的。"
+            ],
+            "Idle": [
+                "爱吉丝在吗——？咦，哪里都不在……\n难道说，把我一个人丢下走掉了。怎么可能会这样……！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "淬毒之斧": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "蔷薇面纱": {
+                    "BaseWeight": 9999
+                },
+                "舞会皇后": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "梦之曲": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeautyRegular01": {
+        "Name": "贝儿",
+        "Name2": " ",
+        "FullName": "贝儿 -  ",
+        "Profile": "贝儿出生于一座小城。她曾在父母身边长大，但随着家境恶化，一家人最终离散，而贝儿则被遗弃了下来。失去归宿的她，加入了后街那些不良少年们的团体。凭借天生的机灵与高超的处世能力，她很快便成为连后街众人都不敢小觑的存在。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "淬毒之斧",
+                "SkillDescription": "对1个敌人造成300%的伤害，若场上存在处于中毒状态的敌人，则造成600%的伤害；随机使其陷入持续200TU的急性剧毒或持续999TU的致命毒。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。\n急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖且会覆盖对象身上的其他状态效果。致命毒所造成的伤害是中毒的2倍，会覆盖对象身上的其他状态效果，可被燃烧或匿踪状态效果覆盖，但不会被其他状态覆盖或被“净化”类的技能清除。致命毒无视目标防止被击败的效果或被动技能，除非该效果能防止目标被中毒或非攻击伤害击败。致命毒对BOSS类或处于燃烧状态的单位无效。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "蔷薇面纱",
+                "SkillDescription": "场上全部不处于燃烧状态的己方单位回复相当于使用者攻击力500%的生命值且攻击力增加为1.5倍直到其下个回合结束。此效果会覆盖先前的“狂热”效果。\n若敌方场上存在至少2个处于中毒状态的单位，场上所有己方单位所有技能TU减少30%。此效果将覆盖先前的“加速”效果。若敌方场上存在至多1个处于中毒状态的单位，则随机使所有敌方单位陷入持续200TU的急性剧毒或持续999TU的致命毒。\n此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "舞会皇后",
+                "SkillDescription": "对1个敌人造成600%的伤害，然后使该敌人陷入持续999TU的致命毒状态。随后，使该敌人陷入持续200TU的剧毒状态。此攻击无视“守卫者”类效果与减伤效果。\n仅当场上或己方援军中存在名为“爱吉丝”的暗属性队友时可使用。若此技能在10TU内使用3次，则会有25TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "平行玫瑰",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。每当有名为“爱吉丝”的暗属性队友从己方援军进入战场时，该“坚守阵地+”效果将被重置，从而可以再次触发。\n若场上或己方援军中不存在名为“爱吉丝”的暗属性队友，则在以下情况发生时，若此单位未同时被击败或被牺牲，将在回合结束时把“爱吉丝”加入己方援军队列的下一位：\n- 场上有其他非召唤队友被任意来源击败或被牺牲时。\n- 此单位以攻击击败1个非召唤的敌人时。\n爱吉丝的等级、突破、觉醒、强化、潜能、专精、武器与饰品将与此单位相同。\n当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，此单位不会陷入睡眠或眩晕状态。\n此单位从攻击中受到的伤害减少30%。当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，改为减少60%。"
+            },
+            {
+                "SkillTitle": "后街领袖",
+                "SkillDescription": "此单位回复所造成伤害100%的生命值。此单位不会陷入中毒状态。此单位无法从场上回到援军队伍。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的50%。\n每当此单位通过攻击对处于中毒状态的敌人造成伤害后将立即获得下一回合。此效果在同一TU内对同一目标至多触发一次。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n此单位进场时获得速败抵抗、睡眠抵抗与眩晕抵抗。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "眩晕耐性Lv3",
+                "SkillDescription": "此单位受到的眩晕减少20TU。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "淬毒之斧": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "蔷薇面纱": {
+                    "BaseWeight": 9999
+                },
+                "舞会皇后": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyRegular02": {
+        "Name": "贝儿",
+        "Name2": " ",
+        "FullName": "贝儿 -  ",
+        "Profile": "贝儿出生于一座小城。她曾在父母身边长大，但随着家境恶化，一家人最终离散，而贝儿则被遗弃了下来。失去归宿的她，加入了后街那些不良少年们的团体。凭借天生的机灵与高超的处世能力，她很快便成为连后街众人都不敢小觑的存在。",
+        "Profile_Ascended": "贝儿出生于一座小城。她曾在父母身边长大，但随着家境恶化，一家人最终离散，而贝儿则被遗弃了下来。失去归宿的她，加入了后街那些不良少年们的团体。凭借天生的机灵与高超的处世能力，她很快便成为连后街众人都不敢小觑的存在。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "淬毒之斧",
+                "SkillDescription": "对1个敌人造成300%的伤害，若场上存在处于中毒状态的敌人，则造成600%的伤害；随机使其陷入持续200TU的急性剧毒或持续999TU的致命毒。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。\n急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖且会覆盖对象身上的其他状态效果。致命毒所造成的伤害是中毒的2倍，会覆盖对象身上的其他状态效果，可被燃烧或匿踪状态效果覆盖，但不会被其他状态覆盖或被“净化”类的技能清除。致命毒无视目标防止被击败的效果或被动技能，除非该效果能防止目标被中毒或非攻击伤害击败。致命毒对BOSS类或处于燃烧状态的单位无效。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "蔷薇面纱",
+                "SkillDescription": "场上全部不处于燃烧状态的己方单位回复相当于使用者攻击力500%的生命值且攻击力增加为1.5倍直到其下个回合结束。此效果会覆盖先前的“狂热”效果。\n若敌方场上存在至少2个处于中毒状态的单位，场上所有己方单位所有技能TU减少30%。此效果将覆盖先前的“加速”效果。若敌方场上存在至多1个处于中毒状态的单位，则随机使所有敌方单位陷入持续200TU的急性剧毒或持续999TU的致命毒。\n此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "舞会皇后",
+                "SkillDescription": "对1个敌人造成600%的伤害，然后使该敌人陷入持续999TU的致命毒状态。随后，使该敌人陷入持续200TU的剧毒状态。此攻击无视“守卫者”类效果与减伤效果。\n仅当场上或己方援军中存在名为“爱吉丝”的暗属性队友时可使用。若此技能在10TU内使用3次，则会有25TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "梦之曲",
+                "SkillDescription": "对1个敌人造成600%的伤害。若目标处于剧毒或致命毒状态，则改为造成800%的伤害。此攻击无视非BOSS单位防止被击败的效果、敌方的减伤效果、“反击态势”状态效果以及反弹类被动技能的效果。\n若此攻击造成的伤害击败了1个非幻影敌人，则场上随机1个非BOSS且非幻影的敌人将被立即击败（视为由使用者以攻击击败）。该次级效果无视“复仇”类被动技能、“复活”类被动技能，以及任何会防止该随机目标被击败的被动技能或主动技能效果。\n仅当己方场上存在通过攻击击败过至少1个敌人的单位时才可使用。",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "平行玫瑰",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。每当有名为“爱吉丝”的暗属性队友从己方援军进入战场时，该“坚守阵地+”效果将被重置，从而可以再次触发。\n若场上或己方援军中不存在名为“爱吉丝”的暗属性队友，则在以下情况发生时，若此单位未同时被击败或被牺牲，将在回合结束时把“爱吉丝”加入己方援军队列的下一位：\n- 场上有其他非召唤队友被任意来源击败或被牺牲时。\n- 此单位以攻击击败1个非召唤的敌人时。\n爱吉丝的等级、突破、觉醒、强化、潜能、专精、武器与饰品将与此单位相同。\n当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，此单位不会陷入睡眠或眩晕状态。\n此单位从攻击中受到的伤害减少30%。当场上或己方援军中存在名为“爱吉丝”的暗属性队友时，改为减少60%。"
+            },
+            {
+                "SkillTitle": "后街领袖",
+                "SkillDescription": "此单位回复所造成伤害100%的生命值。此单位不会陷入中毒状态。此单位无法从场上回到援军队伍。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的50%。\n每当此单位通过攻击对处于中毒状态的敌人造成伤害后将立即获得下一回合。此效果在同一TU内对同一目标至多触发一次。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n此单位进场时获得速败抵抗、睡眠抵抗与眩晕抵抗。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视。各类抵抗会防止一次各自负面状态效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "眩晕耐性Lv3",
+                "SkillDescription": "此单位受到的眩晕减少20TU。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "淬毒之斧": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "蔷薇面纱": {
+                    "BaseWeight": 9999
+                },
+                "舞会皇后": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "梦之曲": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeastRegular01": {
+        "Name": "爱吉丝",
+        "Name2": " ",
+        "FullName": "爱吉丝 -  ",
+        "Profile": "爱吉丝也没有家人。她还是婴儿时便被遗弃在城镇附近的森林里，虽被镇上的居民捡回收养，却始终只是被当作劳力使唤，最终再次遭到抛弃。因为那副外表，以及胆小怯懦的性格，她一直孤独地活着。直到与贝儿相遇为止。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Death",
+        "Element": "暗",
+        "Cost": 28,
+        "Atk_Base": 1125,
+        "Hp_Base": 8504,
+        "Speed": 304,
+        "Power": 169548,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "野兽勾拳",
+                "SkillDescription": "对1个敌人造成700%的伤害。场上每有1个未处于中毒状态的敌人，伤害减少100%（最多减少400%，当存在4个未中毒敌人时）。此攻击无视非BOSS单位防止被击败的效果、敌方的减伤效果、“反击态势”状态效果以及反弹类被动技能的效果。\n随后，移除被击中目标的燃烧状态（包括燃烧（治愈）），并使其随机陷入持续200TU的剧毒状态，或持续999TU的致命毒状态。该效果会覆盖该单位身上的其他状态效果。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "野兽之爪",
+                "SkillDescription": "对所有敌人造成500%的伤害。此攻击无视敌方的减伤效果、反弹类被动技能以及“反击态势”状态效果。所有被击中的敌人将随机陷入持续200TU的剧毒状态，或持续999TU的致命毒状态。\n仅当场上处于中毒状态的敌人数量为0或1时可使用。此技能使用后有30TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "梦幻双花",
+                "SkillDescription": "将“贝儿”加入己方援军队列的下一位。若场上已有4个队友，则随机选择1个其他队友与其交换位置。\n仅当场上至少存在1个其他队友，且场上或己方援军中不存在名为“贝儿”或“梦幻双花——美女与野兽”的地属性队友时可使用。\n该“贝儿”的等级、突破、觉醒、强化、潜能、专精、武器与饰品将与使用者相同。",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "梦境守卫",
+                "SkillDescription": "此单位无法从场上回到援军队伍。\n此单位从攻击中受到的伤害减少30%。当此单位处于“守卫者”状态时，改为减少60%。\n当此单位进入战场时，将进入“守卫者”状态，且不会被击败。该效果在其登场后的第3个回合结束后解除。当此单位处于“守卫者”状态时，若敌方攻击将命中1个或2个其他队友，则有100%的概率将其中1次攻击转移至自身。此单位不会转移不造成伤害的技能。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "眩晕耐性Lv3",
+                "SkillDescription": "此单位受到的眩晕减少20TU。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular01"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "野兽勾拳": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "野兽之爪": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "梦幻双花": {
+                    "BaseWeight": 1000
+                }
+            }
+        }
+    },
+    "BeastRegular02": {
+        "Name": "爱吉丝",
+        "Name2": " ",
+        "FullName": "爱吉丝 -  ",
+        "Profile": "爱吉丝也没有家人。她还是婴儿时便被遗弃在城镇附近的森林里，虽被镇上的居民捡回收养，却始终只是被当作劳力使唤，最终再次遭到抛弃。因为那副外表，以及胆小怯懦的性格，她一直孤独地活着。直到与贝儿相遇为止。",
+        "Profile_Ascended": "爱吉丝也没有家人。她还是婴儿时便被遗弃在城镇附近的森林里，虽被镇上的居民捡回收养，却始终只是被当作劳力使唤，最终再次遭到抛弃。因为那副外表，以及胆小怯懦的性格，她一直孤独地活着。直到与贝儿相遇为止。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "长枪",
+        "forFilter_Element": "Death",
+        "Element": "暗",
+        "Cost": 34,
+        "Atk_Base": 1438,
+        "Hp_Base": 10853,
+        "Speed": 304,
+        "Power": 216516,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "野兽勾拳",
+                "SkillDescription": "对1个敌人造成700%的伤害。场上每有1个未处于中毒状态的敌人，伤害减少100%（最多减少400%，当存在4个未中毒敌人时）。此攻击无视非BOSS单位防止被击败的效果、敌方的减伤效果、“反击态势”状态效果以及反弹类被动技能的效果。\n随后，移除被击中目标的燃烧状态（包括燃烧（治愈）），并使其随机陷入持续200TU的剧毒状态，或持续999TU的致命毒状态。该效果会覆盖该单位身上的其他状态效果。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "野兽之爪",
+                "SkillDescription": "对所有敌人造成500%的伤害。此攻击无视敌方的减伤效果、反弹类被动技能以及“反击态势”状态效果。所有被击中的敌人将随机陷入持续200TU的剧毒状态，或持续999TU的致命毒状态。\n仅当场上处于中毒状态的敌人数量为0或1时可使用。此技能使用后有30TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "梦幻双花",
+                "SkillDescription": "将“贝儿”加入己方援军队列的下一位。若场上已有4个队友，则随机选择1个其他队友与其交换位置。\n仅当场上至少存在1个其他队友，且场上或己方援军中不存在名为“贝儿”或“梦幻双花——美女与野兽”的地属性队友时可使用。\n该“贝儿”的等级、突破、觉醒、强化、潜能、专精、武器与饰品将与使用者相同。",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "梦境守卫",
+                "SkillDescription": "此单位无法从场上回到援军队伍。\n此单位从攻击中受到的伤害减少30%。当此单位处于“守卫者”状态时，改为减少60%。\n当此单位进入战场时，将进入“守卫者”状态，且不会被击败。该效果在其登场后的第3个回合结束后解除。当此单位处于“守卫者”状态时，若敌方攻击将命中1个或2个其他队友，则有100%的概率将其中1次攻击转移至自身。此单位不会转移不造成伤害的技能。"
+            },
+            {
+                "SkillTitle": "悲伤野兽",
+                "SkillDescription": "此单位不会陷入睡眠或眩晕状态。\n每当此单位从己方援军进入战场时，触发以下效果：\n·使场上所有敌人陷入持续200TU的剧毒状态。\n·使场上所有名为“贝儿”或“梦幻双花——美女与野兽”的地属性队友当前TU归零，并被净化（移除睡眠、燃烧或中毒等负面状态效果）。\n·随后，使此单位当前TU归零以立即获得下一个回合，并被净化。\n当此单位受到攻击伤害时，使场上所有名为“贝儿”或“梦幻双花——美女与野兽”的地属性队友当前TU归零。该效果不属于反弹类被动技能。\n当此单位在场期间以攻击击败任意数量的敌人时，在回合结束时触发以下效果：\n·将敌方灵气降低至0。\n·使场上所有名为“贝儿”或“梦幻双花——美女与野兽”的地属性队友当前TU归零，并被净化。\n·随后，使此单位当前TU归零以立即获得下一个回合，并被净化。\n一些影响TU顺序的效果（如眩晕最低TU单位等）可能会改变这些额外回合的时机。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "眩晕耐性Lv3",
+                "SkillDescription": "此单位受到的眩晕减少20TU。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular02"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "野兽勾拳": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "野兽之爪": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "梦幻双花": {
+                    "BaseWeight": 1000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

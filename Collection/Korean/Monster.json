@@ -130542,7 +130542,7 @@
         "Hp_Base": 5965,
         "Speed": 540,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "희고 검은 눈으로부터,\n새로운 빛이 떠오른다.",
         "LeaderSkill": {
             "SkillTitle": "암속성 공격력 증가",
@@ -130994,5 +130994,1030 @@
                 }
             }
         }
+    },
+    "BeautyBeastRegular01": {
+        "Name": "미녀와 야수",
+        "Name2": "모르페우스 꽃 한 쌍",
+        "FullName": "미녀와 야수 - 모르페우스 꽃 한 쌍",
+        "Profile": "벨은 작은 마을에서 태어났다. 부모님 슬하에서 자랐지만, 경제적 어려움으로 가족이 뿔뿔이 흩어지면서 벨은 홀로 남겨졌다. \n갈 곳 없는 그녀는 뒷골목 부랑아들 무리에 섞이게 되었다. 타고난 기민함과 거리의 지혜 덕분에 얼마 지나지 않아 뒷골목 그늘진 거주민들 사이에서 이름을 떨치게 되었다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스피어",
+        "forFilter_Element": "Earth",
+        "Element": "지속성",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "영원히 함께… 죽음조차 우리를 갈라놓을 수 없어.",
+        "LeaderSkill": {
+            "SkillTitle": "지속성 공격력 증가",
+            "SkillDescription": "아군 지속성 유닛 공격력 15% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "포이즌 도끼",
+                "SkillDescription": "적 1기에 300% 데미지. 전장에 중독 상태 적이 있으면 600% 데미지. 이 공격은 데미지 감소 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다.\n\n적중한 타겟에게 200TU 동안 메가 포이즌, 또는 999TU 동안 리썰 포이즌이 랜덤으로 부여된다.\n\n메가 포이즌은 해당 적의 다른 상태 효과를 덮어쓴다. 메가 포이즌은 일반 포이즌보다 20배 데미지를 주며, 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다. 리썰 포이즌은 해당 적의 다른 상태 효과를 덮어쓰며, 화염이나 스텔스 이외의 상태 효과로는 덮어쓸 수 없고, 정화할 수 없다. 리썰 포이즌은 일반 포이즌의 2배 데미지를 주며, 포이즌이나 비공격 데미지로 인한 패배를 구체적으로 막는 것을 제외한, 타겟의 패배를 막는 패시브 스킬이나 액티브 스킬 효과를 무시한다. 리썰 포이즌은 화염 상태 유닛이나 보스 유닛에게는 적용되지 않는다.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "싹트는 재능",
+                "SkillDescription": "화염 상태가 아닌 모든 아군은 사용자 공격력의 500%만큼 회복하고 격분한다. 이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분 상태 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.\n\n전장의 적 2기 이상이 중독 상태인 경우, 모든 아군의 모든 스킬 TU 코스트가 30% 감소하며, 이는 다른 가속 스킬의 효과를 덮어쓴다. 그런 다음 전장의 적 2기 미만이 중독 상태인 경우, 전장의 모든 적에게 랜덤으로 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌이 부여된다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "무도회의 벨",
+                "SkillDescription": "적 1기에 600% 데미지를 주고, 해당 적에게 999TU 동안 리썰 포이즌 상태 효과를 부여한다. 그런 다음 해당 적에게 200TU 동안 메가 포이즌 상태 효과를 부여한다. 이 공격은 가디언 및 데미지 감소 효과를 무시한다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우에만 사용 가능하다. 10TU 이내에 이 스킬을 3회 사용하면 25TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "얽힌 꿈",
+                "SkillDescription": "이 유닛이 패배할 경우, 대신 1 HP로 생존하며 다음 턴까지 패배하지 않는다. 이 효과는 이 유닛이 전장에 진입할 때마다 한 번만 발동하며, 버티기+ 효과로 간주된다. 아이기스라는 이름의 암속성 아군이 아군 증원군에서 전장에 진입할 때마다, 이 버티기+ 효과가 초기화되어 다시 발동된다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 이미 존재하지 않는 경우, 다음 조건이 충족되면 턴 종료 시 이 유닛은 아이기스를 아군 증원군 다음 라인에 아이기스를 추가한다:\n- 이 유닛이 동시에 쓰러지거나 희생되지 않은 상태에서 전장에 있는 소환되지 않은 다른 아군이 어떤 원인에 의해 패배하거나 희생될 때.\n- 이 유닛이 공격으로 전장에 있는 소환되지 않은 적을 물리칠 때.\n아이기스의 레벨, 한계 돌파, 각성, 부스트, 잠재력, 마스터리, 무기와 액세서리가 이 유닛에 맞춰진다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우, 이 유닛은 수면 상태가 되거나 스턴되지 않는다.\n\n이 유닛은 공격으로 받는 데미지가 30% 감소한다. 전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 동안, 이 유닛이 받는 데미지가 60% 감소한다."
+            },
+            {
+                "SkillTitle": "족쇄풀린 힘",
+                "SkillDescription": "이 유닛의 공격으로 입힌 총 데미지의 100%만큼 회복한다.\n\n이 유닛은 중독 상태가 되지 않으며, 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 이 유닛은 최대 HP의 50%만큼 회복한다.\n\n이 유닛이 공격으로 중독 상태 적에게 데미지를 입힐 때마다 이 유닛은 추가 턴을 얻는다. 이 효과는 TU가 진행할 때까지 동일한 타겟에게 다시 발동할 수 없다. TU 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟한 스턴).\n\n이 유닛이 전투에 진입할 때, 원타임 즉사 면역, 원타임 수면 면역, 원타임 스턴 면역이 부여된다. 각 면역은 명명된 효과의 적용을 한 번 막은 다음 제거된다. 원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막아준 다음 제거된다. 원타임 즉사 면역은 무시할 수 없다. 동일한 면역은 중첩되지 않는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스턴 저항 Lv3",
+                "SkillDescription": "이 유닛에 대한 스턴 효과가 20TU 감소한다."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "난 벨이야. 그리고 이쪽은 아이기스.\n우리가 도와줄 수도 있어… 가격만 맞다면 말이야.\n하지만 우리와의 거래를 어기면… 죽여버릴 거다.\n\n어, 벨… 좀 더 친절하게 대해도 나쁠 건 없잖아…?\n 하지만 벨을 해치면, 아이기스는 절대 널 용서하지 않을 거야."
+            ],
+            "Login": [
+                "어, 약속대로 날 보러 왔구나. 너무 겁나서 못 올 줄 알았는데.\n자 그럼, 가볼까... 날 데려가고 싶다고 했던 그곳이 어디였지?"
+            ],
+            "Tap": [
+                "뭐라고!?\n왜 저 구식에, 닳아빠진 그림이 이 예쁘고 반짝이는 보석보다 더 비싼 거지!? 말이 안 돼...",
+                "아이기스, 같이 자자!\n\n그러고 싶어, 벨! 널 내 품에 꼭 껴안으면 모든 걱정이 사라져.\n넌 정말 부드럽고, 따뜻하고… 너무 완벽해!",
+                "벨에게 선물을 주고 싶은데... 뭘 줘야 할까?\n정말 모르겠어. 하지만 벨이 기뻐하는 모습을 보고 싶으니, 계속 고민해 봐야지."
+            ],
+            "Idle": [
+                "아이기스, 어디 있니? 아이기스? 도대체 어디로 간 거냐?\n…설마 날 떠난 건가? 아니… 그럴 리 없어...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "포이즌 도끼": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "싹트는 재능": {
+                    "BaseWeight": 9999
+                },
+                "무도회의 벨": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyBeastRegular02": {
+        "Name": "미녀와 야수",
+        "Name2": "모르페우스 꽃 한 쌍",
+        "FullName": "미녀와 야수 - 모르페우스 꽃 한 쌍",
+        "Profile": "아이기스 역시 가족이 없었다. 갓난아기였을 때 마을 근처 숲에 버려졌다. 한 현지민 가족에게 거두어졌지만, 일꾼 취급을 받았을 뿐ㅡ 결국 다시 버림받았다. \n독특한 외모와 소심한 성격 때문에 그녀는 기억할 수 있는 한 오래토록 혼자였다.\n\n벨을 만날 때까지는.",
+        "Profile_Ascended": "두 사람이 살았던 취약한 세상은 다른 꿈 세상과는 달랐다. 불안정했고, 유지해 줄 연료 없이는 단 하루 만에 무너져 내릴 운명이었다. \n그래서 희생 제물이 필요했던 것이다. \n그러나 설령 존재하는 모든 영혼을 바치는 것을 뜻한다 해도, 두 사람이 하루라도 더 함께할 수 있다면… 그것으로 충분했다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스피어",
+        "forFilter_Element": "Earth",
+        "Element": "지속성",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "지속성 공격력 증가",
+            "SkillDescription": "아군 지속성 유닛 공격력 15% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "포이즌 도끼",
+                "SkillDescription": "적 1기에 300% 데미지. 전장에 중독 상태 적이 있으면 600% 데미지. 이 공격은 데미지 감소 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다.\n\n적중한 타겟에게 200TU 동안 메가 포이즌, 또는 999TU 동안 리썰 포이즌이 랜덤으로 부여된다.\n\n메가 포이즌은 해당 적의 다른 상태 효과를 덮어쓴다. 메가 포이즌은 일반 포이즌보다 20배 데미지를 주며, 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다. 리썰 포이즌은 해당 적의 다른 상태 효과를 덮어쓰며, 화염이나 스텔스 이외의 상태 효과로는 덮어쓸 수 없고, 정화할 수 없다. 리썰 포이즌은 일반 포이즌의 2배 데미지를 주며, 포이즌이나 비공격 데미지로 인한 패배를 구체적으로 막는 것을 제외한, 타겟의 패배를 막는 패시브 스킬이나 액티브 스킬 효과를 무시한다. 리썰 포이즌은 화염 상태 유닛이나 보스 유닛에게는 적용되지 않는다.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "싹트는 재능",
+                "SkillDescription": "화염 상태가 아닌 모든 아군은 사용자 공격력의 500%만큼 회복하고 격분한다. 이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분 상태 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.\n\n전장의 적 2기 이상이 중독 상태인 경우, 모든 아군의 모든 스킬 TU 코스트가 30% 감소하며, 이는 다른 가속 스킬의 효과를 덮어쓴다. 그런 다음 전장의 적 2기 미만이 중독 상태인 경우, 전장의 모든 적에게 랜덤으로 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌이 부여된다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "무도회의 벨",
+                "SkillDescription": "적 1기에 600% 데미지를 주고, 해당 적에게 999TU 동안 리썰 포이즌 상태 효과를 부여한다. 그런 다음 해당 적에게 200TU 동안 메가 포이즌 상태 효과를 부여한다. 이 공격은 가디언 및 데미지 감소 효과를 무시한다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우에만 사용 가능하다. 10TU 이내에 이 스킬을 3회 사용하면 25TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "버즈쏘 도끼",
+                "SkillDescription": "적 1기에 600% 데미지. 메가 포이즌 또는 리썰 포이즌 상태 효과를 가진 타겟에는 800% 데미지. 이 공격은 타겟의 패배를 막는 보스가 아닌 적의 효과, 적의 데미지 감소 효과, 카운터 스탠스 상태 효과, 스킨 패시브 스킬의 효과를 무시한다.\n\n이 공격의 데미지로 신기루가 아닌 적을 물리치는 경우, 보스가 아니고 신기루가 아닌 전장의 다른 랜덤 적이 즉시 패배한다(사용자가 해당 적을 공격으로 물리친 것으로 간주된다). 이 2차 효과는 복수 패시브 스킬, 부활 패시브 스킬, 그리고 랜덤 적의 패배를 막는 모든 패시브 스킬이나 액티브 스킬의 효과를 무시한다.\n\n전장의 아군이 공격으로 유닛을 1기 이상 물리친 경우에 사용 가능하다.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "얽힌 꿈",
+                "SkillDescription": "이 유닛이 패배할 경우, 대신 1 HP로 생존하며 다음 턴까지 패배하지 않는다. 이 효과는 이 유닛이 전장에 진입할 때마다 한 번만 발동하며, 버티기+ 효과로 간주된다. 아이기스라는 이름의 암속성 아군이 아군 증원군에서 전장에 진입할 때마다, 이 버티기+ 효과가 초기화되어 다시 발동된다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 이미 존재하지 않는 경우, 다음 조건이 충족되면 턴 종료 시 이 유닛은 아이기스를 아군 증원군 다음 라인에 아이기스를 추가한다:\n- 이 유닛이 동시에 쓰러지거나 희생되지 않은 상태에서 전장에 있는 소환되지 않은 다른 아군이 어떤 원인에 의해 패배하거나 희생될 때.\n- 이 유닛이 공격으로 전장에 있는 소환되지 않은 적을 물리칠 때.\n아이기스의 레벨, 한계 돌파, 각성, 부스트, 잠재력, 마스터리, 무기와 액세서리가 이 유닛에 맞춰진다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우, 이 유닛은 수면 상태가 되거나 스턴되지 않는다.\n\n이 유닛은 공격으로 받는 데미지가 30% 감소한다. 전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 동안, 이 유닛이 받는 데미지가 60% 감소한다."
+            },
+            {
+                "SkillTitle": "족쇄풀린 힘",
+                "SkillDescription": "이 유닛의 공격으로 입힌 총 데미지의 100%만큼 회복한다.\n\n이 유닛은 중독 상태가 되지 않으며, 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 이 유닛은 최대 HP의 50%만큼 회복한다.\n\n이 유닛이 공격으로 중독 상태 적에게 데미지를 입힐 때마다 이 유닛은 추가 턴을 얻는다. 이 효과는 TU가 진행할 때까지 동일한 타겟에게 다시 발동할 수 없다. TU 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟한 스턴).\n\n이 유닛이 전투에 진입할 때, 원타임 즉사 면역, 원타임 수면 면역, 원타임 스턴 면역이 부여된다. 각 면역은 명명된 효과의 적용을 한 번 막은 다음 제거된다. 원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막아준 다음 제거된다. 원타임 즉사 면역은 무시할 수 없다. 동일한 면역은 중첩되지 않는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스턴 저항 Lv3",
+                "SkillDescription": "이 유닛에 대한 스턴 효과가 20TU 감소한다."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "난 벨이야. 그리고 이쪽은 아이기스.\n우리가 도와줄 수도 있어… 가격만 맞다면 말이야.\n하지만 우리와의 거래를 어기면… 죽여버릴 거다.\n\n어, 벨… 좀 더 친절하게 대해도 나쁠 건 없잖아…?\n 하지만 벨을 해치면, 아이기스는 절대 널 용서하지 않을 거야."
+            ],
+            "Login": [
+                "어, 약속대로 날 보러 왔구나. 너무 겁나서 못 올 줄 알았는데.\n자 그럼, 가볼까... 날 데려가고 싶다고 했던 그곳이 어디였지?"
+            ],
+            "Tap": [
+                "뭐라고!?\n왜 저 구식에, 닳아빠진 그림이 이 예쁘고 반짝이는 보석보다 더 비싼 거지!? 말이 안 돼...",
+                "아이기스, 같이 자자!\n\n그러고 싶어, 벨! 널 내 품에 꼭 껴안으면 모든 걱정이 사라져.\n넌 정말 부드럽고, 따뜻하고… 너무 완벽해!",
+                "벨에게 선물을 주고 싶은데... 뭘 줘야 할까?\n정말 모르겠어. 하지만 벨이 기뻐하는 모습을 보고 싶으니, 계속 고민해 봐야지."
+            ],
+            "Idle": [
+                "아이기스, 어디 있니? 아이기스? 도대체 어디로 간 거냐?\n…설마 날 떠난 건가? 아니… 그럴 리 없어...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "포이즌 도끼": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "싹트는 재능": {
+                    "BaseWeight": 9999
+                },
+                "무도회의 벨": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "버즈쏘 도끼": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeautyRegular01": {
+        "Name": "벨",
+        "Name2": " ",
+        "FullName": "벨 -  ",
+        "Profile": "벨은 작은 마을에서 태어났다. 부모님 슬하에서 자랐지만, 경제적 어려움으로 가족이 뿔뿔이 흩어지면서 벨은 홀로 남겨졌다. \n갈 곳 없는 그녀는 뒷골목 부랑아들 무리에 섞이게 되었다. 타고난 기민함과 거리의 지혜 덕분에 얼마 지나지 않아 뒷골목 그늘진 거주민들 사이에서 이름을 떨치게 되었다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스피어",
+        "forFilter_Element": "Earth",
+        "Element": "지속성",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "포이즌 도끼",
+                "SkillDescription": "적 1기에 300% 데미지. 전장에 중독 상태 적이 있으면 600% 데미지. 이 공격은 데미지 감소 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다.\n\n적중한 타겟에게 200TU 동안 메가 포이즌, 또는 999TU 동안 리썰 포이즌이 랜덤으로 부여된다.\n\n메가 포이즌은 해당 적의 다른 상태 효과를 덮어쓴다. 메가 포이즌은 일반 포이즌보다 20배 데미지를 주며, 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다. 리썰 포이즌은 해당 적의 다른 상태 효과를 덮어쓰며, 화염이나 스텔스 이외의 상태 효과로는 덮어쓸 수 없고, 정화할 수 없다. 리썰 포이즌은 일반 포이즌의 2배 데미지를 주며, 포이즌이나 비공격 데미지로 인한 패배를 구체적으로 막는 것을 제외한, 타겟의 패배를 막는 패시브 스킬이나 액티브 스킬 효과를 무시한다. 리썰 포이즌은 화염 상태 유닛이나 보스 유닛에게는 적용되지 않는다.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "싹트는 재능",
+                "SkillDescription": "화염 상태가 아닌 모든 아군은 사용자 공격력의 500%만큼 회복하고 격분한다. 이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분 상태 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.\n\n전장의 적 2기 이상이 중독 상태인 경우, 모든 아군의 모든 스킬 TU 코스트가 30% 감소하며, 이는 다른 가속 스킬의 효과를 덮어쓴다. 그런 다음 전장의 적 2기 미만이 중독 상태인 경우, 전장의 모든 적에게 랜덤으로 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌이 부여된다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "무도회의 벨",
+                "SkillDescription": "적 1기에 600% 데미지를 주고, 해당 적에게 999TU 동안 리썰 포이즌 상태 효과를 부여한다. 그런 다음 해당 적에게 200TU 동안 메가 포이즌 상태 효과를 부여한다. 이 공격은 가디언 및 데미지 감소 효과를 무시한다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우에만 사용 가능하다. 10TU 이내에 이 스킬을 3회 사용하면 25TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "얽힌 꿈",
+                "SkillDescription": "이 유닛이 패배할 경우, 대신 1 HP로 생존하며 다음 턴까지 패배하지 않는다. 이 효과는 이 유닛이 전장에 진입할 때마다 한 번만 발동하며, 버티기+ 효과로 간주된다. 아이기스라는 이름의 암속성 아군이 아군 증원군에서 전장에 진입할 때마다, 이 버티기+ 효과가 초기화되어 다시 발동된다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 이미 존재하지 않는 경우, 다음 조건이 충족되면 턴 종료 시 이 유닛은 아이기스를 아군 증원군 다음 라인에 아이기스를 추가한다:\n- 이 유닛이 동시에 쓰러지거나 희생되지 않은 상태에서 전장에 있는 소환되지 않은 다른 아군이 어떤 원인에 의해 패배하거나 희생될 때.\n- 이 유닛이 공격으로 전장에 있는 소환되지 않은 적을 물리칠 때.\n아이기스의 레벨, 한계 돌파, 각성, 부스트, 잠재력, 마스터리, 무기와 액세서리가 이 유닛에 맞춰진다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우, 이 유닛은 수면 상태가 되거나 스턴되지 않는다.\n\n이 유닛은 공격으로 받는 데미지가 30% 감소한다. 전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 동안, 이 유닛이 받는 데미지가 60% 감소한다."
+            },
+            {
+                "SkillTitle": "족쇄풀린 힘",
+                "SkillDescription": "이 유닛의 공격으로 입힌 총 데미지의 100%만큼 회복한다.\n\n이 유닛은 중독 상태가 되지 않으며, 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 이 유닛은 최대 HP의 50%만큼 회복한다.\n\n이 유닛이 공격으로 중독 상태 적에게 데미지를 입힐 때마다 이 유닛은 추가 턴을 얻는다. 이 효과는 TU가 진행할 때까지 동일한 타겟에게 다시 발동할 수 없다. TU 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟한 스턴).\n\n이 유닛이 전투에 진입할 때, 원타임 즉사 면역, 원타임 수면 면역, 원타임 스턴 면역이 부여된다. 각 면역은 명명된 효과의 적용을 한 번 막은 다음 제거된다. 원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막아준 다음 제거된다. 원타임 즉사 면역은 무시할 수 없다. 동일한 면역은 중첩되지 않는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스턴 저항 Lv3",
+                "SkillDescription": "이 유닛에 대한 스턴 효과가 20TU 감소한다."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "포이즌 도끼": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "싹트는 재능": {
+                    "BaseWeight": 9999
+                },
+                "무도회의 벨": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyRegular02": {
+        "Name": "벨",
+        "Name2": " ",
+        "FullName": "벨 -  ",
+        "Profile": "벨은 작은 마을에서 태어났다. 부모님 슬하에서 자랐지만, 경제적 어려움으로 가족이 뿔뿔이 흩어지면서 벨은 홀로 남겨졌다. \n갈 곳 없는 그녀는 뒷골목 부랑아들 무리에 섞이게 되었다. 타고난 기민함과 거리의 지혜 덕분에 얼마 지나지 않아 뒷골목 그늘진 거주민들 사이에서 이름을 떨치게 되었다.",
+        "Profile_Ascended": "벨은 작은 마을에서 태어났다. 부모님 슬하에서 자랐지만, 경제적 어려움으로 가족이 뿔뿔이 흩어지면서 벨은 홀로 남겨졌다. \n갈 곳 없는 그녀는 뒷골목 부랑아들 무리에 섞이게 되었다. 타고난 기민함과 거리의 지혜 덕분에 얼마 지나지 않아 뒷골목 그늘진 거주민들 사이에서 이름을 떨치게 되었다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스피어",
+        "forFilter_Element": "Earth",
+        "Element": "지속성",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "포이즌 도끼",
+                "SkillDescription": "적 1기에 300% 데미지. 전장에 중독 상태 적이 있으면 600% 데미지. 이 공격은 데미지 감소 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다.\n\n적중한 타겟에게 200TU 동안 메가 포이즌, 또는 999TU 동안 리썰 포이즌이 랜덤으로 부여된다.\n\n메가 포이즌은 해당 적의 다른 상태 효과를 덮어쓴다. 메가 포이즌은 일반 포이즌보다 20배 데미지를 주며, 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다. 리썰 포이즌은 해당 적의 다른 상태 효과를 덮어쓰며, 화염이나 스텔스 이외의 상태 효과로는 덮어쓸 수 없고, 정화할 수 없다. 리썰 포이즌은 일반 포이즌의 2배 데미지를 주며, 포이즌이나 비공격 데미지로 인한 패배를 구체적으로 막는 것을 제외한, 타겟의 패배를 막는 패시브 스킬이나 액티브 스킬 효과를 무시한다. 리썰 포이즌은 화염 상태 유닛이나 보스 유닛에게는 적용되지 않는다.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "싹트는 재능",
+                "SkillDescription": "화염 상태가 아닌 모든 아군은 사용자 공격력의 500%만큼 회복하고 격분한다. 이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분 상태 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.\n\n전장의 적 2기 이상이 중독 상태인 경우, 모든 아군의 모든 스킬 TU 코스트가 30% 감소하며, 이는 다른 가속 스킬의 효과를 덮어쓴다. 그런 다음 전장의 적 2기 미만이 중독 상태인 경우, 전장의 모든 적에게 랜덤으로 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌이 부여된다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "무도회의 벨",
+                "SkillDescription": "적 1기에 600% 데미지를 주고, 해당 적에게 999TU 동안 리썰 포이즌 상태 효과를 부여한다. 그런 다음 해당 적에게 200TU 동안 메가 포이즌 상태 효과를 부여한다. 이 공격은 가디언 및 데미지 감소 효과를 무시한다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우에만 사용 가능하다. 10TU 이내에 이 스킬을 3회 사용하면 25TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "버즈쏘 도끼",
+                "SkillDescription": "적 1기에 600% 데미지. 메가 포이즌 또는 리썰 포이즌 상태 효과를 가진 타겟에는 800% 데미지. 이 공격은 타겟의 패배를 막는 보스가 아닌 적의 효과, 적의 데미지 감소 효과, 카운터 스탠스 상태 효과, 스킨 패시브 스킬의 효과를 무시한다.\n\n이 공격의 데미지로 신기루가 아닌 적을 물리치는 경우, 보스가 아니고 신기루가 아닌 전장의 다른 랜덤 적이 즉시 패배한다(사용자가 해당 적을 공격으로 물리친 것으로 간주된다). 이 2차 효과는 복수 패시브 스킬, 부활 패시브 스킬, 그리고 랜덤 적의 패배를 막는 모든 패시브 스킬이나 액티브 스킬의 효과를 무시한다.\n\n전장의 아군이 공격으로 유닛을 1기 이상 물리친 경우에 사용 가능하다.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "얽힌 꿈",
+                "SkillDescription": "이 유닛이 패배할 경우, 대신 1 HP로 생존하며 다음 턴까지 패배하지 않는다. 이 효과는 이 유닛이 전장에 진입할 때마다 한 번만 발동하며, 버티기+ 효과로 간주된다. 아이기스라는 이름의 암속성 아군이 아군 증원군에서 전장에 진입할 때마다, 이 버티기+ 효과가 초기화되어 다시 발동된다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 이미 존재하지 않는 경우, 다음 조건이 충족되면 턴 종료 시 이 유닛은 아이기스를 아군 증원군 다음 라인에 아이기스를 추가한다:\n- 이 유닛이 동시에 쓰러지거나 희생되지 않은 상태에서 전장에 있는 소환되지 않은 다른 아군이 어떤 원인에 의해 패배하거나 희생될 때.\n- 이 유닛이 공격으로 전장에 있는 소환되지 않은 적을 물리칠 때.\n아이기스의 레벨, 한계 돌파, 각성, 부스트, 잠재력, 마스터리, 무기와 액세서리가 이 유닛에 맞춰진다.\n\n전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 경우, 이 유닛은 수면 상태가 되거나 스턴되지 않는다.\n\n이 유닛은 공격으로 받는 데미지가 30% 감소한다. 전장이나 아군 증원군에 아이기스라는 이름의 암속성 아군이 있는 동안, 이 유닛이 받는 데미지가 60% 감소한다."
+            },
+            {
+                "SkillTitle": "족쇄풀린 힘",
+                "SkillDescription": "이 유닛의 공격으로 입힌 총 데미지의 100%만큼 회복한다.\n\n이 유닛은 중독 상태가 되지 않으며, 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 이 유닛은 최대 HP의 50%만큼 회복한다.\n\n이 유닛이 공격으로 중독 상태 적에게 데미지를 입힐 때마다 이 유닛은 추가 턴을 얻는다. 이 효과는 TU가 진행할 때까지 동일한 타겟에게 다시 발동할 수 없다. TU 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟한 스턴).\n\n이 유닛이 전투에 진입할 때, 원타임 즉사 면역, 원타임 수면 면역, 원타임 스턴 면역이 부여된다. 각 면역은 명명된 효과의 적용을 한 번 막은 다음 제거된다. 원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막아준 다음 제거된다. 원타임 즉사 면역은 무시할 수 없다. 동일한 면역은 중첩되지 않는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스턴 저항 Lv3",
+                "SkillDescription": "이 유닛에 대한 스턴 효과가 20TU 감소한다."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "포이즌 도끼": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "싹트는 재능": {
+                    "BaseWeight": 9999
+                },
+                "무도회의 벨": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "버즈쏘 도끼": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeastRegular01": {
+        "Name": "아이기스",
+        "Name2": " ",
+        "FullName": "아이기스 -  ",
+        "Profile": "아이기스 역시 가족이 없었다. 갓난아기였을 때 마을 근처 숲에 버려졌다. 한 현지민 가족에게 거두어졌지만, 일꾼 취급을 받았을 뿐ㅡ 결국 다시 버림받았다. \n독특한 외모와 소심한 성격 때문에 그녀는 기억할 수 있는 한 오래토록 혼자였다.\n\n벨을 만날 때까지는.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스피어",
+        "forFilter_Element": "Death",
+        "Element": "암속성",
+        "Cost": 28,
+        "Atk_Base": 1125,
+        "Hp_Base": 8504,
+        "Speed": 304,
+        "Power": 169548,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "야수의 어퍼컷",
+                "SkillDescription": "적 1기에 700% 데미지. 전장의 중독 상태가 아닌 적 1기당 100% 데미지 감소(중독 상태가 아닌 적이 4기 있을 경우 최대 -400%). 이 공격은 타겟의 패배를 막는 보스가 아닌 적의 효과, 적의 데미지 감소 효과, 카운터 스탠스 상태 효과, 스킨 패시브 스킬 효과를 무시한다.\n\n그런 다음 적중한 타겟은 화염(메가 회복 화염 포함)이 제거되고, 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌 중 하나가 랜덤으로 부여된다. 이는 해당 적의 다른 상태 효과를 덮어쓴다.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "브라이어 배러지",
+                "SkillDescription": "모든 적에 500% 데미지. 이 공격은 데미지 감소 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다. 적중한 모든 적에게 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌이 랜덤으로 부여된다.\n\n전장에 중독 상태 적이 0기 또는 1기 있을 경우 사용 가능하다. 이 스킬은 사용 후 30TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "불멸의 꽃",
+                "SkillDescription": "아군 증원군의 다음 라인에 벨을 추가하고, 이미 전장에 아군이 4기 이상 있는 경우 다른 아군 1기를 벨과 교환한다. 전장에 아군이 1기 이상 있고, 전장 또는 아군 증원군에 벨 또는 \"미녀와 야수, 모르페우스 꽃 한 쌍\"이라는 이름의 지속성 아군이 이미 없는 경우에만 사용 가능하다.\n\n추가된 벨은 소환된 유닛으로 간주된다. 이 벨의 레벨, 한계 돌파, 각성, 부스트, 잠재력, 마스터리, 무기와 액세서리가 사용자에 맞춰진다.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "벨의 수호자",
+                "SkillDescription": "이 유닛의 공격은 입힌 총 데미지량의 100%만큼 이 유닛을 회복시킨다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없며, 보스가 아닌 적에게 데미지 없이 즉시 패배하지 않는다.\n\n이 유닛은 공격으로 받는 데미지가 30% 감소한다. 이 유닛이 가디언인 동안 이 유닛은 60% 데미지 감소율을 갖는다.\n\n이 유닛은 가디언이 되어 패배하지 않는다. 이러한 효과는 이 유닛이 전장에 진입할 때 시작되어 이 유닛의 세 번째 턴 후 종료된다. 이 유닛이 가디언인 동안, 다른 아군 1기 또는 2기를 적중하는 적의 공격에 대해 이 유닛은 100% 확률로 자신에게 공격 1회를 전환시킨다. 이 유닛은 데미지를 주지 않는 스킬은 전환하지 않는다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존하면 최대 HP의 25%를 회복하고 슈퍼 스텔스가 부여된다. 전장에 진입한 후 처음 3회 발동 시 이 회복량이 최대 HP의 100%로 증가한다.\n\n슈퍼 스텔스 상태 유닛은 타겟 1기 이상에 데미지를 주는 적의 공격을 무시한다. 슈퍼 스텔스는 적용 후 적 공격을 3회 무시하면 제거되며, 일반 스텔스를 제외한 다른 상태 효과로 덮어쓸 수 있다. 데미지는 슈퍼 스텔스를 제거하지 않는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스턴 저항 Lv3",
+                "SkillDescription": "이 유닛에 대한 스턴 효과가 20TU 감소한다."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular01"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "야수의 어퍼컷": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "브라이어 배러지": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "불멸의 꽃": {
+                    "BaseWeight": 1000
+                }
+            }
+        }
+    },
+    "BeastRegular02": {
+        "Name": "아이기스",
+        "Name2": " ",
+        "FullName": "아이기스 -  ",
+        "Profile": "아이기스 역시 가족이 없었다. 갓난아기였을 때 마을 근처 숲에 버려졌다. 한 현지민 가족에게 거두어졌지만, 일꾼 취급을 받았을 뿐ㅡ 결국 다시 버림받았다. \n독특한 외모와 소심한 성격 때문에 그녀는 기억할 수 있는 한 오래토록 혼자였다.\n\n벨을 만날 때까지는.",
+        "Profile_Ascended": "아이기스 역시 가족이 없었다. 갓난아기였을 때 마을 근처 숲에 버려졌다. 한 현지민 가족에게 거두어졌지만, 일꾼 취급을 받았을 뿐ㅡ 결국 다시 버림받았다. \n독특한 외모와 소심한 성격 때문에 그녀는 기억할 수 있는 한 오래토록 혼자였다.\n\n벨을 만날 때까지는.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스피어",
+        "forFilter_Element": "Death",
+        "Element": "암속성",
+        "Cost": 34,
+        "Atk_Base": 1438,
+        "Hp_Base": 10853,
+        "Speed": 304,
+        "Power": 216516,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "야수의 어퍼컷",
+                "SkillDescription": "적 1기에 700% 데미지. 전장의 중독 상태가 아닌 적 1기당 100% 데미지 감소(중독 상태가 아닌 적이 4기 있을 경우 최대 -400%). 이 공격은 타겟의 패배를 막는 보스가 아닌 적의 효과, 적의 데미지 감소 효과, 카운터 스탠스 상태 효과, 스킨 패시브 스킬 효과를 무시한다.\n\n그런 다음 적중한 타겟은 화염(메가 회복 화염 포함)이 제거되고, 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌 중 하나가 랜덤으로 부여된다. 이는 해당 적의 다른 상태 효과를 덮어쓴다.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "브라이어 배러지",
+                "SkillDescription": "모든 적에 500% 데미지. 이 공격은 데미지 감소 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다. 적중한 모든 적에게 200TU 동안 메가 포이즌 또는 999TU 동안 리썰 포이즌이 랜덤으로 부여된다.\n\n전장에 중독 상태 적이 0기 또는 1기 있을 경우 사용 가능하다. 이 스킬은 사용 후 30TU 동안 잠긴다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "불멸의 꽃",
+                "SkillDescription": "아군 증원군의 다음 라인에 벨을 추가하고, 이미 전장에 아군이 4기 이상 있는 경우 다른 아군 1기를 벨과 교환한다. 전장에 아군이 1기 이상 있고, 전장 또는 아군 증원군에 벨 또는 \"미녀와 야수, 모르페우스 꽃 한 쌍\"이라는 이름의 지속성 아군이 이미 없는 경우에만 사용 가능하다.\n\n추가된 벨은 소환된 유닛으로 간주된다. 이 벨의 레벨, 한계 돌파, 각성, 부스트, 잠재력, 마스터리, 무기와 액세서리가 사용자에 맞춰진다.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "벨의 수호자",
+                "SkillDescription": "이 유닛의 공격은 입힌 총 데미지량의 100%만큼 이 유닛을 회복시킨다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없며, 보스가 아닌 적에게 데미지 없이 즉시 패배하지 않는다.\n\n이 유닛은 공격으로 받는 데미지가 30% 감소한다. 이 유닛이 가디언인 동안 이 유닛은 60% 데미지 감소율을 갖는다.\n\n이 유닛은 가디언이 되어 패배하지 않는다. 이러한 효과는 이 유닛이 전장에 진입할 때 시작되어 이 유닛의 세 번째 턴 후 종료된다. 이 유닛이 가디언인 동안, 다른 아군 1기 또는 2기를 적중하는 적의 공격에 대해 이 유닛은 100% 확률로 자신에게 공격 1회를 전환시킨다. 이 유닛은 데미지를 주지 않는 스킬은 전환하지 않는다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존하면 최대 HP의 25%를 회복하고 슈퍼 스텔스가 부여된다. 전장에 진입한 후 처음 3회 발동 시 이 회복량이 최대 HP의 100%로 증가한다.\n\n슈퍼 스텔스 상태 유닛은 타겟 1기 이상에 데미지를 주는 적의 공격을 무시한다. 슈퍼 스텔스는 적용 후 적 공격을 3회 무시하면 제거되며, 일반 스텔스를 제외한 다른 상태 효과로 덮어쓸 수 있다. 데미지는 슈퍼 스텔스를 제거하지 않는다."
+            },
+            {
+                "SkillTitle": "모르페우스 드리머즈",
+                "SkillDescription": "이 유닛은 수면 상태가 되거나 스턴되지 않는다.\n\n이 유닛이 아군 증원군에서 전장에 진입할 때마다:\n- 전장의 모든 적에게 200TU 동안 메가 포이즌이 부여된다.\n- 전장에 있는 벨 또는 \"미녀와 야수, 모르페우스 꽃 한 쌍\"이라는 이름의 모든 지속성 아군의 TU가 0으로 감소하고 정화된다(수면, 화염, 중독과 같은 부정적인 상태 효과가 제거).\n- 그런 다음 이 유닛은 TU가 0으로 감소하여 즉시 턴을 얻고, 정화된다.\n\n이 유닛이 공격으로 데미지를 입으면, 전장에 있는 벨 또는 \"미녀와 야수, 모르페우스 꽃 한 쌍\"이라는 이름의 모든 지속성 아군의 TU가 즉시 0으로 감소한다. 이는 스킨 효과가 아니다.\n\n이 유닛이 전장에 있는 동안 공격으로 적을 물리치면, 턴 종료 시:\n- 이 유닛은 적의 기력이 0이 될 때까지 적 팀의 기력을 뺏는다.\n- 전장에 있는 벨 또는 \"미녀와 야수, 모르페우스 꽃 한 쌍\"이라는 이름의 모든 지속성 아군의 턴이 0으로 감소하고 정화된다.\n- 그런 다음 이 유닛은 턴이 0으로 감소하여 즉시 턴을 얻고, 정화된다.\n턴 오더에 영향을 주는 효과는 이러한 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟한 스턴)."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스턴 저항 Lv3",
+                "SkillDescription": "이 유닛에 대한 스턴 효과가 20TU 감소한다."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular02"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "야수의 어퍼컷": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "브라이어 배러지": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "불멸의 꽃": {
+                    "BaseWeight": 1000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

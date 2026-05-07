@@ -130542,7 +130542,7 @@
         "Hp_Base": 5965,
         "Speed": 540,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "De la nieve blanca y negra,\nsurge una nueva luz.",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Oscuro",
@@ -130994,5 +130994,1030 @@
                 }
             }
         }
+    },
+    "BeautyBeastRegular01": {
+        "Name": "Bella & Bestia",
+        "Name2": "Pareja de Flores Oníricas",
+        "FullName": "Bella & Bestia - Pareja de Flores Oníricas",
+        "Profile": "Bella nació en un pequeño pueblo. Fue criada por sus padres, pero la ruina económica destrozó a la familia, y Bella se quedó sola.\nSin otro lugar a donde ir, se encontró entre un grupo de niños de la calle. Gracias a su destreza natural y su astucia, no tardó en hacerse un nombre entre los habitantes de dudosa reputación de la zona.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Juntas para siempre...\nNi siquiera la muerte puede separarnos.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hacha Venenosa",
+                "SkillDescription": "300% de daño a 1 enemigo. Si algún enemigo en el campo de batalla está envenenado, inflige un 600% de daño en su lugar. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nLuego, el objetivo golpeado recibe aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEl Mega Veneno sobrescribe otros efectos de estado en esos enemigos. El Mega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni por Super Veneno. El Veneno Letal sobrescribe otros efectos de estado en esos enemigos, no puede ser sobrescrito por efectos de estado que no sean Quemadura o Sigilo, y no puede ser Purificado. El Veneno Letal inflige 2 veces el daño del Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que impedirían la derrota del objetivo, excepto aquellas que impiden específicamente la derrota por Veneno o daño que no sea de ataque. El Veneno Letal no se aplica a unidades en Llamas ni a unidades de Jefe.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Regalo Creciente",
+                "SkillDescription": "Todos los aliados que no estén en llamas se curan un 500 % del ataque del usuario y se Enfurecen. Esto anulará los efectos de otras habilidades de Enfurecer sobre esas unidades. Las unidades enfurecidas aumentan su Ataque a 1,5x hasta el final de su siguiente turno.\n\nSi dos o más enemigos en el campo de batalla están envenenados, el costo de TU de todas las habilidades de todos los aliados se reduce un 30%, anulando los efectos de otras habilidades de Acelerar. Si hay menos de dos enemigos envenenados en el campo de batalla, todos los enemigos reciben aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEsta habilidad se bloquea durante 50TU tras su uso.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Bella del Baile",
+                "SkillDescription": "600% de daño a 1 enemigo, y luego le otorga el efecto de estado Veneno Letal por 999TU. Luego, otorga a ese enemigo el efecto de estado Mega Veneno durante 200TU. Este ataque ignora a los Guardianes y los efectos de reducción de daño.\n\nSólo se puede usar si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Sueño Entrelazado",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada, sobrevive con 1 HP y no puede ser derrotada hasta su siguiente turno. Este efecto sólo puede activarse una vez cada vez que esta unidad entra al campo de batalla y se considera un efecto de Sobreviviente+. Siempre que una aliada Oscura llamada Aigis entre al campo de batalla desde los refuerzos aliados, este efecto de Sobreviviente+ se reinicia para que pueda activarse de nuevo.\n\nSi no hay ya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad agrega a Aigis a la siguiente línea de refuerzos aliados al final del turno cuando:\n- Otro aliado no conjurado en el campo de batalla es derrotado o sacrificado por cualquier causa, siempre que esta unidad no sea derrotada o sacrificada al mismo tiempo.\n- Esta unidad derrote a un enemigo no conjurado en el campo de batalla con un ataque.\nEl Nivel, Límites de Ruptura, Despertares, Pluses, Potencial, Maestría, Arma y Accesorio de Aigis coincidirán con esta unidad.\n\nEsta unidad no puede dormirse ni ser aturdida si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados.\n\nEsta unidad tiene una reducción de daño del 30% de los ataques. Mientras haya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad tiene una reducción de daño del 60%."
+            },
+            {
+                "SkillTitle": "Fuerza Liberada",
+                "SkillDescription": "Los ataques de esta unidad la curan un 100% del daño total infligido.\n\nEsta unidad no puede ser envenenada ni enviada a los refuerzos desde el campo de batalla. Cada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nCada vez que esta unidad daña a un enemigo envenenado con un ataque, obtiene un turno adicional. Este efecto no puede activarse de nuevo contra el mismo objetivo hasta que avancen las TU. Los efectos que influyen en el orden de TU pueden interrumpir el turno adicional (por ejemplo, aturdimientos dirigidos al objetivo con menos TU).\n\nAl entrar en combate, esta unidad recibe un Guarda Muerte Instantánea, Guarda Sueño y Guarda Aturdir. Cada Guarda impide que su efecto se aplique una vez y luego se elimina. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una sóla vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar. Los Guardas idénticos no se pueden acumular."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resitir Aturdir Niv3",
+                "SkillDescription": "Reduce en 20TU el efecto de cualquier efecto de aturdimiento en esta unidad."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Soy Bella. Y esta es Aigis.\nPodríamos ayudarte... si el precio es el correcto.\nAunque si incumples cualquier trato con nosotras... te mataré.\n\nOye, Bella... ¿No sería mejor si fueras un poco más amable...?\nPero si lastimas a Bella, Aigis jamás te perdonará."
+            ],
+            "Login": [
+                "Vaya, así que cumpliste tu promesa de venir a verme. Pensé que estarías demasiado asustado.\nBueno, entonces, vamos a... ¿Cuál es ese lugar al que querías llevarme?"
+            ],
+            "Tap": [
+                "¡¿Qué?!\n¿Por qué ese cuadro viejo y desgastado es más caro que esta hermosa joya brillante? No tiene sentido...",
+                "¡Durmamos juntas, Aigis!\n\n¡Me encantaría, Bella! Abrazarte fuertemente hace que todas mis preocupaciones desaparezcan.\nEres tan suavecita, tan cálida... ¡tan perfecta!",
+                "Quiero regalarle algo a Bella... ¿Qué debería regalarle?\nNo tengo ni idea. Pero quiero verla feliz, así que seguiré pensando en algo."
+            ],
+            "Idle": [
+                "Aigis, ¿dónde estás? ¿Aigis? ¿Adónde habrá ido?\n¿Me habrá dejado? No... ¡Imposible!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hacha Venenosa": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Regalo Creciente": {
+                    "BaseWeight": 9999
+                },
+                "Bella del Baile": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyBeastRegular02": {
+        "Name": "Bella & Bestia",
+        "Name2": "Pareja de Flores Oníricas",
+        "FullName": "Bella & Bestia - Pareja de Flores Oníricas",
+        "Profile": "Aigis tampoco tenía familia. Cuando era bebé fue abandonada en el bosque cerca de un pueblo. Aunque fue acogida por una familia local que la encontró, la trataron como poco más que mano de obra, y al final, la volvieron a abandonar.\nDebido a su peculiar apariencia y su naturaleza tímida, permaneció sola desde que tiene memoria.\n\nHasta que conoció a Bella.",
+        "Profile_Ascended": "El frágil mundo en el que vivían era diferente a otros mundos oníricos, inestable, condenado a colapsar en un sólo día sin combustible que lo mantuviera en pie.\nPor eso eran necesarias las víctimas de sacrificio.\nPero incluso si eso significaba ofrecer cada alma existente, con tal de que pudieran permanecer juntas un día más… eso era lo único que importaba.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hacha Venenosa",
+                "SkillDescription": "300% de daño a 1 enemigo. Si algún enemigo en el campo de batalla está envenenado, inflige un 600% de daño en su lugar. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nLuego, el objetivo golpeado recibe aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEl Mega Veneno sobrescribe otros efectos de estado en esos enemigos. El Mega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni por Super Veneno. El Veneno Letal sobrescribe otros efectos de estado en esos enemigos, no puede ser sobrescrito por efectos de estado que no sean Quemadura o Sigilo, y no puede ser Purificado. El Veneno Letal inflige 2 veces el daño del Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que impedirían la derrota del objetivo, excepto aquellas que impiden específicamente la derrota por Veneno o daño que no sea de ataque. El Veneno Letal no se aplica a unidades en Llamas ni a unidades de Jefe.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Regalo Creciente",
+                "SkillDescription": "Todos los aliados que no estén en llamas se curan un 500 % del ataque del usuario y se Enfurecen. Esto anulará los efectos de otras habilidades de Enfurecer sobre esas unidades. Las unidades enfurecidas aumentan su Ataque a 1,5x hasta el final de su siguiente turno.\n\nSi dos o más enemigos en el campo de batalla están envenenados, el costo de TU de todas las habilidades de todos los aliados se reduce un 30%, anulando los efectos de otras habilidades de Acelerar. Si hay menos de dos enemigos envenenados en el campo de batalla, todos los enemigos reciben aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEsta habilidad se bloquea durante 50TU tras su uso.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Bella del Baile",
+                "SkillDescription": "600% de daño a 1 enemigo, y luego le otorga el efecto de estado Veneno Letal por 999TU. Luego, otorga a ese enemigo el efecto de estado Mega Veneno durante 200TU. Este ataque ignora a los Guardianes y los efectos de reducción de daño.\n\nSólo se puede usar si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Hacha Sierra",
+                "SkillDescription": "600% de daño a 1 enemigo. 800% de daño en su lugar a los objetivos que tengan el efecto de estado Mega Veneno o el efecto de estado Veneno Letal. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo, los efectos de reducción de daño de los enemigos, el efecto de estado Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nSi el daño de este ataque derrota a un enemigo que no sea Efímero, otro enemigo aleatorio que no sea jefe ni Efímero en el campo de batalla será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Este efecto secundario ignora las habilidades pasivas Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota del enemigo aleatorio.\n\nSe puede usar si algún aliado en el campo de batalla ha derrotado a 1 o más unidades con ataques mientras estaba en el campo de batalla.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Sueño Entrelazado",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada, sobrevive con 1 HP y no puede ser derrotada hasta su siguiente turno. Este efecto sólo puede activarse una vez cada vez que esta unidad entra al campo de batalla y se considera un efecto de Sobreviviente+. Siempre que una aliada Oscura llamada Aigis entre al campo de batalla desde los refuerzos aliados, este efecto de Sobreviviente+ se reinicia para que pueda activarse de nuevo.\n\nSi no hay ya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad agrega a Aigis a la siguiente línea de refuerzos aliados al final del turno cuando:\n- Otro aliado no conjurado en el campo de batalla es derrotado o sacrificado por cualquier causa, siempre que esta unidad no sea derrotada o sacrificada al mismo tiempo.\n- Esta unidad derrote a un enemigo no conjurado en el campo de batalla con un ataque.\nEl Nivel, Límites de Ruptura, Despertares, Pluses, Potencial, Maestría, Arma y Accesorio de Aigis coincidirán con esta unidad.\n\nEsta unidad no puede dormirse ni ser aturdida si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados.\n\nEsta unidad tiene una reducción de daño del 30% de los ataques. Mientras haya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad tiene una reducción de daño del 60%."
+            },
+            {
+                "SkillTitle": "Fuerza Liberada",
+                "SkillDescription": "Los ataques de esta unidad la curan un 100% del daño total infligido.\n\nEsta unidad no puede ser envenenada ni enviada a los refuerzos desde el campo de batalla. Cada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nCada vez que esta unidad daña a un enemigo envenenado con un ataque, obtiene un turno adicional. Este efecto no puede activarse de nuevo contra el mismo objetivo hasta que avancen las TU. Los efectos que influyen en el orden de TU pueden interrumpir el turno adicional (por ejemplo, aturdimientos dirigidos al objetivo con menos TU).\n\nAl entrar en combate, esta unidad recibe un Guarda Muerte Instantánea, Guarda Sueño y Guarda Aturdir. Cada Guarda impide que su efecto se aplique una vez y luego se elimina. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una sóla vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar. Los Guardas idénticos no se pueden acumular."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resitir Aturdir Niv3",
+                "SkillDescription": "Reduce en 20TU el efecto de cualquier efecto de aturdimiento en esta unidad."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Soy Bella. Y esta es Aigis.\nPodríamos ayudarte... si el precio es el correcto.\nAunque si incumples cualquier trato con nosotras... te mataré.\n\nOye, Bella... ¿No sería mejor si fueras un poco más amable...?\nPero si lastimas a Bella, Aigis jamás te perdonará."
+            ],
+            "Login": [
+                "Vaya, así que cumpliste tu promesa de venir a verme. Pensé que estarías demasiado asustado.\nBueno, entonces, vamos a... ¿Cuál es ese lugar al que querías llevarme?"
+            ],
+            "Tap": [
+                "¡¿Qué?!\n¿Por qué ese cuadro viejo y desgastado es más caro que esta hermosa joya brillante? No tiene sentido...",
+                "¡Durmamos juntas, Aigis!\n\n¡Me encantaría, Bella! Abrazarte fuertemente hace que todas mis preocupaciones desaparezcan.\nEres tan suavecita, tan cálida... ¡tan perfecta!",
+                "Quiero regalarle algo a Bella... ¿Qué debería regalarle?\nNo tengo ni idea. Pero quiero verla feliz, así que seguiré pensando en algo."
+            ],
+            "Idle": [
+                "Aigis, ¿dónde estás? ¿Aigis? ¿Adónde habrá ido?\n¿Me habrá dejado? No... ¡Imposible!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hacha Venenosa": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Regalo Creciente": {
+                    "BaseWeight": 9999
+                },
+                "Bella del Baile": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Hacha Sierra": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeautyRegular01": {
+        "Name": "Bella",
+        "Name2": " ",
+        "FullName": "Bella -  ",
+        "Profile": "Bella nació en un pequeño pueblo. Fue criada por sus padres, pero la ruina económica destrozó a la familia, y Bella se quedó sola.\nSin otro lugar a donde ir, se encontró entre un grupo de niños de la calle. Gracias a su destreza natural y su astucia, no tardó en hacerse un nombre entre los habitantes de dudosa reputación de la zona.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hacha Venenosa",
+                "SkillDescription": "300% de daño a 1 enemigo. Si algún enemigo en el campo de batalla está envenenado, inflige un 600% de daño en su lugar. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nLuego, el objetivo golpeado recibe aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEl Mega Veneno sobrescribe otros efectos de estado en esos enemigos. El Mega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni por Super Veneno. El Veneno Letal sobrescribe otros efectos de estado en esos enemigos, no puede ser sobrescrito por efectos de estado que no sean Quemadura o Sigilo, y no puede ser Purificado. El Veneno Letal inflige 2 veces el daño del Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que impedirían la derrota del objetivo, excepto aquellas que impiden específicamente la derrota por Veneno o daño que no sea de ataque. El Veneno Letal no se aplica a unidades en Llamas ni a unidades de Jefe.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Regalo Creciente",
+                "SkillDescription": "Todos los aliados que no estén en llamas se curan un 500 % del ataque del usuario y se Enfurecen. Esto anulará los efectos de otras habilidades de Enfurecer sobre esas unidades. Las unidades enfurecidas aumentan su Ataque a 1,5x hasta el final de su siguiente turno.\n\nSi dos o más enemigos en el campo de batalla están envenenados, el costo de TU de todas las habilidades de todos los aliados se reduce un 30%, anulando los efectos de otras habilidades de Acelerar. Si hay menos de dos enemigos envenenados en el campo de batalla, todos los enemigos reciben aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEsta habilidad se bloquea durante 50TU tras su uso.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Bella del Baile",
+                "SkillDescription": "600% de daño a 1 enemigo, y luego le otorga el efecto de estado Veneno Letal por 999TU. Luego, otorga a ese enemigo el efecto de estado Mega Veneno durante 200TU. Este ataque ignora a los Guardianes y los efectos de reducción de daño.\n\nSólo se puede usar si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Sueño Entrelazado",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada, sobrevive con 1 HP y no puede ser derrotada hasta su siguiente turno. Este efecto sólo puede activarse una vez cada vez que esta unidad entra al campo de batalla y se considera un efecto de Sobreviviente+. Siempre que una aliada Oscura llamada Aigis entre al campo de batalla desde los refuerzos aliados, este efecto de Sobreviviente+ se reinicia para que pueda activarse de nuevo.\n\nSi no hay ya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad agrega a Aigis a la siguiente línea de refuerzos aliados al final del turno cuando:\n- Otro aliado no conjurado en el campo de batalla es derrotado o sacrificado por cualquier causa, siempre que esta unidad no sea derrotada o sacrificada al mismo tiempo.\n- Esta unidad derrote a un enemigo no conjurado en el campo de batalla con un ataque.\nEl Nivel, Límites de Ruptura, Despertares, Pluses, Potencial, Maestría, Arma y Accesorio de Aigis coincidirán con esta unidad.\n\nEsta unidad no puede dormirse ni ser aturdida si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados.\n\nEsta unidad tiene una reducción de daño del 30% de los ataques. Mientras haya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad tiene una reducción de daño del 60%."
+            },
+            {
+                "SkillTitle": "Fuerza Liberada",
+                "SkillDescription": "Los ataques de esta unidad la curan un 100% del daño total infligido.\n\nEsta unidad no puede ser envenenada ni enviada a los refuerzos desde el campo de batalla. Cada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nCada vez que esta unidad daña a un enemigo envenenado con un ataque, obtiene un turno adicional. Este efecto no puede activarse de nuevo contra el mismo objetivo hasta que avancen las TU. Los efectos que influyen en el orden de TU pueden interrumpir el turno adicional (por ejemplo, aturdimientos dirigidos al objetivo con menos TU).\n\nAl entrar en combate, esta unidad recibe un Guarda Muerte Instantánea, Guarda Sueño y Guarda Aturdir. Cada Guarda impide que su efecto se aplique una vez y luego se elimina. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una sóla vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar. Los Guardas idénticos no se pueden acumular."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resitir Aturdir Niv3",
+                "SkillDescription": "Reduce en 20TU el efecto de cualquier efecto de aturdimiento en esta unidad."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hacha Venenosa": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Regalo Creciente": {
+                    "BaseWeight": 9999
+                },
+                "Bella del Baile": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyRegular02": {
+        "Name": "Bella",
+        "Name2": " ",
+        "FullName": "Bella -  ",
+        "Profile": "Bella nació en un pequeño pueblo. Fue criada por sus padres, pero la ruina económica destrozó a la familia, y Bella se quedó sola.\nSin otro lugar a donde ir, se encontró entre un grupo de niños de la calle. Gracias a su destreza natural y su astucia, no tardó en hacerse un nombre entre los habitantes de dudosa reputación de la zona.",
+        "Profile_Ascended": "Bella nació en un pequeño pueblo. Fue criada por sus padres, pero la ruina económica destrozó a la familia, y Bella se quedó sola.\nSin otro lugar a donde ir, se encontró entre un grupo de niños de la calle. Gracias a su destreza natural y su astucia, no tardó en hacerse un nombre entre los habitantes de dudosa reputación de la zona.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hacha Venenosa",
+                "SkillDescription": "300% de daño a 1 enemigo. Si algún enemigo en el campo de batalla está envenenado, inflige un 600% de daño en su lugar. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nLuego, el objetivo golpeado recibe aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEl Mega Veneno sobrescribe otros efectos de estado en esos enemigos. El Mega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni por Super Veneno. El Veneno Letal sobrescribe otros efectos de estado en esos enemigos, no puede ser sobrescrito por efectos de estado que no sean Quemadura o Sigilo, y no puede ser Purificado. El Veneno Letal inflige 2 veces el daño del Veneno normal e ignora las habilidades pasivas o los efectos de las habilidades activas que impedirían la derrota del objetivo, excepto aquellas que impiden específicamente la derrota por Veneno o daño que no sea de ataque. El Veneno Letal no se aplica a unidades en Llamas ni a unidades de Jefe.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Regalo Creciente",
+                "SkillDescription": "Todos los aliados que no estén en llamas se curan un 500 % del ataque del usuario y se Enfurecen. Esto anulará los efectos de otras habilidades de Enfurecer sobre esas unidades. Las unidades enfurecidas aumentan su Ataque a 1,5x hasta el final de su siguiente turno.\n\nSi dos o más enemigos en el campo de batalla están envenenados, el costo de TU de todas las habilidades de todos los aliados se reduce un 30%, anulando los efectos de otras habilidades de Acelerar. Si hay menos de dos enemigos envenenados en el campo de batalla, todos los enemigos reciben aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nEsta habilidad se bloquea durante 50TU tras su uso.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Bella del Baile",
+                "SkillDescription": "600% de daño a 1 enemigo, y luego le otorga el efecto de estado Veneno Letal por 999TU. Luego, otorga a ese enemigo el efecto de estado Mega Veneno durante 200TU. Este ataque ignora a los Guardianes y los efectos de reducción de daño.\n\nSólo se puede usar si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Hacha Sierra",
+                "SkillDescription": "600% de daño a 1 enemigo. 800% de daño en su lugar a los objetivos que tengan el efecto de estado Mega Veneno o el efecto de estado Veneno Letal. Este ataque ignora cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo, los efectos de reducción de daño de los enemigos, el efecto de estado Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nSi el daño de este ataque derrota a un enemigo que no sea Efímero, otro enemigo aleatorio que no sea jefe ni Efímero en el campo de batalla será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Este efecto secundario ignora las habilidades pasivas Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impidan la derrota del enemigo aleatorio.\n\nSe puede usar si algún aliado en el campo de batalla ha derrotado a 1 o más unidades con ataques mientras estaba en el campo de batalla.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Sueño Entrelazado",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada, sobrevive con 1 HP y no puede ser derrotada hasta su siguiente turno. Este efecto sólo puede activarse una vez cada vez que esta unidad entra al campo de batalla y se considera un efecto de Sobreviviente+. Siempre que una aliada Oscura llamada Aigis entre al campo de batalla desde los refuerzos aliados, este efecto de Sobreviviente+ se reinicia para que pueda activarse de nuevo.\n\nSi no hay ya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad agrega a Aigis a la siguiente línea de refuerzos aliados al final del turno cuando:\n- Otro aliado no conjurado en el campo de batalla es derrotado o sacrificado por cualquier causa, siempre que esta unidad no sea derrotada o sacrificada al mismo tiempo.\n- Esta unidad derrote a un enemigo no conjurado en el campo de batalla con un ataque.\nEl Nivel, Límites de Ruptura, Despertares, Pluses, Potencial, Maestría, Arma y Accesorio de Aigis coincidirán con esta unidad.\n\nEsta unidad no puede dormirse ni ser aturdida si hay una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados.\n\nEsta unidad tiene una reducción de daño del 30% de los ataques. Mientras haya una aliada Oscura llamada Aigis en el campo de batalla o en los refuerzos aliados, esta unidad tiene una reducción de daño del 60%."
+            },
+            {
+                "SkillTitle": "Fuerza Liberada",
+                "SkillDescription": "Los ataques de esta unidad la curan un 100% del daño total infligido.\n\nEsta unidad no puede ser envenenada ni enviada a los refuerzos desde el campo de batalla. Cada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nCada vez que esta unidad daña a un enemigo envenenado con un ataque, obtiene un turno adicional. Este efecto no puede activarse de nuevo contra el mismo objetivo hasta que avancen las TU. Los efectos que influyen en el orden de TU pueden interrumpir el turno adicional (por ejemplo, aturdimientos dirigidos al objetivo con menos TU).\n\nAl entrar en combate, esta unidad recibe un Guarda Muerte Instantánea, Guarda Sueño y Guarda Aturdir. Cada Guarda impide que su efecto se aplique una vez y luego se elimina. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una sóla vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar. Los Guardas idénticos no se pueden acumular."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resitir Aturdir Niv3",
+                "SkillDescription": "Reduce en 20TU el efecto de cualquier efecto de aturdimiento en esta unidad."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Hacha Venenosa": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Regalo Creciente": {
+                    "BaseWeight": 9999
+                },
+                "Bella del Baile": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Hacha Sierra": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeastRegular01": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Aigis tampoco tenía familia. Cuando era bebé fue abandonada en el bosque cerca de un pueblo. Aunque fue acogida por una familia local que la encontró, la trataron como poco más que mano de obra, y al final, la volvieron a abandonar.\nDebido a su peculiar apariencia y su naturaleza tímida, permaneció sola desde que tiene memoria.\n\nHasta que conoció a Bella.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 28,
+        "Atk_Base": 1125,
+        "Hp_Base": 8504,
+        "Speed": 304,
+        "Power": 169548,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Gancho Bestial",
+                "SkillDescription": "700% de daño a 1 enemigo. Menos 100% de daño por cada enemigo no envenenado en el campo de batalla (máximo de -400% si hay 4 enemigos no envenenados). Este ataque ignora cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo, los efectos de reducción de daño de los enemigos, el efecto de estado Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nDespués, al objetivo alcanzado se le elimina la quemadura (incluido Mega Quemado Sanador) y se le otorga aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU. Esto sobrescribirá otros efectos de estado en ese enemigo.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ráfaga de Zarzas",
+                "SkillDescription": "500% de daño a todos los enemigos. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas Piel y el efecto de estado Contraofensiva. A todos los enemigos alcanzados se les otorga aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nUtilizable si hay 0 o 1 enemigo envenenado en el campo de batalla. Esta habilidad se bloquea durante 30TU tras su uso.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Flor Inmortal",
+                "SkillDescription": "Añade a Bella a la siguiente fila de refuerzos aliados y, si ya hay 4 aliados en el campo de batalla, intercambia a otro aliado con ella. Sólo se puede usar si hay al menos otro aliado en el campo de batalla y no hay ya un aliado de Tierra llamado Bella o \"Bella & Bestia, Pareja de Flores Oníricas\" en el campo de batalla o entre los refuerzos aliados.\n\nLa Bella añadida se considerará una unidad conjurada. Su nivel, límites, despertares, pluses, potencial, maestría, arma y accesorio coincidirán con los del usuario.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Protectora de Bella",
+                "SkillDescription": "Los ataques de esta unidad la curan un 100% del daño total infligido.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla ni ser derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe.\n\nEsta unidad tiene un 30% de reducción de daño por ataques. Mientras esta unidad es un Guardián, tiene un 60% de reducción de daño.\n\nEsta unidad se convierte en un Guardián y no puede ser derrotada. Estos efectos comienzan cuando esta unidad entra al campo de batalla y terminan después de su tercer turno en el campo de batalla. Mientras esta unidad es un Guardián, por cada ataque enemigo que impactaría a 1 o 2 aliados, esta unidad tiene un 100% de probabilidad de redirigir 1 impacto hacia sí misma. Esta unidad no redirigirá habilidades que no infligen daño.\n\nSi esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se curará un 25% de sus HP máximos y obtendrá Super Sigilo. Esta curación aumenta al 100% de los HP máximos las tres primeras veces que se activa tras entrar en el campo de batalla.\n\nLas unidades con Super Sigilo ignoran los ataques enemigos que dañarían a más de un objetivo. El Super Sigilo se eliminará después de ignorar 3 ataques enemigos desde su activación y puede ser sobrescrito por otros efectos de estado, excepto el Sigilo normal. El daño no elimina el Super Sigilo."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resitir Aturdir Niv3",
+                "SkillDescription": "Reduce en 20TU el efecto de cualquier efecto de aturdimiento en esta unidad."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular01"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Gancho Bestial": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Ráfaga de Zarzas": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Flor Inmortal": {
+                    "BaseWeight": 1000
+                }
+            }
+        }
+    },
+    "BeastRegular02": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Aigis tampoco tenía familia. Cuando era bebé fue abandonada en el bosque cerca de un pueblo. Aunque fue acogida por una familia local que la encontró, la trataron como poco más que mano de obra, y al final, la volvieron a abandonar.\nDebido a su peculiar apariencia y su naturaleza tímida, permaneció sola desde que tiene memoria.\n\nHasta que conoció a Bella.",
+        "Profile_Ascended": "Aigis tampoco tenía familia. Cuando era bebé fue abandonada en el bosque cerca de un pueblo. Aunque fue acogida por una familia local que la encontró, la trataron como poco más que mano de obra, y al final, la volvieron a abandonar.\nDebido a su peculiar apariencia y su naturaleza tímida, permaneció sola desde que tiene memoria.\n\nHasta que conoció a Bella.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Lanza",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 34,
+        "Atk_Base": 1438,
+        "Hp_Base": 10853,
+        "Speed": 304,
+        "Power": 216516,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Gancho Bestial",
+                "SkillDescription": "700% de daño a 1 enemigo. Menos 100% de daño por cada enemigo no envenenado en el campo de batalla (máximo de -400% si hay 4 enemigos no envenenados). Este ataque ignora cualquier efecto de enemigos que no sean jefes que impidan la derrota del objetivo, los efectos de reducción de daño de los enemigos, el efecto de estado Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nDespués, al objetivo alcanzado se le elimina la quemadura (incluido Mega Quemado Sanador) y se le otorga aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU. Esto sobrescribirá otros efectos de estado en ese enemigo.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Ráfaga de Zarzas",
+                "SkillDescription": "500% de daño a todos los enemigos. Este ataque ignora los efectos de reducción de daño, las habilidades pasivas Piel y el efecto de estado Contraofensiva. A todos los enemigos alcanzados se les otorga aleatoriamente Mega Veneno por 200TU o Veneno Letal por 999TU.\n\nUtilizable si hay 0 o 1 enemigo envenenado en el campo de batalla. Esta habilidad se bloquea durante 30TU tras su uso.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Flor Inmortal",
+                "SkillDescription": "Añade a Bella a la siguiente fila de refuerzos aliados y, si ya hay 4 aliados en el campo de batalla, intercambia a otro aliado con ella. Sólo se puede usar si hay al menos otro aliado en el campo de batalla y no hay ya un aliado de Tierra llamado Bella o \"Bella & Bestia, Pareja de Flores Oníricas\" en el campo de batalla o entre los refuerzos aliados.\n\nLa Bella añadida se considerará una unidad conjurada. Su nivel, límites, despertares, pluses, potencial, maestría, arma y accesorio coincidirán con los del usuario.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Protectora de Bella",
+                "SkillDescription": "Los ataques de esta unidad la curan un 100% del daño total infligido.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla ni ser derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe.\n\nEsta unidad tiene un 30% de reducción de daño por ataques. Mientras esta unidad es un Guardián, tiene un 60% de reducción de daño.\n\nEsta unidad se convierte en un Guardián y no puede ser derrotada. Estos efectos comienzan cuando esta unidad entra al campo de batalla y terminan después de su tercer turno en el campo de batalla. Mientras esta unidad es un Guardián, por cada ataque enemigo que impactaría a 1 o 2 aliados, esta unidad tiene un 100% de probabilidad de redirigir 1 impacto hacia sí misma. Esta unidad no redirigirá habilidades que no infligen daño.\n\nSi esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se curará un 25% de sus HP máximos y obtendrá Super Sigilo. Esta curación aumenta al 100% de los HP máximos las tres primeras veces que se activa tras entrar en el campo de batalla.\n\nLas unidades con Super Sigilo ignoran los ataques enemigos que dañarían a más de un objetivo. El Super Sigilo se eliminará después de ignorar 3 ataques enemigos desde su activación y puede ser sobrescrito por otros efectos de estado, excepto el Sigilo normal. El daño no elimina el Super Sigilo."
+            },
+            {
+                "SkillTitle": "Soñadoras Oníricas",
+                "SkillDescription": "Esta unidad no puede dormirse ni quedar aturdida.\n\nSiempre que esta unidad entre al campo de batalla desde refuerzos aliados:\n- Todos los enemigos en el campo de batalla reciben Mega Veneno por 200TU.\n- Todos los aliados de Tierra llamados Bella o \"Bella & Bestia, Pareja de Flores Oníricas\" en el campo de batalla verán sus TU reducidas a 0 y serán Purificados (se eliminan los efectos de estado negativos como sueño, quemadura o veneno).\n- Luego, esta unidad obtendrá inmediatamente el turno al ver sus TU reducidas a 0 y ser Purificada.\n\nCuando esta unidad recibe daño de un ataque, todos los aliados de Tierra llamados Bella o \"Bella & Bestia, Pareja de Flores Oníricas\" en el campo de batalla verán sus TU reducidas a 0 inmediatamente. Esto no es un efecto de piel.\n\nCuando esta unidad derrota a cualquier número de enemigos con un ataque mientras está en el campo de batalla, al final del turno:\n- Esta unidad roba Espíritu del equipo enemigo hasta que el Espíritu enemigo llegue a 0.\n- Todos los aliados de Tierra llamados Bella o \"Bella & Bestia, Pareja de Flores Oníricas\" en el campo de batalla verán sus TU reducidas a 0 y serán purificadas.\n- Luego, esta unidad obtendrá inmediatamente el turno al ver sus TU reducidas a 0 y ser purificada.\nLos efectos que influyen en el orden de la TU pueden interrumpir estos turnos adicionales (por ejemplo, aturdimientos dirigidos al objetivo con TU más baja)."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resitir Aturdir Niv3",
+                "SkillDescription": "Reduce en 20TU el efecto de cualquier efecto de aturdimiento en esta unidad."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular02"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Gancho Bestial": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Ráfaga de Zarzas": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Flor Inmortal": {
+                    "BaseWeight": 1000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

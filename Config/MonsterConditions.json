@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1777345411,
+    "Time": 1777540859,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -30095,7 +30095,7 @@
 	},
 	"IsTheBeautyRegular": {
 		"class": "MonsterConditions",
-		"families": ["BeautyRegular","BeautyRegularBoss"]
+		"families": ["BeautyRegular","BeautyRegularBoss","BeautyBeastRegular"]
 	},
 	"IsBeastRegular": {
 		"class": "MonsterConditions",
@@ -30368,6 +30368,12 @@
 		"not":{
 			"class": "MonsterConditions",
 			"summoned":true
+		}
+	},
+	"BeastRegularAllyOnBattlefieldNotReinforcements": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded":{
+			"IsBeastRegular": 1
 		}
 	}
 }

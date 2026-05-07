@@ -130542,7 +130542,7 @@
         "Hp_Base": 5965,
         "Speed": 540,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Aus weißem und schwarzem Schnee\nerhebt sich ein neues Licht.",
         "LeaderSkill": {
             "SkillTitle": "Dnkl-ANG hoch",
@@ -130994,5 +130994,1030 @@
                 }
             }
         }
+    },
+    "BeautyBeastRegular01": {
+        "Name": "Schönheit & Biest",
+        "Name2": "Ein Paar Morphean-Blumen",
+        "FullName": "Schönheit & Biest - Ein Paar Morphean-Blumen",
+        "Profile": "Belle wurde in einer kleinen Stadt geboren. Sie wurde von ihren Eltern großgezogen, aber der finanzielle Ruin riss die Familie auseinander und Belle blieb zurück.\nDa sie nirgendwo anders hin konnte, fand sie sich in einer Gruppe von Straßenkindern wieder. Dank ihrer natürlichen Geschicklichkeit und ihrer Cleverness auf der Straße dauerte es nicht lange, bis sie sich unter den zwielichtigen Bewohnern der Seitenstraßen einen Namen gemacht hatte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Selbst der Tod kann uns nicht scheiden.",
+        "LeaderSkill": {
+            "SkillTitle": "Erd-ANG hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Giftaxt",
+                "SkillDescription": "300% Schaden an 1 Gegner. Wenn ein Gegner auf dem Schlachtfeld vergiftet ist, verursacht er stattdessen 600% Schaden. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nDann erhält das getroffene Ziel zufällig entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nMega-Gift überschreibt andere Statuseffekte bei diesen Gegnern. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden. Tödliches Gift überschreibt andere Statuseffekte bei diesen Gegnern, kann nicht durch andere Statuseffekte als Verbrennen oder Verstohlenheit überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den doppelten Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die ausdrücklich verhindern, dass das Ziel durch Gift oder Nicht-Angriffsschaden besiegt wird. Tödliches Gift kann nicht auf brennende Einheiten oder Boss-Einheiten angewendet werden.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Knospengeschenke",
+                "SkillDescription": "Alle nicht brennenden Verbündeten werden um 500% des Angriffs des Benutzers geheilt und wütend gemacht. Dies überschreibt die Effekte anderer Fertigkeiten der Wut auf diese Einheiten. Bei wütenden Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht.\n\nWenn 2 oder mehr Gegner auf dem Schlachtfeld vergiftet sind, werden bei allen Verbündeten die ZE-Kosten für alle ihre Fertigkeiten um 30 % reduziert, wodurch die Effekte anderer Beschleunigen-Fertigkeiten überschrieben werden. Wenn weniger als 2 Gegner auf dem Schlachtfeld vergiftet werden, erhalten alle Gegner auf dem Schlachtfeld nach dem Zufallsprinzip entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nDiese Fertigkeit wird nach der Anwendung für 50 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Die Ballkönigin",
+                "SkillDescription": "600% Schaden an 1 Gegner und gewährt diesem Gegner dann den Statuseffekt Tödliches Gift für 999 ZE. Danach erhält der Gegner den Statuseffekt Mega-Gift für 200 ZE. Dieser Angriff ignoriert Wächter und Schadensreduzierungseffekte.\n\nNur möglich, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet. Wenn diese Fertigkeit innerhalb von 10 ZE 3 Mal eingesetzt wird, wird sie für 25 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Flechtträume",
+                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht besiegt werden. Dieser Effekt kann nur einmal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Haltegrund+ Effekt. Immer wenn ein dunkler Verbündeter mit dem Namen Aigis das Schlachtfeld durch verbündete Verstärkung betritt, wird dieser Effekt „Stellung halten+“ zurückgesetzt, so dass er erneut ausgelöst werden kann. \n\nWenn sich nicht bereits ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in verbündeten Verstärkungen befindet, fügt diese Einheit Aigis am Ende des Zuges zur nächsten verbündeten Verstärkung hinzu, wenn:\n- ein anderer nicht verbündeter Verbündeter auf dem Schlachtfeld durch eine beliebige Quelle besiegt oder geopfert wird, solange diese Einheit nicht gleichzeitig besiegt oder geopfert wird. \n- Diese Einheit besiegt einen nicht-verletzen Gegner auf dem Schlachtfeld mit einem Angriff.\nAigis' Stufe, Grenzunterbrechungen, Erweckungen, Verstärkungen, Potenzial, Meisterschaft, Waffe und Zubehör passen zu dieser Einheit.\n\nDiese Einheit kann nicht einschlafen oder betäubt werden, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet.\n\nDiese Einheit hat eine 30%ige Schadensreduzierung durch Angriffe. Solange sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet, hat diese Einheit stattdessen eine Schadensreduzierung von 60%."
+            },
+            {
+                "SkillTitle": "Freie Stärke",
+                "SkillDescription": "Die Angriffe dieser Einheit heilen sie um 100% des gesamten zugefügten Schadens.\n\nDiese Einheit kann nicht vergiftet oder zur Verstärkung vom Schlachtfeld geschickt werden.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie um 50% ihrer maximalen LP geheilt.\n\nJedes Mal, wenn diese Einheit einen vergifteten Gegner mit einem Angriff schädigt, erhält sie einen weiteren Zug. Dieser Effekt kann gegen dasselbe Ziel erst wieder ausgelöst werden, wenn die ZE vorrücken. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z.B. Betäubungen, die auf das niedrigste TU-Ziel abzielen).\n\nWenn diese Einheit in den Kampf zieht, erhält sie einen Soforttodschutz, einen Schlafschutz und einen Betäubungsschutz. Jeder Schutz verhindert, dass der genannte Effekt einmal angewendet wird, und wird dann entfernt. Ein Soforttod-Schutz verhindert einmal, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttod-Schutz kann nicht ignoriert werden. Identische Schutzzaubere können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Ich bin Belle. Und das ist Aigis.\nWir könnten dir helfen... wenn der Preis stimmt.\nAber wenn du unsere Abmachung nicht einhältst...., bringe ich dich um.\nUh, Belle... Es könnte nicht schaden, ein bisschen netter zu sein...?\nAber wenn du Belle verletzt, wird Aigis dir nie verzeihen."
+            ],
+            "Login": [
+                "Aha, du hast also dein Versprechen gehalten, mich zu besuchen. Ich dachte, du hättest zu viel Angst.\nAlso, dann lass uns nach... Was ist das für ein Ort, an den du mich mitnehmen wolltest?"
+            ],
+            "Tap": [
+                "Was?\nWarum ist dieses altmodische, abgenutzte Gemälde teurer als dieses hübsche, glänzende Juwel? Das ergibt keinen Sinn...",
+                "Lass uns zusammen schlafen, Aigis!\n\n Das würde ich gerne, Belle! Wenn ich dich in meine Arme schließe, sind all meine Sorgen wie weggeblasen.\nDu bist so weich, so warm...so perfekt!",
+                "Ich möchte Belle ein Geschenk machen... Was soll ich ihr schenken?\nIch habe wirklich keine Ahnung. Aber ich will sie strahlen sehen, also versuche ich weiter, mir etwas einfallen zu lassen."
+            ],
+            "Idle": [
+                "Aigis, wo bist du? Aigis? Wo könnte sie hingegangen sein?\n... Könnte sie mich verlassen haben? Nein... Das kann nicht sein...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Giftaxt": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Knospengeschenke": {
+                    "BaseWeight": 9999
+                },
+                "Die Ballkönigin": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyBeastRegular02": {
+        "Name": "Schönheit & Biest",
+        "Name2": "Ein Paar Morphean-Blumen",
+        "FullName": "Schönheit & Biest - Ein Paar Morphean-Blumen",
+        "Profile": "Auch Aigis hatte keine Familie. Als Säugling wurde sie in einem Wald in der Nähe einer Stadt ausgesetzt. Obwohl sie von einer einheimischen Familie aufgenommen wurde, die sie fand, wurde sie nur als Arbeitskraft behandelt - und schließlich wieder verstoßen.\nAufgrund ihres auffälligen Aussehens und ihrer ängstlichen Art blieb sie so lange allein, wie sie sich erinnern kann.\nNur, bis sie Belle traf.",
+        "Profile_Ascended": "Die zerbrechliche Welt, in der die beiden lebten, war anders als andere Traumwelten - sie war instabil und dazu verdammt, innerhalb eines einzigen Tages zusammenzubrechen, wenn sie keinen Treibstoff hatte, der sie am Leben hielt.\nDeshalb waren Opfer notwendig.\nAber selbst wenn es bedeutete, jede einzelne Seele zu opfern, solange die beiden noch einen Tag länger zusammenbleiben konnten... das war alles, was zählte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Erd-ANG hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Giftaxt",
+                "SkillDescription": "300% Schaden an 1 Gegner. Wenn ein Gegner auf dem Schlachtfeld vergiftet ist, verursacht er stattdessen 600% Schaden. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nDann erhält das getroffene Ziel zufällig entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nMega-Gift überschreibt andere Statuseffekte bei diesen Gegnern. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden. Tödliches Gift überschreibt andere Statuseffekte bei diesen Gegnern, kann nicht durch andere Statuseffekte als Verbrennen oder Verstohlenheit überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den doppelten Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die ausdrücklich verhindern, dass das Ziel durch Gift oder Nicht-Angriffsschaden besiegt wird. Tödliches Gift kann nicht auf brennende Einheiten oder Boss-Einheiten angewendet werden.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Knospengeschenke",
+                "SkillDescription": "Alle nicht brennenden Verbündeten werden um 500% des Angriffs des Benutzers geheilt und wütend gemacht. Dies überschreibt die Effekte anderer Fertigkeiten der Wut auf diese Einheiten. Bei wütenden Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht.\n\nWenn 2 oder mehr Gegner auf dem Schlachtfeld vergiftet sind, werden bei allen Verbündeten die ZE-Kosten für alle ihre Fertigkeiten um 30 % reduziert, wodurch die Effekte anderer Beschleunigen-Fertigkeiten überschrieben werden. Wenn weniger als 2 Gegner auf dem Schlachtfeld vergiftet werden, erhalten alle Gegner auf dem Schlachtfeld nach dem Zufallsprinzip entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nDiese Fertigkeit wird nach der Anwendung für 50 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Die Ballkönigin",
+                "SkillDescription": "600% Schaden an 1 Gegner und gewährt diesem Gegner dann den Statuseffekt Tödliches Gift für 999 ZE. Danach erhält der Gegner den Statuseffekt Mega-Gift für 200 ZE. Dieser Angriff ignoriert Wächter und Schadensreduzierungseffekte.\n\nNur möglich, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet. Wenn diese Fertigkeit innerhalb von 10 ZE 3 Mal eingesetzt wird, wird sie für 25 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Buzzsaw-Axt",
+                "SkillDescription": "600% Schaden an 1 Gegner. 800% Schaden stattdessen bei Zielen, die den Statuseffekt Mega-Gift oder den Statuseffekt Tödliches Gift haben. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, gegnerische Schadensreduzierungseffekte, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nWenn der Schaden dieses Angriffs einen Gegner besiegt, der kein Boss ist, wird ein anderer zufälliger, nicht ephemerer Gegner auf dem Schlachtfeld sofort besiegt (es wird angenommen, dass der Anwender diesen Gegner mit einem Angriff besiegt hat). Dieser sekundäre Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nDies ist möglich, wenn ein Verbündeter auf dem Schlachtfeld 1+ Einheiten mit Angriffen besiegt hat, während er auf dem Schlachtfeld war.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Flechtträume",
+                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht besiegt werden. Dieser Effekt kann nur einmal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Haltegrund+ Effekt. Immer wenn ein dunkler Verbündeter mit dem Namen Aigis das Schlachtfeld durch verbündete Verstärkung betritt, wird dieser Effekt „Stellung halten+“ zurückgesetzt, so dass er erneut ausgelöst werden kann. \n\nWenn sich nicht bereits ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in verbündeten Verstärkungen befindet, fügt diese Einheit Aigis am Ende des Zuges zur nächsten verbündeten Verstärkung hinzu, wenn:\n- ein anderer nicht verbündeter Verbündeter auf dem Schlachtfeld durch eine beliebige Quelle besiegt oder geopfert wird, solange diese Einheit nicht gleichzeitig besiegt oder geopfert wird. \n- Diese Einheit besiegt einen nicht-verletzen Gegner auf dem Schlachtfeld mit einem Angriff.\nAigis' Stufe, Grenzunterbrechungen, Erweckungen, Verstärkungen, Potenzial, Meisterschaft, Waffe und Zubehör passen zu dieser Einheit.\n\nDiese Einheit kann nicht einschlafen oder betäubt werden, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet.\n\nDiese Einheit hat eine 30%ige Schadensreduzierung durch Angriffe. Solange sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet, hat diese Einheit stattdessen eine Schadensreduzierung von 60%."
+            },
+            {
+                "SkillTitle": "Freie Stärke",
+                "SkillDescription": "Die Angriffe dieser Einheit heilen sie um 100% des gesamten zugefügten Schadens.\n\nDiese Einheit kann nicht vergiftet oder zur Verstärkung vom Schlachtfeld geschickt werden.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie um 50% ihrer maximalen LP geheilt.\n\nJedes Mal, wenn diese Einheit einen vergifteten Gegner mit einem Angriff schädigt, erhält sie einen weiteren Zug. Dieser Effekt kann gegen dasselbe Ziel erst wieder ausgelöst werden, wenn die ZE vorrücken. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z.B. Betäubungen, die auf das niedrigste TU-Ziel abzielen).\n\nWenn diese Einheit in den Kampf zieht, erhält sie einen Soforttodschutz, einen Schlafschutz und einen Betäubungsschutz. Jeder Schutz verhindert, dass der genannte Effekt einmal angewendet wird, und wird dann entfernt. Ein Soforttod-Schutz verhindert einmal, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttod-Schutz kann nicht ignoriert werden. Identische Schutzzaubere können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Ich bin Belle. Und das ist Aigis.\nWir könnten dir helfen... wenn der Preis stimmt.\nAber wenn du unsere Abmachung nicht einhältst...., bringe ich dich um.\nUh, Belle... Es könnte nicht schaden, ein bisschen netter zu sein...?\nAber wenn du Belle verletzt, wird Aigis dir nie verzeihen."
+            ],
+            "Login": [
+                "Aha, du hast also dein Versprechen gehalten, mich zu besuchen. Ich dachte, du hättest zu viel Angst.\nAlso, dann lass uns nach... Was ist das für ein Ort, an den du mich mitnehmen wolltest?"
+            ],
+            "Tap": [
+                "Was?\nWarum ist dieses altmodische, abgenutzte Gemälde teurer als dieses hübsche, glänzende Juwel? Das ergibt keinen Sinn...",
+                "Lass uns zusammen schlafen, Aigis!\n\n Das würde ich gerne, Belle! Wenn ich dich in meine Arme schließe, sind all meine Sorgen wie weggeblasen.\nDu bist so weich, so warm...so perfekt!",
+                "Ich möchte Belle ein Geschenk machen... Was soll ich ihr schenken?\nIch habe wirklich keine Ahnung. Aber ich will sie strahlen sehen, also versuche ich weiter, mir etwas einfallen zu lassen."
+            ],
+            "Idle": [
+                "Aigis, wo bist du? Aigis? Wo könnte sie hingegangen sein?\n... Könnte sie mich verlassen haben? Nein... Das kann nicht sein...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Giftaxt": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Knospengeschenke": {
+                    "BaseWeight": 9999
+                },
+                "Die Ballkönigin": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Buzzsaw-Axt": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeautyRegular01": {
+        "Name": "Belle",
+        "Name2": " ",
+        "FullName": "Belle -  ",
+        "Profile": "Belle wurde in einer kleinen Stadt geboren. Sie wurde von ihren Eltern großgezogen, aber der finanzielle Ruin riss die Familie auseinander und Belle blieb zurück.\nDa sie nirgendwo anders hin konnte, fand sie sich in einer Gruppe von Straßenkindern wieder. Dank ihrer natürlichen Geschicklichkeit und ihrer Cleverness auf der Straße dauerte es nicht lange, bis sie sich unter den zwielichtigen Bewohnern der Seitenstraßen einen Namen gemacht hatte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Giftaxt",
+                "SkillDescription": "300% Schaden an 1 Gegner. Wenn ein Gegner auf dem Schlachtfeld vergiftet ist, verursacht er stattdessen 600% Schaden. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nDann erhält das getroffene Ziel zufällig entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nMega-Gift überschreibt andere Statuseffekte bei diesen Gegnern. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden. Tödliches Gift überschreibt andere Statuseffekte bei diesen Gegnern, kann nicht durch andere Statuseffekte als Verbrennen oder Verstohlenheit überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den doppelten Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die ausdrücklich verhindern, dass das Ziel durch Gift oder Nicht-Angriffsschaden besiegt wird. Tödliches Gift kann nicht auf brennende Einheiten oder Boss-Einheiten angewendet werden.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Knospengeschenke",
+                "SkillDescription": "Alle nicht brennenden Verbündeten werden um 500% des Angriffs des Benutzers geheilt und wütend gemacht. Dies überschreibt die Effekte anderer Fertigkeiten der Wut auf diese Einheiten. Bei wütenden Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht.\n\nWenn 2 oder mehr Gegner auf dem Schlachtfeld vergiftet sind, werden bei allen Verbündeten die ZE-Kosten für alle ihre Fertigkeiten um 30 % reduziert, wodurch die Effekte anderer Beschleunigen-Fertigkeiten überschrieben werden. Wenn weniger als 2 Gegner auf dem Schlachtfeld vergiftet werden, erhalten alle Gegner auf dem Schlachtfeld nach dem Zufallsprinzip entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nDiese Fertigkeit wird nach der Anwendung für 50 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Die Ballkönigin",
+                "SkillDescription": "600% Schaden an 1 Gegner und gewährt diesem Gegner dann den Statuseffekt Tödliches Gift für 999 ZE. Danach erhält der Gegner den Statuseffekt Mega-Gift für 200 ZE. Dieser Angriff ignoriert Wächter und Schadensreduzierungseffekte.\n\nNur möglich, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet. Wenn diese Fertigkeit innerhalb von 10 ZE 3 Mal eingesetzt wird, wird sie für 25 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Flechtträume",
+                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht besiegt werden. Dieser Effekt kann nur einmal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Haltegrund+ Effekt. Immer wenn ein dunkler Verbündeter mit dem Namen Aigis das Schlachtfeld durch verbündete Verstärkung betritt, wird dieser Effekt „Stellung halten+“ zurückgesetzt, so dass er erneut ausgelöst werden kann. \n\nWenn sich nicht bereits ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in verbündeten Verstärkungen befindet, fügt diese Einheit Aigis am Ende des Zuges zur nächsten verbündeten Verstärkung hinzu, wenn:\n- ein anderer nicht verbündeter Verbündeter auf dem Schlachtfeld durch eine beliebige Quelle besiegt oder geopfert wird, solange diese Einheit nicht gleichzeitig besiegt oder geopfert wird. \n- Diese Einheit besiegt einen nicht-verletzen Gegner auf dem Schlachtfeld mit einem Angriff.\nAigis' Stufe, Grenzunterbrechungen, Erweckungen, Verstärkungen, Potenzial, Meisterschaft, Waffe und Zubehör passen zu dieser Einheit.\n\nDiese Einheit kann nicht einschlafen oder betäubt werden, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet.\n\nDiese Einheit hat eine 30%ige Schadensreduzierung durch Angriffe. Solange sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet, hat diese Einheit stattdessen eine Schadensreduzierung von 60%."
+            },
+            {
+                "SkillTitle": "Freie Stärke",
+                "SkillDescription": "Die Angriffe dieser Einheit heilen sie um 100% des gesamten zugefügten Schadens.\n\nDiese Einheit kann nicht vergiftet oder zur Verstärkung vom Schlachtfeld geschickt werden.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie um 50% ihrer maximalen LP geheilt.\n\nJedes Mal, wenn diese Einheit einen vergifteten Gegner mit einem Angriff schädigt, erhält sie einen weiteren Zug. Dieser Effekt kann gegen dasselbe Ziel erst wieder ausgelöst werden, wenn die ZE vorrücken. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z.B. Betäubungen, die auf das niedrigste TU-Ziel abzielen).\n\nWenn diese Einheit in den Kampf zieht, erhält sie einen Soforttodschutz, einen Schlafschutz und einen Betäubungsschutz. Jeder Schutz verhindert, dass der genannte Effekt einmal angewendet wird, und wird dann entfernt. Ein Soforttod-Schutz verhindert einmal, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttod-Schutz kann nicht ignoriert werden. Identische Schutzzaubere können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Giftaxt": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Knospengeschenke": {
+                    "BaseWeight": 9999
+                },
+                "Die Ballkönigin": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyRegular02": {
+        "Name": "Belle",
+        "Name2": " ",
+        "FullName": "Belle -  ",
+        "Profile": "Belle wurde in einer kleinen Stadt geboren. Sie wurde von ihren Eltern großgezogen, aber der finanzielle Ruin riss die Familie auseinander und Belle blieb zurück.\nDa sie nirgendwo anders hin konnte, fand sie sich in einer Gruppe von Straßenkindern wieder. Dank ihrer natürlichen Geschicklichkeit und ihrer Cleverness auf der Straße dauerte es nicht lange, bis sie sich unter den zwielichtigen Bewohnern der Seitenstraßen einen Namen gemacht hatte.",
+        "Profile_Ascended": "Belle wurde in einer kleinen Stadt geboren. Sie wurde von ihren Eltern großgezogen, aber der finanzielle Ruin riss die Familie auseinander und Belle blieb zurück.\nDa sie nirgendwo anders hin konnte, fand sie sich in einer Gruppe von Straßenkindern wieder. Dank ihrer natürlichen Geschicklichkeit und ihrer Cleverness auf der Straße dauerte es nicht lange, bis sie sich unter den zwielichtigen Bewohnern der Seitenstraßen einen Namen gemacht hatte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Giftaxt",
+                "SkillDescription": "300% Schaden an 1 Gegner. Wenn ein Gegner auf dem Schlachtfeld vergiftet ist, verursacht er stattdessen 600% Schaden. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Fertigkeiten und den Statuseffekt Konterstellung.\n\nDann erhält das getroffene Ziel zufällig entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nMega-Gift überschreibt andere Statuseffekte bei diesen Gegnern. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Super-Gift überschrieben werden. Tödliches Gift überschreibt andere Statuseffekte bei diesen Gegnern, kann nicht durch andere Statuseffekte als Verbrennen oder Verstohlenheit überschrieben werden und kann nicht geläutert werden. Tödliches Gift verursacht den doppelten Schaden von normalem Gift und ignoriert passive Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass das Ziel besiegt wird, mit Ausnahme von Fertigkeiten, die ausdrücklich verhindern, dass das Ziel durch Gift oder Nicht-Angriffsschaden besiegt wird. Tödliches Gift kann nicht auf brennende Einheiten oder Boss-Einheiten angewendet werden.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Knospengeschenke",
+                "SkillDescription": "Alle nicht brennenden Verbündeten werden um 500% des Angriffs des Benutzers geheilt und wütend gemacht. Dies überschreibt die Effekte anderer Fertigkeiten der Wut auf diese Einheiten. Bei wütenden Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht.\n\nWenn 2 oder mehr Gegner auf dem Schlachtfeld vergiftet sind, werden bei allen Verbündeten die ZE-Kosten für alle ihre Fertigkeiten um 30 % reduziert, wodurch die Effekte anderer Beschleunigen-Fertigkeiten überschrieben werden. Wenn weniger als 2 Gegner auf dem Schlachtfeld vergiftet werden, erhalten alle Gegner auf dem Schlachtfeld nach dem Zufallsprinzip entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE.\n\nDiese Fertigkeit wird nach der Anwendung für 50 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Die Ballkönigin",
+                "SkillDescription": "600% Schaden an 1 Gegner und gewährt diesem Gegner dann den Statuseffekt Tödliches Gift für 999 ZE. Danach erhält der Gegner den Statuseffekt Mega-Gift für 200 ZE. Dieser Angriff ignoriert Wächter und Schadensreduzierungseffekte.\n\nNur möglich, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet. Wenn diese Fertigkeit innerhalb von 10 ZE 3 Mal eingesetzt wird, wird sie für 25 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Buzzsaw-Axt",
+                "SkillDescription": "600% Schaden an 1 Gegner. 800% Schaden stattdessen bei Zielen, die den Statuseffekt Mega-Gift oder den Statuseffekt Tödliches Gift haben. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, gegnerische Schadensreduzierungseffekte, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nWenn der Schaden dieses Angriffs einen Gegner besiegt, der kein Boss ist, wird ein anderer zufälliger, nicht ephemerer Gegner auf dem Schlachtfeld sofort besiegt (es wird angenommen, dass der Anwender diesen Gegner mit einem Angriff besiegt hat). Dieser sekundäre Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nDies ist möglich, wenn ein Verbündeter auf dem Schlachtfeld 1+ Einheiten mit Angriffen besiegt hat, während er auf dem Schlachtfeld war.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Flechtträume",
+                "SkillDescription": "Wenn diese Einheit besiegt werden würde, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht besiegt werden. Dieser Effekt kann nur einmal ausgelöst werden, wenn diese Einheit das Schlachtfeld betritt, und gilt als Haltegrund+ Effekt. Immer wenn ein dunkler Verbündeter mit dem Namen Aigis das Schlachtfeld durch verbündete Verstärkung betritt, wird dieser Effekt „Stellung halten+“ zurückgesetzt, so dass er erneut ausgelöst werden kann. \n\nWenn sich nicht bereits ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in verbündeten Verstärkungen befindet, fügt diese Einheit Aigis am Ende des Zuges zur nächsten verbündeten Verstärkung hinzu, wenn:\n- ein anderer nicht verbündeter Verbündeter auf dem Schlachtfeld durch eine beliebige Quelle besiegt oder geopfert wird, solange diese Einheit nicht gleichzeitig besiegt oder geopfert wird. \n- Diese Einheit besiegt einen nicht-verletzen Gegner auf dem Schlachtfeld mit einem Angriff.\nAigis' Stufe, Grenzunterbrechungen, Erweckungen, Verstärkungen, Potenzial, Meisterschaft, Waffe und Zubehör passen zu dieser Einheit.\n\nDiese Einheit kann nicht einschlafen oder betäubt werden, wenn sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet.\n\nDiese Einheit hat eine 30%ige Schadensreduzierung durch Angriffe. Solange sich ein dunkler Verbündeter namens Aigis auf dem Schlachtfeld oder in der verbündeten Verstärkung befindet, hat diese Einheit stattdessen eine Schadensreduzierung von 60%."
+            },
+            {
+                "SkillTitle": "Freie Stärke",
+                "SkillDescription": "Die Angriffe dieser Einheit heilen sie um 100% des gesamten zugefügten Schadens.\n\nDiese Einheit kann nicht vergiftet oder zur Verstärkung vom Schlachtfeld geschickt werden.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie um 50% ihrer maximalen LP geheilt.\n\nJedes Mal, wenn diese Einheit einen vergifteten Gegner mit einem Angriff schädigt, erhält sie einen weiteren Zug. Dieser Effekt kann gegen dasselbe Ziel erst wieder ausgelöst werden, wenn die ZE vorrücken. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z.B. Betäubungen, die auf das niedrigste TU-Ziel abzielen).\n\nWenn diese Einheit in den Kampf zieht, erhält sie einen Soforttodschutz, einen Schlafschutz und einen Betäubungsschutz. Jeder Schutz verhindert, dass der genannte Effekt einmal angewendet wird, und wird dann entfernt. Ein Soforttod-Schutz verhindert einmal, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Soforttod-Schutz kann nicht ignoriert werden. Identische Schutzzaubere können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Giftaxt": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Knospengeschenke": {
+                    "BaseWeight": 9999
+                },
+                "Die Ballkönigin": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Buzzsaw-Axt": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeastRegular01": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Auch Aigis hatte keine Familie. Als Säugling wurde sie in einem Wald in der Nähe einer Stadt ausgesetzt. Obwohl sie von einer einheimischen Familie aufgenommen wurde, die sie fand, wurde sie nur als Arbeitskraft behandelt - und schließlich wieder verstoßen.\nAufgrund ihres auffälligen Aussehens und ihrer ängstlichen Art blieb sie so lange allein, wie sie sich erinnern kann.\nNur, bis sie Belle traf.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Death",
+        "Element": "Schatten",
+        "Cost": 28,
+        "Atk_Base": 1125,
+        "Hp_Base": 8504,
+        "Speed": 304,
+        "Power": 169548,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Bestien-Uppercut",
+                "SkillDescription": "700% Schaden an 1 Gegner. Minus 100% Schaden für jeden nicht vergifteten Gegner auf dem Schlachtfeld (max. -400%, wenn es 4 nicht vergiftete Gegner gibt). Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, Effekte zur Schadensreduzierung von Gegnern, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nDann wird die Verbrennung des getroffenen Ziels entfernt (einschließlich Mega-Heilverbrennung) und es erhält zufällig entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE. Dies überschreibt andere Statuseffekte auf diesem Gegner.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Strauch-Barrage",
+                "SkillDescription": "500% Schaden an allen Gegnern. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Alle getroffenen Gegner erhalten nach dem Zufallsprinzip entweder Mega-Gift für 200 ZE oder Tödliches Gift für 999 ZE.\n\nDiese Fähigkeit kann eingesetzt werden, wenn sich 0 oder 1 vergiftete Gegner auf dem Schlachtfeld befinden. Diese Fertigkeit wird nach der Anwendung für 30 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Unsterbliche Blüte",
+                "SkillDescription": "Fügt eine Belle zur nächsten verbündeten Verstärkung hinzu und tauscht dann 1 anderen Verbündeten mit ihr aus, wenn sich bereits 4 Verbündete auf dem Schlachtfeld befinden. Kann nur verwendet werden, wenn sich mindestens 1 weiterer Verbündeter auf dem Schlachtfeld befindet und nicht bereits ein irdischer Verbündeter namens Belle oder \"Schöne und Biest, Ein Paar der Morphean-Blumen\" auf dem Schlachtfeld oder in verbündeten Verstärkungen ist.\n\nDie hinzugefügte Belle wird als beschworene Einheit betrachtet. Die Stufe, die Grenzüberschreitungen, die Erweckungen, die Verstärkungen, das Potenzial, die Beherrschung, die Waffe und das Zubehör dieser Belle entsprechen denen des Benutzers.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Belles Schützer",
+                "SkillDescription": "Die Angriffe dieser Einheit heilen sie um 100% des verursachten Schadens.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden oder sofort ohne Schaden von einem Gegner besiegt werden, der kein Boss ist.\n\nDiese Einheit hat eine Schadensreduzierung von 30% durch Angriffe. Während diese Einheit ein Wächter ist, hat sie stattdessen 60% Schadensreduzierung.\n\nDiese Einheit wird zum Wächter und kann nicht besiegt werden. Diese Effekte beginnen, wenn diese Einheit das Schlachtfeld betritt, und enden nach dem dritten Zug dieser Einheit auf dem Schlachtfeld. Solange diese Einheit ein Wächter ist, hat sie bei jedem gegnerischen Angriff, der 1 oder 2 andere Verbündete treffen würde, eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Fertigkeiten, die keinen Schaden verursachen, werden von dieser Einheit nicht umgeleitet.\n\n Wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende der Runde überlebt, wird sie um 25% ihrer maximalen LP geheilt und erhält Superschleichen. Diese Heilung wird für die ersten 3 Male, die sie nach Betreten des Schlachtfeldes ausgelöst wird, auf 100% der maximalen LP erhöht.\n\nSuperschleichende Einheiten ignorieren gegnerische Angriffe, die mehr als 1 Ziel beschädigen würden. Superschleichen wird entfernt, nachdem sie 3 gegnerische Angriffe seit ihrer Anwendung ignoriert hat, und kann durch andere Statuseffekte überschrieben werden, außer durch normale Schleiche. Schaden entfernt das Superschleichen nicht."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular01"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Bestien-Uppercut": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Strauch-Barrage": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Unsterbliche Blüte": {
+                    "BaseWeight": 1000
+                }
+            }
+        }
+    },
+    "BeastRegular02": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Auch Aigis hatte keine Familie. Als Säugling wurde sie in einem Wald in der Nähe einer Stadt ausgesetzt. Obwohl sie von einer einheimischen Familie aufgenommen wurde, die sie fand, wurde sie nur als Arbeitskraft behandelt - und schließlich wieder verstoßen.\nAufgrund ihres auffälligen Aussehens und ihrer ängstlichen Art blieb sie so lange allein, wie sie sich erinnern kann.\nNur, bis sie Belle traf.",
+        "Profile_Ascended": "Auch Aigis hatte keine Familie. Als Säugling wurde sie in einem Wald in der Nähe einer Stadt ausgesetzt. Obwohl sie von einer einheimischen Familie aufgenommen wurde, die sie fand, wurde sie nur als Arbeitskraft behandelt - und schließlich wieder verstoßen.\nAufgrund ihres auffälligen Aussehens und ihrer ängstlichen Art blieb sie so lange allein, wie sie sich erinnern kann.\nNur, bis sie Belle traf.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Speer",
+        "forFilter_Element": "Death",
+        "Element": "Schatten",
+        "Cost": 34,
+        "Atk_Base": 1438,
+        "Hp_Base": 10853,
+        "Speed": 304,
+        "Power": 216516,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Bestien-Uppercut",
+                "SkillDescription": "700% Schaden an 1 Gegner. Minus 100% Schaden für jeden nicht vergifteten Gegner auf dem Schlachtfeld (max. -400%, wenn es 4 nicht vergiftete Gegner gibt). Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bosse sind und die verhindern würden, dass das Ziel besiegt wird, Effekte zur Schadensreduzierung von Gegnern, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nDann wird die Verbrennung des getroffenen Ziels entfernt (einschließlich Mega-Heilverbrennung) und es erhält zufällig entweder Mega-Gift für 200 ZE oder tödliches Gift für 999 ZE. Dies überschreibt andere Statuseffekte auf diesem Gegner.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Strauch-Barrage",
+                "SkillDescription": "500% Schaden an allen Gegnern. Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Alle getroffenen Gegner erhalten nach dem Zufallsprinzip entweder Mega-Gift für 200 ZE oder Tödliches Gift für 999 ZE.\n\nDiese Fähigkeit kann eingesetzt werden, wenn sich 0 oder 1 vergiftete Gegner auf dem Schlachtfeld befinden. Diese Fertigkeit wird nach der Anwendung für 30 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Unsterbliche Blüte",
+                "SkillDescription": "Fügt eine Belle zur nächsten verbündeten Verstärkung hinzu und tauscht dann 1 anderen Verbündeten mit ihr aus, wenn sich bereits 4 Verbündete auf dem Schlachtfeld befinden. Kann nur verwendet werden, wenn sich mindestens 1 weiterer Verbündeter auf dem Schlachtfeld befindet und nicht bereits ein irdischer Verbündeter namens Belle oder \"Schöne und Biest, Ein Paar der Morphean-Blumen\" auf dem Schlachtfeld oder in verbündeten Verstärkungen ist.\n\nDie hinzugefügte Belle wird als beschworene Einheit betrachtet. Die Stufe, die Grenzüberschreitungen, die Erweckungen, die Verstärkungen, das Potenzial, die Beherrschung, die Waffe und das Zubehör dieser Belle entsprechen denen des Benutzers.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Belles Schützer",
+                "SkillDescription": "Die Angriffe dieser Einheit heilen sie um 100% des verursachten Schadens.\n\nDiese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden oder sofort ohne Schaden von einem Gegner besiegt werden, der kein Boss ist.\n\nDiese Einheit hat eine Schadensreduzierung von 30% durch Angriffe. Während diese Einheit ein Wächter ist, hat sie stattdessen 60% Schadensreduzierung.\n\nDiese Einheit wird zum Wächter und kann nicht besiegt werden. Diese Effekte beginnen, wenn diese Einheit das Schlachtfeld betritt, und enden nach dem dritten Zug dieser Einheit auf dem Schlachtfeld. Solange diese Einheit ein Wächter ist, hat sie bei jedem gegnerischen Angriff, der 1 oder 2 andere Verbündete treffen würde, eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Fertigkeiten, die keinen Schaden verursachen, werden von dieser Einheit nicht umgeleitet.\n\n Wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende der Runde überlebt, wird sie um 25% ihrer maximalen LP geheilt und erhält Superschleichen. Diese Heilung wird für die ersten 3 Male, die sie nach Betreten des Schlachtfeldes ausgelöst wird, auf 100% der maximalen LP erhöht.\n\nSuperschleichende Einheiten ignorieren gegnerische Angriffe, die mehr als 1 Ziel beschädigen würden. Superschleichen wird entfernt, nachdem sie 3 gegnerische Angriffe seit ihrer Anwendung ignoriert hat, und kann durch andere Statuseffekte überschrieben werden, außer durch normale Schleiche. Schaden entfernt das Superschleichen nicht."
+            },
+            {
+                "SkillTitle": "Morphean-Träumer",
+                "SkillDescription": "Diese Einheit kann nicht einschlafen oder betäubt werden.\n\nWenn diese Einheit durch verbündete Verstärkung das Schlachtfeld betritt:\n- Alle Gegner auf dem Schlachtfeld erhalten Mega-Gift für 200 ZE.\n- Bei allen irdischen Verbündeten mit dem Namen Belle oder „Schöne und Biest, Ein Paar der Morphean-Blumen“ auf dem Schlachtfeld werden ihre ZE auf 0 reduziert und sie werden gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt). Wenn diese Einheit durch einen Angriff Schaden erleidet, werden die Lebenspunkte aller irdischen Verbündeten mit dem Namen Belle oder „Schöne und Biest, Ein Paar der Morphean-Blumen“ auf dem Schlachtfeld sofort auf 0 reduziert. Dies ist kein Skin-Effekt. Wenn diese Einheit eine beliebige Anzahl von Gegnern mit einem Angriff besiegt, während sie sich auf dem Schlachtfeld befindet, wird am Ende des Spielzugs:\n- Diese Einheit stiehlt dem gegnerischen Team Lebenskraft, bis die gegnerische Lebenskraft 0 erreicht. \n- Alle irdischen Verbündeten mit dem Namen Belle oder \"Schöne und Biest, Ein Paar der Morphean-Blumen\" auf dem Schlachtfeld bekommen ihre ZE auf 0 reduziert und werden geläutert.\n- Dann bekommt diese Einheit sofort den Zug, indem ihre ZE auf 0 reduziert und geläutert wird.\nEffekte, die die ZE-Reihenfolge beeinflussen, können diese zusätzlichen Züge unterbrechen (z.B. Betäubungen, die auf das niedrigste ZE-Ziel abzielen)."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Flammen-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer von Betäubungs-Effekten auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular02"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Bestien-Uppercut": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Strauch-Barrage": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Unsterbliche Blüte": {
+                    "BaseWeight": 1000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

@@ -17917,7 +17917,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "减少伤害",
-                "SkillDescription": "若有至少2个队友为召唤物，此单位受到敌方攻击的伤害减少7%。"
+                "SkillDescription": "若场上有至少2个己方单位为召唤物，此单位受到敌方攻击的伤害减少7%。"
             }
         ]
     },
@@ -17940,7 +17940,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "减少伤害",
-                "SkillDescription": "若有至少2个队友为召唤物，此单位受到敌方攻击的伤害减少10%。"
+                "SkillDescription": "若场上有至少2个己方单位为召唤物，此单位受到敌方攻击的伤害减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 1
@@ -17964,7 +17964,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "减少伤害",
-                "SkillDescription": "若有至少2个队友为召唤物，此单位受到敌方攻击的伤害减少15%。"
+                "SkillDescription": "若场上有至少2个己方单位为召唤物，此单位受到敌方攻击的伤害减少15%。"
             }
         ],
         "ExtraEvoInitialCount": 2
@@ -19333,7 +19333,7 @@
         "Hp_Base": 3045,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "TU减少",
@@ -19356,7 +19356,7 @@
         "Hp_Base": 3625,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "TU减少",
@@ -19380,11 +19380,82 @@
         "Hp_Base": 3940,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "TU减少",
                 "SkillDescription": "若己方队伍中存在盾卫，此单位所有技能的TU会减少10%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "AmethystGemSpear01": {
+        "Name": "紫水晶梦枪",
+        "FullName": "紫水晶梦枪",
+        "Profile": "镶嵌着华丽紫水晶的长枪。那枚宝石，是某位贫穷少女拼命积攒钱财后，赠予挚友的礼物。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Spear",
+        "WeaponType": "长枪",
+        "Cost": 11,
+        "Atk_Base": 453,
+        "Hp_Base": 3110,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "提升战力",
+                "SkillDescription": "若场上有至少2个己方单位为召唤物，此单位会造成7%的额外伤害，而所有技能的TU会减少6%。"
+            }
+        ]
+    },
+    "AmethystGemSpear02": {
+        "Name": "紫水晶梦枪",
+        "FullName": "紫水晶梦枪",
+        "Profile": "镶嵌着华丽紫水晶的长枪。那枚宝石，是某位贫穷少女拼命积攒钱财后，赠予挚友的礼物。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Spear",
+        "WeaponType": "长枪",
+        "Cost": 17,
+        "Atk_Base": 568,
+        "Hp_Base": 3660,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "提升战力",
+                "SkillDescription": "若场上有至少2个己方单位为召唤物，此单位会造成10%的额外伤害，而所有技能的TU会减少8%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "AmethystGemSpear03": {
+        "Name": "紫水晶梦枪",
+        "FullName": "紫水晶梦枪",
+        "Profile": "镶嵌着华丽紫水晶的长枪。那枚宝石，是某位贫穷少女拼命积攒钱财后，赠予挚友的礼物。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Spear",
+        "WeaponType": "长枪",
+        "Cost": 23,
+        "Atk_Base": 599,
+        "Hp_Base": 4005,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "提升战力",
+                "SkillDescription": "若场上有至少2个己方单位为召唤物，此单位会造成15%的额外伤害，而所有技能的TU会减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2

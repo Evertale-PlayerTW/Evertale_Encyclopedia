@@ -130542,7 +130542,7 @@
         "Hp_Base": 5965,
         "Speed": 540,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "From white and black snow,\na new light rises.",
         "LeaderSkill": {
             "SkillTitle": "Dark Attack Up",
@@ -130994,5 +130994,1030 @@
                 }
             }
         }
+    },
+    "BeautyBeastRegular01": {
+        "Name": "Beauty & Beast",
+        "Name2": "Pair of Morphean Flowers",
+        "FullName": "Beauty & Beast - Pair of Morphean Flowers",
+        "Profile": "Belle was born in a small town. She was raised by her parents, but financial ruin tore the family apart—and Belle was left behind.\nWith nowhere else to go, she found herself among a group of urchins in the backstreets. Thanks to her natural dexterity and street smarts, it wasn't long before she had made a name for herself among the backstreet's shady residents.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Together forever... Even death can't do us part.",
+        "LeaderSkill": {
+            "SkillTitle": "Earth Attack Up",
+            "SkillDescription": "Allied Earth element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Poisonous Axe",
+                "SkillDescription": "300% damage to 1 enemy. If any enemy on the battlefield is poisoned, deals 600% damage instead. This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nThen the target hit is randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nMega Poison will overwrite other status effects on that enemy. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Lethal Poison will overwrite other status effects on that enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Budding Gifts",
+                "SkillDescription": "All non-burning allies are healed for 500% of the user's attack, and Enraged. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.\n\nIf 2 or more enemies on the battlefield are poisoned, all allies will have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills. Otherwise, if less than 2 enemies on the battlefield are poisoned, all enemies on the battlefield are randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nThis skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle of the Ball",
+                "SkillDescription": "600% damage to 1 enemy, and then grants that enemy the Lethal Poison status effect for 999TU. Then grants that enemy the Mega Poison status effect for 200TU. This attack ignores Guardians, and damage reduction effects.\n\nUsable only if there is a Dark ally named Aigis on the battlefield or in allied reinforcements. If this skill is used 3 times within 10TU, it becomes locked for 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Dreams Entwined",
+                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect. Whenever a Dark ally named Aigis enters the battlefield from allied reinforcements, this Hold Ground+ effect is reset so it can trigger again.\n\nIf there is not already a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit adds Aigis to next in line of allied reinforcements at the end of the turn whenever:\n- Another non-conjured ally on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time.\n- This unit defeats a non-conjured enemy on the battlefield with an attack.\n\nAigis's Level, Limit Breaks, Awakenings, Boosts, Potential, Mastery, Weapon and Accessory will match this unit.\n\nThis unit cannot fall asleep or be stunned if there is a Dark ally named Aigis on the battlefield or in allied reinforcements.\n\nThis unit has 30% damage reduction from attacks. While there is a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit has 60% damage reduction instead."
+            },
+            {
+                "SkillTitle": "Unshackled Strength",
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nThis unit cannot be poisoned, or be sent to the reinforcements from the battlefield.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 50% of its max HP.\n\nEach time this unit damages a poisoned enemy with an attack, this unit will get another turn. This effect cannot trigger again against the same target until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nWhen this unit enters battle, this unit is granted an Instant Death Ward, Sleep Ward, and Stun Ward. Each Ward prevents their named effect from being applied once, then is removed. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored. Identical Wards cannot stack."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "I'm Belle. And this is Aigis.\nWe could lend you a hand...if the price is right.\nThough if you renege on any deal with us....I'll kill you.\n\nUh, Belle...It might not hurt to be a bit nicer...?\nBut if you hurt Belle, then Aigis will never forgive you."
+            ],
+            "Login": [
+                "Huh, so you kept your promise to come see me. I figured you'd be too scared.\n Well then, let's go to... What's that place you wanted to take me?"
+            ],
+            "Tap": [
+                "What!?\nWhy is that old-fashioned, worn out painting more expensive than this pretty shining jewel!? It makes no sense...",
+                "Let's sleep together, Aigis!\nI'd love to, Belle! Squeezing you in my arms makes all my worries go away.\nYou're so soft, so warm...so perfect!",
+                "I want to give Belle a gift... What should I get her?\nI really have no idea. But I want to see her light up, so I'll keep trying to come up with something."
+            ],
+            "Idle": [
+                "Aigis, where are you? Aigis? Where could she have gone?\n...Could she have left me? No... There's no way...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Poisonous Axe": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Budding Gifts": {
+                    "BaseWeight": 9999
+                },
+                "Belle of the Ball": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyBeastRegular02": {
+        "Name": "Beauty & Beast",
+        "Name2": "Pair of Morphean Flowers",
+        "FullName": "Beauty & Beast - Pair of Morphean Flowers",
+        "Profile": "Aigis had no family either. As an infant, she was abandoned in the forest near a town. Though taken in by a local family who found her, she was treated as little more than labor—and in the end, she was cast aside once again.\nBecause of her distinct appearance and her timid nature, she remained alone for as long as she could remember.\n\nUntil she met Belle.",
+        "Profile_Ascended": "The fragile world the two lived in was unlike other dream worlds—it was unstable, doomed to collapse within a single day without fuel to keep it going.\nThat was why sacrificial victims were necessary.\nBut even if it meant offering up every single soul in existence, as long as the two of them could remain together for another day longer...that was all that mattered.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Earth Attack Up",
+            "SkillDescription": "Allied Earth element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Poisonous Axe",
+                "SkillDescription": "300% damage to 1 enemy. If any enemy on the battlefield is poisoned, deals 600% damage instead. This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nThen the target hit is randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nMega Poison will overwrite other status effects on that enemy. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Lethal Poison will overwrite other status effects on that enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Budding Gifts",
+                "SkillDescription": "All non-burning allies are healed for 500% of the user's attack, and Enraged. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.\n\nIf 2 or more enemies on the battlefield are poisoned, all allies will have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills. Otherwise, if less than 2 enemies on the battlefield are poisoned, all enemies on the battlefield are randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nThis skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle of the Ball",
+                "SkillDescription": "600% damage to 1 enemy, and then grants that enemy the Lethal Poison status effect for 999TU. Then grants that enemy the Mega Poison status effect for 200TU. This attack ignores Guardians, and damage reduction effects.\n\nUsable only if there is a Dark ally named Aigis on the battlefield or in allied reinforcements. If this skill is used 3 times within 10TU, it becomes locked for 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Buzzsaw Axe",
+                "SkillDescription": "600% damage to 1 enemy. 800% damage instead to targets that have the Mega Poison status effect or the Lethal Poison status effect. This attack ignores any effects of non-boss enemies that would prevent the target from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nIf damage from this attack defeats a non-Ephemeral enemy, another random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUsable if any ally on the battlefield has defeated 1+ units with attacks while on the battlefield.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Dreams Entwined",
+                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect. Whenever a Dark ally named Aigis enters the battlefield from allied reinforcements, this Hold Ground+ effect is reset so it can trigger again.\n\nIf there is not already a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit adds Aigis to next in line of allied reinforcements at the end of the turn whenever:\n- Another non-conjured ally on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time.\n- This unit defeats a non-conjured enemy on the battlefield with an attack.\n\nAigis's Level, Limit Breaks, Awakenings, Boosts, Potential, Mastery, Weapon and Accessory will match this unit.\n\nThis unit cannot fall asleep or be stunned if there is a Dark ally named Aigis on the battlefield or in allied reinforcements.\n\nThis unit has 30% damage reduction from attacks. While there is a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit has 60% damage reduction instead."
+            },
+            {
+                "SkillTitle": "Unshackled Strength",
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nThis unit cannot be poisoned, or be sent to the reinforcements from the battlefield.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 50% of its max HP.\n\nEach time this unit damages a poisoned enemy with an attack, this unit will get another turn. This effect cannot trigger again against the same target until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nWhen this unit enters battle, this unit is granted an Instant Death Ward, Sleep Ward, and Stun Ward. Each Ward prevents their named effect from being applied once, then is removed. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored. Identical Wards cannot stack."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "I'm Belle. And this is Aigis.\nWe could lend you a hand...if the price is right.\nThough if you renege on any deal with us....I'll kill you.\n\nUh, Belle...It might not hurt to be a bit nicer...?\nBut if you hurt Belle, then Aigis will never forgive you."
+            ],
+            "Login": [
+                "Huh, so you kept your promise to come see me. I figured you'd be too scared.\n Well then, let's go to... What's that place you wanted to take me?"
+            ],
+            "Tap": [
+                "What!?\nWhy is that old-fashioned, worn out painting more expensive than this pretty shining jewel!? It makes no sense...",
+                "Let's sleep together, Aigis!\nI'd love to, Belle! Squeezing you in my arms makes all my worries go away.\nYou're so soft, so warm...so perfect!",
+                "I want to give Belle a gift... What should I get her?\nI really have no idea. But I want to see her light up, so I'll keep trying to come up with something."
+            ],
+            "Idle": [
+                "Aigis, where are you? Aigis? Where could she have gone?\n...Could she have left me? No... There's no way...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Poisonous Axe": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Budding Gifts": {
+                    "BaseWeight": 9999
+                },
+                "Belle of the Ball": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Buzzsaw Axe": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeautyRegular01": {
+        "Name": "Belle",
+        "Name2": " ",
+        "FullName": "Belle -  ",
+        "Profile": "Belle was born in a small town. She was raised by her parents, but financial ruin tore the family apart—and Belle was left behind.\nWith nowhere else to go, she found herself among a group of urchins in the backstreets. Thanks to her natural dexterity and street smarts, it wasn't long before she had made a name for herself among the backstreet's shady residents.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Poisonous Axe",
+                "SkillDescription": "300% damage to 1 enemy. If any enemy on the battlefield is poisoned, deals 600% damage instead. This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nThen the target hit is randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nMega Poison will overwrite other status effects on that enemy. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Lethal Poison will overwrite other status effects on that enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Budding Gifts",
+                "SkillDescription": "All non-burning allies are healed for 500% of the user's attack, and Enraged. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.\n\nIf 2 or more enemies on the battlefield are poisoned, all allies will have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills. Otherwise, if less than 2 enemies on the battlefield are poisoned, all enemies on the battlefield are randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nThis skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle of the Ball",
+                "SkillDescription": "600% damage to 1 enemy, and then grants that enemy the Lethal Poison status effect for 999TU. Then grants that enemy the Mega Poison status effect for 200TU. This attack ignores Guardians, and damage reduction effects.\n\nUsable only if there is a Dark ally named Aigis on the battlefield or in allied reinforcements. If this skill is used 3 times within 10TU, it becomes locked for 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Dreams Entwined",
+                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect. Whenever a Dark ally named Aigis enters the battlefield from allied reinforcements, this Hold Ground+ effect is reset so it can trigger again.\n\nIf there is not already a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit adds Aigis to next in line of allied reinforcements at the end of the turn whenever:\n- Another non-conjured ally on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time.\n- This unit defeats a non-conjured enemy on the battlefield with an attack.\n\nAigis's Level, Limit Breaks, Awakenings, Boosts, Potential, Mastery, Weapon and Accessory will match this unit.\n\nThis unit cannot fall asleep or be stunned if there is a Dark ally named Aigis on the battlefield or in allied reinforcements.\n\nThis unit has 30% damage reduction from attacks. While there is a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit has 60% damage reduction instead."
+            },
+            {
+                "SkillTitle": "Unshackled Strength",
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nThis unit cannot be poisoned, or be sent to the reinforcements from the battlefield.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 50% of its max HP.\n\nEach time this unit damages a poisoned enemy with an attack, this unit will get another turn. This effect cannot trigger again against the same target until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nWhen this unit enters battle, this unit is granted an Instant Death Ward, Sleep Ward, and Stun Ward. Each Ward prevents their named effect from being applied once, then is removed. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored. Identical Wards cannot stack."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Poisonous Axe": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Budding Gifts": {
+                    "BaseWeight": 9999
+                },
+                "Belle of the Ball": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyRegular02": {
+        "Name": "Belle",
+        "Name2": " ",
+        "FullName": "Belle -  ",
+        "Profile": "Belle was born in a small town. She was raised by her parents, but financial ruin tore the family apart—and Belle was left behind.\nWith nowhere else to go, she found herself among a group of urchins in the backstreets. Thanks to her natural dexterity and street smarts, it wasn't long before she had made a name for herself among the backstreet's shady residents.",
+        "Profile_Ascended": "Belle was born in a small town. She was raised by her parents, but financial ruin tore the family apart—and Belle was left behind.\nWith nowhere else to go, she found herself among a group of urchins in the backstreets. Thanks to her natural dexterity and street smarts, it wasn't long before she had made a name for herself among the backstreet's shady residents.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Poisonous Axe",
+                "SkillDescription": "300% damage to 1 enemy. If any enemy on the battlefield is poisoned, deals 600% damage instead. This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nThen the target hit is randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nMega Poison will overwrite other status effects on that enemy. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Lethal Poison will overwrite other status effects on that enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Budding Gifts",
+                "SkillDescription": "All non-burning allies are healed for 500% of the user's attack, and Enraged. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.\n\nIf 2 or more enemies on the battlefield are poisoned, all allies will have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills. Otherwise, if less than 2 enemies on the battlefield are poisoned, all enemies on the battlefield are randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nThis skill becomes locked for 50TU after use.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Belle of the Ball",
+                "SkillDescription": "600% damage to 1 enemy, and then grants that enemy the Lethal Poison status effect for 999TU. Then grants that enemy the Mega Poison status effect for 200TU. This attack ignores Guardians, and damage reduction effects.\n\nUsable only if there is a Dark ally named Aigis on the battlefield or in allied reinforcements. If this skill is used 3 times within 10TU, it becomes locked for 25TU.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Buzzsaw Axe",
+                "SkillDescription": "600% damage to 1 enemy. 800% damage instead to targets that have the Mega Poison status effect or the Lethal Poison status effect. This attack ignores any effects of non-boss enemies that would prevent the target from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nIf damage from this attack defeats a non-Ephemeral enemy, another random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUsable if any ally on the battlefield has defeated 1+ units with attacks while on the battlefield.",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Dreams Entwined",
+                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect. Whenever a Dark ally named Aigis enters the battlefield from allied reinforcements, this Hold Ground+ effect is reset so it can trigger again.\n\nIf there is not already a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit adds Aigis to next in line of allied reinforcements at the end of the turn whenever:\n- Another non-conjured ally on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time.\n- This unit defeats a non-conjured enemy on the battlefield with an attack.\n\nAigis's Level, Limit Breaks, Awakenings, Boosts, Potential, Mastery, Weapon and Accessory will match this unit.\n\nThis unit cannot fall asleep or be stunned if there is a Dark ally named Aigis on the battlefield or in allied reinforcements.\n\nThis unit has 30% damage reduction from attacks. While there is a Dark ally named Aigis on the battlefield or in allied reinforcements, this unit has 60% damage reduction instead."
+            },
+            {
+                "SkillTitle": "Unshackled Strength",
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nThis unit cannot be poisoned, or be sent to the reinforcements from the battlefield.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 50% of its max HP.\n\nEach time this unit damages a poisoned enemy with an attack, this unit will get another turn. This effect cannot trigger again against the same target until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nWhen this unit enters battle, this unit is granted an Instant Death Ward, Sleep Ward, and Stun Ward. Each Ward prevents their named effect from being applied once, then is removed. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored. Identical Wards cannot stack."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "Poisonous Axe": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "Budding Gifts": {
+                    "BaseWeight": 9999
+                },
+                "Belle of the Ball": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "Buzzsaw Axe": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeastRegular01": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Aigis had no family either. As an infant, she was abandoned in the forest near a town. Though taken in by a local family who found her, she was treated as little more than labor—and in the end, she was cast aside once again.\nBecause of her distinct appearance and her timid nature, she remained alone for as long as she could remember.\n\nUntil she met Belle.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Death",
+        "Element": "Dark",
+        "Cost": 28,
+        "Atk_Base": 1125,
+        "Hp_Base": 8504,
+        "Speed": 304,
+        "Power": 169548,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Beastly Uppercut",
+                "SkillDescription": "700% damage to 1 enemy. Minus 100% damage for each non-poisoned enemy on the battlefield (max of -400% if there are 4 non-poisoned enemies). This attack ignores any effects of non-boss enemies that would prevent the target from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nThen the target hit has its burn removed (including Mega Healing Burn) and is randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU. This will overwrite other status effects on that enemy.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Briar Barrage",
+                "SkillDescription": "500% damage to all enemies. This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect. All enemies hit are randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nUsable if there are 0 or 1 poisoned enemies on the battlefield. This skill becomes locked for 30TU after use.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Undying Blossom",
+                "SkillDescription": "Adds a Belle to next in line of allied reinforcements, then exchanges 1 other ally with her if there are already 4 allies on the battlefield. Usable only if there is at least 1 other ally on the battlefield, and there is not already an Earth ally named Belle or \"Beauty & Beast, Pair of Morphean Flowers\" on the battlefield or in allied reinforcements.\n\nThis Belle's Level, Limit Breaks, Awakenings, Boosts, Potential, Mastery, Weapon and Accessory will match the user.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Belle's Protector",
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nThis unit cannot be sent to the reinforcements from the battlefield, or be immediately defeated without damage by a non-boss enemy.\n\nThis unit becomes a Guardian and cannot be defeated. These effects begin when this unit enters the battlefield, and end after this unit's third turn on the battlefield. While this unit is a Guardian, for any enemy attack that would hit 1 or 2 other allies, this unit has a 100% chance to redirect 1 hit to itself instead. This unit will not redirect skills that don't deal damage.\n\nThis unit has 30% damage reduction from attacks. While this unit is a Guardian, this unit has 60% damage reduction instead.\n\nIf this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 25% of max HP and be granted Super Stealth. This healing is increased to 100% of max HP for the first 3 times it triggers after entering the battlefield.\n\nSuper Stealthed units ignore enemy attacks that would damage more than 1 target. Super Stealth will be removed after ignoring 3 enemy attacks since applying, and can be overwritten by other status effects, except normal Stealth. Damage will not remove Super Stealth."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular01"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Beastly Uppercut": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Briar Barrage": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Undying Blossom": {
+                    "BaseWeight": 1000
+                }
+            }
+        }
+    },
+    "BeastRegular02": {
+        "Name": "Aigis",
+        "Name2": " ",
+        "FullName": "Aigis -  ",
+        "Profile": "Aigis had no family either. As an infant, she was abandoned in the forest near a town. Though taken in by a local family who found her, she was treated as little more than labor—and in the end, she was cast aside once again.\nBecause of her distinct appearance and her timid nature, she remained alone for as long as she could remember.\n\nUntil she met Belle.",
+        "Profile_Ascended": "Aigis had no family either. As an infant, she was abandoned in the forest near a town. Though taken in by a local family who found her, she was treated as little more than labor—and in the end, she was cast aside once again.\nBecause of her distinct appearance and her timid nature, she remained alone for as long as she could remember.\n\nUntil she met Belle.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spear",
+        "forFilter_Element": "Death",
+        "Element": "Dark",
+        "Cost": 34,
+        "Atk_Base": 1438,
+        "Hp_Base": 10853,
+        "Speed": 304,
+        "Power": 216516,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Beastly Uppercut",
+                "SkillDescription": "700% damage to 1 enemy. Minus 100% damage for each non-poisoned enemy on the battlefield (max of -400% if there are 4 non-poisoned enemies). This attack ignores any effects of non-boss enemies that would prevent the target from being defeated, enemy damage reduction effects, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nThen the target hit has its burn removed (including Mega Healing Burn) and is randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU. This will overwrite other status effects on that enemy.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Briar Barrage",
+                "SkillDescription": "500% damage to all enemies. This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect. All enemies hit are randomly granted either Mega Poison for 200TU, or Lethal Poison for 999TU.\n\nUsable if there are 0 or 1 poisoned enemies on the battlefield. This skill becomes locked for 30TU after use.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Undying Blossom",
+                "SkillDescription": "Adds a Belle to next in line of allied reinforcements, then exchanges 1 other ally with her if there are already 4 allies on the battlefield. Usable only if there is at least 1 other ally on the battlefield, and there is not already an Earth ally named Belle or \"Beauty & Beast, Pair of Morphean Flowers\" on the battlefield or in allied reinforcements.\n\nThis Belle's Level, Limit Breaks, Awakenings, Boosts, Potential, Mastery, Weapon and Accessory will match the user.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Belle's Protector",
+                "SkillDescription": "This unit's attacks heal this unit for 100% of total damage dealt.\n\nThis unit cannot be sent to the reinforcements from the battlefield, or be immediately defeated without damage by a non-boss enemy.\n\nThis unit becomes a Guardian and cannot be defeated. These effects begin when this unit enters the battlefield, and end after this unit's third turn on the battlefield. While this unit is a Guardian, for any enemy attack that would hit 1 or 2 other allies, this unit has a 100% chance to redirect 1 hit to itself instead. This unit will not redirect skills that don't deal damage.\n\nThis unit has 30% damage reduction from attacks. While this unit is a Guardian, this unit has 60% damage reduction instead.\n\nIf this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 25% of max HP and be granted Super Stealth. This healing is increased to 100% of max HP for the first 3 times it triggers after entering the battlefield.\n\nSuper Stealthed units ignore enemy attacks that would damage more than 1 target. Super Stealth will be removed after ignoring 3 enemy attacks since applying, and can be overwritten by other status effects, except normal Stealth. Damage will not remove Super Stealth."
+            },
+            {
+                "SkillTitle": "Morphean Dreamers",
+                "SkillDescription": "This unit cannot fall asleep, or be stunned.\n\nWhenever this unit enters the battlefield from allied reinforcements:\n- All enemies on the battlefield are granted Mega Poison for 200TU.\n- All Earth allies named Belle or \"Beauty & Beast, Pair of Morphean Flowers\" on the battlefield will have their TU reduced to 0, and be Purified (negative status effects like sleep, burn or poison are removed).\n- Then this unit will immediately get the turn by having its TU reduced to 0, and be Purified.\n\nWhen this unit takes damage from an attack, all Earth allies named Belle or \"Beauty & Beast, Pair of Morphean Flowers\" on the battlefield will immediately have their TU reduced to 0. This is not a skin effect.\n\nWhen this unit defeats any number of enemies with an attack while on the battlefield, at the end of the turn:\n- This unit steals Spirit from the enemy team until enemy Spirit reaches 0.\n- All Earth allies named Belle or \"Beauty & Beast, Pair of Morphean Flowers\" on the battlefield will have their TU reduced to 0, and be Purified.\n- Then this unit will immediately get the turn by having its TU reduced to 0, and be Purified.\nEffects that influence TU order may interrupt these extra turns (e.g. Stuns targeting the lowest TU target)."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Stun Resist Lv3",
+                "SkillDescription": "Reduces the amount of any stun effects against this unit by 20TU."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular02"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "Beastly Uppercut": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Briar Barrage": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "Undying Blossom": {
+                    "BaseWeight": 1000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

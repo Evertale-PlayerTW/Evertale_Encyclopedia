@@ -130544,7 +130544,7 @@
         "Hp_Base": 5965,
         "Speed": 540,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "白と黒の雪が交わる時\n新たな光が生まれる",
         "LeaderSkill": {
             "SkillTitle": "攻撃力アップ（闇）",
@@ -130996,5 +130996,1030 @@
                 }
             }
         }
+    },
+    "BeautyBeastRegular01": {
+        "Name": "美女と野獣",
+        "Name2": "夢幻の双華",
+        "FullName": "美女と野獣 - 夢幻の双華",
+        "Profile": "ベルは小さな街で生まれた。両親のもとで育ったが経済状況が悪化し一家は離散、ベルは置いて行かれた。行き場を失った彼女は、裏町の不良の子供たちの仲間となる。生来の器用さと世渡りのうまさで、たちまち裏町でも一目置かれる存在となった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "槍",
+        "forFilter_Element": "Earth",
+        "Element": "土",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "死んでも、一緒にいようね",
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力アップ（地）",
+            "SkillDescription": "地属性の味方の攻撃力を15%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ポイズンアックス",
+                "SkillDescription": "敵1体に300%ダメージ。この攻撃のダメージ量は、場に毒状態の敵が1体以上いる時、600%ダメージになる（攻撃対象が毒状態である必要はない）。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nその後、対象に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n-毒(20倍)状態のキャラは、ターン経過で通常の毒状態の20倍のダメージを受ける。毒(20倍)状態は、通常の毒状態および毒(4倍)状態に上書きされない。\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」および「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、およびボスには付与されない。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ローズベール",
+                "SkillDescription": "燃焼状態でない味方全員のHPを使用者の攻撃力の500%分回復し、「アンガー」を付与する。対象の既存の「アンガー」系および「怯え」系の効果は上書きされる。\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n\nその後、場にいる毒状態の敵が2体以上の場合、味方全員のスキルのTUを30％減少させる。この効果は他のクイック系の効果を上書きする。場にいる毒状態の敵が2体未満の場合、場にいる敵全員に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n\n使用後、このスキルは50TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "アズアイギス",
+                "SkillDescription": "敵1体に600%ダメージを与え、対象に状態変化「毒(致命)」(999TU持続)を付与する。その後、対象に状態変化「毒(20倍)」(200TU持続)を付与する。対象の既存の状態変化は上書きされる。この攻撃はブロックされず、対象のダメージ減少効果を無視する。\n\n味方の場または味方の控えに、闇属性の「アイギス」がいる場合のみ使用可能。このスキルが10TU以内に3回使われた場合、その後このスキルは25TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "パラレルローズ",
+                "SkillDescription": "・このキャラがHPが0になるダメージを受けても、HPを1残して生き残る（アイアンハート+効果）。この効果が発動してから次にこのキャラのターンが来るまで、このキャラはHPが0にならない。この効果は、このキャラが場に出るたびに1度のみ発動する。ただし、闇属性の「アイギス」が控えから場に出ると発動状況がリセットされ、再度発動するようになる。\n\n・以下のいずれかが起きたターンの終了時、このキャラは味方の次の控えに「アイギス」を1体出現させる。この効果は、味方の場または味方の控えに、闇属性の「アイギス」がすでにいると発動しない。\n-場にいる味方（自身および、このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になる。ただし、同じ攻撃や効果でこのキャラ自身も戦闘不能になっていると発動しない。\n-このキャラが場にいる敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にする。\nこの効果で出現する「アイギス」のレベル、上限解放、覚醒数、潜在能力、ブースト、熟練度、装備している武器やアクセサリーは全て、このキャラと同じになる。\n\n・このキャラは、味方の場または味方の控えに闇属性の「アイギス」がいる間、眠り状態にならず、またスタンの効果も受けない。\n\n・このキャラが敵の攻撃で受けるダメージは30%減少する。この効果で減少するダメージ量は、味方の場または味方の控えに闇属性の「アイギス」がいると60%になる。"
+            },
+            {
+                "SkillTitle": "裏町のカリスマ",
+                "SkillDescription": "・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは毒状態にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラが攻撃でダメージを受けてそのターンの後まで生き残った時、自身のHPを最大値の50%分回復する。\n\n・このキャラが毒状態の敵に攻撃でダメージを与えた時、自身のTUを0にして即座に次のターンを得る。この効果は発動後、1TU以上経過するまでは同じ敵を攻撃しても発動しない。また、この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチ即死」「ワンタイムアンチスリープ」「ワンタイムアンチスタン」を付与する。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "スタン耐性Lv3",
+                "SkillDescription": "自分が受けるスタンの効果を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "私はベル。で、こっちがアイギス。\n条件次第で、力は貸すよ。\n約束破ったら、殺すけどね。\n\nベル、もう少し優しく言おう…？\nでも、あなたがベルを傷つけるなら、\nアイギス、あなたを許さないから。"
+            ],
+            "Login": [
+                "あ、来たんだ。"
+            ],
+            "Tap": [
+                "ええ、なんで…！？",
+                "一緒に寝よ！",
+                "なんか贈りたいんだけど…"
+            ],
+            "Idle": [
+                "アイギスいるー？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "ポイズンアックス": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "ローズベール": {
+                    "BaseWeight": 9999
+                },
+                "アズアイギス": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyBeastRegular02": {
+        "Name": "美女と野獣",
+        "Name2": "夢幻の双華",
+        "FullName": "美女と野獣 - 夢幻の双華",
+        "Profile": "アイギスにも家族はいなかった。赤子の頃に街近くの森へ捨てられ、彼女を見つけた街人の家に引き取られるが、こき使われるばかりで、やがてまた捨てられた。その見た目と怖がりな性格ゆえに、ずっと孤独だった。ベルと出会うまでは。",
+        "Profile_Ascended": "二人が生きるかりそめの国は、通常の夢の世界と違って不安定で、そのままでは一日で崩れてしまう。だから、生贄が必要だった。たとえこの世の魂すべてを犠牲にしても、二人は互いが生きていれば、それでよかった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "槍",
+        "forFilter_Element": "Earth",
+        "Element": "土",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力アップ（地）",
+            "SkillDescription": "地属性の味方の攻撃力を15%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ポイズンアックス",
+                "SkillDescription": "敵1体に300%ダメージ。この攻撃のダメージ量は、場に毒状態の敵が1体以上いる時、600%ダメージになる（攻撃対象が毒状態である必要はない）。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nその後、対象に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n-毒(20倍)状態のキャラは、ターン経過で通常の毒状態の20倍のダメージを受ける。毒(20倍)状態は、通常の毒状態および毒(4倍)状態に上書きされない。\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」および「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、およびボスには付与されない。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ローズベール",
+                "SkillDescription": "燃焼状態でない味方全員のHPを使用者の攻撃力の500%分回復し、「アンガー」を付与する。対象の既存の「アンガー」系および「怯え」系の効果は上書きされる。\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n\nその後、場にいる毒状態の敵が2体以上の場合、味方全員のスキルのTUを30％減少させる。この効果は他のクイック系の効果を上書きする。場にいる毒状態の敵が2体未満の場合、場にいる敵全員に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n\n使用後、このスキルは50TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "アズアイギス",
+                "SkillDescription": "敵1体に600%ダメージを与え、対象に状態変化「毒(致命)」(999TU持続)を付与する。その後、対象に状態変化「毒(20倍)」(200TU持続)を付与する。対象の既存の状態変化は上書きされる。この攻撃はブロックされず、対象のダメージ減少効果を無視する。\n\n味方の場または味方の控えに、闇属性の「アイギス」がいる場合のみ使用可能。このスキルが10TU以内に3回使われた場合、その後このスキルは25TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "トロイメライ",
+                "SkillDescription": "敵1体に600%ダメージ。対象が毒(20倍)状態か毒(致命)状態であれば800%ダメージ。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nこの攻撃のダメージで対象が戦闘不能になった時、場のランダムな（ボスや「幻影」のパッシブスキルを持つキャラを除く）敵1体を即座に戦闘不能にする。この効果で戦闘不能にした場合にも、使用者は対象を攻撃で倒したとみなされる。この効果は対象のリベンジ系および蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキルおよびアクティブスキルの効果を無視する。この効果は、戦闘不能にした対象が「幻影」のパッシブスキルを持っていた場合は発動しない。\n\n場にいる味方のいずれかが、そのキャラ自身が場に出てから攻撃で敵を1体以上倒していると使用可能。",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "パラレルローズ",
+                "SkillDescription": "・このキャラがHPが0になるダメージを受けても、HPを1残して生き残る（アイアンハート+効果）。この効果が発動してから次にこのキャラのターンが来るまで、このキャラはHPが0にならない。この効果は、このキャラが場に出るたびに1度のみ発動する。ただし、闇属性の「アイギス」が控えから場に出ると発動状況がリセットされ、再度発動するようになる。\n\n・以下のいずれかが起きたターンの終了時、このキャラは味方の次の控えに「アイギス」を1体出現させる。この効果は、味方の場または味方の控えに、闇属性の「アイギス」がすでにいると発動しない。\n-場にいる味方（自身および、このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になる。ただし、同じ攻撃や効果でこのキャラ自身も戦闘不能になっていると発動しない。\n-このキャラが場にいる敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にする。\nこの効果で出現する「アイギス」のレベル、上限解放、覚醒数、潜在能力、ブースト、熟練度、装備している武器やアクセサリーは全て、このキャラと同じになる。\n\n・このキャラは、味方の場または味方の控えに闇属性の「アイギス」がいる間、眠り状態にならず、またスタンの効果も受けない。\n\n・このキャラが敵の攻撃で受けるダメージは30%減少する。この効果で減少するダメージ量は、味方の場または味方の控えに闇属性の「アイギス」がいると60%になる。"
+            },
+            {
+                "SkillTitle": "裏町のカリスマ",
+                "SkillDescription": "・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは毒状態にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラが攻撃でダメージを受けてそのターンの後まで生き残った時、自身のHPを最大値の50%分回復する。\n\n・このキャラが毒状態の敵に攻撃でダメージを与えた時、自身のTUを0にして即座に次のターンを得る。この効果は発動後、1TU以上経過するまでは同じ敵を攻撃しても発動しない。また、この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチ即死」「ワンタイムアンチスリープ」「ワンタイムアンチスタン」を付与する。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "スタン耐性Lv3",
+                "SkillDescription": "自分が受けるスタンの効果を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "私はベル。で、こっちがアイギス。\n条件次第で、力は貸すよ。\n約束破ったら、殺すけどね。\n\nベル、もう少し優しく言おう…？\nでも、あなたがベルを傷つけるなら、\nアイギス、あなたを許さないから。"
+            ],
+            "Login": [
+                "あ、来たんだ。"
+            ],
+            "Tap": [
+                "ええ、なんで…！？",
+                "一緒に寝よ！",
+                "なんか贈りたいんだけど…"
+            ],
+            "Idle": [
+                "アイギスいるー？"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "ポイズンアックス": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "ローズベール": {
+                    "BaseWeight": 9999
+                },
+                "アズアイギス": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "トロイメライ": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeautyRegular01": {
+        "Name": "ベル",
+        "Name2": " ",
+        "FullName": "ベル -  ",
+        "Profile": "ベルは小さな街で生まれた。両親のもとで育ったが経済状況が悪化し一家は離散、ベルは置いて行かれた。行き場を失った彼女は、裏町の不良の子供たちの仲間となる。生来の器用さと世渡りのうまさで、たちまち裏町でも一目置かれる存在となった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "槍",
+        "forFilter_Element": "Earth",
+        "Element": "土",
+        "Cost": 28,
+        "Atk_Base": 1066,
+        "Hp_Base": 5880,
+        "Speed": 513,
+        "Power": 134520,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ポイズンアックス",
+                "SkillDescription": "敵1体に300%ダメージ。この攻撃のダメージ量は、場に毒状態の敵が1体以上いる時、600%ダメージになる（攻撃対象が毒状態である必要はない）。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nその後、対象に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n-毒(20倍)状態のキャラは、ターン経過で通常の毒状態の20倍のダメージを受ける。毒(20倍)状態は、通常の毒状態および毒(4倍)状態に上書きされない。\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」および「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、およびボスには付与されない。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ローズベール",
+                "SkillDescription": "燃焼状態でない味方全員のHPを使用者の攻撃力の500%分回復し、「アンガー」を付与する。対象の既存の「アンガー」系および「怯え」系の効果は上書きされる。\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n\nその後、場にいる毒状態の敵が2体以上の場合、味方全員のスキルのTUを30％減少させる。この効果は他のクイック系の効果を上書きする。場にいる毒状態の敵が2体未満の場合、場にいる敵全員に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n\n使用後、このスキルは50TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "アズアイギス",
+                "SkillDescription": "敵1体に600%ダメージを与え、対象に状態変化「毒(致命)」(999TU持続)を付与する。その後、対象に状態変化「毒(20倍)」(200TU持続)を付与する。対象の既存の状態変化は上書きされる。この攻撃はブロックされず、対象のダメージ減少効果を無視する。\n\n味方の場または味方の控えに、闇属性の「アイギス」がいる場合のみ使用可能。このスキルが10TU以内に3回使われた場合、その後このスキルは25TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "パラレルローズ",
+                "SkillDescription": "・このキャラがHPが0になるダメージを受けても、HPを1残して生き残る（アイアンハート+効果）。この効果が発動してから次にこのキャラのターンが来るまで、このキャラはHPが0にならない。この効果は、このキャラが場に出るたびに1度のみ発動する。ただし、闇属性の「アイギス」が控えから場に出ると発動状況がリセットされ、再度発動するようになる。\n\n・以下のいずれかが起きたターンの終了時、このキャラは味方の次の控えに「アイギス」を1体出現させる。この効果は、味方の場または味方の控えに、闇属性の「アイギス」がすでにいると発動しない。\n-場にいる味方（自身および、このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になる。ただし、同じ攻撃や効果でこのキャラ自身も戦闘不能になっていると発動しない。\n-このキャラが場にいる敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にする。\nこの効果で出現する「アイギス」のレベル、上限解放、覚醒数、潜在能力、ブースト、熟練度、装備している武器やアクセサリーは全て、このキャラと同じになる。\n\n・このキャラは、味方の場または味方の控えに闇属性の「アイギス」がいる間、眠り状態にならず、またスタンの効果も受けない。\n\n・このキャラが敵の攻撃で受けるダメージは30%減少する。この効果で減少するダメージ量は、味方の場または味方の控えに闇属性の「アイギス」がいると60%になる。"
+            },
+            {
+                "SkillTitle": "裏町のカリスマ",
+                "SkillDescription": "・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは毒状態にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラが攻撃でダメージを受けてそのターンの後まで生き残った時、自身のHPを最大値の50%分回復する。\n\n・このキャラが毒状態の敵に攻撃でダメージを与えた時、自身のTUを0にして即座に次のターンを得る。この効果は発動後、1TU以上経過するまでは同じ敵を攻撃しても発動しない。また、この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチ即死」「ワンタイムアンチスリープ」「ワンタイムアンチスタン」を付与する。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "スタン耐性Lv3",
+                "SkillDescription": "自分が受けるスタンの効果を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Conjures": [
+            "BeastRegular01"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "ポイズンアックス": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "ローズベール": {
+                    "BaseWeight": 9999
+                },
+                "アズアイギス": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                }
+            }
+        }
+    },
+    "BeautyRegular02": {
+        "Name": "ベル",
+        "Name2": " ",
+        "FullName": "ベル -  ",
+        "Profile": "ベルは小さな街で生まれた。両親のもとで育ったが経済状況が悪化し一家は離散、ベルは置いて行かれた。行き場を失った彼女は、裏町の不良の子供たちの仲間となる。生来の器用さと世渡りのうまさで、たちまち裏町でも一目置かれる存在となった。",
+        "Profile_Ascended": "ベルは小さな街で生まれた。両親のもとで育ったが経済状況が悪化し一家は離散、ベルは置いて行かれた。行き場を失った彼女は、裏町の不良の子供たちの仲間となる。生来の器用さと世渡りのうまさで、たちまち裏町でも一目置かれる存在となった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "槍",
+        "forFilter_Element": "Earth",
+        "Element": "土",
+        "Cost": 34,
+        "Atk_Base": 1327,
+        "Hp_Base": 7785,
+        "Speed": 513,
+        "Power": 173040,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ポイズンアックス",
+                "SkillDescription": "敵1体に300%ダメージ。この攻撃のダメージ量は、場に毒状態の敵が1体以上いる時、600%ダメージになる（攻撃対象が毒状態である必要はない）。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nその後、対象に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n-毒(20倍)状態のキャラは、ターン経過で通常の毒状態の20倍のダメージを受ける。毒(20倍)状態は、通常の毒状態および毒(4倍)状態に上書きされない。\n-毒(致命)状態のキャラは、ターン経過で通常の毒状態の2倍のダメージを受ける。毒(致命)状態によるダメージは、対象のアイアンハート+などのHPが1を下回るダメージを耐えるスキルの効果を無視する（ただし、「毒状態のダメージで戦闘不能にならない」および「攻撃以外のダメージで戦闘不能にならない」効果は無視できない）。毒(致命)状態は燃焼状態およびステルス状態を除いた他の状態変化に上書きされず、クリア系の効果で解除されない。毒(致命)状態は、燃焼状態のキャラ、およびボスには付与されない。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ローズベール",
+                "SkillDescription": "燃焼状態でない味方全員のHPを使用者の攻撃力の500%分回復し、「アンガー」を付与する。対象の既存の「アンガー」系および「怯え」系の効果は上書きされる。\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n\nその後、場にいる毒状態の敵が2体以上の場合、味方全員のスキルのTUを30％減少させる。この効果は他のクイック系の効果を上書きする。場にいる毒状態の敵が2体未満の場合、場にいる敵全員に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n\n使用後、このスキルは50TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "アズアイギス",
+                "SkillDescription": "敵1体に600%ダメージを与え、対象に状態変化「毒(致命)」(999TU持続)を付与する。その後、対象に状態変化「毒(20倍)」(200TU持続)を付与する。対象の既存の状態変化は上書きされる。この攻撃はブロックされず、対象のダメージ減少効果を無視する。\n\n味方の場または味方の控えに、闇属性の「アイギス」がいる場合のみ使用可能。このスキルが10TU以内に3回使われた場合、その後このスキルは25TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "トロイメライ",
+                "SkillDescription": "敵1体に600%ダメージ。対象が毒(20倍)状態か毒(致命)状態であれば800%ダメージ。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nこの攻撃のダメージで対象が戦闘不能になった時、場のランダムな（ボスや「幻影」のパッシブスキルを持つキャラを除く）敵1体を即座に戦闘不能にする。この効果で戦闘不能にした場合にも、使用者は対象を攻撃で倒したとみなされる。この効果は対象のリベンジ系および蘇生系のパッシブスキルの効果を無視し、また、アイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキルおよびアクティブスキルの効果を無視する。この効果は、戦闘不能にした対象が「幻影」のパッシブスキルを持っていた場合は発動しない。\n\n場にいる味方のいずれかが、そのキャラ自身が場に出てから攻撃で敵を1体以上倒していると使用可能。",
+                "TU": 80,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "パラレルローズ",
+                "SkillDescription": "・このキャラがHPが0になるダメージを受けても、HPを1残して生き残る（アイアンハート+効果）。この効果が発動してから次にこのキャラのターンが来るまで、このキャラはHPが0にならない。この効果は、このキャラが場に出るたびに1度のみ発動する。ただし、闇属性の「アイギス」が控えから場に出ると発動状況がリセットされ、再度発動するようになる。\n\n・以下のいずれかが起きたターンの終了時、このキャラは味方の次の控えに「アイギス」を1体出現させる。この効果は、味方の場または味方の控えに、闇属性の「アイギス」がすでにいると発動しない。\n-場にいる味方（自身および、このバトル中にスキルの効果で召喚されたキャラを除く）が戦闘不能になる。ただし、同じ攻撃や効果でこのキャラ自身も戦闘不能になっていると発動しない。\n-このキャラが場にいる敵（このバトル中にスキルの効果で召喚されたキャラを除く）を攻撃で戦闘不能にする。\nこの効果で出現する「アイギス」のレベル、上限解放、覚醒数、潜在能力、ブースト、熟練度、装備している武器やアクセサリーは全て、このキャラと同じになる。\n\n・このキャラは、味方の場または味方の控えに闇属性の「アイギス」がいる間、眠り状態にならず、またスタンの効果も受けない。\n\n・このキャラが敵の攻撃で受けるダメージは30%減少する。この効果で減少するダメージ量は、味方の場または味方の控えに闇属性の「アイギス」がいると60%になる。"
+            },
+            {
+                "SkillTitle": "裏町のカリスマ",
+                "SkillDescription": "・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは毒状態にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラが攻撃でダメージを受けてそのターンの後まで生き残った時、自身のHPを最大値の50%分回復する。\n\n・このキャラが毒状態の敵に攻撃でダメージを与えた時、自身のTUを0にして即座に次のターンを得る。この効果は発動後、1TU以上経過するまでは同じ敵を攻撃しても発動しない。また、この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチ即死」「ワンタイムアンチスリープ」「ワンタイムアンチスタン」を付与する。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "スタン耐性Lv3",
+                "SkillDescription": "自分が受けるスタンの効果を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Conjures": [
+            "BeastRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                ""
+            ],
+            "Login": [
+                ""
+            ],
+            "Tap": [
+                "",
+                "",
+                ""
+            ],
+            "Idle": [
+                ""
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2EnemiesPoisonedAlt": 1.1,
+                "Kills1": 1.2,
+                "BeastRegularAllyOnBattlefieldNotReinforcements": 1.05,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.1
+            },
+            "SkillUse": {
+                "ポイズンアックス": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                },
+                "ローズベール": {
+                    "BaseWeight": 9999
+                },
+                "アズアイギス": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
+                    }
+                },
+                "トロイメライ": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllySpirit3OrLessAnd1AllyIsKills1": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsPoisoned": 1.25,
+                        "IsMegaPoisoned": 2,
+                        "IsLethalPoison": 2,
+                        "IsPoisonedAndNotHitAlreadyCheck": 2.5,
+                        "IsPoisonedNotHitAlreadyOrProtectedOrImposterCheck": 100
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "BeastRegular01": {
+        "Name": "アイギス",
+        "Name2": " ",
+        "FullName": "アイギス -  ",
+        "Profile": "アイギスにも家族はいなかった。赤子の頃に街近くの森へ捨てられ、彼女を見つけた街人の家に引き取られるが、こき使われるばかりで、やがてまた捨てられた。その見た目と怖がりな性格ゆえに、ずっと孤独だった。ベルと出会うまでは。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "槍",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 28,
+        "Atk_Base": 1125,
+        "Hp_Base": 8504,
+        "Speed": 304,
+        "Power": 169548,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ビーストアッパー",
+                "SkillDescription": "敵1体に700%ダメージ。この攻撃のダメージ量は、場にいる毒状態でない敵1体につき100%ずつ減少する。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nその後、対象の燃焼状態を解除し（燃焼(20倍回復)状態も含む）、状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ビーストクロウ",
+                "SkillDescription": "敵全員に500%ダメージ。この攻撃は対象のダメージ減少効果を無視し、また対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nこの攻撃を受けた敵全員に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n\n場にいる毒状態の敵が1体以下の時のみ使用可能。使用後、このスキルは30TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "夢幻の双華",
+                "SkillDescription": "味方の次の控えに「ベル」を1体出現させる。使用時点で味方が4体以上いた場合、出現した「ベル」と選択した味方1体を入れ替える。この効果で出現する「ベル」のレベル、上限解放、覚醒数、潜在能力、ブースト、熟練度、装備している武器やアクセサリーは全て、このキャラと同じになる。\n\n場に自身を除く味方が1体以上おり、かつ味方の場または味方の控えに「美女と野獣-夢幻の双華」および地属性の「ベル」がいない時のみ使用可能。",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "夢の番人",
+                "SkillDescription": "・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果で戦闘不能にならない。\n\n・このキャラが敵の攻撃で受けるダメージは30%減少する。この効果で減少するダメージ量は、このキャラがブロック中だと60%になる。\n\n・このキャラがバトルに参加（バトル開始時点で場に出ている、または控えから場に出た）してから自身の3回目のターンが終了するまでの間、以下の効果が発動する。\n-このキャラはブロック状態になる。ブロック状態のキャラは、他の味方1体、もしくは2体を対象にした攻撃の一つを代わりに受ける。この効果はダメージを与えないスキルには発動しない。\n-このキャラがHPが0になるダメージを受けても、HPを1残して生き残る。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、このキャラは自身のHPを最大値の25%分回復させ、また自身に状態変化「ステルス(3回)」を付与する（既存の状態変化は上書きされる）。このキャラがバトルに参加（バトル開始時点で場に出ている、または控えから場に出た）してから受ける最初の3回の攻撃までは、この効果による回復量は最大値の100%分に増加する。\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "スタン耐性Lv3",
+                "SkillDescription": "自分が受けるスタンの効果を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular01"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "ビーストアッパー": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "ビーストクロウ": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "夢幻の双華": {
+                    "BaseWeight": 1000
+                }
+            }
+        }
+    },
+    "BeastRegular02": {
+        "Name": "アイギス",
+        "Name2": " ",
+        "FullName": "アイギス -  ",
+        "Profile": "アイギスにも家族はいなかった。赤子の頃に街近くの森へ捨てられ、彼女を見つけた街人の家に引き取られるが、こき使われるばかりで、やがてまた捨てられた。その見た目と怖がりな性格ゆえに、ずっと孤独だった。ベルと出会うまでは。",
+        "Profile_Ascended": "アイギスにも家族はいなかった。赤子の頃に街近くの森へ捨てられ、彼女を見つけた街人の家に引き取られるが、こき使われるばかりで、やがてまた捨てられた。その見た目と怖がりな性格ゆえに、ずっと孤独だった。ベルと出会うまでは。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "槍",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 34,
+        "Atk_Base": 1438,
+        "Hp_Base": 10853,
+        "Speed": 304,
+        "Power": 216516,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ビーストアッパー",
+                "SkillDescription": "敵1体に700%ダメージ。この攻撃のダメージ量は、場にいる毒状態でない敵1体につき100%ずつ減少する。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nその後、対象の燃焼状態を解除し（燃焼(20倍回復)状態も含む）、状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "ビーストクロウ",
+                "SkillDescription": "敵全員に500%ダメージ。この攻撃は対象のダメージ減少効果を無視し、また対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nこの攻撃を受けた敵全員に状態変化「毒(20倍)」(200TU持続)または状態変化「毒(致命)」(999TU持続)のいずれかをランダムで付与する。対象の既存の状態変化は上書きされる。\n\n場にいる毒状態の敵が1体以下の時のみ使用可能。使用後、このスキルは30TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "夢幻の双華",
+                "SkillDescription": "味方の次の控えに「ベル」を1体出現させる。使用時点で味方が4体以上いた場合、出現した「ベル」と選択した味方1体を入れ替える。この効果で出現する「ベル」のレベル、上限解放、覚醒数、潜在能力、ブースト、熟練度、装備している武器やアクセサリーは全て、このキャラと同じになる。\n\n場に自身を除く味方が1体以上おり、かつ味方の場または味方の控えに「美女と野獣-夢幻の双華」および地属性の「ベル」がいない時のみ使用可能。",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "夢の番人",
+                "SkillDescription": "・このキャラが攻撃で敵にダメージを与えた時、その攻撃で与えた総ダメージと同量分、自身のHPを回復する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果で戦闘不能にならない。\n\n・このキャラが敵の攻撃で受けるダメージは30%減少する。この効果で減少するダメージ量は、このキャラがブロック中だと60%になる。\n\n・このキャラがバトルに参加（バトル開始時点で場に出ている、または控えから場に出た）してから自身の3回目のターンが終了するまでの間、以下の効果が発動する。\n-このキャラはブロック状態になる。ブロック状態のキャラは、他の味方1体、もしくは2体を対象にした攻撃の一つを代わりに受ける。この効果はダメージを与えないスキルには発動しない。\n-このキャラがHPが0になるダメージを受けても、HPを1残して生き残る。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、このキャラは自身のHPを最大値の25%分回復させ、また自身に状態変化「ステルス(3回)」を付与する（既存の状態変化は上書きされる）。このキャラがバトルに参加（バトル開始時点で場に出ている、または控えから場に出た）してから受ける最初の3回の攻撃までは、この効果による回復量は最大値の100%分に増加する。\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。"
+            },
+            {
+                "SkillTitle": "悲しき獣",
+                "SkillDescription": "・このキャラは眠り状態にならない。\n\n・このキャラはスタンの効果を受けない。\n\n・このキャラが控えから場に出た時、以下の効果が発動する。\n-場にいる敵全員に状態変化「毒(20倍)」(200TU持続)を付与する。対象の既存の状態変化は上書きされる。\n-場にいる全ての「美女と野獣-夢幻の双華」および地属性の「ベル」のTUを0にし、また悪影響のある状態変化を解除する。\n-その後、自身のTUを0にし、また悪影響のある状態変化を解除する。\n\n・このキャラが敵の攻撃でダメージを受けた時、場にいる全ての「美女と野獣-夢幻の双華」および地属性の「ベル」のTUを0にする。この効果はスキン系の効果とみなされない。\n\n・このキャラが攻撃で敵を戦闘不能にした時、そのターンの終了時に以下の効果が発動する（一度の攻撃で複数体を戦闘不能にした場合にも、発動は一度のみ）。\n-敵のスピリットを0にし、この効果で減少した敵のスピリットと同量分、味方のスピリットを増加させる。\n-場にいる全ての「美女と野獣-夢幻の双華」および地属性の「ベル」のTUを0にし、また悪影響のある状態変化を解除する。\n-その後、自身のTUを0にし、また悪影響のある状態変化を解除する。\nTUを0にする効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "スタン耐性Lv3",
+                "SkillDescription": "自分が受けるスタンの効果を20TU減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Conjures": [
+            "BeautyRegular02"
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotProtector": 1.05,
+                "Kills1": 1.2
+            },
+            "SkillUse": {
+                "ビーストアッパー": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 1,
+                        "AllEnemiesIsStealth": 3
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "ビーストクロウ": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "1EnemyHPBelow50Percent": 1,
+                        "EnemyIsNotAlone": 2
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.2
+                    }
+                },
+                "夢幻の双華": {
+                    "BaseWeight": 1000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }
