@@ -712,7 +712,9 @@ async function checkFilesChanged() {
 }
 
 async function main() {
-	if (!(await checkFilesChanged())) {
+	const isManualRun = process.env.GITHUB_EVENT_NAME === "workflow_dispatch";
+
+	if (!isManualRun && !(await checkFilesChanged())) {
 		console.log("Files no changes, skip!");
 		return;
 	}
