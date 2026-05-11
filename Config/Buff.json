@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1777355655,
+	"Time": 1778468986,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -85699,16 +85699,16 @@
 			"stackName": "HoldGround",
 			"behaviors": ["EnterBattleBuff","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["StunImmunityIfBeastAlly","SleepImmunityIfBeastAlly","TheBeautyRegularDamageReduction","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"]
+				"selfBuffs": ["StunImmunityIfBeastAlly","SleepImmunityIfBeastAlly","TheBeautyRegularDamageReduction","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus","AddBeastRegularNextInReinforcementsEOT"]
 			},{
 				"sourceBuffs": ["BeautyRegularActive4KillsMoreThanSkillsUsed","SourceTheBeautyRegular"],
 				"enemyBuffs": ["RemoveBeautyRegularExtraKillBuff"]
 			},{
-				"sourceBuffs": ["AddBeastRegularNextInReinforcementsEOT"],
+				"sourceBuffs": ["ShouldSummonBeastRegularBuff"],
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage",
 				"sameTeam": true
 			},{
-				"sourceBuffs": ["AddBeastRegularNextInReinforcementsEOT","FudgeUsed"],
+				"sourceBuffs": ["ShouldSummonBeastRegularBuff","FudgeUsed"],
 				"sameTeam": false,
 				"spreadCondition": "KillsMoreThanSkillUsed",
 				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
@@ -85724,15 +85724,54 @@
 		"AddBeastRegularNextInReinforcementsEOT": {
 			"class": "Buff",
 			"stackName": "AddBeastNextInReinforcementsEOT",
-			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviors": ["BuffOnMonsterTurn","BuffOnMonsterTurnEnd","BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["RemoveBeastRegularSummonFallBack"],
+				"activeMonsterConditions": "AlwaysTrue"
+			},{	
+				"sourceBuffs": ["AddBeastRegular02Next","AddBeastRegular01Next"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "ShouldSummonBeastTriggered"
+			},{
+				"sourceBuffs": ["BeastRegularSummonFallBack"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true
+		},
+		"ShouldSummonBeastRegularBuff":{
+			"class": "Buff",
+			"stackName": "ShouldSummonBeast",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"BeastRegularSummonFallBack":{
+			"class": "Buff",
+			"stackName": "BeastSummonFallBack",
+			"behaviors": ["BuffWhenMonstersDie"],
 			"behaviorOverrides": [{
 				"sourceBuffs": ["AddBeastRegular02Next","AddBeastRegular01Next"],
-				"activeMonsterConditions": "AlwaysTrue"
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage",
+				"sameTeam": true
 			}],
 			"duration": 0,
 			"showAsTimer": false,
 			"isHiddenFromPlayers": true,
 			"noIconShownOnBattleStatus": true
+		},
+		"RemoveBeastRegularSummonFallBack": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "BeastSummonFallBack"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
 		},
 		"SourceTheBeautyRegular":{
 			"class": "Buff",
