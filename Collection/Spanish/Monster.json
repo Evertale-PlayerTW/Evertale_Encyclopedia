@@ -14420,6 +14420,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -14785,6 +14796,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -16694,6 +16716,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -17049,6 +17082,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22925,6 +22969,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -23152,6 +23207,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -131012,7 +131078,7 @@
         "Hp_Base": 5880,
         "Speed": 513,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Juntas para siempre...\nNi siquiera la muerte puede separarnos.",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Tierra",
@@ -131165,6 +131231,19 @@
                         "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -131380,7 +131459,20 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     },
     "BeautyRegular01": {
         "Name": "Bella",
@@ -132015,5 +132107,352 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "KintaroRegular01": {
+        "Name": "Kintaro",
+        "Name2": "Azúcar, especias y fuerza bruta",
+        "FullName": "Kintaro - Azúcar, especias y fuerza bruta",
+        "Profile": "La tercera descendiente de un distinguido linaje que hereda el título de\"Cerrajera\" en el mundo de los sueños.\nLos cerrajeros se ganan la vida rompiendo las barreras del mundo onírico y rescatando las almas atrapadas en él.\nLa mayor parte de su trabajo diario proviene de encargos de Hypnos y Alice.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hacha",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 28,
+        "Atk_Base": 928,
+        "Hp_Base": 6570,
+        "Speed": 267,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Delicado Corazón Dulce",
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Golpe Pesado",
+                "SkillDescription": "700% de daño a 1 enemigo. Menos 100% de daño por cada aliado dormido, en llamas o envenenado en el campo de batalla (máximo de -400% si hay 4 aliados afectados). Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nCuando este ataque golpea a un objetivo que no sea jefe ni Efímero y a ese objetivo le queda 1 HP después del daño, ese objetivo es derrotado inmediatamente (se considera que el usuario ha derrotado al objetivo con un ataque si tiene éxito). Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impida la derrota del enemigo.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimidar",
+                "SkillDescription": "Enfurece al usuario. Debilita y elimina el Sigilo de todos los enemigos en el campo de batalla.\n\nSi el Espíritu del Aliado es menor que el Espíritu del Enemigo, aumenta el Espíritu del Aliado a 10. Si el Espíritu del Aliado es mayor que el Espíritu del Enemigo, reduce el Espíritu del Enemigo a 0.\n\nEsta habilidad se bloquea durante 50TU tras su uso.\n\nLas unidades enfurecidas ven su Ataque aumentado a 1.5x hasta el final de su siguiente turno. Las unidades debilitadas ven su Ataque reducido a 0.75x hasta el final de su siguiente turno. Estos efectos sobrescriben cualquier efecto de Debilidad o Enfurecimiento existente en las unidades afectadas. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser sobrescrito por efectos de Enfurecer.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Voluntad Dorada",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla un 500% del ataque del usuario y les otorga a cada una un Guarda Sueño, un Guarda Veneno y Espinas Sueño.\n\nDespués, el usuario obtiene 3 Cargas, no puede ser derrotado durante los siguientes 100TU y el costo de TU de su Habilidad Activa se reduce un 50% durante 100TU. Los efectos de Acelerar no reducirán aún más el costo de TU de esta unidad. Esto por sí sólo no reducirá el costo de TU a menos de 1TU.\n\nSe desbloquea cada vez que el usuario derrota a otra unidad con un ataque. Esta habilidad se bloquea de nuevo tras cada uso o si el usuario abandona el campo de batalla.\n\nCiertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas, y todas las cargas se eliminan de una unidad que abandona el campo de batalla. Cada Guarda impide que su efecto se aplique una vez, tras lo cual se elimina. Los Guardas idénticos no se pueden acumular. Cuando una unidad con Espinas Sueño recibe daño de un ataque, sus Espinas Sueño se consumen, otorgando inmediatamente el efecto de estado Sueño Maldito al atacante por 200TU. El quemado o los ataques que lo provocan eliminan las Espinas Sueño e impiden que se aplique Sueño Maldito. Sueño Maldito sobrescribe otros efectos de estado que no sean Quemado, no puede ser sobrescrito por Veneno, puede aplicarse repetidamente a unidades que ya estén dormidas en el campo de batalla y no finaliza con el daño causado por habilidades activas de tipo Caza Sueños.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Poderoso Dorado",
+                "SkillDescription": "Esta unidad entra en combate con 3 cargas y un Guarda Muerte Instantánea. Este Guarda impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una vez, tras lo cual se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular.\n\nTras entrar en combate, esta unidad es invencible durante 100TU.\n\nLos ataques de esta unidad:\n- No despiertan a los enemigos dormidos.\n- Curan a esta unidad un 100% del daño total infligido.\n- Infligen el efecto de estado Mega Veneno durante 200TU a las unidades no dormidas que reciban daño. Mega Veneno sobrescribe otros efectos de estado en dichos enemigos. El Mega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni Súper Veneno.\n\nEsta unidad tiene una reducción de daño del 50%, más un 10% por cada enemigo que haya derrotado con ataques mientras estaba en el campo de batalla (máximo del 80% tras derrotar a 3 o más enemigos con ataques).\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, obtiene Contraofensiva por 150TU, se Purifica (se eliminan los efectos de estado negativos como sueño, quemadura o veneno) y se cura un 50% de sus HP máximos. Contraofensiva sobrescribe los efectos de estado de esta unidad. La próxima vez que la unidad con  Contraofensiva reciba daño de un ataque enemigo, será su turno."
+            },
+            {
+                "SkillTitle": "Fuerza Bruta",
+                "SkillDescription": "Esta unidad no puede ser aturdida ni enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad no puede dormirse si hay 2 o más enemigos en el campo de batalla.\n\nCada vez que esta unidad daña a cualquier número de enemigos que no estén en llamas con un ataque mientras está cargada, gastará una carga para obtener un turno adicional. Este efecto puede activarse de nuevo contra la misma unidad. Los efectos que influyen en el orden de TU pueden interrumpir el turno adicional (p. ej., aturdimientos dirigidos al objetivo con menor TU).\n\nMientras esta unidad está en el campo de batalla, siempre que un enemigo entre al campo de batalla desde los refuerzos, añade un 100% al porcentaje de daño de los ataques de esta unidad (máximo de 300% después de que 3 enemigos hayan entrado al campo de batalla desde los refuerzos. P. ej., Golpe Pesado: 700% => 1000% de daño después de que 3 enemigos hayan entrado al campo de batalla desde los refuerzos y ningún aliado esté dormido, en llamas o envenenado)."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Trueno Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Trueno."
+            },
+            {
+                "SkillTitle": "Dominio Maza",
+                "SkillDescription": "Puede usar habilidades de arma de Mazas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Maza"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Saludos!\nKintaro la Tercera, Cerrajera del Mundo Onírico, a tu servicio.\nEs un placer conocerte. ¿Perdón? ¿Te parezco aterradora?\nAy, por favor, no seas tonto, querías decir que te parezco linda, ¿verdad? ¿Verdad?\n¿Verdad?"
+            ],
+            "Login": [
+                "¡Holaaa! ¡Qué clima tan maravilloso hoy!\n¡Perfecto para salir a buscar accesorios adorables juntos♡!"
+            ],
+            "Tap": [
+                "Me encantan los dulces...\nAunque un postre esté encerrado en una jaula de acero, no puedo evitar abrirla para comérmelo...",
+                "M-mantengámonos lejos de cualquier lugar con f-f-fantasmas...\nEs mejor dejar esas cosas en paz... así que vámonos. ¿De acuerdo?",
+                "Sería genial poder salir con atuendos más lindos que este...\n¡Como un precioso vestido adornado con cintas rosa♡!\n...Quizás algún día..."
+            ],
+            "Idle": [
+                "N-no tengo miedo de estar sola...\n¡Ayy! ¿Qué fue ese sonido...? Uuugh... ¿Hay alguien por aquí...? ¿H-hola? ¿Alguien? ¡Por favor...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Golpe Pesado": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimidar": {
+                    "BaseWeight": 1000
+                },
+                "Voluntad Dorada": {
+                    "BaseWeight": 2500
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "KintaroRegular02": {
+        "Name": "Kintaro",
+        "Name2": "Azúcar, especias y fuerza bruta",
+        "FullName": "Kintaro - Azúcar, especias y fuerza bruta",
+        "Profile": "A Kintaro le encantan los pañuelos bordados, las cintas, los accesorios de encaje, los peluches suaves, las bolsitas florales...\nDespués de un buen día de trabajo, no hay nada que disfrute más que abrazar con fuerza sus objetos favoritos y exclamar \"¡Ayyyy, qué tiernooos!\".",
+        "Profile_Ascended": "\"¿Por qué todos parecen tenerme tanto miedo?\", se lamentaba Kintaro a menudo.\nCreía que era porque su atuendo era demasiado intimidante.\nPero en realidad, la verdadera razón son los rugidos salvajes y descontrolados que suelta en medio de su trabajo y combate.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hacha",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 34,
+        "Atk_Base": 1007,
+        "Hp_Base": 9385,
+        "Speed": 267,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Golpe Pesado",
+                "SkillDescription": "700% de daño a 1 enemigo. Menos 100% de daño por cada aliado dormido, en llamas o envenenado en el campo de batalla (máximo de -400% si hay 4 aliados afectados). Este ataque ignora los efectos de reducción de daño, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nCuando este ataque golpea a un objetivo que no sea jefe ni Efímero y a ese objetivo le queda 1 HP después del daño, ese objetivo es derrotado inmediatamente (se considera que el usuario ha derrotado al objetivo con un ataque si tiene éxito). Este efecto ignora las habilidades pasivas de Venganza, Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impida la derrota del enemigo.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimidar",
+                "SkillDescription": "Enfurece al usuario. Debilita y elimina el Sigilo de todos los enemigos en el campo de batalla.\n\nSi el Espíritu del Aliado es menor que el Espíritu del Enemigo, aumenta el Espíritu del Aliado a 10. Si el Espíritu del Aliado es mayor que el Espíritu del Enemigo, reduce el Espíritu del Enemigo a 0.\n\nEsta habilidad se bloquea durante 50TU tras su uso.\n\nLas unidades enfurecidas ven su Ataque aumentado a 1.5x hasta el final de su siguiente turno. Las unidades debilitadas ven su Ataque reducido a 0.75x hasta el final de su siguiente turno. Estos efectos sobrescriben cualquier efecto de Debilidad o Enfurecimiento existente en las unidades afectadas. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser sobrescrito por efectos de Enfurecer.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Voluntad Dorada",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla un 500% del ataque del usuario y les otorga a cada una un Guarda Sueño, un Guarda Veneno y Espinas Sueño.\n\nDespués, el usuario obtiene 3 Cargas, no puede ser derrotado durante los siguientes 100TU y el costo de TU de su Habilidad Activa se reduce un 50% durante 100TU. Los efectos de Acelerar no reducirán aún más el costo de TU de esta unidad. Esto por sí sólo no reducirá el costo de TU a menos de 1TU.\n\nSe desbloquea cada vez que el usuario derrota a otra unidad con un ataque. Esta habilidad se bloquea de nuevo tras cada uso o si el usuario abandona el campo de batalla.\n\nCiertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas, y todas las cargas se eliminan de una unidad que abandona el campo de batalla. Cada Guarda impide que su efecto se aplique una vez, tras lo cual se elimina. Los Guardas idénticos no se pueden acumular. Cuando una unidad con Espinas Sueño recibe daño de un ataque, sus Espinas Sueño se consumen, otorgando inmediatamente el efecto de estado Sueño Maldito al atacante por 200TU. El quemado o los ataques que lo provocan eliminan las Espinas Sueño e impiden que se aplique Sueño Maldito. Sueño Maldito sobrescribe otros efectos de estado que no sean Quemado, no puede ser sobrescrito por Veneno, puede aplicarse repetidamente a unidades que ya estén dormidas en el campo de batalla y no finaliza con el daño causado por habilidades activas de tipo Caza Sueños.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Golpe Dorado",
+                "SkillDescription": "500% de daño a 2 enemigos. 700% de daño a objetivos que no tengan el efecto de estado Quemado. Este ataque ignora los efectos de reducción de daño de los enemigos y cualquier efecto de enemigos que no sean jefes que impida que el objetivo sea derrotado.\n\nSe desbloquea cada vez que el usuario recibe daño por un ataque. Esta habilidad se bloquea después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Poderoso Dorado",
+                "SkillDescription": "Esta unidad entra en combate con 3 cargas y un Guarda Muerte Instantánea. Este Guarda impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una vez, tras lo cual se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular.\n\nTras entrar en combate, esta unidad es invencible durante 100TU.\n\nLos ataques de esta unidad:\n- No despiertan a los enemigos dormidos.\n- Curan a esta unidad un 100% del daño total infligido.\n- Infligen el efecto de estado Mega Veneno durante 200TU a las unidades no dormidas que reciban daño. Mega Veneno sobrescribe otros efectos de estado en dichos enemigos. El Mega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni Súper Veneno.\n\nEsta unidad tiene una reducción de daño del 50%, más un 10% por cada enemigo que haya derrotado con ataques mientras estaba en el campo de batalla (máximo del 80% tras derrotar a 3 o más enemigos con ataques).\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, obtiene Contraofensiva por 150TU, se Purifica (se eliminan los efectos de estado negativos como sueño, quemadura o veneno) y se cura un 50% de sus HP máximos. Contraofensiva sobrescribe los efectos de estado de esta unidad. La próxima vez que la unidad con  Contraofensiva reciba daño de un ataque enemigo, será su turno."
+            },
+            {
+                "SkillTitle": "Fuerza Bruta",
+                "SkillDescription": "Esta unidad no puede ser aturdida ni enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad no puede dormirse si hay 2 o más enemigos en el campo de batalla.\n\nCada vez que esta unidad daña a cualquier número de enemigos que no estén en llamas con un ataque mientras está cargada, gastará una carga para obtener un turno adicional. Este efecto puede activarse de nuevo contra la misma unidad. Los efectos que influyen en el orden de TU pueden interrumpir el turno adicional (p. ej., aturdimientos dirigidos al objetivo con menor TU).\n\nMientras esta unidad está en el campo de batalla, siempre que un enemigo entre al campo de batalla desde los refuerzos, añade un 100% al porcentaje de daño de los ataques de esta unidad (máximo de 300% después de que 3 enemigos hayan entrado al campo de batalla desde los refuerzos. P. ej., Golpe Pesado: 700% => 1000% de daño después de que 3 enemigos hayan entrado al campo de batalla desde los refuerzos y ningún aliado esté dormido, en llamas o envenenado)."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Trueno Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Trueno."
+            },
+            {
+                "SkillTitle": "Dominio Maza",
+                "SkillDescription": "Puede usar habilidades de arma de Mazas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Maza"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Saludos!\nKintaro la Tercera, Cerrajera del Mundo Onírico, a tu servicio.\nEs un placer conocerte. ¿Perdón? ¿Te parezco aterradora?\nAy, por favor, no seas tonto, querías decir que te parezco linda, ¿verdad? ¿Verdad?\n¿Verdad?"
+            ],
+            "Login": [
+                "¡Holaaa! ¡Qué clima tan maravilloso hoy!\n¡Perfecto para salir a buscar accesorios adorables juntos♡!"
+            ],
+            "Tap": [
+                "Me encantan los dulces...\nAunque un postre esté encerrado en una jaula de acero, no puedo evitar abrirla para comérmelo...",
+                "M-mantengámonos lejos de cualquier lugar con f-f-fantasmas...\nEs mejor dejar esas cosas en paz... así que vámonos. ¿De acuerdo?",
+                "Sería genial poder salir con atuendos más lindos que este...\n¡Como un precioso vestido adornado con cintas rosa♡!\n...Quizás algún día..."
+            ],
+            "Idle": [
+                "N-no tengo miedo de estar sola...\n¡Ayy! ¿Qué fue ese sonido...? Uuugh... ¿Hay alguien por aquí...? ¿H-hola? ¿Alguien? ¡Por favor...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Golpe Pesado": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimidar": {
+                    "BaseWeight": 1000
+                },
+                "Voluntad Dorada": {
+                    "BaseWeight": 2500
+                },
+                "Golpe Dorado": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Soñadoras Doradas",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

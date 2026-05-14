@@ -14420,6 +14420,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -14785,6 +14796,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -16694,6 +16716,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -17049,6 +17082,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -22925,6 +22969,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -23152,6 +23207,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -131012,7 +131078,7 @@
         "Hp_Base": 5880,
         "Speed": 513,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Même la mort ne nous séparera pas.",
         "LeaderSkill": {
             "SkillTitle": "Terre ATT+",
@@ -131165,6 +131231,19 @@
                         "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -131380,7 +131459,20 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     },
     "BeautyRegular01": {
         "Name": "Belle",
@@ -132015,5 +132107,352 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "KintaroRegular01": {
+        "Name": "Kintaro",
+        "Name2": "Sucre, épice, et force brute",
+        "FullName": "Kintaro - Sucre, épice, et force brute",
+        "Profile": "La troisième cheffe de famille d'une longue lignée héritant du titre de « serrurier » dans le monde des rêves.\nLes serruriers gagnent leur vie en brisant les barrières d'un monde des rêves et en secourant les âmes piégées à l'intérieur.\nLa plupart de son travail quotidien vient de requêtes de la part d'Hypnos et d'Alice.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hache",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 28,
+        "Atk_Base": 928,
+        "Hp_Base": 6570,
+        "Speed": 267,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Coeur doux et délicat",
+        "LeaderSkill": {
+            "SkillTitle": "Terre PV+",
+            "SkillDescription": "Les alliés Terre voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Oscillation Lourde",
+                "SkillDescription": "700% de dégâts à 1 ennemi. 100% moins de dégâts par le nombre d'alliés endormis, brûlés ou empoisonnés du champ de bataille (maximum de -400% s'il y a 4 alliés affectés). Cette attaque ignore les effets de réduction de dégâts, l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nLorsque cette attaque touche une cible non-boss, non-Éphémère et qu'il lui reste 1PV après avoir subi les dégâts, cette cible sera immédiatement vaincue (l'utilisateur sera considéré comme ayant vaincu la cible avec une attaque s'il y parvient). Cette effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi d'être vaincu.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimider",
+                "SkillDescription": "Enrage l'utilisateur. Affaiblit et retire la Furtivité à tous les ennemis du champ de bataille.\n\nSi l'Essence alliée est inférieure à l'Essence ennemie, l'Essence alliée sera augmentée à 10. Si l'Essence alliée est supérieure à l'Essence ennemie, l'Essence ennemie sera réduite à 0 à la place.\n\nCette compétence se verrouille pendant 50TU après son utilisation.\n\nL'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leurs prochains tours. L'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. Ces effets remplaceront tout effet d'Enragé ou d'Affaiblissement sur les unités affectées. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Volonté d'Or",
+                "SkillDescription": "Soigne tous les alliés du champ de bataille d'une valeur de 500% de l'Attaque de l'utilisateur et donne une Protection Sommeil, une Protection Poison et des Épines de Sommeil à tous les alliés.\n\nPuis l'utilisateur gagne 3 Charges, ne peut être vaincu pendant 100TU, et les coûts de TU de ses compétences actives sont réduits de 50% pendant 100TU. Les effets d'Accélération ne réduiront pas davantage les coûts de TU de cette unité. Cet effet seul ne réduira pas les coûts de TU à moins de 1TU.\n\nDéverrouillé à chaque fois que l'utilisateur vainc une autre unité avec une attaque. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCertaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 charges, et toutes les charges sont retirées d'une unité qui quitte le champ de bataille. Chaque Protection empêche l'application de son effet respectif, puis est ensuite retirée. Les Protections identiques ne peuvent être empilées. Lorsqu'une unité possédant des Épines de Sommeil subit des dégâts par une attaque, les Épines de Sommeil de cette unité seront consommées pour infliger immédiatement l'effet de statut de Sommeil Maudit à l'attaquant pendant 200TU. La Brûlure ou les attaques infligeant la Brûlure supprimeront les Épines de Sommeil et empêcheront l'application du Sommeil Maudit. Le Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Puissance d'Or",
+                "SkillDescription": "Cette unité entre en bataille avec 3 Charges, et une Protection Mort Instantanée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts une fois par un ennemi non-boss, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et être empilées.\n\nAprès son entrée sur le champ de bataille, cette unité ne peut être vaincue pendant 100TU.\n\nLes attaques de cette unité :\n- Ne réveilleront pas les ennemis endormis.\n- Soigneront cette unité d'une valeur de 100% des dégâts totaux infligés.\n- Infligeront l'effet de statut de Méga Poison pendant 200TU aux unités non-endormies touchées après que les dégâts soient infligés. Le Méga Poison remplacera les autres effets de statut sur ces ennemis. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison.\n\nCette unité bénéficie d'une réduction de 50% des dégâts, et 10% de plus par le nombre d'ennemis que cette unité a vaincu par attaques sur le champ de bataille (maximum de 80% après avoir vaincu 3+ ennemis par attaques).\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle gagnera le Contre Relais pendant 150TU, sera Purifiée (les effets de statut négatifs tels que le Sommeil, la Brûlure ou le Poison seront retirés) et sera soignée de 50% de ses PV max. Le Contre Relais remplacera les effets de statut sur cette unité. La prochaine fois que l'unité avec le Contre Relais subira des dégâts provenant d'une attaque ennemie, elle prendra son tour."
+            },
+            {
+                "SkillTitle": "Force Brute",
+                "SkillDescription": "Cette unité ne peut être étourdie ou être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être endormie s'il y a 2 ennemis voire plus sur le champ de bataille.\n\nChaque fois que cette unité inflige des dégâts à un nombre quelconque d'ennemis non-brûlés avec une attaque tout en possédant des Charges, cette unité consommera une Charge pour prendre un autre tour. Cet effet peut se déclencher à nouveau contre la même unité. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nLorsque cette unité est sur le champ de bataille, chaque fois qu'un ennemi entre sur le champ de bataille depuis les renforts, les attaques de cette unité gagnent 100% de plus de dégâts (maximum de 300% après 3 entrées ennemies sur le champ de bataille depuis les renforts. i.e. Oscillation Lourde : 700% => 1000% de dégâts après 3 entrées ennemies sur le champ de bataille depuis les renforts, et aucun allié endormi, brûlé ou empoisonné)."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Resist. tempête Lv3",
+                "SkillDescription": "10% de dégâts en moins des attaques d'unités de type Tempête"
+            },
+            {
+                "SkillTitle": "Maîtrise Masse",
+                "SkillDescription": "Peut utiliser les talents d'arme des Masses en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Masse"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Bonjour !\nKintaro, la troisième, serrurière du monde des rêves, à votre service.\nC'est un plaisir de faire votre rencontre––Excusez-moi ? Vous me trouvez effrayante ?\nOh, je vous en prie, ne soyez pas ridicule ! Vous vouliez dire que vous me trouviez belle, n'est-ce pas ? Pas vrai ?\nPas vrai ?"
+            ],
+            "Login": [
+                "Eh bien, bonjour ! Quel temps magnifique aujourd'hui.\nParfait pour partir à la recherche d'accessoires adorables ensemble ♡ !"
+            ],
+            "Tap": [
+                "J'ai un peu la dent sucrée...\nMême si un dessert est enfermé derrière des barreaux, je ne peux m'empêcher de briser la cage pour le manger...",
+                "T-Tenons-nous à l'écart des endroits où il y a des f-f-fantômes...\nIl vaut mieux laisser ces choses-là seules... Donc faisons ça. D'accord ?",
+                "Ça serait bien de pouvoir sortir avec des tenues plus mignonnes que ça...\nUne magnifique robe ornée de rubans roses, par exemple ♡ !\n... Peut-être un jour..."
+            ],
+            "Idle": [
+                "J-Je n'ai pas peur d'être seule...\nAargh––Quel était ce bruit juste à l'instant...? Ooouin... Est-ce qu'il y a quelqu'un...? H-Héééé ! Quelqu'un ? S'il vous plaît...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Oscillation Lourde": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimider": {
+                    "BaseWeight": 1000
+                },
+                "Volonté d'Or": {
+                    "BaseWeight": 2500
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "KintaroRegular02": {
+        "Name": "Kintaro",
+        "Name2": "Sucre, épice, et force brute",
+        "FullName": "Kintaro - Sucre, épice, et force brute",
+        "Profile": "Kintaro adore les mouchoirs brodés, les rubans, les accessoires en dentelle, les peluches douces, les pochons de fleurs sèches...\nÀ la fin d'une journée de travail, elle n'apprécie rien de plus que de prendre ses choses adorées dans ses bras et s'extasier en disant : « Ooooh, trooop mignon ! »",
+        "Profile_Ascended": "« Pourquoi est-ce que tout le monde a l'air d'avoir si... Peur... De moi ? » Kintaro se lamentait souvent.\nElle croyait que c'était à cause de sa tenue qui était trop intimidante.\nMais en réalité, la véritable raison était à cause des rugissements fous et sauvages qu'elle libérait en plein combat et travail.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hache",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 34,
+        "Atk_Base": 1007,
+        "Hp_Base": 9385,
+        "Speed": 267,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Terre PV+",
+            "SkillDescription": "Les alliés Terre voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Oscillation Lourde",
+                "SkillDescription": "700% de dégâts à 1 ennemi. 100% moins de dégâts par le nombre d'alliés endormis, brûlés ou empoisonnés du champ de bataille (maximum de -400% s'il y a 4 alliés affectés). Cette attaque ignore les effets de réduction de dégâts, l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nLorsque cette attaque touche une cible non-boss, non-Éphémère et qu'il lui reste 1PV après avoir subi les dégâts, cette cible sera immédiatement vaincue (l'utilisateur sera considéré comme ayant vaincu la cible avec une attaque s'il y parvient). Cette effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi d'être vaincu.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimider",
+                "SkillDescription": "Enrage l'utilisateur. Affaiblit et retire la Furtivité à tous les ennemis du champ de bataille.\n\nSi l'Essence alliée est inférieure à l'Essence ennemie, l'Essence alliée sera augmentée à 10. Si l'Essence alliée est supérieure à l'Essence ennemie, l'Essence ennemie sera réduite à 0 à la place.\n\nCette compétence se verrouille pendant 50TU après son utilisation.\n\nL'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leurs prochains tours. L'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. Ces effets remplaceront tout effet d'Enragé ou d'Affaiblissement sur les unités affectées. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Volonté d'Or",
+                "SkillDescription": "Soigne tous les alliés du champ de bataille d'une valeur de 500% de l'Attaque de l'utilisateur et donne une Protection Sommeil, une Protection Poison et des Épines de Sommeil à tous les alliés.\n\nPuis l'utilisateur gagne 3 Charges, ne peut être vaincu pendant 100TU, et les coûts de TU de ses compétences actives sont réduits de 50% pendant 100TU. Les effets d'Accélération ne réduiront pas davantage les coûts de TU de cette unité. Cet effet seul ne réduira pas les coûts de TU à moins de 1TU.\n\nDéverrouillé à chaque fois que l'utilisateur vainc une autre unité avec une attaque. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCertaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 charges, et toutes les charges sont retirées d'une unité qui quitte le champ de bataille. Chaque Protection empêche l'application de son effet respectif, puis est ensuite retirée. Les Protections identiques ne peuvent être empilées. Lorsqu'une unité possédant des Épines de Sommeil subit des dégâts par une attaque, les Épines de Sommeil de cette unité seront consommées pour infliger immédiatement l'effet de statut de Sommeil Maudit à l'attaquant pendant 200TU. La Brûlure ou les attaques infligeant la Brûlure supprimeront les Épines de Sommeil et empêcheront l'application du Sommeil Maudit. Le Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Fente d'Or",
+                "SkillDescription": "500% de dégâts à 2 ennemis. 700% de dégâts à la place aux cibles non-brûlées. Cette attaque ignore les effets de réduction de dégâts ennemis et tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue.\n\nDéverrouillé à chaque fois que l'utilisateur subit des dégâts provenant d'une attaque. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Puissance d'Or",
+                "SkillDescription": "Cette unité entre en bataille avec 3 Charges, et une Protection Mort Instantanée. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts une fois par un ennemi non-boss, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et être empilées.\n\nAprès son entrée sur le champ de bataille, cette unité ne peut être vaincue pendant 100TU.\n\nLes attaques de cette unité :\n- Ne réveilleront pas les ennemis endormis.\n- Soigneront cette unité d'une valeur de 100% des dégâts totaux infligés.\n- Infligeront l'effet de statut de Méga Poison pendant 200TU aux unités non-endormies touchées après que les dégâts soient infligés. Le Méga Poison remplacera les autres effets de statut sur ces ennemis. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison.\n\nCette unité bénéficie d'une réduction de 50% des dégâts, et 10% de plus par le nombre d'ennemis que cette unité a vaincu par attaques sur le champ de bataille (maximum de 80% après avoir vaincu 3+ ennemis par attaques).\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle gagnera le Contre Relais pendant 150TU, sera Purifiée (les effets de statut négatifs tels que le Sommeil, la Brûlure ou le Poison seront retirés) et sera soignée de 50% de ses PV max. Le Contre Relais remplacera les effets de statut sur cette unité. La prochaine fois que l'unité avec le Contre Relais subira des dégâts provenant d'une attaque ennemie, elle prendra son tour."
+            },
+            {
+                "SkillTitle": "Force Brute",
+                "SkillDescription": "Cette unité ne peut être étourdie ou être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être endormie s'il y a 2 ennemis voire plus sur le champ de bataille.\n\nChaque fois que cette unité inflige des dégâts à un nombre quelconque d'ennemis non-brûlés avec une attaque tout en possédant des Charges, cette unité consommera une Charge pour prendre un autre tour. Cet effet peut se déclencher à nouveau contre la même unité. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nLorsque cette unité est sur le champ de bataille, chaque fois qu'un ennemi entre sur le champ de bataille depuis les renforts, les attaques de cette unité gagnent 100% de plus de dégâts (maximum de 300% après 3 entrées ennemies sur le champ de bataille depuis les renforts. i.e. Oscillation Lourde : 700% => 1000% de dégâts après 3 entrées ennemies sur le champ de bataille depuis les renforts, et aucun allié endormi, brûlé ou empoisonné)."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Resist. tempête Lv3",
+                "SkillDescription": "10% de dégâts en moins des attaques d'unités de type Tempête"
+            },
+            {
+                "SkillTitle": "Maîtrise Masse",
+                "SkillDescription": "Peut utiliser les talents d'arme des Masses en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Masse"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Bonjour !\nKintaro, la troisième, serrurière du monde des rêves, à votre service.\nC'est un plaisir de faire votre rencontre––Excusez-moi ? Vous me trouvez effrayante ?\nOh, je vous en prie, ne soyez pas ridicule ! Vous vouliez dire que vous me trouviez belle, n'est-ce pas ? Pas vrai ?\nPas vrai ?"
+            ],
+            "Login": [
+                "Eh bien, bonjour ! Quel temps magnifique aujourd'hui.\nParfait pour partir à la recherche d'accessoires adorables ensemble ♡ !"
+            ],
+            "Tap": [
+                "J'ai un peu la dent sucrée...\nMême si un dessert est enfermé derrière des barreaux, je ne peux m'empêcher de briser la cage pour le manger...",
+                "T-Tenons-nous à l'écart des endroits où il y a des f-f-fantômes...\nIl vaut mieux laisser ces choses-là seules... Donc faisons ça. D'accord ?",
+                "Ça serait bien de pouvoir sortir avec des tenues plus mignonnes que ça...\nUne magnifique robe ornée de rubans roses, par exemple ♡ !\n... Peut-être un jour..."
+            ],
+            "Idle": [
+                "J-Je n'ai pas peur d'être seule...\nAargh––Quel était ce bruit juste à l'instant...? Ooouin... Est-ce qu'il y a quelqu'un...? H-Héééé ! Quelqu'un ? S'il vous plaît...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Oscillation Lourde": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimider": {
+                    "BaseWeight": 1000
+                },
+                "Volonté d'Or": {
+                    "BaseWeight": 2500
+                },
+                "Fente d'Or": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Rêveurs d'Or",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }

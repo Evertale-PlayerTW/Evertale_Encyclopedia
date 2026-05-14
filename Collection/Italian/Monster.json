@@ -14420,6 +14420,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -14785,6 +14796,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -16694,6 +16716,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -17049,6 +17082,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -22925,6 +22969,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -23152,6 +23207,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -131012,7 +131078,7 @@
         "Hp_Base": 5880,
         "Speed": 513,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Insieme per sempre... \nNemmeno la morte ci separerà.",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Terra)",
@@ -131165,6 +131231,19 @@
                         "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -131380,7 +131459,20 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     },
     "BeautyRegular01": {
         "Name": "Bella",
@@ -132015,5 +132107,352 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "KintaroRegular01": {
+        "Name": "Kintaro",
+        "Name2": "Zucchero, cannella e brutalità",
+        "FullName": "Kintaro - Zucchero, cannella e brutalità",
+        "Profile": "La terza capofamiglia di una stirpe distinta che eredita il titolo di \"serraturiere\" nel mondo dei sogni.\nI serraturieri si guadagnano da vivere rompendo le barriere di un mondo onirico e salvando le anime intrappolate al suo interno.\nLa maggior parte del suo lavoro quotidiano proviene dalle richieste di Hypnos e Alice.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Ascia",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 28,
+        "Atk_Base": 928,
+        "Hp_Base": 6570,
+        "Speed": 267,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Dolce Cuore Delicato",
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fendente Pesante",
+                "SkillDescription": "700% di danno a 1 nemico. 100% di danno in meno per ogni alleato addormentato, ustionato o avvelenato in campo (fino a -400% se ci sono 4 alleati affetti). Questo attacco ignora gli effetti di riduzione del danno nemici, le abilità passive di contatto e l'effetto di stato Opposizione.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta 1 HP dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimidazione",
+                "SkillDescription": "L'unità ottiene Provocazione. Indebolisce e rimuove Invisibilità dai nemici in campo\n\nSe la squadra alleata ha meno Spiriti della squadra nemica, aumenta gli Spiriti della squadra alleata a 10. Se la squadra alleata ha più Spiriti della squadra nemica, riduce gli Spiriti della squadra nemica a 0.\n\nQuesta abilità è bloccata per 50TU dopo l'uso.\n\nLe unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. L'attacco delle unità indebolite è ridotto a 0,75x fino alla fine del loro turno successivo. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Volontà Dorata",
+                "SkillDescription": "Cura tutti gli alleati in campo per un valore di HP pari al 500% dell'attacco dell'unità e fornisce loro Protezione Sonno, Protezione Veleno e Spine Sonno.\n\nPoi, l'unità ottiene 3 Cariche, non può essere sconfitta per 100TU e riduce del 50% i costi in TU delle abilità attive per 100TU. Gli effetti di Accelerazione non riducono ulteriormente i costi in TU dell'unità. L'effetto non riduce i TU al di sotto di 1TU.\n\nSi sblocca ogni volta che l'unità sconfigge un'altra unità con un attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.\n\nAlcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. Quando un'unità con Spine Sonno subisce danni da un attacco, consuma Spine Sonno per infliggere immediatamente l'effetto di stato Sonno Maledetto per 200TU all'assalitore. Ustione o gli attacchi che ustionano rimuovono Spine Sonno e impediscono di infliggere Sonno Maledetto. Sonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Potenza Dorata",
+                "SkillDescription": "L'unità entra in campo con 3 Cariche e Protezione Morte. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.\n\nPer 100TU dopo essere entrata in battaglia, l'unità non può essere sconfitta.\n\nGli attacchi dell'unità:\n- Non svegliano i nemici addormentati.\n- Curano l'unità del 100% del danno inflitto totale.\n- Infliggono Mega Veleno per 200TU alle unità non addormentate colpite dopo aver inflitto danno. Mega Veleno sostituisce altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.\n\nL'unità ha una riduzione danni del 50%, più un ulteriore 10% per ogni nemico sconfitto dall'unità da quando è entrata in campo (fino all'80% dopo aver sconfitto 3 nemici con attacchi).\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene Opposizione per 150TU, poi è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno) e recupera il 50% degli HP massimi. Opposizione sostituisce altri effetti di stato. Se l'unità con Opposizione subisce danno da un attacco nemico, ottiene automaticamente il turno successivo."
+            },
+            {
+                "SkillTitle": "Forza Bruta",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nL'unità è immune a Sonno se ci sono almeno 2 nemici in campo.\n\nOgni volta che l'unità infligge danno a nemici non ustionati con un attacco mentre ha Cariche, l'unità consuma una Carica per ottenere un altro turno. Questo effetto non può riattivarsi sulla stessa unità. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nMentre l'unità è in campo, ogni volta che un nemico entra in campo dai rinforzi, aggiunge il 100% al danno percentuale degli attacchi dell'unità (fino al 300% dopo che 3 nemici sono entrati in campo dai rinforzi. Per esempio, Fendente Pesante: 700% => 1000% di danno dopo che 3 nemici sono entrati in campo dai rinforzi e non ci sono alleati addormentati, ustionati o avvelenati)."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Vento Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Vento."
+            },
+            {
+                "SkillTitle": "Maestria Mazza",
+                "SkillDescription": "Può usare le abilità delle Mazze oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mazza"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Salve!\nKintaro III, serraturiera del mondo dei sogni, al tuo servizio.\nÈ un piacere conoscerti e... Come, scusa? Ti faccio paura?\nOh, dai, non essere sciocco, volevi dire che mi trovi carina, vero? Vero?\nVero?"
+            ],
+            "Login": [
+                "Ma salve! Oggi c'è un tempo meraviglioso.\nPerfetto per andare a caccia di accessori adorabili insieme ♡!"
+            ],
+            "Tap": [
+                "Ho un debole per i dolci...\nSe c'è un dessert chiuso in una gabbia d'acciaio, non posso fare a meno di romperla per mangiarlo...",
+                "S-Stiamo alla l-larga dai luoghi infestati da f-f-fantasmi...\nMeglio non immischiarsi in certe cose... Lasciamo stare. Va bene?",
+                "Sarebbe bello se potessi uscire con degli abiti più carini di questi...\nCome un bel vestito con dei nastri rosa ♡!\n...forse, un giorno..."
+            ],
+            "Idle": [
+                "N-Non ho paura di stare da sola...\nIiih— Cos'era quel suono strano...? Uuugh... Non c'è proprio nessuno...? E-Ehilà? C'è nessuno? Per favore...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Fendente Pesante": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimidazione": {
+                    "BaseWeight": 1000
+                },
+                "Volontà Dorata": {
+                    "BaseWeight": 2500
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "KintaroRegular02": {
+        "Name": "Kintaro",
+        "Name2": "Zucchero, cannella e brutalità",
+        "FullName": "Kintaro - Zucchero, cannella e brutalità",
+        "Profile": "Kintaro ama i fazzoletti ricamati, i nastri, gli accessori in pizzo, gli animali di peluche soffici, i sacchetti floreali...\nDopo aver concluso una giornata di lavoro soddisfacente, non c'è niente che le piaccia di più che abbracciare forte i suoi oggetti cari ed esclamare: \"Oooooh, che cariniiiiii!\"",
+        "Profile_Ascended": "\"Perché hanno tutti così tanta... paura... di me?\" sospirava sovente Kintaro.\nCredeva che la colpa fosse del suo vestito troppo intimidatorio.\nMa, in realtà, la ragione erano i ruggiti folli e feroci che emetteva mentre lavorava o combatteva.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Ascia",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 34,
+        "Atk_Base": 1007,
+        "Hp_Base": 9385,
+        "Speed": 267,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fendente Pesante",
+                "SkillDescription": "700% di danno a 1 nemico. 100% di danno in meno per ogni alleato addormentato, ustionato o avvelenato in campo (fino a -400% se ci sono 4 alleati affetti). Questo attacco ignora gli effetti di riduzione del danno nemici, le abilità passive di contatto e l'effetto di stato Opposizione.\n\nSe l'attacco colpisce un bersaglio senza Effimerità e che non è un boss, e se a quel bersaglio resta 1 HP dopo aver subito il danno, viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero al nemico di essere sconfitto.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimidazione",
+                "SkillDescription": "L'unità ottiene Provocazione. Indebolisce e rimuove Invisibilità dai nemici in campo\n\nSe la squadra alleata ha meno Spiriti della squadra nemica, aumenta gli Spiriti della squadra alleata a 10. Se la squadra alleata ha più Spiriti della squadra nemica, riduce gli Spiriti della squadra nemica a 0.\n\nQuesta abilità è bloccata per 50TU dopo l'uso.\n\nLe unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. L'attacco delle unità indebolite è ridotto a 0,75x fino alla fine del loro turno successivo. Sostituisce altri effetti di Debolezza o Provocazione. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Volontà Dorata",
+                "SkillDescription": "Cura tutti gli alleati in campo per un valore di HP pari al 500% dell'attacco dell'unità e fornisce loro Protezione Sonno, Protezione Veleno e Spine Sonno.\n\nPoi, l'unità ottiene 3 Cariche, non può essere sconfitta per 100TU e riduce del 50% i costi in TU delle abilità attive per 100TU. Gli effetti di Accelerazione non riducono ulteriormente i costi in TU dell'unità. L'effetto non riduce i TU al di sotto di 1TU.\n\nSi sblocca ogni volta che l'unità sconfigge un'altra unità con un attacco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.\n\nAlcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. Quando un'unità con Spine Sonno subisce danni da un attacco, consuma Spine Sonno per infliggere immediatamente l'effetto di stato Sonno Maledetto per 200TU all'assalitore. Ustione o gli attacchi che ustionano rimuovono Spine Sonno e impediscono di infliggere Sonno Maledetto. Sonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Fendente Dorato",
+                "SkillDescription": "500% di danno a 2 nemici. 700% di danno invece ai bersagli non ustionati. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSi sblocca ogni volta che l'unità subisce danno da un attacco. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Potenza Dorata",
+                "SkillDescription": "L'unità entra in campo con 3 Cariche e Protezione Morte. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.\n\nPer 100TU dopo essere entrata in battaglia, l'unità non può essere sconfitta.\n\nGli attacchi dell'unità:\n- Non svegliano i nemici addormentati.\n- Curano l'unità del 100% del danno inflitto totale.\n- Infliggono Mega Veleno per 200TU alle unità non addormentate colpite dopo aver inflitto danno. Mega Veleno sostituisce altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.\n\nL'unità ha una riduzione danni del 50%, più un ulteriore 10% per ogni nemico sconfitto dall'unità da quando è entrata in campo (fino all'80% dopo aver sconfitto 3 nemici con attacchi).\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene Opposizione per 150TU, poi è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno) e recupera il 50% degli HP massimi. Opposizione sostituisce altri effetti di stato. Se l'unità con Opposizione subisce danno da un attacco nemico, ottiene automaticamente il turno successivo."
+            },
+            {
+                "SkillTitle": "Forza Bruta",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nL'unità è immune a Sonno se ci sono almeno 2 nemici in campo.\n\nOgni volta che l'unità infligge danno a nemici non ustionati con un attacco mentre ha Cariche, l'unità consuma una Carica per ottenere un altro turno. Questo effetto non può riattivarsi sulla stessa unità. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nMentre l'unità è in campo, ogni volta che un nemico entra in campo dai rinforzi, aggiunge il 100% al danno percentuale degli attacchi dell'unità (fino al 300% dopo che 3 nemici sono entrati in campo dai rinforzi. Per esempio, Fendente Pesante: 700% => 1000% di danno dopo che 3 nemici sono entrati in campo dai rinforzi e non ci sono alleati addormentati, ustionati o avvelenati)."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Vento Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Vento."
+            },
+            {
+                "SkillTitle": "Maestria Mazza",
+                "SkillDescription": "Può usare le abilità delle Mazze oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mazza"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Salve!\nKintaro III, serraturiera del mondo dei sogni, al tuo servizio.\nÈ un piacere conoscerti e... Come, scusa? Ti faccio paura?\nOh, dai, non essere sciocco, volevi dire che mi trovi carina, vero? Vero?\nVero?"
+            ],
+            "Login": [
+                "Ma salve! Oggi c'è un tempo meraviglioso.\nPerfetto per andare a caccia di accessori adorabili insieme ♡!"
+            ],
+            "Tap": [
+                "Ho un debole per i dolci...\nSe c'è un dessert chiuso in una gabbia d'acciaio, non posso fare a meno di romperla per mangiarlo...",
+                "S-Stiamo alla l-larga dai luoghi infestati da f-f-fantasmi...\nMeglio non immischiarsi in certe cose... Lasciamo stare. Va bene?",
+                "Sarebbe bello se potessi uscire con degli abiti più carini di questi...\nCome un bel vestito con dei nastri rosa ♡!\n...forse, un giorno..."
+            ],
+            "Idle": [
+                "N-Non ho paura di stare da sola...\nIiih— Cos'era quel suono strano...? Uuugh... Non c'è proprio nessuno...? E-Ehilà? C'è nessuno? Per favore...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Fendente Pesante": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimidazione": {
+                    "BaseWeight": 1000
+                },
+                "Volontà Dorata": {
+                    "BaseWeight": 2500
+                },
+                "Fendente Dorato": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Sogni Dorati",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }

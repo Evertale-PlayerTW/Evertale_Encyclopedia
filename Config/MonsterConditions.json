@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1778466150,
+    "Time": 1778472004,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -30378,6 +30378,37 @@
 		"class": "MonsterConditions",
 		"myTeamMonsterConditionMatchesNeeded":{
 			"IsBeastRegular": 1
+		}
+	},
+	"HPBelow50PercentOrIsProtecting": {
+		"class": "MonsterConditions",
+		"hpLessThanPercent": 0.5000001,
+		"or": {
+			"buffStackNames": ["Protector"],
+			"or": {
+				"class": "MonsterConditions",
+				"buffStackNames": ["AutoProtect"],
+				"or": {
+					"class": "MonsterConditions",
+					"buffStackNames": ["TimedProtector"],
+					"or": {
+						"class": "MonsterConditions",
+						"buffStackNames": ["ConditionedProtector"],
+						"or": {
+							"class": "MonsterConditions",
+							"buffStackNames": ["Taunting"],
+							"checkEnemyTeamOfMonster": true,
+							"enemyTeamMonsterConditionMatchesNeeded":{
+								"IsTauntedTakingTurn": 1
+							},
+							"or":{
+								"class": "MonsterConditions",
+								"buffStackNames": ["SleepThorns","ThornProtector"]
+							}	
+						}
+					}
+				}
+			}
 		}
 	}
 }

@@ -14420,6 +14420,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -14785,6 +14796,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -16694,6 +16716,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -17049,6 +17082,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -22925,6 +22969,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -23152,6 +23207,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -131012,7 +131078,7 @@
         "Hp_Base": 5880,
         "Speed": 513,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Selbst der Tod kann uns nicht scheiden.",
         "LeaderSkill": {
             "SkillTitle": "Erd-ANG hoch",
@@ -131165,6 +131231,19 @@
                         "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -131380,7 +131459,20 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
     },
     "BeautyRegular01": {
         "Name": "Belle",
@@ -132015,5 +132107,352 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "KintaroRegular01": {
+        "Name": "Kintaro",
+        "Name2": "Zucker, Gewürz und Gewalt",
+        "FullName": "Kintaro - Zucker, Gewürz und Gewalt",
+        "Profile": "Das dritte Oberhaupt eines angesehenen Geschlechts, das den Titel Schlosser in der Welt der Träume trägt. Schlosser verdienen ihren Lebensunterhalt, indem sie die Barrieren der Traumwelt durchbrechen und die darin gefangenen Seelen retten.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axt",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 28,
+        "Atk_Base": 928,
+        "Hp_Base": 6570,
+        "Speed": 267,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Zartes süßes Herz",
+        "LeaderSkill": {
+            "SkillTitle": "Erd-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Erd-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Starker Schwung",
+                "SkillDescription": "700% Schaden an 1 Gegner. Minus 100% Schaden für jeden schlafenden, brennenden oder vergifteten Verbündeten auf dem Schlachtfeld (maximal -400%, wenn 4 Verbündete betroffen sind). Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Fertigkeiten von Skin und den Statuseffekt Konterstellung.\n\nWenn dieser Angriff ein Ziel trifft, das kein Boss und kein Ephemeral ist, und dieses Ziel nach dem Schaden noch 1 LP hat, wird das Ziel sofort besiegt (es wird davon ausgegangen, dass der Anwender das Ziel mit einem Angriff besiegt hat, wenn er erfolgreich war). Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte von aktiven Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Einschüchtern",
+                "SkillDescription": "Macht den Anwender wütend. Schwächt und entfernt Schleichen von allen Gegnern auf dem Schlachtfeld.\n\nWenn der Geist des Verbündeten kleiner ist als der Geist des Gegners, erhöht sich der Geist des Verbündeten auf 10. Wenn der Geist des Verbündeten höher ist als der Geist des Gegners, wird der Geist des Gegners auf 0 gesenkt.\n\nDiese Fertigkeit wird nach der Anwendung für 50 ZE gesperrt.\n\nBei wütenden Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Bei geschwächten Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf 0,75x reduziert. Diese Effekte überschreiben alle bestehenden Schwächungs- oder Wut-Effekte der betroffenen Einheiten. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Goldener Wille",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld für 500% des Angriffs des Anwenders und gewährt jedem von ihnen einen Schlaf-, Gift- und Schlafdorn. Dann erhält der Anwender 3 Ladungen, kann für die nächsten 100 ZE nicht besiegt werden und die ZE-Kosten seiner aktiven Fertigkeit werden für 100 ZE um 50% reduziert. Beschleunigen-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter. Allein dadurch werden die ZE-Kosten nicht unter 1 ZE gesenkt.\n\nDie Fähigkeit wird jedes Mal gesperrt, wenn der Benutzer eine andere Einheit mit einem Angriff besiegt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.\n\nBestimmte Fertigkeiten werden von Aufladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Aufladungen speichern, und alle Aufladungen werden von einer Einheit, die das Schlachtfeld verlässt, entfernt. Jeder Schutzauber verhindert einmalig die Anwendung des genannten Effekts und wird dann entfernt. Identische Schutzzauber können nicht gestapelt werden. Wenn eine Einheit mit Schlafdornen durch einen Angriff Schaden erleidet, werden die Schlafdornen dieser Einheit verbraucht und verleihen dem Angreifer sofort für 200 ZE den Statuseffekt Verfluchter Schlaf. Verbrennung oder Angriffe, die Verbrennung gewähren, entfernen die Schlafdornen und verhindern, dass der verfluchte Schlaf angewendet wird. Verfluchter Schlaf überschreibt andere Statuseffekte als Brennen, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die bereits geschlafen haben, während sie sich auf dem Schlachtfeld befinden, und endet nicht durch Schaden, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Goldkrafthaus",
+                "SkillDescription": "Diese Einheit zieht mit 3 Sprengladungen und einem Soforttod-Schutz in den Kampf. Ein sofortiger Todeswächter verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt werden kann. Soforttod-Schutz kann nicht ignoriert werden und sind nicht stapelbar.\nNach dem Eintritt in den Kampf kann diese Einheit für 100 ZE nicht mehr besiegt werden.\nDie Angriffe dieser Einheit:\n- wecken schlafende Gegner nicht auf.\n- heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n- gewähren nicht schlafenden Einheiten, die getroffen werden, nachdem sie Schaden erlitten haben, den Statuseffekt Mega-Gift für 200 ZE. Mega-Gift überschreibt andere Statuseffekte auf diesen Gegnern. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Supergift überschrieben werden.\n\nDiese Einheit hat eine Schadensreduzierung von 50 % plus 10 % für jeden Gegner, den diese Einheit mit Angriffen besiegt hat, während sie sich auf dem Schlachtfeld befindet (maximal 80 % nach dem Besiegen von 3+ Gegnern mit Angriffen). \n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, erhält sie für 150 ZE eine Konterstellung, wird dann gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt) und heilt sich um 50% ihrer maximalen LP. Konterstellung überschreibt Statuseffekte auf dieser Einheit. Wenn die Einheit mit Konterstellung das nächste Mal durch einen gegnerischen Angriff Schaden erleidet, ist sie an der Reihe."
+            },
+            {
+                "SkillTitle": "Brutale Gewalt",
+                "SkillDescription": "Diese Einheit kann nicht betäubt oder zur Verstärkung vom Schlachtfeld geschickt werden.\n\nDiese Einheit kann nicht einschlafen, wenn sich 2 oder mehr Gegner auf dem Schlachtfeld befinden.\n\nJedes Mal, wenn diese Einheit eine beliebige Anzahl von nicht brennenden Gegnern mit einem Angriff beschädigt, während sie aufgeladen ist, gibt diese Einheit eine Ladung aus, um einen weiteren Zug zu erhalten. Dieser Effekt kann gegen dieselbe Einheit erneut ausgelöst werden. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z.B. Betäubungen, die auf das niedrigste ZE-Ziel abzielen).\n\nWann immer ein Gegner das Schlachtfeld aus Verstärkungen betritt, wenn diese Einheit auf dem Schlachtfeld ist, addiere 100% zum Schadensprozentsatz der Angriffe dieser Einheit (max. 300%, nachdem 3 Gegner das Schlachtfeld aus Verstärkungen betreten haben. z.B. Schwerer Schwung: 700% => 1000% Schaden, nachdem 3 Gegner aus der Verstärkung das Schlachtfeld betreten haben und keine Verbündeten schlafen, brennen oder vergiftet sind)."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Sturm-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Sturm-Einheiten."
+            },
+            {
+                "SkillTitle": "Streitk.-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Streitkolben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Keule"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich grüße dich!\nKintaro der Dritte, Schlosser der Traumwelt, steht dir zu Diensten.\nEs ist mir ein Vergnügen, deine Bekanntschaft zu machen. Du findest mich furchterregend?\nOh bitte, sei nicht albern, du wolltest sagen, dass du mich hübsch findest, oder? Richtig?\nRichtig?"
+            ],
+            "Login": [
+                "Aber hallo! Was für ein wunderbares Wetter heute!\nPerfekt, um gemeinsam auf die Jagd nach schönen Accessoires zu gehen!"
+            ],
+            "Tap": [
+                "Ich bin eine kleine Naschkatze...\nSelbst wenn ein Dessert in einem Stahlkäfig eingeschlossen ist, kann ich nicht anders, als ihn aufzubrechen, um es zu essen...",
+                "Wir sollten uns von allen Orten fernhalten, an denen es Geister gibt.\nSolche Dinge lässt man am besten in Ruhe, also lass uns das tun. Okay?",
+                "Es wäre schön, wenn ich mit süßeren Outfits als diesem ausgehen könnte...\nEin hübsches Kleid mit rosa Schleifen♡!\n...Vielleicht eines Tages..."
+            ],
+            "Idle": [
+                "I-Ich habe keine Angst vor dem Alleinsein...\nAaah, was war das für ein Geräusch gerade...? Uuuh...ist hier jemand...? H-Hallo? Jemand? Bitte...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Starker Schwung": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Einschüchtern": {
+                    "BaseWeight": 1000
+                },
+                "Goldener Wille": {
+                    "BaseWeight": 2500
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
+    },
+    "KintaroRegular02": {
+        "Name": "Kintaro",
+        "Name2": "Zucker, Gewürz und Gewalt",
+        "FullName": "Kintaro - Zucker, Gewürz und Gewalt",
+        "Profile": "Kintaro liebt bestickte Taschentücher, Bänder, Spitzenaccessoires, flauschige Stofftiere, Blumentaschen... \nNach getaner Arbeit gibt es nichts, was sie mehr genießt, als ihre geliebten Gegenstände eng zu umarmen und zu schwärmen: Hach, wie süß.",
+        "Profile_Ascended": "Warum haben alle so viel Angst vor mir? Kintaro beklagte sich dessen oft.\nSie glaubte, es läge daran, dass ihr Outfit zu einschüchternd sei.\nAber in Wahrheit ist der wahre Grund das wilde, ungestüme Gebrüll, das sie bei der Arbeit und im Kampf ausstößt.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axt",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 34,
+        "Atk_Base": 1007,
+        "Hp_Base": 9385,
+        "Speed": 267,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Erd-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Erd-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Starker Schwung",
+                "SkillDescription": "700% Schaden an 1 Gegner. Minus 100% Schaden für jeden schlafenden, brennenden oder vergifteten Verbündeten auf dem Schlachtfeld (maximal -400%, wenn 4 Verbündete betroffen sind). Dieser Angriff ignoriert Schadensreduzierungseffekte, passive Fertigkeiten von Skin und den Statuseffekt Konterstellung.\n\nWenn dieser Angriff ein Ziel trifft, das kein Boss und kein Ephemeral ist, und dieses Ziel nach dem Schaden noch 1 LP hat, wird das Ziel sofort besiegt (es wird davon ausgegangen, dass der Anwender das Ziel mit einem Angriff besiegt hat, wenn er erfolgreich war). Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte von aktiven Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Einschüchtern",
+                "SkillDescription": "Macht den Anwender wütend. Schwächt und entfernt Schleichen von allen Gegnern auf dem Schlachtfeld.\n\nWenn der Geist des Verbündeten kleiner ist als der Geist des Gegners, erhöht sich der Geist des Verbündeten auf 10. Wenn der Geist des Verbündeten höher ist als der Geist des Gegners, wird der Geist des Gegners auf 0 gesenkt.\n\nDiese Fertigkeit wird nach der Anwendung für 50 ZE gesperrt.\n\nBei wütenden Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Bei geschwächten Einheiten wird ihr Angriff bis zum Ende ihres nächsten Zuges auf 0,75x reduziert. Diese Effekte überschreiben alle bestehenden Schwächungs- oder Wut-Effekte der betroffenen Einheiten. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Goldener Wille",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld für 500% des Angriffs des Anwenders und gewährt jedem von ihnen einen Schlaf-, Gift- und Schlafdorn. Dann erhält der Anwender 3 Ladungen, kann für die nächsten 100 ZE nicht besiegt werden und die ZE-Kosten seiner aktiven Fertigkeit werden für 100 ZE um 50% reduziert. Beschleunigen-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter. Allein dadurch werden die ZE-Kosten nicht unter 1 ZE gesenkt.\n\nDie Fähigkeit wird jedes Mal gesperrt, wenn der Benutzer eine andere Einheit mit einem Angriff besiegt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, wieder gesperrt.\n\nBestimmte Fertigkeiten werden von Aufladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Aufladungen speichern, und alle Aufladungen werden von einer Einheit, die das Schlachtfeld verlässt, entfernt. Jeder Schutzauber verhindert einmalig die Anwendung des genannten Effekts und wird dann entfernt. Identische Schutzzauber können nicht gestapelt werden. Wenn eine Einheit mit Schlafdornen durch einen Angriff Schaden erleidet, werden die Schlafdornen dieser Einheit verbraucht und verleihen dem Angreifer sofort für 200 ZE den Statuseffekt Verfluchter Schlaf. Verbrennung oder Angriffe, die Verbrennung gewähren, entfernen die Schlafdornen und verhindern, dass der verfluchte Schlaf angewendet wird. Verfluchter Schlaf überschreibt andere Statuseffekte als Brennen, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die bereits geschlafen haben, während sie sich auf dem Schlachtfeld befinden, und endet nicht durch Schaden, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Goldene Kluft",
+                "SkillDescription": "500% Schaden an 2 Gegnern. 700% Schaden stattdessen bei Zielen, die nicht den Statuseffekt Brennen haben. Dieser Angriff ignoriert gegnerische Schadensreduzierungseffekte und alle Effekte von Gegnern, die keine Bossgegner sind, die verhindern würden, dass das Ziel besiegt wird.\n\nDie Fähigkeit wird jedes Mal gesperrt, wenn der Benutzer durch einen Angriff Schaden erleidet. Diese Fertigkeit wird nach jedem Einsatz oder beim Verlassen des Schlachtfelds wieder gesperrt.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Goldkrafthaus",
+                "SkillDescription": "Diese Einheit zieht mit 3 Sprengladungen und einem Soforttod-Schutz in den Kampf. Ein sofortiger Todeswächter verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt werden kann. Soforttod-Schutz kann nicht ignoriert werden und sind nicht stapelbar.\nNach dem Eintritt in den Kampf kann diese Einheit für 100 ZE nicht mehr besiegt werden.\nDie Angriffe dieser Einheit:\n- wecken schlafende Gegner nicht auf.\n- heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n- gewähren nicht schlafenden Einheiten, die getroffen werden, nachdem sie Schaden erlitten haben, den Statuseffekt Mega-Gift für 200 ZE. Mega-Gift überschreibt andere Statuseffekte auf diesen Gegnern. Mega-Gift verursacht den 20-fachen Schaden von normalem Gift und kann nicht von normalem Gift oder Supergift überschrieben werden.\n\nDiese Einheit hat eine Schadensreduzierung von 50 % plus 10 % für jeden Gegner, den diese Einheit mit Angriffen besiegt hat, während sie sich auf dem Schlachtfeld befindet (maximal 80 % nach dem Besiegen von 3+ Gegnern mit Angriffen). \n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, erhält sie für 150 ZE eine Konterstellung, wird dann gereinigt (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt) und heilt sich um 50% ihrer maximalen LP. Konterstellung überschreibt Statuseffekte auf dieser Einheit. Wenn die Einheit mit Konterstellung das nächste Mal durch einen gegnerischen Angriff Schaden erleidet, ist sie an der Reihe."
+            },
+            {
+                "SkillTitle": "Brutale Gewalt",
+                "SkillDescription": "Diese Einheit kann nicht betäubt oder zur Verstärkung vom Schlachtfeld geschickt werden.\n\nDiese Einheit kann nicht einschlafen, wenn sich 2 oder mehr Gegner auf dem Schlachtfeld befinden.\n\nJedes Mal, wenn diese Einheit eine beliebige Anzahl von nicht brennenden Gegnern mit einem Angriff beschädigt, während sie aufgeladen ist, gibt diese Einheit eine Ladung aus, um einen weiteren Zug zu erhalten. Dieser Effekt kann gegen dieselbe Einheit erneut ausgelöst werden. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z.B. Betäubungen, die auf das niedrigste ZE-Ziel abzielen).\n\nWann immer ein Gegner das Schlachtfeld aus Verstärkungen betritt, wenn diese Einheit auf dem Schlachtfeld ist, addiere 100% zum Schadensprozentsatz der Angriffe dieser Einheit (max. 300%, nachdem 3 Gegner das Schlachtfeld aus Verstärkungen betreten haben. z.B. Schwerer Schwung: 700% => 1000% Schaden, nachdem 3 Gegner aus der Verstärkung das Schlachtfeld betreten haben und keine Verbündeten schlafen, brennen oder vergiftet sind)."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Sturm-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Sturm-Einheiten."
+            },
+            {
+                "SkillTitle": "Streitk.-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Streitkolben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Keule"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich grüße dich!\nKintaro der Dritte, Schlosser der Traumwelt, steht dir zu Diensten.\nEs ist mir ein Vergnügen, deine Bekanntschaft zu machen. Du findest mich furchterregend?\nOh bitte, sei nicht albern, du wolltest sagen, dass du mich hübsch findest, oder? Richtig?\nRichtig?"
+            ],
+            "Login": [
+                "Aber hallo! Was für ein wunderbares Wetter heute!\nPerfekt, um gemeinsam auf die Jagd nach schönen Accessoires zu gehen!"
+            ],
+            "Tap": [
+                "Ich bin eine kleine Naschkatze...\nSelbst wenn ein Dessert in einem Stahlkäfig eingeschlossen ist, kann ich nicht anders, als ihn aufzubrechen, um es zu essen...",
+                "Wir sollten uns von allen Orten fernhalten, an denen es Geister gibt.\nSolche Dinge lässt man am besten in Ruhe, also lass uns das tun. Okay?",
+                "Es wäre schön, wenn ich mit süßeren Outfits als diesem ausgehen könnte...\nEin hübsches Kleid mit rosa Schleifen♡!\n...Vielleicht eines Tages..."
+            ],
+            "Idle": [
+                "I-Ich habe keine Angst vor dem Alleinsein...\nAaah, was war das für ein Geräusch gerade...? Uuuh...ist hier jemand...? H-Hallo? Jemand? Bitte...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Starker Schwung": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Einschüchtern": {
+                    "BaseWeight": 1000
+                },
+                "Goldener Wille": {
+                    "BaseWeight": 2500
+                },
+                "Goldene Kluft": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Goldene Träumer",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
     }
 }

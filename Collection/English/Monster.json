@@ -14420,6 +14420,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -14785,6 +14796,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -16694,6 +16716,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -17049,6 +17082,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22925,6 +22969,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -23152,6 +23207,17 @@
                     "TrainerBoy01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -131012,7 +131078,7 @@
         "Hp_Base": 5880,
         "Speed": 513,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Together forever... Even death can't do us part.",
         "LeaderSkill": {
             "SkillTitle": "Earth Attack Up",
@@ -131165,6 +131231,19 @@
                         "IsPoisonedAndNotHitAlreadyOrImposterOrProtectorCheck": 25
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -131380,7 +131459,20 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     },
     "BeautyRegular01": {
         "Name": "Belle",
@@ -132015,5 +132107,352 @@
             }
         },
         "ExtraEvoInitialCount": 1
+    },
+    "KintaroRegular01": {
+        "Name": "Kintaro",
+        "Name2": "Sugar, Spice, and Brute Force",
+        "FullName": "Kintaro - Sugar, Spice, and Brute Force",
+        "Profile": "The third head of a distinguished lineage that inherits the title of \"Locksmith\" in the world of dreams.\nLocksmiths make their living by breaking through the barriers of a dream world and rescuing the souls trapped within.\nMost of her day-to-day work come from requests by Hypnos and Alice.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axe",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 28,
+        "Atk_Base": 928,
+        "Hp_Base": 6570,
+        "Speed": 267,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Dainty Sweet Heart",
+        "LeaderSkill": {
+            "SkillTitle": "Earth HP Up",
+            "SkillDescription": "Allied Earth element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Heavy Swing",
+                "SkillDescription": "700% damage to 1 enemy. Minus 100% damage for each sleeping, burning or poisoned ally on the battlefield (max of -400% if there are 4 affected allies). This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nWhen this attack hits a non-boss, non-Ephemeral target and that target has 1HP remaining after damage, that target is immediately defeated (the user is considered to have defeated the target with an attack if successful). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the enemy from being defeated.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimidate",
+                "SkillDescription": "Enrages the user. Weakens, and removes Stealth from all enemies on the battlefield.\n\nIf Ally Spirit is less than Enemy Spirit, raises Ally Spirit to 10. If Ally Spirit is higher than Enemy Spirit, lowers Enemy Spirit to 0 instead.\n\nThis skill becomes locked for 50TU after use.\n\nEnraged units have their Attack increased to 1.5x until the end of their next turn. Weakened units have their Attack reduced to 0.75x until the end of their next turn. These effects will overwrite any existing Weak or Enrage effects on affected units. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Golden Will",
+                "SkillDescription": "Heals all allies on the battlefield for 500% of the user's attack, and grants each of them a Sleep Ward, Poison Ward, and Sleep Thorns.\n\nThen the user is granted 3 Charges, cannot be defeated for the next 100TU, and has their Active Skill TU Costs reduced by 50% for 100TU. Quicken effects will not further reduce this unit's TU costs. This alone will not reduce TU Costs to below 1TU.\n\nUnlocked each time the user defeats another unit with an attack. This skill is locked again after each use or if the user leaves the battlefield.\n\nCertain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack. When a unit with Sleep Thorns is dealt damage by an attack, that unit's Sleep Thorns will be consumed to immediately grant the Cursed Sleep status effect for 200TU to the attacker. Burn or attacks that grant Burn will remove Sleep Thorns and prevent Cursed Sleep from applying. Cursed Sleep will overwrite status effects other than Burn, cannot be overwritten by Poison, can be applied repeatedly to units that have already slept while on the battlefield, and will not end from damage caused by Dream Hunter type active skills.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Golden Powerhouse",
+                "SkillDescription": "This unit enters battle with 3 Charges, and an Instant Death Ward. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nAfter entering battle, this unit cannot be defeated for 100TU.\n\nThis unit's attacks:\n- will not wake sleeping enemies.\n- heal this unit for 100% of total damage dealt.\n- grant the Mega Poison status effect for 200TU to non-sleeping units hit after damage is dealt. Mega Poison will overwrite other status effects on those enemies. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison.\n\nThis unit has 50% damage reduction, plus 10% for each enemy this unit has defeated with attacks while on the battlefield (max of 80% after defeating 3+ enemies with attacks).\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be granted Counter Stance for 150TU, then become Purified (negative status effects like sleep, burn or poison are removed), and heal for 50% of its max HP. Counter Stance will overwrite status effects on this unit. The next time the unit with counter stance takes damage from an enemy attack, it will become their turn."
+            },
+            {
+                "SkillTitle": "Brute Force",
+                "SkillDescription": "This unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nThis unit cannot fall asleep if there are 2 or more enemies on the battlefield.\n\nEach time this unit damages any number of non-burning enemies with an attack while charged, this unit will spend a charge to get another turn. This effect can trigger again against the same unit. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nWhile this unit is on the battlefield, whenever an enemy enters the battlefield from reinforcements, add 100% to the damage % of this unit's attacks (max of 300% after 3 enemies have entered the battlefield from reinforcements. e.g. Heavy Swing: 700% => 1000% damage after 3 enemies have entered the battlefield from reinforcements, and no allies are sleeping, burning or poisoned)."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Storm Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Storm units."
+            },
+            {
+                "SkillTitle": "Mace Mastery",
+                "SkillDescription": "Can use weapon skills of Maces in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mace"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Greetings!\nKintaro the Third, Dream World Locksmith, at your service.\nIt's a pleasure to make your acquaintance―I beg your pardon? You find me scary?\nOh please, don't be silly, you meant to say you find me pretty, didn't you? Right?\nRight?"
+            ],
+            "Login": [
+                "Why hello there! Such wonderful weather today.\nPerfect for going out to hunt for adorable accessories together♡!"
+            ],
+            "Tap": [
+                "I have a bit of a sweet tooth...\nEven if a dessert is locked inside a steel cage, I can't help myself from breaking it open to eat it...",
+                "L-let's s-stay far away from anywhere with g-g-ghosts...\nSuch things are best left alone...so let's do that. Okay?",
+                "It would be nice if I could go out with cuter outfits than this...\nLike a lovely dress adorned with pink ribbons♡!\n...Perhaps someday..."
+            ],
+            "Idle": [
+                "I-I'm not afraid of being alone...\nEep—what was that sound just now...? Uuugh...is anyone around...? H-hello? Someone? Please...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Heavy Swing": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimidate": {
+                    "BaseWeight": 1000
+                },
+                "Golden Will": {
+                    "BaseWeight": 2500
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "KintaroRegular02": {
+        "Name": "Kintaro",
+        "Name2": "Sugar, Spice, and Brute Force",
+        "FullName": "Kintaro - Sugar, Spice, and Brute Force",
+        "Profile": "Kintaro loves embroidered handkerchiefs, ribbons, lace accessories, fluffy stuffed animals, floral pouches...\nAfter finishing a good day's work, there's nothing she enjoys more than hugging her cherished items closely and gushing \"Awwww, soooo cute!\"",
+        "Profile_Ascended": "\"Why does everyone seem to be so...afraid...of me?\" Kintaro would often lament.\nShe believed it was because of her outfit was too intimidating.\nBut in truth, the real reason is the feral, unhinged roars she unleashes in the midst of her work and combat.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axe",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 34,
+        "Atk_Base": 1007,
+        "Hp_Base": 9385,
+        "Speed": 267,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Earth HP Up",
+            "SkillDescription": "Allied Earth element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Heavy Swing",
+                "SkillDescription": "700% damage to 1 enemy. Minus 100% damage for each sleeping, burning or poisoned ally on the battlefield (max of -400% if there are 4 affected allies). This attack ignores damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nWhen this attack hits a non-boss, non-Ephemeral target and that target has 1HP remaining after damage, that target is immediately defeated (the user is considered to have defeated the target with an attack if successful). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the enemy from being defeated.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Intimidate",
+                "SkillDescription": "Enrages the user. Weakens, and removes Stealth from all enemies on the battlefield.\n\nIf Ally Spirit is less than Enemy Spirit, raises Ally Spirit to 10. If Ally Spirit is higher than Enemy Spirit, lowers Enemy Spirit to 0 instead.\n\nThis skill becomes locked for 50TU after use.\n\nEnraged units have their Attack increased to 1.5x until the end of their next turn. Weakened units have their Attack reduced to 0.75x until the end of their next turn. These effects will overwrite any existing Weak or Enrage effects on affected units. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Golden Will",
+                "SkillDescription": "Heals all allies on the battlefield for 500% of the user's attack, and grants each of them a Sleep Ward, Poison Ward, and Sleep Thorns.\n\nThen the user is granted 3 Charges, cannot be defeated for the next 100TU, and has their Active Skill TU Costs reduced by 50% for 100TU. Quicken effects will not further reduce this unit's TU costs. This alone will not reduce TU Costs to below 1TU.\n\nUnlocked each time the user defeats another unit with an attack. This skill is locked again after each use or if the user leaves the battlefield.\n\nCertain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack. When a unit with Sleep Thorns is dealt damage by an attack, that unit's Sleep Thorns will be consumed to immediately grant the Cursed Sleep status effect for 200TU to the attacker. Burn or attacks that grant Burn will remove Sleep Thorns and prevent Cursed Sleep from applying. Cursed Sleep will overwrite status effects other than Burn, cannot be overwritten by Poison, can be applied repeatedly to units that have already slept while on the battlefield, and will not end from damage caused by Dream Hunter type active skills.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Golden Cleave",
+                "SkillDescription": "700% damage to 2 enemies. 500% damage instead to burning targets. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nUnlocked each time the user is damaged by an attack. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Golden Powerhouse",
+                "SkillDescription": "This unit enters battle with 3 Charges, and an Instant Death Ward. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.\n\nAfter entering battle, this unit cannot be defeated for 100TU.\n\nThis unit's attacks:\n- will not wake sleeping enemies.\n- heal this unit for 100% of total damage dealt.\n- grant the Mega Poison status effect for 200TU to non-sleeping units hit after damage is dealt. Mega Poison will overwrite other status effects on those enemies. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison.\n\nThis unit has 50% damage reduction, plus 10% for each enemy this unit has defeated with attacks while on the battlefield (max of 80% after defeating 3+ enemies with attacks).\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be granted Counter Stance for 150TU, then become Purified (negative status effects like sleep, burn or poison are removed), and heal for 50% of its max HP. Counter Stance will overwrite status effects on this unit. The next time the unit with counter stance takes damage from an enemy attack, it will become their turn."
+            },
+            {
+                "SkillTitle": "Brute Force",
+                "SkillDescription": "This unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nThis unit cannot fall asleep if there are 2 or more enemies on the battlefield.\n\nEach time this unit damages any number of non-burning enemies with an attack while charged, this unit will spend a charge to get another turn. This effect can trigger again against the same unit. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nWhile this unit is on the battlefield, whenever an enemy enters the battlefield from reinforcements, add 100% to the damage % of this unit's attacks (max of 300% after 3 enemies have entered the battlefield from reinforcements. e.g. Heavy Swing: 700% => 1000% damage after 3 enemies have entered the battlefield from reinforcements, and no allies are sleeping, burning or poisoned)."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Storm Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Storm units."
+            },
+            {
+                "SkillTitle": "Mace Mastery",
+                "SkillDescription": "Can use weapon skills of Maces in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mace"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Greetings!\nKintaro the Third, Dream World Locksmith, at your service.\nIt's a pleasure to make your acquaintance―I beg your pardon? You find me scary?\nOh please, don't be silly, you meant to say you find me pretty, didn't you? Right?\nRight?"
+            ],
+            "Login": [
+                "Why hello there! Such wonderful weather today.\nPerfect for going out to hunt for adorable accessories together♡!"
+            ],
+            "Tap": [
+                "I have a bit of a sweet tooth...\nEven if a dessert is locked inside a steel cage, I can't help myself from breaking it open to eat it...",
+                "L-let's s-stay far away from anywhere with g-g-ghosts...\nSuch things are best left alone...so let's do that. Okay?",
+                "It would be nice if I could go out with cuter outfits than this...\nLike a lovely dress adorned with pink ribbons♡!\n...Perhaps someday..."
+            ],
+            "Idle": [
+                "I-I'm not afraid of being alone...\nEep—what was that sound just now...? Uuugh...is anyone around...? H-hello? Someone? Please...!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotActive4LOCKKintaroRegular": 1.05,
+                "TimeInCombat100": 1.1,
+                "Kills1": 1.1
+            },
+            "SkillUse": {
+                "Heavy Swing": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 0.75
+                    }
+                },
+                "Intimidate": {
+                    "BaseWeight": 1000
+                },
+                "Golden Will": {
+                    "BaseWeight": 2500
+                },
+                "Golden Cleave": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 0.25
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA40": {
+                "RelationshipName": "Golden Dreamers",
+                "RelationshipFamily": [
+                    "BeautyBeastRegular01",
+                    "KintaroRegular01",
+                    "GearLancerGirl01",
+                    "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }
