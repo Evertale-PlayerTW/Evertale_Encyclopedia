@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1779678460,
+    "Time": 1779868169,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -29291,6 +29291,17 @@
 			"buffStackNames": ["HypnotizeLockKenshinRegular"]
 		}
 	},
+	"IsSuperStealthBody": {
+		"class": "MonsterConditions",
+		"monsterTags": ["SuperStealthBody"]
+	},
+	"IsNotSuperStealthBody": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"monsterTags": ["SuperStealthBody"]
+		}
+	},
 	"IsSuperStealthPT2": {
 		"class": "MonsterConditions",
 		"buffStackNames": ["SuperStealthPT2"]
@@ -29305,6 +29316,25 @@
 	"IsSuperStealthPT3": {
 		"class": "MonsterConditions",
 		"buffStackNames": ["SuperStealthPT3"]
+	},
+	"IsSuperStealthPT3OrNotSuperStealthBody": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["SuperStealthPT3"],
+		"or": {
+			"class": "MonsterConditions",
+			"not":{
+				"class": "MonsterConditions",
+				"monsterTags": ["SuperStealthBody"]
+			}
+		}
+	},
+	"IsSuperStealthBodyNotSuperStealthPT3": {
+		"class": "MonsterConditions",
+		"monsterTags": ["SuperStealthBody"],
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["SuperStealthPT3"]
+		}
 	},
 	"NotSuperStealthPT3": {
 		"class": "MonsterConditions",
@@ -29331,7 +29361,11 @@
 			"buffStackNames": ["Stealth","StealthShieldOnce"],
 			"or":{
 				"class": "MonsterConditions",
-				"buffStackNames": ["SuperStealthPT3"]
+				"buffStackNames": ["SuperStealthPT3"],
+				"not":{
+					"class": "MonsterConditions",
+					"monsterTags": ["SuperStealthBody"]
+				}
 			}
 		}
 	},
@@ -30496,6 +30530,15 @@
 		"or": {
 			"class": "MonsterConditions",
 			"buffStackNames": ["InstantCooldown"]
+		}
+	},
+	"NoSleepingPoisonedOrBurningAllies":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"myTeamMonsterConditionMatchesNeeded":{
+				"IsSleepingPoisonedOrBurning": 1
+			}
 		}
 	}
 }
