@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1779955198,
+	"Time": 1780564399,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -87312,7 +87312,7 @@
 					"allAlliesButSelfBuffs": ["WhenHitGrantSourceVictoriaRegularABuff"],
 					"activeMonsterConditions": "AlwaysTrue"
 				},{
-					"sourceBuffs": ["RandomDamageGenerator","SleepImmunity","KnockbackImmunity","DisableFallBackImmunity","GenericPowerChargeIcon"]
+					"sourceBuffs": ["BlockDeathByBuffDamage","RandomDamageGenerator","SleepImmunity","KnockbackImmunity","DisableFallBackImmunity","GenericPowerChargeIcon"]
 				},{
 					"selfBuffs": ["Grant1RandomEnemyColdSleep"],
 					"cancelFromDamageTypes": ["BuffDamage"],
