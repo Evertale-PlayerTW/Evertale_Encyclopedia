@@ -132560,7 +132560,7 @@
         "Hp_Base": 5595,
         "Speed": 612,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Non vuoi ballare con me?",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Luce)",
@@ -133256,6 +133256,324 @@
                     }
                 },
                 "Condurre le Danze": {
+                    "BaseWeight": 5000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "VictoriaRegular01": {
+        "Name": "Victoria",
+        "Name2": "L'Étoile Incoronata",
+        "FullName": "Victoria - L'Étoile Incoronata",
+        "Profile": "Victoria nacque come figlia maggiore della longeva Casa Reale di Wellmund.\nCresciuta sin dall'infanzia per succedere al padre, il re, ricevette una rigorosa educazione reale. Grazie al suo talento eccezionale, padroneggiò l'equitazione, il galateo, la diplomazia e la politica.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Water",
+        "Element": "Acqua",
+        "Cost": 28,
+        "Atk_Base": 1044,
+        "Hp_Base": 5990,
+        "Speed": 518,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Si alza il sipario...\nAndiamo, il palco ci sta chiamando!",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Acqua)",
+            "SkillDescription": "Nelle unità alleate di tipo Acqua l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Diluvio",
+                "SkillDescription": "Colpisce tutti i nemici. Infigge casualmente il 900%, 600% o 300% di danno su ogni bersaglio. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene immediatamente il turno se è la prima volta che usa questa abilità mentre è in campo o se ha utilizzato Étoile Furiosa da quando è stata usata questa abilità. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU).",
+                "TU": 80,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Gelo Diffuso",
+                "SkillDescription": "Gli alleati ottengono 2 Spiriti per ogni nemico non addormentato in campo.\n\nPoi, rimuove Ustione da un nemico casuale e gli infligge Fuocogelo.\n\nAlla fine di ogni turno, l'infezione infligge Fuocogelo a un'unità casuale senza Fuocogelo della squadra infetta. L'infezione dura per 3 attivazioni, anche se non trova un bersaglio valido, o finché il nemico non viene sconfitto o abbandona il campo. L'infezione non è un effetto di stato e non può essere impedita o purificata, ma l'effetto di stato che diffonde invece sì. Un'unità non può essere infettata nuovamente finché la sua infezione attuale non termina.\n\nQuesta abilità è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia. Quando un'unità con Fuocogelo ottiene il turno, perde il turno come se fosse addormentata, poi Fuocogelo è rimosso e l'unità viene ustionata. Fuocogelo non è un effetto di stato, ma gli effetti che rimuovono gli effetti di stato negativi rimuovono anche Fuocogelo. Fuocogelo termina se l'unità viene sconfitta o abbandona il campo. Fuocogelo non ha effetto sulle unità boss e non si accumula. Ustione sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Étoile Furiosa",
+                "SkillDescription": "300% di danno a 1 nemico, più il 200% per ogni volta che l'abilità è stata attivata da quando l'unità è entrata in campo (fino al 900% di danno totale se l'abilità è già stata utilizzata almeno 3 volte). Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Étoile Incoronata",
+                "SkillDescription": "L'unità è immune a Sonno e non può essere mandata tra i rinforzi dal campo.\n\nGli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno inflitto totale.\n\nOgni volta che un altro alleato subisce danno da un attacco, l'unità azzera i suoi TU. Poi, l'effetto non può riattivarsi fino all'avanzamento di 50TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU).\n\nSe c'è un altro alleato dell'unità in campo, ogni volta che l'unità subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità infligge Sonno Profondo su un nemico casuale per 100TU, anche se ha già dormito da quando è entrato in campo. L'abilità non è un'abilità passiva di contatto.\n\nSonno Profondo sostituisce altri effetti di stato, non viene sostituito da Ustione o Sonno e non può essere purificato."
+            },
+            {
+                "SkillTitle": "Regina Graziosa",
+                "SkillDescription": "L'unità entra in campo con Rigenerazione HP 10% per 200TU, una Carica di Potere e Protezione Morte. L'unità ha una riduzione danni dell'80% dagli attacchi ricevuti per 100TU.\n\nSe l'unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha una Carica di Potere, sopravvive con 1 HP e non può essere sconfitta fino al turno successivo. Consuma la Carica di Potere quando si attiva questo effetto.\n\nQuando l'unità sconfigge un nemico non invocato con un attacco, tutti gli alleati in campo recuperano il 100% degli HP massimi e ottengono Protezione Morte.\n\nOgni volta che un alleato (inclusa l'unità) ottiene il turno, l'unità è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno) alla fine di quel turno.\n\nOgni volta che un nemico ottiene il turno, l'unità ottiene Provocazione alla fine di quel turno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione dell'unità.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Un'unità con Rigenerazione HP 10%, dopo ogni turno, recupera il 10% degli HP massimi. Gli effetti Rigenerazione HP sostituiscono altri effetti di Rigenerazione HP. Le Cariche di Potere possono essere consumate per attivare o potenziare certe abilità. Le Cariche di Potere vengono rimosse se l'unità abbandona il campo. Le Cariche di Potere non si accumulano."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Sonno Lv3",
+                "SkillDescription": "Riduce di 20TU gli effetti di sonno inflitti dal nemico."
+            },
+            {
+                "SkillTitle": "Maestria Bastone",
+                "SkillDescription": "Può usare le abilità dei Bastoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Bastone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "È un piacere conoscerti!\nSono Victoria, regina di Wellmund, una nazione dalla lunga e gloriosa storia.\nSono anche l'étoile, la stella più luminosa, della nostra grande compagnia reale di ballo.\nPrego, ammira tu stesso la grazia del mio balletto!"
+            ],
+            "Login": [
+                "Saluti! Questa volta hai bisogno di Victoria, la regina?\nO stavi cercando l'étoile della compagnia reale di ballo?\nEheh, come pensavo. Allora, al lavoro!"
+            ],
+            "Tap": [
+                "Il mio piatto preferito? Il merluzzo alla meunière! È davveeero delizioso! Mi piacerebbe fartelo assaggiare, un giorno!",
+                "Balletto o trono... Verrà il giorno in cui dovrò scegliere uno e abbandonare l'altro. Ma, quel giorno, spero di poter scegliere senza alcun rimpianto.",
+                "Devo pranzare con tutti i membri della compagnia di ballo. Non vedo l'ora! Eheh, forse non è degno di una regina, ma non riesco a contenere l'emozione!"
+            ],
+            "Idle": [
+                "Uff… non posso permettermi di riposare. Dovrei usare questo tempo per allenarmi nel balletto.\nCi sarà uno spazio qui vicino adatto a danzare…?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "UsedAbilityCounter3": 1.1,
+                "Kills1": 1.01,
+                "NotInstantCooldown": 1.1,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Diluvio": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.75,
+                        "NoFreshNewMomentum": 12.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Gelo Diffuso": {
+                    "BaseWeight": 2500
+                },
+                "Étoile Furiosa": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                }
+            }
+        }
+    },
+    "VictoriaRegular02": {
+        "Name": "Victoria",
+        "Name2": "L'Étoile Incoronata",
+        "FullName": "Victoria - L'Étoile Incoronata",
+        "Profile": "Si unì anche alla compagnia reale di ballo, una delle più orgogliose istituzioni culturali di Wellmund. Lì fiorì rapidamente come ballerina di talento, raggiungendo il prestigioso ruolo di étoile, il volto dell'intera compagnia.\nMa quando suo padre, il re, si ammalò gravemente e non fu più in grado di svolgere i suoi doveri, Victoria dovette ereditare il trono. Da quel giorno, si ritrovò consumata dalle infinite esigenze dell'essere regina.",
+        "Profile_Ascended": "Ben presto, gli allenamenti di balletto dovettero essere abbandonati. Perfezionista nel profondo, Victoria non poteva tollerare l'idea di esibirsi non al meglio delle sue capacità e perciò decise di lasciare il balletto che amava piuttosto che deludere il resto della compagnia. Ma attraverso gli eventi di un recente incidente, ha capito la forza che deriva dall'affidarsi agli altri. E con l'aiuto di questa forza, spera che, una volta diventata davvero la regina che vuole essere… un giorno potrà tornare sul palcoscenico.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Water",
+        "Element": "Acqua",
+        "Cost": 34,
+        "Atk_Base": 1298,
+        "Hp_Base": 7930,
+        "Speed": 518,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Acqua)",
+            "SkillDescription": "Nelle unità alleate di tipo Acqua l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Diluvio",
+                "SkillDescription": "Colpisce tutti i nemici. Infigge casualmente il 900%, 600% o 300% di danno su ogni bersaglio. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nL'unità ottiene immediatamente il turno se è la prima volta che usa questa abilità mentre è in campo o se ha utilizzato Étoile Furiosa da quando è stata usata questa abilità. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU).",
+                "TU": 80,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Gelo Diffuso",
+                "SkillDescription": "Gli alleati ottengono 2 Spiriti per ogni nemico non addormentato in campo.\n\nPoi, rimuove Ustione da un nemico casuale e gli infligge Fuocogelo.\n\nAlla fine di ogni turno, l'infezione infligge Fuocogelo a un'unità casuale senza Fuocogelo della squadra infetta. L'infezione dura per 3 attivazioni, anche se non trova un bersaglio valido, o finché il nemico non viene sconfitto o abbandona il campo. L'infezione non è un effetto di stato e non può essere impedita o purificata, ma l'effetto di stato che diffonde invece sì. Un'unità non può essere infettata nuovamente finché la sua infezione attuale non termina.\n\nQuesta abilità è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia. Quando un'unità con Fuocogelo ottiene il turno, perde il turno come se fosse addormentata, poi Fuocogelo è rimosso e l'unità viene ustionata. Fuocogelo non è un effetto di stato, ma gli effetti che rimuovono gli effetti di stato negativi rimuovono anche Fuocogelo. Fuocogelo termina se l'unità viene sconfitta o abbandona il campo. Fuocogelo non ha effetto sulle unità boss e non si accumula. Ustione sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Étoile Furiosa",
+                "SkillDescription": "300% di danno a 1 nemico, più il 200% per ogni volta che l'abilità è stata attivata da quando l'unità è entrata in campo (fino al 900% di danno totale se l'abilità è già stata utilizzata almeno 3 volte). Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Picco del Potere",
+                "SkillDescription": "Cura tutti gli alleati in campo per un valore di HP pari al 500% dell'attacco dell'unità e fornisce loro Armatura. L'unità ottiene una Carica di Potere.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile solo se l'unità non ha Cariche di Potere. Utilizzabile 10 volte per battaglia. Armatura riduce del 50% i danni del prossimo attacco, poi l'effetto è rimosso. Armatura sostituisce altri effetti di stato.",
+                "TU": 10,
+                "Spirit": "+4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Étoile Incoronata",
+                "SkillDescription": "L'unità è immune a Sonno e non può essere mandata tra i rinforzi dal campo.\n\nGli attacchi dell'unità non svegliano i nemici addormentati e curano l'unità del 100% del danno inflitto totale.\n\nOgni volta che un altro alleato subisce danno da un attacco, l'unità azzera i suoi TU. Poi, l'effetto non può riattivarsi fino all'avanzamento di 50TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU).\n\nSe c'è un altro alleato dell'unità in campo, ogni volta che l'unità subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità infligge Sonno Profondo su un nemico casuale per 100TU, anche se ha già dormito da quando è entrato in campo. L'abilità non è un'abilità passiva di contatto.\n\nSonno Profondo sostituisce altri effetti di stato, non viene sostituito da Ustione o Sonno e non può essere purificato."
+            },
+            {
+                "SkillTitle": "Regina Graziosa",
+                "SkillDescription": "L'unità entra in campo con Rigenerazione HP 10% per 200TU, una Carica di Potere e Protezione Morte. L'unità ha una riduzione danni dell'80% dagli attacchi ricevuti per 100TU.\n\nSe l'unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha una Carica di Potere, sopravvive con 1 HP e non può essere sconfitta fino al turno successivo. Consuma la Carica di Potere quando si attiva questo effetto.\n\nQuando l'unità sconfigge un nemico non invocato con un attacco, tutti gli alleati in campo recuperano il 100% degli HP massimi e ottengono Protezione Morte.\n\nOgni volta che un alleato (inclusa l'unità) ottiene il turno, l'unità è purificata (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno) alla fine di quel turno.\n\nOgni volta che un nemico ottiene il turno, l'unità ottiene Provocazione alla fine di quel turno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione dell'unità.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Un'unità con Rigenerazione HP 10%, dopo ogni turno, recupera il 10% degli HP massimi. Gli effetti Rigenerazione HP sostituiscono altri effetti di Rigenerazione HP. Le Cariche di Potere possono essere consumate per attivare o potenziare certe abilità. Le Cariche di Potere vengono rimosse se l'unità abbandona il campo. Le Cariche di Potere non si accumulano."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Sonno Lv3",
+                "SkillDescription": "Riduce di 20TU gli effetti di sonno inflitti dal nemico."
+            },
+            {
+                "SkillTitle": "Maestria Bastone",
+                "SkillDescription": "Può usare le abilità dei Bastoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Bastone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "È un piacere conoscerti!\nSono Victoria, regina di Wellmund, una nazione dalla lunga e gloriosa storia.\nSono anche l'étoile, la stella più luminosa, della nostra grande compagnia reale di ballo.\nPrego, ammira tu stesso la grazia del mio balletto!"
+            ],
+            "Login": [
+                "Saluti! Questa volta hai bisogno di Victoria, la regina?\nO stavi cercando l'étoile della compagnia reale di ballo?\nEheh, come pensavo. Allora, al lavoro!"
+            ],
+            "Tap": [
+                "Il mio piatto preferito? Il merluzzo alla meunière! È davveeero delizioso! Mi piacerebbe fartelo assaggiare, un giorno!",
+                "Balletto o trono... Verrà il giorno in cui dovrò scegliere uno e abbandonare l'altro. Ma, quel giorno, spero di poter scegliere senza alcun rimpianto.",
+                "Devo pranzare con tutti i membri della compagnia di ballo. Non vedo l'ora! Eheh, forse non è degno di una regina, ma non riesco a contenere l'emozione!"
+            ],
+            "Idle": [
+                "Uff… non posso permettermi di riposare. Dovrei usare questo tempo per allenarmi nel balletto.\nCi sarà uno spazio qui vicino adatto a danzare…?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "UsedAbilityCounter3": 1.1,
+                "Kills1": 1.01,
+                "NotInstantCooldown": 1.1,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Diluvio": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.75,
+                        "NoFreshNewMomentum": 12.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Gelo Diffuso": {
+                    "BaseWeight": 2500
+                },
+                "Étoile Furiosa": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Picco del Potere": {
                     "BaseWeight": 5000
                 }
             }

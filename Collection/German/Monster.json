@@ -132560,7 +132560,7 @@
         "Hp_Base": 5595,
         "Speed": 612,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Willst du nicht mit mir tanzen?",
         "LeaderSkill": {
             "SkillTitle": "Licht-ANG hoch",
@@ -133256,6 +133256,324 @@
                     }
                 },
                 "Führe den Tanz": {
+                    "BaseWeight": 5000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "VictoriaRegular01": {
+        "Name": "Victoria",
+        "Name2": "Die gekrönte Étoile",
+        "FullName": "Victoria - Die gekrönte Étoile",
+        "Profile": "Victoria wurde als älteste Tochter des traditionsreichen Königshauses von Wellmund geboren.\nDa sie von Kindheit an darauf vorbereitet wurde, eines Tages die Nachfolge ihres Vaters, des Königs, anzutreten, genoss sie eine gründliche königliche Ausbildung. Dank ihres außergewöhnlichen Talents beherrscht sie Reitkunst, Etikette, Diplomatie und Politik.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 28,
+        "Atk_Base": 1044,
+        "Hp_Base": 5990,
+        "Speed": 518,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Der Vorhang ist aufgegangen...",
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-ANG hoch",
+            "SkillDescription": "Der Angriff von Wasser-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Regenschauer",
+                "SkillDescription": "Zielt auf alle Gegner. Verursacht entweder 900%, 600% oder 300% Schaden, der für jedes Ziel nach dem Zufallsprinzip ausgewählt wird. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bossgegner sind, die verhindern würden, dass die Ziele besiegt werden, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nDer Anwender erhält sofort die nächste Runde, wenn er diese Fertigkeit zum ersten Mal auf dem Schlachtfeld eingesetzt hat oder wenn er seit dem letzten Einsatz dieser Fertigkeit Étoiles Wut eingesetzt hat. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z. B. Betäubungen, die auf das niedrigste ZE-Ziel abzielen).",
+                "TU": 80,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Kälte verbreiten",
+                "SkillDescription": "Verbündete erhalten 2 Geist für jeden nicht schlafenden Gegner auf dem Schlachtfeld.\n\nDann wird einem zufälligen Gegner die Verbrennung entfernt und er erhält Frostbrand und wird damit infiziert.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um Frostbrand auf eine zufällige, nicht gefrorene Einheit im Team der infizierten Einheit anzuwenden. Die Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder wenn der infizierte Gegner besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Effekt, den die Infektion verbreitet, kann es. Eine Einheit kann erst dann eine neue Infektion bekommen, wenn die bestehende endet.\n\nDiese Fertigkeit wird nach der Verwendung für 50 ZE gesperrt. Kann 5 Mal pro Kampf eingesetzt werden. Wenn eine Einheit Frostbrand hat und an der Reihe ist, verliert sie die Runde, als ob sie schlafen würde, dann wird Frostbrand entfernt und die Einheit erhält den Statuseffekt Brennen. Frostbrand ist kein Statuseffekt, aber Effekte, die negative Statuseffekte entfernen, entfernen auch Frostbrand. Frostbrand endet, wenn die betroffene Einheit besiegt wird oder das Schlachtfeld verlässt. Frostbrand kann nicht auf Bosseinheiten angewendet werden und ist nicht stapelbar. Brennen überschreibt andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Étoiles Wut",
+                "SkillDescription": "300% Schaden an 1 Gegner, plus 200% für jedes Mal, wenn diese Fertigkeit auf dem Schlachtfeld bereits eingesetzt wurde (max. 900% Gesamtschaden, wenn diese Fertigkeit bereits 3 Mal oder öfter eingesetzt wurde). Dieser Angriff ignoriert Effekte zur Schadensreduzierung von Gegnern und alle Effekte von Gegnern, die keine Bosse sind, die verhindern würden, dass das Ziel besiegt wird.",
+                "TU": 50,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Gekröntes Étoile",
+                "SkillDescription": "Diese Einheit kann nicht einschlafen oder vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDie Angriffe dieser Einheit wecken schlafende Gegner nicht auf und heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n\nWenn ein anderer Verbündeter durch einen Angriff Schaden erleidet, werden die ZE dieser Einheit auf 0 reduziert. Dann kann dieser Effekt erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind. Effekte, die die ZE-Reihenfolge beeinflussen, können die Extrarunde unterbrechen (z.B. Betäubungen, die auf das Ziel mit den niedrigsten ZE abzielen).\n\nWenn diese Einheit einen anderen Verbündeten auf dem Schlachtfeld hat, gewährt sie, wann immer sie durch einen Angriff Schaden erleidet und bis nach dem Ende der Runde überlebt, einem zufälligen Gegner den Statuseffekt Tiefschlaf für 100 ZE, auch wenn dieser bereits geschlafen hat, während er auf dem Schlachtfeld war. Dies ist kein passiver Skin-Effekt.\n\nDer Tiefschlaf überschreibt andere Statuseffekte, kann nicht von den Statuseffekten Brennen oder Schlaf überschrieben werden und kann nicht geläutert werden."
+            },
+            {
+                "SkillTitle": "Der Königin Gnade",
+                "SkillDescription": "Diese Einheit zieht mit einer 10%igen LP-Regeneration für 200 ZE, einer Kraftladung und einem Soforttodschutz in den Kampf. Diese Einheit hat eine 80%ige Schadensreduzierung durch Angriffe für 100 ZE.\n\nWenn diese Einheit besiegt werden würde, während sie eine Kraftladung hat, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht besiegt werden. Die Kraftladung wird verbraucht, wenn dieser Effekt ausgelöst wird.\n\nWenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, werden alle Verbündeten auf dem Schlachtfeld um 100% der maximalen LP geheilt und erhalten einen Soforttodschutz. \n\nJedes Mal, wenn ein Verbündeter (einschließlich dieser Einheit) am Zug ist, wird diese Einheit am Ende des Zuges geläutert (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt).\n\nJedes Mal, wenn ein Gegner am Zug ist, wird diese Einheit am Ende des Zuges wütend. Der Angriff einer wütenden Einheit wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Wut überschreibt alle bestehenden Schwäche- oder Wut-Effekte dieser Einheit.\n\nEin Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Ein Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit 10% LP-Regeneration heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regenerationseffekte überschreiben bestehende LP-Regenerationseffekte. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um ihre Effekte zu aktivieren oder zu verstärken.Kraftladungen werden entfernt, wenn diese Einheit das Schlachtfeld verlässt. Kraftladungen können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Schlaf-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer der gegnerischen Schlaf-Effekte auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Es ist mir eine Freude, dich kennenzulernen!\nIch bin Victoria, Königin von Wellmund, einem Land mit einer langen und stolzen Geschichte.\nAußerdem bin ich die Étoile – der größte Star – unseres großartigen Königlichen Ballettensembles.\nBitte schau dir die Anmut meines Balletts doch selbst an!"
+            ],
+            "Login": [
+                "Hallo! Brauchst du diesmal vielleicht Königin Victoria?\nOder hast du nach der Étoile der Königlichen Balletttruppe gefragt?\nHehe, das habe ich mir gedacht. Dann lass uns an die Arbeit gehen!"
+            ],
+            "Tap": [
+                "Mein Lieblingsgericht? Das wäre Kabeljau in Meunière-Sauce! Das ist sooo lecker! Ich würde dich gerne mal damit verwöhnen!",
+                "Ballett oder der Thron… Der Tag wird kommen, an dem ich mich für das eine entscheiden und das andere aufgeben muss. Aber an diesem Tag hoffe ich, dass ich diese Entscheidung ohne Reue treffen kann.",
+                "Ich werde mit der ganzen Balletttruppe zu Mittag essen. Ich freu mich schon riesig darauf! Hehe, das passt vielleicht nicht ganz zu einer Königin, aber ich kann meine Aufregung einfach nicht zurückhalten!"
+            ],
+            "Idle": [
+                "Puh... aber ich kann es mir nicht leisten, mich auszuruhen. Ich sollte diese Zeit nutzen, um Ballett zu üben.\nGibt es hier in der Nähe einen Ort, der sich zum Tanzen eignet...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "UsedAbilityCounter3": 1.1,
+                "Kills1": 1.01,
+                "NotInstantCooldown": 1.1,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Regenschauer": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.75,
+                        "NoFreshNewMomentum": 12.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Kälte verbreiten": {
+                    "BaseWeight": 2500
+                },
+                "Étoiles Wut": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                }
+            }
+        }
+    },
+    "VictoriaRegular02": {
+        "Name": "Victoria",
+        "Name2": "Die gekrönte Étoile",
+        "FullName": "Victoria - Die gekrönte Étoile",
+        "Profile": "Außerdem trat sie der Königlichen Balletttruppe bei, einer der kulturellen Institutionen, auf die Wellmund besonders stolz ist. Dort entfaltete sie sich schnell zu einer Tänzerin mit großer Fertigkeit und stieg in die prestigeträchtige Position einer Étoile auf – sie war das Aushängeschild der gesamten Truppe.\nDoch als ihr Vater, der König, schwer erkrankte und seine Pflichten nicht mehr wahrnehmen konnte, musste Victoria den Thron besteigen. Von diesem Tag an wurde sie von den endlosen Anforderungen des Königinnendaseins völlig in Anspruch genommen.",
+        "Profile_Ascended": "Es dauerte nicht lange, bis ihre Ballettausbildung auf der Strecke bleiben musste. Als Perfektionistin durch und durch konnte Victoria es nicht ertragen, weniger als ihr Bestes zu geben, und beschloss, das Ballett, das sie liebte, hinter sich zu lassen, anstatt den Rest der Truppe mitzureißen. Doch durch die Ereignisse des jüngsten Vorfalls lernte sie zu verstehen, wie viel Kraft es kostet, sich auf andere zu verlassen. Und mit Hilfe dieser Kraft hofft sie, dass sie, sobald sie wirklich in ihre Rolle als Königin hineingewachsen ist… eines Tages vielleicht wieder auf die Bühne zurückkehren kann.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Water",
+        "Element": "Wasser",
+        "Cost": 34,
+        "Atk_Base": 1298,
+        "Hp_Base": 7930,
+        "Speed": 518,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Wasser-ANG hoch",
+            "SkillDescription": "Der Angriff von Wasser-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Regenschauer",
+                "SkillDescription": "Zielt auf alle Gegner. Verursacht entweder 900%, 600% oder 300% Schaden, der für jedes Ziel nach dem Zufallsprinzip ausgewählt wird. Dieser Angriff ignoriert alle Effekte von Gegnern, die keine Bossgegner sind, die verhindern würden, dass die Ziele besiegt werden, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nDer Anwender erhält sofort die nächste Runde, wenn er diese Fertigkeit zum ersten Mal auf dem Schlachtfeld eingesetzt hat oder wenn er seit dem letzten Einsatz dieser Fertigkeit Étoiles Wut eingesetzt hat. Effekte, die die ZE-Reihenfolge beeinflussen, können die zusätzliche Runde unterbrechen (z. B. Betäubungen, die auf das niedrigste ZE-Ziel abzielen).",
+                "TU": 80,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Kälte verbreiten",
+                "SkillDescription": "Verbündete erhalten 2 Geist für jeden nicht schlafenden Gegner auf dem Schlachtfeld.\n\nDann wird einem zufälligen Gegner die Verbrennung entfernt und er erhält Frostbrand und wird damit infiziert.\n\nNach dem Ende jeder Runde wird diese Infektion ausgelöst, um Frostbrand auf eine zufällige, nicht gefrorene Einheit im Team der infizierten Einheit anzuwenden. Die Infektion endet nach 3 Auslösern (auch wenn sie kein gültiges Ziel finden) oder wenn der infizierte Gegner besiegt wird oder das Schlachtfeld verlässt. Die Infektion ist kein Statuseffekt und kann nicht verhindert oder geläutert werden, aber der Effekt, den die Infektion verbreitet, kann es. Eine Einheit kann erst dann eine neue Infektion bekommen, wenn die bestehende endet.\n\nDiese Fertigkeit wird nach der Verwendung für 50 ZE gesperrt. Kann 5 Mal pro Kampf eingesetzt werden. Wenn eine Einheit Frostbrand hat und an der Reihe ist, verliert sie die Runde, als ob sie schlafen würde, dann wird Frostbrand entfernt und die Einheit erhält den Statuseffekt Brennen. Frostbrand ist kein Statuseffekt, aber Effekte, die negative Statuseffekte entfernen, entfernen auch Frostbrand. Frostbrand endet, wenn die betroffene Einheit besiegt wird oder das Schlachtfeld verlässt. Frostbrand kann nicht auf Bosseinheiten angewendet werden und ist nicht stapelbar. Brennen überschreibt andere Statuseffekte. Jede Einheit, die einer Einheit mit Verbrennung Schaden zufügt oder von einer solchen Einheit geschädigt wird, wird ebenfalls verbrannt.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Étoiles Wut",
+                "SkillDescription": "300% Schaden an 1 Gegner, plus 200% für jedes Mal, wenn diese Fertigkeit auf dem Schlachtfeld bereits eingesetzt wurde (max. 900% Gesamtschaden, wenn diese Fertigkeit bereits 3 Mal oder öfter eingesetzt wurde). Dieser Angriff ignoriert Effekte zur Schadensreduzierung von Gegnern und alle Effekte von Gegnern, die keine Bosse sind, die verhindern würden, dass das Ziel besiegt wird.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Höhe der Macht",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 500% des Angriffs des Benutzers und verleiht ihnen den Statuseffekt Rüstung. Der Anwender erhält eine Kraftaufladung.\nDann gibt er allen anderen Verbündeten sofort die nächsten Züge, indem er ihre aktuellen ZE reduziert. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie den Zug erhalten haben.\n\nNur nutzbar, wenn der Nutzer keine Energieladung hat. Kann 10 Mal pro Kampf eingesetzt werden. Rüstung reduziert den Schaden des nächsten Angriffs um 50%, danach wird der Effekt entfernt. Die Rüstung überschreibt andere Statuseffekte auf diesen Einheiten.",
+                "TU": 10,
+                "Spirit": "+4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Gekröntes Étoile",
+                "SkillDescription": "Diese Einheit kann nicht einschlafen oder vom Schlachtfeld aus zur Verstärkung geschickt werden.\n\nDie Angriffe dieser Einheit wecken schlafende Gegner nicht auf und heilen diese Einheit für 100% des gesamten zugefügten Schadens.\n\nWenn ein anderer Verbündeter durch einen Angriff Schaden erleidet, werden die ZE dieser Einheit auf 0 reduziert. Dann kann dieser Effekt erst wieder ausgelöst werden, wenn 50 ZE fortgeschritten sind. Effekte, die die ZE-Reihenfolge beeinflussen, können die Extrarunde unterbrechen (z.B. Betäubungen, die auf das Ziel mit den niedrigsten ZE abzielen).\n\nWenn diese Einheit einen anderen Verbündeten auf dem Schlachtfeld hat, gewährt sie, wann immer sie durch einen Angriff Schaden erleidet und bis nach dem Ende der Runde überlebt, einem zufälligen Gegner den Statuseffekt Tiefschlaf für 100 ZE, auch wenn dieser bereits geschlafen hat, während er auf dem Schlachtfeld war. Dies ist kein passiver Skin-Effekt.\n\nDer Tiefschlaf überschreibt andere Statuseffekte, kann nicht von den Statuseffekten Brennen oder Schlaf überschrieben werden und kann nicht geläutert werden."
+            },
+            {
+                "SkillTitle": "Der Königin Gnade",
+                "SkillDescription": "Diese Einheit zieht mit einer 10%igen LP-Regeneration für 200 ZE, einer Kraftladung und einem Soforttodschutz in den Kampf. Diese Einheit hat eine 80%ige Schadensreduzierung durch Angriffe für 100 ZE.\n\nWenn diese Einheit besiegt werden würde, während sie eine Kraftladung hat, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht besiegt werden. Die Kraftladung wird verbraucht, wenn dieser Effekt ausgelöst wird.\n\nWenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, werden alle Verbündeten auf dem Schlachtfeld um 100% der maximalen LP geheilt und erhalten einen Soforttodschutz. \n\nJedes Mal, wenn ein Verbündeter (einschließlich dieser Einheit) am Zug ist, wird diese Einheit am Ende des Zuges geläutert (negative Statuseffekte wie Schlaf, Verbrennung oder Gift werden entfernt).\n\nJedes Mal, wenn ein Gegner am Zug ist, wird diese Einheit am Ende des Zuges wütend. Der Angriff einer wütenden Einheit wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Wut überschreibt alle bestehenden Schwäche- oder Wut-Effekte dieser Einheit.\n\nEin Soforttodschutz verhindert, dass diese Einheit von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt wird, und wird dann entfernt. Ein Soforttodschutz kann nicht ignoriert werden und sind nicht stapelbar. Eine Einheit mit 10% LP-Regeneration heilt sich nach jeder Runde um 10% ihrer maximalen LP. LP-Regenerationseffekte überschreiben bestehende LP-Regenerationseffekte. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um ihre Effekte zu aktivieren oder zu verstärken.Kraftladungen werden entfernt, wenn diese Einheit das Schlachtfeld verlässt. Kraftladungen können nicht gestapelt werden."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Schlaf-Widerst. Lv3",
+                "SkillDescription": "Verringert die Dauer der gegnerischen Schlaf-Effekte auf diese Einheit um 20 ZE."
+            },
+            {
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Es ist mir eine Freude, dich kennenzulernen!\nIch bin Victoria, Königin von Wellmund, einem Land mit einer langen und stolzen Geschichte.\nAußerdem bin ich die Étoile – der größte Star – unseres großartigen Königlichen Ballettensembles.\nBitte schau dir die Anmut meines Balletts doch selbst an!"
+            ],
+            "Login": [
+                "Hallo! Brauchst du diesmal vielleicht Königin Victoria?\nOder hast du nach der Étoile der Königlichen Balletttruppe gefragt?\nHehe, das habe ich mir gedacht. Dann lass uns an die Arbeit gehen!"
+            ],
+            "Tap": [
+                "Mein Lieblingsgericht? Das wäre Kabeljau in Meunière-Sauce! Das ist sooo lecker! Ich würde dich gerne mal damit verwöhnen!",
+                "Ballett oder der Thron… Der Tag wird kommen, an dem ich mich für das eine entscheiden und das andere aufgeben muss. Aber an diesem Tag hoffe ich, dass ich diese Entscheidung ohne Reue treffen kann.",
+                "Ich werde mit der ganzen Balletttruppe zu Mittag essen. Ich freu mich schon riesig darauf! Hehe, das passt vielleicht nicht ganz zu einer Königin, aber ich kann meine Aufregung einfach nicht zurückhalten!"
+            ],
+            "Idle": [
+                "Puh... aber ich kann es mir nicht leisten, mich auszuruhen. Ich sollte diese Zeit nutzen, um Ballett zu üben.\nGibt es hier in der Nähe einen Ort, der sich zum Tanzen eignet...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "UsedAbilityCounter3": 1.1,
+                "Kills1": 1.01,
+                "NotInstantCooldown": 1.1,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "Regenschauer": {
+                    "BaseWeight": 2,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.75,
+                        "NoFreshNewMomentum": 12.5
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Kälte verbreiten": {
+                    "BaseWeight": 2500
+                },
+                "Étoiles Wut": {
+                    "BaseWeight": 10,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "NoFreshNewMomentum": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Höhe der Macht": {
                     "BaseWeight": 5000
                 }
             }
