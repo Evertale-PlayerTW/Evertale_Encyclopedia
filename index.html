@@ -1803,8 +1803,9 @@
 			} else {
 				document.getElementById("inputCacheAge").classList.add("hidden");
 				document.getElementById("showLastUpdateTime").classList.remove("hidden");
-				const lastUpdateTimestamp = await (await fetchCheck("lastUpdate")).text();
-				document.getElementById("lastUpdateTime").textContent = new Date(lastUpdateTimestamp * 1000).toLocaleString(undefined, {
+				const lastUpdate = await (await fetchCheck("lastUpdate")).json();
+				const lastUpdateTimestamp = (lastUpdate["localization"] > 0 && lastUpdate["config"] > 0) ? Math.max(lastUpdate["localization"], lastUpdate["config"]) : lastUpdate["update"];
+				document.getElementById("lastUpdateTime").textContent = new Date(lastUpdateTimestamp).toLocaleString(undefined, {
 					hour12: false,
 					year: "numeric",
 					month: "2-digit",

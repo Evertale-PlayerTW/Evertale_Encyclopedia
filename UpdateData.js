@@ -69,8 +69,8 @@ async function downloadRequiredFiles() {
 									.on("error", () => reject(url));
 							})
 							.on("error", reject);
-					})
-			)
+					}),
+			),
 		);
 		console.log(`> [${folder}] download complete`);
 	}
@@ -325,7 +325,7 @@ async function buildEquipmentData() {
 				entry["flatAttack"],
 				entry["flatMaxHp"],
 				entry["flatSpeed"],
-				entry["accessoryStars"]
+				entry["accessoryStars"],
 			);
 			equipmentContent["Visible"] = entry["visible"] ? true : false;
 
@@ -366,7 +366,7 @@ async function buildWeaponData() {
 				entry["baseAttack"],
 				entry["baseMaxHp"],
 				0,
-				entry["evolvedStars"]
+				entry["evolvedStars"],
 			);
 			weaponContent["Visible"] = entry["visible"] ? true : false;
 
@@ -453,7 +453,7 @@ async function buildMonsterData() {
 				entry["baseAttack"],
 				entry["baseMaxHp"],
 				entry["speed"],
-				entry["evolvedStars"]
+				entry["evolvedStars"],
 			);
 			monsterContent["Visible"] = entry["visible"] ? true : false;
 
@@ -493,8 +493,8 @@ async function buildMonsterData() {
 						Number.isInteger(spiritCost) && spiritCost > 0
 							? `-${spiritCost}`
 							: Number.isInteger(spiritGain)
-							? `+${spiritGain}`
-							: "+0";
+								? `+${spiritGain}`
+								: "+0";
 
 					monsterContent["ActiveSkill"].push(skillDetail);
 				}
@@ -525,7 +525,7 @@ async function buildMonsterData() {
 								} else if (buffConfig[passiveSkillID]["tags"].includes("awkWep")) {
 									passiveBonus[passiveSkillID] = buffConfig[passiveSkillID]["behaviorOverrides"][0];
 									passiveBonus[passiveSkillID]["weaponPref"] = getWeaponTypeName(
-										passiveBonus[passiveSkillID]["weaponPref"]
+										passiveBonus[passiveSkillID]["weaponPref"],
 									);
 									awkBonusVisible[i] = passiveBonus[passiveSkillID];
 								}
@@ -711,6 +711,36 @@ async function checkFilesChanged() {
 	return false;
 }
 
+async function noteLastModified() {
+	const urls = {
+		config: "https://prd.evertaleserver.com/Prd300/Manifest.json",
+		asset: "https://prd.evertaleserver.com/Prd300/Android/hashes.json",
+		localization: "https://prd.evertaleserver.com/Prd300/Localization/FileHashes.json",
+	};
+
+	const lastUpdate = {
+		config: 0,
+		asset: 0,
+		localization: 0,
+		update: Date.now(),
+	};
+
+	await Promise.all(
+		Object.entries(urls).map(async ([type, url]) => {
+			try {
+				const response = await fetch(url, { method: "HEAD" });
+				const lastModified = response.headers.get("last-modified");
+
+				lastUpdate[type] = lastModified ? Date.parse(lastModified) : 0;
+			} catch {
+				lastUpdate[type] = 0;
+			}
+		}),
+	);
+
+	fs.writeFileSync("lastUpdate", JSON.stringify(lastUpdate, null, 4), "utf8");
+}
+
 async function main() {
 	const isManualRun = process.env.GITHUB_EVENT_NAME === "workflow_dispatch";
 
@@ -721,6 +751,7 @@ async function main() {
 
 	await downloadRequiredFiles();
 	await loadWholeData();
+	await noteLastModified();
 }
 
 main();
