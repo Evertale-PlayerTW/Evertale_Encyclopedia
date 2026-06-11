@@ -10316,6 +10316,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "공격력+2%"
             }
         }
     },
@@ -10637,6 +10648,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "공격력+2%"
             }
         }
     },
@@ -10940,6 +10962,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "공격력+2%"
             }
@@ -11256,6 +11289,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "공격력+2%"
             }
@@ -22556,6 +22600,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "공격력+2%"
             }
         }
     },
@@ -22767,6 +22822,17 @@
                     "PharaohLizard01",
                     "RedScarfFrog01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "공격력+2%"
             }
@@ -133279,7 +133345,7 @@
         "Hp_Base": 5990,
         "Speed": 518,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "막이 올랐습니다...\n나아가 봅시다, 무대가 우리를 부르고 있습니다!",
         "LeaderSkill": {
             "SkillTitle": "수속성  공격력 증가",
@@ -133413,6 +133479,19 @@
                         "IsThorRegular": 0.75
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "공격력+2%"
             }
         }
     },
@@ -133578,6 +133657,356 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "공격력+2%"
+            }
+        }
+    },
+    "LupinRegular01": {
+        "Name": "루팡",
+        "Name2": "달빛 괴도",
+        "FullName": "루팡 - 달빛 괴도",
+        "Profile": "루팡은 전 세계를 무대로 활약하는 대도이다.\n예술품과 국보에 대한 깊은 애정을 지닌 그녀는, 아무리 철통같은 보안이 갖춰져 있더라도 자신이 노린 목표물은 무엇이든 훔쳐낸다.\n또한 변장의 달인으로 알려진 그녀의 진짜 얼굴은 아무도 알지 못한다... 단 한 명을 제외하고는.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "엑스",
+        "forFilter_Element": "Death",
+        "Element": "암속성",
+        "Cost": 28,
+        "Atk_Base": 1201,
+        "Hp_Base": 5205,
+        "Speed": 703,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "오늘 밤, 이 도둑은... 당신의 마음을 훔칠 것이다!\n......죄송, 머릿속에서는 더 재밌었는데.",
+        "LeaderSkill": {
+            "SkillTitle": "암속성 공격력 및 HP 증가",
+            "SkillDescription": "아군 암속성 유닛 공격력 10%, 최대 HP 7% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "셋업",
+                "SkillDescription": "전장의 모든 적 유닛의 화염 상태 효과(메가 회복 화염 포함)를 제거한다. 사용자에게 충전, 슈퍼 스텔스, 스텔스 쉴드가 부여된다.\n\n그런 다음 모든 적에게 200TU 동안 메가 포이즌 상태 효과를 부여한다. 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n그런 다음 전장에 있는 중독 상태 적 1기당 적 팀으로부터 기력을 최대 2 빼앗는다.\n\n사용자에게 스텔스 상태 효과가 없는 경우 사용 가능하다. 이 스킬을 10TU 이내에 3회 사용하면 50TU 동안 잠긴다.\n\n메가 포이즌은 일반 포이즌의 20배 데미지를 주며, 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다. 특정 스킬은 충전 횟수에 영향을 받으며, 충전을 소모할 수 있다. 한 유닛은 최대 3회까지 충전할 수 있다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "스니키 샷",
+                "SkillDescription": "적 1기에 500% 데미지를 주고, 사용자에게 파워 충전이 부여된다. 입힌 총 데미지의 100%만큼 사용자를 회복시킨다. 이 공격은 가디언, 적의 모든 상태 효과, 데미지 감소 효과, 복수 패시브 스킬, 스킨 패시브 스킬을 무시한다. 이 공격으로 인한 데미지는 수면 상태인 적을 깨우지 않는다.\n\n사용자는 타겟이 이 공격으로 패배하더라도 적중한 타겟의 모든 원타임 수면 면역, 원타임 스턴 면역, 원타임 포이즌 면역, 원타임 즉사 면역을 빼앗는다. 그런 다음 빼앗은 각 면역 하나당 사용자의 현재 TU가 10TU씩 감소한다. 사용자가 스텔스 상태이거나 셋업이 잠긴 경우에 사용 가능하다.\n\n각 면역은 명명된 효과의 적용을 한 번 막은 다음 제거된다. 동일한 면역은 중첩되지 않는다. 원타임 즉사 면역은 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막은 다음 사라진다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다. 사용자가 이미 해당 면역을 가지고 있더라도 빼앗은 면역은 타겟에게서 제거된다.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "궁극의 강도극",
+                "SkillDescription": "모든 적에게 600% 데미지. 사용자가 전장에서 100TU 이상 생존한 경우 750% 데미지. 사용자가 전장에서 200TU 이상 생존한 경우 900% 데미지. 이 공격은 데미지 감소 효과, 보스가 아닌 적이 지닌 타겟의 패배를 막는 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다.\n\n그런 다음 현재 턴 수를 감소시켜 다른 모든 아군에게 즉시 다음 턴을 부여한다. 턴을 부여하는 액티브 스킬은 해당 유닛이 턴을 사용하기 전까지 사용할 수 없다.\n\n사용자가 충전을 3회 보유한 경우에만 사용 가능하다. 사용자의 모든 충전을 소모한다.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "괴도",
+                "SkillDescription": "이 유닛은 중독이나 화염 상태가 되지 않는다.\n\n전장의 적이 어떤 원인에 의해서든 패배하거나 희생될 때마다, 이 유닛은 20% 확률에 각성 1회당 20%씩 추가되어 (이 유닛이 각성 4회 보유시 최대 100%) 즉시 TU가 0으로 감소한다.\n\n이 유닛은 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 정화되고 최대 HP의 25%를 회복한다. 이 유닛은 공격으로 인한 데미지가 35% 감소한다. 이 유닛이 면역(예: 원타임 즉사 면역, 원타임 수면 면역)을 가진 경우 공격으로 인한 데미지가 70% 감소한다."
+            },
+            {
+                "SkillTitle": "사전 플랜",
+                "SkillDescription": "이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 원타임 수면 면역, 원타임 스턴 면역, 원타임 즉사 면역을 가지고 전투에 진입한다.\n\n이 유닛은 슈퍼 스텔스 상태 효과와 스텔스 쉴드를 얻는다. 이 유닛이 증원군에서 전장에 진입할 때 발동된다.\n\n슈퍼 스텔스는 다른 상태 효과를 덮어쓴다. 슈퍼 스텔스 상태 유닛은 타겟 1기 이상에 데미지를 주는 적의 공격을 무시한다. 슈퍼 스텔스는 적용 후 적 공격을 3회 무시하면 제거되며, 일반 스텔스를 제외한 다른 상태 효과로 덮어쓸 수 있다. 데미지는 슈퍼 스텔스를 제거하지 않는다. 스텔스 쉴드는 유닛이 스텔스 상태인 동안 얻게 될 다음 비스텔스 상태 효과의 적용을 막는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "검 저항 Lv3",
+                "SkillDescription": "검 장착 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "검"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "자정이 되면―\n나, 괴도 루팡이 당신의 가장 소중한 보물을 훔치러 올 것이다!\n\n보아라, 루팡의 명품 도둑질을! 다시 말해, “쇼타임!”"
+            ],
+            "Login": [
+                "나 같은 대도는 시간을 엄수해야 하지. 결국, 내가 직접 공표한 절도 사건의 날짜와 시간을 놓치는 건 창피한 일이니까♪\n그러니 어서, 할 일이 있다면 빨리 끝내 버리자구!"
+            ],
+            "Tap": [
+                "내가 정말로 싫어하는 게 두 가지 있어. 첫째는 경비병들... 내 일에 방해가 되니까. 그리고 둘째는... 지루함이야!",
+                "다음 목표는 뭘로 할까? 동쪽의 거대한 제국에 속한 고대 장식용 검? 아니면 북쪽 땅 어딘가에 묻혀 있는 보석 박힌 왕관?\n흐으으음ㅁ... 결정... 결정이...",
+                "오, 발레 얘기를 하고 있었어? 글쎄, 난 발레에 대해 한두 가지는 알고 있어! ...비록 내가 직접 할 수는 없지만 말야... 난 엄밀히 말해 관객이거든."
+            ],
+            "Idle": [
+                "오, 쉬ㅣㅣㅣㅣ잇! 조용, 경비병이 이쪽으로 오고 있어...\n휴우, 아슬아슬했네... 잠깐만, 내가 지금 법을 어기고 있는 건 아니잖아... 경비병 주위에서 항상 경계하는 건 그냥 내 직업병인가 봐."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "셋업": {
+                    "BaseWeight": 1000
+                },
+                "스니키 샷": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "궁극의 강도극": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "공격력+2%"
+            }
+        }
+    },
+    "LupinRegular02": {
+        "Name": "루팡",
+        "Name2": "달빛 괴도",
+        "FullName": "루팡 - 달빛 괴도",
+        "Profile": "3년 전, 그녀는 \"백조 왕관\"으로 알려진 국보를 훔치기 위해 벨문트 왕국에 잠입했다. 마지막 봉인을 깰 수 없어 패배를 인정하고 철수하려던 찰나, 당시 공주였던 빅토리아가 도움을 제안했다. 그녀의 도움으로 절도는 성공적이었다.\n그날 이후, 루팡은 미래의 여왕을 자신의 유일한 \"공범님\"이라 부르기 시작했다.",
+        "Profile_Ascended": "루팡은 항상 발레를 사랑했었고, 어느 날 우연히 왕립 발레단의 공연을 관람하게 되었다. 무대 위의 <i>그녀</i>를 본 순간, 루팡은 완전히 매료되었다.\n깃털처럼 가벼운 움직임, 우아한 발걸음, 그리고 순간적으로 스치는 섬세한 표정—그녀는 무대의 중앙에서 빛나는 별이었다. 그날로부터 루팡은 열렬한 팬이 되어, 그녀 공범님 의 정기 공연을 단 한 번도 놓치지 않았다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "엑스",
+        "forFilter_Element": "Death",
+        "Element": "암속성",
+        "Cost": 34,
+        "Atk_Base": 1542,
+        "Hp_Base": 6710,
+        "Speed": 703,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "암속성 공격력 및 HP 증가",
+            "SkillDescription": "아군 암속성 유닛 공격력 10%, 최대 HP 7% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "셋업",
+                "SkillDescription": "전장의 모든 적 유닛의 화염 상태 효과(메가 회복 화염 포함)를 제거한다. 사용자에게 충전, 슈퍼 스텔스, 스텔스 쉴드가 부여된다.\n\n그런 다음 모든 적에게 200TU 동안 메가 포이즌 상태 효과를 부여한다. 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n그런 다음 전장에 있는 중독 상태 적 1기당 적 팀으로부터 기력을 최대 2 빼앗는다.\n\n사용자에게 스텔스 상태 효과가 없는 경우 사용 가능하다. 이 스킬을 10TU 이내에 3회 사용하면 50TU 동안 잠긴다.\n\n메가 포이즌은 일반 포이즌의 20배 데미지를 주며, 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다. 특정 스킬은 충전 횟수에 영향을 받으며, 충전을 소모할 수 있다. 한 유닛은 최대 3회까지 충전할 수 있다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "스니키 샷",
+                "SkillDescription": "적 1기에 500% 데미지를 주고, 사용자에게 파워 충전이 부여된다. 입힌 총 데미지의 100%만큼 사용자를 회복시킨다. 이 공격은 가디언, 적의 모든 상태 효과, 데미지 감소 효과, 복수 패시브 스킬, 스킨 패시브 스킬을 무시한다. 이 공격으로 인한 데미지는 수면 상태인 적을 깨우지 않는다.\n\n사용자는 타겟이 이 공격으로 패배하더라도 적중한 타겟의 모든 원타임 수면 면역, 원타임 스턴 면역, 원타임 포이즌 면역, 원타임 즉사 면역을 빼앗는다. 그런 다음 빼앗은 각 면역 하나당 사용자의 현재 TU가 10TU씩 감소한다. 사용자가 스텔스 상태이거나 셋업이 잠긴 경우에 사용 가능하다.\n\n각 면역은 명명된 효과의 적용을 한 번 막은 다음 제거된다. 동일한 면역은 중첩되지 않는다. 원타임 즉사 면역은 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막은 다음 사라진다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다. 사용자가 이미 해당 면역을 가지고 있더라도 빼앗은 면역은 타겟에게서 제거된다.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "궁극의 강도극",
+                "SkillDescription": "모든 적에게 600% 데미지. 사용자가 전장에서 100TU 이상 생존한 경우 750% 데미지. 사용자가 전장에서 200TU 이상 생존한 경우 900% 데미지. 이 공격은 데미지 감소 효과, 보스가 아닌 적이 지닌 타겟의 패배를 막는 효과, 스킨 패시브 스킬, 카운터 스탠스 상태 효과를 무시한다.\n\n그런 다음 현재 턴 수를 감소시켜 다른 모든 아군에게 즉시 다음 턴을 부여한다. 턴을 부여하는 액티브 스킬은 해당 유닛이 턴을 사용하기 전까지 사용할 수 없다.\n\n사용자가 충전을 3회 보유한 경우에만 사용 가능하다. 사용자의 모든 충전을 소모한다.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "백업 플랜",
+                "SkillDescription": "전장의 모든 아군을 최대 HP의 100%만큼 회복시키고 정화한다(수면, 화염, 중독 같은 부정적인 상태 효과 제거).\n\n사용자에게 원타임 수면 면역, 원타임 스턴 면역, 원타임 즉사 면역, 충전 3회가 부여되고, 팬텀 폼에 들어간다. 그런 다음 전장에 소환되지 않은 아군이 2기 이상 있을 경우, 사용자는 아군 증원군 끝에 루팡을 1기 추가한다. 이 루팡의 레벨, 한계 돌파, 각성, 부스트, 잠재력, 마스터리, 무기와 액세서리는 사용자에 맞춰진다.\n\n전장에 있는 아군 최소 1기의 최대 HP가 50% 미만이거나, 이 유닛이 전장에 있는 동안 소환되지 않은 아군이 어떤 원인에 의해 패배하거나 희생되었을 경우 사용 가능하다. 전투당 1회 사용 가능.\n\n팬텀 폼인 동안 사용자의 공격력이 1.5배 증가하고, 액티브 스킬의 TU 코스트가 50% 감소한다. 이 공격력 증가는 격분 효과와 중첩되지 않는다. 가속 효과는 이 유닛의 TU 코스트를 추가로 감소시키지 않는다. 이 효과만으로는 TU 코스트를 1TU 미만으로 줄일 수 없다.",
+                "TU": 25,
+                "Spirit": "+4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "괴도",
+                "SkillDescription": "이 유닛은 중독이나 화염 상태가 되지 않는다.\n\n전장의 적이 어떤 원인에 의해서든 패배하거나 희생될 때마다, 이 유닛은 20% 확률에 각성 1회당 20%씩 추가되어 (이 유닛이 각성 4회 보유시 최대 100%) 즉시 TU가 0으로 감소한다.\n\n이 유닛은 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 정화되고 최대 HP의 25%를 회복한다. 이 유닛은 공격으로 인한 데미지가 35% 감소한다. 이 유닛이 면역(예: 원타임 즉사 면역, 원타임 수면 면역)을 가진 경우 공격으로 인한 데미지가 70% 감소한다."
+            },
+            {
+                "SkillTitle": "사전 플랜",
+                "SkillDescription": "이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 원타임 수면 면역, 원타임 스턴 면역, 원타임 즉사 면역을 가지고 전투에 진입한다.\n\n이 유닛은 슈퍼 스텔스 상태 효과와 스텔스 쉴드를 얻는다. 이 유닛이 증원군에서 전장에 진입할 때 발동된다.\n\n슈퍼 스텔스는 다른 상태 효과를 덮어쓴다. 슈퍼 스텔스 상태 유닛은 타겟 1기 이상에 데미지를 주는 적의 공격을 무시한다. 슈퍼 스텔스는 적용 후 적 공격을 3회 무시하면 제거되며, 일반 스텔스를 제외한 다른 상태 효과로 덮어쓸 수 있다. 데미지는 슈퍼 스텔스를 제거하지 않는다. 스텔스 쉴드는 유닛이 스텔스 상태인 동안 얻게 될 다음 비스텔스 상태 효과의 적용을 막는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "검 저항 Lv3",
+                "SkillDescription": "검 장착 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "검"
+            }
+        },
+        "Conjures": [
+            "LupinRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "자정이 되면―\n나, 괴도 루팡이 당신의 가장 소중한 보물을 훔치러 올 것이다!\n\n보아라, 루팡의 명품 도둑질을! 다시 말해, “쇼타임!”"
+            ],
+            "Login": [
+                "나 같은 대도는 시간을 엄수해야 하지. 결국, 내가 직접 공표한 절도 사건의 날짜와 시간을 놓치는 건 창피한 일이니까♪\n그러니 어서, 할 일이 있다면 빨리 끝내 버리자구!"
+            ],
+            "Tap": [
+                "내가 정말로 싫어하는 게 두 가지 있어. 첫째는 경비병들... 내 일에 방해가 되니까. 그리고 둘째는... 지루함이야!",
+                "다음 목표는 뭘로 할까? 동쪽의 거대한 제국에 속한 고대 장식용 검? 아니면 북쪽 땅 어딘가에 묻혀 있는 보석 박힌 왕관?\n흐으으음ㅁ... 결정... 결정이...",
+                "오, 발레 얘기를 하고 있었어? 글쎄, 난 발레에 대해 한두 가지는 알고 있어! ...비록 내가 직접 할 수는 없지만 말야... 난 엄밀히 말해 관객이거든."
+            ],
+            "Idle": [
+                "오, 쉬ㅣㅣㅣㅣ잇! 조용, 경비병이 이쪽으로 오고 있어...\n휴우, 아슬아슬했네... 잠깐만, 내가 지금 법을 어기고 있는 건 아니잖아... 경비병 주위에서 항상 경계하는 건 그냥 내 직업병인가 봐."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "셋업": {
+                    "BaseWeight": 1000
+                },
+                "스니키 샷": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "궁극의 강도극": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "백업 플랜": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "공범들",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "공격력+2%"
+            }
+        }
     }
 }

@@ -10316,6 +10316,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -10637,6 +10648,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -10940,6 +10962,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -11256,6 +11289,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -22556,6 +22600,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -22767,6 +22822,17 @@
                     "PharaohLizard01",
                     "RedScarfFrog01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -133279,7 +133345,7 @@
         "Hp_Base": 5990,
         "Speed": 518,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Se ha levantado el telón...\n¡Adelante, el escenario nos llama!",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Agua",
@@ -133413,6 +133479,19 @@
                         "IsThorRegular": 0.75
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -133578,6 +133657,356 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "LupinRegular01": {
+        "Name": "Lupin",
+        "Name2": "Ladrona Fantasma de la Luna",
+        "FullName": "Lupin - Ladrona Fantasma de la Luna",
+        "Profile": "Lupin es una maestra ladrona cuyas hazañas se extienden por todo el mundo.\nCon una profunda pasión por las obras de arte y los tesoros nacionales, roba cualquier objetivo que se proponga, sin importar que su seguridad sea impenetrable.\nTambién es conocida como una maestra del disfraz, y nadie conoce su verdadero rostro... excepto una persona.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hacha",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 28,
+        "Atk_Base": 1201,
+        "Hp_Base": 5205,
+        "Speed": 703,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡Esta noche, esta ladrona robará... tu corazón!\n...Lo siento, en mi cabeza sonaba más gracioso.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Oscuro",
+            "SkillDescription": "Las unidades Oscuras aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "La Trampa",
+                "SkillDescription": "Elimina todos los efectos de estado de Quemado (incluido Mega Quemado Sanador) de las unidades enemigas en el campo de batalla. El usuario obtiene Carga, Súper Sigilo y Escudo Sigilo.\n\nLuego, aplica el efecto de estado Mega Veneno a todos los enemigos durante 200TU. Este efecto sobrescribirá otros efectos de estado en dichas unidades.\n\nAdemás, roba hasta 2 de Espíritu del equipo enemigo por cada enemigo envenenado en el campo de batalla.\n\nSe puede usar si el usuario no tiene el efecto de estado de Sigilo. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 50TU.\n\nMega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni por Súper Veneno. Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Disparo Sigiloso",
+                "SkillDescription": "Inflige un 500% de daño a un enemigo y otorga al usuario una Carga. Cura al usuario el 100% del daño total infligido. Este ataque ignora a los Guardianes, cualquier efecto de estado enemigo, efectos de reducción de daño, habilidades pasivas de venganza y habilidades pasivas de Piel. El daño de este ataque no despierta a los enemigos dormidos.\n\nEl usuario roba todos los Guarda Sueño, Guarda Aturdir, Guarda Veneno y Guarda Muerte Instantánea del objetivo golpeado, incluso si este es derrotado por este ataque. Luego, el usuario ve reducidas sus TU actuales en 10TU por cada tipo de Guarda robado. Se puede usar si el usuario tiene Sigilo o si La Trampa está bloqueada.\n\nCada Guarda impide que su efecto nombrado se aplique una vez, luego se elimina. Los Guarda idénticos no se pueden acumular. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Los Guardas robados se eliminarán del objetivo incluso si el usuario ya los tenía.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "El Robo Definitivo",
+                "SkillDescription": "600% de daño a todos los enemigos. 750% de daño si el usuario ha sobrevivido 100TU o más en el campo de batalla. 900% de daño si el usuario ha sobrevivido 200TU o más en el campo de batalla. Este ataque ignora los efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida que el objetivo sea derrotado, habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nLuego, otorga inmediatamente los siguientes turnos a todos los demás aliados reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta que hayan tenido su turno.\n\nSólo se pude utilizar si el usuario tiene 3 cargas almacenadas. Consume todas las Cargas del usuario.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ladrona Fantasma",
+                "SkillDescription": "Esta unidad no puede ser envenenada ni quemada.\n\nSiempre que un enemigo en el campo de batalla sea derrotado o sacrificado por cualquier causa, esta unidad tiene un 20% de probabilidad, más un 20% por cada Despertar (hasta un 100% si tiene 4 Despertares), de que sus TU se reduzcan inmediatamente a 0.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se purifica y recupera un 25% de sus HP máximos. Esta unidad tiene una reducción de daño del 35% contra ataques. En cambio, tiene una reducción de daño del 70% contra ataques si posee algún Guarda (por ejemplo, Guarda Muerte Instantánea o Guarda Sueño)."
+            },
+            {
+                "SkillTitle": "Planificación",
+                "SkillDescription": "Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad entra en combate con un Guarda Sueño, un Guarda Aturdir y un Guarda Muerte instantánea.\n\nEsta unidad obtiene el efecto de estado Super Sigilo y un Escudo Sigilo. Se activa cuando esta unidad entra al campo de batalla desde los refuerzos.\n\nSuper Sigilo anula otros efectos de estado. Las unidades con Super Sigilo ignoran los ataques enemigos que dañarían a más de un objetivo. Super Sigilo se elimina tras ignorar 3 ataques enemigos desde su aplicación y puede ser anulado por otros efectos de estado, excepto el Sigilo normal. El daño no elimina Super Sigilo. Los Escudos de Sigilo impiden que se aplique el siguiente efecto de estado que una unidad pudiera obtener mientras está en sigilo."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Cuando el reloj marque la medianoche...\n¡Yo, Lupin, la Ladrona Fantasma, vendré a robar tu tesoro más preciado!\n\n¡Contemplen el magistral robo de Lupin! En otras palabras, \"¡que empiece el espectáculo!\""
+            ],
+            "Login": [
+                "Una maestra ladrona como yo debe ser puntual. Después de todo, sería vergonzoso perderme un robo que yo misma anuncié♪\nAsí que, si tenemos trabajo que hacer, ¡acabemos con esto de una vez!"
+            ],
+            "Tap": [
+                "Hay dos cosas que detesto profundamente. Primero, los guardias... me estorban. Y segundo... ¡el aburrimiento!",
+                "¿Cuál debería ser mi próximo objetivo? ¿Una antigua espada ornamental perteneciente a un vasto imperio del este? ¿O una corona enjoyada enterrada en algún lugar de las tierras del norte?\nHmm... ¡Qué difícil decisión!",
+                "Oh, ¿hablabas de ballet? ¡Pues resulta que sé un par de cosas sobre ballet! ...Aunque no puedo hacer nada yo misma... Soy simplemente una espectadora."
+            ],
+            "Idle": [
+                "¡Oh, shhhhhhhh! Silencio, viene un guardia...\nUff, ¡qué susto! Un momento, no estoy infringiendo ninguna ley ahora mismo... Supongo que estar siempre alerta con los guardias es algo natural en mi línea de trabajo."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "La Trampa": {
+                    "BaseWeight": 1000
+                },
+                "Disparo Sigiloso": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "El Robo Definitivo": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "LupinRegular02": {
+        "Name": "Lupin",
+        "Name2": "Ladrona Fantasma de la Luna",
+        "FullName": "Lupin - Ladrona Fantasma de la Luna",
+        "Profile": "Hace tres años se infiltró en el Reino de Wellmund en busca del tesoro nacional conocido como la \"Corona del Cisne\". Incapaz de romper el último sello, se disponía a retirarse derrotada cuando Victoria, aún princesa en ese momento, le ofreció su ayuda. Con su apoyo, el robo fue un éxito.\nDesde ese día, Lupin comenzó a referirse a la futura reina como su única \"cómplice\".",
+        "Profile_Ascended": "A Lupin siempre le había encantado el ballet, y un día tuvo la oportunidad de asistir a una función del Ballet Real. En cuanto <i>la vio</i> en el escenario, Lupin quedó completamente cautivada.\nMovimientos ligeros como una pluma, pasos gráciles y una expresión fugazmente delicada... era la estrella brillante en el centro del escenario.\nDesde ese día, Lupin se convirtió en una ferviente admiradora, sin perderse ni una sola función de su \"cómplice\".",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hacha",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 34,
+        "Atk_Base": 1542,
+        "Hp_Base": 6710,
+        "Speed": 703,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Oscuro",
+            "SkillDescription": "Las unidades Oscuras aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "La Trampa",
+                "SkillDescription": "Elimina todos los efectos de estado de Quemado (incluido Mega Quemado Sanador) de las unidades enemigas en el campo de batalla. El usuario obtiene Carga, Súper Sigilo y Escudo Sigilo.\n\nLuego, aplica el efecto de estado Mega Veneno a todos los enemigos durante 200TU. Este efecto sobrescribirá otros efectos de estado en dichas unidades.\n\nAdemás, roba hasta 2 de Espíritu del equipo enemigo por cada enemigo envenenado en el campo de batalla.\n\nSe puede usar si el usuario no tiene el efecto de estado de Sigilo. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 50TU.\n\nMega Veneno inflige 20 veces el daño del Veneno normal y no puede ser sobrescrito por Veneno normal ni por Súper Veneno. Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Disparo Sigiloso",
+                "SkillDescription": "Inflige un 500% de daño a un enemigo y otorga al usuario una Carga. Cura al usuario el 100% del daño total infligido. Este ataque ignora a los Guardianes, cualquier efecto de estado enemigo, efectos de reducción de daño, habilidades pasivas de venganza y habilidades pasivas de Piel. El daño de este ataque no despierta a los enemigos dormidos.\n\nEl usuario roba todos los Guarda Sueño, Guarda Aturdir, Guarda Veneno y Guarda Muerte Instantánea del objetivo golpeado, incluso si este es derrotado por este ataque. Luego, el usuario ve reducidas sus TU actuales en 10TU por cada tipo de Guarda robado. Se puede usar si el usuario tiene Sigilo o si La Trampa está bloqueada.\n\nCada Guarda impide que su efecto nombrado se aplique una vez, luego se elimina. Los Guarda idénticos no se pueden acumular. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Los Guardas robados se eliminarán del objetivo incluso si el usuario ya los tenía.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "El Robo Definitivo",
+                "SkillDescription": "600% de daño a todos los enemigos. 750% de daño si el usuario ha sobrevivido 100TU o más en el campo de batalla. 900% de daño si el usuario ha sobrevivido 200TU o más en el campo de batalla. Este ataque ignora los efectos de reducción de daño, cualquier efecto de enemigos que no sean jefes que impida que el objetivo sea derrotado, habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nLuego, otorga inmediatamente los siguientes turnos a todos los demás aliados reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta que hayan tenido su turno.\n\nSólo se pude utilizar si el usuario tiene 3 cargas almacenadas. Consume todas las Cargas del usuario.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Plan de Respaldo",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla al 100% de su HP máximo y los Purifica (elimina efectos de estado negativos como sueño, quemado o veneno).\n\nEl usuario obtiene un Guarda Sueño, un Guarda Aturdir, un Guarda Muerte Instantánea, 3 Cargas y entra en Forma Fantasma. Si hay dos o más aliados no invocados en el campo de batalla, el usuario añade otra Lupin al final de los refuerzos aliados. El nivel, los límites, los despertares, los pluses, el potencial, la maestría, el arma y el accesorio de esta Lupin coincidirán con los del usuario.\n\nUtilizable si al menos un aliado en el campo de batalla tiene menos del 50% de su HP máximo o si un aliado no invocado en el campo de batalla es derrotado o sacrificado por cualquier causa mientras esta unidad está en el campo de batalla. Se puede usar una vez por batalla.\n\nMientras está en Forma Fantasma, el Ataque del usuario aumenta a 1.5x y el costo de TU de su Habilidad Activa se reduce en un 50%. Este aumento de Ataque no se acumula con los efectos de Enfurecer. Los efectos de Acelerar no reducen aún más el coste de TU de esta unidad. Esto por sí solo no reduce el costo de TU a menos de 1TU.",
+                "TU": 25,
+                "Spirit": "+4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ladrona Fantasma",
+                "SkillDescription": "Esta unidad no puede ser envenenada ni quemada.\n\nSiempre que un enemigo en el campo de batalla sea derrotado o sacrificado por cualquier causa, esta unidad tiene un 20% de probabilidad, más un 20% por cada Despertar (hasta un 100% si tiene 4 Despertares), de que sus TU se reduzcan inmediatamente a 0.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se purifica y recupera un 25% de sus HP máximos. Esta unidad tiene una reducción de daño del 35% contra ataques. En cambio, tiene una reducción de daño del 70% contra ataques si posee algún Guarda (por ejemplo, Guarda Muerte Instantánea o Guarda Sueño)."
+            },
+            {
+                "SkillTitle": "Planificación",
+                "SkillDescription": "Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad entra en combate con un Guarda Sueño, un Guarda Aturdir y un Guarda Muerte instantánea.\n\nEsta unidad obtiene el efecto de estado Super Sigilo y un Escudo Sigilo. Se activa cuando esta unidad entra al campo de batalla desde los refuerzos.\n\nSuper Sigilo anula otros efectos de estado. Las unidades con Super Sigilo ignoran los ataques enemigos que dañarían a más de un objetivo. Super Sigilo se elimina tras ignorar 3 ataques enemigos desde su aplicación y puede ser anulado por otros efectos de estado, excepto el Sigilo normal. El daño no elimina Super Sigilo. Los Escudos de Sigilo impiden que se aplique el siguiente efecto de estado que una unidad pudiera obtener mientras está en sigilo."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Conjures": [
+            "LupinRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Cuando el reloj marque la medianoche...\n¡Yo, Lupin, la Ladrona Fantasma, vendré a robar tu tesoro más preciado!\n\n¡Contemplen el magistral robo de Lupin! En otras palabras, \"¡que empiece el espectáculo!\""
+            ],
+            "Login": [
+                "Una maestra ladrona como yo debe ser puntual. Después de todo, sería vergonzoso perderme un robo que yo misma anuncié♪\nAsí que, si tenemos trabajo que hacer, ¡acabemos con esto de una vez!"
+            ],
+            "Tap": [
+                "Hay dos cosas que detesto profundamente. Primero, los guardias... me estorban. Y segundo... ¡el aburrimiento!",
+                "¿Cuál debería ser mi próximo objetivo? ¿Una antigua espada ornamental perteneciente a un vasto imperio del este? ¿O una corona enjoyada enterrada en algún lugar de las tierras del norte?\nHmm... ¡Qué difícil decisión!",
+                "Oh, ¿hablabas de ballet? ¡Pues resulta que sé un par de cosas sobre ballet! ...Aunque no puedo hacer nada yo misma... Soy simplemente una espectadora."
+            ],
+            "Idle": [
+                "¡Oh, shhhhhhhh! Silencio, viene un guardia...\nUff, ¡qué susto! Un momento, no estoy infringiendo ninguna ley ahora mismo... Supongo que estar siempre alerta con los guardias es algo natural en mi línea de trabajo."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "La Trampa": {
+                    "BaseWeight": 1000
+                },
+                "Disparo Sigiloso": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "El Robo Definitivo": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Plan de Respaldo": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Cómplices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

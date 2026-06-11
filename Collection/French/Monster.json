@@ -10316,6 +10316,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -10637,6 +10648,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -10940,6 +10962,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -11256,6 +11289,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -22556,6 +22600,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -22767,6 +22822,17 @@
                     "PharaohLizard01",
                     "RedScarfFrog01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
             }
@@ -133279,7 +133345,7 @@
         "Hp_Base": 5990,
         "Speed": 518,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Les rideaux se lèvent...\nAvançons-donc ! La scène nous appelle !",
         "LeaderSkill": {
             "SkillTitle": "Eau ATT+",
@@ -133413,6 +133479,19 @@
                         "IsThorRegular": 0.75
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
             }
         }
     },
@@ -133578,6 +133657,356 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "LupinRegular01": {
+        "Name": "Lupin",
+        "Name2": "Gentleman voleur de la lune",
+        "FullName": "Lupin - Gentleman voleur de la lune",
+        "Profile": "Lupin est un maître voleur dont les exploits s'étendent sur le monde entier.\nAvec un amour profond pour les oeuvres d'art et les trésors nationaux, elle vole toute cible qu'elle vise––Peu importe à quel point sa sécurité semble impénétrable.\nElle est aussi connue pour sa maîtrise du déguisement, et personne ne connait son vrai visage... À l'exception d'une personne.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hache",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 28,
+        "Atk_Base": 1201,
+        "Hp_Base": 5205,
+        "Speed": 703,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Ce coir, ce voleur va vous voler... Votre coeur !\n......Désolée, c'était plus marrant dans ma tête.",
+        "LeaderSkill": {
+            "SkillTitle": "Obscurité ATT & PV+",
+            "SkillDescription": "Les alliés Obscurité voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Coup Monté",
+                "SkillDescription": "Retire tous les effets de statut de Brûlure (y compris la Méga Brûlure Soin) de toutes les unités ennemis du champ de bataille. L'utilisateur gagne une Charge, la Super Furtivité, et un Bouclier Furtif.\n\nPuis inflige l'effet de statut de Méga Poison à tous les ennemis pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis vole jusqu'à 2 Essences à l'équipe ennemie par ennemi empoisonné sur le champ de bataille.\n\nUtilisable si le lanceur ne possède pas l'effet de statut de Furtivité. Cette compétence se verrouille pendant 50TU si elle est utilisée 3 fois durant 10TU.\n\nLe Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Coup Sournois",
+                "SkillDescription": "500% de dégâts à 1 ennemi, et l'utilisateur gagne une Charge. Soigne l'utilisateur d'une valeur de 100% des dégâts totaux infligés. Cette attaque ignore les Gardiens, tout effet de statut ennemi, les effets de réduction de dégâts, les compétences passives de Vengeance et de Reflet. Les dégâts de cette attaque ne réveilleront pas les ennemis endormis.\n\nL'utilisateur retire toutes les Protections Sommeil, Protections Étourdissement, Protections Poison et Protections Mort Instantanée de la cible touchée même elle est vaincue par cette attaque. Puis les TU actuels de l'utilisateur sont réduits de 10TU par le nombre de types de Protections volées. Utilisable si le lanceur est Furtif ou si Coup Monté est verrouillé.\n\nChaque Protection empêche un fois l'application de son effet nommé, puis est retirée. Les Protections Identiques ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Les Protections volées seront tout de même retirées de la cible même si l'utilisateur les possède déjà.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Ultime Braquage",
+                "SkillDescription": "600% de dégâts à tous les ennemis. 750% de dégâts à la place si le lanceur a survécu pendant 100TU voir davantage sur le champ de bataille. 900% de dégâts à la place si le lanceur a survécu pendant 200TU voire davantage sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nPuis tous les alliés gagnent immédiatement les prochains tours en réduisant leurs TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour.\n\nUtilisable seulement si le lanceur possède 3 Charges conservées. Consomme toutes les Charges sur l'utilisateur.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Voleur Fantôme",
+                "SkillDescription": "Cette unité ne peut être empoisonnée ou brûlée.\n\nChaque fois qu'un ennemi du champ de bataille est vaincu ou sacrifié par une source quelconque, cette unité a 20% de chance, et 20% de plus par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que ses TU soient immédiatement réduits à 0.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle sera Purifiée et soignée de 25% de ses PV max. Cette unité bénéficie d'une réduction de 35% des dégâts provenant d'attaques. Cette unité bénéficie d'une réduction de 70% des dégâts provenant d'attaques à la place si cette unité possède une Protection quelconque (p. ex. Une Protection Mort Instantanée, une Protection Sommeil)."
+            },
+            {
+                "SkillTitle": "Anticipation",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité entre en bataille avec une Protection Sommeil, une Protection Étourdissement, et une Protection Mort Instantanée.\n\nCette unité gagne l'effet de statut de Super Furtivité et un Bouclier Furtif. Se déclenche lorsque cette unité entre sur le champ de bataille depuis les renforts.\n\nLa Super Furtivité remplacera les autres effets de statut. Les unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité. Les Boucliers Furtifs empêchent l'application du prochain effet de statut non-furtivité qu'une unité gagnerait lorsqu'elle est Furtive."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Épée LV3",
+                "SkillDescription": "10% moins de dégâts des attaques des unités équipées d'une Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Aux douze coups de minuit––\nMoi, Lupin, Gentleman Voleur, viendra m'emparer de votre trésor le plus précieux !\n\nAssistez au braquage virtuose de Lupin ! Autrement dit : « C'est l'heure du spectacle ! »"
+            ],
+            "Login": [
+                "Un maître voleur comme moi doit être ponctuel. Après tout, ça serait la honte de manquer l'heure et la date d'un vol que j'ai annoncé moi-même ♪\nDonc allez, si on a du travail à faire, finissons-en vite !"
+            ],
+            "Tap": [
+                "Il y a deux choses que je méprise de tout mon coeur. D'abord, ce sont les gardes... Ils gênent mon art. Et ensuite... C'est l'ennui !",
+                "Que devrait être ma prochaine cible ? Une ancienne épée décorative appartenant à un vaste empire de l'est ? Ou une couronne ornée de bijoux enterrée quelque part dans les terres du nord ?\nHmmm, que de bonnes décisions...",
+                "Oh, parlais-tu de ballet ? Et bien, il s'avère que je connaisse une ou deux choses à propos de ballet !... Bien que je ne sais pas le danser moi-même... Je fais strictement partie du public."
+            ],
+            "Idle": [
+                "Oh, chuuuut ! Silence, un garde arrive par ici...\nPfiou, on l'a échappé belle... Attends une minute... Je ne fais aucune infraction à la loi en ce moment... Je suppose qu'être toujours vigilante quand il s'agît de gardes va simplement avec le métier."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "Coup Monté": {
+                    "BaseWeight": 1000
+                },
+                "Coup Sournois": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "Ultime Braquage": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
+    },
+    "LupinRegular02": {
+        "Name": "Lupin",
+        "Name2": "Gentleman voleur de la lune",
+        "FullName": "Lupin - Gentleman voleur de la lune",
+        "Profile": "Il y a trois ans, elle s'infiltra au sein du royaume de Wellmund à la recherche du trésor national connu sous ce nom : « La couronne du cygne. » Incapable de briser le dernier verrou, elle se préparait tout juste de se retirer, vaincue, lorsque Victoria, jadis encore une princesse, lui offrit son aide. Avec son soutien, le vol fut réussi.\nDepuis ce jour, Lupin commença à appeler la future reine : « Mon unique et seule complice » .",
+        "Profile_Ascended": "Lupin avait toujours adoré le ballet, et un jour elle assista à une performance de la troupe du Ballet Royal. Lupin fut totalement captivée au moment où elle <i>la</i> vit sur scène.\nDes mouvements aussi légers qu'une plume, des pas si gracieux, et tout cela avec une expression fugacement délicate––C'était l'étoile brillante au centre de la scène.\nDepuis ce jour, Lupin devint une fan passionnée, ne ratant jamais une performance régulière de sa « complice » .",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hache",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 34,
+        "Atk_Base": 1542,
+        "Hp_Base": 6710,
+        "Speed": 703,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Obscurité ATT & PV+",
+            "SkillDescription": "Les alliés Obscurité voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Coup Monté",
+                "SkillDescription": "Retire tous les effets de statut de Brûlure (y compris la Méga Brûlure Soin) de toutes les unités ennemis du champ de bataille. L'utilisateur gagne une Charge, la Super Furtivité, et un Bouclier Furtif.\n\nPuis inflige l'effet de statut de Méga Poison à tous les ennemis pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis vole jusqu'à 2 Essences à l'équipe ennemie par ennemi empoisonné sur le champ de bataille.\n\nUtilisable si le lanceur ne possède pas l'effet de statut de Furtivité. Cette compétence se verrouille pendant 50TU si elle est utilisée 3 fois durant 10TU.\n\nLe Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Coup Sournois",
+                "SkillDescription": "500% de dégâts à 1 ennemi, et l'utilisateur gagne une Charge. Soigne l'utilisateur d'une valeur de 100% des dégâts totaux infligés. Cette attaque ignore les Gardiens, tout effet de statut ennemi, les effets de réduction de dégâts, les compétences passives de Vengeance et de Reflet. Les dégâts de cette attaque ne réveilleront pas les ennemis endormis.\n\nL'utilisateur retire toutes les Protections Sommeil, Protections Étourdissement, Protections Poison et Protections Mort Instantanée de la cible touchée même elle est vaincue par cette attaque. Puis les TU actuels de l'utilisateur sont réduits de 10TU par le nombre de types de Protections volées. Utilisable si le lanceur est Furtif ou si Coup Monté est verrouillé.\n\nChaque Protection empêche un fois l'application de son effet nommé, puis est retirée. Les Protections Identiques ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Les Protections volées seront tout de même retirées de la cible même si l'utilisateur les possède déjà.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Ultime Braquage",
+                "SkillDescription": "600% de dégâts à tous les ennemis. 750% de dégâts à la place si le lanceur a survécu pendant 100TU voir davantage sur le champ de bataille. 900% de dégâts à la place si le lanceur a survécu pendant 200TU voire davantage sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts, tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nPuis tous les alliés gagnent immédiatement les prochains tours en réduisant leurs TU actuels à 0. Les compétences actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle ait pris son tour.\n\nUtilisable seulement si le lanceur possède 3 Charges conservées. Consomme toutes les Charges sur l'utilisateur.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Plan B",
+                "SkillDescription": "Soigne tous les alliés du champ de bataille de 100% de leurs PV max et les Purifie (retire les effets de statut négatifs tels que le Sommeil, la Brûlure ou le Poison).\nL'utilisateur gagne une Protection Sommeil, une Protection Étourdissement, une Protection Mort Instantanée, 3 Charges et entrera en Forme Fantôme. Puis s'il y a 2 voire davantage d'alliés non-invoqués sur le champ de bataille, l'utilisateur ajoutera une autre Lupin en queue des renforts alliés. Les Seuils Limites, Éveils, Boosts, Potentiels, Maîtrise, Arme et Accessoire de Lupin seront les mêmes que ceux de l'utilisateur.\n\nUtilisable si au moins 1 allié du champ de bataille possède moins de 50% de ses PV max ou si un allié non-invoqué du champ de bataille est vaincu ou sacrifié par une source quelconque lorsque cette unité est sur le champ de bataille. Utilisable une fois par bataille.\n\nLorsque l'utilisateur est sous Forme Fantôme, son Attaque est augmentée de 1,5 fois et les coûts de TU de ses compétences actives sont réduits de 50%. Cette augmentation d'Attaque ne s'empilera pas avec les effets d'Enragé. Les effets d'Accélération ne réduiront pas davantage les coûts de TU de cette unité. Ces effets seuls ne réduiront pas davantage les coûts de TU de cette unité en deçà de 1TU.",
+                "TU": 25,
+                "Spirit": "+4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Voleur Fantôme",
+                "SkillDescription": "Cette unité ne peut être empoisonnée ou brûlée.\n\nChaque fois qu'un ennemi du champ de bataille est vaincu ou sacrifié par une source quelconque, cette unité a 20% de chance, et 20% de plus par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que ses TU soient immédiatement réduits à 0.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour, elle sera Purifiée et soignée de 25% de ses PV max. Cette unité bénéficie d'une réduction de 35% des dégâts provenant d'attaques. Cette unité bénéficie d'une réduction de 70% des dégâts provenant d'attaques à la place si cette unité possède une Protection quelconque (p. ex. Une Protection Mort Instantanée, une Protection Sommeil)."
+            },
+            {
+                "SkillTitle": "Anticipation",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité entre en bataille avec une Protection Sommeil, une Protection Étourdissement, et une Protection Mort Instantanée.\n\nCette unité gagne l'effet de statut de Super Furtivité et un Bouclier Furtif. Se déclenche lorsque cette unité entre sur le champ de bataille depuis les renforts.\n\nLa Super Furtivité remplacera les autres effets de statut. Les unités Super Furtives ignorent les attaques ennemies qui infligeraient des dégâts à plus de 1 cible. La Super Furtivité sera retirée après avoir ignoré 3 attaques ennemies depuis son application, et peut être remplacée par d'autres effets de statut, à l'exception de la Furtivité normale. Les dégâts ne retireront pas la Super Furtivité. Les Boucliers Furtifs empêchent l'application du prochain effet de statut non-furtivité qu'une unité gagnerait lorsqu'elle est Furtive."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Épée LV3",
+                "SkillDescription": "10% moins de dégâts des attaques des unités équipées d'une Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Conjures": [
+            "LupinRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Aux douze coups de minuit––\nMoi, Lupin, Gentleman Voleur, viendra m'emparer de votre trésor le plus précieux !\n\nAssistez au braquage virtuose de Lupin ! Autrement dit : « C'est l'heure du spectacle ! »"
+            ],
+            "Login": [
+                "Un maître voleur comme moi doit être ponctuel. Après tout, ça serait la honte de manquer l'heure et la date d'un vol que j'ai annoncé moi-même ♪\nDonc allez, si on a du travail à faire, finissons-en vite !"
+            ],
+            "Tap": [
+                "Il y a deux choses que je méprise de tout mon coeur. D'abord, ce sont les gardes... Ils gênent mon art. Et ensuite... C'est l'ennui !",
+                "Que devrait être ma prochaine cible ? Une ancienne épée décorative appartenant à un vaste empire de l'est ? Ou une couronne ornée de bijoux enterrée quelque part dans les terres du nord ?\nHmmm, que de bonnes décisions...",
+                "Oh, parlais-tu de ballet ? Et bien, il s'avère que je connaisse une ou deux choses à propos de ballet !... Bien que je ne sais pas le danser moi-même... Je fais strictement partie du public."
+            ],
+            "Idle": [
+                "Oh, chuuuut ! Silence, un garde arrive par ici...\nPfiou, on l'a échappé belle... Attends une minute... Je ne fais aucune infraction à la loi en ce moment... Je suppose qu'être toujours vigilante quand il s'agît de gardes va simplement avec le métier."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "Coup Monté": {
+                    "BaseWeight": 1000
+                },
+                "Coup Sournois": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "Ultime Braquage": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Plan B": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complices",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATQ+2%"
+            }
+        }
     }
 }

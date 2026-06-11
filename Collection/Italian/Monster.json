@@ -10316,6 +10316,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -10637,6 +10648,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -10940,6 +10962,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATT+2%"
             }
@@ -11256,6 +11289,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATT+2%"
             }
@@ -22556,6 +22600,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -22767,6 +22822,17 @@
                     "PharaohLizard01",
                     "RedScarfFrog01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "ATT+2%"
             }
@@ -133279,7 +133345,7 @@
         "Hp_Base": 5990,
         "Speed": 518,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Si alza il sipario...\nAndiamo, il palco ci sta chiamando!",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Acqua)",
@@ -133413,6 +133479,19 @@
                         "IsThorRegular": 0.75
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATT+2%"
             }
         }
     },
@@ -133578,6 +133657,356 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
+    },
+    "LupinRegular01": {
+        "Name": "Lupin",
+        "Name2": "Ladra Fantasma della Notte",
+        "FullName": "Lupin - Ladra Fantasma della Notte",
+        "Profile": "Lupin è una ladra eccelsa le cui imprese abbracciano il mondo intero.\nCon un profondo amore per le opere d'arte e i tesori nazionali, ruba qualsiasi obiettivo su cui posa gli occhi— non importa quanto impenetrabile sia la sua sorveglianza.\nÈ anche nota come maestra del travestimento e nessuno conosce il suo vero volto… tranne una persona.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Ascia",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 28,
+        "Atk_Base": 1201,
+        "Hp_Base": 5205,
+        "Speed": 703,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Stasera, questa ladra ti ruberà... il cuore!\n...Scusa, era più divertente nella mia testa.",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Oscurità)",
+            "SkillDescription": "Nelle unità alleate di tipo Oscurità l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "La Trappola",
+                "SkillDescription": "Rimuove gli effetti di stato Ustione (inclusa Mega Ustione Curativa) da tutti i nemici in campo. L'unità ottiene una Carica, Super Invisibilità e Scudo Invisibile.\n\nPoi, infligge Mega Veleno a tutti i nemici per 200TU. Sostituisce altri effetti di stato.\n\nSottrae fino a 2 Spirito dalla squadra nemica per ogni nemico avvelenato in campo.\n\nUtilizzabile solo se l'unità non è invisibile. Se l'abilità è utilizzata 3 volte in 10TU, è bloccata per 50TU.\n\nMega Veleno e Sonno sostituiscono altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Colpo Furtivo",
+                "SkillDescription": "500% di danno a 1 nemico. L'unità ottiene una Carica. Cura l'unità del 100% del danno inflitto totale. Questo attacco ignora i Guardiani, gli effetti di stato nemici, gli effetti di riduzione del danno, le abilità passive di Vendetta e di contatto. Il danno da quest'attacco non sveglia i nemici addormentati.\n\nL'unità sottrae Protezione Sonno, Protezione Stordimento e Protezione Veleno dal bersaglio colpito anche se viene sconfitto da questo attacco. Poi, l'unità riduce i suoi TU attuali di 10TU per ogni tipo di Protezione sottratta. Utilizzabile se l'unità è invisibile o se La Trappola è bloccata.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Le Protezioni sottratte verranno rimosse dal bersaglio anche se l'unità le possiede già.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Il Colpo Definitivo",
+                "SkillDescription": "600% di danno a tutti i nemici. 750% di danno invece se l'unità è sopravvissuta per 100+TU in campo. 900% di danno invece se l'unità è sopravvissuta per 200+TU in campo. Questo attacco ignora gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ladra Fantasma",
+                "SkillDescription": "L'unità è immune a Veleno e Ustione.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare immediatamente i suoi TU.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità è purificata e recupera il 25% degli HP massimi. L'unità ha una riduzione danni del 35% dagli attacchi ricevuti. L'unità ha una riduzione danni del 70% dagli attacchi ricevuti invece se ha qualunque Protezione (per esempio, Protezione Morte, Protezione Sonno)."
+            },
+            {
+                "SkillTitle": "Pianificazione",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità entra in battaglia con Protezione Sonno, Protezione Stordimento e Protezione Morte.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Si attiva quando l'unità entra in campo dai rinforzi.\n\nSostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Spada Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillTitle": "Maestria Spada",
+                "SkillDescription": "Può usare le abilità delle Spade oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Quando l'orologio segnerà la mezzanotte...\nLa sottoscritta Lupin, Ladra Fantasma, verrà a prendere il tuo tesoro più prezioso!\n\nAmmira la maestria di Lupin nel furto! In altre parole: \"Inizia lo spettacolo!\""
+            ],
+            "Login": [
+                "Una ladra del mio calibro dev'essere puntuale. Sarebbe imbarazzante mancare l'ora e la data di una rapina che ho annunciato io stessa ♪\nQuindi andiamo, se c'è del lavoro da fare, sbrighiamoci!"
+            ],
+            "Tap": [
+                "Detesto due cose più di ogni altra. Prima di tutto le guardie… ostacolano il mio mestiere. E il seconda cosa è... la noia!",
+                "Quale sarà il mio prossimo obiettivo? Un'antica spada decorativa appartenente a un vasto impero dell'oriente? O una corona di gioielli sepolta da qualche parte nelle terre settentrionali?\nMmm... Decisioni, decisioni...",
+                "Oh, stavi parlando di balletto? Beh, si dà il caso che io ne sappia qualcosa! ...Anche se non so ballare per niente... Mi limito a essere una spettatrice."
+            ],
+            "Idle": [
+                "Oh, shhhhhhh! Fa' silenzio, sta arrivando una guardia…\nFiuuu, per un pelo… Aspetta, non sto infrangendo nessuna legge in questo momento... Immagino che essere sempre sul chi va là intorno alle guardie sia un rischio professionale del mio lavoro."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "La Trappola": {
+                    "BaseWeight": 1000
+                },
+                "Colpo Furtivo": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "Il Colpo Definitivo": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
+    },
+    "LupinRegular02": {
+        "Name": "Lupin",
+        "Name2": "Ladra Fantasma della Notte",
+        "FullName": "Lupin - Ladra Fantasma della Notte",
+        "Profile": "Tre anni fa, si infiltrò nel Regno di Wellmund alla ricerca del tesoro nazionale noto come la \"Corona del Cigno\". Non riuscendo a rompere l'ultimo sigillo, stava per ritirarsi sconfitta quando Victoria, ancora una principessa all'epoca, le offrì il suo aiuto. Con il suo aiuto, il furto fu un successo.\nDa quel giorno in poi, Lupin iniziò a riferirsi alla futura regina come la sua unica e sola \"complice\".",
+        "Profile_Ascended": "Lupin aveva sempre amato il balletto e un giorno le capitò di assistere a uno spettacolo della compagnia reale di ballo. Nel momento in cui vide <i>lei</i> sul palco, Lupin ne fu completamente rapita.\nMovimenti leggeri come una piuma, passi aggraziati e un'espressione fugacemente delicata— era la stella luminosa al centro del palcoscenico.\nDa quel giorno, Lupin divenne una fan appassionata e non si perse mai neanche uno degli spettacoli della sua \"complice\".",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Ascia",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 34,
+        "Atk_Base": 1542,
+        "Hp_Base": 6710,
+        "Speed": 703,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Oscurità)",
+            "SkillDescription": "Nelle unità alleate di tipo Oscurità l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "La Trappola",
+                "SkillDescription": "Rimuove gli effetti di stato Ustione (inclusa Mega Ustione Curativa) da tutti i nemici in campo. L'unità ottiene una Carica, Super Invisibilità e Scudo Invisibile.\n\nPoi, infligge Mega Veleno a tutti i nemici per 200TU. Sostituisce altri effetti di stato.\n\nSottrae fino a 2 Spirito dalla squadra nemica per ogni nemico avvelenato in campo.\n\nUtilizzabile solo se l'unità non è invisibile. Se l'abilità è utilizzata 3 volte in 10TU, è bloccata per 50TU.\n\nMega Veleno e Sonno sostituiscono altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Colpo Furtivo",
+                "SkillDescription": "500% di danno a 1 nemico. L'unità ottiene una Carica. Cura l'unità del 100% del danno inflitto totale. Questo attacco ignora i Guardiani, gli effetti di stato nemici, gli effetti di riduzione del danno, le abilità passive di Vendetta e di contatto. Il danno da quest'attacco non sveglia i nemici addormentati.\n\nL'unità sottrae Protezione Sonno, Protezione Stordimento e Protezione Veleno dal bersaglio colpito anche se viene sconfitto da questo attacco. Poi, l'unità riduce i suoi TU attuali di 10TU per ogni tipo di Protezione sottratta. Utilizzabile se l'unità è invisibile o se La Trappola è bloccata.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Le Protezioni sottratte verranno rimosse dal bersaglio anche se l'unità le possiede già.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Il Colpo Definitivo",
+                "SkillDescription": "600% di danno a tutti i nemici. 750% di danno invece se l'unità è sopravvissuta per 100+TU in campo. 900% di danno invece se l'unità è sopravvissuta per 200+TU in campo. Questo attacco ignora gli effetti di riduzione del danno, gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Il Piano B",
+                "SkillDescription": "Cura tutti gli alleati in campo per il 100% degli HP massimi e li purifica (rimuove gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nL'unità ottiene Protezione Sonno, Protezione Stordimento, Protezione Morte, 3 Cariche ed entra in Forma Spettrale. Poi, se ci sono almeno 2 alleati non invocati in campo, l'unità aggiunge un'altra unità Lupin alla coda dei rinforzi alleati. Il livello, la trasmodazione, il risveglio, i bonus, il potenziale, la maestria, le armi e gli accessori di questa unità Lupin combaceranno con quelli dell'unità.\n\nUtilizzabile se c'è almeno 1 alleato in campo che ha meno del 50% degli HP massimi o se un alleato non invocato in campo viene sconfitto o sacrificato mentre questa unità è in campo. Un solo uso per battaglia.\n\nLe unità in Forma Spettrale hanno l'attacco aumentato a 1,5x e riducono del 50% i costi in TU delle abilità attive. L'aumento dell'attacco non si accumula con effetti di Provocazione. Gli effetti di Accelerazione non riducono ulteriormente i costi in TU dell'unità. L'effetto non riduce i TU al di sotto di 1TU.",
+                "TU": 25,
+                "Spirit": "+4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Ladra Fantasma",
+                "SkillDescription": "L'unità è immune a Veleno e Ustione.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare immediatamente i suoi TU.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità è purificata e recupera il 25% degli HP massimi. L'unità ha una riduzione danni del 35% dagli attacchi ricevuti. L'unità ha una riduzione danni del 70% dagli attacchi ricevuti invece se ha qualunque Protezione (per esempio, Protezione Morte, Protezione Sonno)."
+            },
+            {
+                "SkillTitle": "Pianificazione",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità entra in battaglia con Protezione Sonno, Protezione Stordimento e Protezione Morte.\n\nL'unità ottiene Super Invisibilità e Scudo Invisibile. Si attiva quando l'unità entra in campo dai rinforzi.\n\nSostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità. Scudo Invisibile impedisce un'applicazione di un effetto di stato diverso da Invisibilità sull'unità invisibile."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Spada Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillTitle": "Maestria Spada",
+                "SkillDescription": "Può usare le abilità delle Spade oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spada"
+            }
+        },
+        "Conjures": [
+            "LupinRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "Quando l'orologio segnerà la mezzanotte...\nLa sottoscritta Lupin, Ladra Fantasma, verrà a prendere il tuo tesoro più prezioso!\n\nAmmira la maestria di Lupin nel furto! In altre parole: \"Inizia lo spettacolo!\""
+            ],
+            "Login": [
+                "Una ladra del mio calibro dev'essere puntuale. Sarebbe imbarazzante mancare l'ora e la data di una rapina che ho annunciato io stessa ♪\nQuindi andiamo, se c'è del lavoro da fare, sbrighiamoci!"
+            ],
+            "Tap": [
+                "Detesto due cose più di ogni altra. Prima di tutto le guardie… ostacolano il mio mestiere. E il seconda cosa è... la noia!",
+                "Quale sarà il mio prossimo obiettivo? Un'antica spada decorativa appartenente a un vasto impero dell'oriente? O una corona di gioielli sepolta da qualche parte nelle terre settentrionali?\nMmm... Decisioni, decisioni...",
+                "Oh, stavi parlando di balletto? Beh, si dà il caso che io ne sappia qualcosa! ...Anche se non so ballare per niente... Mi limito a essere una spettatrice."
+            ],
+            "Idle": [
+                "Oh, shhhhhhh! Fa' silenzio, sta arrivando una guardia…\nFiuuu, per un pelo… Aspetta, non sto infrangendo nessuna legge in questo momento... Immagino che essere sempre sul chi va là intorno alle guardie sia un rischio professionale del mio lavoro."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "La Trappola": {
+                    "BaseWeight": 1000
+                },
+                "Colpo Furtivo": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "Il Colpo Definitivo": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "Il Piano B": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "Complicità",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "ATT+2%"
+            }
+        }
     }
 }

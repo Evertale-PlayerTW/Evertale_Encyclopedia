@@ -10318,6 +10318,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -10639,6 +10650,17 @@
                     "RoseElf01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -10942,6 +10964,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -11258,6 +11291,17 @@
                     "ElfMusician01",
                     "BeastSoldier01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -22558,6 +22602,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -22769,6 +22824,17 @@
                     "PharaohLizard01",
                     "RedScarfFrog01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
             }
@@ -133281,7 +133347,7 @@
         "Hp_Base": 5990,
         "Speed": 518,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "幕は上がりました\n共に参りましょう",
         "LeaderSkill": {
             "SkillTitle": "攻撃力アップ（水）",
@@ -133415,6 +133481,19 @@
                         "IsThorRegular": 0.75
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
             }
         }
     },
@@ -133580,6 +133659,356 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "LupinRegular01": {
+        "Name": "ルパン",
+        "Name2": "月下の大怪盗",
+        "FullName": "ルパン - 月下の大怪盗",
+        "Profile": "世界を股にかける大怪盗。芸術品や国宝をこよなく愛し、狙った獲物はどれほど厳重な警備を敷かれていようと鮮やかに盗み出す。さらに変装の達人としても知られ、その素顔を知る者は存在しない――一人を除いて。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "斧",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 28,
+        "Atk_Base": 1201,
+        "Hp_Base": 5205,
+        "Speed": 703,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "今宵の獲物は決まりました――\nズバリ、あなたの心です\n…えっ…スベりました！？",
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（闇）",
+            "SkillDescription": "闇属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ポイズンレイン",
+                "SkillDescription": "場にいる敵全員の燃焼状態（燃焼(20倍回復)状態も含む）を解除する。また、使用者は自身にチャージ1個と、状態変化「ステルス(3回)」、「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\nその後、敵全員に状態変化「毒(20倍)」(200TU持続)を付与する。対象の既存の状態変化は上書きされる。\n\nその後、敵のスピリットを場にいる毒状態の敵1体につき2ずつ減少させ、減少した敵のスピリットと同量分味方のスピリットを増加させる。\n\n使用者がステルス状態でない時のみ使用可能。このスキルが10TU以内に3回使われた場合、その後このスキルは50TUの間ロックされる。\n\n-毒(20倍)状態のキャラは、ターン経過で通常の毒状態の20倍のダメージを受ける。毒(20倍)状態は、通常の毒状態および毒(4倍)状態に上書きされない。\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "トリックショット",
+                "SkillDescription": "敵1体に500%ダメージ。使用者は自身にチャージを1個付与し、また攻撃で与えたダメージと同量分、自身のHPを回復する。この攻撃はブロックされない。この攻撃は対象の状態変化を無視し、また対象のダメージ減少効果、リベンジ系及びスキン系のパッシブスキルの効果も無視する。この攻撃のダメージでは対象の眠り状態は解除されない。\n\n対象の「ワンタイムアンチスリープ」、「ワンタイムアンチスタン」、「ワンタイムアンチポイズン」、「ワンタイムアンチ即死」を解除し、使用者は解除した分の種類の「ワンタイムアンチ」を自身に付与する。この効果は、攻撃のダメージで対象が戦闘不能になった場合にも発動する。その後、解除した「ワンタイムアンチ」1種類につき、使用者は自身のTUを10TU減少させる。\n\n「使用者がステルス状態である」「使用者の『ポイズンレイン』がロックされている」のいずれかを満たしていれば使用可能。\n\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-ワンタイムアンチ即死は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死の効果は重複しない。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "アデュー！",
+                "SkillDescription": "敵全員に600%ダメージ。使用者が場に出てから100TU以上経過していれば750%ダメージ、200TU以上経過していれば900%ダメージ。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。\n\nその後、使用者以外の味方全員のTUを0にして即座にターンを与える。この効果で与えられたターンには、その味方は「ギフトターン」系のスキルを使用できない。\n\n自身のチャージが3貯まっている時のみ使用可能。チャージは使用後0に戻る。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "月下の大怪盗",
+                "SkillDescription": "・このキャラは毒状態にならず、また燃焼状態にもならない。\n\n・このキャラは、場にいる敵が戦闘不能になるたびに、20%の確率で自身のTUを0にしてターンを得る。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。\n\n・このキャラが攻撃でダメージを受けてそのターンの後まで生き残った時、このキャラは自身の悪影響のある状態変化を解除し、またHPを最大値の25%分回復する。\n\n・このキャラが敵の攻撃で受けるダメージは35%減少する。この効果で減少するダメージ量は、このキャラがいずれかの「ワンタイムアンチ」を持っていると70%になる。"
+            },
+            {
+                "SkillTitle": "ヴェルモンドの影",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態異常によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチスリープ」、「ワンタイムアンチスタン」、「ワンタイムアンチ即死」を付与する。\n\n・このキャラが控えから場に出た時、自身に状態変化「ステルス(3回)」および「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。\n-ステルスシールドを持つキャラは、自身がステルス状態のとき、それがステルス状態以外の状態変化に上書きされるのを一度だけ無効化する。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "剣耐性Lv3",
+                "SkillDescription": "剣を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "今宵時計の針が０時を回るとき――\n怪盗ルパンがあなたのお宝を\n頂戴します！\n\nさあ、とくとご覧あれ！\nイッツショータイム、です♪"
+            ],
+            "Login": [
+                "お仕事の時間ですよ～"
+            ],
+            "Tap": [
+                "この世で嫌いなもの",
+                "次のターゲットは",
+                "バレエの話を"
+            ],
+            "Idle": [
+                "シーっですよ"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "ポイズンレイン": {
+                    "BaseWeight": 1000
+                },
+                "トリックショット": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "アデュー！": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
+    },
+    "LupinRegular02": {
+        "Name": "ルパン",
+        "Name2": "月下の大怪盗",
+        "FullName": "ルパン - 月下の大怪盗",
+        "Profile": "三年前、ヴェルモンド王国の国宝『白鳥の冠』を狙い、城へ侵入。しかし最後の封を解くことができず、撤退を覚悟したその時――当時まだ王女であったヴィクトリアに手を貸され、奪取に成功する。それ以来、ルパンは彼女を特別な「共犯者」と呼んでいる。",
+        "Profile_Ascended": "元々バレエ好きだったルパンはその縁からある日舞台を観劇する。そして一瞬で心を奪われた。羽のように軽やかな身のこなし、優雅なステップ、儚げな表情——彼女こそ、舞台に輝く一等星だった。それ以来、大ファンとなり定期公演には欠かさず足を運んでいる。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "斧",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 34,
+        "Atk_Base": 1542,
+        "Hp_Base": 6710,
+        "Speed": 703,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（闇）",
+            "SkillDescription": "闇属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "ポイズンレイン",
+                "SkillDescription": "場にいる敵全員の燃焼状態（燃焼(20倍回復)状態も含む）を解除する。また、使用者は自身にチャージ1個と、状態変化「ステルス(3回)」、「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\nその後、敵全員に状態変化「毒(20倍)」(200TU持続)を付与する。対象の既存の状態変化は上書きされる。\n\nその後、敵のスピリットを場にいる毒状態の敵1体につき2ずつ減少させ、減少した敵のスピリットと同量分味方のスピリットを増加させる。\n\n使用者がステルス状態でない時のみ使用可能。このスキルが10TU以内に3回使われた場合、その後このスキルは50TUの間ロックされる。\n\n-毒(20倍)状態のキャラは、ターン経過で通常の毒状態の20倍のダメージを受ける。毒(20倍)状態は、通常の毒状態および毒(4倍)状態に上書きされない。\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "トリックショット",
+                "SkillDescription": "敵1体に500%ダメージ。使用者は自身にチャージを1個付与し、また攻撃で与えたダメージと同量分、自身のHPを回復する。この攻撃はブロックされない。この攻撃は対象の状態変化を無視し、また対象のダメージ減少効果、リベンジ系及びスキン系のパッシブスキルの効果も無視する。この攻撃のダメージでは対象の眠り状態は解除されない。\n\n対象の「ワンタイムアンチスリープ」、「ワンタイムアンチスタン」、「ワンタイムアンチポイズン」、「ワンタイムアンチ即死」を解除し、使用者は解除した分の種類の「ワンタイムアンチ」を自身に付与する。この効果は、攻撃のダメージで対象が戦闘不能になった場合にも発動する。その後、解除した「ワンタイムアンチ」1種類につき、使用者は自身のTUを10TU減少させる。\n\n「使用者がステルス状態である」「使用者の『ポイズンレイン』がロックされている」のいずれかを満たしていれば使用可能。\n\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-ワンタイムアンチ即死は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死の効果は重複しない。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "アデュー！",
+                "SkillDescription": "敵全員に600%ダメージ。使用者が場に出てから100TU以上経過していれば750%ダメージ、200TU以上経過していれば900%ダメージ。この攻撃は対象のダメージ減少効果を無視し、またアイアンハートなどのHPが1を下回るダメージを耐えるスキルの効果を無視する（ボスの持つスキルは除く）。さらに、対象のスキン系のパッシブスキルの効果、及びカウンター状態の効果を無視する。\n\nその後、使用者以外の味方全員のTUを0にして即座にターンを与える。この効果で与えられたターンには、その味方は「ギフトターン」系のスキルを使用できない。\n\n自身のチャージが3貯まっている時のみ使用可能。チャージは使用後0に戻る。",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "ファントムシーフ",
+                "SkillDescription": "場にいる味方全員のHPを最大まで回復し、悪影響のある状態変化を解除する。また、使用者は自身に「ワンタイムアンチスリープ」、「ワンタイムアンチスタン」、「ワンタイムアンチ即死」、チャージ3個を付与し、「ファントムモード」になる。\n\nその後、「ルパン」を味方の控えの最後尾に1体出現させる。この効果は、場に味方（このバトル中にスキルの効果で召喚されたキャラを除く）が2体以上いないと発動しない。この効果で出現する「ルパン」のレベル、上限解放、覚醒数、潜在能力、ブースト、熟練度、装備している武器やアクセサリーは全て、このキャラと同じになる。\n\n「HPが50%未満の味方が場にいる」「自身が場に出てから味方（このバトル中にスキルの効果で召喚されたキャラを除く）が1体以上戦闘不能になっている」のいずれかを満たしていないと使用できず、また1回のバトルにつき1回のみ使用可能。\n\n-ファントムモードのキャラは攻撃力が1.5倍され（この効果はアンガー系の効果と重複しない）、また使用するスキルのTUが50%減少する。この効果によってスキルTUが1TUを下回ることはなく、また他のクイック系の効果によってスキルTUがさらに減少することはない。",
+                "TU": 25,
+                "Spirit": "+4"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "月下の大怪盗",
+                "SkillDescription": "・このキャラは毒状態にならず、また燃焼状態にもならない。\n\n・このキャラは、場にいる敵が戦闘不能になるたびに、20%の確率で自身のTUを0にしてターンを得る。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。\n\n・このキャラが攻撃でダメージを受けてそのターンの後まで生き残った時、このキャラは自身の悪影響のある状態変化を解除し、またHPを最大値の25%分回復する。\n\n・このキャラが敵の攻撃で受けるダメージは35%減少する。この効果で減少するダメージ量は、このキャラがいずれかの「ワンタイムアンチ」を持っていると70%になる。"
+            },
+            {
+                "SkillTitle": "ヴェルモンドの影",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態異常によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラがバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチスリープ」、「ワンタイムアンチスタン」、「ワンタイムアンチ即死」を付与する。\n\n・このキャラが控えから場に出た時、自身に状態変化「ステルス(3回)」および「ステルスシールド」を付与する。既存の状態変化は上書きされる。\n\n-ステルス(3回)状態のキャラは、2体以上を対象にした攻撃が当たらなくなる。ステルス(3回)状態はダメージを受けても解除されず、効果が3回発動すると解除される。ステルス(3回)状態は、通常のステルス状態に上書きされない。\n-ステルスシールドを持つキャラは、自身がステルス状態のとき、それがステルス状態以外の状態変化に上書きされるのを一度だけ無効化する。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "剣耐性Lv3",
+                "SkillDescription": "剣を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Conjures": [
+            "LupinRegular02"
+        ],
+        "Dialog": {
+            "Gacha": [
+                "今宵時計の針が０時を回るとき――\n怪盗ルパンがあなたのお宝を\n頂戴します！\n\nさあ、とくとご覧あれ！\nイッツショータイム、です♪"
+            ],
+            "Login": [
+                "お仕事の時間ですよ～"
+            ],
+            "Tap": [
+                "この世で嫌いなもの",
+                "次のターゲットは",
+                "バレエの話を"
+            ],
+            "Idle": [
+                "シーっですよ"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "1EnemyPoisonedAlt": 1.05,
+                "Kills1": 1.05,
+                "IsPowerStanceOrMegaBuff": 1.1
+            },
+            "SkillUse": {
+                "ポイズンレイン": {
+                    "BaseWeight": 1000
+                },
+                "トリックショット": {
+                    "BaseWeight": 2,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsSleeping": 0.8,
+                        "IsNotSleepImmune": 1.01,
+                        "IsSleepImmune": 0.85,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsInstantKillImmunityOnce": 1.5,
+                        "IsSleepImmunityOnce": 1.02,
+                        "IsStunImmunityOnce": 1.01,
+                        "IsPoisonImmunityOnce": 1
+                    }
+                },
+                "アデュー！": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.099,
+                        "AllEnemiesIsStealth": 0.25,
+                        "NoFreshNewMomentum": 10
+                    },
+                    "Target": {
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+                    }
+                },
+                "ファントムシーフ": {
+                    "BaseWeight": 2000
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB80": {
+                "RelationshipName": "永遠の共犯者",
+                "RelationshipFamily": [
+                    "VictoriaRegular01",
+                    "LupinRegular01",
+                    "PharaohLizard01",
+                    "BeastSoldier01",
+                    "AirElfWarrior01"
+                ],
+                "RelationshipBuff": "攻撃力+2%"
+            }
+        }
     }
 }
