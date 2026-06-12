@@ -31,27 +31,32 @@
 			font-family: inherit;
 		}
 
-		[lang="en"],
-		[lang="fr"],
-		[lang="de"],
-		[lang="it"],
-		[lang="es"] {
+		:lang(en),
+		:lang(fr),
+		:lang(de),
+		:lang(it),
+		:lang(es) {
 			font-family: "Noto Sans", "Noto Sans Symbols", sans-serif;
 		}
 
-		[lang="zh-Hant"] {
+		:lang(zh-Hant),
+		:lang(zh-TW),
+		:lang(zh-HK),
+		:lang(zh-MO) {
 			font-family: "Noto Sans TC", "Noto Sans SC", "Noto Sans Symbols", sans-serif;
 		}
 
-		[lang="zh-Hans"] {
+		:lang(zh-Hans),
+		:lang(zh-CN),
+		:lang(zh-SG) {
 			font-family: "Noto Sans SC", "Noto Sans TC", "Noto Sans Symbols", sans-serif;
 		}
 
-		[lang="ja"] {
+		:lang(ja) {
 			font-family: "Noto Sans JP", "Noto Sans Symbols", sans-serif;
 		}
 
-		[lang="ko"] {
+		:lang(ko) {
 			font-family: "Noto Sans KR", "Noto Sans Symbols", sans-serif;
 		}
 
@@ -322,13 +327,13 @@
 			padding: 0.2em;
 		}
 
-		html[lang^="zh"] .infoTitle {
+		html:lang(zh) .infoTitle {
 			width: 30%;
 			text-align: justify;
 			text-align-last: justify;
 		}
 
-		html[lang="zh-Hant"] #cost .infoTitle {
+		html:lang(zh-Hant) #cost .infoTitle {
 			text-align: center;
 			text-align-last: center;
 		}
@@ -380,8 +385,8 @@
 			margin: 0.5em auto;
 		}
 
-		html[lang^="zh"] #profileAscendedTitle,
-		html[lang="ja"] #profileAscendedTitle {
+		html:lang(zh) #profileAscendedTitle,
+		html:lang(ja) #profileAscendedTitle {
 			text-align: justify;
 			text-align-last: justify;
 		}
