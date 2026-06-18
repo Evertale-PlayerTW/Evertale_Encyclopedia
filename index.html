@@ -3126,6 +3126,7 @@
 
 			if (wholeData[currentDisplayCategory][id]["FreeEvolve"] != null) {
 				document.getElementById("freeEvo").classList.remove("hidden");
+				document.querySelector("#freeEvo .infoValue").innerHTML = "";
 				const evoLv = `Lv.${wholeData[currentDisplayCategory][id]["FreeEvolve"]["EvolveLevel"]}`;
 				const evoTarget = setNameAndLink(
 					wholeData[currentDisplayCategory][id]["FreeEvolve"]["EvolveTarget"],
