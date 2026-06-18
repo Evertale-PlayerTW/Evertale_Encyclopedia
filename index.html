@@ -1808,9 +1808,9 @@
 			} else {
 				document.getElementById("inputCacheAge").classList.add("hidden");
 				document.getElementById("showLastUpdateTime").classList.remove("hidden");
-				const lastUpdate = await (await fetchCheck("lastUpdate")).json();
+				const lastUpdate = await fetchCheck("lastUpdate").then(res => res.json()).catch(() => ({ "config": 0, "asset": 0, "localization": 0, "update": 0 }));
 				const lastUpdateTimestamp = (lastUpdate["localization"] > 0 && lastUpdate["config"] > 0) ? Math.max(lastUpdate["localization"], lastUpdate["config"]) : lastUpdate["update"];
-				document.getElementById("lastUpdateTime").textContent = new Date(lastUpdateTimestamp).toLocaleString(undefined, {
+				document.getElementById("lastUpdateTime").textContent = lastUpdateTimestamp > 0 ? new Date(lastUpdateTimestamp).toLocaleString(undefined, {
 					hour12: false,
 					year: "numeric",
 					month: "2-digit",
@@ -1818,7 +1818,7 @@
 					hour: "2-digit",
 					minute: "2-digit",
 					timeZoneName: "short"
-				});
+				}) : "???";
 			}
 			localStorage.setItem(cacheKey_Mode, dataMode);
 			await initPage();
