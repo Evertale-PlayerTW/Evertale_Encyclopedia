@@ -588,7 +588,8 @@
 		}
 
 		#chooseMode>div,
-		#modeInfo>div {
+		#modeInfo>div,
+		.hasOld {
 			position: relative;
 		}
 
@@ -754,6 +755,13 @@
 			display: block;
 			max-width: 100%;
 			object-fit: contain;
+		}
+
+		.hasOld img:nth-child(2) {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 20%;
 		}
 
 		#openSortableList {
@@ -3411,13 +3419,13 @@
 			const portrait_fileName = (currentDisplayCategory === "Monster") ? id_LowerCase : `${id_LowerCase.slice(0, -2)}01`;
 			const portraitGeneral = checkImageExisting(currentDisplayCategory, "portrait", portrait_fileName);
 			if (portraitGeneral) {
-				document.getElementById("imageContent").appendChild(portraitGeneral);
+				document.getElementById("imageContent").appendChild(checkHasOld(portrait_fileName, portraitGeneral));
 				//滿覺角
 				if (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null) {
 					const id_cosmo = id_LowerCase.slice(0, -2) + "03";
 					const portraitCosmo = checkImageExisting(currentDisplayCategory, "portrait", id_cosmo);
 					if (portraitCosmo) {
-						document.getElementById("imageContent").appendChild(portraitCosmo);
+						document.getElementById("imageContent").appendChild(checkHasOld(id_cosmo, portraitCosmo));
 					}
 					//滿覺橫圖
 					const landscapePic = checkImageExisting(currentDisplayCategory, "portrait", id_cosmo + "_ex");;
@@ -3438,6 +3446,24 @@
 			}
 		}
 
+		function checkHasOld(id, portraitImg) {
+			const portrait_old = checkImageExisting(currentDisplayCategory, "portrait", id + "_old");
+			if (portrait_old) {
+				const imgWrap = document.createElement("div");
+				imgWrap.classList.add("hasOld");
+				portrait_old.addEventListener("click", (e) => {
+					const imgs = e.currentTarget.parentElement.querySelectorAll("img");
+					if (imgs.length >= 2) {
+						[imgs[0].src, imgs[1].src] = [imgs[1].src, imgs[0].src];
+					}
+				})
+				imgWrap.appendChild(portraitImg);
+				imgWrap.appendChild(portrait_old);
+				return imgWrap;
+			} else {
+				return portraitImg;
+			};
+		}
 		async function setImageFilelist() {
 			for (const imgData of Object.values(imageSource)) {
 				if (imgData["filelist"].length === 0) {
