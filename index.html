@@ -764,6 +764,10 @@
 			width: 20%;
 		}
 
+		.hasOld img:nth-child(n+3) {
+			display: none !important;
+		}
+
 		#openSortableList {
 			display: flex;
 			justify-content: center;
@@ -3447,23 +3451,59 @@
 		}
 
 		function checkHasOld(id, portraitImg) {
-			const portrait_old = checkImageExisting(currentDisplayCategory, "portrait", id + "_old");
-			if (portrait_old) {
+			const path_oldImg = (`portrait/${id}_old`).toLowerCase();
+			const oldPortraits = imageSource[currentDisplayCategory]["filelist"]?.filter(pic => pic.startsWith(path_oldImg)) ?? [];
+			if (oldPortraits.length >= 1) {
 				const imgWrap = document.createElement("div");
 				imgWrap.classList.add("hasOld");
-				portrait_old.addEventListener("click", (e) => {
-					const imgs = e.currentTarget.parentElement.querySelectorAll("img");
-					if (imgs.length >= 2) {
-						[imgs[0].src, imgs[1].src] = [imgs[1].src, imgs[0].src];
-					}
-				})
 				imgWrap.appendChild(portraitImg);
-				imgWrap.appendChild(portrait_old);
+				oldPortraits.forEach((pic, index) => {
+					const portrait_old = checkImageExisting(currentDisplayCategory, "portrait", pic.match(/portrait\/(.*)\..*/)[1]);
+					if (index === 0) {
+						portrait_old.addEventListener("click", (e) => {
+							const imgs = e.currentTarget.parentElement.querySelectorAll("img");
+							if (imgs.length >= 2) {
+								const srcs = Array.from(imgs, img => img.src);
+								srcs.push(srcs.shift());
+								imgs.forEach((img, i) => img.src = srcs[i]);
+							}
+						});
+					}
+					imgWrap.appendChild(portrait_old);
+				});
 				return imgWrap;
 			} else {
 				return portraitImg;
 			};
+
+			// const portrait_old = checkImageExisting(currentDisplayCategory, "portrait", id + "_old");
+			// if (portrait_old) {
+			// 	const imgWrap = document.createElement("div");
+			// 	imgWrap.appendChild(portraitImg);
+
+			// 	imgWrap.classList.add("hasOld");
+			// 	portrait_old.addEventListener("click", (e) => {
+			// 		const imgs = e.currentTarget.parentElement.querySelectorAll("img");
+			// 		if (imgs.length >= 2) {
+			// 			const srcs = Array.from(imgs, img => img.src);
+			// 			srcs.push(srcs.shift());
+			// 			imgs.forEach((img, i) => img.src = srcs[i]);
+			// 		}
+			// 	})
+			// 	imgWrap.appendChild(portrait_old);
+
+			// 	for (let moreOld = 2; ; moreOld++) {
+			// 		const portrait_oldmore = checkImageExisting(currentDisplayCategory, "portrait", id + "_old" + moreOld);
+			// 		if (!portrait_oldmore) break;
+			// 		imgWrap.appendChild(portrait_oldmore);
+			// 	}
+
+			// 	return imgWrap;
+			// } else {
+			// 	return portraitImg;
+			// };
 		}
+
 		async function setImageFilelist() {
 			for (const imgData of Object.values(imageSource)) {
 				if (imgData["filelist"].length === 0) {
