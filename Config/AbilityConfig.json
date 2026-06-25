@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1782098637,
+	"Time": 1782120426,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -46921,6 +46921,143 @@
 			"conditionedAbilityEffects": ["ManchesterSp","ManchesterSp"],
 			"recommendEffectWhenUsable": -1,
 			"useCondition": "IsNotActive4LOCKManchesterRegular"
+		},
+		"SingleAttackAJeanneFusion": {
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["InstantKillAndCreditSource"],
+				"applyConditions": "On10PercentMaxHPIsNotBossAndNotMirage",
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true,
+				"buffAppliedEffects": ["JeanneFusionInstantdeath1"]
+			},{
+				"buffs":["RemoveJeanneFusionActive2Lock"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "JeanneFusionAttack1",
+			"attackScalors": ["GoodWith2DisabledEnemies","GoodWithAllDisabledEnemies"],
+			"conditionedAbilityEffects": ["JeanneFusionAttack1","JeanneFusionAttack1"],
+			"recommendEffectWhenUsable": -2
+		},
+		"AllyBuffAJeanneFusion": {
+			"class": "AbilityConfig",
+			"targetingData": "oneAllyNotMe",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["HealFull","RemoveBuffs","AttackPlus50Percent1TurnOnly","PoisonImmunityOnce","BurnImmunityOnce"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["HealFull","RemoveBuffs","AttackPlus50Percent1TurnOnly","PoisonImmunityOnce","BurnImmunityOnce","JeanneFusionActive2Lock"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["Healer","Purify"],
+			"abilityEffect": "JeanneFusionHelping",
+			"useCondition": "IsNotJeanneFusionActive2Lock"
+		},
+		"EnemyBuffAJeanneFusion01": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Stun100"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["Add1JeanneFusion01ToNext"],
+				"applyToTargetType": "Source",
+				"skipAbilityEffect": true,
+				"applyConditions": "AtLeast2NonSummonedAllies",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["Add1JeanneFusion01ToEndReinforcments"],
+				"applyToTargetType": "Source",
+				"skipAbilityEffect": true,
+				"applyConditions": "AtLeast3NonSummonedAllies",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["Add1JeanneFusion01ToRandomReinforcements"],
+				"applyToTargetType": "Source",
+				"skipAbilityEffect": true,
+				"applyConditions": "AtLeast4NonSummonedAllies",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs":["RemoveJeanneFusionActive2Lock"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"sourceEventType": "Finish",
+			"enemyEventType": "Finish",
+			"abilityEffect": "JeanneFusionLight",
+			"flags": ["StunChance","NoDamage","Summon"],
+			"useCondition": "IsNotJeanneFusionActive3Entry50TULock"
+		},
+		"EnemyBuffAJeanneFusion02": {
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["Stun100"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["Add1JeanneFusion02ToNext"],
+				"applyToTargetType": "Source",
+				"skipAbilityEffect": true,
+				"applyConditions": "AtLeast2NonSummonedAllies",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["Add1JeanneFusion02ToEndReinforcments"],
+				"applyToTargetType": "Source",
+				"skipAbilityEffect": true,
+				"applyConditions": "AtLeast3NonSummonedAllies",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["Add1JeanneFusion02ToRandomReinforcements"],
+				"applyToTargetType": "Source",
+				"skipAbilityEffect": true,
+				"applyConditions": "AtLeast4NonSummonedAllies",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs":["RemoveJeanneFusionActive2Lock"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"sourceEventType": "Finish",
+			"enemyEventType": "Finish",
+			"abilityEffect": "JeanneFusionLight",
+			"flags": ["StunChance","NoDamage","Summon"],
+			"useCondition": "IsNotJeanneFusionActive3Entry50TULock"
+		},
+		"AllAttackAJeanneFusion":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath","IgnoreArmor"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs":["RemoveJeanneFusionActive2Lock","JeanneFusionActive4Cooldown100"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "JeanneFusionSP",
+			"flags": ["IgnoreStealth","Duration"],
+			"recommendEffectWhenUsable": -2,
+			"useCondition": "JeanneFusionAllyAndTimeInCombat100NotInstantCooldown"
 		}
 	}
 }

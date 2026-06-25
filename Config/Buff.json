@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1782260459,
+	"Time": 1782285033,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -88351,6 +88351,380 @@
 			"class": "Buff",
 			"duration": 50,
 			"stackName": "InstantCooldown",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"HasteUp4DisabledEnemy": {
+			"class": "Buff",
+			"behaviors": ["StatOnly"],
+			"behaviorOverrides": [{
+				"conditions": "1EnemyDisabled",
+				"flatStatBonuses": {
+					"Haste": -111
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconBrownSpeedUpClock01",
+			"isWeaponBuff": true
+		},
+		"HasteUp5DisabledEnemy": {
+			"class": "Buff",
+			"behaviors": ["StatOnly"],
+			"behaviorOverrides": [{
+				"conditions": "1EnemyDisabled",
+				"flatStatBonuses": {
+					"Haste": -176
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconBrownSpeedUpClock01",
+			"isWeaponBuff": true
+		},
+		"HasteUp6DisabledEnemy": {
+			"class": "Buff",
+			"behaviors": ["StatOnly"],
+			"behaviorOverrides": [{
+				"conditions": "1EnemyDisabled",
+				"flatStatBonuses": {
+					"Haste": -250
+				}
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"noIconShownOnBattleStatus": true,
+			"iconSpriteName": "IconBrownSpeedUpClock01",
+			"isWeaponBuff": true
+		},
+		"GuardianAngelPassiveAJeanneFusion": {
+			"class": "Buff",
+			"stackName": "GuardianAngelPassiveAJeanneFusion",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","EnterBattleBuff","StunImmunityFallback","SleepImmunityFallback"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["JeanneFusionActive2Lock","StunImmunity","SleepImmunity","PoisonImmunityOnce","BurnImmunityOnce","DisableFallBackImmunity"]
+			},{
+				"selfBuffs": ["MirageMonsterLite"],
+				"spreadCondition": "IsSummoned"
+			},{
+				"selfBuffs": ["JeanneFusionActive3Entry50TULock"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"selfAbilityEffect": "Blank",
+				"randomEnemyBuffs": ["Stun50"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"sourceBuffs": ["PassiveEntryJeanneFusionLV1","PassiveEntryJeanneFusionLV2","PassiveEntryJeanneFusionLV3","PassiveEntryJeanneFusionLV4","PassiveEntryJeanneFusionLV5"]
+			},{
+				"selfBuffs": ["HealFull","RemoveBuffs","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"],
+				"allyBuffs": ["HealFull","RemoveBuffs","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"],
+				"spreadCondition": "IsJeanneFusion"
+			},{},{}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"duration": -1
+		},
+		"PassiveEntryJeanneFusionLV1": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["NoTurnsFor10TUPassive"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "HasNoAwakening"
+		},
+		"PassiveEntryJeanneFusionLV2": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["NoTurnsFor20TUPassive"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has1AwakeningExact"
+		},
+		"PassiveEntryJeanneFusionLV3": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["NoTurnsFor30TUPassive"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has2AwakeningsExact"
+		},
+		"PassiveEntryJeanneFusionLV4": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["NoTurnsFor40TUPassive"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has3AwakeningsExact"
+		},
+		"PassiveEntryJeanneFusionLV5": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["NoTurnsFor50TUPassive"],
+				"numRandomToBuff": 2,
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has4Awakenings"
+		},
+		"MirageMonsterLite": {
+			"class": "Buff",
+			"stackName": "MirageMonsterLite",
+			"behaviors":["ModifyDamage"],
+			"behaviorOverrides":[{
+				"percent": 2.5
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"allowBuffOnDeadTarget": true,
+			"isHiddenFromPlayers": true
+		},
+		"Add1JeanneFusion01ToNext": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "JeanneFusion01",
+				"cloneSource": true,
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"allowBuffOnDeadTarget": true,
+			"isHiddenFromPlayers": true
+		},
+		"Add1JeanneFusion01ToEndReinforcments": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "JeanneFusion01",
+				"cloneSource": true,
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"allowBuffOnDeadTarget": true,
+			"isHiddenFromPlayers": true
+		},
+		"Add1JeanneFusion01ToRandomReinforcements": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "JeanneFusion01",
+				"cloneSource": true,
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"randomInLineup": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"allowBuffOnDeadTarget": true,
+			"isHiddenFromPlayers": true
+		},
+		"Add1JeanneFusion02ToNext": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "JeanneFusion02",
+				"cloneSource": true,
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"allowBuffOnDeadTarget": true,
+			"isHiddenFromPlayers": true
+		},
+		"Add1JeanneFusion02ToEndReinforcments": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "JeanneFusion02",
+				"cloneSource": true,
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"allowBuffOnDeadTarget": true,
+			"isHiddenFromPlayers": true
+		},
+		"Add1JeanneFusion02ToRandomReinforcements": {
+			"class": "Buff",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"monsterType": "JeanneFusion02",
+				"cloneSource": true,
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"randomInLineup": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"allowBuffOnDeadTarget": true,
+			"isHiddenFromPlayers": true
+		},
+		"LifeForALifePassiveAJeanneFusion": {
+			"class": "Buff",
+			"stackName": "HoldGround",
+			"behaviors": ["EnterBattleBuff","BuffWhenMonsterHurt","BuffOnMonsterTurnEnd","BuffWhenMonstersDie","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus","AddJeanneFusion01NextInReinforcementsEOT","AddJeanneFusion02NextInReinforcementsEOT"]
+			},{
+				"selfBuffs": ["BrideHealOK"],
+				"cancelFromDamageTypes": ["BuffDamage"]
+			},{
+				"selfBuffs": ["BrideHeal50PercentJeanneFusion"],
+				"activeMonsterConditions": "NotAlwaysMyTurn",
+				"spreadCondition": "BrideHealReady"
+			},{
+				"sourceBuffs": ["ShouldSummonJeanneFusionBuff","FudgeUsed"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed",
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage"
+			},{
+				"sourceBuffs": ["FudgeUsedAtEndOfTurn"],
+				"sameTeam": false,
+				"spreadCondition": "KillsMoreThanSkillUsed"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"tags": ["HoldGroundPlus"],
+			"duration": -1
+		},
+		"AddJeanneFusion01NextInReinforcementsEOT": {
+			"class": "Buff",
+			"stackName": "AddJeanneFusionNextInReinforcementsEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["Add1JeanneFusion01ToNext"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "ShouldSummonJeanneFusionTriggered"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "HasNoAwakening"
+		},
+		"AddJeanneFusion02NextInReinforcementsEOT": {
+			"class": "Buff",
+			"stackName": "AddJeanneFusionNextInReinforcementsEOT",
+			"behaviors": ["BuffOnMonsterTurnEnd"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["Add1JeanneFusion02ToNext"],
+				"activeMonsterConditions": "AlwaysTrue",
+				"spreadCondition": "ShouldSummonJeanneFusionTriggered"
+			}],
+			"duration": -1,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true,
+			"noIconShownOnBattleStatus": true,
+			"applyConditions": "Has1Awakening"
+		},
+		"ShouldSummonJeanneFusionBuff":{
+			"class": "Buff",
+			"stackName": "ShouldSummonJeanneFusion",
+			"duration": 0,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"BrideHeal50PercentJeanneFusion": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp", "RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"percent": 0.50,
+				"abilityEffect": "Blank",
+				"hpboosts": [
+					"HealBoost"
+				]
+			},{
+				"name": "BrideHealOK"
+			},{}],
+			"duration": 0,
+			"effectToShowWhenApplied": "LargeHeal1",
+			"textKeyToShowWhenApplied": "HealDoubleANameKey",
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"JeanneFusionActive2Lock":{
+			"class": "Buff",
+			"stackName": "JeanneFusionActive2Lock",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveJeanneFusionActive2Lock":{
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "JeanneFusionActive2Lock"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"JeanneFusionActive3Entry50TULock": {
+			"class": "Buff",
+			"stackName": "JeanneFusionActive3Entry50TULock",
+			"duration": 50,
+			"isHiddenFromPlayers": false,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBrownCountdownClock01"
+		},
+		"JeanneFusionActive4Cooldown100": {
+			"class": "Buff",
+			"stackName": "InstantCooldown",
+			"duration": 100,
+			"isHiddenFromPlayers": false,
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"

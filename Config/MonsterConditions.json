@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1782098662,
+    "Time": 1782120464,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -30791,6 +30791,36 @@
 		"not": {
 			"class": "MonsterConditions",
 			"buffStackNames": ["Active4LOCKManchesterRegular"]
+		}
+	},
+	"IsJeanneFusion": {
+		"class": "MonsterConditions",
+		"families": ["JeanneFusion"]
+	},
+	"IsSummonedJeanneFusion": {
+		"class": "MonsterConditions",
+		"families": ["JeanneFusion"],
+		"summoned": true
+	},
+	"ShouldSummonJeanneFusionTriggered": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["ShouldSummonJeanneFusion"]
+	},
+	"AtLeast2JeanneFusionAllies": {
+		"class": "MonsterConditions",
+		"myTeamMonsterConditionMatchesNeeded": {
+			"IsJeanneFusion": 2
+		}
+	},
+	"JeanneFusionAllyAndTimeInCombat100NotInstantCooldown": {
+		"class": "MonsterConditions",
+		"timeInCombat": 100,
+		"myTeamMonsterConditionMatchesNeeded": {
+				"IsJeanneFusion": 2
+		},		
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["InstantCooldown"]
 		}
 	}
 }
