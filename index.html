@@ -3441,8 +3441,11 @@
 				}
 				//立繪
 				if (currentDisplayCategory === "Monster") {
-					const tachieImg = checkImageExisting("Tachie", "tachie", id_LowerCase);
-					if (tachieImg) {
+					let tachieImg;
+					if (tachieImg = checkImageExisting("Tachie", "tachie", id_LowerCase) || checkImageExisting("Tachie", "past", id_LowerCase)) {
+						document.getElementById("imageContent").appendChild(tachieImg);
+					}
+					if (hasCosmo && (tachieImg = checkImageExisting("Tachie", "past", id_LowerCase.slice(0, -2) + "03"))) {
 						document.getElementById("imageContent").appendChild(tachieImg);
 					}
 				}
