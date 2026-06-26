@@ -2947,6 +2947,7 @@
 		let initTitle = document.title;
 		let currentDisplayCategory = null;
 		let currentDisplayID = null;
+		let hasCosmo = false;
 
 		function displayData(id, myCategory) {
 			id ??= document.getElementById("targetSelect").value;
@@ -2954,6 +2955,7 @@
 
 			currentDisplayCategory = myCategory ?? unit_category;
 			currentDisplayID = id;
+			hasCosmo = (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null);
 
 			collapseReset();
 			document.title = `${wholeData[currentDisplayCategory][id]["FullName"]} | ${initTitle}`;
@@ -2994,7 +2996,7 @@
 			if (headshot_fileName != null) {
 				const headshotGeneral = checkImageExisting(currentDisplayCategory, "headshot", headshot_fileName, true, `headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 				document.getElementById("headshot_General").appendChild(headshotGeneral);
-				if (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null) {
+				if (hasCosmo) {
 					const id_cosmo = id.slice(0, -2) + "03";
 					const headshotCosmo = checkImageExisting(currentDisplayCategory, "headshot", id_cosmo, true, `headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 					document.getElementById("headshot_Cosmo").appendChild(headshotCosmo);
@@ -3166,7 +3168,7 @@
 				document.getElementById("profileText").innerHTML = wholeData[currentDisplayCategory][id]["Profile"].replaceAll("\n", "<br>");
 
 				document.getElementById("hasAscended")?.remove();
-				if (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null) {
+				if (hasCosmo) {
 					const templateHasAscended = document.getElementById("template-hasAscended").content.cloneNode(true);
 					templateHasAscended.getElementById("profileAscendedTitle").textContent =
 						getLocalizationText("AscendedPart");
@@ -3425,7 +3427,7 @@
 			if (portraitGeneral) {
 				document.getElementById("imageContent").appendChild(checkHasOld(portrait_fileName, portraitGeneral));
 				//滿覺角
-				if (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null) {
+				if (hasCosmo) {
 					const id_cosmo = id_LowerCase.slice(0, -2) + "03";
 					const portraitCosmo = checkImageExisting(currentDisplayCategory, "portrait", id_cosmo);
 					if (portraitCosmo) {
