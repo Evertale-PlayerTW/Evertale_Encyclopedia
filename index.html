@@ -757,7 +757,7 @@
 			object-fit: contain;
 		}
 
-		.hasOld img:nth-child(2) {
+		.hasOld img:nth-child(n+2) {
 			position: absolute;
 			bottom: 0;
 			right: 0;
@@ -896,6 +896,26 @@
 
 		.headshotBlockSSR {
 			background: url("icon/BackgroundSSRBlock.png") center/cover no-repeat;
+		}
+
+		#modelZone {
+			width: 80%;
+			margin: 0.5rem auto;
+		}
+
+		#modelPreview {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			justify-items: center;
+			gap: 0.5em;
+		}
+
+		#modelPreview img {
+			max-width: 100%;
+			height: 100%;
+			object-fit: contain;
+			object-position: center;
+			aspect-ratio: 1 / 1;
 		}
 	</style>
 </head>
@@ -1433,6 +1453,9 @@
 				<div class="infoRow hidden" id="visible">
 					<div class="infoTitle" data-i18n="Visible"></div>
 					<div class="infoValue"></div>
+				</div>
+				<div id="modelZone" class="hidden">
+					<div id="modelPreview"></div>
 				</div>
 			</div>
 
@@ -2940,6 +2963,7 @@
 			Weapon: { domain: "https://weapon.evertale.qzz.io/", filelist: [] },
 			Equipment: { domain: "https://equipment.evertale.qzz.io/", filelist: [] },
 			Tachie: { domain: "https://tachie.evertale.qzz.io/", filelist: [] },
+			Model: { domain: "https://model.evertale.qzz.io/", filelist: [], maptable: {} },
 		}
 
 		document.addEventListener("DOMContentLoaded", setImageFilelist);
@@ -2982,6 +3006,7 @@
 			setRelationship(id);
 			initStatsInput(id);
 			setFullImage(id);
+			setModelPreview(id);
 
 			document.getElementById("mainBlock").classList.remove("hidden");
 			document.getElementById("mainBlock").scrollIntoView();
@@ -3510,11 +3535,16 @@
 		}
 
 		async function setImageFilelist() {
-			for (const imgData of Object.values(imageSource)) {
-				if (imgData["filelist"].length === 0) {
-					imgData["filelist"] = await fetchCheck(imgData["domain"] + "filelist.json").then((res) => res.json());
-				}
-			}
+			await Promise.all(
+				Object.values(imageSource).map(async (imgData) => {
+					if (imgData.filelist && imgData.filelist.length === 0) {
+						imgData.filelist = await fetchCheck(imgData.domain + "filelist.json").then(res => res.json());
+					}
+					if (imgData.maptable && Object.keys(imgData.maptable).length === 0) {
+						imgData.maptable = await fetchCheck(imgData.domain + "maptable.json").then(res => res.json());
+					}
+				})
+			);
 		}
 
 		function checkImageExisting(img_category, img_type, img_name, forceTrue = false, bgClass = "") {
@@ -3529,6 +3559,36 @@
 				return newImage;
 			} else {
 				return null;
+			}
+		}
+
+		function setModelPreview(id) {
+			document.getElementById("modelPreview").innerHTML = "";
+			if (currentDisplayCategory !== "Monster") { document.getElementById("modelZone").classList.add("hidden"); return; }
+
+			const id_LowerCase = id.toLowerCase();
+			const matchedModel = [];
+			const targetChar = [id_LowerCase];
+			if (hasCosmo) {
+				targetChar.push(id_LowerCase.slice(0, -2) + "03");
+			}
+			targetChar.forEach(aChar => {
+				["enemy", "ally"].forEach(pos => {
+					const modelName = imageSource["Model"]["maptable"]?.[aChar]?.[pos];
+					matchedModel.push(modelName ? modelName.toLowerCase() : "")
+				})
+			});
+
+			if (matchedModel.length > 0 && matchedModel.some(v => v !== "")) {
+				for (const modelName of matchedModel) {
+					const modelImg = modelName !== "" ? checkImageExisting("Model", "Model", modelName) : document.createElement("div");
+					if (modelImg) {
+						document.getElementById("modelPreview").appendChild(modelImg);
+					}
+				}
+				document.getElementById("modelZone").classList.remove("hidden");
+			} else {
+				document.getElementById("modelZone").classList.add("hidden");
 			}
 		}
 
