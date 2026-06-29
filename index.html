@@ -3386,7 +3386,9 @@
 					}
 
 					if (wholeData?.[category]?.[id]) {
-						displayData(id, category);
+						// displayData(id, category);
+						currentDisplayCategory = category;
+						currentDisplayID = id;
 					} else {
 						throw new Error("Invalid id or category");
 					}
