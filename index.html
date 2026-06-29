@@ -3538,7 +3538,7 @@
 		}
 
 		async function setImageFilelist() {
-			await Promise.all(
+			await Promise.allSettled(
 				Object.values(imageSource).map(async (imgData) => {
 					if (imgData.filelist && imgData.filelist.length === 0) {
 						imgData.filelist = await fetchCheck(imgData.domain + "filelist.json").then(res => res.json());
