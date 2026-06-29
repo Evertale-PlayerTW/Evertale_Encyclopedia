@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1782285033,
+	"Time": 1782707340,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -88410,7 +88410,7 @@
 				"selfBuffs": ["MirageMonsterLite"],
 				"spreadCondition": "IsSummoned"
 			},{
-				"selfBuffs": ["JeanneFusionActive3Entry50TULock"],
+				"selfBuffs": ["JeanneFusionActive3Entry50TULock","HealFX"],
 				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
 			},{
 				"selfAbilityEffect": "Blank",
@@ -88420,13 +88420,23 @@
 			},{
 				"sourceBuffs": ["PassiveEntryJeanneFusionLV1","PassiveEntryJeanneFusionLV2","PassiveEntryJeanneFusionLV3","PassiveEntryJeanneFusionLV4","PassiveEntryJeanneFusionLV5"]
 			},{
-				"selfBuffs": ["HealFull","RemoveBuffs","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"],
+				"selfBuffs": ["HealFullNoFX","RemoveBuffs","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"],
 				"allyBuffs": ["HealFull","RemoveBuffs","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus"],
 				"spreadCondition": "IsJeanneFusion"
 			},{},{}],
 			"showAsTimer": false,
 			"showAsPermanent": false,
 			"duration": -1
+		},
+		"HealFullNoFX": {
+			"class": "Buff",
+			"behaviors": ["AdjustHp"],
+			"behaviorOverrides": [{
+				"percent": 1.0
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
 		},
 		"PassiveEntryJeanneFusionLV1": {
 			"class": "Buff",
