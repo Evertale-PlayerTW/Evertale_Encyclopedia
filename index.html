@@ -2286,6 +2286,7 @@
 					}
 				}
 			}
+			await setImageFilelist();
 			document.getElementById("filterArea").classList.remove("hidden");
 		}
 
@@ -2966,7 +2967,7 @@
 			Model: { domain: "https://model.evertale.qzz.io/", filelist: [], maptable: {} },
 		}
 
-		document.addEventListener("DOMContentLoaded", setImageFilelist);
+		// document.addEventListener("DOMContentLoaded", setImageFilelist);
 
 		let initTitle = document.title;
 		let currentDisplayCategory = null;
