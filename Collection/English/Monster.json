@@ -134114,7 +134114,7 @@
         "Hp_Base": 5585,
         "Speed": 800,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Some day, we'll be reunited... Right, Mikaela?",
         "LeaderSkill": {
             "SkillTitle": "Storm Attack Up",
@@ -134454,5 +134454,349 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "BasiliskRegular01": {
+        "Name": "Basilisk",
+        "Name2": "Master of Wraiths",
+        "FullName": "Basilisk - Master of Wraiths",
+        "Profile": "Born in a neighboring kingdom, Basilisk was abandoned soon after birth and taken in by an orphanage. She could never fit in with the other children, and she spent her days all alone.\nHer loneliness was only broken when she came across a snake, which she named \"Jajamaru\". He became her one and only family, irreplaceable and precious above all else.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greataxe",
+        "forFilter_Element": "Fire",
+        "Element": "Fire",
+        "Cost": 28,
+        "Atk_Base": 1082,
+        "Hp_Base": 5800,
+        "Speed": 514,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Tremble, for I am the Master of Wraiths!",
+        "LeaderSkill": {
+            "SkillTitle": "Fire ATK & HP Up",
+            "SkillDescription": "Allied Fire element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Burning Scythe",
+                "SkillDescription": "500% damage to 2 enemies. 750% damage instead if 4 or more units on the battlefield are burning. 1000% damage instead if all units on the battlefield are burning. This is considered a Burn Drive type skill.\n\nThen the user and another random ally are granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Serpent's Inferno",
+                "SkillDescription": "800% damage to 1 enemy. 1200% damage instead if they are a Guardian.\n\nIf the user is burning, the user will immediately get the next turn.\n\nUsable only if the user has stored 3 Charges. Consumes all Charges on the user.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Basilisk's Glare",
+                "SkillDescription": "Burns all enemy units on the battlefield, and grants each of them a Burn Shield. All ally units on the battlefield with active or passive skills that can grant themselves Mega Healing Burn are granted the Mega Healing Burn status effect for 100TU, and healed for 100% of their max HP. This will overwrite other status effects on those units.\n\nThen all burning enemies have their Active Skills disabled for 10TU.\n\nUnlocked the first time an enemy on the battlefield is defeated or sacrificed by any source while this unit is on the battlefield, and is locked again after each use or if the user leaves the battlefield. This skill can only be used once each time this unit is on the battlefield.\n\nWhen a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "TU": 9,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Basilisk's Ambush",
+                "SkillDescription": "This unit has Stun immunity. Whenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, and ignore any effects of non-boss enemies that would prevent targets from being defeated, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nThis unit enters battle with an Instant Death Ward, a Burn Shield, and Mega Healing Burn for 100TU.\n\nTriggered when this unit enters the battlefield from the allied reinforcements:\n- all other units on the battlefield are granted Burn, and Burn Shields\n- then there is a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) for all other allies to have their current TU reduced to 0.\n\nAn Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying. A unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillTitle": "Master of Wraiths",
+                "SkillDescription": "The first time this unit is damaged by an enemy attack while burning, all enemies on the battlefield have their Active Skills disabled for 10TU. Whenever this unit leaves the battlefield, this effect is reset so it can trigger again.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit gains 20% damage reduction from attacks for each burning ally on the battlefield (up to 80% max).\n\nThis unit will gain a Charge at the end of each enemy turn. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nWhenever an enemy on the battlefield is defeated or sacrificed by any source, this unit heals for 100% of max HP. Then all allies on the battlefield become Enraged. An Enraged unit's attack is increased to 1.5x until the end of their next turn. Enrage will overwrite any existing Weak or Enrage effects on those units.\n\nAt the end of this unit's turn, if this unit is on the battlefield and:\n- burning, this unit will weaken all enemies on the battlefield.\n- sleeping or poisoned, this unit will grant all allies on the battlefield the burn status effect.\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "G.sword Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Greatswords."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "I'm Basilisk, a wraith master! \nI'm both cute and strong, hence the ultimate being!\nEh? What? ...Stop being so cocky?\nCome on Jajamaru, why do you always have to rain on my parade...\nI got myself so hyped up for this moment and now you've ruined it~!"
+            ],
+            "Login": [
+                "No need to fear, Basilisk is here!\nHuh? You don't have anything that could use my help...?\nOh...I see. I'll...I'll just sit over here then."
+            ],
+            "Tap": [
+                "I fear nothing! I'm a wraith master, after all.\nI rule over frightening―Aaaaagh! Why are you holding a carrot!?\nPut that away, it's the one thing that terrifies me!",
+                "My 'tail' is a snake and his name is Jajamaru. He's like my younger brother!\nHe's got a really foul mouth, but underneath that, he's actually quite caring!",
+                "Please don't call me \"snake girl\"~.\nI'm a sensitive lady, and it goes against my sensibilities...especially coming from you..."
+            ],
+            "Idle": [
+                "Huh? No one's around...oh, of course Jajamaru's here.\nYou know Jajamaru, even I'd like to enjoy a bit of solitude sometimes...\nAre you listening to me, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Burning Scythe": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Serpent's Inferno": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Basilisk's Glare": {
+                    "BaseWeight": 250
+                }
+            }
+        }
+    },
+    "BasiliskRegular02": {
+        "Name": "Basilisk",
+        "Name2": "Master of Wraiths",
+        "FullName": "Basilisk - Master of Wraiths",
+        "Profile": "Even after the kingdom fell and the orphanage was lost, Basilisk continued living together with Jajamaru in a cabin within a forest, surviving by hunting and foraging. But before too long, Jajamaru lost his life to illness. Overcome with grief, Basilisk chose to use her own body as a vessel to store Jajamaru's soul, allowing him to remain in this world as a wraith.",
+        "Profile_Ascended": "From then on, she lived quietly with Jajamaru in a forgotten ruin. Putting on a brave face, she called herself the \"Master of Wraiths,\" but in the darkness of the caves, she spent most of her time terrified of intruders.\n\n\"Eek! I j-j-just felt a chill up my spine... Was that...a ghost?!\"\n\nJajamaru: \"It's just me, brat.\"",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greataxe",
+        "forFilter_Element": "Fire",
+        "Element": "Fire",
+        "Cost": 34,
+        "Atk_Base": 1322,
+        "Hp_Base": 7810,
+        "Speed": 514,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Fire ATK & HP Up",
+            "SkillDescription": "Allied Fire element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Burning Scythe",
+                "SkillDescription": "500% damage to 2 enemies. 750% damage instead if 4 or more units on the battlefield are burning. 1000% damage instead if all units on the battlefield are burning. This is considered a Burn Drive type skill.\n\nThen the user and another random ally are granted Piercing. A unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Serpent's Inferno",
+                "SkillDescription": "800% damage to 1 enemy. 1200% damage instead if they are a Guardian.\n\nIf the user is burning, the user will immediately get the next turn.\n\nUsable only if the user has stored 3 Charges. Consumes all Charges on the user.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Basilisk's Glare",
+                "SkillDescription": "Burns all enemy units on the battlefield, and grants each of them a Burn Shield. All ally units on the battlefield with active or passive skills that can grant themselves Mega Healing Burn are granted the Mega Healing Burn status effect for 100TU, and healed for 100% of their max HP. This will overwrite other status effects on those units.\n\nThen all burning enemies have their Active Skills disabled for 10TU.\n\nUnlocked the first time an enemy on the battlefield is defeated or sacrificed by any source while this unit is on the battlefield, and is locked again after each use or if the user leaves the battlefield. This skill can only be used once each time this unit is on the battlefield.\n\nWhen a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "TU": 9,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Serpent's Bite",
+                "SkillDescription": "A random non-boss, non-Ephemeral, enemy on the battlefield that has their Active Skills disabled will be immediately defeated (the user is considered to have defeated that enemy with an attack). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nPulls the user away from the battlefield to be next in line of your reinforcements. If there are no ally reinforcements, adds enough Super Himoris to the ally team to still pull the user away to reinforcements (max 4 if the user is alone on the battlefield).\n\nUnlocked each time the user uses Basilisk's Glare, and is locked again after each use or if the user leaves the battlefield. Usable 5 times per battle.",
+                "TU": 0,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Basilisk's Ambush",
+                "SkillDescription": "This unit has Stun immunity. Whenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, and ignore any effects of non-boss enemies that would prevent targets from being defeated, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nThis unit enters battle with an Instant Death Ward, a Burn Shield, and Mega Healing Burn for 100TU.\n\nTriggered when this unit enters the battlefield from the allied reinforcements:\n- all other units on the battlefield are granted Burn, and Burn Shields\n- then there is a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) for all other allies to have their current TU reduced to 0.\n\nAn Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying. A unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillTitle": "Master of Wraiths",
+                "SkillDescription": "The first time this unit is damaged by an enemy attack while burning, all enemies on the battlefield have their Active Skills disabled for 10TU. Whenever this unit leaves the battlefield, this effect is reset so it can trigger again.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit gains 20% damage reduction from attacks for each burning ally on the battlefield (up to 80% max).\n\nThis unit will gain a Charge at the end of each enemy turn. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nWhenever an enemy on the battlefield is defeated or sacrificed by any source, this unit heals for 100% of max HP. Then all allies on the battlefield become Enraged. An Enraged unit's attack is increased to 1.5x until the end of their next turn. Enrage will overwrite any existing Weak or Enrage effects on those units.\n\nAt the end of this unit's turn, if this unit is on the battlefield and:\n- burning, this unit will weaken all enemies on the battlefield.\n- sleeping or poisoned, this unit will grant all allies on the battlefield the burn status effect.\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "G.sword Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Greatswords."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "I'm Basilisk, a wraith master! \nI'm both cute and strong, hence the ultimate being!\nEh? What? ...Stop being so cocky?\nCome on Jajamaru, why do you always have to rain on my parade...\nI got myself so hyped up for this moment and now you've ruined it~!"
+            ],
+            "Login": [
+                "No need to fear, Basilisk is here!\nHuh? You don't have anything that could use my help...?\nOh...I see. I'll...I'll just sit over here then."
+            ],
+            "Tap": [
+                "I fear nothing! I'm a wraith master, after all.\nI rule over frightening―Aaaaagh! Why are you holding a carrot!?\nPut that away, it's the one thing that terrifies me!",
+                "My 'tail' is a snake and his name is Jajamaru. He's like my younger brother!\nHe's got a really foul mouth, but underneath that, he's actually quite caring!",
+                "Please don't call me \"snake girl\"~.\nI'm a sensitive lady, and it goes against my sensibilities...especially coming from you..."
+            ],
+            "Idle": [
+                "Huh? No one's around...oh, of course Jajamaru's here.\nYou know Jajamaru, even I'd like to enjoy a bit of solitude sometimes...\nAre you listening to me, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Burning Scythe": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Serpent's Inferno": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Basilisk's Glare": {
+                    "BaseWeight": 250
+                },
+                "Serpent's Bite": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

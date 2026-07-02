@@ -134114,7 +134114,7 @@
         "Hp_Base": 5585,
         "Speed": 800,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Un giorno ci riuniremo...\nVero, Michelangela?",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Vento)",
@@ -134454,5 +134454,349 @@
                 "RelationshipBuff": "PV+3%"
             }
         }
+    },
+    "BasiliskRegular01": {
+        "Name": "Basilisco",
+        "Name2": "Signora degli Spettri",
+        "FullName": "Basilisco - Signora degli Spettri",
+        "Profile": "Nata in un regno vicino, Basilisco fu abbandonata poco dopo la nascita e portata in orfanotrofio. Non riuscì mai a integrarsi con gli altri bambini e perciò trascorreva ogni giorno completamente da sola.\nLa sua solitudine si spezzò solo quando incontrò un serpente, che chiamò \"Jajamaru\". Diventò la sua unica famiglia, insostituibile e prezioso più di ogni altra cosa.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grand'Ascia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 28,
+        "Atk_Base": 1082,
+        "Hp_Base": 5800,
+        "Speed": 514,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Trema, perché sono la Signora degli Spiriti!",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Falce Bruciante",
+                "SkillDescription": "500% di danno a 2 nemici. 750% di danno invece se ci sono almeno 4 unità ustionate in campo. 1000% di danno invece se tutte le unità in campo sono ustionate. Questa abilità è considerata un'abilità di tipo Avanzata Ustionante.\n\nPoi, l'unità e un altro alleato casuale ottengono Perforazione. Un'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Inferno Serpentino",
+                "SkillDescription": "800% di danno a 1 nemico. 1200% di danno invece se è un Guardiano.\n\nSe l'unità è ustionata, ottiene immediatamente il turno.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le cariche dell'unità.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Vista del Basilisco",
+                "SkillDescription": "Ustiona tutti i nemici in campo e infligge loro Scudo Ustione. Tutti gli alleati in campo con abilità attive o passive che forniscono loro Mega Ustione Curativa ottengono Mega Ustione Curativa per 100TU e recuperano il 100% degli HP massimi. Sostituisce altri effetti di stato.\n\nPoi, disattiva le abilità attive di tutti i nemici ustionati per 10TU.\n\nSi sblocca la prima volta che un nemico in campo viene sconfitto o sacrificato mentre l'unità è in campo. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Questa abilità può essere utilizzata solo una volta ogni volta che l'unità è in campo.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "TU": 9,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Trama del Basilisco",
+                "SkillDescription": "L'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nL'unità entra in campo con Protezione Morte, Scudo Ustione e Mega Ustione Curativa per 100TU.\n\nQuando l'unità entra in campo dai rinforzi alleati:\n- Ustiona tutte le altre unità in campo e fornisce loro Scudo Ustione\n- Poi, ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare i TU di tutti gli altri alleati.\n\nScudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillTitle": "Dominaspettri",
+                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico mentre è ustionata, disattiva le abilità attive di tutti i nemici per 10TU. Ogni volta che l'unità abbandona il campo, l'effetto si azzera e può riattivarsi.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 20% dagli attacchi per ogni alleato ustionato in campo (fino all'80%).\n\nL'unità ottiene una Carica alla fine di ogni turno nemico. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità recupera il 100% degli HP massimi. Poi, tutti gli alleati in campo ottengono Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione.\n\nAlla fine del turno dell'unità, se l'unità è in campo ed:\n- È ustionata, indebolisce tutti i nemici in campo.\n- È addormentata o avvelenata, ustiona tutti gli alleati in campo.\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resis. Spadone Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato uno Spadone."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Sono Basilisco, la signora degli spiriti!\nSono sia carina che forte, quindi sono l'essere supremo!\nEh? Cosa? ...smetterla di essere così arrogante?\nDai, Jajamaru, perché devi sempre fare il guastafeste...\nEro tutta gasata e hai rovinato il momento~!"
+            ],
+            "Login": [
+                "Niente paura, c'è Basilisco!\nEh? Non hai bisogno del mio aiuto per niente...?\nAh... capisco. Allora... me ne starò seduta qui."
+            ],
+            "Tap": [
+                "Non ho paura di nulla! Sono una signora degli spiriti, dopotutto.\nIl mio dominio si estende su tutto ciò che― Aaaaaaah! Perché hai in mano una carota?!\nMettila via, è l'unica cosa che mi terrorizza!",
+                "La mia \"coda\" è un serpente e si chiama Jajamaru. È come un fratellino per me!\nHa una lingua davvero tagliente, ma in fondo è molto premuroso!",
+                "Per favore non chiamarmi \"ragazza serpente\"~.\nSono una signora sensibile e ferisci i miei sentimenti... Soprattutto perché sei tu a dirlo..."
+            ],
+            "Idle": [
+                "Eh? Non c'è nessuno in giro... Ah, certo, c'è Jajamaru.\nSai Jajamaru, anch'io a volte vorrei godermi un po' di solitudine...\nMi stai ascoltando, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Falce Bruciante": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Inferno Serpentino": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Vista del Basilisco": {
+                    "BaseWeight": 250
+                }
+            }
+        }
+    },
+    "BasiliskRegular02": {
+        "Name": "Basilisco",
+        "Name2": "Signora degli Spettri",
+        "FullName": "Basilisco - Signora degli Spettri",
+        "Profile": "Anche dopo la caduta del regno e la distruzione dell'orfanotrofio, Basilisco continuò a vivere insieme a Jajamaru in una capanna nel bosco, sopravvivendo grazie alla caccia e alla raccolta. Ma ben presto Jajamaru perse la vita a causa di una malattia. Sopraffatta dal dolore, Basilisco scelse di usare il proprio corpo come contenitore per custodire l'anima di Jajamaru, permettendogli di restare in questo mondo come spirito.",
+        "Profile_Ascended": "Da allora visse tranquillamente con Jajamaru in una rovina dimenticata. Facendo buon viso a cattivo gioco, si fece chiamare \"Signora degli Spiriti\", ma nell'oscurità delle caverne trascorreva la maggior parte del tempo terrorizzata dagli intrusi.\n\n\"Aaaaah! Ho s-s-sentito un brivido lungo la schiena... Era... un fantasma?!”\n\nJajamaru: \"Sono solo io, stupidella.\"",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grand'Ascia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 34,
+        "Atk_Base": 1322,
+        "Hp_Base": 7810,
+        "Speed": 514,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ HP+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Falce Bruciante",
+                "SkillDescription": "500% di danno a 2 nemici. 750% di danno invece se ci sono almeno 4 unità ustionate in campo. 1000% di danno invece se tutte le unità in campo sono ustionate. Questa abilità è considerata un'abilità di tipo Avanzata Ustionante.\n\nPoi, l'unità e un altro alleato casuale ottengono Perforazione. Un'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Inferno Serpentino",
+                "SkillDescription": "800% di danno a 1 nemico. 1200% di danno invece se è un Guardiano.\n\nSe l'unità è ustionata, ottiene immediatamente il turno.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le cariche dell'unità.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Vista del Basilisco",
+                "SkillDescription": "Ustiona tutti i nemici in campo e infligge loro Scudo Ustione. Tutti gli alleati in campo con abilità attive o passive che forniscono loro Mega Ustione Curativa ottengono Mega Ustione Curativa per 100TU e recuperano il 100% degli HP massimi. Sostituisce altri effetti di stato.\n\nPoi, disattiva le abilità attive di tutti i nemici ustionati per 10TU.\n\nSi sblocca la prima volta che un nemico in campo viene sconfitto o sacrificato mentre l'unità è in campo. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Questa abilità può essere utilizzata solo una volta ogni volta che l'unità è in campo.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "TU": 9,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Morso Serpentino",
+                "SkillDescription": "Un nemico senza Effimerità, che non è un boss e ha le abilità attive disattivate in campo viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Questo effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive e gli effetti che impedirebbero al nemico casuale di essere sconfitto.\n\nAllontana l'unità dal campo e la mette in cima tra i rinforzi. Se non ci sono rinforzi alleati, aggiunge abbastanza Super Himori alla squadra alleata per allontanare l'unità tra i rinforzi (fino a 4 se l'unità è da sola in campo).\n\nSi sblocca ogni volta che l'unità usa Vista del Basilisco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Utilizzabile 5 volte per battaglia.",
+                "TU": 0,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Trama del Basilisco",
+                "SkillDescription": "L'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nL'unità entra in campo con Protezione Morte, Scudo Ustione e Mega Ustione Curativa per 100TU.\n\nQuando l'unità entra in campo dai rinforzi alleati:\n- Ustiona tutte le altre unità in campo e fornisce loro Scudo Ustione\n- Poi, ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare i TU di tutti gli altri alleati.\n\nScudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillTitle": "Dominaspettri",
+                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico mentre è ustionata, disattiva le abilità attive di tutti i nemici per 10TU. Ogni volta che l'unità abbandona il campo, l'effetto si azzera e può riattivarsi.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 20% dagli attacchi per ogni alleato ustionato in campo (fino all'80%).\n\nL'unità ottiene una Carica alla fine di ogni turno nemico. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità recupera il 100% degli HP massimi. Poi, tutti gli alleati in campo ottengono Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione.\n\nAlla fine del turno dell'unità, se l'unità è in campo ed:\n- È ustionata, indebolisce tutti i nemici in campo.\n- È addormentata o avvelenata, ustiona tutti gli alleati in campo.\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resis. Spadone Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato uno Spadone."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Sono Basilisco, la signora degli spiriti!\nSono sia carina che forte, quindi sono l'essere supremo!\nEh? Cosa? ...smetterla di essere così arrogante?\nDai, Jajamaru, perché devi sempre fare il guastafeste...\nEro tutta gasata e hai rovinato il momento~!"
+            ],
+            "Login": [
+                "Niente paura, c'è Basilisco!\nEh? Non hai bisogno del mio aiuto per niente...?\nAh... capisco. Allora... me ne starò seduta qui."
+            ],
+            "Tap": [
+                "Non ho paura di nulla! Sono una signora degli spiriti, dopotutto.\nIl mio dominio si estende su tutto ciò che― Aaaaaaah! Perché hai in mano una carota?!\nMettila via, è l'unica cosa che mi terrorizza!",
+                "La mia \"coda\" è un serpente e si chiama Jajamaru. È come un fratellino per me!\nHa una lingua davvero tagliente, ma in fondo è molto premuroso!",
+                "Per favore non chiamarmi \"ragazza serpente\"~.\nSono una signora sensibile e ferisci i miei sentimenti... Soprattutto perché sei tu a dirlo..."
+            ],
+            "Idle": [
+                "Eh? Non c'è nessuno in giro... Ah, certo, c'è Jajamaru.\nSai Jajamaru, anch'io a volte vorrei godermi un po' di solitudine...\nMi stai ascoltando, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Falce Bruciante": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Inferno Serpentino": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Vista del Basilisco": {
+                    "BaseWeight": 250
+                },
+                "Morso Serpentino": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

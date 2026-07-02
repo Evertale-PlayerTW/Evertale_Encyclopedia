@@ -134114,7 +134114,7 @@
         "Hp_Base": 5585,
         "Speed": 800,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Eines Tages werden wir wieder vereint sein... Stimmt's, Mikaela?",
         "LeaderSkill": {
             "SkillTitle": "Sturm-ANG hoch",
@@ -134454,5 +134454,349 @@
                 "RelationshipBuff": "LP+3%"
             }
         }
+    },
+    "BasiliskRegular01": {
+        "Name": "Basilisk",
+        "Name2": "Meister der Gespenster",
+        "FullName": "Basilisk - Meister der Gespenster",
+        "Profile": "Basilisk wurde in einem benachbarten Königreich geboren, kurz nach der Geburt ausgesetzt und von einem Waisenhaus aufgenommen. Sie konnte sich nie richtig in die Gruppe der anderen Kinder einfügen und verbrachte ihre Tage ganz allein.\nIhre Einsamkeit wurde erst durchbrochen, als sie auf eine Schlange stieß, die sie Jajamaru nannte. Er wurde ihre einzige Familie, unersetzlich und ihr über alles lieb.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großaxt",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 28,
+        "Atk_Base": 1082,
+        "Hp_Base": 5800,
+        "Speed": 514,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Erzittere, denn ich bin Herr der Gespenster!",
+        "LeaderSkill": {
+            "SkillTitle": "Feuer-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Feuer-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Brennende Sense",
+                "SkillDescription": "500% Schaden an 2 Gegnern. 750% Schaden, wenn 4 oder mehr Einheiten auf dem Schlachtfeld brennen. 1000% Schaden stattdessen, wenn alle Einheiten auf dem Schlachtfeld brennen. Dies gilt als Fertigkeit vom Typ Flammenmeer.\n\nDann erhalten der Anwender und ein weiterer zufälliger Verbündeter Durchbohren. Die Angriffe einer Einheit mit Durchbohren ignorieren bis zum Ende ihres nächsten Zuges die Schadensreduzierungseffekte des Gegners.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Schlangeninferno",
+                "SkillDescription": "800% Schaden an 1 Gegner. 1200% Schaden stattdessen, wenn es sich um einen Wächter handelt.\n\nWenn der Benutzer brennt, bekommt er sofort den nächsten Zug.\n\nNur möglich, wenn der Benutzer 3 Ladungen gespeichert hat. Verbraucht alle Ladungen des Benutzers.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Basiliskenblick",
+                "SkillDescription": "Verbrennt alle gegnerischen Einheiten auf dem Schlachtfeld und gewährt jeder von ihnen einen Brennschild. Alle verbündeten Einheiten auf dem Schlachtfeld mit aktiven oder passiven Fertigkeiten, die sich selbst Mega-Heilbrand gewähren können, erhalten für 100 ZE den Statuseffekt Mega-Heilbrand und werden auf 100% ihrer maximalen LP geheilt. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann werden die aktiven Fertigkeiten aller brennenden Gegner für 10 ZE deaktiviert.\n\nDie Fertigkeit wird entsperrten, wenn ein Gegner auf dem Schlachtfeld zum ersten Mal besiegt oder durch eine beliebige Quelle geopfert wird, während sich diese Einheit auf dem Schlachtfeld befindet, und wird nach jeder Anwendung oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt. Diese Fertigkeit kann nur einmal verwendet werden, wenn sich diese Einheit auf dem Schlachtfeld befindet.\n\nWenn die aktiven Fertigkeiten einer Einheit deaktiviert sind und sie den Zug erhält, verliert sie den Zug, als ob sie schlafen würde. Dieser Effekt kann keine Bosseinheiten beeinflussen, kann nicht gereinigt werden und endet, wenn der Benutzer besiegt wird.",
+                "TU": 9,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Basiliskhinterhalt",
+                "SkillDescription": "Diese Einheit ist immun gegen Betäubung. Immer wenn diese Einheit an der Reihe ist, können die aktiven Fertigkeiten dieser Einheit bis zum Ende ihres Zuges nicht deaktiviert werden.\n\nDiese Einheit kann nicht durch Schaden durch Verbrennungs-Statuseffekte besiegt werden. Diese Einheit kann während eines Zuges des Gegners nicht zur Verstärkung vom Schlachtfeld geschickt werden.\n\nDie Angriffe dieser Einheit heilen diese Einheit für 100% des gesamten zugefügten Schadens und ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nDiese Einheit zieht mit einem Soforttod-Schutz, einem Brennschild und Mega-Heilbrand für 100 ZE in den Kampf. \n\nWenn diese Einheit das Schlachtfeld von den verbündeten Verstärkungen aus betritt:\n- erhalten alle anderen Einheiten auf dem Schlachtfeld Verbrennung und Brennschilde\n- dann besteht für alle anderen Verbündeten eine Chance von 20% plus 20% pro Erweckung (bis zu 100%, wenn diese Einheit 4 Erweckungen hat), dass ihre aktuellen ZE auf 0 reduziert werden.\n\nEin Sofort-Todesschutz verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Gegner besiegt wird, der kein Boss ist, und wird dann entfernt. Soforttod-Schutz kann nicht ignoriert werden und sind nicht stapelbar. Brennschilde verhindern, dass der nächste nicht verbrennende Statuseffekt, den eine Einheit beim Brennen erleiden würde, angewendet wird. Eine Einheit mit Mega-Heilbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand, und kann nicht von den Statuseffekten Brennen‚ Gift oder Schlaf überschrieben und nicht geläutert werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillTitle": "Gespenstermeister",
+                "SkillDescription": "Wenn diese Einheit zum ersten Mal durch einen gegnerischen Angriff beschädigt wird, während sie brennt, werden die aktiven Fertigkeiten aller Gegner auf dem Schlachtfeld für 10 ZE deaktiviert. Immer wenn diese Einheit das Schlachtfeld verlässt, wird dieser Effekt zurückgesetzt, so dass er erneut ausgelöst werden kann.\n\nWenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit erhält für jeden brennenden Verbündeten auf dem Schlachtfeld 20% Schadensreduzierung durch Angriffe (bis zu maximal 80%).\n\nDiese Einheit erhält am Ende jeder Runde des Gegners eine Ladung. Bestimmte Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden von einer Einheit entfernt, die das Schlachtfeld verlässt.\n\nWenn ein Gegner auf dem Schlachtfeld besiegt oder aus irgendeiner Quelle geopfert wird, heilt sich diese Einheit um 100% der maximalen LP. Dann werden alle Verbündeten auf dem Schlachtfeld wütend. Der Angriff einer wütenden Einheit wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Wut überschreibt alle bestehenden Schwäche- oder Wut-Effekte dieser Einheiten.\n Wenn diese Einheit am Ende ihres Zuges, wenn sie auf dem Schlachtfeld ist und:\n- brennend ist, schwächt diese Einheit alle Gegner auf dem Schlachtfeld.\n- schlafend oder vergiftet ist, gewährt diese Einheit allen Verbündeten auf dem Schlachtfeld den Status-Effekt Brennen.\nGeschwächte Einheiten haben bis zum Ende ihres nächsten Zuges einen auf 0,75x reduzierten Angriff. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Gr.Schwertwiderst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Großschwert führen."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich bin Basilisk, ein Gespenstmeister! \nIch bin sowohl süß als auch stark – das macht mich zum ultimativen Wesen!\nEh? Was?…Hör auf, so übermütig zu sein?\nKomm schon, Jajamaru, warum musst du mir immer die Laune verderben…\nIch hab mich so auf diesen Moment gefreut und jetzt hast du ihn mir verdorben~!"
+            ],
+            "Login": [
+                "Keine Sorge, Basilisk ist da!\nHä? Du hast nichts, womit ich dir helfen könnte...?\nOh... verstehe. Dann... setz ich mich einfach mal hier hin."
+            ],
+            "Tap": [
+                "Ich fürchte nichts! Ich bin schließlich ein Gespenstmeister.\nIch beherrsche alles, was Angst macht – Aaaaagh! Warum hältst du da eine Karotte in der Hand!?\nSteck das weg, das ist das Einzige, was mir Angst macht!",
+                "Mein \"Schwanz\" ist eine Schlange und er heißt Jajamaru. Er ist wie mein kleiner Bruder!\nEr redet zwar ziemlich unanständig, aber tief im Inneren ist er eigentlich ganz fürsorglich!",
+                "Bitte nenn mich nicht Schlangenmädchen~.\nIch bin eine sensible Frau, und das verstößt gegen meine Gefühle… vor allem, wenn es von dir kommt…"
+            ],
+            "Idle": [
+                "Hä? Da ist ja niemand… oh, natürlich, Jajamaru ist ja da.\nWeißt du, Jajamaru, selbst ich möchte manchmal ein bisschen Ruhe genießen…\nHörst du mir überhaupt zu, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Brennende Sense": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Schlangeninferno": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Basiliskenblick": {
+                    "BaseWeight": 250
+                }
+            }
+        }
+    },
+    "BasiliskRegular02": {
+        "Name": "Basilisk",
+        "Name2": "Meister der Gespenster",
+        "FullName": "Basilisk - Meister der Gespenster",
+        "Profile": "Selbst nachdem das Königreich gefallen war und das Waisenhaus verloren ging, lebte Basilisk weiterhin zusammen mit Jajamaru in einer Hütte im Wald und ernährte sich von der Jagd und dem Sammeln von Nahrung. Doch schon bald verlor Jajamaru sein Leben durch eine Krankheit. Von Trauer überwältigt, beschloss Basilisk, ihren eigenen Körper als Gefäß zu nutzen, um Jajamarus Seele darin zu bewahren, sodass er als Geist in dieser Welt verbleiben konnte.",
+        "Profile_Ascended": "Von da an lebte sie still und zurückgezogen mit Jajamaru in einer vergessenen Ruine. Sie setzte eine tapfere Miene auf und nannte sich selbst die Meister der Gespenster, doch in der Dunkelheit der Höhlen verbrachte sie die meiste Zeit damit, sich vor Eindringlingen zu fürchten.\n\nHuch! Mir ist gerade ein Schauer über den Rücken gelaufen… War das... ein Geist?!\n\nJajamaru: Ich bin’s nur, du Balg.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großaxt",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 34,
+        "Atk_Base": 1322,
+        "Hp_Base": 7810,
+        "Speed": 514,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Feuer-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Feuer-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Brennende Sense",
+                "SkillDescription": "500% Schaden an 2 Gegnern. 750% Schaden, wenn 4 oder mehr Einheiten auf dem Schlachtfeld brennen. 1000% Schaden stattdessen, wenn alle Einheiten auf dem Schlachtfeld brennen. Dies gilt als Fertigkeit vom Typ Flammenmeer.\n\nDann erhalten der Anwender und ein weiterer zufälliger Verbündeter Durchbohren. Die Angriffe einer Einheit mit Durchbohren ignorieren bis zum Ende ihres nächsten Zuges die Schadensreduzierungseffekte des Gegners.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Schlangeninferno",
+                "SkillDescription": "800% Schaden an 1 Gegner. 1200% Schaden stattdessen, wenn es sich um einen Wächter handelt.\n\nWenn der Benutzer brennt, bekommt er sofort den nächsten Zug.\n\nNur möglich, wenn der Benutzer 3 Ladungen gespeichert hat. Verbraucht alle Ladungen des Benutzers.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Basiliskenblick",
+                "SkillDescription": "Verbrennt alle gegnerischen Einheiten auf dem Schlachtfeld und gewährt jeder von ihnen einen Brennschild. Alle verbündeten Einheiten auf dem Schlachtfeld mit aktiven oder passiven Fertigkeiten, die sich selbst Mega-Heilbrand gewähren können, erhalten für 100 ZE den Statuseffekt Mega-Heilbrand und werden auf 100% ihrer maximalen LP geheilt. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDann werden die aktiven Fertigkeiten aller brennenden Gegner für 10 ZE deaktiviert.\n\nDie Fertigkeit wird entsperrten, wenn ein Gegner auf dem Schlachtfeld zum ersten Mal besiegt oder durch eine beliebige Quelle geopfert wird, während sich diese Einheit auf dem Schlachtfeld befindet, und wird nach jeder Anwendung oder wenn der Anwender das Schlachtfeld verlässt, erneut gesperrt. Diese Fertigkeit kann nur einmal verwendet werden, wenn sich diese Einheit auf dem Schlachtfeld befindet.\n\nWenn die aktiven Fertigkeiten einer Einheit deaktiviert sind und sie den Zug erhält, verliert sie den Zug, als ob sie schlafen würde. Dieser Effekt kann keine Bosseinheiten beeinflussen, kann nicht gereinigt werden und endet, wenn der Benutzer besiegt wird.",
+                "TU": 9,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Schlangenbiss",
+                "SkillDescription": "Ein zufälliger, nicht-boss, nicht-beschworener Gegner auf dem Schlachtfeld, dessen aktive Fertigkeiten deaktiviert sind, wird sofort besiegt (es wird angenommen, dass der Benutzer diesen Gegner mit einem Angriff besiegt hat). Dieser Effekt ignoriert passive Fertigkeiten der Rache, passive Fertigkeiten der Wiederbelebung und alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nZieht den Benutzer vom Schlachtfeld weg, um die nächste Verstärkung zu werden. Wenn es keine Verstärkung durch Verbündete gibt, werden dem verbündeten Team genügend Super Himoris hinzugefügt, um den Benutzer trotzdem zur Verstärkung zu ziehen (maximal 4, wenn der Benutzer allein auf dem Schlachtfeld ist).\n\nDie Fähigkeit wird jedes Mal freigeschaltet, wenn der Benutzer Basiliskenblick einsetzt, und wird nach jedem Einsatz oder wenn der Benutzer das Schlachtfeld verlässt, erneut gesperrt. Kann 5 Mal pro Kampf eingesetzt werden.",
+                "TU": 0,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Basiliskhinterhalt",
+                "SkillDescription": "Diese Einheit ist immun gegen Betäubung. Immer wenn diese Einheit an der Reihe ist, können die aktiven Fertigkeiten dieser Einheit bis zum Ende ihres Zuges nicht deaktiviert werden.\n\nDiese Einheit kann nicht durch Schaden durch Verbrennungs-Statuseffekte besiegt werden. Diese Einheit kann während eines Zuges des Gegners nicht zur Verstärkung vom Schlachtfeld geschickt werden.\n\nDie Angriffe dieser Einheit heilen diese Einheit für 100% des gesamten zugefügten Schadens und ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden, den Statuseffekt Konterstellung und die Effekte von passiven Skin-Fertigkeiten.\n\nDiese Einheit zieht mit einem Soforttod-Schutz, einem Brennschild und Mega-Heilbrand für 100 ZE in den Kampf. \n\nWenn diese Einheit das Schlachtfeld von den verbündeten Verstärkungen aus betritt:\n- erhalten alle anderen Einheiten auf dem Schlachtfeld Verbrennung und Brennschilde\n- dann besteht für alle anderen Verbündeten eine Chance von 20% plus 20% pro Erweckung (bis zu 100%, wenn diese Einheit 4 Erweckungen hat), dass ihre aktuellen ZE auf 0 reduziert werden.\n\nEin Sofort-Todesschutz verhindert, dass diese Einheit einmal sofort ohne Schaden von einem Gegner besiegt wird, der kein Boss ist, und wird dann entfernt. Soforttod-Schutz kann nicht ignoriert werden und sind nicht stapelbar. Brennschilde verhindern, dass der nächste nicht verbrennende Statuseffekt, den eine Einheit beim Brennen erleiden würde, angewendet wird. Eine Einheit mit Mega-Heilbrand heilt sich nach jeder Runde mit der 20-fachen Rate von Heilbrand. Diese Heilung überschreibt andere Statuseffekte, einschließlich Heilbrand, und kann nicht von den Statuseffekten Brennen‚ Gift oder Schlaf überschrieben und nicht geläutert werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von einer solchen Einheit geschädigt wird, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält Heilbrand für 300 ZE, wenn Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillTitle": "Gespenstermeister",
+                "SkillDescription": "Wenn diese Einheit zum ersten Mal durch einen gegnerischen Angriff beschädigt wird, während sie brennt, werden die aktiven Fertigkeiten aller Gegner auf dem Schlachtfeld für 10 ZE deaktiviert. Immer wenn diese Einheit das Schlachtfeld verlässt, wird dieser Effekt zurückgesetzt, so dass er erneut ausgelöst werden kann.\n\nWenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit erhält für jeden brennenden Verbündeten auf dem Schlachtfeld 20% Schadensreduzierung durch Angriffe (bis zu maximal 80%).\n\nDiese Einheit erhält am Ende jeder Runde des Gegners eine Ladung. Bestimmte Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden von einer Einheit entfernt, die das Schlachtfeld verlässt.\n\nWenn ein Gegner auf dem Schlachtfeld besiegt oder aus irgendeiner Quelle geopfert wird, heilt sich diese Einheit um 100% der maximalen LP. Dann werden alle Verbündeten auf dem Schlachtfeld wütend. Der Angriff einer wütenden Einheit wird bis zum Ende ihres nächsten Zuges auf das 1,5-fache erhöht. Wut überschreibt alle bestehenden Schwäche- oder Wut-Effekte dieser Einheiten.\n Wenn diese Einheit am Ende ihres Zuges, wenn sie auf dem Schlachtfeld ist und:\n- brennend ist, schwächt diese Einheit alle Gegner auf dem Schlachtfeld.\n- schlafend oder vergiftet ist, gewährt diese Einheit allen Verbündeten auf dem Schlachtfeld den Status-Effekt Brennen.\nGeschwächte Einheiten haben bis zum Ende ihres nächsten Zuges einen auf 0,75x reduzierten Angriff. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Gr.Schwertwiderst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Großschwert führen."
+            },
+            {
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich bin Basilisk, ein Gespenstmeister! \nIch bin sowohl süß als auch stark – das macht mich zum ultimativen Wesen!\nEh? Was?…Hör auf, so übermütig zu sein?\nKomm schon, Jajamaru, warum musst du mir immer die Laune verderben…\nIch hab mich so auf diesen Moment gefreut und jetzt hast du ihn mir verdorben~!"
+            ],
+            "Login": [
+                "Keine Sorge, Basilisk ist da!\nHä? Du hast nichts, womit ich dir helfen könnte...?\nOh... verstehe. Dann... setz ich mich einfach mal hier hin."
+            ],
+            "Tap": [
+                "Ich fürchte nichts! Ich bin schließlich ein Gespenstmeister.\nIch beherrsche alles, was Angst macht – Aaaaagh! Warum hältst du da eine Karotte in der Hand!?\nSteck das weg, das ist das Einzige, was mir Angst macht!",
+                "Mein \"Schwanz\" ist eine Schlange und er heißt Jajamaru. Er ist wie mein kleiner Bruder!\nEr redet zwar ziemlich unanständig, aber tief im Inneren ist er eigentlich ganz fürsorglich!",
+                "Bitte nenn mich nicht Schlangenmädchen~.\nIch bin eine sensible Frau, und das verstößt gegen meine Gefühle… vor allem, wenn es von dir kommt…"
+            ],
+            "Idle": [
+                "Hä? Da ist ja niemand… oh, natürlich, Jajamaru ist ja da.\nWeißt du, Jajamaru, selbst ich möchte manchmal ein bisschen Ruhe genießen…\nHörst du mir überhaupt zu, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Brennende Sense": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Schlangeninferno": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Basiliskenblick": {
+                    "BaseWeight": 250
+                },
+                "Schlangenbiss": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

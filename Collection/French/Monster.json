@@ -134114,7 +134114,7 @@
         "Hp_Base": 5585,
         "Speed": 800,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "On se retrouvera un jour... Pas vrai, Michelle ?",
         "LeaderSkill": {
             "SkillTitle": "Tempête ATT+",
@@ -134454,5 +134454,349 @@
                 "RelationshipBuff": "PV+3%"
             }
         }
+    },
+    "BasiliskRegular01": {
+        "Name": "Basilisk",
+        "Name2": "Maître des spectres",
+        "FullName": "Basilisk - Maître des spectres",
+        "Profile": "Née dans un royaume voisin, Basilisk fut abandonnée peu de temps après sa naissance et fut accueillie dans un orphelinat. Elle ne réussit jamais à trouver sa place parmi les autres enfants, et passait ses jours entièrement seule.\nSa solitude prit seulement fin lorsqu'elle rencontra un serpent qu'elle appela « Jajamaru » . Il devint sa seule famille; Irremplaçable et plus précieux que tout.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G.Hache",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 28,
+        "Atk_Base": 1082,
+        "Hp_Base": 5800,
+        "Speed": 514,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Tremblez, car je suis le maître des spectres !",
+        "LeaderSkill": {
+            "SkillTitle": "Feu ATT & PV+",
+            "SkillDescription": "Les alliés Feu voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Faucille Brûlante",
+                "SkillDescription": "500% de dégâts à 2 ennemis. 750% de dégâts à la place si 4 unités du champ de bataille voire davantage sont brûlées. 1000% de dégâts à la place si toutes les unités du champ de bataille sont brûlées. Ceci est considéré comme étant une compétence de type Pulsion Brûlure.\n\nPuis l'utilisateur et un autre allié aléatoire gagnent Perçage. Les Attaques d'une unité avec Perçage ignoreront les effets de réduction de dégâts ennemis jusqu'à la fin de son prochain tour.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Enfer du Serpent",
+                "SkillDescription": "800% de dégâts à 1 ennemi. 1200% de dégâts à la place si c'est un Gardien.\n\nSi l'utilisateur est brûlé, il prendra immédiatement le prochain tour.\n\nUtilisable seulement si le lanceur possède 3 Charges conservées. Consomme toutes les Charges sur l'utilisateur.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Œil de Basilisk",
+                "SkillDescription": "Brûle toutes les unités ennemies du champ de bataille et leur donne un Bouclier Brûlure à chacune. Toutes les unités alliées du champ de bataille ayant des compétences actives ou passives qui peuvent leur donner la Méga Brûlure Soin gagnent l'effet de statut de Méga Brûlure Soin pendant 100TU et sont soignées de 100% de leurs PV max. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis les Compétences Actives de tous les ennemis brûlés sont désactivées pendant 10TU.\n\nDéverrouillé la première fois qu'un ennemi du champ de bataille est vaincu ou sacrifié par une source quelconque lorsque cette unité est sur le champ de bataille, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille. Cette compétence ne peut seulement être utilisée une fois à chaque fois que cette unité est sur le champ de bataille.\n\nLorsque les Compétences Actives d'une unité sont désactivées et qu'elle prend son tour, elle perdra le tour comme si elle était endormie. Cet effet ne peut affecter les unités boss, ne peut être purifié et touchera à sa fin si le lanceur est vaincu.",
+                "TU": 9,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Affût de Basilisk",
+                "SkillDescription": "Cette unité bénéficie d'une Immunité Étourdissement. À chaque fois que cette unité prend son tour et si ses Compétences Actives ne sont pas désactivées, les Compétences Actives de cette unité ne peuvent être désactivées jusqu'à la fin de son tour.\n\nCette unité ne peut être vaincue par les dégâts provenant d'effets de statut de Brûlure. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille lors d'un tour ennemi.\n\nLes attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues, l'effet de statut de Contre Relais, et les effets de compétences passives de Reflet.\n\nCette unité entre en bataille avec une Protection Mort Instantanée, un Bouclier Brûlure, et la Méga Brûlure Soin pendant 100TU.\n\nDéclenché lorsque cette unité entre en bataille depuis les renforts alliés :\n- Toutes les autres unités du champ de bataille sont Brûlées et gagnent des Boucliers Brûlure.\n- Puis, 20% de chance et 20% de chance en plus par le nombre d'Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que les TU actuels de tous les autres alliés soient réduits à 0.\n\nUne Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Les Boucliers Brûlure empêchent l'application du prochain effet de statut non-Brûlure qu'une unité subirait lorsqu'elle est brûlée. Une unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera toute autre effet de statut sur cette unité y compris la Brûlure Soin, ne peut être remplacé par les effets de statut de Brûlure, Poison, ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillTitle": "Maître des Spectres",
+                "SkillDescription": "Les Compétences Actives de tous les ennemis du champ de bataille sont désactivées pendant 10TU la première fois que cette unité subit des dégâts par une attaque ennemie lorsqu'elle est brûlée. Chaque fois que cette unité quitte le champ de bataille, cet effet est réinitialisé pour pouvoir être à nouveau déclenché.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité bénéficie d'une réduction de 20% des dégâts provenant des attaques par allié brûlé du champ de bataille (jusqu'à un maximum de 80%).\n\nCette unité gagnera une Charge à la fin de chaque tour ennemi. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges, et toutes les charges sont retirées à une unité qui quitte le champ de bataille.\n\nCette unité est soigné de 100% de ses PV max à chaque fois qu'un ennemi du champ de bataille est vaincu ou sacrifié par une source quelconque. Puis tous les alliés du champ de bataille deviennent Enragés. L'Attaque d'une unité Enragée est augmentée de 150% jusqu'à la fin de son prochain tour. Les effets d'Enragé remplaceront tout effet d'Affaiblissement ou d'Enragé existant sur cette unité.\n\nÀ la fin du tour de cette unité, si cette unité est sur le champ de bataille et :\n- Brûlée, elle Affaiblira tous les ennemis du champ de bataille.\n- Endormie ou Empoisonnée, elle infligera l'effet de statut de Brûlure à tous les alliés du champ de bataille.\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. G.Épée LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités équipées d'une Grande Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Je m'appelle Basilisk, maître de spectres !\nJe suis à la fois mignonne et forte, donc l'être ultime !\nHein ? Comment ? ... Vous me dites d'arrêter d'être si arrogante ?\nViens Jajamaru ! Pourquoi est-ce tu dois toujours troubler la fête...\nJe me suis tellement motivée pour ce moment et maintenant, tu as tout gâché ~ !"
+            ],
+            "Login": [
+                "Pas besoin d'avoir peur ! Basilisk est arrivée !\nHein ? Il n'y a rien à faire pour vous aider...?\nOh... Je vois. Je vais... Je vais simplement m'asseoir ici alors."
+            ],
+            "Tap": [
+                "Je n'ai peur de rien ! Je suis une maître des spectres après tout.\nJe suis en charge de tout ce qu'il y a d'effrayant––Aaaaaargh ! Pourquoi est-ce que vous tenez une carotte !?\nRangez-moi cela ! C'est l'unique chose qui me terrorise !",
+                "Ma queue est un serpent et elle s'appelle Jajamaru. C'est un peu comme mon petit frère !\nIl parle vulgairement, mais derrière tout cela, il est assez bienveillant !",
+                "Je vous prie de ne pas m'appeler « la fille serpent » ~.\nJe suis une fille sensible, et cela va à l'encontre de mes sensibilités... Surtout venant de vous..."
+            ],
+            "Idle": [
+                "Hein ? Personne n'est ici... Oh, Jajamaru est ici, bien sûr.\nTu sais, Jajamaru, même moi, j'aimerais parfois apprécier un peu de solitude de temps en temps...\nEst-ce que tu m'écoutes, Jajamaru ~ !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Faucille Brûlante": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Enfer du Serpent": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Œil de Basilisk": {
+                    "BaseWeight": 250
+                }
+            }
+        }
+    },
+    "BasiliskRegular02": {
+        "Name": "Basilisk",
+        "Name2": "Maître des spectres",
+        "FullName": "Basilisk - Maître des spectres",
+        "Profile": "Même après la chute du royaume et la perte de l'orphelinat, Basilisk continua à vivre avec Jajamaru dans une cabane en forêt, survivant de chasse et cueillette. Mais rapidement, Jajamaru mourut d'une maladie. Accablée de chagrin, Basilisk choisit d'utiliser son propre corps en tant que véhicule pour conserver l'âme de Jajamaru; Lui permettant de rester dans ce monde en tant que spectre.",
+        "Profile_Ascended": "À partir de ce moment-ci, elle viva silencieusement avec Jajamaru au sein de ruines oubliées. Voulant faire bonne figure, elle décida de se nommer « Maître des spectres » , mais dans la pénombre des grottes, elle passait la plupart de son temps à être effrayée des infiltrants.\n\n« Argh ! J-J-Je viens d'avoir les frissons... Était-ce... Un fantôme !? »\n\nJajamaru : « C'est seulement moi, morveuse. »",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G.Hache",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 34,
+        "Atk_Base": 1322,
+        "Hp_Base": 7810,
+        "Speed": 514,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Feu ATT & PV+",
+            "SkillDescription": "Les alliés Feu voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Faucille Brûlante",
+                "SkillDescription": "500% de dégâts à 2 ennemis. 750% de dégâts à la place si 4 unités du champ de bataille voire davantage sont brûlées. 1000% de dégâts à la place si toutes les unités du champ de bataille sont brûlées. Ceci est considéré comme étant une compétence de type Pulsion Brûlure.\n\nPuis l'utilisateur et un autre allié aléatoire gagnent Perçage. Les Attaques d'une unité avec Perçage ignoreront les effets de réduction de dégâts ennemis jusqu'à la fin de son prochain tour.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Enfer du Serpent",
+                "SkillDescription": "800% de dégâts à 1 ennemi. 1200% de dégâts à la place si c'est un Gardien.\n\nSi l'utilisateur est brûlé, il prendra immédiatement le prochain tour.\n\nUtilisable seulement si le lanceur possède 3 Charges conservées. Consomme toutes les Charges sur l'utilisateur.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Œil de Basilisk",
+                "SkillDescription": "Brûle toutes les unités ennemies du champ de bataille et leur donne un Bouclier Brûlure à chacune. Toutes les unités alliées du champ de bataille ayant des compétences actives ou passives qui peuvent leur donner la Méga Brûlure Soin gagnent l'effet de statut de Méga Brûlure Soin pendant 100TU et sont soignées de 100% de leurs PV max. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis les Compétences Actives de tous les ennemis brûlés sont désactivées pendant 10TU.\n\nDéverrouillé la première fois qu'un ennemi du champ de bataille est vaincu ou sacrifié par une source quelconque lorsque cette unité est sur le champ de bataille, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille. Cette compétence ne peut seulement être utilisée une fois à chaque fois que cette unité est sur le champ de bataille.\n\nLorsque les Compétences Actives d'une unité sont désactivées et qu'elle prend son tour, elle perdra le tour comme si elle était endormie. Cet effet ne peut affecter les unités boss, ne peut être purifié et touchera à sa fin si le lanceur est vaincu.",
+                "TU": 9,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Morsure de Serpent",
+                "SkillDescription": "Un ennemi aléatoire non-Boss, non-Éphémère du champ de bataille ayant ses compétences désactivées sera immédiatement vaincu (l'utilisateur sera considéré avoir vaincu cet ennemi par une attaque). Cet effet ignore le compétences de Vengeance et Résurrection et toute compétence ou effet de compétences actives qui empêcherait l'ennemi aléatoire d'être vaincu.\n\nRenvoie l'utilisateur du champ de bataille en tête des renforts. Ajoute le nombre nécessaire de Super Himoris à l'équipe alliée pour pouvoir renvoyer l'utilisateur vers les renforts s'il n'y a pas de renforts alliés (maximum de 4 si l'utilisateur est seul sur le champ de bataille).\n\nDéverrouillé à chaque fois que le lanceur utilise Oeil de Basilisk et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille. Utilisable 5 fois par bataille.",
+                "TU": 0,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Affût de Basilisk",
+                "SkillDescription": "Cette unité bénéficie d'une Immunité Étourdissement. À chaque fois que cette unité prend son tour et si ses Compétences Actives ne sont pas désactivées, les Compétences Actives de cette unité ne peuvent être désactivées jusqu'à la fin de son tour.\n\nCette unité ne peut être vaincue par les dégâts provenant d'effets de statut de Brûlure. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille lors d'un tour ennemi.\n\nLes attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues, l'effet de statut de Contre Relais, et les effets de compétences passives de Reflet.\n\nCette unité entre en bataille avec une Protection Mort Instantanée, un Bouclier Brûlure, et la Méga Brûlure Soin pendant 100TU.\n\nDéclenché lorsque cette unité entre en bataille depuis les renforts alliés :\n- Toutes les autres unités du champ de bataille sont Brûlées et gagnent des Boucliers Brûlure.\n- Puis, 20% de chance et 20% de chance en plus par le nombre d'Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que les TU actuels de tous les autres alliés soient réduits à 0.\n\nUne Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts provenant d'un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Les Boucliers Brûlure empêchent l'application du prochain effet de statut non-Brûlure qu'une unité subirait lorsqu'elle est brûlée. Une unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera toute autre effet de statut sur cette unité y compris la Brûlure Soin, ne peut être remplacé par les effets de statut de Brûlure, Poison, ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillTitle": "Maître des Spectres",
+                "SkillDescription": "Les Compétences Actives de tous les ennemis du champ de bataille sont désactivées pendant 10TU la première fois que cette unité subit des dégâts par une attaque ennemie lorsqu'elle est brûlée. Chaque fois que cette unité quitte le champ de bataille, cet effet est réinitialisé pour pouvoir être à nouveau déclenché.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité bénéficie d'une réduction de 20% des dégâts provenant des attaques par allié brûlé du champ de bataille (jusqu'à un maximum de 80%).\n\nCette unité gagnera une Charge à la fin de chaque tour ennemi. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges, et toutes les charges sont retirées à une unité qui quitte le champ de bataille.\n\nCette unité est soigné de 100% de ses PV max à chaque fois qu'un ennemi du champ de bataille est vaincu ou sacrifié par une source quelconque. Puis tous les alliés du champ de bataille deviennent Enragés. L'Attaque d'une unité Enragée est augmentée de 150% jusqu'à la fin de son prochain tour. Les effets d'Enragé remplaceront tout effet d'Affaiblissement ou d'Enragé existant sur cette unité.\n\nÀ la fin du tour de cette unité, si cette unité est sur le champ de bataille et :\n- Brûlée, elle Affaiblira tous les ennemis du champ de bataille.\n- Endormie ou Empoisonnée, elle infligera l'effet de statut de Brûlure à tous les alliés du champ de bataille.\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. G.Épée LV3",
+                "SkillDescription": "10% de dégâts en moins des attaques des unités équipées d'une Grande Épée."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Je m'appelle Basilisk, maître de spectres !\nJe suis à la fois mignonne et forte, donc l'être ultime !\nHein ? Comment ? ... Vous me dites d'arrêter d'être si arrogante ?\nViens Jajamaru ! Pourquoi est-ce tu dois toujours troubler la fête...\nJe me suis tellement motivée pour ce moment et maintenant, tu as tout gâché ~ !"
+            ],
+            "Login": [
+                "Pas besoin d'avoir peur ! Basilisk est arrivée !\nHein ? Il n'y a rien à faire pour vous aider...?\nOh... Je vois. Je vais... Je vais simplement m'asseoir ici alors."
+            ],
+            "Tap": [
+                "Je n'ai peur de rien ! Je suis une maître des spectres après tout.\nJe suis en charge de tout ce qu'il y a d'effrayant––Aaaaaargh ! Pourquoi est-ce que vous tenez une carotte !?\nRangez-moi cela ! C'est l'unique chose qui me terrorise !",
+                "Ma queue est un serpent et elle s'appelle Jajamaru. C'est un peu comme mon petit frère !\nIl parle vulgairement, mais derrière tout cela, il est assez bienveillant !",
+                "Je vous prie de ne pas m'appeler « la fille serpent » ~.\nJe suis une fille sensible, et cela va à l'encontre de mes sensibilités... Surtout venant de vous..."
+            ],
+            "Idle": [
+                "Hein ? Personne n'est ici... Oh, Jajamaru est ici, bien sûr.\nTu sais, Jajamaru, même moi, j'aimerais parfois apprécier un peu de solitude de temps en temps...\nEst-ce que tu m'écoutes, Jajamaru ~ !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Faucille Brûlante": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Enfer du Serpent": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Œil de Basilisk": {
+                    "BaseWeight": 250
+                },
+                "Morsure de Serpent": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

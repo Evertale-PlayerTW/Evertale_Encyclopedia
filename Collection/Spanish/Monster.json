@@ -134114,7 +134114,7 @@
         "Hp_Base": 5585,
         "Speed": 800,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Algún día nos reuniremos... ¿Verdad, Mikaela?",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Trueno",
@@ -134454,5 +134454,349 @@
                 "RelationshipBuff": "HP+3%"
             }
         }
+    },
+    "BasiliskRegular01": {
+        "Name": "Basilisk",
+        "Name2": "Maestra de los Espectros",
+        "FullName": "Basilisk - Maestra de los Espectros",
+        "Profile": "Nacida en un reino vecino, Basilisk fue abandonada poco después de nacer y llevada a un orfanato. Nunca logró integrarse con los demás niños y pasaba sus días completamente sola.\nSu soledad sólo se rompió cuando encontró una serpiente, a la que llamó \"Jajamaru.\" Él se convirtió en su única familia, irremplazable y valioso por encima de todo.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G. Hacha",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 28,
+        "Atk_Base": 1082,
+        "Hp_Base": 5800,
+        "Speed": 514,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡Temblad, pues soy la Maestra de los Espectros!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Guadaña Ardiente",
+                "SkillDescription": "500% de daño a 2 enemigos. 750% de daño si 4 o más unidades en el campo de batalla están en llamas. 1000% de daño si todas las unidades en el campo de batalla están en llamas. Esta se considera una habilidad del tipo Impulso Ardiente\n\nDespués, el usuario y otro aliado aleatorio obtienen Perforado. Una unidad con Perforado ignorará los efectos de reducción de daño enemigos hasta el final de su siguiente turno.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Serpiente Infernal",
+                "SkillDescription": "800% de daño a 1 enemigo. 1200% de daño si es un Guardián.\n\nSi el usuario está en llamas, recibe inmediatamente el siguiente turno.\n\nSólo se puede usar si el usuario tiene 3 Cargas almacenadas. Consume todas las Cargas del usuario.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Ojos de Basilisk",
+                "SkillDescription": "Quema a todas las unidades enemigas en el campo de batalla y les otorga un Escudo Quemado. Todas las unidades aliadas en el campo de batalla con habilidades activas o pasivas que les otorguen Mega Quemado Sanador reciben el efecto de estado Mega Quemado Sanador durante 100TU y se curan al 100% de su HP máximo. Esto anulará cualquier otro efecto de estado en dichas unidades.\n\nLuego, todas las Habilidades Activas de los enemigos en llamas se desactivan durante 10TU.\n\nSe desbloquea la primera vez que un enemigo en el campo de batalla es derrotado o sacrificado por cualquier causa mientras esta unidad está en el campo de batalla, y se bloquea nuevamente después de cada uso o si el usuario abandona el campo de batalla. Esta habilidad sólo se puede usar una vez por cada unidad en el campo de batalla.\n\nCuando las Habilidades Activas de una unidad se desactivan y le toca el turno, lo pierde como si estuviera durmiendo. Este efecto no afecta a las unidades jefe, no se puede purificar y termina si el usuario es derrotado.",
+                "TU": 9,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Emboscada Basilisk",
+                "SkillDescription": "Esta unidad es inmune a Aturdir. Siempre que le toque el turno a esta unidad, si sus Habilidades Activas no están desactivadas, no se pueden desactivar hasta el final de su turno.\n\nEsta unidad no puede ser derrotada por el daño de los efectos de estado Quemado. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla durante un turno enemigo.\n\nLos ataques de esta unidad la curan por el 100% del daño total infligido e ignoran cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados, el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea, un Escudo Quemado y Mega Quemado Sanador por 100TU.\n\nSe activa cuando esta unidad entra en el campo de batalla desde los refuerzos aliados:\n- todas las demás unidades en el campo de batalla reciben Quemado y Escudos Quemado\n- luego hay un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de que todos los demás aliados vean sus TU actuales reducidas a 0.\n\nUn Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Los Escudos Quemado impiden que se aplique el siguiente efecto de estado que no sea de quemado que una unidad pudiera obtener mientras está en llamas. Una unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces mayor que la de Quemado Sanador. Este efecto sobrescribe otros efectos de estado, incluyendo Quemado Sanador, en el usuario; no puede ser sobrescrito por los efectos de estado de Quemado, Veneno o Sueño; y no puede ser Purificado. Cualquier unidad que inflija daño a una unidad con Mega Quemado Sanador o que reciba daño de ella obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300TU cuando expire Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Amo de Espectros",
+                "SkillDescription": "La primera vez que esta unidad recibe daño de un ataque enemigo mientras está en llamas, todas las Habilidades Activas de los enemigos en el campo de batalla quedan desactivadas durante 10TU. Cada vez que esta unidad abandona el campo de batalla, este efecto se reinicia para que pueda activarse de nuevo.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nEsta unidad obtiene una reducción de daño del 20% de los ataques por cada aliado en llamas en el campo de batalla (hasta un máximo del 80%).\n\nEsta unidad obtendrá una Carga al final de cada turno enemigo. Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas, y todas las cargas se eliminan de una unidad que abandona el campo de batalla.\n\nCada vez que un enemigo en el campo de batalla es derrotado o sacrificado por cualquier causa, esta unidad se cura por el 100% de sus HP máximos. Luego todos los aliados en el campo de batalla se enfurecen. El ataque de una unidad Enfurecida aumenta a 1.5x hasta el final de su siguiente turno. Enfurecer sobrescribirá cualquier efecto de Debilidad o Enfurecer existente en esas unidades.\n\nAl final del turno de esta unidad, si esta unidad está en el campo de batalla y:\n- quemada, debilitará a todos los enemigos en el campo de batalla.\n- dormida o envenenada, otorgará el estado de Quemado a todos los aliados en el campo de batalla.\nLas unidades debilitadas ven reducido su Ataque a 0.75x hasta el final de su siguiente turno. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser sobrescrito por efectos de Enfurecer."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir G.Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con G.Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Soy Basilisk, una maestra de los espectros! \n¡Soy linda y fuerte, por lo tanto, soy el ser supremo!\n¿Eh? ¿Qué?... ¿Que deje de ser tan engreída?\nVamos, Jajamaru, ¿por qué siempre tienes que arruinarme la fiesta...?\n¡Me había emocionado tanto por este momento y ahora lo arruinaste!"
+            ],
+            "Login": [
+                "¡No hay nada que temer, Basilisk está aquí!\n¿Eh? ¿No hay nada en lo que pueda ayudarte...?\nAh... ya veo. Yo... me sentaré aquí entonces."
+            ],
+            "Tap": [
+                "¡No le temo a nada! Después de todo, soy una maestra de espectros.\nGobierno sobre el terror... ¡Aaaaayyyy! ¿Por qué tienes una zanahoria?\n¡Quítala, es lo único que me aterra!",
+                "Mi 'cola' es una serpiente y se llama Jajamaru. ¡Es como mi hermano menor!\nTiene una boca muy sucia, ¡pero en el fondo es muy cariñoso!",
+                "Por favor, no me llames \"chica serpiente\"~.\nSoy una mujer delicada, y va en contra de mi sensibilidad... especialmente viniendo de ti..."
+            ],
+            "Idle": [
+                "¿Eh? No hay nadie alrededor... ah, claro, Jajamaru está aquí.\n¿Sabes, Jajamaru?, incluso yo a veces disfruto de un poco de soledad...\n¿Me oyes, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Guadaña Ardiente": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Serpiente Infernal": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Ojos de Basilisk": {
+                    "BaseWeight": 250
+                }
+            }
+        }
+    },
+    "BasiliskRegular02": {
+        "Name": "Basilisk",
+        "Name2": "Maestra de los Espectros",
+        "FullName": "Basilisk - Maestra de los Espectros",
+        "Profile": "Incluso después de la caída del reino y la desaparición del orfanato, Basilisk continuó viviendo con Jajamaru en una cabaña en el bosque, sobreviviendo de la caza y l oque recolectaba. Pero al poco tiempo, Jajamaru falleció a causa de una enfermedad. Abrumada por el dolor, Basilisk decidió usar su propio cuerpo como recipiente para el alma de Jajamaru, permitiéndole permanecer en este mundo como un espectro.",
+        "Profile_Ascended": "Desde entonces, vivió tranquilamente con Jajamaru en unas ruinas olvidadas. Con una expresión valiente, se hacía llamar la \"Maestra de los Espectros,\" pero en la oscuridad de las cuevas, pasaba la mayor parte del tiempo con miedo de los intrusos.\n\n\"¡Ayyy! S-s-siento un escalofrío... ¿Era... un fantasma?!\"\n\nJajamaru: \"Sólo soy yo, mocosa.\"",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G. Hacha",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 34,
+        "Atk_Base": 1322,
+        "Hp_Base": 7810,
+        "Speed": 514,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Guadaña Ardiente",
+                "SkillDescription": "500% de daño a 2 enemigos. 750% de daño si 4 o más unidades en el campo de batalla están en llamas. 1000% de daño si todas las unidades en el campo de batalla están en llamas. Esta se considera una habilidad del tipo Impulso Ardiente\n\nDespués, el usuario y otro aliado aleatorio obtienen Perforado. Una unidad con Perforado ignorará los efectos de reducción de daño enemigos hasta el final de su siguiente turno.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Serpiente Infernal",
+                "SkillDescription": "800% de daño a 1 enemigo. 1200% de daño si es un Guardián.\n\nSi el usuario está en llamas, recibe inmediatamente el siguiente turno.\n\nSólo se puede usar si el usuario tiene 3 Cargas almacenadas. Consume todas las Cargas del usuario.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Ojos de Basilisk",
+                "SkillDescription": "Quema a todas las unidades enemigas en el campo de batalla y les otorga un Escudo Quemado. Todas las unidades aliadas en el campo de batalla con habilidades activas o pasivas que les otorguen Mega Quemado Sanador reciben el efecto de estado Mega Quemado Sanador durante 100TU y se curan al 100% de su HP máximo. Esto anulará cualquier otro efecto de estado en dichas unidades.\n\nLuego, todas las Habilidades Activas de los enemigos en llamas se desactivan durante 10TU.\n\nSe desbloquea la primera vez que un enemigo en el campo de batalla es derrotado o sacrificado por cualquier causa mientras esta unidad está en el campo de batalla, y se bloquea nuevamente después de cada uso o si el usuario abandona el campo de batalla. Esta habilidad sólo se puede usar una vez por cada unidad en el campo de batalla.\n\nCuando las Habilidades Activas de una unidad se desactivan y le toca el turno, lo pierde como si estuviera durmiendo. Este efecto no afecta a las unidades jefe, no se puede purificar y termina si el usuario es derrotado.",
+                "TU": 9,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Mordida Serpiente",
+                "SkillDescription": "Un enemigo aleatorio que no sea jefe ni efímero en el campo de batalla y cuyas Habilidades Activas estén desactivadas será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Este efecto ignora las habilidades pasivas de Venganza, las habilidades pasivas de Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impida la derrota del enemigo aleatorio.\n\nAleja al usuario del campo de batalla para que sea el siguiente en la fila de refuerzos. Si no hay refuerzos aliados, añade suficientes Super Himoris al equipo aliado para que el usuario pueda seguir recibiendo refuerzos (máximo 4 si el usuario está solo en el campo de batalla).\n\nSe desbloquea cada vez que el usuario usa Ojos de Basilisk y se bloquea de nuevo tras cada uso o si el usuario abandona el campo de batalla. Se puede usar 5 veces por batalla.",
+                "TU": 0,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Emboscada Basilisk",
+                "SkillDescription": "Esta unidad es inmune a Aturdir. Siempre que le toque el turno a esta unidad, si sus Habilidades Activas no están desactivadas, no se pueden desactivar hasta el final de su turno.\n\nEsta unidad no puede ser derrotada por el daño de los efectos de estado Quemado. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla durante un turno enemigo.\n\nLos ataques de esta unidad la curan por el 100% del daño total infligido e ignoran cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados, el efecto de estado de Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea, un Escudo Quemado y Mega Quemado Sanador por 100TU.\n\nSe activa cuando esta unidad entra en el campo de batalla desde los refuerzos aliados:\n- todas las demás unidades en el campo de batalla reciben Quemado y Escudos Quemado\n- luego hay un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de que todos los demás aliados vean sus TU actuales reducidas a 0.\n\nUn Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Los Escudos Quemado impiden que se aplique el siguiente efecto de estado que no sea de quemado que una unidad pudiera obtener mientras está en llamas. Una unidad con Mega Quemado Sanador se curará después de cada turno a una velocidad 20 veces mayor que la de Quemado Sanador. Este efecto sobrescribe otros efectos de estado, incluyendo Quemado Sanador, en el usuario; no puede ser sobrescrito por los efectos de estado de Quemado, Veneno o Sueño; y no puede ser Purificado. Cualquier unidad que inflija daño a una unidad con Mega Quemado Sanador o que reciba daño de ella obtendrá el efecto de estado de Quemado. Una unidad con Mega Quemado Sanador recibirá Quemado Sanador por 300TU cuando expire Mega Quemado Sanador."
+            },
+            {
+                "SkillTitle": "Amo de Espectros",
+                "SkillDescription": "La primera vez que esta unidad recibe daño de un ataque enemigo mientras está en llamas, todas las Habilidades Activas de los enemigos en el campo de batalla quedan desactivadas durante 10TU. Cada vez que esta unidad abandona el campo de batalla, este efecto se reinicia para que pueda activarse de nuevo.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nEsta unidad obtiene una reducción de daño del 20% de los ataques por cada aliado en llamas en el campo de batalla (hasta un máximo del 80%).\n\nEsta unidad obtendrá una Carga al final de cada turno enemigo. Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas, y todas las cargas se eliminan de una unidad que abandona el campo de batalla.\n\nCada vez que un enemigo en el campo de batalla es derrotado o sacrificado por cualquier causa, esta unidad se cura por el 100% de sus HP máximos. Luego todos los aliados en el campo de batalla se enfurecen. El ataque de una unidad Enfurecida aumenta a 1.5x hasta el final de su siguiente turno. Enfurecer sobrescribirá cualquier efecto de Debilidad o Enfurecer existente en esas unidades.\n\nAl final del turno de esta unidad, si esta unidad está en el campo de batalla y:\n- quemada, debilitará a todos los enemigos en el campo de batalla.\n- dormida o envenenada, otorgará el estado de Quemado a todos los aliados en el campo de batalla.\nLas unidades debilitadas ven reducido su Ataque a 0.75x hasta el final de su siguiente turno. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser sobrescrito por efectos de Enfurecer."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir G.Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con G.Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Soy Basilisk, una maestra de los espectros! \n¡Soy linda y fuerte, por lo tanto, soy el ser supremo!\n¿Eh? ¿Qué?... ¿Que deje de ser tan engreída?\nVamos, Jajamaru, ¿por qué siempre tienes que arruinarme la fiesta...?\n¡Me había emocionado tanto por este momento y ahora lo arruinaste!"
+            ],
+            "Login": [
+                "¡No hay nada que temer, Basilisk está aquí!\n¿Eh? ¿No hay nada en lo que pueda ayudarte...?\nAh... ya veo. Yo... me sentaré aquí entonces."
+            ],
+            "Tap": [
+                "¡No le temo a nada! Después de todo, soy una maestra de espectros.\nGobierno sobre el terror... ¡Aaaaayyyy! ¿Por qué tienes una zanahoria?\n¡Quítala, es lo único que me aterra!",
+                "Mi 'cola' es una serpiente y se llama Jajamaru. ¡Es como mi hermano menor!\nTiene una boca muy sucia, ¡pero en el fondo es muy cariñoso!",
+                "Por favor, no me llames \"chica serpiente\"~.\nSoy una mujer delicada, y va en contra de mi sensibilidad... especialmente viniendo de ti..."
+            ],
+            "Idle": [
+                "¿Eh? No hay nadie alrededor... ah, claro, Jajamaru está aquí.\n¿Sabes, Jajamaru?, incluso yo a veces disfruto de un poco de soledad...\n¿Me oyes, Jajamaru~?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Guadaña Ardiente": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Serpiente Infernal": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "Ojos de Basilisk": {
+                    "BaseWeight": 250
+                },
+                "Mordida Serpiente": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

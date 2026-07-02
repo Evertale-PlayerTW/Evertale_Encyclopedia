@@ -119939,7 +119939,7 @@
             },
             {
                 "SkillTitle": "时间回溯",
-                "SkillDescription": "移除场上所有敌人的中毒抵抗与睡眠抵抗，将使用者和下一个己方援军交换位置。若己方没有援军，则在己方场上召唤足量“岩土盾卫”后使使用者回到援军。使用者入场后必须通过攻击击败过至少1个敌人才可使用。",
+                "SkillDescription": "移除场上所有敌人的中毒抵抗与睡眠抵抗，将使用者和下一个己方援军交换位置。若己方没有援军，则在己方场上召唤足量“超级土盾卫”后使使用者回到援军。使用者入场后必须通过攻击击败过至少1个敌人才可使用。",
                 "TU": 0,
                 "Spirit": "-1"
             },
@@ -120114,7 +120114,7 @@
             },
             {
                 "SkillTitle": "时间回溯",
-                "SkillDescription": "移除场上所有敌人的中毒抵抗与睡眠抵抗，将使用者和下一个己方援军交换位置。若己方没有援军，则在己方场上召唤足量“岩土盾卫”后使使用者回到援军。使用者入场后必须通过攻击击败过至少1个敌人才可使用。",
+                "SkillDescription": "移除场上所有敌人的中毒抵抗与睡眠抵抗，将使用者和下一个己方援军交换位置。若己方没有援军，则在己方场上召唤足量“超级土盾卫”后使使用者回到援军。使用者入场后必须通过攻击击败过至少1个敌人才可使用。",
                 "TU": 0,
                 "Spirit": "-1"
             },
@@ -134114,7 +134114,7 @@
         "Hp_Base": 5585,
         "Speed": 800,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "我们还会再见面的，对吧？姐姐。",
         "LeaderSkill": {
             "SkillTitle": "雷属性猛攻",
@@ -134454,5 +134454,349 @@
                 "RelationshipBuff": "生命值+3%"
             }
         }
+    },
+    "BasiliskRegular01": {
+        "Name": "巴西利斯克",
+        "Name2": "恶灵之王",
+        "FullName": "巴西利斯克 - 恶灵之王",
+        "Profile": "出身于邻近的王国。她一出生便遭到遗弃，被孤儿院收养，却始终无法融入其他孩子的圈子，总是孤身一人。填补了这份孤独的，是她在孤儿院遇见的蛇——蛇蛇丸。唯有它，才是她无可替代的家人。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 28,
+        "Atk_Base": 1082,
+        "Hp_Base": 5800,
+        "Speed": 514,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "我才是——恶灵之王！",
+        "LeaderSkill": {
+            "SkillTitle": "火属性强化",
+            "SkillDescription": "所有火属性队友的攻击力增加10%且最大生命值增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "恶魔乌鸦",
+                "SkillDescription": "对2个敌人造成500%的伤害；若场上有至少4个处于燃烧状态的单位则改为造成750%的伤害；若场上全部单位处于燃烧状态则改为造成1000%的伤害。使用者与随机1个其他己方单位获得贯通。此技能属于“火焰”类的主动技能。\n有贯通的单位直到其下个回合结束攻击无视目标的减伤效果。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "蛇蛇丸光线！",
+                "SkillDescription": "对1个敌人造成800%的伤害；若目标是守卫者，则造成1200%的伤害。若使用者处于燃烧状态则其TU归零立即获得一个回合。\n使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "邪眼",
+                "SkillDescription": "使场上所有敌方单位陷入燃烧状态，并获得燃烧护盾。使场上所有有使自身获得燃烧（治愈）状态技能的己方单位回复最大生命值的100%并获得持续100TU的燃烧（治愈）状态。此效果会覆盖身上的其他状态效果。封锁所有处于燃烧状态的敌方单位主动技能10TU。\n此单位在场时场上1个敌方单位被击败或被牺牲后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。每当此单位进场时，只能使用此技能1次。\n当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
+                "TU": 9,
+                "Spirit": "+2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "可爱与最强的恶魔合体",
+                "SkillDescription": "此单位不会被眩晕。\n在敌方回合期间，此单位无法从场上回到援军队伍。\n此单位的攻击无视非BOSS单位防止被击败的效果、“反击态势”状态效果以及反弹类被动技能的效果。\n此单位在进入战场后获得燃烧护盾，并陷入持续100TU的燃烧（治愈）状态。\n当此单位从己方援军进入战场时，触发以下效果：\n- 使场上所有其他单位陷入燃烧状态，并获得燃烧护盾。\n- 随后，使所有其他队友当前TU归零。\n\n燃烧护盾会阻止处于燃烧状态时即将获得的下一个非燃烧状态效果生效。处于燃烧（治愈）状态的单位会在每个回合结束后以燃烧（回复）的20倍效果回复生命值。该效果会覆盖使用者身上的其他状态效果（包括燃烧（回复）），不会被燃烧、中毒或睡眠状态覆盖，也无法被净化。任何对处于燃烧（治愈）状态的单位造成伤害或被其造成伤害的单位，也会陷入燃烧状态。燃烧（治愈）结束时，将改为获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillTitle": "恶灵之王",
+                "SkillDescription": "当此单位处于燃烧状态时，首次受到敌方攻击伤害后，使场上所有敌人的主动技能被封锁10TU。每当此单位离开战场时，该效果将被重置，从而可以再次触发。\n若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n场上每有1个处于燃烧状态的队友，此单位从攻击中受到的伤害减少20%（最多减少80%）。\n此单位会在每个敌方回合结束时获得1个“能量值”。部分技能会受“能量值”影响并可能消耗“能量值”。一个单位最多可储存3个“能量值”，且所有“能量值”会在单位离场时被移除。\n每当场上有敌人被任意来源击败或被牺牲时，场上所有队友获得狂热。狂热会使单位攻击力增加为1.5倍直到其下一个回合结束。狂热会覆盖这些单位原先的虚弱或狂热效果。\n在此单位回合结束时：\n- 若此单位处于燃烧状态，则使场上所有敌人获得虚弱。\n- 若此单位处于睡眠或中毒状态，则使场上所有队友陷入燃烧状态。\n虚弱会使单位攻击力降低为0.75倍直到其下一个回合结束。虚弱的效果可能会因其他提升攻击力的效果而减弱，并会被狂热效果覆盖。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "双手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备双手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "恶灵使的巴西利斯克！\n集可爱与最强于一身，\n正是究极的存在！\n\n诶，怎么了？……叫我别太得意忘形？\n蛇蛇丸老是说这种话——\n真是的～人家好不容易才鼓起干劲的～！"
+            ],
+            "Login": [
+                "哼哼，我来了，你就放心吧！\n诶，原来……你没有在等我吗？……啊，是这样呀……"
+            ],
+            "Tap": [
+                "我可没有什么好怕的哦～！再怎么说，我也是恶灵使呢！\n咦？……那、那是胡萝卜！？呀啊啊啊——唯独胡萝卜绝对不行啦！",
+                "我尾巴上的这条蛇叫蛇蛇丸。对我来说，就像弟弟一样。\n虽然嘴巴有点坏，但其实是个很温柔的孩子哦！嘿嘿♪",
+                "请不要叫我蛇女啦～\n怎么说呢，我那为数不多的少女心，会发自内心地抗拒这个称呼嘛……"
+            ],
+            "Idle": [
+                "咦，大家都不见了……啊，不过蛇蛇丸还在啊。\n虽然我偶尔也会想一个人待着啦……\n\n有在听我说话吗，蛇蛇丸～?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "恶魔乌鸦": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "蛇蛇丸光线！": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "邪眼": {
+                    "BaseWeight": 250
+                }
+            }
+        }
+    },
+    "BasiliskRegular02": {
+        "Name": "巴西利斯克",
+        "Name2": "恶灵之王",
+        "FullName": "巴西利斯克 - 恶灵之王",
+        "Profile": "王国覆灭、孤儿院消失后，她便与蛇蛇丸一同在森林中的小木屋里过着狩猎维生的生活。然而，蛇蛇丸最终也因病离世。沉浸于悲痛之中的巴西利斯克，选择将它的灵魂寄宿于自己的身体之中，以自身作为依凭，让蛇蛇丸以恶灵的姿态继续活下去。",
+        "Profile_Ascended": "此后，她便与蛇蛇丸一起，在被世人遗忘的遗迹中悄然生活着。虽然总是逞强自称“恶灵之王”，但在阴暗的洞窟里，却总是害怕有闯入者靠近。\n“刚、刚才背后一阵发凉……难、难道是……幽灵！？”\n蛇蛇丸：“是我啦，小鬼。”",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 34,
+        "Atk_Base": 1322,
+        "Hp_Base": 7810,
+        "Speed": 514,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "火属性强化",
+            "SkillDescription": "所有火属性队友的攻击力增加10%且最大生命值增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "恶魔乌鸦",
+                "SkillDescription": "对2个敌人造成500%的伤害；若场上有至少4个处于燃烧状态的单位则改为造成750%的伤害；若场上全部单位处于燃烧状态则改为造成1000%的伤害。使用者与随机1个其他己方单位获得贯通。此技能属于“火焰”类的主动技能。\n有贯通的单位直到其下个回合结束攻击无视目标的减伤效果。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "蛇蛇丸光线！",
+                "SkillDescription": "对1个敌人造成800%的伤害；若目标是守卫者，则造成1200%的伤害。若使用者处于燃烧状态则其TU归零立即获得一个回合。\n使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "邪眼",
+                "SkillDescription": "使场上所有敌方单位陷入燃烧状态，并获得燃烧护盾。使场上所有有使自身获得燃烧（治愈）状态技能的己方单位回复最大生命值的100%并获得持续100TU的燃烧（治愈）状态。此效果会覆盖身上的其他状态效果。封锁所有处于燃烧状态的敌方单位主动技能10TU。\n此单位在场时场上1个敌方单位被击败或被牺牲后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。每当此单位进场时，只能使用此技能1次。\n当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
+                "TU": 9,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "灵魂收割",
+                "SkillDescription": "立即击败场上随机1个主动技能被封锁的非BOSS非幻影敌方单位。该效果无视防止目标被击败的效果或被动技能，且不会触发目标的诅咒与祝福或复活类被动技能。使用者被视为通过攻击击败目标。将使用者和下一个己方援军交换位置。若己方没有援军，则在己方场上召唤足量“超级火盾卫”后使使用者回到援军。\n每当使用者使用“邪眼”技能后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。此技能在一场战斗中只能使用五次。",
+                "TU": 0,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "可爱与最强的恶魔合体",
+                "SkillDescription": "此单位不会被眩晕。\n在敌方回合期间，此单位无法从场上回到援军队伍。\n此单位的攻击无视非BOSS单位防止被击败的效果、“反击态势”状态效果以及反弹类被动技能的效果。\n此单位在进入战场后获得燃烧护盾，并陷入持续100TU的燃烧（治愈）状态。\n当此单位从己方援军进入战场时，触发以下效果：\n- 使场上所有其他单位陷入燃烧状态，并获得燃烧护盾。\n- 随后，使所有其他队友当前TU归零。\n\n燃烧护盾会阻止处于燃烧状态时即将获得的下一个非燃烧状态效果生效。处于燃烧（治愈）状态的单位会在每个回合结束后以燃烧（回复）的20倍效果回复生命值。该效果会覆盖使用者身上的其他状态效果（包括燃烧（回复）），不会被燃烧、中毒或睡眠状态覆盖，也无法被净化。任何对处于燃烧（治愈）状态的单位造成伤害或被其造成伤害的单位，也会陷入燃烧状态。燃烧（治愈）结束时，将改为获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillTitle": "恶灵之王",
+                "SkillDescription": "当此单位处于燃烧状态时，首次受到敌方攻击伤害后，使场上所有敌人的主动技能被封锁10TU。每当此单位离开战场时，该效果将被重置，从而可以再次触发。\n若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n场上每有1个处于燃烧状态的队友，此单位从攻击中受到的伤害减少20%（最多减少80%）。\n此单位会在每个敌方回合结束时获得1个“能量值”。部分技能会受“能量值”影响并可能消耗“能量值”。一个单位最多可储存3个“能量值”，且所有“能量值”会在单位离场时被移除。\n每当场上有敌人被任意来源击败或被牺牲时，场上所有队友获得狂热。狂热会使单位攻击力增加为1.5倍直到其下一个回合结束。狂热会覆盖这些单位原先的虚弱或狂热效果。\n在此单位回合结束时：\n- 若此单位处于燃烧状态，则使场上所有敌人获得虚弱。\n- 若此单位处于睡眠或中毒状态，则使场上所有队友陷入燃烧状态。\n虚弱会使单位攻击力降低为0.75倍直到其下一个回合结束。虚弱的效果可能会因其他提升攻击力的效果而减弱，并会被狂热效果覆盖。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "双手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备双手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "恶灵使的巴西利斯克！\n集可爱与最强于一身，\n正是究极的存在！\n\n诶，怎么了？……叫我别太得意忘形？\n蛇蛇丸老是说这种话——\n真是的～人家好不容易才鼓起干劲的～！"
+            ],
+            "Login": [
+                "哼哼，我来了，你就放心吧！\n诶，原来……你没有在等我吗？……啊，是这样呀……"
+            ],
+            "Tap": [
+                "我可没有什么好怕的哦～！再怎么说，我也是恶灵使呢！\n咦？……那、那是胡萝卜！？呀啊啊啊——唯独胡萝卜绝对不行啦！",
+                "我尾巴上的这条蛇叫蛇蛇丸。对我来说，就像弟弟一样。\n虽然嘴巴有点坏，但其实是个很温柔的孩子哦！嘿嘿♪",
+                "请不要叫我蛇女啦～\n怎么说呢，我那为数不多的少女心，会发自内心地抗拒这个称呼嘛……"
+            ],
+            "Idle": [
+                "咦，大家都不见了……啊，不过蛇蛇丸还在啊。\n虽然我偶尔也会想一个人待着啦……\n\n有在听我说话吗，蛇蛇丸～?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AtLeast4BurningInBattle": 1.05,
+                "AllUnitsInBattleBurning": 1.1,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "恶魔乌鸦": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.25,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25,
+                        "AllEnemiesIsStealth": 0.5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "蛇蛇丸光线！": {
+                    "BaseWeight": 10,
+                    "Source": {
+                        "IsBurningAndAllyHave4SpiritOrMore": 1000
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 2,
+                        "HPBelow25Percent": 2,
+                        "IsProtector": 1,
+                        "IsProtecting": 1,
+                        "IsProtectingAndNotAlone": 1,
+                        "IsSleeping": 0.8,
+                        "IsMechaSisterNew": 0.5,
+                        "IsThorRegular": 0.75
+                    }
+                },
+                "邪眼": {
+                    "BaseWeight": 250
+                },
+                "灵魂收割": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }
