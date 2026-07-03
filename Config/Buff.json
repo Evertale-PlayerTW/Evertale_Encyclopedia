@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1782783142,
+	"Time": 1783074383,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -75340,7 +75340,7 @@
 			},{
 				"randomEnemyBuffs": ["MarkedByPeachGirlRegularBoss"],
 				"numRandomToBuff": 1,
-				"spreadCondition": "IsNotPoisonedOrKnockbackImmune"
+				"spreadCondition": "IsNotPoisonedOrKnockbackImmuneOrDontTargetMePeachGirl"
 			},{
 				"sourceBuffs": ["FirstTimeHurtByAttackAndNotBlockedGrantSourceTurnBoss"],
 				"activeMonsterConditions": "AlwaysTrue"
@@ -76035,7 +76035,7 @@
 			},{
 				"randomEnemyBuffs": ["MarkedByPeachGirlRegular"],
 				"numRandomToBuff": 1,
-				"spreadCondition": "IsNotSleepingOrKnockbackImmune"
+				"spreadCondition": "IsNotSleepingOrKnockbackImmuneOrDontTargetMePeachGirl"
 			},{
 				"randomEnemyBuffs": ["RemoveMarkedByPeachGirlRegular"],
 				"numRandomToBuff": 1,
@@ -88109,7 +88109,7 @@
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
 			"noIconShownOnBattleStatus": true,
-			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag"],
+			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag","DontTargetMePeachGirl"],
 			"iconSpriteName": "IconRedHoldGroundBurn01"
 		},
 		"GenericKnockbackImmunityIcon": {
@@ -88823,7 +88823,7 @@
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
 			"noIconShownOnBattleStatus": true,
-			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag"],
+			"tags": ["GoodToBurn","MegaHealingBurnPassiveTag","DontTargetMePeachGirl"],
 			"iconSpriteName": "IconRedHoldGroundBurn01"
 		},
 		"PassiveEntryBasiliskRegularLV1": {
