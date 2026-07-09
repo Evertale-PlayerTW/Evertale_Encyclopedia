@@ -1750,25 +1750,35 @@
 
 		async function initLang() {
 			siteLangData = await fetchCheck("SiteLocalization.json").then((res) => res.json());
+			const languagePick = document.getElementById("languagePick");
+			const langOptions = [...languagePick.options];
 
-			const lang = new URLSearchParams(window.location.search).get("lang")?.toLowerCase();
-			if (lang) {
-				const languagePick = document.getElementById("languagePick");
-				for (let option of languagePick.options) {
-					if (option.value?.toLowerCase() === lang || option.dataset.shortname?.toLowerCase() === lang) {
-						document.getElementById("languagePick").value = option.value;
-						setPickLang();
-						return;
-					}
+			// 檢查網址是否有lang查詢參數
+			const langQuery = new URLSearchParams(window.location.search).get("lang")?.toLowerCase();
+			const matchedOption = langQuery && langOptions.find(opt =>
+				opt.value?.toLowerCase() === langQuery ||
+				opt.lang?.toLowerCase() === langQuery ||
+				opt.dataset.shortname?.toLowerCase() === langQuery);
+			if (matchedOption) {
+				languagePick.value = matchedOption.value;
+			} else {
+				// 讀取前次語言
+				const cache_LastLang = localStorage.getItem(cacheKey_Lang);
+				if (cache_LastLang && langOptions.some(opt => opt.value === cache_LastLang)) {
+					languagePick.value = cache_LastLang;
+				} else {
+					// 預設根據瀏覽器語言
+					const langBrowser = navigator.language?.toLowerCase() ?? "en";
+					const langBrowser2 = (langBrowser.startsWith("zh")) ?
+						["zh-hans", "zh-cn", "zh-sg"].includes(langBrowser) ? "zh-Hans" : "zh-Hant" :
+						langBrowser.slice(0, 2);
+					languagePick.value = (
+						languagePick.querySelector(`option[lang="${langBrowser2}"]`) ??
+						languagePick.querySelector('option[lang="en"]')
+					).value
 				}
 			}
-
-			const cache_LastLang = localStorage.getItem(cacheKey_Lang);
-			const languagePick = document.getElementById("languagePick");
-			if (cache_LastLang && Array.from(languagePick.options).some(opt => opt.value === cache_LastLang)) {
-				languagePick.value = cache_LastLang;
-				setPickLang();
-			}
+			setPickLang();
 		}
 
 		async function setPickLang() {
