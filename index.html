@@ -1845,7 +1845,7 @@
 		}
 
 		async function selectDataMode() {
-			const dataMode = document.querySelector('input[name="dataMode"]:checked').value
+			const dataMode = document.querySelector('input[name="dataMode"]:checked').value;
 			if (dataMode === "rawMode") {
 				document.getElementById("showLastUpdateTime").classList.add("hidden");
 				document.getElementById("inputCacheAge").classList.remove("hidden");
@@ -2970,11 +2970,11 @@
 	<script>
 		/*=====資訊顯示區塊=====*/
 		const imageSource = {
-			Monster: { domain: "https://monster.evertale.qzz.io/", filelist: [] },
-			Weapon: { domain: "https://weapon.evertale.qzz.io/", filelist: [] },
-			Equipment: { domain: "https://equipment.evertale.qzz.io/", filelist: [] },
-			Tachie: { domain: "https://tachie.evertale.qzz.io/", filelist: [] },
-			Model: { domain: "https://model.evertale.qzz.io/", filelist: [], maptable: {} },
+			Monster: { domain: "https://monster.evertale.qzz.io/", filelist: [], lastUpdate: 0 },
+			Weapon: { domain: "https://weapon.evertale.qzz.io/", filelist: [], lastUpdate: 0 },
+			Equipment: { domain: "https://equipment.evertale.qzz.io/", filelist: [], lastUpdate: 0 },
+			Tachie: { domain: "https://tachie.evertale.qzz.io/", filelist: [], lastUpdate: 0 },
+			Model: { domain: "https://model.evertale.qzz.io/", filelist: [], maptable: {}, lastUpdate: 0 },
 		}
 
 		// document.addEventListener("DOMContentLoaded", setImageFilelist);
@@ -3556,6 +3556,9 @@
 					if (imgData.maptable && Object.keys(imgData.maptable).length === 0) {
 						imgData.maptable = await fetchCheck(imgData.domain + "maptable.json").then(res => res.json());
 					}
+					if (imgData.lastUpdate != null) {
+						imgData.lastUpdate = await fetchCheck(imgData.domain + "lastUpdate").then((res) => res.text());
+					}
 				})
 			);
 		}
@@ -3565,6 +3568,7 @@
 			if (forceTrue || imageSource[img_category]["filelist"].includes(imgPath)) {
 				const newImage = document.createElement("img")
 				newImage.src = `${imageSource[img_category]["domain"]}${imgPath}`.toLowerCase();
+				newImage.src += `?${imageSource[img_category]["lastUpdate"]}`;
 				if (bgClass !== "") {
 					newImage.classList.add(bgClass, "waitImgLoadDone")
 					newImage.onload = () => { newImage.classList.remove("waitImgLoadDone"); };
