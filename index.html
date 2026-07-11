@@ -3399,6 +3399,7 @@
 						// displayData(id, category);
 						currentDisplayCategory = category;
 						currentDisplayID = id;
+						document.querySelector(`input[name="unit_category"][value="${category}"]`).click();
 					} else {
 						throw new Error("Invalid id or category");
 					}
