@@ -2995,7 +2995,7 @@
 			collapseReset();
 			document.title = `${wholeData[currentDisplayCategory][id]["FullName"]} | ${initTitle}`;
 
-			document.getElementById("codeName").innerHTML = `<a href="?id=${id}&category=${currentDisplayCategory}">${id}</a>`;
+			document.getElementById("codeName").innerHTML = `<a href="?id=${id}">${id}</a>`;
 			document.getElementById("bigName").textContent = wholeData[currentDisplayCategory][id]["Name"] || id;
 			if (wholeData[currentDisplayCategory][id]["Name2"]) {
 				document.getElementById("subName").classList.remove("hidden");
@@ -3412,7 +3412,7 @@
 
 		function setNameAndLink(id, category, addStars = true, addRarity = false) {
 			const linkElement = document.createElement("a");
-			linkElement.href = `?id=${id}&category=${category}`;
+			linkElement.href = `?id=${id}`;
 			const textContent = getFullNameAddStarsOrRarity(id, category, addStars, addRarity);
 			const img = checkImageExisting(category, "headshot", ((category === "Monster") ? id : `${id.slice(0, -2)}01`), true, `headshotBlock${wholeData[category][id]["Rarity"]}`);
 			linkElement.append(img, textContent);
