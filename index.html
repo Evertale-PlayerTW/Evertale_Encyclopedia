@@ -1896,6 +1896,7 @@
 		let initSelectOptionContent = document.getElementById("targetSelect").options[0].outerHTML;
 
 		function initFilter() {
+			document.getElementById("filterArea").classList.add("hidden");
 			if (!currentDisplayCategory)
 				document.getElementById("selectCategory").querySelector('input[type="radio"]').checked = true;
 			document.querySelectorAll('#filterArea input[type="checkbox"][checked]').forEach((c) => (c.checked = true));
@@ -1905,6 +1906,7 @@
 			document.getElementById("filterTextInput").value = "";
 			document.getElementById("filterTextOption").classList.add("hidden");
 			document.querySelector("#useRegex input").checked = false;
+			document.getElementById("filterArea").classList.remove("hidden");
 		}
 
 		function changeCategory() {
@@ -2251,7 +2253,6 @@
 				document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = true; });
 				document.getElementById("filterArea").classList.add("hidden");
 				document.getElementById("mainBlock").classList.add("hidden");
-				document.getElementById("dataProgress").classList.remove("hidden");
 				document.querySelectorAll("#languageProgress,#monsterProgress,#weaponProgress,#equipmentProgress").forEach((e) => (e.textContent = getLocalizationText("Progress_Wait")));
 
 				const cacheKey_Data = "cacheWholeData";
@@ -2264,6 +2265,7 @@
 				if ((cache_DataLang === specifiedLang) && cache_WholeData && cache_Time && Date.now() < cache_Time) {
 					wholeData = JSON.parse(cache_WholeData);
 				} else {
+					document.getElementById("dataProgress").classList.remove("hidden");
 					await loadLanguageText();
 					await Promise.all([buildMonsterData(), buildWeaponData(), buildEquipmentData()]);
 					try {
@@ -2273,10 +2275,10 @@
 					} catch (e) {
 						console.log(e);
 					}
+					document.getElementById("dataProgress").classList.add("hidden");
 				}
 
 				//console.log(wholeData);
-				document.getElementById("dataProgress").classList.add("hidden");
 				document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = false; });
 			} else {
 				document.getElementById("mainBlock").classList.add("hidden");
@@ -2297,7 +2299,6 @@
 				}
 			}
 			await setImageFilelist();
-			document.getElementById("filterArea").classList.remove("hidden");
 		}
 
 		async function loadLanguageText() {
