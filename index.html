@@ -2298,7 +2298,8 @@
 					}
 				}
 			}
-			await setImageFilelist();
+
+			await imageFilelistReady;
 		}
 
 		async function loadLanguageText() {
@@ -2978,6 +2979,7 @@
 			Model: { domain: "https://model.evertale.qzz.io/", filelist: [], maptable: {}, lastUpdate: 0 },
 		}
 
+		const imageFilelistReady = setImageFilelist();
 		// document.addEventListener("DOMContentLoaded", setImageFilelist);
 
 		let initTitle = document.title;
@@ -3550,19 +3552,30 @@
 		}
 
 		async function setImageFilelist() {
-			await Promise.allSettled(
-				Object.values(imageSource).map(async (imgData) => {
-					if (imgData.filelist && imgData.filelist.length === 0) {
-						imgData.filelist = await fetchCheck(imgData.domain + "filelist.json").then(res => res.json());
-					}
-					if (imgData.maptable && Object.keys(imgData.maptable).length === 0) {
-						imgData.maptable = await fetchCheck(imgData.domain + "maptable.json").then(res => res.json());
-					}
-					if (imgData.lastUpdate != null) {
-						imgData.lastUpdate = await fetchCheck(imgData.domain + "lastUpdate").then((res) => res.text());
-					}
-				})
-			);
+			const tasks = [];
+
+			Object.values(imageSource).forEach((imgData) => {
+				if (imgData.filelist && imgData.filelist.length === 0) {
+					tasks.push(
+						fetchCheck(imgData.domain + "filelist.json")
+							.then(async res => { imgData.filelist = await res.json(); })
+					);
+				}
+				if (imgData.maptable && Object.keys(imgData.maptable).length === 0) {
+					tasks.push(
+						fetchCheck(imgData.domain + "maptable.json")
+							.then(async res => { imgData.maptable = await res.json(); })
+					);
+				}
+				if (imgData.lastUpdate != null && imgData.lastUpdate === 0) {
+					tasks.push(
+						fetchCheck(imgData.domain + "lastUpdate")
+							.then(async res => { imgData.lastUpdate = await res.text(); })
+					);
+				}
+			});
+
+			await Promise.allSettled(tasks);
 		}
 
 		function checkImageExisting(img_category, img_type, img_name, forceTrue = false, bgClass = "") {
