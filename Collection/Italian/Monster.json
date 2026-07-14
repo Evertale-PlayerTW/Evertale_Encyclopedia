@@ -134916,32 +134916,32 @@
         },
         "ActiveSkill": [
             {
-                "SkillTitle": "Lama Devastante",
-                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece ogni seconda volta che l'abilità viene attivata in campo. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nRimuove Veleno (incluso Veleno Letale) dall'unità. L'unità ottiene Protezione Veleno e Protezione Sonno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "SkillTitle": "Crushing Blade",
+                "SkillDescription": "400% damage to 1 enemy. 800% damage instead every second time this skill is activated while on the battlefield. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nRemoves Poison (including Lethal Poison) from the user, and grants the user a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
                 "TU": 100,
                 "Spirit": "+1"
             },
             {
-                "SkillTitle": "Terra d'Esorcismo",
-                "SkillDescription": "Tutti gli alleati in campo recuperano un valore di HP pari al 500% dell'attacco dell'unità.\n\nTutti gli alleati non ustionati in campo riducono del 30% il costo in TU di tutte le loro abilità. Sostituisce altri effetti di abilità con Accelerazione. La squadra nemica perde 1 Spirito per ogni nemico ustionato in campo.\n\nPoi, se la squadra nemica ha 0 Spiriti, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di sconfiggere immediatamente un nemico senza Effimerità e che non è un boss (il bersaglio conta come sconfitto dall'unità con un attacco). Questo effetto secondario ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive e gli effetti delle abilità attive che impedirebbero al nemico casuale di essere sconfitto.\n\nQuesta abilità è bloccata per 50TU dopo l'uso. Utilizzabile 10 volte per battaglia.",
+                "SkillTitle": "Earth's Exorcism",
+                "SkillDescription": "All allies on the battlefield heal for 500% of the user's attack.\n\nAll non-burning allies on the battlefield will have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills. The enemy team lose 1 Spirit for each non-burning enemy on the battlefield.\n\nThen if enemy Spirit is 0, there is a 20% chance, plus 20% per Awakening (up to 100% chance if this unit has 4 Awakenings) for a random non-boss, non-Ephemeral enemy on the battlefield to be immediately defeated (the user is considered to have defeated that enemy with an attack). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nThis skill becomes locked for 50TU after use. Usable 10 times per battle.",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
-                "SkillTitle": "Volontà Poderosa",
-                "SkillDescription": "L'unità ottiene Fortificazione e ottiene Forza Terrestre per 100TU.\n\nUtilizzabile solo se se l'unità ha 3 Cariche accumulate e non è ustionata. Consuma tutte le cariche dell'unità. Utilizzabile 3 volte per battaglia.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato. Un'unità con Forza Terrestre aggiunge lo 0,5x dell'attacco originale al proprio attacco se non è ustionata. L'aumento dell'attacco si accumula con Provocazione e altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,5x = 2,0x totale), ma non con sé stesso. Forza Terrestre viene rimosso se l'unità che lo ha fornito abbandona il campo, e viene rimosso dalle unità che abbandonano il campo.",
+                "SkillTitle": "Mighty Resolve",
+                "SkillDescription": "The user is Fortified, and granted Earthen Might for 100TU.\n\nUsable only if the user has stored 3 Charges, and is not burning. Consumes all Charges on the user. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect. A unit with Earthen Might has 0.5x of their original Attack added to their Attack while they are not burning. This attack increase does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total), but cannot stack with Earthen Might effects. Earthen Might ends if the unit who granted it leaves the battlefield, and is removed from units that leave the battlefield.",
                 "TU": 50,
                 "Spirit": "+0"
             }
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Spregio Poderoso",
-                "SkillDescription": "L'unità non può farsi disattivare le abilità attive dalle abilità passive nemiche.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità sconfigge un nemico non invocato in campo con un attacco, cura tutti gli alleati per il 100% degli HP massimi e mette fine agli effetti nemici che stanno disattivando le abilità attive degli alleati in campo.\n\nOgni volta che un altro alleato in campo danneggia unità ustionate con un attacco, questa unità ottiene Spine Sonno e riduce i suoi TU attuali di 50TU. Se si attiva 5 volte entro 50TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale, non svegliano i nemici addormentati e:\n- Infliggono Sonno Maledetto per 200TU ai bersagli colpiti se ci sono almeno 2 alleati di tipo Acqua in campo.\n- Infliggono Veleno Letale per 999TU ai bersagli colpiti se ci sono almeno 2 alleati di tipo Oscurità in campo.\n- Infliggono casualmente Sonno Maledetto per 200TU o Veleno Letale per 999TU ai bersagli colpiti se non ci sono almeno 2 alleati di tipo Acqua od Oscurità in campo.\n\nQuando un'unità con Spine Sonno subisce danni da un attacco, consuma Spine Sonno per infliggere immediatamente l'effetto di stato Sonno Maledetto per 200TU all'assalitore. Ustione o gli attacchi che ustionano rimuovono Spine Sonno e impediscono di infliggere Sonno Maledetto. Sonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto. Veleno Letale sostituisce altri effetti di stato sul nemico, non viene sostituito da altri effetti di stato tranne Ustione e Invisibilità, e non può essere purificato. Veleno Letale infligge 2 volte il danno del normale Veleno e ignora le abilità passive e gli effetti che impedirebbero al bersaglio di essere sconfitto, tranne quelli che impediscono specificamente la sconfitta dovuta a Veleno o danni non da attacchi. Veleno Letale non si applica alle unità boss o ustionate."
+                "SkillTitle": "Grassroots Defiance",
+                "SkillDescription": "This unit can't have its Active Skills disabled by enemy passive skills.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nWhenever this unit defeats a non-conjured unit on the battlefield with an attack, heals all allies on the battlefield for 100% of their max HP, and ends any enemy effects that are currently disabling the Active Skills of allies on the battlefield.\n\nWhenever another ally on the battlefield damages any number of non-burning units with an attack, this unit is granted Sleep Thorns and has its current TU reduced by 50TU. If this triggers 5 times within 50TU, this effect cannot trigger again until 50TU advances.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, will not wake sleeping enemies, and grant hit targets:\n- Cursed Sleep for 200TU if this unit has 2 or more Water Allies on the battlefield.\n- Lethal Poison for 999TU if this unit has 2 or more Dark Allies on the battlefield.\n- Randomly either Cursed Sleep for 200TU or Lethal Poison for 999TU if this unit does not have 2 Water or 2 Dark Allies on the battlefield.\n\nWhen a unit with Sleep Thorns is dealt damage by an attack, that unit's Sleep Thorns will be consumed to immediately grant the Cursed Sleep status effect for 200TU to the attacker. Burn or attacks that grant Burn will remove Sleep Thorns and prevent Cursed Sleep from applying. Cursed Sleep will overwrite status effects other than Burn, cannot be overwritten by Poison, can be applied repeatedly to units that have already slept while on the battlefield, and will not end from damage caused by Dream Hunter type active skills. Lethal Poison will overwrite other status effects on that enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units."
             },
             {
-                "SkillTitle": "Cavaliera Esorcista",
-                "SkillDescription": "L'unità entra in campo con Fortificazione, Protezione Sonno, Protezione Veleno e Protezione Morte.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che un alleato non ustionato ottiene il turno, l'unità recupera il 50% degli HP massimi. Ogni volta che un alleato avvelenato o addormentato ottiene il turno, l'unità recupera il 50% degli HP massimi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene una Carica e recupera il 50% degli HP massimi. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula."
+                "SkillTitle": "Exorcist Knight",
+                "SkillDescription": "This unit enters battle Fortified, and with a Sleep Ward, Poison Ward, and an Instant Death Ward.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nEach time a non-burning ally gets the turn, this unit is healed for 50% of max HP. Each time a poisoned or sleeping enemy gets the turn, this unit is healed for 50% of max HP.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be granted a Charge, and heal for 50% of its max HP. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nAn Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack."
             },
             {
                 "SkillTitle": "HP+ Lv3",
@@ -134995,7 +134995,7 @@
                 "IsEarthernMightAKAPartyMode": 1.05
             },
             "SkillUse": {
-                "Lama Devastante": {
+                "Crushing Blade": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -135014,7 +135014,7 @@
                         "IsProtectingAndNotAlone": 0.5
                     }
                 },
-                "Terra d'Esorcismo": {
+                "Earth's Exorcism": {
                     "BaseWeight": 100,
                     "Source": {
                         "2UnitsNotBurningOnBattlefield": 500,
@@ -135023,7 +135023,7 @@
                         "EnemySpirit0": 500
                     }
                 },
-                "Volontà Poderosa": {
+                "Mighty Resolve": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotFortifiedOrEarthernMight1Or2": 500
@@ -135070,38 +135070,38 @@
         },
         "ActiveSkill": [
             {
-                "SkillTitle": "Lama Devastante",
-                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece ogni seconda volta che l'abilità viene attivata in campo. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nRimuove Veleno (incluso Veleno Letale) dall'unità. L'unità ottiene Protezione Veleno e Protezione Sonno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "SkillTitle": "Crushing Blade",
+                "SkillDescription": "400% damage to 1 enemy. 800% damage instead every second time this skill is activated while on the battlefield. This attack ignores enemy damage reduction effects and any effects of non-boss enemies that would prevent the target from being defeated.\n\nRemoves Poison (including Lethal Poison) from the user, and grants the user a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
                 "TU": 100,
                 "Spirit": "+1"
             },
             {
-                "SkillTitle": "Terra d'Esorcismo",
-                "SkillDescription": "Tutti gli alleati in campo recuperano un valore di HP pari al 500% dell'attacco dell'unità.\n\nTutti gli alleati non ustionati in campo riducono del 30% il costo in TU di tutte le loro abilità. Sostituisce altri effetti di abilità con Accelerazione. La squadra nemica perde 1 Spirito per ogni nemico ustionato in campo.\n\nPoi, se la squadra nemica ha 0 Spiriti, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di sconfiggere immediatamente un nemico senza Effimerità e che non è un boss (il bersaglio conta come sconfitto dall'unità con un attacco). Questo effetto secondario ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive e gli effetti delle abilità attive che impedirebbero al nemico casuale di essere sconfitto.\n\nQuesta abilità è bloccata per 50TU dopo l'uso. Utilizzabile 10 volte per battaglia.",
+                "SkillTitle": "Earth's Exorcism",
+                "SkillDescription": "All allies on the battlefield heal for 500% of the user's attack.\n\nAll non-burning allies on the battlefield will have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills. The enemy team lose 1 Spirit for each non-burning enemy on the battlefield.\n\nThen if enemy Spirit is 0, there is a 20% chance, plus 20% per Awakening (up to 100% chance if this unit has 4 Awakenings) for a random non-boss, non-Ephemeral enemy on the battlefield to be immediately defeated (the user is considered to have defeated that enemy with an attack). This effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nThis skill becomes locked for 50TU after use. Usable 10 times per battle.",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
-                "SkillTitle": "Volontà Poderosa",
-                "SkillDescription": "L'unità ottiene Fortificazione e ottiene Forza Terrestre per 100TU.\n\nUtilizzabile solo se se l'unità ha 3 Cariche accumulate e non è ustionata. Consuma tutte le cariche dell'unità. Utilizzabile 3 volte per battaglia.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato. Un'unità con Forza Terrestre aggiunge lo 0,5x dell'attacco originale al proprio attacco se non è ustionata. L'aumento dell'attacco si accumula con Provocazione e altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,5x = 2,0x totale), ma non con sé stesso. Forza Terrestre viene rimosso se l'unità che lo ha fornito abbandona il campo, e viene rimosso dalle unità che abbandonano il campo.",
+                "SkillTitle": "Mighty Resolve",
+                "SkillDescription": "The user is Fortified, and granted Earthen Might for 100TU.\n\nUsable only if the user has stored 3 Charges, and is not burning. Consumes all Charges on the user. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect. A unit with Earthen Might has 0.5x of their original Attack added to their Attack while they are not burning. This attack increase does stack on top of Enrage effects, and other Attack increases (e.g. 1.5x + 0.5x => 2.0x total), but cannot stack with Earthen Might effects. Earthen Might ends if the unit who granted it leaves the battlefield, and is removed from units that leave the battlefield.",
                 "TU": 50,
                 "Spirit": "+0"
             },
             {
-                "SkillTitle": "Fendente Brutale",
-                "SkillDescription": "Colpisce tutti i nemici. 1000% di danno a 1 nemico casuale. 500% di danno agli altri bersagli. Questo attacco ignora gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nSi sblocca ogni volta che l'unità usa Lama Devastante. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "SkillTitle": "Wrecking Slash",
+                "SkillDescription": "Targets all enemies. 1000% damage to 1 random enemy. 500% damage to all other targets. This attack ignores any effects of non-boss enemies that would prevent the targets from being defeated, the Counter Stance Status Effect, and the effects of Skin passive skills.\n\nUnlocked each time the user uses Crushing Blade. This skill is locked again after each use or if the user leaves the battlefield.",
                 "TU": 100,
                 "Spirit": "-3"
             }
         ],
         "PassiveSkill": [
             {
-                "SkillTitle": "Spregio Poderoso",
-                "SkillDescription": "L'unità non può farsi disattivare le abilità attive dalle abilità passive nemiche.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nOgni volta che l'unità sconfigge un nemico non invocato in campo con un attacco, cura tutti gli alleati per il 100% degli HP massimi e mette fine agli effetti nemici che stanno disattivando le abilità attive degli alleati in campo.\n\nOgni volta che un altro alleato in campo danneggia unità ustionate con un attacco, questa unità ottiene Spine Sonno e riduce i suoi TU attuali di 50TU. Se si attiva 5 volte entro 50TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale, non svegliano i nemici addormentati e:\n- Infliggono Sonno Maledetto per 200TU ai bersagli colpiti se ci sono almeno 2 alleati di tipo Acqua in campo.\n- Infliggono Veleno Letale per 999TU ai bersagli colpiti se ci sono almeno 2 alleati di tipo Oscurità in campo.\n- Infliggono casualmente Sonno Maledetto per 200TU o Veleno Letale per 999TU ai bersagli colpiti se non ci sono almeno 2 alleati di tipo Acqua od Oscurità in campo.\n\nQuando un'unità con Spine Sonno subisce danni da un attacco, consuma Spine Sonno per infliggere immediatamente l'effetto di stato Sonno Maledetto per 200TU all'assalitore. Ustione o gli attacchi che ustionano rimuovono Spine Sonno e impediscono di infliggere Sonno Maledetto. Sonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto. Veleno Letale sostituisce altri effetti di stato sul nemico, non viene sostituito da altri effetti di stato tranne Ustione e Invisibilità, e non può essere purificato. Veleno Letale infligge 2 volte il danno del normale Veleno e ignora le abilità passive e gli effetti che impedirebbero al bersaglio di essere sconfitto, tranne quelli che impediscono specificamente la sconfitta dovuta a Veleno o danni non da attacchi. Veleno Letale non si applica alle unità boss o ustionate."
+                "SkillTitle": "Grassroots Defiance",
+                "SkillDescription": "This unit can't have its Active Skills disabled by enemy passive skills.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nWhenever this unit defeats a non-conjured unit on the battlefield with an attack, heals all allies on the battlefield for 100% of their max HP, and ends any enemy effects that are currently disabling the Active Skills of allies on the battlefield.\n\nWhenever another ally on the battlefield damages any number of non-burning units with an attack, this unit is granted Sleep Thorns and has its current TU reduced by 50TU. If this triggers 5 times within 50TU, this effect cannot trigger again until 50TU advances.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, will not wake sleeping enemies, and grant hit targets:\n- Cursed Sleep for 200TU if this unit has 2 or more Water Allies on the battlefield.\n- Lethal Poison for 999TU if this unit has 2 or more Dark Allies on the battlefield.\n- Randomly either Cursed Sleep for 200TU or Lethal Poison for 999TU if this unit does not have 2 Water or 2 Dark Allies on the battlefield.\n\nWhen a unit with Sleep Thorns is dealt damage by an attack, that unit's Sleep Thorns will be consumed to immediately grant the Cursed Sleep status effect for 200TU to the attacker. Burn or attacks that grant Burn will remove Sleep Thorns and prevent Cursed Sleep from applying. Cursed Sleep will overwrite status effects other than Burn, cannot be overwritten by Poison, can be applied repeatedly to units that have already slept while on the battlefield, and will not end from damage caused by Dream Hunter type active skills. Lethal Poison will overwrite other status effects on that enemy, cannot be overwritten by status effects other than Burn or Stealth, and cannot be Purified. Lethal Poison deals 2 times the damage of normal Poison and ignores passive skills or effects of active skills that would prevent the target from being defeated, other than those which specifically prevent defeat from Poison or non-attack damage. Lethal Poison cannot apply to Burning units or Boss units."
             },
             {
-                "SkillTitle": "Cavaliera Esorcista",
-                "SkillDescription": "L'unità entra in campo con Fortificazione, Protezione Sonno, Protezione Veleno e Protezione Morte.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che un alleato non ustionato ottiene il turno, l'unità recupera il 50% degli HP massimi. Ogni volta che un alleato avvelenato o addormentato ottiene il turno, l'unità recupera il 50% degli HP massimi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene una Carica e recupera il 50% degli HP massimi. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula."
+                "SkillTitle": "Exorcist Knight",
+                "SkillDescription": "This unit enters battle Fortified, and with a Sleep Ward, Poison Ward, and an Instant Death Ward.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nEach time a non-burning ally gets the turn, this unit is healed for 50% of max HP. Each time a poisoned or sleeping enemy gets the turn, this unit is healed for 50% of max HP.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be granted a Charge, and heal for 50% of its max HP. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nAn Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack."
             },
             {
                 "SkillTitle": "HP+ Lv3",
@@ -135155,7 +135155,7 @@
                 "IsEarthernMightAKAPartyMode": 1.05
             },
             "SkillUse": {
-                "Lama Devastante": {
+                "Crushing Blade": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -135174,7 +135174,7 @@
                         "IsProtectingAndNotAlone": 0.5
                     }
                 },
-                "Terra d'Esorcismo": {
+                "Earth's Exorcism": {
                     "BaseWeight": 100,
                     "Source": {
                         "2UnitsNotBurningOnBattlefield": 500,
@@ -135183,13 +135183,13 @@
                         "EnemySpirit0": 500
                     }
                 },
-                "Volontà Poderosa": {
+                "Mighty Resolve": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotFortifiedOrEarthernMight1Or2": 500
                     }
                 },
-                "Fendente Brutale": {
+                "Wrecking Slash": {
                     "BaseWeight": 5,
                     "Source": {
                         "AllEnemiesImposters": 0,
