@@ -2287,15 +2287,17 @@
 					Weapon: `Collection/${specifiedLang}/Weapon.json`,
 					Equipment: `Collection/${specifiedLang}/Accessory.json`,
 				};
-				for (const [key, url] of Object.entries(dataUrls)) {
-					try {
-						const rawText = await fetchCheck(url).then((res) => res.text());
-						const jsonData = JSON.parse(rawText.replace(/\\(?![\\\/bfnrtu"])/g, "\\\\"));
-						wholeData[key] = jsonData;
-					} catch (e) {
-						console.error(`Read or parse ${key} error:`, e);
-					}
-				}
+				await Promise.all(
+					Object.entries(dataUrls).map(async ([key, url]) => {
+						try {
+							const rawText = await fetchCheck(url).then((res) => res.text());
+							const jsonData = JSON.parse(rawText.replace(/\\(?![\\\/bfnrtu"])/g, "\\\\"));
+							wholeData[key] = jsonData;
+						} catch (e) {
+							console.error(`Read or parse ${key} error:`, e);
+						}
+					})
+				);
 			}
 			document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = false; });
 
