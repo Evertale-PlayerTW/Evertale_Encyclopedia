@@ -2249,8 +2249,8 @@
 
 		async function loadWholeData() {
 			const dataMode = document.querySelector('input[name="dataMode"]:checked').value
+			document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = true; });
 			if (dataMode === "rawMode") {
-				document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = true; });
 				document.getElementById("filterArea").classList.add("hidden");
 				document.getElementById("mainBlock").classList.add("hidden");
 				document.querySelectorAll("#languageProgress,#monsterProgress,#weaponProgress,#equipmentProgress").forEach((e) => (e.textContent = getLocalizationText("Progress_Wait")));
@@ -2279,7 +2279,6 @@
 				}
 
 				//console.log(wholeData);
-				document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = false; });
 			} else {
 				document.getElementById("mainBlock").classList.add("hidden");
 
@@ -2298,6 +2297,7 @@
 					}
 				}
 			}
+			document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = false; });
 
 			await imageFilelistReady;
 		}
