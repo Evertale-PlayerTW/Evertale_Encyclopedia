@@ -134908,7 +134908,7 @@
         "Hp_Base": 5665,
         "Speed": 568,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "工作？……真麻煩。\n不過，還是得乾就是了。",
         "LeaderSkill": {
             "SkillTitle": "地屬性強化",
@@ -135217,5 +135217,339 @@
                 "RelationshipBuff": "攻擊力+2%"
             }
         }
+    },
+    "LuBuDark01": {
+        "Name": "呂布",
+        "Name2": "暗之修羅",
+        "FullName": "呂布 - 暗之修羅",
+        "Profile": "本以為了無牽掛。然而，當她藉由返魂符再次睜開雙眼時，呂布心中卻萌生了一個唯一的願望──想再見她一面。僅憑著這份再平凡不過的心願作為指引，她再次邁向了戰場。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "雙手劍",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 28,
+        "Atk_Base": 1241,
+        "Hp_Base": 5005,
+        "Speed": 603,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "她從地獄歸來\n只為與唯一的摯友重逢",
+        "LeaderSkill": {
+            "SkillTitle": "地屬性猛攻",
+            "SkillDescription": "所有地屬性隊友的攻擊力會增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "屍牙",
+                "SkillDescription": "對2個敵人造成400%的傷害；若場上存在處於中毒或睡眠狀態的敵人，則造成600%的傷害；若場上所有敵人都處於中毒或睡眠狀態，則造成800%的傷害。此技能無視目標的匿蹤狀態、反彈被動技能和「反擊態勢」狀態。\n使用者獲得蓄能。蓄能可被部分技能消耗以發動或強化效果。蓄能會在此單位離場時被移除，且無法疊加。",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "咒霧",
+                "SkillDescription": "消耗此單位的蓄能使場上所有不處於中毒狀態的敵方單位陷入持續200TU的詛咒睡眠狀態；再使場上所有不處於睡眠狀態的敵方單位陷入持續200TU的急性劇毒；若敵方場上仍存在不處於睡眠或中毒狀態的單位，則使用者TU歸零立即獲得一個回合結束且攻擊力增加為1.5倍直到該回合結束。此效果會覆蓋先前的「狂熱」類效果。\n使用者必須有蓄能才能使用。詛咒睡眠狀態對進場後已陷入過睡眠狀態的敵方單位亦可生效，會覆蓋身上燃燒以外的其他狀態效果，且不會被中毒覆蓋。處於詛咒睡眠的單位受到捕夢類主動技能的傷害時不會移除詛咒睡眠狀態。急性劇毒所造成的傷害是中毒的20倍，不會被其他中毒或劇毒狀態覆蓋且會覆蓋對象身上的其他狀態效果。",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "返魂",
+                "SkillDescription": "20%的機率隨機深度洗腦1個敵人。此單位每覺醒一次額外提高20%深度洗腦的機率。被深度洗腦的單位下三個回合開始時將失去該回合且使用者將被淨化並獲得一個回合，此後深度洗腦終止。洗腦無法被淨化，但會因使用者的離場而終止。洗腦對BOSS類單位無效。\n僅當敵方場上存在至少2個單位且不存在已被洗腦的單位時才可使用。此技能使用後必須等100TU後才能再次使用且在一場戰鬥中只能使用五次。",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "暗之修羅",
+                "SkillDescription": "此單位的主動技能不會因敵方單位的被動技能效果被封鎖。此單位不會被眩暈。此單位不能從場上回到援軍。此單位進場時金屬化並獲得睡眠抵抗、中毒抵抗與速敗抵抗。\n當此單位進場後第一次在不處於燃燒狀態下受到敵方攻擊傷害時，此單位TU歸零立即獲得一個回合。\n此單位的攻擊不會移除目標的睡眠狀態。此單位的攻擊無視目標的減少效果與非BOSS單位防止目標被擊敗的效果或被動技能。\n各類抵抗會防止一次各自負面狀態效果，之後該類抵抗會被移除。各類抵抗效果次數各自無法疊加。速敗抵抗會防止一次敵方非BOSS單位無傷害立即擊敗類效果對該單位的生效，之後速敗抵抗會被移除。速敗抵抗效果不會被無視，次數無法疊加。"
+            },
+            {
+                "SkillTitle": "不滅殭屍",
+                "SkillDescription": "若敵方場上存在至少1個單位處於睡眠狀態或中毒狀態，則此單位受到敵方攻擊的傷害減少50%。若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。\n如果此單位受到一次攻擊並在當前回合結束之後仍然存活，此單位回復最大生命值的50%。每當有單位從援軍隊伍入場時，此單位獲得速敗抵抗並回復最大生命值的100%。"
+            },
+            {
+                "SkillTitle": "提升攻擊力Lv3",
+                "SkillDescription": "此單位的攻擊力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此單位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "雷系耐性Lv3",
+                "SkillDescription": "若此單位受到雷屬性的敵人攻擊，所受到的傷害會減少10%。"
+            },
+            {
+                "SkillTitle": "大槌大師",
+                "SkillDescription": "若此單位裝備大槌類型武器，武器技能會啟用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大槌"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "吶，為什麼…我還活著呢…\n呵呵，呂布。該說好久不見嗎？ \n看來，我似乎又復活了。 \n\n…既然如此，\n就去見她一面吧。 \n你會助我一臂之力的，對吧？"
+            ],
+            "Login": [
+                "你也是，那孩子也是，怎麼都這麼慢。明明是她把我從墳墓裡喚醒的……\n真拿她沒辦法，只好去找她了。來，過來幫忙。"
+            ],
+            "Tap": [
+                "我可不是鬼哦。雖說，也已經不是人類了。 \n不過嘛，至少外表和還是人類的時候相比，也沒什麼太大的改變吧？",
+                "嗅嗅嗅聞……是不是有點泥土味呢？還是說，是屍臭？ \n能別靠我太近嗎？ ……怎麼？呵呵，就這麼想靠近我嗎？",
+                "哇！怎麼樣，有嚇到你嗎？ ……沒有太大的反應？ \n真是個無趣的人呢。 ……既然如此，下次我要更嚇人一點。"
+            ],
+            "Idle": [
+                "好無聊啊……有沒有什麼有趣的事情呢……\n再這樣下去，就算什麼都不做，我都快自己回墳墓裡去了……開玩笑的。唉，真無聊…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "屍牙": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "咒霧": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "返魂": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                }
+            }
+        }
+    },
+    "LuBuDark02": {
+        "Name": "呂布",
+        "Name2": "暗之修羅",
+        "FullName": "呂布 - 暗之修羅",
+        "Profile": "即便親眼見到墮為鬼的武藏，呂布的心意也從未動搖。縱使她早已面目全非，也無法拋下那位因孤獨而顫抖的摯友不管。最終，她捨棄了所謂的正義，選擇站在武藏的身邊。",
+        "Profile_Ascended": "雖被世人畏懼地稱為修羅，呂布心中卻同時懷有平靜的釋然與深沉的情義。既然彼此都是再也無法回頭之人，那就至少走到最後吧。即使前方的道路通往毀滅，她也不會再有絲毫迷茫。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "雙手劍",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 34,
+        "Atk_Base": 1423,
+        "Hp_Base": 7305,
+        "Speed": 603,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "地屬性猛攻",
+            "SkillDescription": "所有地屬性隊友的攻擊力會增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "屍牙",
+                "SkillDescription": "對2個敵人造成400%的傷害；若場上存在處於中毒或睡眠狀態的敵人，則造成600%的傷害；若場上所有敵人都處於中毒或睡眠狀態，則造成800%的傷害。此技能無視目標的匿蹤狀態、反彈被動技能和「反擊態勢」狀態。\n使用者獲得蓄能。蓄能可被部分技能消耗以發動或強化效果。蓄能會在此單位離場時被移除，且無法疊加。",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "咒霧",
+                "SkillDescription": "消耗此單位的蓄能使場上所有不處於中毒狀態的敵方單位陷入持續200TU的詛咒睡眠狀態；再使場上所有不處於睡眠狀態的敵方單位陷入持續200TU的急性劇毒；若敵方場上仍存在不處於睡眠或中毒狀態的單位，則使用者TU歸零立即獲得一個回合結束且攻擊力增加為1.5倍直到該回合結束。此效果會覆蓋先前的「狂熱」類效果。\n使用者必須有蓄能才能使用。詛咒睡眠狀態對進場後已陷入過睡眠狀態的敵方單位亦可生效，會覆蓋身上燃燒以外的其他狀態效果，且不會被中毒覆蓋。處於詛咒睡眠的單位受到捕夢類主動技能的傷害時不會移除詛咒睡眠狀態。急性劇毒所造成的傷害是中毒的20倍，不會被其他中毒或劇毒狀態覆蓋且會覆蓋對象身上的其他狀態效果。",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "返魂",
+                "SkillDescription": "20%的機率隨機深度洗腦1個敵人。此單位每覺醒一次額外提高20%深度洗腦的機率。被深度洗腦的單位下三個回合開始時將失去該回合且使用者將被淨化並獲得一個回合，此後深度洗腦終止。洗腦無法被淨化，但會因使用者的離場而終止。洗腦對BOSS類單位無效。\n僅當敵方場上存在至少2個單位且不存在已被洗腦的單位時才可使用。此技能使用後必須等100TU後才能再次使用且在一場戰鬥中只能使用五次。",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "閻魔",
+                "SkillDescription": "攻擊1個敵人，若目標是守衛者，則造成1200%的傷害。若此技能的傷害成功擊敗非召喚物的敵方單位，使用者金屬化且此技能必須等100TU後才能再次使用。僅當敵方場上存在不處於燃燒狀態的守衛者時可以使用。此技能在一場戰鬥中只能使用三次。\n金屬化會使該單位此後三次遭受敵方攻擊時所受的傷害減少50%，之後金屬化會被移除。金屬化的減傷效果不會被不能無視金屬化的攻擊無視。已處於金屬化的單位再次金屬化時次數重置為三次，金屬化不屬於狀態效果。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "暗之修羅",
+                "SkillDescription": "此單位的主動技能不會因敵方單位的被動技能效果被封鎖。此單位不會被眩暈。此單位不能從場上回到援軍。此單位進場時金屬化並獲得睡眠抵抗、中毒抵抗與速敗抵抗。\n當此單位進場後第一次在不處於燃燒狀態下受到敵方攻擊傷害時，此單位TU歸零立即獲得一個回合。\n此單位的攻擊不會移除目標的睡眠狀態。此單位的攻擊無視目標的減少效果與非BOSS單位防止目標被擊敗的效果或被動技能。\n各類抵抗會防止一次各自負面狀態效果，之後該類抵抗會被移除。各類抵抗效果次數各自無法疊加。速敗抵抗會防止一次敵方非BOSS單位無傷害立即擊敗類效果對該單位的生效，之後速敗抵抗會被移除。速敗抵抗效果不會被無視，次數無法疊加。"
+            },
+            {
+                "SkillTitle": "不滅殭屍",
+                "SkillDescription": "若敵方場上存在至少1個單位處於睡眠狀態或中毒狀態，則此單位受到敵方攻擊的傷害減少50%。若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。\n如果此單位受到一次攻擊並在當前回合結束之後仍然存活，此單位回復最大生命值的50%。每當有單位從援軍隊伍入場時，此單位獲得速敗抵抗並回復最大生命值的100%。"
+            },
+            {
+                "SkillTitle": "提升攻擊力Lv3",
+                "SkillDescription": "此單位的攻擊力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此單位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "雷系耐性Lv3",
+                "SkillDescription": "若此單位受到雷屬性的敵人攻擊，所受到的傷害會減少10%。"
+            },
+            {
+                "SkillTitle": "大槌大師",
+                "SkillDescription": "若此單位裝備大槌類型武器，武器技能會啟用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大槌"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "吶，為什麼…我還活著呢…\n呵呵，呂布。該說好久不見嗎？ \n看來，我似乎又復活了。 \n\n…既然如此，\n就去見她一面吧。 \n你會助我一臂之力的，對吧？"
+            ],
+            "Login": [
+                "你也是，那孩子也是，怎麼都這麼慢。明明是她把我從墳墓裡喚醒的……\n真拿她沒辦法，只好去找她了。來，過來幫忙。"
+            ],
+            "Tap": [
+                "我可不是鬼哦。雖說，也已經不是人類了。 \n不過嘛，至少外表和還是人類的時候相比，也沒什麼太大的改變吧？",
+                "嗅嗅嗅聞……是不是有點泥土味呢？還是說，是屍臭？ \n能別靠我太近嗎？ ……怎麼？呵呵，就這麼想靠近我嗎？",
+                "哇！怎麼樣，有嚇到你嗎？ ……沒有太大的反應？ \n真是個無趣的人呢。 ……既然如此，下次我要更嚇人一點。"
+            ],
+            "Idle": [
+                "好無聊啊……有沒有什麼有趣的事情呢……\n再這樣下去，就算什麼都不做，我都快自己回墳墓裡去了……開玩笑的。唉，真無聊…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "屍牙": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "咒霧": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "返魂": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                },
+                "閻魔": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "1EnemyIsProtectorNotTokenAndUserIsEnraged": 750
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "NotProtecting": 0,
+                        "RarityLessThan3": 0.8,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsToken": 0.001,
+                        "IsProtecting": 2,
+                        "IsProtectedNotProtector": 0.001
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

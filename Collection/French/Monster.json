@@ -134908,7 +134908,7 @@
         "Hp_Base": 5665,
         "Speed": 568,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Un boulot pour moi ? Pff... Soulant.\nMais je vais le faire.",
         "LeaderSkill": {
             "SkillTitle": "Terre ATT & PV+",
@@ -135217,5 +135217,339 @@
                 "RelationshipBuff": "ATQ+2%"
             }
         }
+    },
+    "LuBuDark01": {
+        "Name": "Lü Bu",
+        "Name2": "Revenante d'un démon furieux",
+        "FullName": "Lü Bu - Revenante d'un démon furieux",
+        "Profile": "Elle n'aura pas dû avoir de regrets persistants. Et pourtant, lorsque ses yeux s'ouvrirent à nouveau grâce à la force du Talisman de Résurrection, Lü Bu n'eut qu'un seul souhait en son coeur––\n\nElle voulait <i>la</i> revoir.\n\nGuidée par ce simple souhait modeste, elle regagna le champ de bataille une fois de plus.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grande Épée",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 28,
+        "Atk_Base": 1241,
+        "Hp_Base": 5005,
+        "Speed": 603,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "De retour de l'enfer; pour retrouver son amie",
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lame Revenante",
+                "SkillDescription": "400% de dégâts à 2 ennemis. 600% de dégâts à la place si un ennemi quelconque du champ de bataille est empoisonné ou endormi. 800% de dégâts à la place si tous les ennemis du champ de bataille empoisonnés ou endormis. Cette attaque ignore l'effet de statut de Furtivité, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Charge de Force. Les Charges de Force peuvent être consommées par certaines compétences pour activer ou augmenter leurs effets. Les Charges de Force seront retirées si cette unité quitte le champ de bataille. Les Charges de Force ne peuvent être empilées.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Brume de l'Enfer",
+                "SkillDescription": "Tous les ennemis non-empoisonnés subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis tous les ennemis non-endormis subissent l'effet de statut de Méga Poison pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis si tout ennemi du champ de bataille n'est pas endormi ou empoisonné (p.ex. en raison de Protections), l'utilisateur prendra immédiatement le prochain tour et deviendra Enragé. Ceci remplacera les effets d'autres compétences d'Enragé sur cet utilisateur.\n\nUtilisable seulement si le lanceur possède une Charge de Force. Consomme une Charge de Force.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Sceau Hypnotique",
+                "SkillDescription": "Hypnotise Intensément un ennemi aléatoire. 20% de chance de réussite, et 20% de plus par Éveil (jusqu'à 100% de chance si l'utilisateur possède 4 Éveils). Un ennemi Intensément Hypnotisé utilisera ses 3 prochains tours pour donner son tour à l'hypnotiseur et le Purifier (son tour sera perdu comme s'il était endormi), puis l'Hypnose prendra fin.\n\nL'Hypnose n'est pas un effet de statut et ne peut être retiré par les compétences de Purification, mais sera annulé si l'utilisateur est vaincu ou quitte le champ de bataille. L'Hypnose échouera contre les unités Boss.\n\nCette compétence se verrouille pendant 100TU après son utilisation et ne peut être utilisée si un ennemi est déjà Hypnotisé ou est seul. Utilisable 5 fois par bataille.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Revenant Coléreux",
+                "SkillDescription": "Les Compétences Actives de cette unité ne peuvent être désactivées par les compétences passives ennemies.\n\nCette unité ne peut être étourdie ou renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité entre en bataille en étant Fortifiée, avec une Protection Sommeil, une Protection Poison et une Protection Mort Instantanée.\n\nLes TU de cette unité sont réduits à 0 lors de la première fois qu'elle subit des dégâts d'une attaque ennemie et qu'elle n'est pas brûlée.\n\nLes attaques de cette unité ne réveillent pas les ennemis endormis, ignorent les effets de réduction de dégâts, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nChaque protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Âme Restituée",
+                "SkillDescription": "Cette unité bénéficie d'une réduction de 50% des dégâts provenant d'attaques lorsqu'un ennemi empoisonné ou endormi est présent sur le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut si elle possède plus de 1PV.\n\nCette unité sera soignée de 50% de ses PV max à chaque fois qu'elle subit des dégâts d'une attaque et survit jusqu'à la fin du tour.\n\nCette unité gagne une Protection Mort Instantanée et sera soignée de 100% de ses PV max à chaque fois qu'une autre unité (alliée ou ennemie) entre sur le champ de bataille depuis les renforts."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Resist. tempête Lv3",
+                "SkillDescription": "10% de dégâts en moins des attaques d'unités de type Tempête"
+            },
+            {
+                "SkillTitle": "Maîtrise Marteau",
+                "SkillDescription": "Peut utiliser les talents d'arme des Marteaux en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Marteau"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "... Pourquoi ? Pourquoi suis-je encore vivante...?\nOui, c'est moi, Lü Bu. Ça fait longtemps, je suppose ?\nJe ne sais pas comment, mais on m'a ramenée à la vie.\n\nBon, autant saisir cette occasion pour aller la voir.\nTu vas me filer un coup de main, pas vrai ?"
+            ],
+            "Login": [
+                "Tu es en retard. Et cette fille est aussi en retard. Bien qu'elle ait fait tant d'efforts pour me ressusciter, elle m'oublie vraiment et s'en va faire ses trucs à elle.\nBon, je ferais mieux de la retrouver avant qu'elle sème la pagaille. Allez, tu vas m'aider."
+            ],
+            "Tap": [
+                "Je ne suis pas un oni. Ceci dit, je ne suis pas humaine non plus. Mais je n'ai pas l'air si différente de quand j'étais humaine, non ?",
+                "*Sniff sniff sniff* ... Est-ce que je sens un peu la terre ? Ou est-ce que c'est l'odeur d'un cadavre...?\nHé, tiens-toi à distance; Je ne te veux pas trop près de moi...\nQuoi ? Ça te rend triste ?\nHmmm, peut-être que je vais autoriser ça alors...",
+                "Bouh ! ... Comment c'était ? Est-ce que ça t'a fait peur ? Pas vraiment ? Tu n'es pas amusant... Bon, la prochaine fois, je m'assurerai de faire ça de façon beaucoup plus effrayante..."
+            ],
+            "Idle": [
+                "Je m'ennuie tellement... Si seulement quelque chose d'amusant pouvait arriver...\nÀ ce rythme, je vais redevenir un corps sans vie à cause de l'ennui..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Lame Revenante": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Brume de l'Enfer": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Sceau Hypnotique": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                }
+            }
+        }
+    },
+    "LuBuDark02": {
+        "Name": "Lü Bu",
+        "Name2": "Revenante d'un démon furieux",
+        "FullName": "Lü Bu - Revenante d'un démon furieux",
+        "Profile": "Même après avoir vu à quel point Musashi avait été corrompue et transformée en oni, les sentiments de Lü Bu ne vacillèrent pas. Peu importe à quel point Musashi avait changé en apparence ou caractère, elle ne pouvait pas abandonner sa chère amie qui était maintenant vraiment seule.\n\nEt ainsi, plutôt que de prendre la bonne décision, elle choisit de se tenir aux côtés de Musashi.",
+        "Profile_Ascended": "Bien que Lü Bu était redoutée en tant que « Démon du Courroux« , son coeur était rempli de veritable affection et acceptation calme. Si aucune d'entre elles ne pouvaient redevenir ce qu'elles étaient auparavant, elles marcheraient tout au moins ensemble jusqu'à la fin. Elle n'hésiterait plus... Même si ce chemin menait seulement à la ruine.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grande Épée",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 34,
+        "Atk_Base": 1423,
+        "Hp_Base": 7305,
+        "Speed": 603,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Terre ATT+",
+            "SkillDescription": "Les alliés Terre voient leur Attaque augmenter de 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lame Revenante",
+                "SkillDescription": "400% de dégâts à 2 ennemis. 600% de dégâts à la place si un ennemi quelconque du champ de bataille est empoisonné ou endormi. 800% de dégâts à la place si tous les ennemis du champ de bataille empoisonnés ou endormis. Cette attaque ignore l'effet de statut de Furtivité, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Charge de Force. Les Charges de Force peuvent être consommées par certaines compétences pour activer ou augmenter leurs effets. Les Charges de Force seront retirées si cette unité quitte le champ de bataille. Les Charges de Force ne peuvent être empilées.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Brume de l'Enfer",
+                "SkillDescription": "Tous les ennemis non-empoisonnés subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis tous les ennemis non-endormis subissent l'effet de statut de Méga Poison pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis si tout ennemi du champ de bataille n'est pas endormi ou empoisonné (p.ex. en raison de Protections), l'utilisateur prendra immédiatement le prochain tour et deviendra Enragé. Ceci remplacera les effets d'autres compétences d'Enragé sur cet utilisateur.\n\nUtilisable seulement si le lanceur possède une Charge de Force. Consomme une Charge de Force.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Sceau Hypnotique",
+                "SkillDescription": "Hypnotise Intensément un ennemi aléatoire. 20% de chance de réussite, et 20% de plus par Éveil (jusqu'à 100% de chance si l'utilisateur possède 4 Éveils). Un ennemi Intensément Hypnotisé utilisera ses 3 prochains tours pour donner son tour à l'hypnotiseur et le Purifier (son tour sera perdu comme s'il était endormi), puis l'Hypnose prendra fin.\n\nL'Hypnose n'est pas un effet de statut et ne peut être retiré par les compétences de Purification, mais sera annulé si l'utilisateur est vaincu ou quitte le champ de bataille. L'Hypnose échouera contre les unités Boss.\n\nCette compétence se verrouille pendant 100TU après son utilisation et ne peut être utilisée si un ennemi est déjà Hypnotisé ou est seul. Utilisable 5 fois par bataille.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Dévoreur de Gardes",
+                "SkillDescription": "1200% de dégâts à 1 ennemi si c'est un Gardien. Si les dégâts provenant de cette attaque vainquent un ennemi non-invoqué, l'utilisateur devient Fortifié et cette compétence se verrouille pendant 100TU après son utilisation.\n\nUtilisable seulement s'il y a au moins 1 ennemi Gardien non-brûlé sur le champ de bataille. Utilisable 3 fois par bataille.\n\nUne unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Revenant Coléreux",
+                "SkillDescription": "Les Compétences Actives de cette unité ne peuvent être désactivées par les compétences passives ennemies.\n\nCette unité ne peut être étourdie ou renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité entre en bataille en étant Fortifiée, avec une Protection Sommeil, une Protection Poison et une Protection Mort Instantanée.\n\nLes TU de cette unité sont réduits à 0 lors de la première fois qu'elle subit des dégâts d'une attaque ennemie et qu'elle n'est pas brûlée.\n\nLes attaques de cette unité ne réveillent pas les ennemis endormis, ignorent les effets de réduction de dégâts, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nChaque protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées."
+            },
+            {
+                "SkillTitle": "Âme Restituée",
+                "SkillDescription": "Cette unité bénéficie d'une réduction de 50% des dégâts provenant d'attaques lorsqu'un ennemi empoisonné ou endormi est présent sur le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ennemie ou un effet de statut si elle possède plus de 1PV.\n\nCette unité sera soignée de 50% de ses PV max à chaque fois qu'elle subit des dégâts d'une attaque et survit jusqu'à la fin du tour.\n\nCette unité gagne une Protection Mort Instantanée et sera soignée de 100% de ses PV max à chaque fois qu'une autre unité (alliée ou ennemie) entre sur le champ de bataille depuis les renforts."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Resist. tempête Lv3",
+                "SkillDescription": "10% de dégâts en moins des attaques d'unités de type Tempête"
+            },
+            {
+                "SkillTitle": "Maîtrise Marteau",
+                "SkillDescription": "Peut utiliser les talents d'arme des Marteaux en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Marteau"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "... Pourquoi ? Pourquoi suis-je encore vivante...?\nOui, c'est moi, Lü Bu. Ça fait longtemps, je suppose ?\nJe ne sais pas comment, mais on m'a ramenée à la vie.\n\nBon, autant saisir cette occasion pour aller la voir.\nTu vas me filer un coup de main, pas vrai ?"
+            ],
+            "Login": [
+                "Tu es en retard. Et cette fille est aussi en retard. Bien qu'elle ait fait tant d'efforts pour me ressusciter, elle m'oublie vraiment et s'en va faire ses trucs à elle.\nBon, je ferais mieux de la retrouver avant qu'elle sème la pagaille. Allez, tu vas m'aider."
+            ],
+            "Tap": [
+                "Je ne suis pas un oni. Ceci dit, je ne suis pas humaine non plus. Mais je n'ai pas l'air si différente de quand j'étais humaine, non ?",
+                "*Sniff sniff sniff* ... Est-ce que je sens un peu la terre ? Ou est-ce que c'est l'odeur d'un cadavre...?\nHé, tiens-toi à distance; Je ne te veux pas trop près de moi...\nQuoi ? Ça te rend triste ?\nHmmm, peut-être que je vais autoriser ça alors...",
+                "Bouh ! ... Comment c'était ? Est-ce que ça t'a fait peur ? Pas vraiment ? Tu n'es pas amusant... Bon, la prochaine fois, je m'assurerai de faire ça de façon beaucoup plus effrayante..."
+            ],
+            "Idle": [
+                "Je m'ennuie tellement... Si seulement quelque chose d'amusant pouvait arriver...\nÀ ce rythme, je vais redevenir un corps sans vie à cause de l'ennui..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Lame Revenante": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Brume de l'Enfer": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Sceau Hypnotique": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                },
+                "Dévoreur de Gardes": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "1EnemyIsProtectorNotTokenAndUserIsEnraged": 750
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "NotProtecting": 0,
+                        "RarityLessThan3": 0.8,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsToken": 0.001,
+                        "IsProtecting": 2,
+                        "IsProtectedNotProtector": 0.001
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

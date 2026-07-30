@@ -134908,7 +134908,7 @@
         "Hp_Base": 5665,
         "Speed": 568,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Ein Job für mich? Ach... wie nervig.\nAber sieh es als erledigt an.",
         "LeaderSkill": {
             "SkillTitle": "Erd-ANG/LP hoch",
@@ -135217,5 +135217,339 @@
                 "RelationshipBuff": "ANG+2%"
             }
         }
+    },
+    "LuBuDark01": {
+        "Name": "Lu Bu",
+        "Name2": "Zorndämonwiedergang",
+        "FullName": "Lu Bu - Zorndämonwiedergang",
+        "Profile": "Sie hätte eigentlich keine bleibenden Bedauern haben sollen. Und doch, als sich ihre Augen durch die Kraft des Talismans der Wiederbelebung wieder öffneten, begann ein einziger Wunsch in Lu Bus Herz zu keimen –\n\nSie wollte <i>sie</i> wiedersehen.\n\nGeleitet von diesem einen einfachen, bescheidenen Wunsch kehrte sie noch einmal auf das Schlachtfeld zurück.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 28,
+        "Atk_Base": 1241,
+        "Hp_Base": 5005,
+        "Speed": 603,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Zurück aus der Hölle für ihre Freundin",
+        "LeaderSkill": {
+            "SkillTitle": "Erd-ANG hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Rückkehrklinge",
+                "SkillDescription": "400% Schaden an 2 Gegnern. Stattdessen 600% Schaden, wenn ein Gegner auf dem Schlachtfeld vergiftet ist oder schläft. Stattdessen 800% Schaden, wenn alle Gegner auf dem Schlachtfeld vergiftet sind oder schlafen. Dieser Angriff ignoriert den Status-Effekt Schleichen, passive Skinfertigkeiten und den Statuseffekt Konterstellung.\n\nDer Anwender erhält eine Kraftladung. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um deren Effekte zu aktivieren oder zu verstärken. Kraftladungen werden entfernt, wenn diese Einheit das Schlachtfeld verlässt. Kraftladungen sind nicht stapelbar.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Unterweltnebel",
+                "SkillDescription": "Verleiht allen nicht vergifteten Gegnern für 200 ZE den Statuseffekt Verfluchter Schlaf. Anschließend verleiht er allen nicht schlafenden Gegnern für 200 ZE den Statuseffekt Mega-Gift. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nWenn dann ein Gegner auf dem Schlachtfeld weder schläft noch vergiftet ist (z. B. aufgrund von Schutzen), erhält der Anwender sofort den nächsten Zug und wird wütend. Dies überschreibt die Effekte anderer Wut-Fertigkeiten auf den Anwender.\n\nNur einsetzbar, wenn der Anwender eine Kraftladung besitzt. Verbraucht eine Kraftladung\n\nVerfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennung, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und wird nicht durch Schaden beendet, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden. Bei wütenden Einheiten erhöht sich der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Hypno-Siegel",
+                "SkillDescription": "20% Chance einen zufälligen Gegner Intensiv zu Hypnotisieren, plus 20% pro Erweckung (bis zu 100%, wenn der Anwender 4 Erweckungen hat). Ein Intensiv Hypnotisierter Gegner nutzt seine nächsten 3 Züge, um dem Hypnotiseur den Zug zu überlassen und ihn zu reinigen (der Zug geht verloren, als ob er schlafen würde), danach endet die Hypnose.\n\nHypnose ist kein Statuseffekt und kann nicht durch Läuterungs-Fähigkeiten aufgehoben werden, wird jedoch abgebrochen, wenn der Anwender besiegt wird oder das Schlachtfeld verlässt. Gegen Boss-Einheiten schlägt die Hypnose fehl.\n\nDiese Fertigkeit ist nach dem Einsatz für 100 ZE gesperrt und kann nicht verwendet werden, wenn bereits ein Gegner hypnotisiert ist oder der Anwender allein ist. Kann 5 Mal pro Kampf eingesetzt werden.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Zorn-Wiedergänger",
+                "SkillDescription": "Die aktiven Fertigkeiten dieser Einheit können nicht durch passive Fertigkeiten des Gegners deaktiviert werden.\n\nDiese Einheit kann nicht betäubt oder vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDiese Einheit tritt mit dem Status Gefestigt sowie mit einem Schlafschutz, einem Gift-Schutz und einem Soforttod-Schutz in den Kampf ein.\n\nSobald diese Einheit zum ersten Mal durch einen gegnerischen Angriff Schaden erleidet, während sie nicht brennt, wird ihre ZE auf 0 reduziert.\n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nJeder Schutz verhindert einmalig, dass der jeweilige Effekt angewendet wird, und wird anschließend entfernt. Identische Schutze können nicht gestapelt werden. Ein Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner ohne Schaden sofort besiegt wird, und wird anschließend entfernt. Soforttod-Schutze können nicht ignoriert werden und lassen sich nicht stapeln."
+            },
+            {
+                "SkillTitle": "Wiedergängerseele",
+                "SkillDescription": "Diese Einheit erhält 50% Schadensreduzierung durch Angriffe, solange sich ein vergifteter oder schlafender Gegner auf dem Schlachtfeld befindet.\n\nWenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, heilt sie um 50% ihrer maximalen LP.\n\nImmer wenn eine andere Einheit (Verbündeter oder Gegner) als Verstärkung das Schlachtfeld betritt, erhält diese Einheit einen Soforttod-Schutz und wird um 100% ihrer maximalen LP geheilt."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Sturm-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Sturm-Einheiten."
+            },
+            {
+                "SkillTitle": "Hammer-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Hämmern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hammer"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...Warum? Warum lebe ich noch...?\nJa, ich bin's, Lu Bu. Lange nicht gesehen, oder?\nIrgendwie bin ich von den Toten zurückgekommen.\n\nNa ja, dann kann ich diese Gelegenheit ja nutzen, um sie zu besuchen.\nDu hilfst mir doch dabei, oder?"
+            ],
+            "Login": [
+                "Du bist zu spät, und das Mädchen ist auch zu spät. Bei all der Mühe, die sie sich gegeben hat, um mich zurückzuholen, vergisst sie mich wirklich gerne und macht sich auf den Weg, um ihr eigenes Ding zu machen.\nNa ja, ich sollte sie besser suchen gehen, bevor sie Ärger macht. Komm schon, du hilfst mir dabei."
+            ],
+            "Tap": [
+                "Ich bin kein Oni. Allerdings bin ich auch kein Mensch. Aber ich sehe doch gar nicht so anders aus als damals, als ich noch ein Mensch war, oder?",
+                "*Schnüff, schnüff, schnüff*... Rieche ich ein bisschen nach Dreck? Oder ist das der Geruch einer Leiche...?\nHey, halt Abstand, ich will nicht, dass du mir zu nahe kommst...\nWas? Das macht dich traurig?\nHmmm, na gut, dann erlaube ich es dir vielleicht doch...",
+                "Buh! … Wie war's? War's gruselig? Nicht besonders? Du bist ja langweilig … Na ja, nächstes Mal mache ich es auf jeden Fall viel gruseliger …"
+            ],
+            "Idle": [
+                "Mir ist so langweilig… Wenn doch nur mal was Spannendes passieren würde…\nSo wie es aussieht, werde ich vor lauter Langeweile bald wieder zu einer leblosen Leiche werden… War nur ein Scherz, natürlich. Obwohl ich mir langsam wünsche, es wäre kein Scherz…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Rückkehrklinge": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Unterweltnebel": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Hypno-Siegel": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                }
+            }
+        }
+    },
+    "LuBuDark02": {
+        "Name": "Lu Bu",
+        "Name2": "Zorndämonwiedergang",
+        "FullName": "Lu Bu - Zorndämonwiedergang",
+        "Profile": "Selbst nachdem sie gesehen hatte, wie Musashi zu einem Oni geworden war, schwankten Lu Bus Gefühle nicht. Ganz gleich, wie sehr sich Musashi in ihrem Wesen oder Aussehen verändert hatte – sie konnte ihre liebe Freundin, die nun wirklich ganz allein war, nicht im Stich lassen.\n\nUnd so entschied sie sich, an Musashis Seite zu stehen, anstatt das zu tun, was richtig war.",
+        "Profile_Ascended": "Obwohl Lu Bu als Dämon des Zorns gefürchtet wurde, war ihr Herz von tiefer Zuneigung und stiller Resignation erfüllt. Wenn keiner von beiden mehr so sein konnte wie früher, dann würden sie zumindest gemeinsam bis zum bitteren Ende gehen. Sie würde nicht länger zögern … selbst wenn dieser Weg nur ins Verderben führte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 34,
+        "Atk_Base": 1423,
+        "Hp_Base": 7305,
+        "Speed": 603,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Erd-ANG hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Rückkehrklinge",
+                "SkillDescription": "400% Schaden an 2 Gegnern. Stattdessen 600% Schaden, wenn ein Gegner auf dem Schlachtfeld vergiftet ist oder schläft. Stattdessen 800% Schaden, wenn alle Gegner auf dem Schlachtfeld vergiftet sind oder schlafen. Dieser Angriff ignoriert den Status-Effekt Schleichen, passive Skinfertigkeiten und den Statuseffekt Konterstellung.\n\nDer Anwender erhält eine Kraftladung. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um deren Effekte zu aktivieren oder zu verstärken. Kraftladungen werden entfernt, wenn diese Einheit das Schlachtfeld verlässt. Kraftladungen sind nicht stapelbar.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Unterweltnebel",
+                "SkillDescription": "Verleiht allen nicht vergifteten Gegnern für 200 ZE den Statuseffekt Verfluchter Schlaf. Anschließend verleiht er allen nicht schlafenden Gegnern für 200 ZE den Statuseffekt Mega-Gift. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nWenn dann ein Gegner auf dem Schlachtfeld weder schläft noch vergiftet ist (z. B. aufgrund von Schutzen), erhält der Anwender sofort den nächsten Zug und wird wütend. Dies überschreibt die Effekte anderer Wut-Fertigkeiten auf den Anwender.\n\nNur einsetzbar, wenn der Anwender eine Kraftladung besitzt. Verbraucht eine Kraftladung\n\nVerfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennung, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und wird nicht durch Schaden beendet, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden. Bei wütenden Einheiten erhöht sich der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Hypno-Siegel",
+                "SkillDescription": "20% Chance einen zufälligen Gegner Intensiv zu Hypnotisieren, plus 20% pro Erweckung (bis zu 100%, wenn der Anwender 4 Erweckungen hat). Ein Intensiv Hypnotisierter Gegner nutzt seine nächsten 3 Züge, um dem Hypnotiseur den Zug zu überlassen und ihn zu reinigen (der Zug geht verloren, als ob er schlafen würde), danach endet die Hypnose.\n\nHypnose ist kein Statuseffekt und kann nicht durch Läuterungs-Fähigkeiten aufgehoben werden, wird jedoch abgebrochen, wenn der Anwender besiegt wird oder das Schlachtfeld verlässt. Gegen Boss-Einheiten schlägt die Hypnose fehl.\n\nDiese Fertigkeit ist nach dem Einsatz für 100 ZE gesperrt und kann nicht verwendet werden, wenn bereits ein Gegner hypnotisiert ist oder der Anwender allein ist. Kann 5 Mal pro Kampf eingesetzt werden.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Wächterschlinger",
+                "SkillDescription": "1200% Schaden an 1 Gegner, wenn dieser ein Wächter ist. Wenn der Schaden dieses Angriffs einen nicht beschworenen Gegner besiegt, erhält der Anwender den Status Verstärkt und diese Fertigkeit ist nach dem Einsatz für 100 ZE gesperrt.\n\nNur einsetzbar, wenn sich mindestens 1 nicht brennender Wächter auf dem Schlachtfeld befindet. Kann 3 Mal pro Kampf eingesetzt werden.\n\nEine Verstärkte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann von Angriffen, die Verstärkt nicht ausdrücklich ignorieren, nicht umgangen werden. Verstärkt wird entfernt, nachdem der Schaden seit dem Anwenden dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Zorn-Wiedergänger",
+                "SkillDescription": "Die aktiven Fertigkeiten dieser Einheit können nicht durch passive Fertigkeiten des Gegners deaktiviert werden.\n\nDiese Einheit kann nicht betäubt oder vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDiese Einheit tritt mit dem Status Gefestigt sowie mit einem Schlafschutz, einem Gift-Schutz und einem Soforttod-Schutz in den Kampf ein.\n\nSobald diese Einheit zum ersten Mal durch einen gegnerischen Angriff Schaden erleidet, während sie nicht brennt, wird ihre ZE auf 0 reduziert.\n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nJeder Schutz verhindert einmalig, dass der jeweilige Effekt angewendet wird, und wird anschließend entfernt. Identische Schutze können nicht gestapelt werden. Ein Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner ohne Schaden sofort besiegt wird, und wird anschließend entfernt. Soforttod-Schutze können nicht ignoriert werden und lassen sich nicht stapeln."
+            },
+            {
+                "SkillTitle": "Wiedergängerseele",
+                "SkillDescription": "Diese Einheit erhält 50% Schadensreduzierung durch Angriffe, solange sich ein vergifteter oder schlafender Gegner auf dem Schlachtfeld befindet.\n\nWenn diese Einheit durch einen gegnerischen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, heilt sie um 50% ihrer maximalen LP.\n\nImmer wenn eine andere Einheit (Verbündeter oder Gegner) als Verstärkung das Schlachtfeld betritt, erhält diese Einheit einen Soforttod-Schutz und wird um 100% ihrer maximalen LP geheilt."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Sturm-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Sturm-Einheiten."
+            },
+            {
+                "SkillTitle": "Hammer-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Hämmern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hammer"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...Warum? Warum lebe ich noch...?\nJa, ich bin's, Lu Bu. Lange nicht gesehen, oder?\nIrgendwie bin ich von den Toten zurückgekommen.\n\nNa ja, dann kann ich diese Gelegenheit ja nutzen, um sie zu besuchen.\nDu hilfst mir doch dabei, oder?"
+            ],
+            "Login": [
+                "Du bist zu spät, und das Mädchen ist auch zu spät. Bei all der Mühe, die sie sich gegeben hat, um mich zurückzuholen, vergisst sie mich wirklich gerne und macht sich auf den Weg, um ihr eigenes Ding zu machen.\nNa ja, ich sollte sie besser suchen gehen, bevor sie Ärger macht. Komm schon, du hilfst mir dabei."
+            ],
+            "Tap": [
+                "Ich bin kein Oni. Allerdings bin ich auch kein Mensch. Aber ich sehe doch gar nicht so anders aus als damals, als ich noch ein Mensch war, oder?",
+                "*Schnüff, schnüff, schnüff*... Rieche ich ein bisschen nach Dreck? Oder ist das der Geruch einer Leiche...?\nHey, halt Abstand, ich will nicht, dass du mir zu nahe kommst...\nWas? Das macht dich traurig?\nHmmm, na gut, dann erlaube ich es dir vielleicht doch...",
+                "Buh! … Wie war's? War's gruselig? Nicht besonders? Du bist ja langweilig … Na ja, nächstes Mal mache ich es auf jeden Fall viel gruseliger …"
+            ],
+            "Idle": [
+                "Mir ist so langweilig… Wenn doch nur mal was Spannendes passieren würde…\nSo wie es aussieht, werde ich vor lauter Langeweile bald wieder zu einer leblosen Leiche werden… War nur ein Scherz, natürlich. Obwohl ich mir langsam wünsche, es wäre kein Scherz…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Rückkehrklinge": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Unterweltnebel": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Hypno-Siegel": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                },
+                "Wächterschlinger": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "1EnemyIsProtectorNotTokenAndUserIsEnraged": 750
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "NotProtecting": 0,
+                        "RarityLessThan3": 0.8,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsToken": 0.001,
+                        "IsProtecting": 2,
+                        "IsProtectedNotProtector": 0.001
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

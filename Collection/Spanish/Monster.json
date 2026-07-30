@@ -134908,7 +134908,7 @@
         "Hp_Base": 5665,
         "Speed": 568,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¿Un trabajo para mí? Uff... qué fastidio.\nPero considéralo hecho.",
         "LeaderSkill": {
             "SkillTitle": "Sube ATT & HP Tierra",
@@ -135217,5 +135217,339 @@
                 "RelationshipBuff": "ATQ+2%"
             }
         }
+    },
+    "LuBuDark01": {
+        "Name": "Lü Bu",
+        "Name2": "Espectro del Demonio Furioso",
+        "FullName": "Lü Bu - Espectro del Demonio Furioso",
+        "Profile": "No debería haber tenido remordimientos. Y, sin embargo, cuando sus ojos se abrieron de nuevo gracias al poder del Talismán de Resurrección, un único deseo comenzó a florecer en el corazón de Lü Bu...\n\nquería volver a <i>verla</i>.\n\nGuiada por ese simple y humilde deseo, regresó al campo de batalla una vez más.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 28,
+        "Atk_Base": 1241,
+        "Hp_Base": 5005,
+        "Speed": 603,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Regresa del infierno, para reunirse con su amiga.",
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hoja Espectral",
+                "SkillDescription": "400% de daño a 2 enemigos. 600% de daño si algún enemigo en el campo de batalla está envenenado o dormido. 800% de daño si todos los enemigos en el campo de batalla están envenenados o dormidos. Este ataque ignora el efecto de estado Sigilo, las habilidades pasivas de Piel y el efecto de estado Contraofensiva.\n\nEl usuario obtiene una Carga Poder. Las Cargas Poder se pueden consumir con ciertas habilidades para activar o potenciar sus efectos. Las Cargas Poder se eliminarán si esta unidad abandona el campo de batalla. Las Cargas Poder no se acumulan.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Niebla del Inframundo",
+                "SkillDescription": "Otorga a todos los enemigos no envenenados el efecto de estado Sueño Maldito durante 200TU. Luego, otorga a todos los enemigos no dormidos el efecto de estado Mega Veneno durante 200TU. Esto sobrescribirá otros efectos de estado en esas unidades.\n\nSi algún enemigo en el campo de batalla no está dormido ni envenenado (por ejemplo, debido a Guardas), el usuario obtendrá inmediatamente el siguiente turno y se Enfurecerá. Esto sobrescribirá los efectos de otras habilidades de Enfurecer sobre el usuario. Solo se puede usar si el usuario tiene una Carga Poder. Consume una Carga de Poder.\n\nSueño Maldito sobrescribirá los efectos de estado que no sean Quemado, no puede ser sobrescrito por Veneno, se puede aplicar repetidamente a unidades que ya estén dormidas en el campo de batalla y no terminará por el daño causado por habilidades activas de tipo Caza Sueños. Mega Veneno inflige 20 veces el daño de Veneno normal y no puede ser sobrescrito por Veneno normal ni Súper Veneno. Las unidades enfurecidas ven aumentado su Ataque a 1.5x hasta el final de su siguiente turno.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Sello Hipnótico",
+                "SkillDescription": "Hipnotiza Intensamente a un enemigo aleatorio, esto tiene un 20% de probabilidad de éxito, más un 20% por Despertar (hasta un 100% de probabilidad si el usuario tiene 4 Despertares). Un enemigo con Hipno Intenso usará sus siguientes 3 turnos para otorgarle el turno al hipnotizador y purificarlo (el turno se perderá como si estuviera dormido), y luego la hipnosis terminará.\n\nLa hipnosis no es un efecto de estado y no se puede eliminar con habilidades de Purificación, pero se cancelará si el usuario es derrotado o abandona el campo de batalla. La hipnosis fallará contra unidades Jefe.\n\nEsta habilidad se bloquea durante 100TU después de su uso y no se puede usar si un enemigo ya está hipnotizado o solo. Se puede usar 5 veces por batalla.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Espectro Iracundo",
+                "SkillDescription": "Las habilidades activas de esta unidad no pueden ser desactivadas por las habilidades pasivas enemigas.\n\nEsta unidad no puede ser aturdida ni enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad entra en batalla Fortalecida y con Guarda Sueño, Guarda Veneno y Guarda Muerte Instantánea.\n\nLa primera vez que esta unidad recibe daño de un ataque enemigo sin estar en llamas, sus TU se reducen a 0.\n\nSus ataques no despiertan a los enemigos dormidos, ignoran los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impida su derrota.\n\nCada Guarda impide que su efecto nombrado se aplique una vez y luego se elimina. Los Guardas idénticos no se acumulan. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño de un enemigo que no sea jefe una vez y luego se elimina. Los Guardas Muerte Instantánea no se pueden ignorar ni acumular."
+            },
+            {
+                "SkillTitle": "Alma Retornada",
+                "SkillDescription": "Esta unidad tiene un 50% de reducción de daño de los ataques mientras haya un enemigo envenenado o dormido en el campo de batalla.\n\nSi esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado teniendo más de 1 HP, sobrevive con 1 HP.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nSiempre que otra unidad (aliada o enemiga) entre al campo de batalla como refuerzo, esta unidad recibirá Un Guarda Muerte Instantánea y se curará al 100% de sus HP máximos."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Trueno Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Trueno."
+            },
+            {
+                "SkillTitle": "Dominio Martillo",
+                "SkillDescription": "Puede usar habilidades de arma de Martillos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Martillo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...¿Por qué? ¿Por qué sigo viva...?\nSí, soy yo, Lü Bu. ¡Cuánto tiempo sin vernos!\nDe alguna manera regresé de entre los muertos.\n\nBueno, igual puedo aprovechar esta oportunidad para ir a verla.\nMe vas a ayudar, ¿verdad?"
+            ],
+            "Login": [
+                "Llegas tarde, y esa chica también. Para todo el esfuerzo que puso en traerme de vuelta, parece que le gusta olvidarse de mí y salir corriendo a hacer sus cosas.\nBueno, será mejor que vaya a buscarla antes de que cause problemas. Ven conmigo, me vas a ayudar."
+            ],
+            "Tap": [
+                "No soy un oni. Dicho esto, tampoco soy humana. Pero no me veo tan diferente de cuando era humana, ¿verdad?",
+                "*Olfateo, olfateo, olfateo*... ¿Huelo un poco a tierra? ¿O es el olor de un cadáver...?\nOye, mantén tu distancia, no quiero que te acerques demasiado...\n¿Qué? ¿Eso te entristece?\nHmm, tal vez entonces te lo permita...",
+                "¡Buuu! ...¿Qué tal? ¿Te asusté? ¿No mucho?  Eres aburrido... Bueno, la próxima vez me aseguraré de que dé mucho más miedo..."
+            ],
+            "Idle": [
+                "Estoy tan aburrida... Ojalá pasara algo entretenido...\nA este paso, volveré a morirme sólo por puro aburrimiento... Es broma, por supuesto. Aunque empiezo a desear no estar bromeando..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Hoja Espectral": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Niebla del Inframundo": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Sello Hipnótico": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                }
+            }
+        }
+    },
+    "LuBuDark02": {
+        "Name": "Lü Bu",
+        "Name2": "Espectro del Demonio Furioso",
+        "FullName": "Lü Bu - Espectro del Demonio Furioso",
+        "Profile": "Incluso después de ver cómo Musashi se había corrompido y convertido en un oni, los sentimientos de Lü Bu permanecieron inquebrantables. Por mucho que Musashi hubiera cambiado en personalidad y apariencia, no podía abandonar a su querida amiga, que ahora estaba verdaderamente sola.\n\nAsí que, en lugar de elegir hacer lo correcto, decidió permanecer a su lado.",
+        "Profile_Ascended": "Aunque Lü Bu era temida como el \"Demonio Furioso\", su corazón rebosaba de profundo afecto y serena resignación. Si ninguna de las dos podía volver a ser como antes, al menos podrían caminar juntas hasta el final. Ya no dudaría... aunque ese camino sólo condujera a la ruina.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 34,
+        "Atk_Base": 1423,
+        "Hp_Base": 7305,
+        "Speed": 603,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Hoja Espectral",
+                "SkillDescription": "400% de daño a 2 enemigos. 600% de daño si algún enemigo en el campo de batalla está envenenado o dormido. 800% de daño si todos los enemigos en el campo de batalla están envenenados o dormidos. Este ataque ignora el efecto de estado Sigilo, las habilidades pasivas de Piel y el efecto de estado Contraofensiva.\n\nEl usuario obtiene una Carga Poder. Las Cargas Poder se pueden consumir con ciertas habilidades para activar o potenciar sus efectos. Las Cargas Poder se eliminarán si esta unidad abandona el campo de batalla. Las Cargas Poder no se acumulan.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Niebla del Inframundo",
+                "SkillDescription": "Otorga a todos los enemigos no envenenados el efecto de estado Sueño Maldito durante 200TU. Luego, otorga a todos los enemigos no dormidos el efecto de estado Mega Veneno durante 200TU. Esto sobrescribirá otros efectos de estado en esas unidades.\n\nSi algún enemigo en el campo de batalla no está dormido ni envenenado (por ejemplo, debido a Guardas), el usuario obtendrá inmediatamente el siguiente turno y se Enfurecerá. Esto sobrescribirá los efectos de otras habilidades de Enfurecer sobre el usuario. Solo se puede usar si el usuario tiene una Carga Poder. Consume una Carga de Poder.\n\nSueño Maldito sobrescribirá los efectos de estado que no sean Quemado, no puede ser sobrescrito por Veneno, se puede aplicar repetidamente a unidades que ya estén dormidas en el campo de batalla y no terminará por el daño causado por habilidades activas de tipo Caza Sueños. Mega Veneno inflige 20 veces el daño de Veneno normal y no puede ser sobrescrito por Veneno normal ni Súper Veneno. Las unidades enfurecidas ven aumentado su Ataque a 1.5x hasta el final de su siguiente turno.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Sello Hipnótico",
+                "SkillDescription": "Hipnotiza Intensamente a un enemigo aleatorio, esto tiene un 20% de probabilidad de éxito, más un 20% por Despertar (hasta un 100% de probabilidad si el usuario tiene 4 Despertares). Un enemigo con Hipno Intenso usará sus siguientes 3 turnos para otorgarle el turno al hipnotizador y purificarlo (el turno se perderá como si estuviera dormido), y luego la hipnosis terminará.\n\nLa hipnosis no es un efecto de estado y no se puede eliminar con habilidades de Purificación, pero se cancelará si el usuario es derrotado o abandona el campo de batalla. La hipnosis fallará contra unidades Jefe.\n\nEsta habilidad se bloquea durante 100TU después de su uso y no se puede usar si un enemigo ya está hipnotizado o solo. Se puede usar 5 veces por batalla.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Devora Guardias",
+                "SkillDescription": "1200% de daño a 1 enemigo si es un Guardián. Si el daño de este ataque derrota a un enemigo no invocado, el usuario se Fortalece y esta habilidad se bloquea durante 100TU después de su uso.\n\nSólo se puede usar si hay al menos un Guardián enemigo que no esté en llamas en el campo de batalla. Se puede usar 3 veces por batalla.\n\nUna unidad fortificada tiene una reducción de daño del 50% contra ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortalecer. Fortalecer se eliminará después de reducir el daño 3 veces desde su aplicación y se reiniciará si se vuelve a aplicar. No es un efecto de estado.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Espectro Iracundo",
+                "SkillDescription": "Las habilidades activas de esta unidad no pueden ser desactivadas por las habilidades pasivas enemigas.\n\nEsta unidad no puede ser aturdida ni enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad entra en batalla Fortalecida y con Guarda Sueño, Guarda Veneno y Guarda Muerte Instantánea.\n\nLa primera vez que esta unidad recibe daño de un ataque enemigo sin estar en llamas, sus TU se reducen a 0.\n\nSus ataques no despiertan a los enemigos dormidos, ignoran los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impida su derrota.\n\nCada Guarda impide que su efecto nombrado se aplique una vez y luego se elimina. Los Guardas idénticos no se acumulan. Un Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño de un enemigo que no sea jefe una vez y luego se elimina. Los Guardas Muerte Instantánea no se pueden ignorar ni acumular."
+            },
+            {
+                "SkillTitle": "Alma Retornada",
+                "SkillDescription": "Esta unidad tiene un 50% de reducción de daño de los ataques mientras haya un enemigo envenenado o dormido en el campo de batalla.\n\nSi esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado teniendo más de 1 HP, sobrevive con 1 HP.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nSiempre que otra unidad (aliada o enemiga) entre al campo de batalla como refuerzo, esta unidad recibirá Un Guarda Muerte Instantánea y se curará al 100% de sus HP máximos."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Trueno Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Trueno."
+            },
+            {
+                "SkillTitle": "Dominio Martillo",
+                "SkillDescription": "Puede usar habilidades de arma de Martillos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Martillo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...¿Por qué? ¿Por qué sigo viva...?\nSí, soy yo, Lü Bu. ¡Cuánto tiempo sin vernos!\nDe alguna manera regresé de entre los muertos.\n\nBueno, igual puedo aprovechar esta oportunidad para ir a verla.\nMe vas a ayudar, ¿verdad?"
+            ],
+            "Login": [
+                "Llegas tarde, y esa chica también. Para todo el esfuerzo que puso en traerme de vuelta, parece que le gusta olvidarse de mí y salir corriendo a hacer sus cosas.\nBueno, será mejor que vaya a buscarla antes de que cause problemas. Ven conmigo, me vas a ayudar."
+            ],
+            "Tap": [
+                "No soy un oni. Dicho esto, tampoco soy humana. Pero no me veo tan diferente de cuando era humana, ¿verdad?",
+                "*Olfateo, olfateo, olfateo*... ¿Huelo un poco a tierra? ¿O es el olor de un cadáver...?\nOye, mantén tu distancia, no quiero que te acerques demasiado...\n¿Qué? ¿Eso te entristece?\nHmm, tal vez entonces te lo permita...",
+                "¡Buuu! ...¿Qué tal? ¿Te asusté? ¿No mucho?  Eres aburrido... Bueno, la próxima vez me aseguraré de que dé mucho más miedo..."
+            ],
+            "Idle": [
+                "Estoy tan aburrida... Ojalá pasara algo entretenido...\nA este paso, volveré a morirme sólo por puro aburrimiento... Es broma, por supuesto. Aunque empiezo a desear no estar bromeando..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Hoja Espectral": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Niebla del Inframundo": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Sello Hipnótico": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                },
+                "Devora Guardias": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "1EnemyIsProtectorNotTokenAndUserIsEnraged": 750
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "NotProtecting": 0,
+                        "RarityLessThan3": 0.8,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsToken": 0.001,
+                        "IsProtecting": 2,
+                        "IsProtectedNotProtector": 0.001
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

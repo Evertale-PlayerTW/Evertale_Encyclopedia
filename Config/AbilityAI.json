@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1784882688,
+  "Time": 1785304045,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -31152,6 +31152,72 @@
 						"IsSleeping": 0.89,
 						"IsBurning": 1.1
 					}
+    },
+    "DoubleAttackALuBuDark_AI":{
+    			"class": "AbilityAI","baseAITargetingWeight": 1.1,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 0.5,
+						"AllEnemiesAlwaysDodging": 0.25,
+						"AllEnemiesNotProtectingDodging": 0.25
+				},
+					"aiTargetingMonsterConditions":{
+							"IsOdinRaven": 0.1,
+							"IsBadFriend": 0.1,
+							"IsImposter": 0.001,
+							"IsMirage": 0.25,
+							"RarityLessThan3": 0.8,
+							"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+							"IsPloyed": 0.70,
+							"IsStealth": 0.25,
+							"IsAlwaysDodging": 0.25,
+							"NotProtectingDodging": 0.25,
+							"IsProtectedNotProtector": 0.75,
+							"IsFrostbitten": 0.89,
+							"On1HPNotProtected": 2.5,
+							"On1HPIsProtecting": 2.5,
+							"HPBelow50Percent": 1.0,
+							"HPBelow25Percent": 1.0,
+							"IsProtector": 0.5,
+							"IsProtecting": 0.5,
+							"IsProtectingAndNotAlone": 0.5,
+							"IsFreyaNewNotWarMode": 0.25
+					}
+    },
+    "EnemyBuffALuBuDark_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingSourceMonsterConditions":{
+						"1EnemyIsNotSleepingOrPoisoned": 250.0,
+						"AllEnemiesIsSleeping": 0.01,
+						"AllEnemiesPoisoned": 0.01,
+						"AllEnemiesIsSleepingOrPoisoned": 0.01
+				}		
+    },
+    "RandomEnemyBuffALuBuDark_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 0.99,
+					"aiTargetingSourceMonsterConditions":{
+						"1EnemyIsNotBoss": 500.0
+				}		
+    },
+    "SingleAttackALuBuDark_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"aiTargetingSourceMonsterConditions":{
+						"1EnemyIsProtectorNotTokenAndUserIsEnraged": 750.0
+				},
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.1,
+						"NotProtecting": 0.0,
+						"RarityLessThan3": 0.8,
+						"IsPloyed": 0.70,
+						"IsStealth": 1.0,
+						"HPBelow50Percent": 1.0,
+						"HPBelow25Percent": 1.0,
+						"IsToken": 0.001,
+						"IsProtecting": 2.0,
+						"IsProtectedNotProtector": 0.001
+				}
     }
 }
 }

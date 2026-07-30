@@ -134908,7 +134908,7 @@
         "Hp_Base": 5665,
         "Speed": 568,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Un incarico per me? Ugh... che seccatura.\nMa consideralo fatto.",
         "LeaderSkill": {
             "SkillTitle": "ATT+ HP+ (Terra)",
@@ -135217,5 +135217,339 @@
                 "RelationshipBuff": "ATT+2%"
             }
         }
+    },
+    "LuBuDark01": {
+        "Name": "Lü Bu",
+        "Name2": "Spettro di un Demone Iracondo",
+        "FullName": "Lü Bu - Spettro di un Demone Iracondo",
+        "Profile": "Non avrebbe dovuto nutrire rimpianti irrisolti. Eppure, quando i suoi occhi si riaprirono grazie al potere del Talismano della Resurrezione, un unico desiderio cominciò a sbocciare nel cuore di Lü Bu...\n\nVoleva rivedere <i>lei</i>.\n\nGuidata da quel desiderio semplice e umile, tornò ancora una volta sul campo di battaglia.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spadone",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 28,
+        "Atk_Base": 1241,
+        "Hp_Base": 5005,
+        "Speed": 603,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Tornata dall'Inferno,\nper potersi riunire alla sua amica.",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lama Rediviva",
+                "SkillDescription": "400% di danno a 2 nemici. 600% di danno invece se c'è almeno un nemico avvelenato o addormentato in campo. 800% di danno invece se tutti i nemici in campo sono avvelenati o addormentati. Questo attacco ignora l'effetto di stato Invisibilità, le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene una Carica di Potere. Le Cariche di Potere possono essere consumate per attivare o potenziare certe abilità. Le Cariche di Potere vengono rimosse se l'unità abbandona il campo. Le Cariche di Potere non si accumulano.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Nebbia del Fatuo",
+                "SkillDescription": "Infligge Sonno Maledetto a tutti i nemici non avvelenati per 200TU. Poi, infligge Mega Veleno a tutti i nemici non addormentati per 200TU. Sostituisce altri effetti di stato.\n\nPoi, se ci sono nemici non addormentati e non avvelenati in campo (per esempio, grazie alle Protezioni), l'unità ottiene immediatamente il turno e ottiene Provocazione. Sostituisce altri effetti di Provocazione.\n\nUtilizzabile solo se l'unità ha una Carica di Potere. Consuma una Carica di Potere.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Sigillo Ipnotico",
+                "SkillDescription": "L'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% con 4 risvegli), di Super-Ipnotizzare un nemico casale. Il nemico Super-Ipnotizzato utilizzerà i suoi 3 turni successivi per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi terminerà.\n\nIpnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss.\n\nQuesta abilità è bloccata per 100TU dopo l'uso e non può essere usata se c'è già un nemico ipnotizzato o da solo. Utilizzabile 5 volte per battaglia.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rediviva Iraconda",
+                "SkillDescription": "L'unità non può farsi disattivare le abilità attive dalle abilità passive nemiche.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nL'unità entra in campo con Fortificazione, Protezione Sonno, Protezione Veleno e Protezione Morte.\n\nLa prima volta che l'unità subisce danno da un attacco nemico mentre non è ustionata, l'unità azzera i suoi TU.\n\nGli attacchi dell'unità non svegliano i nemici addormentati e ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula."
+            },
+            {
+                "SkillTitle": "Anima di Ritorno",
+                "SkillDescription": "L'unità ha una riduzione danni del 50% dagli attacchi ricevuti se c'è un nemico avvelenato o addormentato in campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità recupera il 50% degli HP massimi.\n\nQuando un'altra unità (alleata o nemica) entra in campo dai rinforzi, l'unità ottiene Protezione Morte e recupera il 100% degli HP massimi."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Vento Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Vento."
+            },
+            {
+                "SkillTitle": "Maestria Martello",
+                "SkillDescription": "Può usare le abilità dei Martelli oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Martello"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...perché? Perché sono ancora viva...?\nSì, sono io, Lü Bu. È passato un bel po', eh?\nIn qualche modo sono tornata dal regno dei morti.\n\nBeh, tanto vale approfittarne per andare a trovarla.\nMi darai una mano, vero?"
+            ],
+            "Login": [
+                "Sei in ritardo, come anche quella ragazza. Dopo tutta la fatica che ha fatto per riportarmi in vita, le piace proprio dimenticarsi di me e sparire per i fatti suoi.\nBeh, è meglio che vada a cercarla prima che combini qualche guaio. Forza, devi aiutarmi."
+            ],
+            "Tap": [
+                "Non sono un'oni. Detto ciò, non sono nemmeno umana. Ma non sembro poi così diversa da quando ero umana, no?",
+                "*Sniff sniff sniff* ...odoro di terra? O è l'odore di un cadavere...?\nEhi, tieniti a distanza, non voglio che ti avvicini troppo...\nCosa? Questo ti rende triste?\nMmm, allora forse te lo permetterò...",
+                "Bu! ...com'era? Ti ho spaventato? Non molto? Che noia... Beh, la prossima volta sarò molto più spaventosa..."
+            ],
+            "Idle": [
+                "Che noia... Se solo succedesse qualcosa di divertente...\nDi questo passo tornerò un cadavere senza vita per la pura noia... Sto scherzando, ovviamente. Anche se comincio quasi a desiderare che fosse vero..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Lama Rediviva": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Nebbia del Fatuo": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Sigillo Ipnotico": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                }
+            }
+        }
+    },
+    "LuBuDark02": {
+        "Name": "Lü Bu",
+        "Name2": "Spettro di un Demone Iracondo",
+        "FullName": "Lü Bu - Spettro di un Demone Iracondo",
+        "Profile": "Anche dopo aver visto come Musashi fosse stata corrotta e trasformata in un'oni, i sentimenti di Lü Bu non vacillarono. Per quanto Musashi fosse cambiata nel carattere o nell'aspetto, non poteva abbandonare la sua cara amica, ormai davvero sola.\n\nCosì, invece di scegliere ciò che era giusto, scelse di restare al fianco di Musashi.",
+        "Profile_Ascended": "Sebbene Lü Bu fosse temuta come il \"Demone dell'Ira\", il suo cuore era colmo di profondo affetto e quieta rassegnazione. Se nessuna delle due poteva tornare a essere come prima, allora almeno avrebbero camminato insieme fino alla fine. Non avrebbe più esitato... anche se quella strada portava soltanto alla rovina.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spadone",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 34,
+        "Atk_Base": 1423,
+        "Hp_Base": 7305,
+        "Speed": 603,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Lama Rediviva",
+                "SkillDescription": "400% di danno a 2 nemici. 600% di danno invece se c'è almeno un nemico avvelenato o addormentato in campo. 800% di danno invece se tutti i nemici in campo sono avvelenati o addormentati. Questo attacco ignora l'effetto di stato Invisibilità, le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene una Carica di Potere. Le Cariche di Potere possono essere consumate per attivare o potenziare certe abilità. Le Cariche di Potere vengono rimosse se l'unità abbandona il campo. Le Cariche di Potere non si accumulano.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Nebbia del Fatuo",
+                "SkillDescription": "Infligge Sonno Maledetto a tutti i nemici non avvelenati per 200TU. Poi, infligge Mega Veleno a tutti i nemici non addormentati per 200TU. Sostituisce altri effetti di stato.\n\nPoi, se ci sono nemici non addormentati e non avvelenati in campo (per esempio, grazie alle Protezioni), l'unità ottiene immediatamente il turno e ottiene Provocazione. Sostituisce altri effetti di Provocazione.\n\nUtilizzabile solo se l'unità ha una Carica di Potere. Consuma una Carica di Potere.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Sigillo Ipnotico",
+                "SkillDescription": "L'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% con 4 risvegli), di Super-Ipnotizzare un nemico casale. Il nemico Super-Ipnotizzato utilizzerà i suoi 3 turni successivi per fornire il turno all'ipnotizzatore e purificarlo (il turno andrà perduto come se stesse dormendo), poi l'ipnosi terminerà.\n\nIpnosi non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità viene sconfitta o abbandona il campo. Ipnosi non ha effetto sui boss.\n\nQuesta abilità è bloccata per 100TU dopo l'uso e non può essere usata se c'è già un nemico ipnotizzato o da solo. Utilizzabile 5 volte per battaglia.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Divoraguardia",
+                "SkillDescription": "1200% di danno a 1 nemico Guardiano. Se il danno di questo attacco sconfigge un nemico non invocato, l'unità ottiene Fortificazione e questa abilità è bloccata per 100TU dopo l'uso.\n\nUtilizzabile solo se c'è almeno 1 nemico Guardiano non ustionato in campo. Utilizzabile 3 volte per battaglia.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Rediviva Iraconda",
+                "SkillDescription": "L'unità non può farsi disattivare le abilità attive dalle abilità passive nemiche.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nL'unità entra in campo con Fortificazione, Protezione Sonno, Protezione Veleno e Protezione Morte.\n\nLa prima volta che l'unità subisce danno da un attacco nemico mentre non è ustionata, l'unità azzera i suoi TU.\n\nGli attacchi dell'unità non svegliano i nemici addormentati e ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nOgni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula."
+            },
+            {
+                "SkillTitle": "Anima di Ritorno",
+                "SkillDescription": "L'unità ha una riduzione danni del 50% dagli attacchi ricevuti se c'è un nemico avvelenato o addormentato in campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità recupera il 50% degli HP massimi.\n\nQuando un'altra unità (alleata o nemica) entra in campo dai rinforzi, l'unità ottiene Protezione Morte e recupera il 100% degli HP massimi."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Resist. Vento Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Vento."
+            },
+            {
+                "SkillTitle": "Maestria Martello",
+                "SkillDescription": "Può usare le abilità dei Martelli oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Martello"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...perché? Perché sono ancora viva...?\nSì, sono io, Lü Bu. È passato un bel po', eh?\nIn qualche modo sono tornata dal regno dei morti.\n\nBeh, tanto vale approfittarne per andare a trovarla.\nMi darai una mano, vero?"
+            ],
+            "Login": [
+                "Sei in ritardo, come anche quella ragazza. Dopo tutta la fatica che ha fatto per riportarmi in vita, le piace proprio dimenticarsi di me e sparire per i fatti suoi.\nBeh, è meglio che vada a cercarla prima che combini qualche guaio. Forza, devi aiutarmi."
+            ],
+            "Tap": [
+                "Non sono un'oni. Detto ciò, non sono nemmeno umana. Ma non sembro poi così diversa da quando ero umana, no?",
+                "*Sniff sniff sniff* ...odoro di terra? O è l'odore di un cadavere...?\nEhi, tieniti a distanza, non voglio che ti avvicini troppo...\nCosa? Questo ti rende triste?\nMmm, allora forse te lo permetterò...",
+                "Bu! ...com'era? Ti ho spaventato? Non molto? Che noia... Beh, la prossima volta sarò molto più spaventosa..."
+            ],
+            "Idle": [
+                "Che noia... Se solo succedesse qualcosa di divertente...\nDi questo passo tornerò un cadavere senza vita per la pura noia... Sto scherzando, ovviamente. Anche se comincio quasi a desiderare che fosse vero..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Lama Rediviva": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Nebbia del Fatuo": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Sigillo Ipnotico": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                },
+                "Divoraguardia": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "1EnemyIsProtectorNotTokenAndUserIsEnraged": 750
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "NotProtecting": 0,
+                        "RarityLessThan3": 0.8,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsToken": 0.001,
+                        "IsProtecting": 2,
+                        "IsProtectedNotProtector": 0.001
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

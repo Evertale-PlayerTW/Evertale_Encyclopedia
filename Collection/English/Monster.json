@@ -134908,7 +134908,7 @@
         "Hp_Base": 5665,
         "Speed": 568,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "A job for me? Ugh...what a drag.\nBut consider it done.",
         "LeaderSkill": {
             "SkillTitle": "Earth ATK & HP Up",
@@ -135217,5 +135217,339 @@
                 "RelationshipBuff": "ATK+2%"
             }
         }
+    },
+    "LuBuDark01": {
+        "Name": "Lü Bu",
+        "Name2": "Revenant of a Wrathful Demon",
+        "FullName": "Lü Bu - Revenant of a Wrathful Demon",
+        "Profile": "She should have had no lingering regrets. And yet, when her eyes opened once more through the power of the Talisman of Revival, a single wish began to bloom within Lü Bu's heart—\n\nShe wanted to see <i>her</i> again.\n\nGuided by that one simple, humble wish, she returned to the battlefield once more.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greatsword",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 28,
+        "Atk_Base": 1241,
+        "Hp_Base": 5005,
+        "Speed": 603,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Back from Hell, to be reunited with her friend.",
+        "LeaderSkill": {
+            "SkillTitle": "Earth Attack Up",
+            "SkillDescription": "Allied Earth element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Revenant Blade",
+                "SkillDescription": "400% damage to 2 enemies. 600% damage instead if any enemy on the battlefield is poisoned or sleeping. 800% damage instead if all enemies on the battlefield are poisoned or sleeping. This attack ignores the Stealth Status Effect, skin passive skills and the Counter Stance status effect.\n\nThe user gains a Power Charge. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges will be removed if this unit leaves the battlefield. Power Charges cannot stack.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Netherworld Mist",
+                "SkillDescription": "Grants all non-poisoned enemies the Cursed Sleep status effect for 200TU. Then grants all non-sleeping enemies the Mega Poison status effect for 200TU. This will overwrite other status effects on those units.\n\nThen if any enemy on the battlefield is not sleeping and not poisoned (e.g. due to Wards), the user will immediately get the next turn and become Enraged. This will overwrite the effects of other Enrage skills on the user.\n\nUsable only if the user has a Power Charge. Consumes a Power Charge\n\nCursed Sleep will overwrite status effects other than Burn, cannot be overwritten by Poison, can be applied repeatedly to units that have already slept while on the battlefield, and will not end from damage caused by Dream Hunter type active skills. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Hypnotic Seal",
+                "SkillDescription": "20% chance to Intensely Hypnotize a random enemy, plus 20% per Awakening (up to 100% chance if the user has 4 Awakenings). An Intensely Hypnotized enemy will use its next 3 turns to grant the turn to and Purify the hypnotizer (the turn will be lost as if it were sleeping), and then the hypnosis will end.\n\nHypnosis is not a status effect and cannot be removed by Purify skills, but will be canceled if the user is defeated or leaves the battlefield. Hypnosis will fail against Boss units.\n\nThis skill becomes locked for 100TU after use and cannot be used if an enemy is already Hypnotized or alone. Usable 5 times per battle.",
+                "TU": 1,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Wrathful Revenant",
+                "SkillDescription": "This unit can't have its Active Skills disabled by enemy passive skills.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nThis unit enters battle Fortified, and with a Sleep Ward, Poison Ward, and an Instant Death Ward.\n\nThe first time this unit is damaged by an enemy attack while not burning, this unit will have its TU reduced to 0.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack."
+            },
+            {
+                "SkillTitle": "Returned Soul",
+                "SkillDescription": "This unit has 50% damage reduction from attacks while there is a poisoned or sleeping enemy on the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 50% of its max HP.\n\nWhenever another unit (ally or enemy) enters the battlefield from reinforcements, this unit is granted an Instant Death Ward and will be healed for 100% of its max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Storm Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Storm units."
+            },
+            {
+                "SkillTitle": "Hammer Mastery",
+                "SkillDescription": "Can use weapon skills of Hammers in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hammer"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...Why? Why am I still alive...?\nYes, it's me, Lü Bu. Long time no see, I guess?\nSomehow I've come back from the dead.\n\nWell, I might as well use this opportunity to go see her.\nYou'll lend me a hand, right?"
+            ],
+            "Login": [
+                "You're late, and that girl is late as well. For all the effort she put into bringing me back, she really likes to forget about me and run off to do her own thing.\nWell, I'd better go find her before she stirs up trouble. Come on, you're going to help me."
+            ],
+            "Tap": [
+                "I'm not an oni. That being said, I'm not human either. But I don't look all that different from when I was a human, do I?",
+                "*Sniff sniff sniff*...Do I smell a bit like dirt? Or is that the scent of a cadaver...?\nHey, you keep your distance, I don't want you too close to me...\nWhat? That makes you sad?\nHmmm, maybe I'll allow it then...",
+                "Boo! ...How was that? Was it scary? Not very? You're no fun... Well, next time I'll be sure to make it much scarier..."
+            ],
+            "Idle": [
+                "I'm so bored... If only something entertaining would happen...\nAt this rate, I'll revert back into a lifeless corpse from sheer boredom... Just kidding, of course. Though I'm beginning to wish I wasn't..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Revenant Blade": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Netherworld Mist": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Hypnotic Seal": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                }
+            }
+        }
+    },
+    "LuBuDark02": {
+        "Name": "Lü Bu",
+        "Name2": "Revenant of a Wrathful Demon",
+        "FullName": "Lü Bu - Revenant of a Wrathful Demon",
+        "Profile": "Even after seeing how Musashi had been corrupted into an oni, Lü Bu's feelings did not waver. No matter how completely Musashi had changed in personality or appearance, she could not abandon her dear friend who was now truly alone.\n\nAnd so, rather than choosing what was right, she chose to stand by Musashi's side.",
+        "Profile_Ascended": "Though Lü Bu was feared as the \"Demon of Wrath\", her heart was filled with deep affection and calm resignation. If neither of them could go back to the way they were before, then at the very least, they would walk together until the very end. She will no longer hesitate...even if that path led only to ruin.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greatsword",
+        "forFilter_Element": "Earth",
+        "Element": "Earth",
+        "Cost": 34,
+        "Atk_Base": 1423,
+        "Hp_Base": 7305,
+        "Speed": 603,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Earth Attack Up",
+            "SkillDescription": "Allied Earth element units have their Attack increased by 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Revenant Blade",
+                "SkillDescription": "400% damage to 2 enemies. 600% damage instead if any enemy on the battlefield is poisoned or sleeping. 800% damage instead if all enemies on the battlefield are poisoned or sleeping. This attack ignores the Stealth Status Effect, skin passive skills and the Counter Stance status effect.\n\nThe user gains a Power Charge. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges will be removed if this unit leaves the battlefield. Power Charges cannot stack.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Netherworld Mist",
+                "SkillDescription": "Grants all non-poisoned enemies the Cursed Sleep status effect for 200TU. Then grants all non-sleeping enemies the Mega Poison status effect for 200TU. This will overwrite other status effects on those units.\n\nThen if any enemy on the battlefield is not sleeping and not poisoned (e.g. due to Wards), the user will immediately get the next turn and become Enraged. This will overwrite the effects of other Enrage skills on the user.\n\nUsable only if the user has a Power Charge. Consumes a Power Charge\n\nCursed Sleep will overwrite status effects other than Burn, cannot be overwritten by Poison, can be applied repeatedly to units that have already slept while on the battlefield, and will not end from damage caused by Dream Hunter type active skills. Mega Poison deals 20 times the damage of normal Poison and cannot be overwritten by normal Poison or Super Poison. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "TU": 50,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "Hypnotic Seal",
+                "SkillDescription": "20% chance to Intensely Hypnotize a random enemy, plus 20% per Awakening (up to 100% chance if the user has 4 Awakenings). An Intensely Hypnotized enemy will use its next 3 turns to grant the turn to and Purify the hypnotizer (the turn will be lost as if it were sleeping), and then the hypnosis will end.\n\nHypnosis is not a status effect and cannot be removed by Purify skills, but will be canceled if the user is defeated or leaves the battlefield. Hypnosis will fail against Boss units.\n\nThis skill becomes locked for 100TU after use and cannot be used if an enemy is already Hypnotized or alone. Usable 5 times per battle.",
+                "TU": 1,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Guard Devourer",
+                "SkillDescription": "1200% damage to 1 enemy if they are a Guardian. If damage from this attack defeats a non-conjured enemy, the user is Fortified and this skill becomes locked for 100TU after use.\n\nUsable only if there is at least 1 non-burning enemy Guardian on the battlefield. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Wrathful Revenant",
+                "SkillDescription": "This unit can't have its Active Skills disabled by enemy passive skills.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nThis unit enters battle Fortified, and with a Sleep Ward, Poison Ward, and an Instant Death Ward.\n\nThe first time this unit is damaged by an enemy attack while not burning, this unit will have its TU reduced to 0.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack."
+            },
+            {
+                "SkillTitle": "Returned Soul",
+                "SkillDescription": "This unit has 50% damage reduction from attacks while there is a poisoned or sleeping enemy on the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 50% of its max HP.\n\nWhenever another unit (ally or enemy) enters the battlefield from reinforcements, this unit is granted an Instant Death Ward and will be healed for 100% of its max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Storm Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Storm units."
+            },
+            {
+                "SkillTitle": "Hammer Mastery",
+                "SkillDescription": "Can use weapon skills of Hammers in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hammer"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "...Why? Why am I still alive...?\nYes, it's me, Lü Bu. Long time no see, I guess?\nSomehow I've come back from the dead.\n\nWell, I might as well use this opportunity to go see her.\nYou'll lend me a hand, right?"
+            ],
+            "Login": [
+                "You're late, and that girl is late as well. For all the effort she put into bringing me back, she really likes to forget about me and run off to do her own thing.\nWell, I'd better go find her before she stirs up trouble. Come on, you're going to help me."
+            ],
+            "Tap": [
+                "I'm not an oni. That being said, I'm not human either. But I don't look all that different from when I was a human, do I?",
+                "*Sniff sniff sniff*...Do I smell a bit like dirt? Or is that the scent of a cadaver...?\nHey, you keep your distance, I don't want you too close to me...\nWhat? That makes you sad?\nHmmm, maybe I'll allow it then...",
+                "Boo! ...How was that? Was it scary? Not very? You're no fun... Well, next time I'll be sure to make it much scarier..."
+            ],
+            "Idle": [
+                "I'm so bored... If only something entertaining would happen...\nAt this rate, I'll revert back into a lifeless corpse from sheer boredom... Just kidding, of course. Though I'm beginning to wish I wasn't..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "HasPowerCharge": 1.05,
+                "1EnemyPoisonedAlt": 1.1,
+                "EnemyTeamSleepingAlt": 1.1,
+                "AllEnemiesIsSleepingOrPoisoned": 1.2
+            },
+            "SkillUse": {
+                "Revenant Blade": {
+                    "BaseWeight": 1.1,
+                    "Source": {
+                        "AllEnemiesImposters": 0.5,
+                        "AllEnemiesAlwaysDodging": 0.25,
+                        "AllEnemiesNotProtectingDodging": 0.25
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsFreyaNewNotWarMode": 0.25
+                    }
+                },
+                "Netherworld Mist": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "1EnemyIsNotSleepingOrPoisoned": 250,
+                        "AllEnemiesIsSleeping": 0.01,
+                        "AllEnemiesPoisoned": 0.01,
+                        "AllEnemiesIsSleepingOrPoisoned": 0.01
+                    }
+                },
+                "Hypnotic Seal": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBoss": 500
+                    }
+                },
+                "Guard Devourer": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "1EnemyIsProtectorNotTokenAndUserIsEnraged": 750
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "NotProtecting": 0,
+                        "RarityLessThan3": 0.8,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsToken": 0.001,
+                        "IsProtecting": 2,
+                        "IsProtectedNotProtector": 0.001
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

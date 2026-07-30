@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1785194229,
+  "Time": 1785283183,
   "AnimationData": {
     "AnimationData": [
       {
@@ -48634,11 +48634,37 @@
         "altPostAttackDelay": 0,
         "altMoveBackDuration": 0,
         "doLargeKnockback": 0,
+        "conditionsNotMetWithPrefWeaponAttackName": "fxAbility1",
+        "conditionsNotMetWithoutPrefWeaponAttackName": "fxAbility1",
         "cameraShake": "Large",
         "cameraShakeDuration": 0.2,
         "endOfTurnDelay": 1.1,
         "fadeMonsterDelay": 0,
         "fadeMonsterDuration": 3
+      },
+      {
+        "config": "default",
+        "attack": "DoubleAttackALuBuDark",
+        "class": "AnimConfig",
+        "overrideAttackName": "LubuDarkAttack1"
+      },
+      {
+        "config": "default",
+        "attack": "EnemyBuffALuBuDark",
+        "class": "AnimConfig",
+        "overrideAttackName": "LubuDarkOfuda1"
+      },
+      {
+        "config": "default",
+        "attack": "RandomEnemyBuffALuBuDark",
+        "class": "AnimConfig",
+        "overrideAttackName": "LubuDarkHeal1"
+      },
+      {
+        "config": "default",
+        "attack": "SingleAttackALuBuDark",
+        "class": "AnimConfig",
+        "overrideAttackName": "LubuDarkSP"
       },
       {
         "config": "default",

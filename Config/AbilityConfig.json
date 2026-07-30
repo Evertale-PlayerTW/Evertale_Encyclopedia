@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1785141952,
+	"Time": 1785308486,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -47661,6 +47661,96 @@
 			"sourceEventType": "Finish",
 			"abilityEffect": "XiaoLiSP",
 			"useCondition": "IsCharged3"
+		},
+		"DoubleAttackALuBuDark":{
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["RemoveLuBuDarkDefeatBuff","HardIgnoreBlockDeath","IgnoreArmor","IgnoreSkin","DoNotWake"]
+			},{
+				"buffs":["PowerCharge"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"abilityEffect": "LubuDarkAttack1",
+			"flags": ["IgnoreStealth"],
+			"attackScalors": ["GoodWithPoisonEnemy","GoodWithSleepingEnemy","GoodWithAllSleepingOrPoisonedEnemies"],
+			"conditionedAbilityEffects": ["LubuDarkAttack1","LubuDarkAttack1","LubuDarkAttack1","LubuDarkAttack1"],
+			"recommendEffectWhenUsable": -2
+		},
+		"EnemyBuffALuBuDark":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["SleepForcedThorns"],
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"applyConditions": "NotPoisoned",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["MegaPoison"],
+				"applyToTargetType": "Enemy",
+				"skipAbilityEffect": true,
+				"applyConditions": "IsNotSleeping",
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs":["MaybeGrantSelfTurnLuBuDarkEBB","RemovePowerCharge"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["NoDamage","PoisonChance","SleepChance"],
+			"abilityEffect": "LubuDarkHeal1",
+			"useCondition": "HasPowerCharge"
+		},
+		"RandomEnemyBuffALuBuDark":{
+			"class": "AbilityConfig",
+			"targetingData": "RandomEnemy",
+			"components": ["ApplyBuff","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["LuBuDarkCooldown100","LuBuDarkPloying"],
+				"skipAbilityEffect": true,
+				"applyToTargetType": "Source"
+			},{
+				"buffs": ["LuBuDark3TurnsPloy"],
+				"applyConditions": "EnemyPloySucceeded",
+				"skipAbilityEffect": true,
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Enemy"
+			}],
+			"useCondition": "NotInstantCooldownNoPloyingAllyEnemyNotAlone",
+			"enemyEventType": "Finish",
+			"sourceEventType": "Hit",
+			"abilityEffect": "LubuDarkOfuda1",
+			"flags": ["NoDamage", "StealthWorthy"]
+		},
+		"SingleAttackALuBuDark":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath","IgnoreArmor","DoNotWake"],
+				"applyToTargetType": "Enemy"
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "MidEarth1",
+			"attackScalors": ["GoodVsProtector"],
+			"conditionedAbilityEffects": ["LubuDarkSP","LubuDarkSP"],
+			"useCondition": "NotLockedAndEnemyHasNonBurningProtector"
 		}
 	}
 }
