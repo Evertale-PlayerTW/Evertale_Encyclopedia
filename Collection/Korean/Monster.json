@@ -135323,7 +135323,7 @@
         "Hp_Base": 5005,
         "Speed": 603,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "지옥에서 돌아옴, 친구와의 재회를 위해.",
         "LeaderSkill": {
             "SkillTitle": "지속성 공격력 증가",
@@ -135665,5 +135665,374 @@
                 "RelationshipBuff": "공격력+2%"
             }
         }
+    },
+    "WhiteSnakeGirlDark01": {
+        "Name": "미즈치",
+        "Name2": "검은 심장의 백사",
+        "FullName": "미즈치 - 검은 심장의 백사",
+        "Profile": "아카메 미즈치는 음양국 4대 사부 중 두번째 최강자로 꼽혔다. 그 결과 그녀의 어깨는 끊임없이 막중한 책임감으로 짓눌려 있었다. 오니로부터 모두를 지켜야 했고, 소속 음양사들의 귀감이 되어야 했으며, 내궁의 명령에도 복종해야만 했으니…",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "카타나",
+        "forFilter_Element": "Death",
+        "Element": "암속성",
+        "Cost": 28,
+        "Atk_Base": 1315,
+        "Hp_Base": 4635,
+        "Speed": 556,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "보호는 끝났다, 이제 오직 파괴할 뿐!",
+        "LeaderSkill": {
+            "SkillTitle": "암속성 공격력 증가",
+            "SkillDescription": "아군 암속성 유닛 공격력 15% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "복합 분노",
+                "SkillDescription": "적 1기에 250% 데미지를 주고, 사용자가 전장에 진입한 이후 전장에 있는 소환되지 않은 유닛(아군 또는 적군)이 어떤 원인에 의해 패배하거나 희생될 때마다 250% 데미지 추가(소환되지 않은 유닛이 5기 이상 패배하거나 희생될 경우 총 데미지 최대 1500%). 적으로부터 기력을 최대 1 빼앗는다. 이 공격은 카운터 스탠스 상태 효과와 스킨 패시브 스킬의 효과를 무시한다.\n\n그런 다음 적중한 타겟의 화염(메가 회복 화염 포함)이 제거된다.\n\n이 스킬은 사용 후 잠기며, 사용자가 뱀의 송곳니를 사용할 때마다 잠금 해제된다.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "살인 선동",
+                "SkillDescription": "전장의 모든 아군을 사용자 공격력의 500%만큼 회복시키고, 원타임 즉사 면역과 슈퍼 스텔스를 부여한다.\n\n그런 다음 전장에 있는 동안 공격으로 1기 이상의 유닛을 물리친 다른 모든 아군에게 현재 TU를 감소시켜 즉시 다음 턴을 부여한다. 턴을 부여하는 액티브 스킬은 영향 받은 유닛이 턴을 가진 후까지 사용할 수 없다.\n\n전장에 있는 소환되지 않은 유닛(아군 또는 적군)이 어떤 원인에 의해 패배하거나 희생될 때마다 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.\n\n원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막은 다음 제거된다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다. 슈퍼 스텔스는 다른 상태 효과를 덮어쓴다. 슈퍼 스텔스 상태 유닛은 1기 이상 타겟에 데미지를 주는 적의 공격을 무시한다. 슈퍼 스텔스는 적용 후 적의 공격을 3회 무시하면 사라지며, 일반 스텔스를 제외한 다른 상태 효과로 덮어쓸 수 있다. 데미지는 슈퍼 스텔스를 제거하지 않는다.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "뱀의 송곳니",
+                "SkillDescription": "적 2기에 400% 데미지. 전장에 있는 동안 이 스킬을 2회 발동할 때마다 800% 데미지.\n\n그런 다음 적중된 모든 타겟의 원타임 포이즌 면역이 제거되고 200TU 동안 메가 포이즌이 부여된다. 메가 포이즌은 해당 유닛의 다른 상태 효과를 덮어쓴다. 메가 포이즌은 일반 포이즌 20배의 데미지를 주며 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다.\n\n사용자가 복합 분노를 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 10,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "검은 심장",
+                "SkillDescription": "이 유닛은 포이즌 상태 효과로 인한 데미지로 패배하지 않으며, 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛은 공격으로 인한 데미지가 50% 감소하며, 유닛에 가해지는 모든 스턴 효과의 지속 시간이 50TU 감소한다.\n\n이 유닛의 공격은 입힌 총 데미지의 100%만큼 회복하며, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n이 유닛이 공격으로 소환되지 않은 유닛에게 데미지를 입힐 때마다 즉시 다음 턴을 얻는다. 50TU 이내에 이 효과가 3회 발동되면, 50TU가 진행할 때까지 다시 발동되지 않는다. 이 효과는 동일한 유닛에게 다시 발동될 수 있다. 턴 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟하는 스턴)."
+            },
+            {
+                "SkillTitle": "뱀 진형",
+                "SkillDescription": "이 유닛은 슈퍼 스텔스와 원타임 즉사 면역을 가지고 전투에 진입한다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛이 턴을 얻을 때마다, 이 유닛의 액티브 스킬이 비활성화되지 않은 상태이면, 턴 종료까지 액티브 스킬이 비활성화되지 않는다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료까지 생존할 때마다, 정화되어 최대 HP의 50%만큼 회복한다.\n\n이 유닛 또는 다른 유닛(아군 또는 적군)이 증원군에서 전장으로 진입할 때마다, 20% 확률로 랜덤 적 1기에게 매복 반격을 부여한다. 이 확률은 각성당 20%씩 증가하며, 이 유닛이 각성 4회 보유시 100%까지.\n\n매복 반격을 가진 유닛이 턴을 진행하고 턴 종료 후까지 생존하면, 상대 팀의 랜덤 유닛 2기에게 현재 TU를 감소시켜 다음 턴을 부여한 다음 매복 반격은 제거된다. 이러한 TU 감소는 턴 오더를 조정하는 다른 효과의 전 또는 후에 발동할 수 있다. 매복 반격은 상태 효과가 아니다. 매복 반격은 중첩되지 않으며, 보스 유닛에게는 적용되지 않고, 정화될 수 없다. 유닛이 패배하거나 전장을 떠나면 매복 반격은 제거된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "검 헌터 Lv3",
+                "SkillDescription": "검 장착 유닛에 대한 공격력 10% 보너스."
+            },
+            {
+                "SkillTitle": "거대 액스 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 거대 액스 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "거대 엑스"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "나는 음양의 4대 고수 중 서열 2위, 아카메 미즈치다. \n음양사가 오니의 힘을 얻게 되다니, 참 아이러니하지… 헤헤. \n\n지금 기분이 정말 환상적이다… \n모든 것에서 벗어나 그냥… 죽이고 싶어.\n정말 <i>재미</i>있을 것 같구나!"
+            ],
+            "Login": [
+                "아직 갈 준비가 안 됐나? 글쎄... 10초 더 주지.\n 그때도 아직 준비가 안 되면, 그냥 너를 죽여 버려도 될까?"
+            ],
+            "Tap": [
+                "음양국 옛 동료들을 기다리고 있는 운명을 생각하면 마음이 아프군… 모두 오니에게 잡아먹힐 운명이니…\n헤헤, 정말 안타깝구나, 너어어어어무 가슴 아프다.",
+                "너는 책임감이 강한 사람으로 보이는구나… 그런데 그 모든 책임감에 숨막히지 않는지?\n나와 함께 오니가 되어 보는 게 어떻겠는가? 모든 걱정에서 벗어날 수 있을 것이다…",
+                "저 목소리가 들리는지...? 아니야? 그러니까 나만 들리는 것인가... \n하지만 시간 문제일 뿐. 곧 너도 엄마의 목소리를 들을 수 있을 것이다..."
+            ],
+            "Idle": [
+                "머리가 좀 멍하구나... 내가 잊고 있는 뭔가가 있는 느낌이다... 무언가가 나를 부르고 있는 듯한... \n헤헤, 하지만 깊이 생각할  필요 없다. 더 이상 아무것도 중요하지 않으니까..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "복합 분노": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "살인 선동": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "뱀의 송곳니": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "WhiteSnakeGirlDark02": {
+        "Name": "미즈치",
+        "Name2": "검은 심장의 백사",
+        "FullName": "미즈치 - 검은 심장의 백사",
+        "Profile": "그녀는 사람들을 사랑했고, 소속 음양국의 제자들을 사랑했다. 그들을 지키고자 하는 그녀의 마음은 지극히 진심이었다. 그러나 동시에, 깨닫지 못하는 사이에 누군가 속삭이기 시작했다.\n\n\"왜 항상 너만 그렇게 애써야 하는 거야?\"\n\n미즈치는 필사적으로 그 목소리를 잠재우려 노력했다.",
+        "Profile_Ascended": "오니 변신약으로 양심의 가책에서 벗어난 그녀 앞에 이제 아무 적도 나설 수 없다. 무의식적으로 억누르고 있던 마나의 비축량은 이제 무궁무진했다. 순수한 마법 실력만 놓고 보면 4대 사부 중 으뜸인 린 이누가미를 능가하기까지 했다.\n\n\"더 이상 아무것도 내 앞길을 가로막을 수 없다.\"\n\n그럼에도, 그녀의 미소에는 어딘가 슬픔이 깃들어 있었다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "카타나",
+        "forFilter_Element": "Death",
+        "Element": "암속성",
+        "Cost": 34,
+        "Atk_Base": 1506,
+        "Hp_Base": 6890,
+        "Speed": 556,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "암속성 공격력 증가",
+            "SkillDescription": "아군 암속성 유닛 공격력 15% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "복합 분노",
+                "SkillDescription": "적 1기에 250% 데미지를 주고, 사용자가 전장에 진입한 이후 전장에 있는 소환되지 않은 유닛(아군 또는 적군)이 어떤 원인에 의해 패배하거나 희생될 때마다 250% 데미지 추가(소환되지 않은 유닛이 5기 이상 패배하거나 희생될 경우 총 데미지 최대 1500%). 적으로부터 기력을 최대 1 빼앗는다. 이 공격은 카운터 스탠스 상태 효과와 스킨 패시브 스킬의 효과를 무시한다.\n\n그런 다음 적중한 타겟의 화염(메가 회복 화염 포함)이 제거된다.\n\n이 스킬은 사용 후 잠기며, 사용자가 뱀의 송곳니를 사용할 때마다 잠금 해제된다.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "살인 선동",
+                "SkillDescription": "전장의 모든 아군을 사용자 공격력의 500%만큼 회복시키고, 원타임 즉사 면역과 슈퍼 스텔스를 부여한다.\n\n그런 다음 전장에 있는 동안 공격으로 1기 이상의 유닛을 물리친 다른 모든 아군에게 현재 TU를 감소시켜 즉시 다음 턴을 부여한다. 턴을 부여하는 액티브 스킬은 영향 받은 유닛이 턴을 가진 후까지 사용할 수 없다.\n\n전장에 있는 소환되지 않은 유닛(아군 또는 적군)이 어떤 원인에 의해 패배하거나 희생될 때마다 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.\n\n원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막은 다음 제거된다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다. 슈퍼 스텔스는 다른 상태 효과를 덮어쓴다. 슈퍼 스텔스 상태 유닛은 1기 이상 타겟에 데미지를 주는 적의 공격을 무시한다. 슈퍼 스텔스는 적용 후 적의 공격을 3회 무시하면 사라지며, 일반 스텔스를 제외한 다른 상태 효과로 덮어쓸 수 있다. 데미지는 슈퍼 스텔스를 제거하지 않는다.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "뱀의 송곳니",
+                "SkillDescription": "적 2기에 400% 데미지. 전장에 있는 동안 이 스킬을 2회 발동할 때마다 800% 데미지.\n\n그런 다음 적중된 모든 타겟의 원타임 포이즌 면역이 제거되고 200TU 동안 메가 포이즌이 부여된다. 메가 포이즌은 해당 유닛의 다른 상태 효과를 덮어쓴다. 메가 포이즌은 일반 포이즌 20배의 데미지를 주며 일반 포이즌이나 슈퍼 포이즌으로 덮어쓸 수 없다.\n\n사용자가 복합 분노를 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "공포의 피날레",
+                "SkillDescription": "전장에 있는 보스나 신기루가 아닌 랜덤 적 1기를 즉시 물리친다. 이 효과는 사용자가 전장에 진입한 후 소환되지 않은 유닛(아군 또는 적군)이 어떤 원인에 의해 패배하거나 희생될 때마다 한 번씩 발동한다(총 최대 5회 발동). 이 모든 발동은 적의 증원군이 이 스킬로 패배한 유닛을 대체하기 전에 발생한다.\n\n이 효과는 복수 패시브 스킬, 부활 패시브 스킬, 타겟의 패배를 막는 모든 패시브 스킬 또는 액티브 스킬 효과를 무시하며, 가디언에 의해 전환될 수 없다. 사용자는 이 효과로 물리친 유닛 수만큼 공격으로 물리친 것으로 간주된다.\n\n사용자가 전장에 진입한 후 100TU 동안 잠긴다. 사용자가 전장에 진입한 이후 전장에 있는 소환되지 않은 적 유닛이 어떤 원인에 의 패배하거나 희생된 경우에만 사용할 수 있다. 전투당 1회 사용 가능.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "검은 심장",
+                "SkillDescription": "이 유닛은 포이즌 상태 효과로 인한 데미지로 패배하지 않으며, 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛은 공격으로 인한 데미지가 50% 감소하며, 유닛에 가해지는 모든 스턴 효과의 지속 시간이 50TU 감소한다.\n\n이 유닛의 공격은 입힌 총 데미지의 100%만큼 회복하며, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n이 유닛이 공격으로 소환되지 않은 유닛에게 데미지를 입힐 때마다 즉시 다음 턴을 얻는다. 50TU 이내에 이 효과가 3회 발동되면, 50TU가 진행할 때까지 다시 발동되지 않는다. 이 효과는 동일한 유닛에게 다시 발동될 수 있다. 턴 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟하는 스턴)."
+            },
+            {
+                "SkillTitle": "뱀 진형",
+                "SkillDescription": "이 유닛은 슈퍼 스텔스와 원타임 즉사 면역을 가지고 전투에 진입한다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛이 턴을 얻을 때마다, 이 유닛의 액티브 스킬이 비활성화되지 않은 상태이면, 턴 종료까지 액티브 스킬이 비활성화되지 않는다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료까지 생존할 때마다, 정화되어 최대 HP의 50%만큼 회복한다.\n\n이 유닛 또는 다른 유닛(아군 또는 적군)이 증원군에서 전장으로 진입할 때마다, 20% 확률로 랜덤 적 1기에게 매복 반격을 부여한다. 이 확률은 각성당 20%씩 증가하며, 이 유닛이 각성 4회 보유시 100%까지.\n\n매복 반격을 가진 유닛이 턴을 진행하고 턴 종료 후까지 생존하면, 상대 팀의 랜덤 유닛 2기에게 현재 TU를 감소시켜 다음 턴을 부여한 다음 매복 반격은 제거된다. 이러한 TU 감소는 턴 오더를 조정하는 다른 효과의 전 또는 후에 발동할 수 있다. 매복 반격은 상태 효과가 아니다. 매복 반격은 중첩되지 않으며, 보스 유닛에게는 적용되지 않고, 정화될 수 없다. 유닛이 패배하거나 전장을 떠나면 매복 반격은 제거된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "검 헌터 Lv3",
+                "SkillDescription": "검 장착 유닛에 대한 공격력 10% 보너스."
+            },
+            {
+                "SkillTitle": "거대 액스 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 거대 액스 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "거대 엑스"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "나는 음양의 4대 고수 중 서열 2위, 아카메 미즈치다. \n음양사가 오니의 힘을 얻게 되다니, 참 아이러니하지… 헤헤. \n\n지금 기분이 정말 환상적이다… \n모든 것에서 벗어나 그냥… 죽이고 싶어.\n정말 <i>재미</i>있을 것 같구나!"
+            ],
+            "Login": [
+                "아직 갈 준비가 안 됐나? 글쎄... 10초 더 주지.\n 그때도 아직 준비가 안 되면, 그냥 너를 죽여 버려도 될까?"
+            ],
+            "Tap": [
+                "음양국 옛 동료들을 기다리고 있는 운명을 생각하면 마음이 아프군… 모두 오니에게 잡아먹힐 운명이니…\n헤헤, 정말 안타깝구나, 너어어어어무 가슴 아프다.",
+                "너는 책임감이 강한 사람으로 보이는구나… 그런데 그 모든 책임감에 숨막히지 않는지?\n나와 함께 오니가 되어 보는 게 어떻겠는가? 모든 걱정에서 벗어날 수 있을 것이다…",
+                "저 목소리가 들리는지...? 아니야? 그러니까 나만 들리는 것인가... \n하지만 시간 문제일 뿐. 곧 너도 엄마의 목소리를 들을 수 있을 것이다..."
+            ],
+            "Idle": [
+                "머리가 좀 멍하구나... 내가 잊고 있는 뭔가가 있는 느낌이다... 무언가가 나를 부르고 있는 듯한... \n헤헤, 하지만 깊이 생각할  필요 없다. 더 이상 아무것도 중요하지 않으니까..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "복합 분노": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "살인 선동": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "뱀의 송곳니": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                },
+                "공포의 피날레": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

@@ -17349,7 +17349,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "提升战力",
-                "SkillDescription": "若有至少2个队友从进场后通过攻击击败过至少1个单位，此单位会造成7%的额外伤害，而所有技能的TU会减少6%。"
+                "SkillDescription": "若至少2个己方单位进场后通过攻击击败过至少1个单位，此单位会造成7%的额外伤害，而所有技能的TU会减少6%。"
             }
         ]
     },
@@ -17372,7 +17372,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "提升战力",
-                "SkillDescription": "若有至少2个队友从进场后通过攻击击败过至少1个单位，此单位会造成10%的额外伤害，而所有技能的TU会减少8%。"
+                "SkillDescription": "若至少2个己方单位进场后通过攻击击败过至少1个单位，此单位会造成10%的额外伤害，而所有技能的TU会减少8%。"
             }
         ],
         "ExtraEvoInitialCount": 1
@@ -17396,7 +17396,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "提升战力",
-                "SkillDescription": "若有至少2个队友从进场后通过攻击击败过至少1个单位，此单位会造成15%的额外伤害，而所有技能的TU会减少10%。"
+                "SkillDescription": "若至少2个己方单位进场后通过攻击击败过至少1个单位，此单位会造成15%的额外伤害，而所有技能的TU会减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2
@@ -19972,7 +19972,7 @@
         "Hp_Base": 2880,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "提升攻击力",
@@ -19995,7 +19995,7 @@
         "Hp_Base": 3505,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "提升攻击力",
@@ -20019,11 +20019,82 @@
         "Hp_Base": 3765,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "提升攻击力",
                 "SkillDescription": "若场上存在被洗脑的敌人，则造成25%的额外伤害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "YingYangKatana01": {
+        "Name": "天阴刀·祸月",
+        "FullName": "天阴刀·祸月",
+        "Profile": "将阴与阳彻底逆转，甚至能令守护的祈祷堕为灾祸的妖刀。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Katana",
+        "WeaponType": "武士刀",
+        "Cost": 11,
+        "Atk_Base": 525,
+        "Hp_Base": 2750,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若攻击目标有催眠类或“噬毒”类的主动技能，则造成7%的额外伤害。"
+            }
+        ]
+    },
+    "YingYangKatana02": {
+        "Name": "天阴刀·祸月",
+        "FullName": "天阴刀·祸月",
+        "Profile": "将阴与阳彻底逆转，甚至能令守护的祈祷堕为灾祸的妖刀。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Katana",
+        "WeaponType": "武士刀",
+        "Cost": 17,
+        "Atk_Base": 651,
+        "Hp_Base": 3245,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若攻击目标有催眠类或“噬毒”类的主动技能，则造成10%的额外伤害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "YingYangKatana03": {
+        "Name": "天阴刀·祸月",
+        "FullName": "天阴刀·祸月",
+        "Profile": "将阴与阳彻底逆转，甚至能令守护的祈祷堕为灾祸的妖刀。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Katana",
+        "WeaponType": "武士刀",
+        "Cost": 23,
+        "Atk_Base": 724,
+        "Hp_Base": 3380,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若攻击目标有催眠类或“噬毒”类的主动技能，则造成15%的额外伤害。"
             }
         ],
         "ExtraEvoInitialCount": 2

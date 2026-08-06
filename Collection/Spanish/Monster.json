@@ -135323,7 +135323,7 @@
         "Hp_Base": 5005,
         "Speed": 603,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Regresa del infierno, para reunirse con su amiga.",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Tierra",
@@ -135665,5 +135665,374 @@
                 "RelationshipBuff": "ATQ+2%"
             }
         }
+    },
+    "WhiteSnakeGirlDark01": {
+        "Name": "Mizuchi",
+        "Name2": "Serpiente alba de corazón negro",
+        "FullName": "Mizuchi - Serpiente alba de corazón negro",
+        "Profile": "Akame Mizuchi ocupaba el segundo puesto entre las Cuatro Maestras de la Oficina Onmyo. Como resultado, estaba constantemente cargada de responsabilidades. Tenía que proteger a todos de los oni, servir de modelo para los onmyoji de su oficina y obedecer las órdenes del Palacio Interior...",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 28,
+        "Atk_Base": 1315,
+        "Hp_Base": 4635,
+        "Speed": 556,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡Ya no protejo, ahora solamente destruyo!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Oscuro",
+            "SkillDescription": "Las unidades Oscuras aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Furia Compleja",
+                "SkillDescription": "250% de daño a 1 enemigo, más 250% por cada vez que una unidad no invocada (aliada o enemiga) en el campo de batalla haya sido derrotada o sacrificada por cualquier causa desde que el usuario entró en el campo de batalla (máximo 1500% de daño total tras la derrota o el sacrificio de 5 o más unidades no invocadas). Roba hasta 1 Espíritu de los enemigos. Este ataque ignora el efecto de estado Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nDespués se elimina la quemadura del objetivo alcanzado (incluyendo Mega Quemado Sanador).\n\nEsta habilidad se bloquea tras su uso y se desbloquea cada vez que el usuario usa Colmillo Serpiente.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Incita Sed de Sangre",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla un 500% del ataque del usuario, les otorga a cada uno un Guarda Muerte Instantánea y Súper Sigilo.\n\nA continuación, otorga inmediatamente a todos los demás aliados que hayan derrotado a 1 o más unidades con ataques en el campo de batalla los siguientes turnos, reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser utilizadas por las unidades afectadas hasta que hayan tenido su turno.\n\nSe desbloquea cada vez que una unidad no invocada (aliada o enemiga) en el campo de batalla es derrotada o sacrificada por cualquier causa. Esta habilidad se bloquea de nuevo tras cada uso o si el usuario abandona el campo de batalla.\n\nUn Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una sola vez, tras lo cual se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. El Súper Sigilo anula otros efectos de estado. Las unidades con Súper Sigilo ignoran los ataques enemigos que dañarían a más de un objetivo. Super Sigilo se eliminará tras ignorar 3 ataques enemigos desde su aplicación, y puede ser sobrescrito por otros efectos de estado, excepto el Sigilo normal. El daño no elimina Super Sigilo.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Colmillo Serpiente",
+                "SkillDescription": "400% de daño a 2 enemigos. 800% de daño cada segunda vez que se activa esta habilidad en el campo de batalla.\n\nDespués, a todos los objetivos alcanzados se les eliminan los Guarda Veneno y se les aplica Mega Veneno por 200TU. Mega Veneno sobrescribirá otros efectos de estado en esas unidades. Mega Veneno inflige 20 veces el daño del veneno normal y no puede ser sobrescrito por Veneno normal ni por Súper Veneno.\n\nSe desbloquea cada vez que el usuario usa Furia Compleja, y se bloquea de nuevo tras cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 10,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Corazón Negro",
+                "SkillDescription": "Esta unidad no puede ser derrotada por el daño de los efectos de estado de Veneno y no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad tiene una reducción de daño del 50% contra ataques y reduce la cantidad de cualquier efecto de aturdimiento contra ella en 50TU.\n\nLos ataques de esta unidad la curan un 100% del daño total infligido, ignoran los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nCada vez que esta unidad daña a cualquier número de unidades no invocadas con un ataque, obtiene inmediatamente el siguiente turno. Si este efecto se activa 3 veces en 50TU, no podrá activarse de nuevo hasta que transcurran 50TU. Este efecto puede activarse de nuevo contra la misma unidad. Los efectos que influyen en el orden de los TU pueden interrumpir el turno adicional (por ejemplo, Aturdir dirigidos al objetivo con menor TU)."
+            },
+            {
+                "SkillTitle": "Formación Serpiente",
+                "SkillDescription": "Esta unidad entra en batalla con Super Sigilo y un Guarda Muerte Instantánea.\n\nSi esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado teniendo más de 1 HP, sobrevive con 1 HP.\n\nSiempre que esta unidad tenga el turno, si sus Habilidades Activas no están desactivadas, no se pueden desactivar hasta el final de su turno.\n\nCada vez que esta unidad reciba daño de un ataque y sobreviva hasta después del final del turno, se purificará y se curará un 50% de sus HP máximos.\n\nEsta unidad tiene un 20% de probabilidad de otorgar a un enemigo aleatorio un Contra Emboscada cada vez que esta unidad u otra unidad (aliada o enemiga) entre al campo de batalla desde refuerzos. Esta probabilidad aumenta un 20% por Despertar, hasta un 100% si esta unidad tiene 4 Despertares.\n\nCuando una unidad con Contra Emboscada toma un turno y sobrevive hasta después del final del turno, 2 unidades aleatorias de su equipo contrario recibirán los siguientes turnos reduciendo sus TU actuales, y luego se eliminará el Contra Emboscada. Estas reducciones de TU pueden activarse antes o después de otros efectos que ajusten el orden de los turnos. Los Contra Emboscada no son un efecto de estado. Los Contra Emboscada no se acumulan, no se aplican a unidades de jefe y no se pueden purificar. Un Contra Emboscada se elimina de una unidad que es derrotada o abandona el campo de batalla."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Cazador Espada Niv3",
+                "SkillDescription": "10% de bonus en los ataques contra unidades equipadas con Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Hacha Grande",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas Grandes además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "G. Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Soy Akame Mizuchi, la segunda en el ranking de las Cuatro Maestras del Onmyo.\nQué ironía que un onmyoji adquiera el poder de un oni... jeje.\n\nMe siento genial ahora...\nQuiero dejarlo todo atrás y simplemente... matar.\n¡Parece que sería muy <i>divertido</i>!"
+            ],
+            "Login": [
+                "¿Aún no estás listo? Bueno... te daré 10 segundos más.\nSi después de eso todavía no estás listo, ¿puedo matarte?"
+            ],
+            "Tap": [
+                "Me duele pensar en el destino que les espera a mis antiguos compañeros de la Oficina Onmyo... Todos están condenados a ser devorados por oni...\nJeje, qué pena, me rompe taaanto el corazón.",
+                "Pareces una persona tan responsable... Pero ¿no te asfixia tanta responsabilidad?\n¿Por qué no te unes a mí y te conviertes en oni? Te liberarás de todas tus preocupaciones...",
+                "¿Puedes oír esa voz...? ¿No? Entonces sólo yo puedo oírla...\nPero es sólo cuestión de tiempo. Pronto, tú también podrás oír la voz de Mamá..."
+            ],
+            "Idle": [
+                "Siento la cabeza un poco confusa... Siento que olvido algo... algo que intenta llamarme...\nJe je, pero no hay necesidad de darle vueltas. Ya nada importa..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "Furia Compleja": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Incita Sed de Sangre": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "Colmillo Serpiente": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "WhiteSnakeGirlDark02": {
+        "Name": "Mizuchi",
+        "Name2": "Serpiente alba de corazón negro",
+        "FullName": "Mizuchi - Serpiente alba de corazón negro",
+        "Profile": "Amaba a la gente y a los discípulos de su oficina. Su deseo de protegerlos era completamente sincero. Pero al mismo tiempo, sin siquiera darse cuenta, una voz comenzó a susurrarle:\n\n\"¿Por qué siempre eres la única que tiene que esforzarse tanto?\"\n\nMizuchi intentó desesperadamente silenciar esa voz.",
+        "Profile_Ascended": "Liberada de su conciencia por la droga de transformación de los oni, ahora ningún enemigo podía interponerse en su camino. Sus reservas de maná, que había retenido inconscientemente, eran ahora inagotables. En términos de poder mágico puro, incluso había superado a Rin Inugami, la más destacada de los Cuatro Maestros.\n\n\"Ya nada se puede interponer en mi camino.\"\n\n. Y sin embargo, había algo de tristeza en su sonrisa.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscuridad",
+        "Cost": 34,
+        "Atk_Base": 1506,
+        "Hp_Base": 6890,
+        "Speed": 556,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube Ataque Oscuro",
+            "SkillDescription": "Las unidades Oscuras aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Furia Compleja",
+                "SkillDescription": "250% de daño a 1 enemigo, más 250% por cada vez que una unidad no invocada (aliada o enemiga) en el campo de batalla haya sido derrotada o sacrificada por cualquier causa desde que el usuario entró en el campo de batalla (máximo 1500% de daño total tras la derrota o el sacrificio de 5 o más unidades no invocadas). Roba hasta 1 Espíritu de los enemigos. Este ataque ignora el efecto de estado Contraofensiva y los efectos de las habilidades pasivas de Piel.\n\nDespués se elimina la quemadura del objetivo alcanzado (incluyendo Mega Quemado Sanador).\n\nEsta habilidad se bloquea tras su uso y se desbloquea cada vez que el usuario usa Colmillo Serpiente.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Incita Sed de Sangre",
+                "SkillDescription": "Cura a todos los aliados en el campo de batalla un 500% del ataque del usuario, les otorga a cada uno un Guarda Muerte Instantánea y Súper Sigilo.\n\nA continuación, otorga inmediatamente a todos los demás aliados que hayan derrotado a 1 o más unidades con ataques en el campo de batalla los siguientes turnos, reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser utilizadas por las unidades afectadas hasta que hayan tenido su turno.\n\nSe desbloquea cada vez que una unidad no invocada (aliada o enemiga) en el campo de batalla es derrotada o sacrificada por cualquier causa. Esta habilidad se bloquea de nuevo tras cada uso o si el usuario abandona el campo de batalla.\n\nUn Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una sola vez, tras lo cual se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. El Súper Sigilo anula otros efectos de estado. Las unidades con Súper Sigilo ignoran los ataques enemigos que dañarían a más de un objetivo. Super Sigilo se eliminará tras ignorar 3 ataques enemigos desde su aplicación, y puede ser sobrescrito por otros efectos de estado, excepto el Sigilo normal. El daño no elimina Super Sigilo.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Colmillo Serpiente",
+                "SkillDescription": "400% de daño a 2 enemigos. 800% de daño cada segunda vez que se activa esta habilidad en el campo de batalla.\n\nDespués, a todos los objetivos alcanzados se les eliminan los Guarda Veneno y se les aplica Mega Veneno por 200TU. Mega Veneno sobrescribirá otros efectos de estado en esas unidades. Mega Veneno inflige 20 veces el daño del veneno normal y no puede ser sobrescrito por Veneno normal ni por Súper Veneno.\n\nSe desbloquea cada vez que el usuario usa Furia Compleja, y se bloquea de nuevo tras cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Final Aterrador",
+                "SkillDescription": "Derrota inmediatamente a un enemigo aleatorio que no sea jefe ni Efímero en el campo de batalla. Este efecto se activa una vez por cada vez que una unidad no invocada (aliada o enemiga) en el campo de batalla haya sido derrotada o sacrificada por cualquier causa desde que el usuario entró en el campo de batalla (máximo de 5 activaciones en total). Todas estas activaciones ocurrirán antes de que los refuerzos enemigos puedan reemplazar a las unidades derrotadas por esta habilidad.\n\nEstos efectos ignoran las habilidades pasivas de Venganza, las habilidades pasivas de Resurrección, cualquier habilidad pasiva o efecto de habilidades activas que impida que sus objetivos sean derrotados, y no pueden ser redirigidos por los Guardianes. Se considera que el usuario ha derrotado con ataques tantas unidades como sean derrotadas por cualquiera de estos efectos.\n\nSe bloquea durante 100TU después de que el usuario haya entrado en el campo de batalla. Sólo se puede usar si una unidad enemiga no invocada en el campo de batalla ha sido derrotada o sacrificada por cualquier causa desde que el usuario entró en el campo de batalla. Se puede usar una vez por batalla.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Corazón Negro",
+                "SkillDescription": "Esta unidad no puede ser derrotada por el daño de los efectos de estado de Veneno y no puede ser enviada a los refuerzos desde el campo de batalla.\n\nEsta unidad tiene una reducción de daño del 50% contra ataques y reduce la cantidad de cualquier efecto de aturdimiento contra ella en 50TU.\n\nLos ataques de esta unidad la curan un 100% del daño total infligido, ignoran los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nCada vez que esta unidad daña a cualquier número de unidades no invocadas con un ataque, obtiene inmediatamente el siguiente turno. Si este efecto se activa 3 veces en 50TU, no podrá activarse de nuevo hasta que transcurran 50TU. Este efecto puede activarse de nuevo contra la misma unidad. Los efectos que influyen en el orden de los TU pueden interrumpir el turno adicional (por ejemplo, Aturdir dirigidos al objetivo con menor TU)."
+            },
+            {
+                "SkillTitle": "Formación Serpiente",
+                "SkillDescription": "Esta unidad entra en batalla con Super Sigilo y un Guarda Muerte Instantánea.\n\nSi esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado teniendo más de 1 HP, sobrevive con 1 HP.\n\nSiempre que esta unidad tenga el turno, si sus Habilidades Activas no están desactivadas, no se pueden desactivar hasta el final de su turno.\n\nCada vez que esta unidad reciba daño de un ataque y sobreviva hasta después del final del turno, se purificará y se curará un 50% de sus HP máximos.\n\nEsta unidad tiene un 20% de probabilidad de otorgar a un enemigo aleatorio un Contra Emboscada cada vez que esta unidad u otra unidad (aliada o enemiga) entre al campo de batalla desde refuerzos. Esta probabilidad aumenta un 20% por Despertar, hasta un 100% si esta unidad tiene 4 Despertares.\n\nCuando una unidad con Contra Emboscada toma un turno y sobrevive hasta después del final del turno, 2 unidades aleatorias de su equipo contrario recibirán los siguientes turnos reduciendo sus TU actuales, y luego se eliminará el Contra Emboscada. Estas reducciones de TU pueden activarse antes o después de otros efectos que ajusten el orden de los turnos. Los Contra Emboscada no son un efecto de estado. Los Contra Emboscada no se acumulan, no se aplican a unidades de jefe y no se pueden purificar. Un Contra Emboscada se elimina de una unidad que es derrotada o abandona el campo de batalla."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Cazador Espada Niv3",
+                "SkillDescription": "10% de bonus en los ataques contra unidades equipadas con Espadas."
+            },
+            {
+                "SkillTitle": "Dominio Hacha Grande",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas Grandes además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "G. Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Soy Akame Mizuchi, la segunda en el ranking de las Cuatro Maestras del Onmyo.\nQué ironía que un onmyoji adquiera el poder de un oni... jeje.\n\nMe siento genial ahora...\nQuiero dejarlo todo atrás y simplemente... matar.\n¡Parece que sería muy <i>divertido</i>!"
+            ],
+            "Login": [
+                "¿Aún no estás listo? Bueno... te daré 10 segundos más.\nSi después de eso todavía no estás listo, ¿puedo matarte?"
+            ],
+            "Tap": [
+                "Me duele pensar en el destino que les espera a mis antiguos compañeros de la Oficina Onmyo... Todos están condenados a ser devorados por oni...\nJeje, qué pena, me rompe taaanto el corazón.",
+                "Pareces una persona tan responsable... Pero ¿no te asfixia tanta responsabilidad?\n¿Por qué no te unes a mí y te conviertes en oni? Te liberarás de todas tus preocupaciones...",
+                "¿Puedes oír esa voz...? ¿No? Entonces sólo yo puedo oírla...\nPero es sólo cuestión de tiempo. Pronto, tú también podrás oír la voz de Mamá..."
+            ],
+            "Idle": [
+                "Siento la cabeza un poco confusa... Siento que olvido algo... algo que intenta llamarme...\nJe je, pero no hay necesidad de darle vueltas. Ya nada importa..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "Furia Compleja": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Incita Sed de Sangre": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "Colmillo Serpiente": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                },
+                "Final Aterrador": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

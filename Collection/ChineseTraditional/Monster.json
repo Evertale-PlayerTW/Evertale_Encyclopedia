@@ -135323,7 +135323,7 @@
         "Hp_Base": 5005,
         "Speed": 603,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "她從地獄歸來\n只為與唯一的摯友重逢",
         "LeaderSkill": {
             "SkillTitle": "地屬性猛攻",
@@ -135665,5 +135665,374 @@
                 "RelationshipBuff": "攻擊力+2%"
             }
         }
+    },
+    "WhiteSnakeGirlDark01": {
+        "Name": "美都知",
+        "Name2": "暗之白蛇",
+        "FullName": "美都知 - 暗之白蛇",
+        "Profile": "位列宮廷陰陽師四天王次席的朱目美都知，肩上始終背負著沉重的壓力。她必須保護大家免受鬼族侵害，必須成為寮生們的榜樣，也不能違背大內裡的命令…",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "武士刀",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 28,
+        "Atk_Base": 1315,
+        "Hp_Base": 4635,
+        "Speed": 556,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "再也不會守護任何人了\n唯有毀滅",
+        "LeaderSkill": {
+            "SkillTitle": "闇屬性猛攻",
+            "SkillDescription": "所有闇屬性隊友的攻擊力會增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "五行大蛇",
+                "SkillDescription": "對1個敵人造成250%的傷害，移除目標的任何燃燒狀態並抽取敵方1點靈氣，此單位進場後場上每有1個非召喚物單位被擊敗或被犧牲，傷害提升250%（至多提升至1500%）。此技能無視目標的反擊態勢狀態效果及反彈被動技能。每次使用後必須先用「紫刃」技能後才能再使用。",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "形代放流",
+                "SkillDescription": "所有己方單位回復相當於使用者攻擊力500%的生命值並獲得速敗抵抗與匿蹤（3次）狀態，且使己方場上所有入場後透過攻擊擊敗過至少1個敵人的其他單位TU歸零，使其順次獲得下一回合。在受此技能影響後直到這些單位的下一個回合結束後無法使用給予其他隊友回合的主動技能。\n每當場上1個非召喚物單位被擊敗或被犧牲後才可使用。離場或使用一次後需要再度滿足發動條件才能第二次發動。\n速敗抵抗會防止一次敵方非BOSS單位無傷害立即擊敗類效果對該單位的生效，之後速敗抵抗會被移除。速敗抵抗效果不會被無視，次數無法疊加。匿蹤（3次）會覆蓋身上的其他狀態效果。處於匿蹤（3次）狀態的單位無視於敵方此後三次的多體攻擊。即使處於匿蹤（3次）狀態的單位受到傷害此效果也不會被移除。",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "紫刃",
+                "SkillDescription": "對2個敵人造成400%的傷害，此單位每次進場後第偶數次使用此技能時傷害上升為800%。移除所有目標的中毒抵抗，並使其陷入持續200TU的急性劇毒狀態。急性劇毒所造成的傷害是中毒的20倍，不會被其他中毒或劇毒狀態覆蓋且會覆蓋對象身上的其他狀態效果。每當使用者使用「五行大蛇」技能後才能發動。離場或使用一次後需要再度滿足發動條件才能第二次發動。",
+                "TU": 10,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "暗之白蛇",
+                "SkillDescription": "此單位無法因中毒傷害而被擊敗。此單位不能從場上回到援軍。此單位受到敵方攻擊的傷害減少50%。此單位受到的眩暈效果減少50TU。\n此單位回復所造成傷害100%的生命值。此單位的攻擊無視目標的減傷效果與非BOSS目標防止被擊敗的效果或被動技能。\n每當此單位透過攻擊對非召喚物單位造成傷害後此單位TU歸零立即獲得一個回合。若此效果在50TU內觸發達到3次，則需要過50TU後才能再次觸發。此效果在同一TU內對相同目標可多次觸發。一些影響TU的技能效果（如眩暈最低TU單位等）可能會改變獲得回合的時機。"
+            },
+            {
+                "SkillTitle": "破戒陰陽",
+                "SkillDescription": "此單位進場時獲得速敗抵抗與匿蹤（3次）狀態。若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。\n此單位的回合開始時，若其主動技能沒有被封鎖，則直到該回合結束此單位的主動技能不會被封鎖。每當此單位受到攻擊傷害並在該回合結束時仍然存活，此單位淨化自身並回復最大生命值的50％。\n每當包括此單位在內的任意單位從援軍隊伍進場時，此單位有20%機率使隨機1個敵方單位獲得背叛標記。此單位每覺醒一次額外提高20%此效果觸發的機率。每當有被背叛標記的單位獲得回合並在該回合結束時仍然存活，移除背叛標記並使隨機2個該單位的敵方單位TU歸零順次獲得下一回合。一些影響TU的技能效果可能會改變此效果發動的時機。背叛標記不是狀態效果，無法被淨化。有背叛標記的單位離場時會移除背叛標記。背叛標記對BOSS類單位無效且無法疊加。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此單位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻擊力Lv3",
+                "SkillDescription": "此單位的攻擊力增加300。"
+            },
+            {
+                "SkillTitle": "單手劍剋星Lv3",
+                "SkillDescription": "若攻擊目標所裝備的武器是單手劍類，則造成10%的額外傷害。"
+            },
+            {
+                "SkillTitle": "雙手斧大師",
+                "SkillDescription": "若此單位裝備雙手斧類型武器，武器技能會啟用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "雙手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "陰陽師四天王序列第二位，朱目美都知。\n……陰陽師竟然獲得了鬼的力量……\n還真是諷刺呢。呵呵……\n\n現在的感覺真是好極了，太好了……\n我好想拋下一切，去殺人。\n因為，那一定很愉悅，不是嗎？"
+            ],
+            "Login": [
+                "哎呀，你還沒準備好嗎？\n嗯－－那我就等你十秒。\n要是十秒後還沒準備好，我可以殺了你嗎？"
+            ],
+            "Tap": [
+                "陰陽寮的大家……是啊，我真的很心痛。\n竟然會被鬼活活吃掉……呵呵，真是－－令人無比心酸呢。",
+                "你看起來責任感很強呢。不過，也活得很壓抑……\n對了，不如變成鬼吧。那樣的話，就什麼煩惱都沒有了…",
+                "聽得見嗎，這個聲音……？\n果然，只有我能聽見。\n不過，很快你也會聽見了。\n媽媽的聲音。"
+            ],
+            "Idle": [
+                "總覺得，腦袋昏昏沉沉的……好像忘了什麼，\n又好像有什麼人在呼喚我……呵呵，無所謂了。無論這個那個的…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "五行大蛇": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "形代放流": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "紫刃": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "WhiteSnakeGirlDark02": {
+        "Name": "美都知",
+        "Name2": "暗之白蛇",
+        "FullName": "美都知 - 暗之白蛇",
+        "Profile": "她深愛著百姓，也深愛著寮生們。想要守護他們的心意，從來就不是假的。但同時，總有一個聲音在她毫無察覺時，於耳畔輕輕低語。「為什麼……總是只有你非得這麼拼命不可呢？」美都知始終拼命壓抑著那個聲音。",
+        "Profile_Ascended": "鬼化之藥讓她從沉重的負擔中獲得了解脫，自此，再也沒有任何敵人能夠阻擋她。她那原本一直在無意識中壓抑著的魔力，如今變得取之不盡。若論純粹的魔力，甚至連陰陽師四天王之首——戌神凜都不及她。「已經沒有任何東西……能夠阻擋我了。」\n然而，她臉上的笑容，卻隱隱透著幾分悲傷。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "武士刀",
+        "forFilter_Element": "Death",
+        "Element": "闇",
+        "Cost": 34,
+        "Atk_Base": 1506,
+        "Hp_Base": 6890,
+        "Speed": 556,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "闇屬性猛攻",
+            "SkillDescription": "所有闇屬性隊友的攻擊力會增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "五行大蛇",
+                "SkillDescription": "對1個敵人造成250%的傷害，移除目標的任何燃燒狀態並抽取敵方1點靈氣，此單位進場後場上每有1個非召喚物單位被擊敗或被犧牲，傷害提升250%（至多提升至1500%）。此技能無視目標的反擊態勢狀態效果及反彈被動技能。每次使用後必須先用「紫刃」技能後才能再使用。",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "形代放流",
+                "SkillDescription": "所有己方單位回復相當於使用者攻擊力500%的生命值並獲得速敗抵抗與匿蹤（3次）狀態，且使己方場上所有入場後透過攻擊擊敗過至少1個敵人的其他單位TU歸零，使其順次獲得下一回合。在受此技能影響後直到這些單位的下一個回合結束後無法使用給予其他隊友回合的主動技能。\n每當場上1個非召喚物單位被擊敗或被犧牲後才可使用。離場或使用一次後需要再度滿足發動條件才能第二次發動。\n速敗抵抗會防止一次敵方非BOSS單位無傷害立即擊敗類效果對該單位的生效，之後速敗抵抗會被移除。速敗抵抗效果不會被無視，次數無法疊加。匿蹤（3次）會覆蓋身上的其他狀態效果。處於匿蹤（3次）狀態的單位無視於敵方此後三次的多體攻擊。即使處於匿蹤（3次）狀態的單位受到傷害此效果也不會被移除。",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "紫刃",
+                "SkillDescription": "對2個敵人造成400%的傷害，此單位每次進場後第偶數次使用此技能時傷害上升為800%。移除所有目標的中毒抵抗，並使其陷入持續200TU的急性劇毒狀態。急性劇毒所造成的傷害是中毒的20倍，不會被其他中毒或劇毒狀態覆蓋且會覆蓋對象身上的其他狀態效果。每當使用者使用「五行大蛇」技能後才能發動。離場或使用一次後需要再度滿足發動條件才能第二次發動。",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "彼岸花",
+                "SkillDescription": "使用者在場期間場上每有1個非召喚物單位被擊敗或被犧牲，立即擊敗場上隨機1個非BOSS非幻影敵方單位。此效果至多觸發5次，且會在援軍進場前觸發。此技能無視「守護者」類的效果與防止目標被擊敗的效果或被動技能，且不會觸發目標的詛咒與祝福或復活類被動技能。使用者被視為透過攻擊擊敗目標。\n使用者進場至少100TU後才可使用。使用者在場期間場上1個非召喚物敵方單位被擊敗或被犧牲後才可使用。此技能在一場戰鬥中只能使用一次。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "暗之白蛇",
+                "SkillDescription": "此單位無法因中毒傷害而被擊敗。此單位不能從場上回到援軍。此單位受到敵方攻擊的傷害減少50%。此單位受到的眩暈效果減少50TU。\n此單位回復所造成傷害100%的生命值。此單位的攻擊無視目標的減傷效果與非BOSS目標防止被擊敗的效果或被動技能。\n每當此單位透過攻擊對非召喚物單位造成傷害後此單位TU歸零立即獲得一個回合。若此效果在50TU內觸發達到3次，則需要過50TU後才能再次觸發。此效果在同一TU內對相同目標可多次觸發。一些影響TU的技能效果（如眩暈最低TU單位等）可能會改變獲得回合的時機。"
+            },
+            {
+                "SkillTitle": "破戒陰陽",
+                "SkillDescription": "此單位進場時獲得速敗抵抗與匿蹤（3次）狀態。若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。\n此單位的回合開始時，若其主動技能沒有被封鎖，則直到該回合結束此單位的主動技能不會被封鎖。每當此單位受到攻擊傷害並在該回合結束時仍然存活，此單位淨化自身並回復最大生命值的50％。\n每當包括此單位在內的任意單位從援軍隊伍進場時，此單位有20%機率使隨機1個敵方單位獲得背叛標記。此單位每覺醒一次額外提高20%此效果觸發的機率。每當有被背叛標記的單位獲得回合並在該回合結束時仍然存活，移除背叛標記並使隨機2個該單位的敵方單位TU歸零順次獲得下一回合。一些影響TU的技能效果可能會改變此效果發動的時機。背叛標記不是狀態效果，無法被淨化。有背叛標記的單位離場時會移除背叛標記。背叛標記對BOSS類單位無效且無法疊加。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此單位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "提升攻擊力Lv3",
+                "SkillDescription": "此單位的攻擊力增加300。"
+            },
+            {
+                "SkillTitle": "單手劍剋星Lv3",
+                "SkillDescription": "若攻擊目標所裝備的武器是單手劍類，則造成10%的額外傷害。"
+            },
+            {
+                "SkillTitle": "雙手斧大師",
+                "SkillDescription": "若此單位裝備雙手斧類型武器，武器技能會啟用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "雙手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "陰陽師四天王序列第二位，朱目美都知。\n……陰陽師竟然獲得了鬼的力量……\n還真是諷刺呢。呵呵……\n\n現在的感覺真是好極了，太好了……\n我好想拋下一切，去殺人。\n因為，那一定很愉悅，不是嗎？"
+            ],
+            "Login": [
+                "哎呀，你還沒準備好嗎？\n嗯－－那我就等你十秒。\n要是十秒後還沒準備好，我可以殺了你嗎？"
+            ],
+            "Tap": [
+                "陰陽寮的大家……是啊，我真的很心痛。\n竟然會被鬼活活吃掉……呵呵，真是－－令人無比心酸呢。",
+                "你看起來責任感很強呢。不過，也活得很壓抑……\n對了，不如變成鬼吧。那樣的話，就什麼煩惱都沒有了…",
+                "聽得見嗎，這個聲音……？\n果然，只有我能聽見。\n不過，很快你也會聽見了。\n媽媽的聲音。"
+            ],
+            "Idle": [
+                "總覺得，腦袋昏昏沉沉的……好像忘了什麼，\n又好像有什麼人在呼喚我……呵呵，無所謂了。無論這個那個的…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "五行大蛇": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "形代放流": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "紫刃": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                },
+                "彼岸花": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

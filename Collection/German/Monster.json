@@ -135323,7 +135323,7 @@
         "Hp_Base": 5005,
         "Speed": 603,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Zurück aus der Hölle für ihre Freundin",
         "LeaderSkill": {
             "SkillTitle": "Erd-ANG hoch",
@@ -135665,5 +135665,374 @@
                 "RelationshipBuff": "ANG+2%"
             }
         }
+    },
+    "WhiteSnakeGirlDark01": {
+        "Name": "Mizuchi",
+        "Name2": "Schwarzherzige weiße Schlange",
+        "FullName": "Mizuchi - Schwarzherzige weiße Schlange",
+        "Profile": "Akame Mizuchi hatte den zweiten Rang unter den vier Meistern des Onmyo-Amtes. Deshalb lasteten ständig viele Verantwortlichkeiten auf ihren Schultern. Sie musste alle vor den Oni beschützen, den Onmyoji ihres Amtes als Vorbild dienen und den Befehlen des Inneren Palastes gehorchen…",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Schatten",
+        "Cost": 28,
+        "Atk_Base": 1315,
+        "Hp_Base": 4635,
+        "Speed": 556,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Genug mit Beschützen, jetzt zerstöre ich!",
+        "LeaderSkill": {
+            "SkillTitle": "Dnkl-ANG hoch",
+            "SkillDescription": "Der Angriff von Schatten-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Stapelnde Wut",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 250% für jede nicht beschworene Einheit (Verbündeter oder Gegner) auf dem Schlachtfeld, die seit dem Betreten des Schlachtfelds durch den Anwender besiegt oder geopfert wurde (maximal 1500% Gesamtschaden, nachdem 5 oder mehr nicht beschworene Einheiten besiegt oder geopfert wurden). Entzieht Gegnern bis zu 1 Geist. Dieser Angriff ignoriert den Statuseffekt Konterhaltung sowie die Effekte der passiven Skin-Fertigkeiten.\n\nAnschließend wird der Verbrennungseffekt des getroffenen Ziels aufgehoben (einschließlich Mega-Heilbrand).\n\nDiese Fertigkeit wird nach dem Einsatz gesperrt und jedes Mal wieder freigeschaltet, wenn der Anwender Schlangenzähne einsetzt.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Blutlust erzeugen",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 500% des Angriffswerts des Anwenders, gewährt jedem von ihnen einen Schutz vor sofortigem Tod und Super-Schleichen.\n\nAnschließend erhältst du in den nächsten Zügen sofort alle anderen Verbündeten, die auf dem Schlachtfeld 1 oder mehr Einheiten durch Angriffe besiegt haben, indem ihre aktuelle ZE reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nWird jedes Mal freigeschaltet, wenn eine nicht beschworene Einheit (Verbündeter oder Gegner) auf dem Schlachtfeld durch irgendeine Ursache besiegt oder geopfert wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nEin Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird; danach wird er entfernt. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Super-Schleichen überschreibt andere Statuseffekte. Einheiten mit Super-Schleichen ignorieren gegnerische Angriffe, die mehr als 1 Ziel schädigen würden. Super-Schleichen wird entfernt, nachdem seit ihrer Anwendung 3 gegnerische Angriffe ignoriert wurden, und kann durch andere Statuseffekte überschrieben werden, außer durch normale Schleichen. Schaden hebt Super-Schleichen nicht auf.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Schlangenzähne",
+                "SkillDescription": "400% Schaden an 2 Gegnern. Bei jeder zweiten Aktivierung dieser Fertigkeit auf dem Schlachtfeld werden stattdessen 800% Schaden verursacht.\n\nAnschließend werden bei allen getroffenen Zielen die Gift-Schutzeffekte entfernt und sie erhalten für 200 ZE Mega-Gift. Mega-Gift überschreibt andere Statuseffekte auf diesen Einheiten. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Stapelwut einsetzt, und nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 10,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Schwarzherzig",
+                "SkillDescription": "Diese Einheit kann nicht durch Schaden durch Gift-Status-Effekte besiegt werden und kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDiese Einheit hat eine Schadensreduzierung von 50% bei Angriffen und verkürzt die Dauer aller Betäubungseffekte gegen die Einheit um 50 ZE.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nJedes Mal, wenn diese Einheit mit einem Angriff einer beliebigen Anzahl nicht beschworener Einheiten Schaden zufügt, erhält sie sofort den nächsten Zug. Wenn dies innerhalb von 50 ZE dreimal ausgelöst wird, kann dieser Effekt erst wieder ausgelöst werden, wenn 50 ZE vergangen sind. Dieser Effekt kann erneut gegen dieselbe Einheit ausgelöst werden. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen)."
+            },
+            {
+                "SkillTitle": "Schlangformation",
+                "SkillDescription": "Diese Einheit tritt mit Super-Schleichen und einem Soforttod-Schutz in den Kampf ein.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nImmer wenn diese Einheit an der Reihe ist und ihre Fertigkeiten nicht deaktiviert sind, können ihre Fertigkeiten bis zum Ende ihres Zuges nicht deaktiviert werden.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie Gereinigt und heilt 50% ihrer maximalen LP.\n\nDiese Einheit hat eine Chance von 20%, einem zufälligen Gegner einen Überfallzähler zu verleihen, wenn diese Einheit oder eine andere Einheit (Verbündeter oder Gegner) als Verstärkung ins Gefecht kommt. Diese Chance erhöht sich um 20% pro Erwachen, bis zu einer Chance von 100%, wenn diese Einheit 4 Erwachen hat.\n\nWenn eine Einheit mit einem Hinterhalt-Marker an der Reihe ist und bis nach Ende des Zuges überlebt, erhalten 2 zufällige Einheiten des gegnerischen Teams die nächsten Züge, indem ihre aktuellen ZE reduziert werden; anschließend wird der Überfallzähler entfernt. Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge beeinflussen. Überfallzähler sind kein Statuseffekt. Hinterhalt-Marker sind nicht stapelbar, gelten nicht für Boss-Einheiten und können nicht gereinigt werden. Ein Überfallzähler wird von einer Einheit entfernt, die besiegt wird oder das Schlachtfeld verlässt."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Schwert-Jäger Lv3",
+                "SkillDescription": "10% Angriffsbonus an Einheiten, die ein Schwert führen."
+            },
+            {
+                "SkillTitle": "Großaxt-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großäxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großaxt"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich bin es, Akame Mizuchi, die am zweiten Rang unter den Vier Meistern des Onmyo steht.\nWas für eine Ironie, dass ausgerechnet ein Onmyoji die Kraft eines Oni erlangt … hehe.\n\nIch fühle mich gerade so fantastisch …\nIch möchte alles hinter mir lassen und einfach nur … töten.\nDas würde wohl so viel <i>Spaß</i> machen!"
+            ],
+            "Login": [
+                "Bist du noch nicht bereit zu gehen? Na ja… ich geb dir noch 10 Sekunden.\nWenn du dann immer noch nicht bereit bist, darf ich dich dann einfach umbringen?"
+            ],
+            "Tap": [
+                "Es schmerzt mich, an das Schicksal zu denken, das meine ehemaligen Kollegen vom Onmyo-Büro erwartet… Sie sind alle dazu verdammt, von Oni verschlungen zu werden…\nHehe, wie schade, das bricht mir soooo das Herz.",
+                "Du scheinst so ein verantwortungsbewusster Mensch zu sein… Aber fühlt sich diese ganze Verantwortung nicht irgendwie erdrückend an?\nWarum schließt du dich mir nicht an und wirst ein Oni? Dann bist du von allen Sorgen befreit …",
+                "Kannst du diese Stimme hören...? Nein? Also kann nur ich sie hören...\nAber das ist nur eine Frage der Zeit. Bald wirst du Mamas Stimme auch hören können..."
+            ],
+            "Idle": [
+                "Mein Kopf fühlt sich ein bisschen benebelt an… Ich hab das Gefühl, dass ich irgendwas vergesse… irgendwas, das versucht, mich zu rufen…\nHehe, aber es gibt keinen Grund, sich darüber den Kopf zu zerbrechen. Nichts ist mehr wichtig…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "Stapelnde Wut": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Blutlust erzeugen": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "Schlangenzähne": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "WhiteSnakeGirlDark02": {
+        "Name": "Mizuchi",
+        "Name2": "Schwarzherzige weiße Schlange",
+        "FullName": "Mizuchi - Schwarzherzige weiße Schlange",
+        "Profile": "Sie liebte die Menschen, und sie liebte die Mitarbeiter ihres Büros. Ihr Wunsch, sie zu beschützen, war absolut aufrichtig. Doch gleichzeitig, noch bevor sie es überhaupt bemerkte, gab es da eine Stimme, die angefangen hatte, ihr zuzuflüstern.\n\n\"Warum bist du immer die Einzige, die sich so sehr anstrengen muss?\"\n\nMizuchi versuchte verzweifelt, diese Stimme zum Schweigen zu bringen.",
+        "Profile_Ascended": "Befreit von ihrem Gewissen durch die Oni-Verwandlungsdroge, konnte nun kein Gegner mehr ihr standhalten. Ihre Mana-Reserven, die sie unbewusst zurückgehalten hatte, waren nun unerschöpflich. Was die reine magische Stärke anging, hatte sie sogar Rin Inugami übertroffen, den Anführer der Vier Meister.\n\n\"Nichts kann mir mehr im Weg stehen.\"\n\nUnd doch lag etwas Trauriges in ihrem Lächeln.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Schatten",
+        "Cost": 34,
+        "Atk_Base": 1506,
+        "Hp_Base": 6890,
+        "Speed": 556,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Dnkl-ANG hoch",
+            "SkillDescription": "Der Angriff von Schatten-Verbündeten steigt um 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Stapelnde Wut",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 250% für jede nicht beschworene Einheit (Verbündeter oder Gegner) auf dem Schlachtfeld, die seit dem Betreten des Schlachtfelds durch den Anwender besiegt oder geopfert wurde (maximal 1500% Gesamtschaden, nachdem 5 oder mehr nicht beschworene Einheiten besiegt oder geopfert wurden). Entzieht Gegnern bis zu 1 Geist. Dieser Angriff ignoriert den Statuseffekt Konterhaltung sowie die Effekte der passiven Skin-Fertigkeiten.\n\nAnschließend wird der Verbrennungseffekt des getroffenen Ziels aufgehoben (einschließlich Mega-Heilbrand).\n\nDiese Fertigkeit wird nach dem Einsatz gesperrt und jedes Mal wieder freigeschaltet, wenn der Anwender Schlangenzähne einsetzt.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Blutlust erzeugen",
+                "SkillDescription": "Heilt alle Verbündeten auf dem Schlachtfeld um 500% des Angriffswerts des Anwenders, gewährt jedem von ihnen einen Schutz vor sofortigem Tod und Super-Schleichen.\n\nAnschließend erhältst du in den nächsten Zügen sofort alle anderen Verbündeten, die auf dem Schlachtfeld 1 oder mehr Einheiten durch Angriffe besiegt haben, indem ihre aktuelle ZE reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nWird jedes Mal freigeschaltet, wenn eine nicht beschworene Einheit (Verbündeter oder Gegner) auf dem Schlachtfeld durch irgendeine Ursache besiegt oder geopfert wird. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nEin Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird; danach wird er entfernt. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Super-Schleichen überschreibt andere Statuseffekte. Einheiten mit Super-Schleichen ignorieren gegnerische Angriffe, die mehr als 1 Ziel schädigen würden. Super-Schleichen wird entfernt, nachdem seit ihrer Anwendung 3 gegnerische Angriffe ignoriert wurden, und kann durch andere Statuseffekte überschrieben werden, außer durch normale Schleichen. Schaden hebt Super-Schleichen nicht auf.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Schlangenzähne",
+                "SkillDescription": "400% Schaden an 2 Gegnern. Bei jeder zweiten Aktivierung dieser Fertigkeit auf dem Schlachtfeld werden stattdessen 800% Schaden verursacht.\n\nAnschließend werden bei allen getroffenen Zielen die Gift-Schutzeffekte entfernt und sie erhalten für 200 ZE Mega-Gift. Mega-Gift überschreibt andere Statuseffekte auf diesen Einheiten. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Stapelwut einsetzt, und nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Schreckensfinale",
+                "SkillDescription": "Besiegt sofort einen zufälligen Gegner auf dem Schlachtfeld, der weder ein Boss noch ein Vergänglicher ist. Dieser Effekt wird jedes Mal ausgelöst, wenn eine nicht beschworene Einheit (Verbündeter oder Gegner) auf dem Schlachtfeld seit dem Betreten des Schlachtfelds durch den Anwender durch irgendeine Ursache besiegt oder geopfert wurde (insgesamt maximal 5 Auslösungen). Alle diese Auslösungen finden statt, bevor Gegner Verstärkungen ersetzen können, die durch diese Fertigkeit besiegt wurden.\n\nDiese Effekte ignorieren passive Rache-Fertigkeiten, passive Wiederbelebung-Fertigkeiten sowie alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass ihre Ziele besiegt werden, und können nicht von Wächtern umgeleitet werden. Es gilt, dass der Anwender durch Angriffe genauso viele Einheiten besiegt hat, wie durch einen dieser Effekte besiegt wurden.\n\nNach dem Betreten des Schlachtfelds durch den Anwender für 100 ZE gesperrt. Nur einsetzbar, wenn eine nicht beschworene gegnerische Einheit auf dem Schlachtfeld seit dem Betreten des Schlachtfelds durch den Anwender durch irgendeine Ursache besiegt oder geopfert wurde. Einmal pro Kampf einsetzbar.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Schwarzherzig",
+                "SkillDescription": "Diese Einheit kann nicht durch Schaden durch Gift-Status-Effekte besiegt werden und kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDiese Einheit hat eine Schadensreduzierung von 50% bei Angriffen und verkürzt die Dauer aller Betäubungseffekte gegen die Einheit um 50 ZE.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nJedes Mal, wenn diese Einheit mit einem Angriff einer beliebigen Anzahl nicht beschworener Einheiten Schaden zufügt, erhält sie sofort den nächsten Zug. Wenn dies innerhalb von 50 ZE dreimal ausgelöst wird, kann dieser Effekt erst wieder ausgelöst werden, wenn 50 ZE vergangen sind. Dieser Effekt kann erneut gegen dieselbe Einheit ausgelöst werden. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen)."
+            },
+            {
+                "SkillTitle": "Schlangformation",
+                "SkillDescription": "Diese Einheit tritt mit Super-Schleichen und einem Soforttod-Schutz in den Kampf ein.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nImmer wenn diese Einheit an der Reihe ist und ihre Fertigkeiten nicht deaktiviert sind, können ihre Fertigkeiten bis zum Ende ihres Zuges nicht deaktiviert werden.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie Gereinigt und heilt 50% ihrer maximalen LP.\n\nDiese Einheit hat eine Chance von 20%, einem zufälligen Gegner einen Überfallzähler zu verleihen, wenn diese Einheit oder eine andere Einheit (Verbündeter oder Gegner) als Verstärkung ins Gefecht kommt. Diese Chance erhöht sich um 20% pro Erwachen, bis zu einer Chance von 100%, wenn diese Einheit 4 Erwachen hat.\n\nWenn eine Einheit mit einem Hinterhalt-Marker an der Reihe ist und bis nach Ende des Zuges überlebt, erhalten 2 zufällige Einheiten des gegnerischen Teams die nächsten Züge, indem ihre aktuellen ZE reduziert werden; anschließend wird der Überfallzähler entfernt. Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge beeinflussen. Überfallzähler sind kein Statuseffekt. Hinterhalt-Marker sind nicht stapelbar, gelten nicht für Boss-Einheiten und können nicht gereinigt werden. Ein Überfallzähler wird von einer Einheit entfernt, die besiegt wird oder das Schlachtfeld verlässt."
+            },
+            {
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillTitle": "Schwert-Jäger Lv3",
+                "SkillDescription": "10% Angriffsbonus an Einheiten, die ein Schwert führen."
+            },
+            {
+                "SkillTitle": "Großaxt-Meistersch.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großäxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großaxt"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich bin es, Akame Mizuchi, die am zweiten Rang unter den Vier Meistern des Onmyo steht.\nWas für eine Ironie, dass ausgerechnet ein Onmyoji die Kraft eines Oni erlangt … hehe.\n\nIch fühle mich gerade so fantastisch …\nIch möchte alles hinter mir lassen und einfach nur … töten.\nDas würde wohl so viel <i>Spaß</i> machen!"
+            ],
+            "Login": [
+                "Bist du noch nicht bereit zu gehen? Na ja… ich geb dir noch 10 Sekunden.\nWenn du dann immer noch nicht bereit bist, darf ich dich dann einfach umbringen?"
+            ],
+            "Tap": [
+                "Es schmerzt mich, an das Schicksal zu denken, das meine ehemaligen Kollegen vom Onmyo-Büro erwartet… Sie sind alle dazu verdammt, von Oni verschlungen zu werden…\nHehe, wie schade, das bricht mir soooo das Herz.",
+                "Du scheinst so ein verantwortungsbewusster Mensch zu sein… Aber fühlt sich diese ganze Verantwortung nicht irgendwie erdrückend an?\nWarum schließt du dich mir nicht an und wirst ein Oni? Dann bist du von allen Sorgen befreit …",
+                "Kannst du diese Stimme hören...? Nein? Also kann nur ich sie hören...\nAber das ist nur eine Frage der Zeit. Bald wirst du Mamas Stimme auch hören können..."
+            ],
+            "Idle": [
+                "Mein Kopf fühlt sich ein bisschen benebelt an… Ich hab das Gefühl, dass ich irgendwas vergesse… irgendwas, das versucht, mich zu rufen…\nHehe, aber es gibt keinen Grund, sich darüber den Kopf zu zerbrechen. Nichts ist mehr wichtig…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "Stapelnde Wut": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Blutlust erzeugen": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "Schlangenzähne": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                },
+                "Schreckensfinale": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

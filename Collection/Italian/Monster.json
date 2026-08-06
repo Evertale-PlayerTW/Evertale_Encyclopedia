@@ -134647,7 +134647,7 @@
             },
             {
                 "SkillTitle": "Vista del Basilisco",
-                "SkillDescription": "Ustiona tutti i nemici in campo e infligge loro Scudo Ustione. Tutti gli alleati in campo con abilità attive o passive che forniscono loro Mega Ustione Curativa ottengono Mega Ustione Curativa per 100TU e recuperano il 100% degli HP massimi. Sostituisce altri effetti di stato.\n\nPoi, disattiva le abilità attive di tutti i nemici ustionati per 10TU.\n\nSi sblocca la prima volta che un nemico in campo viene sconfitto o sacrificato mentre l'unità è in campo. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Questa abilità può essere utilizzata solo una volta ogni volta che l'unità è in campo.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "SkillDescription": "Ustiona tutti i nemici in campo e conferisce a ciascuno uno Scudo Ustione. Tutti gli alleati in campo con abilità attive o passive con cui possono fornirsi Mega Ustione Curativa ottengono Mega Ustione Curativa per 100TU e recuperano il 100% degli HP massimi. Sostituisce altri effetti di stato.\n\nPoi, disattiva le abilità attive di tutti i nemici ustionati per 10TU.\n\nSi sblocca la prima volta che un nemico in campo viene sconfitto o sacrificato mentre l'unità è in campo. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Questa abilità può essere utilizzata solo una volta ogni volta che l'unità è in campo.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
                 "TU": 9,
                 "Spirit": "+2"
             }
@@ -134655,11 +134655,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Trama del Basilisco",
-                "SkillDescription": "L'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nL'unità entra in campo con Protezione Morte, Scudo Ustione e Mega Ustione Curativa per 100TU.\n\nQuando l'unità entra in campo dai rinforzi alleati:\n- Ustiona tutte le altre unità in campo e fornisce loro Scudo Ustione\n- Poi, ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare i TU di tutti gli altri alleati.\n\nScudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+                "SkillDescription": "L'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nL'unità entra in campo con Protezione Morte, Scudo Ustione e Mega Ustione Curativa per 100TU.\n\nQuando l'unità entra in campo dai rinforzi alleati:\n- Ustiona tutte le altre unità in campo e fornisce loro Scudo Ustione\n- Poi, ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare i TU di tutti gli altri alleati.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Scudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
             },
             {
                 "SkillTitle": "Dominaspettri",
-                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico mentre è ustionata, disattiva le abilità attive di tutti i nemici per 10TU. Ogni volta che l'unità abbandona il campo, l'effetto si azzera e può riattivarsi.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 20% dagli attacchi per ogni alleato ustionato in campo (fino all'80%).\n\nL'unità ottiene una Carica alla fine di ogni turno nemico. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità recupera il 100% degli HP massimi. Poi, tutti gli alleati in campo ottengono Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione.\n\nAlla fine del turno dell'unità, se l'unità è in campo ed:\n- È ustionata, indebolisce tutti i nemici in campo.\n- È addormentata o avvelenata, ustiona tutti gli alleati in campo.\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione."
+                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico mentre è ustionata, disattiva le abilità attive di tutti i nemici per 10TU. Ogni volta che l'unità abbandona il campo, l'effetto si azzera e può riattivarsi.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 20% dagli attacchi per ogni alleato ustionato in campo (fino all'80%).\n\nL'unità ottiene una Carica alla fine di ogni turno nemico. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità recupera il 100% degli HP massimi. Poi, tutti gli alleati in campo ottengono Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione.\n\nAlla fine del turno dell'unità, se l'unità è in campo e:\n- È ustionata, indebolisce tutti i nemici in campo.\n- È addormentata o avvelenata, ustiona tutti gli alleati in campo.\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione."
             },
             {
                 "SkillTitle": "Attacco+ Lv3",
@@ -134827,13 +134827,13 @@
             },
             {
                 "SkillTitle": "Vista del Basilisco",
-                "SkillDescription": "Ustiona tutti i nemici in campo e infligge loro Scudo Ustione. Tutti gli alleati in campo con abilità attive o passive che forniscono loro Mega Ustione Curativa ottengono Mega Ustione Curativa per 100TU e recuperano il 100% degli HP massimi. Sostituisce altri effetti di stato.\n\nPoi, disattiva le abilità attive di tutti i nemici ustionati per 10TU.\n\nSi sblocca la prima volta che un nemico in campo viene sconfitto o sacrificato mentre l'unità è in campo. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Questa abilità può essere utilizzata solo una volta ogni volta che l'unità è in campo.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "SkillDescription": "Ustiona tutti i nemici in campo e conferisce a ciascuno uno Scudo Ustione. Tutti gli alleati in campo con abilità attive o passive con cui possono fornirsi Mega Ustione Curativa ottengono Mega Ustione Curativa per 100TU e recuperano il 100% degli HP massimi. Sostituisce altri effetti di stato.\n\nPoi, disattiva le abilità attive di tutti i nemici ustionati per 10TU.\n\nSi sblocca la prima volta che un nemico in campo viene sconfitto o sacrificato mentre l'unità è in campo. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Questa abilità può essere utilizzata solo una volta ogni volta che l'unità è in campo.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
                 "TU": 9,
                 "Spirit": "+2"
             },
             {
                 "SkillTitle": "Morso Serpentino",
-                "SkillDescription": "Un nemico senza Effimerità, che non è un boss e ha le abilità attive disattivate in campo viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Questo effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive e gli effetti che impedirebbero al nemico casuale di essere sconfitto.\n\nAllontana l'unità dal campo e la mette in cima tra i rinforzi. Se non ci sono rinforzi alleati, aggiunge abbastanza Super Himori alla squadra alleata per allontanare l'unità tra i rinforzi (fino a 4 se l'unità è da sola in campo).\n\nSi sblocca ogni volta che l'unità usa Vista del Basilisco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Utilizzabile 5 volte per battaglia.",
+                "SkillDescription": "Un nemico casuale senza Effimerità, che non è un boss e ha le abilità attive disattivate in campo viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Questo effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive e gli effetti che impedirebbero al nemico casuale di essere sconfitto.\n\nAllontana l'unità dal campo e la mette in cima tra i rinforzi. Se non ci sono rinforzi alleati, aggiunge abbastanza Super Himori alla squadra alleata per spostare l'unità tra i rinforzi (fino a 4 se l'unità è da sola in campo).\n\nSi sblocca ogni volta che l'unità usa Vista del Basilisco. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata. Utilizzabile 5 volte per battaglia.",
                 "TU": 0,
                 "Spirit": "-2"
             }
@@ -134841,11 +134841,11 @@
         "PassiveSkill": [
             {
                 "SkillTitle": "Trama del Basilisco",
-                "SkillDescription": "L'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nL'unità entra in campo con Protezione Morte, Scudo Ustione e Mega Ustione Curativa per 100TU.\n\nQuando l'unità entra in campo dai rinforzi alleati:\n- Ustiona tutte le altre unità in campo e fornisce loro Scudo Ustione\n- Poi, ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare i TU di tutti gli altri alleati.\n\nScudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+                "SkillDescription": "L'unità è immune a Stordimento. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti, l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nL'unità entra in campo con Protezione Morte, Scudo Ustione e Mega Ustione Curativa per 100TU.\n\nQuando l'unità entra in campo dai rinforzi alleati:\n- Ustiona tutte le altre unità in campo e fornisce loro Scudo Ustione\n- Poi, ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di azzerare i TU di tutti gli altri alleati.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Scudo Ustione impedisce un'applicazione di un effetto di stato non di tipo Ustione sull'unità ustionata. Un'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
             },
             {
                 "SkillTitle": "Dominaspettri",
-                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico mentre è ustionata, disattiva le abilità attive di tutti i nemici per 10TU. Ogni volta che l'unità abbandona il campo, l'effetto si azzera e può riattivarsi.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 20% dagli attacchi per ogni alleato ustionato in campo (fino all'80%).\n\nL'unità ottiene una Carica alla fine di ogni turno nemico. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità recupera il 100% degli HP massimi. Poi, tutti gli alleati in campo ottengono Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione.\n\nAlla fine del turno dell'unità, se l'unità è in campo ed:\n- È ustionata, indebolisce tutti i nemici in campo.\n- È addormentata o avvelenata, ustiona tutti gli alleati in campo.\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione."
+                "SkillDescription": "La prima volta che l'unità subisce danno da un attacco nemico mentre è ustionata, disattiva le abilità attive di tutti i nemici per 10TU. Ogni volta che l'unità abbandona il campo, l'effetto si azzera e può riattivarsi.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 20% dagli attacchi per ogni alleato ustionato in campo (fino all'80%).\n\nL'unità ottiene una Carica alla fine di ogni turno nemico. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche e le perde tutte quando abbandona il campo.\n\nOgni volta che un nemico in campo viene sconfitto o sacrificato, l'unità recupera il 100% degli HP massimi. Poi, tutti gli alleati in campo ottengono Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Provocazione sostituisce altri effetti di Debolezza o Provocazione.\n\nAlla fine del turno dell'unità, se l'unità è in campo e:\n- È ustionata, indebolisce tutti i nemici in campo.\n- È addormentata o avvelenata, ustiona tutti gli alleati in campo.\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione."
             },
             {
                 "SkillTitle": "Attacco+ Lv3",
@@ -135323,7 +135323,7 @@
         "Hp_Base": 5005,
         "Speed": 603,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Tornata dall'Inferno,\nper potersi riunire alla sua amica.",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Terra)",
@@ -135665,5 +135665,374 @@
                 "RelationshipBuff": "ATT+2%"
             }
         }
+    },
+    "WhiteSnakeGirlDark01": {
+        "Name": "Mizuchi",
+        "Name2": "Serpente Bianco dal Cuore Nero",
+        "FullName": "Mizuchi - Serpente Bianco dal Cuore Nero",
+        "Profile": "Akame Mizuchi era classificata come la seconda più forte tra le Quattro Maestre del Dipartimento di Onmyo. Di conseguenza, le sue spalle erano costantemente gravate da innumerevoli responsabilità. Doveva proteggere tutti dagli oni, doveva fungere da modello per le onmyoji del suo ufficio e doveva obbedire agli ordini del Palazzo Interno...",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 28,
+        "Atk_Base": 1315,
+        "Hp_Base": 4635,
+        "Speed": 556,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Basta proteggere, ora voglio solo distruggere!",
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Oscurità)",
+            "SkillDescription": "Nelle unità alleate di tipo Oscurità l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Furia Combinata",
+                "SkillDescription": "250% di danno a 1 nemico, più il 250% per ogni unità non invocata in campo sconfitta o sacrificata da quando questa unità è entrata in campo (fino al 1500% di danno totale dopo 5 unità non invocate sconfitte). Sottrae fino a 1 Spirito dalla squadra nemica. Questo attacco ignora l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nPoi, rimuove Ustione (inclusa Mega Ustione Curativa) dal bersaglio colpito.\n\nQuesta abilità è bloccata dopo l'uso e si sblocca ogni volta che l'unità usa Zanne del Serpente.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Istigazione",
+                "SkillDescription": "Cura tutti gli alleati in campo per un valore di HP pari al 500% dell'attacco dell'unità e fornisce loro Protezione Morte e Super Invisibilità.\n\nPoi, fornisce immediatamente il turno a tutti gli altri alleati che hanno sconfitto almeno 1 unità con attacchi da quando sono entrati in campo azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nSi sblocca ogni volta che un'unità non invocata (alleata o nemica) in campo viene sconfitta o sacrificata. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Super Invisibilità sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Zanne del Serpente",
+                "SkillDescription": "400% di danno a 2 nemici. 800% di danno invece ogni seconda volta che l'abilità viene attivata in campo.\n\nPoi, rimuove Protezione Veleno dai bersagli colpiti e infligge Mega Veleno per 200TU. Sostituisce altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.\n\nSi sblocca ogni volta che l'unità usa Furia Combinata. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 10,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Cuore Nero",
+                "SkillDescription": "L'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno e non può essere mandata tra i rinforzi dal campo.\n\nL'unità ha una riduzione danni del 50% dagli attacchi ricevuti e riduce la durata degli effetti di Stordimento contro questa unità di 50TU.\n\nGli attacchi dell'unità curano l'unità dell'100% del danno inflitto totale, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nOgni volta che l'unità infligge danno a nemici non invocati con un attacco, l'unità ottiene immediatamente il turno. Se si attiva 3 volte entro 50TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU. Questo effetto può riattivarsi sulla stessa unità. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU)."
+            },
+            {
+                "SkillTitle": "Postura Serpentina",
+                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Protezione Morte.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità è purificata e recupera il 50% degli HP massimi.\n\nL'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% con 4 risvegli), di infliggere Controimboscata a un nemico casuale ogni volta che questa unità o un'altra unità (alleata o nemici) entra in campo dai rinforzi.\n\nQuando è il turno di un'unità con Controimboscata e sopravvive fino alla fine del turno, 2 unità casuali della squadra ottengono immediatamente il turno azzerando i loro TU, poi Controimboscata è rimossa. Queste riduzioni dei TU possono attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Controimboscata non è un effetto di stato. Controimboscata non si accumula, non ha effetto sulle unità boss e non può essere purificata. Un'unità perde Controimboscata se viene sconfitta o abbandona il campo."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Att. Spada Lv3",
+                "SkillDescription": "10% di attacco extra contro unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillTitle": "Maestria Grandascia",
+                "SkillDescription": "Può usare le abilità delle Grandasce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grand'Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Sono io, Akame Mizuchi, quella classificata seconda tra le Quattro Maestre di Onmyo.\nChe ironia, che un'onmyoji ottenga il potere di un oni... eheh.\n\nMi sento benissimo, ora...\nVoglio lasciar andare tutto e semplicemente... uccidere.\nPenso che sarebbe così <i>divertente</i>!"
+            ],
+            "Login": [
+                "Non sei ancora pronto? Beh... ti darò altri 10 secondi.\nSe non lo sarai nemmeno allora, posso semplicemente ucciderti?"
+            ],
+            "Tap": [
+                "Mi addolora pensare al destino che attende le mie ex colleghe del Dipartimento di Onmyo... Sono tutte condannate a essere divorate dagli oni...\nEheh, che peccato, mi si spezza proooprio il cuore.",
+                "Sembri essere una persona così responsabile... Ma tutta quella responsabilità non ti soffoca?\nPerché non ti unisci a me e diventi un oni? Ti libereresti di ogni preoccupazione...",
+                "Riesci a sentire quella voce...? No? Quindi solo io riesco a sentirla...\nMa è solo questione di tempo. Presto anche tu sentirai la voce della mamma..."
+            ],
+            "Idle": [
+                "Ho la testa un po' annebbiata... Sento come se ci fosse qualcosa che sto dimenticando... qualcosa che cerca di chiamarmi...\nEheh, ma non serve pensarci su. Ormai non importa più nulla..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "Furia Combinata": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Istigazione": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "Zanne del Serpente": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "WhiteSnakeGirlDark02": {
+        "Name": "Mizuchi",
+        "Name2": "Serpente Bianco dal Cuore Nero",
+        "FullName": "Mizuchi - Serpente Bianco dal Cuore Nero",
+        "Profile": "Amava le persone e amava le discepole del suo dipartimento. Il suo desiderio di proteggerli era assolutamente sincero. Ma allo stesso tempo, senza che nemmeno se ne accorgesse, una voce aveva iniziato a sussurrarle.\n\n\"Perché sei sempre l'unica che deve impegnarsi così tanto?\"\n\nMizuchi cercò disperatamente di zittire quella voce.",
+        "Profile_Ascended": "Liberata dalla coscienza grazie al medicinale che trasforma in oni, ormai nessun nemico poteva resisterle. Le sue riserve di mana, che aveva inconsciamente trattenuto, erano ora inesauribili. In termini di puro potere magico, aveva persino superato Rin Inugami, la prima delle Quattro Maestre.\n\n\"Niente può più fermarmi.\"\n\nEppure, nel suo sorriso c'era qualcosa di triste.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Katana",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 34,
+        "Atk_Base": 1506,
+        "Hp_Base": 6890,
+        "Speed": 556,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "ATT+ (Oscurità)",
+            "SkillDescription": "Nelle unità alleate di tipo Oscurità l'attacco aumenta del 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Furia Combinata",
+                "SkillDescription": "250% di danno a 1 nemico, più il 250% per ogni unità non invocata in campo sconfitta o sacrificata da quando questa unità è entrata in campo (fino al 1500% di danno totale dopo 5 unità non invocate sconfitte). Sottrae fino a 1 Spirito dalla squadra nemica. Questo attacco ignora l'effetto di stato Opposizione e gli effetti delle abilità passive di contatto.\n\nPoi, rimuove Ustione (inclusa Mega Ustione Curativa) dal bersaglio colpito.\n\nQuesta abilità è bloccata dopo l'uso e si sblocca ogni volta che l'unità usa Zanne del Serpente.",
+                "TU": 75,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Istigazione",
+                "SkillDescription": "Cura tutti gli alleati in campo per un valore di HP pari al 500% dell'attacco dell'unità e fornisce loro Protezione Morte e Super Invisibilità.\n\nPoi, fornisce immediatamente il turno a tutti gli altri alleati che hanno sconfitto almeno 1 unità con attacchi da quando sono entrati in campo azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nSi sblocca ogni volta che un'unità non invocata (alleata o nemica) in campo viene sconfitta o sacrificata. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Super Invisibilità sostituisce altri effetti di stato. Le unità con Super Invisibilità non subiscono danno se bersagliate da attacchi diretti a più di 1 unità. Super Invisibilità è rimosso dopo aver ignorato 3 attacchi nemici e può essere sostituito da altri effetti di stato, tranne la normale Invisibilità. Il danno non rimuove Super Invisibilità.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Zanne del Serpente",
+                "SkillDescription": "400% di danno a 2 nemici. 800% di danno invece ogni seconda volta che l'abilità viene attivata in campo.\n\nPoi, rimuove Protezione Veleno dai bersagli colpiti e infligge Mega Veleno per 200TU. Sostituisce altri effetti di stato. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.\n\nSi sblocca ogni volta che l'unità usa Furia Combinata. Dopo l'utilizzo e se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 10,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Cupo Finale",
+                "SkillDescription": "Sconfigge immediatamente un nemico senza Effimerità e che non è un boss. L'effetto si attiva una volta ogni volta che un'unità non invocata (alleata o nemica) in campo viene sconfitta o sacrificata da quando l'unità è entrata in campo (fino a un massimo di 5 attivazioni). L'effetto si attiva prima che i rinforzi nemici sostituiscano le unità sconfitte da questa abilità.\n\nQuesti effetti ignorano le abilità passive di Vendetta, le abilità passive di Rinascita, le abilità passive o gli effetti che impedirebbero ai bersagli di essere sconfitti, e non possono essere reindirizzati sui Guardiani. Ogni bersaglio conta come sconfitto dall'unità con attacchi se sconfitto da questi effetti.\n\nBloccata per 100TU da quando questa unità entra in campo. Utilizzabile solo se un nemico non invocato in campo è stato sconfitto o sacrificato da quando l'unità è entrata in campo. Un solo uso per battaglia.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Cuore Nero",
+                "SkillDescription": "L'unità non può essere sconfitta subendo danno dall'effetto di stato Veleno e non può essere mandata tra i rinforzi dal campo.\n\nL'unità ha una riduzione danni del 50% dagli attacchi ricevuti e riduce la durata degli effetti di Stordimento contro questa unità di 50TU.\n\nGli attacchi dell'unità curano l'unità dell'100% del danno inflitto totale, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nOgni volta che l'unità infligge danno a nemici non invocati con un attacco, l'unità ottiene immediatamente il turno. Se si attiva 3 volte entro 50TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU. Questo effetto può riattivarsi sulla stessa unità. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio, Stordimento che colpisce il bersaglio con meno TU)."
+            },
+            {
+                "SkillTitle": "Postura Serpentina",
+                "SkillDescription": "L'unità entra in campo con Super Invisibilità e Protezione Morte.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità è purificata e recupera il 50% degli HP massimi.\n\nL'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% con 4 risvegli), di infliggere Controimboscata a un nemico casuale ogni volta che questa unità o un'altra unità (alleata o nemici) entra in campo dai rinforzi.\n\nQuando è il turno di un'unità con Controimboscata e sopravvive fino alla fine del turno, 2 unità casuali della squadra ottengono immediatamente il turno azzerando i loro TU, poi Controimboscata è rimossa. Queste riduzioni dei TU possono attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Controimboscata non è un effetto di stato. Controimboscata non si accumula, non ha effetto sulle unità boss e non può essere purificata. Un'unità perde Controimboscata se viene sconfitta o abbandona il campo."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "Att. Spada Lv3",
+                "SkillDescription": "10% di attacco extra contro unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillTitle": "Maestria Grandascia",
+                "SkillDescription": "Può usare le abilità delle Grandasce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grand'Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Sono io, Akame Mizuchi, quella classificata seconda tra le Quattro Maestre di Onmyo.\nChe ironia, che un'onmyoji ottenga il potere di un oni... eheh.\n\nMi sento benissimo, ora...\nVoglio lasciar andare tutto e semplicemente... uccidere.\nPenso che sarebbe così <i>divertente</i>!"
+            ],
+            "Login": [
+                "Non sei ancora pronto? Beh... ti darò altri 10 secondi.\nSe non lo sarai nemmeno allora, posso semplicemente ucciderti?"
+            ],
+            "Tap": [
+                "Mi addolora pensare al destino che attende le mie ex colleghe del Dipartimento di Onmyo... Sono tutte condannate a essere divorate dagli oni...\nEheh, che peccato, mi si spezza proooprio il cuore.",
+                "Sembri essere una persona così responsabile... Ma tutta quella responsabilità non ti soffoca?\nPerché non ti unisci a me e diventi un oni? Ti libereresti di ogni preoccupazione...",
+                "Riesci a sentire quella voce...? No? Quindi solo io riesco a sentirla...\nMa è solo questione di tempo. Presto anche tu sentirai la voce della mamma..."
+            ],
+            "Idle": [
+                "Ho la testa un po' annebbiata... Sento come se ci fosse qualcosa che sto dimenticando... qualcosa che cerca di chiamarmi...\nEheh, ma non serve pensarci su. Ormai non importa più nulla..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsWorldDeathCounter3": 1.1,
+                "Kills1": 1.1,
+                "TimeInCombat100": 1.1
+            },
+            "SkillUse": {
+                "Furia Combinata": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsMegaHealingBurn": 1.01
+                    }
+                },
+                "Istigazione": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "AtLeast1AllyNoInstantDeathWard": 200,
+                        "AtLeast1AllyHPBelow50Percent": 200,
+                        "AtLeast1AllyIsNotStealthOrBurn": 200,
+                        "2AlliesIsKills1": 200
+                    }
+                },
+                "Zanne del Serpente": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0.05,
+                        "AllEnemiesIsStealth": 0.05,
+                        "AllEnemiesIsStealthAlt": 0.05,
+                        "AllEnemiesAlwaysDodging": 0.05,
+                        "AllEnemiesNotProtectingDodging": 0.05
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "IsFrostbitten": 0.89,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBurning": 1,
+                        "IsPoisonImmune": 0.75,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5
+                    }
+                },
+                "Cupo Finale": {
+                    "BaseWeight": 0.99,
+                    "Source": {
+                        "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }
