@@ -135683,7 +135683,7 @@
         "Hp_Base": 4635,
         "Speed": 556,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "보호는 끝났다, 이제 오직 파괴할 뿐!",
         "LeaderSkill": {
             "SkillTitle": "암속성 공격력 증가",
@@ -136029,6 +136029,419 @@
                     "BaseWeight": 0.99,
                     "Source": {
                         "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "XiaoLiRegular01": {
+        "Name": "샤오리",
+        "Name2": "불굴의 무술 전사",
+        "FullName": "샤오리 - 불굴의 무술 전사",
+        "Profile": "머나먼 중원의 무술 고수 샤오리는 강한 적수를 찾아 이곳저곳을 떠돌며 나날을 보내고 있었다. 수많은 이름난 전사들을 물리친 후, 가장 최근 쫓던 상대는 중원에서 \"분노의 마왕\"으로 두려움을 사는 여포였다. 전설적인 인물인 여포는 최강 무사 칭호를 추구하는 샤오리에게 동경의 대상이었다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "해머",
+        "forFilter_Element": "Water",
+        "Element": "수속성",
+        "Cost": 28,
+        "Atk_Base": 1039,
+        "Hp_Base": 6015,
+        "Speed": 599,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "덤벼!\n누구든 상대해서 이겨버릴 거야!",
+        "LeaderSkill": {
+            "SkillTitle": "수속성 HP 증가",
+            "SkillDescription": "아군 수속성 유닛 최대 HP 10% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "오프닝 스매쉬",
+                "SkillDescription": "적 1기에 400% 데미지를 입힌다. 이 데미지는 전장에 있는 동안 이 스킬을 이미 사용한 횟수당 200% 추가(이 스킬을 3회 이상 사용 시 최대 1000% 데미지).\n\n그런 다음 적중한 타겟의 모든 스텔스 상태 효과(슈퍼 스텔스 포함)가 제거된다.\n\n사용자에게 충전이 1회 부여된다. 특정 스킬은 충전 횟수에 영향을 받거나 충전을 소모한다. 한 유닛은 최대 3회 충전할 수 있으며, 전장을 떠나는 유닛의 모든 충전이 제거된다.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "녹아웃 블라스터",
+                "SkillDescription": "적 2기에 500% 데미지를 입힌다. 이 데미지는 전장에 있는 동안 이 스킬을 이미 사용한 횟수만큼 100% 추가(이 스킬을 5회 이상 사용 시 최대 총 1000% 데미지). 사용자에게 충전 1회가 부여된다.\n\n그런 다음 적중한 타겟 모두의 원타임 수면 면역과 화염 (메가 회복 화염  포함)이 제거되고 100TU 동안 깊은 수면이 부여된다. 깊은 수면은 다른 상태 효과를 덮어쓰며, 화염이나 수면 상태 효과로는 덮어쓸 수 없고, 정화되지 않는다.\n\n사용자가 정확히 충전을 1회 보유한 경우에만 사용 가능하다.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "잠재력 촉발",
+                "SkillDescription": "아군이 기력을 8 획득한다.\n\n사용자를 완전히 회복시킨다. 사용자에게 충전 1회, 원타임 스턴 면역, 원타임 즉사 면역, 강렬한 분노가 부여된다. 사용자가 충전을 정확히 2회 보유한 경우에만 사용할 수 있다.\n\n원타임 스턴 면역은 스턴 적용을 한 번 막은 다음 사라진다. 원타임 스턴 면역은 중첩되지 않는다. 원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막은 다음 사라진다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다. 강렬한 분노는 유닛의 공격력을 다음 3턴 동안 1.5배 증가시키며, 기존 약화 또는 격분 효과를 덮어쓴다. 다른 격분 효과로는 덮어쓸 수 없지만, 약화 효과로는 덮어쓸 수 있다.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "드래곤 피니셔",
+                "SkillDescription": "적 1기에 1000% 데미지. 이 공격으로 인한 데미지로 적을 물리치면, 전장의 다른 모든 적이 약화되고 100TU 동안 깊은 수면이 부여된다.\n\n사용자가 충전을 3회 보유한 경우에만 사용 가능하다. 사용자의 모든 충전을 소모한다.\n\n약화된 유닛은 다음 턴 종료까지 공격력이 0.75배 감소한다. 약화 효과는 영향 받은 유닛의 공격력이 다른 효과로 증가된 경우 감소될 수 있으며, 격분 효과로 덮어쓸 수 있다.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "콤보 아티스트",
+                "SkillDescription": "이 유닛은 오프닝 스매시, 녹아웃 블라스터 또는 드래곤 피니셔 사용 후 즉시 다음 턴을 얻는다. 그런 다음 50TU가 진행할 때까지 이 효과는 다시 발동할 수 없다.\n\n이 유닛이 턴을 얻을 때마다, 이 유닛의 액티브 스킬이 비활성화되지 않은 상태라면, 턴 종료까지 액티브 스킬이 비활성화되지 않는다.\n\n이 유닛이 전장에 진입할 때, 100TU 동안 이 유닛은:\n- 수면 상태가 되지 않는다.\n- 서리 화염 상태가 되지 않는다.\n- 공격으로 인한 데미지가 80% 감소한다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없으며, 포이즌이나 화염 상태 효과로 인한 데미지로 패배하지 않는다.\n\n이 유닛의 공격은 수면 상태 적을 깨우지 않으며, 입힌 총 데미지의 100%만큼 이 유닛을 회복시키고, 다음을 무시한다:\n- 데미지 감소 효과.\n- 보스가 아닌 적이 지닌 타겟의 패배를 막는 모든 효과.\n- 스킨 패시브 스킬 및 카운터 스탠스 상태 효과."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스피어 헌터 Lv3",
+                "SkillDescription": "스피어 장착 유닛에 대한 공격력 10% 보너스."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "헤이ㅣㅣㅣ! 난 샤오리, 역대 최강 최고의 무예가라고!\n\n너는 어때, 강해...? 흐으으음ㅁ...\n오, 너한테서 강한 기운이 느껴지는데!!\n자, 어때? 전력을 다해 나랑 싸워 볼래?"
+            ],
+            "Login": [
+                "뭐 엄청 오래 걸렸네ㅡ!\n너를 기다리는 동안 너무 심심해서 여기 현지인들 몇이랑 싸움을 시작했어♪ 당연히, 내가 다 이겼지!"
+            ],
+            "Tap": [
+                "어? 이 냄새는… 만두 냄새잖아!\n너무 배고파… 그 만두들 어디 있는 거지ㅡ 어서 나와라, 내 사랑 만두야!",
+                "아니... 제발, 이제 그만... 숙제하기 싫어...\n음ㅁ...어라? 아, 꿈이었구나...\n그러니까 이 세상에 강력 샤오리도 이길 수 없는 게 하나 있는 거네...",
+                "절실하게 만나고 싶은 사람이 있어! 내가 정말 존경하는 분!\n알아? 여포라고 불리는! 고릴라처럼 힘이 세지!"
+            ],
+            "Idle": [
+                "흐으으음ㅁㅁ... 저쪽에서 강한 기운이 느껴지네...\n분명 강력한 사람일 거야! 헤헤헤, 샤오리가 곧 그분을 만나러 갈 거야!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "오프닝 스매쉬": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "녹아웃 블라스터": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "잠재력 촉발": {
+                    "BaseWeight": 2500
+                },
+                "드래곤 피니셔": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "XiaoLiRegular02": {
+        "Name": "샤오리",
+        "Name2": "불굴의 무술 전사",
+        "FullName": "샤오리 - 불굴의 무술 전사",
+        "Profile": "그러던 중 샤오리는 여포가 평화의 땅에서 죽었다는 소문을 들었다. 믿을 수 없었던 그녀는 진실을 밝히기 위해 길을 나섰고ㅡ놀랍게도 바다를 헤엄쳐 건너 평화의 땅에 도착했다. 그곳에서 여포의 행방을 묻기 위해 여기저기 떠돌아 다니던 샤오리는 마침내 그녀의 무덤을 발견했다.",
+        "Profile_Ascended": "\"안돼! 내가 너와 싸워 보기도 전에 죽을 순 없어!\"\n\n오랫동안 동경해 온 인물의 유해 앞에 선 샤오리는 마음속으로 그 말을 외쳤다. 그러고는 중원에서 가져온 부활부, 즉 부활의 부적을 여포의 유해 위에 올려놓았다.\n그녀는 자신이 동경해 온 최강의 전사를 직접 물리치고, 자신이 최강임을 증명할 것이다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "해머",
+        "forFilter_Element": "Water",
+        "Element": "수속성",
+        "Cost": 34,
+        "Atk_Base": 1267,
+        "Hp_Base": 8085,
+        "Speed": 599,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "수속성 HP 증가",
+            "SkillDescription": "아군 수속성 유닛 최대 HP 10% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "오프닝 스매쉬",
+                "SkillDescription": "적 1기에 400% 데미지를 입힌다. 이 데미지는 전장에 있는 동안 이 스킬을 이미 사용한 횟수당 200% 추가(이 스킬을 3회 이상 사용 시 최대 1000% 데미지).\n\n그런 다음 적중한 타겟의 모든 스텔스 상태 효과(슈퍼 스텔스 포함)가 제거된다.\n\n사용자에게 충전이 1회 부여된다. 특정 스킬은 충전 횟수에 영향을 받거나 충전을 소모한다. 한 유닛은 최대 3회 충전할 수 있으며, 전장을 떠나는 유닛의 모든 충전이 제거된다.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "녹아웃 블라스터",
+                "SkillDescription": "적 2기에 500% 데미지를 입힌다. 이 데미지는 전장에 있는 동안 이 스킬을 이미 사용한 횟수만큼 100% 추가(이 스킬을 5회 이상 사용 시 최대 총 1000% 데미지). 사용자에게 충전 1회가 부여된다.\n\n그런 다음 적중한 타겟 모두의 원타임 수면 면역과 화염 (메가 회복 화염  포함)이 제거되고 100TU 동안 깊은 수면이 부여된다. 깊은 수면은 다른 상태 효과를 덮어쓰며, 화염이나 수면 상태 효과로는 덮어쓸 수 없고, 정화되지 않는다.\n\n사용자가 정확히 충전을 1회 보유한 경우에만 사용 가능하다.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "잠재력 촉발",
+                "SkillDescription": "아군이 기력을 8 획득한다.\n\n사용자를 완전히 회복시킨다. 사용자에게 충전 1회, 원타임 스턴 면역, 원타임 즉사 면역, 강렬한 분노가 부여된다. 사용자가 충전을 정확히 2회 보유한 경우에만 사용할 수 있다.\n\n원타임 스턴 면역은 스턴 적용을 한 번 막은 다음 사라진다. 원타임 스턴 면역은 중첩되지 않는다. 원타임 즉사 면역은 이 유닛이 보스가 아닌 적에게 데미지 없이 즉시 패배하는 것을 한 번 막은 다음 사라진다. 원타임 즉사 면역은 무시할 수 없으며 중첩되지 않는다. 강렬한 분노는 유닛의 공격력을 다음 3턴 동안 1.5배 증가시키며, 기존 약화 또는 격분 효과를 덮어쓴다. 다른 격분 효과로는 덮어쓸 수 없지만, 약화 효과로는 덮어쓸 수 있다.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "드래곤 피니셔",
+                "SkillDescription": "적 1기에 1000% 데미지. 이 공격으로 인한 데미지로 적을 물리치면, 전장의 다른 모든 적이 약화되고 100TU 동안 깊은 수면이 부여된다.\n\n사용자가 충전을 3회 보유한 경우에만 사용 가능하다. 사용자의 모든 충전을 소모한다.\n\n약화된 유닛은 다음 턴 종료까지 공격력이 0.75배 감소한다. 약화 효과는 영향 받은 유닛의 공격력이 다른 효과로 증가된 경우 감소될 수 있으며, 격분 효과로 덮어쓸 수 있다.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "콤보 아티스트",
+                "SkillDescription": "이 유닛은 오프닝 스매시, 녹아웃 블라스터 또는 드래곤 피니셔 사용 후 즉시 다음 턴을 얻는다. 그런 다음 50TU가 진행할 때까지 이 효과는 다시 발동할 수 없다.\n\n이 유닛이 턴을 얻을 때마다, 이 유닛의 액티브 스킬이 비활성화되지 않은 상태라면, 턴 종료까지 액티브 스킬이 비활성화되지 않는다.\n\n이 유닛이 전장에 진입할 때, 100TU 동안 이 유닛은:\n- 수면 상태가 되지 않는다.\n- 서리 화염 상태가 되지 않는다.\n- 공격으로 인한 데미지가 80% 감소한다.\n\n이 유닛은 전장에서 증원군으로 보낼 수 없으며, 포이즌이나 화염 상태 효과로 인한 데미지로 패배하지 않는다.\n\n이 유닛의 공격은 수면 상태 적을 깨우지 않으며, 입힌 총 데미지의 100%만큼 이 유닛을 회복시키고, 다음을 무시한다:\n- 데미지 감소 효과.\n- 보스가 아닌 적이 지닌 타겟의 패배를 막는 모든 효과.\n- 스킨 패시브 스킬 및 카운터 스탠스 상태 효과."
+            },
+            {
+                "SkillTitle": "불굴의 전사",
+                "SkillDescription": "이 유닛은 원타임 스턴 면역과 원타임 즉사 면역을 가지고 전투에 진입한다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 패배당하는 대신 1 HP로 생존한다.\n\n이 유닛은 정확히 타겟 2기에 데미지를 주는 공격을 무시한다(모든 아군을 타겟하는 공격은 무시되지 않는다). 이 유닛이 스텔스 상태 효과를 획득하면, 이 방식으로 공격을 무시하더라도 효과를 잃지 않는다.\n\n이 유닛은 공격으로 데미지를 입고 턴 종료까지 생존할 때마다 최대 HP의 50%를 회복한다.\n\n수면 상태 적의 턴이 끝날 때마다 이 유닛은 최대 HP의 100%를 회복하고 현재 TU가 50TU 감소한다. 이 TU 감소는 턴 오더를 조정하는 다른 효과의 전 또는 후에 발동할 수 있다. 50TU 이내에 이 효과가 5회 발동하면, 50TU가 진행할 때까지 이 효과는 다시 발동되지 않는다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "스피어 헌터 Lv3",
+                "SkillDescription": "스피어 장착 유닛에 대한 공격력 10% 보너스."
+            },
+            {
+                "SkillTitle": "대검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 대검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "대검"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "헤이ㅣㅣㅣ! 난 샤오리, 역대 최강 최고의 무예가라고!\n\n너는 어때, 강해...? 흐으으음ㅁ...\n오, 너한테서 강한 기운이 느껴지는데!!\n자, 어때? 전력을 다해 나랑 싸워 볼래?"
+            ],
+            "Login": [
+                "뭐 엄청 오래 걸렸네ㅡ!\n너를 기다리는 동안 너무 심심해서 여기 현지인들 몇이랑 싸움을 시작했어♪ 당연히, 내가 다 이겼지!"
+            ],
+            "Tap": [
+                "어? 이 냄새는… 만두 냄새잖아!\n너무 배고파… 그 만두들 어디 있는 거지ㅡ 어서 나와라, 내 사랑 만두야!",
+                "아니... 제발, 이제 그만... 숙제하기 싫어...\n음ㅁ...어라? 아, 꿈이었구나...\n그러니까 이 세상에 강력 샤오리도 이길 수 없는 게 하나 있는 거네...",
+                "절실하게 만나고 싶은 사람이 있어! 내가 정말 존경하는 분!\n알아? 여포라고 불리는! 고릴라처럼 힘이 세지!"
+            ],
+            "Idle": [
+                "흐으으음ㅁㅁ... 저쪽에서 강한 기운이 느껴지네...\n분명 강력한 사람일 거야! 헤헤헤, 샤오리가 곧 그분을 만나러 갈 거야!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "오프닝 스매쉬": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "녹아웃 블라스터": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "잠재력 촉발": {
+                    "BaseWeight": 2500
+                },
+                "드래곤 피니셔": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
                     }
                 }
             }

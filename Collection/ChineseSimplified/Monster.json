@@ -135683,7 +135683,7 @@
         "Hp_Base": 4635,
         "Speed": 556,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "再也不会守护任何人了\n唯有毁灭",
         "LeaderSkill": {
             "SkillTitle": "暗属性猛攻",
@@ -136029,6 +136029,419 @@
                     "BaseWeight": 0.99,
                     "Source": {
                         "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "XiaoLiRegular01": {
+        "Name": "小丽",
+        "Name2": "不屈的武术家",
+        "FullName": "小丽 - 不屈的武术家",
+        "Profile": "身为中华之国拳法使的小丽，为了寻求强者，日复一日地游历四方。击败了无数成名高手的她，一直在寻找那位于中华之国被称为“修罗”的吕布。这位传说中的存在，正是以最强为目标的小丽所憧憬的人物。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大锤",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 28,
+        "Atk_Base": 1039,
+        "Hp_Base": 6015,
+        "Speed": 599,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "我会把你们所有人——\n统统打趴下！",
+        "LeaderSkill": {
+            "SkillTitle": "水属性振奋",
+            "SkillDescription": "所有水属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "龙脉泉",
+                "SkillDescription": "对1个敌人造成400%的伤害并移除其任何匿踪状态，使用者在场期间此技能每使用过一次，伤害提升200%（至多提升至1000%）。使用者获得1格“能量”。能量可用在特定技能。每个单位最多可累积3格能量。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "龙息",
+                "SkillDescription": "对2个敌人造成500%的伤害，移除其睡眠抵抗与任何燃烧状态并使其陷入持续100TU的深度睡眠状态，使用者在场期间此技能每使用过一次，伤害提升100%（至多提升至1000%）。对进场后已经陷入过睡眠状态的敌方单位亦可生效。使用者获得1格“能量”。\n使用者必须只有1格“能量”才能使用此技能。深度睡眠会覆盖对象身上的其他状态效果，且不会被燃烧或睡眠状态覆盖或被“净化”类的技能清除。",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "黄金功夫",
+                "SkillDescription": "己方获得8点灵气，使用者回复最大生命值的100%并获得1格能量、眩晕抵抗、速败抵抗与暴怒效果。使用者必须只有2格“能量”才能使用此技能。\n眩晕抵抗会防止一次眩晕，之后眩晕抵抗会被移除。眩晕抵抗效果次数无法叠加。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。获得暴怒效果的单位攻击力增加为1.5倍直到其之后的第三个回合结束。暴怒效果会覆盖原先的虚弱或狂热效果，也会被虚弱效果覆盖，但不会被狂热效果覆盖。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "必杀奥义",
+                "SkillDescription": "对1个敌人造成1000%的伤害。此攻击击败敌方单位时，场上所有敌方单位陷入持续100TU的深度睡眠状态且攻击力降低为0.75倍直到其下一个回合结束。使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。此效果会覆盖先前的“虚弱”或“狂热”类效果。虚弱的效果可能会因其他提升攻击力的效果而减弱。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "战斗狂",
+                "SkillDescription": "每当此单位使用“龙脉泉”、“龙息”或“必杀奥义”技能后，其TU归零立即获得一个回合。此效果每次触发后需要过50TU后才能再次触发。\n此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。此单位在进入战场后的前100TU不会陷入睡眠状态，无法获得燃霜且受到敌方攻击的伤害减少80%。\n此单位不能从场上回到援军。此单位不会因为中毒或燃烧的伤害被击败。此单位无视敌方的双体攻击。此效果生效时不消耗此单位或有的匿踪状态。\n此单位回复所造成伤害100%的生命值。此单位的攻击不会移除目标的睡眠状态，且无视目标的减伤效果、反弹被动技能、“反击态势”状态与非BOSS目标防止被击败的效果或被动技能。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "长枪克星Lv3",
+                "SkillDescription": "若攻击目标所装备的武器是长枪类，则造成10%的额外伤害。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "大家好——我叫小丽！\n最强、最强、最——强的武术家！\n\n话说，你是不是很强呀……嗯嗯嗯……\n哦！总觉得有种来电的感觉——！！\n呐，能不能认真和我打一场？"
+            ],
+            "Login": [
+                "啊，你来得也太慢了吧——！真是的，我都等得不耐烦了，\n就跑去和附近那些人打了一架♪当然啦——最后赢的人是我！"
+            ],
+            "Tap": [
+                "唔……哦哦！这个香味，难道是饺子吗！\n肚子饿扁啦——。饺子在哪里——快出来呀！",
+                "呜呜……不要啦——……我不要学习啦——……咦？\n啊，原来是梦啊……唉，这世上原来也有连小丽都打不过的敌人啊……",
+                "我有个很想见的人哦。她可是我的偶像呢。你知道吗？\n她叫吕布！肯定是个强得跟大猩猩一样厉害的人！"
+            ],
+            "Idle": [
+                "嗯嗯嗯……那边传来了一股锋锐的气息……\n这是，强者的预感！嘿嘿嘿～，小丽这就过去啦～"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "龙脉泉": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "龙息": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "黄金功夫": {
+                    "BaseWeight": 2500
+                },
+                "必杀奥义": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "XiaoLiRegular02": {
+        "Name": "小丽",
+        "Name2": "不屈的武术家",
+        "FullName": "小丽 - 不屈的武术家",
+        "Profile": "然而，小丽却听闻吕布已死于和之国的传闻。无论如何都无法相信的小丽，为了确认消息的真伪，竟一路游过大海，抵达了和之国。她四处打听吕布的下落，最终找到了她的墓。",
+        "Profile_Ascended": "“不行！你怎么能在和我交手之前就死掉啊！”\n面对憧憬之人的遗骸，她在心中如此呐喊，随后将中华之国代代相传的复生符咒——“返魂符”贴在了吕布的遗体上。为了亲手击败自己所憧憬的最强者，证明最强之人正是自己。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大锤",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 34,
+        "Atk_Base": 1267,
+        "Hp_Base": 8085,
+        "Speed": 599,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "水属性振奋",
+            "SkillDescription": "所有水属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "龙脉泉",
+                "SkillDescription": "对1个敌人造成400%的伤害并移除其任何匿踪状态，使用者在场期间此技能每使用过一次，伤害提升200%（至多提升至1000%）。使用者获得1格“能量”。能量可用在特定技能。每个单位最多可累积3格能量。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "龙息",
+                "SkillDescription": "对2个敌人造成500%的伤害，移除其睡眠抵抗与任何燃烧状态并使其陷入持续100TU的深度睡眠状态，使用者在场期间此技能每使用过一次，伤害提升100%（至多提升至1000%）。对进场后已经陷入过睡眠状态的敌方单位亦可生效。使用者获得1格“能量”。\n使用者必须只有1格“能量”才能使用此技能。深度睡眠会覆盖对象身上的其他状态效果，且不会被燃烧或睡眠状态覆盖或被“净化”类的技能清除。",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "黄金功夫",
+                "SkillDescription": "己方获得8点灵气，使用者回复最大生命值的100%并获得1格能量、眩晕抵抗、速败抵抗与暴怒效果。使用者必须只有2格“能量”才能使用此技能。\n眩晕抵抗会防止一次眩晕，之后眩晕抵抗会被移除。眩晕抵抗效果次数无法叠加。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。获得暴怒效果的单位攻击力增加为1.5倍直到其之后的第三个回合结束。暴怒效果会覆盖原先的虚弱或狂热效果，也会被虚弱效果覆盖，但不会被狂热效果覆盖。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "必杀奥义",
+                "SkillDescription": "对1个敌人造成1000%的伤害。此攻击击败敌方单位时，场上所有敌方单位陷入持续100TU的深度睡眠状态且攻击力降低为0.75倍直到其下一个回合结束。使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。此效果会覆盖先前的“虚弱”或“狂热”类效果。虚弱的效果可能会因其他提升攻击力的效果而减弱。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "战斗狂",
+                "SkillDescription": "每当此单位使用“龙脉泉”、“龙息”或“必杀奥义”技能后，其TU归零立即获得一个回合。此效果每次触发后需要过50TU后才能再次触发。\n此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。此单位在进入战场后的前100TU不会陷入睡眠状态，无法获得燃霜且受到敌方攻击的伤害减少80%。\n此单位不能从场上回到援军。此单位不会因为中毒或燃烧的伤害被击败。此单位无视敌方的双体攻击。此效果生效时不消耗此单位或有的匿踪状态。\n此单位回复所造成伤害100%的生命值。此单位的攻击不会移除目标的睡眠状态，且无视目标的减伤效果、反弹被动技能、“反击态势”状态与非BOSS目标防止被击败的效果或被动技能。"
+            },
+            {
+                "SkillTitle": "不屈的武术家",
+                "SkillDescription": "此单位进场时获得眩晕抵抗与速败抵抗。。若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。\n此单位无视敌方的双体攻击。此效果生效时不消耗此单位或有的匿踪状态。\n如果此单位受到一次攻击并在当前回合结束之后仍然存活，此单位回复最大生命值的50%。\n每当处于睡眠状态的敌方单位回合结束时，此单位减少50TU并回复最大生命值的100%。一些影响TU的技能效果可能会改变此TU减少效果发动的时机。若此效果在50TU内触发达到5次，则需要过50TU后才能再次触发。"
+            },
+            {
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillTitle": "长枪克星Lv3",
+                "SkillDescription": "若攻击目标所装备的武器是长枪类，则造成10%的额外伤害。"
+            },
+            {
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "大家好——我叫小丽！\n最强、最强、最——强的武术家！\n\n话说，你是不是很强呀……嗯嗯嗯……\n哦！总觉得有种来电的感觉——！！\n呐，能不能认真和我打一场？"
+            ],
+            "Login": [
+                "啊，你来得也太慢了吧——！真是的，我都等得不耐烦了，\n就跑去和附近那些人打了一架♪当然啦——最后赢的人是我！"
+            ],
+            "Tap": [
+                "唔……哦哦！这个香味，难道是饺子吗！\n肚子饿扁啦——。饺子在哪里——快出来呀！",
+                "呜呜……不要啦——……我不要学习啦——……咦？\n啊，原来是梦啊……唉，这世上原来也有连小丽都打不过的敌人啊……",
+                "我有个很想见的人哦。她可是我的偶像呢。你知道吗？\n她叫吕布！肯定是个强得跟大猩猩一样厉害的人！"
+            ],
+            "Idle": [
+                "嗯嗯嗯……那边传来了一股锋锐的气息……\n这是，强者的预感！嘿嘿嘿～，小丽这就过去啦～"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "龙脉泉": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "龙息": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "黄金功夫": {
+                    "BaseWeight": 2500
+                },
+                "必杀奥义": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
                     }
                 }
             }

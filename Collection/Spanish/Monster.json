@@ -135683,7 +135683,7 @@
         "Hp_Base": 4635,
         "Speed": 556,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¡Ya no protejo, ahora solamente destruyo!",
         "LeaderSkill": {
             "SkillTitle": "Sube Ataque Oscuro",
@@ -136029,6 +136029,419 @@
                     "BaseWeight": 0.99,
                     "Source": {
                         "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "XiaoLiRegular01": {
+        "Name": "Xiao Li",
+        "Name2": "Guerrera Marcial Indomable",
+        "FullName": "Xiao Li - Guerrera Marcial Indomable",
+        "Profile": "Xiao Li, una hábil practicante de las artes marciales del lejano Reino Medio, pasaba sus días viajando de un lugar a otro en busca de poderosos oponentes. Tras derrotar a innumerables guerreros de renombre, al último que buscó fue a Lü Bu, temida en todo el Reino Medio como el \"Demonio Furioso\". Lü Bu era una figura legendaria idolatrada por Xiao Li mientras perseguía el título de la guerrera más fuerte de todos los tiempos.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Martillo",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 28,
+        "Atk_Base": 1039,
+        "Hp_Base": 6015,
+        "Speed": 599,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡Adelante!\n¡Me enfrentaré a cualquiera y lo venceré!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Destrozo Inicial",
+                "SkillDescription": "400% de daño a 1 enemigo, más 200% por cada vez que esta habilidad se haya usado en el campo de batalla (máximo 1000% de daño total tras 3 o más usos).\n\nLuego al objetivo alcanzado se le eliminan todos los efectos de estado de Sigilo (incluido el Súper Sigilo).\n\nEl usuario obtiene una Carga. Algunas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar hasta 3 cargas, y todas se eliminan de una unidad que abandona el campo de batalla.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Ataque Noqueador",
+                "SkillDescription": "500% de daño a 2 enemigos, más 100% por cada vez que se haya usado esta habilidad en el campo de batalla (máximo 1000% de daño total tras 5 o más usos). El usuario obtiene una Carga.\n\nDespués, todos los objetivos alcanzados pierden sus Guardas Sueño y se elimina Quemado (incluido Mega Quemado Sanador) y entran en Sueño Profundo durante 100TU. El Sueño Profundo anula otros efectos de estado, no puede ser anulado por efectos de Quemado o Sueño y no puede ser Purificado.\n\nSólo se puede usar si el usuario tiene exactamente una carga.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Desatar potencial",
+                "SkillDescription": "Los aliados obtienen 8 de Espiritu\n\nCura completamente al usuario. El usuario obtiene Carga, Guarda Aturdir, Guarda Muerte Instantánea y Furia Intensa. Sólo se puede usar si el usuario tiene exactamente dos cargas almacenadas.\n\nEl Guarda Aturdir impide que se aplique Aturdir una vez, y luego se elimina. Los Guardas Aturdir no se acumulan. El Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Furia Intensa aumenta el Ataque de una unidad a 1.5x durante sus próximos 3 turnos y sobrescribe los efectos de Debilitar o Enfurecer existentes. No puede ser sobrescrita por otros efectos de Enfurecer, pero sí por efectos de Debilitar.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Remate Dragón",
+                "SkillDescription": "1000% de daño a 1 enemigo. Si el daño de este ataque derrota a un enemigo, todos los demás enemigos en el campo de batalla quedarán Debilitados y recibirán Sueño Profundo durante 100TU.\n\nSólo se puede usar si el usuario tiene 3 Cargas almacenadas. Consume todas las Cargas del usuario.\n\nLas unidades Debilitadas ven reducido su Ataque a 0.75x hasta el final de su siguiente turno. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser sobrescrito por efectos de Enfurecer.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Artista de Combos",
+                "SkillDescription": "Esta unidad obtiene inmediatamente el siguiente turno después de usar Destrozo Inicial, Ataque Noqueador o Remate Dragón. Este efecto no se puede activar de nuevo hasta que avancen 50TU.\n\nSiempre que esta unidad tenga su turno, si sus Habilidades Activas no están desactivadas, no se le pueden desactivar hasta el final de su turno.\n\nAl entrar en el campo de batalla, durante 100TU, esta unidad:\n- No puede dormirse.\n- No puede sufrir Quemado Escarcha.\n- Recibe un 80% de reducción de daño de los ataques.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla y no puede ser derrotada por daño de los efectos de estado Veneno o Quemado.\n\nLos ataques de esta unidad no despertarán a los enemigos dormidos, la curarán un 100% del daño total infligido e ignorarán:\n- los efectos de reducción de daño.\n- cualquier efecto de enemigos que no sean jefes que impida la derrota de los objetivos.\n- las habilidades pasivas de piel y el efecto de estado Contraofensiva."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Cazador Lanza Niv3",
+                "SkillDescription": "10% de bonus en los ataques contra unidades equipadas con Lanzas."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Oyeee! ¡Soy Xiao Li, la artista marcial más fuerte y la mejor de todas!\n\n¿Y tú? ¿Eres fuerte...? Hmmm...\n¡¡Oh, siento que emanas vibraciones poderosas!!\n¿Y entonces? ¿Puedes luchar contra mí con todas tus fuerzas?"
+            ],
+            "Login": [
+                "¡Vaya, alguien sí que se tomó su tiempo...!\nMe aburrí tanto esperándote que empecé a pelear con algunos de los lugareños♪ ¡Y por supuesto, les gané a todos!"
+            ],
+            "Tap": [
+                "¿Eh? Este olor... ¡Huelo a pastelillos!\n¡Tengo tanta hambre... ¿Dónde están esos pastelillos? ¡A ver, vengan aquí, mis queridos pastelillos!",
+                "No... por favor, basta... No quiero hacer la tarea... Mmm...\n¿Hmm.. eh? Oh, sólo fue un sueño...\nEntonces supongo que hay algo en este mundo que ni siquiera la poderosa Xiao Li puede vencer...",
+                "¡Hay alguien a quien deseo conocer desesperadamente, a quien admiro muchísimo!\n¿La conoces? ¡Se llama Lü Bu! ¡Es fuerte como un gorila!"
+            ],
+            "Idle": [
+                "Hmmm... Percibo una presencia poderosa allá...\n¡Apuesto a que es alguien poderoso! Je je je, ¡Xiao Li irá a conocer a esa persona muy pronto!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Destrozo Inicial": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Ataque Noqueador": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Desatar potencial": {
+                    "BaseWeight": 2500
+                },
+                "Remate Dragón": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "XiaoLiRegular02": {
+        "Name": "Xiao Li",
+        "Name2": "Guerrera Marcial Indomable",
+        "FullName": "Xiao Li - Guerrera Marcial Indomable",
+        "Profile": "Entonces, Xiao Li escuchó el rumor de que Lü Bu había muerto en la Tierra de la Paz. Sin poder creerlo, se dispuso a descubrir la verdad y, sorprendentemente, cruzó el mar a nado hasta llegar a la Tierra de la Paz. Luego viajó de un lugar a otro preguntando por el paradero de Lü Bu, hasta que finalmente encontró su tumba.",
+        "Profile_Ascended": "\"¡No! ¡No puedes haber muerto antes de que luchar contra ti!\"\n\nDe pie ante los restos de la figura que tanto había admirado, Xiao Li gritó esas palabras en su interior. Luego colocó el Talismán de la Resurrección, un amuleto encantado que había traído del Reino Medio, sobre los restos de Lü Bu.\nDerrotaría con sus propias manos a la guerrera más fuerte que había admirado y demostraría que ella misma era la más fuerte de todas.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Martillo",
+        "forFilter_Element": "Water",
+        "Element": "Agua",
+        "Cost": 34,
+        "Atk_Base": 1267,
+        "Hp_Base": 8085,
+        "Speed": 599,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube HP Agua",
+            "SkillDescription": "Las unidades de Agua aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Destrozo Inicial",
+                "SkillDescription": "400% de daño a 1 enemigo, más 200% por cada vez que esta habilidad se haya usado en el campo de batalla (máximo 1000% de daño total tras 3 o más usos).\n\nLuego al objetivo alcanzado se le eliminan todos los efectos de estado de Sigilo (incluido el Súper Sigilo).\n\nEl usuario obtiene una Carga. Algunas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar hasta 3 cargas, y todas se eliminan de una unidad que abandona el campo de batalla.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Ataque Noqueador",
+                "SkillDescription": "500% de daño a 2 enemigos, más 100% por cada vez que se haya usado esta habilidad en el campo de batalla (máximo 1000% de daño total tras 5 o más usos). El usuario obtiene una Carga.\n\nDespués, todos los objetivos alcanzados pierden sus Guardas Sueño y se elimina Quemado (incluido Mega Quemado Sanador) y entran en Sueño Profundo durante 100TU. El Sueño Profundo anula otros efectos de estado, no puede ser anulado por efectos de Quemado o Sueño y no puede ser Purificado.\n\nSólo se puede usar si el usuario tiene exactamente una carga.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Desatar potencial",
+                "SkillDescription": "Los aliados obtienen 8 de Espiritu\n\nCura completamente al usuario. El usuario obtiene Carga, Guarda Aturdir, Guarda Muerte Instantánea y Furia Intensa. Sólo se puede usar si el usuario tiene exactamente dos cargas almacenadas.\n\nEl Guarda Aturdir impide que se aplique Aturdir una vez, y luego se elimina. Los Guardas Aturdir no se acumulan. El Guarda Muerte Instantánea impide que esta unidad sea derrotada inmediatamente sin recibir daño por un enemigo que no sea un jefe una vez, y luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar ni acumular. Furia Intensa aumenta el Ataque de una unidad a 1.5x durante sus próximos 3 turnos y sobrescribe los efectos de Debilitar o Enfurecer existentes. No puede ser sobrescrita por otros efectos de Enfurecer, pero sí por efectos de Debilitar.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Remate Dragón",
+                "SkillDescription": "1000% de daño a 1 enemigo. Si el daño de este ataque derrota a un enemigo, todos los demás enemigos en el campo de batalla quedarán Debilitados y recibirán Sueño Profundo durante 100TU.\n\nSólo se puede usar si el usuario tiene 3 Cargas almacenadas. Consume todas las Cargas del usuario.\n\nLas unidades Debilitadas ven reducido su Ataque a 0.75x hasta el final de su siguiente turno. El efecto de Debilitar puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos y puede ser sobrescrito por efectos de Enfurecer.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Artista de Combos",
+                "SkillDescription": "Esta unidad obtiene inmediatamente el siguiente turno después de usar Destrozo Inicial, Ataque Noqueador o Remate Dragón. Este efecto no se puede activar de nuevo hasta que avancen 50TU.\n\nSiempre que esta unidad tenga su turno, si sus Habilidades Activas no están desactivadas, no se le pueden desactivar hasta el final de su turno.\n\nAl entrar en el campo de batalla, durante 100TU, esta unidad:\n- No puede dormirse.\n- No puede sufrir Quemado Escarcha.\n- Recibe un 80% de reducción de daño de los ataques.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla y no puede ser derrotada por daño de los efectos de estado Veneno o Quemado.\n\nLos ataques de esta unidad no despertarán a los enemigos dormidos, la curarán un 100% del daño total infligido e ignorarán:\n- los efectos de reducción de daño.\n- cualquier efecto de enemigos que no sean jefes que impida la derrota de los objetivos.\n- las habilidades pasivas de piel y el efecto de estado Contraofensiva."
+            },
+            {
+                "SkillTitle": "Guerrero Indomable",
+                "SkillDescription": "Esta unidad entra en batalla con un Guarda Aturdir y un Guarda Muerte Instantánea.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad ignorará los ataques que dañen exactamente a 2 objetivos (los ataques que afecten a todos los aliados no se ignorarán). Si esta unidad obtiene el efecto de estado Sigilo, no lo perderá al ignorar ataques de esta manera.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta el final del turno, se cura un 50% de sus HP máximos.\n\nAl final de cada turno de un enemigo dormido, esta unidad se cura un 100% de sus HP máximos y su TU actual se reduce en 50TU. Esta reducción de TU puede activarse antes o después de otros efectos que modifican el orden de los turnos. Si se activa 5 veces en 50TU, este efecto no podrá activarse de nuevo hasta que transcurran 50TU."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Cazador Lanza Niv3",
+                "SkillDescription": "10% de bonus en los ataques contra unidades equipadas con Lanzas."
+            },
+            {
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¡Oyeee! ¡Soy Xiao Li, la artista marcial más fuerte y la mejor de todas!\n\n¿Y tú? ¿Eres fuerte...? Hmmm...\n¡¡Oh, siento que emanas vibraciones poderosas!!\n¿Y entonces? ¿Puedes luchar contra mí con todas tus fuerzas?"
+            ],
+            "Login": [
+                "¡Vaya, alguien sí que se tomó su tiempo...!\nMe aburrí tanto esperándote que empecé a pelear con algunos de los lugareños♪ ¡Y por supuesto, les gané a todos!"
+            ],
+            "Tap": [
+                "¿Eh? Este olor... ¡Huelo a pastelillos!\n¡Tengo tanta hambre... ¿Dónde están esos pastelillos? ¡A ver, vengan aquí, mis queridos pastelillos!",
+                "No... por favor, basta... No quiero hacer la tarea... Mmm...\n¿Hmm.. eh? Oh, sólo fue un sueño...\nEntonces supongo que hay algo en este mundo que ni siquiera la poderosa Xiao Li puede vencer...",
+                "¡Hay alguien a quien deseo conocer desesperadamente, a quien admiro muchísimo!\n¿La conoces? ¡Se llama Lü Bu! ¡Es fuerte como un gorila!"
+            ],
+            "Idle": [
+                "Hmmm... Percibo una presencia poderosa allá...\n¡Apuesto a que es alguien poderoso! Je je je, ¡Xiao Li irá a conocer a esa persona muy pronto!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Destrozo Inicial": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Ataque Noqueador": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Desatar potencial": {
+                    "BaseWeight": 2500
+                },
+                "Remate Dragón": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
                     }
                 }
             }

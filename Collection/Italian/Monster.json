@@ -135338,7 +135338,7 @@
             },
             {
                 "SkillTitle": "Nebbia del Fatuo",
-                "SkillDescription": "Infligge Sonno Maledetto a tutti i nemici non avvelenati per 200TU. Poi, infligge Mega Veleno a tutti i nemici non addormentati per 200TU. Sostituisce altri effetti di stato.\n\nPoi, se ci sono nemici non addormentati e non avvelenati in campo (per esempio, grazie alle Protezioni), l'unità ottiene immediatamente il turno e ottiene Provocazione. Sostituisce altri effetti di Provocazione.\n\nUtilizzabile solo se l'unità ha una Carica di Potere. Consuma una Carica di Potere.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "SkillDescription": "Infligge Sonno Maledetto a tutti i nemici non avvelenati per 200TU. Poi, infligge Mega Veleno a tutti i nemici non addormentati per 200TU. Sostituisce altri effetti di stato.\n\nPoi, se ci sono nemici non addormentati e non avvelenati in campo (per esempio, grazie alle Protezioni), l'unità ottiene immediatamente il turno e ottiene Provocazione. Sostituisce altri effetti di Provocazione.\n\nUtilizzabile solo se l'unità ha una Carica di Potere. Consuma una Carica di Potere.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo; inoltre, il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
                 "TU": 50,
                 "Spirit": "-1"
             },
@@ -135504,7 +135504,7 @@
             },
             {
                 "SkillTitle": "Nebbia del Fatuo",
-                "SkillDescription": "Infligge Sonno Maledetto a tutti i nemici non avvelenati per 200TU. Poi, infligge Mega Veleno a tutti i nemici non addormentati per 200TU. Sostituisce altri effetti di stato.\n\nPoi, se ci sono nemici non addormentati e non avvelenati in campo (per esempio, grazie alle Protezioni), l'unità ottiene immediatamente il turno e ottiene Provocazione. Sostituisce altri effetti di Provocazione.\n\nUtilizzabile solo se l'unità ha una Carica di Potere. Consuma una Carica di Potere.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "SkillDescription": "Infligge Sonno Maledetto a tutti i nemici non avvelenati per 200TU. Poi, infligge Mega Veleno a tutti i nemici non addormentati per 200TU. Sostituisce altri effetti di stato.\n\nPoi, se ci sono nemici non addormentati e non avvelenati in campo (per esempio, grazie alle Protezioni), l'unità ottiene immediatamente il turno e ottiene Provocazione. Sostituisce altri effetti di Provocazione.\n\nUtilizzabile solo se l'unità ha una Carica di Potere. Consuma una Carica di Potere.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo; inoltre, il danno causato dalle abilità attive di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
                 "TU": 50,
                 "Spirit": "-1"
             },
@@ -135683,7 +135683,7 @@
         "Hp_Base": 4635,
         "Speed": 556,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Basta proteggere, ora voglio solo distruggere!",
         "LeaderSkill": {
             "SkillTitle": "ATT+ (Oscurità)",
@@ -136029,6 +136029,419 @@
                     "BaseWeight": 0.99,
                     "Source": {
                         "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "XiaoLiRegular01": {
+        "Name": "Xiao Li",
+        "Name2": "Indomabile Guerriera Marziale",
+        "FullName": "Xiao Li - Indomabile Guerriera Marziale",
+        "Profile": "Xiao Li, abile praticante delle arti marziali del lontano Regno di Mezzo, trascorreva le sue giornate viaggiando di luogo in luogo in cerca di avversari potenti. Dopo aver sconfitto innumerevoli guerrieri rinomati, l'ultima che cercava era Lü Bu, temuta in tutto il Regno di Mezzo come il \"Demone dell'Ira\". Una figura leggendaria, Lü Bu era idolatrata da Xiao Li, che inseguiva il titolo di guerriera più forte di tutti i tempi.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Martello",
+        "forFilter_Element": "Water",
+        "Element": "Acqua",
+        "Cost": 28,
+        "Atk_Base": 1039,
+        "Hp_Base": 6015,
+        "Speed": 599,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Forza, fatevi sotto!\nSfiderò e batterò chiunque!",
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Acqua)",
+            "SkillDescription": "Nelle unità alleate di tipo Acqua gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Assalto d'Apertura",
+                "SkillDescription": "400% di danno a 1 nemico, più il 200% per ogni volta che l'abilità è stata utilizzata da quando l'unità è entrata in campo (fino al 1000% di danno totale se l'abilità è già stata utilizzata almeno 3 volte).\n\nPoi, rimuove tutti gli effetti di Invisibilità (inclusa Super Invisibilità) dal bersaglio colpito.\n\nL'unità ottiene una Carica. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare fino a 3 Cariche e le perde tutte quando abbandona il campo.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Assalto Travolgente",
+                "SkillDescription": "500% di danno a 2 nemici, più il 100% per ogni volta che l'abilità è stata attivata da quando l'unità è entrata in campo (fino al 1000% di danno totale se l'abilità è già stata utilizzata almeno 5 volte). L'unità ottiene una Carica.\n\nPoi, rimuove Protezione Sonno e gli effetti di Ustione (inclusa Mega Ustione Curativa) dai bersagli colpiti e infligge loro Sonno Profondo per 100TU. Sonno Profondo sostituisce altri effetti di stato, non viene sostituito da Ustione o Sonno e non può essere purificato.\n\nUtilizzabile solo se l'unità ha esattamente 1 Carica accumulata.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Potenziale Scatenato",
+                "SkillDescription": "Gli alleati ottengono 8 Spiriti.\n\nCura del 100% l'unità. L'unità ottiene una Carica, Protezione Stordimento, Protezione Morte e Furia Intensa. Utilizzabile solo se l'unità ha esattamente 2 Cariche accumulate.\n\nProtezione Stordimento impedisce un'applicazione di Stordimento, poi si rimuove. Protezione Stordimento non si accumula. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Furia Intensa aumenta l'attacco di un'unità a 1,5x per i 3 turni successivi e sostituisce altri effetti di Debolezza o Provocazione. Non può essere sostituito da effetti di Provocazione, ma può esserlo da effetti di Debolezza.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Drago Esecutore",
+                "SkillDescription": "1000% di danno a 1 nemico. Se il danno di questo attacco sconfigge un nemico, tutti gli altri nemici in campo subiscono Debolezza e Sonno Profondo per 100TU.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Combo d'Artista",
+                "SkillDescription": "L'unità ottiene immediatamente il turno dopo aver usato Assalto d'Apertura, Assalto Travolgente o Drago Esecutore. Poi, l'effetto non può riattivarsi fino all'avanzamento di 50TU.\n\nOgni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nQuando l'unità entra in campo, per 100TU l'unità:\n- È immune a Sonno.\n- È immune a Fuocogelo.\n- Ha una riduzione danni dell'80% dagli attacchi ricevuti.\n\nL'unità non può essere mandata tra i rinforzi dal campo e non può essere sconfitta subendo danno dall'effetto di stato Veleno o Ustione.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, curano l'unità del 100% del danno inflitto totale e ignorano:\n- Gli effetti di riduzione del danno\n- Gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n- Le abilità passive di contatto e l'effetto di stato Opposizione."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Att. Lance Lv3",
+                "SkillDescription": "10% di attacco extra contro unità che hanno equipaggiato una Lancia."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ehilà! Sono Xiao Li, la più forte e la più brava artista marziale di sempre!\n\nE tu sei forte...? Mmm...\nOoh, percepisco che sei davvero forte!!\nAllora, che ne dici? Puoi combattere contro di me con tutte le tue forze?"
+            ],
+            "Login": [
+                "Beh, qualcuno ci ha messo un bel po'...!\nMi sono annoiata così tanto ad aspettarti che ho iniziato a fare a botte con la gente del posto ♪ E ovviamente ho vinto tutti gli scontri!"
+            ],
+            "Tap": [
+                "Eh? Questo profumo... Sento odore di ravioli!\nHo una fame... Dove sono quei ravioli... Uscite fuori, miei cari ravioli!",
+                "No... ti prego, basta... Non voglio fare i compiti...\nMmm... eh? Oh, era solo un sogno...\nAllora esiste una cosa al mondo che nemmeno la potente Xiao Li può battere...",
+                "Desidero disperatamente incontrare una persona, la ammiro tantissimo!\nLa conosci? Si chiama Lü Bu! È forte come un gorilla!"
+            ],
+            "Idle": [
+                "Mmm... sento una presenza potente da quella parte...\nScommetto che è qualcuno di forte! Eheheh, Xiao Li andrà presto a conoscere questa persona!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Assalto d'Apertura": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Assalto Travolgente": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Potenziale Scatenato": {
+                    "BaseWeight": 2500
+                },
+                "Drago Esecutore": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "XiaoLiRegular02": {
+        "Name": "Xiao Li",
+        "Name2": "Indomabile Guerriera Marziale",
+        "FullName": "Xiao Li - Indomabile Guerriera Marziale",
+        "Profile": "Poi Xiao Li sentì dire che Lü Bu era morta nella Terra della Pace. Incapace di crederci, partì per scoprire la verità... e, sorprendentemente, attraversò il mare a nuoto per raggiungere la Terra della Pace. Viaggiò quindi di luogo in luogo chiedendo notizie di Lü Bu, finché non ne trovò infine la tomba.",
+        "Profile_Ascended": "\"No! Non puoi morire prima che io ti abbia sfidata!\"\n\nDavanti ai resti della figura che aveva ammirato per così tanto tempo, Xiao Li gridò quelle parole nel suo cuore. Poi pose il Talismano della Resurrezione, un amuleto che aveva portato con sé dal Regno di Mezzo, sui resti di Lü Bu.\nAvrebbe sconfitto con le proprie mani la guerriera più forte che avesse mai ammirato, dimostrando di essere lei stessa la più forte di tutte.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Martello",
+        "forFilter_Element": "Water",
+        "Element": "Acqua",
+        "Cost": 34,
+        "Atk_Base": 1267,
+        "Hp_Base": 8085,
+        "Speed": 599,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "HP+ (Acqua)",
+            "SkillDescription": "Nelle unità alleate di tipo Acqua gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Assalto d'Apertura",
+                "SkillDescription": "400% di danno a 1 nemico, più il 200% per ogni volta che l'abilità è stata utilizzata da quando l'unità è entrata in campo (fino al 1000% di danno totale se l'abilità è già stata utilizzata almeno 3 volte).\n\nPoi, rimuove tutti gli effetti di Invisibilità (inclusa Super Invisibilità) dal bersaglio colpito.\n\nL'unità ottiene una Carica. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare fino a 3 Cariche e le perde tutte quando abbandona il campo.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Assalto Travolgente",
+                "SkillDescription": "500% di danno a 2 nemici, più il 100% per ogni volta che l'abilità è stata attivata da quando l'unità è entrata in campo (fino al 1000% di danno totale se l'abilità è già stata utilizzata almeno 5 volte). L'unità ottiene una Carica.\n\nPoi, rimuove Protezione Sonno e gli effetti di Ustione (inclusa Mega Ustione Curativa) dai bersagli colpiti e infligge loro Sonno Profondo per 100TU. Sonno Profondo sostituisce altri effetti di stato, non viene sostituito da Ustione o Sonno e non può essere purificato.\n\nUtilizzabile solo se l'unità ha esattamente 1 Carica accumulata.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Potenziale Scatenato",
+                "SkillDescription": "Gli alleati ottengono 8 Spiriti.\n\nCura del 100% l'unità. L'unità ottiene una Carica, Protezione Stordimento, Protezione Morte e Furia Intensa. Utilizzabile solo se l'unità ha esattamente 2 Cariche accumulate.\n\nProtezione Stordimento impedisce un'applicazione di Stordimento, poi si rimuove. Protezione Stordimento non si accumula. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. Furia Intensa aumenta l'attacco di un'unità a 1,5x per i 3 turni successivi e sostituisce altri effetti di Debolezza o Provocazione. Non può essere sostituito da effetti di Provocazione, ma può esserlo da effetti di Debolezza.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Drago Esecutore",
+                "SkillDescription": "1000% di danno a 1 nemico. Se il danno di questo attacco sconfigge un nemico, tutti gli altri nemici in campo subiscono Debolezza e Sonno Profondo per 100TU.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità.\n\nL'attacco delle unità indebolite è ridotto allo 0,75x fino alla fine del loro turno successivo. Debolezza risulta meno efficace se l'unità colpita ha l'attacco aumentato da altri effetti e può essere sostituito da effetti di Provocazione.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Combo d'Artista",
+                "SkillDescription": "L'unità ottiene immediatamente il turno dopo aver usato Assalto d'Apertura, Assalto Travolgente o Drago Esecutore. Poi, l'effetto non può riattivarsi fino all'avanzamento di 50TU.\n\nOgni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nQuando l'unità entra in campo, per 100TU l'unità:\n- È immune a Sonno.\n- È immune a Fuocogelo.\n- Ha una riduzione danni dell'80% dagli attacchi ricevuti.\n\nL'unità non può essere mandata tra i rinforzi dal campo e non può essere sconfitta subendo danno dall'effetto di stato Veleno o Ustione.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, curano l'unità del 100% del danno inflitto totale e ignorano:\n- Gli effetti di riduzione del danno\n- Gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n- Le abilità passive di contatto e l'effetto di stato Opposizione."
+            },
+            {
+                "SkillTitle": "Indomita Guerriera",
+                "SkillDescription": "L'unità entra in campo con Protezione Stordimento e Protezione Morte.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ignora gli attacchi che colpiscono esattamente 2 bersagli (gli attacchi che colpiscono tutti gli alleati non vengono ignorati). Se l'unità diventa invisibile, l'effetto di stato non viene annullato ignorando attacchi in questo modo.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità recupera il 50% degli HP massimi.\n\nAlla fine di ogni turno di ogni nemico addormentato, l'unità recupera il 100% degli HP massimi e riduce i suoi TU attuali di 50TU. La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Se si attiva 5 volte entro 50TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU."
+            },
+            {
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillTitle": "Att. Lance Lv3",
+                "SkillDescription": "10% di attacco extra contro unità che hanno equipaggiato una Lancia."
+            },
+            {
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ehilà! Sono Xiao Li, la più forte e la più brava artista marziale di sempre!\n\nE tu sei forte...? Mmm...\nOoh, percepisco che sei davvero forte!!\nAllora, che ne dici? Puoi combattere contro di me con tutte le tue forze?"
+            ],
+            "Login": [
+                "Beh, qualcuno ci ha messo un bel po'...!\nMi sono annoiata così tanto ad aspettarti che ho iniziato a fare a botte con la gente del posto ♪ E ovviamente ho vinto tutti gli scontri!"
+            ],
+            "Tap": [
+                "Eh? Questo profumo... Sento odore di ravioli!\nHo una fame... Dove sono quei ravioli... Uscite fuori, miei cari ravioli!",
+                "No... ti prego, basta... Non voglio fare i compiti...\nMmm... eh? Oh, era solo un sogno...\nAllora esiste una cosa al mondo che nemmeno la potente Xiao Li può battere...",
+                "Desidero disperatamente incontrare una persona, la ammiro tantissimo!\nLa conosci? Si chiama Lü Bu! È forte come un gorilla!"
+            ],
+            "Idle": [
+                "Mmm... sento una presenza potente da quella parte...\nScommetto che è qualcuno di forte! Eheheh, Xiao Li andrà presto a conoscere questa persona!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Assalto d'Apertura": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Assalto Travolgente": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Potenziale Scatenato": {
+                    "BaseWeight": 2500
+                },
+                "Drago Esecutore": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
                     }
                 }
             }

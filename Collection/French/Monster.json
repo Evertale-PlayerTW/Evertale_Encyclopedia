@@ -135338,7 +135338,7 @@
             },
             {
                 "SkillTitle": "Brume de l'Enfer",
-                "SkillDescription": "Tous les ennemis non-empoisonnés subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis tous les ennemis non-endormis subissent l'effet de statut de Méga Poison pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis si tout ennemi du champ de bataille n'est pas endormi ou empoisonné (p.ex. en raison de Protections), l'utilisateur prendra immédiatement le prochain tour et deviendra Enragé. Ceci remplacera les effets d'autres compétences d'Enragé sur cet utilisateur.\n\nUtilisable seulement si le lanceur possède une Charge de Force. Consomme une Charge de Force.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "SkillDescription": "Tous les ennemis non-empoisonnés subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis tous les ennemis non-endormis subissent l'effet de statut de Méga Poison pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis si tout ennemi du champ de bataille n'est pas endormi ou empoisonné (p.ex. en raison de Protections), l'utilisateur prendra immédiatement le prochain tour et deviendra Enragé. Ceci remplacera les effets d'autres compétences d'Enragé sur cet utilisateur.\n\nUtilisable seulement si le lanceur possède une Charge de Force. Consomme une Charge de Force.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. L'Attaque des unités Enragées est augmentée jusqu'à 1.5 fois jusqu'à la fin de leur prochain tour.",
                 "TU": 50,
                 "Spirit": "-1"
             },
@@ -135504,7 +135504,7 @@
             },
             {
                 "SkillTitle": "Brume de l'Enfer",
-                "SkillDescription": "Tous les ennemis non-empoisonnés subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis tous les ennemis non-endormis subissent l'effet de statut de Méga Poison pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis si tout ennemi du champ de bataille n'est pas endormi ou empoisonné (p.ex. en raison de Protections), l'utilisateur prendra immédiatement le prochain tour et deviendra Enragé. Ceci remplacera les effets d'autres compétences d'Enragé sur cet utilisateur.\n\nUtilisable seulement si le lanceur possède une Charge de Force. Consomme une Charge de Force.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "SkillDescription": "Tous les ennemis non-empoisonnés subissent l'effet de statut de Sommeil Maudit pendant 200TU. Puis tous les ennemis non-endormis subissent l'effet de statut de Méga Poison pendant 200TU. Ceci remplacera les autres effets de statut sur ces unités.\n\nPuis si tout ennemi du champ de bataille n'est pas endormi ou empoisonné (p.ex. en raison de Protections), l'utilisateur prendra immédiatement le prochain tour et deviendra Enragé. Ceci remplacera les effets d'autres compétences d'Enragé sur cet utilisateur.\n\nUtilisable seulement si le lanceur possède une Charge de Force. Consomme une Charge de Force.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison. L'Attaque des unités Enragées est augmentée jusqu'à 1.5 fois jusqu'à la fin de leur prochain tour.",
                 "TU": 50,
                 "Spirit": "-1"
             },
@@ -135683,7 +135683,7 @@
         "Hp_Base": 4635,
         "Speed": 556,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Fini la protection; Maintenant, je détruis !",
         "LeaderSkill": {
             "SkillTitle": "Obscurité ATT+",
@@ -136029,6 +136029,419 @@
                     "BaseWeight": 0.99,
                     "Source": {
                         "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "XiaoLiRegular01": {
+        "Name": "Xiao Li",
+        "Name2": "Guerrière martiale indomptable",
+        "FullName": "Xiao Li - Guerrière martiale indomptable",
+        "Profile": "Xiao Li, une pratiquante habile des arts martiaux du lointain Royaume du Milieu, passait ses jours à voyager d'un point à l'autre à la recherche d'adversaires puissants. Après avoir vaincu d'innombrables guerriers renommés, la dernière qu'elle recherchait était Lü Bu, redoutée à travers le Royaume du Milieu sous le nom de « Démon du Courroux. » Xiao Li idolâtrait Lü Bu, une figure légendaire, alors qu'elle visait le titre du plus fort guerrier de tous les temps.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Marteau",
+        "forFilter_Element": "Water",
+        "Element": "Eau",
+        "Cost": 28,
+        "Atk_Base": 1039,
+        "Hp_Base": 6015,
+        "Speed": 599,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Amène-toi !\nJe battrai quiconque !",
+        "LeaderSkill": {
+            "SkillTitle": "Eau PV+",
+            "SkillDescription": "Les alliés Eau voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fracas d'Ouverture",
+                "SkillDescription": "400% de dégâts à 1 ennemi, et 200% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux si cette compétence a déjà été utilisée 3 fois voire davantage).\n\nPuis tous les effets de statut de Furtivité (y compris la Super Furtivité) de la cible touchée sont retirés.\n\nL'utilisateur gagne une Charge. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver jusqu'à 3 Charges et toutes les Charges sont retirées d'une unité qui quitte le champ de bataille.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Exploseur K.O.",
+                "SkillDescription": "500% de dégâts à 2 ennemis, et 100% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux si cette compétence a déjà été utilisée 5 fois voire davantage). L'utilisateur gagne une Charge.\n\nPuis les Protections Sommeil et Brûlures (y compris la Méga Brûlure Soin) de toutes les cibles touchées sont retirées et elle subissent le Sommeil Profond pendant 100TU. Le Sommeil Profond remplacera les autres effets de statut, ne peut être remplacé par les effets de statut de Brûlure ou de Sommeil, et ne peut être Purifié.\n\nUtilisable seulement si le lanceur a conservé exactement une charge.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Potentiel Libéré",
+                "SkillDescription": "Les Alliés gagnent 8 Essences.\n\nSoigne intégralement l'utilisateur. L'utilisateur gagne une Charge, une Protection Étourdissement, une Protection Mort Instantanée et la Rage Intense. Utilisable seulement si le lanceur a conservé exactement deux Charges.\n\nUne Protection Étourdissement empêche l'application d'Étourdissement une fois, puis est retirée. Les Protections Étourdissement ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. La Rage Intense amplifie l'Attaque d'une unité de 1,5 fois durant ses 3 prochains tours, et remplacera les effets d'Affaiblissement ou d'Enragé existants. Elle ne peut être remplacée par d'autres effets d'Enragé mais peut l'être par les effets d'Affaiblissement.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Finisseur Dragon",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. Si les dégâts de cette attaque vainquent un ennemi, tous les autres ennemis du champ de bataille seront Affaiblies et subiront le Sommeil Profond pendant 100TU.\n\nUtilisable seulement si le lanceur possède 3 Charges. Consomme tous les Charges sur l'utilisateur.\n\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Artiste Combo",
+                "SkillDescription": "Cette unité prendra immédiatement le prochain tour après avoir utilisé Fracas d'Ouverture, Exploseur K.O. ou Finisseur Dragon. Puis cet effet ne peut être à nouveau déclenché jusqu'à ce que 50TU s'écoulent.\n\nÀ chaque fois que cette unité prend son tour et ses Compétences Actives ne sont pas désactivées, les Compétences Actives de cette unité ne pourront être désactivées jusqu'à la fin de son tour.\n\nLorsque cette unité entre sur le champ de bataille et pendant 100TU :\n- Elle ne peut être endormie.\n- Elle ne peut être engelée.\n- Elle bénéficie d'une réduction de 80% des dégâts provenant d'attaques.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille, et ne peut être vaincue par les dégâts provenant d'effets de statut de Poison ou de Brûlure.\n\nLes attaques de cette unité ne réveilleront pas les ennemis endormis, soignent cette unité de 100% des dégâts totaux infligés et ignorent :\n- Les effets de réduction de dégâts.\n- Tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n- Les compétences passives de Reflet et l'effet de statut de Contre Relais."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Talent Lance LV3",
+                "SkillDescription": "Bonus de 10% aux attaques contre les unités équipées d'une Lance."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Héééé ! Je m'appelle Xiao Li, la plus forte et meilleure artiste martiale de tous les temps !\n\nEt toi ? Es-tu fort...? Hmmmm...\nOoh, je ressens une énergie forte en toi !!\nDonc, qu'en penses-tu ? Peux-tu te battre contre moi de toutes tes forces ?"
+            ],
+            "Login": [
+                "Eh bien... Y'a quelqu'un qui a vraiment prit son temps––!\nJe me suis tellement ennuyée en t'attendant que j'ai commencé à me battre avec des locaux ♪ Et bien sûr, je les ai tous battus."
+            ],
+            "Tap": [
+                "Hein ? Cette odeur... Je sens des ravioles !\nJ'ai tellement faim... Où sont ces ravioles––Montrez-vous, mes chères ravioles !",
+                "Non... S'il vous plaît, arrêtez... Je ne veux pas faire mes devoirs...\nMmm... Hein ? Oh, c'était juste un rêve...\nDonc je suppose que c'est une chose de ce monde que même la puissante Xiao Li ne peut pas battre...",
+                "Il y a quelqu'un que je veux désespérément rencontrer; Que je vénère vraiment !\nLa connais-tu ? Elle s'appelle Lü Bu ! Elle est forte comme un gorille !"
+            ],
+            "Idle": [
+                "Hmmmm... Je ressens une présence forte venant de là-bas...\nJe parie que c'est quelqu'un de puissant ! Hé hé hé, Xiao Li va bientôt s'en aller pour rencontrer cette personne !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Fracas d'Ouverture": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Exploseur K.O.": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Potentiel Libéré": {
+                    "BaseWeight": 2500
+                },
+                "Finisseur Dragon": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "XiaoLiRegular02": {
+        "Name": "Xiao Li",
+        "Name2": "Guerrière martiale indomptable",
+        "FullName": "Xiao Li - Guerrière martiale indomptable",
+        "Profile": "Puis Xiao Li entendit une rumeur qui Lü Bu était morte en Terre de la Paix. Incapable de croire cela, elle décida de découvrir la vérité––Et incroyablement, elle traversa la mer à la nage pour atteindre la Terre de la Paix. Puis, elle voyagea d'un endroit à l'autre, demandant où se trouvait Lü Bu, jusqu'à ce qu'elle trouva finalement sa tombe.",
+        "Profile_Ascended": "« Non ! Tu ne peux pas être morte avant que je me sois battue contre toi ! »\n\nSe tenant devant les restes de la personne qu'elle avait admirée pendant si longtemps, Xiao Li s'écria ses paroles en son coeur. Puis elle plaça le Talisman de Résurrection, un charme de ressuscitation qu'elle avait amené du Royaume du Milieu, sur les restes du Lü Bu.\nElle voulait vaincre à tout prix la guerrière la plus forte qu'elle avait admirée de ses propres mains, et prouver qu'elle était elle-même la plus forte de tous.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Marteau",
+        "forFilter_Element": "Water",
+        "Element": "Eau",
+        "Cost": 34,
+        "Atk_Base": 1267,
+        "Hp_Base": 8085,
+        "Speed": 599,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Eau PV+",
+            "SkillDescription": "Les alliés Eau voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Fracas d'Ouverture",
+                "SkillDescription": "400% de dégâts à 1 ennemi, et 200% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux si cette compétence a déjà été utilisée 3 fois voire davantage).\n\nPuis tous les effets de statut de Furtivité (y compris la Super Furtivité) de la cible touchée sont retirés.\n\nL'utilisateur gagne une Charge. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver jusqu'à 3 Charges et toutes les Charges sont retirées d'une unité qui quitte le champ de bataille.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Exploseur K.O.",
+                "SkillDescription": "500% de dégâts à 2 ennemis, et 100% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux si cette compétence a déjà été utilisée 5 fois voire davantage). L'utilisateur gagne une Charge.\n\nPuis les Protections Sommeil et Brûlures (y compris la Méga Brûlure Soin) de toutes les cibles touchées sont retirées et elle subissent le Sommeil Profond pendant 100TU. Le Sommeil Profond remplacera les autres effets de statut, ne peut être remplacé par les effets de statut de Brûlure ou de Sommeil, et ne peut être Purifié.\n\nUtilisable seulement si le lanceur a conservé exactement une charge.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Potentiel Libéré",
+                "SkillDescription": "Les Alliés gagnent 8 Essences.\n\nSoigne intégralement l'utilisateur. L'utilisateur gagne une Charge, une Protection Étourdissement, une Protection Mort Instantanée et la Rage Intense. Utilisable seulement si le lanceur a conservé exactement deux Charges.\n\nUne Protection Étourdissement empêche l'application d'Étourdissement une fois, puis est retirée. Les Protections Étourdissement ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. La Rage Intense amplifie l'Attaque d'une unité de 1,5 fois durant ses 3 prochains tours, et remplacera les effets d'Affaiblissement ou d'Enragé existants. Elle ne peut être remplacée par d'autres effets d'Enragé mais peut l'être par les effets d'Affaiblissement.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Finisseur Dragon",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. Si les dégâts de cette attaque vainquent un ennemi, tous les autres ennemis du champ de bataille seront Affaiblies et subiront le Sommeil Profond pendant 100TU.\n\nUtilisable seulement si le lanceur possède 3 Charges. Consomme tous les Charges sur l'utilisateur.\n\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Artiste Combo",
+                "SkillDescription": "Cette unité prendra immédiatement le prochain tour après avoir utilisé Fracas d'Ouverture, Exploseur K.O. ou Finisseur Dragon. Puis cet effet ne peut être à nouveau déclenché jusqu'à ce que 50TU s'écoulent.\n\nÀ chaque fois que cette unité prend son tour et ses Compétences Actives ne sont pas désactivées, les Compétences Actives de cette unité ne pourront être désactivées jusqu'à la fin de son tour.\n\nLorsque cette unité entre sur le champ de bataille et pendant 100TU :\n- Elle ne peut être endormie.\n- Elle ne peut être engelée.\n- Elle bénéficie d'une réduction de 80% des dégâts provenant d'attaques.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille, et ne peut être vaincue par les dégâts provenant d'effets de statut de Poison ou de Brûlure.\n\nLes attaques de cette unité ne réveilleront pas les ennemis endormis, soignent cette unité de 100% des dégâts totaux infligés et ignorent :\n- Les effets de réduction de dégâts.\n- Tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n- Les compétences passives de Reflet et l'effet de statut de Contre Relais."
+            },
+            {
+                "SkillTitle": "Guerrier Indompté",
+                "SkillDescription": "Cette unité entre en bataille avec une Protection Étourdissement, et une Protection Mort Instantanée.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité ignorera les attaques qui infligeraient exactement 2 cibles (les attaques qui ciblent tous les Alliés ne seront pas ignorées). Si cette unité gagne l'effet de statut de Furtivité, elle ne le perdra pas lorsqu'elle ignore les attaques de cette façon.\n\nCette unité sera soignée de 50% de ses PV max à chaque fois qu'elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour.\n\nLes TU actuels de cette unité seront réduits de 50TU et cette unité sera soignée de 100% de ses PV max à la fin de chaque tour d'ennemis endormis. Cette réduction de TU peut être déclenchée avant ou après les autres effets qui ajustent l'ordre des tours. Cet effet ne peut être à nouveau déclenché jusqu'à ce que 50TU s'écoulent s'il a été déclenché 5 fois durant 50TU."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Talent Lance LV3",
+                "SkillDescription": "Bonus de 10% aux attaques contre les unités équipées d'une Lance."
+            },
+            {
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Héééé ! Je m'appelle Xiao Li, la plus forte et meilleure artiste martiale de tous les temps !\n\nEt toi ? Es-tu fort...? Hmmmm...\nOoh, je ressens une énergie forte en toi !!\nDonc, qu'en penses-tu ? Peux-tu te battre contre moi de toutes tes forces ?"
+            ],
+            "Login": [
+                "Eh bien... Y'a quelqu'un qui a vraiment prit son temps––!\nJe me suis tellement ennuyée en t'attendant que j'ai commencé à me battre avec des locaux ♪ Et bien sûr, je les ai tous battus."
+            ],
+            "Tap": [
+                "Hein ? Cette odeur... Je sens des ravioles !\nJ'ai tellement faim... Où sont ces ravioles––Montrez-vous, mes chères ravioles !",
+                "Non... S'il vous plaît, arrêtez... Je ne veux pas faire mes devoirs...\nMmm... Hein ? Oh, c'était juste un rêve...\nDonc je suppose que c'est une chose de ce monde que même la puissante Xiao Li ne peut pas battre...",
+                "Il y a quelqu'un que je veux désespérément rencontrer; Que je vénère vraiment !\nLa connais-tu ? Elle s'appelle Lü Bu ! Elle est forte comme un gorille !"
+            ],
+            "Idle": [
+                "Hmmmm... Je ressens une présence forte venant de là-bas...\nJe parie que c'est quelqu'un de puissant ! Hé hé hé, Xiao Li va bientôt s'en aller pour rencontrer cette personne !"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Fracas d'Ouverture": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Exploseur K.O.": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Potentiel Libéré": {
+                    "BaseWeight": 2500
+                },
+                "Finisseur Dragon": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
                     }
                 }
             }

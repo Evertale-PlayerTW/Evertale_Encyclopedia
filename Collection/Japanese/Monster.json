@@ -135685,7 +135685,7 @@
         "Hp_Base": 4635,
         "Speed": 556,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "もう誰も守らない\n壊すだけ",
         "LeaderSkill": {
             "SkillTitle": "攻撃力アップ（闇）",
@@ -136031,6 +136031,419 @@
                     "BaseWeight": 0.99,
                     "Source": {
                         "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "XiaoLiRegular01": {
+        "Name": "シャオリー",
+        "Name2": "不屈の武術家",
+        "FullName": "シャオリー - 不屈の武術家",
+        "Profile": "中華の国に伝わる拳法の使い手であるシャオリーは、強者を求め、日々各地を練り歩いていた。名だたる猛者を倒してきた彼女が探していたのは、中華の国で「修羅」と恐れられる呂布。伝説的な存在である彼女は、最強を目指すシャオリーにとって憧れだった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "ハンマー",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 28,
+        "Atk_Base": 1039,
+        "Hp_Base": 6015,
+        "Speed": 599,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "みんなみーんな\nぶっ倒してあげるよっ！",
+        "LeaderSkill": {
+            "SkillTitle": "HPアップ（水）",
+            "SkillDescription": "水属性の味方の最大HPを10%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "龍脈泉",
+                "SkillDescription": "敵1体に400%ダメージ。この攻撃のダメージ量は、このキャラが場に出てからこのスキルを使用するごとに200%ずつ増加していく（最大600%増加）。使用者は自身にチャージを1個付与する。\n\nその後、攻撃を受けた対象のステルス状態（ステルス(3回)状態を含む）を解除する。\n\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "ドラゴンブレス",
+                "SkillDescription": "敵2体に500%ダメージ。この攻撃のダメージ量は、このキャラが場に出てからこのスキルを使用するごとに100%ずつ増加していく（最大500%増加）。使用者は自身にチャージを1個付与する。\n\nその後、攻撃を受けた対象の「ワンタイムアンチスリープ」と燃焼状態（燃焼(20倍回復)状態なども含む）を解除し、状態変化「眠り(熟睡)」(100TU持続)を付与する。対象の既存の状態変化は上書きされる。\n\n自身が貯めているチャージがちょうど1個の時のみ使用可能。\n\n-眠り(熟睡)状態は、燃焼状態及び眠り状態に上書きされず、またクリア系の効果で解除されない。",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "黄金功夫",
+                "SkillDescription": "味方のスピリットを8増加させる。\n\n使用者のHPを最大まで回復し、チャージを1個付与し、さらに「ワンタイムアンチスタン」、「ワンタイムアンチ即死」、「激怒」を付与する。既存の「アンガー」系または「怯え」系の効果は上書きされる。\n\n自身が貯めているチャージがちょうど2個の時のみ使用可能。\n\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。\n-激怒状態のキャラは次の自身の3ターン、攻撃力が1.5倍される。激怒状態は「アンガー」系の効果とみなされる。激怒状態は他のアンガー系に上書きされないが、怯え系には上書きされる。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "必・殺・奥・義",
+                "SkillDescription": "敵1体に1000%ダメージ。この攻撃のダメージで対象が戦闘不能になった場合、敵全員に「怯え」および状態変化「眠り(熟睡)」(100TU持続)を付与する。対象の既存の状態変化、および「アンガー」、「怯え」系の効果は上書きされる。\n\n自身のチャージが3個貯まっている時のみ使用可能。チャージは使用後0に戻る。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "バトルジャンキー",
+                "SkillDescription": "・このキャラが「龍脈泉」、「ドラゴンブレス」、「必・殺・奥・義」のいずれかを使用した後、このキャラは自身のTUを0にして次のターンを得る。この効果は発動後、50TU経過するまで発動しなくなる。\n\n・麻痺していない状態でこのキャラにターンが回った時、そのターンが終わるまで、このキャラは麻痺されない。\n\n・このキャラは、自身がバトルに参加（バトル開始時点で場に出ている、または控えから場に出る）してから100TUの間、以下の効果が発動する。\n-眠り状態にならない。\n-フロストバーンを付与されない。\n-敵の攻撃で受けるダメージが80%減少する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、毒状態および燃焼状態のダメージで戦闘不能にならない。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-対象の眠り状態を攻撃のダメージで解除しない。\n-与えたダメージと同量分、自身のHPが回復する。\n-対象のダメージ減少効果を無視する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n-対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "槍狩りLv3",
+                "SkillDescription": "攻撃対象が槍を装備しているならば攻撃力10%上昇。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "どーもー、あたしの名前はシャオリー！\nさいきょうでサイキョウで最強の武術家っ！\n\nところで、君は強い奴かなぁ…むむむ…\nおっ、なんかビビビっと来たー！！\nねえ、あたしと本気で戦ってくれない？"
+            ],
+            "Login": [
+                "あ、遅ーい"
+            ],
+            "Tap": [
+                "この匂いは",
+                "もうやだよー",
+                "あたしの憧れ"
+            ],
+            "Idle": [
+                "むむむ…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "龍脈泉": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "ドラゴンブレス": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "黄金功夫": {
+                    "BaseWeight": 2500
+                },
+                "必・殺・奥・義": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "XiaoLiRegular02": {
+        "Name": "シャオリー",
+        "Name2": "不屈の武術家",
+        "FullName": "シャオリー - 不屈の武術家",
+        "Profile": "しかしシャオリーは、呂布が和の国で死んだという噂を耳にする。到底信じることのできなかった彼女は真偽を確かめるため、なんと海を泳ぎ渡って和の国へとたどり着いた。各地で呂布の行方を尋ね歩き、ついには彼女の墓を探し当てた。",
+        "Profile_Ascended": "「だめっ！あたしと戦う前に死んじゃうなんてっ！」\n死した憧れを前に、心でそう叫んだ彼女は、中華の国に伝わる蘇生の札――「反魂の札」を呂布の亡骸に貼り付けた。憧れた最強をこの手で打ち倒し、己こそが最強であると証明するために。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "ハンマー",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 34,
+        "Atk_Base": 1267,
+        "Hp_Base": 8085,
+        "Speed": 599,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "HPアップ（水）",
+            "SkillDescription": "水属性の味方の最大HPを10%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "龍脈泉",
+                "SkillDescription": "敵1体に400%ダメージ。この攻撃のダメージ量は、このキャラが場に出てからこのスキルを使用するごとに200%ずつ増加していく（最大600%増加）。使用者は自身にチャージを1個付与する。\n\nその後、攻撃を受けた対象のステルス状態（ステルス(3回)状態を含む）を解除する。\n\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "ドラゴンブレス",
+                "SkillDescription": "敵2体に500%ダメージ。この攻撃のダメージ量は、このキャラが場に出てからこのスキルを使用するごとに100%ずつ増加していく（最大500%増加）。使用者は自身にチャージを1個付与する。\n\nその後、攻撃を受けた対象の「ワンタイムアンチスリープ」と燃焼状態（燃焼(20倍回復)状態なども含む）を解除し、状態変化「眠り(熟睡)」(100TU持続)を付与する。対象の既存の状態変化は上書きされる。\n\n自身が貯めているチャージがちょうど1個の時のみ使用可能。\n\n-眠り(熟睡)状態は、燃焼状態及び眠り状態に上書きされず、またクリア系の効果で解除されない。",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "黄金功夫",
+                "SkillDescription": "味方のスピリットを8増加させる。\n\n使用者のHPを最大まで回復し、チャージを1個付与し、さらに「ワンタイムアンチスタン」、「ワンタイムアンチ即死」、「激怒」を付与する。既存の「アンガー」系または「怯え」系の効果は上書きされる。\n\n自身が貯めているチャージがちょうど2個の時のみ使用可能。\n\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-「ワンタイムアンチ即死」は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。\n-激怒状態のキャラは次の自身の3ターン、攻撃力が1.5倍される。激怒状態は「アンガー」系の効果とみなされる。激怒状態は他のアンガー系に上書きされないが、怯え系には上書きされる。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "必・殺・奥・義",
+                "SkillDescription": "敵1体に1000%ダメージ。この攻撃のダメージで対象が戦闘不能になった場合、敵全員に「怯え」および状態変化「眠り(熟睡)」(100TU持続)を付与する。対象の既存の状態変化、および「アンガー」、「怯え」系の効果は上書きされる。\n\n自身のチャージが3個貯まっている時のみ使用可能。チャージは使用後0に戻る。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "バトルジャンキー",
+                "SkillDescription": "・このキャラが「龍脈泉」、「ドラゴンブレス」、「必・殺・奥・義」のいずれかを使用した後、このキャラは自身のTUを0にして次のターンを得る。この効果は発動後、50TU経過するまで発動しなくなる。\n\n・麻痺していない状態でこのキャラにターンが回った時、そのターンが終わるまで、このキャラは麻痺されない。\n\n・このキャラは、自身がバトルに参加（バトル開始時点で場に出ている、または控えから場に出る）してから100TUの間、以下の効果が発動する。\n-眠り状態にならない。\n-フロストバーンを付与されない。\n-敵の攻撃で受けるダメージが80%減少する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、毒状態および燃焼状態のダメージで戦闘不能にならない。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-対象の眠り状態を攻撃のダメージで解除しない。\n-与えたダメージと同量分、自身のHPが回復する。\n-対象のダメージ減少効果を無視する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n-対象のスキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。"
+            },
+            {
+                "SkillTitle": "不屈の武術家",
+                "SkillDescription": "・このキャラはバトルに参加した時（バトル開始時点で場に出ている、または控えから場に出た時）、自身に「ワンタイムアンチスタン」および「ワンタイムアンチ即死」を付与する。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態異常によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラは、ちょうど2体を対象にする攻撃を受けない（場に味方が2体のみいる場合の全体攻撃などは、「2体を対象とする攻撃」に含まれない）。このキャラがステルス状態でかつこの効果が発動した場合、ステルス状態は解除されない。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、このキャラは自身のHPを最大値の50%分回復する。\n\n・このキャラは、眠り状態の敵にターンが回るたびに、そのターンの終了後に以下の効果が発動する。以下の効果は、50TU以内に5回発動した場合、その後は50TUが経過するまで発動しなくなる。\n-自身のHPを最大まで回復する。\n-自身のTUを50TU減少させる。この効果が発動するタイミングと、ターン間に発動する他の効果のタイミングは前後する場合がある。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "槍狩りLv3",
+                "SkillDescription": "攻撃対象が槍を装備しているならば攻撃力10%上昇。"
+            },
+            {
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "どーもー、あたしの名前はシャオリー！\nさいきょうでサイキョウで最強の武術家っ！\n\nところで、君は強い奴かなぁ…むむむ…\nおっ、なんかビビビっと来たー！！\nねえ、あたしと本気で戦ってくれない？"
+            ],
+            "Login": [
+                "あ、遅ーい"
+            ],
+            "Tap": [
+                "この匂いは",
+                "もうやだよー",
+                "あたしの憧れ"
+            ],
+            "Idle": [
+                "むむむ…"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "龍脈泉": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "ドラゴンブレス": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "黄金功夫": {
+                    "BaseWeight": 2500
+                },
+                "必・殺・奥・義": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
                     }
                 }
             }

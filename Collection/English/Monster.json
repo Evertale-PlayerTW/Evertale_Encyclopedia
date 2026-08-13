@@ -135683,7 +135683,7 @@
         "Hp_Base": 4635,
         "Speed": 556,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "I am done with protecting, now I only destroy!",
         "LeaderSkill": {
             "SkillTitle": "Dark Attack Up",
@@ -136029,6 +136029,419 @@
                     "BaseWeight": 0.99,
                     "Source": {
                         "1EnemyIsNotBossAndNotMirage": 7500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
+    },
+    "XiaoLiRegular01": {
+        "Name": "Xiao Li",
+        "Name2": "Indomitable Martial Warrior",
+        "FullName": "Xiao Li - Indomitable Martial Warrior",
+        "Profile": "Xiao Li, a skilled practitioner of the martial arts of the distant Middle Kingdom, was spending her days traveling from place to place in search of mighty opponents. After defeating countless renowned warriors, the latest one she sought was Lü Bu, feared throughout the Middle Kingdom as a \"Demon of Wrath\". A legendary figure, Lü Bu was idolized by Xiao Li as she pursued the title of the strongest warrior to ever live.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hammer",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 28,
+        "Atk_Base": 1039,
+        "Hp_Base": 6015,
+        "Speed": 599,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Bring it on!\nI'll take on and beat anyone!",
+        "LeaderSkill": {
+            "SkillTitle": "Water HP Up",
+            "SkillDescription": "Allied Water element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Opening Smash",
+                "SkillDescription": "400% damage to 1 enemy, plus 200% for each time this skill has already been used while on the battlefield (max of 1000% total damage after this skill has already been used 3 or more times).\n\nThen the target hit has all Stealth status effects removed (including Super Stealth).\n\nThe user is granted a Charge. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Knockout Blaster",
+                "SkillDescription": "500% damage to 2 enemies, plus 100% for each time this skill has already been used while on the battlefield (max of 1000% total damage after this skill has already been used 5 or more times). The user is granted a Charge.\n\nThen all targets hit have their Sleep Wards removed, burn removed (including Mega Healing Burn) and are granted Deep Sleep for 100TU. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified.\n\nUsable only if the user has stored exactly one charge.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Unleash Potential",
+                "SkillDescription": "Allies gain 8 Spirit.\n\nHeals the user fully. The user is granted a Charge, Stun Ward, Instant Death Ward and Intense Rage. Usable only if the user has stored exactly two charges.\n\nA Stun Ward prevents Stun from being applied once, then is removed. Stun Wards cannot stack. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack. Intense Rage increases a unit's Attack to 1.5x for their next 3 turns, and will overwrite existing Weak or Enrage effects. It cannot be overwritten by other Enrage effects but can be by Weak effects.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Dragon Finisher",
+                "SkillDescription": "1000% damage to 1 enemy. If damage from this attack defeats an enemy, all other enemies on the battlefield will be Weakened and granted Deep Sleep for 100TU.\n\nUsable only if the user has stored 3 Charges. Consumes all Charges on the user.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Combo Artist",
+                "SkillDescription": "This unit will immediately get the next turn after using Opening Smash, Knockout Blaster or Dragon Finisher. Then this effect cannot trigger again until 50TU advances.\n\nWhenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nWhen this unit enters the battlefield, for 100TU this unit:\n- Cannot fall asleep.\n- Cannot be Frostburned.\n- Has 80% damage reduction from attacks.\n\nThis unit cannot be sent to the reinforcements from the battlefield, and cannot be defeated by damage from Poison or Burn status effects.\n\nThis unit's attacks will not wake sleeping enemies, heal this unit for 100% of total damage dealt, and ignore:\n- damage reduction effects.\n- any effects of non-boss enemies that would prevent targets from being defeated.\n- skin passive skills, and the Counter Stance status effect."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Spear Hunter Lv3",
+                "SkillDescription": "10% bonus to attacks against units equipped with Spears."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Heeeey! I'm Xiao Li, the strongest and bestest martial artist ever!\n\nWhat about you, are you strong...? Hmmmm...\nOoh, I'm getting strong vibes from you!!\nSo how about it? Can you fight me with all your might?"
+            ],
+            "Login": [
+                "Well someone sure took their timeー!\nI've gotten so bored while waiting for you that I've started fights with some of the locals here♪ And of course, I've won them all!"
+            ],
+            "Tap": [
+                "Huh? This smell... I smell dumplings!\nI'm so hungry... Where are those dumplingsーCome on out, my dear dumplings!",
+                "No...please, no more... I don't wanna do homework...\nMmm...huh? Oh, it was just a dream...\nSo I guess that's one thing in this world which even the mighty Xiao Li cannot beat...",
+                "There's someone I desperately want to meet, who I really look up to!\nDo you know her? She's called Lü Bu! She's like strong as a gorilla!"
+            ],
+            "Idle": [
+                "Hmmmm...I sense a strong presence from over there...\nI bet it's someone powerful! He he he, Xiao Li will be on her way to meet this person shortly!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Opening Smash": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Knockout Blaster": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Unleash Potential": {
+                    "BaseWeight": 2500
+                },
+                "Dragon Finisher": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                }
+            }
+        }
+    },
+    "XiaoLiRegular02": {
+        "Name": "Xiao Li",
+        "Name2": "Indomitable Martial Warrior",
+        "FullName": "Xiao Li - Indomitable Martial Warrior",
+        "Profile": "Then Xiao Li heard a rumor that Lü Bu had died in the Land of Peace. Unable to believe it, she set out to discover the truth—and astonishingly, swam across the sea to reach the Land of Peace. She then traveled from place to place asking after Lü Bu's whereabouts, until at last she found her grave.",
+        "Profile_Ascended": "\"No! You can't be dead before I've fought you!\"\n\nStanding before the remains of the figure she had so long admired, Xiao Li cried those words in her heart. Then she placed the Talisman of Revival, a resurrection charm that she had brought from the Middle Kingdom, upon Lü Bu's remains.\nShe would defeat the strongest warrior she had admired with her own hands, and prove that she herself was the strongest of all.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hammer",
+        "forFilter_Element": "Water",
+        "Element": "Water",
+        "Cost": 34,
+        "Atk_Base": 1267,
+        "Hp_Base": 8085,
+        "Speed": 599,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Water HP Up",
+            "SkillDescription": "Allied Water element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Opening Smash",
+                "SkillDescription": "400% damage to 1 enemy, plus 200% for each time this skill has already been used while on the battlefield (max of 1000% total damage after this skill has already been used 3 or more times).\n\nThen the target hit has all Stealth status effects removed (including Super Stealth).\n\nThe user is granted a Charge. Certain skills are affected by and may consume charges. A unit can store up to 3 charges and all charges are removed from a unit that leaves the battlefield.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Knockout Blaster",
+                "SkillDescription": "500% damage to 2 enemies, plus 100% for each time this skill has already been used while on the battlefield (max of 1000% total damage after this skill has already been used 5 or more times). The user is granted a Charge.\n\nThen all targets hit have their Sleep Wards removed, burn removed (including Mega Healing Burn) and are granted Deep Sleep for 100TU. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified.\n\nUsable only if the user has stored exactly one charge.",
+                "TU": 50,
+                "Spirit": "+0"
+            },
+            {
+                "SkillTitle": "Unleash Potential",
+                "SkillDescription": "Allies gain 8 Spirit.\n\nHeals the user fully. The user is granted a Charge, Stun Ward, Instant Death Ward and Intense Rage. Usable only if the user has stored exactly two charges.\n\nA Stun Ward prevents Stun from being applied once, then is removed. Stun Wards cannot stack. An Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack. Intense Rage increases a unit's Attack to 1.5x for their next 3 turns, and will overwrite existing Weak or Enrage effects. It cannot be overwritten by other Enrage effects but can be by Weak effects.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Dragon Finisher",
+                "SkillDescription": "1000% damage to 1 enemy. If damage from this attack defeats an enemy, all other enemies on the battlefield will be Weakened and granted Deep Sleep for 100TU.\n\nUsable only if the user has stored 3 Charges. Consumes all Charges on the user.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Combo Artist",
+                "SkillDescription": "This unit will immediately get the next turn after using Opening Smash, Knockout Blaster or Dragon Finisher. Then this effect cannot trigger again until 50TU advances.\n\nWhenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nWhen this unit enters the battlefield, for 100TU this unit:\n- Cannot fall asleep.\n- Cannot be Frostburned.\n- Has 80% damage reduction from attacks.\n\nThis unit cannot be sent to the reinforcements from the battlefield, and cannot be defeated by damage from Poison or Burn status effects.\n\nThis unit's attacks will not wake sleeping enemies, heal this unit for 100% of total damage dealt, and ignore:\n- damage reduction effects.\n- any effects of non-boss enemies that would prevent targets from being defeated.\n- skin passive skills, and the Counter Stance status effect."
+            },
+            {
+                "SkillTitle": "Indomitable Warrior",
+                "SkillDescription": "This unit enters battle with a Stun Ward, and an Instant Death Ward.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit will ignore attacks that would damage exactly 2 targets (attacks that target All allies will not be ignored). If this unit gains the Stealth status effect, it will not be lost when ignoring attacks in this way.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will heal for 50% of its max HP.\n\nAt the end of each sleeping enemy turn, this unit will be healed for 100% of its max HP, and have its current TU reduced by 50TU. This TU reduction may trigger before or after other effects that adjust the turn order. If this triggers 5 times within 50TU, this effect cannot trigger again until 50TU advances."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Spear Hunter Lv3",
+                "SkillDescription": "10% bonus to attacks against units equipped with Spears."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Heeeey! I'm Xiao Li, the strongest and bestest martial artist ever!\n\nWhat about you, are you strong...? Hmmmm...\nOoh, I'm getting strong vibes from you!!\nSo how about it? Can you fight me with all your might?"
+            ],
+            "Login": [
+                "Well someone sure took their timeー!\nI've gotten so bored while waiting for you that I've started fights with some of the locals here♪ And of course, I've won them all!"
+            ],
+            "Tap": [
+                "Huh? This smell... I smell dumplings!\nI'm so hungry... Where are those dumplingsーCome on out, my dear dumplings!",
+                "No...please, no more... I don't wanna do homework...\nMmm...huh? Oh, it was just a dream...\nSo I guess that's one thing in this world which even the mighty Xiao Li cannot beat...",
+                "There's someone I desperately want to meet, who I really look up to!\nDo you know her? She's called Lü Bu! She's like strong as a gorilla!"
+            ],
+            "Idle": [
+                "Hmmmm...I sense a strong presence from over there...\nI bet it's someone powerful! He he he, Xiao Li will be on her way to meet this person shortly!"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "IsNotXiaoLiExtraTurn50TUTrigger": 1.1,
+                "IsCharged2": 1.01,
+                "IsCharged3": 1.1
+            },
+            "SkillUse": {
+                "Opening Smash": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Knockout Blaster": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsSleepImmune": 0.5,
+                        "IsBurning": 1.1
+                    }
+                },
+                "Unleash Potential": {
+                    "BaseWeight": 2500
+                },
+                "Dragon Finisher": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBurning": 1.1
                     }
                 }
             }
