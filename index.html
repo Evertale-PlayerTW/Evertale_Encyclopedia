@@ -2240,7 +2240,7 @@
 					}
 					return response;
 				} catch (error) {
-					console.error(`CORS proxy ${proxy} failed`, error);
+					console.log(`CORS proxy ${proxy} failed`, error);
 				}
 			}
 			throw new Error("All CORS proxies failed");
@@ -2262,18 +2262,26 @@
 				const cache_WholeData = localStorage.getItem(cacheKey_Data);
 				const cache_Time = localStorage.getItem(cacheKey_Time);
 				const cache_DataLang = localStorage.getItem(cacheKey_DataLang);
+
+				let hasWholeData = false;
 				if ((cache_DataLang === specifiedLang) && cache_WholeData && cache_Time && Date.now() < cache_Time) {
-					wholeData = JSON.parse(cache_WholeData);
-				} else {
+					try {
+						wholeData = JSON.parse(await decompressJSON(cache_WholeData));
+						hasWholeData = true;
+					} catch (error) {
+						console.error("Data cannot be restored from cache.", error);
+					}
+				}
+				if (!hasWholeData) {
 					document.getElementById("dataProgress").classList.remove("hidden");
 					await loadLanguageText();
 					await Promise.all([buildMonsterData(), buildWeaponData(), buildEquipmentData()]);
 					try {
-						localStorage.setItem(cacheKey_Data, JSON.stringify(wholeData));
+						localStorage.setItem(cacheKey_Data, await compressJSON(JSON.stringify(wholeData)));
 						localStorage.setItem(cacheKey_Time, (cacheDuration + Date.now()).toString());
 						localStorage.setItem(cacheKey_DataLang, specifiedLang);
-					} catch (e) {
-						console.log(e);
+					} catch (error) {
+						console.error(error);
 					}
 					document.getElementById("dataProgress").classList.add("hidden");
 				}
@@ -2968,6 +2976,38 @@
 			if (elementType[elementTypeKey]) return elementType[elementTypeKey];
 			elementType[elementTypeKey] = getTextByKey(elementTypeKey + "Key");
 			return elementType[elementTypeKey];
+		}
+
+		async function compressJSON(str) {
+			try {
+				const stream = new Blob([str])
+					.stream()
+					.pipeThrough(new CompressionStream("gzip"));
+				const blob = await new Response(stream).blob();
+
+				return new Promise(resolve => {
+					const reader = new FileReader();
+					reader.onload = () => resolve(reader.result);
+					reader.readAsDataURL(blob);
+				});
+			} catch (e) {
+				console.error("Compress failed. Return plain text.", e);
+				return str;
+			}
+		}
+
+		async function decompressJSON(cacheData) {
+			if (cacheData.startsWith('data:')) {
+				try {
+					const blob = await (await fetch(cacheData)).blob();
+					const stream = blob.stream().pipeThrough(new DecompressionStream("gzip"));
+					return await new Response(stream).text();
+				} catch (e) {
+					console.error("Decompress failed. Data is broken.", e);
+				}
+			} else {
+				return cacheData;
+			}
 		}
 	</script>
 
