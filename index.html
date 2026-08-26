@@ -1005,6 +1005,10 @@
 					<td data-i18n="Progress_EquipmentLabel"></td>
 					<td id="equipmentProgress" data-i18n="Progress_Wait"></td>
 				</tr>
+				<tr id="bossProgressRow">
+					<td data-i18n="Progress_BossLabel"></td>
+					<td id="bossProgress" data-i18n="Progress_Wait"></td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
@@ -1022,6 +1026,10 @@
 			<label>
 				<input type="radio" name="unit_category" value="Equipment" onchange="changeCategory()" />
 				<span data-i18n="Equipment"></span>
+			</label>
+			<label>
+				<input type="radio" name="unit_category" value="Boss" onchange="changeCategory()" />
+				<span data-i18n="Boss"></span>
 			</label>
 		</div>
 
@@ -1961,7 +1969,7 @@
 				const option = document.createElement("option");
 
 				if (!selectedRarities.includes(entry["Rarity"])) continue;
-				if (unit_category === "Monster" && !selectedElements.includes(entry["forFilter_Element"])) continue;
+				if (monsterGenericCategory.includes(unit_category) && !selectedElements.includes(entry["forFilter_Element"])) continue;
 				if (unit_category === "Weapon" && !selectedWeaponTypes.includes(entry["forFilter_WeaponType"])) continue;
 
 				filteredStars.add(entry["Stars_Curr"]);
@@ -2185,10 +2193,10 @@
 				templateSortableListRow.querySelector(".sortableListRowSpeed").textContent = itemData[datakey["Speed"]] ?? 0;
 				templateSortableListRow.querySelector(".sortableListRowPower").textContent = itemData[datakey["Power"]] ?? 0;
 
-				const headshot_fileName = (unit_category === "Monster") ? id : `${id.slice(0, -2)}01`;
+				const headshot_fileName = monsterGenericCategory.includes(unit_category) ? id : `${id.slice(0, -2)}01`;
 				const headshotImg = checkImageExisting(unit_category, "headshot", headshot_fileName, true, `headshotBlock${wholeData[unit_category][id]["Rarity"]}`);
 				templateSortableListRow.querySelector(".sortableListRowImg .headshotBox").replaceChildren(headshotImg);
-				const subIcon = unit_category === "Monster" ? getCodeByShowedName(wholeData[unit_category][id]["Element"]) : unit_category === "Weapon" ? getCodeByShowedName(wholeData[unit_category][id]["WeaponType"]) : null;
+				const subIcon = monsterGenericCategory.includes(unit_category) ? getCodeByShowedName(wholeData[unit_category][id]["Element"]) : unit_category === "Weapon" ? getCodeByShowedName(wholeData[unit_category][id]["WeaponType"]) : null;
 				if (subIcon) {
 					templateSortableListRow.querySelector(".sortableListRowImg .subIcon").src = `icon/${subIcon}.png`;
 				} else {
@@ -2275,7 +2283,8 @@
 				if (!hasWholeData) {
 					document.getElementById("dataProgress").classList.remove("hidden");
 					await loadLanguageText();
-					await Promise.all([buildMonsterData(), buildWeaponData(), buildEquipmentData()]);
+					const RUN_BOSS = true;
+					await Promise.all([buildMonsterData(), buildWeaponData(), buildEquipmentData(), buildMonsterData(RUN_BOSS)]);
 					try {
 						localStorage.setItem(cacheKey_Data, await compressJSON(JSON.stringify(wholeData)));
 						localStorage.setItem(cacheKey_Time, (cacheDuration + Date.now()).toString());
@@ -2294,6 +2303,7 @@
 					Monster: `Collection/${specifiedLang}/Monster.json`,
 					Weapon: `Collection/${specifiedLang}/Weapon.json`,
 					Equipment: `Collection/${specifiedLang}/Accessory.json`,
+					Boss: `Collection/${specifiedLang}/Boss.json`,
 				};
 				await Promise.all(
 					Object.entries(dataUrls).map(async ([key, url]) => {
@@ -2321,7 +2331,7 @@
 			});
 
 			document.getElementById("languageProgress").textContent = getLocalizationText("Progress_Loading");
-			console.time("Lang");
+			// console.time("LanguageText");
 			try {
 				for (const [langKey, filelink] of Object.entries(langLink)) {
 					let singleLangData = {};
@@ -2423,7 +2433,7 @@
 				alert(error)
 				throw error;
 			}
-			console.timeEnd("Lang");
+			// console.timeEnd("LanguageText");
 		}
 
 		function getTextByKey(textKey) {
@@ -2443,7 +2453,7 @@
 		}
 
 		async function buildEquipmentData() {
-			console.time("Equ");
+			// console.time("EquipmentData");
 			document.getElementById("equipmentProgress").textContent = getLocalizationText("Progress_Loading");
 			try {
 				const baseEquipmentConfigUrl = `${resourceUrlPrefix}Equipment.json`;
@@ -2479,7 +2489,7 @@
 				}
 
 				wholeData["Equipment"] = equipmentData;
-				console.timeEnd("Equ");
+				// console.timeEnd("EquipmentData");
 				document.getElementById("equipmentProgress").textContent = getLocalizationText("Progress_Complete");
 			} catch (error) {
 				document.getElementById("equipmentProgress").textContent = getLocalizationText("Progress_Failed");
@@ -2490,7 +2500,7 @@
 		}
 
 		async function buildWeaponData() {
-			console.time("Weap");
+			// console.time("WeaponData");
 			document.getElementById("weaponProgress").textContent = getLocalizationText("Progress_Loading");
 			try {
 				const baseWeaponConfigUrl = `${resourceUrlPrefix}Weapon.json`;
@@ -2544,7 +2554,7 @@
 				setExtraEvoCount(weaponData);
 
 				wholeData["Weapon"] = weaponData;
-				console.timeEnd("Weap");
+				// console.timeEnd("WeaponData");
 				document.getElementById("weaponProgress").textContent = getLocalizationText("Progress_Complete");
 			} catch (error) {
 				document.getElementById("weaponProgress").textContent = getLocalizationText("Progress_Failed");
@@ -2554,12 +2564,18 @@
 			}
 		}
 
-		async function buildMonsterData() {
-			console.time("Mons");
-			document.getElementById("monsterProgress").textContent = getLocalizationText("Progress_Loading");
+		async function buildMonsterData(isBoss = false) {
+			const monsType = isBoss ? "Boss" : "Monster";
+			// console.time(`${monsType}Data`);
+			if (isBoss) {
+				document.getElementById("bossProgress").textContent = getLocalizationText("Progress_Loading");
+			} else {
+				document.getElementById("monsterProgress").textContent = getLocalizationText("Progress_Loading");
+			}
 			try {
-				//載入基礎設定
-				const baseMonsterConfigUrl = `${resourceUrlPrefix}${tempInput == -8055 ? "Boss" : "Monster"}.json`;
+				//載入基礎設定				
+				// const baseMonsterConfigUrl = `${resourceUrlPrefix}${tempInput == -8055 ? "Boss" : "Monster"}.json`;
+				const baseMonsterConfigUrl = `${resourceUrlPrefix}${monsType}.json`;
 				const baseMonsterConfig = await fetchCheckWithProxy(baseMonsterConfigUrl)
 					.then((res) => res.json())
 					.then((data) => data["Monster"]);
@@ -2766,14 +2782,24 @@
 					monsterData[entryID] = monsterContent;
 				}
 
-				setExtraEvoCount(monsterData);
-				await setRelationshipData(monsterData);
+				if (!isBoss) {
+					setExtraEvoCount(monsterData);
+					await setRelationshipData(monsterData);
+				}
 
-				wholeData["Monster"] = monsterData;
-				console.timeEnd("Mons");
-				document.getElementById("monsterProgress").textContent = getLocalizationText("Progress_Complete");
+				wholeData[monsType] = monsterData;
+				// console.timeEnd(`${monsType}Data`);
+				if (isBoss) {
+					document.getElementById("bossProgress").textContent = getLocalizationText("Progress_Complete");
+				} else {
+					document.getElementById("monsterProgress").textContent = getLocalizationText("Progress_Complete");
+				}
 			} catch (error) {
-				document.getElementById("monsterProgress").textContent = getLocalizationText("Progress_Failed");
+				if (isBoss) {
+					document.getElementById("bossProgress").textContent = getLocalizationText("Progress_Failed");
+				} else {
+					document.getElementById("monsterProgress").textContent = getLocalizationText("Progress_Failed");
+				}
 				console.error("Read or parse error:", error);
 				alert(error)
 				throw error;
@@ -3028,6 +3054,7 @@
 		let currentDisplayCategory = null;
 		let currentDisplayID = null;
 		let hasCosmo = false;
+		const monsterGenericCategory = ["Monster", "Boss"];
 
 		function displayData(id, myCategory) {
 			id ??= document.getElementById("targetSelect").value;
@@ -3071,7 +3098,7 @@
 		function setGeneralStats(id) {
 			document.getElementById("generalStatsArea").classList.remove("hidden");
 
-			const headshot_fileName = (currentDisplayCategory === "Monster") ? id : `${id.slice(0, -2)}01`;
+			const headshot_fileName = monsterGenericCategory.includes(currentDisplayCategory) ? id : `${id.slice(0, -2)}01`;
 			document.querySelector("#headshot_General img")?.remove();
 			document.querySelector("#headshot_Cosmo img")?.remove();
 			if (headshot_fileName != null) {
@@ -3459,7 +3486,7 @@
 			const linkElement = document.createElement("a");
 			linkElement.href = `?id=${id}`;
 			const textContent = getFullNameAddStarsOrRarity(id, category, addStars, addRarity);
-			const img = checkImageExisting(category, "headshot", ((category === "Monster") ? id : `${id.slice(0, -2)}01`), true, `headshotBlock${wholeData[category][id]["Rarity"]}`);
+			const img = checkImageExisting(category, "headshot", (monsterGenericCategory.includes(category) ? id : `${id.slice(0, -2)}01`), true, `headshotBlock${wholeData[category][id]["Rarity"]}`);
 			linkElement.append(img, textContent);
 			return linkElement;
 		}
@@ -3506,7 +3533,7 @@
 			document.getElementById("imageContent").innerHTML = "";
 
 			const id_LowerCase = id.toLowerCase()
-			const portrait_fileName = (currentDisplayCategory === "Monster") ? id_LowerCase : `${id_LowerCase.slice(0, -2)}01`;
+			const portrait_fileName = monsterGenericCategory.includes(currentDisplayCategory) ? id_LowerCase : `${id_LowerCase.slice(0, -2)}01`;
 			const portraitGeneral = checkImageExisting(currentDisplayCategory, "portrait", portrait_fileName);
 			if (portraitGeneral) {
 				document.getElementById("imageContent").appendChild(checkHasOld(portrait_fileName, portraitGeneral));
@@ -3524,7 +3551,7 @@
 					}
 				}
 				//立繪
-				if (currentDisplayCategory === "Monster") {
+				if (monsterGenericCategory.includes(currentDisplayCategory)) {
 					let tachieImg;
 					if (tachieImg = checkImageExisting("Tachie", "tachie", id_LowerCase) || checkImageExisting("Tachie", "past", id_LowerCase)) {
 						document.getElementById("imageContent").appendChild(tachieImg);
@@ -3541,13 +3568,14 @@
 
 		function checkHasOld(id, portraitImg) {
 			const path_oldImg = (`portrait/${id}_old`).toLowerCase();
-			const oldPortraits = imageSource[currentDisplayCategory]["filelist"]?.filter(pic => pic.startsWith(path_oldImg)) ?? [];
+			const img_category = currentDisplayCategory === "Boss" ? "Monster" : currentDisplayCategory;
+			const oldPortraits = imageSource[img_category]["filelist"]?.filter(pic => pic.startsWith(path_oldImg)) ?? [];
 			if (oldPortraits.length >= 1) {
 				const imgWrap = document.createElement("div");
 				imgWrap.classList.add("hasOld");
 				imgWrap.appendChild(portraitImg);
 				oldPortraits.forEach((pic, index) => {
-					const portrait_old = checkImageExisting(currentDisplayCategory, "portrait", pic.match(/portrait\/(.*)\..*/)[1]);
+					const portrait_old = checkImageExisting(img_category, "portrait", pic.match(/portrait\/(.*)\..*/)[1]);
 					if (index === 0) {
 						portrait_old.addEventListener("click", (e) => {
 							const imgs = e.currentTarget.parentElement.querySelectorAll("img");
@@ -3621,6 +3649,7 @@
 		}
 
 		function checkImageExisting(img_category, img_type, img_name, forceTrue = false, bgClass = "") {
+			if (img_category === "Boss") img_category = "Monster";
 			const imgPath = ((img_category.toLowerCase() === img_type.toLowerCase()) ? `${img_name}.png` : `${img_type}/${img_name}.png`).toLowerCase();
 			if (forceTrue || imageSource[img_category]["filelist"].includes(imgPath)) {
 				const newImage = document.createElement("img")
@@ -3638,7 +3667,7 @@
 
 		function setModelPreview(id) {
 			document.getElementById("modelPreview").innerHTML = "";
-			if (currentDisplayCategory !== "Monster") { document.getElementById("modelZone").classList.add("hidden"); return; }
+			if (!monsterGenericCategory.includes(currentDisplayCategory)) { document.getElementById("modelZone").classList.add("hidden"); return; }
 
 			const id_LowerCase = id.toLowerCase();
 			const matchedModel = [];
@@ -3698,6 +3727,7 @@
 				document.getElementById("input_refine").value = "0.00";
 				document.getElementById("input_mastery").value = 0;
 
+				document.getElementById("infiniteMode").disabled = false;
 				document.getElementById("infiniteMode").checked = false;
 				nowInfiniteMode = false;
 				document.getElementById("result_atk").value = "";
@@ -3710,6 +3740,11 @@
 				document.getElementById("resultInvolvePassive").checked = true;
 
 				setStatsVal(id);
+
+				if (currentDisplayCategory === "Boss") {
+					document.getElementById("infiniteMode").click();
+					document.getElementById("infiniteMode").disabled = true;
+				}
 
 				document.getElementById("powerCalculatorArea").classList.remove("hidden");
 			} else {
@@ -3755,7 +3790,7 @@
 				document.getElementById("pc_awakeningInput").classList.add("hidden");
 			}
 
-			if (currentDisplayCategory === "Monster" && wholeData[currentDisplayCategory][id]["Stars_Curr"] === 6) {
+			if (monsterGenericCategory.includes(currentDisplayCategory) && wholeData[currentDisplayCategory][id]["Stars_Curr"] === 6) {
 				document.getElementById("pc_cosmoInput").classList.remove("hidden");
 			} else {
 				document.getElementById("pc_cosmoInput").classList.add("hidden");
@@ -3774,7 +3809,7 @@
 				document.getElementById("input_refine").readOnly = true;
 			}
 
-			if (currentDisplayCategory === "Monster" && wholeData[currentDisplayCategory][id]["Stars_Max"] > 3) {
+			if (monsterGenericCategory.includes(currentDisplayCategory) && wholeData[currentDisplayCategory][id]["Stars_Max"] > 3) {
 				document.getElementById("pc_masteryInput").classList.remove("hidden");
 				document.getElementById("input_mastery").max = 40;
 				document.getElementById("hint_mastery").textContent = `${document.getElementById("input_mastery").min}~${document.getElementById("input_mastery").max
@@ -3952,6 +3987,7 @@
 			if (
 				(document.getElementById("input_awakening").value >= 4 &&
 					document.getElementById("input_level").value >= 100) ||
+				(currentDisplayCategory === "Boss") ||
 				nowInfiniteMode
 			) {
 				document.getElementById("input_cosmo").disabled = false;
@@ -4025,7 +4061,7 @@
 				document.getElementById("hint_refine").textContent = `${document.getElementById("input_refine").min}~`;
 				document.getElementById("input_refine").readOnly = false;
 
-				if (currentDisplayCategory === "Monster") {
+				if (monsterGenericCategory.includes(currentDisplayCategory)) {
 					document.getElementById("pc_cosmoInput").classList.remove("hidden");
 					document.getElementById("input_cosmo").disabled = false;
 
@@ -4087,7 +4123,7 @@
 			}
 
 			document.getElementById("input_mastery").value =
-				currentDisplayCategory === "Monster" && wholeData[currentDisplayCategory][id]["Stars_Max"] > 3 ? 40 : 0;
+				monsterGenericCategory.includes(currentDisplayCategory) && wholeData[currentDisplayCategory][id]["Stars_Max"] > 3 ? 40 : 0;
 		});
 
 		document.getElementById("button_calcPower").addEventListener("click", function () {

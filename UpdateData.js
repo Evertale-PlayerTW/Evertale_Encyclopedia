@@ -237,7 +237,8 @@ async function loadWholeData() {
 		elementType = {};
 		passiveBonus = {};
 
-		await Promise.all([buildMonsterData(), buildWeaponData(), buildEquipmentData()]);
+		const RUN_BOSS = true;
+		await Promise.all([buildMonsterData(), buildWeaponData(), buildEquipmentData(), buildMonsterData(RUN_BOSS)]);
 		console.log(`- [${lang}] done`);
 	}
 }
@@ -395,10 +396,11 @@ async function buildWeaponData() {
 	}
 }
 
-async function buildMonsterData() {
+async function buildMonsterData(isBoss = false) {
+	const monsType = isBoss ? "Boss" : "Monster";
 	try {
 		//載入基礎設定
-		const baseMonsterConfig = JSON.parse(fs.readFileSync(path.join("Config", "Monster.json"), "utf-8"))["Monster"];
+		const baseMonsterConfig = JSON.parse(fs.readFileSync(path.join("Config", `${monsType}.json`), "utf-8"))["Monster"];
 
 		//載入技能設定
 		const abilityDataConfig = {};
@@ -586,10 +588,12 @@ async function buildMonsterData() {
 			monsterData[entryID] = monsterContent;
 		}
 
-		setExtraEvoCount(monsterData);
-		await setRelationshipData(monsterData);
+		if (!isBoss) {
+			setExtraEvoCount(monsterData);
+			await setRelationshipData(monsterData);
+		}
 
-		fs.writeFileSync(path.join(currentFolder, "Monster.json"), JSON.stringify(monsterData, null, 4), "utf8");
+		fs.writeFileSync(path.join(currentFolder, `${monsType}.json`), JSON.stringify(monsterData, null, 4), "utf8");
 	} catch (error) {
 		console.error("Read or parse error:", error);
 		throw error;
