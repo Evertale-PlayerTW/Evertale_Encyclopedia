@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1787711615,
+	"Time": 1787714015,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -91291,6 +91291,288 @@
 			"showAsTimer": true,
 			"showAsPermanent": false,
 			"iconSpriteName": "IconBlueCountdownClock3"
+		},
+		"BloodSuckerPassiveADraculaRegular": {
+			"class": "Buff",
+			"stackName": "BloodSuckerPassiveADraculaRegular",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","OthersEnterBattle","BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["50PercentDamageReduction","KnockbackImmunity","BlockInstantKill","BlockDeathByPoisonDamage","Active1LOCKForActive4DraculaRegular","Active2LOCKForActive4DraculaRegular","Active3LOCKForActive4DraculaRegular"]
+			},{
+				"allyBuffs": ["HitEnemyReduceSourceTU30DraculaRegular"],
+				"enemyBuffs": ["HitEnemyReduceSourceTU30DraculaRegular"]
+			},{
+				"contextBuffs": ["HitEnemyReduceSourceTU30DraculaRegular"]
+			},{
+				"selfBuffs": ["DraculaRegularPassiveHitLock"]
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"TransylvaniaPassiveADraculaRegular": {
+			"class": "Buff",
+			"stackName": "TransylvaniaPassiveADraculaRegular",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffWhenMonstersDie"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["HoldGround","FrostBiteCounterImmunityOnce","StunImmunityOnce","HealFullEveryTurnFor100TU"]
+			},{
+				"selfBuffs": ["PseudoGetTurn","OnExtraTurn","JustGivenTurn","FortifyFor3Attacks"],
+				"spreadCondition": "BattleTimeOver1OrAnyDeadMonster"
+			},{
+				"sourceBuffs": ["RemoveBuffs","CloneSourceToFrontDraculaRegular","ClonePassiveLockDraculaRegular"],
+				"deadMonsterConditions": "IsNotSummonedOrTransformingOrMirage",
+				"spreadCondition": "IsNotClonePassiveLockDraculaRegular"
+			}],
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"HealFullEveryTurnFor100TU": {
+			"class": "Buff",
+			"behaviors": ["BuffOnMonsterTurn"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["HealFull"],
+				"activeMonsterConditions": "AlwaysTrue"
+			}],
+			"stackName": "HealFullEveryTurnFor100TU",
+			"duration": 100,
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"iconSpriteName": "IconGreenRegenerationHeart01"
+		},
+		"ClonePassiveLockDraculaRegular": {
+			"class": "Buff",
+			"stackName": "ClonePassiveLockDraculaRegular",
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"duration": -1
+		},
+		"CloneSourceToFrontDraculaRegular": {
+			"class": "Buff",
+			"stackName": "CloneSourceToFrontDraculaRegular",
+			"behaviors": ["SummonMonster"],
+			"behaviorOverrides": [{
+				"cloneSource": true,
+				"cloneSourceStats": true,
+				"cloneSourceWeapon": true,
+				"cloneSourceEquipment": true,
+				"frontOfLineup": true
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"HitEnemyReduceSourceTU30DraculaRegular": {
+			"class": "Buff",
+			"behaviors": ["BuffChanceOnHit","RemoveOnSourceDeath"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["TUMinus30"],
+				"spreadCondition": "IsNotDraculaRegularPassiveHitLock",
+				"targetCondition": "IsNotActing"
+			},{}],
+			"duration": -1,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true
+		},
+		"DraculaRegularPassiveHitLock":{
+			"class": "Buff",
+			"duration": 30,
+			"stackName": "DraculaRegularPassiveHitLock",
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconRedCountdownPassiveClock3",
+			"applyConditions": "IsNotSleepingOrDisabled"
+		},
+		"GrantTurnRemoveDisableDraculaRegularLV1": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBlockGiveTurn"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "NoAwakening20Percent"
+		},
+		"GrantTurnRemoveDisableDraculaRegularLV2": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBlockGiveTurn"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "1Awakening40Percent"
+		},
+		"GrantTurnRemoveDisableDraculaRegularLV3": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBlockGiveTurn"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "2Awakening60Percent"
+		},
+		"GrantTurnRemoveDisableDraculaRegularLV4": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBlockGiveTurn"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "3Awakening80Percent"
+		},
+		"GrantTurnRemoveDisableDraculaRegularLV5": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["GiveTurn","OnExtraTurn","JustGivenTurn","RemoveBlockGiveTurn"],
+				"numRandomToBuff": 1
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"showAsPermanent": false,
+			"isHiddenFromPlayers": true,
+			"applyConditions": "Has4Awakenings"
+		},
+		"FrostBiteCounterImmunityOnce": {
+			"class": "Buff",
+			"behaviors": ["Immunity"],
+			"stackName": "FrostBiteCounterImmunityOnce",
+				"behaviorOverrides": [{
+					"stackNamesToBlock": ["FrostBurn"],
+					"useLimit": 1
+				}],
+			"duration": -1,
+			"showAsTimer": true,
+			"tags": ["FrostbittenImmuneTemp","ThisIsAWard"],
+			"iconSpriteName": "IconFrostBurnInvalid01"
+		},
+		"MaybeInstantDefeatDraculaRegularEBB": {
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"sourceBuffs": ["KillRandomEnemyEOTAndCreditKillDraculaRegular"],
+				"spreadCondition": "1EnemyIsStealthOrInstantDeathImmunityOnce"
+			}],
+			"duration": 0,
+			"showAsTimer": false
+		},
+		"KillRandomEnemyEOTAndCreditKillDraculaRegular":{
+			"class": "Buff",
+			"behaviors": ["EnterBattleBuff"],
+			"behaviorOverrides": [{
+				"randomEnemyBuffs": ["PT2InstantKillAndCreditKillDraculaRegular"],
+				"numRandomToBuff": 1,
+				"spreadCondition": "IsNotBossAndNotMirage"
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": false,
+			"duration": 0,
+			"isHiddenFromPlayers": true
+		},
+		"PT2InstantKillAndCreditKillDraculaRegular": {
+			"class": "Buff",
+			"stackName": "InstantKill",
+			"behaviors": ["EnterBattleBuff","EnterBattleBuff","InstantDeath"],
+			"behaviorOverrides": [{
+				"selfBuffs": ["DraculaRegularInstantDeathFXBuff"]
+			},{	
+				"sourceBuffs": ["Add1Kill"]
+			},{}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"Active1LOCKForActive4DraculaRegular":{
+			"class": "Buff",
+			"stackName": "Active1LOCKForActive4DraculaRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"Active2LOCKForActive4DraculaRegular":{
+			"class": "Buff",
+			"stackName": "Active2LOCKForActive4DraculaRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"Active3LOCKForActive4DraculaRegular":{
+			"class": "Buff",
+			"stackName": "Active3LOCKForActive4DraculaRegular",
+			"duration": -1,
+			"isHiddenFromPlayers": true,
+			"showAsPermanent": false,
+			"showAsTimer": false
+		},
+		"RemoveActive1LOCKForActive4DraculaRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active1LOCKForActive4DraculaRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveActive2LOCKForActive4DraculaRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active2LOCKForActive4DraculaRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"RemoveActive3LOCKForActive4DraculaRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "Active3LOCKForActive4DraculaRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
+		},
+		"DraculaRegularActive2Cooldown50": {
+			"class": "Buff",
+			"stackName": "InstantCooldown",
+			"duration": 50,
+			"isHiddenFromPlayers": false,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered02"
+		},
+		"DraculaRegularActive3Cooldown50": {
+			"class": "Buff",
+			"stackName": "InstantCooldown2",
+			"duration": 50,
+			"isHiddenFromPlayers": false,
+			"showAsTimer": true,
+			"showAsPermanent": false,
+			"iconSpriteName": "IconBlueCountdownClock3Numbered03"
 		}
     }
 }

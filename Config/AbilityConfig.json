@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1787630380,
+	"Time": 1787645626,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -48278,6 +48278,97 @@
 			"recommendEffectWhenUsable": -2,
 			"flags": ["Duration"],
 			"useCondition": "IsCharged3AndNotInstantCooldown"
+		},
+		"SingleAttackADraculaRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "VampireDrain1"
+			},{
+				"buffs": ["NoTurnsFor30TU"],
+				"applyConditions": "On1HPIsNotBoss",
+				"applyToTargetType": "Enemy",
+				"showMissConditions": "ShowNoMiss",
+				"skipAbilityEffect": true
+			},{
+				"buffs":["GoodGirlBuffCounter","RemoveActive1LOCKForActive4DraculaRegular"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "DraculaSingleAtatck1",
+			"recommendEffectWhenUsable": -2
+		},
+		"EnemyBuffADraculaRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["EmptyPlaceholder"],
+				"applyToTargetType": "Enemy"
+			},{
+				"buffs": ["50PercentChanceToRemoveStealthAndInstantDeathWardsFromAllEnemies","MaybeInstantDefeatDraculaRegularEBB","RemoveActive2LOCKForActive4DraculaRegular","DraculaRegularActive2Cooldown50"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["NoDamage"],
+			"abilityEffect": "DraculaPoison1",
+			"useCondition": "TimeInCombat50NotInstantCooldown"
+		},
+		"MultiAttackADraculaRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "AllEnemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["IgnoreArmor","IgnoreSkin"],
+				"drainPercent": 1.0,
+				"drainEffect": "VampireDrain1"
+			},{
+				"buffs": ["GrantTurnRemoveDisableDraculaRegularLV1","GrantTurnRemoveDisableDraculaRegularLV2","GrantTurnRemoveDisableDraculaRegularLV3","GrantTurnRemoveDisableDraculaRegularLV4","GrantTurnRemoveDisableDraculaRegularLV5"],
+				"buffBackMode": true,
+				"applyToTargetOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss"
+			},{
+				"buffs": ["GoodGirlBuffCounter","DraculaRegularActive3Cooldown50","RemoveActive3LOCKForActive4DraculaRegular"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Hit",
+			"abilityEffect": "DraculaSP",
+			"attackScalors": ["GoodIfGain1GoodBuff","GoodIfGain2GoodBuff","GoodIfGain3GoodBuff","GoodIfGain4GoodBuff","GoodIfGain5GoodBuff"],
+			"conditionedAbilityEffects": ["DraculaSP","DraculaSP","DraculaSP","DraculaSP","DraculaSP"],
+			"recommendEffectWhenUsable": -2,
+			"useCondition": "NotInstantCooldown2"
+		},
+		"AllBuffADraculaRegular":{
+			"class": "AbilityConfig",
+			"targetingData": "All",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides":[{
+				"buffs": ["Heal500Percent","AttackPlus50Percent1TurnOnly","FrostBiteCounterImmunityOnce","StunImmunityOnce"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["HardIgnoreBlockDeathNextAttack","Active1LOCKForActive4DraculaRegular","Active2LOCKForActive4DraculaRegular","Active3LOCKForActive4DraculaRegular"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"flags": ["NoDamage","Healer"],
+			"abilityEffect": "DraculaAllyHeal1",
+			"useCondition": "IsNotActive4LOCKEDDraculaRegular"
 		}
 	}
 }

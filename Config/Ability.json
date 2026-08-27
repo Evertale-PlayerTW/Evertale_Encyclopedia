@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1787551444,
+  "Time": 1787559256,
   "Ability": [
     {
       "name": "SkipTurn",
@@ -30534,6 +30534,55 @@
       "tuCost": 100,
       "useLimit": 0,
       "spiritCost": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "SingleAttackADraculaRegular",
+      "class": "Ability",
+      "abilityScalor": 9,
+      "config": "SingleAttackADraculaRegular",
+      "tuCost": 50,
+      "useLimit": 0,
+      "spiritGain": 1,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "EnemyBuffADraculaRegular",
+      "class": "Ability",
+      "config": "EnemyBuffADraculaRegular",
+      "tuCost": 1,
+      "useLimit": 5,
+      "spiritGain": 2,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "MultiAttackADraculaRegular",
+      "class": "Ability",
+      "abilityScalor": 3,
+      "conditionalAbilityScalors": [
+        4.5,
+        6,
+        7.5,
+        9,
+        9
+      ],
+      "config": "MultiAttackADraculaRegular",
+      "tuCost": 100,
+      "useLimit": 0,
+      "spiritCost": 3,
+      "blockTargetManipulation": 0,
+      "showConfirmation": 0
+    },
+    {
+      "name": "AllBuffADraculaRegular",
+      "class": "Ability",
+      "config": "AllBuffADraculaRegular",
+      "tuCost": 1,
+      "useLimit": 0,
+      "spiritGain": 0,
       "blockTargetManipulation": 0,
       "showConfirmation": 0
     }

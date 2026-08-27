@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1787539527,
+    "Time": 1787646109,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -31408,6 +31408,14 @@
 		"class": "MonsterConditions",
 		"buffStackNames": ["Active2LOCKForActive4DraculaRegular"]
 	},
+	"IsActive3LOCKForActive4DraculaRegularAndEnemyAlone": {
+		"class": "MonsterConditions",
+		"buffStackNames": ["Active3LOCKForActive4DraculaRegular"],
+		"not": {
+			"class": "MonsterConditions",
+			"enemyTeamSize": 2
+		}
+	},
 	"AllySpirit1OrMoreNotInstantCooldown2": {
 		"class": "MonsterConditions",
 		"teamSpiritGreaterThan": 0,
@@ -31577,6 +31585,24 @@
 		"not":{
 			"class": "MonsterConditions",
 			"buffStackNames": ["Active2LOCKSherlockRegular"]
+		}
+	},
+	"IsNotClonePassiveLockDraculaRegular": {
+		"class": "MonsterConditions",
+		"not": {
+			"class": "MonsterConditions",
+			"buffStackNames": ["ClonePassiveLockDraculaRegular"]
+		}
+	},
+	"IsNotSleepingOrDisabled":{
+		"class": "MonsterConditions",
+		"not":{
+			"class": "MonsterConditions",
+			"buffStackNames": ["Sleep"],
+			"or": {
+				"class": "MonsterConditions",
+				"monsterTags": ["BlockTurnTag"]
+			}
 		}
 	}
 }

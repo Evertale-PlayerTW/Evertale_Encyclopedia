@@ -1,6 +1,6 @@
 {
   "Version": 23,
-  "Time": 1787539527,
+  "Time": 1787646096,
   "AbilityAI": {
 	"StunSingle200A_AI": {
 		"class": "AbilityAI","baseAITargetingWeight": 1.3,
@@ -31576,6 +31576,58 @@
 							"IsFrostbitten": 0.89,
 							"IsSleeping": 0.89
 					}
-    }
+    },
+    "SingleAttackADraculaRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 1.0,
+					"aiTargetingMonsterConditions": {
+						"IsOdinRaven": 0.1,
+						"IsBadFriend": 0.1,
+						"IsImposter": 0.001,
+						"IsMirage": 0.1,
+						"RarityLessThan3": 0.8,
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+						"IsPloyed": 0.70,
+						"IsStealth": 1.0,
+						"On1HPNotProtected": 1.5,
+						"On1HPIsProtecting": 1.5,
+						"HPBelow50Percent": 1.0,
+						"IsProtector": 0.5,
+						"IsProtecting": 0.5,
+						"IsProtectingAndNotAlone": 0.5,
+						"IsAmbushCounter": 0.75,
+						"IsBlockTurn": 0.75,
+						"CurrentTULessThan25": 1.1,
+						"IsFrostbitten": 0.75
+					}
+    },
+    "EnemyBuffADraculaRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 0.85,
+					"aiTargetingSourceMonsterConditions":{
+						"IsActive2LOCKForActive4DraculaRegular": 250.0,
+						"AllySpirit1OrMoreNotInstantCooldown2": 250,
+						"AllEnemiesIsStealth": 250.0,
+						"AllEnemiesIsInstantKillImmunityOnce": 250,
+						"IsActive3LOCKForActive4DraculaRegularAndEnemyAlone": 10
+				}		
+		},
+    "MultiAttackADraculaRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 5.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllEnemiesImposters": 0.0,
+						"AllEnemiesIsStealth": 0.01,
+						"IsActive3LOCKForActive4DraculaRegularAndEnemyAlone": 10
+				},
+					"aiTargetingMonsterConditions": {
+						"IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1
+				}
+    },
+    "AllBuffADraculaRegular_AI":{
+					"class": "AbilityAI","baseAITargetingWeight": 500.0,
+					"aiTargetingSourceMonsterConditions":{
+						"AllySpirit1OrMoreNotInstantCooldown2": 250,
+						"AllEnemiesIsStealth": 250.0,
+						"AllEnemiesIsInstantKillImmunityOnce": 250
+				}		
+		}
 }
 }
