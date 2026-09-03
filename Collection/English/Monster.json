@@ -125690,7 +125690,7 @@
                 "I'm so glad you came again! Please teach me lots of things today too!"
             ],
             "Tap": [
-                "I don't like to remember my childhood. I only have dark and lonely memories...\n\nBut I'll never forget the hero who saved someone like me.",
+                "I don't like to remember my childhood. I only have dark and lonely memories...\nBut I'll never forget the hero who saved someone like me.",
                 "Scary...? You're talking about me!? You've got to be kidding! I hardly ever get angry!\nWell...unless it's something filthy or indecent—that's different.",
                 "People often say I'm a perfectionist, but it's really just that I lack confidence.\nThat's why I study and train harder than anyone else... Do you understand this feeling?"
             ],
@@ -125878,7 +125878,7 @@
                 "I'm so glad you came again! Please teach me lots of things today too!"
             ],
             "Tap": [
-                "I don't like to remember my childhood. I only have dark and lonely memories...\n\nBut I'll never forget the hero who saved someone like me.",
+                "I don't like to remember my childhood. I only have dark and lonely memories...\nBut I'll never forget the hero who saved someone like me.",
                 "Scary...? You're talking about me!? You've got to be kidding! I hardly ever get angry!\nWell...unless it's something filthy or indecent—that's different.",
                 "People often say I'm a perfectionist, but it's really just that I lack confidence.\nThat's why I study and train harder than anyone else... Do you understand this feeling?"
             ],
@@ -136671,7 +136671,7 @@
         "Hp_Base": 4400,
         "Speed": 487,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "It is I, the Unrivaled King of the Nightfolk!",
         "LeaderSkill": {
             "SkillTitle": "Dark ATK & HP Up",
@@ -137011,5 +137011,360 @@
                 "RelationshipBuff": "ATK+2%"
             }
         }
+    },
+    "VanHelsingRegular01": {
+        "Name": "Helsing",
+        "Name2": "Twilight Avenger",
+        "FullName": "Helsing - Twilight Avenger",
+        "Profile": "As a dreamy young girl, Helsing loved the meat pies her mother made. Whenever she would cry, her mother would bake one for her and make the tears stop. The two of them had always lived together in poverty, just mother and daughter. Even so, looking back, those were the happiest years of her life.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hammer",
+        "forFilter_Element": "Life",
+        "Element": "Light",
+        "Cost": 28,
+        "Atk_Base": 1103,
+        "Hp_Base": 5695,
+        "Speed": 550,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "You like this sweet smell? My, how adorable...",
+        "LeaderSkill": {
+            "SkillTitle": "Light ATK & HP Up",
+            "SkillDescription": "Allied Light element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Silver Bullet",
+                "SkillDescription": "400% damage to 1 enemy, plus 200% for each charge stored by the user (max of 1000% total damage while 3 charges are stored by the user). This attack does not wake up sleeping enemies, and ignores skin passive skills and the Counter Stance status effect.\n\nThen the target hit will become Weakened, and be granted a Rage Ward. This will overwrite any existing Weak or Enrage effects on that unit.\n\nRage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack. Weakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Targets Acquired",
+                "SkillDescription": "Grants all non-Guardian enemies on the battlefield a Hunter's Mark.\n\nUsable only if no enemies on the battlefield have a Hunter's Mark, and a valid target exists.\n\nA unit with a Hunter's Mark has the next attack damage dealt to them increased to 1.25 times the normal amount, then the Hunter's Mark is removed. A Hunter's Mark is not a status effect. Hunter's Marks cannot stack, cannot apply to boss units, and cannot be purified. A Hunter's Mark is removed from a unit that is defeated or leaves the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Silver Onslaught",
+                "SkillDescription": "800% damage to 2 enemies. This attack ignores the Stealth status effect.\n\nUnlocked each time an enemy unit with a Hunter's Mark is damaged by an attack other than Silver Onslaught. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Twilight Avenger",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThis unit will gain a Charge and be healed for 100% of its max HP each time another ally gets the turn. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nWhen this unit enters battle, this unit grants all allies Sleep Immunity, Poison Immunity, and Stun Immunity until the end of their next turn while on the battlefield.\n\nWhen this unit defeats an enemy with an attack, if they are:\n- Dark or Storm, after the end of the turn, all allies on the battlefield, will be given the next turns by reducing their current TU, and become Enraged. These TU reductions may trigger before or after other effects that adjust the turn order.\n- Light or Earth, all allies on the battlefield will be healed for 100% of max HP, and will have the TU costs for all of their skills reduced by 20%. This will overwrite the effects of other Quicken skills.\n- Water or Fire, all allies on the battlefield will be Purified (any negative status effects like sleep, burn or poison are removed), and granted Sleep Wards. Sleep Ward prevents Sleep from being applied once, then is removed. Sleep Wards cannot stack.\nAll of these defeat effects may trigger before or after other effects."
+            },
+            {
+                "SkillTitle": "Hunter's Stake",
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit has 35% damage reduction from attacks for 100TU. Afterwards this unit has 70% damage reduction instead.\n\nWhenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nThis unit enters battle with an Instant Death Ward. Then after entering battle, for 100TU, each time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, heal for 100% of its max HP, and have its TU reduced to 0. This TU reduction may trigger before or after other effects that adjust the turn order.\n\nAt the end of the first turn this unit gets on the battlefield, this unit is granted Sleep Immunity for 50TU, Stun Immunity for 50TU, and Poison Immunity for 50TU."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Dark Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Dark units."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Oh, were you the one who called for me?\nHehe, you have a promising look in your eyes...\nI am Helsing... I will aid you in getting your revenge.\n...But in exchange, you'll help mine...right?"
+            ],
+            "Login": [
+                "Well, we meet again.\nDid you miss my scent of lily-of-the-valley?"
+            ],
+            "Tap": [
+                "Shall I prepare some tea? I've gotten some fine leaves.\n...Hehe, don't worry. It won't have any poison in it...probably.",
+                "How do you like my little laboratory?\n...Oh, is the scent of my chemicals too strong for a sweet boy like you?\nBut for me... Hehe... There's no other smell that makes me feel more at home.",
+                "Do you know what the lily-of-the-valley means in the language of flowers?\nIt says \"Happiness will return.\"\nIronic, isn't it? All this time, I've lived with nothing but revenge in my heart..."
+            ],
+            "Idle": [
+                "...I wonder what my mother would say if she could see me now.\nHehe, she probably would have a few stern words for me. ...Right, Mama?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.1,
+                "IsCharged3": 1.01,
+                "IsNotActive3LOCKVanHelsingRegular": 1.01
+            },
+            "SkillUse": {
+                "Silver Bullet": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBullseyeMarkedForAttack": 1.25
+                    }
+                },
+                "Targets Acquired": {
+                    "BaseWeight": 0.75,
+                    "Source": {
+                        "1EnemyIsMarkedEnemyVanHelsingRegular": 1000
+                    }
+                },
+                "Silver Onslaught": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                }
+            }
+        }
+    },
+    "VanHelsingRegular02": {
+        "Name": "Helsing",
+        "Name2": "Twilight Avenger",
+        "FullName": "Helsing - Twilight Avenger",
+        "Profile": "Helsing admired the castle that stood atop the hill overlooking the town where she lived with her mother.\nEach night, whenever the bells rang, she imagined herself taking the hand of a prince she had yet to meet, dancing with him in a splendid hall.\n\nShe never knew that every night within that mansion, a dance of death was being performed by monsters thirsting for blood.",
+        "Profile_Ascended": "Her mother, Ekaterina, taught her young daughter the name of a certain flower. A flower with a sweet fragrance and delicate beauty, yet hiding a deadly poison within.\n\n\"Whether something becomes poison or medicine depends on the heart of the one who uses it.\"\n\nTen years later, the daughter would turn the lesson her mother had given her into a weapon of revenge, and quietly close in on the throat of the monster who had stolen her mother away.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hammer",
+        "forFilter_Element": "Life",
+        "Element": "Light",
+        "Cost": 34,
+        "Atk_Base": 1389,
+        "Hp_Base": 7475,
+        "Speed": 550,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Light ATK & HP Up",
+            "SkillDescription": "Allied Light element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Silver Bullet",
+                "SkillDescription": "400% damage to 1 enemy, plus 200% for each charge stored by the user (max of 1000% total damage while 3 charges are stored by the user). This attack does not wake up sleeping enemies, and ignores skin passive skills and the Counter Stance status effect.\n\nThen the target hit will become Weakened, and be granted a Rage Ward. This will overwrite any existing Weak or Enrage effects on that unit.\n\nRage Wards will prevent a unit from becoming Enraged once, then be removed. Rage Wards cannot stack. Weakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Targets Acquired",
+                "SkillDescription": "Grants all non-Guardian enemies on the battlefield a Hunter's Mark.\n\nUsable only if no enemies on the battlefield have a Hunter's Mark, and a valid target exists.\n\nA unit with a Hunter's Mark has the next attack damage dealt to them increased to 1.25 times the normal amount, then the Hunter's Mark is removed. A Hunter's Mark is not a status effect. Hunter's Marks cannot stack, cannot apply to boss units, and cannot be purified. A Hunter's Mark is removed from a unit that is defeated or leaves the battlefield.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Silver Onslaught",
+                "SkillDescription": "800% damage to 2 enemies. This attack ignores the Stealth status effect.\n\nUnlocked each time an enemy unit with a Hunter's Mark is damaged by an attack other than Silver Onslaught. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "Divine Hunt",
+                "SkillDescription": "The user is granted Sleep Immunity for 50TU, Stun Immunity for 50TU, Poison Immunity for 50TU, an Instant Death Ward, and is Fortified.\n\nThen for the next 3 turns the user gets while on the battlefield, whenever the user uses another active skill, the user will immediately get the next turn, and become Enraged. These extra turns may be interrupted by other effects that influence the turn order (e.g. stuns targeting the lowest TU target). This will overwrite the effects of other Enrage skills on the user. Enraged units have their Attack increased to 1.5x until the end of their next turn.\n\nUsable only if a non-conjured ally unit on the battlefield has been defeated or sacrificed by any source since the user entered the battlefield or if the user has defeated a non-conjured enemy with an attack. This skill becomes locked for 50TU after use. Usable 3 times per battle.\n\nAn Instant Death Ward prevents this unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack. A Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Twilight Avenger",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThis unit will gain a Charge and be healed for 100% of its max HP each time another ally gets the turn. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nWhen this unit enters battle, this unit grants all allies Sleep Immunity, Poison Immunity, and Stun Immunity until the end of their next turn while on the battlefield.\n\nWhen this unit defeats an enemy with an attack, if they are:\n- Dark or Storm, after the end of the turn, all allies on the battlefield, will be given the next turns by reducing their current TU, and become Enraged. These TU reductions may trigger before or after other effects that adjust the turn order.\n- Light or Earth, all allies on the battlefield will be healed for 100% of max HP, and will have the TU costs for all of their skills reduced by 20%. This will overwrite the effects of other Quicken skills.\n- Water or Fire, all allies on the battlefield will be Purified (any negative status effects like sleep, burn or poison are removed), and granted Sleep Wards. Sleep Ward prevents Sleep from being applied once, then is removed. Sleep Wards cannot stack.\nAll of these defeat effects may trigger before or after other effects."
+            },
+            {
+                "SkillTitle": "Hunter's Stake",
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit has 35% damage reduction from attacks for 100TU. Afterwards this unit has 70% damage reduction instead.\n\nWhenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nThis unit enters battle with an Instant Death Ward. Then after entering battle, for 100TU, each time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, heal for 100% of its max HP, and have its TU reduced to 0. This TU reduction may trigger before or after other effects that adjust the turn order.\n\nAt the end of the first turn this unit gets on the battlefield, this unit is granted Sleep Immunity for 50TU, Stun Immunity for 50TU, and Poison Immunity for 50TU."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Dark Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Dark units."
+            },
+            {
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Oh, were you the one who called for me?\nHehe, you have a promising look in your eyes...\nI am Helsing... I will aid you in getting your revenge.\n...But in exchange, you'll help mine...right?"
+            ],
+            "Login": [
+                "Well, we meet again.\nDid you miss my scent of lily-of-the-valley?"
+            ],
+            "Tap": [
+                "Shall I prepare some tea? I've gotten some fine leaves.\n...Hehe, don't worry. It won't have any poison in it...probably.",
+                "How do you like my little laboratory?\n...Oh, is the scent of my chemicals too strong for a sweet boy like you?\nBut for me... Hehe... There's no other smell that makes me feel more at home.",
+                "Do you know what the lily-of-the-valley means in the language of flowers?\nIt says \"Happiness will return.\"\nIronic, isn't it? All this time, I've lived with nothing but revenge in my heart..."
+            ],
+            "Idle": [
+                "...I wonder what my mother would say if she could see me now.\nHehe, she probably would have a few stern words for me. ...Right, Mama?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.1,
+                "IsCharged3": 1.01,
+                "IsNotActive3LOCKVanHelsingRegular": 1.01
+            },
+            "SkillUse": {
+                "Silver Bullet": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsBullseyeMarkedForAttack": 1.25
+                    }
+                },
+                "Targets Acquired": {
+                    "BaseWeight": 0.75,
+                    "Source": {
+                        "1EnemyIsMarkedEnemyVanHelsingRegular": 1000
+                    }
+                },
+                "Silver Onslaught": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "Divine Hunt": {
+                    "BaseWeight": 0.85,
+                    "Source": {
+                        "IsNotGodModeActiveVanHelsingRegular": 500
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

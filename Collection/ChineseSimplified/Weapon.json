@@ -20185,7 +20185,7 @@
         "Hp_Base": 2960,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "提升攻击力",
@@ -20208,7 +20208,7 @@
         "Hp_Base": 3550,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "提升攻击力",
@@ -20232,11 +20232,82 @@
         "Hp_Base": 3775,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "提升攻击力",
                 "SkillDescription": "若此单位的生命值不低于最大值的99%，则此单位造成25%的额外伤害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "HelsingHammer01": {
+        "Name": "破雾者",
+        "FullName": "破雾者",
+        "Profile": "吸收河上的雾气，将其化作雷云轰出的战锤。其指针所指，便是敌人心脏停止跳动之刻。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Hammer",
+        "WeaponType": "大锤",
+        "Cost": 11,
+        "Atk_Base": 445,
+        "Hp_Base": 3150,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "减少伤害",
+                "SkillDescription": "若此单位的主动技能被封锁，此单位受到敌方攻击的伤害减少7%。"
+            }
+        ]
+    },
+    "HelsingHammer02": {
+        "Name": "破雾者",
+        "FullName": "破雾者",
+        "Profile": "吸收河上的雾气，将其化作雷云轰出的战锤。其指针所指，便是敌人心脏停止跳动之刻。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Hammer",
+        "WeaponType": "大锤",
+        "Cost": 17,
+        "Atk_Base": 532,
+        "Hp_Base": 3840,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "减少伤害",
+                "SkillDescription": "若此单位的主动技能被封锁，此单位受到敌方攻击的伤害减少10%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "HelsingHammer03": {
+        "Name": "破雾者",
+        "FullName": "破雾者",
+        "Profile": "吸收河上的雾气，将其化作雷云轰出的战锤。其指针所指，便是敌人心脏停止跳动之刻。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Hammer",
+        "WeaponType": "大锤",
+        "Cost": 23,
+        "Atk_Base": 567,
+        "Hp_Base": 4165,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "减少伤害",
+                "SkillDescription": "若此单位的主动技能被封锁，此单位受到敌方攻击的伤害减少15%。"
             }
         ],
         "ExtraEvoInitialCount": 2
