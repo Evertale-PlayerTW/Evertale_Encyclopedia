@@ -20580,6 +20580,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -20965,6 +20976,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22165,6 +22187,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22569,6 +22602,17 @@
                     "AnastasiaRegular01",
                     "WaterLancerGirl01",
                     "RedHairKnight01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
@@ -27157,6 +27201,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -27382,6 +27437,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137029,7 +137095,7 @@
         "Hp_Base": 5695,
         "Speed": 550,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "¿Te gusta este dulce aroma? ¡Qué adorable!",
         "LeaderSkill": {
             "SkillTitle": "Sube ATT & HP Luz",
@@ -137180,6 +137246,19 @@
                         "IsSleeping": 0.89
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137365,6 +137444,381 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular01": {
+        "Name": "Holmes",
+        "Name2": "Maestra Detective Omnipresente",
+        "FullName": "Holmes - Maestra Detective Omnipresente",
+        "Profile": "Holmes es una detective privada que trabaja en la ciudad de Londinium, envuelta en la niebla. Al primer rumor de un caso, corre directamente al lugar de los hechos, imperturbable ante las miradas severas de los guardias de la ciudad.\n\nEs una maestra detective que aparece sin previo aviso y resuelve incluso los misterios más desconcertantes antes del amanecer.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Báculo",
+        "forFilter_Element": "Air",
+        "Element": "Tormenta",
+        "Cost": 28,
+        "Atk_Base": 1254,
+        "Hp_Base": 4940,
+        "Speed": 523,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Jeje... ¡Huelo un caso entre manos!",
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Trueno",
+            "SkillDescription": "Las unidades de Trueno aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Ataque en Sombra",
+                "SkillDescription": "300% de daño a 1 enemigo. 600% de daño en su lugar si algún enemigo en el campo de batalla tiene un TU actual de 100TU o más. 900% de daño en su lugar si algún enemigo en el campo de batalla tiene un TU actual de 200TU o más. Este ataque ignora las habilidades pasivas de piel y el efecto de estado Contraofensiva. Este ataque se considera una Habilidad Activa de tipo Asalto Tiempo.\n\nCuando este ataque golpea a un objetivo y ese objetivo tiene una TU actual de 100TU o menos, el usuario obtiene una Carga. Ciertas habilidades se ven afectadas por y pueden consumir cargas. Una unidad puede almacenar un máximo de 3 cargas.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Pista vital",
+                "SkillDescription": "El usuario recibe una Carga. Cura a todos los aliados en el campo de batalla un 500% del ataque del usuario.\n\nLuego, si algún aliado en el campo de batalla está ardiendo, dormido o envenenado, todos los aliados se Purifican (se eliminan los efectos de estado negativos como sueño, quemaduras o veneno) y el usuario recibe otra Carga.\n\nSe desbloquea cada vez que el usuario usa Ataque en Sombra y se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Prueba Impactante",
+                "SkillDescription": "1 enemigo aleatorio tiene sus Habilidades Activas desactivadas durante 50TU, luego todos los demás enemigos en el campo de batalla son aturdidos durante 50TU. Este efecto se activa de nuevo por cada Carga almacenada en el usuario (máximo 4 veces en total si el usuario ha almacenado 3 Cargas ).\n\nSólo se puede usar si hay al menos 2 enemigos en el campo de batalla y menos de 2 enemigos en el campo de batalla tienen sus Habilidades Activas desactivadas. Se puede usar 5 veces por batalla.\n\nCuando las Habilidades Activas de una unidad están desactivadas y obtiene el turno, perderá el turno como si estuviera durmiendo. Este efecto no puede afectar a las unidades jefe, no puede ser purificado y terminará si el usuario es derrotado.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Maestra Detective",
+                "SkillDescription": "Esta unidad no puede dormirse ni ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad la curan por el 100% del daño total infligido, ignoran los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nEsta unidad tiene un 20% de reducción de daño de los ataques por cada Carga almacenada en esta unidad (máximo del 60% mientras haya 3 Cargas almacenadas en esta unidad).\n\nSiempre que esta unidad obtenga una Carga de una de sus propias habilidades activas, esta unidad tiene un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de deshabilitar 1 Habilidad Activa de un enemigo aleatorio por 50TU. Este efecto no puede activarse por una Carga obtenida mientras esta unidad ya tenga 3 Cargas almacenadas."
+            },
+            {
+                "SkillTitle": "Grito Elocuente",
+                "SkillDescription": "Esta unidad no puede ser envenenada por 100TU.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad será Purificada y se curará por el 50% de su HP máximo.\n\nDespués del final del turno de cada otro aliado, esta unidad verá sus TU reducidos a 0. Esta reducción de TU puede activarse antes o después de otros efectos que ajusten el orden de turno. Luego, este efecto no puede activarse de nuevo hasta que avancen 30TU.\n\nCuando esta unidad recibe daño de un ataque, obtendrá inmediatamente el siguiente turno, esto no puede activarse de nuevo hasta que avancen los TU. Este es un efecto de Piel. Esta unidad no puede convertirse en un Guardián o Absorber Aturdir."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Hacha Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Hachas."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Disculpen, permíteme presentarme.\n¡La detective privada Sherlock Holmes, a su servicio!\n\nPuedes confiarme cualquier caso, por difícil que sea.\n¡Lo resolveré antes del amanecer!"
+            ],
+            "Login": [
+                "¿Quieres que te ayude a resolver un caso?\n¡Por supuesto que lo haré con mucho gusto!\nAunque espero una buena remuneración, ¡por supuesto!"
+            ],
+            "Tap": [
+                "Sí, la maestra detective Sherlock Holmes está esperando pacientemente.\nSi tienes un caso, un acertijo o simplemente quieres charlar, estoy disponible.",
+                "¿Ah? ¿Intentas seducirme? Jeje. Me temo que he decidido que los misterios son mi único amor verdadero...\n\n¿O tal vez te gustaría convertirte en mi próximo \"misterio\" a resolver?",
+                "¿Intentas observarme? Claro, ¡siéntete libre de mirarme todo el tiempo que quieras!\nPero... si sigues mirándome tan fijamente... me pondré un poco nerviosa..."
+            ],
+            "Idle": [
+                "Mmm... No sé tú, pero yo estoy aburrida... ¿Qué tal si jugamos a un juego en el que escuchamos los pasos afuera de la ventana e intentamos adivinar a qué se dedica su dueño?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "Ataque en Sombra": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "Pista vital": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Prueba Impactante": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular02": {
+        "Name": "Holmes",
+        "Name2": "Maestra Detective Omnipresente",
+        "FullName": "Holmes - Maestra Detective Omnipresente",
+        "Profile": "Convencida de que la información es la clave para resolver cualquier caso, su habitación está repleta de recortes de periódico, expedientes que ha recopilado por su cuenta y pilas enormes de material de consulta.\nAunque afirma ser una maniática del orden, su casero no está de acuerdo, y recientemente le reclamó por ello. A pesar de su gran fortaleza, la queja la dejó bastante desanimada durante un tiempo.",
+        "Profile_Ascended": "El jefe de la guardia de la ciudad de Londinium piensa que la detective totalmente insoportable, porque irrumpe en las escenas del crimen sin invitación y se atribuye el mérito de resolverlas.\nSin embargo, entre sus subordinados, su brillante mente y belleza han cautivado a más de un admirador, y algunos incluso formaron un club de fans.\n\nPor desgracia para quienes se sienten atraídos por esta detective, ella sólo está interesada en los misterios.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Báculo",
+        "forFilter_Element": "Air",
+        "Element": "Tormenta",
+        "Cost": 34,
+        "Atk_Base": 1486,
+        "Hp_Base": 6990,
+        "Speed": 523,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Sube ATT & HP Trueno",
+            "SkillDescription": "Las unidades de Trueno aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Ataque en Sombra",
+                "SkillDescription": "300% de daño a 1 enemigo. 600% de daño en su lugar si algún enemigo en el campo de batalla tiene un TU actual de 100TU o más. 900% de daño en su lugar si algún enemigo en el campo de batalla tiene un TU actual de 200TU o más. Este ataque ignora las habilidades pasivas de piel y el efecto de estado Contraofensiva. Este ataque se considera una Habilidad Activa de tipo Asalto Tiempo.\n\nCuando este ataque golpea a un objetivo y ese objetivo tiene una TU actual de 100TU o menos, el usuario obtiene una Carga. Ciertas habilidades se ven afectadas por y pueden consumir cargas. Una unidad puede almacenar un máximo de 3 cargas.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Pista vital",
+                "SkillDescription": "El usuario recibe una Carga. Cura a todos los aliados en el campo de batalla un 500% del ataque del usuario.\n\nLuego, si algún aliado en el campo de batalla está ardiendo, dormido o envenenado, todos los aliados se Purifican (se eliminan los efectos de estado negativos como sueño, quemaduras o veneno) y el usuario recibe otra Carga.\n\nSe desbloquea cada vez que el usuario usa Ataque en Sombra y se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Prueba Impactante",
+                "SkillDescription": "1 enemigo aleatorio tiene sus Habilidades Activas desactivadas durante 50TU, luego todos los demás enemigos en el campo de batalla son aturdidos durante 50TU. Este efecto se activa de nuevo por cada Carga almacenada en el usuario (máximo 4 veces en total si el usuario ha almacenado 3 Cargas ).\n\nSólo se puede usar si hay al menos 2 enemigos en el campo de batalla y menos de 2 enemigos en el campo de batalla tienen sus Habilidades Activas desactivadas. Se puede usar 5 veces por batalla.\n\nCuando las Habilidades Activas de una unidad están desactivadas y obtiene el turno, perderá el turno como si estuviera durmiendo. Este efecto no puede afectar a las unidades jefe, no puede ser purificado y terminará si el usuario es derrotado.",
+                "TU": 1,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Deducción Final",
+                "SkillDescription": "700% de daño a 2 enemigos. 850% de daño en su lugar si el usuario ha sobrevivido 100TU o más en el campo de batalla. 1000% de daño en su lugar si el usuario ha sobrevivido 200TU o más en el campo de batalla.\n\nSólo se puede usar si el usuario ha almacenado 3 Cargas. Consume todas las cargas del usuario. Esta habilidad se bloquea durante 50TU después de su uso.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Maestra Detective",
+                "SkillDescription": "Esta unidad no puede dormirse ni ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad la curan por el 100% del daño total infligido, ignoran los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nEsta unidad tiene un 20% de reducción de daño de los ataques por cada Carga almacenada en esta unidad (máximo del 60% mientras haya 3 Cargas almacenadas en esta unidad).\n\nSiempre que esta unidad obtenga una Carga de una de sus propias habilidades activas, esta unidad tiene un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de deshabilitar 1 Habilidad Activa de un enemigo aleatorio por 50TU. Este efecto no puede activarse por una Carga obtenida mientras esta unidad ya tenga 3 Cargas almacenadas."
+            },
+            {
+                "SkillTitle": "Grito Elocuente",
+                "SkillDescription": "Esta unidad no puede ser envenenada por 100TU.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad será Purificada y se curará por el 50% de su HP máximo.\n\nDespués del final del turno de cada otro aliado, esta unidad verá sus TU reducidos a 0. Esta reducción de TU puede activarse antes o después de otros efectos que ajusten el orden de turno. Luego, este efecto no puede activarse de nuevo hasta que avancen 30TU.\n\nCuando esta unidad recibe daño de un ataque, obtendrá inmediatamente el siguiente turno, esto no puede activarse de nuevo hasta que avancen los TU. Este es un efecto de Piel. Esta unidad no puede convertirse en un Guardián o Absorber Aturdir."
+            },
+            {
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillTitle": "Resistir Hacha Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Hachas."
+            },
+            {
+                "SkillTitle": "Dominio Espada",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Espada"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Disculpen, permíteme presentarme.\n¡La detective privada Sherlock Holmes, a su servicio!\n\nPuedes confiarme cualquier caso, por difícil que sea.\n¡Lo resolveré antes del amanecer!"
+            ],
+            "Login": [
+                "¿Quieres que te ayude a resolver un caso?\n¡Por supuesto que lo haré con mucho gusto!\nAunque espero una buena remuneración, ¡por supuesto!"
+            ],
+            "Tap": [
+                "Sí, la maestra detective Sherlock Holmes está esperando pacientemente.\nSi tienes un caso, un acertijo o simplemente quieres charlar, estoy disponible.",
+                "¿Ah? ¿Intentas seducirme? Jeje. Me temo que he decidido que los misterios son mi único amor verdadero...\n\n¿O tal vez te gustaría convertirte en mi próximo \"misterio\" a resolver?",
+                "¿Intentas observarme? Claro, ¡siéntete libre de mirarme todo el tiempo que quieras!\nPero... si sigues mirándome tan fijamente... me pondré un poco nerviosa..."
+            ],
+            "Idle": [
+                "Mmm... No sé tú, pero yo estoy aburrida... ¿Qué tal si jugamos a un juego en el que escuchamos los pasos afuera de la ventana e intentamos adivinar a qué se dedica su dueño?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "Ataque en Sombra": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "Pista vital": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Prueba Impactante": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Deducción Final": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Cazadora y Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

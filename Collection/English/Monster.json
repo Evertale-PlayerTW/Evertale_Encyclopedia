@@ -20580,6 +20580,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -20965,6 +20976,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22165,6 +22187,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22569,6 +22602,17 @@
                     "AnastasiaRegular01",
                     "WaterLancerGirl01",
                     "RedHairKnight01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
@@ -27157,6 +27201,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -27382,6 +27437,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATK+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137029,7 +137095,7 @@
         "Hp_Base": 5695,
         "Speed": 550,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "You like this sweet smell? My, how adorable...",
         "LeaderSkill": {
             "SkillTitle": "Light ATK & HP Up",
@@ -137180,6 +137246,19 @@
                         "IsSleeping": 0.89
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137365,6 +137444,381 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular01": {
+        "Name": "Holmes",
+        "Name2": "Ubiquitous Master Detective",
+        "FullName": "Holmes - Ubiquitous Master Detective",
+        "Profile": "Holmes is a private detective based in the fog-shrouded city of Londinium. At the mere mention of a case, she rushes straight to the scene, utterly unfazed by the grim looks given to her by the city guards.\n\nShe is a master detective who appears without warning, and unravels even the most baffling mysteries before the sun rises.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Staff",
+        "forFilter_Element": "Air",
+        "Element": "Storm",
+        "Cost": 28,
+        "Atk_Base": 1254,
+        "Hp_Base": 4940,
+        "Speed": 523,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Hehe... I smell a case afoot!",
+        "LeaderSkill": {
+            "SkillTitle": "Storm ATK & HP Up",
+            "SkillDescription": "Allied Storm element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Shot in the Dark",
+                "SkillDescription": "300% damage to 1 enemy. 600% damage instead if any enemy on the battlefield has a current TU of 100TU or more. 900% damage instead if any enemy on the battlefield has a current TU of 200TU or more. This attack ignores skin passive skills and the Counter Stance status effect. This attack is considered a Time Strike type Active Skill.\n\nWhen this attack hits a target and that target has a current TU of 100TU or less, the user is granted a Charge. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Vital Clue",
+                "SkillDescription": "The user is granted a Charge. Heals all allies on the battlefield for 500% of the user's attack.\n\nThen if any allies on the battlefield are burning, sleeping or poisoned, all allies are Purified (any negative status effects like sleep, burn or poison are removed), and the user is granted another Charge.\n\nUnlocked each time the user uses Shot in the Dark, and is locked again after each use or if the user leaves the battlefield.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Shocking Evidence",
+                "SkillDescription": "1 random enemy has their Active Skills disabled for 50TU, and all other enemies on the battlefield are stunned for 50TU. This effect triggers again for each Charge stored on the user (max of 4 triggers in total if the user has stored 3 Charges.)\n\nUsable only if there are at least 2 enemies on the battlefield and less than 2 enemies on the battlefield have their Active Skills disabled. Usable 5 times per battle.\n\nWhen a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Master Detective",
+                "SkillDescription": "This unit cannot fall asleep or be sent to the reinforcements from the battlefield.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThis unit has 20% damage reduction from attacks for each Charge stored on this unit (max of 60% while 3 Charges are stored on this unit).\n\nWhenever this unit gains a Charge from one of its own active skills, this unit has a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) to disable 1 random enemy's Active Skills for 50TU. This effect cannot trigger from a Charge gained while this unit already has 3 Charges stored."
+            },
+            {
+                "SkillTitle": "Eloquent Interjection",
+                "SkillDescription": "After entering battle, this unit cannot be poisoned for 100TU.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, and heal for 50% of its max HP.\n\nAfter the end of each other ally's turn, this unit will have its TU reduced to 0. This TU reduction may trigger before or after other effects that adjust the turn order. Then this effect cannot trigger again until 30TU advances.\n\nWhen this unit takes damage from an attack, they will immediately get the next turn, this cannot trigger again until TU advances. This is a skin effect. This unit cannot become a Guardian or Stun Absorber."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Axe Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Axes."
+            },
+            {
+                "SkillTitle": "Sword Mastery",
+                "SkillDescription": "Can use weapon skills of Swords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Sword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Excuse meeee, allow me to introduce myself.\nPrivate detective Sherlock Holmes, at your service!\n\nYou can entrust any case to me, no matter how difficult.\nI'll have solved it before the next sunrise!"
+            ],
+            "Login": [
+                "Oh, would you like to request my help to solve a case?\nOf course I'd be happy to take it on!\n...Though I do expect to be paid handsomely, you know."
+            ],
+            "Tap": [
+                "Yes, master detective Sherlock Holmes is patiently waiting on standby.\nIf you have a case, a puzzle, or even just want to chat, I'm available.",
+                "Oh? Are you trying to woo me? Hehe. I'm afraid I've decided that mysteries are my only true love...\n\nOr perhaps you'd like to become my next \"mystery\" to solve?",
+                "Are you trying to observe me? Sure, feel free to take a good look at me for as long as you'd like!\nBut uh...if you keep staring at me that intensely...it makes me a bit flustered..."
+            ],
+            "Idle": [
+                "Hmm... I don't know about you, but I'm bored... How about we play a game where we listen to the footsteps outside the window, and try to guess its owner's line of work?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "Shot in the Dark": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "Vital Clue": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Shocking Evidence": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular02": {
+        "Name": "Holmes",
+        "Name2": "Ubiquitous Master Detective",
+        "FullName": "Holmes - Ubiquitous Master Detective",
+        "Profile": "Believing that information is the key to solving any case, her room is buried beneath newspaper clippings, case files she has gathered on her own, and towering stacks of reference materials.\nAlthough she claims to be a neat freak, her landlord begs to differ, having recently given her a stern warning. Despite being an individual with impressively thick skin, the complaint left her rather dejected for a while.",
+        "Profile_Ascended": "The chief of Londinium's city guard finds the detective utterly insufferable, as she would barge into crime scenes uninvited and steal the glory of solving them for herself.\nAmong his subordinates, however, her brilliant mind and beauty had captivated more than a few admirers, and eventually, some of them formed a fan club.\n\nUnfortunately for anyone smitten by this detective, she herself is interested in nothing but mysteries.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Staff",
+        "forFilter_Element": "Air",
+        "Element": "Storm",
+        "Cost": 34,
+        "Atk_Base": 1486,
+        "Hp_Base": 6990,
+        "Speed": 523,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Storm ATK & HP Up",
+            "SkillDescription": "Allied Storm element units have their Attack increased by 10% and max HP increased by 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Shot in the Dark",
+                "SkillDescription": "300% damage to 1 enemy. 600% damage instead if any enemy on the battlefield has a current TU of 100TU or more. 900% damage instead if any enemy on the battlefield has a current TU of 200TU or more. This attack ignores skin passive skills and the Counter Stance status effect. This attack is considered a Time Strike type Active Skill.\n\nWhen this attack hits a target and that target has a current TU of 100TU or less, the user is granted a Charge. Certain skills are affected by and may consume charges. A unit can store a maximum of 3 charges.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Vital Clue",
+                "SkillDescription": "The user is granted a Charge. Heals all allies on the battlefield for 500% of the user's attack.\n\nThen if any allies on the battlefield are burning, sleeping or poisoned, all allies are Purified (any negative status effects like sleep, burn or poison are removed), and the user is granted another Charge.\n\nUnlocked each time the user uses Shot in the Dark, and is locked again after each use or if the user leaves the battlefield.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Shocking Evidence",
+                "SkillDescription": "1 random enemy has their Active Skills disabled for 50TU, and all other enemies on the battlefield are stunned for 50TU. This effect triggers again for each Charge stored on the user (max of 4 triggers in total if the user has stored 3 Charges.)\n\nUsable only if there are at least 2 enemies on the battlefield and less than 2 enemies on the battlefield have their Active Skills disabled. Usable 5 times per battle.\n\nWhen a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "TU": 1,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Final Deduction",
+                "SkillDescription": "700% damage to 2 enemies. 850% damage instead if the user has survived 100TU or more on the battlefield. 1000% damage instead if the user has survived 200TU or more on the battlefield.\n\nUsable only if the user has stored 3 Charges. Consumes all Charges on the user. This skill becomes locked for 50TU after use.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Master Detective",
+                "SkillDescription": "This unit cannot fall asleep or be sent to the reinforcements from the battlefield.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThis unit has 20% damage reduction from attacks for each Charge stored on this unit (max of 60% while 3 Charges are stored on this unit).\n\nWhenever this unit gains a Charge from one of its own active skills, this unit has a 20% chance, plus 20% chance per Awakening (up to 100% chance if this unit has 4 Awakenings) to disable 1 random enemy's Active Skills for 50TU. This effect cannot trigger from a Charge gained while this unit already has 3 Charges stored."
+            },
+            {
+                "SkillTitle": "Eloquent Interjection",
+                "SkillDescription": "After entering battle, this unit cannot be poisoned for 100TU.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nEach time this unit takes damage from an attack and survives until after the end of the turn, this unit will be Purified, and heal for 50% of its max HP.\n\nAfter the end of each other ally's turn, this unit will have its TU reduced to 0. This TU reduction may trigger before or after other effects that adjust the turn order. Then this effect cannot trigger again until 30TU advances.\n\nWhen this unit takes damage from an attack, they will immediately get the next turn, this cannot trigger again until TU advances. This is a skin effect. This unit cannot become a Guardian or Stun Absorber."
+            },
+            {
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillTitle": "Axe Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by units equipped with Axes."
+            },
+            {
+                "SkillTitle": "Sword Mastery",
+                "SkillDescription": "Can use weapon skills of Swords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Sword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Excuse meeee, allow me to introduce myself.\nPrivate detective Sherlock Holmes, at your service!\n\nYou can entrust any case to me, no matter how difficult.\nI'll have solved it before the next sunrise!"
+            ],
+            "Login": [
+                "Oh, would you like to request my help to solve a case?\nOf course I'd be happy to take it on!\n...Though I do expect to be paid handsomely, you know."
+            ],
+            "Tap": [
+                "Yes, master detective Sherlock Holmes is patiently waiting on standby.\nIf you have a case, a puzzle, or even just want to chat, I'm available.",
+                "Oh? Are you trying to woo me? Hehe. I'm afraid I've decided that mysteries are my only true love...\n\nOr perhaps you'd like to become my next \"mystery\" to solve?",
+                "Are you trying to observe me? Sure, feel free to take a good look at me for as long as you'd like!\nBut uh...if you keep staring at me that intensely...it makes me a bit flustered..."
+            ],
+            "Idle": [
+                "Hmm... I don't know about you, but I'm bored... How about we play a game where we listen to the footsteps outside the window, and try to guess its owner's line of work?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "Shot in the Dark": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "Vital Clue": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Shocking Evidence": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Final Deduction": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Hunter and Detective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

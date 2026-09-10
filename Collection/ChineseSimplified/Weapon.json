@@ -16142,7 +16142,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "灵巧提升",
-                "SkillDescription": "若场上有至少2个敌人处于睡眠状态，装备单位所有技能的TU减少6%且受到敌方攻击的伤害减少6%。"
+                "SkillDescription": "若场上有至少2个敌人处于睡眠状态，则此单位所有技能的TU减少6%且受到敌方攻击的伤害减少6%。"
             }
         ]
     },
@@ -16165,7 +16165,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "灵巧提升",
-                "SkillDescription": "若场上有至少2个敌人处于睡眠状态，装备单位所有技能的TU减少8%且受到敌方攻击的伤害减少8%。"
+                "SkillDescription": "若场上有至少2个敌人处于睡眠状态，则此单位所有技能的TU减少8%且受到敌方攻击的伤害减少8%。"
             }
         ],
         "ExtraEvoInitialCount": 1
@@ -16189,7 +16189,7 @@
         "WeaponSkill": [
             {
                 "SkillTitle": "灵巧提升",
-                "SkillDescription": "若场上有至少2个敌人处于睡眠状态，装备单位所有技能的TU减少10%且受到敌方攻击的伤害减少10%。"
+                "SkillDescription": "若场上有至少2个敌人处于睡眠状态，则此单位所有技能的TU减少10%且受到敌方攻击的伤害减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2
@@ -20256,7 +20256,7 @@
         "Hp_Base": 3150,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "减少伤害",
@@ -20279,7 +20279,7 @@
         "Hp_Base": 3840,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "减少伤害",
@@ -20303,11 +20303,82 @@
         "Hp_Base": 4165,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillTitle": "减少伤害",
                 "SkillDescription": "若此单位的主动技能被封锁，此单位受到敌方攻击的伤害减少15%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "MagnifyingGlassStaff01": {
+        "Name": "第欧根尼",
+        "FullName": "第欧根尼",
+        "Profile": "某位名侦探挥舞的用以揭露真相的手杖。无论多么棘手的疑案（战斗），都能凭借敏锐过人的推理（暴力），强行将其导向解决。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "法杖",
+        "Cost": 11,
+        "Atk_Base": 464,
+        "Hp_Base": 3055,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "灵巧提升",
+                "SkillDescription": "若场上存在主动技能被封锁的敌方单位，则此单位所有技能的TU减少6%且受到敌方攻击的伤害减少6%。"
+            }
+        ]
+    },
+    "MagnifyingGlassStaff02": {
+        "Name": "第欧根尼",
+        "FullName": "第欧根尼",
+        "Profile": "某位名侦探挥舞的用以揭露真相的手杖。无论多么棘手的疑案（战斗），都能凭借敏锐过人的推理（暴力），强行将其导向解决。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "法杖",
+        "Cost": 17,
+        "Atk_Base": 561,
+        "Hp_Base": 3695,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "灵巧提升",
+                "SkillDescription": "若场上存在主动技能被封锁的敌方单位，则此单位所有技能的TU减少8%且受到敌方攻击的伤害减少8%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "MagnifyingGlassStaff03": {
+        "Name": "第欧根尼",
+        "FullName": "第欧根尼",
+        "Profile": "某位名侦探挥舞的用以揭露真相的手杖。无论多么棘手的疑案（战斗），都能凭借敏锐过人的推理（暴力），强行将其导向解决。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "法杖",
+        "Cost": 23,
+        "Atk_Base": 603,
+        "Hp_Base": 3985,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillTitle": "灵巧提升",
+                "SkillDescription": "若场上存在主动技能被封锁的敌方单位，则此单位所有技能的TU减少10%且受到敌方攻击的伤害减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2

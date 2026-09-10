@@ -20582,6 +20582,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -20967,6 +20978,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22167,6 +22189,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22571,6 +22604,17 @@
                     "AnastasiaRegular01",
                     "WaterLancerGirl01",
                     "RedHairKnight01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
@@ -27159,6 +27203,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -27384,6 +27439,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "攻撃力+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137031,7 +137097,7 @@
         "Hp_Base": 5695,
         "Speed": 550,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "甘い香りに誘われたの？\nふふ……かわいい子",
         "LeaderSkill": {
             "SkillTitle": "攻撃力&HPアップ（光）",
@@ -137182,6 +137248,19 @@
                         "IsSleeping": 0.89
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137367,6 +137446,381 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular01": {
+        "Name": "シャーロック・ホームズ",
+        "Name2": "神出鬼没の名探偵",
+        "FullName": "シャーロック・ホームズ - 神出鬼没の名探偵",
+        "Profile": "霧の都ランディニウムに居を構える私立探偵。事件と聞けば一目散に現場へ駆けつけ、憲兵たちの渋い顔もどこ吹く風。どんな難事件も日が昇るまでに解き明かす、神出鬼没の名探偵。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Air",
+        "Element": "雷",
+        "Cost": 28,
+        "Atk_Base": 1254,
+        "Hp_Base": 4940,
+        "Speed": 523,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "ふふん…事件の香りです！",
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（雷）",
+            "SkillDescription": "雷属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "パルプマガジン",
+                "SkillDescription": "敵1体に300%ダメージ。場にいる敵のいずれかのTUが100TU以上なら600%ダメージ、200TU以上なら900%ダメージ。この攻撃は、対象のスキン系のパッシブスキル、及びカウンター状態の効果を無視する。この攻撃はタイムクラッシュ系のアクティブスキルとして扱われる。\n\nこの攻撃を受けた対象のTUが100TU以下だった場合、使用者は自身にチャージを1個付与する。\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "現場検証",
+                "SkillDescription": "使用者は自身にチャージを1個付与し、場にいる味方全員のHPを使用者の攻撃力の500%分回復する。\n\nその後、場に燃焼状態、眠り状態、毒状態のいずれかの味方が1体以上いる場合、場にいる味方全員の悪影響のある状態変化を解除し、使用者は自身にチャージを1個付与する。\n\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「パルプマガジン」を使用すると解除される。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "ロジカルチェイン",
+                "SkillDescription": "ランダムな敵1体を50TUの間麻痺させ、それ以外の敵全員を50TUスタンする。この効果は、使用者が持つチャージ1個につき1回、追加で発動する。麻痺させる効果は、ボスに対しては発動しない。\n\n場に敵が2体以上おり、そのうち麻痺状態の敵が1体以下の場合のみ使用可能。また、1回のバトルにつき5回までしか使用できない。\n\n-麻痺しているキャラにターンが回った時、そのターンは眠り状態の時のようにスキップされる。麻痺は状態変化ではなく、クリア系の効果で解除できない。そのキャラを麻痺させたキャラが戦闘不能になった時、麻痺は解除される。",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "神出鬼没の名探偵",
+                "SkillDescription": "・このキャラは眠り状態にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-与えたダメージと同量分、自身のHPが回復する。\n-対象のダメージ減少効果を無視する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・このキャラが敵の攻撃で受けるダメージは、このキャラが持つチャージ1個につき20%減少する。\n\n・このキャラが自身のアクティブスキルの効果で自身のチャージの数を増加させるたびに、20%の確率で、ランダムな敵1体を50TUの間麻痺させる。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。このキャラがすでにチャージを3個持っている状態でチャージを得る効果が発動した場合は、チャージが増加しないため、この効果の発動条件は満たされない。"
+            },
+            {
+                "SkillTitle": "ランディニウムの頭脳",
+                "SkillDescription": "・このキャラは、場に出てから100TUの間、毒状態にならない。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態異常によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、このキャラは自身の悪影響のある状態変化を解除し、HPを最大値の50%分回復する。\n\n・このキャラは、このキャラ以外の味方にターンが回るたびに、そのターンの終了後に自身のTUを0にして次のターンを得る。この効果が発動するタイミングと、ターン間に発動する他の効果のタイミングは前後する場合がある。この効果は発動後、30TU経過するまで発動しなくなる。\n\n・このキャラが敵の攻撃でダメージを受けた時、このキャラは自身のTUを0にして次のターンを得る。この効果は、一度発動すると、1TU以上経過するまでは発動しなくなる。この効果は、スキン系の効果とみなされる。\n\n・このキャラはブロック状態にならず、スタンテイカーも付与されない。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "斧耐性Lv3",
+                "SkillDescription": "斧を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "しつれいしまーす。\n私立探偵、シャーロック・ホームズ\n推参です！\n\nどーんと、任せてください。\n私にかかればどんな事件でも\n一件落着ですから！"
+            ],
+            "Login": [
+                "ご依頼ですか？"
+            ],
+            "Tap": [
+                "ただいま待機中です",
+                "あら、口説いてます？",
+                "観察ですか？"
+            ],
+            "Idle": [
+                "暇ですねぇ"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "パルプマガジン": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "現場検証": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "ロジカルチェイン": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular02": {
+        "Name": "シャーロック・ホームズ",
+        "Name2": "神出鬼没の名探偵",
+        "FullName": "シャーロック・ホームズ - 神出鬼没の名探偵",
+        "Profile": "情報こそ事件解決の鍵――そう信じる彼女の部屋は、新聞の切り抜き、独自に集めた事件資料、文献の山で埋め尽くされている。本人は綺麗好きを自称しているが、先日大家から苦情が入り、図太い彼女もさすがにしょんぼりしたようだ。",
+        "Profile_Ascended": "事件現場に勝手に押し入っては、手柄をさらっていく彼女を、ランディニウムの憲兵長は至極うっとおしく思っていた。また部下たちの間でも彼女の頭脳と美貌に魅せられいつしかファンクラブが出来上がっていた。生憎、当の彼女は謎にしか興味がなかったが。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Air",
+        "Element": "雷",
+        "Cost": 34,
+        "Atk_Base": 1486,
+        "Hp_Base": 6990,
+        "Speed": 523,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "攻撃力&HPアップ（雷）",
+            "SkillDescription": "雷属性の味方の攻撃力を10%増加、最大HPを7%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "パルプマガジン",
+                "SkillDescription": "敵1体に300%ダメージ。場にいる敵のいずれかのTUが100TU以上なら600%ダメージ、200TU以上なら900%ダメージ。この攻撃は、対象のスキン系のパッシブスキル、及びカウンター状態の効果を無視する。この攻撃はタイムクラッシュ系のアクティブスキルとして扱われる。\n\nこの攻撃を受けた対象のTUが100TU以下だった場合、使用者は自身にチャージを1個付与する。\n-チャージは最大3個まで貯まる。このキャラが控えに戻された時、チャージは0に戻る。",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "現場検証",
+                "SkillDescription": "使用者は自身にチャージを1個付与し、場にいる味方全員のHPを使用者の攻撃力の500%分回復する。\n\nその後、場に燃焼状態、眠り状態、毒状態のいずれかの味方が1体以上いる場合、場にいる味方全員の悪影響のある状態変化を解除し、使用者は自身にチャージを1個付与する。\n\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「パルプマガジン」を使用すると解除される。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "ロジカルチェイン",
+                "SkillDescription": "ランダムな敵1体を50TUの間麻痺させ、それ以外の敵全員を50TUスタンする。この効果は、使用者が持つチャージ1個につき1回、追加で発動する。麻痺させる効果は、ボスに対しては発動しない。\n\n場に敵が2体以上おり、そのうち麻痺状態の敵が1体以下の場合のみ使用可能。また、1回のバトルにつき5回までしか使用できない。\n\n-麻痺しているキャラにターンが回った時、そのターンは眠り状態の時のようにスキップされる。麻痺は状態変化ではなく、クリア系の効果で解除できない。そのキャラを麻痺させたキャラが戦闘不能になった時、麻痺は解除される。",
+                "TU": 1,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "真相解明！",
+                "SkillDescription": "敵2体に700%ダメージ。使用者が場に出てから100TU以上経過していれば850%ダメージ、200TU以上経過していれば1000%ダメージ。\n\n自身のチャージが3個貯まっている時のみ使用可能。チャージは使用後0に戻る。このスキルは使用後、50TUの間ロックされる。",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "神出鬼没の名探偵",
+                "SkillDescription": "・このキャラは眠り状態にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-与えたダメージと同量分、自身のHPが回復する。\n-対象のダメージ減少効果を無視する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・このキャラが敵の攻撃で受けるダメージは、このキャラが持つチャージ1個につき20%減少する。\n\n・このキャラが自身のアクティブスキルの効果で自身のチャージの数を増加させるたびに、20%の確率で、ランダムな敵1体を50TUの間麻痺させる。この効果が発動する確率はこのキャラの覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。このキャラがすでにチャージを3個持っている状態でチャージを得る効果が発動した場合は、チャージが増加しないため、この効果の発動条件は満たされない。"
+            },
+            {
+                "SkillTitle": "ランディニウムの頭脳",
+                "SkillDescription": "・このキャラは、場に出てから100TUの間、毒状態にならない。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態異常によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラが攻撃でダメージを受け、そのターンの後まで生き残った時、このキャラは自身の悪影響のある状態変化を解除し、HPを最大値の50%分回復する。\n\n・このキャラは、このキャラ以外の味方にターンが回るたびに、そのターンの終了後に自身のTUを0にして次のターンを得る。この効果が発動するタイミングと、ターン間に発動する他の効果のタイミングは前後する場合がある。この効果は発動後、30TU経過するまで発動しなくなる。\n\n・このキャラが敵の攻撃でダメージを受けた時、このキャラは自身のTUを0にして次のターンを得る。この効果は、一度発動すると、1TU以上経過するまでは発動しなくなる。この効果は、スキン系の効果とみなされる。\n\n・このキャラはブロック状態にならず、スタンテイカーも付与されない。"
+            },
+            {
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillTitle": "斧耐性Lv3",
+                "SkillDescription": "斧を装備したキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillTitle": "免許皆伝:剣",
+                "SkillDescription": "剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "しつれいしまーす。\n私立探偵、シャーロック・ホームズ\n推参です！\n\nどーんと、任せてください。\n私にかかればどんな事件でも\n一件落着ですから！"
+            ],
+            "Login": [
+                "ご依頼ですか？"
+            ],
+            "Tap": [
+                "ただいま待機中です",
+                "あら、口説いてます？",
+                "観察ですか？"
+            ],
+            "Idle": [
+                "暇ですねぇ"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "パルプマガジン": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "現場検証": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "ロジカルチェイン": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "真相解明！": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "狩人と探偵",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

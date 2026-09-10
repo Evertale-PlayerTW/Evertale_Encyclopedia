@@ -20580,6 +20580,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -20965,6 +20976,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22165,6 +22187,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -22569,6 +22602,17 @@
                     "AnastasiaRegular01",
                     "WaterLancerGirl01",
                     "RedHairKnight01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "HP+3%"
@@ -27157,6 +27201,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -27382,6 +27437,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "공격력+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137029,7 +137095,7 @@
         "Hp_Base": 5695,
         "Speed": 550,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "이 달콤한 향기가 마음에 드니? 이런, 귀엽기도 해라...",
         "LeaderSkill": {
             "SkillTitle": "명속성 공격력 및 HP 증가",
@@ -137180,6 +137246,19 @@
                         "IsSleeping": 0.89
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -137365,6 +137444,381 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular01": {
+        "Name": "홈즈",
+        "Name2": "신출귀몰 명탐정",
+        "FullName": "홈즈 - 신출귀몰 명탐정",
+        "Profile": "홈즈는 안개에 휩싸인 도시 론디니움을 거점으로 한 사립 탐정이다. 사건이 있다는 말만 들으면, 곧바로 현장으로 달려가며, 도시 경비대가 보내는 냉랭한 시선에도 전혀 아랑곳하지 않는다.\n\n그녀는 예고 없이 나타나 해가 뜨기 전에 가장 난해한 수수께기도 풀어내는 명탐정이다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스태프",
+        "forFilter_Element": "Air",
+        "Element": "풍속성",
+        "Cost": 28,
+        "Atk_Base": 1254,
+        "Hp_Base": 4940,
+        "Speed": 523,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "헤헤... 사건 냄새가 나는 걸!",
+        "LeaderSkill": {
+            "SkillTitle": "풍속성 공격력 및 HP 증가",
+            "SkillDescription": "아군 풍속성 유닛 공격력 10%, 최대 HP 7% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "어둠 속 총성",
+                "SkillDescription": "적 1기에 300% 데미지. 전장의 적 중 현재 TU가 100TU 이상인 적이 있는 경우 600% 데미지. 전장의 적 중 현재 TU가 200TU 이상인 적이 있는 경우 900% 데미지. 이 공격은 스킨 패시브 스킬과 카운터 스탠스 상태 효과를 무시한다. 이 공격은 타임 스트라이크 타입 액티브 스킬로 간주된다.\n\n이 공격이 타겟에 적중하고 해당 타겟의 현재 TU가 100TU 이하인 경우, 사용자에게 충전이 1회 부여된다. 특정 스킬은 충전 횟수의 영향을 받으며, 충전을 소모한다. 한 유닛은 최대 3회까지 충전할 수 있다.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "결정적 단서",
+                "SkillDescription": "사용자에게 충전이 1회 부여된다. 전장의 모든 아군을 사용자 공격의 500%만큼 회복시킨다.\n\n전장의 아군 중 화염, 수면 또는 중독 상태인 아군이 있는 경우, 모든 아군이 정화(수면, 화염, 중독과 같은 모든 부정적인 상태 효과 제거)되고, 사용자에게 충전 1회가 추가로 부여된다.\n\n사용자가 어둠 속 총성을 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "충격적인 증거",
+                "SkillDescription": "랜덤 적 1기의 액티브 스킬이 50TU 동안 비활성화되고, 전장의 다른 모든 적을 50TU 동안 스턴시킨다. 이 효과는 사용자가 보유한 충전 횟수만큼 다시 발동한다(사용자가 충전을 3회 보유한 경우 최대 총 4회).\n\n전장에 적이 최소 2기 있고 액티브 스킬이 비활성화된 적이 2기 미만인 경우에만 사용할 수 있다. 전투당 5회 사용 가능.\n\n유닛의 액티브 스킬이 비활성화된 상태에서 턴을 얻으면, 마치 수면 상태인 것처럼 턴을 잃는다. 이 효과는 보스 유닛에게는 영향 주지 않으며, 정화될 수 없고, 사용자가 패배하면 종료된다.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "명장 탐정",
+                "SkillDescription": "이 유닛은 수면 상태가 되거나 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛의 공격은 입힌 총 데미지량의 100%만큼 이 유닛을 회복시키고, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n이 유닛은 보유한 충전 1회당 공격 데미지가 20% 감소한다(이 유닛이 충전을 3회 보유한 경우 최대 60%).\n\n이 유닛이 자신의 액티브 스킬 중 하나로 충전을 획득할 때마다, 20% 확률에 각성당 20%씩 추가되어(이 유닛이 각성 4회 보유시 최대 100% 확률) 랜덤 적 1기의 액티브 스킬을 50TU 동안 비활성화한다. 이 효과는 이미 충전을 3회 보유한 상태에서 획득한 충전으로는 발동하지 않는다."
+            },
+            {
+                "SkillTitle": "웅변적 감탄사",
+                "SkillDescription": "이 유닛은 100TU 동안 중독 상태가 되지 않는다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 이 유닛은 정화되어 최대 HP의 50%를 회복한다.\n\n다른 아군의 턴이 끝날 때마다 이 유닛의 TU는 0으로 감소한다. 이 TU 감소는 턴 오더를 조정하는 다른 효과의 전 또는 후에 발동할 수 있다. 그런 다음 30TU가 진행할 때까지 이 효과는 다시 발동하지 않는다.\n\n이 유닛이 공격으로 데미지를 입으면 즉시 다음 턴을 얻으며, 이는 TU가 진행할 때까지 다시 발동하지 않는다. 이는 스킨 효과이다. 이 유닛은 가디언 또는 스턴 흡수자가 될 수 없다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "액스 저항 Lv3",
+                "SkillDescription": "액스 장착 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "검"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "실례합니다아ㅏㅏ, 자기 소개부터 할게요.\n사립 탐정 셜록 홈즈, 여러분을 위해 봉사합니다!\n\n아무리 어려운 사건이라도 저에게 맡겨 주세요.\n다음 해가 뜨기 전에 반드시 해결해 드릴 테니까요!"
+            ],
+            "Login": [
+                "오, 사건 해결을 위해 제 도움을 요청하시려는 건가요?\n물론 기꺼이 맡겠습니다!\n...다만 보수는 두둑히, 아시겠죠."
+            ],
+            "Tap": [
+                "네, 명탐정 셜록 홈즈가 인내심 있게 대기 중입니다.\n사건이든 수수께끼든, 아니면 그냥 수다를 떨고 싶든, 언제든지 연락 주세요.",
+                "오? 날 꼬시려는 거? 헤헤. 유감이지만 미스터리만이 내 유일한 진정한 사랑이라고 결심해 버려서...\n\n아니면, 내가 풀 다음 “미스터리”가 되어 보실래요?",
+                "날 관찰하려는 건가요? 물론이죠, 원하는 만큼 실컷 훑어보세요!\n하지만 어… 그렇게 강렬하게 쳐다보시면… 좀 당황스러워지네요…"
+            ],
+            "Idle": [
+                "흠ㅁ… 당신은 어떨지 모르겠지만, 난 심심해요... 창밖에서 들리는 발소리를 듣고, 발소리 주인의 직업을 맞춰보는 게임이라도 해볼까요?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "어둠 속 총성": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "결정적 단서": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "충격적인 증거": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "SherlockRegular02": {
+        "Name": "홈즈",
+        "Name2": "신출귀몰 명탐정",
+        "FullName": "홈즈 - 신출귀몰 명탐정",
+        "Profile": "정보야말로 모든 사건을 해결하는 열쇠라고 믿는 그녀의 방은 신문 스크랩, 직접 모은 사건 파일, 그리고 탑처럼 쌓인 참고 자료 더미에 파묻혀 있다.\n본인은 깔끔쟁이라고 주장하지만, 집주인은 전혀 다른 의견을 가지고 있어 최근 그녀에게 엄중한 경고를 주기도 했다. 웬만한 일에는 끄떡도 하지 않는 사람임에도 불구하고, 그 항의만큼은 한동안 그녀를 꽤나 풀죽어 있게 했다.",
+        "Profile_Ascended": "론디니움 시 경비대장은 탐정이 허락도 없이 범죄 현장에 들이닥쳐 사건 해결의 공을 가로채가는 것을 몹시 못마땅하게 여겼다.\n하지만 부하들 사이에서는 그녀의 뛰어난 지성과 미모에 매료된 이들이 적지 않았고, 결국 그중 일부는 팬클럽을 결성하기까지 했다.\n\n이 탐정에게 홀딱 반한 이들에게는 안타깝게도, 정작 그녀가 관심을 두는 것은 오직 미스터리 뿐이다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스태프",
+        "forFilter_Element": "Air",
+        "Element": "풍속성",
+        "Cost": 34,
+        "Atk_Base": 1486,
+        "Hp_Base": 6990,
+        "Speed": 523,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "풍속성 공격력 및 HP 증가",
+            "SkillDescription": "아군 풍속성 유닛 공격력 10%, 최대 HP 7% 증가."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "어둠 속 총성",
+                "SkillDescription": "적 1기에 300% 데미지. 전장의 적 중 현재 TU가 100TU 이상인 적이 있는 경우 600% 데미지. 전장의 적 중 현재 TU가 200TU 이상인 적이 있는 경우 900% 데미지. 이 공격은 스킨 패시브 스킬과 카운터 스탠스 상태 효과를 무시한다. 이 공격은 타임 스트라이크 타입 액티브 스킬로 간주된다.\n\n이 공격이 타겟에 적중하고 해당 타겟의 현재 TU가 100TU 이하인 경우, 사용자에게 충전이 1회 부여된다. 특정 스킬은 충전 횟수의 영향을 받으며, 충전을 소모한다. 한 유닛은 최대 3회까지 충전할 수 있다.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "결정적 단서",
+                "SkillDescription": "사용자에게 충전이 1회 부여된다. 전장의 모든 아군을 사용자 공격의 500%만큼 회복시킨다.\n\n전장의 아군 중 화염, 수면 또는 중독 상태인 아군이 있는 경우, 모든 아군이 정화(수면, 화염, 중독과 같은 모든 부정적인 상태 효과 제거)되고, 사용자에게 충전 1회가 추가로 부여된다.\n\n사용자가 어둠 속 총성을 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "충격적인 증거",
+                "SkillDescription": "랜덤 적 1기의 액티브 스킬이 50TU 동안 비활성화되고, 전장의 다른 모든 적을 50TU 동안 스턴시킨다. 이 효과는 사용자가 보유한 충전 횟수만큼 다시 발동한다(사용자가 충전을 3회 보유한 경우 최대 총 4회).\n\n전장에 적이 최소 2기 있고 액티브 스킬이 비활성화된 적이 2기 미만인 경우에만 사용할 수 있다. 전투당 5회 사용 가능.\n\n유닛의 액티브 스킬이 비활성화된 상태에서 턴을 얻으면, 마치 수면 상태인 것처럼 턴을 잃는다. 이 효과는 보스 유닛에게는 영향 주지 않으며, 정화될 수 없고, 사용자가 패배하면 종료된다.",
+                "TU": 1,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "최종 추리",
+                "SkillDescription": "적 2기에 700% 데미지. 사용자가 전장에서 100TU 이상 생존한 경우 850% 데미지. 사용자가 전장에서 200TU 이상 생존한 경우 1000% 데미지.\n\n사용자가 충전을 3회 보유한 경우에만 사용 가능하다. 사용자의 모든 충전을 소모한다. 이 스킬은 사용 후 50TU 동안 잠긴다.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "명장 탐정",
+                "SkillDescription": "이 유닛은 수면 상태가 되거나 전장에서 증원군으로 보낼 수 없다.\n\n이 유닛의 공격은 입힌 총 데미지량의 100%만큼 이 유닛을 회복시키고, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n이 유닛은 보유한 충전 1회당 공격 데미지가 20% 감소한다(이 유닛이 충전을 3회 보유한 경우 최대 60%).\n\n이 유닛이 자신의 액티브 스킬 중 하나로 충전을 획득할 때마다, 20% 확률에 각성당 20%씩 추가되어(이 유닛이 각성 4회 보유시 최대 100% 확률) 랜덤 적 1기의 액티브 스킬을 50TU 동안 비활성화한다. 이 효과는 이미 충전을 3회 보유한 상태에서 획득한 충전으로는 발동하지 않는다."
+            },
+            {
+                "SkillTitle": "웅변적 감탄사",
+                "SkillDescription": "이 유닛은 100TU 동안 중독 상태가 되지 않는다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛이 공격으로 데미지를 입고 턴 종료 후까지 생존할 때마다 이 유닛은 정화되어 최대 HP의 50%를 회복한다.\n\n다른 아군의 턴이 끝날 때마다 이 유닛의 TU는 0으로 감소한다. 이 TU 감소는 턴 오더를 조정하는 다른 효과의 전 또는 후에 발동할 수 있다. 그런 다음 30TU가 진행할 때까지 이 효과는 다시 발동하지 않는다.\n\n이 유닛이 공격으로 데미지를 입으면 즉시 다음 턴을 얻으며, 이는 TU가 진행할 때까지 다시 발동하지 않는다. 이는 스킨 효과이다. 이 유닛은 가디언 또는 스턴 흡수자가 될 수 없다."
+            },
+            {
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "이 유닛의 최대 HP가 1200 추가된다."
+            },
+            {
+                "SkillTitle": "공격력+ Lv3",
+                "SkillDescription": "이 유닛의 공격력이 300 추가된다."
+            },
+            {
+                "SkillTitle": "액스 저항 Lv3",
+                "SkillDescription": "액스 장착 유닛의 공격으로 인한 데미지가 10% 감소한다."
+            },
+            {
+                "SkillTitle": "검 마스터리",
+                "SkillDescription": "원래의 선호 무기 유형 외에도 검 무기 스킬을 사용할 수 있다."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "검"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "실례합니다아ㅏㅏ, 자기 소개부터 할게요.\n사립 탐정 셜록 홈즈, 여러분을 위해 봉사합니다!\n\n아무리 어려운 사건이라도 저에게 맡겨 주세요.\n다음 해가 뜨기 전에 반드시 해결해 드릴 테니까요!"
+            ],
+            "Login": [
+                "오, 사건 해결을 위해 제 도움을 요청하시려는 건가요?\n물론 기꺼이 맡겠습니다!\n...다만 보수는 두둑히, 아시겠죠."
+            ],
+            "Tap": [
+                "네, 명탐정 셜록 홈즈가 인내심 있게 대기 중입니다.\n사건이든 수수께끼든, 아니면 그냥 수다를 떨고 싶든, 언제든지 연락 주세요.",
+                "오? 날 꼬시려는 거? 헤헤. 유감이지만 미스터리만이 내 유일한 진정한 사랑이라고 결심해 버려서...\n\n아니면, 내가 풀 다음 “미스터리”가 되어 보실래요?",
+                "날 관찰하려는 건가요? 물론이죠, 원하는 만큼 실컷 훑어보세요!\n하지만 어… 그렇게 강렬하게 쳐다보시면… 좀 당황스러워지네요…"
+            ],
+            "Idle": [
+                "흠ㅁ… 당신은 어떨지 모르겠지만, 난 심심해요... 창밖에서 들리는 발소리를 듣고, 발소리 주인의 직업을 맞춰보는 게임이라도 해볼까요?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "어둠 속 총성": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "결정적 단서": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "충격적인 증거": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "최종 추리": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "헌터와 탐정",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

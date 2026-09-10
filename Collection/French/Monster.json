@@ -20580,6 +20580,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -20965,6 +20976,17 @@
                     "ArcDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -22165,6 +22187,17 @@
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -22569,6 +22602,17 @@
                     "AnastasiaRegular01",
                     "WaterLancerGirl01",
                     "RedHairKnight01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
                     "HighAngelSoldier01"
                 ],
                 "RelationshipBuff": "PV+3%"
@@ -27157,6 +27201,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -27382,6 +27437,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -137029,7 +137095,7 @@
         "Hp_Base": 5695,
         "Speed": 550,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Tu aimes cette douce odeur ? C'est adorable...",
         "LeaderSkill": {
             "SkillTitle": "Lumière ATT & PV+",
@@ -137180,6 +137246,19 @@
                         "IsSleeping": 0.89
                     }
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -137365,6 +137444,381 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "SherlockRegular01": {
+        "Name": "Holmes",
+        "Name2": "Maître Détective Omniprésent",
+        "FullName": "Holmes - Maître Détective Omniprésent",
+        "Profile": "Holmes est un détective privé basé à Londinium, la ville couverte de brouillard. Dès qu'elle entend parler d'une enquête, elle se précipite pour se rendre sur les lieux, complètement insensible aux regards sinistres que les gardes de la ville lui jettent.\n\nC'est une maître détective qui apparait sans avertissement, et résout même les mystères les plus déconcertants avant que le soleil ne se lève.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Air",
+        "Element": "Tempête",
+        "Cost": 28,
+        "Atk_Base": 1254,
+        "Hp_Base": 4940,
+        "Speed": 523,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Héhé... Je sens qu'une enquête se prépare !",
+        "LeaderSkill": {
+            "SkillTitle": "Tempête ATT & PV+",
+            "SkillDescription": "Les alliés Tempête voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Tir à l'aveugle",
+                "SkillDescription": "300% de dégâts à 1 ennemi. 600% dégâts à la place si les TU actuels d'un ennemi quelconque du champ de bataille sont à 100TU voire davantage. 900% dégâts à la place si les TU actuels d'un ennemi quelconque du champ de bataille sont à 200TU voire davantage. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais. Cette attaque est considérée comme étant une Compétence Active de type Frappe Temporelle.\n\nLorsque cette attaque touche une cible et que les TU actuels de cette cible sont à 100TU voire moins, l'utilisateur gagne une Charge. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Indice Vital",
+                "SkillDescription": "L'utilisateur gagne une Charge. Soigne tous les alliés du champ de bataille d'une valeur de 500% de l'Attaque de l'utilisateur.\n\nPuis si quelconque allié du champ de bataille est brûlé, endormi ou empoisonné, tous les alliés sont Purifiés (tout effet de statut négatif tel que le Sommeil, la Brûlure ou le Poison est retiré), et l'utilisateur gagne une autre Charge.\n\nDéverrouillé à chaque fois que le lanceur utilise Tir à l'aveugle, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Preuve Choquante",
+                "SkillDescription": "Les Compétences Actives de 1 ennemi aléatoire sont désactivées pendant 50TU, puis tous les autres ennemis du champ de bataille sont Étourdis pendant 50TU. Cet effet se déclenche à nouveau pour chaque Charge conservée par l'utilisateur (maximum de 4 fois au total si l'utilisateur possède 3 Charges).\n\nUtilisable seulement s'il y a au moins 2 ennemis sur le champ de bataille et que les Compétences Actives de moins de 2 ennemis sont désactivées. Utilisable 5 fois par bataille.\n\n Lorsque les compétences actives de cette unité sont désactivées et que son tour arrive, elle perdra ce tour comme si elle était endormie. Cet effet ne peut affecter les unités Boss, ne peut être purifié et prendra fin si l'utilisateur est vaincu.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Maître Détective",
+                "SkillDescription": "Cette unité ne peut être endormie ou renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, ignorent les effets de réduction de dégâts et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nCette unité bénéficie d'une réduction de 20% des dégâts provenant d'attaques par Charge conservée par cette unité (maximum de 60% si cette unité possède 3 Charges conservées).\n\nChaque fois que cette unité gagne une Charge en utilisant une de ses Compétences Actives, elle bénéficie d'une chance de 20%, et 20% de plus par Éveil (jusqu'à 100% de chance si cette unité possède 4 Éveils) que les Compétences Actives de 1 ennemi aléatoire soient désactivées pendant 50TU. Cet effet ne peut être déclenché par une Charge gagnée lorsque cette unité possède déjà 3 Charges conservées."
+            },
+            {
+                "SkillTitle": "Éloquence Absolue",
+                "SkillDescription": "Cette unité ne peut être empoisonnée pendant 100TU.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité sera Purifiée et soignée de 50% de ses PV max à chaque fois qu'elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour.\n\nAprès la fin de chaque tour allié, les TU de cette unité seront réduits à 0. Cette réduction de TU peut être déclenchée avant ou après tout effet ajustant l'ordre des tours. Puis cet effet ne peut être à nouveau déclenché jusqu'à ce que 30TU s'écoulent.\n\nLorsque cette unité subit des dégâts provenant d'une attaque, elle prendra immédiatement le prochain tour, et ceci ne pourra être à nouveau déclenché jusqu'à ce que les TU s'écoulent. Ceci est un effet de Reflet. Cette unité ne peut devenir un Gardien ou Absorbeur d'Étourdissement."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Hache LV3",
+                "SkillDescription": "10% de dégâts en moins venant des attaques d'unités équipées d'Haches."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Excusez-mooooi, permettez-moi de me présenter.\nSherlock Holmes, détective privé, à votre service !\n\nVous pouvez me confier n'importe quelle enquête, peu importe à quel point elle pourrait être difficile à résoudre.\nJ'en aurais fini avec avant la prochain lever de soleil !"
+            ],
+            "Login": [
+                "Oh, veux-tu me demander mon aide pour résoudre une enquête ?\nBien sûr que je m'en chargerais volontiers !\n... Cependant, je m'attends à être très bien rémunérée, tu sais."
+            ],
+            "Tap": [
+                "Oui, maître détective Sherlock Holmes attend patiemment.\nSi tu as une enquête, un puzzle, ou tu veux même simplement discuter, je suis disponible.",
+                "Oh ? Essais-tu de me séduire ? Héhé. Je crains avoir déjà décidé que je n'ai que de l'amour véritable pour les mystères...\n\nOu peut-être que tu voudrais devenir mon prochain « mystère » à résoudre ?",
+                "Tentes-tu de m'observer ? Bien sûr, n'hésite pas à bien me regarder pendant aussi longtemps que tu le veuilles !\nMais euh... Si tu continues à moi regarder aussi intensément... Ça me rend un peu gênée..."
+            ],
+            "Idle": [
+                "Hmm... Je ne sais pas ce que t'en penses, mais je m'ennuie... Et si on jouait à un jeu où on doit écouter le bruit des pas venant de l'autre côté de la fenêtre et tenter de deviner le métier de la personne qui marche ?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "Tir à l'aveugle": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "Indice Vital": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Preuve Choquante": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "SherlockRegular02": {
+        "Name": "Holmes",
+        "Name2": "Maître Détective Omniprésent",
+        "FullName": "Holmes - Maître Détective Omniprésent",
+        "Profile": "Considérant l'information comme étant la clé pour résoudre n'importe quelle enquête, sa chambre croule sous les coupures de presses, les dossiers d'enquêtes qu'elle a rassemblés elle-même, et des montagnes imposantes de documentation de référence.\nBien qu'elle se revendique comme étant maniaque de la propreté, son propriétaire n'est pas d'accord, lui ayant récemment donné un avertissement sévère. Malgré le fait qu'elle soit quelqu'un de remarquablement insensible aux critiques, la plainte l'a laissée plutôt déprimée pendant un moment.",
+        "Profile_Ascended": "Le chef des gardes de la ville de Londinium trouve que la détective est absolument insupportable, étant donné qu'elle débarquait sur les scènes de crime sans invitation et volait la gloire de les résoudre elle-même.\nParmi ses subordonnés, cependant, son esprit brillant et sa beauté avaient captivé de nombreux admirateurs, et par la suite, certains d'entre eux formèrent un fan club.\n\nMalheureusement pour quiconque étant charmé par cette détective, elle est elle-même intéressée seulement par les mystères, et rien d'autre.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Air",
+        "Element": "Tempête",
+        "Cost": 34,
+        "Atk_Base": 1486,
+        "Hp_Base": 6990,
+        "Speed": 523,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillTitle": "Tempête ATT & PV+",
+            "SkillDescription": "Les alliés Tempête voient leur Attaque augmenter de 10% et leurs PV Max de 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Tir à l'aveugle",
+                "SkillDescription": "300% de dégâts à 1 ennemi. 600% dégâts à la place si les TU actuels d'un ennemi quelconque du champ de bataille sont à 100TU voire davantage. 900% dégâts à la place si les TU actuels d'un ennemi quelconque du champ de bataille sont à 200TU voire davantage. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais. Cette attaque est considérée comme étant une Compétence Active de type Frappe Temporelle.\n\nLorsque cette attaque touche une cible et que les TU actuels de cette cible sont à 100TU voire moins, l'utilisateur gagne une Charge. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillTitle": "Indice Vital",
+                "SkillDescription": "L'utilisateur gagne une Charge. Soigne tous les alliés du champ de bataille d'une valeur de 500% de l'Attaque de l'utilisateur.\n\nPuis si quelconque allié du champ de bataille est brûlé, endormi ou empoisonné, tous les alliés sont Purifiés (tout effet de statut négatif tel que le Sommeil, la Brûlure ou le Poison est retiré), et l'utilisateur gagne une autre Charge.\n\nDéverrouillé à chaque fois que le lanceur utilise Tir à l'aveugle, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Preuve Choquante",
+                "SkillDescription": "Les Compétences Actives de 1 ennemi aléatoire sont désactivées pendant 50TU, puis tous les autres ennemis du champ de bataille sont Étourdis pendant 50TU. Cet effet se déclenche à nouveau pour chaque Charge conservée par l'utilisateur (maximum de 4 fois au total si l'utilisateur possède 3 Charges).\n\nUtilisable seulement s'il y a au moins 2 ennemis sur le champ de bataille et que les Compétences Actives de moins de 2 ennemis sont désactivées. Utilisable 5 fois par bataille.\n\n Lorsque les compétences actives de cette unité sont désactivées et que son tour arrive, elle perdra ce tour comme si elle était endormie. Cet effet ne peut affecter les unités Boss, ne peut être purifié et prendra fin si l'utilisateur est vaincu.",
+                "TU": 1,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Déduction Finale",
+                "SkillDescription": "700% de dégâts à 2 ennemis. 850% de dégâts à la place si l'utilisateur a survécu pendant 100TU ou plus longtemps sur le champ de bataille. 1000% de dégâts à la place si l'utilisateur a survécu 200TU ou plus longtemps sur le champ de bataille.\n\nUtilisable seulement si le lanceur possède 3 Charges. Consomme toutes les Charges sur l'utilisateur. Cette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Maître Détective",
+                "SkillDescription": "Cette unité ne peut être endormie ou renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, ignorent les effets de réduction de dégâts et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nCette unité bénéficie d'une réduction de 20% des dégâts provenant d'attaques par Charge conservée par cette unité (maximum de 60% si cette unité possède 3 Charges conservées).\n\nChaque fois que cette unité gagne une Charge en utilisant une de ses Compétences Actives, elle bénéficie d'une chance de 20%, et 20% de plus par Éveil (jusqu'à 100% de chance si cette unité possède 4 Éveils) que les Compétences Actives de 1 ennemi aléatoire soient désactivées pendant 50TU. Cet effet ne peut être déclenché par une Charge gagnée lorsque cette unité possède déjà 3 Charges conservées."
+            },
+            {
+                "SkillTitle": "Éloquence Absolue",
+                "SkillDescription": "Cette unité ne peut être empoisonnée pendant 100TU.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité sera Purifiée et soignée de 50% de ses PV max à chaque fois qu'elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour.\n\nAprès la fin de chaque tour allié, les TU de cette unité seront réduits à 0. Cette réduction de TU peut être déclenchée avant ou après tout effet ajustant l'ordre des tours. Puis cet effet ne peut être à nouveau déclenché jusqu'à ce que 30TU s'écoulent.\n\nLorsque cette unité subit des dégâts provenant d'une attaque, elle prendra immédiatement le prochain tour, et ceci ne pourra être à nouveau déclenché jusqu'à ce que les TU s'écoulent. Ceci est un effet de Reflet. Cette unité ne peut devenir un Gardien ou Absorbeur d'Étourdissement."
+            },
+            {
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillTitle": "Résist. Hache LV3",
+                "SkillDescription": "10% de dégâts en moins venant des attaques d'unités équipées d'Haches."
+            },
+            {
+                "SkillTitle": "Maîtrise Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Excusez-mooooi, permettez-moi de me présenter.\nSherlock Holmes, détective privé, à votre service !\n\nVous pouvez me confier n'importe quelle enquête, peu importe à quel point elle pourrait être difficile à résoudre.\nJ'en aurais fini avec avant la prochain lever de soleil !"
+            ],
+            "Login": [
+                "Oh, veux-tu me demander mon aide pour résoudre une enquête ?\nBien sûr que je m'en chargerais volontiers !\n... Cependant, je m'attends à être très bien rémunérée, tu sais."
+            ],
+            "Tap": [
+                "Oui, maître détective Sherlock Holmes attend patiemment.\nSi tu as une enquête, un puzzle, ou tu veux même simplement discuter, je suis disponible.",
+                "Oh ? Essais-tu de me séduire ? Héhé. Je crains avoir déjà décidé que je n'ai que de l'amour véritable pour les mystères...\n\nOu peut-être que tu voudrais devenir mon prochain « mystère » à résoudre ?",
+                "Tentes-tu de m'observer ? Bien sûr, n'hésite pas à bien me regarder pendant aussi longtemps que tu le veuilles !\nMais euh... Si tu continues à moi regarder aussi intensément... Ça me rend un peu gênée..."
+            ],
+            "Idle": [
+                "Hmm... Je ne sais pas ce que t'en penses, mais je m'ennuie... Et si on jouait à un jeu où on doit écouter le bruit des pas venant de l'autre côté de la fenêtre et tenter de deviner le métier de la personne qui marche ?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "TimeInCombat100": 1.1,
+                "TimeInCombat200": 1.15,
+                "IsCharged3": 1.01
+            },
+            "SkillUse": {
+                "Tir à l'aveugle": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "CurrentTULessThan100": 1.1
+                    }
+                },
+                "Indice Vital": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "NotCharged3": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Preuve Choquante": {
+                    "BaseWeight": 100,
+                    "Source": {
+                        "1EnemyDisabled": 500,
+                        "1AllyIsSleepingPoisonedOrBurning": 500,
+                        "2AllySleepingOrFrostburned": 500,
+                        "3AllySleepingOrFrostburned": 500,
+                        "2AlliesPoisoned": 500,
+                        "3AlliesPoisoned": 500
+                    }
+                },
+                "Déduction Finale": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "AllEnemiesImposters": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 0.25,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "IsProtectedNotProtector": 0.75,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA43": {
+                "RelationshipName": "Chasseur et Détective",
+                "RelationshipFamily": [
+                    "VanHelsingRegular01",
+                    "SherlockRegular01",
+                    "FrogSorceror01",
+                    "ArcDemon01",
+                    "HighAngelSoldier01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }
