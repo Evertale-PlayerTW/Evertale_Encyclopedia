@@ -36434,7 +36434,7 @@
             },
             {
                 "SkillTitle": "三叉戟",
-                "SkillDescription": "对1个敌人造成600%的伤害并召唤1个海水盾卫至己方援军下一个位置。此技能无视非BOSS目标防止被击败的效果或被动技能。移除目标的睡眠抵抗。\n此技能每次使用后直到己方水盾卫获得过回合后或己方队伍中不存在水盾卫时才能再次使用。",
+                "SkillDescription": "对1个敌人造成600%的伤害并召唤1个超级水盾卫至己方援军下一个位置。此技能无视非BOSS目标防止被击败的效果或被动技能。移除目标的睡眠抵抗。\n此技能每次使用后直到己方水盾卫获得过回合后或己方队伍中不存在水盾卫时才能再次使用。",
                 "TU": 1,
                 "Spirit": "+5"
             }
@@ -36581,7 +36581,7 @@
             },
             {
                 "SkillTitle": "三叉戟",
-                "SkillDescription": "对1个敌人造成600%的伤害并召唤1个海水盾卫至己方援军下一个位置。此技能无视非BOSS目标防止被击败的效果或被动技能。移除目标的睡眠抵抗。\n此技能每次使用后直到己方水盾卫获得过回合后或己方队伍中不存在水盾卫时才能再次使用。",
+                "SkillDescription": "对1个敌人造成600%的伤害并召唤1个超级水盾卫至己方援军下一个位置。此技能无视非BOSS目标防止被击败的效果或被动技能。移除目标的睡眠抵抗。\n此技能每次使用后直到己方水盾卫获得过回合后或己方队伍中不存在水盾卫时才能再次使用。",
                 "TU": 1,
                 "Spirit": "+5"
             }
@@ -52142,6 +52142,647 @@
                         "IsMechaSisterNew": 0.25,
                         "IsFrostbitten": 0.89,
                         "IsSleeping": 0.89
+                    }
+                }
+            }
+        }
+    },
+    "AliceNewBoss01": {
+        "Name": "爱丽丝",
+        "FullName": "爱丽丝",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "法杖",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 534,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "钥匙冲击",
+                "SkillDescription": "对1个敌人造成500%的伤害；若敌方场上存在至少2个处于睡眠、燃烧状态或有燃霜效果的单位，则改为造成750%的伤害；若敌方场上所有单位都处于睡眠、燃烧状态或有燃霜效果，则改为造成1000%的伤害。移除己方场上所有单位的任何睡眠状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "蓝色药水",
+                "SkillDescription": "净化场上全部己方单位并使其获得中毒抵抗与睡眠抵抗。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。使用者下一次使用钥匙冲击主动技能后TU归零立即获得下一回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。仅当场上存在处于燃烧、睡眠或中毒状态的单位时可以使用。此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "兔子摇篮曲",
+                "SkillDescription": "移除场上所有敌方单位的睡眠抵抗、匿踪护盾与任何燃烧状态，随机强制2个敌人睡眠200TU。对进场后已经陷入过睡眠状态的敌方单位亦可生效。睡眠将覆盖身上的其他状态效果。场上每有1个不处于睡眠状态的敌方单位，随机1个己方单位TU归零立即获得下一回合。在由此技能而获得的回合无法使用给予其他队友回合的主动技能。使用者在因此类技能而获得回合时仍可使用此技能。仅当敌方场上存在至多1个处于睡眠状态的单位时才可使用。此技能使用后必须等50TU后才能再次使用。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "梦的原点",
+                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+            },
+            {
+                "SkillTitle": "梦游仙境",
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "钥匙冲击": {
+                    "BaseWeight": 1.25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "IsNextMoveIsGodModeAliceNew": 500
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "蓝色药水": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotNextMoveIsGodModeAliceNew": 500
+                    }
+                },
+                "兔子摇篮曲": {
+                    "BaseWeight": 250
+                }
+            }
+        }
+    },
+    "AliceNewBoss03": {
+        "Name": "最初的爱丽丝",
+        "FullName": "最初的爱丽丝",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "法杖",
+        "forFilter_Element": "Water",
+        "Element": "水",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 190500,
+        "Speed": 534,
+        "Power": 2466000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "钥匙冲击",
+                "SkillDescription": "对1个敌人造成500%的伤害；若敌方场上存在至少2个处于睡眠、燃烧状态或有燃霜效果的单位，则改为造成750%的伤害；若敌方场上所有单位都处于睡眠、燃烧状态或有燃霜效果，则改为造成1000%的伤害。移除己方场上所有单位的任何睡眠状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "蓝色药水",
+                "SkillDescription": "净化场上全部己方单位并使其获得中毒抵抗与睡眠抵抗。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。使用者下一次使用钥匙冲击主动技能后TU归零立即获得下一回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。仅当场上存在处于燃烧、睡眠或中毒状态的单位时可以使用。此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "兔子摇篮曲",
+                "SkillDescription": "移除场上所有敌方单位的睡眠抵抗、匿踪护盾与任何燃烧状态，随机强制2个敌人睡眠200TU。对进场后已经陷入过睡眠状态的敌方单位亦可生效。睡眠将覆盖身上的其他状态效果。场上每有1个不处于睡眠状态的敌方单位，随机1个己方单位TU归零立即获得下一回合。在由此技能而获得的回合无法使用给予其他队友回合的主动技能。使用者在因此类技能而获得回合时仍可使用此技能。仅当敌方场上存在至多1个处于睡眠状态的单位时才可使用。此技能使用后必须等50TU后才能再次使用。",
+                "TU": 50,
+                "Spirit": "-2"
+            },
+            {
+                "SkillTitle": "奇妙星云",
+                "SkillDescription": "对2个敌人造成1000%的伤害。此技能无视目标的反弹被动技能和“反击态势”状态。将使用者和下一个己方援军交换位置。若己方没有援军，则在己方场上召唤足量“超级水盾卫”后使使用者回到援军。使用者必须有3格“能量”才能使用此技能。此技能在一场战斗中只能使用十次。",
+                "TU": 0,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "梦的原点",
+                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+            },
+            {
+                "SkillTitle": "梦游仙境",
+                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "钥匙冲击": {
+                    "BaseWeight": 1.25,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "IsNextMoveIsGodModeAliceNew": 500
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                },
+                "蓝色药水": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotNextMoveIsGodModeAliceNew": 500
+                    }
+                },
+                "兔子摇篮曲": {
+                    "BaseWeight": 250
+                },
+                "奇妙星云": {
+                    "BaseWeight": 2.5,
+                    "Ignore": [
+                        "IsSleeping",
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0,
+                        "AllEnemiesIsSleepingBurningOrFrostbitten": 2
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89
+                    }
+                }
+            }
+        }
+    },
+    "QueenHeartsRegularBoss01": {
+        "Name": "红心皇后",
+        "FullName": "红心皇后",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 490,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Quick Tempered",
+                "SkillDescription": "对1个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低200%；场上所有己方单位获得燃烧状态。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Grab Them",
+                "SkillDescription": "封锁敌方场上所有处于燃烧状态的单位主动技能30TU；己方场上所有其他处于燃烧状态的单位减少TU。场上必须有至少4个处于燃烧状态的单位才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用三次。当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Bloody Sharp",
+                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Queen Judge",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+            },
+            {
+                "SkillTitle": "Take Their Heads",
+                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Quick Tempered": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Grab Them": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Bloody Sharp": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegularBoss03": {
+        "Name": "绝对红心皇后",
+        "FullName": "绝对红心皇后",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 4000,
+        "Hp_Base": 178000,
+        "Speed": 490,
+        "Power": 2376000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "Quick Tempered",
+                "SkillDescription": "对1个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低200%；场上所有己方单位获得燃烧状态。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "Grab Them",
+                "SkillDescription": "封锁敌方场上所有处于燃烧状态的单位主动技能30TU；己方场上所有其他处于燃烧状态的单位减少TU。场上必须有至少4个处于燃烧状态的单位才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用三次。当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillTitle": "Bloody Sharp",
+                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillTitle": "Bloody Hearts",
+                "SkillDescription": "对2个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低150%。此技能无视目标的反弹被动技能和“反击态势”状态。此攻击的伤害不会移除目标的睡眠状态。使用者必须处于燃烧状态才可使用。若此技能在10TU内使用达到3次，则有50TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "Queen Judge",
+                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+            },
+            {
+                "SkillTitle": "Take Their Heads",
+                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Quick Tempered": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Grab Them": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Bloody Sharp": {
+                    "BaseWeight": 500
+                },
+                "Bloody Hearts": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        }
+    },
+    "CupidRegularBoss01": {
+        "Name": "丘比特",
+        "FullName": "丘比特",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 526,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "心动之箭",
+                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "可爱链接",
+                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "甜蜜时光",
+                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "TU": 10,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "爱之魔女",
+                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+            },
+            {
+                "SkillTitle": "恋之信徒",
+                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "心动之箭": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "可爱链接": {
+                    "BaseWeight": 500
+                },
+                "甜蜜时光": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                }
+            }
+        }
+    },
+    "CupidRegularBoss03": {
+        "Name": "真爱的丘比特",
+        "FullName": "真爱的丘比特",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 526,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillTitle": "心动之箭",
+                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "可爱链接",
+                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillTitle": "甜蜜时光",
+                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "TU": 10,
+                "Spirit": "-1"
+            },
+            {
+                "SkillTitle": "心跳加速",
+                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time the user has already used this skill or Hurt Feelings while on the battlefield (max of 1000% total damage after the user has used this skill or Hurt Feelings 5 or more times).\n\nEvery second time this skill is activated by the user while on the battlefield, a random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUsable 10 times per battle.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillTitle": "爱之魔女",
+                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+            },
+            {
+                "SkillTitle": "恋之信徒",
+                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "心动之箭": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "可爱链接": {
+                    "BaseWeight": 500
+                },
+                "甜蜜时光": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "心跳加速": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "Has4GoodGirlBuffExactly": 5,
+                        "Has5GoodGirlBuff": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89
                     }
                 }
             }
