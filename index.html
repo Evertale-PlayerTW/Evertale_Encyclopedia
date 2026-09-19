@@ -2471,6 +2471,7 @@
 
 					equipmentContent["Name"] = getTextByKey(entryID + "NameKey");
 					equipmentContent["FullName"] = equipmentContent["Name"] || entryID;
+					equipmentContent["Family"] = entry["family"];
 					equipmentContent["Profile"] = getTextByKey(entryID + "DescriptionKey");
 					equipmentContent["Rarity"] = getRarity(entry["accessoryStars"]);
 					equipmentContent["Stars"] = generateStarText(entry["accessoryStars"], entry["accessoryStars"]);
@@ -2518,6 +2519,7 @@
 
 					weaponContent["Name"] = getTextByKey(entry["family"] + "01NameKey");
 					weaponContent["FullName"] = weaponContent["Name"] || entryID;
+					weaponContent["Family"] = entry["family"];
 					weaponContent["Profile"] = getTextByKey(entry["family"] + "01DescriptionKey");
 					weaponContent["Rarity"] = getRarity(entry["evolvedStars"]);
 					weaponContent["Stars"] = generateStarText(entry["stars"], entry["evolvedStars"]);
@@ -2545,6 +2547,7 @@
 						weaponContent["WeaponSkill"] = [];
 						for (const skillID of Object.values(entry["passives"])) {
 							const skillDetail = {};
+							skillDetail["SkillCodename"] = skillID;
 							skillDetail["SkillTitle"] = getTextByKey(skillID + "NameKey");
 							skillDetail["SkillDescription"] = getTextByKey(skillID + "DescriptionKey");
 							weaponContent["WeaponSkill"].push(skillDetail);
@@ -2634,6 +2637,7 @@
 							`${monsterContent["Name"]} - ${monsterContent["Name2"]}` :
 							monsterContent["Name"] :
 						entryID;
+					monsterContent["Family"] = entry["family"];
 					monsterContent["Profile"] = getTextByKey(entryID + "DescriptionKey");
 					if (entry["cosmoName"])
 						monsterContent["Profile_Ascended"] = getTextByKey(entry["cosmoName"] + "DescriptionKey");
@@ -2669,6 +2673,7 @@
 					if (entry["leaderBuff"]) {
 						monsterContent["LeaderSkill"] = {};
 						const skillID = entry["leaderBuff"];
+						monsterContent["LeaderSkill"]["SkillCodename"] = skillID;
 						monsterContent["LeaderSkill"]["SkillTitle"] = getTextByKey(skillID + "NameKey");
 						monsterContent["LeaderSkill"]["SkillDescription"] = getTextByKey(skillID + "DescriptionKey");
 					}
@@ -2677,6 +2682,7 @@
 						monsterContent["ActiveSkill"] = [];
 						for (const skillID of Object.values(entry["activeSkills"])) {
 							const skillDetail = {};
+							skillDetail["SkillCodename"] = skillID;
 							//檢查技能設定中有無指定標題Key
 							const skillNameKey = (abilityDataConfig[skillID]["nameKey"] ?? skillID) + "NameKey";
 							skillDetail["SkillTitle"] = getTextByKey(skillNameKey);
@@ -2702,6 +2708,7 @@
 						monsterContent["PassiveSkill"] = [];
 						for (const skillID of Object.values(entry["passives"])) {
 							const skillDetail = {};
+							skillDetail["SkillCodename"] = skillID;
 							skillDetail["SkillTitle"] = getTextByKey(skillID + "NameKey");
 							skillDetail["SkillDescription"] = getTextByKey(skillID + "DescriptionKey");
 							monsterContent["PassiveSkill"].push(skillDetail);
@@ -2811,8 +2818,11 @@
 
 		function setExtraEvoCount(jsonData) {
 			for (const id in jsonData) {
-				const familyName = id.slice(0, -2);
-				const numInFamily = Number(id.slice(-2));
+				// const familyName = id.slice(0, -2);
+				// const numInFamily = Number(id.slice(-2));
+				const familyName = jsonData[id]["Family"];
+				const numInFamily = Number(id.replace(familyName, ""));
+				if (!numInFamily) continue;
 				let evoNotFreeCount = numInFamily - 1;
 				for (let i = numInFamily - 1; i > 0; i--) {
 					if (jsonData?.[familyName + String(i).padStart(2, "0")]?.["FreeEvolve"]) evoNotFreeCount--;
