@@ -55587,12 +55587,12 @@
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
                 "SkillTitle": "梦的原点",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillDescription": "每当此单位使用“钥匙冲击”、“蓝色药水”或“兔子摇篮曲”主动技能后，此单位获得1格“能量”。能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。\n此单位不会因为燃烧的伤害被击败。在敌方回合期间，此单位无法从场上回到援军队伍。此单位的攻击不会移除目标的睡眠状态。此单位的攻击无视目标的减少效果与非BOSS单位防止目标被击败的效果或被动技能。"
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "梦游仙境",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "梦游奇境",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。此单位进场时获得睡眠抵抗与中毒抵抗。\n每当此单位从援军队伍进场时，移除场上所有敌方单位的睡眠抵抗、匿踪护盾与任何燃烧状态，并使当前TU最高及最低的敌方单位陷入持续100TU的深度睡眠状态，对进场后已经陷入过睡眠状态的敌方单位亦可生效。深度睡眠会覆盖对象身上的其他状态效果，且不会被燃烧或睡眠状态覆盖或被“净化”类的技能清除。"
             }
         ],
         "AiLogic": {
@@ -55691,12 +55691,12 @@
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
                 "SkillTitle": "梦的原点",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillDescription": "每当此单位使用“钥匙冲击”、“蓝色药水”或“兔子摇篮曲”主动技能后，此单位获得1格“能量”。能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。\n此单位不会因为燃烧的伤害被击败。在敌方回合期间，此单位无法从场上回到援军队伍。此单位的攻击不会移除目标的睡眠状态。此单位的攻击无视目标的减少效果与非BOSS单位防止目标被击败的效果或被动技能。"
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "梦游仙境",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "梦游奇境",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。此单位进场时获得睡眠抵抗与中毒抵抗。\n每当此单位从援军队伍进场时，移除场上所有敌方单位的睡眠抵抗、匿踪护盾与任何燃烧状态，并使当前TU最高及最低的敌方单位陷入持续100TU的深度睡眠状态，对进场后已经陷入过睡眠状态的敌方单位亦可生效。深度睡眠会覆盖对象身上的其他状态效果，且不会被燃烧或睡眠状态覆盖或被“净化”类的技能清除。"
             }
         ],
         "AiLogic": {
@@ -55798,22 +55798,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
+                "SkillTitle": "红心之鞭",
                 "SkillDescription": "对1个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低200%；场上所有己方单位获得燃烧状态。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
+                "SkillTitle": "诅咒之牌",
                 "SkillDescription": "封锁敌方场上所有处于燃烧状态的单位主动技能30TU；己方场上所有其他处于燃烧状态的单位减少TU。场上必须有至少4个处于燃烧状态的单位才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用三次。当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "皇后之怒",
+                "SkillDescription": "场上每有1个处于燃烧或睡眠状态的单位，己方获得1点灵气。\n\n移除场上所有队友的中毒状态（包括致命毒）。随后，使场上所有队友获得贯通、眩晕抵抗与中毒抵抗。\n\n每当使用者使用“红心之鞭”或“砍了他的头！”后，此技能将可使用。每次使用后或使用者离场时，此技能将再次无法使用。\n\n拥有贯通的单位，其攻击无视敌方减伤效果直到其下一个回合结束。每种抵抗会防止对应效果生效1次，随后被移除。相同种类的抵抗无法叠加。",
                 "TU": 1,
                 "Spirit": "+1"
             }
@@ -55821,19 +55821,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "荒诞的裁决者",
+                "SkillDescription": "此单位无法从场上回到援军队伍。若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n\n此单位的攻击无视非BOSS单位防止目标被击败的效果。\n\n每当此单位处于燃烧或中毒状态时受到攻击伤害，并在回合结束后以大于1点生命值存活，此单位当前TU归零以立即获得下一回合，并陷入燃烧状态。该额外回合可能会被其他影响行动顺序的效果打断（例如以最低TU目标为对象的其他眩晕效果）。该TU减少效果可能在其他调整行动顺序的效果之前或之后触发。此效果不属于反弹类效果。"
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "弥天大谎",
+                "SkillDescription": "此单位无法从场上回到援军队伍。若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n\n此单位的攻击无视非BOSS单位防止目标被击败的效果。\n\n每当此单位处于燃烧或中毒状态时受到攻击伤害，并在回合结束后以大于1点生命值存活，此单位当前TU归零以立即获得下一回合，并陷入燃烧状态。该额外回合可能会被其他影响行动顺序的效果打断（例如以最低TU目标为对象的其他眩晕效果）。该TU减少效果可能在其他调整行动顺序的效果之前或之后触发。此效果不属于反弹类效果。"
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "红心之鞭": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55857,13 +55857,13 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "诅咒之牌": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "皇后之怒": {
                     "BaseWeight": 500
                 }
             }
@@ -55890,28 +55890,28 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
+                "SkillTitle": "红心之鞭",
                 "SkillDescription": "对1个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低200%；场上所有己方单位获得燃烧状态。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
+                "SkillTitle": "诅咒之牌",
                 "SkillDescription": "封锁敌方场上所有处于燃烧状态的单位主动技能30TU；己方场上所有其他处于燃烧状态的单位减少TU。场上必须有至少4个处于燃烧状态的单位才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用三次。当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "皇后之怒",
+                "SkillDescription": "场上每有1个处于燃烧或睡眠状态的单位，己方获得1点灵气。\n\n移除场上所有队友的中毒状态（包括致命毒）。随后，使场上所有队友获得贯通、眩晕抵抗与中毒抵抗。\n\n每当使用者使用“红心之鞭”或“砍了他的头！”后，此技能将可使用。每次使用后或使用者离场时，此技能将再次无法使用。\n\n拥有贯通的单位，其攻击无视敌方减伤效果直到其下一个回合结束。每种抵抗会防止对应效果生效1次，随后被移除。相同种类的抵抗无法叠加。",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "MultiAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Hearts",
+                "SkillTitle": "砍了他的头！",
                 "SkillDescription": "对2个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低150%。此技能无视目标的反弹被动技能和“反击态势”状态。此攻击的伤害不会移除目标的睡眠状态。使用者必须处于燃烧状态才可使用。若此技能在10TU内使用达到3次，则有50TU的冷却时间。",
                 "TU": 1,
                 "Spirit": "-3"
@@ -55920,19 +55920,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "荒诞的裁决者",
+                "SkillDescription": "此单位无法从场上回到援军队伍。若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n\n此单位的攻击无视非BOSS单位防止目标被击败的效果。\n\n每当此单位处于燃烧或中毒状态时受到攻击伤害，并在回合结束后以大于1点生命值存活，此单位当前TU归零以立即获得下一回合，并陷入燃烧状态。该额外回合可能会被其他影响行动顺序的效果打断（例如以最低TU目标为对象的其他眩晕效果）。该TU减少效果可能在其他调整行动顺序的效果之前或之后触发。此效果不属于反弹类效果。"
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "弥天大谎",
+                "SkillDescription": "此单位无法从场上回到援军队伍。若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n\n此单位的攻击无视非BOSS单位防止目标被击败的效果。\n\n每当此单位处于燃烧或中毒状态时受到攻击伤害，并在回合结束后以大于1点生命值存活，此单位当前TU归零以立即获得下一回合，并陷入燃烧状态。该额外回合可能会被其他影响行动顺序的效果打断（例如以最低TU目标为对象的其他眩晕效果）。该TU减少效果可能在其他调整行动顺序的效果之前或之后触发。此效果不属于反弹类效果。"
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "红心之鞭": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55956,16 +55956,16 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "诅咒之牌": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "皇后之怒": {
                     "BaseWeight": 500
                 },
-                "Bloody Hearts": {
+                "砍了他的头！": {
                     "BaseWeight": 5,
                     "Ignore": [
                         "HasSkin"
@@ -56023,21 +56023,21 @@
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
                 "SkillTitle": "心动之箭",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillDescription": "对1个敌人造成400%的伤害，若目标在己方场上有“真爱之魔女——丘比特”时通过攻击造成过伤害，则改为造成800%的伤害。此技能无视目标的反弹被动技能和“反击态势”状态。使用者获得睡眠抵抗与中毒抵抗。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
                 "SkillTitle": "可爱链接",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillDescription": "随机使另1个尚未拥有链接的非召唤队友获得持续50TU的爱之链接。\n\n随后，该队友与使用者被净化（移除睡眠、燃烧或中毒等负面状态效果）并金属化。\n\n仅当场上没有其他队友拥有爱之链接，且存在有效目标时可使用。此技能在一场战斗中只能使用3次。\n\n金属化单位从攻击中受到的伤害减少50%。该减伤效果不会被未明确无视金属化的攻击无视。金属化在生效后累计减少3次伤害后移除，再次金属化时会重置次数。金属化不属于状态效果。",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
                 "SkillTitle": "甜蜜时光",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillDescription": "随机使另1个拥有爱之链接的队友当前TU归零。随后，随机使1个没有爱之链接的队友当前TU归零。两者均被净化并获得狂热。通过此技能获得的回合中无法使用赋予回合类主动技能。\n\n每当使用者使用“心动之箭”或“心跳加速”后，此技能将可使用。每次使用后或使用者离场时，此技能将再次无法使用。\n\n该效果会覆盖这些单位原先的其他狂热效果。狂热会使单位攻击力增加为1.5倍直到其下一个回合结束。",
                 "TU": 10,
                 "Spirit": "-1"
             }
@@ -56046,12 +56046,12 @@
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
                 "SkillTitle": "爱之魔女",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillDescription": "此单位入场时获得爱之链接，并随机使另1个尚未拥有链接的非召唤队友获得持续50TU的爱之链接。随后，该队友与此单位金属化。\n\n拥有爱之链接的单位会获得以下效果：\n\n此单位不会被魅惑。\n\n当此单位未获得狂热时，攻击力增加原始攻击力的0.25倍。该攻击力提升可与其他攻击力提升效果叠加（例如1.5倍+0.25倍=>共1.75倍）。\n\n当此单位通过攻击击败敌人时，在回合结束后，所有其他拥有爱之链接的队友将通过减少当前TU获得下一回合，并被净化。影响TU顺序的效果可能会打断这些额外回合（例如以最低TU目标为对象的眩晕）。这些TU减少效果可能在其他调整行动顺序的效果之前或之后触发。\n\n若此单位或赋予此链接的单位离场，此链接将被移除。此单位无法获得其他链接。"
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
                 "SkillTitle": "恋之信徒",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillDescription": "此单位在进入战场后获得睡眠抵抗与中毒抵抗。\n\n此单位不会被眩晕，也无法从场上回到援军队伍。\n\n若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n\n此单位的攻击不会唤醒处于睡眠状态的敌人，并无视目标的减伤效果与非BOSS单位防止目标被击败的效果。\n\n此单位首次受到敌方攻击伤害并在回合结束后仍然存活时，使场上所有敌人被魅惑50TU。\n\n被魅惑的单位攻击力会大幅降低（例如，在没有其他攻击力调整效果的情况下，攻击力会降低至原始攻击力的0.5倍。若受到其他攻击力提升效果影响，魅惑造成的攻击力降低效果可能会减弱）。魅惑会覆盖狂热与虚弱效果，且被魅惑的单位无法获得狂热或虚弱。被魅惑的单位使用大多数主动技能时，会降低以魅惑自己的单位为目标的概率。魅惑不属于状态效果，无法通过净化类技能移除，但会在被魅惑的单位离场时结束。"
             }
         ],
         "AiLogic": {
@@ -56116,28 +56116,28 @@
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
                 "SkillTitle": "心动之箭",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillDescription": "对1个敌人造成400%的伤害，若目标在己方场上有“真爱之魔女——丘比特”时通过攻击造成过伤害，则改为造成800%的伤害。此技能无视目标的反弹被动技能和“反击态势”状态。使用者获得睡眠抵抗与中毒抵抗。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
                 "SkillTitle": "可爱链接",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillDescription": "随机使另1个尚未拥有链接的非召唤队友获得持续50TU的爱之链接。\n\n随后，该队友与使用者被净化（移除睡眠、燃烧或中毒等负面状态效果）并金属化。\n\n仅当场上没有其他队友拥有爱之链接，且存在有效目标时可使用。此技能在一场战斗中只能使用3次。\n\n金属化单位从攻击中受到的伤害减少50%。该减伤效果不会被未明确无视金属化的攻击无视。金属化在生效后累计减少3次伤害后移除，再次金属化时会重置次数。金属化不属于状态效果。",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
                 "SkillTitle": "甜蜜时光",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillDescription": "随机使另1个拥有爱之链接的队友当前TU归零。随后，随机使1个没有爱之链接的队友当前TU归零。两者均被净化并获得狂热。通过此技能获得的回合中无法使用赋予回合类主动技能。\n\n每当使用者使用“心动之箭”或“心跳加速”后，此技能将可使用。每次使用后或使用者离场时，此技能将再次无法使用。\n\n该效果会覆盖这些单位原先的其他狂热效果。狂热会使单位攻击力增加为1.5倍直到其下一个回合结束。",
                 "TU": 10,
                 "Spirit": "-1"
             },
             {
                 "SkillCodename": "SpecialAttackACupidRegularBoss",
                 "SkillTitle": "心跳加速",
-                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time the user has already used this skill or Hurt Feelings while on the battlefield (max of 1000% total damage after the user has used this skill or Hurt Feelings 5 or more times).\n\nEvery second time this skill is activated by the user while on the battlefield, a random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUsable 10 times per battle.",
+                "SkillDescription": "对1个敌人造成250%的伤害。使用者在场期间每使用过1次此技能或“心动之箭”，伤害增加150%（使用此技能或“心动之箭”达到5次后，伤害最高为1000%）。\n\n使用者在场期间每第2次使用此技能时，立即击败场上随机1个非BOSS非幻影敌方单位。此效果无视防止目标被击败的效果或被动技能，且不会触发目标的诅咒与祝福或复活类被动技能。使用者被视为通过攻击击败目标。\n\n此技能在一场战斗中只能使用10次。",
                 "TU": 50,
                 "Spirit": "-3"
             }
@@ -56146,12 +56146,12 @@
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
                 "SkillTitle": "爱之魔女",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillDescription": "此单位入场时获得爱之链接，并随机使另1个尚未拥有链接的非召唤队友获得持续50TU的爱之链接。随后，该队友与此单位金属化。\n\n拥有爱之链接的单位会获得以下效果：\n\n此单位不会被魅惑。\n\n当此单位未获得狂热时，攻击力增加原始攻击力的0.25倍。该攻击力提升可与其他攻击力提升效果叠加（例如1.5倍+0.25倍=>共1.75倍）。\n\n当此单位通过攻击击败敌人时，在回合结束后，所有其他拥有爱之链接的队友将通过减少当前TU获得下一回合，并被净化。影响TU顺序的效果可能会打断这些额外回合（例如以最低TU目标为对象的眩晕）。这些TU减少效果可能在其他调整行动顺序的效果之前或之后触发。\n\n若此单位或赋予此链接的单位离场，此链接将被移除。此单位无法获得其他链接。"
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
                 "SkillTitle": "恋之信徒",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillDescription": "此单位在进入战场后获得睡眠抵抗与中毒抵抗。\n\n此单位不会被眩晕，也无法从场上回到援军队伍。\n\n若此单位在生命值大于1点时将因敌方攻击或状态效果而被击败，则会以1点生命值幸存。\n\n此单位的攻击不会唤醒处于睡眠状态的敌人，并无视目标的减伤效果与非BOSS单位防止目标被击败的效果。\n\n此单位首次受到敌方攻击伤害并在回合结束后仍然存活时，使场上所有敌人被魅惑50TU。\n\n被魅惑的单位攻击力会大幅降低（例如，在没有其他攻击力调整效果的情况下，攻击力会降低至原始攻击力的0.5倍。若受到其他攻击力提升效果影响，魅惑造成的攻击力降低效果可能会减弱）。魅惑会覆盖狂热与虚弱效果，且被魅惑的单位无法获得狂热或虚弱。被魅惑的单位使用大多数主动技能时，会降低以魅惑自己的单位为目标的概率。魅惑不属于状态效果，无法通过净化类技能移除，但会在被魅惑的单位离场时结束。"
             }
         ],
         "AiLogic": {

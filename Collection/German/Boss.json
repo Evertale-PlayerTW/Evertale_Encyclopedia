@@ -55585,22 +55585,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAAliceNewBoss",
-                "SkillTitle": "Key Smash",
-                "SkillDescription": "500% damage to 1 enemy. 750% damage instead if 2 or more enemies on the battlefield are sleeping, burning or frostburned. 1000% damage instead if all enemies on the battlefield are sleeping, burning or frostburned.\n\nThen all allies on the battlefield have their Sleep removed (including Deep Sleep).",
+                "SkillTitle": "Schlüsselsmash",
+                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 750% Schaden, wenn 2 oder mehr Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden. Stattdessen 1000% Schaden, wenn alle Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden.\n\nAnschließend wird der Schlaf-Zustand aller Verbündeten auf dem Schlachtfeld aufgehoben (einschließlich Tiefschlaf).",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNewBoss",
-                "SkillTitle": "Drink Me Potion",
-                "SkillDescription": "All allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and granted a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThen the next time the user uses Key Smash, the user will immediately get the next turn. This extra turn may be interrupted by other effects that influence the turn order (e.g. stuns targeting the lowest TU target).\n\nUsable if an ally or enemy on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Trink-Trank",
+                "SkillDescription": "Alle Verbündeten auf dem Schlachtfeld werden gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und erhalten einen Gift-Schutz sowie einen Schlaf-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutzeffekte können sich nicht stapeln.\n\nWenn der Anwender anschließend Schlüsselsmash einsetzt, erhält er sofort den nächsten Zug. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). \n\nEinsetzbar, wenn ein Verbündeter oder Gegner auf dem Schlachtfeld brennt, schläft oder vergiftet ist. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "EnemyBuffAAliceNewBoss",
-                "SkillTitle": "Magical Prisons",
-                "SkillDescription": "Removes all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield.\n\nThen grants 2 random enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen for each enemy that is not asleep on the battlefield, 1 random ally will be given next turn by reducing their current TU. Multiple triggers may target the same ally. Active skills that grant turns cannot be used by any affected allies until after they have had the turn, this skill can be used on such turns.\n\nUsable if less than 2 enemies on the battlefield are sleeping. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Magiegefängnisse",
+                "SkillDescription": "Entfernt alle Schlaf-Schutze, Schleichschilde und Verbrennungs-Statuseffekte (einschließlich Mega-Heilverbrennung) von allen gegnerischen Einheiten auf dem Schlachtfeld.\n\nAnschließend werden 2 zufällige Gegner für 200 ZE mit dem Schlaf-Statuseffekt belegt, auch wenn sie auf dem Schlachtfeld bereits geschlafen haben. Dies überschreibt andere Statuseffekte auf diesen Einheiten. n\nAnschließend erhält für jeden Gegner, der nicht schläft, im nächsten Zug 1 zufälliger Verbündeter zusätzliche ZE, indem seine aktuellen ZE reduziert werden. Mehrere Auslöser können denselben Verbündeten betreffen. Aktive Fertigkeiten, die Züge gewähren, können von betroffenen Verbündeten erst genutzt werden, nachdem sie ihren Zug hatten; diese Fertigkeit kann in solchen Zügen eingesetzt werden.\n\nEinsetzbar, wenn weniger als 2 Gegner auf dem Schlachtfeld schlafen. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
                 "TU": 50,
                 "Spirit": "-2"
             }
@@ -55608,19 +55608,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
-                "SkillTitle": "Dream Girl",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "Traummädchen",
+                "SkillDescription": "Diese Einheit erhält jedes Mal eine Ladung, wenn sie Schlüsselsmash, Trink-Trank oder Magische Gefängnisse einsetzt. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen gehen verloren, wenn eine Einheit das Schlachtfeld verlässt.\n\nDiese Einheit kann nicht durch Schaden von Brand-Statuseffekten besiegt werden. Diese Einheit kann während eines gegnerischen Zuges nicht vom Schlachtfeld in die Verstärkung geschickt werden.\n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensreduzierungseffekte und alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "Down The Hole",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "Ins Loch",
+                "SkillDescription": "Sollte diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit tritt mit einem Schlafschutz und einem Gift-Schutz in den Kampf ein.\n\nEntfernt alle Schlafschutze, Schleichschilde und Brand-Statuseffekte (einschließlich Mega-Heilbrand) von allen Gegnern auf dem Schlachtfeld. Anschließend versetzt sie den nicht schlafenden Gegner mit der höchsten aktuellen ZE für 100 ZE in Tiefen Schlaf und anschließend den nicht schlafenden Gegner mit der niedrigsten aktuellen ZE für 100 ZE in Tiefen Schlaf, selbst wenn diese Ziele bereits auf dem Schlachtfeld geschlafen haben. Diese Effekte werden ausgelöst, wenn diese Einheit aus den verbündeten Verstärkungen ins Schlachtfeld eintritt. Tiefschlaf überschreibt andere Statuseffekte, kann nicht von Brand- oder Schlaf-Statuseffekten überschrieben werden und kann nicht gereinigt werden."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Key Smash": {
+                "Schlüsselsmash": {
                     "BaseWeight": 1.25,
                     "Ignore": [
                         "IsSleeping"
@@ -55649,13 +55649,13 @@
                         "IsSleeping": 0.89
                     }
                 },
-                "Drink Me Potion": {
+                "Trink-Trank": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotNextMoveIsGodModeAliceNew": 500
                     }
                 },
-                "Magical Prisons": {
+                "Magiegefängnisse": {
                     "BaseWeight": 250
                 }
             }
@@ -55682,29 +55682,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAAliceNewBoss",
-                "SkillTitle": "Key Smash",
-                "SkillDescription": "500% damage to 1 enemy. 750% damage instead if 2 or more enemies on the battlefield are sleeping, burning or frostburned. 1000% damage instead if all enemies on the battlefield are sleeping, burning or frostburned.\n\nThen all allies on the battlefield have their Sleep removed (including Deep Sleep).",
+                "SkillTitle": "Schlüsselsmash",
+                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 750% Schaden, wenn 2 oder mehr Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden. Stattdessen 1000% Schaden, wenn alle Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden.\n\nAnschließend wird der Schlaf-Zustand aller Verbündeten auf dem Schlachtfeld aufgehoben (einschließlich Tiefschlaf).",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNewBoss",
-                "SkillTitle": "Drink Me Potion",
-                "SkillDescription": "All allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and granted a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThen the next time the user uses Key Smash, the user will immediately get the next turn. This extra turn may be interrupted by other effects that influence the turn order (e.g. stuns targeting the lowest TU target).\n\nUsable if an ally or enemy on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Trink-Trank",
+                "SkillDescription": "Alle Verbündeten auf dem Schlachtfeld werden gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und erhalten einen Gift-Schutz sowie einen Schlaf-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutzeffekte können sich nicht stapeln.\n\nWenn der Anwender anschließend Schlüsselsmash einsetzt, erhält er sofort den nächsten Zug. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). \n\nEinsetzbar, wenn ein Verbündeter oder Gegner auf dem Schlachtfeld brennt, schläft oder vergiftet ist. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "EnemyBuffAAliceNewBoss",
-                "SkillTitle": "Magical Prisons",
-                "SkillDescription": "Removes all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield.\n\nThen grants 2 random enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen for each enemy that is not asleep on the battlefield, 1 random ally will be given next turn by reducing their current TU. Multiple triggers may target the same ally. Active skills that grant turns cannot be used by any affected allies until after they have had the turn, this skill can be used on such turns.\n\nUsable if less than 2 enemies on the battlefield are sleeping. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Magiegefängnisse",
+                "SkillDescription": "Entfernt alle Schlaf-Schutze, Schleichschilde und Verbrennungs-Statuseffekte (einschließlich Mega-Heilverbrennung) von allen gegnerischen Einheiten auf dem Schlachtfeld.\n\nAnschließend werden 2 zufällige Gegner für 200 ZE mit dem Schlaf-Statuseffekt belegt, auch wenn sie auf dem Schlachtfeld bereits geschlafen haben. Dies überschreibt andere Statuseffekte auf diesen Einheiten. n\nAnschließend erhält für jeden Gegner, der nicht schläft, im nächsten Zug 1 zufälliger Verbündeter zusätzliche ZE, indem seine aktuellen ZE reduziert werden. Mehrere Auslöser können denselben Verbündeten betreffen. Aktive Fertigkeiten, die Züge gewähren, können von betroffenen Verbündeten erst genutzt werden, nachdem sie ihren Zug hatten; diese Fertigkeit kann in solchen Zügen eingesetzt werden.\n\nEinsetzbar, wenn weniger als 2 Gegner auf dem Schlachtfeld schlafen. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
                 "TU": 50,
                 "Spirit": "-2"
             },
             {
                 "SkillCodename": "MultiAttackAAliceNewBoss",
-                "SkillTitle": "Star Explosion",
-                "SkillDescription": "1000% damage to 2 enemies. This attack ignores skin passive skills and the Counter Stance status effect.\n\nPulls the user away from the battlefield to be next in line of your reinforcements. If there are no ally reinforcements, adds enough Super Suimori to the ally team to still pull the user away to reinforcements (max 4 if the user is alone on the battlefield).\n\nUsable only if the user has stored 3 Charges. Usable 10 times per battle.",
+                "SkillTitle": "Sternenexplosion",
+                "SkillDescription": "1000% Schaden an 2 Gegnern. Dieser Angriff ignoriert passive Fertigkeiten von Skins und den Statuseffekt Konterstellung.\n\nZieht den Anwender vom Schlachtfeld weg, damit er als Nächster in der Reihe deiner Verstärkungen steht. Wenn keine verbündeten Verstärkungen vorhanden sind, werden dem verbündeten Team genügend Super-Suimori hinzugefügt, um den Anwender dennoch zu den Verstärkungen zu ziehen (max. 4, wenn der Anwender allein auf dem Schlachtfeld ist).\n\nNur einsetzbar, wenn der Anwender 3 Ladungen gespeichert hat. 10 Mal pro Kampf einsetzbar.",
                 "TU": 0,
                 "Spirit": "-3"
             }
@@ -55712,19 +55712,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
-                "SkillTitle": "Dream Girl",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "Traummädchen",
+                "SkillDescription": "Diese Einheit erhält jedes Mal eine Ladung, wenn sie Schlüsselsmash, Trink-Trank oder Magische Gefängnisse einsetzt. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen gehen verloren, wenn eine Einheit das Schlachtfeld verlässt.\n\nDiese Einheit kann nicht durch Schaden von Brand-Statuseffekten besiegt werden. Diese Einheit kann während eines gegnerischen Zuges nicht vom Schlachtfeld in die Verstärkung geschickt werden.\n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensreduzierungseffekte und alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "Down The Hole",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "Ins Loch",
+                "SkillDescription": "Sollte diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit tritt mit einem Schlafschutz und einem Gift-Schutz in den Kampf ein.\n\nEntfernt alle Schlafschutze, Schleichschilde und Brand-Statuseffekte (einschließlich Mega-Heilbrand) von allen Gegnern auf dem Schlachtfeld. Anschließend versetzt sie den nicht schlafenden Gegner mit der höchsten aktuellen ZE für 100 ZE in Tiefen Schlaf und anschließend den nicht schlafenden Gegner mit der niedrigsten aktuellen ZE für 100 ZE in Tiefen Schlaf, selbst wenn diese Ziele bereits auf dem Schlachtfeld geschlafen haben. Diese Effekte werden ausgelöst, wenn diese Einheit aus den verbündeten Verstärkungen ins Schlachtfeld eintritt. Tiefschlaf überschreibt andere Statuseffekte, kann nicht von Brand- oder Schlaf-Statuseffekten überschrieben werden und kann nicht gereinigt werden."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Key Smash": {
+                "Schlüsselsmash": {
                     "BaseWeight": 1.25,
                     "Ignore": [
                         "IsSleeping"
@@ -55753,16 +55753,16 @@
                         "IsSleeping": 0.89
                     }
                 },
-                "Drink Me Potion": {
+                "Trink-Trank": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotNextMoveIsGodModeAliceNew": 500
                     }
                 },
-                "Magical Prisons": {
+                "Magiegefängnisse": {
                     "BaseWeight": 250
                 },
-                "Star Explosion": {
+                "Sternenexplosion": {
                     "BaseWeight": 2.5,
                     "Ignore": [
                         "IsSleeping",
@@ -55820,22 +55820,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "SkillTitle": "Reizbar",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Abzug von 200% Schaden für jeden Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -800%, wenn 4 Gegner weder schlafen noch brennen).\n\nAnschließend erhalten alle Verbündeten den Statuseffekt Brennen. Brennen überschreibt andere Statuseffekte auf diesen Einheiten. Jede Einheit, die einer Einheit mit dem Statuseffekt Brennen Schaden zufügt oder von dieser Schaden erleidet, erhält ebenfalls den Statuseffekt Brennen.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
-                "SkillDescription": "Each burning enemy on the battlefield has its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 3 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "SkillTitle": "Schnapp sie",
+                "SkillDescription": "Bei jedem brennenden Gegner auf dem Schlachtfeld werden die aktiven Fertigkeiten für 30 ZE deaktiviert.\n\nAnschließend werden die aktuellen ZE aller anderen brennenden Verbündeten auf dem Schlachtfeld um 50 ZE reduziert.\n\nNur einsetzbar, wenn mindestens 4 Einheiten den Statuseffekt Brennen haben. Diese Fertigkeit wird nach dem Einsatz für 50 ZE gesperrt. 3-mal pro Kampf einsetzbar. Wenn die aktiven Fertigkeiten einer Einheit deaktiviert sind und sie an der Reihe ist, verliert sie ihren Zug, als ob sie schlafen würde. Dieser Effekt wirkt nicht auf Boss-Einheiten, kann nicht beseitigt werden und endet, wenn der Anwender besiegt wird.",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Superspitz",
+                "SkillDescription": "Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt oder schläft.\n\nEntfernt Gift (einschließlich tödlichen Gifts) von allen Verbündeten auf dem Schlachtfeld. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Durchdringung, einen Betäubungsschutz und einen Giftschutz.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Reizbar oder Blutherzen einsetzt, und nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt. n\nEine Einheit mit Durchschlagskraft ignoriert mit ihren Angriffen feindliche Schadensminderungseffekte bis zum Ende ihres nächsten Zuges. Jeder Schutz verhindert einmalig, dass der jeweilige Effekt angewendet wird, und wird anschließend entfernt. Identische Schutzeffekte können nicht gestapelt werden.",
                 "TU": 1,
                 "Spirit": "+1"
             }
@@ -55843,19 +55843,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "Königrichterin",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden. Würde diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nDie Angriffe dieser Einheit ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nJedes Mal, wenn diese Einheit Schaden durch einen Angriff erleidet, während sie brennt oder vergiftet ist, und bis nach Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit den Zug, indem ihre ZE auf 0 reduziert wird, und sie beginnt zu brennen. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. andere Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen. Dies gilt nicht als Effekt vom Typ Counter Skin."
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "Köpfe ab",
+                "SkillDescription": "Diese Einheit kann nicht durch Schaden von Vrabd-Statusefffekten besiegt werden.\n\nWenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, erhalten alle anderen Verbündeten auf dem Schlachtfeld die nächsten Züge, indem ihre aktuellen ZE reduziert werden. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen).\n\nDiese Einheit tritt mit Mega-Heilbrand für 100 ZE in den Kampf ein. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Gift-Schutz und Betäubungs-Schutz. n\nSolange sich diese Einheit auf dem Schlachtfeld befindet und eine Einheit auf dem Schlachtfeld aus irgendeinem Grund besiegt oder geopfert wird – vorausgesetzt, diese Einheit wird nicht gleichzeitig besiegt oder geopfert –, werden alle Verbündeten auf dem Schlachtfeld gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und anschließend verbrannt.\n\nEine Einheit mit Mega-Heilbrand heilt nach jedem Zug 20-mal so schnell wie bei Heilbrand. Dies überschreibt andere Statuseffekte, einschließlich Heilbrand beim Anwender, kann nicht durch die Statuseffekte Verbrennung, Vergiftung oder Schlaf überschrieben werden und kann nicht gereinigt werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von dieser Schaden erleidet, erhält den Statuseffekt Verbrennung. Eine Einheit mit Mega-Heilbrand erhält für 300 ZE Healing Burn, sobald Mega-Heilbrand abläuft."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "Reizbar": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55879,13 +55879,13 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "Schnapp sie": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "Superspitz": {
                     "BaseWeight": 500
                 }
             }
@@ -55912,29 +55912,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "SkillTitle": "Reizbar",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Abzug von 200% Schaden für jeden Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -800%, wenn 4 Gegner weder schlafen noch brennen).\n\nAnschließend erhalten alle Verbündeten den Statuseffekt Brennen. Brennen überschreibt andere Statuseffekte auf diesen Einheiten. Jede Einheit, die einer Einheit mit dem Statuseffekt Brennen Schaden zufügt oder von dieser Schaden erleidet, erhält ebenfalls den Statuseffekt Brennen.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
-                "SkillDescription": "Each burning enemy on the battlefield has its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 3 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "SkillTitle": "Schnapp sie",
+                "SkillDescription": "Bei jedem brennenden Gegner auf dem Schlachtfeld werden die aktiven Fertigkeiten für 30 ZE deaktiviert.\n\nAnschließend werden die aktuellen ZE aller anderen brennenden Verbündeten auf dem Schlachtfeld um 50 ZE reduziert.\n\nNur einsetzbar, wenn mindestens 4 Einheiten den Statuseffekt Brennen haben. Diese Fertigkeit wird nach dem Einsatz für 50 ZE gesperrt. 3-mal pro Kampf einsetzbar. Wenn die aktiven Fertigkeiten einer Einheit deaktiviert sind und sie an der Reihe ist, verliert sie ihren Zug, als ob sie schlafen würde. Dieser Effekt wirkt nicht auf Boss-Einheiten, kann nicht beseitigt werden und endet, wenn der Anwender besiegt wird.",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Superspitz",
+                "SkillDescription": "Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt oder schläft.\n\nEntfernt Gift (einschließlich tödlichen Gifts) von allen Verbündeten auf dem Schlachtfeld. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Durchdringung, einen Betäubungsschutz und einen Giftschutz.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Reizbar oder Blutherzen einsetzt, und nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt. n\nEine Einheit mit Durchschlagskraft ignoriert mit ihren Angriffen feindliche Schadensminderungseffekte bis zum Ende ihres nächsten Zuges. Jeder Schutz verhindert einmalig, dass der jeweilige Effekt angewendet wird, und wird anschließend entfernt. Identische Schutzeffekte können nicht gestapelt werden.",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "MultiAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Hearts",
-                "SkillDescription": "1000% damage to 2 enemies. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores skin passive skills and the Counter Stance status effect. Damage from this attack does not wake up sleeping enemies.\n\nUsable only if the user has the Burn status effect. If this skill is used 3 times within 10TU, it becomes locked for 50TU.",
+                "SkillTitle": "Blutherzen",
+                "SkillDescription": "1000% Schaden an 2 Gegnern. Der Schaden verringert sich um 150% pro Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -600%, wenn 4 Gegner weder schlafen noch brennen). Dieser Angriff ignoriert passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\nNur einsetzbar, wenn der Anwender den Statuseffekt Verbrennen hat. Wird diese Fertigkeit innerhalb von 10 ZE dreimal eingesetzt, wird sie für 50 ZE gesperrt.",
                 "TU": 1,
                 "Spirit": "-3"
             }
@@ -55942,19 +55942,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "Königrichterin",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden. Würde diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nDie Angriffe dieser Einheit ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nJedes Mal, wenn diese Einheit Schaden durch einen Angriff erleidet, während sie brennt oder vergiftet ist, und bis nach Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit den Zug, indem ihre ZE auf 0 reduziert wird, und sie beginnt zu brennen. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. andere Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen. Dies gilt nicht als Effekt vom Typ Counter Skin."
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "Köpfe ab",
+                "SkillDescription": "Diese Einheit kann nicht durch Schaden von Vrabd-Statusefffekten besiegt werden.\n\nWenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, erhalten alle anderen Verbündeten auf dem Schlachtfeld die nächsten Züge, indem ihre aktuellen ZE reduziert werden. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen).\n\nDiese Einheit tritt mit Mega-Heilbrand für 100 ZE in den Kampf ein. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Gift-Schutz und Betäubungs-Schutz. n\nSolange sich diese Einheit auf dem Schlachtfeld befindet und eine Einheit auf dem Schlachtfeld aus irgendeinem Grund besiegt oder geopfert wird – vorausgesetzt, diese Einheit wird nicht gleichzeitig besiegt oder geopfert –, werden alle Verbündeten auf dem Schlachtfeld gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und anschließend verbrannt.\n\nEine Einheit mit Mega-Heilbrand heilt nach jedem Zug 20-mal so schnell wie bei Heilbrand. Dies überschreibt andere Statuseffekte, einschließlich Heilbrand beim Anwender, kann nicht durch die Statuseffekte Verbrennung, Vergiftung oder Schlaf überschrieben werden und kann nicht gereinigt werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von dieser Schaden erleidet, erhält den Statuseffekt Verbrennung. Eine Einheit mit Mega-Heilbrand erhält für 300 ZE Healing Burn, sobald Mega-Heilbrand abläuft."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "Reizbar": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55978,16 +55978,16 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "Schnapp sie": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "Superspitz": {
                     "BaseWeight": 500
                 },
-                "Bloody Hearts": {
+                "Blutherzen": {
                     "BaseWeight": 5,
                     "Ignore": [
                         "HasSkin"
@@ -56044,22 +56044,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
-                "SkillTitle": "Hurt Feelings",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Verletzte Gefühle",
+                "SkillDescription": "400% Schaden an 1 Gegner. Stattdessen 800% Schaden, wenn das Ziel einen Verbündeten mit einem Angriff beschädigt hat, während sich die Verbündete Amor, Liebeszauberin auf dem Schlachtfeld befand. Dieser Angriff ignoriert passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nDer Anwender erhält einen Schlafschutz und einen Gift-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt angewendet wird, und wird danach entfernt. Identische Schutzschilde können sich nicht stapeln.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
-                "SkillTitle": "Cupid's Instant Link",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillTitle": "Amor-Bindung",
+                "SkillDescription": "Verleiht einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Amor-Bindung hat, diese Fähigkeit für 50 ZE.\n\nAnschließend werden dieser Verbündete und der Anwender gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und gestärkt.\n\nNur einsetzbar, wenn kein anderer Verbündeter auf dem Schlachtfeld bereits Amor-Bindung hat und ein gültiges Ziel vorhanden ist. Kann 3 Mal pro Kampf eingesetzt werden.\n\nEine gestärkte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Stärken nicht ausdrücklich ignorieren. Stärken wird entfernt, nachdem der Schaden seit dem Anwenden 3 Mal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Matchmaker",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillTitle": "Vermittler",
+                "SkillDescription": "Bei einem weiteren zufälligen Verbündeten mit Amor-Bindung wird die aktuelle ZE auf 0 reduziert. Anschließend wird bei einem zufälligen Verbündeten, der keine Amor-Bindung hat, die aktuelle ZE auf 0 reduziert. Beide Einheiten werden Gereinigt und geraten in Raserei. Aktive Fertigkeiten, die Züge gewähren, können in den durch diese Fertigkeit gewährten Zügen nicht eingesetzt werden.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Verletzte Gefühle oder Amors Schuss einsetzt, und wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nDies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Die Angriffskraft von wütenden Einheiten wird bis zum Ende ihres nächsten Zuges auf das 1,5-Fache erhöht.",
                 "TU": 10,
                 "Spirit": "-1"
             }
@@ -56067,19 +56067,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
-                "SkillTitle": "Angel of True Love",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillTitle": "Liebesengel",
+                "SkillDescription": "Diese Einheit beginnt mit Amor-Bindung. Wenn diese Einheit in den Kampf eintritt, gewährt sie einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Verbindung hat, Amor-Bindung für 50 ZE. Anschließend werden dieser Verbündete und diese Einheit gestärkt.\n\nEine Einheit mit Amor-Bindung hat folgende Effekte:\n\nDiese Einheit kann nicht verzaubert werden.\n\nDiese Einheit erhält 0,25-mal ihren ursprünglichen Angriffswert als Bonus auf ihren Angriff, solange sie nicht in Erzürnt ist. Diese Erhöhung summiert sich mit anderen Angriffserhöhungen (z. B. 1,5x + 0,25x => insgesamt 1,75x).\n\nWenn diese Einheit einen Gegner mit einem Angriff besiegt, nach dem Ende der Runde, erhalten alle anderen Verbündeten mit Amor-Bindung die nächsten Züge, indem ihre aktuellen ZE reduziert werden, und werden Gereinigt. Effekte, die die Zugreihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen.\n\nDiese Verbindung wird entfernt, wenn diese Einheit oder die Einheit, die sie gewährt hat, das Schlachtfeld verlässt. Diese Einheit kann keine weiteren Verbindungen erhalten."
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
-                "SkillTitle": "Charmed, I'm Sure",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillTitle": "Verzaubert, ja",
+                "SkillDescription": "Diese Einheit tritt mit einem Schlafschutz und einem Gift-Schutz in den Kampf ein.\n\nDiese Einheit kann weder betäubt noch vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden. n\nSobald diese Einheit zum ersten Mal durch einen feindlichen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, verzaubert sie alle Gegner auf dem Schlachtfeld für 50 ZE.\n\nEine verzauberte Einheit hat ihren Angriff stark reduziert (z. B. auf das 0,5-Fache ihres ursprünglichen Angriffswerts bei einer Einheit ohne weitere Angriffsmodifikatoren. Der Effekt von Verzaubert kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird). Verzaubert überschreibt die Effekte von Wut und Schwächen, und verzauberte Einheiten können weder in Wut versetzt noch geschwächt werden. Verzauberte Einheiten zielen mit den meisten aktiven Fertigkeiten weniger wahrscheinlich auf die Einheit, die sie verzaubert hat. Verzaubert ist kein Statuseffekt und kann nicht durch Reinigen-Fertigkeiten entfernt werden, endet jedoch, wenn die verzauberte Einheit das Schlachtfeld verlässt."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Hurt Feelings": {
+                "Verletzte Gefühle": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -56104,10 +56104,10 @@
                         "IsICantBelieveYouHitMeBuff": 1
                     }
                 },
-                "Cupid's Instant Link": {
+                "Amor-Bindung": {
                     "BaseWeight": 500
                 },
-                "Matchmaker": {
+                "Vermittler": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
@@ -56137,29 +56137,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
-                "SkillTitle": "Hurt Feelings",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Verletzte Gefühle",
+                "SkillDescription": "400% Schaden an 1 Gegner. Stattdessen 800% Schaden, wenn das Ziel einen Verbündeten mit einem Angriff beschädigt hat, während sich die Verbündete Amor, Liebeszauberin auf dem Schlachtfeld befand. Dieser Angriff ignoriert passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nDer Anwender erhält einen Schlafschutz und einen Gift-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt angewendet wird, und wird danach entfernt. Identische Schutzschilde können sich nicht stapeln.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
-                "SkillTitle": "Cupid's Instant Link",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillTitle": "Amor-Bindung",
+                "SkillDescription": "Verleiht einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Amor-Bindung hat, diese Fähigkeit für 50 ZE.\n\nAnschließend werden dieser Verbündete und der Anwender gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und gestärkt.\n\nNur einsetzbar, wenn kein anderer Verbündeter auf dem Schlachtfeld bereits Amor-Bindung hat und ein gültiges Ziel vorhanden ist. Kann 3 Mal pro Kampf eingesetzt werden.\n\nEine gestärkte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Stärken nicht ausdrücklich ignorieren. Stärken wird entfernt, nachdem der Schaden seit dem Anwenden 3 Mal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Matchmaker",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillTitle": "Vermittler",
+                "SkillDescription": "Bei einem weiteren zufälligen Verbündeten mit Amor-Bindung wird die aktuelle ZE auf 0 reduziert. Anschließend wird bei einem zufälligen Verbündeten, der keine Amor-Bindung hat, die aktuelle ZE auf 0 reduziert. Beide Einheiten werden Gereinigt und geraten in Raserei. Aktive Fertigkeiten, die Züge gewähren, können in den durch diese Fertigkeit gewährten Zügen nicht eingesetzt werden.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Verletzte Gefühle oder Amors Schuss einsetzt, und wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nDies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Die Angriffskraft von wütenden Einheiten wird bis zum Ende ihres nächsten Zuges auf das 1,5-Fache erhöht.",
                 "TU": 10,
                 "Spirit": "-1"
             },
             {
                 "SkillCodename": "SpecialAttackACupidRegularBoss",
-                "SkillTitle": "Cupid's Shot",
-                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time the user has already used this skill or Hurt Feelings while on the battlefield (max of 1000% total damage after the user has used this skill or Hurt Feelings 5 or more times).\n\nEvery second time this skill is activated by the user while on the battlefield, a random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUsable 10 times per battle.",
+                "SkillTitle": "Amors Schuss",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 150% für jedes Mal, das der Anwender diese Fertigkeit oder Verletzte Gefühle bereits auf dem Schlachtfeld eingesetzt hat (maximal 1000% Gesamtschaden, nachdem der Anwender diese Fertigkeit oder Verletzte Gefühle 5 Mal oder öfter eingesetzt hat). n\nJedes zweite Mal, wenn diese Fertigkeit vom Anwender auf dem Schlachtfeld aktiviert wird, wird ein zufälliger Gegner auf dem Schlachtfeld – der kein Boss und kein Ephemeral ist – sofort besiegt (es gilt, als hätte der Anwender diesen Gegner mit einem Angriff besiegt). Dieser Sekundäreffekt ignoriert passive Fertigkeiten vom Typ Rache, passive Fertigkeiten vom Typ Wiederbelebung sowie alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nKann 10 Mal pro Kampf eingesetzt werden.",
                 "TU": 50,
                 "Spirit": "-3"
             }
@@ -56167,19 +56167,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
-                "SkillTitle": "Angel of True Love",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillTitle": "Liebesengel",
+                "SkillDescription": "Diese Einheit beginnt mit Amor-Bindung. Wenn diese Einheit in den Kampf eintritt, gewährt sie einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Verbindung hat, Amor-Bindung für 50 ZE. Anschließend werden dieser Verbündete und diese Einheit gestärkt.\n\nEine Einheit mit Amor-Bindung hat folgende Effekte:\n\nDiese Einheit kann nicht verzaubert werden.\n\nDiese Einheit erhält 0,25-mal ihren ursprünglichen Angriffswert als Bonus auf ihren Angriff, solange sie nicht in Erzürnt ist. Diese Erhöhung summiert sich mit anderen Angriffserhöhungen (z. B. 1,5x + 0,25x => insgesamt 1,75x).\n\nWenn diese Einheit einen Gegner mit einem Angriff besiegt, nach dem Ende der Runde, erhalten alle anderen Verbündeten mit Amor-Bindung die nächsten Züge, indem ihre aktuellen ZE reduziert werden, und werden Gereinigt. Effekte, die die Zugreihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen.\n\nDiese Verbindung wird entfernt, wenn diese Einheit oder die Einheit, die sie gewährt hat, das Schlachtfeld verlässt. Diese Einheit kann keine weiteren Verbindungen erhalten."
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
-                "SkillTitle": "Charmed, I'm Sure",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillTitle": "Verzaubert, ja",
+                "SkillDescription": "Diese Einheit tritt mit einem Schlafschutz und einem Gift-Schutz in den Kampf ein.\n\nDiese Einheit kann weder betäubt noch vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden. n\nSobald diese Einheit zum ersten Mal durch einen feindlichen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, verzaubert sie alle Gegner auf dem Schlachtfeld für 50 ZE.\n\nEine verzauberte Einheit hat ihren Angriff stark reduziert (z. B. auf das 0,5-Fache ihres ursprünglichen Angriffswerts bei einer Einheit ohne weitere Angriffsmodifikatoren. Der Effekt von Verzaubert kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird). Verzaubert überschreibt die Effekte von Wut und Schwächen, und verzauberte Einheiten können weder in Wut versetzt noch geschwächt werden. Verzauberte Einheiten zielen mit den meisten aktiven Fertigkeiten weniger wahrscheinlich auf die Einheit, die sie verzaubert hat. Verzaubert ist kein Statuseffekt und kann nicht durch Reinigen-Fertigkeiten entfernt werden, endet jedoch, wenn die verzauberte Einheit das Schlachtfeld verlässt."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Hurt Feelings": {
+                "Verletzte Gefühle": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -56204,16 +56204,16 @@
                         "IsICantBelieveYouHitMeBuff": 1
                     }
                 },
-                "Cupid's Instant Link": {
+                "Amor-Bindung": {
                     "BaseWeight": 500
                 },
-                "Matchmaker": {
+                "Vermittler": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Cupid's Shot": {
+                "Amors Schuss": {
                     "BaseWeight": 1,
                     "Source": {
                         "Has4GoodGirlBuffExactly": 5,

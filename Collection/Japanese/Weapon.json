@@ -22015,7 +22015,7 @@
         "Hp_Base": 3055,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc4DisabledEnemy",
@@ -22040,7 +22040,7 @@
         "Hp_Base": 3695,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc5DisabledEnemy",
@@ -22066,12 +22066,89 @@
         "Hp_Base": 3985,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc6DisabledEnemy",
                 "SkillTitle": "ダメージダウン&TU減少",
                 "SkillDescription": "麻痺状態の敵が場に1体以上いる時、敵の攻撃で受けるダメージが10%減少&自身のスキルTU10%減少。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "KeyClockStaff01": {
+        "Name": "ワンダークロック",
+        "FullName": "ワンダークロック",
+        "Family": "KeyClockStaff",
+        "Profile": "不思議の国の時間を閉じ込めた、大きな時計仕掛けの鍵。針が一周するたび、世界は少しだけ寂しくなる。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "杖",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp4AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "スキルTU減少",
+                "SkillDescription": "眠り状態または燃焼状態のキャラ（敵味方問わず）が場に合計4体以上いる時、装備キャラのスキルTU6%減少。"
+            }
+        ]
+    },
+    "KeyClockStaff02": {
+        "Name": "ワンダークロック",
+        "FullName": "ワンダークロック",
+        "Family": "KeyClockStaff",
+        "Profile": "不思議の国の時間を閉じ込めた、大きな時計仕掛けの鍵。針が一周するたび、世界は少しだけ寂しくなる。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "杖",
+        "Cost": 17,
+        "Atk_Base": 550,
+        "Hp_Base": 3750,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp5AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "スキルTU減少",
+                "SkillDescription": "眠り状態または燃焼状態のキャラ（敵味方問わず）が場に合計4体以上いる時、装備キャラのスキルTU8%減少。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "KeyClockStaff03": {
+        "Name": "ワンダークロック",
+        "FullName": "ワンダークロック",
+        "Family": "KeyClockStaff",
+        "Profile": "不思議の国の時間を閉じ込めた、大きな時計仕掛けの鍵。針が一周するたび、世界は少しだけ寂しくなる。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "杖",
+        "Cost": 23,
+        "Atk_Base": 581,
+        "Hp_Base": 4095,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp6AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "スキルTU減少",
+                "SkillDescription": "眠り状態または燃焼状態のキャラ（敵味方問わず）が場に合計4体以上いる時、装備キャラのスキルTU10%減少。"
             }
         ],
         "ExtraEvoInitialCount": 2

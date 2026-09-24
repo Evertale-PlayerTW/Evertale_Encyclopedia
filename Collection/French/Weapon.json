@@ -22015,7 +22015,7 @@
         "Hp_Base": 3055,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc4DisabledEnemy",
@@ -22040,7 +22040,7 @@
         "Hp_Base": 3695,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc5DisabledEnemy",
@@ -22066,12 +22066,89 @@
         "Hp_Base": 3985,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc6DisabledEnemy",
                 "SkillTitle": "Finesse+",
                 "SkillDescription": "Réduction de 10% des coûts de TU et réduit les dégâts des attaques ennemies de 10% tant que les Compétences Actives d'une unité ennemie sont désactivées."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "KeyClockStaff01": {
+        "Name": "Montre Merveilles",
+        "FullName": "Montre Merveilles",
+        "Family": "KeyClockStaff",
+        "Profile": "Une énorme horloge sous forme de clé contenant le flux du temps au sein du Pays des Merveilles. À chaque rotation de ses aiguilles, le monde devient un petit peu plus isolé.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Bâton",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp4AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "Coût TU Réduit",
+                "SkillDescription": "Réduction de 6% aux coûts de TU s'il y a 4 unités voire plus ayant l'effet de statut de Sommeil ou de Brûlure."
+            }
+        ]
+    },
+    "KeyClockStaff02": {
+        "Name": "Montre Merveilles",
+        "FullName": "Montre Merveilles",
+        "Family": "KeyClockStaff",
+        "Profile": "Une énorme horloge sous forme de clé contenant le flux du temps au sein du Pays des Merveilles. À chaque rotation de ses aiguilles, le monde devient un petit peu plus isolé.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Bâton",
+        "Cost": 17,
+        "Atk_Base": 550,
+        "Hp_Base": 3750,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp5AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "Coût TU Réduit",
+                "SkillDescription": "Réduction de 8% aux coûts de TU s'il y a 4 unités voire plus ayant l'effet de statut de Sommeil ou de Brûlure."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "KeyClockStaff03": {
+        "Name": "Montre Merveilles",
+        "FullName": "Montre Merveilles",
+        "Family": "KeyClockStaff",
+        "Profile": "Une énorme horloge sous forme de clé contenant le flux du temps au sein du Pays des Merveilles. À chaque rotation de ses aiguilles, le monde devient un petit peu plus isolé.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Bâton",
+        "Cost": 23,
+        "Atk_Base": 581,
+        "Hp_Base": 4095,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp6AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "Coût TU Réduit",
+                "SkillDescription": "Réduction de 10% aux coûts de TU s'il y a 4 unités voire plus ayant l'effet de statut de Sommeil ou de Brûlure."
             }
         ],
         "ExtraEvoInitialCount": 2

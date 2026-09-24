@@ -22015,7 +22015,7 @@
         "Hp_Base": 3055,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc4DisabledEnemy",
@@ -22040,7 +22040,7 @@
         "Hp_Base": 3695,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc5DisabledEnemy",
@@ -22066,12 +22066,89 @@
         "Hp_Base": 3985,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc6DisabledEnemy",
                 "SkillTitle": "Subir delicadeza",
                 "SkillDescription": "Reduce en un 10% los costos de las TU y disminuye el daño de los ataques enemigos en un 10% mientras una unidad enemiga tenga sus Habilidades Activas desactivadas."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "KeyClockStaff01": {
+        "Name": "Reloj Maravilla",
+        "FullName": "Reloj Maravilla",
+        "Family": "KeyClockStaff",
+        "Profile": "La llave de un reloj mecánico gigante que contiene el flujo del tiempo mismo en el País de las Maravillas. Con cada giro de sus manecillas, el mundo se vuelve un poco más solitario.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Báculo",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp4AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "Reducir TU",
+                "SkillDescription": "Reducción del 6% en los costos de TU si hay 4 o más unidades con el efecto de estado de Sueño o Quemado."
+            }
+        ]
+    },
+    "KeyClockStaff02": {
+        "Name": "Reloj Maravilla",
+        "FullName": "Reloj Maravilla",
+        "Family": "KeyClockStaff",
+        "Profile": "La llave de un reloj mecánico gigante que contiene el flujo del tiempo mismo en el País de las Maravillas. Con cada giro de sus manecillas, el mundo se vuelve un poco más solitario.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Báculo",
+        "Cost": 17,
+        "Atk_Base": 550,
+        "Hp_Base": 3750,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp5AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "Reducir TU",
+                "SkillDescription": "Reducción del 8% en los costos de TU si hay 4 o más unidades con el efecto de estado de Sueño o Quemado."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "KeyClockStaff03": {
+        "Name": "Reloj Maravilla",
+        "FullName": "Reloj Maravilla",
+        "Family": "KeyClockStaff",
+        "Profile": "La llave de un reloj mecánico gigante que contiene el flujo del tiempo mismo en el País de las Maravillas. Con cada giro de sus manecillas, el mundo se vuelve un poco más solitario.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Báculo",
+        "Cost": 23,
+        "Atk_Base": 581,
+        "Hp_Base": 4095,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp6AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "Reducir TU",
+                "SkillDescription": "Reducción del 10% en los costos de TU si hay 4 o más unidades con el efecto de estado de Sueño o Quemado."
             }
         ],
         "ExtraEvoInitialCount": 2

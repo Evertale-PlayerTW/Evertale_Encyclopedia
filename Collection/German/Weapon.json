@@ -22015,7 +22015,7 @@
         "Hp_Base": 3055,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc4DisabledEnemy",
@@ -22040,7 +22040,7 @@
         "Hp_Base": 3695,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc5DisabledEnemy",
@@ -22066,12 +22066,89 @@
         "Hp_Base": 3985,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc6DisabledEnemy",
                 "SkillTitle": "Finesse+",
                 "SkillDescription": "Verringert die ZE-Kosten um 10% und mindert den Schaden durch Angriffe von Gegnern um 10%, solange die aktiven Fertigkeiten einer gegnerischen Einheit deaktiviert sind."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "KeyClockStaff01": {
+        "Name": "Wunderuhr",
+        "FullName": "Wunderuhr",
+        "Family": "KeyClockStaff",
+        "Profile": "Ein riesiger Uhrenschlüssel, der den Fluss der Zeit selbst im Wunderland in sich birgt. Mit jeder Umdrehung seiner Zeiger wird die Welt ein bisschen einsamer.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Stab",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp4AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "ZE-Kosten red.",
+                "SkillDescription": "Die ZE-Kosten sinken um 6%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Verbrennen haben."
+            }
+        ]
+    },
+    "KeyClockStaff02": {
+        "Name": "Wunderuhr",
+        "FullName": "Wunderuhr",
+        "Family": "KeyClockStaff",
+        "Profile": "Ein riesiger Uhrenschlüssel, der den Fluss der Zeit selbst im Wunderland in sich birgt. Mit jeder Umdrehung seiner Zeiger wird die Welt ein bisschen einsamer.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Stab",
+        "Cost": 17,
+        "Atk_Base": 550,
+        "Hp_Base": 3750,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp5AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "ZE-Kosten red.",
+                "SkillDescription": "Die ZE-Kosten sinken um 8%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Verbrennen haben."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "KeyClockStaff03": {
+        "Name": "Wunderuhr",
+        "FullName": "Wunderuhr",
+        "Family": "KeyClockStaff",
+        "Profile": "Ein riesiger Uhrenschlüssel, der den Fluss der Zeit selbst im Wunderland in sich birgt. Mit jeder Umdrehung seiner Zeiger wird die Welt ein bisschen einsamer.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Stab",
+        "Cost": 23,
+        "Atk_Base": 581,
+        "Hp_Base": 4095,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp6AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "ZE-Kosten red.",
+                "SkillDescription": "Die ZE-Kosten sinken um 10%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Verbrennen haben."
             }
         ],
         "ExtraEvoInitialCount": 2

@@ -55585,22 +55585,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAAliceNewBoss",
-                "SkillTitle": "Key Smash",
-                "SkillDescription": "500% damage to 1 enemy. 750% damage instead if 2 or more enemies on the battlefield are sleeping, burning or frostburned. 1000% damage instead if all enemies on the battlefield are sleeping, burning or frostburned.\n\nThen all allies on the battlefield have their Sleep removed (including Deep Sleep).",
+                "SkillTitle": "키 스매쉬",
+                "SkillDescription": "적 1기에 500% 데미지. 전장의 적 2기 이상이 수면, 화염 또는 서리화염 상태인 경우 750% 데미지. 전장의 모든 적이 수면, 화염 또는 서리화염 상태인 경우 1000% 데미지.\n\n그런 다음 전장의 모든 아군에게서 수면 상태(깊은 수면 포함)를 제거한다.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNewBoss",
-                "SkillTitle": "Drink Me Potion",
-                "SkillDescription": "All allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and granted a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThen the next time the user uses Key Smash, the user will immediately get the next turn. This extra turn may be interrupted by other effects that influence the turn order (e.g. stuns targeting the lowest TU target).\n\nUsable if an ally or enemy on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "내게 물약을",
+                "SkillDescription": "전장의 모든 아군을 정화하고(수면, 화염, 중독과 같은 부정적 상태 효과 제거), 원타임 포이즌 면역과 원타임 수면 면역을 부여한다. 각 면역은 명명된 효과의 적용을 1회 막아준 다음 사라진다. 동일한 면역은 중첩되지 않는다.\n\n그런 다음 사용자가 다음에 키 스매쉬를 사용할 때, 사용자는 즉시 다음 턴을 획득한다. 이 추가 턴은 턴 오더에 영향을 주는 다른 효과(예: 가장 낮은 TU 타겟을 타겟하는 스턴)에 의해 방해받을 수 있다.\n\n전장의 아군이나 적이 화염, 수면 또는 중독 상태인 경우에 사용할 수 있다. 이 스킬은 사용 후 50TU 동안 잠긴다.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "EnemyBuffAAliceNewBoss",
-                "SkillTitle": "Magical Prisons",
-                "SkillDescription": "Removes all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield.\n\nThen grants 2 random enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen for each enemy that is not asleep on the battlefield, 1 random ally will be given next turn by reducing their current TU. Multiple triggers may target the same ally. Active skills that grant turns cannot be used by any affected allies until after they have had the turn, this skill can be used on such turns.\n\nUsable if less than 2 enemies on the battlefield are sleeping. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "마법 감옥",
+                "SkillDescription": "전장의 모든 적 유닛에게서 원타임 수면 면역, 스텔스 쉴드, 화염 상태 효과(메가 회복 화염 포함)를 모두 제거한다.\n\n그런 다음 랜덤 적 2기에게 전장에 있는 동안 이미 수면 상태였더라도 200TU 동안 수면 상태 효과를 부여한다. 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n그런 다음 수면 상태가 아닌 적 1기당 랜덤 아군 1기에게 현재 TU를 감소시켜 다음 턴이 주어진다. 동일한 아군을 타겟으로 여러 번 발동할 수 있다. 턴을 부여하는 액티브 스킬은 영향 받은 아군이 턴을 가진 후까지 사용할 수 없으나, 이 스킬은 해당 턴에 사용할 수 있다.\n\n전장에서 수면 상태인 적이 2기 미만인 경우에 사용 가능하다. 이 스킬은 사용 후 50TU 동안 잠긴다.",
                 "TU": 50,
                 "Spirit": "-2"
             }
@@ -55608,19 +55608,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
-                "SkillTitle": "Dream Girl",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "드림 걸",
+                "SkillDescription": "이 유닛은 키 스매시, 내게 물약을, 또는 마법 감옥을 사용할 때마다 충전을 1회 획득한다. 한 유닛은 최대 3회까지 충전할 수 있으며, 전장을 떠나는 유닛의 모든 충전이 제거된다.\n\n이 유닛은 화염 상태 효과로 인한 데미지로는 패배하지 않는다. 적의 턴 동안 이 유닛은 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛의 공격은 수면 상태 적을 깨우지 않으며, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "Down The Hole",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "구멍 아래로",
+                "SkillDescription": "이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 인해 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 원타임 수면 면역과 원타임 포이즌 면역을 가지고 전투에 진입한다.\n\n전장에 있는 모든 적 유닛의 원타임 수면 면역, 스텔스 쉴드와 화염 상태 효과(메가 회복 화염 포함)를 제거한다. 그런 다음, 현재 TU가 가장 높은 수면 상태가 아닌 적을 100TU 동안 깊은 수면 상태로 만들고, 이어서 현재 TU가 가장 낮은 수면 상태가 아닌 적을 100TU 동안 깊은 수면 상태로 만든다. 해당 타겟이 전장에서 이미 수면 상태였더라도 적용된다. 이 효과는 이 유닛이 아군 증원군으로부터 전장에 진입할 때 발동한다. 깊은 수면은 다른 상태 효과를 덮어쓰며, 화염이나 수면 상태 효과로 덮어쓸 수 없고 정화되지 않는다."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Key Smash": {
+                "키 스매쉬": {
                     "BaseWeight": 1.25,
                     "Ignore": [
                         "IsSleeping"
@@ -55649,13 +55649,13 @@
                         "IsSleeping": 0.89
                     }
                 },
-                "Drink Me Potion": {
+                "내게 물약을": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotNextMoveIsGodModeAliceNew": 500
                     }
                 },
-                "Magical Prisons": {
+                "마법 감옥": {
                     "BaseWeight": 250
                 }
             }
@@ -55682,29 +55682,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAAliceNewBoss",
-                "SkillTitle": "Key Smash",
-                "SkillDescription": "500% damage to 1 enemy. 750% damage instead if 2 or more enemies on the battlefield are sleeping, burning or frostburned. 1000% damage instead if all enemies on the battlefield are sleeping, burning or frostburned.\n\nThen all allies on the battlefield have their Sleep removed (including Deep Sleep).",
+                "SkillTitle": "키 스매쉬",
+                "SkillDescription": "적 1기에 500% 데미지. 전장의 적 2기 이상이 수면, 화염 또는 서리화염 상태인 경우 750% 데미지. 전장의 모든 적이 수면, 화염 또는 서리화염 상태인 경우 1000% 데미지.\n\n그런 다음 전장의 모든 아군에게서 수면 상태(깊은 수면 포함)를 제거한다.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNewBoss",
-                "SkillTitle": "Drink Me Potion",
-                "SkillDescription": "All allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and granted a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThen the next time the user uses Key Smash, the user will immediately get the next turn. This extra turn may be interrupted by other effects that influence the turn order (e.g. stuns targeting the lowest TU target).\n\nUsable if an ally or enemy on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "내게 물약을",
+                "SkillDescription": "전장의 모든 아군을 정화하고(수면, 화염, 중독과 같은 부정적 상태 효과 제거), 원타임 포이즌 면역과 원타임 수면 면역을 부여한다. 각 면역은 명명된 효과의 적용을 1회 막아준 다음 사라진다. 동일한 면역은 중첩되지 않는다.\n\n그런 다음 사용자가 다음에 키 스매쉬를 사용할 때, 사용자는 즉시 다음 턴을 획득한다. 이 추가 턴은 턴 오더에 영향을 주는 다른 효과(예: 가장 낮은 TU 타겟을 타겟하는 스턴)에 의해 방해받을 수 있다.\n\n전장의 아군이나 적이 화염, 수면 또는 중독 상태인 경우에 사용할 수 있다. 이 스킬은 사용 후 50TU 동안 잠긴다.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "EnemyBuffAAliceNewBoss",
-                "SkillTitle": "Magical Prisons",
-                "SkillDescription": "Removes all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield.\n\nThen grants 2 random enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen for each enemy that is not asleep on the battlefield, 1 random ally will be given next turn by reducing their current TU. Multiple triggers may target the same ally. Active skills that grant turns cannot be used by any affected allies until after they have had the turn, this skill can be used on such turns.\n\nUsable if less than 2 enemies on the battlefield are sleeping. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "마법 감옥",
+                "SkillDescription": "전장의 모든 적 유닛에게서 원타임 수면 면역, 스텔스 쉴드, 화염 상태 효과(메가 회복 화염 포함)를 모두 제거한다.\n\n그런 다음 랜덤 적 2기에게 전장에 있는 동안 이미 수면 상태였더라도 200TU 동안 수면 상태 효과를 부여한다. 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n그런 다음 수면 상태가 아닌 적 1기당 랜덤 아군 1기에게 현재 TU를 감소시켜 다음 턴이 주어진다. 동일한 아군을 타겟으로 여러 번 발동할 수 있다. 턴을 부여하는 액티브 스킬은 영향 받은 아군이 턴을 가진 후까지 사용할 수 없으나, 이 스킬은 해당 턴에 사용할 수 있다.\n\n전장에서 수면 상태인 적이 2기 미만인 경우에 사용 가능하다. 이 스킬은 사용 후 50TU 동안 잠긴다.",
                 "TU": 50,
                 "Spirit": "-2"
             },
             {
                 "SkillCodename": "MultiAttackAAliceNewBoss",
-                "SkillTitle": "Star Explosion",
-                "SkillDescription": "1000% damage to 2 enemies. This attack ignores skin passive skills and the Counter Stance status effect.\n\nPulls the user away from the battlefield to be next in line of your reinforcements. If there are no ally reinforcements, adds enough Super Suimori to the ally team to still pull the user away to reinforcements (max 4 if the user is alone on the battlefield).\n\nUsable only if the user has stored 3 Charges. Usable 10 times per battle.",
+                "SkillTitle": "별의 폭발",
+                "SkillDescription": "적 2기에 1000% 데미지. 이 공격은 스킨 패시브 스킬과 카운터 스탠스 상태 효과를 무시한다.\n\n사용자를 전장에서 아군 증원군 다음 라인으로 철수시킨다. 아군 증원군이 없는 경우, 사용자를 증원군으로 철수시킬 수 있을 만큼의 슈퍼 수이모리를 아군 팀에 추가한다(사용자가 전장에 혼자인 경우 최대 4기).\n\n사용자가 충전을 3회 보유한 경우에만 사용할 수 있다. 전투당 10회 사용 가능.",
                 "TU": 0,
                 "Spirit": "-3"
             }
@@ -55712,19 +55712,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
-                "SkillTitle": "Dream Girl",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "드림 걸",
+                "SkillDescription": "이 유닛은 키 스매시, 내게 물약을, 또는 마법 감옥을 사용할 때마다 충전을 1회 획득한다. 한 유닛은 최대 3회까지 충전할 수 있으며, 전장을 떠나는 유닛의 모든 충전이 제거된다.\n\n이 유닛은 화염 상태 효과로 인한 데미지로는 패배하지 않는다. 적의 턴 동안 이 유닛은 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛의 공격은 수면 상태 적을 깨우지 않으며, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "Down The Hole",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "구멍 아래로",
+                "SkillDescription": "이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 인해 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 원타임 수면 면역과 원타임 포이즌 면역을 가지고 전투에 진입한다.\n\n전장에 있는 모든 적 유닛의 원타임 수면 면역, 스텔스 쉴드와 화염 상태 효과(메가 회복 화염 포함)를 제거한다. 그런 다음, 현재 TU가 가장 높은 수면 상태가 아닌 적을 100TU 동안 깊은 수면 상태로 만들고, 이어서 현재 TU가 가장 낮은 수면 상태가 아닌 적을 100TU 동안 깊은 수면 상태로 만든다. 해당 타겟이 전장에서 이미 수면 상태였더라도 적용된다. 이 효과는 이 유닛이 아군 증원군으로부터 전장에 진입할 때 발동한다. 깊은 수면은 다른 상태 효과를 덮어쓰며, 화염이나 수면 상태 효과로 덮어쓸 수 없고 정화되지 않는다."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Key Smash": {
+                "키 스매쉬": {
                     "BaseWeight": 1.25,
                     "Ignore": [
                         "IsSleeping"
@@ -55753,16 +55753,16 @@
                         "IsSleeping": 0.89
                     }
                 },
-                "Drink Me Potion": {
+                "내게 물약을": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotNextMoveIsGodModeAliceNew": 500
                     }
                 },
-                "Magical Prisons": {
+                "마법 감옥": {
                     "BaseWeight": 250
                 },
-                "Star Explosion": {
+                "별의 폭발": {
                     "BaseWeight": 2.5,
                     "Ignore": [
                         "IsSleeping",
@@ -55820,22 +55820,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "SkillTitle": "다혈질",
+                "SkillDescription": "적 1기에 1000% 데미지. 전장에 있는 수면이나 화염 상태가 아닌 적 1기당 데미지량이 200%씩 감소한다(수면이나 화염 상태가 아닌 적이 4기 있을 경우 최대 -800%).\n\n그런 다음 모든 아군에게 화염 상태 효과가 부여된다. 화염은 해당 유닛의 다른 상태 효과를 덮어쓴다. 화염 상태 유닛에게 데미지를 입히거나 데미지를 입은 유닛도 화염 상태가 된다.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
-                "SkillDescription": "Each burning enemy on the battlefield has its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 3 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "SkillTitle": "잡아라",
+                "SkillDescription": "전장에 있는 화염 상태 적들은 30TU 동안 액티브 스킬이 비활성화된다.\n\n그런 다음 전장에 있는 다른 화염 상태 아군들의 현재 TU가 50TU 감소한다.\n\n화염 상태인 유닛이 최소 4기 있는 경우에만 사용할 수 있다. 이 스킬은 사용 후 50TU 동안 잠긴다. 전투당 3회 사용 가능. 유닛의 액티브 스킬이 비활성화된 상태에서 턴을 가지면, 마치 수면 상태인 것처럼 턴을 잃는다. 이 효과는 보스 유닛에게는 적용되지 않으며, 정화되지 않고, 사용자가 패배하면 종료된다.",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "블러디 샤프",
+                "SkillDescription": "전장에 있는 화염 또는 수면 상태인 유닛 1기당 아군은 기력을 1 얻는다.\n\n전장의 모든 아군에게서 포이즌 (리썰 포이즌 포함)을 제거한다. 그런 다음 모든 아군에게 관통, 원타임 스턴 면역, 원타임 포이즌 면역이 부여된다.\n\n사용자가 다혈질 또는 블러디 샤프를 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.\n\n관통을 가진 유닛의 공격은 다음 턴 종료까지 적의 ​​데미지 감소 효과를 무시한다. 각 면역은 명명된 효과의 적용을 1회 막은 다음 사라진다. 동일한 면역은 중첩되지 않는다.",
                 "TU": 1,
                 "Spirit": "+1"
             }
@@ -55843,19 +55843,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "여왕 판사",
+                "SkillDescription": "이 유닛은 전장에서 증원군으로 보낼 수 없다. 1 HP 이상인 상태에서 적의 공격이나 상태 효로 인해 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛의 공격은 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n화염 또는 중독 상태에서 공격으로 데미지를 입고 턴 종료 후까지 1 HP 이상으로 생존할 때마다, TU가 0으로 감소하여 턴을 얻고 화염 상태가 된다. 이 추가 턴은 턴 오더에 영향을 주는 다른 효과(예: 가장 낮은 TU 타겟을 타겟하는 다른 스턴)에 의해 방해받을 수 있다. 이 TU 감소는 턴 오더를 조정하는 다른 효과의 전이나 후에 발동할 수 있다. 이는 카운터 스킨 타입 효과로 간주되지 않는다."
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "목을 쳐라",
+                "SkillDescription": "이 유닛은 화염 상태 효과로 인한 데미지로 패배하지 않는다.\n\n이 유닛이 소환되지 않은 적을 공격으로 물리치면, 전장에 있는 다른 모든 아군의 현재 TU가 감소하여 다음 턴이 주어진다. TU 오더에 영향을 주는 효과(예: 가장 낮은 TU 타겟을 타겟하는 스턴)는 이 추가 턴을 방해할 수 있다.\n\n이 유닛은 100TU 동안 메가 회복 화염을 가지고 전투에 진입한다. 그런 다음 전장의 모든 아군에게 원타임 포이즌 면역과 원타임 스턴 면역이 부여된다.\n\n이 유닛이 전장에 있는 동안, 어떤 원인으로든 전장의 유닛이 패배하거나 희생될 때마다, 이 유닛이 동시에 패배하거나 희생되지 않는 한, 전장의 모든 아군은 정화(수면, 화염, 중독과 같은 부정적 상태 효과 제거)된 다음 화염 상태가 된다.\n\n메가 회복 화염을 가진 유닛은 매 턴 후 회복 화염의 20배 속도로 회복한다. 이는 사용자의 회복 화염을 포함한 다른 상태 효과를 덮어쓰며, 화염, 중독, 또는 수면 상태 효과로 덮어쓸 수 없고 정화되지 않는다. 메가 회복 화염 상태의 유닛에게 데미지를 주거나 데미지를 입은 유닛도 화염 상태 효과를 얻는다. 메가 회복 화염 상태 유닛은 메가 회복 화염 만료시 300TU 동안의 회복 화염이 부여된다."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "다혈질": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55879,13 +55879,13 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "잡아라": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "블러디 샤프": {
                     "BaseWeight": 500
                 }
             }
@@ -55912,29 +55912,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "SkillTitle": "다혈질",
+                "SkillDescription": "적 1기에 1000% 데미지. 전장에 있는 수면이나 화염 상태가 아닌 적 1기당 데미지량이 200%씩 감소한다(수면이나 화염 상태가 아닌 적이 4기 있을 경우 최대 -800%).\n\n그런 다음 모든 아군에게 화염 상태 효과가 부여된다. 화염은 해당 유닛의 다른 상태 효과를 덮어쓴다. 화염 상태 유닛에게 데미지를 입히거나 데미지를 입은 유닛도 화염 상태가 된다.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
-                "SkillDescription": "Each burning enemy on the battlefield has its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 3 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "SkillTitle": "잡아라",
+                "SkillDescription": "전장에 있는 화염 상태 적들은 30TU 동안 액티브 스킬이 비활성화된다.\n\n그런 다음 전장에 있는 다른 화염 상태 아군들의 현재 TU가 50TU 감소한다.\n\n화염 상태인 유닛이 최소 4기 있는 경우에만 사용할 수 있다. 이 스킬은 사용 후 50TU 동안 잠긴다. 전투당 3회 사용 가능. 유닛의 액티브 스킬이 비활성화된 상태에서 턴을 가지면, 마치 수면 상태인 것처럼 턴을 잃는다. 이 효과는 보스 유닛에게는 적용되지 않으며, 정화되지 않고, 사용자가 패배하면 종료된다.",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "블러디 샤프",
+                "SkillDescription": "전장에 있는 화염 또는 수면 상태인 유닛 1기당 아군은 기력을 1 얻는다.\n\n전장의 모든 아군에게서 포이즌 (리썰 포이즌 포함)을 제거한다. 그런 다음 모든 아군에게 관통, 원타임 스턴 면역, 원타임 포이즌 면역이 부여된다.\n\n사용자가 다혈질 또는 블러디 샤프를 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.\n\n관통을 가진 유닛의 공격은 다음 턴 종료까지 적의 ​​데미지 감소 효과를 무시한다. 각 면역은 명명된 효과의 적용을 1회 막은 다음 사라진다. 동일한 면역은 중첩되지 않는다.",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "MultiAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Hearts",
-                "SkillDescription": "1000% damage to 2 enemies. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores skin passive skills and the Counter Stance status effect. Damage from this attack does not wake up sleeping enemies.\n\nUsable only if the user has the Burn status effect. If this skill is used 3 times within 10TU, it becomes locked for 50TU.",
+                "SkillTitle": "블러디 하트",
+                "SkillDescription": "적 2기에 1000% 데미지. 전장에 수면이나 화염 상태가 아닌 적 1기당 데미지가 150% 감소한다(수면이나 화염 상태가 아닌 적이 4기 있을 경우 최대 -600%). 이 공격은 스킨 패시브 스킬과 카운터 스탠스 상태 효과를 무시한다. 이 공격으로 인한 데미지는 수면 상태 적을 깨우지 않는다.\n\n사용자가 화염 상태 효과를 가진 경우에만 사용할 수 있다. 10TU 이내에 이 스킬을 3회 사용하면 50TU 동안 잠긴다.",
                 "TU": 1,
                 "Spirit": "-3"
             }
@@ -55942,19 +55942,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "여왕 판사",
+                "SkillDescription": "이 유닛은 전장에서 증원군으로 보낼 수 없다. 1 HP 이상인 상태에서 적의 공격이나 상태 효로 인해 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛의 공격은 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n화염 또는 중독 상태에서 공격으로 데미지를 입고 턴 종료 후까지 1 HP 이상으로 생존할 때마다, TU가 0으로 감소하여 턴을 얻고 화염 상태가 된다. 이 추가 턴은 턴 오더에 영향을 주는 다른 효과(예: 가장 낮은 TU 타겟을 타겟하는 다른 스턴)에 의해 방해받을 수 있다. 이 TU 감소는 턴 오더를 조정하는 다른 효과의 전이나 후에 발동할 수 있다. 이는 카운터 스킨 타입 효과로 간주되지 않는다."
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "목을 쳐라",
+                "SkillDescription": "이 유닛은 화염 상태 효과로 인한 데미지로 패배하지 않는다.\n\n이 유닛이 소환되지 않은 적을 공격으로 물리치면, 전장에 있는 다른 모든 아군의 현재 TU가 감소하여 다음 턴이 주어진다. TU 오더에 영향을 주는 효과(예: 가장 낮은 TU 타겟을 타겟하는 스턴)는 이 추가 턴을 방해할 수 있다.\n\n이 유닛은 100TU 동안 메가 회복 화염을 가지고 전투에 진입한다. 그런 다음 전장의 모든 아군에게 원타임 포이즌 면역과 원타임 스턴 면역이 부여된다.\n\n이 유닛이 전장에 있는 동안, 어떤 원인으로든 전장의 유닛이 패배하거나 희생될 때마다, 이 유닛이 동시에 패배하거나 희생되지 않는 한, 전장의 모든 아군은 정화(수면, 화염, 중독과 같은 부정적 상태 효과 제거)된 다음 화염 상태가 된다.\n\n메가 회복 화염을 가진 유닛은 매 턴 후 회복 화염의 20배 속도로 회복한다. 이는 사용자의 회복 화염을 포함한 다른 상태 효과를 덮어쓰며, 화염, 중독, 또는 수면 상태 효과로 덮어쓸 수 없고 정화되지 않는다. 메가 회복 화염 상태의 유닛에게 데미지를 주거나 데미지를 입은 유닛도 화염 상태 효과를 얻는다. 메가 회복 화염 상태 유닛은 메가 회복 화염 만료시 300TU 동안의 회복 화염이 부여된다."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "다혈질": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55978,16 +55978,16 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "잡아라": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "블러디 샤프": {
                     "BaseWeight": 500
                 },
-                "Bloody Hearts": {
+                "블러디 하트": {
                     "BaseWeight": 5,
                     "Ignore": [
                         "HasSkin"
@@ -56044,22 +56044,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
-                "SkillTitle": "Hurt Feelings",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "상처받은 마음",
+                "SkillDescription": "적 1기에 400% 데미지. 아군인 \"참사랑의 마술사, 큐피드\"가 전장에 있는 동안 타겟이 공격으로 아군에게 데미지를 입힌 경우, 대신 800% 데미지. 이 공격은 스킨 패시브 스킬과 카운터 스탠스 상태 효과를 무시한다.\n\n사용자에게 원타임 수면 면역과 원타임 포이즌 면역이 부여된다. 각 면역은 명명된 효과의 적용을 1회 막은 다음 사라진다. 동일한 면역은 중첩되지 않는다.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
-                "SkillTitle": "Cupid's Instant Link",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillTitle": "큐피드의 인스턴트 링크",
+                "SkillDescription": "아직 링크를 갖지 않은 소환되지 않은 다른 랜덤 아군에게 50TU 동안 큐피드의 링크를 부여한다. 그런 다음 해당 아군과 사용자는 정화(수면, 화염, 중독과 같은 부정적 상태 효과 제거)되고, 강화된다.\n\n전장에 큐피드의 링크를 이미 가진 다른 아군이 없고 유효한 타겟이 있는 경우에만 사용할 수 있다. 전투당 3회 사용 가능. \n\n강화된 유닛은 공격으로 인한 데미지가 50% 감소한다. 이 감소는 강화를 특정적으로 무시하는 공격에 의해 무시되지 않는다. 강화는 적용 후 데미지를 3회 감소시킨 후 사라지며, 재적용시 초기화된다. 이는 상태 효과가 아니다.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Matchmaker",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillTitle": "매치메이커",
+                "SkillDescription": "큐피드의 링크를 가진 다른 랜덤 아군의 현재 TU가 0으로 감소한다. 그런 다음 큐피드의 링크를 갖지 않은 랜덤 아군 1기의 현재 TU가 0으로 감소한다. 두 유닛 모두 정화되고 격분 상태가 된다. 이 스킬로 주어진 턴에는 턴을 부여하는 액티브 스킬을 사용할 수 없다.\n\n사용자가 상처받은 마음 또는 큐피드의 화살을 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.\n\n이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분 상태 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.",
                 "TU": 10,
                 "Spirit": "-1"
             }
@@ -56067,19 +56067,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
-                "SkillTitle": "Angel of True Love",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillTitle": "참사랑의 천사",
+                "SkillDescription": "이 유닛은 큐피드의 링크를 가지고 시작한다. 이 유닛이 전투에 진입할 때, 이미 링크를 갖지 않은 소환되지 않은 랜덤 아군 1기에게 50TU 동안 큐피드의 링크를 부여한다. 그런 다음 해당 아군과 이 유닛은 강화 상태가 된다.\n\n큐피드의 링크를 가진 유닛은 다음과 같은 효과를 갖는다:\n\n매혹되지 않는다.\n\n격분 상태가 아닐 때, 원래 공격력에 0.25배 공격력이 증가한다. 이 증가는 다른 공격력 증가와 중첩된다(예: 1.5배 + 0.25배 => 총 1.75배).\n\n이 유닛이 공격으로 적을 물리치면, 턴 종료 후 큐피드의 링크를 가진 다른 모든 아군은 현재 TU가 감소되어 다음 턴이 주어지고 정화된다. TU 오더에 영향을 주는 효과(예: 가장 낮은 TU 타겟을 타겟하는 스턴)는 이 추가 턴을 방해할 수 있다. 이러한 TU 감소는 턴 오더를 조정하는 다른 효과의 전이나 후에 발동할 수 있다.\n\n이 유닛이나 링크를 부여한 유닛이 전장을 떠나면 이 링크는 사라진다. 이 유닛은 다른 링크를 얻을 수 없다."
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
-                "SkillTitle": "Charmed, I'm Sure",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillTitle": "매혹된게 분명해",
+                "SkillDescription": "이 유닛은 원타임 수면 면역과 원타임 포이즌 면역을 가지고 전투에 진입한다.\n\n이 유닛은 스턴되거나 전장에서 증원군으로 보내지지 않는다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛의 공격은 수면 상태 적을 깨우지 않으며, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n적의 공격으로 처음 데미지를 입고 턴 종료 후까지 생존하면, 이 유닛은 전장의 모든 적을 50TU 동안 매혹시킨다.\n\n매혹 상태 유닛은 공격력이 크게 감소한다(예: 다른 공격력 보정치가 없는 유닛의 경우 원래 공격력의 0.5배로 감소. 단, 영향 받은 유닛의 공격력이 다른 효과로 인해 증가한 경우 매혹 효과가 감소할 수 있다). 매혹은 격분 및 약화 효과를 덮어쓰며, 매혹 상태 유닛은 격분하거나 약화될 수 없다. 매혹 상태 유닛은 대부분의 액티브 스킬을 사용할 때 자신을 매혹시킨 유닛을 타겟할 확률이 낮다. 매혹은 상태 효과가 아니므로 정화 스킬로 제거할 수 없지만, 매혹 상태 유닛이 전장을 떠나면 종료된다."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Hurt Feelings": {
+                "상처받은 마음": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -56104,10 +56104,10 @@
                         "IsICantBelieveYouHitMeBuff": 1
                     }
                 },
-                "Cupid's Instant Link": {
+                "큐피드의 인스턴트 링크": {
                     "BaseWeight": 500
                 },
-                "Matchmaker": {
+                "매치메이커": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
@@ -56137,29 +56137,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
-                "SkillTitle": "Hurt Feelings",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "상처받은 마음",
+                "SkillDescription": "적 1기에 400% 데미지. 아군인 \"참사랑의 마술사, 큐피드\"가 전장에 있는 동안 타겟이 공격으로 아군에게 데미지를 입힌 경우, 대신 800% 데미지. 이 공격은 스킨 패시브 스킬과 카운터 스탠스 상태 효과를 무시한다.\n\n사용자에게 원타임 수면 면역과 원타임 포이즌 면역이 부여된다. 각 면역은 명명된 효과의 적용을 1회 막은 다음 사라진다. 동일한 면역은 중첩되지 않는다.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
-                "SkillTitle": "Cupid's Instant Link",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillTitle": "큐피드의 인스턴트 링크",
+                "SkillDescription": "아직 링크를 갖지 않은 소환되지 않은 다른 랜덤 아군에게 50TU 동안 큐피드의 링크를 부여한다. 그런 다음 해당 아군과 사용자는 정화(수면, 화염, 중독과 같은 부정적 상태 효과 제거)되고, 강화된다.\n\n전장에 큐피드의 링크를 이미 가진 다른 아군이 없고 유효한 타겟이 있는 경우에만 사용할 수 있다. 전투당 3회 사용 가능. \n\n강화된 유닛은 공격으로 인한 데미지가 50% 감소한다. 이 감소는 강화를 특정적으로 무시하는 공격에 의해 무시되지 않는다. 강화는 적용 후 데미지를 3회 감소시킨 후 사라지며, 재적용시 초기화된다. 이는 상태 효과가 아니다.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Matchmaker",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillTitle": "매치메이커",
+                "SkillDescription": "큐피드의 링크를 가진 다른 랜덤 아군의 현재 TU가 0으로 감소한다. 그런 다음 큐피드의 링크를 갖지 않은 랜덤 아군 1기의 현재 TU가 0으로 감소한다. 두 유닛 모두 정화되고 격분 상태가 된다. 이 스킬로 주어진 턴에는 턴을 부여하는 액티브 스킬을 사용할 수 없다.\n\n사용자가 상처받은 마음 또는 큐피드의 화살을 사용할 때마다 잠금 해제되며, 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.\n\n이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분 상태 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다.",
                 "TU": 10,
                 "Spirit": "-1"
             },
             {
                 "SkillCodename": "SpecialAttackACupidRegularBoss",
-                "SkillTitle": "Cupid's Shot",
-                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time the user has already used this skill or Hurt Feelings while on the battlefield (max of 1000% total damage after the user has used this skill or Hurt Feelings 5 or more times).\n\nEvery second time this skill is activated by the user while on the battlefield, a random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUsable 10 times per battle.",
+                "SkillTitle": "큐피드의 화살",
+                "SkillDescription": "적 1기에 250% 데미지를 주고, 전투 중 이 스킬이나 상처받은 마음을 사용한 횟수마다 150% 데미지 추가(사용자가 이 스킬이나 상처받은 마음을 총 5회 이상 사용시 최대 총 1000% 데미지).\n\n전장에 있는 동안 이 스킬을 2회 사용할 때마다, 전장에 있는 보스나 신기루가 아닌 랜덤 적 1기를 즉시 물리친다(사용자가 공격으로 해당 적을 물리친 것으로 간주된다). 이 부가 효과는 복수 패시브 스킬, 부활 패시브 스킬, 그리고 랜덤 적의 패배를 막는 모든 패시브 스킬이나 액티브 스킬 효과를 무시한다.\n\n전투당 10회 사용 가능.",
                 "TU": 50,
                 "Spirit": "-3"
             }
@@ -56167,19 +56167,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
-                "SkillTitle": "Angel of True Love",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillTitle": "참사랑의 천사",
+                "SkillDescription": "이 유닛은 큐피드의 링크를 가지고 시작한다. 이 유닛이 전투에 진입할 때, 이미 링크를 갖지 않은 소환되지 않은 랜덤 아군 1기에게 50TU 동안 큐피드의 링크를 부여한다. 그런 다음 해당 아군과 이 유닛은 강화 상태가 된다.\n\n큐피드의 링크를 가진 유닛은 다음과 같은 효과를 갖는다:\n\n매혹되지 않는다.\n\n격분 상태가 아닐 때, 원래 공격력에 0.25배 공격력이 증가한다. 이 증가는 다른 공격력 증가와 중첩된다(예: 1.5배 + 0.25배 => 총 1.75배).\n\n이 유닛이 공격으로 적을 물리치면, 턴 종료 후 큐피드의 링크를 가진 다른 모든 아군은 현재 TU가 감소되어 다음 턴이 주어지고 정화된다. TU 오더에 영향을 주는 효과(예: 가장 낮은 TU 타겟을 타겟하는 스턴)는 이 추가 턴을 방해할 수 있다. 이러한 TU 감소는 턴 오더를 조정하는 다른 효과의 전이나 후에 발동할 수 있다.\n\n이 유닛이나 링크를 부여한 유닛이 전장을 떠나면 이 링크는 사라진다. 이 유닛은 다른 링크를 얻을 수 없다."
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
-                "SkillTitle": "Charmed, I'm Sure",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillTitle": "매혹된게 분명해",
+                "SkillDescription": "이 유닛은 원타임 수면 면역과 원타임 포이즌 면역을 가지고 전투에 진입한다.\n\n이 유닛은 스턴되거나 전장에서 증원군으로 보내지지 않는다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛의 공격은 수면 상태 적을 깨우지 않으며, 데미지 감소 효과와 타겟의 패배를 막는 보스가 아닌 적의 효과를 무시한다.\n\n적의 공격으로 처음 데미지를 입고 턴 종료 후까지 생존하면, 이 유닛은 전장의 모든 적을 50TU 동안 매혹시킨다.\n\n매혹 상태 유닛은 공격력이 크게 감소한다(예: 다른 공격력 보정치가 없는 유닛의 경우 원래 공격력의 0.5배로 감소. 단, 영향 받은 유닛의 공격력이 다른 효과로 인해 증가한 경우 매혹 효과가 감소할 수 있다). 매혹은 격분 및 약화 효과를 덮어쓰며, 매혹 상태 유닛은 격분하거나 약화될 수 없다. 매혹 상태 유닛은 대부분의 액티브 스킬을 사용할 때 자신을 매혹시킨 유닛을 타겟할 확률이 낮다. 매혹은 상태 효과가 아니므로 정화 스킬로 제거할 수 없지만, 매혹 상태 유닛이 전장을 떠나면 종료된다."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Hurt Feelings": {
+                "상처받은 마음": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -56204,16 +56204,16 @@
                         "IsICantBelieveYouHitMeBuff": 1
                     }
                 },
-                "Cupid's Instant Link": {
+                "큐피드의 인스턴트 링크": {
                     "BaseWeight": 500
                 },
-                "Matchmaker": {
+                "매치메이커": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Cupid's Shot": {
+                "큐피드의 화살": {
                     "BaseWeight": 1,
                     "Source": {
                         "Has4GoodGirlBuffExactly": 5,

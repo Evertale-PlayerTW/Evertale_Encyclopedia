@@ -55585,22 +55585,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAAliceNewBoss",
-                "SkillTitle": "Key Smash",
-                "SkillDescription": "500% damage to 1 enemy. 750% damage instead if 2 or more enemies on the battlefield are sleeping, burning or frostburned. 1000% damage instead if all enemies on the battlefield are sleeping, burning or frostburned.\n\nThen all allies on the battlefield have their Sleep removed (including Deep Sleep).",
+                "SkillTitle": "Schianto Chiave",
+                "SkillDescription": "50=% di danno a 1 nemico. 750% di danno invece se ci sono almeno 2 nemici addormentati, ustionati o con Fuocogelo in campo. 1000% di danno invece se tutti i nemici in campo sono addormentati, ustionati o con Fuocogelo.\n\nPoi, rimuove Sonno (incluso Sonno Profondo) da tutti gli alleati in campo.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNewBoss",
-                "SkillTitle": "Drink Me Potion",
-                "SkillDescription": "All allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and granted a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThen the next time the user uses Key Smash, the user will immediately get the next turn. This extra turn may be interrupted by other effects that influence the turn order (e.g. stuns targeting the lowest TU target).\n\nUsable if an ally or enemy on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Pozione Bevimi",
+                "SkillDescription": "Tutti gli alleati in tempo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Protezione Veleno e Protezione Sonno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.\n\nPoi, la prossima volta che utilizza Schianto Chiave, l'unità ottiene immediatamente il turno. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nUtilizzabile se c'è un alleato o un nemico ustionato, addormentato o avvelenato in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "EnemyBuffAAliceNewBoss",
-                "SkillTitle": "Magical Prisons",
-                "SkillDescription": "Removes all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield.\n\nThen grants 2 random enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen for each enemy that is not asleep on the battlefield, 1 random ally will be given next turn by reducing their current TU. Multiple triggers may target the same ally. Active skills that grant turns cannot be used by any affected allies until after they have had the turn, this skill can be used on such turns.\n\nUsable if less than 2 enemies on the battlefield are sleeping. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Prigioni Magiche",
+                "SkillDescription": "Rimuove ogni Protezione Sonno, Scudo Invisibile e gli effetti di stato Ustione (incluso Mega Ustione Curativa) dai nemici in campo.\n\nPoi, addormenta 2 nemici casuali per 200TU, anche se hanno già dormito da quando sono entrati in campo. Sostituisce altri effetti di stato.\n\nPoi, per ogni nemico non addormentato, fornisce immediatamente il turno a 1 alleato casuale azzerando i suoi TU. Può attivarsi più volte sullo stesso bersaglio. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità.\n\nUtilizzabile se ci sono meno di 2 nemici addormentati in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
                 "TU": 50,
                 "Spirit": "-2"
             }
@@ -55608,19 +55608,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
-                "SkillTitle": "Dream Girl",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "Ragazza Sognante",
+                "SkillDescription": "L'unità ottiene una Carica ogni volta che utilizza Schianto Chiave, Pozione Bevimi o Prigioni Magiche. Un'unità può accumulare un massimo di 3 Cariche, e le perde tutte quando abbandona il campo.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "Down The Hole",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "Giù per il Buco",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nQuesta unità entra in campo con Protezione Sonno e Protezione Veleno.\n\nRimuove ogni Protezione Sonno, Scudo Invisibile e gli effetti di stato Ustione (incluso Mega Ustione Curativa) dai nemici in campo. Poi, infligge Sonno Profondo al nemico non addormentato con più TU attuali per 100TU e al nemico non addormentato con meno TU attuali per 100TU, anche se hanno già dormito da quando sono entrati in campo. Questi effetti si attivano quando l'unità entra in campo dai rinforzi alleati.Sonno Profondo sostituisce altri effetti di stato, non viene sostituito da Ustione o Sonno e non può essere purificato."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Key Smash": {
+                "Schianto Chiave": {
                     "BaseWeight": 1.25,
                     "Ignore": [
                         "IsSleeping"
@@ -55649,13 +55649,13 @@
                         "IsSleeping": 0.89
                     }
                 },
-                "Drink Me Potion": {
+                "Pozione Bevimi": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotNextMoveIsGodModeAliceNew": 500
                     }
                 },
-                "Magical Prisons": {
+                "Prigioni Magiche": {
                     "BaseWeight": 250
                 }
             }
@@ -55682,29 +55682,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAAliceNewBoss",
-                "SkillTitle": "Key Smash",
-                "SkillDescription": "500% damage to 1 enemy. 750% damage instead if 2 or more enemies on the battlefield are sleeping, burning or frostburned. 1000% damage instead if all enemies on the battlefield are sleeping, burning or frostburned.\n\nThen all allies on the battlefield have their Sleep removed (including Deep Sleep).",
+                "SkillTitle": "Schianto Chiave",
+                "SkillDescription": "50=% di danno a 1 nemico. 750% di danno invece se ci sono almeno 2 nemici addormentati, ustionati o con Fuocogelo in campo. 1000% di danno invece se tutti i nemici in campo sono addormentati, ustionati o con Fuocogelo.\n\nPoi, rimuove Sonno (incluso Sonno Profondo) da tutti gli alleati in campo.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNewBoss",
-                "SkillTitle": "Drink Me Potion",
-                "SkillDescription": "All allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and granted a Poison Ward and Sleep Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThen the next time the user uses Key Smash, the user will immediately get the next turn. This extra turn may be interrupted by other effects that influence the turn order (e.g. stuns targeting the lowest TU target).\n\nUsable if an ally or enemy on the battlefield is burning, sleeping or poisoned. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Pozione Bevimi",
+                "SkillDescription": "Tutti gli alleati in tempo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Protezione Veleno e Protezione Sonno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.\n\nPoi, la prossima volta che utilizza Schianto Chiave, l'unità ottiene immediatamente il turno. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nUtilizzabile se c'è un alleato o un nemico ustionato, addormentato o avvelenato in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "EnemyBuffAAliceNewBoss",
-                "SkillTitle": "Magical Prisons",
-                "SkillDescription": "Removes all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield.\n\nThen grants 2 random enemies the Sleep status effect for 200TU, even if they have already slept while on the battlefield. This will overwrite other status effects on those units.\n\nThen for each enemy that is not asleep on the battlefield, 1 random ally will be given next turn by reducing their current TU. Multiple triggers may target the same ally. Active skills that grant turns cannot be used by any affected allies until after they have had the turn, this skill can be used on such turns.\n\nUsable if less than 2 enemies on the battlefield are sleeping. This skill becomes locked for 50TU after use.",
+                "SkillTitle": "Prigioni Magiche",
+                "SkillDescription": "Rimuove ogni Protezione Sonno, Scudo Invisibile e gli effetti di stato Ustione (incluso Mega Ustione Curativa) dai nemici in campo.\n\nPoi, addormenta 2 nemici casuali per 200TU, anche se hanno già dormito da quando sono entrati in campo. Sostituisce altri effetti di stato.\n\nPoi, per ogni nemico non addormentato, fornisce immediatamente il turno a 1 alleato casuale azzerando i suoi TU. Può attivarsi più volte sullo stesso bersaglio. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità.\n\nUtilizzabile se ci sono meno di 2 nemici addormentati in campo. Questa abilità è bloccata per 50TU dopo l'uso.",
                 "TU": 50,
                 "Spirit": "-2"
             },
             {
                 "SkillCodename": "MultiAttackAAliceNewBoss",
-                "SkillTitle": "Star Explosion",
-                "SkillDescription": "1000% damage to 2 enemies. This attack ignores skin passive skills and the Counter Stance status effect.\n\nPulls the user away from the battlefield to be next in line of your reinforcements. If there are no ally reinforcements, adds enough Super Suimori to the ally team to still pull the user away to reinforcements (max 4 if the user is alone on the battlefield).\n\nUsable only if the user has stored 3 Charges. Usable 10 times per battle.",
+                "SkillTitle": "Esplosione Stellare",
+                "SkillDescription": "1000% di danno a 2 nemici. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nAllontana l'unità dal campo e la mette in cima tra i rinforzi. Se non ci sono rinforzi alleati, aggiunge abbastanza Super Suimori alla squadra alleata per allontanare l'unità tra i rinforzi (fino a 4 se l'unità è da sola in campo).\n\nUtilizzabile se l'unità ha 3 Cariche accumulate. Utilizzabile 10 volte per battaglia.",
                 "TU": 0,
                 "Spirit": "-3"
             }
@@ -55712,19 +55712,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNewBoss",
-                "SkillTitle": "Dream Girl",
-                "SkillDescription": "This unit gains a Charge each time this unit uses Key Smash, Drink Me Potion or Magical Prisons. A unit can store a maximum of 3 charges, and all charges are removed from a unit that leaves the battlefield.\n\nThis unit cannot be defeated by damage from Burn status effects. This unit cannot be sent to the reinforcements from the battlefield during an enemy turn.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "Ragazza Sognante",
+                "SkillDescription": "L'unità ottiene una Carica ogni volta che utilizza Schianto Chiave, Pozione Bevimi o Prigioni Magiche. Un'unità può accumulare un massimo di 3 Cariche, e le perde tutte quando abbandona il campo.\n\nL'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. L'unità non può essere mandata tra i rinforzi dal campo durante il turno nemico.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNewBoss",
-                "SkillTitle": "Down The Hole",
-                "SkillDescription": "If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit enters battle with a Sleep Ward, and Poison Ward.\n\nRemoves all Sleep wards, Stealth Shields and Burn status effects (including Mega Healing Burn) from all enemy units on the battlefield. Then Deep Sleeps the non-sleeping enemy with the highest current TU for 100TU, then Deep Sleeps the non-sleeping enemy with the lowest current TU for 100TU, even if those targets have already slept while on the battlefield. These effects are triggered when this unit enters the battlefield from the allied reinforcements. Deep Sleep will overwrite other status effects, cannot be overwritten by Burn or Sleep status effects, and cannot be Purified."
+                "SkillTitle": "Giù per il Buco",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nQuesta unità entra in campo con Protezione Sonno e Protezione Veleno.\n\nRimuove ogni Protezione Sonno, Scudo Invisibile e gli effetti di stato Ustione (incluso Mega Ustione Curativa) dai nemici in campo. Poi, infligge Sonno Profondo al nemico non addormentato con più TU attuali per 100TU e al nemico non addormentato con meno TU attuali per 100TU, anche se hanno già dormito da quando sono entrati in campo. Questi effetti si attivano quando l'unità entra in campo dai rinforzi alleati.Sonno Profondo sostituisce altri effetti di stato, non viene sostituito da Ustione o Sonno e non può essere purificato."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Key Smash": {
+                "Schianto Chiave": {
                     "BaseWeight": 1.25,
                     "Ignore": [
                         "IsSleeping"
@@ -55753,16 +55753,16 @@
                         "IsSleeping": 0.89
                     }
                 },
-                "Drink Me Potion": {
+                "Pozione Bevimi": {
                     "BaseWeight": 1,
                     "Source": {
                         "IsNotNextMoveIsGodModeAliceNew": 500
                     }
                 },
-                "Magical Prisons": {
+                "Prigioni Magiche": {
                     "BaseWeight": 250
                 },
-                "Star Explosion": {
+                "Esplosione Stellare": {
                     "BaseWeight": 2.5,
                     "Ignore": [
                         "IsSleeping",
@@ -55820,22 +55820,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "SkillTitle": "Irascibilità",
+                "SkillDescription": "1000% di danno a 1 nemico. 200% di danno in meno per ogni nemico non addormentato e non ustionato in campo (fino a -800% se ci sono 4 non addormentati e non ustionati).\n\nPoi, tutti gli alleati vengono ustionati. Ustione sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
-                "SkillDescription": "Each burning enemy on the battlefield has its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 3 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "SkillTitle": "Prendeteli",
+                "SkillDescription": "Disattiva le abilità attive dei nemici ustionati per 30TU.\n\nPoi, tutti gli altri alleati ustionati in campo riducono i loro TU attuali di 50TU.\n\nUtilizzabile solo se ci sono almeno 4 unità ustionate. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 3 volte per battaglia. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Affilatissimo",
+                "SkillDescription": "Gli alleati ottengono 1 Spirito per ogni unità ustionata o addormentata in campo.\n\nRimuove Veleno (incluso Veleno Letale) da tutti gli alleati in campo. Poi, tutti gli alleati in campo ottengono Perforazione, Protezione Stordimento e Protezione Veleno.\n\nSi sblocca ogni volta che l'unità usa Irascibilità o Cuori Sanguinari. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nUn'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 1,
                 "Spirit": "+1"
             }
@@ -55843,19 +55843,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "Giudizio Sovrano",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo. Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nGli attacchi dell'unità ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nOgni volta che l'unità subisce danno da un attacco mentre è ustionata o avvelenata e sopravvive fino alla fine del turno, ottiene immediatamente il turno azzerando i suoi TU ed è ustionata. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Questa abilità non è considerata un'abilità di tipo Pelle Reagente."
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "Tagliategli la Testa",
+                "SkillDescription": "unità non può essere sconfitta subendo danno dall'effetto di stato Ustione.\n\nQuando l'unità sconfigge un nemico non invocato con un attacco, tutti gli alleati in campo ottengono immediatamente il turno azzerando i loro TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nL'unità entra in battaglia con Mega Ustione Curativa per 100TU. Poi, tutti gli alleati in campo ottengono Protezione Veleno e Protezione Stordimento.\n\nMentre l'unità è in campo, ogni volta che un'unità in campo viene sconfitta o sacrificata, finché questa unità non viene sconfitta o sacrificata, tutti gli alleati in campo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e poi vengono ustionati.\n\nUn'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "Irascibilità": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55879,13 +55879,13 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "Prendeteli": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "Affilatissimo": {
                     "BaseWeight": 500
                 }
             }
@@ -55912,29 +55912,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Quick Tempered",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "SkillTitle": "Irascibilità",
+                "SkillDescription": "1000% di danno a 1 nemico. 200% di danno in meno per ogni nemico non addormentato e non ustionato in campo (fino a -800% se ci sono 4 non addormentati e non ustionati).\n\nPoi, tutti gli alleati vengono ustionati. Ustione sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllUnitsBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Grab Them",
-                "SkillDescription": "Each burning enemy on the battlefield has its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 3 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "SkillTitle": "Prendeteli",
+                "SkillDescription": "Disattiva le abilità attive dei nemici ustionati per 30TU.\n\nPoi, tutti gli altri alleati ustionati in campo riducono i loro TU attuali di 50TU.\n\nUtilizzabile solo se ci sono almeno 4 unità ustionate. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 3 volte per battaglia. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
                 "TU": 30,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "AllyBuffAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Sharp",
-                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, and Poison Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Affilatissimo",
+                "SkillDescription": "Gli alleati ottengono 1 Spirito per ogni unità ustionata o addormentata in campo.\n\nRimuove Veleno (incluso Veleno Letale) da tutti gli alleati in campo. Poi, tutti gli alleati in campo ottengono Perforazione, Protezione Stordimento e Protezione Veleno.\n\nSi sblocca ogni volta che l'unità usa Irascibilità o Cuori Sanguinari. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nUn'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "MultiAttackAQueenHeartsRegularBoss",
-                "SkillTitle": "Bloody Hearts",
-                "SkillDescription": "1000% damage to 2 enemies. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores skin passive skills and the Counter Stance status effect. Damage from this attack does not wake up sleeping enemies.\n\nUsable only if the user has the Burn status effect. If this skill is used 3 times within 10TU, it becomes locked for 50TU.",
+                "SkillTitle": "Cuori Sanguinari",
+                "SkillDescription": "1000% di danno a 2 nemici. 150% di danno in meno per ogni nemico non addormentato e non ustionato in campo (fino a -600% se ci sono 4 non addormentati e non ustionati). Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione. Il danno da quest'attacco non sveglia i nemici.\n\nUtilizzabile solo se l'unità è ustionata. Se l'abilità è utilizzata 3 volte in 10TU, è bloccata per50TU.",
                 "TU": 1,
                 "Spirit": "-3"
             }
@@ -55942,19 +55942,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Queen Judge",
-                "SkillDescription": "This unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect."
+                "SkillTitle": "Giudizio Sovrano",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo. Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nGli attacchi dell'unità ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nOgni volta che l'unità subisce danno da un attacco mentre è ustionata o avvelenata e sopravvive fino alla fine del turno, ottiene immediatamente il turno azzerando i suoi TU ed è ustionata. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Questa abilità non è considerata un'abilità di tipo Pelle Reagente."
             },
             {
                 "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegularBoss",
-                "SkillTitle": "Take Their Heads",
-                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nWhile this unit is on the battlefield, whenever a unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "Tagliategli la Testa",
+                "SkillDescription": "unità non può essere sconfitta subendo danno dall'effetto di stato Ustione.\n\nQuando l'unità sconfigge un nemico non invocato con un attacco, tutti gli alleati in campo ottengono immediatamente il turno azzerando i loro TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nL'unità entra in battaglia con Mega Ustione Curativa per 100TU. Poi, tutti gli alleati in campo ottengono Protezione Veleno e Protezione Stordimento.\n\nMentre l'unità è in campo, ogni volta che un'unità in campo viene sconfitta o sacrificata, finché questa unità non viene sconfitta o sacrificata, tutti gli alleati in campo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e poi vengono ustionati.\n\nUn'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Quick Tempered": {
+                "Irascibilità": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -55978,16 +55978,16 @@
                         "IsNotBurning": 1.01
                     }
                 },
-                "Grab Them": {
+                "Prendeteli": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Bloody Sharp": {
+                "Affilatissimo": {
                     "BaseWeight": 500
                 },
-                "Bloody Hearts": {
+                "Cuori Sanguinari": {
                     "BaseWeight": 5,
                     "Ignore": [
                         "HasSkin"
@@ -56044,22 +56044,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
-                "SkillTitle": "Hurt Feelings",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Sentimenti Feriti",
+                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Strega dell'Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
-                "SkillTitle": "Cupid's Instant Link",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillTitle": "Legame di Cupido",
+                "SkillDescription": "Fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame.\n\nPoi, quell'alleato e l'unità sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Fortificazione.\n\nUtilizzabile solo se non ci sono altri alleati in campo con Legame di Cupido e se c'è un bersaglio valido. Utilizzabile 3 volte per battaglia.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Matchmaker",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillTitle": "Abbinamento",
+                "SkillDescription": "Azzera i TU di un altro alleato casuale con Legame di Cupido. Poi, azzera i TU di un alleato casuale senza Legame di Cupido. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
                 "TU": 10,
                 "Spirit": "-1"
             }
@@ -56067,19 +56067,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
-                "SkillTitle": "Angel of True Love",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillTitle": "Angelo dell'Amore",
+                "SkillDescription": "L'unità inizia con Legame di Cupido. Quando l'unità entra in campo, fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame. Poi, quell'alleato e l'unità ottengono Fortificazione.\n\nUn'unità con Legame di Cupido ha i seguenti effetti:\n\nL'unità è immune a Fascino.\n\nL'unità aggiunge lo 0,25x dell'attacco originale al proprio attacco se non ha Provocazione. L'effetto si accumula con altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,25x = 1,75x totale).\n\nQuando l'unità sconfigge un nemico con un attacco, alla fine del turno, tutti gli altri alleati con Legame di Cupido ottengono immediatamente il turno azzerando i loro TU e sono purificati. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). Queste riduzioni dei TU possono attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nIl Legame viene rimosso se questa unità o l'unità che lo ha fornito abbandonano il campo. L'unità non può ottenere altri Legami."
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
-                "SkillTitle": "Charmed, I'm Sure",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillTitle": "Oh, Incantata",
+                "SkillDescription": "Questa unità entra in campo con Protezione Sonno e Protezione Veleno.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nLa prima volta che l'unità subisce danno da un attacco nemico e sopravvive fino alla fine del turno, l'unità affascina tutti i nemici in campo per 50TU.\n\nL'attacco dell'unità affascinata è fortemente ridotto (per esempio, allo 0,5x dell'attacco originale per un'unità senza altri modificatori all'attacco. L'effetto di Fascino può ridursi se l'attacco dell'unità è aumentato da altri effetti.). Fascino sostituisce altri effetti di Provocazione o Debolezza. Le unità affascinate non possono ottenere Provocazione o subire Debolezza. La maggior parte delle abilità attive delle unità affascinate tendono a colpire meno spesso l'unità che le ha affascinate. Fascino non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità abbandona il campo."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Hurt Feelings": {
+                "Sentimenti Feriti": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -56104,10 +56104,10 @@
                         "IsICantBelieveYouHitMeBuff": 1
                     }
                 },
-                "Cupid's Instant Link": {
+                "Legame di Cupido": {
                     "BaseWeight": 500
                 },
-                "Matchmaker": {
+                "Abbinamento": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
@@ -56137,29 +56137,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
-                "SkillTitle": "Hurt Feelings",
-                "SkillDescription": "400% damage to 1 enemy. 800% damage instead if the target has damaged an ally with an attack while an ally \"Cupid, Sorceress of True Love\" was on the battlefield. This attack ignores skin passive skills and the Counter Stance status effect.\n\nThe user is granted a Sleep Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.",
+                "SkillTitle": "Sentimenti Feriti",
+                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Strega dell'Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffACupidRegularBoss",
-                "SkillTitle": "Cupid's Instant Link",
-                "SkillDescription": "Grants Cupid's Link for 50TU to another random non-conjured ally that does not already have a Link.\n\nThen that ally and the user are Purified (removes negative status effects like sleep, burn or poison), and Fortified.\n\nUsable only if no other ally on the battlefield has Cupid's Link already, and there is a valid target. Usable 3 times per battle.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect.",
+                "SkillTitle": "Legame di Cupido",
+                "SkillDescription": "Fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame.\n\nPoi, quell'alleato e l'unità sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e ottengono Fortificazione.\n\nUtilizzabile solo se non ci sono altri alleati in campo con Legame di Cupido e se c'è un bersaglio valido. Utilizzabile 3 volte per battaglia.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Matchmaker",
-                "SkillDescription": "Another random ally with Cupid's Link has their current TU reduced to 0. Then a random ally that doesn't have Cupid's Link has their current TU reduced to 0. Both units are Purified and become Enraged. Active skills that grant turns cannot be used on turns given by this skill.\n\nUnlocked each time the user uses Hurt Feelings or Cupid's Shot, and is locked again after each use or if the user leaves the battlefield.\n\nThis will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn.",
+                "SkillTitle": "Abbinamento",
+                "SkillDescription": "Azzera i TU di un altro alleato casuale con Legame di Cupido. Poi, azzera i TU di un alleato casuale senza Legame di Cupido. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
                 "TU": 10,
                 "Spirit": "-1"
             },
             {
                 "SkillCodename": "SpecialAttackACupidRegularBoss",
-                "SkillTitle": "Cupid's Shot",
-                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time the user has already used this skill or Hurt Feelings while on the battlefield (max of 1000% total damage after the user has used this skill or Hurt Feelings 5 or more times).\n\nEvery second time this skill is activated by the user while on the battlefield, a random non-boss, non-Ephemeral enemy on the battlefield will be immediately defeated (the user is considered to have defeated that enemy with an attack). This secondary effect ignores Revenge passive skills, Revival passive skills, and any passive skills or effects of active skills that would prevent the random enemy from being defeated.\n\nUsable 10 times per battle.",
+                "SkillTitle": "Tiro di Cupido",
+                "SkillDescription": "250% di danno a 1 nemico, più il 150% per ogni volta che questa abilità o Sentimenti Feriti sono state attivate da quando l'unità è entrata in campo (fino al 1000% di danno totale se questa abilità o Sentimenti Feriti sono già state utilizzate almeno 5 volte).\n\nOgni seconda volta che l'abilità viene attivata dall'unità in campo, un nemico senza Effimerità e che non è un boss in campo viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Questo effetto secondario ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive e gli effetti che impedirebbero al nemico casuale di essere sconfitto.\n\nUtilizzabile 10 volte per battaglia.",
                 "TU": 50,
                 "Spirit": "-3"
             }
@@ -56167,19 +56167,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "MatchMakerPassiveACupidRegularBoss",
-                "SkillTitle": "Angel of True Love",
-                "SkillDescription": "This unit starts with Cupid's Link. When this unit enters battle it grants Cupid's Link for 50TU to another random non-conjured ally that does not have a Link already. Then that ally and this unit are Fortified.\n\nA unit with Cupid's Link has these effects:\n\nThis unit cannot be Charmed.\n\nThis unit has 0.25x of their original Attack added to their Attack while they are not Enraged. This increase will stack with other Attack increases (e.g. 1.5x + 0.25x => 1.75x total).\n\nWhen this unit defeats an enemy with an attack, after the end of the turn, all other allies with Cupid's Link will be given the next turns by reducing their current TU, and become Purified. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target). These TU reductions may trigger before or after other effects that adjust the turn order.\n\nThis Link is removed if this unit or the unit that granted it leaves the battlefield. This unit cannot gain other Links."
+                "SkillTitle": "Angelo dell'Amore",
+                "SkillDescription": "L'unità inizia con Legame di Cupido. Quando l'unità entra in campo, fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame. Poi, quell'alleato e l'unità ottengono Fortificazione.\n\nUn'unità con Legame di Cupido ha i seguenti effetti:\n\nL'unità è immune a Fascino.\n\nL'unità aggiunge lo 0,25x dell'attacco originale al proprio attacco se non ha Provocazione. L'effetto si accumula con altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,25x = 1,75x totale).\n\nQuando l'unità sconfigge un nemico con un attacco, alla fine del turno, tutti gli altri alleati con Legame di Cupido ottengono immediatamente il turno azzerando i loro TU e sono purificati. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). Queste riduzioni dei TU possono attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nIl Legame viene rimosso se questa unità o l'unità che lo ha fornito abbandonano il campo. L'unità non può ottenere altri Legami."
             },
             {
                 "SkillCodename": "AngelOfLovePassiveACupidRegularBoss",
-                "SkillTitle": "Charmed, I'm Sure",
-                "SkillDescription": "This unit enters battle with a Sleep Ward, and Poison Ward.\n\nThis unit cannot be stunned or be sent to the reinforcements from the battlefield.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks will not wake sleeping enemies, ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated.\n\nThe first time this unit is damaged by an enemy attack and survives until after the end of the turn, this unit will Charm all enemies on the battlefield for 50TU.\n\nA Charmed unit has their attack greatly reduced (e.g. to 0.5x of their original Attack for a unit with no other Attack modifiers. The effect of Charmed may be diminished if the affected unit's Attack is increased by other effects). Charmed overwrites Enrage and Weaken effects, and units that are Charmed cannot be Enraged or Weakened. Charmed units are less likely to target the unit that Charmed them with most active skills. Charmed is not a status effect and cannot be removed by Purify skills, but will end if the Charmed unit leaves the battlefield."
+                "SkillTitle": "Oh, Incantata",
+                "SkillDescription": "Questa unità entra in campo con Protezione Sonno e Protezione Veleno.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nLa prima volta che l'unità subisce danno da un attacco nemico e sopravvive fino alla fine del turno, l'unità affascina tutti i nemici in campo per 50TU.\n\nL'attacco dell'unità affascinata è fortemente ridotto (per esempio, allo 0,5x dell'attacco originale per un'unità senza altri modificatori all'attacco. L'effetto di Fascino può ridursi se l'attacco dell'unità è aumentato da altri effetti.). Fascino sostituisce altri effetti di Provocazione o Debolezza. Le unità affascinate non possono ottenere Provocazione o subire Debolezza. La maggior parte delle abilità attive delle unità affascinate tendono a colpire meno spesso l'unità che le ha affascinate. Fascino non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità abbandona il campo."
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Hurt Feelings": {
+                "Sentimenti Feriti": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -56204,16 +56204,16 @@
                         "IsICantBelieveYouHitMeBuff": 1
                     }
                 },
-                "Cupid's Instant Link": {
+                "Legame di Cupido": {
                     "BaseWeight": 500
                 },
-                "Matchmaker": {
+                "Abbinamento": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
                     }
                 },
-                "Cupid's Shot": {
+                "Tiro di Cupido": {
                     "BaseWeight": 1,
                     "Source": {
                         "Has4GoodGirlBuffExactly": 5,

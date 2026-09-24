@@ -22015,7 +22015,7 @@
         "Hp_Base": 3055,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc4DisabledEnemy",
@@ -22040,7 +22040,7 @@
         "Hp_Base": 3695,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc5DisabledEnemy",
@@ -22066,12 +22066,89 @@
         "Hp_Base": 3985,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc6DisabledEnemy",
                 "SkillTitle": "피네스 업",
                 "SkillDescription": "TU 코스트 10% 감소 및 적 유닛의 액티브 스킬이 비활성화된 동안 적 공격으로 인한 데미지 10% 감소."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "KeyClockStaff01": {
+        "Name": "원더시계",
+        "FullName": "원더시계",
+        "Family": "KeyClockStaff",
+        "Profile": "이상한 나라 안에서 시간의 흐름 자쳬를 담고 있는 거대한 태엽 열쇠. 시계 바늘이 한 바퀴 돌 때마다 세상은 조금씩 더 고독해진다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "스태프",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp4AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU 코스트 감소",
+                "SkillDescription": "수면 또는 화염 상태 효과를 가진 유닛이 4기 이상 있을 경우 TU 코스트 6% 감소."
+            }
+        ]
+    },
+    "KeyClockStaff02": {
+        "Name": "원더시계",
+        "FullName": "원더시계",
+        "Family": "KeyClockStaff",
+        "Profile": "이상한 나라 안에서 시간의 흐름 자쳬를 담고 있는 거대한 태엽 열쇠. 시계 바늘이 한 바퀴 돌 때마다 세상은 조금씩 더 고독해진다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "스태프",
+        "Cost": 17,
+        "Atk_Base": 550,
+        "Hp_Base": 3750,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp5AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU 코스트 감소",
+                "SkillDescription": "수면 또는 화염 상태 효과를 가진 유닛이 4기 이상 있을 경우 TU 코스트 8% 감소."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "KeyClockStaff03": {
+        "Name": "원더시계",
+        "FullName": "원더시계",
+        "Family": "KeyClockStaff",
+        "Profile": "이상한 나라 안에서 시간의 흐름 자쳬를 담고 있는 거대한 태엽 열쇠. 시계 바늘이 한 바퀴 돌 때마다 세상은 조금씩 더 고독해진다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "스태프",
+        "Cost": 23,
+        "Atk_Base": 581,
+        "Hp_Base": 4095,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp6AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU 코스트 감소",
+                "SkillDescription": "수면 또는 화염 상태 효과를 가진 유닛이 4기 이상 있을 경우 TU 코스트 10% 감소."
             }
         ],
         "ExtraEvoInitialCount": 2

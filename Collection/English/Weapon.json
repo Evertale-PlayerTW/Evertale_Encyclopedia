@@ -22015,7 +22015,7 @@
         "Hp_Base": 3055,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc4DisabledEnemy",
@@ -22040,7 +22040,7 @@
         "Hp_Base": 3695,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc5DisabledEnemy",
@@ -22066,12 +22066,89 @@
         "Hp_Base": 3985,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc6DisabledEnemy",
                 "SkillTitle": "Finesse Up",
                 "SkillDescription": "10% reduction to TU costs and reduces damage from enemy attacks by 10% as long as an enemy unit has their Active Skills disabled."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "KeyClockStaff01": {
+        "Name": "Wonderclock",
+        "FullName": "Wonderclock",
+        "Family": "KeyClockStaff",
+        "Profile": "A giant clockwork key that contains the flow of time itself within Wonderland. With every revolution of its hands, the world grows a little lonelier.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Staff",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp4AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU Cost Down",
+                "SkillDescription": "6% reduction to TU costs if there are 4 or more units with the Sleep or Burn status effect."
+            }
+        ]
+    },
+    "KeyClockStaff02": {
+        "Name": "Wonderclock",
+        "FullName": "Wonderclock",
+        "Family": "KeyClockStaff",
+        "Profile": "A giant clockwork key that contains the flow of time itself within Wonderland. With every revolution of its hands, the world grows a little lonelier.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Staff",
+        "Cost": 17,
+        "Atk_Base": 550,
+        "Hp_Base": 3750,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp5AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU Cost Down",
+                "SkillDescription": "8% reduction to TU costs if there are 4 or more units with the Sleep or Burn status effect."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "KeyClockStaff03": {
+        "Name": "Wonderclock",
+        "FullName": "Wonderclock",
+        "Family": "KeyClockStaff",
+        "Profile": "A giant clockwork key that contains the flow of time itself within Wonderland. With every revolution of its hands, the world grows a little lonelier.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "Staff",
+        "Cost": 23,
+        "Atk_Base": 581,
+        "Hp_Base": 4095,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp6AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU Cost Down",
+                "SkillDescription": "10% reduction to TU costs if there are 4 or more units with the Sleep or Burn status effect."
             }
         ],
         "ExtraEvoInitialCount": 2

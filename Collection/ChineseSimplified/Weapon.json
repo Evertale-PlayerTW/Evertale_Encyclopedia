@@ -22015,7 +22015,7 @@
         "Hp_Base": 3055,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc4DisabledEnemy",
@@ -22040,7 +22040,7 @@
         "Hp_Base": 3695,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc5DisabledEnemy",
@@ -22066,12 +22066,89 @@
         "Hp_Base": 3985,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUpDamageReduc6DisabledEnemy",
                 "SkillTitle": "灵巧提升",
                 "SkillDescription": "若场上存在主动技能被封锁的敌方单位，则此单位所有技能的TU减少10%且受到敌方攻击的伤害减少10%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "KeyClockStaff01": {
+        "Name": "仙境时钟",
+        "FullName": "仙境时钟",
+        "Family": "KeyClockStaff",
+        "Profile": "封存着仙境时光的巨大钟表机关钥匙。每当指针转过一圈，世界便会变得稍微寂寞一些。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "法杖",
+        "Cost": 11,
+        "Atk_Base": 456,
+        "Hp_Base": 3095,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp4AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU减少",
+                "SkillDescription": "若场上处于睡眠或燃烧状态的单位有至少4个，则此单位所有技能的TU减少6%。"
+            }
+        ]
+    },
+    "KeyClockStaff02": {
+        "Name": "仙境时钟",
+        "FullName": "仙境时钟",
+        "Family": "KeyClockStaff",
+        "Profile": "封存着仙境时光的巨大钟表机关钥匙。每当指针转过一圈，世界便会变得稍微寂寞一些。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "法杖",
+        "Cost": 17,
+        "Atk_Base": 550,
+        "Hp_Base": 3750,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp5AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU减少",
+                "SkillDescription": "若场上处于睡眠或燃烧状态的单位有至少4个，则此单位所有技能的TU减少8%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "KeyClockStaff03": {
+        "Name": "仙境时钟",
+        "FullName": "仙境时钟",
+        "Family": "KeyClockStaff",
+        "Profile": "封存着仙境时光的巨大钟表机关钥匙。每当指针转过一圈，世界便会变得稍微寂寞一些。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Staff",
+        "WeaponType": "法杖",
+        "Cost": 23,
+        "Atk_Base": 581,
+        "Hp_Base": 4095,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "HasteUp6AtLeast2BurningOrSleepingInBattle",
+                "SkillTitle": "TU减少",
+                "SkillDescription": "若场上处于睡眠或燃烧状态的单位有至少4个，则此单位所有技能的TU减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2
