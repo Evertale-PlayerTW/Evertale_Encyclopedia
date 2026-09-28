@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1789621903,
+	"Time": 1790570752,
 	"Buff": {
 	"RelationshipFlatAttack50": {
 		"class": "Buff",
@@ -91939,10 +91939,9 @@
 			"stackName": "StakeInHandPassiveVanHelsingRegular",
 			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["KnockbackImmunity","Active3LOCKVanHelsingRegularBoss","Active4LOCKVanHelsingRegularBoss"]
+				"selfBuffs": ["KnockbackImmunity","Active3LOCKVanHelsingRegularBoss","Active4LOCKVanHelsingRegularBoss","ImmunityFromSleepVanHelsingRegular","ImmunityFromPoisonVanHelsingRegular","StunImmunityVanHelsingRegular"]
 			},{
-				"randomAllyBuffs": ["ImmunityFromSleepUntilNextTurn","ImmunityFromPoisonUntilFirstTurn","StunImmunityUntilNextTurnGenericTitle"],
-				"numRandomToBuff": 4
+				"allAlliesButSelfBuffs": ["ImmunityFromSleepUntilNextTurn","ImmunityFromPoisonUntilFirstTurn","StunImmunityUntilNextTurnGenericTitle"]
 			},{
 				"randomEnemyBuffs": ["MarkedEnemyVanHelsingRegularBoss"],
 				"numRandomToBuff": 4,
@@ -92033,7 +92032,7 @@
 			"behaviorOverrides": [{
 				"selfBuffs": ["HoldGroundBoss","BrideHealFor100TUVanHelsingRegularBoss","Charged1Icon","Charged2Icon","Charged3Icon"]
 			},{
-				"selfBuffs": ["PoisonImmunityFor50TU","SleepImmunityFor50TU","StunImmunityFor50TU","VanHelsingRegularBossFirstTurnLock"],
+				"selfBuffs": ["RemoveImmunitiesFromVanHelsingRegular","PoisonImmunityFor50TU","SleepImmunityFor50TU","StunImmunityFor50TU","VanHelsingRegularBossFirstTurnLock"],
 				"spreadCondition": "IsNotVanHelsingRegularFirstTurnLock"
 			},{
 				"percent": 0.65,
@@ -92797,10 +92796,9 @@
 			"stackName": "StakeInHandPassiveVanHelsingRegular",
 			"behaviors": ["EnterBattleBuff","EnterBattleBuff","BuffOnMonsterTurn","BuffOnMonsterTurn","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie","BuffWhenMonstersDie"],
 			"behaviorOverrides": [{
-				"selfBuffs": ["KnockbackImmunity","Active3LOCKVanHelsingRegular","Active4LOCKVanHelsingRegular"]
+				"selfBuffs": ["KnockbackImmunity","Active3LOCKVanHelsingRegular","Active4LOCKVanHelsingRegular","ImmunityFromSleepVanHelsingRegular","ImmunityFromPoisonVanHelsingRegular","StunImmunityVanHelsingRegular"]
 			},{
-				"randomAllyBuffs": ["ImmunityFromSleepUntilNextTurn","ImmunityFromPoisonUntilFirstTurn","StunImmunityUntilNextTurnGenericTitle"],
-				"numRandomToBuff": 4
+				"allAlliesButSelfBuffs": ["ImmunityFromSleepUntilNextTurn","ImmunityFromPoisonUntilFirstTurn","StunImmunityUntilNextTurnGenericTitle"]
 			},{
 				"randomEnemyBuffs": ["MarkedEnemyVanHelsingRegular"],
 				"numRandomToBuff": 4,
@@ -92833,6 +92831,59 @@
 			"showAsPermanent": false,
 			"isHiddenFromPlayers": true,
 			"duration": -1
+		},
+		"ImmunityFromSleepVanHelsingRegular":{
+			"class": "Buff",
+			"stackName": "ImmunityFromSleepVanHelsingRegular",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Sleep"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"tags": ["SleepImmune"],
+			"iconSpriteName": "IconRedSleepInvalidZs01"
+		},
+		"ImmunityFromPoisonVanHelsingRegular":{
+			"class": "Buff",
+			"stackName": "ImmunityFromPoisonVanHelsingRegular",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Poison"]
+			}],
+			"showAsPermanent": false,
+			"showAsTimer": true,
+			"duration": -1,
+			"tags": ["PoisonImmune"],
+			"iconSpriteName": "IconRedPoisonInvalid01"
+		},
+		"StunImmunityVanHelsingRegular": {
+			"class": "Buff",
+			"stackName": "StunImmunityVanHelsingRegular",
+			"behaviors": ["Immunity"],
+			"behaviorOverrides": [{
+				"stackNamesToBlock": ["Stun","StunNoAbsorb"]
+			}],
+			"iconSpriteName": "IconRedStunInvalidLightning01",
+			"tags": ["StunImmuneTemp"],
+			"duration": -1,
+			"showAsTimer": true,
+			"showAsPermanent": false
+		},
+		"RemoveImmunitiesFromVanHelsingRegular": {
+			"class": "Buff",
+			"behaviors": ["RemoveBuffs","RemoveBuffs","RemoveBuffs"],
+			"behaviorOverrides": [{
+				"name": "ImmunityFromSleepVanHelsingRegular"
+			},{
+				"name": "ImmunityFromPoisonVanHelsingRegular"
+			},{
+				"name": "StunImmunityVanHelsingRegular"
+			}],
+			"duration": 0,
+			"showAsTimer": false,
+			"isHiddenFromPlayers": true
 		},
 		"MarkedEnemyVanHelsingRegular":{
 			"class": "Buff",
@@ -92891,7 +92942,7 @@
 			"behaviorOverrides": [{
 				"selfBuffs": ["HoldGround","InstantKillImmunityOnce","BrideHealFor100TUVanHelsingRegular","Charged1Icon","Charged2Icon","Charged3Icon"]
 			},{
-				"selfBuffs": ["PoisonImmunityFor50TU","SleepImmunityFor50TU","StunImmunityFor50TU","VanHelsingRegularFirstTurnLock"],
+				"selfBuffs": ["RemoveImmunitiesFromVanHelsingRegular","PoisonImmunityFor50TU","SleepImmunityFor50TU","StunImmunityFor50TU","VanHelsingRegularFirstTurnLock"],
 				"spreadCondition": "IsNotVanHelsingRegularFirstTurnLock"
 			},{
 				"percent": 0.65,
@@ -93967,7 +94018,7 @@
             "showAsTimer": false,
             "isHiddenFromPlayers": true
         },    
-		"HasteUp4AtLeast2BurningOrSleepingInBattle": {
+		"HasteUp4AtLeast4BurningOrSleepingInBattle": {
 			"class": "Buff",
 			"behaviors": ["StatOnly"],
 			"behaviorOverrides": [{
@@ -93982,7 +94033,7 @@
 			"iconSpriteName": "IconBrownSpeedUpClock01",
 			"isWeaponBuff": true
 		},
-		"HasteUp5AtLeast2BurningOrSleepingInBattle": {
+		"HasteUp5AtLeast4BurningOrSleepingInBattle": {
 			"class": "Buff",
 			"behaviors": ["StatOnly"],
 			"behaviorOverrides": [{
@@ -93997,7 +94048,7 @@
 			"iconSpriteName": "IconBrownSpeedUpClock01",
 			"isWeaponBuff": true
 		},
-		"HasteUp6AtLeast2BurningOrSleepingInBattle": {
+		"HasteUp6AtLeast4BurningOrSleepingInBattle": {
 			"class": "Buff",
 			"behaviors": ["StatOnly"],
 			"behaviorOverrides": [{
