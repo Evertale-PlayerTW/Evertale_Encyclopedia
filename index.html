@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+Symbols:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+Symbols:wght@100..900&family=Noto+Sans+Math&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
 		rel="stylesheet">
 	<title data-i18n="SiteTitle">Evertale Encyclopedia</title>
 	<style>
@@ -36,28 +36,28 @@
 		:lang(de),
 		:lang(it),
 		:lang(es) {
-			font-family: "Noto Sans", "Noto Sans Symbols", sans-serif;
+			font-family: "Noto Sans", "Noto Sans Symbols", "Noto Sans Math", sans-serif;
 		}
 
 		:lang(zh-Hant),
 		:lang(zh-TW),
 		:lang(zh-HK),
 		:lang(zh-MO) {
-			font-family: "Noto Sans TC", "Noto Sans SC", "Noto Sans Symbols", sans-serif;
+			font-family: "Noto Sans TC", "Noto Sans SC", "Noto Sans Symbols", "Noto Sans Math", sans-serif;
 		}
 
 		:lang(zh-Hans),
 		:lang(zh-CN),
 		:lang(zh-SG) {
-			font-family: "Noto Sans SC", "Noto Sans TC", "Noto Sans Symbols", sans-serif;
+			font-family: "Noto Sans SC", "Noto Sans TC", "Noto Sans Symbols", "Noto Sans Math", sans-serif;
 		}
 
 		:lang(ja) {
-			font-family: "Noto Sans JP", "Noto Sans Symbols", sans-serif;
+			font-family: "Noto Sans JP", "Noto Sans Symbols", "Noto Sans Math", sans-serif;
 		}
 
 		:lang(ko) {
-			font-family: "Noto Sans KR", "Noto Sans Symbols", sans-serif;
+			font-family: "Noto Sans KR", "Noto Sans Symbols", "Noto Sans Math", sans-serif;
 		}
 
 		a {
@@ -552,8 +552,10 @@
 			border: 1px solid black;
 			align-self: center;
 			font-size: 0.8em;
+			/* line-height: 1em; */
 			padding: 1px 3px;
 			background: white;
+			font-weight: bold;
 		}
 
 		#siteSetting {
@@ -1295,7 +1297,7 @@
 			</select>
 			<label id="reverseToggleButton">
 				<input type="checkbox" id="reverseToggle" onchange="reverseOptions()" value="false" />
-				<span data-i18n="Reverse"></span>
+				<span>⥯</span>
 			</label>
 			<button id="openSortableList" onclick="setSortableList()">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="1.25rem" width="1.25rem"
@@ -1985,6 +1987,7 @@
 				targetSelect.appendChild(option);
 			}
 
+			if (localStorage.getItem("cacheListReversed") === "true") document.getElementById("reverseToggle").checked = true;
 			if (document.getElementById("reverseToggle").checked) reverseOptions();
 			targetSelect.selectedIndex = 0;
 
@@ -2107,6 +2110,7 @@
 			selectableTarget.innerHTML = initSelectOptionContent;
 			newOptions.forEach((option) => selectableTarget.appendChild(option));
 			selectableTarget.selectedIndex = 0;
+			localStorage.setItem("cacheListReversed", document.getElementById("reverseToggle").checked);
 		}
 
 		function toggleAllCheckboxes(toggleElement) {
