@@ -22092,7 +22092,7 @@
         "Hp_Base": 3095,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp4AtLeast4BurningOrSleepingInBattle",
@@ -22117,7 +22117,7 @@
         "Hp_Base": 3750,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp5AtLeast4BurningOrSleepingInBattle",
@@ -22143,12 +22143,89 @@
         "Hp_Base": 4095,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp6AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "TU Cost Down",
                 "SkillDescription": "10% reduction to TU costs if there are 4 or more units with the Sleep or Burn status effect."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ChessHeartsGreatAxe01": {
+        "Name": "Carol of Hearts",
+        "FullName": "Carol of Hearts",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Does the swing of this axe herald a song of absolution or a scream of condemnation? Only the queen knows.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "Greataxe",
+        "Cost": 11,
+        "Atk_Base": 522,
+        "Hp_Base": 2765,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4TargetIsBurning",
+                "SkillTitle": "Attack Up",
+                "SkillDescription": "7% bonus to attacks against burning units."
+            }
+        ]
+    },
+    "ChessHeartsGreatAxe02": {
+        "Name": "Carol of Hearts",
+        "FullName": "Carol of Hearts",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Does the swing of this axe herald a song of absolution or a scream of condemnation? Only the queen knows.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "Greataxe",
+        "Cost": 17,
+        "Atk_Base": 634,
+        "Hp_Base": 3330,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5TargetIsBurning",
+                "SkillTitle": "Attack Up",
+                "SkillDescription": "10% bonus to attacks against burning units."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ChessHeartsGreatAxe03": {
+        "Name": "Carol of Hearts",
+        "FullName": "Carol of Hearts",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Does the swing of this axe herald a song of absolution or a scream of condemnation? Only the queen knows.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "Greataxe",
+        "Cost": 23,
+        "Atk_Base": 685,
+        "Hp_Base": 3575,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6TargetIsBurning",
+                "SkillTitle": "Attack Up",
+                "SkillDescription": "15% bonus to attacks against burning units."
             }
         ],
         "ExtraEvoInitialCount": 2

@@ -145551,7 +145551,7 @@
         "Hp_Base": 5785,
         "Speed": 534,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Welcome. This is where my story began.",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Water",
@@ -145913,5 +145913,348 @@
                 "RelationshipBuff": "ATK+2%"
             }
         }
+    },
+    "QueenHeartsRegular01": {
+        "Name": "The Queen of Hearts",
+        "Name2": "Crimson Arbiter",
+        "FullName": "The Queen of Hearts - Crimson Arbiter",
+        "Family": "QueenHeartsRegular",
+        "Profile": "She is the beautiful yet terrifying queen who reigns over her dream world from the Castle of Hearts.\nReason and morality has no place in her court. Guilt, punishment, and even the law itself are decided by her word alone. None dare defy her as she delivers her absurd decrees with an elegant smile.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greataxe",
+        "forFilter_Element": "Fire",
+        "Element": "Fire",
+        "Cost": 28,
+        "Atk_Base": 1126,
+        "Hp_Base": 5580,
+        "Speed": 490,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Let the trial begin. But first, some tea.",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Fire HP Up",
+            "SkillDescription": "Allied Fire element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Quick Tempered",
+                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Seize Them",
+                "SkillDescription": "Each burning enemy on the battlefield has a 20% chance plus 20% per Awakening of the user (up to 100% chance if the user has 4 Awakenings) to have its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU, and any enemy effects that are currently disabling their Active Skills end.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 5 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "A Strong Hand",
+                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, Poison Ward and an Instant Death Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Crimson Arbiter",
+                "SkillDescription": "When this unit enters battle, all Fire and Water element allies are Fortified.\n\nThis unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, and ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nThis unit has 80% damage reduction from attacks if all enemies on the battlefield are sleeping or burning.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Off With Their Heads",
+                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects. Whenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with an Instant Death Ward, and Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nEach time an ally gets the turn while Burning, they will heal for 20% of their own max HP and then allies will gain 1 Spirit after that turn so long as this unit remains on the battlefield.\n\nWhile this unit is on the battlefield, whenever a Fire or Water element unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Dark Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Dark units."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Did you just call me the Queen of Hearts?\nHow dare you. You will address me  as \"Your Majesty, the Queen of Hearts.\" \nBut enough dallying, make haste and carry out my wishes―or the verdict will be \"guilty, guilty, guilty!\""
+            ],
+            "Login": [
+                "How dare you keep me waiting? Guilty, guilty, guilty! No...not just guilty...ultra-guilty!"
+            ],
+            "Tap": [
+                "You are offering some first-class tea as tribute...? Very well, I shall forgive your prior impudence. Let us immediately have a taste of this tea together.",
+                "I have no interest or concern for this world you live in. So do not bore me with drivel about it. If you try...the verdict will of course be \"guilty!\"",
+                "How dare you look down on me as if I was a small child! I am indeed small in stature, but nevertheless I am a proper and respected queen!"
+            ],
+            "Idle": [
+                "Oh my, being a queen is so much work... Perhaps I should just abandon all this and hide somewhere... Yes, some place safe and comfortable for a nap..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Quick Tempered": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Seize Them": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "A Strong Hand": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegular02": {
+        "Name": "The Queen of Hearts",
+        "Name2": "Crimson Arbiter",
+        "FullName": "The Queen of Hearts - Crimson Arbiter",
+        "Family": "QueenHeartsRegular",
+        "Profile": "The Queen of Hearts is rather particular when it comes to preparing for a tea party.\nEverything must be just right—the temperature of the tea, the arrangement of the candies, the aroma of pomegranate pastries. She claims it is all to guarantee the delight of her guests, yet at times, her gaze makes it seem as though she is waiting for someone who is no longer there.",
+        "Profile_Ascended": "\"A gentle lie is better than a cruel reality.\"\n\nFor the longest time, that was the one thing the Queen believed in. No matter how many times she rewound the world or stained her hands with crimson, she believed that her wish to protect would never falter. But in the end, she learned that love means not only holding someone close, but also knowing when to let them go.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Greataxe",
+        "forFilter_Element": "Fire",
+        "Element": "Fire",
+        "Cost": 34,
+        "Atk_Base": 1368,
+        "Hp_Base": 7580,
+        "Speed": 490,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Fire HP Up",
+            "SkillDescription": "Allied Fire element units have their max HP increased by 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Quick Tempered",
+                "SkillDescription": "1000% damage to 1 enemy. Minus 200% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -800% if there are 4 enemies that are not sleeping and not burning).\n\nThen all allies are granted the Burn status effect. Burn will overwrite other status effects on those units. Any unit that deals damage to or is dealt damage by a unit with burn will also become burned.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Seize Them",
+                "SkillDescription": "Each burning enemy on the battlefield has a 20% chance plus 20% per Awakening of the user (up to 100% chance if the user has 4 Awakenings) to have its Active Skills disabled for 30TU.\n\nThen all other burning allies on the battlefield have their current TU reduced by 50TU, and any enemy effects that are currently disabling their Active Skills end.\n\nUsable only if there are at least 4 units with the Burn status effect. This skill becomes locked for 50TU after use. Usable 5 times per battle. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if the user is defeated.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "A Strong Hand",
+                "SkillDescription": "Allies gain 1 Spirit for each unit on the battlefield that is burning or sleeping.\n\nRemoves Poison (including Lethal Poison) from all allies on the battlefield. Then all allies on the battlefield are granted Piercing, a Stun Ward, Poison Ward and an Instant Death Ward.\n\nUnlocked each time the user uses Quick Tempered or Bloody Hearts, and is locked again after each use or if the user leaves the battlefield.\n\nA unit with Piercing will have their Attacks ignore enemy damage reduction effects until the end of their next turn. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack. An Instant Death Ward prevents a unit from being immediately defeated without damage by a non-boss enemy once, then is removed. Instant Death Wards cannot be ignored and cannot stack.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiAttackAQueenHeartsRegular",
+                "SkillTitle": "Bloody Hearts",
+                "SkillDescription": "1000% damage to 2 enemies. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores skin passive skills and the Counter Stance status effect. Damage from this attack does not wake up sleeping enemies.\n\nUsable only if the user has the Burn status effect. If this skill is used 3 times within 10TU, it becomes locked for 50TU.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Crimson Arbiter",
+                "SkillDescription": "When this unit enters battle, all Fire and Water element allies are Fortified.\n\nThis unit cannot be sent to the reinforcements from the battlefield. If this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit's attacks heal this unit for 100% of total damage dealt, and ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nThis unit has 80% damage reduction from attacks if all enemies on the battlefield are sleeping or burning.\n\nEach time this unit takes damage from an attack while burning or poisoned and survives until after the end of the turn with more than 1 HP, this unit will get the turn by having its TU reduced to 0 and become burned. This extra turn may be interrupted by other effects that influence the turn order (e.g. other stuns targeting the lowest TU target). This TU reduction may trigger before or after other effects that adjust the turn order. This is not considered a Counter Skin type effect.\n\nA Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Off With Their Heads",
+                "SkillDescription": "This unit cannot be defeated by damage from Burn status effects. Whenever this unit gets the turn, if this unit's Active Skills are not disabled, this unit can't have its Active Skills disabled until the end of its turn.\n\nWhen this unit defeats a non-conjured enemy with an attack, all other allies on the battlefield will be given the next turns by reducing their current TU. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nThis unit enters battle with an Instant Death Ward, and Mega Healing Burn for 100TU. Then all allies on the battlefield are granted Poison Wards, and Stun Wards.\n\nEach time an ally gets the turn while Burning, they will heal for 20% of their own max HP and then allies will gain 1 Spirit after that turn so long as this unit remains on the battlefield.\n\nWhile this unit is on the battlefield, whenever a Fire or Water element unit on the battlefield is defeated or sacrificed by any source, so long as this unit is not defeated or sacrificed at the same time, all allies on the battlefield are Purified (removes negative status effects like sleep, burn or poison), and then burned.\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP Up Lv3",
+                "SkillDescription": "Adds 1200 to this unit's max HP."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attack Up Lv3",
+                "SkillDescription": "Adds 300 to this unit's Attack."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Dark Resist Lv3",
+                "SkillDescription": "10% less damage from attacks by Dark units."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Greatsword Mastery",
+                "SkillDescription": "Can use weapon skills of Greatswords in addition to their original preferred weapon type."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Greatsword"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Did you just call me the Queen of Hearts?\nHow dare you. You will address me  as \"Your Majesty, the Queen of Hearts.\" \nBut enough dallying, make haste and carry out my wishes―or the verdict will be \"guilty, guilty, guilty!\""
+            ],
+            "Login": [
+                "How dare you keep me waiting? Guilty, guilty, guilty! No...not just guilty...ultra-guilty!"
+            ],
+            "Tap": [
+                "You are offering some first-class tea as tribute...? Very well, I shall forgive your prior impudence. Let us immediately have a taste of this tea together.",
+                "I have no interest or concern for this world you live in. So do not bore me with drivel about it. If you try...the verdict will of course be \"guilty!\"",
+                "How dare you look down on me as if I was a small child! I am indeed small in stature, but nevertheless I am a proper and respected queen!"
+            ],
+            "Idle": [
+                "Oh my, being a queen is so much work... Perhaps I should just abandon all this and hide somewhere... Yes, some place safe and comfortable for a nap..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Quick Tempered": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Seize Them": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "A Strong Hand": {
+                    "BaseWeight": 500
+                },
+                "Bloody Hearts": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

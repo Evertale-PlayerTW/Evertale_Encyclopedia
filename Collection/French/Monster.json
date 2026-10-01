@@ -145551,7 +145551,7 @@
         "Hp_Base": 5785,
         "Speed": 534,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Bienvenue. Ceci est l'endroit où commence mon histoire.",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Water",
@@ -145913,5 +145913,348 @@
                 "RelationshipBuff": "ATQ+2%"
             }
         }
+    },
+    "QueenHeartsRegular01": {
+        "Name": "Reine des Coeurs",
+        "Name2": "Juge Pourpre",
+        "FullName": "Reine des Coeurs - Juge Pourpre",
+        "Family": "QueenHeartsRegular",
+        "Profile": "C'est la belle et effroyable reine qui règne sur son monde des rêves depuis le Château des Coeurs.\nRaison et moralité n'ont pas leurs places au sein de sa court. Culpabilité, châtiment et même la loi sont décidés par sa parole seule. Personne n'ose la défier alors qu'elle prononce ses décrets absurdes avec un élégant sourire.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G.Hache",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 28,
+        "Atk_Base": 1126,
+        "Hp_Base": 5580,
+        "Speed": 490,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Que le procès commence. Mais d'abord, du thé.",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Feu PV+",
+            "SkillDescription": "Les alliés Feu voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Colérique",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. 200% moins de dégâts par ennemi non-endormi et non-brûlé du champ de bataille (maximum de 800% en moins s'il y a 4 ennemis non-endormis et non-brûlés).\n\nPuis tous les alliés gagnent l'effet de statut de Brûlure. La Brûlure remplacera les autres effets de statut sur ces unités. Toute unité qui inflige des dégâts à une unité brûlée ou en subit des dégâts sera également brûlée.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Saisissez-Les",
+                "SkillDescription": "Chaque ennemi brûlé du champ de bataille a 20% de chance et 20% de plus par Éveils que l'utilisateur possède (jusqu'à 100% de chance si l'utilisateur possède 4 Éveils) que ses Compétences Actives soient désactivées pendant 30TU.\n\nPuis les TU actuels de tous les autres alliés brûlés du champ de bataille sont réduits de 50TU, et tout effet ennemi désactivant actuellement leur Compétences Actives prend fin.\n\nUtilisable seulement s'il y a au moins 4 unités possédant l'effet de statut de Brûlure. Cette compétence se verrouille pendant 50TU après son utilisation. Utilisable 5 fois par bataille. Lorsque les Compétences Actives d'une unité sont désactivées et qu'elle prend son tour, elle perdra ce tour comme si elle était endormie. Cet effet ne peut affecter les unités boss, ne peut être purifié et prendra fin si l'utilisateur est vaincu.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Une Main Forte",
+                "SkillDescription": "Les Alliés gagnent 1 Essence par unité brûlée ou endormie du champ de bataille.\n\nRetire le Poison (y compris le Poison Létal) de tous les alliés du champ de bataille. Puis tous les alliés du champ de bataille gagnent Perçage, une Protection Étourdissement, une Protection Poison et une Protection Mort Instantanée.\n\nDéverrouillé à chaque fois que le lanceur utilise Colérique ou Coeurs Sanglants, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nLes effets de réduction de dégâts ennemis seront ignorés par les Attaques d'une unité avec Perçage jusqu'à la fin de son prochain tour. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Juge Pourpre",
+                "SkillDescription": "Tous les alliés d'éléments Feu et Eau sont Fortifiés lorsque cette unité entre en bataille.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille. Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nLes Attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nCette unité bénéficie d'une réduction de 80% des dégâts provenant d'attaques si tous les ennemis du champ de bataille sont endormis ou brûlés.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaques lorsqu'elle est brûlée ou empoisonnée et survit jusqu'après la fin du tour avec plus de 1PV, elle prendra son tour en réduisant ses TU actuels à 0 et deviendra Brûlée. Ce tour supplémentaire peut être interrompu par d'autres effets influençant l'ordre des tours (p.ex. les autres étourdissements ciblant l'unité aux TU les plus bas). Cette réduction de TU peut être déclenchée avant ou après d'autres effets ajustant l'ordre des tours. Ceci n'est pas considéré comme étant un effet de type Contre Reflet.\n\nUne unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Coupez Leurs Têtes",
+                "SkillDescription": "Cette unité ne peut être vaincue par les dégâts d'effet de statut de Brûlure. Les Compétences Actives de cette unité ne peuvent être désactivées jusqu'à la fin du tour à chaque fois qu'elle prend son tour et si ses Compétences Actives ne sont pas déjà désactivées.\n\nLorsque cette unité vainc un ennemi non-invoqué par attaque, tous les autres alliés du champ de bataille prendront les prochains tours en réduisant leurs TU actuels. Ce tour supplémentaire peut être interrompu par les effets influençant l'ordre des tours (p.ex. les Étourdissements ciblant l'unité aux TU les plus bas).\n\nCette unité entre sur le champ de bataille avec une Protection Mort Instantanée et la Méga Brûlure Soin pendant 100TU. Puis tous les alliés du champ de bataille gagnent des Protections Poison et des Protections Étourdissements.\n\nChaque fois qu'un allié prend son tour tout en étant Brûlé, il sera soigné de 20% de ses PV max puis les alliés gagneront 1 Essence après ce tour, tant que cette unité reste sur le champ de bataille.\n\nLorsque cette unité est sur le champ de bataille, tous les alliés du champ de bataille sont Purifiés (retire les effets de statut négatifs comme le Sommeil, la Brûlure ou le Poison) puis brûlés, à chaque fois qu'une unité d'élément Feu ou Eau du champ de bataille est vaincue ou sacrifiée par une source quelconque, tant que le lanceur n'est pas vaincu ou sacrifié en même temps.\n\nUne unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera les autres effets de statut y compris la Brûlure Soin, et ne peut être remplacé par les effets de statut de Brûlure, Poison ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Résist. Obscur. LV3",
+                "SkillDescription": "10% de dégâts en moins venant des attaques d'unités de type Obscurité."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Viens-tu de m'appeler la Reine des Coeurs ?\nComment oses-tu ? Tu m'appelleras comme ça : « Votre Majesté, la Reine des Coeurs. »\nMais cessons de nous attarder. Dépêchez-vous et exécutez mes souhaits––Ou le verdict sera : « Coupable, coupable, coupable ! »"
+            ],
+            "Login": [
+                "Comment oses-tu me faire attendre ? Coupable, coupable, coupable ! Non... Pas seulement coupable... Ultra-coupable !"
+            ],
+            "Tap": [
+                "Tu offres du thé de première classe en tant que tribut...? Très bien. Je vais te pardonner pour ton insolence. Goûtons-donc immédiatement ce thé ensemble.",
+                "Ce monde dans lequel tu vis ne m'intéresse pas et ne m'inquiète pas non plus. Donc ne viens pas m'ennuyer avec du radotage. Si tu tentes de faire ça... Le verdict sera bien sûr : « Coupable ! »",
+                "Comment oses-tu me regarder de haut comme si j'étais une enfant ! Je suis en effet de petite taille, mais néanmoins, je suis une vraie reine respectée !"
+            ],
+            "Idle": [
+                "Oh là là, être une reine nécessite tellement de travail... Peut-être que je devrais simplement abandonner tout ça et me cacher quelque part... Oui, quelque part en sécurité et assez confortable pour une sieste..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Colérique": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Saisissez-Les": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Une Main Forte": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegular02": {
+        "Name": "Reine des Coeurs",
+        "Name2": "Juge Pourpre",
+        "FullName": "Reine des Coeurs - Juge Pourpre",
+        "Family": "QueenHeartsRegular",
+        "Profile": "La Reine des Coeurs est plutôt particulière s'agit de se préparer pour une dînette.\nTout doit être exactement juste––La température du thé, l'arrangement des bonbons, les arômes des pâtisseries de grenade. Elle revendique que c'est tout pour garantir le plaisir de ses invités; Pourtant, de temps en temps, son regard lui donne l'air d'attendre quelqu'un qui n'est plus là.",
+        "Profile_Ascended": "« Un doux mensonge est mieux qu'une cruelle réalité. »\n\nCeci était ce en quoi la Reine croyait pendant si longtemps. Peu importe le nombre de fois qu'elle avait remonté le temps de ce monde ou taché ses mains de sang, elle pensait que sa volonté de protéger ne vacillerait jamais. Mais à la fin, elle apprit que l'amour signifiait en fait de non-seulement tenir quelqu'un à coeur, mais aussi de savoir quand est-ce qu'il faut le laisser partir.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G.Hache",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 34,
+        "Atk_Base": 1368,
+        "Hp_Base": 7580,
+        "Speed": 490,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Feu PV+",
+            "SkillDescription": "Les alliés Feu voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Colérique",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. 200% moins de dégâts par ennemi non-endormi et non-brûlé du champ de bataille (maximum de 800% en moins s'il y a 4 ennemis non-endormis et non-brûlés).\n\nPuis tous les alliés gagnent l'effet de statut de Brûlure. La Brûlure remplacera les autres effets de statut sur ces unités. Toute unité qui inflige des dégâts à une unité brûlée ou en subit des dégâts sera également brûlée.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Saisissez-Les",
+                "SkillDescription": "Chaque ennemi brûlé du champ de bataille a 20% de chance et 20% de plus par Éveils que l'utilisateur possède (jusqu'à 100% de chance si l'utilisateur possède 4 Éveils) que ses Compétences Actives soient désactivées pendant 30TU.\n\nPuis les TU actuels de tous les autres alliés brûlés du champ de bataille sont réduits de 50TU, et tout effet ennemi désactivant actuellement leur Compétences Actives prend fin.\n\nUtilisable seulement s'il y a au moins 4 unités possédant l'effet de statut de Brûlure. Cette compétence se verrouille pendant 50TU après son utilisation. Utilisable 5 fois par bataille. Lorsque les Compétences Actives d'une unité sont désactivées et qu'elle prend son tour, elle perdra ce tour comme si elle était endormie. Cet effet ne peut affecter les unités boss, ne peut être purifié et prendra fin si l'utilisateur est vaincu.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Une Main Forte",
+                "SkillDescription": "Les Alliés gagnent 1 Essence par unité brûlée ou endormie du champ de bataille.\n\nRetire le Poison (y compris le Poison Létal) de tous les alliés du champ de bataille. Puis tous les alliés du champ de bataille gagnent Perçage, une Protection Étourdissement, une Protection Poison et une Protection Mort Instantanée.\n\nDéverrouillé à chaque fois que le lanceur utilise Colérique ou Coeurs Sanglants, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nLes effets de réduction de dégâts ennemis seront ignorés par les Attaques d'une unité avec Perçage jusqu'à la fin de son prochain tour. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées. Une Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiAttackAQueenHeartsRegular",
+                "SkillTitle": "Coeurs Sanglants",
+                "SkillDescription": "1000% de dégâts à 2 ennemis. 150% moins de dégâts par ennemi non-endormi et non-brûlé du champ de bataille (maximum de 600% en moins s'il y a 4 ennemis non-endormis et non-brûlés). Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais. Les dégâts provenant de cette attaque ne réveilleront pas les ennemis endormis.\n\nUtilisable seulement si le lanceur possède l'effet de statut de Brûlure. Cette compétence se verrouille pendant 50TU si elle est utilisée 3 fois en 50TU.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Juge Pourpre",
+                "SkillDescription": "Tous les alliés d'éléments Feu et Eau sont Fortifiés lorsque cette unité entre en bataille.\n\nCette unité ne peut être renvoyée vers les renforts depuis le champ de bataille. Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nLes Attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nCette unité bénéficie d'une réduction de 80% des dégâts provenant d'attaques si tous les ennemis du champ de bataille sont endormis ou brûlés.\n\nChaque fois que cette unité subit des dégâts provenant d'une attaques lorsqu'elle est brûlée ou empoisonnée et survit jusqu'après la fin du tour avec plus de 1PV, elle prendra son tour en réduisant ses TU actuels à 0 et deviendra Brûlée. Ce tour supplémentaire peut être interrompu par d'autres effets influençant l'ordre des tours (p.ex. les autres étourdissements ciblant l'unité aux TU les plus bas). Cette réduction de TU peut être déclenchée avant ou après d'autres effets ajustant l'ordre des tours. Ceci n'est pas considéré comme étant un effet de type Contre Reflet.\n\nUne unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Coupez Leurs Têtes",
+                "SkillDescription": "Cette unité ne peut être vaincue par les dégâts d'effet de statut de Brûlure. Les Compétences Actives de cette unité ne peuvent être désactivées jusqu'à la fin du tour à chaque fois qu'elle prend son tour et si ses Compétences Actives ne sont pas déjà désactivées.\n\nLorsque cette unité vainc un ennemi non-invoqué par attaque, tous les autres alliés du champ de bataille prendront les prochains tours en réduisant leurs TU actuels. Ce tour supplémentaire peut être interrompu par les effets influençant l'ordre des tours (p.ex. les Étourdissements ciblant l'unité aux TU les plus bas).\n\nCette unité entre sur le champ de bataille avec une Protection Mort Instantanée et la Méga Brûlure Soin pendant 100TU. Puis tous les alliés du champ de bataille gagnent des Protections Poison et des Protections Étourdissements.\n\nChaque fois qu'un allié prend son tour tout en étant Brûlé, il sera soigné de 20% de ses PV max puis les alliés gagneront 1 Essence après ce tour, tant que cette unité reste sur le champ de bataille.\n\nLorsque cette unité est sur le champ de bataille, tous les alliés du champ de bataille sont Purifiés (retire les effets de statut négatifs comme le Sommeil, la Brûlure ou le Poison) puis brûlés, à chaque fois qu'une unité d'élément Feu ou Eau du champ de bataille est vaincue ou sacrifiée par une source quelconque, tant que le lanceur n'est pas vaincu ou sacrifié en même temps.\n\nUne unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera les autres effets de statut y compris la Brûlure Soin, et ne peut être remplacé par les effets de statut de Brûlure, Poison ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Résist. Obscur. LV3",
+                "SkillDescription": "10% de dégâts en moins venant des attaques d'unités de type Obscurité."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Maîtrise G.Épée",
+                "SkillDescription": "Peut utiliser les talents d'arme des G.Épées en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Grande Épée"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Viens-tu de m'appeler la Reine des Coeurs ?\nComment oses-tu ? Tu m'appelleras comme ça : « Votre Majesté, la Reine des Coeurs. »\nMais cessons de nous attarder. Dépêchez-vous et exécutez mes souhaits––Ou le verdict sera : « Coupable, coupable, coupable ! »"
+            ],
+            "Login": [
+                "Comment oses-tu me faire attendre ? Coupable, coupable, coupable ! Non... Pas seulement coupable... Ultra-coupable !"
+            ],
+            "Tap": [
+                "Tu offres du thé de première classe en tant que tribut...? Très bien. Je vais te pardonner pour ton insolence. Goûtons-donc immédiatement ce thé ensemble.",
+                "Ce monde dans lequel tu vis ne m'intéresse pas et ne m'inquiète pas non plus. Donc ne viens pas m'ennuyer avec du radotage. Si tu tentes de faire ça... Le verdict sera bien sûr : « Coupable ! »",
+                "Comment oses-tu me regarder de haut comme si j'étais une enfant ! Je suis en effet de petite taille, mais néanmoins, je suis une vraie reine respectée !"
+            ],
+            "Idle": [
+                "Oh là là, être une reine nécessite tellement de travail... Peut-être que je devrais simplement abandonner tout ça et me cacher quelque part... Oui, quelque part en sécurité et assez confortable pour une sieste..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Colérique": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Saisissez-Les": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Une Main Forte": {
+                    "BaseWeight": 500
+                },
+                "Coeurs Sanglants": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

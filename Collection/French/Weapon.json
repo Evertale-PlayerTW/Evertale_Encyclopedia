@@ -22092,7 +22092,7 @@
         "Hp_Base": 3095,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp4AtLeast4BurningOrSleepingInBattle",
@@ -22117,7 +22117,7 @@
         "Hp_Base": 3750,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp5AtLeast4BurningOrSleepingInBattle",
@@ -22143,12 +22143,89 @@
         "Hp_Base": 4095,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp6AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "Coût TU Réduit",
                 "SkillDescription": "Réduction de 10% aux coûts de TU s'il y a 4 unités voire plus ayant l'effet de statut de Sommeil ou de Brûlure."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ChessHeartsGreatAxe01": {
+        "Name": "Choeur de Coeurs",
+        "FullName": "Choeur de Coeurs",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Le balancement de cette hache annonce-t-il une chanson d'absolution ou un cri de condamnation ? La reine seule le sait.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "G.Hache",
+        "Cost": 11,
+        "Atk_Base": 522,
+        "Hp_Base": 2765,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4TargetIsBurning",
+                "SkillTitle": "Attaque +",
+                "SkillDescription": "Bonus de 7% aux attaques contre les unités brûlées."
+            }
+        ]
+    },
+    "ChessHeartsGreatAxe02": {
+        "Name": "Choeur de Coeurs",
+        "FullName": "Choeur de Coeurs",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Le balancement de cette hache annonce-t-il une chanson d'absolution ou un cri de condamnation ? La reine seule le sait.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "G.Hache",
+        "Cost": 17,
+        "Atk_Base": 634,
+        "Hp_Base": 3330,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5TargetIsBurning",
+                "SkillTitle": "Attaque +",
+                "SkillDescription": "Bonus de 10% aux attaques contre les unités brûlées."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ChessHeartsGreatAxe03": {
+        "Name": "Choeur de Coeurs",
+        "FullName": "Choeur de Coeurs",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Le balancement de cette hache annonce-t-il une chanson d'absolution ou un cri de condamnation ? La reine seule le sait.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "G.Hache",
+        "Cost": 23,
+        "Atk_Base": 685,
+        "Hp_Base": 3575,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6TargetIsBurning",
+                "SkillTitle": "Attaque +",
+                "SkillDescription": "Bonus de 15% aux attaques contre les unités brûlées."
             }
         ],
         "ExtraEvoInitialCount": 2

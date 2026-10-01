@@ -145551,7 +145551,7 @@
         "Hp_Base": 5785,
         "Speed": 534,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Bienvenido. Aquí es donde comenzó mi historia.",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Water",
@@ -145913,5 +145913,348 @@
                 "RelationshipBuff": "ATQ+2%"
             }
         }
+    },
+    "QueenHeartsRegular01": {
+        "Name": "Reina de Corazones",
+        "Name2": "Árbitro Carmesí",
+        "FullName": "Reina de Corazones - Árbitro Carmesí",
+        "Family": "QueenHeartsRegular",
+        "Profile": "Ella es la bella pero aterradora reina que gobierna su mundo onírico desde el Castillo de los Corazones.\nLa razón y la moral no tienen cabida en su corte. La culpa, el castigo e incluso la ley misma se deciden únicamente por su palabra. Nadie se atreve a desafiarla mientras pronuncia sus absurdos decretos con una elegante sonrisa.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G. Hacha",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 28,
+        "Atk_Base": 1126,
+        "Hp_Base": 5580,
+        "Speed": 490,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Que comience el juicio. Pero primero, el té.",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Sube HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Carácter Irascible",
+                "SkillDescription": "1000% de daño a un enemigo. Menos 200% de daño por cada enemigo en el campo de batalla que no esté durmiendo ni quemados (máximo de -800% si hay cuatro enemigos que no estén durmiendo ni quemados).\n\nLuego, todos los aliados obtienen el efecto de estado Quemado. Quemado sobrescribirá otros efectos de estado en esas unidades. Cualquier unidad que inflija daño a una unidad con Quemado o que reciba daño de ella también se quemará.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "¡Reténganlos!",
+                "SkillDescription": "Cada enemigo quemado en el campo de batalla tiene un 20% de probabilidad más un 20% por Despertar del usuario (hasta un 100% de probabilidad si el usuario tiene 4 Despertares) de que sus Habilidades Activas se desactiven durante 30 TU.\n\nLuego, todos los demás aliados en llamas en el campo de batalla ven sus TU actuales reducidas en 50TU, y cualquier efecto enemigo que esté desactivando sus Habilidades Activas termina.\n\nSe puede usar sólo si hay al menos 4 unidades con el efecto de estado Quemado. Esta habilidad se bloquea durante 50TU después de su uso. Se puede usar 5 veces por batalla. Cuando las Habilidades Activas de una unidad se desactivan y obtiene el turno, perderá el turno como si estuviera durmiendo. Este efecto no puede afectar a las unidades jefe, no se puede purificar y terminará si el usuario es derrotado.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Una Mano Fuerte",
+                "SkillDescription": "Los aliados obtienen 1 Espíritu por cada unidad en el campo de batalla que esté quemada o dormida.\n\nElimina Veneno (incluido Veneno Letal) de todos los aliados en el campo de batalla. Luego, todos los aliados en el campo de batalla obtienen Perforado, un Guarda Aturdir, un Guarda Veneno y un Guarda Muerte Instantánea.\n\nSe desbloquea cada vez que el usuario usa Carácter Irascible o Corazones Sangrientos, y se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.\n\nUna unidad con Perforado hará que sus Ataques ignoren los efectos de reducción de daño del enemigo hasta el final de su siguiente turno. Cada Guarda evita que su efecto nombrado se aplique una vez, luego se elimina. Los Guardas idénticos no se pueden acumular. Un Guarda Muerte Instantánea evita que una unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar y no se pueden acumular.",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Árbitro Carmesí",
+                "SkillDescription": "Cuando esta unidad entra en batalla, todos los aliados de elemento Fuego y Agua se Fortifican.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla. Si esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1HP, en su lugar sobrevive con 1HP.\n\nLos ataques de esta unidad la curan un 100% del daño total infligido e ignoran cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nEsta unidad tiene una reducción de daño del 80% de los ataques si todos los enemigos en el campo de batalla están dormidos o ardiendo.\n\nCada vez que esta unidad recibe daño de un ataque mientras arde o está envenenada y sobrevive hasta después del final del turno con más de 1HP, esta unidad obtendrá el turno al reducirse su TU a 0 y quedar quemada. Este turno extra puede ser interrumpido por otros efectos que influyen en el orden de turno (por ejemplo, otros aturdir dirigidos al objetivo con el TU más bajo). Esta reducción de TU puede activarse antes o después de otros efectos que ajustan el orden de turno. Este no se considera un efecto de tipo Contraofensiva.\n\nUna unidad fortificada tiene una reducción del 50 % en el daño recibido por ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. Fortificar se eliminará después de reducir el daño tres veces desde su aplicación y se restablecerá si se vuelve a aplicar. Este no es un efecto de estado."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "¡Que les corten la cabeza!",
+                "SkillDescription": "Esta unidad no puede ser derrotada por daño de efectos de estado Quemado. Siempre que esta unidad tenga el turno, si sus Habilidades Activas no están desactivadas, no se pueden desactivar hasta el final de su turno.\n\nCuando esta unidad derrota a un enemigo no invocado con un ataque, todos los demás aliados en el campo de batalla recibirán los siguientes turnos reduciendo sus TU actuales. Los efectos que influyen en el orden de TU pueden interrumpir el turno extra (por ejemplo, Aturdir dirigidos al objetivo con menor TU).\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea y Mega Quemado Sanador por 100TU. Luego, todos los aliados en el campo de batalla reciben Guarda Veneno y Guarda Aturdir.\n\nCada vez que un aliado tenga el turno mientras está Quemado, se curará un 20% de su propio HP máximo y luego los aliados ganarán 1 Espíritu después de ese turno mientras esta unidad permanezca en el campo de batalla.\n\nMientras esta unidad esté en el campo de batalla, siempre que una unidad de elemento Fuego o Agua en el campo de batalla sea derrotada o sacrificada por cualquier causa, siempre que esta unidad no sea derrotada o sacrificada al mismo tiempo, todos los aliados en el campo de batalla son Purificados (elimina efectos de estado negativos como sueño, quemado o veneno) y luego quemados.\n\nUna unidad con Mega Quemado Sanador se curará después de cada turno a 20 veces la velocidad de Quemado Sanador. Esto sobrescribirá otros efectos de estado, incluyendo Quemado Sanador en el usuario, no puede ser sobrescrito por los efectos de estado Quemado, Veneno o Sueño, y no puede ser Purificado. Cualquier unidad que inflija daño a, o reciba daño de, una unidad con Mega Quemado Sanador obtendrá el efecto de estado Quemado. Una unidad con Mega Quemado Sanador obtendrá Quemado Sanador por 300TU cuando Mega Quemado Sanador expire."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Resistir Oscuro Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Oscuro."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¿Acabas de llamarme la Reina de Corazones?\n¿¡Cómo te atreves!? Me llamarás \"Su Majestad, la Reina de Corazones.\" \nPero basta de rodeos, date prisa y satisface mis deseos... o el veredicto será \"¡culpable, culpable, culpable!\""
+            ],
+            "Login": [
+                "¿Cómo te atreves a hacerme esperar? ¡Culpable, culpable, culpable! No... no sólo culpable... ¡ultraculpable!"
+            ],
+            "Tap": [
+                "¿Me ofreces un té de primera calidad como tributo...? Muy bien, te perdono tu anterior insolencia. Probemos este té juntos de inmediato.",
+                "No tengo ningún interés ni preocupación por este mundo en el que vives. Así que no me aburras con tonterías al respecto. Si lo intentas... el veredicto, por supuesto, será \"¡culpable!\".",
+                "¿¡Cómo te atreves a menospreciarme como si fuera una niña pequeña!? ¡Aunque soy de baja estatura, soy una reina digna y respetada!"
+            ],
+            "Idle": [
+                "¡Ay, cielos, ser reina es muchísimo trabajo!... Quizás debería abandonar todo esto y esconderme en algún lugar... Sí, en algún lugar seguro y cómodo para echarme una siesta..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Carácter Irascible": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "¡Reténganlos!": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Una Mano Fuerte": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegular02": {
+        "Name": "Reina de Corazones",
+        "Name2": "Árbitro Carmesí",
+        "FullName": "Reina de Corazones - Árbitro Carmesí",
+        "Family": "QueenHeartsRegular",
+        "Profile": "La Reina de Corazones es bastante particular a la hora de preparar una fiesta de té.\nTodo debe estar perfecto, la temperatura del té, la disposición de los dulces, el aroma de los pasteles de granada. Afirma que todo es para garantizar el deleite de sus invitados, pero a veces, su mirada da la impresión de que espera a alguien que ya no está.",
+        "Profile_Ascended": "\"Una mentira piadosa es mejor que la cruel verdad.\"\n\nDurante mucho tiempo, esa fue la única creencia de la Reina. No importaba cuántas veces rebobinara el mundo o manchara sus manos de carmesí, creía que su deseo de proteger jamás disminuiría. Pero al final, aprendió que amar no sólo significa tener a alguien cerca, sino también saber cuándo dejarlo ir.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "G. Hacha",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 34,
+        "Atk_Base": 1368,
+        "Hp_Base": 7580,
+        "Speed": 490,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Sube HP Fuego",
+            "SkillDescription": "Las unidades de Fuego aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Carácter Irascible",
+                "SkillDescription": "1000% de daño a un enemigo. Menos 200% de daño por cada enemigo en el campo de batalla que no esté durmiendo ni quemados (máximo de -800% si hay cuatro enemigos que no estén durmiendo ni quemados).\n\nLuego, todos los aliados obtienen el efecto de estado Quemado. Quemado sobrescribirá otros efectos de estado en esas unidades. Cualquier unidad que inflija daño a una unidad con Quemado o que reciba daño de ella también se quemará.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "¡Reténganlos!",
+                "SkillDescription": "Cada enemigo quemado en el campo de batalla tiene un 20% de probabilidad más un 20% por Despertar del usuario (hasta un 100% de probabilidad si el usuario tiene 4 Despertares) de que sus Habilidades Activas se desactiven durante 30 TU.\n\nLuego, todos los demás aliados en llamas en el campo de batalla ven sus TU actuales reducidas en 50TU, y cualquier efecto enemigo que esté desactivando sus Habilidades Activas termina.\n\nSe puede usar sólo si hay al menos 4 unidades con el efecto de estado Quemado. Esta habilidad se bloquea durante 50TU después de su uso. Se puede usar 5 veces por batalla. Cuando las Habilidades Activas de una unidad se desactivan y obtiene el turno, perderá el turno como si estuviera durmiendo. Este efecto no puede afectar a las unidades jefe, no se puede purificar y terminará si el usuario es derrotado.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Una Mano Fuerte",
+                "SkillDescription": "Los aliados obtienen 1 Espíritu por cada unidad en el campo de batalla que esté quemada o dormida.\n\nElimina Veneno (incluido Veneno Letal) de todos los aliados en el campo de batalla. Luego, todos los aliados en el campo de batalla obtienen Perforado, un Guarda Aturdir, un Guarda Veneno y un Guarda Muerte Instantánea.\n\nSe desbloquea cada vez que el usuario usa Carácter Irascible o Corazones Sangrientos, y se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.\n\nUna unidad con Perforado hará que sus Ataques ignoren los efectos de reducción de daño del enemigo hasta el final de su siguiente turno. Cada Guarda evita que su efecto nombrado se aplique una vez, luego se elimina. Los Guardas idénticos no se pueden acumular. Un Guarda Muerte Instantánea evita que una unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar y no se pueden acumular.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiAttackAQueenHeartsRegular",
+                "SkillTitle": "Corazones Sangrientos",
+                "SkillDescription": "1000% de daño a 2 enemigos. Menos 150% de daño por cada enemigo en el campo de batalla que no esté dormido ni quemado (máximo de -600% si hay 4 enemigos que no estén dormidos ni quemados). Este ataque ignora las habilidades pasivas de piel y el efecto de estado Contraofensiva. El daño de este ataque no despierta a los enemigos dormidos.\n\nSólo se puede usar si el usuario tiene el efecto de estado Quemado. Si esta habilidad se usa 3 veces en 10TU, se bloquea durante 50TU.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Árbitro Carmesí",
+                "SkillDescription": "Cuando esta unidad entra en batalla, todos los aliados de elemento Fuego y Agua se Fortifican.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla. Si esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1HP, en su lugar sobrevive con 1HP.\n\nLos ataques de esta unidad la curan un 100% del daño total infligido e ignoran cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nEsta unidad tiene una reducción de daño del 80% de los ataques si todos los enemigos en el campo de batalla están dormidos o ardiendo.\n\nCada vez que esta unidad recibe daño de un ataque mientras arde o está envenenada y sobrevive hasta después del final del turno con más de 1HP, esta unidad obtendrá el turno al reducirse su TU a 0 y quedar quemada. Este turno extra puede ser interrumpido por otros efectos que influyen en el orden de turno (por ejemplo, otros aturdir dirigidos al objetivo con el TU más bajo). Esta reducción de TU puede activarse antes o después de otros efectos que ajustan el orden de turno. Este no se considera un efecto de tipo Contraofensiva.\n\nUna unidad fortificada tiene una reducción del 50 % en el daño recibido por ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. Fortificar se eliminará después de reducir el daño tres veces desde su aplicación y se restablecerá si se vuelve a aplicar. Este no es un efecto de estado."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "¡Que les corten la cabeza!",
+                "SkillDescription": "Esta unidad no puede ser derrotada por daño de efectos de estado Quemado. Siempre que esta unidad tenga el turno, si sus Habilidades Activas no están desactivadas, no se pueden desactivar hasta el final de su turno.\n\nCuando esta unidad derrota a un enemigo no invocado con un ataque, todos los demás aliados en el campo de batalla recibirán los siguientes turnos reduciendo sus TU actuales. Los efectos que influyen en el orden de TU pueden interrumpir el turno extra (por ejemplo, Aturdir dirigidos al objetivo con menor TU).\n\nEsta unidad entra en batalla con un Guarda Muerte Instantánea y Mega Quemado Sanador por 100TU. Luego, todos los aliados en el campo de batalla reciben Guarda Veneno y Guarda Aturdir.\n\nCada vez que un aliado tenga el turno mientras está Quemado, se curará un 20% de su propio HP máximo y luego los aliados ganarán 1 Espíritu después de ese turno mientras esta unidad permanezca en el campo de batalla.\n\nMientras esta unidad esté en el campo de batalla, siempre que una unidad de elemento Fuego o Agua en el campo de batalla sea derrotada o sacrificada por cualquier causa, siempre que esta unidad no sea derrotada o sacrificada al mismo tiempo, todos los aliados en el campo de batalla son Purificados (elimina efectos de estado negativos como sueño, quemado o veneno) y luego quemados.\n\nUna unidad con Mega Quemado Sanador se curará después de cada turno a 20 veces la velocidad de Quemado Sanador. Esto sobrescribirá otros efectos de estado, incluyendo Quemado Sanador en el usuario, no puede ser sobrescrito por los efectos de estado Quemado, Veneno o Sueño, y no puede ser Purificado. Cualquier unidad que inflija daño a, o reciba daño de, una unidad con Mega Quemado Sanador obtendrá el efecto de estado Quemado. Una unidad con Mega Quemado Sanador obtendrá Quemado Sanador por 300TU cuando Mega Quemado Sanador expire."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Resistir Oscuro Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades Oscuro."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Dominio Espada Larga",
+                "SkillDescription": "Puede usar habilidades de arma de Espadas Largas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Mandoble"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "¿Acabas de llamarme la Reina de Corazones?\n¿¡Cómo te atreves!? Me llamarás \"Su Majestad, la Reina de Corazones.\" \nPero basta de rodeos, date prisa y satisface mis deseos... o el veredicto será \"¡culpable, culpable, culpable!\""
+            ],
+            "Login": [
+                "¿Cómo te atreves a hacerme esperar? ¡Culpable, culpable, culpable! No... no sólo culpable... ¡ultraculpable!"
+            ],
+            "Tap": [
+                "¿Me ofreces un té de primera calidad como tributo...? Muy bien, te perdono tu anterior insolencia. Probemos este té juntos de inmediato.",
+                "No tengo ningún interés ni preocupación por este mundo en el que vives. Así que no me aburras con tonterías al respecto. Si lo intentas... el veredicto, por supuesto, será \"¡culpable!\".",
+                "¿¡Cómo te atreves a menospreciarme como si fuera una niña pequeña!? ¡Aunque soy de baja estatura, soy una reina digna y respetada!"
+            ],
+            "Idle": [
+                "¡Ay, cielos, ser reina es muchísimo trabajo!... Quizás debería abandonar todo esto y esconderme en algún lugar... Sí, en algún lugar seguro y cómodo para echarme una siesta..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Carácter Irascible": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "¡Reténganlos!": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Una Mano Fuerte": {
+                    "BaseWeight": 500
+                },
+                "Corazones Sangrientos": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

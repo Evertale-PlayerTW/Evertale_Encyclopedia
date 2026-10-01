@@ -145551,7 +145551,7 @@
         "Hp_Base": 5785,
         "Speed": 534,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Benvenuto.\nÈ qui che ha avuto inizio la mia storia.",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Water",
@@ -145913,5 +145913,348 @@
                 "RelationshipBuff": "ATT+2%"
             }
         }
+    },
+    "QueenHeartsRegular01": {
+        "Name": "Regina di Cuori",
+        "Name2": "Giudice Cremisi",
+        "FullName": "Regina di Cuori - Giudice Cremisi",
+        "Family": "QueenHeartsRegular",
+        "Profile": "È la regina tanto bella quanto terrificante che regna sul suo mondo onirico dal Castello di Cuori.\nNella sua corte non c'è spazio né per la ragione né per la morale. La sua parola è assoluta sulle colpe, sulle punizioni e anche sulla legge stessa. Nessuno osa sfidarla, mentre pronuncia i suoi assurdi editti con un sorriso elegante.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grand'Ascia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 28,
+        "Atk_Base": 1126,
+        "Hp_Base": 5580,
+        "Speed": 490,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Che il processo abbia inizio.\nMa prima, una tazza di tè.",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "HP+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Irascibilità",
+                "SkillDescription": "1000% di danno a 1 nemico. 200% di danno in meno per ogni nemico non addormentato e non ustionato in campo (fino a -800% se ci sono 4 nemici non addormentati e non ustionati).\n\nPoi, tutti gli alleati vengono ustionati. Ustione sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Acciuffateli",
+                "SkillDescription": "20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di disattivare le abilità attive dei nemici ustionati per 30TU.\n\nPoi, tutti gli altri alleati ustionati in campo riducono i loro TU attuali di 50TU e mette fine agli effetti nemici che stanno disattivando le loro abilità attive.\n\nUtilizzabile solo se ci sono almeno 4 unità ustionate. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Mano di Ferro",
+                "SkillDescription": "Gli alleati ottengono 1 Spirito per ogni unità ustionata o addormentata in campo.\n\nRimuove Veleno (incluso Veleno Letale) da tutti gli alleati in campo. Poi, tutti gli alleati in campo ottengono Perforazione, Protezione Stordimento, Protezione Veleno e Protezione Morte.\n\nSi sblocca ogni volta che l'unità usa Irascibilità o Cuori Sanguinari. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nUn'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Giudice Cremisi",
+                "SkillDescription": "Quando l'unità entra in campo, tutti gli alleati dell'elemento Acqua o Fuoco ottengono Fortificazione.\n\nL'unità non può essere mandata tra i rinforzi dal campo. Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nL'unità ha una riduzione danni dell'80% dagli attacchi ricevuti se tutti i nemici in campo sono addormentati o ustionati.\n\nOgni volta che l'unità subisce danno da un attacco mentre è ustionata o avvelenata e sopravvive fino alla fine del turno, ottiene immediatamente il turno azzerando i suoi TU ed è ustionata. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Questa abilità non è considerata un'abilità di tipo Pelle Reagente.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso e si ripristina se riottenuto. Questo non è un effetto di stato."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Tagliategli la Testa",
+                "SkillDescription": "L'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nQuando l'unità sconfigge un nemico non invocato con un attacco, tutti gli alleati in campo ottengono immediatamente il turno azzerando i loro TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nL'unità entra in battaglia con Protezione Morte e con Mega Ustione Curativa per 100TU. Poi, tutti gli alleati in campo ottengono Protezione Veleno e Protezione Stordimento.\n\nOgni volta che un alleato ottiene il turno mentre è ustionato, recupera il 20% degli HP massimi e gli alleati ottengono 1 Spirito alla fine del turno, finché l'unità resta in campo.\n\nMentre l'unità è in campo, ogni volta che un'unità dell'elemento Acqua o Fuoco in campo viene sconfitta o sacrificata, finché questa unità non viene sconfitta o sacrificata, tutti gli alleati in campo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e poi vengono ustionati.\n\nUn'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Resist. Oscurità Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Oscurità."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Mi hai chiamata Regina di Cuori?\nCome osi. Ti rivolgerai a me come \"Vostra Maestà, la Regina di Cuori.\"\nMa basta perdere tempo, sbrigati a eseguire i miei desideri, oppure il verdetto sarà \"colpevole, colpevole, colpevole\"!"
+            ],
+            "Login": [
+                "Come osi farmi aspettare? Colpevole, colpevole, colpevole! Anzi... non solo colpevole... ultra-colpevole!"
+            ],
+            "Tap": [
+                "Mi stai offrendo del tè di prima classe come tributo...? Molto bene, perdonerò la tua precedente insolenza. Assaggiamo subito questo tè insieme.",
+                "Non ho alcun interesse o preoccupazione per il mondo in cui vivi. Quindi non annoiarmi con sciocchezze al riguardo. Se ci provi... il verdetto sarà ovviamente \"colpevole\"!",
+                "Come osi guardarmi dall'alto in basso come se fossi una bambina! Sono piccola di statura, ma sono comunque una regina onorevole e rispettata!"
+            ],
+            "Idle": [
+                "Oh, cielo, essere la regina è davvero faticoso... Forse dovrei semplicemente abbandonare tutto e nascondermi da qualche parte... Sì, un posto sicuro e comodo per fare un pisolino..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Irascibilità": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Acciuffateli": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Mano di Ferro": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegular02": {
+        "Name": "Regina di Cuori",
+        "Name2": "Giudice Cremisi",
+        "FullName": "Regina di Cuori - Giudice Cremisi",
+        "Family": "QueenHeartsRegular",
+        "Profile": "La Regina di Cuori è piuttosto esigente quando si tratta di preparare un tè.\nTutto deve essere perfetto: la temperatura del tè, la disposizione delle caramelle, il profumo dei dolcetti alla melagrana. Sostiene che sia tutto per garantire il piacere dei suoi ospiti, eppure a volte il suo sguardo sembra quello di chi sta aspettando qualcuno che non c'è più.",
+        "Profile_Ascended": "\"Una dolce bugia è meglio di una crudele realtà.\"\n\nPer moltissimo tempo, è stata l'unica cosa in cui la Regina avesse mai creduto. Era convinta che il suo desiderio di proteggere non sarebbe mai vacillato, per quante volte riavvolgesse il mondo o si macchiasse le mani di cremisi. Ma, alla fine, ha imparato che amare non significa solo tenere qualcuno vicino, ma anche saper lasciarlo andare.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grand'Ascia",
+        "forFilter_Element": "Fire",
+        "Element": "Fuoco",
+        "Cost": 34,
+        "Atk_Base": 1368,
+        "Hp_Base": 7580,
+        "Speed": 490,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "HP+ (Fuoco)",
+            "SkillDescription": "Nelle unità alleate di tipo Fuoco gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Irascibilità",
+                "SkillDescription": "1000% di danno a 1 nemico. 200% di danno in meno per ogni nemico non addormentato e non ustionato in campo (fino a -800% se ci sono 4 nemici non addormentati e non ustionati).\n\nPoi, tutti gli alleati vengono ustionati. Ustione sostituisce altri effetti di stato. Tutte le unità che attaccano o sono attaccate da un'unità ustionata ottengono a loro volta l'effetto di stato Ustione.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Acciuffateli",
+                "SkillDescription": "20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di disattivare le abilità attive dei nemici ustionati per 30TU.\n\nPoi, tutti gli altri alleati ustionati in campo riducono i loro TU attuali di 50TU e mette fine agli effetti nemici che stanno disattivando le loro abilità attive.\n\nUtilizzabile solo se ci sono almeno 4 unità ustionate. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 5 volte per battaglia. Quando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Mano di Ferro",
+                "SkillDescription": "Gli alleati ottengono 1 Spirito per ogni unità ustionata o addormentata in campo.\n\nRimuove Veleno (incluso Veleno Letale) da tutti gli alleati in campo. Poi, tutti gli alleati in campo ottengono Perforazione, Protezione Stordimento, Protezione Veleno e Protezione Morte.\n\nSi sblocca ogni volta che l'unità usa Irascibilità o Cuori Sanguinari. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nUn'unità con Perforazione ignora gli effetti di riduzione del danno nemici con i suoi attacchi fino alla fine del suo turno successivo. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano. La Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiAttackAQueenHeartsRegular",
+                "SkillTitle": "Cuori Sanguinari",
+                "SkillDescription": "1000% di danno a 2 nemici. 150% di danno in meno per ogni nemico non addormentato e non ustionato in campo (fino a -600% se ci sono 4 nemici non addormentati e non ustionati). Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione. Il danno da quest'attacco non sveglia i nemici.\n\nUtilizzabile solo se l'unità è ustionata. Se l'abilità è utilizzata 3 volte in 10TU, è bloccata per 50TU.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Giudice Cremisi",
+                "SkillDescription": "Quando l'unità entra in campo, tutti gli alleati dell'elemento Acqua o Fuoco ottengono Fortificazione.\n\nL'unità non può essere mandata tra i rinforzi dal campo. Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero ai bersagli di essere sconfitti.\n\nL'unità ha una riduzione danni dell'80% dagli attacchi ricevuti se tutti i nemici in campo sono addormentati o ustionati.\n\nOgni volta che l'unità subisce danno da un attacco mentre è ustionata o avvelenata e sopravvive fino alla fine del turno, ottiene immediatamente il turno azzerando i suoi TU ed è ustionata. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Questa abilità non è considerata un'abilità di tipo Pelle Reagente.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso e si ripristina se riottenuto. Questo non è un effetto di stato."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Tagliategli la Testa",
+                "SkillDescription": "L'unità non può essere sconfitta subendo danno dall'effetto di stato Ustione. Ogni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nQuando l'unità sconfigge un nemico non invocato con un attacco, tutti gli alleati in campo ottengono immediatamente il turno azzerando i loro TU. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU).\n\nL'unità entra in battaglia con Protezione Morte e con Mega Ustione Curativa per 100TU. Poi, tutti gli alleati in campo ottengono Protezione Veleno e Protezione Stordimento.\n\nOgni volta che un alleato ottiene il turno mentre è ustionato, recupera il 20% degli HP massimi e gli alleati ottengono 1 Spirito alla fine del turno, finché l'unità resta in campo.\n\nMentre l'unità è in campo, ogni volta che un'unità dell'elemento Acqua o Fuoco in campo viene sconfitta o sacrificata, finché questa unità non viene sconfitta o sacrificata, tutti gli alleati in campo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno) e poi vengono ustionati.\n\nUn'unità con Mega Ustione Curativa si cura a ogni turno di 20 volte le cure della normale Ustione Curativa. Sostituisce altri effetti di stato, tra cui Ustione Curativa, e non può essere sostituito da Ustione, Veleno o Sonno, né può essere purificato. Tutte le unità che attaccano o sono attaccate da un'unità con Mega Ustione Curativa ottengono l'effetto di stato Ustione. Un'unità con Mega Ustione Curativa ottiene Ustione Curativa per 300TU al termine di Mega Ustione Curativa."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Resist. Oscurità Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Oscurità."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Maestria Spadone",
+                "SkillDescription": "Può usare le abilità degli Spadoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Spadone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Mi hai chiamata Regina di Cuori?\nCome osi. Ti rivolgerai a me come \"Vostra Maestà, la Regina di Cuori.\"\nMa basta perdere tempo, sbrigati a eseguire i miei desideri, oppure il verdetto sarà \"colpevole, colpevole, colpevole\"!"
+            ],
+            "Login": [
+                "Come osi farmi aspettare? Colpevole, colpevole, colpevole! Anzi... non solo colpevole... ultra-colpevole!"
+            ],
+            "Tap": [
+                "Mi stai offrendo del tè di prima classe come tributo...? Molto bene, perdonerò la tua precedente insolenza. Assaggiamo subito questo tè insieme.",
+                "Non ho alcun interesse o preoccupazione per il mondo in cui vivi. Quindi non annoiarmi con sciocchezze al riguardo. Se ci provi... il verdetto sarà ovviamente \"colpevole\"!",
+                "Come osi guardarmi dall'alto in basso come se fossi una bambina! Sono piccola di statura, ma sono comunque una regina onorevole e rispettata!"
+            ],
+            "Idle": [
+                "Oh, cielo, essere la regina è davvero faticoso... Forse dovrei semplicemente abbandonare tutto e nascondermi da qualche parte... Sì, un posto sicuro e comodo per fare un pisolino..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Irascibilità": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Acciuffateli": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Mano di Ferro": {
+                    "BaseWeight": 500
+                },
+                "Cuori Sanguinari": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

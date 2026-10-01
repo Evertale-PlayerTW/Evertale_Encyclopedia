@@ -22092,7 +22092,7 @@
         "Hp_Base": 3095,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp4AtLeast4BurningOrSleepingInBattle",
@@ -22117,7 +22117,7 @@
         "Hp_Base": 3750,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp5AtLeast4BurningOrSleepingInBattle",
@@ -22143,12 +22143,89 @@
         "Hp_Base": 4095,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp6AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "TU减少",
                 "SkillDescription": "若场上处于睡眠或燃烧状态的单位有至少4个，则此单位所有技能的TU减少10%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ChessHeartsGreatAxe01": {
+        "Name": "红心颂",
+        "FullName": "红心颂",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "这一击究竟是祝福的颂歌，还是断罪的悲鸣？唯有皇后知晓答案。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "双手斧",
+        "Cost": 11,
+        "Atk_Base": 522,
+        "Hp_Base": 2765,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4TargetIsBurning",
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若攻击目标处于燃烧状态，则造成7%的额外伤害。"
+            }
+        ]
+    },
+    "ChessHeartsGreatAxe02": {
+        "Name": "红心颂",
+        "FullName": "红心颂",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "这一击究竟是祝福的颂歌，还是断罪的悲鸣？唯有皇后知晓答案。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "双手斧",
+        "Cost": 17,
+        "Atk_Base": 634,
+        "Hp_Base": 3330,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5TargetIsBurning",
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若攻击目标处于燃烧状态，则造成10%的额外伤害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ChessHeartsGreatAxe03": {
+        "Name": "红心颂",
+        "FullName": "红心颂",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "这一击究竟是祝福的颂歌，还是断罪的悲鸣？唯有皇后知晓答案。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "双手斧",
+        "Cost": 23,
+        "Atk_Base": 685,
+        "Hp_Base": 3575,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6TargetIsBurning",
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若攻击目标处于燃烧状态，则造成15%的额外伤害。"
             }
         ],
         "ExtraEvoInitialCount": 2

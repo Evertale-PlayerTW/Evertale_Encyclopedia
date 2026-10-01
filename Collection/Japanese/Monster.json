@@ -145553,7 +145553,7 @@
         "Hp_Base": 5785,
         "Speed": 534,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "ようこそ、物語の始まりへ",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Water",
@@ -145915,5 +145915,348 @@
                 "RelationshipBuff": "攻撃力+2%"
             }
         }
+    },
+    "QueenHeartsRegular01": {
+        "Name": "ハートの女王",
+        "Name2": "赤き裁定者",
+        "FullName": "ハートの女王 - 赤き裁定者",
+        "Family": "QueenHeartsRegular",
+        "Profile": "ハートの城に君臨する、美しくも恐ろしい夢世界の女王。\n彼女の裁判に正しさなど必要ない。罪も罰も、ルールさえも、女王の言葉ひとつで決まってしまう。優雅な微笑みで理不尽を告げるその姿に、誰も逆らうことはできない。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 28,
+        "Atk_Base": 1126,
+        "Hp_Base": 5580,
+        "Speed": 490,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "美味しい紅茶と、裁判の準備は出来ているわ",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "HPアップ（火）",
+            "SkillDescription": "火属性の味方の最大HPを10%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "ハートウィップ",
+                "SkillDescription": "敵1体に1000%ダメージ。この攻撃のダメージ量は、場にいる眠り状態でも燃焼状態でもない敵1体につき200%ずつ減少する。\n\nその後、味方全員に状態変化「燃焼」を付与する。対象の他の状態変化は上書きされる。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "ワイルドカード",
+                "SkillDescription": "場にいる燃焼状態の敵全員を、それぞれ20%の確率で30TUの間麻痺させる。この効果が発動する確率は使用者の覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。この効果は、ボスに対しては発動しない。\n\nその後、使用者以外の燃焼状態の味方全員のTUを50TU減少させ、その味方に（敵のスキルの効果で）付与された麻痺を全て解除する。\n\n場に燃焼状態のキャラ（敵味方問わず）が4体以上いる時のみ使用可能。このスキルは使用後、50TUの間ロックされる。1回のバトルにつき5回まで使用可能。\n\n-麻痺しているキャラにターンが回った時、そのターンは眠り状態の時のようにスキップされる。麻痺は状態変化ではなく、クリア系の効果で解除できない。そのキャラを麻痺させたキャラが戦闘不能になった時、麻痺は解除される。",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "フルハウス",
+                "SkillDescription": "場にいる燃焼状態または眠り状態のキャラ（敵味方問わず）1体につき、味方のスピリットが1増加する。\n\n場にいる味方全員の毒状態（毒(致命)状態を含む）を解除する。その後、場にいる味方全員に「貫通」、「ワンタイムアンチスタン」、「ワンタイムアンチポイズン」、「ワンタイムアンチ即死」を付与する。\n\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「ハートウィップ」または「首をはねよ！」を使用すると解除される。\n\n-貫通状態のキャラは、次の自身のターンの終了時まで、自身の攻撃に対象のダメージ減少効果を無視する効果が付与され、その後貫通状態は解除される。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-ワンタイムアンチ即死は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "赤き裁定者",
+                "SkillDescription": "・このキャラが場に出た時、火属性および水属性の味方全員に「メタル化」を付与する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-与えたダメージと同量分、自身のHPが回復する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・場にいる敵全員が眠り状態または燃焼状態のいずれかである時、このキャラが敵の攻撃で受けるダメージは80%減少する。\n\n・このキャラは、自身が燃焼状態または毒状態の時に敵の攻撃でダメージを受け、そのターンの後までHPが1より多い状態で生き残った時、自身のTUを0にして次のターンを得、また自身に状態変化「燃焼」を付与する。TUを0にする効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。この効果が発動するタイミングと、ターン間に発動する他の効果のタイミングは前後する場合がある。この効果は、カウンタースキン系の効果とはみなされない。\n\n-メタル化されたキャラが敵の攻撃で受けるダメージは50%減少する。このダメージ減少効果は、「メタル化を無視する」と明示されている場合を除き無視されない。メタル化は、ダメージ減少効果が3回発動すると解除される。メタル化されたキャラにさらにメタル化が付与された場合、発動回数がリセットされ、また残り3回発動するようになる。メタル化は状態変化ではない。"
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "優しい嘘",
+                "SkillDescription": "・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・麻痺していない状態でこのキャラにターンが回った時、そのターンが終わるまで、このキャラは麻痺されない。\n\n・このキャラが攻撃で敵（このバトル中にスキルの効果で召喚されたキャラを除く）を戦闘不能にするたびに、自身以外の場にいる味方全員のTUを0にして次のターンを与える。この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n・このキャラは場に出た時、自身に「ワンタイムアンチ即死」および状態変化「燃焼(20倍回復)」(100TU持続)を付与し、場にいる味方全員に「ワンタイムアンチポイズン」および「ワンタイムアンチスタン」を付与する。\n\n・自身が場にいる間に燃焼状態の味方にターンが回るたびに、その味方のHPを最大値の20%分回復し、そのターン終了後に自身が場にいた時、味方のスピリットを1増加させる。\n\n・このキャラが場にいる間に、場にいる火属性または水属性のキャラが戦闘不能になった時、場にいる味方全員の悪影響のある状態変化を解除し、状態変化「燃焼」を付与する。この効果は、同じ攻撃や効果でこのキャラ自身も戦闘不能になっていると発動しない。\n\n-燃焼(20倍回復)状態のキャラは、ターンが経過するたびに、燃焼(回復)状態の20倍の回復量でHPが回復する。燃焼(20倍回復)状態はクリア系の効果で解除されず、また燃焼状態、毒状態、眠り状態によって上書きされない。燃焼(20倍回復)状態のキャラにダメージを与えたキャラ、および燃焼(20倍回復)状態のキャラからダメージを受けたキャラは通常の燃焼状態になる。燃焼(20倍回復)状態がTUの経過によって解除された場合、そのキャラは300TUの間、状態変化「燃焼(回復)」になる。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "闇耐性Lv3",
+                "SkillDescription": "闇属性のキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "今、わたくしのことをハートの女王と呼んだ？\n不敬ね、ハートの女王さまと呼びなさい。\nまあいいわ、時間がもったいない。\n\nさあ早く、わたくしの願いを叶えて――\nじゃなきゃギルティ、有罪なんだから。"
+            ],
+            "Login": [
+                "有罪よ！"
+            ],
+            "Tap": [
+                "それは最高級の",
+                "あなたの生きている",
+                "これでも立派な"
+            ],
+            "Idle": [
+                "楽じゃないわ"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "ハートウィップ": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "ワイルドカード": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "フルハウス": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegular02": {
+        "Name": "ハートの女王",
+        "Name2": "赤き裁定者",
+        "FullName": "ハートの女王 - 赤き裁定者",
+        "Family": "QueenHeartsRegular",
+        "Profile": "ハートの女王は、お茶会の準備にだけは少しうるさい。\n紅茶の温度、砂糖菓子の並べ方、ザクロを使った焼き菓子の香り。すべては訪れた客人を喜ばせるため――と言うけれど、時おり彼女は、まるでここにいない誰かを待っているような目をする。",
+        "Profile_Ascended": "「冷たい現実より、優しい嘘のほうがいい」\n女王は長い間、それだけを信じていた。何度世界を巻き戻しても、何度その手を汚しても、守りたいものだけは変わらないと。けれど最後に彼女が学んだのは、抱きしめることだけでなく、手放すこともまた愛だということだった。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 34,
+        "Atk_Base": 1368,
+        "Hp_Base": 7580,
+        "Speed": 490,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "HPアップ（火）",
+            "SkillDescription": "火属性の味方の最大HPを10%増加させる。"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "ハートウィップ",
+                "SkillDescription": "敵1体に1000%ダメージ。この攻撃のダメージ量は、場にいる眠り状態でも燃焼状態でもない敵1体につき200%ずつ減少する。\n\nその後、味方全員に状態変化「燃焼」を付与する。対象の他の状態変化は上書きされる。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "ワイルドカード",
+                "SkillDescription": "場にいる燃焼状態の敵全員を、それぞれ20%の確率で30TUの間麻痺させる。この効果が発動する確率は使用者の覚醒数が1上がるごとに20%上昇し、4覚醒だと100%になる。この効果は、ボスに対しては発動しない。\n\nその後、使用者以外の燃焼状態の味方全員のTUを50TU減少させ、その味方に（敵のスキルの効果で）付与された麻痺を全て解除する。\n\n場に燃焼状態のキャラ（敵味方問わず）が4体以上いる時のみ使用可能。このスキルは使用後、50TUの間ロックされる。1回のバトルにつき5回まで使用可能。\n\n-麻痺しているキャラにターンが回った時、そのターンは眠り状態の時のようにスキップされる。麻痺は状態変化ではなく、クリア系の効果で解除できない。そのキャラを麻痺させたキャラが戦闘不能になった時、麻痺は解除される。",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "フルハウス",
+                "SkillDescription": "場にいる燃焼状態または眠り状態のキャラ（敵味方問わず）1体につき、味方のスピリットが1増加する。\n\n場にいる味方全員の毒状態（毒(致命)状態を含む）を解除する。その後、場にいる味方全員に「貫通」、「ワンタイムアンチスタン」、「ワンタイムアンチポイズン」、「ワンタイムアンチ即死」を付与する。\n\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「ハートウィップ」または「首をはねよ！」を使用すると解除される。\n\n-貫通状態のキャラは、次の自身のターンの終了時まで、自身の攻撃に対象のダメージ減少効果を無視する効果が付与され、その後貫通状態は解除される。\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-ワンタイムアンチ即死は、（ボスを除く）敵による、ダメージを伴わず対象を戦闘不能にする効果の対象になった時にそれを一度だけ無効化し、その後解除される。この効果は無視されない。ワンタイムアンチ即死状態は重複しない。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiAttackAQueenHeartsRegular",
+                "SkillTitle": "首をはねよ！",
+                "SkillDescription": "敵2体に1000%ダメージ。この攻撃のダメージ量は、場にいる眠り状態でも燃焼状態でもない敵1体につき150%ずつ減少する。この攻撃は、対象のスキン系のパッシブスキル、およびカウンター状態の効果を無視する。この攻撃のダメージでは対象の眠り状態は解除されない。\n\n自身が燃焼状態の時のみ使用可能。このスキルが10TU以内に3回使われた場合、その後このスキルは50TUの間ロックされる。",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "赤き裁定者",
+                "SkillDescription": "・このキャラが場に出た時、火属性および水属性の味方全員に「メタル化」を付与する。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-与えたダメージと同量分、自身のHPが回復する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・場にいる敵全員が眠り状態または燃焼状態のいずれかである時、このキャラが敵の攻撃で受けるダメージは80%減少する。\n\n・このキャラは、自身が燃焼状態または毒状態の時に敵の攻撃でダメージを受け、そのターンの後までHPが1より多い状態で生き残った時、自身のTUを0にして次のターンを得、また自身に状態変化「燃焼」を付与する。TUを0にする効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。この効果が発動するタイミングと、ターン間に発動する他の効果のタイミングは前後する場合がある。この効果は、カウンタースキン系の効果とはみなされない。\n\n-メタル化されたキャラが敵の攻撃で受けるダメージは50%減少する。このダメージ減少効果は、「メタル化を無視する」と明示されている場合を除き無視されない。メタル化は、ダメージ減少効果が3回発動すると解除される。メタル化されたキャラにさらにメタル化が付与された場合、発動回数がリセットされ、また残り3回発動するようになる。メタル化は状態変化ではない。"
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "優しい嘘",
+                "SkillDescription": "・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・麻痺していない状態でこのキャラにターンが回った時、そのターンが終わるまで、このキャラは麻痺されない。\n\n・このキャラが攻撃で敵（このバトル中にスキルの効果で召喚されたキャラを除く）を戦闘不能にするたびに、自身以外の場にいる味方全員のTUを0にして次のターンを与える。この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n・このキャラは場に出た時、自身に「ワンタイムアンチ即死」および状態変化「燃焼(20倍回復)」(100TU持続)を付与し、場にいる味方全員に「ワンタイムアンチポイズン」および「ワンタイムアンチスタン」を付与する。\n\n・自身が場にいる間に燃焼状態の味方にターンが回るたびに、その味方のHPを最大値の20%分回復し、そのターン終了後に自身が場にいた時、味方のスピリットを1増加させる。\n\n・このキャラが場にいる間に、場にいる火属性または水属性のキャラが戦闘不能になった時、場にいる味方全員の悪影響のある状態変化を解除し、状態変化「燃焼」を付与する。この効果は、同じ攻撃や効果でこのキャラ自身も戦闘不能になっていると発動しない。\n\n-燃焼(20倍回復)状態のキャラは、ターンが経過するたびに、燃焼(回復)状態の20倍の回復量でHPが回復する。燃焼(20倍回復)状態はクリア系の効果で解除されず、また燃焼状態、毒状態、眠り状態によって上書きされない。燃焼(20倍回復)状態のキャラにダメージを与えたキャラ、および燃焼(20倍回復)状態のキャラからダメージを受けたキャラは通常の燃焼状態になる。燃焼(20倍回復)状態がTUの経過によって解除された場合、そのキャラは300TUの間、状態変化「燃焼(回復)」になる。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "最大HPアップLv3",
+                "SkillDescription": "最大HP1200増加。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "攻撃力アップLv3",
+                "SkillDescription": "攻撃力300増加。"
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "闇耐性Lv3",
+                "SkillDescription": "闇属性のキャラの攻撃で受けるダメージ量を10%減少。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "免許皆伝:大剣",
+                "SkillDescription": "大剣も得意武器として扱うことができる。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "大剣"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "今、わたくしのことをハートの女王と呼んだ？\n不敬ね、ハートの女王さまと呼びなさい。\nまあいいわ、時間がもったいない。\n\nさあ早く、わたくしの願いを叶えて――\nじゃなきゃギルティ、有罪なんだから。"
+            ],
+            "Login": [
+                "有罪よ！"
+            ],
+            "Tap": [
+                "それは最高級の",
+                "あなたの生きている",
+                "これでも立派な"
+            ],
+            "Idle": [
+                "楽じゃないわ"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "ハートウィップ": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "ワイルドカード": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "フルハウス": {
+                    "BaseWeight": 500
+                },
+                "首をはねよ！": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

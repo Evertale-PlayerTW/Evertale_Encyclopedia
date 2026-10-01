@@ -22092,7 +22092,7 @@
         "Hp_Base": 3095,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp4AtLeast4BurningOrSleepingInBattle",
@@ -22117,7 +22117,7 @@
         "Hp_Base": 3750,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp5AtLeast4BurningOrSleepingInBattle",
@@ -22143,12 +22143,89 @@
         "Hp_Base": 4095,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp6AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "ZE-Kosten red.",
                 "SkillDescription": "Die ZE-Kosten sinken um 10%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Verbrennen haben."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ChessHeartsGreatAxe01": {
+        "Name": "Herzweihnachtslied",
+        "FullName": "Herzweihnachtslied",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Kündigt der Schwung dieser Axt ein Lied der Vergebung oder einen Schrei der Verdammnis an? Das weiß nur die Königin.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "Großaxt",
+        "Cost": 11,
+        "Atk_Base": 522,
+        "Hp_Base": 2765,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4TargetIsBurning",
+                "SkillTitle": "Angriff +",
+                "SkillDescription": "7% Bonus auf Angriffe gegen brennende Einheiten."
+            }
+        ]
+    },
+    "ChessHeartsGreatAxe02": {
+        "Name": "Herzweihnachtslied",
+        "FullName": "Herzweihnachtslied",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Kündigt der Schwung dieser Axt ein Lied der Vergebung oder einen Schrei der Verdammnis an? Das weiß nur die Königin.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "Großaxt",
+        "Cost": 17,
+        "Atk_Base": 634,
+        "Hp_Base": 3330,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5TargetIsBurning",
+                "SkillTitle": "Angriff +",
+                "SkillDescription": "10% Bonus auf Angriffe gegen brennende Einheiten."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ChessHeartsGreatAxe03": {
+        "Name": "Herzweihnachtslied",
+        "FullName": "Herzweihnachtslied",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "Kündigt der Schwung dieser Axt ein Lied der Vergebung oder einen Schrei der Verdammnis an? Das weiß nur die Königin.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "Großaxt",
+        "Cost": 23,
+        "Atk_Base": 685,
+        "Hp_Base": 3575,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6TargetIsBurning",
+                "SkillTitle": "Angriff +",
+                "SkillDescription": "15% Bonus auf Angriffe gegen brennende Einheiten."
             }
         ],
         "ExtraEvoInitialCount": 2

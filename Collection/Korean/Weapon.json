@@ -22092,7 +22092,7 @@
         "Hp_Base": 3095,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp4AtLeast4BurningOrSleepingInBattle",
@@ -22117,7 +22117,7 @@
         "Hp_Base": 3750,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp5AtLeast4BurningOrSleepingInBattle",
@@ -22143,12 +22143,89 @@
         "Hp_Base": 4095,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "HasteUp6AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "TU 코스트 감소",
                 "SkillDescription": "수면 또는 화염 상태 효과를 가진 유닛이 4기 이상 있을 경우 TU 코스트 10% 감소."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ChessHeartsGreatAxe01": {
+        "Name": "하트 캐롤",
+        "FullName": "하트 캐롤",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "이 도끼질은 사면의 노래인가, 아니면 단죄의 비명인가? 오직 여왕만이 알고 있으니.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "거대 엑스",
+        "Cost": 11,
+        "Atk_Base": 522,
+        "Hp_Base": 2765,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4TargetIsBurning",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "화염 상태 유닛에 대한 공격에 7% 보너스."
+            }
+        ]
+    },
+    "ChessHeartsGreatAxe02": {
+        "Name": "하트 캐롤",
+        "FullName": "하트 캐롤",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "이 도끼질은 사면의 노래인가, 아니면 단죄의 비명인가? 오직 여왕만이 알고 있으니.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "거대 엑스",
+        "Cost": 17,
+        "Atk_Base": 634,
+        "Hp_Base": 3330,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5TargetIsBurning",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "화염 상태 유닛에 대한 공격에 10% 보너스."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ChessHeartsGreatAxe03": {
+        "Name": "하트 캐롤",
+        "FullName": "하트 캐롤",
+        "Family": "ChessHeartsGreatAxe",
+        "Profile": "이 도끼질은 사면의 노래인가, 아니면 단죄의 비명인가? 오직 여왕만이 알고 있으니.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatAxe",
+        "WeaponType": "거대 엑스",
+        "Cost": 23,
+        "Atk_Base": 685,
+        "Hp_Base": 3575,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6TargetIsBurning",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "화염 상태 유닛에 대한 공격에 15% 보너스."
             }
         ],
         "ExtraEvoInitialCount": 2

@@ -145551,7 +145551,7 @@
         "Hp_Base": 5785,
         "Speed": 534,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "欢迎来到故事的开端",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Water",
@@ -145913,5 +145913,348 @@
                 "RelationshipBuff": "攻击力+2%"
             }
         }
+    },
+    "QueenHeartsRegular01": {
+        "Name": "红心皇后",
+        "Name2": "赤红裁决者",
+        "FullName": "红心皇后 - 赤红裁决者",
+        "Family": "QueenHeartsRegular",
+        "Profile": "君临红心城堡，美丽而又可怕的梦境世界女王。\n她的审判根本不需要什么公正。罪名也好，惩罚也好，就连规则本身，都只凭皇后一句话决定。面对她带着优雅微笑宣告蛮不讲理的裁决，没有任何人胆敢反抗。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 28,
+        "Atk_Base": 1126,
+        "Hp_Base": 5580,
+        "Speed": 490,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "美味的红茶，还有审判，都已经准备好了哦",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "火属性振奋",
+            "SkillDescription": "所有火属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "红心之鞭",
+                "SkillDescription": "对1个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低200%；场上所有己方单位获得燃烧状态。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "鬼牌",
+                "SkillDescription": "以各自20%的概率封锁敌方场上所有处于燃烧状态的单位主动技能30TU，此单位每觉醒一次额外提高20%封锁的概率；己方场上所有其他处于燃烧状态的单位减少50TU并终止敌方效果对其主动技能的封锁。场上必须有至少4个处于燃烧状态的单位才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用五次。当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "葫芦",
+                "SkillDescription": "场上每有1个处于燃烧或睡眠状态的单位，己方获得1点灵气；移除场上所有己方单位的任何中毒状态（包括致命毒），并使其获得贯通、眩晕抵抗、中毒抵抗与速败抵抗。\n每当使用者使用“红心之鞭”或“砍了他的头！”技能后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。\n“贯通”将使单位在其下一个回合结束前的攻击无视敌方的减伤效果。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "赤红裁决者",
+                "SkillDescription": "此单位进场时使场上全部己方火属性与水属性单位金属化。\n此单位不能从场上回到援军。若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。\n此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS单位防止目标被击败的效果或被动技能。若场上所有敌方单位都处于燃烧或睡眠状态，此单位受到敌方攻击的伤害减少80%。\n如果处于燃烧或中毒状态的此单位受到一次攻击并在当前回合结束之后仍然以大于1点的生命值存活，则TU归零立即获得一个回合并获得燃烧状态。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。此技能不被视为反弹还击类效果。\n金属化会使该单位此后三次遭受敌方攻击时所受的伤害减少50%，之后金属化会被移除。金属化的减伤效果不会被不能无视金属化的攻击无视。已处于金属化的单位再次金属化时次数重置为三次，金属化不属于状态效果。"
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "温柔谎言",
+                "SkillDescription": "此单位不会因为燃烧的伤害被击败。此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。\n每当此单位通过攻击击败非召唤物的敌方单位时，使己方场上所有其他单位TU归零，使其顺次获得下一回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n此单位进场时获得速败抵抗效果与持续100TU的燃烧（治愈）状态，并使己方场上所有单位获得中毒抵抗与眩晕抵抗。\n每当处于燃烧状态的己方单位回合开始时，其回复最大生命值的20%，且只要该单位在该回合结束时仍在场上，己方获得1点灵气。\n此单位在场期间，每当场上1个火属性或水属性单位被击败或牺牲且此单位未同时被击败或被牺牲后，净化己方场上所有单位并使其获得燃烧状态。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时此单位获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "暗系耐性Lv3",
+                "SkillDescription": "若此单位受到暗属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "刚才，你叫我红心皇后了？\n真是不敬，要叫我红心皇后大人。\n算了，别浪费时间了。\n\n快点，实现我的愿望——\n不然就是有罪！"
+            ],
+            "Login": [
+                "哎呀，你打算让我等到什么时候？\n有罪。不，是重罪！！"
+            ],
+            "Tap": [
+                "那可是最高级的红茶……好吧，刚才的无礼我就原谅你了。\n来，快点陪我一起喝吧？",
+                "你生活的那个世界怎么样，对我来说根本无所谓。\n所以，不许跟我说。要是说了，就是有罪。",
+                "你刚才是不是觉得我像个小孩子？\n我的确不算高，但我好歹也是堂堂的皇后大人哦！"
+            ],
+            "Idle": [
+                "唉，当皇后也真不轻松啊……要不要干脆逃到什么地方去呢……\n对了，找个更安全、能让我安心打盹的地方……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "红心之鞭": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "鬼牌": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "葫芦": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegular02": {
+        "Name": "红心皇后",
+        "Name2": "赤红裁决者",
+        "FullName": "红心皇后 - 赤红裁决者",
+        "Family": "QueenHeartsRegular",
+        "Profile": "红心皇后唯独对茶会的准备有些挑剔。\n红茶的温度、糖果的摆放方式、石榴烘焙点心的香气。一切都是为了让来访的客人开心——她虽然这么说，却偶尔会露出仿佛在等待某个并不在这里的人一般的眼神。",
+        "Profile_Ascended": "“比起冰冷的现实，我宁愿选择温柔的谎言。”\n长久以来，皇后始终只相信这一点。无论多少次让世界重来，无论多少次弄脏自己的双手，唯有想要守护的事物从未改变。然而最后她终于明白，爱不仅意味着紧紧拥抱，有时放手，也同样是一种爱。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手斧",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 34,
+        "Atk_Base": 1368,
+        "Hp_Base": 7580,
+        "Speed": 490,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "火属性振奋",
+            "SkillDescription": "所有火属性队友的最大生命值增加10%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "红心之鞭",
+                "SkillDescription": "对1个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低200%；场上所有己方单位获得燃烧状态。燃烧将覆盖其身上的其他状态效果。一个单位在给予或受到一个处于燃烧状态的单位伤害后也会陷入燃烧状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "鬼牌",
+                "SkillDescription": "以各自20%的概率封锁敌方场上所有处于燃烧状态的单位主动技能30TU，此单位每觉醒一次额外提高20%封锁的概率；己方场上所有其他处于燃烧状态的单位减少50TU并终止敌方效果对其主动技能的封锁。场上必须有至少4个处于燃烧状态的单位才可使用。此技能使用后必须等50TU后才能再次使用。此技能在一场战斗中只能使用五次。当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果对BOSS无效，无法被净化，在此单位被击败后失效。",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "葫芦",
+                "SkillDescription": "场上每有1个处于燃烧或睡眠状态的单位，己方获得1点灵气；移除场上所有己方单位的任何中毒状态（包括致命毒），并使其获得贯通、眩晕抵抗、中毒抵抗与速败抵抗。\n每当使用者使用“红心之鞭”或“砍了他的头！”技能后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。\n“贯通”将使单位在其下一个回合结束前的攻击无视敌方的减伤效果。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视，次数无法叠加。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiAttackAQueenHeartsRegular",
+                "SkillTitle": "砍了他的头！",
+                "SkillDescription": "对2个敌人造成1000%的伤害，敌方场上每存在1个不处于睡眠或燃烧状态的单位，伤害降低150%。此技能无视目标的反弹被动技能和“反击态势”状态。此攻击的伤害不会移除目标的睡眠状态。使用者必须处于燃烧状态才可使用。若此技能在10TU内使用达到3次，则有50TU的冷却时间。",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "赤红裁决者",
+                "SkillDescription": "此单位进场时使场上全部己方火属性与水属性单位金属化。\n此单位不能从场上回到援军。若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。\n此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS单位防止目标被击败的效果或被动技能。若场上所有敌方单位都处于燃烧或睡眠状态，此单位受到敌方攻击的伤害减少80%。\n如果处于燃烧或中毒状态的此单位受到一次攻击并在当前回合结束之后仍然以大于1点的生命值存活，则TU归零立即获得一个回合并获得燃烧状态。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。此技能不被视为反弹还击类效果。\n金属化会使该单位此后三次遭受敌方攻击时所受的伤害减少50%，之后金属化会被移除。金属化的减伤效果不会被不能无视金属化的攻击无视。已处于金属化的单位再次金属化时次数重置为三次，金属化不属于状态效果。"
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "温柔谎言",
+                "SkillDescription": "此单位不会因为燃烧的伤害被击败。此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。\n每当此单位通过攻击击败非召唤物的敌方单位时，使己方场上所有其他单位TU归零，使其顺次获得下一回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n此单位进场时获得速败抵抗效果与持续100TU的燃烧（治愈）状态，并使己方场上所有单位获得中毒抵抗与眩晕抵抗。\n每当处于燃烧状态的己方单位回合开始时，其回复最大生命值的20%，且只要该单位在该回合结束时仍在场上，己方获得1点灵气。\n此单位在场期间，每当场上1个火属性或水属性单位被击败或牺牲且此单位未同时被击败或被牺牲后，净化己方场上所有单位并使其获得燃烧状态。\n处于燃烧（治愈）状态的单位在每个回合结束时以20倍于燃烧造成伤害的量回复生命值。此效果将覆盖身上的其他状态效果且燃烧（治愈）状态能覆盖燃烧（回复）状态而不会被其他燃烧、中毒或睡眠状态所覆盖。一个单位在给予或受到一个处于燃烧（治愈）状态的单位伤害后会陷入燃烧状态。燃烧（治愈）状态无法被净化。当燃烧（治愈）持续时间结束时此单位获得持续300TU的燃烧（回复）状态。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "暗系耐性Lv3",
+                "SkillDescription": "若此单位受到暗属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "双手剑大师",
+                "SkillDescription": "若此单位装备双手剑类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "双手剑"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "刚才，你叫我红心皇后了？\n真是不敬，要叫我红心皇后大人。\n算了，别浪费时间了。\n\n快点，实现我的愿望——\n不然就是有罪！"
+            ],
+            "Login": [
+                "哎呀，你打算让我等到什么时候？\n有罪。不，是重罪！！"
+            ],
+            "Tap": [
+                "那可是最高级的红茶……好吧，刚才的无礼我就原谅你了。\n来，快点陪我一起喝吧？",
+                "你生活的那个世界怎么样，对我来说根本无所谓。\n所以，不许跟我说。要是说了，就是有罪。",
+                "你刚才是不是觉得我像个小孩子？\n我的确不算高，但我好歹也是堂堂的皇后大人哦！"
+            ],
+            "Idle": [
+                "唉，当皇后也真不轻松啊……要不要干脆逃到什么地方去呢……\n对了，找个更安全、能让我安心打盹的地方……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "红心之鞭": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "鬼牌": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "葫芦": {
+                    "BaseWeight": 500
+                },
+                "砍了他的头！": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

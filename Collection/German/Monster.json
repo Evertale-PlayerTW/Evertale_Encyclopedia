@@ -145551,7 +145551,7 @@
         "Hp_Base": 5785,
         "Speed": 534,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Willkommen. Hier begann meine Geschichte.",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Water",
@@ -145913,5 +145913,348 @@
                 "RelationshipBuff": "ANG+2%"
             }
         }
+    },
+    "QueenHeartsRegular01": {
+        "Name": "Herzkönigin",
+        "Name2": "Roter Schiedsrichter",
+        "FullName": "Herzkönigin - Roter Schiedsrichter",
+        "Family": "QueenHeartsRegular",
+        "Profile": "Sie ist die wunderschöne und zugleich furchterregende Königin, die vom Schloss der Herzen aus über ihre Traumwelt herrscht.\nVernunft und Moral haben an ihrem Hof keinen Platz. Schuld, Bestrafung und sogar das Gesetz selbst werden allein durch ihr Wort bestimmt. Niemand wagt es, sich ihr zu widersetzen, während sie mit einem eleganten Lächeln ihre absurden Verordnungen verkündet.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großaxt",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 28,
+        "Atk_Base": 1126,
+        "Hp_Base": 5580,
+        "Speed": 490,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Der Prozess beginnt. Aber erst etwas Tee.",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Feuer-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Feuer-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Reizbar",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Abzug von 200% Schaden für jeden Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -800%, wenn 4 Gegner weder schlafen noch brennen).\n\nAnschließend erhalten alle Verbündeten den Statuseffekt Brennen. Brennen überschreibt andere Statuseffekte auf diesen Einheiten. Jede Einheit, die einer Einheit mit dem Statuseffekt Brennen Schaden zufügt oder von dieser Schaden erleidet, erhält ebenfalls den Statuseffekt Brennen.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Ergreift sie",
+                "SkillDescription": "Jeder brennende Gegner auf dem Schlachtfeld hat eine Chance von 20% plus 20% pro Erweckung des Anwenders (bis zu 100%, wenn der Anwender 4 Erweckungen hat), dass seine aktiven Fertigkeiten für 30 ZE deaktiviert werden.\n\nAnschließend werden die aktuellen ZE aller anderen brennenden Verbündeten auf dem Schlachtfeld um 50 ZE reduziert, und alle gegnerischen Effekte, die derzeit ihre aktiven Fertigkeiten deaktivieren, enden.\n\nNur einsetzbar, wenn mindestens 4 Einheiten den Statuseffekt Brennen haben. Diese Fertigkeit wird nach dem Einsatz für 50 ZE gesperrt. 5 Mal pro Kampf einsetzbar. Wenn die aktiven Fähigkeiten einer Einheit deaktiviert sind und sie an der Reihe ist, verliert sie ihren Zug, als ob sie schlafen würde. Dieser Effekt wirkt nicht auf Bosse, kann nicht gereinigt werden und endet, wenn der Anwender besiegt wird.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Starke Hand",
+                "SkillDescription": "Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt oder schläft.\n\nEntfernt Gift (einschließlich tödliches Gift) von allen Verbündeten auf dem Schlachtfeld. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Durchbohren, einen Betäubungs-Schutz, einen Gift-Schutz und einen Soforttod-Schutz.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Reizbar oder Blutherzen einsetzt, und wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nEine Einheit mit Durchbohren ignoriert mit ihren Angriffen feindliche Schadensreduzierungseffekte bis zum Ende ihres nächsten Zuges. Jeder Schutz verhindert einmal, dass der jeweilige Effekt angewendet wird, und wird danach entfernt. Identische Schutze können nicht gestapelt werden. Ein Soforttod-Schutz verhindert einmal, dass eine Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird, und wird danach entfernt. Soforttod-Schutze können nicht ignoriert werden und lassen sich nicht stapeln.",
+                "TU": 1,
+                "Spirit": "+1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Roter Richter",
+                "SkillDescription": "Wenn diese Einheit in den Kampf eintritt, werden alle Verbündeten der Elemente Feuer und Wasser verstärkt.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zu den Verstärkungen geschickt werden. Wenn diese Einheit durch einen feindlichen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens und ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nDiese Einheit hat 80% Schadensreduzierung durch Angriffe, wenn alle Gegner auf dem Schlachtfeld schlafen oder brennen.\n\nJedes Mal, wenn diese Einheit Schaden durch einen Angriff erleidet, während sie brennt oder vergiftet ist, und bis nach Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit einen zusätzlichen Zug, indem ihre ZE auf 0 reduziert wird und sie erhält den Statuseffekt Brennen. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. andere Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen. Dies gilt nicht als Effekt vom Typ Konter-Skin.\n\nEine Verstärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die verstärkung nicht ausdrücklich ignorieren. Verstärkt wird entfernt, nachdem der Schaden seit dem Anwenden dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Die Köpfe ab",
+                "SkillDescription": "Diese Einheit kann nicht durch Schaden von Verbrennung-Statuseffekten besiegt werden. Immer wenn diese Einheit an der Reihe ist und ihre aktiven Fertigkeiten nicht deaktiviert sind, können diese bis zum Ende ihres Zuges nicht deaktiviert werden.\n\nWenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, erhalten alle anderen Verbündeten auf dem Schlachtfeld ihren nächsten Zug, indem ihre aktuellen ZE reduziert werden. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen).\n\nDiese Einheit tritt mit einem Soforttod-Schutz und Mega-Heilbrand für 100 ZE in den Kampf ein. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Giftschutz und Betäubungsschutz.\n\nJedes Mal, wenn ein Verbündeter im Zug ist und unter Verbrennung leidet, heilt er sich um 20% seiner maximalen LP, und danach erhalten die Verbündeten 1 Geist, solange diese Einheit auf dem Schlachtfeld bleibt.\n\nSolange sich diese Einheit auf dem Schlachtfeld befindet und eine Einheit des Feuer- oder Wasser-Elements auf dem Schlachtfeld durch irgendeinen Grund besiegt oder geopfert wird – vorausgesetzt, diese Einheit wird nicht gleichzeitig besiegt oder geopfert –, werden alle Verbündeten auf dem Schlachtfeld gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und anschließend verbrannt.\n\nEine Einheit mit Mega-Heilbrand heilt nach jedem Zug 20-mal so viel, wie bei Heilbrand. Dies überschreibt andere Statuseffekte, einschließlich Heilbrand beim Anwender, kann nicht durch die Statuseffekte Brennen, Gift oder Schlaf überschrieben werden und kann nicht gereinigt werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von dieser Schaden erleidet, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält für 300 ZE den Effekt Mega-Heilbrand, sobald Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Schatten-Widerst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Schatten-Einheiten."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hast du mich gerade die Herzkönigin genannt?\nWie kannst du es wagen? Du wirst mich mit Eure Majestät, die Herzkönigin ansprechen.\nAber genug des Herumtrödelns, beeil dich und erfülle meine Wünsche – sonst lautet das Urteil schuldig, schuldig, schuldig!"
+            ],
+            "Login": [
+                "Wie kannst du es wagen, mich warten zu lassen? Schuldig, schuldig, schuldig! Nein... nicht nur schuldig... extrem schuldig!"
+            ],
+            "Tap": [
+                "Du bietest mir erstklassigen Tee als Tribut an...? Na gut, dann werde ich dir deine frühere Unverschämtheit verzeihen. Lass uns diesen Tee doch sofort gemeinsam probieren.",
+                "Ich habe weder Interesse noch Interesse an dieser Welt, in der du lebst. Also langweile mich nicht mit so einem Quatsch darüber. Wenn du es versuchst... lautet das Urteil natürlich schuldig!",
+                "Wie kannst du es wagen, auf mich herabzuschauen, als wäre ich ein kleines Kind! Ich bin zwar klein von Statur, aber trotzdem bin ich eine echte und angesehene Königin!"
+            ],
+            "Idle": [
+                "Oh je, Königin zu sein ist so anstrengend... Vielleicht sollte ich das alles einfach hinschmeißen und mich irgendwo verstecken... Ja, an einem sicheren und gemütlichen Ort für ein Nickerchen..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Reizbar": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Ergreift sie": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Starke Hand": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "QueenHeartsRegular02": {
+        "Name": "Herzkönigin",
+        "Name2": "Roter Schiedsrichter",
+        "FullName": "Herzkönigin - Roter Schiedsrichter",
+        "Family": "QueenHeartsRegular",
+        "Profile": "Die Herzkönigin ist ziemlich wählerisch, wenn es um die Vorbereitungen für eine Teeparty geht.\nAlles muss genau richtig sein – die Temperatur des Tees, die Anordnung der Süßigkeiten, der Duft der Granatapfel-Gebäckstücke. Sie fordert ein, dass alles dazu dient, die Freude ihrer Gäste zu gewährleisten, doch manchmal wirkt es so, als würde sie mit ihrem Blick auf jemanden warten, der gar nicht mehr da ist.",
+        "Profile_Ascended": "Eine sanfte Lüge ist besser als eine grausame Realität.\n\nLange Zeit war das das Einzige, woran die Königin glaubte. Egal, wie oft sie die Welt zurückspulte oder ihre Hände mit Blut befleckte – sie glaubte, dass ihr Wunsch, andere zu beschützen, niemals nachlassen würde. Doch am Ende lernte sie, dass Liebe nicht nur bedeutet, jemanden festzuhalten, sondern auch zu wissen, wann man ihn loslassen muss.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großaxt",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 34,
+        "Atk_Base": 1368,
+        "Hp_Base": 7580,
+        "Speed": 490,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpFireD",
+            "SkillTitle": "Feuer-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Feuer-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAQueenHeartsRegular",
+                "SkillTitle": "Reizbar",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Abzug von 200% Schaden für jeden Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -800%, wenn 4 Gegner weder schlafen noch brennen).\n\nAnschließend erhalten alle Verbündeten den Statuseffekt Brennen. Brennen überschreibt andere Statuseffekte auf diesen Einheiten. Jede Einheit, die einer Einheit mit dem Statuseffekt Brennen Schaden zufügt oder von dieser Schaden erleidet, erhält ebenfalls den Statuseffekt Brennen.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllUnitsBuffAQueenHeartsRegular",
+                "SkillTitle": "Ergreift sie",
+                "SkillDescription": "Jeder brennende Gegner auf dem Schlachtfeld hat eine Chance von 20% plus 20% pro Erweckung des Anwenders (bis zu 100%, wenn der Anwender 4 Erweckungen hat), dass seine aktiven Fertigkeiten für 30 ZE deaktiviert werden.\n\nAnschließend werden die aktuellen ZE aller anderen brennenden Verbündeten auf dem Schlachtfeld um 50 ZE reduziert, und alle gegnerischen Effekte, die derzeit ihre aktiven Fertigkeiten deaktivieren, enden.\n\nNur einsetzbar, wenn mindestens 4 Einheiten den Statuseffekt Brennen haben. Diese Fertigkeit wird nach dem Einsatz für 50 ZE gesperrt. 5 Mal pro Kampf einsetzbar. Wenn die aktiven Fähigkeiten einer Einheit deaktiviert sind und sie an der Reihe ist, verliert sie ihren Zug, als ob sie schlafen würde. Dieser Effekt wirkt nicht auf Bosse, kann nicht gereinigt werden und endet, wenn der Anwender besiegt wird.",
+                "TU": 30,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "AllyBuffAQueenHeartsRegular",
+                "SkillTitle": "Starke Hand",
+                "SkillDescription": "Verbündete erhalten 1 Geist für jede Einheit auf dem Schlachtfeld, die brennt oder schläft.\n\nEntfernt Gift (einschließlich tödliches Gift) von allen Verbündeten auf dem Schlachtfeld. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Durchbohren, einen Betäubungs-Schutz, einen Gift-Schutz und einen Soforttod-Schutz.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Reizbar oder Blutherzen einsetzt, und wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nEine Einheit mit Durchbohren ignoriert mit ihren Angriffen feindliche Schadensreduzierungseffekte bis zum Ende ihres nächsten Zuges. Jeder Schutz verhindert einmal, dass der jeweilige Effekt angewendet wird, und wird danach entfernt. Identische Schutze können nicht gestapelt werden. Ein Soforttod-Schutz verhindert einmal, dass eine Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird, und wird danach entfernt. Soforttod-Schutze können nicht ignoriert werden und lassen sich nicht stapeln.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiAttackAQueenHeartsRegular",
+                "SkillTitle": "Blutherzen",
+                "SkillDescription": "1000% Schaden an 2 Gegnern. Der Schaden verringert sich um 150% pro Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -600%, wenn 4 Gegner weder schlafen noch brennen). Dieser Angriff ignoriert passive Skin-Fertigkeiten und den Statuseffekt Konterstellung. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\nNur einsetzbar, wenn der Anwender den Statuseffekt Brennen hat. Wird diese Fertigkeit innerhalb von 10 ZE dreimal eingesetzt, wird sie für 50 ZE gesperrt.",
+                "TU": 1,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "RoyalDecreePassiveAQueenHeartsRegular",
+                "SkillTitle": "Roter Richter",
+                "SkillDescription": "Wenn diese Einheit in den Kampf eintritt, werden alle Verbündeten der Elemente Feuer und Wasser verstärkt.\n\nDiese Einheit kann nicht vom Schlachtfeld aus zu den Verstärkungen geschickt werden. Wenn diese Einheit durch einen feindlichen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens und ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nDiese Einheit hat 80% Schadensreduzierung durch Angriffe, wenn alle Gegner auf dem Schlachtfeld schlafen oder brennen.\n\nJedes Mal, wenn diese Einheit Schaden durch einen Angriff erleidet, während sie brennt oder vergiftet ist, und bis nach Ende des Zuges mit mehr als 1 LP überlebt, erhält diese Einheit einen zusätzlichen Zug, indem ihre ZE auf 0 reduziert wird und sie erhält den Statuseffekt Brennen. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. andere Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen. Dies gilt nicht als Effekt vom Typ Konter-Skin.\n\nEine Verstärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die verstärkung nicht ausdrücklich ignorieren. Verstärkt wird entfernt, nachdem der Schaden seit dem Anwenden dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
+            },
+            {
+                "SkillCodename": "OffWithTheirHeadsPassiveAQueenHeartsRegular",
+                "SkillTitle": "Die Köpfe ab",
+                "SkillDescription": "Diese Einheit kann nicht durch Schaden von Verbrennung-Statuseffekten besiegt werden. Immer wenn diese Einheit an der Reihe ist und ihre aktiven Fertigkeiten nicht deaktiviert sind, können diese bis zum Ende ihres Zuges nicht deaktiviert werden.\n\nWenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, erhalten alle anderen Verbündeten auf dem Schlachtfeld ihren nächsten Zug, indem ihre aktuellen ZE reduziert werden. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen).\n\nDiese Einheit tritt mit einem Soforttod-Schutz und Mega-Heilbrand für 100 ZE in den Kampf ein. Anschließend erhalten alle Verbündeten auf dem Schlachtfeld Giftschutz und Betäubungsschutz.\n\nJedes Mal, wenn ein Verbündeter im Zug ist und unter Verbrennung leidet, heilt er sich um 20% seiner maximalen LP, und danach erhalten die Verbündeten 1 Geist, solange diese Einheit auf dem Schlachtfeld bleibt.\n\nSolange sich diese Einheit auf dem Schlachtfeld befindet und eine Einheit des Feuer- oder Wasser-Elements auf dem Schlachtfeld durch irgendeinen Grund besiegt oder geopfert wird – vorausgesetzt, diese Einheit wird nicht gleichzeitig besiegt oder geopfert –, werden alle Verbündeten auf dem Schlachtfeld gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und anschließend verbrannt.\n\nEine Einheit mit Mega-Heilbrand heilt nach jedem Zug 20-mal so viel, wie bei Heilbrand. Dies überschreibt andere Statuseffekte, einschließlich Heilbrand beim Anwender, kann nicht durch die Statuseffekte Brennen, Gift oder Schlaf überschrieben werden und kann nicht gereinigt werden. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von dieser Schaden erleidet, erhält den Statuseffekt Brennen. Eine Einheit mit Mega-Heilbrand erhält für 300 ZE den Effekt Mega-Heilbrand, sobald Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillCodename": "DeathMinusDamageLv3",
+                "SkillTitle": "Schatten-Widerst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Schatten-Einheiten."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatSword",
+                "SkillTitle": "Großschwert-Meist.",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Großschwertern nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Großschwert"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hast du mich gerade die Herzkönigin genannt?\nWie kannst du es wagen? Du wirst mich mit Eure Majestät, die Herzkönigin ansprechen.\nAber genug des Herumtrödelns, beeil dich und erfülle meine Wünsche – sonst lautet das Urteil schuldig, schuldig, schuldig!"
+            ],
+            "Login": [
+                "Wie kannst du es wagen, mich warten zu lassen? Schuldig, schuldig, schuldig! Nein... nicht nur schuldig... extrem schuldig!"
+            ],
+            "Tap": [
+                "Du bietest mir erstklassigen Tee als Tribut an...? Na gut, dann werde ich dir deine frühere Unverschämtheit verzeihen. Lass uns diesen Tee doch sofort gemeinsam probieren.",
+                "Ich habe weder Interesse noch Interesse an dieser Welt, in der du lebst. Also langweile mich nicht mit so einem Quatsch darüber. Wenn du es versuchst... lautet das Urteil natürlich schuldig!",
+                "Wie kannst du es wagen, auf mich herabzuschauen, als wäre ich ein kleines Kind! Ich bin zwar klein von Statur, aber trotzdem bin ich eine echte und angesehene Königin!"
+            ],
+            "Idle": [
+                "Oh je, Königin zu sein ist so anstrengend... Vielleicht sollte ich das alles einfach hinschmeißen und mich irgendwo verstecken... Ja, an einem sicheren und gemütlichen Ort für ein Nickerchen..."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsBurning": 1.01,
+                "AllUnitsInBattleBurning": 1.05
+            },
+            "SkillUse": {
+                "Reizbar": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                },
+                "Ergreift sie": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Starke Hand": {
+                    "BaseWeight": 500
+                },
+                "Blutherzen": {
+                    "BaseWeight": 5,
+                    "Ignore": [
+                        "HasSkin"
+                    ],
+                    "Source": {
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0,
+                        "AllEnemiesIsStealth": 0,
+                        "AllEnemiesIsStealthAlt": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsNotBurning": 1.01
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }
