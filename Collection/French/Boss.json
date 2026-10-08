@@ -55703,7 +55703,7 @@
             },
             {
                 "SkillCodename": "MultiAttackAAliceNewBoss",
-                "SkillTitle": "Explosion d'Étoile",
+                "SkillTitle": "Explosion Stellaire",
                 "SkillDescription": "1000% de dégâts à 2 ennemis. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nRenvoie l'utilisateur du champ de bataille en tête des renforts alliés. S'il n'y a pas de renforts alliés, le nombre nécessaire de Super Suimoris est ajouté à l'équipe alliée pour que l'utilisateur puisse être renvoyé vers les renforts (un maximum de 4 si l'utilisateur est seul sur le champ de bataille). Utilisable seulement si le lanceur a conservé 3 Charges. Utilisable 10 fois par bataille.",
                 "TU": 0,
                 "Spirit": "-3"
@@ -55762,7 +55762,7 @@
                 "Prisons Magiques": {
                     "BaseWeight": 250
                 },
-                "Explosion d'Étoile": {
+                "Explosion Stellaire": {
                     "BaseWeight": 2.5,
                     "Ignore": [
                         "IsSleeping",
@@ -56045,7 +56045,7 @@
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
                 "SkillTitle": "Sentiments Blessés",
-                "SkillDescription": "400% de dégâts à 1 ennemi. 800% de dégâts à la place si la cible a infligé des dégâts à un allié par attaque lorsqu'une alliée « Cupidon, sorcière de l'amour véritable » est sur le champ de bataille. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Protection Sommeil et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées.",
+                "SkillDescription": "400% de dégâts à 1 ennemi. 800% de dégâts à la place si la cible n'a pas quitté le champ de bataille depuis avoir infligé des dégâts à un allié par attaque lorsqu'une alliée « Cupidon, sorcière de l'amour véritable » est sur le champ de bataille. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Protection Sommeil et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -56059,7 +56059,7 @@
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
                 "SkillTitle": "Entremetteur",
-                "SkillDescription": "Les TU actuels d'un autre allié aléatoire avec Lien de Cupidon sont réduits à 0. Puis les TU actuels d'un allié aléatoire ne possédant pas Lien de Cupidon seront réduits à 0. Les deux unités sont Purifiées et deviennent Enragées. Les Compétences Actives qui donnent des tours ne peuvent être utilisées lors des tours donnés par cette compétence.\n\nDéverrouillé à chaque fois que le lanceur utilise Sentiments Blessés ou Coup de Cupidon, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCeci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "SkillDescription": "Les TU actuels d'un autre allié aléatoire avec Lien de Cupidon et d'un allié aléatoire ne possédant pas Lien de Cupidon sont réduits. L'allié ne possédant pas Lien de Cupidon sera le premier dans l'ordre des tours. Les deux unités sont Purifiées et deviennent Enragées. Les Compétences Actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'après ce qu'elle ait pris son tour.\n\nDéverrouillé à chaque fois que le lanceur utilise Sentiments Blessés ou Tir de Cupidon, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCeci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
                 "TU": 10,
                 "Spirit": "-1"
             }
@@ -56138,7 +56138,7 @@
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
                 "SkillTitle": "Sentiments Blessés",
-                "SkillDescription": "400% de dégâts à 1 ennemi. 800% de dégâts à la place si la cible a infligé des dégâts à un allié par attaque lorsqu'une alliée « Cupidon, sorcière de l'amour véritable » est sur le champ de bataille. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Protection Sommeil et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées.",
+                "SkillDescription": "400% de dégâts à 1 ennemi. 800% de dégâts à la place si la cible n'a pas quitté le champ de bataille depuis avoir infligé des dégâts à un allié par attaque lorsqu'une alliée « Cupidon, sorcière de l'amour véritable » est sur le champ de bataille. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Protection Sommeil et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -56152,13 +56152,13 @@
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
                 "SkillTitle": "Entremetteur",
-                "SkillDescription": "Les TU actuels d'un autre allié aléatoire avec Lien de Cupidon sont réduits à 0. Puis les TU actuels d'un allié aléatoire ne possédant pas Lien de Cupidon seront réduits à 0. Les deux unités sont Purifiées et deviennent Enragées. Les Compétences Actives qui donnent des tours ne peuvent être utilisées lors des tours donnés par cette compétence.\n\nDéverrouillé à chaque fois que le lanceur utilise Sentiments Blessés ou Coup de Cupidon, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCeci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "SkillDescription": "Les TU actuels d'un autre allié aléatoire avec Lien de Cupidon et d'un allié aléatoire ne possédant pas Lien de Cupidon sont réduits. L'allié ne possédant pas Lien de Cupidon sera le premier dans l'ordre des tours. Les deux unités sont Purifiées et deviennent Enragées. Les Compétences Actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'après ce qu'elle ait pris son tour.\n\nDéverrouillé à chaque fois que le lanceur utilise Sentiments Blessés ou Tir de Cupidon, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCeci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
                 "TU": 10,
                 "Spirit": "-1"
             },
             {
                 "SkillCodename": "SpecialAttackACupidRegularBoss",
-                "SkillTitle": "Coup de Cupidon",
+                "SkillTitle": "Tir de Cupidon",
                 "SkillDescription": "250% de dégâts à 1 ennemi, et 150% de plus par le nombre de fois que le lanceur a déjà utilisé cette compétence ou Sentiments Blessés sur le champ de bataille (maximum de 1000% de dégâts totaux après 5 utilisations voire plus de cette compétence ou Sentiments Blessés).\n\nÀ chaque deuxième fois que cette compétence est activée par l'utilisateur sur le champ de bataille, un ennemi aléatoire non-boss, non-Éphémère du champ de bataille sera immédiatement vaincu (l'utilisateur sera considéré comma ayant vaincu cet ennemi par attaque). Cet effet secondaire ignore les compétences passives de Vengeance et Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi aléatoire d'être vaincu.\n\nUtilisable 10 fois par bataille.",
                 "TU": 50,
                 "Spirit": "-3"
@@ -56213,7 +56213,7 @@
                         "IsNotAlone": 250
                     }
                 },
-                "Coup de Cupidon": {
+                "Tir de Cupidon": {
                     "BaseWeight": 1,
                     "Source": {
                         "Has4GoodGirlBuffExactly": 5,

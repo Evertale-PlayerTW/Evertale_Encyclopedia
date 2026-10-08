@@ -14523,6 +14523,17 @@
                     "WaterElfWarrior01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -14864,6 +14875,17 @@
                     "BattleCleric01",
                     "RedScarfFrog01",
                     "WaterElfWarrior01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -17613,6 +17635,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -17987,6 +18020,17 @@
                     "KintaroRegular01",
                     "GearLancerGirl01",
                     "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "PV+3%"
@@ -48703,6 +48747,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -48984,6 +49039,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -145751,7 +145817,7 @@
             },
             {
                 "SkillCodename": "MultiAttackAAliceNew",
-                "SkillTitle": "Explosion d'Étoile",
+                "SkillTitle": "Explosion Stellaire",
                 "SkillDescription": "1000% de dégâts à 2 ennemis. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nRenvoie l'utilisateur du champ de bataille en tête des renforts alliés. S'il n'y a pas de renforts alliés, le nombre nécessaire de Super Suimoris est ajouté à l'équipe alliée pour que l'utilisateur puisse être renvoyé vers les renforts (un maximum de 4 si l'utilisateur est seul sur le champ de bataille). Utilisable seulement si le lanceur a conservé 3 Charges. Utilisable 10 fois par bataille.",
                 "TU": 0,
                 "Spirit": "-3"
@@ -145865,7 +145931,7 @@
                 "Prisons Magiques": {
                     "BaseWeight": 250
                 },
-                "Explosion d'Étoile": {
+                "Explosion Stellaire": {
                     "BaseWeight": 2.5,
                     "Ignore": [
                         "IsSleeping",
@@ -145932,7 +145998,7 @@
         "Hp_Base": 5580,
         "Speed": 490,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Que le procès commence. Mais d'abord, du thé.",
         "LeaderSkill": {
             "SkillCodename": "HPUpFireD",
@@ -146062,6 +146128,19 @@
                 "Une Main Forte": {
                     "BaseWeight": 500
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -146255,6 +146334,387 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "CupidRegular01": {
+        "Name": "Cupidon",
+        "Name2": "Sorcière de l'amour véritable",
+        "FullName": "Cupidon - Sorcière de l'amour véritable",
+        "Family": "CupidRegular",
+        "Profile": "Cupidon arrive en volant dès qu'elle ressent de l'amour dans l'air, oubliant tout à propos du temps et de l'espace. Les déclarations d'amour, s'extasier à propos d'un amant, les disputes d'amoureux––Tout ça porte la douce odeur de l'amour. Même à présent, à chaque fois qu'elle entend que le coeur de quelqu'un commence à battre rapidement, Cupidon apparait avec le doux battement de ses ailes.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 28,
+        "Atk_Base": 1069,
+        "Hp_Base": 5865,
+        "Speed": 526,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Ooooooh, je sens de L'A-M-O-U-R dans l'air !",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "Lumière PV+",
+            "SkillDescription": "Les alliés Lumière voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Sentiments Blessés",
+                "SkillDescription": "400% de dégâts à 1 ennemi. 800% de dégâts à la place si la cible n'a pas quitté le champ de bataille depuis avoir infligé des dégâts à un allié par attaque lorsqu'une alliée « Cupidon, sorcière de l'amour véritable » est sur le champ de bataille. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Protection Sommeil et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Rép. Lien de Cupid.",
+                "SkillDescription": "Un autre allié aléatoire non-invoqué n'ayant pas déjà un Lien gagne Lien de Cupidon pendant 50TU.\n\nPuis cet allié et cette unité sont :\n- Purifiés (retire les effets de statut négatifs comme le Sommeil, la Brûlure ou le Poison).\n- Fortifiés et gagnent une Protection Mort Instantanée.\n\nUtilisable seulement si aucun autre allié du champ de bataille ne possède déjà Lien de Cupidon et s'il y a une cible valable. Utilisable 5 fois par bataille.\n\nUne Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Une unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Entremetteur",
+                "SkillDescription": "Les TU actuels d'un autre allié aléatoire avec Lien de Cupidon et d'un allié aléatoire ne possédant pas Lien de Cupidon sont réduits. L'allié ne possédant pas Lien de Cupidon sera le premier dans l'ordre des tours. Les deux unités sont Purifiées et deviennent Enragées. Les Compétences Actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'après ce qu'elle ait pris son tour.\n\nDéverrouillé à chaque fois que le lanceur utilise Sentiments Blessés ou Tir de Cupidon, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCeci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "TU": 10,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Sorcière de l'Amour",
+                "SkillDescription": "Cette unité débute avec Lien de Cupidon. Un autre allié aléatoire non-invoqué ne possédant pas déjà un Lien gagne Lien de Cupidon pendant 50TU lorsque cette unité entre en bataille. Puis cet allié et cette unité sont Fortifiés et gagne une Protection Mort Instantanée.\n\nUne unité avec Lien de Cupidon bénéficie de ces effets :\n\nElle ne peut être Charmée.\n\nCette unité sera soignée de 50% de ses PV max à chaque fois qu'un allié avec Lien de Cupidon prend son tour.\n\nCette unité bénéficie d'une addition à son Attaque d'un quart de son Attaque d'origine si elle n'est pas Enragée. Ceci peut être empilé avec les autres augmentations d'Attaques (p. ex. 1,5x + 0,25x => total de 1,75x).\n\nLorsque cette unité vainc un ennemi par attaque après la fin du tour, tous les autres alliés possédant Lien de Cupidon prendront les prochains tours en réduisant leurs TU actuels, et seront Purifiés. Ce tour supplémentaire peut être interrompu par les effets influençant l'ordre des tours (p.ex. les Étourdissements ciblant l'unité aux TU les plus bas). Ces réductions de TU peuvent être déclenchées avant ou après ces autres effets ajustant l'ordre des tours.\n\nCe lien est retiré si cette unité ou l'unité l'ayant donné quitte le champ de bataille. Cette unité ne peut gagner d'autres Liens."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Chérie Ailée",
+                "SkillDescription": "Cette unité entre en bataille avec une Protection Sommeil et une Protection Poison.\n\nCette unité ne peut être étourdie ou renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité bénéficie d'une réduction de 25% des dégâts provenant d'attaques. Cette unité bénéficie d'une réduction de 50% des dégâts provenant d'attaques s'il y a 2 alliés avec Liens sur le champ de bataille.\n\nLes attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, ne réveillent pas les ennemis endormis, ignorent les effets de réduction de dégâts, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nLa première fois que cette unité subit des dégâts par une attaque ennemie et survit jusqu'à la fin du tour, 20% de chance et 20% de plus par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que cette unité Charme tous les ennemis du champ de bataille pendant 50TU. Cet effet est réinitialisé pour qu'il puisse à nouveau être déclenché à chaque fois que cette unité utilise Rétablir Lien de Cupidon.\n\nCette unité sera Purifiée et soignée de 25% de ses PV max à chaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour.\n\nL'Attaque d'une unité Charmée est grandement réduite (p.ex. à la moitié de son Attaque d'origine pour une unité n'ayant pas d'autres modificateurs d'Attaque. L'effet de Charmé peut être réduit si l'Attaque de l'unité affectée est augmentée par d'autres effets). Charmé remplace les effets d'Enragé et d'Affaiblissement, et les unités Charmées ne peuvent être Enragées ou Affaiblies. Les unités Charmées ont moins de chances de cibler l'unité les ayant Charmées avec la plupart des compétences actives. Charmé n'est pas un effet de statut et ne peut être retiré par les compétences de Purification, mais prendra fin si l'unité Charmée quitte le champ de bataille."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Résist. Épée LV3",
+                "SkillDescription": "10% moins de dégâts des attaques des unités équipées d'une Épée."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Maîtrise Hache",
+                "SkillDescription": "Peut utiliser les talents d'arme des Haches en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hache"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Héhé, je m'appelle Cupidon !\nOh, es-tu aussi à la recherche d'amour ? Alors trouvons-en ensemble !\nAh, tu vois ça, là-bas ? Et là aussi ! Il y a tellement d'amour partout !"
+            ],
+            "Login": [
+                "Hmmm... Oh là là...! Je ressens de l'amour venant de cette direction ! Allons-y ! Il ne faudrait pas qu'on rate ça !"
+            ],
+            "Tap": [
+                "Quoi ? Tu veux que je te raconte mon expérience au sein du Temple du Temps...? Eh bien, c'était humide, sombre et surpeuplé... Pas mon type d'endroit... L'apprentissage devrait se faire dans un endroit qui est plus ouvert et libre ! N'es-tu pas d'accord ?",
+                "Parlons-donc à propos d'amour ! ... Hein ? Tu veux en savoir davantage à mon propos...? Euuuh... Parler de moi-même ne m'intéresse pas vraiment. Et si on discutait de ta vie amoureuse à la place !",
+                "Garçon avec garçon, fille avec fille... Leur genre ne change rien pour moi. Tout le monde est égal quand il s'agit d'amour !"
+            ],
+            "Idle": [
+                "Oh, oh oh oh ! Je sens l'odeur quelqu'un qui tombe amoureux...! Hmmm, est-ce que ça vient de là ? Ou peut-être de là...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Sentiments Blessés": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Rép. Lien de Cupid.": {
+                    "BaseWeight": 500
+                },
+                "Entremetteur": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "CupidRegular02": {
+        "Name": "Cupidon",
+        "Name2": "Sorcière de l'amour véritable",
+        "FullName": "Cupidon - Sorcière de l'amour véritable",
+        "Family": "CupidRegular",
+        "Profile": "Pendant son temps au sein du Temple du Temps, elle était beaucoup plus intéressée par ses fantasmes romantiques que par les cours ennuyeux. Tout le monde la considérait comme étant une étudiante peu sérieuse à deux doigts de redoubler––Mais en vérité, elle avait un potentiel plus grand que quiconque en magie du temps. Les marges de ses notes de classes sont remplies d'histoires d'amour inachevées.",
+        "Profile_Ascended": "L'objectif de Cupidon était de découvrir l'exemple le plus pur « d'amour véritable » , d'absorber sa force, et de devenir le nouveau Primordial de l'Amour. Et en profondeurs d'un ancien rêve, elle trouva un amour incroyablement potent qui était rester en dormance pendant des siècles.\nElle ne reculera devant rien pour achever son objectif––Même si cela signifierait qu'elle exploiterait les souhaits, la douleur et les destins tragiques des autres.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 34,
+        "Atk_Base": 1243,
+        "Hp_Base": 8205,
+        "Speed": 526,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "Lumière PV+",
+            "SkillDescription": "Les alliés Lumière voient leurs PV Max augmenter de 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Sentiments Blessés",
+                "SkillDescription": "400% de dégâts à 1 ennemi. 800% de dégâts à la place si la cible n'a pas quitté le champ de bataille depuis avoir infligé des dégâts à un allié par attaque lorsqu'une alliée « Cupidon, sorcière de l'amour véritable » est sur le champ de bataille. Cette attaque ignore les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nL'utilisateur gagne une Protection Sommeil et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections Identiques ne peuvent être empilées.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Rép. Lien de Cupid.",
+                "SkillDescription": "Un autre allié aléatoire non-invoqué n'ayant pas déjà un Lien gagne Lien de Cupidon pendant 50TU.\n\nPuis cet allié et cette unité sont :\n- Purifiés (retire les effets de statut négatifs comme le Sommeil, la Brûlure ou le Poison).\n- Fortifiés et gagnent une Protection Mort Instantanée.\n\nUtilisable seulement si aucun autre allié du champ de bataille ne possède déjà Lien de Cupidon et s'il y a une cible valable. Utilisable 5 fois par bataille.\n\nUne Protection Mort Instantanée empêche cette unité d'être immédiatement vaincue sans dégâts par un ennemi non-boss une fois, puis est retirée. Les Protections Mort Instantanée ne peuvent être ignorées et ne peuvent être empilées. Une unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Entremetteur",
+                "SkillDescription": "Les TU actuels d'un autre allié aléatoire avec Lien de Cupidon et d'un allié aléatoire ne possédant pas Lien de Cupidon sont réduits. L'allié ne possédant pas Lien de Cupidon sera le premier dans l'ordre des tours. Les deux unités sont Purifiées et deviennent Enragées. Les Compétences Actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'après ce qu'elle ait pris son tour.\n\nDéverrouillé à chaque fois que le lanceur utilise Sentiments Blessés ou Tir de Cupidon, et se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nCeci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.",
+                "TU": 10,
+                "Spirit": "-1"
+            },
+            {
+                "SkillCodename": "SpecialAttackACupidRegular",
+                "SkillTitle": "Tir de Cupidon",
+                "SkillDescription": "250% de dégâts à 1 ennemi, et 150% de plus par le nombre de fois que le lanceur a déjà utilisé cette compétence ou Sentiments Blessés sur le champ de bataille (maximum de 1000% de dégâts totaux après 5 utilisations voire plus de cette compétence ou Sentiments Blessés).\n\nÀ chaque deuxième fois que cette compétence est activée par l'utilisateur sur le champ de bataille, un ennemi aléatoire non-boss, non-Éphémère du champ de bataille sera immédiatement vaincu (l'utilisateur sera considéré comma ayant vaincu cet ennemi par attaque). Cet effet secondaire ignore les compétences passives de Vengeance et Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi aléatoire d'être vaincu.\n\nUtilisable 10 fois par bataille.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Sorcière de l'Amour",
+                "SkillDescription": "Cette unité débute avec Lien de Cupidon. Un autre allié aléatoire non-invoqué ne possédant pas déjà un Lien gagne Lien de Cupidon pendant 50TU lorsque cette unité entre en bataille. Puis cet allié et cette unité sont Fortifiés et gagne une Protection Mort Instantanée.\n\nUne unité avec Lien de Cupidon bénéficie de ces effets :\n\nElle ne peut être Charmée.\n\nCette unité sera soignée de 50% de ses PV max à chaque fois qu'un allié avec Lien de Cupidon prend son tour.\n\nCette unité bénéficie d'une addition à son Attaque d'un quart de son Attaque d'origine si elle n'est pas Enragée. Ceci peut être empilé avec les autres augmentations d'Attaques (p. ex. 1,5x + 0,25x => total de 1,75x).\n\nLorsque cette unité vainc un ennemi par attaque après la fin du tour, tous les autres alliés possédant Lien de Cupidon prendront les prochains tours en réduisant leurs TU actuels, et seront Purifiés. Ce tour supplémentaire peut être interrompu par les effets influençant l'ordre des tours (p.ex. les Étourdissements ciblant l'unité aux TU les plus bas). Ces réductions de TU peuvent être déclenchées avant ou après ces autres effets ajustant l'ordre des tours.\n\nCe lien est retiré si cette unité ou l'unité l'ayant donné quitte le champ de bataille. Cette unité ne peut gagner d'autres Liens."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Chérie Ailée",
+                "SkillDescription": "Cette unité entre en bataille avec une Protection Sommeil et une Protection Poison.\n\nCette unité ne peut être étourdie ou renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité bénéficie d'une réduction de 25% des dégâts provenant d'attaques. Cette unité bénéficie d'une réduction de 50% des dégâts provenant d'attaques s'il y a 2 alliés avec Liens sur le champ de bataille.\n\nLes attaques de cette unité la soignent d'une valeur de 100% des dégâts totaux infligés, ne réveillent pas les ennemis endormis, ignorent les effets de réduction de dégâts, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nLa première fois que cette unité subit des dégâts par une attaque ennemie et survit jusqu'à la fin du tour, 20% de chance et 20% de plus par Éveils (jusqu'à 100% de chance si cette unité possède 4 Éveils) que cette unité Charme tous les ennemis du champ de bataille pendant 50TU. Cet effet est réinitialisé pour qu'il puisse à nouveau être déclenché à chaque fois que cette unité utilise Rétablir Lien de Cupidon.\n\nCette unité sera Purifiée et soignée de 25% de ses PV max à chaque fois que cette unité subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour.\n\nL'Attaque d'une unité Charmée est grandement réduite (p.ex. à la moitié de son Attaque d'origine pour une unité n'ayant pas d'autres modificateurs d'Attaque. L'effet de Charmé peut être réduit si l'Attaque de l'unité affectée est augmentée par d'autres effets). Charmé remplace les effets d'Enragé et d'Affaiblissement, et les unités Charmées ne peuvent être Enragées ou Affaiblies. Les unités Charmées ont moins de chances de cibler l'unité les ayant Charmées avec la plupart des compétences actives. Charmé n'est pas un effet de statut et ne peut être retiré par les compétences de Purification, mais prendra fin si l'unité Charmée quitte le champ de bataille."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attaque + LV3",
+                "SkillDescription": "Ajoute 300 à l'Attaque de cette unité."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "PV+ LV3",
+                "SkillDescription": "Ajoute 1200 au maximum PV de cette unité."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Résist. Épée LV3",
+                "SkillDescription": "10% moins de dégâts des attaques des unités équipées d'une Épée."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Maîtrise Hache",
+                "SkillDescription": "Peut utiliser les talents d'arme des Haches en plus de leur type d'arme préféré."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hache"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Héhé, je m'appelle Cupidon !\nOh, es-tu aussi à la recherche d'amour ? Alors trouvons-en ensemble !\nAh, tu vois ça, là-bas ? Et là aussi ! Il y a tellement d'amour partout !"
+            ],
+            "Login": [
+                "Hmmm... Oh là là...! Je ressens de l'amour venant de cette direction ! Allons-y ! Il ne faudrait pas qu'on rate ça !"
+            ],
+            "Tap": [
+                "Quoi ? Tu veux que je te raconte mon expérience au sein du Temple du Temps...? Eh bien, c'était humide, sombre et surpeuplé... Pas mon type d'endroit... L'apprentissage devrait se faire dans un endroit qui est plus ouvert et libre ! N'es-tu pas d'accord ?",
+                "Parlons-donc à propos d'amour ! ... Hein ? Tu veux en savoir davantage à mon propos...? Euuuh... Parler de moi-même ne m'intéresse pas vraiment. Et si on discutait de ta vie amoureuse à la place !",
+                "Garçon avec garçon, fille avec fille... Leur genre ne change rien pour moi. Tout le monde est égal quand il s'agit d'amour !"
+            ],
+            "Idle": [
+                "Oh, oh oh oh ! Je sens l'odeur quelqu'un qui tombe amoureux...! Hmmm, est-ce que ça vient de là ? Ou peut-être de là...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Sentiments Blessés": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Rép. Lien de Cupid.": {
+                    "BaseWeight": 500
+                },
+                "Entremetteur": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Tir de Cupidon": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "Has4GoodGirlBuffExactly": 5,
+                        "Has5GoodGirlBuff": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Coeur à Coeur",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }

@@ -14523,6 +14523,17 @@
                     "WaterElfWarrior01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -14864,6 +14875,17 @@
                     "BattleCleric01",
                     "RedScarfFrog01",
                     "WaterElfWarrior01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
                 ],
                 "RelationshipBuff": "LP+3%"
             }
@@ -17613,6 +17635,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -17987,6 +18020,17 @@
                     "KintaroRegular01",
                     "GearLancerGirl01",
                     "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "LP+3%"
@@ -48703,6 +48747,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -48984,6 +49039,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ANG+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -145562,14 +145628,14 @@
             {
                 "SkillCodename": "SingleAttackAAliceNew",
                 "SkillTitle": "Schlüsselsmash",
-                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 750% Schaden, wenn 2 oder mehr Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden. Stattdessen 1000% Schaden, wenn alle Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden.\n\nAnschließend wird der Schlaf-Zustand aller Verbündeten auf dem Schlachtfeld aufgehoben (einschließlich Tiefschlaf).",
+                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 750% Schaden, wenn 2 oder mehr Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostbrand leiden. Stattdessen 1000% Schaden, wenn alle Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostbrand leiden.\n\nAnschließend wird der Schlaf-Zustand aller Verbündeten auf dem Schlachtfeld aufgehoben (einschließlich Tiefschlaf).",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNew",
                 "SkillTitle": "Trink-Trank",
-                "SkillDescription": "Alle Verbündeten auf dem Schlachtfeld werden gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und erhalten einen Gift-Schutz sowie einen Schlaf-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutzeffekte können sich nicht stapeln.\n\nWenn der Anwender anschließend Schlüsselsmash einsetzt, erhält er sofort den nächsten Zug. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). \n\nEinsetzbar, wenn ein Verbündeter oder Gegner auf dem Schlachtfeld brennt, schläft oder vergiftet ist. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
+                "SkillDescription": "Alle Verbündeten auf dem Schlachtfeld werden gereinigt (entfernt negative Statuseffekte wie Schlaf, Brennen oder Gift) und erhalten einen Gift-Schutz, sowie einen Schlaf-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutzeffekte können sich nicht stapeln.\n\nWenn der Anwender anschließend Schlüsselsmash einsetzt, erhält er sofort den nächsten Zug. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. Betäubungen, die auf das Ziel mit den niedrigsten ZE abzielen). \n\nEinsetzbar, wenn ein Verbündeter oder Gegner auf dem Schlachtfeld brennt, schläft oder vergiftet ist. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
                 "TU": 1,
                 "Spirit": "+3"
             },
@@ -145585,12 +145651,12 @@
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNew",
                 "SkillTitle": "Traumbeginn",
-                "SkillDescription": "Diese Einheit erhält jedes Mal eine Ladung, wenn sie Schlüsselsmash, Trank oder Magiegefängnisse einsetzt. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden einer Einheit entzogen, die das Schlachtfeld verlässt.\n\nDiese Einheit kann nicht betäubt werden, wenn sich eine Einheit auf dem Schlachtfeld befindet, die dem Element Feuer angehört oder eine aktive Fertigkeit vom Typ Flammen-Explosion oder Flammenmeer besitzt.\n\nDiese Einheit kann nicht durch Schaden von Flammen-Statuseffekten besiegt werden. Diese Einheit kann während eines Zuges des Gegners nicht vom Schlachtfeld zu den Verstärkungen geschickt werden. n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nNach dem Eintritt in den Kampf heilt diese Einheit 50 ZE lang jedes Mal, wenn sie durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, um 100% ihrer maximalen LP."
+                "SkillDescription": "Diese Einheit erhält jedes Mal eine Ladung, wenn sie Schlüsselsmash, Trank oder Magiegefängnisse einsetzt. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden einer Einheit entzogen, die das Schlachtfeld verlässt.\n\nDiese Einheit kann nicht betäubt werden, wenn sich eine Einheit auf dem Schlachtfeld befindet, die dem Element Feuer angehört oder eine aktive Fertigkeit vom Typ Flammen-Explosion oder Flammenmeer besitzt.\n\nDiese Einheit kann nicht durch Schaden von Flammen-Statuseffekten besiegt werden. Diese Einheit kann während eines Zuges des Gegners nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nNach dem Eintritt in den Kampf heilt diese Einheit 50 ZE lang jedes Mal, wenn sie durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, um 100% ihrer maximalen LP."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNew",
                 "SkillTitle": "Folg dem Hasen",
-                "SkillDescription": "Wenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit tritt mit dem Status Gefestigt sowie den Schutzauswirkungen Schlafschutz, Gift-Schutz und Soforttod-Schutz in den Kampf ein.\n\nJedes Mal, wenn eine schlafende oder brennende Einheit (einschließlich dieser Einheit) an der Reihe ist, heilt diese Einheit um 25% ihrer maximalen LP. n\nVerleiht einem zufälligen Gegner den Statuseffekt Tiefschlaf für 100 ZE. 20% Chance plus 20% pro Erwachen (bis zu 100% Chance, wenn diese Einheit 4 Erwachen hat), nach jedem gegnerischen Zug auszulösen, sofern noch kein Gegner schläft. Tiefschlaf überschreibt andere Statuseffekte, kann nicht von Brand- oder Schlaf-Statuseffekten überschrieben werden und kann nicht gereinigt werden. n\nEntfernt alle Schlafschutz-Effekte, Schleichschilde und Verbrennungs-Status-Effekte (einschließlich Mega-Heilbrand) von allen gegnerischen Einheiten auf dem Schlachtfeld. Versetzt dann den nicht schlafenden Gegner mit der derzeit höchsten ZE für 100 ZE in den Tiefschlaf, anschließend den nicht schlafenden Gegner mit der derzeit niedrigsten ZE für 100 ZE, selbst wenn diese Ziele bereits auf dem Schlachtfeld geschlafen haben. Diese Effekte werden ausgelöst, wenn diese Einheit aus den verbündeten Verstärkungen ins Schlachtfeld eintritt.\n\nEin Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird; danach wird er entfernt. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Eine Befestigte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Befestigen nicht ausdrücklich ignorieren. Befestigen wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
+                "SkillDescription": "Wenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit tritt mit dem Status Verstärkt, sowie einen Schlaf-Schutz, Gift-Schutz und Soforttod-Schutz in den Kampf ein.\n\nJedes Mal, wenn eine schlafende oder brennende Einheit (einschließlich dieser Einheit) an der Reihe ist, heilt diese Einheit um 25% ihrer maximalen LP.\n\nVerleiht einem zufälligen Gegner den Statuseffekt Tiefschlaf für 100 ZE. 20% Chance plus 20% pro Erweckung (bis zu 100% Chance, wenn diese Einheit 4 Erweckungen hat), nach jedem gegnerischen Zug auszulösen, sofern noch kein Gegner schläft. Tiefschlaf überschreibt andere Statuseffekte, kann nicht von Brand- oder Schlaf-Statuseffekten überschrieben werden und kann nicht gereinigt werden.\n\nEntfernt alle Schlafschutz-Effekte, Schleichschilde und Verbrennungs-Status-Effekte (einschließlich Mega-Heilbrand) von allen gegnerischen Einheiten auf dem Schlachtfeld. Versetzt dann den nicht schlafenden Gegner mit der derzeit höchsten ZE für 100 ZE in den Tiefschlaf, anschließend den nicht schlafenden Gegner mit der derzeit niedrigsten ZE für 100 ZE, selbst wenn diese Ziele bereits auf dem Schlachtfeld geschlafen haben. Diese Effekte werden ausgelöst, wenn diese Einheit aus den verbündeten Verstärkungen ins Schlachtfeld eintritt.\n\nEin Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird; danach wird er entfernt. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Eine verstärkte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Verstärkung nicht ausdrücklich ignorieren. Verstärkt wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
             },
             {
                 "SkillCodename": "PlusAttackBoostLv3",
@@ -145731,14 +145797,14 @@
             {
                 "SkillCodename": "SingleAttackAAliceNew",
                 "SkillTitle": "Schlüsselsmash",
-                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 750% Schaden, wenn 2 oder mehr Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden. Stattdessen 1000% Schaden, wenn alle Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostverbrennungen leiden.\n\nAnschließend wird der Schlaf-Zustand aller Verbündeten auf dem Schlachtfeld aufgehoben (einschließlich Tiefschlaf).",
+                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 750% Schaden, wenn 2 oder mehr Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostbrand leiden. Stattdessen 1000% Schaden, wenn alle Gegner auf dem Schlachtfeld schlafen, brennen oder unter Frostbrand leiden.\n\nAnschließend wird der Schlaf-Zustand aller Verbündeten auf dem Schlachtfeld aufgehoben (einschließlich Tiefschlaf).",
                 "TU": 50,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllyBuffAAliceNew",
                 "SkillTitle": "Trink-Trank",
-                "SkillDescription": "Alle Verbündeten auf dem Schlachtfeld werden gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung) und erhalten einen Gift-Schutz sowie einen Schlaf-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutzeffekte können sich nicht stapeln.\n\nWenn der Anwender anschließend Schlüsselsmash einsetzt, erhält er sofort den nächsten Zug. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen). \n\nEinsetzbar, wenn ein Verbündeter oder Gegner auf dem Schlachtfeld brennt, schläft oder vergiftet ist. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
+                "SkillDescription": "Alle Verbündeten auf dem Schlachtfeld werden gereinigt (entfernt negative Statuseffekte wie Schlaf, Brennen oder Gift) und erhalten einen Gift-Schutz, sowie einen Schlaf-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutzeffekte können sich nicht stapeln.\n\nWenn der Anwender anschließend Schlüsselsmash einsetzt, erhält er sofort den nächsten Zug. Dieser zusätzliche Zug kann durch andere Effekte unterbrochen werden, die die Zugreihenfolge beeinflussen (z. B. Betäubungen, die auf das Ziel mit den niedrigsten ZE abzielen). \n\nEinsetzbar, wenn ein Verbündeter oder Gegner auf dem Schlachtfeld brennt, schläft oder vergiftet ist. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
                 "TU": 1,
                 "Spirit": "+3"
             },
@@ -145761,12 +145827,12 @@
             {
                 "SkillCodename": "WhiteRabbitPassiveAAliceNew",
                 "SkillTitle": "Traumbeginn",
-                "SkillDescription": "Diese Einheit erhält jedes Mal eine Ladung, wenn sie Schlüsselsmash, Trank oder Magiegefängnisse einsetzt. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden einer Einheit entzogen, die das Schlachtfeld verlässt.\n\nDiese Einheit kann nicht betäubt werden, wenn sich eine Einheit auf dem Schlachtfeld befindet, die dem Element Feuer angehört oder eine aktive Fertigkeit vom Typ Flammen-Explosion oder Flammenmeer besitzt.\n\nDiese Einheit kann nicht durch Schaden von Flammen-Statuseffekten besiegt werden. Diese Einheit kann während eines Zuges des Gegners nicht vom Schlachtfeld zu den Verstärkungen geschickt werden. n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nNach dem Eintritt in den Kampf heilt diese Einheit 50 ZE lang jedes Mal, wenn sie durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, um 100% ihrer maximalen LP."
+                "SkillDescription": "Diese Einheit erhält jedes Mal eine Ladung, wenn sie Schlüsselsmash, Trank oder Magiegefängnisse einsetzt. Eine Einheit kann maximal 3 Ladungen speichern, und alle Ladungen werden einer Einheit entzogen, die das Schlachtfeld verlässt.\n\nDiese Einheit kann nicht betäubt werden, wenn sich eine Einheit auf dem Schlachtfeld befindet, die dem Element Feuer angehört oder eine aktive Fertigkeit vom Typ Flammen-Explosion oder Flammenmeer besitzt.\n\nDiese Einheit kann nicht durch Schaden von Flammen-Statuseffekten besiegt werden. Diese Einheit kann während eines Zuges des Gegners nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nNach dem Eintritt in den Kampf heilt diese Einheit 50 ZE lang jedes Mal, wenn sie durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, um 100% ihrer maximalen LP."
             },
             {
                 "SkillCodename": "SleepyPassiveAAliceNew",
                 "SkillTitle": "Folg dem Hasen",
-                "SkillDescription": "Wenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit tritt mit dem Status Gefestigt sowie den Schutzauswirkungen Schlafschutz, Gift-Schutz und Soforttod-Schutz in den Kampf ein.\n\nJedes Mal, wenn eine schlafende oder brennende Einheit (einschließlich dieser Einheit) an der Reihe ist, heilt diese Einheit um 25% ihrer maximalen LP. n\nVerleiht einem zufälligen Gegner den Statuseffekt Tiefschlaf für 100 ZE. 20% Chance plus 20% pro Erwachen (bis zu 100% Chance, wenn diese Einheit 4 Erwachen hat), nach jedem gegnerischen Zug auszulösen, sofern noch kein Gegner schläft. Tiefschlaf überschreibt andere Statuseffekte, kann nicht von Brand- oder Schlaf-Statuseffekten überschrieben werden und kann nicht gereinigt werden. n\nEntfernt alle Schlafschutz-Effekte, Schleichschilde und Verbrennungs-Status-Effekte (einschließlich Mega-Heilbrand) von allen gegnerischen Einheiten auf dem Schlachtfeld. Versetzt dann den nicht schlafenden Gegner mit der derzeit höchsten ZE für 100 ZE in den Tiefschlaf, anschließend den nicht schlafenden Gegner mit der derzeit niedrigsten ZE für 100 ZE, selbst wenn diese Ziele bereits auf dem Schlachtfeld geschlafen haben. Diese Effekte werden ausgelöst, wenn diese Einheit aus den verbündeten Verstärkungen ins Schlachtfeld eintritt.\n\nEin Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird; danach wird er entfernt. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Eine Befestigte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Befestigen nicht ausdrücklich ignorieren. Befestigen wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
+                "SkillDescription": "Wenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit tritt mit dem Status Verstärkt, sowie einen Schlaf-Schutz, Gift-Schutz und Soforttod-Schutz in den Kampf ein.\n\nJedes Mal, wenn eine schlafende oder brennende Einheit (einschließlich dieser Einheit) an der Reihe ist, heilt diese Einheit um 25% ihrer maximalen LP.\n\nVerleiht einem zufälligen Gegner den Statuseffekt Tiefschlaf für 100 ZE. 20% Chance plus 20% pro Erweckung (bis zu 100% Chance, wenn diese Einheit 4 Erweckungen hat), nach jedem gegnerischen Zug auszulösen, sofern noch kein Gegner schläft. Tiefschlaf überschreibt andere Statuseffekte, kann nicht von Brand- oder Schlaf-Statuseffekten überschrieben werden und kann nicht gereinigt werden.\n\nEntfernt alle Schlafschutz-Effekte, Schleichschilde und Verbrennungs-Status-Effekte (einschließlich Mega-Heilbrand) von allen gegnerischen Einheiten auf dem Schlachtfeld. Versetzt dann den nicht schlafenden Gegner mit der derzeit höchsten ZE für 100 ZE in den Tiefschlaf, anschließend den nicht schlafenden Gegner mit der derzeit niedrigsten ZE für 100 ZE, selbst wenn diese Ziele bereits auf dem Schlachtfeld geschlafen haben. Diese Effekte werden ausgelöst, wenn diese Einheit aus den verbündeten Verstärkungen ins Schlachtfeld eintritt.\n\nEin Soforttod-Schutz verhindert einmalig, dass diese Einheit von einem Nicht-Boss-Gegner sofort und ohne Schaden besiegt wird; danach wird er entfernt. Soforttod-Schutze können nicht ignoriert werden und sind nicht stapelbar. Eine verstärkte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Verstärkung nicht ausdrücklich ignorieren. Verstärkt wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
             },
             {
                 "SkillCodename": "PlusAttackBoostLv3",
@@ -145932,7 +145998,7 @@
         "Hp_Base": 5580,
         "Speed": 490,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Der Prozess beginnt. Aber erst etwas Tee.",
         "LeaderSkill": {
             "SkillCodename": "HPUpFireD",
@@ -146062,6 +146128,19 @@
                 "Starke Hand": {
                     "BaseWeight": 500
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
             }
         }
     },
@@ -146255,6 +146334,387 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
+    },
+    "CupidRegular01": {
+        "Name": "Amor",
+        "Name2": "Zaubererin der wahren Liebe",
+        "FullName": "Amor - Zaubererin der wahren Liebe",
+        "Family": "CupidRegular",
+        "Profile": "Immer wenn sie Liebe in der Luft spürt, kommt Amor angeflogen und vergisst dabei Zeit und Ort. Liebeserklärungen, schwärmerische Worte über den Liebsten und Streitereien zwischen Verliebten – all das verströmt den süßesten Duft der Romantik. Selbst jetzt noch, wann immer sie hört, wie jemandes Herz anfängt zu rasen, taucht Amor mit einem sanften Flügelschlag auf.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 28,
+        "Atk_Base": 1069,
+        "Hp_Base": 5865,
+        "Speed": 526,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Oooh, ich rieche LIEBE in der Luft!",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "Licht-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Licht-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Verletzte Gefühle",
+                "SkillDescription": "400% Schaden an 1 Gegner. Stattdessen 800% Schaden, wenn das Ziel nicht das Schlachtfeld verlassen hat, seit es einen Verbündeten mit einem Angriff beschädigt hat, während sich die Verbündete \"Amor, Liebeszauberin\" auf dem Schlachtfeld befand. Dieser Angriff ignoriert passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nDer Anwender erhält einen Schlaf-Schutz und einen Gift-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt angewendet wird, und wird danach entfernt. Identische Schutze können sich nicht stapeln.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Amor-Bindung neu",
+                "SkillDescription": "Verleiht Amor-Bindung für 50 ZE einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Bindung hat.\n\nDann werden dieser Verbündete und der Anwender:\n- auf 100% der maximalen LP geheilt.\n\n- gereinigt (entfernt negative Statuseffekte wie Schlaf, Brennen oder Gift).\n- verstärkt und erhalten einen Soforttod-Schutz.\n\nNur einsetzbar, wenn kein anderer Verbündeter auf dem Schlachtfeld bereits Amor-Bindung besitzt und ein gültiges Ziel vorhanden ist. 5 Mal pro Kampf einsetzbar.\n\nEin Soforttod-Schutz verhindert einmalig, dass eine Einheit von einem Nicht-Boss-Gegner ohne Schaden sofort besiegt wird; danach wird er entfernt. Soforttod-Schutz kann nicht ignoriert werden und ist nicht stapelbar. Eine mit Verstärkt versehene Einheit hat 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Verstärkung nicht ausdrücklich ignorieren. Verstärt wird entfernt, nachdem der Schaden seit dem Anwenden dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Vermittler",
+                "SkillDescription": "Ein zufälliger Verbündeter, der Amor-Bindung besitzt, und ein zufälliger Verbündeter, der diese Fähigkeit nicht besitzt, erhalten die nächsten Züge, indem ihre ZE reduziert wird. Der Verbündete ohne Amor-Bindung ist in der Zugreihenfolge an erster Stelle. Beide Einheiten werden gereinigt und werden wütend. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Verletzte Gefühle oder Amors Schuss einsetzt, und nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nDies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Bei wütenden Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache erhöht.",
+                "TU": 10,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Liebeszauberin",
+                "SkillDescription": "Diese Einheit beginnt mit Amor-Bindung. Wenn diese Einheit ins Gefecht eintritt, gewährt sie einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Verbindung hat, für 50 ZE Amor-Bindung. Anschließend werden dieser Verbündete und diese Einheit verstärkt und erhalten einen Soforttod-Schutz.\n\nEine Einheit mit Amor-Bindung hat folgende Effekte:\n\nDiese Einheit kann nicht verzaubert werden.\n\nJedes Mal, wenn ein Verbündeter mit Amor-Bindung an der Reihe ist, wird diese Einheit um 50% ihrer maximalen LP geheilt.\n\nDiese Einheit erhält einen Bonus von 0,25x ihres ursprünglichen Angriffswerts auf ihren Angriff, solange sie nicht wütend ist. Diese Erhöhung summiert sich mit anderen Angriffssteigerungen (z. B. 1,5-fach + 0,25-fach => insgesamt 1,75-fach).\n\nWenn diese Einheit einen Gegner mit einem Angriff besiegt, nach dem Ende der Runde, erhalten alle anderen Verbündeten mit Amor-Bindung den nächsten Zug, indem ihre aktuelle ZE reduziert wird, und werden gereinigt. Effekte, die die Zugreihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit den niedrigsten ZE abzielen). Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen.\n\nDiese Verbindung wird entfernt, wenn diese Einheit oder die Einheit, die sie gewährt hat, das Schlachtfeld verlässt. Diese Einheit kann keine weiteren Verbindungen erhalten."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Flügel-Liebste",
+                "SkillDescription": "Diese Einheit tritt mit Schlafschutz und Giftschutz in den Kampf ein.\n\nDiese Einheit kann nicht betäubt oder vom Schlachtfeld in die Verstärkung geschickt werden.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit hat eine Schadensreduzierung von 25% bei Angriffen. Solange sich 2 verbündete Einheiten mit Verbunden auf dem Schlachtfeld befinden, hat diese Einheit stattdessen 50% Schadensreduzierung gegen Angriffe.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, wecken keine schlafenden Gegner auf, ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden. n\nWenn diese Einheit zum ersten Mal durch einen feindlichen Angriff Schaden erleidet und bis nach Ende des Zuges überlebt, besteht eine Chance von 20% plus 20% pro Erwachen (bis zu 100%, wenn diese Einheit 4 Erwachen hat), dass sie alle Gegner auf dem Schlachtfeld für 50 ZE verzaubert. Immer wenn diese Einheit Amor-Bindung neu einsetzt, wird dieser Effekt zurückgesetzt, sodass er erneut ausgelöst werden kann.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie Gereinigt und heilt 25% ihrer maximalen LP.\n\nBei einer Verzauberten Einheit wird der Angriff stark reduziert (z. B. auf das 0,5-Fache ihres ursprünglichen Angriffswerts bei einer Einheit ohne weitere Angriffsmodifikatoren. Der Effekt von Verzaubert kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird). Verzaubert überschreibt die Effekte Wütend und Geschwächt, und Einheiten, die verzaubert sind, können weder in den Wut- noch in den Schwäche-Zustand versetzt werden. Verzauberte Einheiten zielen mit den meisten aktiven Fertigkeiten seltener auf die Einheit, die sie verzaubert hat. Verzaubert ist kein Statuseffekt und kann nicht durch Reinigen-Fähigkeiten entfernt werden, endet jedoch, wenn die verzauberte Einheit das Schlachtfeld verlässt."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Schwert-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Schwert führen."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Axt-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Äxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Axt"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hehe, ich heiße Cupid!\nOh, bist du auch auf der Suche nach Liebe? Dann lass uns doch gemeinsam welche finden!\nAh, siehst du das da drüben? Und hier drüben auch! Überall gibt’s so viel Liebe!"
+            ],
+            "Login": [
+                "Hmmm... Oh Mann...! Da spüre ich gerade ein bisschen Liebe aus dieser Richtung! Los geht’s, das wollen wir doch nicht verpassen!"
+            ],
+            "Tap": [
+                "Was? Du willst was über meine Zeit im Tempel der Zeit hören...? Na ja, da war’s feucht, dunkel und voll – nicht so mein Ding... Lernen sollte man doch in einem offeneren und freieren Raum! Findest du nicht auch?",
+                "Lass uns über die Liebe reden!... Häh? Du willst mehr über mich erfahren...? Ähm... Ich rede nicht so gern über mich selbst. Wie wär’s, wenn wir stattdessen über dein Liebesleben reden!",
+                "Ein Junge und ein Junge, ein Mädchen und ein Mädchen... Ihr Geschlecht spielt für mich keine Rolle. Im Namen der Liebe sind alle gleich!"
+            ],
+            "Idle": [
+                "Oh, oh oh oh! Ich rieche, wie sich jemand verliebt...! Hmmm, kommt der Duft von hier her? Oder vielleicht von dort...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Verletzte Gefühle": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Amor-Bindung neu": {
+                    "BaseWeight": 500
+                },
+                "Vermittler": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
+    },
+    "CupidRegular02": {
+        "Name": "Amor",
+        "Name2": "Zaubererin der wahren Liebe",
+        "FullName": "Amor - Zaubererin der wahren Liebe",
+        "Family": "CupidRegular",
+        "Profile": "Während ihrer Zeit im Tempel der Zeit interessierte sie sich viel mehr für ihre romantischen Fantasien als für langweilige Vorlesungen. Alle hielten sie für eine unseriöse Studentin, die kurz davor stand, das Studium abzubrechen – doch in Wahrheit hat sie mehr Potenzial in der Zeitmagie als jeder andere. Die Ränder ihrer Vorlesungsnotizen sind voll mit unvollendeten Liebesgeschichten.",
+        "Profile_Ascended": "Amors Ziel war es, das deutlichste Beispiel für wahre Liebe zu finden, deren Kraft in sich aufzunehmen und die neue Urkraft der Liebe zu werden. Und tief in einem uralten Traum fand sie eine unglaublich starke Liebe, die seit Ewigkeiten geschlummert hatte.\nSie wird vor nichts zurückschrecken, um ihren Erfolg zu erreichen – selbst wenn das bedeutet, die Wünsche, den Schmerz und das tragische Schicksal anderer auszunutzen.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 34,
+        "Atk_Base": 1243,
+        "Hp_Base": 8205,
+        "Speed": 526,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "Licht-LP hoch",
+            "SkillDescription": "Die max. LP verbündeter Licht-Einheiten steigen um 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Verletzte Gefühle",
+                "SkillDescription": "400% Schaden an 1 Gegner. Stattdessen 800% Schaden, wenn das Ziel nicht das Schlachtfeld verlassen hat, seit es einen Verbündeten mit einem Angriff beschädigt hat, während sich die Verbündete \"Amor, Liebeszauberin\" auf dem Schlachtfeld befand. Dieser Angriff ignoriert passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nDer Anwender erhält einen Schlaf-Schutz und einen Gift-Schutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt angewendet wird, und wird danach entfernt. Identische Schutze können sich nicht stapeln.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Amor-Bindung neu",
+                "SkillDescription": "Verleiht Amor-Bindung für 50 ZE einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Bindung hat.\n\nDann werden dieser Verbündete und der Anwender:\n- auf 100% der maximalen LP geheilt.\n\n- gereinigt (entfernt negative Statuseffekte wie Schlaf, Brennen oder Gift).\n- verstärkt und erhalten einen Soforttod-Schutz.\n\nNur einsetzbar, wenn kein anderer Verbündeter auf dem Schlachtfeld bereits Amor-Bindung besitzt und ein gültiges Ziel vorhanden ist. 5 Mal pro Kampf einsetzbar.\n\nEin Soforttod-Schutz verhindert einmalig, dass eine Einheit von einem Nicht-Boss-Gegner ohne Schaden sofort besiegt wird; danach wird er entfernt. Soforttod-Schutz kann nicht ignoriert werden und ist nicht stapelbar. Eine mit Verstärkt versehene Einheit hat 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Verstärkung nicht ausdrücklich ignorieren. Verstärt wird entfernt, nachdem der Schaden seit dem Anwenden dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Vermittler",
+                "SkillDescription": "Ein zufälliger Verbündeter, der Amor-Bindung besitzt, und ein zufälliger Verbündeter, der diese Fähigkeit nicht besitzt, erhalten die nächsten Züge, indem ihre ZE reduziert wird. Der Verbündete ohne Amor-Bindung ist in der Zugreihenfolge an erster Stelle. Beide Einheiten werden gereinigt und werden wütend. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nWird jedes Mal freigeschaltet, wenn der Anwender Verletzte Gefühle oder Amors Schuss einsetzt, und nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nDies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Bei wütenden Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache erhöht.",
+                "TU": 10,
+                "Spirit": "-1"
+            },
+            {
+                "SkillCodename": "SpecialAttackACupidRegular",
+                "SkillTitle": "Amors Schuss",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 150% für jedes Mal, das der Anwender diese Fertigkeit oder Verletzte Gefühle bereits auf dem Schlachtfeld eingesetzt hat (maximal 1000% Gesamtschaden, nachdem der Anwender diese Fertigkeit oder Verletzte Gefühle 5 Mal oder öfter eingesetzt hat).\n\nJedes zweite Mal, wenn diese Fertigkeit vom Anwender auf dem Schlachtfeld aktiviert wird, wird ein zufälliger Gegner auf dem Schlachtfeld – der kein Boss und kein flüchtiger ist – sofort besiegt (es gilt, als hätte der Anwender diesen Gegner mit einem Angriff besiegt). Dieser Sekundäreffekt ignoriert passive Fertigkeiten vom Typ Rache, passive Fertigkeiten vom Typ Wiederbelebung, sowie alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der zufällige Gegner besiegt wird.\n\nKann 10 Mal pro Kampf eingesetzt werden.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Liebeszauberin",
+                "SkillDescription": "Diese Einheit beginnt mit Amor-Bindung. Wenn diese Einheit ins Gefecht eintritt, gewährt sie einem anderen zufälligen, nicht beschworenen Verbündeten, der noch keine Verbindung hat, für 50 ZE Amor-Bindung. Anschließend werden dieser Verbündete und diese Einheit verstärkt und erhalten einen Soforttod-Schutz.\n\nEine Einheit mit Amor-Bindung hat folgende Effekte:\n\nDiese Einheit kann nicht verzaubert werden.\n\nJedes Mal, wenn ein Verbündeter mit Amor-Bindung an der Reihe ist, wird diese Einheit um 50% ihrer maximalen LP geheilt.\n\nDiese Einheit erhält einen Bonus von 0,25x ihres ursprünglichen Angriffswerts auf ihren Angriff, solange sie nicht wütend ist. Diese Erhöhung summiert sich mit anderen Angriffssteigerungen (z. B. 1,5-fach + 0,25-fach => insgesamt 1,75-fach).\n\nWenn diese Einheit einen Gegner mit einem Angriff besiegt, nach dem Ende der Runde, erhalten alle anderen Verbündeten mit Amor-Bindung den nächsten Zug, indem ihre aktuelle ZE reduziert wird, und werden gereinigt. Effekte, die die Zugreihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit den niedrigsten ZE abzielen). Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen.\n\nDiese Verbindung wird entfernt, wenn diese Einheit oder die Einheit, die sie gewährt hat, das Schlachtfeld verlässt. Diese Einheit kann keine weiteren Verbindungen erhalten."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Flügel-Liebste",
+                "SkillDescription": "Diese Einheit tritt mit Schlafschutz und Giftschutz in den Kampf ein.\n\nDiese Einheit kann nicht betäubt oder vom Schlachtfeld in die Verstärkung geschickt werden.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nDiese Einheit hat eine Schadensreduzierung von 25% bei Angriffen. Solange sich 2 verbündete Einheiten mit Verbunden auf dem Schlachtfeld befinden, hat diese Einheit stattdessen 50% Schadensreduzierung gegen Angriffe.\n\nDie Angriffe dieser Einheit heilen sie um 100% des insgesamt verursachten Schadens, wecken keine schlafenden Gegner auf, ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden. n\nWenn diese Einheit zum ersten Mal durch einen feindlichen Angriff Schaden erleidet und bis nach Ende des Zuges überlebt, besteht eine Chance von 20% plus 20% pro Erwachen (bis zu 100%, wenn diese Einheit 4 Erwachen hat), dass sie alle Gegner auf dem Schlachtfeld für 50 ZE verzaubert. Immer wenn diese Einheit Amor-Bindung neu einsetzt, wird dieser Effekt zurückgesetzt, sodass er erneut ausgelöst werden kann.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach dem Ende des Zuges überlebt, wird sie Gereinigt und heilt 25% ihrer maximalen LP.\n\nBei einer Verzauberten Einheit wird der Angriff stark reduziert (z. B. auf das 0,5-Fache ihres ursprünglichen Angriffswerts bei einer Einheit ohne weitere Angriffsmodifikatoren. Der Effekt von Verzaubert kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird). Verzaubert überschreibt die Effekte Wütend und Geschwächt, und Einheiten, die verzaubert sind, können weder in den Wut- noch in den Schwäche-Zustand versetzt werden. Verzauberte Einheiten zielen mit den meisten aktiven Fertigkeiten seltener auf die Einheit, die sie verzaubert hat. Verzaubert ist kein Statuseffekt und kann nicht durch Reinigen-Fähigkeiten entfernt werden, endet jedoch, wenn die verzauberte Einheit das Schlachtfeld verlässt."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Schwert-Widerst. Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Schwert führen."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Axt-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Äxten nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Axt"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Hehe, ich heiße Cupid!\nOh, bist du auch auf der Suche nach Liebe? Dann lass uns doch gemeinsam welche finden!\nAh, siehst du das da drüben? Und hier drüben auch! Überall gibt’s so viel Liebe!"
+            ],
+            "Login": [
+                "Hmmm... Oh Mann...! Da spüre ich gerade ein bisschen Liebe aus dieser Richtung! Los geht’s, das wollen wir doch nicht verpassen!"
+            ],
+            "Tap": [
+                "Was? Du willst was über meine Zeit im Tempel der Zeit hören...? Na ja, da war’s feucht, dunkel und voll – nicht so mein Ding... Lernen sollte man doch in einem offeneren und freieren Raum! Findest du nicht auch?",
+                "Lass uns über die Liebe reden!... Häh? Du willst mehr über mich erfahren...? Ähm... Ich rede nicht so gern über mich selbst. Wie wär’s, wenn wir stattdessen über dein Liebesleben reden!",
+                "Ein Junge und ein Junge, ein Mädchen und ein Mädchen... Ihr Geschlecht spielt für mich keine Rolle. Im Namen der Liebe sind alle gleich!"
+            ],
+            "Idle": [
+                "Oh, oh oh oh! Ich rieche, wie sich jemand verliebt...! Hmmm, kommt der Duft von hier her? Oder vielleicht von dort...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Verletzte Gefühle": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Amor-Bindung neu": {
+                    "BaseWeight": 500
+                },
+                "Vermittler": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Amors Schuss": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "Has4GoodGirlBuffExactly": 5,
+                        "Has5GoodGirlBuff": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Von Herz zu Herz",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "LP+3%"
+            }
+        }
     }
 }

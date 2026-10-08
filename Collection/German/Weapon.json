@@ -22097,7 +22097,7 @@
             {
                 "SkillCodename": "HasteUp4AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "ZE-Kosten red.",
-                "SkillDescription": "Die ZE-Kosten sinken um 6%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Verbrennen haben."
+                "SkillDescription": "Die ZE-Kosten sinken um 6%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Brennen haben."
             }
         ]
     },
@@ -22122,7 +22122,7 @@
             {
                 "SkillCodename": "HasteUp5AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "ZE-Kosten red.",
-                "SkillDescription": "Die ZE-Kosten sinken um 8%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Verbrennen haben."
+                "SkillDescription": "Die ZE-Kosten sinken um 8%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Brennen haben."
             }
         ],
         "ExtraEvoInitialCount": 1
@@ -22148,7 +22148,7 @@
             {
                 "SkillCodename": "HasteUp6AtLeast4BurningOrSleepingInBattle",
                 "SkillTitle": "ZE-Kosten red.",
-                "SkillDescription": "Die ZE-Kosten sinken um 10%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Verbrennen haben."
+                "SkillDescription": "Die ZE-Kosten sinken um 10%, wenn 4 oder mehr Einheiten den Statuseffekt Schlafen oder Brennen haben."
             }
         ],
         "ExtraEvoInitialCount": 2
@@ -22169,7 +22169,7 @@
         "Hp_Base": 2765,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4TargetIsBurning",
@@ -22194,7 +22194,7 @@
         "Hp_Base": 3330,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5TargetIsBurning",
@@ -22220,12 +22220,89 @@
         "Hp_Base": 3575,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6TargetIsBurning",
                 "SkillTitle": "Angriff +",
                 "SkillDescription": "15% Bonus auf Angriffe gegen brennende Einheiten."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "CupidMace01": {
+        "Name": "Refrain der Liebe",
+        "FullName": "Refrain der Liebe",
+        "Family": "CupidMace",
+        "Profile": "Ein magischer Stab, der den Rausch der Liebe immer wieder im Herzen widerhallen lässt. Wenn man ihm genug Zeit gibt, wird sein sanftes Licht das Herz eines Menschen stets dazu anregen, seine eigene Liebesgeschichte zu leben.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Keule",
+        "Cost": 11,
+        "Atk_Base": 443,
+        "Hp_Base": 3160,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc4NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "Macht Hoch",
+                "SkillDescription": "7% Bonus auf Angriffe und verringert den Schaden durch Angriffe der Gegner um 6%, solange sich keine schlafenden, brennenden oder vergifteten Verbündeten auf dem Schlachtfeld befinden."
+            }
+        ]
+    },
+    "CupidMace02": {
+        "Name": "Refrain der Liebe",
+        "FullName": "Refrain der Liebe",
+        "Family": "CupidMace",
+        "Profile": "Ein magischer Stab, der den Rausch der Liebe immer wieder im Herzen widerhallen lässt. Wenn man ihm genug Zeit gibt, wird sein sanftes Licht das Herz eines Menschen stets dazu anregen, seine eigene Liebesgeschichte zu leben.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Keule",
+        "Cost": 17,
+        "Atk_Base": 529,
+        "Hp_Base": 3855,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc5NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "Macht Hoch",
+                "SkillDescription": "10% Bonus auf Angriffe und verringert den Schaden durch Angriffe der Gegner um 8%, solange sich keine schlafenden, brennenden oder vergifteten Verbündeten auf dem Schlachtfeld befinden."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "CupidMace03": {
+        "Name": "Refrain der Liebe",
+        "FullName": "Refrain der Liebe",
+        "Family": "CupidMace",
+        "Profile": "Ein magischer Stab, der den Rausch der Liebe immer wieder im Herzen widerhallen lässt. Wenn man ihm genug Zeit gibt, wird sein sanftes Licht das Herz eines Menschen stets dazu anregen, seine eigene Liebesgeschichte zu leben.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Keule",
+        "Cost": 23,
+        "Atk_Base": 577,
+        "Hp_Base": 4115,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc6NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "Macht Hoch",
+                "SkillDescription": "15% Bonus auf Angriffe und verringert den Schaden durch Angriffe der Gegner um 10%, solange sich keine schlafenden, brennenden oder vergifteten Verbündeten auf dem Schlachtfeld befinden."
             }
         ],
         "ExtraEvoInitialCount": 2

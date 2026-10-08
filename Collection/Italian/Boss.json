@@ -56045,7 +56045,7 @@
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
                 "SkillTitle": "Sentimenti Feriti",
-                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Strega dell'Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio non ha abbandonato il campo da quando ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Incantatrice del Vero Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -56058,8 +56058,8 @@
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Abbinamento",
-                "SkillDescription": "Azzera i TU di un altro alleato casuale con Legame di Cupido. Poi, azzera i TU di un alleato casuale senza Legame di Cupido. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "SkillTitle": "Paraninfa",
+                "SkillDescription": "Un altro alleato casuale con Legame di Cupido e un alleato casuale senza Legame di Cupido ottengono immediatamente il turno azzerando i loro TU. L'alleato senza Legame di Cupido sarà il primo nell'ordine dei turni. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate dalle unità affette finché non hanno svolto il proprio turno.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
                 "TU": 10,
                 "Spirit": "-1"
             }
@@ -56107,7 +56107,7 @@
                 "Legame di Cupido": {
                     "BaseWeight": 500
                 },
-                "Abbinamento": {
+                "Paraninfa": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250
@@ -56138,7 +56138,7 @@
             {
                 "SkillCodename": "SingleAttackACupidRegularBoss",
                 "SkillTitle": "Sentimenti Feriti",
-                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Strega dell'Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio non ha abbandonato il campo da quando ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Incantatrice del Vero Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -56151,8 +56151,8 @@
             },
             {
                 "SkillCodename": "MultiBuffACupidRegularBoss",
-                "SkillTitle": "Abbinamento",
-                "SkillDescription": "Azzera i TU di un altro alleato casuale con Legame di Cupido. Poi, azzera i TU di un alleato casuale senza Legame di Cupido. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "SkillTitle": "Paraninfa",
+                "SkillDescription": "Un altro alleato casuale con Legame di Cupido e un alleato casuale senza Legame di Cupido ottengono immediatamente il turno azzerando i loro TU. L'alleato senza Legame di Cupido sarà il primo nell'ordine dei turni. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate dalle unità affette finché non hanno svolto il proprio turno.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
                 "TU": 10,
                 "Spirit": "-1"
             },
@@ -56207,7 +56207,7 @@
                 "Legame di Cupido": {
                     "BaseWeight": 500
                 },
-                "Abbinamento": {
+                "Paraninfa": {
                     "BaseWeight": 0.95,
                     "Source": {
                         "IsNotAlone": 250

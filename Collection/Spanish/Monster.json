@@ -14523,6 +14523,17 @@
                     "WaterElfWarrior01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -14864,6 +14875,17 @@
                     "BattleCleric01",
                     "RedScarfFrog01",
                     "WaterElfWarrior01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -17613,6 +17635,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -17987,6 +18020,17 @@
                     "KintaroRegular01",
                     "GearLancerGirl01",
                     "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "HP+3%"
@@ -48703,6 +48747,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -48984,6 +49039,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -145932,7 +145998,7 @@
         "Hp_Base": 5580,
         "Speed": 490,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Que comience el juicio. Pero primero, el té.",
         "LeaderSkill": {
             "SkillCodename": "HPUpFireD",
@@ -146062,6 +146128,19 @@
                 "Una Mano Fuerte": {
                     "BaseWeight": 500
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -146255,6 +146334,387 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "CupidRegular01": {
+        "Name": "Cupido",
+        "Name2": "Hechicera del Amor Verdadero",
+        "FullName": "Cupido - Hechicera del Amor Verdadero",
+        "Family": "CupidRegular",
+        "Profile": "Siempre que percibe el amor en el aire, Cupido llega volando, olvidando el tiempo y el espacio. Declaraciones de amor, efusividad hacia el ser amado y discusiones entre amantes... todo desprende el dulce aroma del romance. Incluso ahora, cuando oye que el corazón de alguien se acelera, Cupido aparece con el suave aleteo de sus alas.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 28,
+        "Atk_Base": 1069,
+        "Hp_Base": 5865,
+        "Speed": 526,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡Oooooh, huelo a A-M-O-R en el aire!",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "Sube HP Luz",
+            "SkillDescription": "Las unidades de Luz aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Hiere Sentimientos",
+                "SkillDescription": "400% de daño a 1 enemigo. 800% de daño en su lugar si el objetivo no ha abandonado el campo de batalla después de dañar a un aliado con un ataque mientras un aliado \"Cupido, Hechicera del Amor Verdadero\" estaba en el campo de batalla. Este ataque ignora las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nEl usuario obtiene un Guarda Sueño y un Guarda Veneno. Cada Guarda impide que su efecto nombrado se aplique una vez, luego se elimina. Los Guardas idénticos no se pueden acumular.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Re-enlace de Cupido",
+                "SkillDescription": "Otorga Enlace de Cupido por 50TU a otro aliado aleatorio no invocado que no tenga ya un Enlace. \n\nEntonces ese aliado y el usuario son:\n- curados al 100% de los HP máximos.\n\n- Purificados (elimina efectos de estado negativos como sueño, quemado o veneno).\n- Fortificados, y se les otorga un Guarda Muerte Instantánea.\n\nSe puede usar sólo si ningún otro aliado en el campo de batalla tiene ya Enlace de Cupido, y hay un objetivo válido. Se puede usar 5 veces por batalla.\n\nUn Guarda Muerte Instantánea evita que una unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar y no se pueden acumular. Una unidad Fortificada tiene una reducción de daño del 50% de los ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. Fortificar se eliminará después de reducir el daño 3 veces desde que se aplicó, y se reiniciará si se vuelve a aplicar. Este no es un efecto de estado.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Casamentera",
+                "SkillDescription": "Otro aliado aleatorio con Enlace de Cupido y un aliado aleatorio sin Enlace de Cupido reciben los siguientes turnos al ver reducidas sus TU. El aliado sin el Enlace de Cupido será el primero en el orden de los turnos. Ambas unidades son Purificadas y se Enfurecen. Ninguna unidad afectada puede usar las habilidades activas que otorgan turnos hasta después de haber tenido su turno.\n\nSe desbloquea cada vez que el usuario usa Hiere Sentimiento o Disparo de Cupido, y se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.\n\nEsto sobrescribirá los efectos de otras habilidades de Enfurecer en esas unidades. Las unidades Enfurecidas ven aumentado su Ataque a 1.5x hasta el final de su siguiente turno.",
+                "TU": 10,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Hechicera del Amor Verdadero",
+                "SkillDescription": "Esta unidad comienza con Enlace de Cupido. Cuando esta unidad entra en batalla, otorga Enlace de Cupido por 50TU a otro aliado aleatorio no invocado que no tenga un Enlace ya. Luego, ese aliado y esta unidad son Fortificados y se les otorga Guarda Muerte Instantánea.\n\nUna unidad con Enlace de Cupido tiene estos efectos:\n\nEsta unidad no puede quedar Encantada.\n\nCada vez que un aliado con Enlace de Cupido obtiene el turno, esta unidad será curada por el 50% de su HP máximo.\n\nEsta unidad tiene 0.25x de su Ataque original añadido a su Ataque mientras no esté Enfurecida. Este aumento será acumulable con otros aumentos de Ataque (por ejemplo, 1.5x + 0.25x => 1.75x en total).\n\nCuando esta unidad derrota a un enemigo con un ataque, después del final del turno, todos los demás aliados con Enlace de Cupido obtendrán los siguientes turnos reduciendo su TU actual y serán Purificados. Los efectos que influyen en el orden de TU pueden interrumpir el turno extra (por ejemplo, Aturdir dirigido al objetivo con el TU más bajo). Estas reducciones de TU pueden activarse antes o después de otros efectos que ajusten el orden de turno.\n\nEste Enlace se elimina si esta unidad o la unidad que lo otorgó abandona el campo de batalla. Esta unidad no puede obtener otros Enlaces."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Enamorada Alada",
+                "SkillDescription": "Esta unidad entra en batalla con un Guarda Sueño y un Guarda Veneno.\n\nEsta unidad no puede ser aturdida ni enviada a los refuerzos del campo de batalla.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nEsta unidad tiene una reducción de daño del 25% de los ataques. Mientras haya 2 aliados enlazados en el campo de batalla, esta unidad tiene una reducción de daño del 50% de los ataques en su lugar.\n\nLos ataques de esta unidad curan a esta unidad por el 100% del daño total infligido, no despertarán a los enemigos dormidos, ignorarán los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nLa primera vez que esta unidad es dañada por un ataque enemigo y sobrevive hasta después del final del turno, hay un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de que esta unidad Encante a todos los enemigos en el campo de batalla por 50 TU. Cada vez que esta unidad usa Re-enlace de Cupido, este efecto se reinicia para que pueda activarse de nuevo.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad será Purificada y se curará un 25% de su HP máximo.\n\nUna unidad Encantada ve su ataque reducido considerablemente (por ejemplo, a 0.5x de su Ataque original para una unidad sin otros modificadores de Ataque. El efecto de Encantada puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos). Encantada sobrescribe los efectos de Enfurecer y Debilitar, y las unidades que están Encantadas no pueden ser Enfurecidas ni Debilitadas. Las unidades Encantadas tienen menos probabilidades de atacar a la unidad que las Encantó con la mayoría de las habilidades activas. Encantado no es un efecto de estado y no puede ser eliminado por habilidades de Purificar, pero terminará si la unidad Encantada abandona el campo de batalla."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Resistir Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Espadas."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Dominio Hacha",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Jeje, ¡mi nombre es Cupido!\nOh , ¿tú también buscas el amor? ¡Entonces busquémoslo juntos!\nAh, ¿lo ves por allí? ¡Y aquí también! ¡Hay tanto amor por todas partes!"
+            ],
+            "Login": [
+                "Mmm... ¡Oh, cielos! ¡Siento que hay amor por allí! ¡Vamos, no nos lo queremos perder!"
+            ],
+            "Tap": [
+                "¿Qué? ¿Quieres oír hablar de mi experiencia en el Templo del Tiempo...? Pues era húmedo, oscuro y apretado, no era mi tipo de sitio... ¡El aprendizaje debería hacerse en un espacio más abierto y libre! ¿No te parece?",
+                "¡Hablemos de amor! ...¿Eh? ¿Quieres saber más de mí...? Mmm ... No me interesa mucho hablar de mí. ¡Mejor hablemos de tu vida amorosa!",
+                "Chico y chico, chica y chica... Su género me da igual. ¡Todos somos iguales en nombre del amor!"
+            ],
+            "Idle": [
+                "¡Oh, oh, oh, oh! ¡Huelo el aroma de alguien que se está enamorando...! Hmmm, ¿viene de por aquí? ¿O tal vez de allá...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Hiere Sentimientos": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Re-enlace de Cupido": {
+                    "BaseWeight": 500
+                },
+                "Casamentera": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "CupidRegular02": {
+        "Name": "Cupido",
+        "Name2": "Hechicera del Amor Verdadero",
+        "FullName": "Cupido - Hechicera del Amor Verdadero",
+        "Family": "CupidRegular",
+        "Profile": "Durante su estancia en el Templo del Tiempo, estaba mucho más interesada en sus fantasías románticas que en las aburridas clases. Todos la veían como una estudiante poco seria a punto de abandonar los estudios, pero en realidad, tiene más potencial en la magia del tiempo que todos los demás. Los márgenes de sus cuadernos están llenos de historias de amor inconclusas.",
+        "Profile_Ascended": "El objetivo de Cupido era descubrir el ejemplo más claro de \"amor verdadero\", absorber su poder y convertirse en la nueva Primordial del Amor. Y en lo profundo de un sueño ancestral, encontró un amor increíblemente poderoso que había permanecido dormido durante siglos.\nNo se detendrá ante nada para lograr su objetivo, incluso si eso significa explotar los deseos, el dolor y los trágicos destinos de otros.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 34,
+        "Atk_Base": 1243,
+        "Hp_Base": 8205,
+        "Speed": 526,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "Sube HP Luz",
+            "SkillDescription": "Las unidades de Luz aliadas aumentarán su HP un 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Hiere Sentimientos",
+                "SkillDescription": "400% de daño a 1 enemigo. 800% de daño en su lugar si el objetivo no ha abandonado el campo de batalla después de dañar a un aliado con un ataque mientras un aliado \"Cupido, Hechicera del Amor Verdadero\" estaba en el campo de batalla. Este ataque ignora las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nEl usuario obtiene un Guarda Sueño y un Guarda Veneno. Cada Guarda impide que su efecto nombrado se aplique una vez, luego se elimina. Los Guardas idénticos no se pueden acumular.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Re-enlace de Cupido",
+                "SkillDescription": "Otorga Enlace de Cupido por 50TU a otro aliado aleatorio no invocado que no tenga ya un Enlace. \n\nEntonces ese aliado y el usuario son:\n- curados al 100% de los HP máximos.\n\n- Purificados (elimina efectos de estado negativos como sueño, quemado o veneno).\n- Fortificados, y se les otorga un Guarda Muerte Instantánea.\n\nSe puede usar sólo si ningún otro aliado en el campo de batalla tiene ya Enlace de Cupido, y hay un objetivo válido. Se puede usar 5 veces por batalla.\n\nUn Guarda Muerte Instantánea evita que una unidad sea derrotada inmediatamente sin daño por un enemigo que no sea un jefe una vez, luego se elimina. Los Guarda Muerte Instantánea no se pueden ignorar y no se pueden acumular. Una unidad Fortificada tiene una reducción de daño del 50% de los ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. Fortificar se eliminará después de reducir el daño 3 veces desde que se aplicó, y se reiniciará si se vuelve a aplicar. Este no es un efecto de estado.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Casamentera",
+                "SkillDescription": "Otro aliado aleatorio con Enlace de Cupido y un aliado aleatorio sin Enlace de Cupido reciben los siguientes turnos al ver reducidas sus TU. El aliado sin el Enlace de Cupido será el primero en el orden de los turnos. Ambas unidades son Purificadas y se Enfurecen. Ninguna unidad afectada puede usar las habilidades activas que otorgan turnos hasta después de haber tenido su turno.\n\nSe desbloquea cada vez que el usuario usa Hiere Sentimiento o Disparo de Cupido, y se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.\n\nEsto sobrescribirá los efectos de otras habilidades de Enfurecer en esas unidades. Las unidades Enfurecidas ven aumentado su Ataque a 1.5x hasta el final de su siguiente turno.",
+                "TU": 10,
+                "Spirit": "-1"
+            },
+            {
+                "SkillCodename": "SpecialAttackACupidRegular",
+                "SkillTitle": "Disparo de Cupido",
+                "SkillDescription": "250% de daño a 1 enemigo, más 150% por cada vez que el usuario ya haya usado esta habilidad o Hiere Sentimiento en el campo de batalla (máximo de 1000% de daño total después de que el usuario haya usado esta habilidad o Hiere Sentimientos 5 o más veces).\n\nCada segunda vez que el usuario activa esta habilidad en el campo de batalla, un enemigo aleatorio que no sea jefe ni Efímero en el campo de batalla será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Este efecto secundario ignora las habilidades pasivas de Venganza, las habilidades pasivas de Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impedirían que el enemigo aleatorio fuera derrotado.\n\nSe puede usar 10 veces por batalla.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Hechicera del Amor Verdadero",
+                "SkillDescription": "Esta unidad comienza con Enlace de Cupido. Cuando esta unidad entra en batalla, otorga Enlace de Cupido por 50TU a otro aliado aleatorio no invocado que no tenga un Enlace ya. Luego, ese aliado y esta unidad son Fortificados y se les otorga Guarda Muerte Instantánea.\n\nUna unidad con Enlace de Cupido tiene estos efectos:\n\nEsta unidad no puede quedar Encantada.\n\nCada vez que un aliado con Enlace de Cupido obtiene el turno, esta unidad será curada por el 50% de su HP máximo.\n\nEsta unidad tiene 0.25x de su Ataque original añadido a su Ataque mientras no esté Enfurecida. Este aumento será acumulable con otros aumentos de Ataque (por ejemplo, 1.5x + 0.25x => 1.75x en total).\n\nCuando esta unidad derrota a un enemigo con un ataque, después del final del turno, todos los demás aliados con Enlace de Cupido obtendrán los siguientes turnos reduciendo su TU actual y serán Purificados. Los efectos que influyen en el orden de TU pueden interrumpir el turno extra (por ejemplo, Aturdir dirigido al objetivo con el TU más bajo). Estas reducciones de TU pueden activarse antes o después de otros efectos que ajusten el orden de turno.\n\nEste Enlace se elimina si esta unidad o la unidad que lo otorgó abandona el campo de batalla. Esta unidad no puede obtener otros Enlaces."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Enamorada Alada",
+                "SkillDescription": "Esta unidad entra en batalla con un Guarda Sueño y un Guarda Veneno.\n\nEsta unidad no puede ser aturdida ni enviada a los refuerzos del campo de batalla.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nEsta unidad tiene una reducción de daño del 25% de los ataques. Mientras haya 2 aliados enlazados en el campo de batalla, esta unidad tiene una reducción de daño del 50% de los ataques en su lugar.\n\nLos ataques de esta unidad curan a esta unidad por el 100% del daño total infligido, no despertarán a los enemigos dormidos, ignorarán los efectos de reducción de daño y cualquier efecto de enemigos que no sean jefes que impidan que los objetivos sean derrotados.\n\nLa primera vez que esta unidad es dañada por un ataque enemigo y sobrevive hasta después del final del turno, hay un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de que esta unidad Encante a todos los enemigos en el campo de batalla por 50 TU. Cada vez que esta unidad usa Re-enlace de Cupido, este efecto se reinicia para que pueda activarse de nuevo.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad será Purificada y se curará un 25% de su HP máximo.\n\nUna unidad Encantada ve su ataque reducido considerablemente (por ejemplo, a 0.5x de su Ataque original para una unidad sin otros modificadores de Ataque. El efecto de Encantada puede disminuir si el Ataque de la unidad afectada aumenta por otros efectos). Encantada sobrescribe los efectos de Enfurecer y Debilitar, y las unidades que están Encantadas no pueden ser Enfurecidas ni Debilitadas. Las unidades Encantadas tienen menos probabilidades de atacar a la unidad que las Encantó con la mayoría de las habilidades activas. Encantado no es un efecto de estado y no puede ser eliminado por habilidades de Purificar, pero terminará si la unidad Encantada abandona el campo de batalla."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Resistir Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con Espadas."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Dominio Hacha",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Jeje, ¡mi nombre es Cupido!\nOh , ¿tú también buscas el amor? ¡Entonces busquémoslo juntos!\nAh, ¿lo ves por allí? ¡Y aquí también! ¡Hay tanto amor por todas partes!"
+            ],
+            "Login": [
+                "Mmm... ¡Oh, cielos! ¡Siento que hay amor por allí! ¡Vamos, no nos lo queremos perder!"
+            ],
+            "Tap": [
+                "¿Qué? ¿Quieres oír hablar de mi experiencia en el Templo del Tiempo...? Pues era húmedo, oscuro y apretado, no era mi tipo de sitio... ¡El aprendizaje debería hacerse en un espacio más abierto y libre! ¿No te parece?",
+                "¡Hablemos de amor! ...¿Eh? ¿Quieres saber más de mí...? Mmm ... No me interesa mucho hablar de mí. ¡Mejor hablemos de tu vida amorosa!",
+                "Chico y chico, chica y chica... Su género me da igual. ¡Todos somos iguales en nombre del amor!"
+            ],
+            "Idle": [
+                "¡Oh, oh, oh, oh! ¡Huelo el aroma de alguien que se está enamorando...! Hmmm, ¿viene de por aquí? ¿O tal vez de allá...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Hiere Sentimientos": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Re-enlace de Cupido": {
+                    "BaseWeight": 500
+                },
+                "Casamentera": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Disparo de Cupido": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "Has4GoodGirlBuffExactly": 5,
+                        "Has5GoodGirlBuff": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Corazón a Corazón",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

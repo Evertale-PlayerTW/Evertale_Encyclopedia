@@ -13687,7 +13687,7 @@
         "Name": "時空之刃",
         "FullName": "時空之刃",
         "Family": "TimeClockKatana",
-        "Profile": "只有時間神廟中的女祭司們才被允許使用這把裁定過去時光的刀。",
+        "Profile": "只有時之神殿中的女祭司們才被允許使用這把裁定過去時光的刀。",
         "Rarity": "SSR",
         "Stars": "★★★★☆☆",
         "Stars_Curr": 4,
@@ -13712,7 +13712,7 @@
         "Name": "時空之刃",
         "FullName": "時空之刃",
         "Family": "TimeClockKatana",
-        "Profile": "只有時間神廟中的女祭司們才被允許使用這把裁定過去時光的刀。",
+        "Profile": "只有時之神殿中的女祭司們才被允許使用這把裁定過去時光的刀。",
         "Rarity": "SSR",
         "Stars": "★★★★★☆",
         "Stars_Curr": 5,
@@ -13738,7 +13738,7 @@
         "Name": "時空之刃",
         "FullName": "時空之刃",
         "Family": "TimeClockKatana",
-        "Profile": "只有時間神廟中的女祭司們才被允許使用這把裁定過去時光的刀。",
+        "Profile": "只有時之神殿中的女祭司們才被允許使用這把裁定過去時光的刀。",
         "Rarity": "SSR",
         "Stars": "★★★★★★",
         "Stars_Curr": 6,
@@ -22169,7 +22169,7 @@
         "Hp_Base": 2765,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4TargetIsBurning",
@@ -22194,7 +22194,7 @@
         "Hp_Base": 3330,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5TargetIsBurning",
@@ -22220,12 +22220,89 @@
         "Hp_Base": 3575,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6TargetIsBurning",
                 "SkillTitle": "提升攻擊力",
                 "SkillDescription": "若攻擊目標處於燃燒狀態，則造成15%的額外傷害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "CupidMace01": {
+        "Name": "愛之迴響",
+        "FullName": "愛之迴響",
+        "Family": "CupidMace",
+        "Profile": "讓戀愛的悸動一次又一次迴響的魔法錘。甜美的光芒流轉於時光之中，將某人的心意引向一段愛情故事。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "釘頭鎚",
+        "Cost": 11,
+        "Atk_Base": 443,
+        "Hp_Base": 3160,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc4NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "力量提昇",
+                "SkillDescription": "若場上不存在處於睡眠、燃燒或中毒的己方單位，裝備單位造成7%的額外傷害且受到敵方攻擊的傷害減少6%。"
+            }
+        ]
+    },
+    "CupidMace02": {
+        "Name": "愛之迴響",
+        "FullName": "愛之迴響",
+        "Family": "CupidMace",
+        "Profile": "讓戀愛的悸動一次又一次迴響的魔法錘。甜美的光芒流轉於時光之中，將某人的心意引向一段愛情故事。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "釘頭鎚",
+        "Cost": 17,
+        "Atk_Base": 529,
+        "Hp_Base": 3855,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc5NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "力量提昇",
+                "SkillDescription": "若場上不存在處於睡眠、燃燒或中毒的己方單位，裝備單位造成10%的額外傷害且受到敵方攻擊的傷害減少8%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "CupidMace03": {
+        "Name": "愛之迴響",
+        "FullName": "愛之迴響",
+        "Family": "CupidMace",
+        "Profile": "讓戀愛的悸動一次又一次迴響的魔法錘。甜美的光芒流轉於時光之中，將某人的心意引向一段愛情故事。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "釘頭鎚",
+        "Cost": 23,
+        "Atk_Base": 577,
+        "Hp_Base": 4115,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc6NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "力量提昇",
+                "SkillDescription": "若場上不存在處於睡眠、燃燒或中毒的己方單位，裝備單位造成15%的額外傷害且受到敵方攻擊的傷害減少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2

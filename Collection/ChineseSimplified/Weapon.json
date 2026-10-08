@@ -13687,7 +13687,7 @@
         "Name": "时空之刃",
         "FullName": "时空之刃",
         "Family": "TimeClockKatana",
-        "Profile": "只有时间神庙中的女祭司们才被允许使用这把裁定过去时光的刀。",
+        "Profile": "只有时之神殿中的女祭司们才被允许使用这把裁定过去时光的刀。",
         "Rarity": "SSR",
         "Stars": "★★★★☆☆",
         "Stars_Curr": 4,
@@ -13712,7 +13712,7 @@
         "Name": "时空之刃",
         "FullName": "时空之刃",
         "Family": "TimeClockKatana",
-        "Profile": "只有时间神庙中的女祭司们才被允许使用这把裁定过去时光的刀。",
+        "Profile": "只有时之神殿中的女祭司们才被允许使用这把裁定过去时光的刀。",
         "Rarity": "SSR",
         "Stars": "★★★★★☆",
         "Stars_Curr": 5,
@@ -13738,7 +13738,7 @@
         "Name": "时空之刃",
         "FullName": "时空之刃",
         "Family": "TimeClockKatana",
-        "Profile": "只有时间神庙中的女祭司们才被允许使用这把裁定过去时光的刀。",
+        "Profile": "只有时之神殿中的女祭司们才被允许使用这把裁定过去时光的刀。",
         "Rarity": "SSR",
         "Stars": "★★★★★★",
         "Stars_Curr": 6,
@@ -14525,7 +14525,7 @@
             {
                 "SkillCodename": "AttackUpDamageReduc6User1KillPlus",
                 "SkillTitle": "力量提升",
-                "SkillDescription": "若此单位从进场后通过攻击击败过至少1个单位，则造成15%的额外伤害且受到敌方攻击的伤害减少10%。"
+                "SkillDescription": "若此单位从进场后通过攻击击败过至少1个单位，装备单位造成15%的额外伤害且受到敌方攻击的伤害减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2
@@ -22169,7 +22169,7 @@
         "Hp_Base": 2765,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4TargetIsBurning",
@@ -22194,7 +22194,7 @@
         "Hp_Base": 3330,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5TargetIsBurning",
@@ -22220,12 +22220,89 @@
         "Hp_Base": 3575,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6TargetIsBurning",
                 "SkillTitle": "提升攻击力",
                 "SkillDescription": "若攻击目标处于燃烧状态，则造成15%的额外伤害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "CupidMace01": {
+        "Name": "爱之回响",
+        "FullName": "爱之回响",
+        "Family": "CupidMace",
+        "Profile": "让恋爱的悸动一次又一次回响的魔法锤。甜美的光芒流转于时光之中，将某人的心意引向一段爱情故事。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "钉头锤",
+        "Cost": 11,
+        "Atk_Base": 443,
+        "Hp_Base": 3160,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc4NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "力量提升",
+                "SkillDescription": "若场上不存在处于睡眠、燃烧或中毒的己方单位，装备单位造成7%的额外伤害且受到敌方攻击的伤害减少6%。"
+            }
+        ]
+    },
+    "CupidMace02": {
+        "Name": "爱之回响",
+        "FullName": "爱之回响",
+        "Family": "CupidMace",
+        "Profile": "让恋爱的悸动一次又一次回响的魔法锤。甜美的光芒流转于时光之中，将某人的心意引向一段爱情故事。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "钉头锤",
+        "Cost": 17,
+        "Atk_Base": 529,
+        "Hp_Base": 3855,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc5NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "力量提升",
+                "SkillDescription": "若场上不存在处于睡眠、燃烧或中毒的己方单位，装备单位造成10%的额外伤害且受到敌方攻击的伤害减少8%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "CupidMace03": {
+        "Name": "爱之回响",
+        "FullName": "爱之回响",
+        "Family": "CupidMace",
+        "Profile": "让恋爱的悸动一次又一次回响的魔法锤。甜美的光芒流转于时光之中，将某人的心意引向一段爱情故事。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "钉头锤",
+        "Cost": 23,
+        "Atk_Base": 577,
+        "Hp_Base": 4115,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUpDamageReduc6NoSleepingPoisonedOrBurningAllies",
+                "SkillTitle": "力量提升",
+                "SkillDescription": "若场上不存在处于睡眠、燃烧或中毒的己方单位，装备单位造成15%的额外伤害且受到敌方攻击的伤害减少10%。"
             }
         ],
         "ExtraEvoInitialCount": 2

@@ -14523,6 +14523,17 @@
                     "WaterElfWarrior01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -14864,6 +14875,17 @@
                     "BattleCleric01",
                     "RedScarfFrog01",
                     "WaterElfWarrior01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -17613,6 +17635,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -17987,6 +18020,17 @@
                     "KintaroRegular01",
                     "GearLancerGirl01",
                     "ElfBattleMage01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "PV+3%"
@@ -48703,6 +48747,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -48984,6 +49039,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -145932,7 +145998,7 @@
         "Hp_Base": 5580,
         "Speed": 490,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Che il processo abbia inizio.\nMa prima, una tazza di tè.",
         "LeaderSkill": {
             "SkillCodename": "HPUpFireD",
@@ -146062,6 +146128,19 @@
                 "Mano di Ferro": {
                     "BaseWeight": 500
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -146255,6 +146334,387 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "CupidRegular01": {
+        "Name": "Cupido",
+        "Name2": "Incantatrice del Vero Amore",
+        "FullName": "Cupido - Incantatrice del Vero Amore",
+        "Family": "CupidRegular",
+        "Profile": "Ogni volta che avverte l'amore nell'aria, Cupido arriva volando, dimenticando completamente tempo e luogo. Dichiarazioni d'amore, effusioni per un innamorato, litigi tra amanti: tutto porta con sé il più dolce profumo del romanticismo. Ancora oggi, ogni volta che sente il cuore di qualcuno iniziare a battere più forte, Cupido appare con un lieve fruscio d'ali.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Life",
+        "Element": "Luce",
+        "Cost": 28,
+        "Atk_Base": 1069,
+        "Hp_Base": 5865,
+        "Speed": 526,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Ooooh, sento profumo di A-M-O-R-E nell'aria!",
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "HP+ (Luce)",
+            "SkillDescription": "Nelle unità alleate di tipo Luce gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Sentimenti Feriti",
+                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio non ha abbandonato il campo da quando ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Incantatrice del Vero Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Ripristina Legame",
+                "SkillDescription": "Fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame.\n\nPoi, quell'alleato e l'unità:\n- Recuperano il 100% degli HP massimi.\n- Sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno).\n- Ottengono Fortificazione e Protezione Morte.\n\nUtilizzabile solo se non ci sono altri alleati in campo con Legame di Cupido e se c'è un bersaglio valido. Utilizzabile 5 volte per battaglia.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. L'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Paraninfa",
+                "SkillDescription": "Un altro alleato casuale con Legame di Cupido e un alleato casuale senza Legame di Cupido ottengono immediatamente il turno azzerando i loro TU. L'alleato senza Legame di Cupido sarà il primo nell'ordine dei turni. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate dalle unità affette finché non hanno svolto il proprio turno.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "TU": 10,
+                "Spirit": "-1"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Strega dell'Amore",
+                "SkillDescription": "L'unità inizia con Legame di Cupido. Quando l'unità entra in campo, fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame. Poi, quell'alleato e l'unità ottengono Fortificazione e Protezione Morte.\n\nUn'unità con Legame di Cupido ha i seguenti effetti:\n\nL'unità è immune a Fascino.\n\nOgni volta che un alleato con Legame di Cupido ottiene il turno, l'unità recupera il 50% degli HP massimi.\n\nL'unità aggiunge lo 0,25x dell'attacco originale al proprio attacco se non ha Provocazione. L'effetto si accumula con altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,25x = 1,75x totale).\n\nQuando l'unità sconfigge un nemico con un attacco, alla fine del turno, tutti gli altri alleati con Legame di Cupido ottengono immediatamente il turno azzerando i loro TU e sono purificati. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). Queste riduzioni dei TU possono attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nIl Legame viene rimosso se questa unità o l'unità che lo ha fornito abbandonano il campo. L'unità non può ottenere altri Legami."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Tesorino Alato",
+                "SkillDescription": "Questa unità entra in campo con Protezione Sonno e Protezione Veleno.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 25% dagli attacchi ricevuti. L'unità ha una riduzione danni del 50% dagli attacchi ricevuti invece se ci sono 2 alleati con un Legame in campo.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale, non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nLa prima volta che l'unità subisce danno da un attacco nemico e sopravvive fino alla fine del turno, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di affascinare tutti i nemici in campo per 50TU. Ogni volta che l'unità usa Ripristina Legame, l'effetto si azzera e può riattivarsi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità è purificata e recupera il 25% degli HP massimi.\n\nL'attacco dell'unità affascinata è fortemente ridotto (per esempio, allo 0,5x dell'attacco originale per un'unità senza altri modificatori all'attacco. L'effetto di Fascino può ridursi se l'attacco dell'unità è aumentato da altri effetti.). Fascino sostituisce altri effetti di Provocazione o Debolezza. Le unità affascinate non possono ottenere Provocazione o subire Debolezza. La maggior parte delle abilità attive delle unità affascinate tendono a colpire meno spesso l'unità che le ha affascinate. Fascino non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità abbandona il campo."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Resist. Spada Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Maestria Ascia",
+                "SkillDescription": "Può usare le abilità delle Asce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Eheh, mi chiamo Cupido!\nOh, sei anche tu in cerca d'amore? Allora cerchiamolo insieme!\nAh, lo vedi laggiù? E anche qui! C'è così tanto amore ovunque!"
+            ],
+            "Login": [
+                "Mmm... Oh, cielo...! Percepisco dell'amore da quella direzione! Andiamo, non possiamo perdercelo!"
+            ],
+            "Tap": [
+                "Cosa? Vuoi sapere del mio periodo al Tempio del Tempo...? Beh, era umido, buio e affollato, non proprio il mio posto ideale... Si dovrebbe studiare in uno spazio più aperto e libero! Non sei d'accordo?",
+                "Parliamo d'amore! ...eh? Vuoi sapere qualcosa di più su di me...? Ehm... non mi interessa molto parlare di me. Piuttosto, parliamo della tua vita amorosa!",
+                "Ragazzo e ragazzo, ragazza e ragazza... Il genere non fa alcuna differenza per me. Tutti sono uguali nel nome dell'amore!"
+            ],
+            "Idle": [
+                "Oh, oh oh oh! Sento il profumo di qualcuno che si sta innamorando...! Mmm, verrà da questa parte? O forse da quella...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Sentimenti Feriti": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Ripristina Legame": {
+                    "BaseWeight": 500
+                },
+                "Paraninfa": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "CupidRegular02": {
+        "Name": "Cupido",
+        "Name2": "Incantatrice del Vero Amore",
+        "FullName": "Cupido - Incantatrice del Vero Amore",
+        "Family": "CupidRegular",
+        "Profile": "Durante il periodo passato al Tempio del Tempo, era molto più interessata alle sue fantasie romantiche che alle noiose lezioni. Tutti la consideravano una studentessa poco seria, sul punto di abbandonare gli studi... ma in realtà possiede un potenziale nella magia del tempo superiore a quello di chiunque altro. I margini dei suoi appunti sono pieni di storie d'amore incompiute.",
+        "Profile_Ascended": "L'obiettivo di Cupido era scoprire l'esempio più puro di \"vero amore\", assorbirne il potere e diventare la nuova Primordiale dell'Amore. E nel profondo di un sogno antico, ha trovato un amore incredibilmente potente, rimasto dormiente per secoli.\nNon si fermerà davanti a nulla pur di raggiungere il suo scopo, anche se questo significa sfruttare i desideri, il dolore e i destini tragici degli altri.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Life",
+        "Element": "Luce",
+        "Cost": 34,
+        "Atk_Base": 1243,
+        "Hp_Base": 8205,
+        "Speed": 526,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "HPUpLifeD",
+            "SkillTitle": "HP+ (Luce)",
+            "SkillDescription": "Nelle unità alleate di tipo Luce gli HP massimi aumentano del 10%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackACupidRegular",
+                "SkillTitle": "Sentimenti Feriti",
+                "SkillDescription": "400% di danno a 1 nemico. 800% di danno invece se il bersaglio non ha abbandonato il campo da quando ha danneggiato un alleato con un attacco mentre un'unità \"Cupido, Incantatrice del Vero Amore\" è in campo. Questo attacco ignora le abilità passive di contatto e l'effetto di stato Opposizione.\n\nL'unità ottiene Protezione Sonno e Protezione Veleno. Ogni Protezione impedisce un'applicazione del proprio effetto, poi è rimossa. Protezioni identiche non si accumulano.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffACupidRegular",
+                "SkillTitle": "Ripristina Legame",
+                "SkillDescription": "Fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame.\n\nPoi, quell'alleato e l'unità:\n- Recuperano il 100% degli HP massimi.\n- Sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno).\n- Ottengono Fortificazione e Protezione Morte.\n\nUtilizzabile solo se non ci sono altri alleati in campo con Legame di Cupido e se c'è un bersaglio valido. Utilizzabile 5 volte per battaglia.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. L'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "MultiBuffACupidRegular",
+                "SkillTitle": "Paraninfa",
+                "SkillDescription": "Un altro alleato casuale con Legame di Cupido e un alleato casuale senza Legame di Cupido ottengono immediatamente il turno azzerando i loro TU. L'alleato senza Legame di Cupido sarà il primo nell'ordine dei turni. Entrambe le unità sono purificate e ottengono Provocazione. Le abilità attive che forniscono turni non possono essere usate dalle unità affette finché non hanno svolto il proprio turno.\n\nSi sblocca ogni volta che l'unità usa Sentimenti Feriti o Tiro di Cupido. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.\n\nSostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.",
+                "TU": 10,
+                "Spirit": "-1"
+            },
+            {
+                "SkillCodename": "SpecialAttackACupidRegular",
+                "SkillTitle": "Tiro di Cupido",
+                "SkillDescription": "250% di danno a 1 nemico, più il 150% per ogni volta che questa abilità o Sentimenti Feriti sono state attivate da quando l'unità è entrata in campo (fino al 1000% di danno totale se questa abilità o Sentimenti Feriti sono già state utilizzate almeno 5 volte).\n\nOgni seconda volta che l'abilità viene attivata dall'unità in campo, un nemico senza Effimerità e che non è un boss in campo viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Questo effetto secondario ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive e gli effetti che impedirebbero al nemico casuale di essere sconfitto.\n\nUtilizzabile 10 volte per battaglia.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "MatchMakerPassiveACupidRegular",
+                "SkillTitle": "Strega dell'Amore",
+                "SkillDescription": "L'unità inizia con Legame di Cupido. Quando l'unità entra in campo, fornisce Legame di Cupido per 50TU a un altro alleato non invocato casuale senza un Legame. Poi, quell'alleato e l'unità ottengono Fortificazione e Protezione Morte.\n\nUn'unità con Legame di Cupido ha i seguenti effetti:\n\nL'unità è immune a Fascino.\n\nOgni volta che un alleato con Legame di Cupido ottiene il turno, l'unità recupera il 50% degli HP massimi.\n\nL'unità aggiunge lo 0,25x dell'attacco originale al proprio attacco se non ha Provocazione. L'effetto si accumula con altri effetti di aumento dell'attacco (per esempio, 1,5x + 0,25x = 1,75x totale).\n\nQuando l'unità sconfigge un nemico con un attacco, alla fine del turno, tutti gli altri alleati con Legame di Cupido ottengono immediatamente il turno azzerando i loro TU e sono purificati. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo (per esempio Stordimento che colpisce il bersaglio con meno TU). Queste riduzioni dei TU possono attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nIl Legame viene rimosso se questa unità o l'unità che lo ha fornito abbandonano il campo. L'unità non può ottenere altri Legami."
+            },
+            {
+                "SkillCodename": "AngelOfLovePassiveACupidRegular",
+                "SkillTitle": "Tesorino Alato",
+                "SkillDescription": "Questa unità entra in campo con Protezione Sonno e Protezione Veleno.\n\nL'unità è immune a Stordimento e non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nL'unità ha una riduzione danni del 25% dagli attacchi ricevuti. L'unità ha una riduzione danni del 50% dagli attacchi ricevuti invece se ci sono 2 alleati con un Legame in campo.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale, non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nLa prima volta che l'unità subisce danno da un attacco nemico e sopravvive fino alla fine del turno, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli) di affascinare tutti i nemici in campo per 50TU. Ogni volta che l'unità usa Ripristina Legame, l'effetto si azzera e può riattivarsi.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità è purificata e recupera il 25% degli HP massimi.\n\nL'attacco dell'unità affascinata è fortemente ridotto (per esempio, allo 0,5x dell'attacco originale per un'unità senza altri modificatori all'attacco. L'effetto di Fascino può ridursi se l'attacco dell'unità è aumentato da altri effetti.). Fascino sostituisce altri effetti di Provocazione o Debolezza. Le unità affascinate non possono ottenere Provocazione o subire Debolezza. La maggior parte delle abilità attive delle unità affascinate tendono a colpire meno spesso l'unità che le ha affascinate. Fascino non è un effetto di stato e non può essere curato da abilità di tipo Purifica, ma viene annullato se l'unità abbandona il campo."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "SwordMinusDamageLv3",
+                "SkillTitle": "Resist. Spada Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato una Spada."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Maestria Ascia",
+                "SkillDescription": "Può usare le abilità delle Asce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Eheh, mi chiamo Cupido!\nOh, sei anche tu in cerca d'amore? Allora cerchiamolo insieme!\nAh, lo vedi laggiù? E anche qui! C'è così tanto amore ovunque!"
+            ],
+            "Login": [
+                "Mmm... Oh, cielo...! Percepisco dell'amore da quella direzione! Andiamo, non possiamo perdercelo!"
+            ],
+            "Tap": [
+                "Cosa? Vuoi sapere del mio periodo al Tempio del Tempo...? Beh, era umido, buio e affollato, non proprio il mio posto ideale... Si dovrebbe studiare in uno spazio più aperto e libero! Non sei d'accordo?",
+                "Parliamo d'amore! ...eh? Vuoi sapere qualcosa di più su di me...? Ehm... non mi interessa molto parlare di me. Piuttosto, parliamo della tua vita amorosa!",
+                "Ragazzo e ragazzo, ragazza e ragazza... Il genere non fa alcuna differenza per me. Tutti sono uguali nel nome dell'amore!"
+            ],
+            "Idle": [
+                "Oh, oh oh oh! Sento il profumo di qualcuno che si sta innamorando...! Mmm, verrà da questa parte? O forse da quella...?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "2AlliesIsCupidBonding": 1.05,
+                "Kills1": 1.05,
+                "Has5GoodGirlBuff": 1.1,
+                "IsPleaseDONTDefeatMeBuffCupidRegular": 0.001
+            },
+            "SkillUse": {
+                "Sentimenti Feriti": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89,
+                        "IsICantBelieveYouHitMeBuff": 1
+                    }
+                },
+                "Ripristina Legame": {
+                    "BaseWeight": 500
+                },
+                "Paraninfa": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotAlone": 250
+                    }
+                },
+                "Tiro di Cupido": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "Has4GoodGirlBuffExactly": 5,
+                        "Has5GoodGirlBuff": 5
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsFrostbitten": 0.89,
+                        "IsSleeping": 0.89,
+                        "IsCharmed": 0.89
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA44": {
+                "RelationshipName": "Cuore a Cuore",
+                "RelationshipFamily": [
+                    "QueenHeartsRegular01",
+                    "CupidRegular01",
+                    "WaterPriestess01",
+                    "RedScarfFrog01",
+                    "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }
