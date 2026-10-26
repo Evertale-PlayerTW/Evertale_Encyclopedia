@@ -22,6 +22,7 @@
 			margin: auto;
 			padding: 0.5rem;
 			box-sizing: border-box;
+			position: relative;
 		}
 
 		input,
@@ -655,12 +656,12 @@
 			flex-direction: column;
 		}
 
-		.inputBlock input {
+		.inputBlock input:not([type="checkbox"]) {
 			width: 100%;
 			box-sizing: border-box;
 			margin-bottom: 0px;
 			font-size: 0.75em;
-			border: 0.5px dotted gray;
+			border: 1px dotted gray;
 		}
 
 		.hint {
@@ -921,6 +922,92 @@
 			object-fit: contain;
 			object-position: center;
 			aspect-ratio: 1 / 1;
+		}
+
+		#exportActions {
+			position: absolute;
+			z-index: 9999;
+			left: 0px;
+		}
+
+		#exportMenuButtons {
+			display: flex;
+			flex-direction: column;
+			gap: 0.5em;
+			margin: 0.5em 0 0 3px;
+			width: min-content;
+		}
+
+		#exportDropdown {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 0.5px solid black;
+			align-self: center;
+			padding: 0px;
+			border-radius: 1em;
+			background-color: transparent;
+			font-size: 1.5em;
+			margin: 3px;
+		}
+
+		.exportOption {
+			width: 100%;
+			display: grid;
+			grid-template-columns: auto 1rem;
+			place-items: center;
+			background-color: lightgray;
+			border: 1px solid black;
+			font-size: 1em;
+			border-radius: 1em;
+		}
+
+		.whenCapture+.pageFitContent {
+			min-width: min-content;
+			/* width: fit-content; */
+		}
+
+		.whenCapture #aiLogicContent {
+			overflow: hidden;
+		}
+
+		#openExportConfig {
+			/* width: min-content; */
+			border: 1px solid black;
+			border: 0;
+			border-radius: 1em;
+			background-color: transparent;
+			display: flex;
+			place-content: center;
+		}
+
+		#exportMenuConfig {
+			display: flex;
+			flex-direction: column;
+			border: 1px solid black;
+			background-color: white;
+			gap: 0.5em;
+			padding: 0.5em;
+			border-radius: 10px;
+			font-size: 0.8em;
+			margin: 0.5em 0 0 3px;
+		}
+
+		#exportMenuConfig>div {
+			display: flex;
+			flex-direction: column;
+			border: 1px solid black;
+			padding: 0.5em;
+		}
+
+		.exportConfigTitle {
+			font-size: 1rem;
+			place-self: center;
+		}
+
+		#exportMenuConfig label {
+			display: inline-flex;
+			align-items: center;
 		}
 	</style>
 </head>
@@ -1396,6 +1483,110 @@
 		</div>
 		<hr style="margin: 1em -0.5em auto" />
 	</div>
+	<div id="exportActions" class="hidden">
+		<button id="exportDropdown" onclick="toggleExportMenu()">
+			<svg id="downloadIcon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 -960 960 960" width="1em"
+				fill="currentColor">
+				<path
+					d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
+			</svg>
+			<svg id="loadingIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em"
+				class="hidden">
+				<circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"
+					stroke-dasharray="12 6">
+					<animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="1s"
+						repeatCount="indefinite"> </animateTransform>
+				</circle>
+			</svg>
+		</button>
+		<div id="exportMenu" class="hidden">
+			<div id="exportMenuButtons">
+				<button id="downloadJsonAll" class="exportOption" onclick="downloadJson()">
+					<span>JSON</span>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="1rem" width="1rem"
+						fill="currentColor">
+						<path
+							d="M480-140q-145.61 0-242.81-41.12Q140-222.23 140-283.85V-680q0-57.92 99.54-98.96Q339.08-820 480-820q140.92 0 240.46 41.04Q820-737.92 820-680v396.15q0 61.62-97.19 102.73Q625.61-140 480-140Zm0-461.69q87.46 0 176.12-24.73 88.65-24.73 102.73-53.35-13.7-29.38-101.66-54.81Q569.23-760 480-760q-89.08 0-176.58 24.73-87.5 24.73-103.04 53.96 15.16 30 102.27 54.81 87.12 24.81 177.35 24.81Zm0 200.15q41.62 0 81-4t75.27-11.69q35.88-7.69 67.19-19.08 31.31-11.38 56.54-25.77V-604q-25.23 14.38-56.54 25.77-31.31 11.38-67.19 19.07-35.89 7.7-75.27 11.7-39.38 4-81 4-42.38 0-82.58-4.2-40.19-4.19-75.88-11.88t-66.5-18.88Q224.23-589.62 200-604v141.92q24.23 14.39 55.04 25.58 30.81 11.19 66.5 18.88 35.69 7.7 75.88 11.89 40.2 4.19 82.58 4.19ZM480-200q48.69 0 95.62-6.42 46.92-6.43 85.38-17.54 38.46-11.12 64.88-25.81 26.43-14.69 34.12-30.85v-121.46q-25.23 14.39-56.54 25.77-31.31 11.39-67.19 19.08-35.89 7.69-75.27 11.69-39.38 4-81 4-42.38 0-82.58-4.19-40.19-4.19-75.88-11.89-35.69-7.69-66.5-18.88-30.81-11.19-55.04-25.58V-280q7.69 16.54 33.81 30.73 26.11 14.19 64.57 25.31 38.47 11.11 85.7 17.54Q431.31-200 480-200Z" />
+					</svg>
+				</button>
+				<!-- <button id="downloadJsonFiltered" class="exportOption" onclick="downloadJson('filtered')">
+							<span>JSON</span>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1rem" width="1rem" fill="currentColor">
+								<path
+									d="M73.8 65.5c-8.2 2.2-14.1 5.7-20.4 11.9-15.3 15.3-17.6 38.7-5.6 56.4 1.5 2.2 36.3 41 77.4 86.2l74.8 82.2.2 79.8c.3 78.9.3 79.9 2.4 82.6 4.9 6.7 13 9.1 19.5 6 1.9-.9 22.1-16.6 44.9-34.9 29.9-23.9 42-34.2 43.2-36.7 1.6-3.2 1.8-7.7 1.8-50.2v-46.7l66.3-72.8c36.4-40.1 70.7-77.8 76.1-83.8 6.6-7.3 10.9-13.1 12.9-17.2 8.3-17.9 5-37.1-8.7-50.9-6.4-6.3-12.2-9.7-20.9-12-7.4-2-356.7-1.9-363.9.1m358.9 32.2c2.5 1.2 4.1 2.9 5.5 6.1 3.4 7.6 2.7 8.7-25.5 39.8-14 15.3-48.7 53.5-77.1 84.9-28.5 31.3-52.6 58.1-53.5 59.5-1.4 2.1-1.7 8.1-2.1 49.4l-.5 47-23 18.7c-12.6 10.3-23.3 18.8-23.7 18.8-.5.1-.8-28.6-.8-63.8 0-45.8-.3-64.7-1.2-67.1-1.1-3.3-4.6-7.3-58.8-67-97.9-107.8-98.9-109-99.6-112.6-.9-4.8 1.4-10.4 5.5-13.1l3.4-2.3h173.9c160.8 0 174.3.1 177.5 1.7" />
+							</svg>
+						</button> -->
+				<button id="captureScreen" class="exportOption captureAllowed hidden" onclick="screenshot()">
+					<span>PNG</span>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1rem" width="1rem"
+						fill="currentColor">
+						<path
+							d="M52 34.2c-7.4 2.9-15 10.5-17.8 18.1-2.1 5.4-2.2 7.5-2.2 35.1 0 28.8 0 29.4 2.3 32.7 7.1 10.6 20.3 10.6 27.4 0 2.2-3.3 2.3-4 2.3-29.7V64h26.4c25.7 0 26.4-.1 29.7-2.3 10.6-7.1 10.6-20.3 0-27.4-3.3-2.3-3.8-2.3-33-2.2-27.6 0-30 .1-35.1 2.1M191 33.9c-10.4 5.5-11.6 19.8-2.2 26.9l3.5 2.7h127.4l3.5-2.7c9.4-7.1 8.2-21.4-2.2-26.9-3.3-1.8-7-1.9-65-1.9s-61.7.1-65 1.9M391.9 34.3c-5.2 3.5-7.9 8.2-7.9 13.7s2.7 10.2 7.9 13.7c3.3 2.2 4 2.3 29.7 2.3H448v26.4c0 25.7.1 26.4 2.3 29.7 7.1 10.6 20.3 10.6 27.4 0 2.3-3.3 2.3-3.9 2.3-32.7 0-34.6-.5-37-9.4-46-9-8.9-11.4-9.4-46-9.4-28.8 0-29.4 0-32.7 2.3M146 150.1c-8.8 3.5-12.8 14.9-7.9 22.8 1.1 1.8 23.4 29.6 49.5 61.8 31.9 39.3 47.2 58.9 46.6 59.6-.5.7-9.6 12-20.2 25.2-10.7 13.2-19.4 24.1-19.5 24.2-.1.2-3.3-.4-7.1-1.2-20.4-4.3-41 2.1-56.4 17.5-25.2 25.2-25.3 64.5-.2 89.8 25.3 25.5 64.8 25.5 90.3.2 23.8-23.7 25.1-58.9 3-87l-1.9-2.6 16.6-20.6c9.2-11.4 16.9-20.7 17.2-20.7s8 9.3 17.2 20.7l16.6 20.6-1.9 2.6c-9.9 12.5-14.8 24.9-15.6 39-1.8 30.7 20 59.1 50.3 65.5 45.2 9.6 85.4-30.7 75.9-76-6.3-30-35.1-52.1-65.5-50.2-4.7.3-10 1.1-11.7 1.7-3 1.1-3.5 1-5.7-1.7-6.9-8.2-38.6-47.9-38.6-48.3 0-.3 22-27.6 48.9-60.6 26.8-33.1 49.1-61.2 49.4-62.5 2-7.5-1.2-15.8-7.3-19-4.9-2.6-11.9-2.5-16.1.4-1.8 1.2-23.9 27.6-49 58.7-25.1 31-46.1 56.6-46.7 56.8-.5.1-22-25.6-47.6-57.1-33.8-41.7-47.6-57.9-50-59.1-3.8-1.8-8.8-2-12.6-.5m43.5 226c6.3 3 12.3 9 15.5 15.4 2 4.1 2.5 6.5 2.4 13.5 0 7.3-.4 9.3-2.7 13.8-3.5 6.7-8.9 12.1-15.2 15.2-7.2 3.5-19.8 3.5-27 0-26-12.7-23.8-49.5 3.5-59.4 6.3-2.3 17-1.6 23.5 1.5m160 0c6.3 3 12.3 9 15.5 15.4 2 4.1 2.5 6.5 2.4 13.5 0 7.3-.4 9.3-2.7 13.8-3.5 6.7-8.9 12.1-15.2 15.2-7.2 3.5-19.8 3.5-27 0-26-12.7-23.8-49.5 3.5-59.4 6.3-2.3 17-1.6 23.5 1.5M41.4 183.9c-2.3 1-5.2 3.4-6.5 5.2l-2.4 3.4-.3 62.5c-.2 59.4-.1 62.7 1.6 66 5.6 10.4 19.9 11.6 27 2.2l2.7-3.5V192.5l-2.4-3.4c-2.6-3.6-9-7.1-13.1-7.1-1.4 0-4.3.9-6.6 1.9M457.4 183.9c-2.3 1-5.2 3.4-6.5 5.2l-2.4 3.4-.3 62.5c-.2 59.4-.1 62.7 1.6 66 5.6 10.4 19.9 11.6 27 2.2l2.7-3.5V192.5l-2.4-3.4c-2.6-3.6-9-7.1-13.1-7.1-1.4 0-4.3.9-6.6 1.9M41.5 385.4c-4.1 1.8-8.3 6.9-9 10.9-.4 1.8-.5 16.1-.3 31.7.3 28 .3 28.6 2.8 33.5 3.1 6.4 9.1 12.4 15.5 15.5 5 2.5 5 2.5 36.2 2.5 29.9 0 31.3-.1 33.9-2.1 5.3-3.9 6.9-7.1 6.9-13.4s-1.6-9.5-6.9-13.4c-2.6-2-4.3-2.1-29.6-2.4l-26.9-.3-.3-26.9c-.3-25.3-.4-27-2.4-29.6-1.1-1.5-3.2-3.7-4.6-4.7-3.3-2.5-11.3-3.2-15.3-1.3" />
+						<path
+							d="M457.5 385.4c-3.7 1.7-7 5.2-8.4 8.9-.7 1.7-1.1 12.7-1.1 28.2v25.4l-26.9.3c-25.4.3-27.1.4-29.7 2.4-5.3 3.9-6.9 7.1-6.9 13.4s1.6 9.5 6.9 13.4c2.6 2 4 2.1 33.9 2.1 31.2 0 31.2 0 36.2-2.5 6.4-3.1 12.4-9.1 15.5-15.5 2.5-5 2.5-5 2.5-36.2 0-29.9-.1-31.3-2.1-33.9-1.1-1.5-3.2-3.7-4.6-4.7-3.4-2.5-11.3-3.2-15.3-1.3" />
+					</svg>
+				</button>
+				<button id="openExportConfig" class="" onclick="toggleExportConfig()">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="48 -912 864 864" height="1rem" width="1rem"
+						fill="currentColor">
+						<path
+							d="M479.79-192Q450-192 429-213.21t-21-51Q408-294 429.21-315t51-21Q510-336 531-314.79t21 51Q552-234 530.79-213t-51 21Zm0-216Q450-408 429-429.21t-21-51Q408-510 429.21-531t51-21Q510-552 531-530.79t21 51Q552-450 530.79-429t-51 21Zm0-216Q450-624 429-645.21t-21-51Q408-726 429.21-747t51-21Q510-768 531-746.79t21 51Q552-666 530.79-645t-51 21Z" />
+					</svg>
+				</button>
+			</div>
+			<div id="exportMenuConfig" class="hidden">
+				<div id="exportConfigDataPart">
+					<div class="exportConfigTitle">JSON</div>
+					<label>
+						<input type="radio" name="exportDataType" value="currCategoryWhole" onchange="" checked />
+						<span data-i18n="DlOpt_CurrCategoryWhole"></span>
+					</label>
+					<label>
+						<input type="radio" name="exportDataType" value="currCategoryFiltered" onchange="" />
+						<span data-i18n="DlOpt_CurrCategoryFiltered"></span>
+					</label>
+					<label>
+						<input type="radio" name="exportDataType" value="allCategory" onchange="" />
+						<span data-i18n="DlOpt_AllCategory"></span>
+					</label>
+				</div>
+				<div id="exportConfigImgPart" class="captureAllowed hidden">
+					<div class="exportConfigTitle">PNG</div>
+					<label>
+						<input type="radio" name="captureType" value="actualView" onchange="" checked />
+						<span data-i18n="DlOpt_ActualView"></span>
+					</label>
+					<label>
+						<input type="radio" name="captureType" value="fitContent" onchange="" />
+						<span data-i18n="DlOpt_FitContent"></span>
+					</label>
+					<hr style="margin: 3px 0;">
+					<label>
+						<input type="radio" name="imgFormat" value="png" onchange="" checked />
+						<span>.png</span>
+					</label>
+					<label>
+						<input type="radio" name="imgFormat" value="jpg" onchange="" />
+						<span>.jpg</span>
+					</label>
+					<label>
+						<input type="radio" name="imgFormat" value="webp" onchange="" />
+						<span>.webp</span>
+					</label>
+					<label>
+						<input type="radio" name="imgFormat" value="svg" onchange="" />
+						<span>.svg</span>
+					</label>
+					<hr style="margin: 3px 0;">
+					<label>
+						<input type="checkbox" id="captureScaleDpr" />
+						<span data-i18n="DlOpt_Scale"></span>
+						<span id="dprVal" lang="en">: devicePixelRatio (×${dpr})</span>
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div id="mainBlock">
 		<div id="nameDisplay">
@@ -1812,7 +2003,10 @@
 			document.getElementById("chooseMode").classList.remove("hidden");
 			document.getElementById("modeInfo").classList.remove("hidden");
 			document.getElementById("filterArea").classList.add("hidden");
+			document.getElementById("exportActions").classList.add("hidden");
+			document.getElementById("exportMenu").classList.add("hidden");
 			document.getElementById("mainBlock").classList.add("hidden");
+			document.querySelectorAll(".captureAllowed").forEach((e) => (e.classList.add("hidden")));
 			initSelectOptionContent = document.getElementById("targetSelect").options[0].outerHTML;
 			localStorage.setItem(cacheKey_Lang, specifiedLang);
 			await restoreLastMode();
@@ -1910,6 +2104,8 @@
 
 		function initFilter() {
 			document.getElementById("filterArea").classList.add("hidden");
+			document.getElementById("exportActions").classList.add("hidden");
+			document.getElementById("exportMenu").classList.add("hidden");
 			if (!currentDisplayCategory)
 				document.getElementById("selectCategory").querySelector('input[type="radio"]').checked = true;
 			document.querySelectorAll('#filterArea input[type="checkbox"][checked]').forEach((c) => (c.checked = true));
@@ -1920,6 +2116,7 @@
 			document.getElementById("filterTextOption").classList.add("hidden");
 			document.querySelector("#useRegex input").checked = false;
 			document.getElementById("filterArea").classList.remove("hidden");
+			document.getElementById("exportActions").classList.remove("hidden");
 		}
 
 		function changeCategory() {
@@ -2267,7 +2464,10 @@
 			document.getElementById("siteSetting").querySelectorAll("input, select").forEach(e => { e.disabled = true; });
 			if (dataMode === "rawMode") {
 				document.getElementById("filterArea").classList.add("hidden");
+				document.getElementById("exportActions").classList.add("hidden");
+				document.getElementById("exportMenu").classList.add("hidden");
 				document.getElementById("mainBlock").classList.add("hidden");
+				document.querySelectorAll(".captureAllowed").forEach((e) => (e.classList.add("hidden")));
 				document.querySelectorAll("#languageProgress,#monsterProgress,#weaponProgress,#equipmentProgress,#bossProgress").forEach((e) => (e.textContent = getLocalizationText("Progress_Wait")));
 
 				const cacheKey_Data = "cacheWholeData";
@@ -2305,6 +2505,7 @@
 				//console.log(wholeData);
 			} else {
 				document.getElementById("mainBlock").classList.add("hidden");
+				document.querySelectorAll(".captureAllowed").forEach((e) => (e.classList.add("hidden")));
 
 				const dataUrls = {
 					Monster: `Collection/${specifiedLang}/Monster.json`,
@@ -3110,6 +3311,7 @@
 
 			document.getElementById("mainBlock").classList.remove("hidden");
 			document.getElementById("mainBlock").scrollIntoView();
+			document.querySelectorAll(".captureAllowed").forEach((e) => (e.classList.remove("hidden")));
 		}
 
 		function setGeneralStats(id) {
@@ -4336,6 +4538,173 @@
 				document.getElementById("result_hp").value = (resultHp + bonusHp).toLocaleString();
 			}
 		});
+	</script>
+
+	<script>
+		/*=====導出下載區塊=====*/
+		document.addEventListener("DOMContentLoaded", () => {
+			const dpr = document.getElementById("dprVal");
+			dpr.textContent = dpr.textContent.replace("${dpr}", Number(devicePixelRatio.toFixed(2)));
+		});
+
+		function toggleExportMenu() {
+			document.getElementById("exportMenu").classList.toggle("hidden");
+		}
+
+		function toggleExportConfig() {
+			document.getElementById("exportMenuConfig").classList.toggle("hidden");
+		}
+
+		document.addEventListener("click", function (event) {
+			const menuButton = document.getElementById("exportDropdown");
+			const menu = document.getElementById("exportMenu");
+
+			if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
+				menu.classList.add("hidden");
+			}
+		});
+
+		let loadingTaskCount = 0;
+
+		function setLoading(isLoading) {
+			loadingTaskCount += isLoading ? 1 : -1;
+
+			const isProcessing = loadingTaskCount > 0;
+			document.getElementById("downloadIcon").classList.toggle("hidden", isProcessing);
+			document.getElementById("loadingIcon").classList.toggle("hidden", !isProcessing);
+		}
+
+		function downloadJson() {
+			const exportDataType = document.querySelector('input[name="exportDataType"]:checked').value;
+			toggleExportMenu();
+			setLoading(true);
+
+			try {
+				const onlyFiltered = exportDataType === "currCategoryFiltered";
+				const filteredIds = onlyFiltered ? Array.from(document.getElementById("targetSelect").options).slice(1).map(opt => opt.value) : null;
+
+				// const exportData = Object.fromEntries(
+				// 	Object.entries(wholeData[unit_category])
+				// 		.filter(([id]) => !onlyFiltered || filteredIds.includes(id))
+				// 		.map(([id, info]) => {
+				// 			const { forFilter_Element, forFilter_WeaponType, PassiveBonusVisible, ExtraEvoInitialCount, ...rest } = info;
+				// 			return [id, rest];
+				// 		})
+				// );
+
+
+				const cleanData = originalData => Object.fromEntries(
+					Object.entries(originalData)
+						.filter(([id]) => !onlyFiltered || filteredIds.includes(id))
+						.map(([id, { forFilter_Element, forFilter_WeaponType, PassiveBonusVisible, ExtraEvoInitialCount, ...rest }]) => [id, rest])
+				);
+
+				const exportData = exportDataType !== "allCategory"
+					? cleanData(wholeData[unit_category])
+					: Object.fromEntries(
+						["Monster", "Weapon", "Equipment", "Boss"]
+							.filter(category => wholeData[category])
+							.map(category => [category, cleanData(wholeData[category])]));
+
+				const jsonStr = JSON.stringify(exportData, null, 4);
+
+				const blob = new Blob([jsonStr], { type: "application/json" });
+				const url = URL.createObjectURL(blob);
+
+				const tempEl = document.createElement("a");
+				tempEl.href = url;
+				const filenameInfo = {
+					dataType: exportDataType !== "allCategory" ? unit_category : "EvertaleData",
+					dataLang: document.getElementById("languagePick").selectedOptions[0].dataset.shortname,
+					isFiltered: (onlyFiltered ? "_filtered" : "")
+				};
+				tempEl.download = `${filenameInfo.dataType}[${filenameInfo.dataLang}]${filenameInfo.isFiltered}.json`;
+				tempEl.click();
+
+				URL.revokeObjectURL(url);
+			} catch (error) {
+				console.error("Export Json failed: ", error);
+				alert("Export Json failed.");
+			} finally {
+				setLoading(false);
+			}
+		}
+
+		async function screenshot() {
+			const targetContent = document.getElementById("mainBlock");
+			const captureType = document.querySelector('input[name="captureType"]:checked').value;
+			const imgFormat = document.querySelector('input[name="imgFormat"]:checked').value;
+
+			if (targetContent.classList.contains("hidden")) return;
+
+			toggleExportMenu();
+			setLoading(true);
+
+			try {
+				const { snapdom } = await import("https://unpkg.com/@zumer/snapdom/dist/snapdom.mjs");
+
+				if (document.getElementById("result_power").value === "") {
+					document.getElementById("button_maxStats").click();
+					document.getElementById("button_calcPower").click();
+				}
+
+				const getBackgroundColor = el => {
+					while (el) {
+						const bgColor = getComputedStyle(el).backgroundColor;
+						if (bgColor !== "rgba(0, 0, 0, 0)") {
+							return bgColor;
+						}
+						el = el.parentElement;
+					}
+					return "#ffffff";
+				};
+
+				//廢棄，改回直觀寫法
+				// const realCapture = () =>
+				// 	snapdom(targetContent, {
+				// 		embedFonts: true,
+				// 		backgroundColor: getBackgroundColor(targetContent),
+				// 	});
+				// const captureDom = await (async () => {
+				// 	if (captureType === "fitContent") {
+				// 		await snapdom(targetContent);
+				// 		document.body.classList.add("whenCaptureFitContent");
+				// 		try {
+				// 			return await realCapture();
+				// 		} finally {
+				// 			document.body.classList.remove("whenCaptureFitContent");
+				// 		}
+				// 	} else {
+				// 		return realCapture();
+				// 	}
+				// })();
+
+				//調整截圖時頁面
+				document.body.classList.add("whenCapture");
+				if (captureType === "fitContent") {
+					//預熱，縮短正式擷取的耗時，使版面寬度變化不持續太久
+					await snapdom(targetContent);
+					document.body.classList.add("pageFitContent");
+				}
+				//正式擷取
+				const captureDom = await snapdom(targetContent, {
+					embedFonts: true,
+					backgroundColor: getBackgroundColor(targetContent),
+				});
+				//還原頁面
+				document.body.classList.remove("pageFitContent");
+				document.body.classList.remove("whenCapture");
+
+				const downloadScale = document.getElementById("captureScaleDpr").checked ? devicePixelRatio : 1;
+				const download_filename = `[${currentDisplayID}]${wholeData[currentDisplayCategory][currentDisplayID]["FullName"]}`;
+				await captureDom.download({ scale: downloadScale, format: imgFormat, filename: download_filename });
+			} catch (error) {
+				console.error("Screenshot failed: ", error);
+				alert("Screenshot failed.");
+			} finally {
+				setLoading(false);
+			};
+		}
 	</script>
 </body>
 
