@@ -149,6 +149,8 @@
 			border: 0;
 			padding: 0;
 			font-size: 1em;
+			display: flex;
+			place-items: center;
 		}
 
 		#filterText input[type="checkbox"],
@@ -1243,7 +1245,12 @@
 
 		<div id="filterText">
 			<div id="filterTextInputZone">
-				<button id="openFilterTextOption" onclick="switchFilterTextOption()">☰</button>
+				<button id="openFilterTextOption" onclick="switchFilterTextOption()">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="48 -912 864 864" height="1rem" width="1rem"
+						fill="currentColor">
+						<path d="M144-144v-72h672v72H144Zm0-300v-72h672v72H144Zm0-300v-72h672v72H144Z" />
+					</svg>
+				</button>
 				<input id="filterTextInput" type="text" data-i18n-placeholder="HintFilterName" placeholder="⌕"
 					oninput="setSelectableList()" />
 				<label id="useRegex">
@@ -1384,7 +1391,7 @@
 			</select>
 			<label id="reverseToggleButton">
 				<input type="checkbox" id="reverseToggle" onchange="reverseOptions()" value="false" />
-				<span>⥯</span>
+				<span lang="en">⥯</span>
 			</label>
 			<button id="openSortableList" onclick="setSortableList()">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" height="1.25rem" width="1.25rem"
