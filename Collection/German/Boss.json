@@ -56243,5 +56243,707 @@
                 }
             }
         }
+    },
+    "MarieAntoinetteBoss01": {
+        "Name": "Antoinette",
+        "FullName": "Antoinette",
+        "Family": "MarieAntoinetteBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axt",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 669,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAMarieAntoinetteBoss",
+                "SkillTitle": "Die Guillotine",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 250% für jeden Zug, den ein anderer Verbündeter, der nicht brennt, seit dem Betreten des Schlachtfelds durch den Anwender absolviert hat (maximal 1000% Gesamtschaden nach 3 oder mehr Zügen anderer Verbündeter, die nicht brennen). Dieser Angriff ignoriert den Statuseffekt Konterstellung sowie die Effekte der passiven Skin-Fertigkeiten.\n\nAnschließend erhält sofort 1 weiterer zufälliger Verbündeter den nächsten Zug, indem seine aktuelle ZE auf 0 gesetzt wird, und alle gegnerischen Effekte, die derzeit seine aktiven Fähigkeiten deaktivieren, werden beendet. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen. Aktive Fähigkeiten, die Züge gewähren, können in Zügen, die durch diese Fertigkeit gewährt wurden, nicht eingesetzt werden. Diese Fertigkeit kann in solchen Zügen eingesetzt werden, gewährt jedoch keinen zusätzlichen Zug und beendet auch keine deaktivierenden Effekte.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllyBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Rosenwind",
+                "SkillDescription": "Beseitigt Gift und Schlaf (einschließlich Tiefschlaf und Tödliches Gift) bei allen Verbündeten auf dem Schlachtfeld.\n\nAnschließend erhalten alle Verbündeten, die nicht brennen, Schlafdornen und werden wütend. (Dies überschreibt die Effekte anderer Wut-Fertigkeiten bei diesen Einheiten. Bei wütenden Einheiten erhöht sich der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache.) Einsetzbar, wenn keine Schlafdornen auf Verbündeten liegen und der Anwender nicht brennt.\n\nWenn eine Einheit mit Schlafdornen durch einen Angriff Schaden erleidet, werden die Schlafdornen dieser Einheit verbraucht, um dem Angreifer sofort den Statuseffekt Verfluchter Schlaf für 200 ZE zu verleihen. Verbrennen oder Angriffe, die Verbrennen verursachen, entfernen Schlafdornen und verhindern, dass Verfluchter Schlaf angewendet wird. Verfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennen, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und endet nicht durch Schaden, der durch Fertigkeiten vom Typ Traumjäger verursacht wird.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Königinnenbankett",
+                "SkillDescription": "Der Anwender erhält Gestärkt, ist 50 ZE lang immun gegen Schlaf und 50 ZE lang immun gegen Gift.\n\nWird für 50 ZE gesperrt, nachdem der Anwender das Schlachtfeld betreten hat, und nach jedem Einsatz erneut für 50 ZE gesperrt. Kann 3 Mal pro Kampf eingesetzt werden.\n\nEine Gestärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Gestärkt nicht ausdrücklich ignorieren. Gestärkt wird entfernt, nachdem der Schaden seit dem Anwenden dreimal reduziert wurde, und wird zurückgesetzt, wenn der Effekt erneut angewendet wird. Dies ist kein Statuseffekt.",
+                "TU": 25,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "CakePassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Tödliche Lilie",
+                "SkillDescription": "Nach dem Eintritt in den Kampf kann diese Einheit 50 ZE lang weder in Schlaf versetzt noch vergiftet werden.\n\nSofern diese Einheit nicht in Flammen steht, ist sie immun gegen Betäubungseffekte.\n\nWenn diese Einheit zum ersten Mal einen Gegner auf dem Schlachtfeld mit einem Angriff besiegt, erhalten alle Verbündeten einen Stärkungsbonus.\n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte und alle Effekte von Gegnern (außer Bossen), die verhindern würden, dass Ziele besiegt werden."
+            },
+            {
+                "SkillCodename": "QueenyPassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Königinnenkuchen",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nNach dem Eintritt in den Kampf wird für 100 ZE jedes Mal, wenn ein Gegner auf dem Schlachtfeld einem nicht brennenden Verbündeten mit einem Angriff Schaden zufügt, die aktuelle ZE dieser Einheit um 50 LP pro getroffener Einheit verringert. Wenn diese Einheit innerhalb von 10 ZE 3 Runden erhält, kann dieser Effekt erst wieder ausgelöst werden, wenn 20 ZE vergangen sind."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Die Guillotine": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBlockTurn": 0.89,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsBurning": 0.75,
+                        "IsVanHelsingRegular": 0.25,
+                        "IsMordredRegularAndBurning": 0.25
+                    }
+                },
+                "Rosenwind": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "2AllySleeping": 200,
+                        "2AllySleepingAlt": 200,
+                        "2AlliesPoisoned": 200,
+                        "NoBurningAllies": 200,
+                        "AllAlliesButMeBurning": 0,
+                        "3AlliesBurning": 0,
+                        "AllEnemiesIsBurning": 0.01,
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                },
+                "Königinnenbankett": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100
+                    }
+                }
+            }
+        }
+    },
+    "MarieAntoinetteBoss03": {
+        "Name": "Mega-Antoinette",
+        "FullName": "Mega-Antoinette",
+        "Family": "MarieAntoinetteBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Axt",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 999,
+        "Atk_Base": 2900,
+        "Hp_Base": 232000,
+        "Speed": 669,
+        "Power": 2958000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAMarieAntoinetteBoss",
+                "SkillTitle": "Die Guillotine",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 250% für jeden Zug, den ein anderer Verbündeter, der nicht brennt, seit dem Betreten des Schlachtfelds durch den Anwender absolviert hat (maximal 1000% Gesamtschaden nach 3 oder mehr Zügen anderer Verbündeter, die nicht brennen). Dieser Angriff ignoriert den Statuseffekt Konterstellung sowie die Effekte der passiven Skin-Fertigkeiten.\n\nAnschließend erhält sofort 1 weiterer zufälliger Verbündeter den nächsten Zug, indem seine aktuelle ZE auf 0 gesetzt wird, und alle gegnerischen Effekte, die derzeit seine aktiven Fähigkeiten deaktivieren, werden beendet. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen. Aktive Fähigkeiten, die Züge gewähren, können in Zügen, die durch diese Fertigkeit gewährt wurden, nicht eingesetzt werden. Diese Fertigkeit kann in solchen Zügen eingesetzt werden, gewährt jedoch keinen zusätzlichen Zug und beendet auch keine deaktivierenden Effekte.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllyBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Rosenwind",
+                "SkillDescription": "Beseitigt Gift und Schlaf (einschließlich Tiefschlaf und Tödliches Gift) bei allen Verbündeten auf dem Schlachtfeld.\n\nAnschließend erhalten alle Verbündeten, die nicht brennen, Schlafdornen und werden wütend. (Dies überschreibt die Effekte anderer Wut-Fertigkeiten bei diesen Einheiten. Bei wütenden Einheiten erhöht sich der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache.) Einsetzbar, wenn keine Schlafdornen auf Verbündeten liegen und der Anwender nicht brennt.\n\nWenn eine Einheit mit Schlafdornen durch einen Angriff Schaden erleidet, werden die Schlafdornen dieser Einheit verbraucht, um dem Angreifer sofort den Statuseffekt Verfluchter Schlaf für 200 ZE zu verleihen. Verbrennen oder Angriffe, die Verbrennen verursachen, entfernen Schlafdornen und verhindern, dass Verfluchter Schlaf angewendet wird. Verfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennen, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und endet nicht durch Schaden, der durch Fertigkeiten vom Typ Traumjäger verursacht wird.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Königinnenbankett",
+                "SkillDescription": "Der Anwender erhält Gestärkt, ist 50 ZE lang immun gegen Schlaf und 50 ZE lang immun gegen Gift.\n\nWird für 50 ZE gesperrt, nachdem der Anwender das Schlachtfeld betreten hat, und nach jedem Einsatz erneut für 50 ZE gesperrt. Kann 3 Mal pro Kampf eingesetzt werden.\n\nEine Gestärkte Einheit hat eine Schadensreduzierung von 50% bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Gestärkt nicht ausdrücklich ignorieren. Gestärkt wird entfernt, nachdem der Schaden seit dem Anwenden dreimal reduziert wurde, und wird zurückgesetzt, wenn der Effekt erneut angewendet wird. Dies ist kein Statuseffekt.",
+                "TU": 25,
+                "Spirit": "+0"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMarieAntoinetteBoss",
+                "SkillTitle": "Den Kuchen anschneiden",
+                "SkillDescription": "Fügt allen Gegnern Schaden zu, bei beschworenen Zielen sind es stattdessen 1250% Schaden.\n\nBei allen getroffenen Gegnern werden Schlaf- und Gift-Schutzzauber aufgehoben.\n\nKann nur eingesetzt werden, wenn sich mindestens 2 beschworene Gegner auf dem Schlachtfeld befinden. Kann 10 Mal pro Kampf eingesetzt werden.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "CakePassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Tödliche Lilie",
+                "SkillDescription": "Nach dem Eintritt in den Kampf kann diese Einheit 50 ZE lang weder in Schlaf versetzt noch vergiftet werden.\n\nSofern diese Einheit nicht in Flammen steht, ist sie immun gegen Betäubungseffekte.\n\nWenn diese Einheit zum ersten Mal einen Gegner auf dem Schlachtfeld mit einem Angriff besiegt, erhalten alle Verbündeten einen Stärkungsbonus.\n\nDie Angriffe dieser Einheit wecken keine schlafenden Gegner auf, ignorieren Schadensminderungseffekte und alle Effekte von Gegnern (außer Bossen), die verhindern würden, dass Ziele besiegt werden."
+            },
+            {
+                "SkillCodename": "QueenyPassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Königinnenkuchen",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nNach dem Eintritt in den Kampf wird für 100 ZE jedes Mal, wenn ein Gegner auf dem Schlachtfeld einem nicht brennenden Verbündeten mit einem Angriff Schaden zufügt, die aktuelle ZE dieser Einheit um 50 LP pro getroffener Einheit verringert. Wenn diese Einheit innerhalb von 10 ZE 3 Runden erhält, kann dieser Effekt erst wieder ausgelöst werden, wenn 20 ZE vergangen sind."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Die Guillotine": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBlockTurn": 0.89,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsBurning": 0.75,
+                        "IsVanHelsingRegular": 0.25,
+                        "IsMordredRegularAndBurning": 0.25
+                    }
+                },
+                "Rosenwind": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "2AllySleeping": 200,
+                        "2AllySleepingAlt": 200,
+                        "2AlliesPoisoned": 200,
+                        "NoBurningAllies": 200,
+                        "AllAlliesButMeBurning": 0,
+                        "3AlliesBurning": 0,
+                        "AllEnemiesIsBurning": 0.01,
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                },
+                "Königinnenbankett": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100
+                    }
+                },
+                "Den Kuchen anschneiden": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "EnemyHas3Imposters": 0.0001,
+                        "EnemyHas3ImpostersAlt": 0.0001,
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesIsStealth": 0.0001,
+                        "AllEnemiesIsStealthAlt": 0.0001,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                }
+            }
+        }
+    },
+    "GalahadRegularBoss01": {
+        "Name": "Galahad",
+        "FullName": "Galahad",
+        "Family": "GalahadRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Death",
+        "Element": "Schatten",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 213,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegularBoss",
+                "SkillTitle": "Schildramme",
+                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 1000% Schaden, wenn der Anwender bereits 100 ZE auf dem Schlachtfeld überlebt hat. Dieser Angriff ignoriert gegnerische Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\nAnschließend stiehlt er dem gegnerischen Team bis zu 1 Geist.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegularBoss",
+                "SkillTitle": "Ritterursprünge",
+                "SkillDescription": "Bei allen Verbündeten auf dem Schlachtfeld wird der Schlaf-Effekt (einschließlich Tiefschlaf) aufgehoben.\n\nAnschließend erhältst du sofort die nächsten Züge für alle anderen Verbündeten, indem du ihre aktuellen ZE verringerst. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nWird für 50 ZE gesperrt, nachdem der Anwender das Schlachtfeld betreten hat. Einmal pro Kampf einsetzbar.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegularBoss",
+                "SkillTitle": "Schildexplosion",
+                "SkillDescription": "Entfernt alle Schlaf-, Gift- und Soforttod-Schutzeffekte von allen gegnerischen Einheiten auf dem Schlachtfeld.\n\nAnschließend wird jedem Gegner auf dem Schlachtfeld zufällig einer der folgenden Effekte zugewiesen:\n- Verfluchter Schlaf für 200 ZE.\n- Mega-Gift für 200 ZE.\n- sofort besiegt (es gilt, als hättest du diesen Gegner mit einem Angriff besiegt). Dies schlägt fehl, wenn der Gegner ein Boss oder eine kurzlebige Einheit ist. Dieser Effekt ignoriert passive Rache-Fertigkeiten, passive Wiederbelebung-Fertigkeiten sowie alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nNach dem Betreten des Schlachtfelds durch den Anwender für 100 ZE gesperrt. Einmal pro Kampf einsetzbar.\n\nVerfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennung, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und wird nicht durch Schaden beendet, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird. Mega-Gift überschreibt andere Status-Effekte auf betroffene Gegner. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegularBoss",
+                "SkillTitle": "Ritterhaut",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nNach dem Eintritt in den Kampf kann diese Einheit 50 ZE lang weder in den Schlaf versetzt, betäubt noch vergiftet werden.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet, erhält sie sofort den nächsten Zug; dies kann erst wieder ausgelöst werden, wenn die ZE vorrückt. Gegnerische Einheiten, die dieser Einheit Schaden zufügen, werden für 100 ZE betäubt und mit Super-Gift belegt. Das sind Skin-Effekte. Diese Einheit kann kein Wächter oder Betäubungsabsorber werden.\n\nSuper-Gift überschreibt andere Statuseffekte bei diesen Gegnern. Super-Gift verursacht den vierfachen Schaden von normalem Gift und kann nicht durch normales Gift überschrieben werden."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegularBoss",
+                "SkillTitle": "Ruhiger Ritter",
+                "SkillDescription": "Wenn diese Einheit ins Gefecht zieht:\n- werden alle Verbündeten gestärkt.\n- Diese Einheit hält den nächsten Schaden, der sie besiegen würde, mit 1 LP aus. Ertragen-Effekte sind nicht stapelbar.\n- Alle Gegner erhalten Wutschutze. Wutschutz verhindert einmal, dass eine Einheit in Wut gerät, und wird anschließend entfernt. Wutschutz ist nicht stapelbar.\n\nNach dem ersten Zug dieser Einheit auf dem Schlachtfeld werden alle Verbündeten auf dem Schlachtfeld um 25% ihrer maximalen LP geheilt und gestärkt.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, heilt sie sich um 1% ihrer maximalen LP."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Schildramme": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Ritterursprünge": {
+                    "BaseWeight": 250
+                },
+                "Schildexplosion": {
+                    "BaseWeight": 7500
+                }
+            }
+        }
+    },
+    "GalahadRegularBoss03": {
+        "Name": "Mega-Galahad",
+        "FullName": "Mega-Galahad",
+        "Family": "GalahadRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Death",
+        "Element": "Schatten",
+        "Cost": 999,
+        "Atk_Base": 3500,
+        "Hp_Base": 178000,
+        "Speed": 213,
+        "Power": 2346000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegularBoss",
+                "SkillTitle": "Schildramme",
+                "SkillDescription": "500% Schaden an 1 Gegner. Stattdessen 1000% Schaden, wenn der Anwender bereits 100 ZE auf dem Schlachtfeld überlebt hat. Dieser Angriff ignoriert gegnerische Schadensminderungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\nAnschließend stiehlt er dem gegnerischen Team bis zu 1 Geist.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegularBoss",
+                "SkillTitle": "Ritterursprünge",
+                "SkillDescription": "Bei allen Verbündeten auf dem Schlachtfeld wird der Schlaf-Effekt (einschließlich Tiefschlaf) aufgehoben.\n\nAnschließend erhältst du sofort die nächsten Züge für alle anderen Verbündeten, indem du ihre aktuellen ZE verringerst. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nWird für 50 ZE gesperrt, nachdem der Anwender das Schlachtfeld betreten hat. Einmal pro Kampf einsetzbar.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegularBoss",
+                "SkillTitle": "Schildexplosion",
+                "SkillDescription": "Entfernt alle Schlaf-, Gift- und Soforttod-Schutzeffekte von allen gegnerischen Einheiten auf dem Schlachtfeld.\n\nAnschließend wird jedem Gegner auf dem Schlachtfeld zufällig einer der folgenden Effekte zugewiesen:\n- Verfluchter Schlaf für 200 ZE.\n- Mega-Gift für 200 ZE.\n- sofort besiegt (es gilt, als hättest du diesen Gegner mit einem Angriff besiegt). Dies schlägt fehl, wenn der Gegner ein Boss oder eine kurzlebige Einheit ist. Dieser Effekt ignoriert passive Rache-Fertigkeiten, passive Wiederbelebung-Fertigkeiten sowie alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nNach dem Betreten des Schlachtfelds durch den Anwender für 100 ZE gesperrt. Einmal pro Kampf einsetzbar.\n\nVerfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennung, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und wird nicht durch Schaden beendet, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird. Mega-Gift überschreibt andere Status-Effekte auf betroffene Gegner. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden.",
+                "TU": 50,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "SpecialBuffAGalahadRegularBoss",
+                "SkillTitle": "Schildfort",
+                "SkillDescription": "Entfernt Gift (einschließlich Tödliches Gift) und Verbrennungen (einschließlich Mega-Heilungsverbrennung) von allen Verbündeten auf dem Schlachtfeld.\n\nAnschließend werden alle Verbündeten auf dem Schlachtfeld, die nicht gestärkt sind, gestärkt.\n\nNur einsetzbar, wenn der Anwender nicht allein ist und nicht gestärkt ist. Kann 3 Mal pro Kampf eingesetzt werden. Eine mit Gestärkt versehene Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Gestärkt nicht ausdrücklich ignorieren. Gestärkt wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegularBoss",
+                "SkillTitle": "Ritterhaut",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nNach dem Eintritt in den Kampf kann diese Einheit 50 ZE lang weder in den Schlaf versetzt, betäubt noch vergiftet werden.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet, erhält sie sofort den nächsten Zug; dies kann erst wieder ausgelöst werden, wenn die ZE vorrückt. Gegnerische Einheiten, die dieser Einheit Schaden zufügen, werden für 100 ZE betäubt und mit Super-Gift belegt. Das sind Skin-Effekte. Diese Einheit kann kein Wächter oder Betäubungsabsorber werden.\n\nSuper-Gift überschreibt andere Statuseffekte bei diesen Gegnern. Super-Gift verursacht den vierfachen Schaden von normalem Gift und kann nicht durch normales Gift überschrieben werden."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegularBoss",
+                "SkillTitle": "Ruhiger Ritter",
+                "SkillDescription": "Wenn diese Einheit ins Gefecht zieht:\n- werden alle Verbündeten gestärkt.\n- Diese Einheit hält den nächsten Schaden, der sie besiegen würde, mit 1 LP aus. Ertragen-Effekte sind nicht stapelbar.\n- Alle Gegner erhalten Wutschutze. Wutschutz verhindert einmal, dass eine Einheit in Wut gerät, und wird anschließend entfernt. Wutschutz ist nicht stapelbar.\n\nNach dem ersten Zug dieser Einheit auf dem Schlachtfeld werden alle Verbündeten auf dem Schlachtfeld um 25% ihrer maximalen LP geheilt und gestärkt.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis zum Ende des Zuges überlebt, heilt sie sich um 1% ihrer maximalen LP."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Schildramme": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Ritterursprünge": {
+                    "BaseWeight": 250
+                },
+                "Schildexplosion": {
+                    "BaseWeight": 7500
+                },
+                "Schildfort": {
+                    "BaseWeight": 25,
+                    "Source": {
+                        "IsNotGalahadRegularEndOfFirstTurnLock": 0
+                    }
+                }
+            }
+        }
+    },
+    "ArsenalRegularBoss01": {
+        "Name": "Arsenal",
+        "FullName": "Arsenal",
+        "Family": "ArsenalRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Air",
+        "Element": "Sturm",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 555,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegularBoss",
+                "SkillTitle": "Blitzexplosion",
+                "SkillDescription": "500% Schaden an 1 Gegner. Bei jeder zweiten Aktivierung dieser Fertigkeit auf dem Schlachtfeld werden stattdessen 1000% Schaden verursacht. Dieser Angriff ignoriert gegnerische Schadensminderungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nWenn dieser Schaden das Ziel nicht besiegt, erhalten Verbündete 3 Geist.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegularBoss",
+                "SkillTitle": "Zwillingsladung",
+                "SkillDescription": "Der Spieler erhält 2 Ladungen.\n\nAlle Verbündeten auf dem Schlachtfeld erhalten einen Schlafschutz. Ein Schlafschutz verhindert einmalig, dass der Schlaf-Effekt ausgelöst wird, und wird anschließend entfernt. Schlafschutz-Effekte sind nicht stapelbar. Alle nicht schlafenden Verbündeten auf dem Schlachtfeld werden wütend. Dies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Die Angriffskraft wütender Einheiten wird bis zum Ende ihres nächsten Zuges auf das 1,5-Fache erhöht.\n\nWird jedes Mal freigeschaltet, wenn der Nutzer eine weitere aktive Fertigkeit einsetzt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Nutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegularBoss",
+                "SkillTitle": "Geladene Klinge",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Dieser Angriff ignoriert Wächter.\n\nAnschließend werden alle Tarn-Statuseffekte vom getroffenen Ziel entfernt (einschließlich Super-Tarnung).\n\nNur einsetzbar, wenn der Anwender 1 oder mehr Ladungen gespeichert hat. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt. Kann 10 Mal pro Kampf eingesetzt werden.",
+                "TU": 60,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegularBoss",
+                "SkillTitle": "Ultimativer Spross",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld aus zu den Verstärkungen geschickt werden und kann nicht durch Schaden von Status-Effekten wie Gift oder Verbrennung besiegt werden.\n\nDiese Einheit kann nicht betäubt werden, wenn sich eine andere Sturm-Einheit (Verbündete oder Gegner) auf dem Schlachtfeld befindet. Diese Einheit kann nicht einschlafen, wenn sich Wasser-Einheiten (verbündete oder feindliche) auf dem Schlachtfeld befinden.\n\nDie Angriffe dieser Einheit heilen sie um 1% des insgesamt verursachten Schadens und ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nWenn diese Einheit über eine Ladung verfügt und Blitzschuss oder Geladene Klinge einsetzt, verbraucht sie 1 Ladung, wodurch ihre aktuelle ZE um 30 ZE reduziert wird. Wenn dieser Effekt innerhalb von 10 ZE dreimal ausgelöst wird, kann er erst nach Ablauf von 50 ZE erneut ausgelöst werden."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegularBoss",
+                "SkillTitle": "Bring den Donner",
+                "SkillDescription": "Wenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach Ende des Zuges überlebt, erhält sie eine Ladung. Wenn diese Einheit bereits 3 Ladungen gespeichert hatte, verbraucht sie 2 Ladungen, um ihre aktuelle ZE auf 0 zu senken. Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge beeinflussen. Bestimmte Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern.\n\nNach dem Ende jedes Zuges dieser Einheit deaktiviert sie, sofern weniger als 2 Gegner auf dem Schlachtfeld ihre aktiven Fertigkeiten deaktiviert haben, die aktiven Fertigkeiten eines zufälligen Gegners für 50 ZE. Diese Einheit kann diesen Effekt seit ihrem Eintritt ins Schlachtfeld nur 5 Mal erfolgreich auslösen. Dieser Effekt kann nicht ausgelöst werden, wenn Arsenal keine anderen Verbündeten auf dem Schlachtfeld hat."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Blitzexplosion": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Zwillingsladung": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Geladene Klinge": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ArsenalRegularBoss03": {
+        "Name": "Mega-Arsenal",
+        "FullName": "Mega-Arsenal",
+        "Family": "ArsenalRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Air",
+        "Element": "Sturm",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 555,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegularBoss",
+                "SkillTitle": "Blitzexplosion",
+                "SkillDescription": "500% Schaden an 1 Gegner. Bei jeder zweiten Aktivierung dieser Fertigkeit auf dem Schlachtfeld werden stattdessen 1000% Schaden verursacht. Dieser Angriff ignoriert gegnerische Schadensminderungseffekte, passive Skin-Fertigkeiten und den Statuseffekt Konterstellung.\n\nWenn dieser Schaden das Ziel nicht besiegt, erhalten Verbündete 3 Geist.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegularBoss",
+                "SkillTitle": "Zwillingsladung",
+                "SkillDescription": "Der Spieler erhält 2 Ladungen.\n\nAlle Verbündeten auf dem Schlachtfeld erhalten einen Schlafschutz. Ein Schlafschutz verhindert einmalig, dass der Schlaf-Effekt ausgelöst wird, und wird anschließend entfernt. Schlafschutz-Effekte sind nicht stapelbar. Alle nicht schlafenden Verbündeten auf dem Schlachtfeld werden wütend. Dies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Die Angriffskraft wütender Einheiten wird bis zum Ende ihres nächsten Zuges auf das 1,5-Fache erhöht.\n\nWird jedes Mal freigeschaltet, wenn der Nutzer eine weitere aktive Fertigkeit einsetzt. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Nutzer das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegularBoss",
+                "SkillTitle": "Geladene Klinge",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Dieser Angriff ignoriert Wächter.\n\nAnschließend werden alle Tarn-Statuseffekte vom getroffenen Ziel entfernt (einschließlich Super-Tarnung).\n\nNur einsetzbar, wenn der Anwender 1 oder mehr Ladungen gespeichert hat. Diese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt. Kann 10 Mal pro Kampf eingesetzt werden.",
+                "TU": 60,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "EnemyBuffAArsenalRegularBoss",
+                "SkillTitle": "Gralerlass",
+                "SkillDescription": "Bei allen Gegnern auf dem Schlachtfeld sind die aktiven Fertigkeiten für 50 ZE deaktiviert. Alle Verbündeten auf dem Schlachtfeld werden gereinigt (entfernt negative Statuseffekte wie Schlaf, Verbrennung oder Vergiftung).\n\nAnschließend erhältst du sofort die nächsten Züge für alle anderen Verbündeten, indem du ihre aktuellen ZE reduzierst. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nNur einsetzbar, wenn der Anwender 3 Ladungen gespeichert hat. Verbraucht alle Ladungen des Anwenders. Einmal pro Kampf einsetzbar.\n\nWenn die aktiven Fertigkeiten einer Einheit deaktiviert sind und sie an der Reihe ist, verliert sie den Zug, als ob sie schlafen würde. Dieser Effekt wirkt nicht auf Bosse, kann nicht gereinigt werden und endet, wenn der Anwender besiegt wird.",
+                "TU": 40,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegularBoss",
+                "SkillTitle": "Ultimativer Spross",
+                "SkillDescription": "Diese Einheit kann nicht vom Schlachtfeld aus zu den Verstärkungen geschickt werden und kann nicht durch Schaden von Status-Effekten wie Gift oder Verbrennung besiegt werden.\n\nDiese Einheit kann nicht betäubt werden, wenn sich eine andere Sturm-Einheit (Verbündete oder Gegner) auf dem Schlachtfeld befindet. Diese Einheit kann nicht einschlafen, wenn sich Wasser-Einheiten (verbündete oder feindliche) auf dem Schlachtfeld befinden.\n\nDie Angriffe dieser Einheit heilen sie um 1% des insgesamt verursachten Schadens und ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nWenn diese Einheit über eine Ladung verfügt und Blitzschuss oder Geladene Klinge einsetzt, verbraucht sie 1 Ladung, wodurch ihre aktuelle ZE um 30 ZE reduziert wird. Wenn dieser Effekt innerhalb von 10 ZE dreimal ausgelöst wird, kann er erst nach Ablauf von 50 ZE erneut ausgelöst werden."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegularBoss",
+                "SkillTitle": "Bring den Donner",
+                "SkillDescription": "Wenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP.\n\nJedes Mal, wenn diese Einheit durch einen Angriff Schaden erleidet und bis nach Ende des Zuges überlebt, erhält sie eine Ladung. Wenn diese Einheit bereits 3 Ladungen gespeichert hatte, verbraucht sie 2 Ladungen, um ihre aktuelle ZE auf 0 zu senken. Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge beeinflussen. Bestimmte Fertigkeiten werden von Ladungen beeinflusst und können diese verbrauchen. Eine Einheit kann maximal 3 Ladungen speichern.\n\nNach dem Ende jedes Zuges dieser Einheit deaktiviert sie, sofern weniger als 2 Gegner auf dem Schlachtfeld ihre aktiven Fertigkeiten deaktiviert haben, die aktiven Fertigkeiten eines zufälligen Gegners für 50 ZE. Diese Einheit kann diesen Effekt seit ihrem Eintritt ins Schlachtfeld nur 5 Mal erfolgreich auslösen. Dieser Effekt kann nicht ausgelöst werden, wenn Arsenal keine anderen Verbündeten auf dem Schlachtfeld hat."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Blitzexplosion": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Zwillingsladung": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Geladene Klinge": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Gralerlass": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotAlone": 100,
+                        "3EnemiesDisabled": 0,
+                        "AllEnemiesDisabled": 0,
+                        "AllEnemiesDisabledAlt": 0,
+                        "EnemyIsAloneAndDisabled": 0
+                    }
+                }
+            }
+        }
     }
 }

@@ -55360,7 +55360,7 @@
             {
                 "SkillCodename": "EnemyBuffASherlockRegularBoss",
                 "SkillTitle": "Prove Scioccanti",
-                "SkillDescription": "Disattiva le abilità attive di un nemico casuale per 50TU e stordisce tutti gli altri nemici in campo per 50TU. L'effetto si riattiva per ogni Carica accumulata dall'unità (fino a 4 volte se l'unità ha 3 Cariche accumulate).\n\nUtilizzabile solo se ci sono almeno 2 nemici in campo e meno di 2 nemici in campo con le abilità attive disattivate. Utilizzabile 5 volte per battaglia.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "SkillDescription": "Disattiva le abilità attive di un nemico casuale per 50TU e stordisce tutti gli altri nemici in campo per 50TU. L'effetto si riattiva per ogni Carica accumulata dall'unità (fino a 4 volte se l'unità ha 3 Cariche accumulate).\n\nUtilizzabile solo se ci sono almeno 2 nemici in campo e meno di 2 nemici in campo hanno le abilità attive disattivate. Utilizzabile 5 volte per battaglia.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. Non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
                 "TU": 1,
                 "Spirit": "-3"
             }
@@ -55460,14 +55460,14 @@
             {
                 "SkillCodename": "EnemyBuffASherlockRegularBoss",
                 "SkillTitle": "Prove Scioccanti",
-                "SkillDescription": "Disattiva le abilità attive di un nemico casuale per 50TU e stordisce tutti gli altri nemici in campo per 50TU. L'effetto si riattiva per ogni Carica accumulata dall'unità (fino a 4 volte se l'unità ha 3 Cariche accumulate).\n\nUtilizzabile solo se ci sono almeno 2 nemici in campo e meno di 2 nemici in campo con le abilità attive disattivate. Utilizzabile 5 volte per battaglia.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "SkillDescription": "Disattiva le abilità attive di un nemico casuale per 50TU e stordisce tutti gli altri nemici in campo per 50TU. L'effetto si riattiva per ogni Carica accumulata dall'unità (fino a 4 volte se l'unità ha 3 Cariche accumulate).\n\nUtilizzabile solo se ci sono almeno 2 nemici in campo e meno di 2 nemici in campo hanno le abilità attive disattivate. Utilizzabile 5 volte per battaglia.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. Non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
                 "TU": 1,
                 "Spirit": "-3"
             },
             {
                 "SkillCodename": "MultiAttackASherlockRegularBoss",
                 "SkillTitle": "Deduzione Finale",
-                "SkillDescription": "700% di danno a 2 nemici. 850% di danno invece se l'unità è sopravvissuta per 100+TU in campo. 1000% di danno invece se l'unità è sopravvissuta per 200+TU in campo.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità. Questa abilità è bloccata per 50TU dopo l'uso.",
+                "SkillDescription": "700% di danno a 2 nemici. 850% di danno invece se l'unità è sopravvissuta per 100TU o più in campo. 1000% di danno invece se l'unità è sopravvissuta per 200TU o più in campo.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità. Questa abilità è bloccata per 50TU dopo l'uso.",
                 "TU": 100,
                 "Spirit": "-2"
             }
@@ -56239,6 +56239,708 @@
                         "IsFrostbitten": 0.89,
                         "IsSleeping": 0.89,
                         "IsCharmed": 0.89
+                    }
+                }
+            }
+        }
+    },
+    "MarieAntoinetteBoss01": {
+        "Name": "Antoinette",
+        "FullName": "Antoinette",
+        "Family": "MarieAntoinetteBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Ascia",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 669,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAMarieAntoinetteBoss",
+                "SkillTitle": "Ghigliottina",
+                "SkillDescription": "250% di danno a 1 nemico, più il 250% di danno per ogni volta che un altro alleato non ustionato ha ottenuto il turno da quando l'unità è entrata in campo (fino al 1000% di danno totale dopo 3+ turni di altri alleati non ustionati). Questo attacco ignora l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, fornisce immediatamente il turno successivo a 1 altro alleato casuale azzerando i suoi TU e mette fine agli effetti nemici che stanno disattivando le sue abilità attive. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità. Questa abilità può essere utilizzata in tali turni, ma non fornirà il turno extra e non metterà fine agli effetti disattivanti.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllyBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Venti di Rose",
+                "SkillDescription": "Rimuove Veleno e Sonno (inclusi Sonno Profondo e Veleno Letale) da tutti gli alleati in campo.\n\nPoi, tutti gli alleati non ustionati ottengono Spine Sonno e Provocazione. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Utilizzabile solo se non ci sono alleati con Spine Sonno e l'unità non è ustionata.\n\nQuando un'unità con Spine Sonno subisce danni da un attacco, consuma Spine Sonno per infliggere immediatamente l'effetto di stato Sonno Maledetto all'assalitore. Ustione o gli attacchi che ustionano rimuovono Spine Sonno e impediscono di infliggere Sonno Maledetto. Sonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuovono l'effetto.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Banchetto Reale",
+                "SkillDescription": "L'unità ottiene Fortificazione, è immune a Sonno per 50TU e a Veleno per 50TU.\n\nBloccata per 50TU da quando questa unità entra in campo ed è nuovamente bloccata per 50TU dopo l'uso. Utilizzabile 3 volte per battaglia.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "TU": 25,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "CakePassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Giglio Letale",
+                "SkillDescription": "Per 50TU dopo essere entrata in battaglia, l'unità è immune a Sonno e Veleno.\n\nA meno che non sia ustionata, l'unità è immune a Stordimento.\n\nLa prima volta che l'unità sconfigge un nemico con un attacco da quando è entrata in campo, tutti gli alleati sono fortificati.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto."
+            },
+            {
+                "SkillCodename": "QueenyPassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Torta della Regina",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nPer 100TU dopo essere entrata in battaglia, ogni volta che un nemico in campo danneggia degli alleati non ustionati con un attacco, riduce di 50TU per unità colpita i TU attuali dell'unità. Se l'unità ottiene 3 turni entro 10TU, l'effetto non può riattivarsi fino all'avanzamento di 20TU."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Ghigliottina": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBlockTurn": 0.89,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsBurning": 0.75,
+                        "IsVanHelsingRegular": 0.25,
+                        "IsMordredRegularAndBurning": 0.25
+                    }
+                },
+                "Venti di Rose": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "2AllySleeping": 200,
+                        "2AllySleepingAlt": 200,
+                        "2AlliesPoisoned": 200,
+                        "NoBurningAllies": 200,
+                        "AllAlliesButMeBurning": 0,
+                        "3AlliesBurning": 0,
+                        "AllEnemiesIsBurning": 0.01,
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                },
+                "Banchetto Reale": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100
+                    }
+                }
+            }
+        }
+    },
+    "MarieAntoinetteBoss03": {
+        "Name": "Mega Antoinette",
+        "FullName": "Mega Antoinette",
+        "Family": "MarieAntoinetteBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Ascia",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 999,
+        "Atk_Base": 2900,
+        "Hp_Base": 232000,
+        "Speed": 669,
+        "Power": 2958000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAMarieAntoinetteBoss",
+                "SkillTitle": "Ghigliottina",
+                "SkillDescription": "250% di danno a 1 nemico, più il 250% di danno per ogni volta che un altro alleato non ustionato ha ottenuto il turno da quando l'unità è entrata in campo (fino al 1000% di danno totale dopo 3+ turni di altri alleati non ustionati). Questo attacco ignora l'effetto di stato Opposizione e le abilità passive di contatto.\n\nPoi, fornisce immediatamente il turno successivo a 1 altro alleato casuale azzerando i suoi TU e mette fine agli effetti nemici che stanno disattivando le sue abilità attive. Gli effetti che modificano l'ordine dei TU possono interrompere il turno aggiuntivo. Le abilità attive che forniscono turni non possono essere usate durante i turni forniti dall'abilità. Questa abilità può essere utilizzata in tali turni, ma non fornirà il turno extra e non metterà fine agli effetti disattivanti.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllyBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Venti di Rose",
+                "SkillDescription": "Rimuove Veleno e Sonno (inclusi Sonno Profondo e Veleno Letale) da tutti gli alleati in campo.\n\nPoi, tutti gli alleati non ustionati ottengono Spine Sonno e Provocazione. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo. Utilizzabile solo se non ci sono alleati con Spine Sonno e l'unità non è ustionata.\n\nQuando un'unità con Spine Sonno subisce danni da un attacco, consuma Spine Sonno per infliggere immediatamente l'effetto di stato Sonno Maledetto all'assalitore. Ustione o gli attacchi che ustionano rimuovono Spine Sonno e impediscono di infliggere Sonno Maledetto. Sonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuovono l'effetto.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Banchetto Reale",
+                "SkillDescription": "L'unità ottiene Fortificazione, è immune a Sonno per 50TU e a Veleno per 50TU.\n\nBloccata per 50TU da quando questa unità entra in campo ed è nuovamente bloccata per 50TU dopo l'uso. Utilizzabile 3 volte per battaglia.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "TU": 25,
+                "Spirit": "+0"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMarieAntoinetteBoss",
+                "SkillTitle": "Taglio della Torta",
+                "SkillDescription": "Danneggia tutti i nemici, 1250% di danno invece ai bersagli invocati.\n\nRimuove Protezione Sonno e Protezione Veleno da tutti i nemici colpiti.\n\nUtilizzabile solo se ci sono almeno 2 nemici invocati in campo. Utilizzabile 10 volte per battaglia.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "CakePassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Giglio Letale",
+                "SkillDescription": "Per 50TU dopo essere entrata in battaglia, l'unità è immune a Sonno e Veleno.\n\nA meno che non sia ustionata, l'unità è immune a Stordimento.\n\nLa prima volta che l'unità sconfigge un nemico con un attacco da quando è entrata in campo, tutti gli alleati sono fortificati.\n\nGli attacchi dell'unità non svegliano i nemici addormentati, ignorano gli effetti di riduzione del danno e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto."
+            },
+            {
+                "SkillCodename": "QueenyPassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Torta della Regina",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nPer 100TU dopo essere entrata in battaglia, ogni volta che un nemico in campo danneggia degli alleati non ustionati con un attacco, riduce di 50TU per unità colpita i TU attuali dell'unità. Se l'unità ottiene 3 turni entro 10TU, l'effetto non può riattivarsi fino all'avanzamento di 20TU."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Ghigliottina": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBlockTurn": 0.89,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsBurning": 0.75,
+                        "IsVanHelsingRegular": 0.25,
+                        "IsMordredRegularAndBurning": 0.25
+                    }
+                },
+                "Venti di Rose": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "2AllySleeping": 200,
+                        "2AllySleepingAlt": 200,
+                        "2AlliesPoisoned": 200,
+                        "NoBurningAllies": 200,
+                        "AllAlliesButMeBurning": 0,
+                        "3AlliesBurning": 0,
+                        "AllEnemiesIsBurning": 0.01,
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                },
+                "Banchetto Reale": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100
+                    }
+                },
+                "Taglio della Torta": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "EnemyHas3Imposters": 0.0001,
+                        "EnemyHas3ImpostersAlt": 0.0001,
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesIsStealth": 0.0001,
+                        "AllEnemiesIsStealthAlt": 0.0001,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                }
+            }
+        }
+    },
+    "GalahadRegularBoss01": {
+        "Name": "Galahad",
+        "FullName": "Galahad",
+        "Family": "GalahadRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 213,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegularBoss",
+                "SkillTitle": "Carica dello Scudo",
+                "SkillDescription": "500% di danno a 1 nemico. 1000% di danno invece se l'unità è sopravvissuta per 100TU in campo. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto. Il danno da quest'attacco non sveglia i nemici.\n\nPoi, sottrae fino a 1 Spirito dalla squadra nemica.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegularBoss",
+                "SkillTitle": "Semi da Cavaliera",
+                "SkillDescription": "Rimuove Sonno (incluso Sonno Profondo) da tutti gli alleati in campo.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nBloccata per 50TU da quando questa unità entra in campo. Un solo uso per battaglia.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegularBoss",
+                "SkillTitle": "Scudo Esplosivo",
+                "SkillDescription": "Rimuove Protezione Sonno, Protezione Veleno e Protezione Morte da tutte le unità nemiche in campo.\n\nPoi, ogni nemico in campo, casualmente:\n- Subisce Sonno Maledetto per 200TU.\n- Subisce Mega Veleno per 200TU.\n- Viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Non ha effetto che il nemico è un boss o è effimero. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive o gli effetti che impedirebbero al bersaglio di essere sconfitto.\n\nBloccata per 100TU da quando questa unità entra in campo. Un solo uso per battaglia.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegularBoss",
+                "SkillTitle": "Pelle da Cavaliera",
+                "SkillDescription": "L'unità non può essere mandata in campo dai rinforzi.\n\nPer 50TU dopo essere entrata in battaglia, l'unità è immune a Sonno, Stordimento e Veleno.\n\nQuando l'unità subisce danno da un attacco, ottiene immediatamente il turno successivo. Questo effetto non potrà riattivarsi finché i TU non saranno avanzati di nuovo. I nemici che attaccano questa unità sono storditi per 100TU e subiscono Super Veleno. Questi effetti sono di contatto. Questa unità non può diventare un Guardiano né assorbire gli stordimenti.\n\nSuper Veleno sostituisce altri effetti di stato. Super Veleno infligge 4 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegularBoss",
+                "SkillTitle": "Cavaliera Quieta",
+                "SkillDescription": "Quando l'unità entra in campo:\n- Tutti gli alleati sono fortificati.\n- L'unità resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP.\n- Tutti i nemici subiscono Protezione Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nDopo il primo turno in campo dell'unità, tutti gli alleati in campo recuperano il 25% degli HP massimi e sono fortificati.\n\nSe subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità recupera l'1% degli HP massimi."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Carica dello Scudo": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Semi da Cavaliera": {
+                    "BaseWeight": 250
+                },
+                "Scudo Esplosivo": {
+                    "BaseWeight": 7500
+                }
+            }
+        }
+    },
+    "GalahadRegularBoss03": {
+        "Name": "Mega Galahad",
+        "FullName": "Mega Galahad",
+        "Family": "GalahadRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Death",
+        "Element": "Oscurità",
+        "Cost": 999,
+        "Atk_Base": 3500,
+        "Hp_Base": 178000,
+        "Speed": 213,
+        "Power": 2346000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegularBoss",
+                "SkillTitle": "Carica dello Scudo",
+                "SkillDescription": "500% di danno a 1 nemico. 1000% di danno invece se l'unità è sopravvissuta per 100TU in campo. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto. Il danno da quest'attacco non sveglia i nemici.\n\nPoi, sottrae fino a 1 Spirito dalla squadra nemica.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegularBoss",
+                "SkillTitle": "Semi da Cavaliera",
+                "SkillDescription": "Rimuove Sonno (incluso Sonno Profondo) da tutti gli alleati in campo.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nBloccata per 50TU da quando questa unità entra in campo. Un solo uso per battaglia.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegularBoss",
+                "SkillTitle": "Scudo Esplosivo",
+                "SkillDescription": "Rimuove Protezione Sonno, Protezione Veleno e Protezione Morte da tutte le unità nemiche in campo.\n\nPoi, ogni nemico in campo, casualmente:\n- Subisce Sonno Maledetto per 200TU.\n- Subisce Mega Veleno per 200TU.\n- Viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Non ha effetto che il nemico è un boss o è effimero. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive o gli effetti che impedirebbero al bersaglio di essere sconfitto.\n\nBloccata per 100TU da quando questa unità entra in campo. Un solo uso per battaglia.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.",
+                "TU": 50,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "SpecialBuffAGalahadRegularBoss",
+                "SkillTitle": "Forte di Scudi",
+                "SkillDescription": "Rimuove Veleno (incluso Veleno Letale) e Ustione (inclusa Mega Ustione Curativa) da tutti tutti gli alleati in campo.\n\nPoi, fortifica tutti gli alleati non fortificati in campo.\n\nUtilizzabile solo se l'unità non è da sola e non è fortificata. Utilizzabile 3 volte per battaglia. Un'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegularBoss",
+                "SkillTitle": "Pelle da Cavaliera",
+                "SkillDescription": "L'unità non può essere mandata in campo dai rinforzi.\n\nPer 50TU dopo essere entrata in battaglia, l'unità è immune a Sonno, Stordimento e Veleno.\n\nQuando l'unità subisce danno da un attacco, ottiene immediatamente il turno successivo. Questo effetto non potrà riattivarsi finché i TU non saranno avanzati di nuovo. I nemici che attaccano questa unità sono storditi per 100TU e subiscono Super Veleno. Questi effetti sono di contatto. Questa unità non può diventare un Guardiano né assorbire gli stordimenti.\n\nSuper Veleno sostituisce altri effetti di stato. Super Veleno infligge 4 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegularBoss",
+                "SkillTitle": "Cavaliera Quieta",
+                "SkillDescription": "Quando l'unità entra in campo:\n- Tutti gli alleati sono fortificati.\n- L'unità resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP.\n- Tutti i nemici subiscono Protezione Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nDopo il primo turno in campo dell'unità, tutti gli alleati in campo recuperano il 25% degli HP massimi e sono fortificati.\n\nSe subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità recupera l'1% degli HP massimi."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Carica dello Scudo": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Semi da Cavaliera": {
+                    "BaseWeight": 250
+                },
+                "Scudo Esplosivo": {
+                    "BaseWeight": 7500
+                },
+                "Forte di Scudi": {
+                    "BaseWeight": 25,
+                    "Source": {
+                        "IsNotGalahadRegularEndOfFirstTurnLock": 0
+                    }
+                }
+            }
+        }
+    },
+    "ArsenalRegularBoss01": {
+        "Name": "Arsenale",
+        "FullName": "Arsenale",
+        "Family": "ArsenalRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Air",
+        "Element": "Vento",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 555,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegularBoss",
+                "SkillTitle": "Dardo d'Assalto",
+                "SkillDescription": "500% di danno a 1 nemico. 1000% di danno invece ogni seconda volta che l'abilità viene attivata in campo. Questo attacco ignora gli effetti di riduzione del danno nemici, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nSe il danno non sconfigge il bersaglio, gli alleati ottengono 3 Spiriti.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegularBoss",
+                "SkillTitle": "Carica Doppia",
+                "SkillDescription": "L'unità ottiene 2 Cariche.\n\nTutti gli alleati in campo ottengono Protezione Sonno. Protezione Sonno impedisce un'applicazione di Sonno, poi si rimuove. Protezione Sonno non si accumula. Tutti gli alleati non addormentati in campo ottengono Provocazione. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nSi sblocca ogni volta che l'unità usa un'altra abilità attiva. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegularBoss",
+                "SkillTitle": "Lama Carica",
+                "SkillDescription": "1000% di danno a 1 nemico. Questo attacco ignora i Guardiani.\n\nPoi, rimuove tutti gli effetti di Invisibilità (inclusa Super Invisibilità) dal bersaglio colpito.\n\nUtilizzabile solo se l'unità ha almeno 1 carica. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 10 volte per battaglia.",
+                "TU": 60,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegularBoss",
+                "SkillTitle": "Erede Definitiva",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo e non può essere sconfitta subendo danno dall'effetto di stato Veleno o Ustione.\n\nL'unità è immune a Stordimento se c'è un'altra unità (alleata o nemici) di tipo Vento in campo. L'unità è immune a Sonno se c'è un'altra unità (alleata o nemici) di tipo Acqua in campo.\n\nGli attacchi dell'unità curano l'unità dell'1% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSe l'unità ha 1 Carica, quando l'unità usa Dardo d'Assalto o Lama Carica, l'unità consuma 1 Carica per ridurre i TU attuali di 30TU. Se l'effetto si attiva 3 volte entro 10TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegularBoss",
+                "SkillTitle": "Aralda del Tuono",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene una Carica. Se l'unità ha già 3 Cariche, consuma 2 Cariche per azzerare i TU. La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.\n\nAlla fine di ogni turno dell'unità, se ci sono meno di 2 nemici in campo con le abilità attive disattivate, l'unità disattiva le abilità attive di un nemico casuale per 50TU. L'unità può attivare con successo questo effetto solo 5 volte da quanto è entrata in campo. Questo effetto non può attivarsi se Arsenale non ha altri alleati in campo."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Dardo d'Assalto": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Carica Doppia": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Lama Carica": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ArsenalRegularBoss03": {
+        "Name": "Mega Arsenale",
+        "FullName": "Mega Arsenale",
+        "Family": "ArsenalRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Air",
+        "Element": "Vento",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 555,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegularBoss",
+                "SkillTitle": "Dardo d'Assalto",
+                "SkillDescription": "500% di danno a 1 nemico. 1000% di danno invece ogni seconda volta che l'abilità viene attivata in campo. Questo attacco ignora gli effetti di riduzione del danno nemici, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nSe il danno non sconfigge il bersaglio, gli alleati ottengono 3 Spiriti.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegularBoss",
+                "SkillTitle": "Carica Doppia",
+                "SkillDescription": "L'unità ottiene 2 Cariche.\n\nTutti gli alleati in campo ottengono Protezione Sonno. Protezione Sonno impedisce un'applicazione di Sonno, poi si rimuove. Protezione Sonno non si accumula. Tutti gli alleati non addormentati in campo ottengono Provocazione. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nSi sblocca ogni volta che l'unità usa un'altra abilità attiva. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegularBoss",
+                "SkillTitle": "Lama Carica",
+                "SkillDescription": "1000% di danno a 1 nemico. Questo attacco ignora i Guardiani.\n\nPoi, rimuove tutti gli effetti di Invisibilità (inclusa Super Invisibilità) dal bersaglio colpito.\n\nUtilizzabile solo se l'unità ha almeno 1 carica. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 10 volte per battaglia.",
+                "TU": 60,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "EnemyBuffAArsenalRegularBoss",
+                "SkillTitle": "Decreto del Graal",
+                "SkillDescription": "Disattiva le abilità attive di un nemico casuale per 50TU. Tutti gli alleati in tempo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità. Un solo uso per battaglia.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "TU": 40,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegularBoss",
+                "SkillTitle": "Erede Definitiva",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo e non può essere sconfitta subendo danno dall'effetto di stato Veleno o Ustione.\n\nL'unità è immune a Stordimento se c'è un'altra unità (alleata o nemici) di tipo Vento in campo. L'unità è immune a Sonno se c'è un'altra unità (alleata o nemici) di tipo Acqua in campo.\n\nGli attacchi dell'unità curano l'unità dell'1% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSe l'unità ha 1 Carica, quando l'unità usa Dardo d'Assalto o Lama Carica, l'unità consuma 1 Carica per ridurre i TU attuali di 30TU. Se l'effetto si attiva 3 volte entro 10TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegularBoss",
+                "SkillTitle": "Aralda del Tuono",
+                "SkillDescription": "Se questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene una Carica. Se l'unità ha già 3 Cariche, consuma 2 Cariche per azzerare i TU. La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU. Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.\n\nAlla fine di ogni turno dell'unità, se ci sono meno di 2 nemici in campo con le abilità attive disattivate, l'unità disattiva le abilità attive di un nemico casuale per 50TU. L'unità può attivare con successo questo effetto solo 5 volte da quanto è entrata in campo. Questo effetto non può attivarsi se Arsenale non ha altri alleati in campo."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Dardo d'Assalto": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Carica Doppia": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Lama Carica": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Decreto del Graal": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotAlone": 100,
+                        "3EnemiesDisabled": 0,
+                        "AllEnemiesDisabled": 0,
+                        "AllEnemiesDisabledAlt": 0,
+                        "EnemyIsAloneAndDisabled": 0
                     }
                 }
             }

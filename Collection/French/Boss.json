@@ -56243,5 +56243,707 @@
                 }
             }
         }
+    },
+    "MarieAntoinetteBoss01": {
+        "Name": "Antoinette",
+        "FullName": "Antoinette",
+        "Family": "MarieAntoinetteBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hache",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 669,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAMarieAntoinetteBoss",
+                "SkillTitle": "La Guillotine",
+                "SkillDescription": "250% de dégâts à 1 ennemi, et 250% de plus par le nombre de tour joué par un autre allié non-brûlé depuis l'entrée de l'utilisateur sur le champ de bataille (maximum de 1000% de dégâts totaux après 3+ tours d'une allié non-brûlé). Cette attaque ignore l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nDonne ensuite immédiatement le prochain tour à 1 autre allié aléatoire en réduisant ses TU actuels à 0, et met fin à tout effet ennemi désactivant actuellement leurs Compétences Actives. Le tour supplémentaire peut être interrompu par les effets influençant l'ordre des TU. Les Compétences Actives qui donnent des tours ne peuvent être utilisées lors des tours donnés par cette compétence. Cette compétence peut être utilisée lors de tels tours, mais ne donnera pas de tour extra et ne mettra pas fin à tout effet désactivant.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllyBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Vent de Rose",
+                "SkillDescription": "Retire le Poison et le Sommeil (y compris le Sommeil Profond et le Poison Létal) à tous les alliés du champ de bataille.\n\nPuis tous les alliés non-brûlés gagnent des Épines de Sommeil et deviennent Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour. Utilisable si les alliés ne possèdent pas d'Épines de Sommeil et si le lanceur n'est pas brûlé.\n\nLorsqu'une unité possédant des Épines de Sommeil subit des dégâts par une attaque, les Épines de Sommeil de cette unité seront consommées pour infliger immédiatement l'effet de statut de Sommeil Maudit à l'attaquant pendant 200TU. La Brûlure ou les attaques infligeant la Brûlure supprimeront les Épines de Sommeil et empêcheront l'application du Sommeil Maudit. Le Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Banquet Royal",
+                "SkillDescription": "L'utilisateur est Fortifié, gagne l'Immunité Sommeil pendant 50TU et l'immunité Poison pendant 50TU.\n\nDéverrouillé pendant 50TU après l'entrée de l'utilisateur sur le champ de bataille, et se verrouille à nouveau pendant 50TU après chaque utilisation. Utilisable 3 fois par bataille.\n\nUne unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut.",
+                "TU": 25,
+                "Spirit": "+0"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "CakePassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Lis Mortel",
+                "SkillDescription": "Cette unité ne peut être endormie ou empoisonnée pendant 50TU après son entrée sur le champ de bataille.\n\nÀ moins qu'elle soit brûlée, cette unité est immunisée contre les effets d'Étourdissements.\n\nTous les alliés sont Fortifiés lors de la première fois que cette unité vainc un ennemi avec une attaque sur le champ de bataille.\n\nLes attaques ne réveillent pas les ennemis endormis, ignorent les effets de réduction de dégâts, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues."
+            },
+            {
+                "SkillCodename": "QueenyPassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Gâteau Royal",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1 PV.\n\nPendant 100TU après son entrée sur le champ de bataille, les TU actuels de cette unité sont réduits de 50TU par unité alliée touchée à chaque fois qu'un ennemi du champ de bataille inflige des dégâts à tout allié non-brûlé avec une attaque. Si cette unité prend 3 tours en 10TU, cet effet ne pourra plus être déclenché jusqu'à ce que 20TU s'écoulent."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "La Guillotine": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBlockTurn": 0.89,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsBurning": 0.75,
+                        "IsVanHelsingRegular": 0.25,
+                        "IsMordredRegularAndBurning": 0.25
+                    }
+                },
+                "Vent de Rose": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "2AllySleeping": 200,
+                        "2AllySleepingAlt": 200,
+                        "2AlliesPoisoned": 200,
+                        "NoBurningAllies": 200,
+                        "AllAlliesButMeBurning": 0,
+                        "3AlliesBurning": 0,
+                        "AllEnemiesIsBurning": 0.01,
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                },
+                "Banquet Royal": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100
+                    }
+                }
+            }
+        }
+    },
+    "MarieAntoinetteBoss03": {
+        "Name": "Méga Antoinette",
+        "FullName": "Méga Antoinette",
+        "Family": "MarieAntoinetteBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Hache",
+        "forFilter_Element": "Earth",
+        "Element": "Terre",
+        "Cost": 999,
+        "Atk_Base": 2900,
+        "Hp_Base": 232000,
+        "Speed": 669,
+        "Power": 2958000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAMarieAntoinetteBoss",
+                "SkillTitle": "La Guillotine",
+                "SkillDescription": "250% de dégâts à 1 ennemi, et 250% de plus par le nombre de tour joué par un autre allié non-brûlé depuis l'entrée de l'utilisateur sur le champ de bataille (maximum de 1000% de dégâts totaux après 3+ tours d'une allié non-brûlé). Cette attaque ignore l'effet de statut de Contre Relais et les effets de compétences passives de Reflet.\n\nDonne ensuite immédiatement le prochain tour à 1 autre allié aléatoire en réduisant ses TU actuels à 0, et met fin à tout effet ennemi désactivant actuellement leurs Compétences Actives. Le tour supplémentaire peut être interrompu par les effets influençant l'ordre des TU. Les Compétences Actives qui donnent des tours ne peuvent être utilisées lors des tours donnés par cette compétence. Cette compétence peut être utilisée lors de tels tours, mais ne donnera pas de tour extra et ne mettra pas fin à tout effet désactivant.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllyBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Vent de Rose",
+                "SkillDescription": "Retire le Poison et le Sommeil (y compris le Sommeil Profond et le Poison Létal) à tous les alliés du champ de bataille.\n\nPuis tous les alliés non-brûlés gagnent des Épines de Sommeil et deviennent Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour. Utilisable si les alliés ne possèdent pas d'Épines de Sommeil et si le lanceur n'est pas brûlé.\n\nLorsqu'une unité possédant des Épines de Sommeil subit des dégâts par une attaque, les Épines de Sommeil de cette unité seront consommées pour infliger immédiatement l'effet de statut de Sommeil Maudit à l'attaquant pendant 200TU. La Brûlure ou les attaques infligeant la Brûlure supprimeront les Épines de Sommeil et empêcheront l'application du Sommeil Maudit. Le Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "MultiBuffAMarieAntoinetteBoss",
+                "SkillTitle": "Banquet Royal",
+                "SkillDescription": "L'utilisateur est Fortifié, gagne l'Immunité Sommeil pendant 50TU et l'immunité Poison pendant 50TU.\n\nDéverrouillé pendant 50TU après l'entrée de l'utilisateur sur le champ de bataille, et se verrouille à nouveau pendant 50TU après chaque utilisation. Utilisable 3 fois par bataille.\n\nUne unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut.",
+                "TU": 25,
+                "Spirit": "+0"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMarieAntoinetteBoss",
+                "SkillTitle": "Trancher le Gâteau",
+                "SkillDescription": "Dégâts à tous les ennemis. 1250% de dégâts à la place aux cibles ayant été invoquées.\n\nLes Protections Sommeil et Protection Poison de tous les ennemis touchés sont retirées.\n\nUtilisable seulement s'il y a au moins 2 ennemis invoqués sur le champ de bataille. Utilisable 10 fois par bataille.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "CakePassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Lis Mortel",
+                "SkillDescription": "Cette unité ne peut être endormie ou empoisonnée pendant 50TU après son entrée sur le champ de bataille.\n\nÀ moins qu'elle soit brûlée, cette unité est immunisée contre les effets d'Étourdissements.\n\nTous les alliés sont Fortifiés lors de la première fois que cette unité vainc un ennemi avec une attaque sur le champ de bataille.\n\nLes attaques ne réveillent pas les ennemis endormis, ignorent les effets de réduction de dégâts, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues."
+            },
+            {
+                "SkillCodename": "QueenyPassiveAMarieAntoinetteBoss",
+                "SkillTitle": "Gâteau Royal",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1 PV.\n\nPendant 100TU après son entrée sur le champ de bataille, les TU actuels de cette unité sont réduits de 50TU par unité alliée touchée à chaque fois qu'un ennemi du champ de bataille inflige des dégâts à tout allié non-brûlé avec une attaque. Si cette unité prend 3 tours en 10TU, cet effet ne pourra plus être déclenché jusqu'à ce que 20TU s'écoulent."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "La Guillotine": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsBlockTurn": 0.89,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsSummoned": 0.5,
+                        "IsBurning": 0.75,
+                        "IsVanHelsingRegular": 0.25,
+                        "IsMordredRegularAndBurning": 0.25
+                    }
+                },
+                "Vent de Rose": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "2AllySleeping": 200,
+                        "2AllySleepingAlt": 200,
+                        "2AlliesPoisoned": 200,
+                        "NoBurningAllies": 200,
+                        "AllAlliesButMeBurning": 0,
+                        "3AlliesBurning": 0,
+                        "AllEnemiesIsBurning": 0.01,
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                },
+                "Banquet Royal": {
+                    "BaseWeight": 0.95,
+                    "Source": {
+                        "IsNotFortified": 100,
+                        "IsNotSleepImmune": 100,
+                        "NotAnyPoisonImmunity": 100
+                    }
+                },
+                "Trancher le Gâteau": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "EnemyHas3Imposters": 0.0001,
+                        "EnemyHas3ImpostersAlt": 0.0001,
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesIsStealth": 0.0001,
+                        "AllEnemiesIsStealthAlt": 0.0001,
+                        "EnemyTeamHas2ConjuredAllies": 10,
+                        "EnemyTeamHas3ConjuredAllies": 10
+                    }
+                }
+            }
+        }
+    },
+    "GalahadRegularBoss01": {
+        "Name": "Galaad",
+        "FullName": "Galaad",
+        "Family": "GalahadRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 213,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegularBoss",
+                "SkillTitle": "Battage de Bouclier",
+                "SkillDescription": "500% de dégâts à 1 ennemi. 1000% de dégâts à la place si le lanceur a survécu pendant 100TU sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts ennemis et tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue. Les dégâts de cette attaque ne réveillent pas les ennemis endormis.\n\nVole ensuite 1 Essence à l'équipe ennemie.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegularBoss",
+                "SkillTitle": "Graines de Chevalerie",
+                "SkillDescription": "Le Sommeil (y compris le Sommeil Profond) est retiré de tous les alliés du champ de bataille.\n\nPuis donne immédiatement les prochains tours à tous les alliés en réduisant leurs TU actuels. Les Compétences Actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle prenne son tour.\n\nVerrouillé pendant 50TU après l'entrée de l'utilisateur sur le champ de bataille. Utilisable une fois par bataille.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegularBoss",
+                "SkillTitle": "Explosion Bouclier",
+                "SkillDescription": "Retire toutes les Protections Sommeil, les Protections Poison et les Protections Mort Instantanée de toutes les unités ennemies du champ de bataille.\n\nPuis chaque ennemi du champ de bataille :\n- Subira aléatoirement soit le Sommeil Maudit pendant 200TU.\n- Ou sera immédiatement vaincu (l'utilisateur sera considéré comme ayant vaincu cet ennemi avec une attaque). Ceci échouera si l'ennemi est une unité boss ou éphémère. Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi d'être vaincu.\n\nVerrouillé pendant 100TU après l'entrée de l'utilisateur sur le champ de bataille. Utilisable une fois par bataille.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegularBoss",
+                "SkillTitle": "Peau de Chevalier",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être endormie, étourdie ou empoisonnée pendant 50TU après son entrée sur le champ de bataille.\n\nCette unité prend immédiatement son tour lorsque qu'elle subit des dégâts provenant d'une attaque. Ceci ne peut être à nouveau déclenché jusqu'à ce que les TU s'écoulent. Les unités ennemies qui infligent des dégâts à cette unité seront étourdies pendant 100TU et subiront le Super Poison. Ces derniers sont des effets de Reflet. Cette unité ne peut devenir un Gardien ou un Absorbeur d'Étourdissement.\n\nLe Super Poison remplacera les autres effets de statut sur ces ennemis. Le Super Poison inflige 4 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegularBoss",
+                "SkillTitle": "Chevalier Silencieux",
+                "SkillDescription": "Lorsque cette unité entre en bataille :\n- Tous les alliés deviennent Fortifiés.\n- Cette unité Endurera les prochains dégâts qui la vaincraient avec 1PV. Les effets d'Endurance ne peuvent être empilés.\n- Tous les ennemis gagneront des Protections d'Enragé. Les Protections d'Enragé empêcheront une unité de devenir Enragée une fois, puis seront retirés. Les Protections d'Enragé ne peuvent être empilées.\n\nAprès le premier tour de cette unité sur le champ de bataille, tous les alliés du champ de bataille sont soignés de 25% de leurs PV max et deviennent Fortifiés.\n\nCette unité sera soignée de 1% de ses PV max si elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Battage de Bouclier": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Graines de Chevalerie": {
+                    "BaseWeight": 250
+                },
+                "Explosion Bouclier": {
+                    "BaseWeight": 7500
+                }
+            }
+        }
+    },
+    "GalahadRegularBoss03": {
+        "Name": "Méga Galaad",
+        "FullName": "Méga Galaad",
+        "Family": "GalahadRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Masse",
+        "forFilter_Element": "Death",
+        "Element": "Obscurité",
+        "Cost": 999,
+        "Atk_Base": 3500,
+        "Hp_Base": 178000,
+        "Speed": 213,
+        "Power": 2346000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegularBoss",
+                "SkillTitle": "Battage de Bouclier",
+                "SkillDescription": "500% de dégâts à 1 ennemi. 1000% de dégâts à la place si le lanceur a survécu pendant 100TU sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts ennemis et tout effet d'ennemis non-boss qui empêcherait la cible d'être vaincue. Les dégâts de cette attaque ne réveillent pas les ennemis endormis.\n\nVole ensuite 1 Essence à l'équipe ennemie.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegularBoss",
+                "SkillTitle": "Graines de Chevalerie",
+                "SkillDescription": "Le Sommeil (y compris le Sommeil Profond) est retiré de tous les alliés du champ de bataille.\n\nPuis donne immédiatement les prochains tours à tous les alliés en réduisant leurs TU actuels. Les Compétences Actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle prenne son tour.\n\nVerrouillé pendant 50TU après l'entrée de l'utilisateur sur le champ de bataille. Utilisable une fois par bataille.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegularBoss",
+                "SkillTitle": "Explosion Bouclier",
+                "SkillDescription": "Retire toutes les Protections Sommeil, les Protections Poison et les Protections Mort Instantanée de toutes les unités ennemies du champ de bataille.\n\nPuis chaque ennemi du champ de bataille :\n- Subira aléatoirement soit le Sommeil Maudit pendant 200TU.\n- Ou sera immédiatement vaincu (l'utilisateur sera considéré comme ayant vaincu cet ennemi avec une attaque). Ceci échouera si l'ennemi est une unité boss ou éphémère. Cet effet ignore les compétences passives de Vengeance et de Résurrection, et toute compétence passive ou effet de compétences actives qui empêcherait l'ennemi d'être vaincu.\n\nVerrouillé pendant 100TU après l'entrée de l'utilisateur sur le champ de bataille. Utilisable une fois par bataille.\n\nLe Sommeil Maudit remplacera les effets de statut autre que la Brûlure, ne peut être remplacé par le Poison, peut être appliqué aux unités ayant déjà été endormies sur le champ de bataille à plusieurs reprises, et ne sera pas annulé par les dégâts causés par les compétences actives de type Chasseur de Rêves. Le Méga Poison inflige 20 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal ou le Super Poison.",
+                "TU": 50,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "SpecialBuffAGalahadRegularBoss",
+                "SkillTitle": "Forteresse Bouclier",
+                "SkillDescription": "Retire le Poison (y compris le Poison Létal) et la Brûlure (y compris la Méga Brûlure Soin) à tous les alliés du champ de bataille.\n\nPuis tous les alliés non-Fortifiés du champ de bataille deviennent Fortifiés.\n\nUtilisable seulement si le lanceur n'est pas seul et n'est pas Fortifié. Utilisable 3 fois par bataille. Une unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegularBoss",
+                "SkillTitle": "Peau de Chevalier",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nCette unité ne peut être endormie, étourdie ou empoisonnée pendant 50TU après son entrée sur le champ de bataille.\n\nCette unité prend immédiatement son tour lorsque qu'elle subit des dégâts provenant d'une attaque. Ceci ne peut être à nouveau déclenché jusqu'à ce que les TU s'écoulent. Les unités ennemies qui infligent des dégâts à cette unité seront étourdies pendant 100TU et subiront le Super Poison. Ces derniers sont des effets de Reflet. Cette unité ne peut devenir un Gardien ou un Absorbeur d'Étourdissement.\n\nLe Super Poison remplacera les autres effets de statut sur ces ennemis. Le Super Poison inflige 4 fois plus de dégâts que le Poison normal et ne peut être remplacé par le Poison normal."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegularBoss",
+                "SkillTitle": "Chevalier Silencieux",
+                "SkillDescription": "Lorsque cette unité entre en bataille :\n- Tous les alliés deviennent Fortifiés.\n- Cette unité Endurera les prochains dégâts qui la vaincraient avec 1PV. Les effets d'Endurance ne peuvent être empilés.\n- Tous les ennemis gagneront des Protections d'Enragé. Les Protections d'Enragé empêcheront une unité de devenir Enragée une fois, puis seront retirés. Les Protections d'Enragé ne peuvent être empilées.\n\nAprès le premier tour de cette unité sur le champ de bataille, tous les alliés du champ de bataille sont soignés de 25% de leurs PV max et deviennent Fortifiés.\n\nCette unité sera soignée de 1% de ses PV max si elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Battage de Bouclier": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Graines de Chevalerie": {
+                    "BaseWeight": 250
+                },
+                "Explosion Bouclier": {
+                    "BaseWeight": 7500
+                },
+                "Forteresse Bouclier": {
+                    "BaseWeight": 25,
+                    "Source": {
+                        "IsNotGalahadRegularEndOfFirstTurnLock": 0
+                    }
+                }
+            }
+        }
+    },
+    "ArsenalRegularBoss01": {
+        "Name": "Arsenal",
+        "FullName": "Arsenal",
+        "Family": "ArsenalRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Épée",
+        "forFilter_Element": "Air",
+        "Element": "Tempête",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 555,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegularBoss",
+                "SkillTitle": "Souffle Éclair",
+                "SkillDescription": "500% de dégâts à 1 ennemi. 1000% de dégâts à la place à chaque seconde fois que cette compétence est activée sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts ennemis, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nSi ces dégâts infligés ne vainquent pas la cible, les Alliés gagnent 3 Essences.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegularBoss",
+                "SkillTitle": "Charge Jumelle",
+                "SkillDescription": "L'utilisateur gagne 2 Charges.\n\nTous les alliés du champ de bataille gagnent une Protection Sommeil. Une Protection Sommeil empêche l'application du Sommeil une fois, puis est retirée. Les Protections Sommeil ne peuvent être empilées. Tous les alliés non-endormis du champ de bataille deviendront Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nDéverrouillé à chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegularBoss",
+                "SkillTitle": "Lame Chargée",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. Cette attaque ignore les Gardiens.\n\nPuis tous les effets de statut de Furtivité sont retirés de la cible touchée (y compris la Super Furtivité).\n\nUtilisable seulement si le lanceur possède 1+ Charge conservée. Cette compétence se verrouille pendant 50TU après son utilisation. Utilisable 10 fois par bataille.",
+                "TU": 60,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegularBoss",
+                "SkillTitle": "Héritier Ultime",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille et ne peut être vaincue par des dégâts provenant d'effets de statut de Poison ou de Brûlure.\n\nCette unité ne peut être étourdie s'il y a une autre unité de type Tempête (alliée ou ennemie) sur le champ de bataille. Cette unité ne peut être endormie s'il y a quelconque autre unité de type Eau (alliée ou ennemie) sur le champ de bataille.\n\nLes attaques de cette unité la soignent d'une valeur de 1% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nLorsque cette unité utilise Souffle Éclair ou Lame Chargée et si elle possède une Charge, elle consommera 1 Charge pour réduire ses TU actuels de 30TU. Si cet effet est déclenché 3 fois durant 10TU, il ne peut être à nouveau déclenché jusqu'à ce que 50TU s'écoulent."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegularBoss",
+                "SkillTitle": "Apporte le Tonnerre",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité gagne une Charge à chaque fois qu'elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour. Si cette unité possède déjà 3 Charges conservées, elle consommera 2 Charges pour réduire ses TU actuels à 0. Cette réduction de TU peut se déclencher avant ou après d'autres effets ajustant l'ordre des tours. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.\n\nAprès la fin de chaque tour de cette unité, si les Compétences Actives de moins de 2 ennemis du champ de bataille sont désactivées, cette unité désactivera les Compétences Actives de 1 ennemi aléatoire pendant 50TU. Cette unité ne peut que déclencher cet effet avec succès 5 fois après son entrée sur le champ de bataille. Cet effet ne peut être déclenché si Arsenal n'a pas d'autres alliés sur le champ de bataille."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Souffle Éclair": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Charge Jumelle": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Lame Chargée": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "ArsenalRegularBoss03": {
+        "Name": "Méga Arsenal",
+        "FullName": "Méga Arsenal",
+        "Family": "ArsenalRegularBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Épée",
+        "forFilter_Element": "Air",
+        "Element": "Tempête",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 555,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegularBoss",
+                "SkillTitle": "Souffle Éclair",
+                "SkillDescription": "500% de dégâts à 1 ennemi. 1000% de dégâts à la place à chaque seconde fois que cette compétence est activée sur le champ de bataille. Cette attaque ignore les effets de réduction de dégâts ennemis, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nSi ces dégâts infligés ne vainquent pas la cible, les Alliés gagnent 3 Essences.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegularBoss",
+                "SkillTitle": "Charge Jumelle",
+                "SkillDescription": "L'utilisateur gagne 2 Charges.\n\nTous les alliés du champ de bataille gagnent une Protection Sommeil. Une Protection Sommeil empêche l'application du Sommeil une fois, puis est retirée. Les Protections Sommeil ne peuvent être empilées. Tous les alliés non-endormis du champ de bataille deviendront Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nDéverrouillé à chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegularBoss",
+                "SkillTitle": "Lame Chargée",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. Cette attaque ignore les Gardiens.\n\nPuis tous les effets de statut de Furtivité sont retirés de la cible touchée (y compris la Super Furtivité).\n\nUtilisable seulement si le lanceur possède 1+ Charge conservée. Cette compétence se verrouille pendant 50TU après son utilisation. Utilisable 10 fois par bataille.",
+                "TU": 60,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "EnemyBuffAArsenalRegularBoss",
+                "SkillTitle": "Décret du Graal",
+                "SkillDescription": "Les Compétences Actives de tous les ennemis du champ de bataille sont désactivées pendant 50TU. Tous les alliés du champ de bataille sont Purifiés (retire les effets de statut négatifs tels que le Sommeil, la Brûlure ou le Poison).\n\nDonne ensuite immédiatement les prochains tours à tous les autres alliés en réduisant leur TU actuels. Les Compétences Actives qui donnent des tours ne peuvent être utilisées par toute unité affectée jusqu'à ce qu'elle prenne son tour.\n\nUtilisable seulement si le lanceur possède 3 Charges conservées. Consomme toutes les Charges sur l'utilisateur. Utilisable une fois par bataille.\n\nLorsque les Compétences Actives d'une unité sont désactivées et qu'elle prend son tour, elle perdra ce tour comme si elle était endormie. Cet effet ne peut affecter les unités boss, ne peut être purifié, et prendra fin si l'utilisateur est vaincu.",
+                "TU": 40,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegularBoss",
+                "SkillTitle": "Héritier Ultime",
+                "SkillDescription": "Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille et ne peut être vaincue par des dégâts provenant d'effets de statut de Poison ou de Brûlure.\n\nCette unité ne peut être étourdie s'il y a une autre unité de type Tempête (alliée ou ennemie) sur le champ de bataille. Cette unité ne peut être endormie s'il y a quelconque autre unité de type Eau (alliée ou ennemie) sur le champ de bataille.\n\nLes attaques de cette unité la soignent d'une valeur de 1% des dégâts totaux infligés, et ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nLorsque cette unité utilise Souffle Éclair ou Lame Chargée et si elle possède une Charge, elle consommera 1 Charge pour réduire ses TU actuels de 30TU. Si cet effet est déclenché 3 fois durant 10TU, il ne peut être à nouveau déclenché jusqu'à ce que 50TU s'écoulent."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegularBoss",
+                "SkillTitle": "Apporte le Tonnerre",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité gagne une Charge à chaque fois qu'elle subit des dégâts provenant d'une attaque et survit jusqu'à la fin du tour. Si cette unité possède déjà 3 Charges conservées, elle consommera 2 Charges pour réduire ses TU actuels à 0. Cette réduction de TU peut se déclencher avant ou après d'autres effets ajustant l'ordre des tours. Certaines compétences sont affectées par les Charges et peuvent en consommer. Une unité peut conserver un maximum de 3 Charges.\n\nAprès la fin de chaque tour de cette unité, si les Compétences Actives de moins de 2 ennemis du champ de bataille sont désactivées, cette unité désactivera les Compétences Actives de 1 ennemi aléatoire pendant 50TU. Cette unité ne peut que déclencher cet effet avec succès 5 fois après son entrée sur le champ de bataille. Cet effet ne peut être déclenché si Arsenal n'a pas d'autres alliés sur le champ de bataille."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Souffle Éclair": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Charge Jumelle": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Lame Chargée": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Décret du Graal": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotAlone": 100,
+                        "3EnemiesDisabled": 0,
+                        "AllEnemiesDisabled": 0,
+                        "AllEnemiesDisabledAlt": 0,
+                        "EnemyIsAloneAndDisabled": 0
+                    }
+                }
+            }
+        }
     }
 }
