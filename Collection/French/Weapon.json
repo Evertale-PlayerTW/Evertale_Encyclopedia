@@ -22246,7 +22246,7 @@
         "Hp_Base": 3160,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUpDamageReduc4NoSleepingPoisonedOrBurningAllies",
@@ -22271,7 +22271,7 @@
         "Hp_Base": 3855,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUpDamageReduc5NoSleepingPoisonedOrBurningAllies",
@@ -22297,12 +22297,89 @@
         "Hp_Base": 4115,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUpDamageReduc6NoSleepingPoisonedOrBurningAllies",
                 "SkillTitle": "Puissance+",
                 "SkillDescription": "Bonus de 15% aux attaques et réduit les dégâts des attaques ennemies de 10% tant qu'il n'y a pas d'alliés endormis, brûlés, ou empoisonnés sur le champ de bataille."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "MarieAntoinetteAxe01": {
+        "Name": "Rose Guillotine",
+        "FullName": "Rose Guillotine",
+        "Family": "MarieAntoinetteAxe",
+        "Profile": "La hache d'un bourreau, ornée de roses. Des pétales rouges s'envolent lorsque sa splendide lame s'abat.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Axe",
+        "WeaponType": "Hache",
+        "Cost": 11,
+        "Atk_Base": 517,
+        "Hp_Base": 2790,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4TargetIsDeath",
+                "SkillTitle": "Attaque +",
+                "SkillDescription": "Bonus de 15% aux attaques contre les unités Obscurité."
+            }
+        ]
+    },
+    "MarieAntoinetteAxe02": {
+        "Name": "Rose Guillotine",
+        "FullName": "Rose Guillotine",
+        "Family": "MarieAntoinetteAxe",
+        "Profile": "La hache d'un bourreau, ornée de roses. Des pétales rouges s'envolent lorsque sa splendide lame s'abat.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Axe",
+        "WeaponType": "Hache",
+        "Cost": 17,
+        "Atk_Base": 623,
+        "Hp_Base": 3385,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5TargetIsDeath",
+                "SkillTitle": "Attaque +",
+                "SkillDescription": "Bonus de 20% aux attaques contre les unités Obscurité."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "MarieAntoinetteAxe03": {
+        "Name": "Rose Guillotine",
+        "FullName": "Rose Guillotine",
+        "Family": "MarieAntoinetteAxe",
+        "Profile": "La hache d'un bourreau, ornée de roses. Des pétales rouges s'envolent lorsque sa splendide lame s'abat.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Axe",
+        "WeaponType": "Hache",
+        "Cost": 23,
+        "Atk_Base": 671,
+        "Hp_Base": 3645,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6TargetIsDeath",
+                "SkillTitle": "Attaque +",
+                "SkillDescription": "Bonus de 25% aux attaques contre les unités Obscurité."
             }
         ],
         "ExtraEvoInitialCount": 2
