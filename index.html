@@ -2362,7 +2362,7 @@
 				Power: "Power"
 			}
 
-			sortButton ??= document.querySelector('#sortableList_titleDefault button[data-sortorder="Down"]');
+			sortButton ??= document.querySelector(`#sortableList_titleDefault button[data-sortorder="${document.getElementById("reverseToggle").checked ? 'Up' : 'Down'}"]`);
 			const sortkey = datakey[sortButton?.dataset?.sortkey ?? "Default"];
 			const sortorder = sortButton?.dataset?.sortorder === "Up" ? 1 : -1;
 
