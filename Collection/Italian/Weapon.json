@@ -22323,7 +22323,7 @@
         "Hp_Base": 2790,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4TargetIsDeath",
@@ -22348,7 +22348,7 @@
         "Hp_Base": 3385,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5TargetIsDeath",
@@ -22374,12 +22374,89 @@
         "Hp_Base": 3645,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6TargetIsDeath",
                 "SkillTitle": "Aumento Attacco",
                 "SkillDescription": "25% di attacco extra contro unità di tipo Oscurità."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "GalahadMace01": {
+        "Name": "Mazza Galatea",
+        "FullName": "Mazza Galatea",
+        "Family": "GalahadMace",
+        "Profile": "Una mazza d'argento intrisa del potere di un decreto reale e del giuramento di eseguirlo, tramandata di generazione in generazione. Ha accompagnato una specifica cavaliera nella sua ricerca del Santo Graal su innumerevoli campi di battaglia.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Mazza",
+        "Cost": 11,
+        "Atk_Base": 439,
+        "Hp_Base": 3180,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc4AlliesAreDisabled2",
+                "SkillTitle": "Danno ridotto",
+                "SkillDescription": "Riduce i danni subiti dagli attacchi nemici del 7% se ci sono 2 o più unità con le abilità attive disattivate."
+            }
+        ]
+    },
+    "GalahadMace02": {
+        "Name": "Mazza Galatea",
+        "FullName": "Mazza Galatea",
+        "Family": "GalahadMace",
+        "Profile": "Una mazza d'argento intrisa del potere di un decreto reale e del giuramento di eseguirlo, tramandata di generazione in generazione. Ha accompagnato una specifica cavaliera nella sua ricerca del Santo Graal su innumerevoli campi di battaglia.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Mazza",
+        "Cost": 17,
+        "Atk_Base": 522,
+        "Hp_Base": 3890,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc5AlliesAreDisabled2",
+                "SkillTitle": "Danno ridotto",
+                "SkillDescription": "Riduce i danni subiti dagli attacchi nemici del 10% se ci sono 2 o più unità con le abilità attive disattivate."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "GalahadMace03": {
+        "Name": "Mazza Galatea",
+        "FullName": "Mazza Galatea",
+        "Family": "GalahadMace",
+        "Profile": "Una mazza d'argento intrisa del potere di un decreto reale e del giuramento di eseguirlo, tramandata di generazione in generazione. Ha accompagnato una specifica cavaliera nella sua ricerca del Santo Graal su innumerevoli campi di battaglia.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Mazza",
+        "Cost": 23,
+        "Atk_Base": 564,
+        "Hp_Base": 4180,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc6AlliesAreDisabled2",
+                "SkillTitle": "Danno ridotto",
+                "SkillDescription": "Riduce i danni subiti dagli attacchi nemici del 15% se ci sono 2 o più unità con le abilità attive disattivate."
             }
         ],
         "ExtraEvoInitialCount": 2

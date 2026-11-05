@@ -146823,7 +146823,7 @@
         "Hp_Base": 4700,
         "Speed": 669,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Salve. Sei pronto a intrattenermi?",
         "LeaderSkill": {
             "SkillCodename": "HPUpEarthD",
@@ -147195,5 +147195,321 @@
                 "RelationshipBuff": "ATT+2%"
             }
         }
+    },
+    "GalahadRegular01": {
+        "Name": "Galahad",
+        "Name2": "Cavaliera Silente di Camelot",
+        "FullName": "Galahad - Cavaliera Silente di Camelot",
+        "Family": "GalahadRegular",
+        "Profile": "Giovane cavaliera discendente di un Cavaliere della Tavola Rotonda. Per lei, il decreto reale del sovrano viene prima di ogni altra cosa. Essere stata incaricata con questo decreto è per lei un sacro giuramento fatto al re e lo scopo stesso della sua vita. Decisa a portare a termine questa missione reale tramandata dai suoi antenati, avanza senza esitazioni.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 28,
+        "Atk_Base": 550,
+        "Hp_Base": 15298,
+        "Speed": 213,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "Il suo viaggio nel deserto continua...\n...fino al compimento del decreto finale del re.",
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "ATT+ HP+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "Schianto con Scudo",
+                "SkillDescription": "1000% di danno a 1 nemico. 1500% di danno invece se l'unità è sopravvissuta per 100TU in campo. 2000% di danno invece se l'unità è sopravvissuta per 200TU in campo. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto. Il danno da quest'attacco non sveglia i nemici.\n\nPoi, se il bersaglio colpito non è ustionato, sottrae fino a 1 Spirito dai nemici.\n\nSe l'unità ha il 30% o meno degli HP, scambia gli HP attuali dell'unità con la quantità di HP che le mancano.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "Semi Purificanti",
+                "SkillDescription": "Rimuove questi effetti da tutti gli alleati in campo:\n- Sonno (incluso Sonno Profondo)\n- Effetti nemici che stanno disattivando le abilità attive.\n- Ipnosi nemica.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile solo se ci sono almeno 2 alleati con una combinazione qualsiasi di Ipnosi, Sonno, abilità disattivate o 150TU attuali o più. Un solo uso per battaglia.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "Scudo Esplosivo",
+                "SkillDescription": "Rimuove Protezione Sonno, Protezione Veleno e Protezione Morte da tutte le unità nemiche in campo.\n\nPoi, ogni nemico in campo, casualmente:\n- Subisce Sonno Maledetto per 200TU.\n- Subisce Mega Veleno per 200TU.\n- Viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Non ha effetto che il nemico è un boss o è effimero. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive o gli effetti che impedirebbero al bersaglio di essere sconfitto.\n\nBloccata per 100TU da quando questa unità entra in campo. Un solo uso per battaglia.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "Scudo di Camelot",
+                "SkillDescription": "L'unità è un Guardiano. Per qualsiasi attacco diretto contro 1 o 2 alleati, c'è il 100% di probabilità che un colpo venga deviato contro l'unità Guardiano. L'effetto non si applica ad abilità che non infliggono danno.\n\nL'unità non può essere mandata in campo dai rinforzi.\n\nPer 50TU dopo essere entrata in battaglia, l'unità è immune a Sonno e Veleno.\n\nOgni volta che l'unità subisce danno da un attacco mentre non è ustionata e sopravvive fino alla fine del turno, riduce i TU di alleato non Guardiano casuale di 50TU. Non è un effetto di contatto. La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nA meno che non sia ustionata, l'unità:\n- È immune a Stordimento.\n- È immune a Ipnosi.\n- Non può essere sconfitta immediatamente senza subire danno dai nemici che non sono boss."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "Cavaliera Silente",
+                "SkillDescription": "Quando l'unità entra in campo:\n- Tutti gli alleati sono fortificati.\n- L'unità resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP.\n- Tutti i nemici subiscono Protezione Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nDopo il primo turno in campo dell'unità, tutti gli alleati in campo recuperano il 100% degli HP massimi e sono fortificati.\n\nSe l'unità subisce danno da un attacco e sopravvive fino alla fine del turno, un alleato casuale con le abilità attive disattivate mette fine agli effetti nemici che stanno disattivando le sue abilità attive. Non può mettere fine agli effetti di Tempo Immobile. Poi, l'unità recupera il 25% degli HP massimi. Questa cura aumenta al 100% degli HP massimi per le prime tre attivazioni da quando l'unità è entrata in campo."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "Resis. Spadone Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato uno Spadone."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "Maestria Bastone",
+                "SkillDescription": "Può usare le abilità dei Bastoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Bastone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Io... sono una cavaliera votata a eseguire il decreto del mio re...\nNon lo faccio per la fama o gli elogi. Seguo semplicemente il mio codice cavalleresco.\nMa, se hai bisogno di aiuto... ti tenderò la mia mano."
+            ],
+            "Login": [
+                "Tu fa' pure ciò che devi... E io proseguirò sulla mia via cavalleresca. Partiamo."
+            ],
+            "Tap": [
+                "Non mi piace conoscere altre persone... o per meglio dire, mi riesce difficile. Non... non so proprio cosa dire.",
+                "Viaggio da molto tempo... Quindi sono abituata a stare da sola. Ma ultimamente... comincio a pensare che avere compagnia non sia poi così male...",
+                "Ho incontrato re Artù qualche volta. Era bellissima... Ma non sono riuscita a capire che persona fosse davvero..."
+            ],
+            "Idle": [
+                "Non c'è nessuno.... Che bel silenzio... È il momento perfetto per fare un po' di manutenzione all'arma."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "Schianto con Scudo": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "Semi Purificanti": {
+                    "BaseWeight": 250
+                },
+                "Scudo Esplosivo": {
+                    "BaseWeight": 7500
+                }
+            }
+        }
+    },
+    "GalahadRegular02": {
+        "Name": "Galahad",
+        "Name2": "Cavaliera Silente di Camelot",
+        "FullName": "Galahad - Cavaliera Silente di Camelot",
+        "Family": "GalahadRegular",
+        "Profile": "Ogni mattina all'alba, Galahad lucida l'elmo e l'arma. Attorno a lei può infuriare una tempesta di sabbia o il freddo invernale può morderle le carni, ma non trascura mai questo rituale. \"Una cavaliera deve sempre essere pronta al momento in cui il dovere la chiama\", mormora, anche se il re che dovrebbe chiamarla non c'è più.",
+        "Profile_Ascended": "Ai confini del deserto incontrò un'ex regina che aveva chiuso il proprio cuore e giurato di non fidarsi mai più di nessuno. Una cavaliera che ha perduto il re che doveva proteggere e una regina che ha perduto il popolo in cui doveva credere: il loro viaggio insieme ha fatto nascere, a poco a poco, un nuovo voto, frutto non di un dovere o di un decreto, ma del suo libero arbitrio.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mazza",
+        "forFilter_Element": "Earth",
+        "Element": "Terra",
+        "Cost": 34,
+        "Atk_Base": 673,
+        "Hp_Base": 19301,
+        "Speed": 213,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "ATT+ HP+ (Terra)",
+            "SkillDescription": "Nelle unità alleate di tipo Terra l'attacco aumenta del 10% e gli HP massimi del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "Schianto con Scudo",
+                "SkillDescription": "1000% di danno a 1 nemico. 1500% di danno invece se l'unità è sopravvissuta per 100TU in campo. 2000% di danno invece se l'unità è sopravvissuta per 200TU in campo. Questo attacco ignora gli effetti di riduzione del danno nemici e gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto. Il danno da quest'attacco non sveglia i nemici.\n\nPoi, se il bersaglio colpito non è ustionato, sottrae fino a 1 Spirito dai nemici.\n\nSe l'unità ha il 30% o meno degli HP, scambia gli HP attuali dell'unità con la quantità di HP che le mancano.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "Semi Purificanti",
+                "SkillDescription": "Rimuove questi effetti da tutti gli alleati in campo:\n- Sonno (incluso Sonno Profondo)\n- Effetti nemici che stanno disattivando le abilità attive.\n- Ipnosi nemica.\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile solo se ci sono almeno 2 alleati con una combinazione qualsiasi di Ipnosi, Sonno, abilità disattivate o 150TU attuali o più. Un solo uso per battaglia.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "Scudo Esplosivo",
+                "SkillDescription": "Rimuove Protezione Sonno, Protezione Veleno e Protezione Morte da tutte le unità nemiche in campo.\n\nPoi, ogni nemico in campo, casualmente:\n- Subisce Sonno Maledetto per 200TU.\n- Subisce Mega Veleno per 200TU.\n- Viene sconfitto immediatamente (il bersaglio conta come sconfitto dall'unità con un attacco). Non ha effetto che il nemico è un boss o è effimero. L'effetto ignora le abilità passive di Vendetta, le abilità passive di Rinascita e le abilità passive o gli effetti che impedirebbero al bersaglio di essere sconfitto.\n\nBloccata per 100TU da quando questa unità entra in campo. Un solo uso per battaglia.\n\nSonno Maledetto sostituisce altri effetti di stato a parte Ustione, non viene sostituito da Veleno e può essere applicato ripetutamente alle unità che hanno già dormito da quando sono entrate in campo, inoltre il danno causato dalle abilità di tipo Cacciasogni non rimuove l'effetto. Mega Veleno infligge 20 volte il danno del normale Veleno e non può essere sostituito dal normale Veleno o dal Super Veleno.",
+                "TU": 50,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "SpecialBuffAGalahadRegular",
+                "SkillTitle": "Fortezza di Scudi",
+                "SkillDescription": "Rimuove Veleno (incluso Veleno Letale) da tutti tutti gli alleati in campo e li cura per un valore di HP pari al 1000% dell'attacco.\n\nPoi, fortifica tutti gli alleati non fortificati in campo.\n\nUtilizzabile solo se l'unità non è da sola e non è fortificata. Utilizzabile 3 volte per battaglia. Un'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "Scudo di Camelot",
+                "SkillDescription": "L'unità è un Guardiano. Per qualsiasi attacco diretto contro 1 o 2 alleati, c'è il 100% di probabilità che un colpo venga deviato contro l'unità Guardiano. L'effetto non si applica ad abilità che non infliggono danno.\n\nL'unità non può essere mandata in campo dai rinforzi.\n\nPer 50TU dopo essere entrata in battaglia, l'unità è immune a Sonno e Veleno.\n\nOgni volta che l'unità subisce danno da un attacco mentre non è ustionata e sopravvive fino alla fine del turno, riduce i TU di alleato non Guardiano casuale di 50TU. Non è un effetto di contatto. La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nA meno che non sia ustionata, l'unità:\n- È immune a Stordimento.\n- È immune a Ipnosi.\n- Non può essere sconfitta immediatamente senza subire danno dai nemici che non sono boss."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "Cavaliera Silente",
+                "SkillDescription": "Quando l'unità entra in campo:\n- Tutti gli alleati sono fortificati.\n- L'unità resiste al primo danno che la sconfiggerebbe che subisce, sopravvivendo con 1 HP.\n- Tutti i nemici subiscono Protezione Provocazione. Protezione Provocazione impedisce un'applicazione di Provocazione, poi si rimuove. Protezione Provocazione non si accumula.\n\nDopo il primo turno in campo dell'unità, tutti gli alleati in campo recuperano il 100% degli HP massimi e sono fortificati.\n\nSe l'unità subisce danno da un attacco e sopravvive fino alla fine del turno, un alleato casuale con le abilità attive disattivate mette fine agli effetti nemici che stanno disattivando le sue abilità attive. Non può mettere fine agli effetti di Tempo Immobile. Poi, l'unità recupera il 25% degli HP massimi. Questa cura aumenta al 100% degli HP massimi per le prime tre attivazioni da quando l'unità è entrata in campo."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "Resis. Spadone Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità che hanno equipaggiato uno Spadone."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "Maestria Bastone",
+                "SkillDescription": "Può usare le abilità dei Bastoni oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Bastone"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Io... sono una cavaliera votata a eseguire il decreto del mio re...\nNon lo faccio per la fama o gli elogi. Seguo semplicemente il mio codice cavalleresco.\nMa, se hai bisogno di aiuto... ti tenderò la mia mano."
+            ],
+            "Login": [
+                "Tu fa' pure ciò che devi... E io proseguirò sulla mia via cavalleresca. Partiamo."
+            ],
+            "Tap": [
+                "Non mi piace conoscere altre persone... o per meglio dire, mi riesce difficile. Non... non so proprio cosa dire.",
+                "Viaggio da molto tempo... Quindi sono abituata a stare da sola. Ma ultimamente... comincio a pensare che avere compagnia non sia poi così male...",
+                "Ho incontrato re Artù qualche volta. Era bellissima... Ma non sono riuscita a capire che persona fosse davvero..."
+            ],
+            "Idle": [
+                "Non c'è nessuno.... Che bel silenzio... È il momento perfetto per fare un po' di manutenzione all'arma."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "Schianto con Scudo": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "Semi Purificanti": {
+                    "BaseWeight": 250
+                },
+                "Scudo Esplosivo": {
+                    "BaseWeight": 7500
+                },
+                "Fortezza di Scudi": {
+                    "BaseWeight": 25,
+                    "Source": {
+                        "IsNotGalahadRegularEndOfFirstTurnLock": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

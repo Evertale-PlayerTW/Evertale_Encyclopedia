@@ -146823,7 +146823,7 @@
         "Hp_Base": 4700,
         "Speed": 669,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "贵安。\n可别让我感到无聊哦？",
         "LeaderSkill": {
             "SkillCodename": "HPUpEarthD",
@@ -147195,5 +147195,321 @@
                 "RelationshipBuff": "攻击力+2%"
             }
         }
+    },
+    "GalahadRegular01": {
+        "Name": "加拉哈德",
+        "Name2": "沉默的圆桌骑士",
+        "FullName": "加拉哈德 - 沉默的圆桌骑士",
+        "Family": "GalahadRegular",
+        "Profile": "继承了圆桌骑士血脉的年轻骑士，将王命看得比什么都重要。对她而言，命令即是誓言，更是她活着的全部意义。为了完成祖先代代相传的使命，今天的她也毫不犹豫地继续前行。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 28,
+        "Atk_Base": 550,
+        "Hp_Base": 15298,
+        "Speed": 213,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "今天的她依然行走在沙漠之中\n只为完成最后的王命——",
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "地属性强化",
+            "SkillDescription": "所有地属性队友的攻击力增加10%且最大生命值增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "盾牌猛击",
+                "SkillDescription": "对1个敌人造成1000%的伤害；若使用者已入场不小于100TU，则改为造成1500%的伤害；若使用者已入场不小于200TU，则改为造成2000%的伤害；若目标不处于燃烧状态，则抽取敌方1点灵气；若使用者的生命值不高于30%，则其当前生命值替换为当前已失去的生命值。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。此攻击的伤害不会移除目标的睡眠状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "钢铁雄风",
+                "SkillDescription": "移除己方场上所有单位的任何睡眠状态、敌方施加的洗脑效果并终止敌方效果对其主动技能的封锁，场上其他己方单位TU归零，使其顺次获得下一回合。在受此技能影响后直到这些单位的下一个回合结束后无法使用给予其他队友回合的主动技能。仅当己方场上有至少2个单位处于睡眠状态、被洗脑、主动技能被封锁或有至少150TU时才可使用。此技能在一场战斗中只能使用一次。",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "潘多拉魔盒",
+                "SkillDescription": "移除场上所有敌方单位的睡眠抵抗、中毒抵抗与速败抵抗；每个敌方单位随机陷入持续200TU的诅咒睡眠状态、持续200TU的急性剧毒或被立即击败。此效果无视防止目标被击败的效果或被动技能，且不会触发目标的诅咒与祝福或复活类被动技能。此效果对BOSS或幻影无效。此单位被视为通过攻击击败目标。使用者进场至少100TU后才可使用。此技能在一场战斗中只能使用一次。\n诅咒睡眠状态对进场后已经陷入过睡眠状态的敌方单位亦可生效，会覆盖身上燃烧以外的其他状态效果，且不会被中毒覆盖。处于诅咒睡眠的单位受到捕梦类主动技能的伤害时不会移除诅咒睡眠状态。急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖且会覆盖对象身上的其他状态效果。",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "卡美洛之盾",
+                "SkillDescription": "此单位是一个守卫者。当敌方使用单体或双体类攻击时，此单位会以100%的概率将一个攻击目标强制改为自身。不直接造成伤害的技能不会被改变目标。\n此单位无法从场上回到援军队伍。此单位进场50TU内不会陷入睡眠或中毒状态。\n如果不处于燃烧状态的此单位受到一次攻击伤害并在当前回合结束之后仍然存活，则随机1个己方非守卫者单位减少50TU。此效果不为反弹效果。一些影响TU的技能效果可能会改变此TU减少效果发动的时机。\n此单位不处于燃烧状态时不会被眩晕或洗脑且无法被非BOSS敌方单位以无伤害的方式立即击败。"
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "沉默的圆桌骑士",
+                "SkillDescription": "此单位进场时获得“坚韧”效果，使所有己方单位金属化并使所有敌方单位获得狂热抵抗。拥有坚韧效果的单位在此后一次受到超过其剩余生命值的伤害时，会以1点生命值幸存。坚韧效果次数无法叠加。狂热抵抗会阻止一次狂热，之后狂热抵抗会被移除。狂热抵抗效果次数无法叠加。\n此单位进场后自己的第一个回合结束时，场上所有己方单位回复最大生命值的100%并金属化。\n如果此单位受到一次攻击伤害并在当前回合结束之后仍然存活，则回复最大生命值25%的生命值，并终止敌方效果对随机1个主动技能被封锁的己方单位主动技能的封锁。此效果无法终止时间停止效果，而在此单位每次进场后前三次触发时，回复量提升至最大生命值的100%。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "双手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备双手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "法杖大师",
+                "SkillDescription": "若此单位装备法杖类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "法杖"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "吾乃……恪守王命之人……\n无需荣誉，也不求赞颂。\n这不过是骑士之道……\n\n但若你正身陷困境……\n吾愿……助你一臂之力……"
+            ],
+            "Login": [
+                "你只需为自己而行动……\n而我，将贯彻属于自己的骑士之道……走吧。"
+            ],
+            "Tap": [
+                "我不喜欢别人太过亲近……倒不如说，是不太擅长应付。\n……因为那样的话，我就不知道该如何是好了……",
+                "我一直过着四处漂泊的生活。所以，早已习惯了独自一人……\n不过，最近我开始觉得……有人陪伴，似乎也不坏……",
+                "亚瑟王……我曾见过她几次。她是一位非常美丽的人……\n但是……我始终无法看透，她内心真正的想法……"
+            ],
+            "Idle": [
+                "一个人都没有……真安静，这样很好……\n……不如趁现在保养一下武器吧……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "盾牌猛击": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "钢铁雄风": {
+                    "BaseWeight": 250
+                },
+                "潘多拉魔盒": {
+                    "BaseWeight": 7500
+                }
+            }
+        }
+    },
+    "GalahadRegular02": {
+        "Name": "加拉哈德",
+        "Name2": "沉默的圆桌骑士",
+        "FullName": "加拉哈德 - 沉默的圆桌骑士",
+        "Family": "GalahadRegular",
+        "Profile": "加拉哈德每天清晨都会伴着黎明擦拭自己的头盔与武器。无论是沙尘暴肆虐的日子，还是寒风刺骨的冬日，她都从未间断过这个习惯。“骑士理应时刻做好准备，以便随时履行使命”——她如此低声自语着，然而，那个曾向她下达命令的王，早已不在了。",
+        "Profile_Ascended": "她在沙漠尽头遇见的，是一位封闭了内心、发誓不再相信任何人的前王妃。失去了应当守护的王的骑士，与失去了曾经信赖的人民的王妃。两人各自怀抱着内心的缺憾，踏上了共同的旅途。而这段旅程，终将化作一份不再出于“命令”的全新约定。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "钉头锤",
+        "forFilter_Element": "Earth",
+        "Element": "地",
+        "Cost": 34,
+        "Atk_Base": 673,
+        "Hp_Base": 19301,
+        "Speed": 213,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "地属性强化",
+            "SkillDescription": "所有地属性队友的攻击力增加10%且最大生命值增加7%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "盾牌猛击",
+                "SkillDescription": "对1个敌人造成1000%的伤害；若使用者已入场不小于100TU，则改为造成1500%的伤害；若使用者已入场不小于200TU，则改为造成2000%的伤害；若目标不处于燃烧状态，则抽取敌方1点灵气；若使用者的生命值不高于30%，则其当前生命值替换为当前已失去的生命值。此技能无视目标的减伤效果与非BOSS目标防止被击败的效果或被动技能。此攻击的伤害不会移除目标的睡眠状态。",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "钢铁雄风",
+                "SkillDescription": "移除己方场上所有单位的任何睡眠状态、敌方施加的洗脑效果并终止敌方效果对其主动技能的封锁，场上其他己方单位TU归零，使其顺次获得下一回合。在受此技能影响后直到这些单位的下一个回合结束后无法使用给予其他队友回合的主动技能。仅当己方场上有至少2个单位处于睡眠状态、被洗脑、主动技能被封锁或有至少150TU时才可使用。此技能在一场战斗中只能使用一次。",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "潘多拉魔盒",
+                "SkillDescription": "移除场上所有敌方单位的睡眠抵抗、中毒抵抗与速败抵抗；每个敌方单位随机陷入持续200TU的诅咒睡眠状态、持续200TU的急性剧毒或被立即击败。此效果无视防止目标被击败的效果或被动技能，且不会触发目标的诅咒与祝福或复活类被动技能。此效果对BOSS或幻影无效。此单位被视为通过攻击击败目标。使用者进场至少100TU后才可使用。此技能在一场战斗中只能使用一次。\n诅咒睡眠状态对进场后已经陷入过睡眠状态的敌方单位亦可生效，会覆盖身上燃烧以外的其他状态效果，且不会被中毒覆盖。处于诅咒睡眠的单位受到捕梦类主动技能的伤害时不会移除诅咒睡眠状态。急性剧毒所造成的伤害是中毒的20倍，不会被其他中毒或剧毒状态覆盖且会覆盖对象身上的其他状态效果。",
+                "TU": 50,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "SpecialBuffAGalahadRegular",
+                "SkillTitle": "铜墙铁壁",
+                "SkillDescription": "移除己方场上所有单位的任何中毒状态，回复其相当于使用者攻击力1000%的生命值，并使所有不处于金属化的己方单位金属化。仅当己方场上存在其他队友且使用者不处于金属化时可以使用。此技能在一场战斗中只能使用三次。\n金属化会使该单位此后三次遭受敌方攻击时所受的伤害减少50%，之后金属化会被移除。金属化的减伤效果不会被不能无视金属化的攻击无视。已处于金属化的单位再次金属化时次数重置为三次，金属化不属于状态效果。",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "卡美洛之盾",
+                "SkillDescription": "此单位是一个守卫者。当敌方使用单体或双体类攻击时，此单位会以100%的概率将一个攻击目标强制改为自身。不直接造成伤害的技能不会被改变目标。\n此单位无法从场上回到援军队伍。此单位进场50TU内不会陷入睡眠或中毒状态。\n如果不处于燃烧状态的此单位受到一次攻击伤害并在当前回合结束之后仍然存活，则随机1个己方非守卫者单位减少50TU。此效果不为反弹效果。一些影响TU的技能效果可能会改变此TU减少效果发动的时机。\n此单位不处于燃烧状态时不会被眩晕或洗脑且无法被非BOSS敌方单位以无伤害的方式立即击败。"
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "沉默的圆桌骑士",
+                "SkillDescription": "此单位进场时获得“坚韧”效果，使所有己方单位金属化并使所有敌方单位获得狂热抵抗。拥有坚韧效果的单位在此后一次受到超过其剩余生命值的伤害时，会以1点生命值幸存。坚韧效果次数无法叠加。狂热抵抗会阻止一次狂热，之后狂热抵抗会被移除。狂热抵抗效果次数无法叠加。\n此单位进场后自己的第一个回合结束时，场上所有己方单位回复最大生命值的100%并金属化。\n如果此单位受到一次攻击伤害并在当前回合结束之后仍然存活，则回复最大生命值25%的生命值，并终止敌方效果对随机1个主动技能被封锁的己方单位主动技能的封锁。此效果无法终止时间停止效果，而在此单位每次进场后前三次触发时，回复量提升至最大生命值的100%。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "双手剑类耐性Lv3",
+                "SkillDescription": "若此单位受到装备双手剑的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "法杖大师",
+                "SkillDescription": "若此单位装备法杖类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "法杖"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "吾乃……恪守王命之人……\n无需荣誉，也不求赞颂。\n这不过是骑士之道……\n\n但若你正身陷困境……\n吾愿……助你一臂之力……"
+            ],
+            "Login": [
+                "你只需为自己而行动……\n而我，将贯彻属于自己的骑士之道……走吧。"
+            ],
+            "Tap": [
+                "我不喜欢别人太过亲近……倒不如说，是不太擅长应付。\n……因为那样的话，我就不知道该如何是好了……",
+                "我一直过着四处漂泊的生活。所以，早已习惯了独自一人……\n不过，最近我开始觉得……有人陪伴，似乎也不坏……",
+                "亚瑟王……我曾见过她几次。她是一位非常美丽的人……\n但是……我始终无法看透，她内心真正的想法……"
+            ],
+            "Idle": [
+                "一个人都没有……真安静，这样很好……\n……不如趁现在保养一下武器吧……"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "盾牌猛击": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "钢铁雄风": {
+                    "BaseWeight": 250
+                },
+                "潘多拉魔盒": {
+                    "BaseWeight": 7500
+                },
+                "铜墙铁壁": {
+                    "BaseWeight": 25,
+                    "Source": {
+                        "IsNotGalahadRegularEndOfFirstTurnLock": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

@@ -146823,7 +146823,7 @@
         "Hp_Base": 4700,
         "Speed": 669,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Hallo. Bist du bereit, mich zu unterhalten?",
         "LeaderSkill": {
             "SkillCodename": "HPUpEarthD",
@@ -147195,5 +147195,321 @@
                 "RelationshipBuff": "ANG+2%"
             }
         }
+    },
+    "GalahadRegular01": {
+        "Name": "Galahad",
+        "Name2": "Der stille Ritter von Camelot",
+        "FullName": "Galahad - Der stille Ritter von Camelot",
+        "Family": "GalahadRegular",
+        "Profile": "Eine junge Ritterin, die eine Nachfahrin eines Ritters der Tafelrunde ist. Für sie hat das königliche Dekret Vorrang vor allem anderen. Die Tatsache, dass ihr dieses Dekret anvertraut wurde, ist für sie ein heiliges Gelübde gegenüber dem König – und der eigentliche Sinn ihres Lebens. Entschlossen, diesen königlichen Auftrag zu erfüllen, der ihr von ihren Vorfahren überliefert wurde, schreitet sie ohne zu zögern voran.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 28,
+        "Atk_Base": 550,
+        "Hp_Base": 15298,
+        "Speed": 213,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "Ihre Reise durch die Wüste geht weiter...\n...bis sich der letzte Befehl des Königs erfüllt.",
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "Erd-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "Schildschlag",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Stattdessen 1500% Schaden, wenn der Anwender 100 ZE auf dem Schlachtfeld überlebt hat. Stattdessen 2000% Schaden, wenn der Anwender 200 ZE auf dem Schlachtfeld überlebt hat. Dieser Angriff ignoriert Schadensreduzierungseffekte des Gegners sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird. Der Schaden dieses Angriffs weckt keine schlafenden Gegner auf.\n\nWenn das getroffene Ziel nicht brennt, stiehlt der Anwender anschließend bis zu 1 Geist von Gegnern.\n\nWenn die aktuellen LP des Anwenders bei 30% oder weniger liegen, werden die aktuellen LP des Anwenders gegen die Anzahl an LP ausgetauscht, die der Anwender derzeit verloren hat.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "Reinigungssamen",
+                "SkillDescription": "Bei allen Verbündeten auf dem Schlachtfeld gilt Folgendes:\n- Schlaf (einschließlich Tiefschlaf) wird aufgehoben.\n- Gegnerische Effekte, die derzeit ihre aktiven Fertigkeiten deaktivieren, enden.\n- Gegnerische Hypnose wird aufgehoben.\n\nAnschließend erhalten alle anderen Verbündeten sofort ihren nächsten Zug, indem ihre aktuelle ZE reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nNur einsetzbar, wenn 2 oder mehr Verbündete in einer beliebigen Kombination aus Schlafen, Hypnotisiert, Aktive Fertigkeiten deaktiviert oder einen aktuellen ZE von 150 ZE oder mehr haben. Einmal pro Kampf einsetzbar.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "Schildexplosion",
+                "SkillDescription": "Entfernt alle Schlaf-, Gift- und Soforttod-Schutze von allen gegnerischen Einheiten auf dem Schlachtfeld.\n\nAnschließend wird jedem Gegner auf dem Schlachtfeld zufällig einer der folgenden Effekte zugewiesen:\n- Verfluchter Schlaf für 200 ZE.\n- Mega-Gift für 200 ZE.\n- sofort besiegt (es gilt, als hättest du diesen Gegner mit einem Angriff besiegt). Dies schlägt fehl, wenn der Gegner ein Boss oder flüchtig ist. Dieser Effekt ignoriert passive Rache-Fertigkeiten, passive Wiederbelebung-Fertigkeiten sowie alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nNach dem Betreten des Schlachtfelds durch den Anwender für 100 ZE gesperrt. Einmal pro Kampf einsetzbar.\n\nVerfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennung, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und wird nicht durch Schaden beendet, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird. Mega-Gift überschreibt andere Status-Effekte auf betroffene Gegner. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "Kamelotschild",
+                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem Angriff eines Gegners, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit leitet keine Fertigkeiten um, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nNach dem Eintritt in den Kampf kann diese Einheit 50 ZE lang weder in Schlaf versetzt noch vergiftet werden.\n\nJedes Mal, wenn diese Einheit Schaden durch einen Angriff erleidet, während sie nicht brennt, und bis zum Ende des Zuges überlebt, werden die aktuellen ZE eines zufälligen Verbündeten, der kein Wächter ist, um 50 ZE reduziert. Dies ist kein Skin-Effekt. Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge beeinflussen.\n\nSofern diese Einheit nicht brennt, kann sie nicht:\n- betäubt werden\n- hypnotisiert werden\n- von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt werden."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "Stiller Ritter",
+                "SkillDescription": "Wenn diese Einheit den Kampf betritt:\n- werden alle Verbündeten verstärkt.\n- Diese Einheit übersteht den nächsten Schaden, der sie besiegen würde, mit 1 LP. Ertragen-Effekte sind nicht stapelbar.\n- Alle Gegner erhalten Wutschutze. Wutschutze verhindern einmal, dass eine Einheit wütend wird, und werden anschließend entfernt. Wutschutze sind nicht stapelbar.\n\nNach dem ersten Zug dieser Einheit auf dem Schlachtfeld werden alle Verbündeten auf dem Schlachtfeld um 100% ihrer maximalen LP geheilt und verstärkt.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach Ende des Zuges überlebt, werden bei einem zufälligen Verbündeten, dessen Fertigkeiten deaktiviert sind, alle gegnerischen Effekte beendet, die derzeit seine Fertigkeiten deaktivieren. Dies kann keine Zeitstopp-Effekte beenden. Anschließend heilt sich diese Einheit um 25% ihrer maximalen LP. Diese Heilung erhöht sich auf 100% der maximalen LP, wenn sie die ersten drei Male ausgelöst wird, während sich diese Einheit auf dem Schlachtfeld befindet."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "Gr.Schwertwiderst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Großschwert führen."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich... bin ein Ritter, der sich der Erfüllung des Befehls meines Königs verschrieben hat...\nEs geht mir nicht um Ruhm oder Lob. Ich folge einfach meinem Ritterkodex.\nAber wenn du Hilfe brauchst... werde ich dir meine Hand reichen."
+            ],
+            "Login": [
+                "Tu, was auch immer du tun musst... Und ich werde meinen ritterlichen Weg weitergehen. Lass uns aufbrechen."
+            ],
+            "Tap": [
+                "Andere kennenzulernen ist etwas, das ich nicht mag... oder sollte ich sagen, womit ich mich schwer tue. Ich... ich hab einfach keine Ahnung, was ich sagen soll.",
+                "Ich bin schon lange unterwegs... Deshalb bin ich es gewohnt, allein zu sein. Aber in letzter Zeit... fange ich an zu denken, dass es gar nicht so schlecht ist, wenn andere um mich herum sind...",
+                "Ich habe Königin Artus ein paar Mal getroffen. Sie war sehr schön... Aber ich konnte mir keinen Eindruck davon machen, wie sie als Mensch wirklich war..."
+            ],
+            "Idle": [
+                "Es ist niemand hier... Es ist so schön ruhig... Das wäre ein guter Zeitpunkt, um meine Waffe mal zu warten."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "Schildschlag": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "Reinigungssamen": {
+                    "BaseWeight": 250
+                },
+                "Schildexplosion": {
+                    "BaseWeight": 7500
+                }
+            }
+        }
+    },
+    "GalahadRegular02": {
+        "Name": "Galahad",
+        "Name2": "Der stille Ritter von Camelot",
+        "FullName": "Galahad - Der stille Ritter von Camelot",
+        "Family": "GalahadRegular",
+        "Profile": "Jeden Morgen bei Tagesanbruch poliert Galahad ihren Helm und ihre Waffe. Ob nun ein Sandsturm um sie herum tobt oder die Winterkälte ihr tief in die Knochen kriecht – dieses Ritual lässt sie niemals aus. \"Ein Ritter muss immer bereit sein, wenn die Pflicht ruft\", murmelt sie – obwohl der König, der sie einst gerufen hätte, nicht mehr unter den Lebenden weilt.",
+        "Profile_Ascended": "Am Rande der Wüste traf sie auf eine ehemalige Königin, die ihr Herz verschlossen hatte und geschworen hatte, nie wieder jemandem zu vertrauen. Einen Ritter, der den König verloren hatte, den er eigentlich hätte beschützen sollen, und eine Königin, die das Volk verloren hatte, an das sie eigentlich hätte glauben sollen – ihre gemeinsame Reise ließ nach und nach ein neues Gelübde entstehen, eines, das nicht aus Pflicht oder Befehl entstand, sondern aus ihrem eigenen Willen.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Keule",
+        "forFilter_Element": "Earth",
+        "Element": "Erde",
+        "Cost": 34,
+        "Atk_Base": 673,
+        "Hp_Base": 19301,
+        "Speed": 213,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "Erd-ANG/LP hoch",
+            "SkillDescription": "Der Angriff von Erd-Verbündeten steigt um 10% und die max. LP steigen um 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "Schildschlag",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Stattdessen 1500% Schaden, wenn der Anwender 100 ZE auf dem Schlachtfeld überlebt hat. Stattdessen 2000% Schaden, wenn der Anwender 200 ZE auf dem Schlachtfeld überlebt hat. Dieser Angriff ignoriert Schadensreduzierungseffekte des Gegners sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass das Ziel besiegt wird. Der Schaden dieses Angriffs weckt keine schlafenden Gegner auf.\n\nWenn das getroffene Ziel nicht brennt, stiehlt der Anwender anschließend bis zu 1 Geist von Gegnern.\n\nWenn die aktuellen LP des Anwenders bei 30% oder weniger liegen, werden die aktuellen LP des Anwenders gegen die Anzahl an LP ausgetauscht, die der Anwender derzeit verloren hat.",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "Reinigungssamen",
+                "SkillDescription": "Bei allen Verbündeten auf dem Schlachtfeld gilt Folgendes:\n- Schlaf (einschließlich Tiefschlaf) wird aufgehoben.\n- Gegnerische Effekte, die derzeit ihre aktiven Fertigkeiten deaktivieren, enden.\n- Gegnerische Hypnose wird aufgehoben.\n\nAnschließend erhalten alle anderen Verbündeten sofort ihren nächsten Zug, indem ihre aktuelle ZE reduziert wird. Aktive Fertigkeiten, die Züge gewähren, können von den betroffenen Einheiten erst genutzt werden, nachdem sie ihren Zug hatten.\n\nNur einsetzbar, wenn 2 oder mehr Verbündete in einer beliebigen Kombination aus Schlafen, Hypnotisiert, Aktive Fertigkeiten deaktiviert oder einen aktuellen ZE von 150 ZE oder mehr haben. Einmal pro Kampf einsetzbar.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "Schildexplosion",
+                "SkillDescription": "Entfernt alle Schlaf-, Gift- und Soforttod-Schutze von allen gegnerischen Einheiten auf dem Schlachtfeld.\n\nAnschließend wird jedem Gegner auf dem Schlachtfeld zufällig einer der folgenden Effekte zugewiesen:\n- Verfluchter Schlaf für 200 ZE.\n- Mega-Gift für 200 ZE.\n- sofort besiegt (es gilt, als hättest du diesen Gegner mit einem Angriff besiegt). Dies schlägt fehl, wenn der Gegner ein Boss oder flüchtig ist. Dieser Effekt ignoriert passive Rache-Fertigkeiten, passive Wiederbelebung-Fertigkeiten sowie alle passiven Fertigkeiten oder Effekte aktiver Fertigkeiten, die verhindern würden, dass der Gegner besiegt wird.\n\nNach dem Betreten des Schlachtfelds durch den Anwender für 100 ZE gesperrt. Einmal pro Kampf einsetzbar.\n\nVerfluchter Schlaf überschreibt alle Status-Effekte außer Verbrennung, kann nicht durch Gift überschrieben werden, kann wiederholt auf Einheiten angewendet werden, die auf dem Schlachtfeld bereits geschlafen haben, und wird nicht durch Schaden beendet, der durch aktive Fertigkeiten vom Typ Traumjäger verursacht wird. Mega-Gift überschreibt andere Status-Effekte auf betroffene Gegner. Mega-Gift verursacht das 20-Fache des Schadens von normalem Gift und kann nicht durch normales Gift oder Super-Gift überschrieben werden.",
+                "TU": 50,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "SpecialBuffAGalahadRegular",
+                "SkillTitle": "Schildfestung",
+                "SkillDescription": "Entfernt Gift (einschließlich tödlichen Gifts) von allen Verbündeten auf dem Schlachtfeld und heilt sie um 1000% des Angriffswerts des Anwenders.\n\nAnschließend werden alle Verbündeten auf dem Schlachtfeld, die nicht verstärkt sind, verstärkt.\n\nNur einsetzbar, wenn der Anwender nicht allein ist und nicht verstärkt ist. Kann 3 Mal pro Kampf eingesetzt werden. Eine mit Verstärkt versehene Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Verstärkt nicht ausdrücklich ignorieren. Verstärkt wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "Kamelotschild",
+                "SkillDescription": "Diese Einheit ist ein Wächter. Bei jedem Angriff eines Gegners, der 1 oder 2 andere Verbündete treffen würde, hat diese Einheit eine 100%ige Chance, stattdessen 1 Treffer auf sich selbst umzuleiten. Diese Einheit leitet keine Fertigkeiten um, die keinen Schaden verursachen.\n\nDiese Einheit kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nNach dem Eintritt in den Kampf kann diese Einheit 50 ZE lang weder in Schlaf versetzt noch vergiftet werden.\n\nJedes Mal, wenn diese Einheit Schaden durch einen Angriff erleidet, während sie nicht brennt, und bis zum Ende des Zuges überlebt, werden die aktuellen ZE eines zufälligen Verbündeten, der kein Wächter ist, um 50 ZE reduziert. Dies ist kein Skin-Effekt. Diese ZE-Reduzierung kann vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge beeinflussen.\n\nSofern diese Einheit nicht brennt, kann sie nicht:\n- betäubt werden\n- hypnotisiert werden\n- von einem Gegner, der kein Boss ist, sofort und ohne Schaden besiegt werden."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "Stiller Ritter",
+                "SkillDescription": "Wenn diese Einheit den Kampf betritt:\n- werden alle Verbündeten verstärkt.\n- Diese Einheit übersteht den nächsten Schaden, der sie besiegen würde, mit 1 LP. Ertragen-Effekte sind nicht stapelbar.\n- Alle Gegner erhalten Wutschutze. Wutschutze verhindern einmal, dass eine Einheit wütend wird, und werden anschließend entfernt. Wutschutze sind nicht stapelbar.\n\nNach dem ersten Zug dieser Einheit auf dem Schlachtfeld werden alle Verbündeten auf dem Schlachtfeld um 100% ihrer maximalen LP geheilt und verstärkt.\n\nWenn diese Einheit durch einen Angriff Schaden erleidet und bis nach Ende des Zuges überlebt, werden bei einem zufälligen Verbündeten, dessen Fertigkeiten deaktiviert sind, alle gegnerischen Effekte beendet, die derzeit seine Fertigkeiten deaktivieren. Dies kann keine Zeitstopp-Effekte beenden. Anschließend heilt sich diese Einheit um 25% ihrer maximalen LP. Diese Heilung erhöht sich auf 100% der maximalen LP, wenn sie die ersten drei Male ausgelöst wird, während sich diese Einheit auf dem Schlachtfeld befindet."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "LP+ Lv3",
+                "SkillDescription": "Fügt 1200 zu den max. LP dieser Einheit hinzu."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Angriff+ Lv3",
+                "SkillDescription": "Erhöht den Angriffswert dieser Einheit um 300."
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "Gr.Schwertwiderst.Lv3",
+                "SkillDescription": "10% weniger Schaden durch Attacken von Einheiten, die ein Großschwert führen."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "Stab-Meisterschaft",
+                "SkillDescription": "Kann zusätzlich zum bevorzugten Waffentyp auch die Waffenfähigkeiten von Stäben nutzen."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Stab"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ich... bin ein Ritter, der sich der Erfüllung des Befehls meines Königs verschrieben hat...\nEs geht mir nicht um Ruhm oder Lob. Ich folge einfach meinem Ritterkodex.\nAber wenn du Hilfe brauchst... werde ich dir meine Hand reichen."
+            ],
+            "Login": [
+                "Tu, was auch immer du tun musst... Und ich werde meinen ritterlichen Weg weitergehen. Lass uns aufbrechen."
+            ],
+            "Tap": [
+                "Andere kennenzulernen ist etwas, das ich nicht mag... oder sollte ich sagen, womit ich mich schwer tue. Ich... ich hab einfach keine Ahnung, was ich sagen soll.",
+                "Ich bin schon lange unterwegs... Deshalb bin ich es gewohnt, allein zu sein. Aber in letzter Zeit... fange ich an zu denken, dass es gar nicht so schlecht ist, wenn andere um mich herum sind...",
+                "Ich habe Königin Artus ein paar Mal getroffen. Sie war sehr schön... Aber ich konnte mir keinen Eindruck davon machen, wie sie als Mensch wirklich war..."
+            ],
+            "Idle": [
+                "Es ist niemand hier... Es ist so schön ruhig... Das wäre ein guter Zeitpunkt, um meine Waffe mal zu warten."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "Schildschlag": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "Reinigungssamen": {
+                    "BaseWeight": 250
+                },
+                "Schildexplosion": {
+                    "BaseWeight": 7500
+                },
+                "Schildfestung": {
+                    "BaseWeight": 25,
+                    "Source": {
+                        "IsNotGalahadRegularEndOfFirstTurnLock": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

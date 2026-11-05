@@ -146823,7 +146823,7 @@
         "Hp_Base": 4700,
         "Speed": 669,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Saludos. ¿Estás listo para entretenerme?",
         "LeaderSkill": {
             "SkillCodename": "HPUpEarthD",
@@ -147195,5 +147195,321 @@
                 "RelationshipBuff": "ATQ+2%"
             }
         }
+    },
+    "GalahadRegular01": {
+        "Name": "Galahad",
+        "Name2": "Caballero Silenciosa de Camelot",
+        "FullName": "Galahad - Caballero Silenciosa de Camelot",
+        "Family": "GalahadRegular",
+        "Profile": "Una joven caballero descendiente de un Caballero de la Mesa Redonda. Para ella, la orden real de su rey prevalece sobre cualquier otra cosa. Considera que la encomienda de esta orden es un voto sagrado ante el rey, así como el propósito mismo de su vida. Decidida a cumplir esta misión real heredada de sus antepasados, avanza firme sin vacilar.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 28,
+        "Atk_Base": 550,
+        "Hp_Base": 15298,
+        "Speed": 213,
+        "Power": 216576,
+        "Visible": false,
+        "GachaIntro": "Su viaje a través del desierto continúa...\n...hasta cumplir la orden final del rey",
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "Sube ATT & HP Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "Golpe Escudo",
+                "SkillDescription": "1000% de daño a 1 enemigo. 1500% de daño en su lugar si el usuario ha sobrevivido durante 100TU en el campo de batalla. 2000% de daño en su lugar si el usuario ha sobrevivido durante 200TU en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impediría que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nLuego, si el objetivo golpeado no estaba quemado, el usuario roba hasta 1 Espíritu de los enemigos.\n\nSi los HP actuales del usuario están en 30% o menos, intercambia los HP actuales del usuario con la cantidad de HP que el usuario ha perdido actualmente.\n",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "Semilla Purificación",
+                "SkillDescription": "A todos los aliados en el campo de batalla:\n- Se les elimina Sueño (incluido Sueño Profundo).\n- Se les terminan los efectos enemigos que actualmente están desactivando sus Habilidades Activas.\n- Se les elimina Hipnosis Enemiga.\n\nLuego, inmediatamente otorga los siguientes turnos a todos los demás aliados reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta después de que hayan tenido el turno.\n\nUtilizable sólo si 2 o más aliados están en cualquier combinación de Sueño, Hipnotizados, tienen sus Habilidades Activas desactivadas o tienen un TU actual de 150TU o más. Se puede usar una vez por batalla.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "Explosión Escudo",
+                "SkillDescription": "Elimina todos los Guarda Sueño, Guarda Veneno y Guarda Muerte Instantánea de todas las unidades enemigas en el campo de batalla.\n\nLuego, cada enemigo en el campo de batalla, aleatoriamente:\n- recibirá Sueño Maldito por 200TU.\n- recibirá Mega Veneno por 200TU.\n- será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Esto fallará si el enemigo es un jefe o efímero. Este efecto ignora las habilidades pasivas de Venganza, las habilidades pasivas de Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impediría que el enemigo sea derrotado.\n\nSe bloquea por 100TU después de que el usuario haya entrado al campo de batalla. Se puede usar una vez por batalla.\n\nSueño Maldito sobrescribirá los efectos de estado que no sean Quemado, no puede ser sobrescrito por Veneno, puede aplicarse repetidamente a unidades que ya se hayan dormido mientras están en el campo de batalla, y no terminará por el daño causado por habilidades activas de tipo Caza Sueños. Mega Veneno sobrescribirá otros efectos de estado en los enemigos afectados. Mega Veneno inflige 20 veces el daño de Veneno normal y no puede ser sobrescrito por Veneno normal ni por Súper Veneno.",
+                "TU": 50,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "Escudo de Camelot",
+                "SkillDescription": "Esta unidad es un Guardián. Para cualquier ataque enemigo que golpearía a 1 o 2 aliados, esta unidad tiene un 100% de probabilidad de redirigir 1 golpe hacia sí misma. Esta unidad no redirigirá habilidades que no causen daño.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nDespués de entrar en batalla, esta unidad no puede ser dormida ni envenenada por 50TU.\n\nCada vez que esta unidad recibe daño de un ataque mientras no está en llamas y sobrevive hasta el final del turno, la TU actual de un aliado aleatorio que no sea un Guardián se reduce en 50TU. Esto no es un efecto de Piel. Esta reducción de TU puede activarse antes o después de otros efectos que alteren el orden del turno.\n\nA menos que esta unidad esté en llamas, esta unidad no puede:\n- Ser aturdida\n- Ser hipnotizada\n- Ser derrotada inmediatamente sin daño por un enemigo que no sea un jefe."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "Caballero Silencioso",
+                "SkillDescription": "Cuando esta unidad entra en batalla:\n- todos los aliados son Fortificados.\n- esta unidad Soportará el siguiente daño que la derrotaría con 1 HP. Los efectos de Soportar no se pueden acumular.\n- todos los enemigos recibirán Guarda Furia. Los Guarda Furia impedirán que una unidad se enfurezca una vez, luego se eliminará. Los Guarda Furia no se pueden acumular.\n\nDespués del primer turno de esta unidad en el campo de batalla, todos los aliados en el campo de batalla se curan un 100% de los HP máximos y se Fortifican.\n\nSi esta unidad recibe daño por un ataque y sobrevive hasta después de que termine el turno, se eliminarán de un aliado al azar cuyas habilidades activas estén desactivadas todos los efectos enemigos que actualmente le impidan usar sus habilidades activas. Esto no puede terminar los efectos de Detener Tiempo. Luego, esta unidad se curará un 25% de los HP máximos. Esta curación aumenta al 100% de los HP máximos las primeras 3 veces que se activa mientras esta unidad está en el campo de batalla."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "Resistir G.Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con G.Espadas."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "Dominio Báculo",
+                "SkillDescription": "Puede usar habilidades de arma de Báculos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Báculo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Yo... soy una caballero dedicada a cumplir las órdenes de mi rey...\nNo lo hago por fama ni por alabanzas. Simplemente sigo mi código de caballería.\nPero, si necesitas ayuda... te tenderé la mano."
+            ],
+            "Login": [
+                "Haz lo que debas hacer... Y yo seguiré mi camino de caballería. Pongámonos en marcha."
+            ],
+            "Tap": [
+                "Conocer a otras personas es algo que me desagrada... o mejor dicho, que me cuesta. Yo... simplemente no sé qué decir.",
+                "Llevo mucho tiempo viajando... así que estoy acostumbrada a la soledad. Pero últimamente... empiezo a pensar que tener a otros cerca no estaría tan mal...",
+                "He visto al Rey Arturo en un par de ocasiones. Era muy hermosa... Pero no logré percibir realmente cómo era ella como persona..."
+            ],
+            "Idle": [
+                "No hay nadie cerca... Todo está tan tranquilo y en silencio... Sería un buen momento para darle mantenimiento a mi arma."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "Golpe Escudo": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "Semilla Purificación": {
+                    "BaseWeight": 250
+                },
+                "Explosión Escudo": {
+                    "BaseWeight": 7500
+                }
+            }
+        }
+    },
+    "GalahadRegular02": {
+        "Name": "Galahad",
+        "Name2": "Caballero Silenciosa de Camelot",
+        "FullName": "Galahad - Caballero Silenciosa de Camelot",
+        "Family": "GalahadRegular",
+        "Profile": "Cada mañana, al amanecer, Galahad pule su yelmo y su arma. Ya sea que una tormenta de arena ruja a su alrededor o que el frío invernal le cale hasta los huesos, nunca descuida este ritual. \"Un caballero debe estar siempre preparado para el momento en que su deber lo llame\", murmura... aunque el rey que habría de llamarla ya no existe.",
+        "Profile_Ascended": "En los confines del desierto, conoció a una antigua reina que había cerrado su corazón y jurado no volver a confiar en nadie jamás. Una caballero que perdió al rey al que debía proteger y una reina que perdió al pueblo en el que debía creer... su viaje conjunto dio paso poco a poco a un nuevo juramento, uno nacido no del deber ni de un decreto, sino de su propia voluntad.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Maza",
+        "forFilter_Element": "Earth",
+        "Element": "Tierra",
+        "Cost": 34,
+        "Atk_Base": 673,
+        "Hp_Base": 19301,
+        "Speed": 213,
+        "Power": 271992,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackAndHPUp6Earth",
+            "SkillTitle": "Sube ATT & HP Tierra",
+            "SkillDescription": "Las unidades de Tierra aliadas aumentarán su Ataque un 10% y su HP máx. un 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAGalahadRegular",
+                "SkillTitle": "Golpe Escudo",
+                "SkillDescription": "1000% de daño a 1 enemigo. 1500% de daño en su lugar si el usuario ha sobrevivido durante 100TU en el campo de batalla. 2000% de daño en su lugar si el usuario ha sobrevivido durante 200TU en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impediría que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nLuego, si el objetivo golpeado no estaba quemado, el usuario roba hasta 1 Espíritu de los enemigos.\n\nSi los HP actuales del usuario están en 30% o menos, intercambia los HP actuales del usuario con la cantidad de HP que el usuario ha perdido actualmente.\n",
+                "TU": 50,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAGalahadRegular",
+                "SkillTitle": "Semilla Purificación",
+                "SkillDescription": "A todos los aliados en el campo de batalla:\n- Se les elimina Sueño (incluido Sueño Profundo).\n- Se les terminan los efectos enemigos que actualmente están desactivando sus Habilidades Activas.\n- Se les elimina Hipnosis Enemiga.\n\nLuego, inmediatamente otorga los siguientes turnos a todos los demás aliados reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta después de que hayan tenido el turno.\n\nUtilizable sólo si 2 o más aliados están en cualquier combinación de Sueño, Hipnotizados, tienen sus Habilidades Activas desactivadas o tienen un TU actual de 150TU o más. Se puede usar una vez por batalla.",
+                "TU": 50,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "MultiBuffAGalahadRegular",
+                "SkillTitle": "Explosión Escudo",
+                "SkillDescription": "Elimina todos los Guarda Sueño, Guarda Veneno y Guarda Muerte Instantánea de todas las unidades enemigas en el campo de batalla.\n\nLuego, cada enemigo en el campo de batalla, aleatoriamente:\n- recibirá Sueño Maldito por 200TU.\n- recibirá Mega Veneno por 200TU.\n- será derrotado inmediatamente (se considera que el usuario ha derrotado a ese enemigo con un ataque). Esto fallará si el enemigo es un jefe o efímero. Este efecto ignora las habilidades pasivas de Venganza, las habilidades pasivas de Resurrección y cualquier habilidad pasiva o efecto de habilidades activas que impediría que el enemigo sea derrotado.\n\nSe bloquea por 100TU después de que el usuario haya entrado al campo de batalla. Se puede usar una vez por batalla.\n\nSueño Maldito sobrescribirá los efectos de estado que no sean Quemado, no puede ser sobrescrito por Veneno, puede aplicarse repetidamente a unidades que ya se hayan dormido mientras están en el campo de batalla, y no terminará por el daño causado por habilidades activas de tipo Caza Sueños. Mega Veneno sobrescribirá otros efectos de estado en los enemigos afectados. Mega Veneno inflige 20 veces el daño de Veneno normal y no puede ser sobrescrito por Veneno normal ni por Súper Veneno.",
+                "TU": 50,
+                "Spirit": "-3"
+            },
+            {
+                "SkillCodename": "SpecialBuffAGalahadRegular",
+                "SkillTitle": "Fortaleza Escudo",
+                "SkillDescription": "Elimina el veneno (incluido el Veneno Letal) de todos los aliados en el campo de batalla y los cura un 1000% del ataque del usuario.\n\nLuego, todos los aliados no fortificados en el campo de batalla se fortifican.\n\nSólo se puede usar si el usuario no está solo y no está Fortificado. Se puede usar 3 veces por batalla. Una unidad fortificada tiene una reducción de daño del 50% de los ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. Fortificar se eliminará después de reducir el daño 3 veces desde su aplicación y se reiniciará si se vuelve a aplicar. Esto no es un efecto de estado.",
+                "TU": 50,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "GreatestKnightPassiveAGalahadRegular",
+                "SkillTitle": "Escudo de Camelot",
+                "SkillDescription": "Esta unidad es un Guardián. Para cualquier ataque enemigo que golpearía a 1 o 2 aliados, esta unidad tiene un 100% de probabilidad de redirigir 1 golpe hacia sí misma. Esta unidad no redirigirá habilidades que no causen daño.\n\nEsta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\nDespués de entrar en batalla, esta unidad no puede ser dormida ni envenenada por 50TU.\n\nCada vez que esta unidad recibe daño de un ataque mientras no está en llamas y sobrevive hasta el final del turno, la TU actual de un aliado aleatorio que no sea un Guardián se reduce en 50TU. Esto no es un efecto de Piel. Esta reducción de TU puede activarse antes o después de otros efectos que alteren el orden del turno.\n\nA menos que esta unidad esté en llamas, esta unidad no puede:\n- Ser aturdida\n- Ser hipnotizada\n- Ser derrotada inmediatamente sin daño por un enemigo que no sea un jefe."
+            },
+            {
+                "SkillCodename": "RoundTablePassiveAGalahadRegular",
+                "SkillTitle": "Caballero Silencioso",
+                "SkillDescription": "Cuando esta unidad entra en batalla:\n- todos los aliados son Fortificados.\n- esta unidad Soportará el siguiente daño que la derrotaría con 1 HP. Los efectos de Soportar no se pueden acumular.\n- todos los enemigos recibirán Guarda Furia. Los Guarda Furia impedirán que una unidad se enfurezca una vez, luego se eliminará. Los Guarda Furia no se pueden acumular.\n\nDespués del primer turno de esta unidad en el campo de batalla, todos los aliados en el campo de batalla se curan un 100% de los HP máximos y se Fortifican.\n\nSi esta unidad recibe daño por un ataque y sobrevive hasta después de que termine el turno, se eliminarán de un aliado al azar cuyas habilidades activas estén desactivadas todos los efectos enemigos que actualmente le impidan usar sus habilidades activas. Esto no puede terminar los efectos de Detener Tiempo. Luego, esta unidad se curará un 25% de los HP máximos. Esta curación aumenta al 100% de los HP máximos las primeras 3 veces que se activa mientras esta unidad está en el campo de batalla."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "GreatSwordMinusDamageLv3",
+                "SkillTitle": "Resistir G.Espada Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades equipadas con G.Espadas."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefStaff",
+                "SkillTitle": "Dominio Báculo",
+                "SkillDescription": "Puede usar habilidades de arma de Báculos además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Báculo"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Yo... soy una caballero dedicada a cumplir las órdenes de mi rey...\nNo lo hago por fama ni por alabanzas. Simplemente sigo mi código de caballería.\nPero, si necesitas ayuda... te tenderé la mano."
+            ],
+            "Login": [
+                "Haz lo que debas hacer... Y yo seguiré mi camino de caballería. Pongámonos en marcha."
+            ],
+            "Tap": [
+                "Conocer a otras personas es algo que me desagrada... o mejor dicho, que me cuesta. Yo... simplemente no sé qué decir.",
+                "Llevo mucho tiempo viajando... así que estoy acostumbrada a la soledad. Pero últimamente... empiezo a pensar que tener a otros cerca no estaría tan mal...",
+                "He visto al Rey Arturo en un par de ocasiones. Era muy hermosa... Pero no logré percibir realmente cómo era ella como persona..."
+            ],
+            "Idle": [
+                "No hay nadie cerca... Todo está tan tranquilo y en silencio... Sería un buen momento para darle mantenimiento a mi arma."
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "AlwaysTrue": 1.01
+            },
+            "SkillUse": {
+                "Golpe Escudo": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "On1HPNotProtected": 1.5,
+                        "On1HPIsProtecting": 1.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsNotBurning": 1.1,
+                        "IsBurning": 0.25
+                    }
+                },
+                "Semilla Purificación": {
+                    "BaseWeight": 250
+                },
+                "Explosión Escudo": {
+                    "BaseWeight": 7500
+                },
+                "Fortaleza Escudo": {
+                    "BaseWeight": 25,
+                    "Source": {
+                        "IsNotGalahadRegularEndOfFirstTurnLock": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1
     }
 }

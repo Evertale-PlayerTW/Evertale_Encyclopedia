@@ -22323,7 +22323,7 @@
         "Hp_Base": 2790,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4TargetIsDeath",
@@ -22348,7 +22348,7 @@
         "Hp_Base": 3385,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5TargetIsDeath",
@@ -22374,12 +22374,89 @@
         "Hp_Base": 3645,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6TargetIsDeath",
                 "SkillTitle": "Attack Up",
                 "SkillDescription": "25% bonus to attacks against Dark units."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "GalahadMace01": {
+        "Name": "Holy Mace Galatea",
+        "FullName": "Holy Mace Galatea",
+        "Family": "GalahadMace",
+        "Profile": "A silver mace imbued with the power of a royal decree and the oath to carry it out, passed down through generations. It has accompanied a certain knight in her quest for the Holy Grail across countless battlefields.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Mace",
+        "Cost": 11,
+        "Atk_Base": 439,
+        "Hp_Base": 3180,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc4AlliesAreDisabled2",
+                "SkillTitle": "Damage Down",
+                "SkillDescription": "Reduces damage from enemy attacks by 7% as long as 2 or more allies have their Active Skills disabled."
+            }
+        ]
+    },
+    "GalahadMace02": {
+        "Name": "Holy Mace Galatea",
+        "FullName": "Holy Mace Galatea",
+        "Family": "GalahadMace",
+        "Profile": "A silver mace imbued with the power of a royal decree and the oath to carry it out, passed down through generations. It has accompanied a certain knight in her quest for the Holy Grail across countless battlefields.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Mace",
+        "Cost": 17,
+        "Atk_Base": 522,
+        "Hp_Base": 3890,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc5AlliesAreDisabled2",
+                "SkillTitle": "Damage Down",
+                "SkillDescription": "Reduces damage from enemy attacks by 10% as long as 2 or more allies have their Active Skills disabled."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "GalahadMace03": {
+        "Name": "Holy Mace Galatea",
+        "FullName": "Holy Mace Galatea",
+        "Family": "GalahadMace",
+        "Profile": "A silver mace imbued with the power of a royal decree and the oath to carry it out, passed down through generations. It has accompanied a certain knight in her quest for the Holy Grail across countless battlefields.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Mace",
+        "Cost": 23,
+        "Atk_Base": 564,
+        "Hp_Base": 4180,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc6AlliesAreDisabled2",
+                "SkillTitle": "Damage Down",
+                "SkillDescription": "Reduces damage from enemy attacks by 15% as long as 2 or more allies have their Active Skills disabled."
             }
         ],
         "ExtraEvoInitialCount": 2

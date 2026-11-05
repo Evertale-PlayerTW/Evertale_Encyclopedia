@@ -22323,7 +22323,7 @@
         "Hp_Base": 2790,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4TargetIsDeath",
@@ -22348,7 +22348,7 @@
         "Hp_Base": 3385,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5TargetIsDeath",
@@ -22374,12 +22374,89 @@
         "Hp_Base": 3645,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6TargetIsDeath",
                 "SkillTitle": "Angriff +",
                 "SkillDescription": "25% Bonus auf Angriffe gegen Dunkel Einheiten."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "GalahadMace01": {
+        "Name": "Heiligkeule Galatea",
+        "FullName": "Heiligkeule Galatea",
+        "Family": "GalahadMace",
+        "Profile": "Ein silberner Streitkolben, der mit der Kraft eines königlichen Erlasses und dem Eid auf dessen Erfüllung erfüllt ist und von Generation zu Generation weitergegeben wurde. Er hat eine bestimmte Ritterin auf ihrer Suche nach dem Heiligen Gral über unzählige Schlachtfelder hinweg begleitet.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Keule",
+        "Cost": 11,
+        "Atk_Base": 439,
+        "Hp_Base": 3180,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc4AlliesAreDisabled2",
+                "SkillTitle": "Schaden verringert",
+                "SkillDescription": "Verringert den Schaden durch Angriffe der Gegner um 7%, solange bei mindestens 2 Verbündeten die aktiven Fertigkeiten deaktiviert sind."
+            }
+        ]
+    },
+    "GalahadMace02": {
+        "Name": "Heiligkeule Galatea",
+        "FullName": "Heiligkeule Galatea",
+        "Family": "GalahadMace",
+        "Profile": "Ein silberner Streitkolben, der mit der Kraft eines königlichen Erlasses und dem Eid auf dessen Erfüllung erfüllt ist und von Generation zu Generation weitergegeben wurde. Er hat eine bestimmte Ritterin auf ihrer Suche nach dem Heiligen Gral über unzählige Schlachtfelder hinweg begleitet.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Keule",
+        "Cost": 17,
+        "Atk_Base": 522,
+        "Hp_Base": 3890,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc5AlliesAreDisabled2",
+                "SkillTitle": "Schaden verringert",
+                "SkillDescription": "Verringert den Schaden durch Angriffe der Gegner um 10%, solange bei mindestens 2 Verbündeten die aktiven Fertigkeiten deaktiviert sind."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "GalahadMace03": {
+        "Name": "Heiligkeule Galatea",
+        "FullName": "Heiligkeule Galatea",
+        "Family": "GalahadMace",
+        "Profile": "Ein silberner Streitkolben, der mit der Kraft eines königlichen Erlasses und dem Eid auf dessen Erfüllung erfüllt ist und von Generation zu Generation weitergegeben wurde. Er hat eine bestimmte Ritterin auf ihrer Suche nach dem Heiligen Gral über unzählige Schlachtfelder hinweg begleitet.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Mace",
+        "WeaponType": "Keule",
+        "Cost": 23,
+        "Atk_Base": 564,
+        "Hp_Base": 4180,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "DamageReduc6AlliesAreDisabled2",
+                "SkillTitle": "Schaden verringert",
+                "SkillDescription": "Verringert den Schaden durch Angriffe der Gegner um 15%, solange bei mindestens 2 Verbündeten die aktiven Fertigkeiten deaktiviert sind."
             }
         ],
         "ExtraEvoInitialCount": 2
