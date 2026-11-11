@@ -442,7 +442,10 @@ async function buildMonsterData(isBoss = false) {
 				: entryID;
 			monsterContent["Family"] = entry["family"];
 			monsterContent["Profile"] = getTextByKey(entryID + "DescriptionKey");
-			if (entry["cosmoName"]) monsterContent["Profile_Ascended"] = getTextByKey(entry["cosmoName"] + "DescriptionKey");
+			if (entry["cosmoName"]) {
+				monsterContent["AscendedId"] = entry["cosmoName"];
+				monsterContent["Profile_Ascended"] = getTextByKey(entry["cosmoName"] + "DescriptionKey");
+			}
 			monsterContent["Rarity"] = getRarity(entry["evolvedStars"]);
 			monsterContent["Stars"] = generateStarText(entry["stars"], entry["evolvedStars"]);
 			monsterContent["Stars_Curr"] = entry["stars"];

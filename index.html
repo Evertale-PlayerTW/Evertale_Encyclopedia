@@ -2852,8 +2852,10 @@
 						entryID;
 					monsterContent["Family"] = entry["family"];
 					monsterContent["Profile"] = getTextByKey(entryID + "DescriptionKey");
-					if (entry["cosmoName"])
+					if (entry["cosmoName"]) {
+						monsterContent["AscendedId"] = entry["cosmoName"];
 						monsterContent["Profile_Ascended"] = getTextByKey(entry["cosmoName"] + "DescriptionKey");
+					}
 					monsterContent["Rarity"] = getRarity(entry["evolvedStars"]);
 					monsterContent["Stars"] = generateStarText(entry["stars"], entry["evolvedStars"]);
 					monsterContent["Stars_Curr"] = entry["stars"];
@@ -3288,7 +3290,7 @@
 
 			currentDisplayCategory = myCategory ?? unit_category;
 			currentDisplayID = id;
-			hasCosmo = (wholeData[currentDisplayCategory][id]["Profile_Ascended"] != null);
+			hasCosmo = (wholeData[currentDisplayCategory][id]["AscendedId"] != null);
 
 			collapseReset();
 			document.title = `${wholeData[currentDisplayCategory][id]["FullName"]} | ${initTitle}`;
@@ -3332,7 +3334,7 @@
 				const headshotGeneral = checkImageExisting(currentDisplayCategory, "headshot", headshot_fileName, true, `headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 				document.getElementById("headshot_General").appendChild(headshotGeneral);
 				if (hasCosmo) {
-					const id_cosmo = id.slice(0, -2) + "03";
+					const id_cosmo = wholeData[currentDisplayCategory][id]["AscendedId"];
 					const headshotCosmo = checkImageExisting(currentDisplayCategory, "headshot", id_cosmo, true, `headshotBlock${wholeData[currentDisplayCategory][id]["Rarity"]}`);
 					document.getElementById("headshot_Cosmo").appendChild(headshotCosmo);
 					document.getElementById("headshot_Cosmo").classList.remove("hidden");
@@ -3759,14 +3761,14 @@
 		function setFullImage(id) {
 			document.getElementById("imageContent").innerHTML = "";
 
-			const id_LowerCase = id.toLowerCase()
+			const id_LowerCase = id.toLowerCase();
 			const portrait_fileName = monsterGenericCategory.includes(currentDisplayCategory) ? id_LowerCase : `${id_LowerCase.slice(0, -2)}01`;
 			const portraitGeneral = checkImageExisting(currentDisplayCategory, "portrait", portrait_fileName);
 			if (portraitGeneral) {
 				document.getElementById("imageContent").appendChild(checkHasOld(portrait_fileName, portraitGeneral));
 				//滿覺角
 				if (hasCosmo) {
-					const id_cosmo = id_LowerCase.slice(0, -2) + "03";
+					const id_cosmo = wholeData[currentDisplayCategory][id]["AscendedId"].toLowerCase();
 					const portraitCosmo = checkImageExisting(currentDisplayCategory, "portrait", id_cosmo);
 					if (portraitCosmo) {
 						document.getElementById("imageContent").appendChild(checkHasOld(id_cosmo, portraitCosmo));
@@ -3783,7 +3785,7 @@
 					if (tachieImg = checkImageExisting("Tachie", "tachie", id_LowerCase) || checkImageExisting("Tachie", "past", id_LowerCase)) {
 						document.getElementById("imageContent").appendChild(tachieImg);
 					}
-					if (hasCosmo && (tachieImg = checkImageExisting("Tachie", "past", id_LowerCase.slice(0, -2) + "03"))) {
+					if (hasCosmo && (tachieImg = checkImageExisting("Tachie", "past", wholeData[currentDisplayCategory][id]["AscendedId"].toLowerCase()))) {
 						document.getElementById("imageContent").appendChild(tachieImg);
 					}
 				}
@@ -3900,7 +3902,7 @@
 			const matchedModel = [];
 			const targetChar = [id_LowerCase];
 			if (hasCosmo) {
-				targetChar.push(id_LowerCase.slice(0, -2) + "03");
+				targetChar.push(wholeData[currentDisplayCategory][id]["AscendedId"].toLowerCase());
 			}
 			targetChar.forEach(aChar => {
 				["enemy", "ally"].forEach(pos => {
