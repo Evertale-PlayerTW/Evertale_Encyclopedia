@@ -22400,7 +22400,7 @@
         "Hp_Base": 3180,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc4AlliesAreDisabled2",
@@ -22425,7 +22425,7 @@
         "Hp_Base": 3890,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc5AlliesAreDisabled2",
@@ -22451,12 +22451,89 @@
         "Hp_Base": 4180,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc6AlliesAreDisabled2",
                 "SkillTitle": "减少伤害",
                 "SkillDescription": "若己方场上有至少2个单位主动技能被封锁，则此单位受到敌方攻击的伤害减少15%。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ArsenalSword01": {
+        "Name": "阿里阿德涅",
+        "FullName": "阿里阿德涅",
+        "Family": "ArsenalSword",
+        "Profile": "隐藏于迷宫最深处的剑。将误入其中的挑战者们，引向名为死亡的出口。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "单手剑",
+        "Cost": 11,
+        "Atk_Base": 477,
+        "Hp_Base": 2990,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4EnemiesIsDisabled2",
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若敌方场上有至少2个单位主动技能被封锁，则造成15%的额外伤害。"
+            }
+        ]
+    },
+    "ArsenalSword02": {
+        "Name": "阿里阿德涅",
+        "FullName": "阿里阿德涅",
+        "Family": "ArsenalSword",
+        "Profile": "隐藏于迷宫最深处的剑。将误入其中的挑战者们，引向名为死亡的出口。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "单手剑",
+        "Cost": 17,
+        "Atk_Base": 582,
+        "Hp_Base": 3590,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5EnemiesIsDisabled2",
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若敌方场上有至少2个单位主动技能被封锁，则造成20%的额外伤害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ArsenalSword03": {
+        "Name": "阿里阿德涅",
+        "FullName": "阿里阿德涅",
+        "Family": "ArsenalSword",
+        "Profile": "隐藏于迷宫最深处的剑。将误入其中的挑战者们，引向名为死亡的出口。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "单手剑",
+        "Cost": 23,
+        "Atk_Base": 635,
+        "Hp_Base": 3825,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6EnemiesIsDisabled2",
+                "SkillTitle": "提升攻击力",
+                "SkillDescription": "若敌方场上有至少2个单位主动技能被封锁，则造成25%的额外伤害。"
             }
         ],
         "ExtraEvoInitialCount": 2

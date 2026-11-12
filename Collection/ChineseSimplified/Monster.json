@@ -15296,6 +15296,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -15681,6 +15692,17 @@
                     "GearLancerGirl01",
                     "ElfBattleMage01",
                     "FoxDuelist01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "生命值+3%"
             }
@@ -16900,6 +16922,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -17308,6 +17341,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -52413,6 +52457,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -52638,6 +52693,17 @@
                     "FireGirlWarrior01",
                     "MartialArtistGirl01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "生命值+3%"
             }
@@ -147455,7 +147521,7 @@
         "Hp_Base": 15298,
         "Speed": 213,
         "Power": 216576,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "今天的她依然行走在沙漠之中\n只为完成最后的王命——",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Earth",
@@ -147585,6 +147651,19 @@
                 "潘多拉魔盒": {
                     "BaseWeight": 7500
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
             }
         }
     },
@@ -147752,6 +147831,424 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            }
+        }
+    },
+    "ArsenalRegular01": {
+        "Name": "阿森纳",
+        "Name2": "迷宫继承者",
+        "FullName": "阿森纳 - 迷宫继承者",
+        "Family": "ArsenalRegular",
+        "Profile": "曾经有一位被唤作“阿尔”的少女，总是和朋友们玩耍到日落时分。然而，自从她从祖父手中继承了“阿森纳”之名与家族使命的那一天起，她的未来便被永远封锁在了遗迹之中。——这便是她所继承的“诅咒”。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手剑",
+        "forFilter_Element": "Air",
+        "Element": "雷",
+        "Cost": 28,
+        "Atk_Base": 1256,
+        "Hp_Base": 4930,
+        "Speed": 555,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "啊，是新的挑战者呢～！",
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpAirD",
+            "SkillTitle": "雷属性猛攻",
+            "SkillDescription": "所有雷属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegular",
+                "SkillTitle": "闪耀爆破",
+                "SkillDescription": "对1个敌人造成500%的伤害，此单位每次进场后第偶数次使用此技能时伤害上升为1000%。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。\n若此次攻击未能击败目标，己方获得3点灵气。",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegular",
+                "SkillTitle": "电光充能",
+                "SkillDescription": "使用者获得2格“能量”，场上所有己方单位获得睡眠抵抗，且不处于睡眠状态的己方单位攻击力增加为1.5倍直到其下一个回合结束。睡眠抵抗会防止一次睡眠，之后睡眠抵抗会被移除。睡眠抵抗效果次数无法叠加。此效果会覆盖原先的狂热效果。此技能每次使用后或此单位进场后必须先用其他主动技能后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegular",
+                "SkillTitle": "天雷",
+                "SkillDescription": "对1个敌人造成1000%的伤害并移除其任何匿踪状态。此技能无视“守卫者”类效果。使用者必须有至少1格“能量”才能使用此技能。此技能在一场战斗中只能使用十次，且此技能使用后必须等50TU后才能再次使用。",
+                "TU": 60,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegular",
+                "SkillTitle": "迷宫继承者",
+                "SkillDescription": "此单位无法从场上回到援军队伍。此单位不会因为中毒或燃烧的伤害被击败。若场上存在其他雷属性单位，则此单位不会被眩晕。若场上存在水属性单位，则此单位不会陷入睡眠状态。\n此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS目标防止被击败的效果或被动技能。\n每当有能量的此单位使用“闪耀爆破”或“天雷”技能时，此单位消耗1格能量并减少50TU。若此效果在10TU内触发达到3次，则需要过50TU后才能再次触发。"
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegular",
+                "SkillTitle": "话痨阿尔",
+                "SkillDescription": "此单位进场时金属化，且进场后己方场上每有1个雷属性单位，此单位获得1格“能量”。能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。\n若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。\n此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。\n如果此单位受到一次攻击伤害并在当前回合结束之后仍然存活，此单位回复最大生命值的50%并获得1格“能量”；若此单位受到攻击时已有3格能量，则改为消耗2格能量使其TU归零立即获得一个回合。一些影响TU的技能效果可能会改变此TU减少效果发动的时机。\n每当此单位回合结束时，若场上不多于2个敌方单位主动技能被封锁，则有20%概率随机封锁1个敌方单位的主动技能50TU，此单位每觉醒一次增加20%触发概率。此单位每次进场后，此效果只能触发10次。此效果仅当己方场上存在其他己方单位时才会触发。\n金属化会使该单位此后三次遭受敌方攻击时所受的伤害减少50%，之后金属化会被移除。金属化的减伤效果不会被不能无视金属化的攻击无视。已处于金属化的单位再次金属化时次数重置为三次，金属化不属于状态效果。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "FireMinusDamageLv3",
+                "SkillTitle": "火系耐性Lv3",
+                "SkillDescription": "若此单位受到火属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "单手斧大师",
+                "SkillDescription": "若此单位装备单手斧类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "单手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "那个……咳咳，我就是“迷宫之主”！\n那么，就让我来给你一场试炼吧！\n只要你能通过试炼，那个……\n\n嗯～，这样吧，我可以帮你实现一个愿望哦！"
+            ],
+            "Login": [
+                "哎呀，原来是你呀……！那个，这次你想挑战什么样的试炼呢？\n唔唔……是不是有点太难了？……要不要稍微降低一点难度呢……？"
+            ],
+            "Tap": [
+                "吵、吵架是不可以的哦……咦，等等，你们刚才不是在吵架吗？\n啊，原来是我看错了呀！太好了……！",
+                "诶……那个，你问我是不是怕生？\n说实话，我确实有在努力克服啦……但、但是，我没有勉强自己哦！",
+                "呜呀哼！刚才是谁弄出了那么大的声响！？\n难道是故意想吓唬我……哼，我以后绝对不跟你说话啦！"
+            ],
+            "Idle": [
+                "一安静下来……不知为什么，就会特别想找人聊天……\n你、你跑到哪里去了呀？快来陪阿森纳聊聊天嘛～！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsCharged3": 1.1,
+                "HasDamagedWithAttack": 1.01
+            },
+            "SkillUse": {
+                "闪耀爆破": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "电光充能": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "天雷": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            }
+        }
+    },
+    "ArsenalRegular02": {
+        "Name": "阿森纳",
+        "Name2": "迷宫继承者",
+        "FullName": "阿森纳 - 迷宫继承者",
+        "Family": "ArsenalRegular",
+        "Profile": "每当有挑战者到来，阿森纳总会开心地上前搭话。对独自一人生活在迷宫中的她而言，来访者是难得的聊天对象。然而，这段愉快的时光总是无法持续太久。挑战者们最终无一例外地化作骸骨，只留下她独自一人，继续守在迷宫之中。",
+        "AscendedId": "ArsenalRegular03",
+        "Profile_Ascended": "当阿森纳与那位前王妃和骑士对峙时，她便意识到，这将是自己生命的终点。然而，奇怪的是，她心中并没有丝毫恐惧。因为她觉得，自己背负了漫长岁月的使命，终于要迎来终结了——\n然而，真正迎接她的，并非生命的终结，而是那段漫长孤独的终结。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手剑",
+        "forFilter_Element": "Air",
+        "Element": "雷",
+        "Cost": 34,
+        "Atk_Base": 1388,
+        "Hp_Base": 7480,
+        "Speed": 555,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpAirD",
+            "SkillTitle": "雷属性猛攻",
+            "SkillDescription": "所有雷属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegular",
+                "SkillTitle": "闪耀爆破",
+                "SkillDescription": "对1个敌人造成500%的伤害，此单位每次进场后第偶数次使用此技能时伤害上升为1000%。此技能无视目标的减伤效果、反弹被动技能和“反击态势”状态。\n若此次攻击未能击败目标，己方获得3点灵气。",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegular",
+                "SkillTitle": "电光充能",
+                "SkillDescription": "使用者获得2格“能量”，场上所有己方单位获得睡眠抵抗，且不处于睡眠状态的己方单位攻击力增加为1.5倍直到其下一个回合结束。睡眠抵抗会防止一次睡眠，之后睡眠抵抗会被移除。睡眠抵抗效果次数无法叠加。此效果会覆盖原先的狂热效果。此技能每次使用后或此单位进场后必须先用其他主动技能后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegular",
+                "SkillTitle": "天雷",
+                "SkillDescription": "对1个敌人造成1000%的伤害并移除其任何匿踪状态。此技能无视“守卫者”类效果。使用者必须有至少1格“能量”才能使用此技能。此技能在一场战斗中只能使用十次，且此技能使用后必须等50TU后才能再次使用。",
+                "TU": 60,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "EnemyBuffAArsenalRegular",
+                "SkillTitle": "迷宫",
+                "SkillDescription": "封锁敌方场上所有单位主动技能50TU；净化己方场上所有单位；场上其他己方单位TU归零，使其顺次获得下一回合。在受此技能影响后直到这些单位的下一个回合结束后无法使用给予其他队友回合的主动技能。\n使用者必须有3格“能量”才能使用此技能。此技能会移除使用者身上所有的能量。此技能在一场战斗中只能使用三次。\n当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果无法对BOSS类单位生效，无法被净化，在此单位被击败后失效。",
+                "TU": 40,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegular",
+                "SkillTitle": "迷宫继承者",
+                "SkillDescription": "此单位无法从场上回到援军队伍。此单位不会因为中毒或燃烧的伤害被击败。若场上存在其他雷属性单位，则此单位不会被眩晕。若场上存在水属性单位，则此单位不会陷入睡眠状态。\n此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS目标防止被击败的效果或被动技能。\n每当有能量的此单位使用“闪耀爆破”或“天雷”技能时，此单位消耗1格能量并减少50TU。若此效果在10TU内触发达到3次，则需要过50TU后才能再次触发。"
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegular",
+                "SkillTitle": "话痨阿尔",
+                "SkillDescription": "此单位进场时金属化，且进场后己方场上每有1个雷属性单位，此单位获得1格“能量”。能量可用在特定技能。每个单位最多可累积3格能量，单位离场时其所有能量清零。\n若受到超过自己剩余生命值的伤害，会以1点生命值幸存，仅当受到该伤害前的生命值大于1时才会生效。\n此单位的回合开始时，若其主动技能没有被封锁，则直到该回合结束此单位的主动技能不会被封锁。\n如果此单位受到一次攻击伤害并在当前回合结束之后仍然存活，此单位回复最大生命值的50%并获得1格“能量”；若此单位受到攻击时已有3格能量，则改为消耗2格能量使其TU归零立即获得一个回合。一些影响TU的技能效果可能会改变此TU减少效果发动的时机。\n每当此单位回合结束时，若场上不多于2个敌方单位主动技能被封锁，则有20%概率随机封锁1个敌方单位的主动技能50TU，此单位每觉醒一次增加20%触发概率。此单位每次进场后，此效果只能触发10次。此效果仅当己方场上存在其他己方单位时才会触发。\n金属化会使该单位此后三次遭受敌方攻击时所受的伤害减少50%，之后金属化会被移除。金属化的减伤效果不会被不能无视金属化的攻击无视。已处于金属化的单位再次金属化时次数重置为三次，金属化不属于状态效果。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "FireMinusDamageLv3",
+                "SkillTitle": "火系耐性Lv3",
+                "SkillDescription": "若此单位受到火属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "单手斧大师",
+                "SkillDescription": "若此单位装备单手斧类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "单手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "那个……咳咳，我就是“迷宫之主”！\n那么，就让我来给你一场试炼吧！\n只要你能通过试炼，那个……\n\n嗯～，这样吧，我可以帮你实现一个愿望哦！"
+            ],
+            "Login": [
+                "哎呀，原来是你呀……！那个，这次你想挑战什么样的试炼呢？\n唔唔……是不是有点太难了？……要不要稍微降低一点难度呢……？"
+            ],
+            "Tap": [
+                "吵、吵架是不可以的哦……咦，等等，你们刚才不是在吵架吗？\n啊，原来是我看错了呀！太好了……！",
+                "诶……那个，你问我是不是怕生？\n说实话，我确实有在努力克服啦……但、但是，我没有勉强自己哦！",
+                "呜呀哼！刚才是谁弄出了那么大的声响！？\n难道是故意想吓唬我……哼，我以后绝对不跟你说话啦！"
+            ],
+            "Idle": [
+                "一安静下来……不知为什么，就会特别想找人聊天……\n你、你跑到哪里去了呀？快来陪阿森纳聊聊天嘛～！"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsCharged3": 1.1,
+                "HasDamagedWithAttack": 1.01
+            },
+            "SkillUse": {
+                "闪耀爆破": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "电光充能": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "天雷": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "迷宫": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotAlone": 100,
+                        "3EnemiesDisabled": 0,
+                        "AllEnemiesDisabled": 0,
+                        "AllEnemiesDisabledAlt": 0,
+                        "EnemyIsAloneAndDisabled": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "圣杯守护者们",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "生命值+3%"
+            }
+        }
     }
 }

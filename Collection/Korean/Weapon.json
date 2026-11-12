@@ -22400,7 +22400,7 @@
         "Hp_Base": 3180,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc4AlliesAreDisabled2",
@@ -22425,7 +22425,7 @@
         "Hp_Base": 3890,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc5AlliesAreDisabled2",
@@ -22451,12 +22451,89 @@
         "Hp_Base": 4180,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc6AlliesAreDisabled2",
                 "SkillTitle": "데미지 감소",
                 "SkillDescription": "아군 2기 이상의 액티브 스킬이 무력화 상태인 동안 적의 공격으로 인한 데미지가 15% 감소."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ArsenalSword01": {
+        "Name": "아리아드네",
+        "FullName": "아리아드네",
+        "Family": "ArsenalSword",
+        "Profile": "미궁의 가장 깊은 곳에 숨겨진 검. 그 안을 헤매는 이들을 유일한 출구, 죽음으로 인도한다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "검",
+        "Cost": 11,
+        "Atk_Base": 477,
+        "Hp_Base": 2990,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4EnemiesIsDisabled2",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "적 2기 이상의 액티브 스킬이 무력화된 경우, 공격에 15% 보너스."
+            }
+        ]
+    },
+    "ArsenalSword02": {
+        "Name": "아리아드네",
+        "FullName": "아리아드네",
+        "Family": "ArsenalSword",
+        "Profile": "미궁의 가장 깊은 곳에 숨겨진 검. 그 안을 헤매는 이들을 유일한 출구, 죽음으로 인도한다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "검",
+        "Cost": 17,
+        "Atk_Base": 582,
+        "Hp_Base": 3590,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5EnemiesIsDisabled2",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "적 2기 이상의 액티브 스킬이 무력화된 경우, 공격에 20% 보너스."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ArsenalSword03": {
+        "Name": "아리아드네",
+        "FullName": "아리아드네",
+        "Family": "ArsenalSword",
+        "Profile": "미궁의 가장 깊은 곳에 숨겨진 검. 그 안을 헤매는 이들을 유일한 출구, 죽음으로 인도한다.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "검",
+        "Cost": 23,
+        "Atk_Base": 635,
+        "Hp_Base": 3825,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6EnemiesIsDisabled2",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "적 2기 이상의 액티브 스킬이 무력화된 경우, 공격에 25% 보너스."
             }
         ],
         "ExtraEvoInitialCount": 2

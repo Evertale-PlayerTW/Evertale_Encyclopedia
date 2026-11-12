@@ -15296,6 +15296,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -15681,6 +15692,17 @@
                     "GearLancerGirl01",
                     "ElfBattleMage01",
                     "FoxDuelist01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -16900,6 +16922,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -17308,6 +17341,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATQ+2%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -52413,6 +52457,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
             }
         }
     },
@@ -52638,6 +52693,17 @@
                     "FireGirlWarrior01",
                     "MartialArtistGirl01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "HP+3%"
             }
@@ -147455,7 +147521,7 @@
         "Hp_Base": 15298,
         "Speed": 213,
         "Power": 216576,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Su viaje a través del desierto continúa...\n...hasta cumplir la orden final del rey",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Earth",
@@ -147466,7 +147532,7 @@
             {
                 "SkillCodename": "SingleAttackAGalahadRegular",
                 "SkillTitle": "Golpe Escudo",
-                "SkillDescription": "1000% de daño a 1 enemigo. 1500% de daño en su lugar si el usuario ha sobrevivido durante 100TU en el campo de batalla. 2000% de daño en su lugar si el usuario ha sobrevivido durante 200TU en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impediría que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nLuego, si el objetivo golpeado no estaba quemado, el usuario roba hasta 1 Espíritu de los enemigos.\n\nSi los HP actuales del usuario están en 30% o menos, intercambia los HP actuales del usuario con la cantidad de HP que el usuario ha perdido actualmente.\n",
+                "SkillDescription": "1000% de daño a 1 enemigo. 1500% de daño en su lugar si el usuario ha sobrevivido durante 100TU en el campo de batalla. 2000% de daño en su lugar si el usuario ha sobrevivido durante 200TU en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impediría que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nLuego, si el objetivo golpeado no estaba quemado, el usuario roba hasta 1 Espíritu de los enemigos.\n\nSi los HP actuales del usuario están en 30% o menos, intercambia los HP actuales del usuario con la cantidad de HP que el usuario ha perdido actualmente.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -147586,6 +147652,19 @@
                     "BaseWeight": 7500
                 }
             }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
         }
     },
     "GalahadRegular02": {
@@ -147618,7 +147697,7 @@
             {
                 "SkillCodename": "SingleAttackAGalahadRegular",
                 "SkillTitle": "Golpe Escudo",
-                "SkillDescription": "1000% de daño a 1 enemigo. 1500% de daño en su lugar si el usuario ha sobrevivido durante 100TU en el campo de batalla. 2000% de daño en su lugar si el usuario ha sobrevivido durante 200TU en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impediría que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nLuego, si el objetivo golpeado no estaba quemado, el usuario roba hasta 1 Espíritu de los enemigos.\n\nSi los HP actuales del usuario están en 30% o menos, intercambia los HP actuales del usuario con la cantidad de HP que el usuario ha perdido actualmente.\n",
+                "SkillDescription": "1000% de daño a 1 enemigo. 1500% de daño en su lugar si el usuario ha sobrevivido durante 100TU en el campo de batalla. 2000% de daño en su lugar si el usuario ha sobrevivido durante 200TU en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo y cualquier efecto de enemigos que no sean jefes que impediría que el objetivo sea derrotado. El daño de este ataque no despierta a los enemigos dormidos.\n\nLuego, si el objetivo golpeado no estaba quemado, el usuario roba hasta 1 Espíritu de los enemigos.\n\nSi los HP actuales del usuario están en 30% o menos, intercambia los HP actuales del usuario con la cantidad de HP que el usuario ha perdido actualmente.",
                 "TU": 50,
                 "Spirit": "+2"
             },
@@ -147752,6 +147831,424 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "ArsenalRegular01": {
+        "Name": "Arsenal",
+        "Name2": "Heredera del Laberinto",
+        "FullName": "Arsenal - Heredera del Laberinto",
+        "Family": "ArsenalRegular",
+        "Profile": "Alguna vez era simplemente \"Al\", una chica que pasaba los días jugando con sus amigos hasta el atardecer. Pero el día que heredó el nombre de \"Arsenal\" y la misión jurada de su familia de manos de su abuelo, su futuro quedó sellado dentro de las ruinas. Esa fue la \"maldición\" que se le transmitió.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Espada",
+        "forFilter_Element": "Air",
+        "Element": "Tormenta",
+        "Cost": 28,
+        "Atk_Base": 1256,
+        "Hp_Base": 4930,
+        "Speed": 555,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "¡Oh, un nuevo explorador! ¡Bienvenido!",
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpAirD",
+            "SkillTitle": "Sube Ataque Trueno",
+            "SkillDescription": "Las unidades de Trueno aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegular",
+                "SkillTitle": "Trueno Explosión",
+                "SkillDescription": "500% de daño a 1 enemigo. 1000% de daño en su lugar cada segunda vez que se active esta habilidad mientras estés en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nSi este daño no derrota al objetivo, los aliados ganan 3 de Espíritu.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegular",
+                "SkillTitle": "Carga Doble",
+                "SkillDescription": "El usuario recibe 2 Cargas.\n\nTodos los aliados en el campo de batalla reciben un Guarda Sueño. Un Guarda Sueño impide que se aplique Sueño una vez, luego se elimina. Los Guardas Sueño no se pueden acumular. Todos los aliados que no estén dormidos en el campo de batalla se Enfurecerán. Esto sobrescribirá los efectos de otras habilidades de Enfurecer en esas unidades. Las unidades Enfurecidas tienen su Ataque aumentado a 1.5x hasta el final de su siguiente turno.\n\nSe desbloquea cada vez que el usuario utiliza otra habilidad activa. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegular",
+                "SkillTitle": "Espada Cargada",
+                "SkillDescription": "1000% de daño a 1 enemigo. Este ataque ignora a los Guardianes.\n\nLuego, al objetivo golpeado se le eliminan todos los efectos de estado de Sigilo (incluido el Súper Sigilo).\n\nSólo se puede usar si el usuario tiene 1 o más cargas almacenadas. Esta habilidad se bloquea durante 50TU después de su uso. Se puede usar 10 veces por batalla.",
+                "TU": 60,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegular",
+                "SkillTitle": "Hija del Laberinto",
+                "SkillDescription": "Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla, y no puede ser derrotada por daño de efectos de estado de Veneno o Quemado.\n\nEsta unidad no puede ser aturdida si hay otra unidad de Tormenta (aliada o enemiga) en el campo de batalla. Esta unidad no puede dormirse si hay alguna unidad de Agua (aliada o enemiga) en el campo de batalla.\n\nLos ataques de esta unidad curan a esta unidad por el 100% del daño total infligido, e ignoran cualquier efecto de enemigos que no sean jefes que impediría que los objetivos sean derrotados.\n\nSi esta unidad tiene una Carga, cuando esta unidad usa Trueno Explosión o Espada Cargada, esta unidad consumirá 1 Carga para que su TU actual se reduzca en 50TU. Si esto se activa 3 veces en 10TU, este efecto no se puede activar de nuevo hasta que avancen 50TU."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegular",
+                "SkillTitle": "Trae la Tormenta",
+                "SkillDescription": "Esta unidad entra Fortificada a la batalla y con 1 Carga por cada aliado de Tormenta en el campo de batalla (máximo de 3 Cargas si hay otros 2 aliados de Tormenta en el campo de batalla). Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nSiempre que esta unidad tenga el turno, si las Habilidades Activas de esta unidad no están desactivadas, esta unidad no puede tener sus Habilidades Activas desactivadas hasta el final de su turno.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad ganará una Carga y se curará por el 50% de su HP máximo. Si esta unidad ya tenía 3 Cargas almacenadas, esta unidad consume 2 Cargas para que su TU actual se reduzca a 0. Esta reducción de TU puede activarse antes o después de otros efectos que ajusten el orden del turno.\n\nDespués del final de cada uno de los turnos de esta unidad, si menos de 2 enemigos en el campo de batalla tienen sus Habilidades Activas desactivadas, esta unidad tiene un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de desactivar las Habilidades Activas de 1 enemigo aleatorio por 50TU. Esta unidad sólo puede activar con éxito este efecto 10 veces desde que entró en el campo de batalla. Este efecto no puede activarse si Arsenal no tiene otros aliados en el campo de batalla.\n\nUna unidad Fortificada tiene una reducción de daño del 50% de los ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. Fortificar se eliminará después de reducir el daño 3 veces desde que se aplicó, y se restablecerá si se vuelve a aplicar. Esto no es un efecto de estado."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "FireMinusDamageLv3",
+                "SkillTitle": "Resistir Fuego Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Fuego."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Dominio Hacha",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Eh... ¡Ahm! ¡Soy la \"Señora del Laberinto\"! ¡Así que déjame proponerte una prueba para poner a prueba tu temple!\nSi logras superarla, bueno... Ahmm... ¿Qué tal si te concedo un deseo? ¡Creo que puedo hacerlo!"
+            ],
+            "Login": [
+                "¡Oh, eres tú...! Entonces, ¿qué clase de prueba quieres intentar hoy?\nVaya, eso suena bastante difícil... ¿Quizás deberíamos bajar un poco la dificultad...?"
+            ],
+            "Tap": [
+                "N-no, nada de peleas, ¡las peleas son malas...! ¿Eh? ¿No estaban peleando? Oh... Supongo que me equivoqué. ¡Pero eso es un alivio!",
+                "¿Qué...? ¿Pensabas que me daría vergüenza estar con desconocidos? Para ser sincera, me estoy esforzando un poco por hablar más... ¡pero sin forzarme demasiado, lo prometo!",
+                "¡Ayy! ¿¡Quién hizo ese ruido tan fuerte hace un momento!?\n¿Intentas asustarme...? ¡No lo hagas más o dejaré de hablarte!"
+            ],
+            "Idle": [
+                "Cuando todo se queda tan en silencio... me entran muchas ganas de hablar con alguien...\n¿H-Hola? ¿Hay alguien ahí? ¡Ven a charlar un rato con Arsenal! ¿Por favor?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsCharged3": 1.1,
+                "HasDamagedWithAttack": 1.01
+            },
+            "SkillUse": {
+                "Trueno Explosión": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Carga Doble": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Espada Cargada": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
+    },
+    "ArsenalRegular02": {
+        "Name": "Arsenal",
+        "Name2": "Heredera del Laberinto",
+        "FullName": "Arsenal - Heredera del Laberinto",
+        "Family": "ArsenalRegular",
+        "Profile": "Siempre que llegaba un explorador, Arsenal entablaba conversación con entusiasmo. Al fin y al cabo, para una chica sola en el laberinto, cada visitante representaba una preciada oportunidad de compañía. Pero aquellos momentos felices nunca duraban. Al final, todos los viajeros acababan convertidos en cadáveres de una forma u otra, dejándola sola en el laberinto una vez más.",
+        "AscendedId": "ArsenalRegular03",
+        "Profile_Ascended": "Cuando Arsenal se enfrentó a la antigua reina y a la caballero silenciosa, comprendió que aquel sería su fin. Sin embargo, extrañamente, no sintió miedo. Al fin, su larga misión había terminado... o eso creía ella.\n\nPero lo que le aguardaba no era el final de su vida, sino el fin de un aislamiento que se había prolongado demasiado.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Espada",
+        "forFilter_Element": "Air",
+        "Element": "Tormenta",
+        "Cost": 34,
+        "Atk_Base": 1388,
+        "Hp_Base": 7480,
+        "Speed": 555,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpAirD",
+            "SkillTitle": "Sube Ataque Trueno",
+            "SkillDescription": "Las unidades de Trueno aliadas aumentarán su Ataque un 15%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegular",
+                "SkillTitle": "Trueno Explosión",
+                "SkillDescription": "500% de daño a 1 enemigo. 1000% de daño en su lugar cada segunda vez que se active esta habilidad mientras estés en el campo de batalla. Este ataque ignora los efectos de reducción de daño del enemigo, las habilidades pasivas de piel y el efecto de estado Contraofensiva.\n\nSi este daño no derrota al objetivo, los aliados ganan 3 de Espíritu.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegular",
+                "SkillTitle": "Carga Doble",
+                "SkillDescription": "El usuario recibe 2 Cargas.\n\nTodos los aliados en el campo de batalla reciben un Guarda Sueño. Un Guarda Sueño impide que se aplique Sueño una vez, luego se elimina. Los Guardas Sueño no se pueden acumular. Todos los aliados que no estén dormidos en el campo de batalla se Enfurecerán. Esto sobrescribirá los efectos de otras habilidades de Enfurecer en esas unidades. Las unidades Enfurecidas tienen su Ataque aumentado a 1.5x hasta el final de su siguiente turno.\n\nSe desbloquea cada vez que el usuario utiliza otra habilidad activa. Esta habilidad se bloquea de nuevo después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegular",
+                "SkillTitle": "Espada Cargada",
+                "SkillDescription": "1000% de daño a 1 enemigo. Este ataque ignora a los Guardianes.\n\nLuego, al objetivo golpeado se le eliminan todos los efectos de estado de Sigilo (incluido el Súper Sigilo).\n\nSólo se puede usar si el usuario tiene 1 o más cargas almacenadas. Esta habilidad se bloquea durante 50TU después de su uso. Se puede usar 10 veces por batalla.",
+                "TU": 60,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "EnemyBuffAArsenalRegular",
+                "SkillTitle": "Mandato del Grial",
+                "SkillDescription": "Todos los enemigos en el campo de batalla tienen sus Habilidades Activas desactivadas durante 50TU. Todos los aliados en el campo de batalla son Purificados (elimina efectos de estado negativos como sueño, quemado o veneno).\n\nLuego, inmediatamente otorga los siguientes turnos a todos los demás aliados reduciendo sus TU actuales. Las habilidades activas que otorgan turnos no pueden ser usadas por ninguna unidad afectada hasta después de que hayan tenido el turno.\n\nUsable sólo si el usuario ha almacenado 3 Cargas. Consume todas las Cargas del usuario. Usable 3 veces por batalla.\n\nCuando las Habilidades Activas de una unidad están desactivadas y obtiene el turno, perderá el turno como si estuviera durmiendo. Este efecto no puede afectar a las unidades jefe, no puede ser purificado y terminará si el usuario es derrotado.",
+                "TU": 40,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegular",
+                "SkillTitle": "Hija del Laberinto",
+                "SkillDescription": "Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla, y no puede ser derrotada por daño de efectos de estado de Veneno o Quemado.\n\nEsta unidad no puede ser aturdida si hay otra unidad de Tormenta (aliada o enemiga) en el campo de batalla. Esta unidad no puede dormirse si hay alguna unidad de Agua (aliada o enemiga) en el campo de batalla.\n\nLos ataques de esta unidad curan a esta unidad por el 100% del daño total infligido, e ignoran cualquier efecto de enemigos que no sean jefes que impediría que los objetivos sean derrotados.\n\nSi esta unidad tiene una Carga, cuando esta unidad usa Trueno Explosión o Espada Cargada, esta unidad consumirá 1 Carga para que su TU actual se reduzca en 50TU. Si esto se activa 3 veces en 10TU, este efecto no se puede activar de nuevo hasta que avancen 50TU."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegular",
+                "SkillTitle": "Trae la Tormenta",
+                "SkillDescription": "Esta unidad entra Fortificada a la batalla y con 1 Carga por cada aliado de Tormenta en el campo de batalla (máximo de 3 Cargas si hay otros 2 aliados de Tormenta en el campo de batalla). Ciertas habilidades se ven afectadas por las cargas y pueden consumirlas. Una unidad puede almacenar un máximo de 3 cargas.\n\nSi esta unidad fuera derrotada por un ataque enemigo o un efecto de estado mientras tiene más de 1 HP, en su lugar sobrevive con 1 HP.\n\nSiempre que esta unidad tenga el turno, si las Habilidades Activas de esta unidad no están desactivadas, esta unidad no puede tener sus Habilidades Activas desactivadas hasta el final de su turno.\n\nCada vez que esta unidad recibe daño de un ataque y sobrevive hasta después del final del turno, esta unidad ganará una Carga y se curará por el 50% de su HP máximo. Si esta unidad ya tenía 3 Cargas almacenadas, esta unidad consume 2 Cargas para que su TU actual se reduzca a 0. Esta reducción de TU puede activarse antes o después de otros efectos que ajusten el orden del turno.\n\nDespués del final de cada uno de los turnos de esta unidad, si menos de 2 enemigos en el campo de batalla tienen sus Habilidades Activas desactivadas, esta unidad tiene un 20% de probabilidad, más un 20% de probabilidad por Despertar (hasta un 100% de probabilidad si esta unidad tiene 4 Despertares) de desactivar las Habilidades Activas de 1 enemigo aleatorio por 50TU. Esta unidad sólo puede activar con éxito este efecto 10 veces desde que entró en el campo de batalla. Este efecto no puede activarse si Arsenal no tiene otros aliados en el campo de batalla.\n\nUna unidad Fortificada tiene una reducción de daño del 50% de los ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. Fortificar se eliminará después de reducir el daño 3 veces desde que se aplicó, y se restablecerá si se vuelve a aplicar. Esto no es un efecto de estado."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Niv3",
+                "SkillDescription": "Añade 1200 al HP máx. de esta unidad."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Ataque+ Niv3",
+                "SkillDescription": "Añade 300 al Ataque de esta unidad."
+            },
+            {
+                "SkillCodename": "FireMinusDamageLv3",
+                "SkillTitle": "Resistir Fuego Niv3",
+                "SkillDescription": "10% menos de daño en ataques procedentes de unidades de Fuego."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Dominio Hacha",
+                "SkillDescription": "Puede usar habilidades de arma de Hachas además del tipo de arma preferido originalmente."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Hacha"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Eh... ¡Ahm! ¡Soy la \"Señora del Laberinto\"! ¡Así que déjame proponerte una prueba para poner a prueba tu temple!\nSi logras superarla, bueno... Ahmm... ¿Qué tal si te concedo un deseo? ¡Creo que puedo hacerlo!"
+            ],
+            "Login": [
+                "¡Oh, eres tú...! Entonces, ¿qué clase de prueba quieres intentar hoy?\nVaya, eso suena bastante difícil... ¿Quizás deberíamos bajar un poco la dificultad...?"
+            ],
+            "Tap": [
+                "N-no, nada de peleas, ¡las peleas son malas...! ¿Eh? ¿No estaban peleando? Oh... Supongo que me equivoqué. ¡Pero eso es un alivio!",
+                "¿Qué...? ¿Pensabas que me daría vergüenza estar con desconocidos? Para ser sincera, me estoy esforzando un poco por hablar más... ¡pero sin forzarme demasiado, lo prometo!",
+                "¡Ayy! ¿¡Quién hizo ese ruido tan fuerte hace un momento!?\n¿Intentas asustarme...? ¡No lo hagas más o dejaré de hablarte!"
+            ],
+            "Idle": [
+                "Cuando todo se queda tan en silencio... me entran muchas ganas de hablar con alguien...\n¿H-Hola? ¿Hay alguien ahí? ¡Ven a charlar un rato con Arsenal! ¿Por favor?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsCharged3": 1.1,
+                "HasDamagedWithAttack": 1.01
+            },
+            "SkillUse": {
+                "Trueno Explosión": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Carga Doble": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Espada Cargada": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Mandato del Grial": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotAlone": 100,
+                        "3EnemiesDisabled": 0,
+                        "AllEnemiesDisabled": 0,
+                        "AllEnemiesDisabledAlt": 0,
+                        "EnemyIsAloneAndDisabled": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardianes del Grial",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "HP+3%"
+            }
+        }
     }
 }

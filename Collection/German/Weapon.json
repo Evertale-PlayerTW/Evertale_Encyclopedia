@@ -22400,7 +22400,7 @@
         "Hp_Base": 3180,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc4AlliesAreDisabled2",
@@ -22425,7 +22425,7 @@
         "Hp_Base": 3890,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc5AlliesAreDisabled2",
@@ -22451,12 +22451,89 @@
         "Hp_Base": 4180,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "DamageReduc6AlliesAreDisabled2",
                 "SkillTitle": "Schaden verringert",
                 "SkillDescription": "Verringert den Schaden durch Angriffe der Gegner um 15%, solange bei mindestens 2 Verbündeten die aktiven Fertigkeiten deaktiviert sind."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ArsenalSword01": {
+        "Name": "Ariadne",
+        "FullName": "Ariadne",
+        "Family": "ArsenalSword",
+        "Profile": "Ein Schwert, versteckt in den tiefsten Tiefen des Labyrinths. Es führt diejenigen, die darin umherirren, zum einzigen Ausweg: dem Tod.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "Schwert",
+        "Cost": 11,
+        "Atk_Base": 477,
+        "Hp_Base": 2990,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4EnemiesIsDisabled2",
+                "SkillTitle": "Angriff +",
+                "SkillDescription": "15% Bonus auf Angriffe, wenn bei 2 oder mehr Gegnern die aktiven Fertigkeiten deaktiviert sind."
+            }
+        ]
+    },
+    "ArsenalSword02": {
+        "Name": "Ariadne",
+        "FullName": "Ariadne",
+        "Family": "ArsenalSword",
+        "Profile": "Ein Schwert, versteckt in den tiefsten Tiefen des Labyrinths. Es führt diejenigen, die darin umherirren, zum einzigen Ausweg: dem Tod.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "Schwert",
+        "Cost": 17,
+        "Atk_Base": 582,
+        "Hp_Base": 3590,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5EnemiesIsDisabled2",
+                "SkillTitle": "Angriff +",
+                "SkillDescription": "20% Bonus auf Angriffe, wenn bei 2 oder mehr Gegnern die aktiven Fertigkeiten deaktiviert sind."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ArsenalSword03": {
+        "Name": "Ariadne",
+        "FullName": "Ariadne",
+        "Family": "ArsenalSword",
+        "Profile": "Ein Schwert, versteckt in den tiefsten Tiefen des Labyrinths. Es führt diejenigen, die darin umherirren, zum einzigen Ausweg: dem Tod.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "Sword",
+        "WeaponType": "Schwert",
+        "Cost": 23,
+        "Atk_Base": 635,
+        "Hp_Base": 3825,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6EnemiesIsDisabled2",
+                "SkillTitle": "Angriff +",
+                "SkillDescription": "25% Bonus auf Angriffe, wenn bei 2 oder mehr Gegnern die aktiven Fertigkeiten deaktiviert sind."
             }
         ],
         "ExtraEvoInitialCount": 2

@@ -15296,6 +15296,17 @@
                     "FoxDuelist01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -15681,6 +15692,17 @@
                     "GearLancerGirl01",
                     "ElfBattleMage01",
                     "FoxDuelist01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -16900,6 +16922,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -17308,6 +17341,17 @@
                     "FloatingMage01"
                 ],
                 "RelationshipBuff": "ATT+2%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -52413,6 +52457,17 @@
                     "TwoFaceDemon01"
                 ],
                 "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -52638,6 +52693,17 @@
                     "FireGirlWarrior01",
                     "MartialArtistGirl01",
                     "TwoFaceDemon01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            },
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "PV+3%"
             }
@@ -145169,7 +145235,7 @@
             {
                 "SkillCodename": "EnemyBuffAVanHelsingRegular",
                 "SkillTitle": "Bersagli Acquisiti",
-                "SkillDescription": "L'unità è immune a Sonno per 50TU, a Stordimento per 50TU e a Veleno per 50TU e ottiene Protezione Morte e Fortificazione.\n\nPoi, per i 3 turni successivi dell'unità mentre è in campo, ogni volta che l'unità usa un'altra abilità attiva, l'unità ottiene immediatamente il turno e ottiene Provocazione. Gli effetti che modificano l'ordine dei TU possono interrompere i turni aggiuntivi (per esempio Stordimento che colpisce il bersaglio con meno TU). Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nUtilizzabile solo se un'unità alleata non invocata in campo è stata sconfitta e sacrificata da quando l'unità è entrata in campo o se l'unità ha sconfitto un nemico non invocato con un attacco. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 3 volte per battaglia.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. L'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "SkillDescription": "Infligge Marchio di Caccia a tutti i nemici non Guardiani in campo.\n\nUtilizzabile solo se non ci sono nemici in campo con Marchio di Caccia e se c'è un bersaglio valido.\n\nUn'unità con Marchio di Caccia subisce l'1,25x di danno dal prossimo attacco, poi Marchio di Caccia è rimosso. Marchio di Caccia non è un effetto di stato. Marchio di Caccia non si accumula, non ha effetto sulle unità boss e non può essere purificato. Un'unità perde Marchio di Caccia se viene sconfitta o abbandona il campo.",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -145365,7 +145431,7 @@
             {
                 "SkillCodename": "EnemyBuffAVanHelsingRegular",
                 "SkillTitle": "Bersagli Acquisiti",
-                "SkillDescription": "L'unità è immune a Sonno per 50TU, a Stordimento per 50TU e a Veleno per 50TU e ottiene Protezione Morte e Fortificazione.\n\nPoi, per i 3 turni successivi dell'unità mentre è in campo, ogni volta che l'unità usa un'altra abilità attiva, l'unità ottiene immediatamente il turno e ottiene Provocazione. Gli effetti che modificano l'ordine dei TU possono interrompere i turni aggiuntivi (per esempio Stordimento che colpisce il bersaglio con meno TU). Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nUtilizzabile solo se un'unità alleata non invocata in campo è stata sconfitta e sacrificata da quando l'unità è entrata in campo o se l'unità ha sconfitto un nemico non invocato con un attacco. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 3 volte per battaglia.\n\nLa Protezione Morte impedisce una volta all'unità di venire sconfitta senza danno da un nemico che non è un boss, poi viene rimossa. La Protezione Morte non può essere ignorata e non si accumula. L'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato.",
+                "SkillDescription": "Infligge Marchio di Caccia a tutti i nemici non Guardiani in campo.\n\nUtilizzabile solo se non ci sono nemici in campo con Marchio di Caccia e se c'è un bersaglio valido.\n\nUn'unità con Marchio di Caccia subisce l'1,25x di danno dal prossimo attacco, poi Marchio di Caccia è rimosso. Marchio di Caccia non è un effetto di stato. Marchio di Caccia non si accumula, non ha effetto sulle unità boss e non può essere purificato. Un'unità perde Marchio di Caccia se viene sconfitta o abbandona il campo.",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -147455,7 +147521,7 @@
         "Hp_Base": 15298,
         "Speed": 213,
         "Power": 216576,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "Il suo viaggio nel deserto continua...\n...fino al compimento del decreto finale del re.",
         "LeaderSkill": {
             "SkillCodename": "AttackAndHPUp6Earth",
@@ -147585,6 +147651,19 @@
                 "Scudo Esplosivo": {
                     "BaseWeight": 7500
                 }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
             }
         }
     },
@@ -147752,6 +147831,424 @@
                 }
             }
         },
-        "ExtraEvoInitialCount": 1
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "ArsenalRegular01": {
+        "Name": "Arsenale",
+        "Name2": "Rampolla del Labirinto",
+        "FullName": "Arsenale - Rampolla del Labirinto",
+        "Family": "ArsenalRegular",
+        "Profile": "Un tempo era semplicemente \"Al\", una ragazzina che passava le giornate a giocare con gli amici fino al tramonto. Ma il giorno in cui ereditò dal nonno il nome \"Arsenale\" e la missione giurata della sua famiglia, il suo futuro fu sigillato tra le rovine. Quella era la \"maledizione\" che le era stata tramandata.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Air",
+        "Element": "Vento",
+        "Cost": 28,
+        "Atk_Base": 1256,
+        "Hp_Base": 4930,
+        "Speed": 555,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "Oh, tu devi essere un nuovo sfidante.\nBenvenuto!",
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpAirD",
+            "SkillTitle": "ATT+ (Vento)",
+            "SkillDescription": "Nelle unità alleate di tipo Vento gli HP massimi aumentano del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegular",
+                "SkillTitle": "Dardo d'Assalto",
+                "SkillDescription": "500% di danno a 1 nemico. 1000% di danno invece ogni seconda volta che l'abilità viene attivata in campo. Questo attacco ignora gli effetti di riduzione del danno nemici, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nSe il danno non sconfigge il bersaglio, gli alleati ottengono 3 Spiriti.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegular",
+                "SkillTitle": "Carica Doppia",
+                "SkillDescription": "L'unità ottiene 2 Cariche.\n\nTutti gli alleati in campo ottengono Protezione Sonno. Protezione Sonno impedisce un'applicazione di Sonno, poi si rimuove. Protezione Sonno non si accumula. Tutti gli alleati non addormentati in campo ottengono Provocazione. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nSi sblocca ogni volta che l'unità usa un'altra abilità attiva. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegular",
+                "SkillTitle": "Lama Carica",
+                "SkillDescription": "1000% di danno a 1 nemico. Questo attacco ignora i Guardiani.\n\nPoi, rimuove tutti gli effetti di Invisibilità (inclusa Super Invisibilità) dal bersaglio colpito.\n\nUtilizzabile solo se l'unità ha almeno 1 carica. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 10 volte per battaglia.",
+                "TU": 60,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegular",
+                "SkillTitle": "Erede del Labirinto",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo e non può essere sconfitta subendo danno dall'effetto di stato Veleno o Ustione.\n\nL'unità è immune a Stordimento se c'è un'altra unità (alleata o nemici) di tipo Vento in campo. L'unità è immune a Sonno se c'è un'altra unità (alleata o nemici) di tipo Acqua in campo.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSe l'unità ha 100 Carica, quando l'unità usa Dardo d'Assalto o Lama Carica, l'unità consuma 1 Carica per ridurre i TU attuali di 50TU. Se l'effetto si attiva 3 volte entro 10TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegular",
+                "SkillTitle": "Aralda del Fulmine",
+                "SkillDescription": "L'unità entra in campo con Fortificazione e con 1 Carica per ogni alleato di tipo Vento in campo (fino a 3 Carica con altri 2 alleati di tipo Vento in campo). Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene una Carica e recupera il 50% degli HP massimi. Se l'unità ha già 3 Cariche, consuma 2 Cariche per azzerare i TU. La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nAlla fine di ogni turno dell'unità, se ci sono meno di 2 nemici in campo con le abilità attive disattivate, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di disattivare le abilità attive di un nemico casuale per 50TU. L'unità può attivare con successo questo effetto solo 10 volte da quanto è entrata in campo. Questo effetto non può attivarsi se Arsenale non ha altri alleati in campo.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "FireMinusDamageLv3",
+                "SkillTitle": "Resist. Fuoco Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Fuoco."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Maestria Ascia",
+                "SkillDescription": "Può usare le abilità delle Asce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ehm... Ahem! Sono il \"Signore del Labirinto\"! Ti metterò alla prova per saggiare il tuo valore!\nSe la supererai, beh... Ehm... Mmm. Esaudisco un tuo desiderio? Credo di poterlo fare!"
+            ],
+            "Login": [
+                "Oh, sei tu...! Allora, che tipo di prova vuoi affrontare oggi?\nOh, cavolo, sembra piuttosto difficile... Forse dovremmo abbassare un po' la difficoltà...?"
+            ],
+            "Tap": [
+                "N-No, niente litigi, litigare non è affatto bello...! Eh? Non era una lite? Oh... Devo aver frainteso. Meno male!",
+                "Cosa...? Pensavi che fossi timida con gli sconosciuti? In realtà, mi sto sforzando di essere più loquace... ma senza esagerare, promesso!",
+                "Iiiih! Cos'era quel rumore fortissimo?!\nCerchi di farmi prendere un colpo...? Smettila, o non ti parlo più!"
+            ],
+            "Idle": [
+                "Con questo silenzio... mi viene voglia di parlare con qualcuno...\nE-Ehilà? C'è nessuno? Venite a chiacchierare con Arsenale! Per favore?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsCharged3": 1.1,
+                "HasDamagedWithAttack": 1.01
+            },
+            "SkillUse": {
+                "Dardo d'Assalto": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Carica Doppia": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Lama Carica": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
+    },
+    "ArsenalRegular02": {
+        "Name": "Arsenale",
+        "Name2": "Rampolla del Labirinto",
+        "FullName": "Arsenale - Rampolla del Labirinto",
+        "Family": "ArsenalRegular",
+        "Profile": "Ogni volta che arrivava uno sfidante, Arsenale attaccava bottone con entusiasmo. Dopotutto, per una ragazza sola nel labirinto, ogni visitatore era una preziosa occasione per conversare. Ma quei momenti felici non duravano mai. Alla fine, ogni sfidante finiva per diventare un cadavere in un modo o nell'altro, lasciandola di nuovo sola nel labirinto.",
+        "AscendedId": "ArsenalRegular03",
+        "Profile_Ascended": "Quando Arsenale si trovò di fronte l'ex regina e la cavaliera silente, capì che quella sarebbe stata la sua fine. Eppure, stranamente, non provò paura. La sua lunga missione era finalmente terminata, o almeno così credeva.\n\nMa ad attenderla non c'era la fine della sua vita, bensì la fine di un isolamento durato troppo a lungo.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Spada",
+        "forFilter_Element": "Air",
+        "Element": "Vento",
+        "Cost": 34,
+        "Atk_Base": 1388,
+        "Hp_Base": 7480,
+        "Speed": 555,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpAirD",
+            "SkillTitle": "ATT+ (Vento)",
+            "SkillDescription": "Nelle unità alleate di tipo Vento gli HP massimi aumentano del 7%."
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAArsenalRegular",
+                "SkillTitle": "Dardo d'Assalto",
+                "SkillDescription": "500% di danno a 1 nemico. 1000% di danno invece ogni seconda volta che l'abilità viene attivata in campo. Questo attacco ignora gli effetti di riduzione del danno nemici, l'effetto di stato Opposizione e le abilità passive di contatto.\n\nSe il danno non sconfigge il bersaglio, gli alleati ottengono 3 Spiriti.",
+                "TU": 60,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllyBuffAArsenalRegular",
+                "SkillTitle": "Carica Doppia",
+                "SkillDescription": "L'unità ottiene 2 Cariche.\n\nTutti gli alleati in campo ottengono Protezione Sonno. Protezione Sonno impedisce un'applicazione di Sonno, poi si rimuove. Protezione Sonno non si accumula. Tutti gli alleati non addormentati in campo ottengono Provocazione. Sostituisce altri effetti di Provocazione. Le unità provocate hanno l'attacco aumentato a 1,5x fino alla fine del loro turno successivo.\n\nSi sblocca ogni volta che l'unità usa un'altra abilità attiva. Dopo l'utilizzo o se l'unità abbandona il campo, l'abilità torna bloccata.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAArsenalRegular",
+                "SkillTitle": "Lama Carica",
+                "SkillDescription": "1000% di danno a 1 nemico. Questo attacco ignora i Guardiani.\n\nPoi, rimuove tutti gli effetti di Invisibilità (inclusa Super Invisibilità) dal bersaglio colpito.\n\nUtilizzabile solo se l'unità ha almeno 1 carica. Questa abilità è bloccata per 50TU dopo l'uso. Utilizzabile 10 volte per battaglia.",
+                "TU": 60,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "EnemyBuffAArsenalRegular",
+                "SkillTitle": "Comando del Graal",
+                "SkillDescription": "Disattiva le abilità attive di un nemico casuale per 50TU. Tutti gli alleati in tempo sono purificati (rimuovono gli effetti di stato negativi come Veleno, Ustione o Sonno).\n\nPoi, fornisce immediatamente i prossimi turni a tutti gli altri alleati azzerando i loro TU. Le abilità attive che forniscono turni non possono essere usate finché tutte le unità coinvolte non hanno completato il proprio turno.\n\nUtilizzabile solo se l'unità ha 3 Cariche accumulate. Consuma tutte le Cariche dell'unità. Utilizzabile 3 volte per battaglia.\n\nQuando un'unità con le abilità disattivate ottiene il turno, perde il turno come se fosse addormentata. L'effetto non ha effetto sulle unità boss, non può essere purificato e termina se l'unità viene sconfitta.",
+                "TU": 40,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "PassPassiveAArsenalRegular",
+                "SkillTitle": "Erede del Labirinto",
+                "SkillDescription": "L'unità non può essere mandata tra i rinforzi dal campo e non può essere sconfitta subendo danno dall'effetto di stato Veleno o Ustione.\n\nL'unità è immune a Stordimento se c'è un'altra unità (alleata o nemici) di tipo Vento in campo. L'unità è immune a Sonno se c'è un'altra unità (alleata o nemici) di tipo Acqua in campo.\n\nGli attacchi dell'unità curano l'unità del 100% del danno inflitto totale e ignorano gli effetti dei nemici che non sono boss che impedirebbero al bersaglio di essere sconfitto.\n\nSe l'unità ha 100 Carica, quando l'unità usa Dardo d'Assalto o Lama Carica, l'unità consuma 1 Carica per ridurre i TU attuali di 50TU. Se l'effetto si attiva 3 volte entro 10TU, l'effetto non può riattivarsi fino all'avanzamento di 50TU."
+            },
+            {
+                "SkillCodename": "KickToTheHeadPassiveAArsenalRegular",
+                "SkillTitle": "Aralda del Fulmine",
+                "SkillDescription": "L'unità entra in campo con Fortificazione e con 1 Carica per ogni alleato di tipo Vento in campo (fino a 3 Carica con altri 2 alleati di tipo Vento in campo). Alcune abilità sono influenzate dalle Cariche e potrebbero consumarle. Un'unità può accumulare un massimo di 3 Cariche.\n\nSe questa unità subisce un attacco o un effetto di stato tale da sconfiggerla quando ha più di 1 HP, sopravvive con 1 HP.\n\nOgni volta che l'unità ottiene il turno, se le abilità attive dell'unità non sono disattivate, l'unità non può farsi disattivare le abilità attive fino alla fine del suo turno.\n\nOgni volta che subisce danno da un attacco e sopravvive fino alla fine del turno, l'unità ottiene una Carica e recupera il 50% degli HP massimi. Se l'unità ha già 3 Cariche, consuma 2 Cariche per azzerare i TU. La riduzione dei TU può attivarsi prima o dopo altri effetti che modificano l'ordine dei TU.\n\nAlla fine di ogni turno dell'unità, se ci sono meno di 2 nemici in campo con le abilità attive disattivate, l'unità ha il 20% di probabilità, più un ulteriore 20% per risveglio (fino al 100% di probabilità con 4 risvegli), di disattivare le abilità attive di un nemico casuale per 50TU. L'unità può attivare con successo questo effetto solo 10 volte da quanto è entrata in campo. Questo effetto non può attivarsi se Arsenale non ha altri alleati in campo.\n\nL'unità fortificata ha una riduzione danni del 50% dagli attacchi ricevuti. Questa riduzione non può essere ignorata dagli attacchi che non ignorano specificamente Fortificazione. Fortificazione riduce i danni 3 volte, poi è rimosso, e si ripristina se riottenuto. Questo non è un effetto di stato."
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "HP+ Lv3",
+                "SkillDescription": "Aumenta di 1200 gli HP di questa unità."
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "Attacco+ Lv3",
+                "SkillDescription": "Aumenta di 300 l'Attacco di questa unità."
+            },
+            {
+                "SkillCodename": "FireMinusDamageLv3",
+                "SkillTitle": "Resist. Fuoco Lv3",
+                "SkillDescription": "10% di danno in meno dagli attacchi delle unità di tipo Fuoco."
+            },
+            {
+                "SkillCodename": "AddWeaponPrefAxe",
+                "SkillTitle": "Maestria Ascia",
+                "SkillDescription": "Può usare le abilità delle Asce oltre a quelle del suo tipo di arma."
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "MaxHP": 1200
+            },
+            "2": {
+                "Attack": 300
+            },
+            "4": {
+                "weaponPref": "Ascia"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "Ehm... Ahem! Sono il \"Signore del Labirinto\"! Ti metterò alla prova per saggiare il tuo valore!\nSe la supererai, beh... Ehm... Mmm. Esaudisco un tuo desiderio? Credo di poterlo fare!"
+            ],
+            "Login": [
+                "Oh, sei tu...! Allora, che tipo di prova vuoi affrontare oggi?\nOh, cavolo, sembra piuttosto difficile... Forse dovremmo abbassare un po' la difficoltà...?"
+            ],
+            "Tap": [
+                "N-No, niente litigi, litigare non è affatto bello...! Eh? Non era una lite? Oh... Devo aver frainteso. Meno male!",
+                "Cosa...? Pensavi che fossi timida con gli sconosciuti? In realtà, mi sto sforzando di essere più loquace... ma senza esagerare, promesso!",
+                "Iiiih! Cos'era quel rumore fortissimo?!\nCerchi di farmi prendere un colpo...? Smettila, o non ti parlo più!"
+            ],
+            "Idle": [
+                "Con questo silenzio... mi viene voglia di parlare con qualcuno...\nE-Ehilà? C'è nessuno? Venite a chiacchierare con Arsenale! Per favore?"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.05,
+                "IsCharged3": 1.1,
+                "HasDamagedWithAttack": 1.01
+            },
+            "SkillUse": {
+                "Dardo d'Assalto": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 1
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Carica Doppia": {
+                    "BaseWeight": 500,
+                    "Source": {
+                        "IsNotAlone": 100
+                    }
+                },
+                "Lama Carica": {
+                    "BaseWeight": 1.5,
+                    "Source": {
+                        "HasDamagedWithAttackAndEnemyNOTProtected": 0.0001
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.001,
+                        "IsMirage": 0.1,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsMechaSisterNew": 0.25,
+                        "IsThorRegular": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Comando del Graal": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "IsNotAlone": 100,
+                        "3EnemiesDisabled": 0,
+                        "AllEnemiesDisabled": 0,
+                        "AllEnemiesDisabledAlt": 0,
+                        "EnemyIsAloneAndDisabled": 0
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentHPA45": {
+                "RelationshipName": "Guardiani del Graal",
+                "RelationshipFamily": [
+                    "GalahadRegular01",
+                    "ArsenalRegular01",
+                    "FireGirlWarrior01",
+                    "FloatingMage01",
+                    "ElfBattleMage01"
+                ],
+                "RelationshipBuff": "PV+3%"
+            }
+        }
     }
 }
