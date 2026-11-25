@@ -56945,5 +56945,749 @@
                 }
             }
         }
+    },
+    "KingArthurModernBoss01": {
+        "Name": "Rey Arturo Furiosa",
+        "FullName": "Rey Arturo Furiosa",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 605,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Juego de Poder",
+                "SkillDescription": "Inflige 250% de daño a 1 enemigo, más 150% adicional por cada vez que esta habilidad se haya utilizado durante el combate (hasta un máximo del 1000% de daño total). Este ataque ignora los efectos de reducción de daño. El daño provocado por este ataque no despierta a los enemigos que estén dormidos. Además, si el usuario posee una Carga Poder, la consume para reducir su propio valor de TU actual en 100TU.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Privilegio Real",
+                "SkillDescription": "Otorga a todos los aliados un Guarda Sueño, Guarda Aturdir y Guarda Veneno. Cada Guarda evita que el efecto nombrado se aplique una vez, y luego se elimina. Los guardas idénticos no se pueden acumular.\n\nEl usuario obtiene una Carga Poder. Las Cargas Poder pueden ser consumidas por ciertas habilidades para activar o potenciar sus efectos. Las Cargas Poder no son acumulables y se eliminan cuando el usuario abandona el campo de batalla.\n\nEsta habilidad queda bloqueada durante 50TU después de su uso. Puede utilizarse 5 veces por batalla.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Regreso Real",
+                "SkillDescription": "Los aliados obtienen 10 de Espíritu.\n\nEl usuario recupera el 50% de sus HP máximos, obtiene una Carga Poder y el efecto de su habilidad pasiva Sobrevivir+ se restablece, permitiendo que vuelva a activarse.\n\nEsta habilidad permanece bloqueada hasta que el efecto de la habilidad pasiva Sobrevivir+ del usuario se active en el campo de batalla, y se bloquea después de cada uso. Puede utilizarse una vez por batalla.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Sucesora Real",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada, sobrevive con 1 HP y no puede ser derrotada hasta su siguiente turno. Este efecto sólo puede activarse una vez cada vez que la unidad entra en el campo de batalla y se considera un efecto de tipo Sobrevivir+.\n\nEsta unidad no puede ser Aturdida hasta que haya derrotado a 1 enemigo mediante un ataque mientras se encuentre en el campo de batalla.\n\nLos ataques de esta unidad ignoran cualquier efecto, proveniente de enemigos que no sean jefes, que impida que los objetivos sean derrotados.\n\nTras entrar en el campo de batalla, durante 100TU, al finalizar cada uno de sus turnos esta unidad aleatoriamente:\n- deshabilitará al enemigo con menor TU actual durante 30TU. Cuando las habilidades activas de una unidad están deshabilitadas y le llega su turno, la unidad pierde dicho turno, como si estuviera dormida. Este efecto no afecta a las unidades jefes, no puede ser purificado y termina si esta unidad es derrotada.\n - Adelantará el turno de todos los demás aliados en el campo de batalla reduciendo su TU actual. Estas reducciones de TU pueden aplicarse antes o después de otros efectos que modifiquen el orden de los turnos.\n - Fortificará a 2 aliados aleatorios que no cuenten con el estado de fortificar. Una unidad Fortificada obtiene una reducción del 50% en el daño recibido por ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. El efecto de Fortificar desaparece tras reducir el daño en 3 ocasiones desde su aplicación, y se reinicia si vuelve a aplicarse. No se considera un efecto de estado."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "Atarceder del Rey+",
+                "SkillDescription": "El Ataque de esta unidad aumenta a 1.5x.\nEl Costo de TU de Habilidad Activa de esta unidad se reduce un 50%.\nEsta unidad tiene un 50% de reducción de daño por ataques.\n\nTodos estos efectos se activan cuando esta unidad entra en el campo de batalla al comienzo de la batalla y finalizarán si la unidad abandona el campo de batalla. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\n-Este aumento de Ataque no se acumula con los efectos de Enfurecer.\n-Esto no reducirá el costo de TU por debajo de 1TU.\n-Los efectos de Acelerar no reducirán aún más el costo de TU de esta unidad."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Juego de Poder": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Privilegio Real": {
+                    "BaseWeight": 250
+                },
+                "Regreso Real": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "KingArthurModernBoss03": {
+        "Name": "Rey Arturo",
+        "FullName": "Rey Arturo",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Mandoble",
+        "forFilter_Element": "Life",
+        "Element": "Luz",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 190500,
+        "Speed": 605,
+        "Power": 2466000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Juego de Poder",
+                "SkillDescription": "Inflige 250% de daño a 1 enemigo, más 150% adicional por cada vez que esta habilidad se haya utilizado durante el combate (hasta un máximo del 1000% de daño total). Este ataque ignora los efectos de reducción de daño. El daño provocado por este ataque no despierta a los enemigos que estén dormidos. Además, si el usuario posee una Carga Poder, la consume para reducir su propio valor de TU actual en 100TU.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Privilegio Real",
+                "SkillDescription": "Otorga a todos los aliados un Guarda Sueño, Guarda Aturdir y Guarda Veneno. Cada Guarda evita que el efecto nombrado se aplique una vez, y luego se elimina. Los guardas idénticos no se pueden acumular.\n\nEl usuario obtiene una Carga Poder. Las Cargas Poder pueden ser consumidas por ciertas habilidades para activar o potenciar sus efectos. Las Cargas Poder no son acumulables y se eliminan cuando el usuario abandona el campo de batalla.\n\nEsta habilidad queda bloqueada durante 50TU después de su uso. Puede utilizarse 5 veces por batalla.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Regreso Real",
+                "SkillDescription": "Los aliados obtienen 10 de Espíritu.\n\nEl usuario recupera el 50% de sus HP máximos, obtiene una Carga Poder y el efecto de su habilidad pasiva Sobrevivir+ se restablece, permitiendo que vuelva a activarse.\n\nEsta habilidad permanece bloqueada hasta que el efecto de la habilidad pasiva Sobrevivir+ del usuario se active en el campo de batalla, y se bloquea después de cada uso. Puede utilizarse una vez por batalla.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAKingArthurModernBoss",
+                "SkillTitle": "Orden Ejecutiva",
+                "SkillDescription": "900% de daño a 2 enemigos y otorga al usuario una Carga Poder. Este ataque ignora el estado de Sigilo.\n\nSe desbloquea cada vez que 2 o más unidades entran al campo de batalla como refuerzos, ya sea desde que el usuario entró al campo o desde la última vez que se utilizó esta habilidad. Las unidades que entran en el campo de batalla al mismo tiempo que el usuario no contarán para desbloquear esta habilidad. Esta habilidad vuelve a bloquearse después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 120,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Sucesora Real",
+                "SkillDescription": "Si esta unidad fuera a ser derrotada, sobrevive con 1 HP y no puede ser derrotada hasta su siguiente turno. Este efecto sólo puede activarse una vez cada vez que la unidad entra en el campo de batalla y se considera un efecto de tipo Sobrevivir+.\n\nEsta unidad no puede ser Aturdida hasta que haya derrotado a 1 enemigo mediante un ataque mientras se encuentre en el campo de batalla.\n\nLos ataques de esta unidad ignoran cualquier efecto, proveniente de enemigos que no sean jefes, que impida que los objetivos sean derrotados.\n\nTras entrar en el campo de batalla, durante 100TU, al finalizar cada uno de sus turnos esta unidad aleatoriamente:\n- deshabilitará al enemigo con menor TU actual durante 30TU. Cuando las habilidades activas de una unidad están deshabilitadas y le llega su turno, la unidad pierde dicho turno, como si estuviera dormida. Este efecto no afecta a las unidades jefes, no puede ser purificado y termina si esta unidad es derrotada.\n - Adelantará el turno de todos los demás aliados en el campo de batalla reduciendo su TU actual. Estas reducciones de TU pueden aplicarse antes o después de otros efectos que modifiquen el orden de los turnos.\n - Fortificará a 2 aliados aleatorios que no cuenten con el estado de fortificar. Una unidad Fortificada obtiene una reducción del 50% en el daño recibido por ataques. Esta reducción no puede ser ignorada por ataques que no ignoren específicamente Fortificar. El efecto de Fortificar desaparece tras reducir el daño en 3 ocasiones desde su aplicación, y se reinicia si vuelve a aplicarse. No se considera un efecto de estado."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "Atarceder del Rey+",
+                "SkillDescription": "El Ataque de esta unidad aumenta a 1.5x.\nEl Costo de TU de Habilidad Activa de esta unidad se reduce un 50%.\nEsta unidad tiene un 50% de reducción de daño por ataques.\n\nTodos estos efectos se activan cuando esta unidad entra en el campo de batalla al comienzo de la batalla y finalizarán si la unidad abandona el campo de batalla. Esta unidad no puede ser enviada a los refuerzos desde el campo de batalla.\n\n-Este aumento de Ataque no se acumula con los efectos de Enfurecer.\n-Esto no reducirá el costo de TU por debajo de 1TU.\n-Los efectos de Acelerar no reducirán aún más el costo de TU de esta unidad."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Juego de Poder": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Privilegio Real": {
+                    "BaseWeight": 250
+                },
+                "Regreso Real": {
+                    "BaseWeight": 500
+                },
+                "Orden Ejecutiva": {
+                    "BaseWeight": 20,
+                    "Source": {
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss01": {
+        "Name": "Lancelot",
+        "FullName": "Lancelot",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Espada",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Plazo Candente",
+                "SkillDescription": "Inflige 500% de daño a 1 enemigo.\n\nSi el objetivo estaba Ardiendo, este objetivo es Debilitado.\n\nLas unidades Debilitadas ven su ataque reducido a 0,75x hasta el final de su siguiente turno. El efecto de Debilitar puede verse atenuado si el Ataque de la unidad afectada aumenta debido a otros efectos, y puede ser sobrescrito por efectos de Enfurecer.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Simulacro de Fuego",
+                "SkillDescription": "Roba hasta 1 Espíritu del equipo enemigo por cada enemigo que esté ardiendo en el campo de batalla.\n\nPara todos los aliados que estén ardiendo:\n -Se reduce su TU actual en 50TU y se disminuye en un 30% el costo de TU de todas sus habilidades (esto sobrescribe los efectos de otras habilidades de Acelerar.\n\nA continuación, todos los enemigos en el campo de batalla quedan bajo el efecto de Quemado. Esto sobrescribe otros efectos de estado en estas unidades.\n\nEsta habilidad queda bloqueada durante 50TU después de su uso.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Corte Ardiente",
+                "SkillDescription": "1000% de daño a 1 enemigo. Menos 150% de daño por cada enemigo en el campo de batalla que no esté dormido ni ardiendo (máximo -600% si hay 4 enemigos que no estén ni dormidos ni quemados). Este ataque ignora los efectos de reducción de daño.\n\nSólo puede utilizarse si algún aliado en el campo de batalla tiene el efecto de estado Quemado. Se clasifica como una habilidad de tipo Explosión de Fuego.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Caballero de Oficina",
+                "SkillDescription": "Esta unidad entra en combate con Mega Quemado Sanador durante 100TU.\n\nEsta unidad no puede ser derrotada por el daño provocado por estados de Quemado, ni puede ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad ignoran cualquier efecto de enemigos que no sean jefes que impida que los objetivos sean derrotados.\n\nSi esta unidad inflige daño mediante un ataque a un enemigo que está ardiendo, obtendrá un turno adicional. Los objetivos que hayan recibido daño no pueden activar este efecto de nuevo hasta que avance su TU. Los efectos que alteran el orden de TU pueden interrumpir este turno adicional (por ejemplo, efectos de aturdir dirigidos a la unidad con TU más bajo).\n\nUna unidad bajo el efecto de Mega Quemado Sanador se curará tras cada turno a un ritmo 20 veces superior al de Quemado Sanador. Este estado sobrescribe otros efectos, incluido Quemado Sanador, no puede ser reemplazado por los estados de Quemado, Veneno o Sueño, y no puede ser eliminado mediante Purificación. Cualquier unidad que inflija daño a, o reciba daño de, una unidad con Mega Quemado Sanador pasará a estar bajo el estado de Quemado. Cuando el efecto de Mega Quemado Sanador acabe, la unidad recibirá Quemado Sanador durante 300 TU."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Llamas Preciosas",
+                "SkillDescription": "Cada vez que esta unidad derrota con un ataque a un enemigo no invocado, se añade un Impostor al siguiente en línea de los refuerzos enemigos.\n\nSi esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras le queda más de 1 HP, sobrevive con 1 HP.\n\nSi esta unidad está en llamas, obtiene esta unidad:\n- no puede ser Aturdida.\n- Tiene un 50% de reducción al daño de los ataques."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Plazo Candente": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Simulacro de Fuego": {
+                    "BaseWeight": 500
+                },
+                "Corte Ardiente": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss03": {
+        "Name": "Mega Lancelot",
+        "FullName": "Mega Lancelot",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Espada",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 999,
+        "Atk_Base": 4000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2376000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Plazo Candente",
+                "SkillDescription": "Inflige 500% de daño a 1 enemigo.\n\nSi el objetivo estaba Ardiendo, este objetivo es Debilitado.\n\nLas unidades Debilitadas ven su ataque reducido a 0,75x hasta el final de su siguiente turno. El efecto de Debilitar puede verse atenuado si el Ataque de la unidad afectada aumenta debido a otros efectos, y puede ser sobrescrito por efectos de Enfurecer.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Simulacro de Fuego",
+                "SkillDescription": "Roba hasta 1 Espíritu del equipo enemigo por cada enemigo que esté ardiendo en el campo de batalla.\n\nPara todos los aliados que estén ardiendo:\n -Se reduce su TU actual en 50TU y se disminuye en un 30% el costo de TU de todas sus habilidades (esto sobrescribe los efectos de otras habilidades de Acelerar.\n\nA continuación, todos los enemigos en el campo de batalla quedan bajo el efecto de Quemado. Esto sobrescribe otros efectos de estado en estas unidades.\n\nEsta habilidad queda bloqueada durante 50TU después de su uso.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Corte Ardiente",
+                "SkillDescription": "1000% de daño a 1 enemigo. Menos 150% de daño por cada enemigo en el campo de batalla que no esté dormido ni ardiendo (máximo -600% si hay 4 enemigos que no estén ni dormidos ni quemados). Este ataque ignora los efectos de reducción de daño.\n\nSólo puede utilizarse si algún aliado en el campo de batalla tiene el efecto de estado Quemado. Se clasifica como una habilidad de tipo Explosión de Fuego.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackARoundTableModernBoss",
+                "SkillTitle": "Tajo Definitivo",
+                "SkillDescription": "1100% de daño a 1 enemigo. Este ataque ignora los efectos enemigos de reducción de daño, las habilidades pasivas de tipo piel y el efecto de estado Contraofensiva.\n\nSe desbloquea después de que el usuario haya realizado otros 3 ataques. La habilidad vuelve a bloquearse después de cada uso o si el usuario abandona el campo de batalla. Se puede usar 5 veces por combate.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Caballero de Oficina",
+                "SkillDescription": "Esta unidad entra en combate con Mega Quemado Sanador durante 100TU.\n\nEsta unidad no puede ser derrotada por el daño provocado por estados de Quemado, ni puede ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad ignoran cualquier efecto de enemigos que no sean jefes que impida que los objetivos sean derrotados.\n\nSi esta unidad inflige daño mediante un ataque a un enemigo que está ardiendo, obtendrá un turno adicional. Los objetivos que hayan recibido daño no pueden activar este efecto de nuevo hasta que avance su TU. Los efectos que alteran el orden de TU pueden interrumpir este turno adicional (por ejemplo, efectos de aturdir dirigidos a la unidad con TU más bajo).\n\nUna unidad bajo el efecto de Mega Quemado Sanador se curará tras cada turno a un ritmo 20 veces superior al de Quemado Sanador. Este estado sobrescribe otros efectos, incluido Quemado Sanador, no puede ser reemplazado por los estados de Quemado, Veneno o Sueño, y no puede ser eliminado mediante Purificación. Cualquier unidad que inflija daño a, o reciba daño de, una unidad con Mega Quemado Sanador pasará a estar bajo el estado de Quemado. Cuando el efecto de Mega Quemado Sanador acabe, la unidad recibirá Quemado Sanador durante 300 TU."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Llamas Preciosas",
+                "SkillDescription": "Cada vez que esta unidad derrota con un ataque a un enemigo no invocado, se añade un Impostor al siguiente en línea de los refuerzos enemigos.\n\nSi esta unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras le queda más de 1 HP, sobrevive con 1 HP.\n\nSi esta unidad está en llamas, obtiene esta unidad:\n- no puede ser Aturdida.\n- Tiene un 50% de reducción al daño de los ataques."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Plazo Candente": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Simulacro de Fuego": {
+                    "BaseWeight": 500
+                },
+                "Corte Ardiente": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Tajo Definitivo": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss01": {
+        "Name": "Merlín",
+        "FullName": "Merlín",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Báculo",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Calor Debilitante",
+                "SkillDescription": "Ataca a 1 enemigo. A este enemigo se le aplicará el efecto de estado Quemado, y luego queda Debilitado. Al usar esta habilidad, se desbloquea CiberProtocolo, y vuelve a bloquearse hasta que el usuario emplee Protocolo Fuego o abandone el campo de batalla.\n\nLas unidades Debilitadas ven su ataque reducido a 0,75x hasta el final de su siguiente turno. El efecto Debilitar puede verse atenuado si el ataque de la unidad afectada aumenta debido a otros efectos, y puede ser sobreescrito por efectos de Enfurecer.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "CiberProtocolo",
+                "SkillDescription": "Quema a todos los aliados en el campo de batalla y les otorga un Escudo Quemado.\n\nTodos los enemigos en el campo de batalla que ya estén ardiendo quedarán aturdidos durante 50TU. El resto de los enemigos recibirán el estado de Quemado y quedarán Debilitados.\n\nEsta habilidad permanece bloqueada hasta que se desbloquea mediante Conjunto Ignición, y desbloquea el Protocolo Fuego al usarse. Esta habilidad vuelve a bloquearse después de cada uso o si el usuario abandona el campo de batalla.\n\nQuemado sobrescribirá otros efectos de estado en dichas unidades. Los Escudos Quemado evitan que se aplique el siguiente efecto de estado que no sea de quemadura que una unidad recibiría mientras se encuentra Quemada.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Protocolo Fuego",
+                "SkillDescription": "400% de daño a un enemigo, más 150% adicional por cada unidad que esté ardiendo en el campo de batalla (máximo 1000% de daño total si hay 4 o más unidades ardiendo).\n\nSi este daño no logra derrotar al objetivo, el TU actual de otros dos aliados aleatorios en el campo de batalla se reduce en 50TU.\n\nEsta habilidad permanece bloqueada hasta que se desbloquea mediante CiberProtocolo, y al utilizarla se desbloquea Conjunto Ignición. La habilidad vuelve a bloquearse después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 40,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "CiberHechicera",
+                "SkillDescription": "Esta unidad comienza el combate con Mega Quemado Sanador durante 100 TU.\n\nSi la unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras le queda más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad no puede ser derrotada por el daño provocado por efectos de estado de tipo Quemado, ni puede ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad ignoran los efectos de reducción de daño, así como cualquier efecto proveniente de enemigos que no sean jefes que impida que los objetivos sean derrotados."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Acceso por Rooteo",
+                "SkillDescription": "Esta unidad es inmune a los efectos de aturdir.\n\nPosee una reducción del 50% contra el daño recibido por ataques.\n\nAl finalizar cada uno de sus turnos, si la unidad cuenta con una Carga Poder, la unidad consumirá esta Carga Poder para curar a todos los aliados un 1% de sus HP máximos y aplicarles el estado Enfurecer. De lo contrario, la unidad obtendrá una Carga Poder. Esto sobrescribe los estados de Enfurecer proveniente de otras habilidades en dichas unidades. Las unidades Enfurecidas ven su ataque multiplicado por 1.5 hasta el final de su siguiente turno. Las Cargas Poder pueden ser consumidas por ciertas habilidades para activar o potenciar sus efectos. Las Cargas Poder no son acumulables y se eliminan si el usuario abandona el campo de batalla."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Calor Debilitante": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "CiberProtocolo": {
+                    "BaseWeight": 250
+                },
+                "Protocolo Fuego": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss03": {
+        "Name": "Mega Merlín",
+        "FullName": "Mega Merlín",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Báculo",
+        "forFilter_Element": "Fire",
+        "Element": "Fuego",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Calor Debilitante",
+                "SkillDescription": "Ataca a 1 enemigo. A este enemigo se le aplicará el efecto de estado Quemado, y luego queda Debilitado. Al usar esta habilidad, se desbloquea CiberProtocolo, y vuelve a bloquearse hasta que el usuario emplee Protocolo Fuego o abandone el campo de batalla.\n\nLas unidades Debilitadas ven su ataque reducido a 0,75x hasta el final de su siguiente turno. El efecto Debilitar puede verse atenuado si el ataque de la unidad afectada aumenta debido a otros efectos, y puede ser sobreescrito por efectos de Enfurecer.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "CiberProtocolo",
+                "SkillDescription": "Quema a todos los aliados en el campo de batalla y les otorga un Escudo Quemado.\n\nTodos los enemigos en el campo de batalla que ya estén ardiendo quedarán aturdidos durante 50TU. El resto de los enemigos recibirán el estado de Quemado y quedarán Debilitados.\n\nEsta habilidad permanece bloqueada hasta que se desbloquea mediante Conjunto Ignición, y desbloquea el Protocolo Fuego al usarse. Esta habilidad vuelve a bloquearse después de cada uso o si el usuario abandona el campo de batalla.\n\nQuemado sobrescribirá otros efectos de estado en dichas unidades. Los Escudos Quemado evitan que se aplique el siguiente efecto de estado que no sea de quemadura que una unidad recibiría mientras se encuentra Quemada.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Protocolo Fuego",
+                "SkillDescription": "400% de daño a un enemigo, más 150% adicional por cada unidad que esté ardiendo en el campo de batalla (máximo 1000% de daño total si hay 4 o más unidades ardiendo).\n\nSi este daño no logra derrotar al objetivo, el TU actual de otros dos aliados aleatorios en el campo de batalla se reduce en 50TU.\n\nEsta habilidad permanece bloqueada hasta que se desbloquea mediante CiberProtocolo, y al utilizarla se desbloquea Conjunto Ignición. La habilidad vuelve a bloquearse después de cada uso o si el usuario abandona el campo de batalla.",
+                "TU": 40,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMerlinModernBoss",
+                "SkillTitle": "Caída Arcana",
+                "SkillDescription": "1100% de daño a un enemigo.\n\nSi este daño no derrota al objetivo, el TU actual de todos los aliados en el campo de batalla se reduce en 50TU.\n\nSólo puede utilizarse si todos los enemigos en el campo de batalla están ardiendo, o si el usuario no está ardiendo.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "CiberHechicera",
+                "SkillDescription": "Esta unidad comienza el combate con Mega Quemado Sanador durante 100 TU.\n\nSi la unidad fuera a ser derrotada por un ataque enemigo o un efecto de estado mientras le queda más de 1 HP, sobrevive con 1 HP.\n\nEsta unidad no puede ser derrotada por el daño provocado por efectos de estado de tipo Quemado, ni puede ser enviada a los refuerzos desde el campo de batalla.\n\nLos ataques de esta unidad ignoran los efectos de reducción de daño, así como cualquier efecto proveniente de enemigos que no sean jefes que impida que los objetivos sean derrotados."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Acceso por Rooteo",
+                "SkillDescription": "Esta unidad es inmune a los efectos de aturdir.\n\nPosee una reducción del 50% contra el daño recibido por ataques.\n\nAl finalizar cada uno de sus turnos, si la unidad cuenta con una Carga Poder, la unidad consumirá esta Carga Poder para curar a todos los aliados un 1% de sus HP máximos y aplicarles el estado Enfurecer. De lo contrario, la unidad obtendrá una Carga Poder. Esto sobrescribe los estados de Enfurecer proveniente de otras habilidades en dichas unidades. Las unidades Enfurecidas ven su ataque multiplicado por 1.5 hasta el final de su siguiente turno. Las Cargas Poder pueden ser consumidas por ciertas habilidades para activar o potenciar sus efectos. Las Cargas Poder no son acumulables y se eliminan si el usuario abandona el campo de batalla."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Calor Debilitante": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "CiberProtocolo": {
+                    "BaseWeight": 250
+                },
+                "Protocolo Fuego": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Caída Arcana": {
+                    "BaseWeight": 5,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
     }
 }

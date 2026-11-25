@@ -56945,5 +56945,749 @@
                 }
             }
         }
+    },
+    "KingArthurModernBoss01": {
+        "Name": "アーサー王",
+        "FullName": "アーサー王",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大剣",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 605,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "オメガドライブ",
+                "SkillDescription": "敵1体に250%ダメージ。この攻撃のダメージ量は、このキャラが場に出てからこのスキルを使用するごとに150%ずつ増加していく（最大750%増加）。この攻撃は対象のダメージ減少効果を無視する。この攻撃のダメージでは対象の眠り状態は解除されない。\n\nその後、使用者がパワーチャージ状態であれば自身のTUを100TU減少させ、その後パワーチャージは解除される。",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "アドバンテージ",
+                "SkillDescription": "味方全員に「ワンタイムアンチスリープ」、「ワンタイムアンチスタン」、「ワンタイムアンチポイズン」を付与する。また、使用者は自身に「パワーチャージ」を付与する。\n\nこのスキルは使用後、50TUの間ロックされる。1回のバトルにつき5回まで使用可能。\n\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-パワーチャージは特定のスキルの使用条件や効果の発動条件などに影響する。パワーチャージは重複せず、場から離れると解除される。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "重役特権",
+                "SkillDescription": "味方のスピリットが10増加する。\n\n使用者は自身のHPを最大値の50%分回復し、「パワーチャージ」を得る。また、使用者のアイアンハート+効果がすでに発動していればそれがリセットされ、条件を満たせば再度発動するようになる。\n\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラのアイアンハート+の効果が発動すると解除される。1回のバトルにつき1回のみ使用可能。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "冷徹なる後継者",
+                "SkillDescription": "・このキャラがHPが0になるダメージを受けても、HPを1残して生き残る（アイアンハート+効果）。この効果が発動してから次にこのキャラのターンが来るまで、このキャラはHPが0にならない。この効果は、このキャラが場に出るたびに1度のみ発動する。\n\n・このキャラは、場に出てから敵を攻撃で1体以上戦闘不能にするまでの間、スタンの効果を受けない。\n\n・このキャラの攻撃は、対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・このキャラが場に出てから100TUの間、自身のターン終了後、以下のいずれかの効果がランダムで発動する。\n-最もTUが低い敵1体を30TUの間、麻痺させる。この効果はボスに対しては発動しない。\n-自身以外の場にいる味方全員のTUを0にして次のターンを与える。この効果が発動するタイミングと、ターン間に発動する他の効果のタイミングは前後する場合がある。\n-メタル化されていないランダムな味方2体に「メタル化」を付与する。\n\n-麻痺しているキャラにターンが回った時、そのターンは眠り状態の時のようにスキップされる。麻痺は状態変化ではなく、クリア系の効果で解除できない。そのキャラを麻痺させたキャラが戦闘不能になった時、麻痺は解除される。\n-メタル化されたキャラが敵の攻撃で受けるダメージは50%減少する。このダメージ減少効果は、「メタル化を無視する」と明示されている場合を除き無視されない。メタル化は、ダメージ減少効果が3回発動すると解除される。メタル化されたキャラにさらにメタル化が付与された場合、発動回数がリセットされ、また残り3回発動するようになる。メタル化は状態変化ではない。"
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "黎明ノ王+",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、バトル開始時から場に出ていた場合、以下の効果が発動する。これらの効果は、このキャラが一度場から離れると発動しなくなる。\n-攻撃力が1.5倍される。この効果は、アンガー系の効果と重複しない。\n-使用するスキルのTUが50%減少する。この効果によってスキルTUが1TUを下回ることはなく、また他のクイック系の効果によってスキルTUがさらに減少することはない。\n-敵の攻撃で受けるダメージが50%減少する。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "オメガドライブ": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "アドバンテージ": {
+                    "BaseWeight": 250
+                },
+                "重役特権": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "KingArthurModernBoss03": {
+        "Name": "終焉のアーサー王",
+        "FullName": "終焉のアーサー王",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "大剣",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 190500,
+        "Speed": 605,
+        "Power": 2466000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "オメガドライブ",
+                "SkillDescription": "敵1体に250%ダメージ。この攻撃のダメージ量は、このキャラが場に出てからこのスキルを使用するごとに150%ずつ増加していく（最大750%増加）。この攻撃は対象のダメージ減少効果を無視する。この攻撃のダメージでは対象の眠り状態は解除されない。\n\nその後、使用者がパワーチャージ状態であれば自身のTUを100TU減少させ、その後パワーチャージは解除される。",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "アドバンテージ",
+                "SkillDescription": "味方全員に「ワンタイムアンチスリープ」、「ワンタイムアンチスタン」、「ワンタイムアンチポイズン」を付与する。また、使用者は自身に「パワーチャージ」を付与する。\n\nこのスキルは使用後、50TUの間ロックされる。1回のバトルにつき5回まで使用可能。\n\n-「ワンタイムアンチ～」は対応する効果および状態変化の付与を一度だけ無効化し、その後解除される。同じ効果は重複しない。\n-パワーチャージは特定のスキルの使用条件や効果の発動条件などに影響する。パワーチャージは重複せず、場から離れると解除される。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "重役特権",
+                "SkillDescription": "味方のスピリットが10増加する。\n\n使用者は自身のHPを最大値の50%分回復し、「パワーチャージ」を得る。また、使用者のアイアンハート+効果がすでに発動していればそれがリセットされ、条件を満たせば再度発動するようになる。\n\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラのアイアンハート+の効果が発動すると解除される。1回のバトルにつき1回のみ使用可能。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAKingArthurModernBoss",
+                "SkillTitle": "蒼天照",
+                "SkillDescription": "敵2体に900%ダメージを与え、自身に「パワーチャージ」を付与する。この攻撃は対象のステルス状態の効果を無視する。\n\nこのスキルは場に出た時にロックされる。ロック中にキャラ（敵味方問わず）が控えから場に2体以上出るとロックが解除され、使用するたびに再度ロックされる。このキャラと同時に控えから場に出たキャラは、このスキルのロック解除条件の対象とならない。",
+                "TU": 120,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "冷徹なる後継者",
+                "SkillDescription": "・このキャラがHPが0になるダメージを受けても、HPを1残して生き残る（アイアンハート+効果）。この効果が発動してから次にこのキャラのターンが来るまで、このキャラはHPが0にならない。この効果は、このキャラが場に出るたびに1度のみ発動する。\n\n・このキャラは、場に出てから敵を攻撃で1体以上戦闘不能にするまでの間、スタンの効果を受けない。\n\n・このキャラの攻撃は、対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・このキャラが場に出てから100TUの間、自身のターン終了後、以下のいずれかの効果がランダムで発動する。\n-最もTUが低い敵1体を30TUの間、麻痺させる。この効果はボスに対しては発動しない。\n-自身以外の場にいる味方全員のTUを0にして次のターンを与える。この効果が発動するタイミングと、ターン間に発動する他の効果のタイミングは前後する場合がある。\n-メタル化されていないランダムな味方2体に「メタル化」を付与する。\n\n-麻痺しているキャラにターンが回った時、そのターンは眠り状態の時のようにスキップされる。麻痺は状態変化ではなく、クリア系の効果で解除できない。そのキャラを麻痺させたキャラが戦闘不能になった時、麻痺は解除される。\n-メタル化されたキャラが敵の攻撃で受けるダメージは50%減少する。このダメージ減少効果は、「メタル化を無視する」と明示されている場合を除き無視されない。メタル化は、ダメージ減少効果が3回発動すると解除される。メタル化されたキャラにさらにメタル化が付与された場合、発動回数がリセットされ、また残り3回発動するようになる。メタル化は状態変化ではない。"
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "黎明ノ王+",
+                "SkillDescription": "・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラは、バトル開始時から場に出ていた場合、以下の効果が発動する。これらの効果は、このキャラが一度場から離れると発動しなくなる。\n-攻撃力が1.5倍される。この効果は、アンガー系の効果と重複しない。\n-使用するスキルのTUが50%減少する。この効果によってスキルTUが1TUを下回ることはなく、また他のクイック系の効果によってスキルTUがさらに減少することはない。\n-敵の攻撃で受けるダメージが50%減少する。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "オメガドライブ": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "アドバンテージ": {
+                    "BaseWeight": 250
+                },
+                "重役特権": {
+                    "BaseWeight": 500
+                },
+                "蒼天照": {
+                    "BaseWeight": 20,
+                    "Source": {
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss01": {
+        "Name": "ランスロット",
+        "FullName": "ランスロット",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "剣",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "ブレイズランナー",
+                "SkillDescription": "敵1体に500%ダメージ。\n\nその後、攻撃を受けた対象が（そのターンの開始時点で）燃焼状態であれば、対象に「怯え」を付与する。対象の既存の「怯え」系及び「アンガー」系の効果は上書きされる。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "デスマーチ",
+                "SkillDescription": "敵のスピリットを、場にいる燃焼状態の敵1体につき1ずつ減少させ、減少した敵のスピリットと同量分、味方のスピリットを増加させる。\n\n場にいる燃焼状態の味方全員に、以下の効果が発動する。\n-TUが50TU減少する。\n-使用するスキルのTUが30%減少する。この効果は他のクイック系スキルの効果を上書きする。\n\nその後、場にいる敵全員に状態変化「燃焼」を付与する。対象の既存の状態変化は上書きされる。\n\nこのスキルは使用後、50TUの間ロックされる。",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "FIREスラッシュ",
+                "SkillDescription": "敵1体に1000%ダメージ。この攻撃のダメージ量は、場にいる眠り状態でも燃焼状態でもない敵1体につき150%ずつ減少する。この攻撃は対象のダメージ減少効果を無視する。\n\n燃焼状態の味方が場に1体以上いる時のみ使用可能。このスキルは、バーンストライク系のスキルとみなされる。",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "オフィスの騎士",
+                "SkillDescription": "・このキャラは場に出た時、自身に状態変化「燃焼(20倍回復)」(100TU持続)を付与する。既存の状態変化は上書きされる。\n\n・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラの攻撃は、対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・このキャラは、自身の攻撃で燃焼状態の敵にダメージを与えた時、自身のTUを0にして即座に次のターンを得る。この効果は発動後、1TU以上経過するまでは同じ敵（TUが0になる効果が発動した攻撃でダメージを受けていた敵）を攻撃しても発動しない。また、この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n-燃焼(20倍回復)状態のキャラは、ターンが経過するたびに、燃焼(回復)状態の20倍の回復量でHPが回復する。燃焼(20倍回復)状態はクリア系の効果で解除されず、また燃焼状態、毒状態、眠り状態によって上書きされない。燃焼(20倍回復)状態のキャラにダメージを与えたキャラ、および燃焼(20倍回復)状態のキャラからダメージを受けたキャラは通常の燃焼状態になる。燃焼(20倍回復)状態がTUの経過によって解除された場合、そのキャラは300TUの間、状態変化「燃焼(回復)」になる。"
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "ご褒美は辛口で",
+                "SkillDescription": "・このキャラが攻撃で敵（このバトル中にスキルの効果で召喚されたキャラを除く）を倒すたびに、敵の次の控えにインポスターを1体追加する。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラは、自身が燃焼状態の時、以下の効果が発動する。\n-スタンの効果を受けない。\n-敵の攻撃で受けるダメージが50%減少する。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "ブレイズランナー": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "デスマーチ": {
+                    "BaseWeight": 500
+                },
+                "FIREスラッシュ": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss03": {
+        "Name": "企画部ランスロット",
+        "FullName": "企画部ランスロット",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "剣",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 4000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2376000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "ブレイズランナー",
+                "SkillDescription": "敵1体に500%ダメージ。\n\nその後、攻撃を受けた対象が（そのターンの開始時点で）燃焼状態であれば、対象に「怯え」を付与する。対象の既存の「怯え」系及び「アンガー」系の効果は上書きされる。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "デスマーチ",
+                "SkillDescription": "敵のスピリットを、場にいる燃焼状態の敵1体につき1ずつ減少させ、減少した敵のスピリットと同量分、味方のスピリットを増加させる。\n\n場にいる燃焼状態の味方全員に、以下の効果が発動する。\n-TUが50TU減少する。\n-使用するスキルのTUが30%減少する。この効果は他のクイック系スキルの効果を上書きする。\n\nその後、場にいる敵全員に状態変化「燃焼」を付与する。対象の既存の状態変化は上書きされる。\n\nこのスキルは使用後、50TUの間ロックされる。",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "FIREスラッシュ",
+                "SkillDescription": "敵1体に1000%ダメージ。この攻撃のダメージ量は、場にいる眠り状態でも燃焼状態でもない敵1体につき150%ずつ減少する。この攻撃は対象のダメージ減少効果を無視する。\n\n燃焼状態の味方が場に1体以上いる時のみ使用可能。このスキルは、バーンストライク系のスキルとみなされる。",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackARoundTableModernBoss",
+                "SkillTitle": "辻鎌鼬・烈",
+                "SkillDescription": "敵1体に1100%ダメージ。この攻撃は、対象のダメージ減少効果、スキン系のパッシブスキルの効果、およびカウンター状態の効果を無視する。\n\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「辻鎌鼬・烈」以外のスキルで3回敵に攻撃すると解除される。1回のバトルにつき5回まで使用可能。",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "オフィスの騎士",
+                "SkillDescription": "・このキャラは場に出た時、自身に状態変化「燃焼(20倍回復)」(100TU持続)を付与する。既存の状態変化は上書きされる。\n\n・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラの攻撃は、対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。\n\n・このキャラは、自身の攻撃で燃焼状態の敵にダメージを与えた時、自身のTUを0にして即座に次のターンを得る。この効果は発動後、1TU以上経過するまでは同じ敵（TUが0になる効果が発動した攻撃でダメージを受けていた敵）を攻撃しても発動しない。また、この効果は、TUに影響する効果（「最もTUが低いキャラをスタンさせる」など）によって中断されることもある。\n\n-燃焼(20倍回復)状態のキャラは、ターンが経過するたびに、燃焼(回復)状態の20倍の回復量でHPが回復する。燃焼(20倍回復)状態はクリア系の効果で解除されず、また燃焼状態、毒状態、眠り状態によって上書きされない。燃焼(20倍回復)状態のキャラにダメージを与えたキャラ、および燃焼(20倍回復)状態のキャラからダメージを受けたキャラは通常の燃焼状態になる。燃焼(20倍回復)状態がTUの経過によって解除された場合、そのキャラは300TUの間、状態変化「燃焼(回復)」になる。"
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "ご褒美は辛口で",
+                "SkillDescription": "・このキャラが攻撃で敵（このバトル中にスキルの効果で召喚されたキャラを除く）を倒すたびに、敵の次の控えにインポスターを1体追加する。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラは、自身が燃焼状態の時、以下の効果が発動する。\n-スタンの効果を受けない。\n-敵の攻撃で受けるダメージが50%減少する。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "ブレイズランナー": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "デスマーチ": {
+                    "BaseWeight": 500
+                },
+                "FIREスラッシュ": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "辻鎌鼬・烈": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss01": {
+        "Name": "マーリン",
+        "FullName": "マーリン",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "スタートアップ",
+                "SkillDescription": "敵1体を選択。対象の燃焼状態（燃焼(20倍回復)状態なども含む）を解除し、「怯え」を付与する。対象の既存の「怯え」系及び「アンガー」系の効果は上書きされる。\n\nこのスキルを使用後、「燃焼プロトコル」のロックが解除される。\nこのスキルは使用後ロックされ、このキャラが場を離れるか、「オーバーヒート」を使用するまで解除されない。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "燃焼プロトコル",
+                "SkillDescription": "場にいる味方全員に状態変化「燃焼」および「バーンシールド」を付与する。対象の既存の状態変化は上書きされる。\n\n場にいる燃焼状態の敵全員を、50TUの間スタンする。場にいる燃焼状態でない敵全員に状態変化「燃焼」および「怯え」を付与する。対象の既存の状態変化、および「アンガー」系、「怯え」系の効果は上書きされる。\n\nこのスキルを使用後、「オーバーヒート」のロックが解除される。\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「スタートアップ」を使用すると解除される。\n\n-バーンシールドを持つキャラは、自身が燃焼状態のとき、次に付与された状態変化（燃焼状態を除く）に燃焼状態が上書きされるのを一度だけ無効化する。",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "オーバーヒート",
+                "SkillDescription": "敵1体に400%ダメージ。この攻撃のダメージ量は、場にいる燃焼状態のキャラ（敵味方問わず）1体につき150%ずつ増加する（最大600%増加）。\n\nこの攻撃のダメージで対象が戦闘不能にならなかった場合、使用者以外の場にいるランダムな味方2体のTUを50TU減少させる。\n\nこのスキルを使用後、「スタートアップ」のロックが解除される。\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「燃焼プロトコル」を使用すると解除される。",
+                "TU": 40,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "電脳魔女",
+                "SkillDescription": "・このキャラは場に出た時、自身に状態変化「燃焼(20倍回復)」(100TU持続)を付与する。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-対象のダメージ減少効果を無視する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。"
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "マジカルハッカー",
+                "SkillDescription": "・このキャラは、スタンの効果を受けない。\n\n・このキャラが敵の攻撃で受けるダメージは50%減少する。\n\n・このキャラは、自身にターンが回った時、そのターンの終了後に自身がパワーチャージ状態であれば、味方全員のHPをそれぞれの最大値の1%分回復し、「アンガー」を付与する。その後、パワーチャージは解除される。対象の既存の「怯え」系及び「アンガー」系の効果は上書きされる。そのターンの終了後に自身がパワーチャージ状態でなければ、自身にパワーチャージを付与する。\n\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n-パワーチャージは特定のスキルの使用条件や効果の発動条件などに影響する。パワーチャージは重複せず、場から離れると解除される。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "スタートアップ": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "燃焼プロトコル": {
+                    "BaseWeight": 250
+                },
+                "オーバーヒート": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss03": {
+        "Name": "サボり癖マーリン",
+        "FullName": "サボり癖マーリン",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "杖",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "スタートアップ",
+                "SkillDescription": "敵1体を選択。対象の燃焼状態（燃焼(20倍回復)状態なども含む）を解除し、「怯え」を付与する。対象の既存の「怯え」系及び「アンガー」系の効果は上書きされる。\n\nこのスキルを使用後、「燃焼プロトコル」のロックが解除される。\nこのスキルは使用後ロックされ、このキャラが場を離れるか、「オーバーヒート」を使用するまで解除されない。\n\n-怯え状態のキャラは次のターンの攻撃力が0.75倍され、その後怯え状態は解除される。他の効果によって攻撃力が増加している場合、怯えによる効果は減少することがある。",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "燃焼プロトコル",
+                "SkillDescription": "場にいる味方全員に状態変化「燃焼」および「バーンシールド」を付与する。対象の既存の状態変化は上書きされる。\n\n場にいる燃焼状態の敵全員を、50TUの間スタンする。場にいる燃焼状態でない敵全員に状態変化「燃焼」および「怯え」を付与する。対象の既存の状態変化、および「アンガー」系、「怯え」系の効果は上書きされる。\n\nこのスキルを使用後、「オーバーヒート」のロックが解除される。\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「スタートアップ」を使用すると解除される。\n\n-バーンシールドを持つキャラは、自身が燃焼状態のとき、次に付与された状態変化（燃焼状態を除く）に燃焼状態が上書きされるのを一度だけ無効化する。",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "オーバーヒート",
+                "SkillDescription": "敵1体に400%ダメージ。この攻撃のダメージ量は、場にいる燃焼状態のキャラ（敵味方問わず）1体につき150%ずつ増加する（最大600%増加）。\n\nこの攻撃のダメージで対象が戦闘不能にならなかった場合、使用者以外の場にいるランダムな味方2体のTUを50TU減少させる。\n\nこのスキルを使用後、「スタートアップ」のロックが解除される。\nこのスキルは場に出た時にロックされ、使用するたびに再度ロックされる。ロックは、このキャラが「燃焼プロトコル」を使用すると解除される。",
+                "TU": 40,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMerlinModernBoss",
+                "SkillTitle": "強制終了",
+                "SkillDescription": "敵1体に1100%ダメージ。\n\nこの攻撃のダメージで対象が戦闘不能にならなかった場合、場にいる味方全員のTUを50TU減少させる。\n\n「場にいる敵全員が燃焼状態」または「使用者が燃焼状態でない」のいずれかの条件を満たしている場合のみ使用可能。",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "電脳魔女",
+                "SkillDescription": "・このキャラは場に出た時、自身に状態変化「燃焼(20倍回復)」(100TU持続)を付与する。\n\n・このキャラのHPが1より多い状態から、敵の攻撃や状態変化によってHPが0になるダメージを受けた時、HPを1残して生き残る。\n\n・このキャラは、燃焼によるダメージで戦闘不能にならない。\n\n・このキャラは、スキルの効果でチームの控えに戻されない。\n\n・このキャラの攻撃は、以下の効果を持つ。\n-対象のダメージ減少効果を無視する。\n-対象のアイアンハートなど、HPが1を下回るダメージを耐えるパッシブスキル及びアクティブスキルの効果を無視する（ボスの持つスキルは除く）。"
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "マジカルハッカー",
+                "SkillDescription": "・このキャラは、スタンの効果を受けない。\n\n・このキャラが敵の攻撃で受けるダメージは50%減少する。\n\n・このキャラは、自身にターンが回った時、そのターンの終了後に自身がパワーチャージ状態であれば、味方全員のHPをそれぞれの最大値の1%分回復し、「アンガー」を付与する。その後、パワーチャージは解除される。対象の既存の「怯え」系及び「アンガー」系の効果は上書きされる。そのターンの終了後に自身がパワーチャージ状態でなければ、自身にパワーチャージを付与する。\n\n-アンガー状態のキャラは次の自分のターンの攻撃力が1.5倍され、その後アンガー状態は解除される。\n-パワーチャージは特定のスキルの使用条件や効果の発動条件などに影響する。パワーチャージは重複せず、場から離れると解除される。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "スタートアップ": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "燃焼プロトコル": {
+                    "BaseWeight": 250
+                },
+                "オーバーヒート": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "強制終了": {
+                    "BaseWeight": 5,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
     }
 }

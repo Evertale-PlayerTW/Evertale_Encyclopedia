@@ -56923,5 +56923,749 @@
                 }
             }
         }
+    },
+    "KingArthurModernBoss01": {
+        "Name": "亚瑟王",
+        "FullName": "亚瑟王",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手剑",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 605,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Power Play",
+                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time this skill has already been used while on the battlefield (max of 1000% total damage). This attack ignores damage reduction effects. Damage from this attack does not wake up sleeping enemies.\n\nThen, if the user has a Power Charge, the user consumes a Power Charge to have their current TU reduced by 100TU.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Regal Privilege",
+                "SkillDescription": "Grants all allies a Sleep Ward, Stun Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThe user is granted a Power Charge. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield.\n\nThis skill becomes locked for 50TU after use. Usable 5 times per battle.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Regal Comeback",
+                "SkillDescription": "Allies gain 10 Spirit.\n\nThe user is healed for 50% of max HP, granted a Power Charge, and the user's Hold Ground+ passive skill effect is reset for the user and can be triggered again.\n\nThis skill is locked until the user's Hold Ground+ passive skill effect is triggered while on the battlefield and is locked again after each use. Usable once per battle.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Regal Successor",
+                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect.\n\nThis unit cannot be Stunned until it has defeated 1 enemy with an attack while on the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nAfter entering the battlefield, for 100TU, after the end of each of this unit's turns, this unit will randomly either:\n- Disable the enemy with the lowest current TU for 30TU. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if this unit is defeated.\n- Give the next turns to all other allies on the battlefield by reducing their current TU. These TU reductions may trigger before or after other effects that adjust the turn order.\n- Fortify 2 random non-fortified allies. A Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "王之黎明+",
+                "SkillDescription": "当一场战斗开始时，若此单位在队伍的先发位置，则直到离场为止此单位攻击力增加为1.5倍，所有主动技能的TU减少50%且受到敌方攻击的伤害减少50%。此单位不能从场上回到援军。\n此技能效果不与狂热效果叠加。此技能不会将主动技能的TU减至1以下。此技能效果生效期间其他加速效果无法减少此单位主动技能的TU。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Power Play": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Regal Privilege": {
+                    "BaseWeight": 250
+                },
+                "Regal Comeback": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "KingArthurModernBoss03": {
+        "Name": "终焉的亚瑟王",
+        "FullName": "终焉的亚瑟王",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手剑",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 190500,
+        "Speed": 605,
+        "Power": 2466000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Power Play",
+                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time this skill has already been used while on the battlefield (max of 1000% total damage). This attack ignores damage reduction effects. Damage from this attack does not wake up sleeping enemies.\n\nThen, if the user has a Power Charge, the user consumes a Power Charge to have their current TU reduced by 100TU.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Regal Privilege",
+                "SkillDescription": "Grants all allies a Sleep Ward, Stun Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThe user is granted a Power Charge. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield.\n\nThis skill becomes locked for 50TU after use. Usable 5 times per battle.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Regal Comeback",
+                "SkillDescription": "Allies gain 10 Spirit.\n\nThe user is healed for 50% of max HP, granted a Power Charge, and the user's Hold Ground+ passive skill effect is reset for the user and can be triggered again.\n\nThis skill is locked until the user's Hold Ground+ passive skill effect is triggered while on the battlefield and is locked again after each use. Usable once per battle.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAKingArthurModernBoss",
+                "SkillTitle": "Executive Order",
+                "SkillDescription": "900% damage to 2 enemies, and the user is granted a Power Charge. This attack ignores the Stealth status effect.\n\nUnlocked each time 2+ units have entered the battlefield from reinforcements since the user entered the battlefield or this skill was last used. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 120,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Regal Successor",
+                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect.\n\nThis unit cannot be Stunned until it has defeated 1 enemy with an attack while on the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nAfter entering the battlefield, for 100TU, after the end of each of this unit's turns, this unit will randomly either:\n- Disable the enemy with the lowest current TU for 30TU. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if this unit is defeated.\n- Give the next turns to all other allies on the battlefield by reducing their current TU. These TU reductions may trigger before or after other effects that adjust the turn order.\n- Fortify 2 random non-fortified allies. A Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "王之黎明+",
+                "SkillDescription": "当一场战斗开始时，若此单位在队伍的先发位置，则直到离场为止此单位攻击力增加为1.5倍，所有主动技能的TU减少50%且受到敌方攻击的伤害减少50%。此单位不能从场上回到援军。\n此技能效果不与狂热效果叠加。此技能不会将主动技能的TU减至1以下。此技能效果生效期间其他加速效果无法减少此单位主动技能的TU。"
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Power Play": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Regal Privilege": {
+                    "BaseWeight": 250
+                },
+                "Regal Comeback": {
+                    "BaseWeight": 500
+                },
+                "Executive Order": {
+                    "BaseWeight": 20,
+                    "Source": {
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss01": {
+        "Name": "兰斯洛特",
+        "FullName": "兰斯洛特",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手剑",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Heated Deadline",
+                "SkillDescription": "500% damage to 1 enemy.\n\nThen, if the hit target was burning, that target is Weakened.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Fire Drill",
+                "SkillDescription": "Steals up to 1 Spirit from the enemy team for each burning enemy on the battlefield.\n\nAll burning allies:\n- Have their current TU reduced by 50TU.\n- Have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills.\n\nThen all enemies on the battlefield are burned. This will overwrite other status effects on those units.\n\nThis skill becomes locked for 50TU after use.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Blazing Cut",
+                "SkillDescription": "1000% damage to 1 enemy. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores damage reduction effects.\n\nUsable if any ally on the battlefield has the Burn status effect. This is considered a Burn Blast type skill.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Office Knight",
+                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nIf this unit damages a burning enemy with an attack, this unit will get another turn. Damaged targets cannot trigger this effect again until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Lovely Flames",
+                "SkillDescription": "Whenever this unit defeats a non-conjured enemy with an attack, an Imposter is added to the next in line of enemy reinforcements.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nIf this unit is burning, this unit:\n- Cannot be Stunned.\n- Has 50% damage reduction from attacks."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Heated Deadline": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Fire Drill": {
+                    "BaseWeight": 500
+                },
+                "Blazing Cut": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss03": {
+        "Name": "企划部兰斯洛特",
+        "FullName": "企划部兰斯洛特",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "单手剑",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 4000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2376000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Heated Deadline",
+                "SkillDescription": "500% damage to 1 enemy.\n\nThen, if the hit target was burning, that target is Weakened.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Fire Drill",
+                "SkillDescription": "Steals up to 1 Spirit from the enemy team for each burning enemy on the battlefield.\n\nAll burning allies:\n- Have their current TU reduced by 50TU.\n- Have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills.\n\nThen all enemies on the battlefield are burned. This will overwrite other status effects on those units.\n\nThis skill becomes locked for 50TU after use.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Blazing Cut",
+                "SkillDescription": "1000% damage to 1 enemy. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores damage reduction effects.\n\nUsable if any ally on the battlefield has the Burn status effect. This is considered a Burn Blast type skill.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackARoundTableModernBoss",
+                "SkillTitle": "Termination Slash",
+                "SkillDescription": "1100% damage to 1 enemy. This attack ignores enemy damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nUnlocked after the user has attacked 3 times with other attacks. This skill is locked again after each use or if the user leaves the battlefield. Usable 5 times per battle.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Office Knight",
+                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nIf this unit damages a burning enemy with an attack, this unit will get another turn. Damaged targets cannot trigger this effect again until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Lovely Flames",
+                "SkillDescription": "Whenever this unit defeats a non-conjured enemy with an attack, an Imposter is added to the next in line of enemy reinforcements.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nIf this unit is burning, this unit:\n- Cannot be Stunned.\n- Has 50% damage reduction from attacks."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Heated Deadline": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Fire Drill": {
+                    "BaseWeight": 500
+                },
+                "Blazing Cut": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Termination Slash": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss01": {
+        "Name": "梅林",
+        "FullName": "梅林",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "法杖",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Weakening Heat",
+                "SkillDescription": "Targets 1 enemy. That enemy will be granted the Burn status effect, then be Weakened. This skill unlocks Cyber Protocol upon use, and becomes locked after use until the user uses Firestorm Protocol or leaves the battlefield.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "Cyber Protocol",
+                "SkillDescription": "Burns all allies on the battlefield, and grants them a Burn Shield.\n\nEach enemy on the battlefield with the Burn status effect will be stunned for 50TU. All other enemies will be granted the Burn status effect, and be Weakened.\n\nThis skill is locked until it becomes unlocked by Kindling Set, and unlocks Firestorm Protocol upon use. This skill is locked again after each use or if the user leaves the battlefield.\n\nBurn will overwrite other status effects on those units. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Firestorm Protocol",
+                "SkillDescription": "400% damage to 1 enemy, plus 150% for each burning unit on the battlefield (max of 1000% total damage if 4 or more units on the battlefield are burning).\n\nIf this damage does not defeat the target, two other random allies on the battlefield have their current TU reduced by 50TU.\n\nThis skill is locked until it becomes unlocked by Cyber Protocol, and unlocks Kindling Set upon use. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 40,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "Cyber Wizard",
+                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Root Access",
+                "SkillDescription": "This unit is not affected by stun effects.\n\nThis unit has 50% damage reduction from attacks.\n\nAfter the end of each of this unit's turns, if this unit has a Power Charge, this unit will consume the Power Charge to heal all allies for 1% of max HP and Enrage them. Otherwise, this unit will gain a Power Charge. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Weakening Heat": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "Cyber Protocol": {
+                    "BaseWeight": 250
+                },
+                "Firestorm Protocol": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss03": {
+        "Name": "懒散的梅林",
+        "FullName": "懒散的梅林",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "法杖",
+        "forFilter_Element": "Fire",
+        "Element": "火",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Weakening Heat",
+                "SkillDescription": "Targets 1 enemy. That enemy will be granted the Burn status effect, then be Weakened. This skill unlocks Cyber Protocol upon use, and becomes locked after use until the user uses Firestorm Protocol or leaves the battlefield.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "Cyber Protocol",
+                "SkillDescription": "Burns all allies on the battlefield, and grants them a Burn Shield.\n\nEach enemy on the battlefield with the Burn status effect will be stunned for 50TU. All other enemies will be granted the Burn status effect, and be Weakened.\n\nThis skill is locked until it becomes unlocked by Kindling Set, and unlocks Firestorm Protocol upon use. This skill is locked again after each use or if the user leaves the battlefield.\n\nBurn will overwrite other status effects on those units. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Firestorm Protocol",
+                "SkillDescription": "400% damage to 1 enemy, plus 150% for each burning unit on the battlefield (max of 1000% total damage if 4 or more units on the battlefield are burning).\n\nIf this damage does not defeat the target, two other random allies on the battlefield have their current TU reduced by 50TU.\n\nThis skill is locked until it becomes unlocked by Cyber Protocol, and unlocks Kindling Set upon use. This skill is locked again after each use or if the user leaves the battlefield.",
+                "TU": 40,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMerlinModernBoss",
+                "SkillTitle": "Arcane Downfall",
+                "SkillDescription": "1100% damage to 1 enemy.\n\nIf this damage does not defeat the target, all allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if all enemies on the battlefield are burning or if the user is not burning.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "Cyber Wizard",
+                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Root Access",
+                "SkillDescription": "This unit is not affected by stun effects.\n\nThis unit has 50% damage reduction from attacks.\n\nAfter the end of each of this unit's turns, if this unit has a Power Charge, this unit will consume the Power Charge to heal all allies for 1% of max HP and Enrage them. Otherwise, this unit will gain a Power Charge. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Weakening Heat": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "Cyber Protocol": {
+                    "BaseWeight": 250
+                },
+                "Firestorm Protocol": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Arcane Downfall": {
+                    "BaseWeight": 5,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
     }
 }

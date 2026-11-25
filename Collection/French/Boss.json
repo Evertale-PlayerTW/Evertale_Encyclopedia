@@ -56716,7 +56716,7 @@
             {
                 "SkillCodename": "AllyBuffAArsenalRegularBoss",
                 "SkillTitle": "Charge Jumelle",
-                "SkillDescription": "L'utilisateur gagne 2 Charges.\n\nTous les alliés du champ de bataille gagnent une Protection Sommeil. Une Protection Sommeil empêche l'application du Sommeil une fois, puis est retirée. Les Protections Sommeil ne peuvent être empilées. Tous les alliés non-endormis du champ de bataille deviendront Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nDéverrouillé à chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "SkillDescription": "L'utilisateur gagne 2 Charges.\n\nTous les alliés du champ de bataille gagnent une Protection Sommeil. Une Protection Sommeil empêche l'application du Sommeil une fois, puis est retirée. Les Protections Sommeil ne peuvent être empilées. Tous les alliés non-endormis du champ de bataille deviendront Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée à x1,5 jusqu'à la fin de leur prochain tour.\n\nDéverrouillé à chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -56837,7 +56837,7 @@
             {
                 "SkillCodename": "AllyBuffAArsenalRegularBoss",
                 "SkillTitle": "Charge Jumelle",
-                "SkillDescription": "L'utilisateur gagne 2 Charges.\n\nTous les alliés du champ de bataille gagnent une Protection Sommeil. Une Protection Sommeil empêche l'application du Sommeil une fois, puis est retirée. Les Protections Sommeil ne peuvent être empilées. Tous les alliés non-endormis du champ de bataille deviendront Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour.\n\nDéverrouillé à chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "SkillDescription": "L'utilisateur gagne 2 Charges.\n\nTous les alliés du champ de bataille gagnent une Protection Sommeil. Une Protection Sommeil empêche l'application du Sommeil une fois, puis est retirée. Les Protections Sommeil ne peuvent être empilées. Tous les alliés non-endormis du champ de bataille deviendront Enragés. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée à x1,5 jusqu'à la fin de leur prochain tour.\n\nDéverrouillé à chaque fois que le lanceur utilise une autre compétence active. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
                 "TU": 1,
                 "Spirit": "+2"
             },
@@ -56941,6 +56941,750 @@
                         "AllEnemiesDisabled": 0,
                         "AllEnemiesDisabledAlt": 0,
                         "EnemyIsAloneAndDisabled": 0
+                    }
+                }
+            }
+        }
+    },
+    "KingArthurModernBoss01": {
+        "Name": "Roi Arthur Berserk",
+        "FullName": "Roi Arthur Berserk",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grande Épée",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 605,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Jeu de Force",
+                "SkillDescription": "250% de dégâts à 1 ennemi, et 150% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux). Cette attaque ignore les effets de réduction de dégâts. Les dégâts de cette attaque ne réveilleront pas les ennemis endormis.\n\nPuis, si l'utilisateur possède une Charge de Force, il la consomme pour réduire ses TU actuels de 100TU.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Privilège Royal",
+                "SkillDescription": "Donne à tous les alliés une Protection Sommeil, une Protection Étourdissement et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées.\n\nL'utilisateur gagne une Charge de Force. Certaines compétences peuvent consommer des Charges de Force pour activer ou accroître leurs effets. Les Charges de Force ne peuvent être empilées et seront retirées d'une unité qui quitte le champ de bataille.\n\nCette compétence se verrouille pendant 50TU après son utilisation. Utilisable 5 fois par bataille.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Retour Royal",
+                "SkillDescription": "Les Alliés gagnent 10 Essences.\n\nL'utilisateur est soigné de 50% de ses PV max, gagne une Charge de Force et l'effet de la compétence passive Tenir Bon+ de l'utilisateur est réinitialisé pour pouvoir être à nouveau déclenché.\n\nCette compétence est verrouillée jusqu'à ce que l'effet de la compétence passive Tenir Bon+ soit déclenché sur le champ de bataille et se verrouille à nouveau après chaque utilisation. Utilisable une fois par bataille.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Successeur Royal",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue et ne peut être vaincue jusqu'à son prochain tour. Cet effet ne peut être déclenché qu'une fois à chaque fois que cette unité entre sur le champ de bataille et est considéré comme un effet Tenir Bon+.\n\nCette unité ne peut être Étourdie jusqu'à ce qu'elle ait vaincu 1 ennemi avec une attaque sur le champ de bataille.\n\nLes Attaques de cette unité ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nPendant 100TU après son entrée sur le champ de bataille, à la fin de chaque tour de cette unité de soit :\n- Désactiver l'ennemi avec les TU les plus bas pendant 30TU. Lorsque les Compétences Actives d'une unité sont désactivées et qu'elle prend son tour, elle perdra ce tour comme si elle était endormie. Cet effet ne peut affecter les unités boss, ne peut être purifié et prendra fin si l'utilisateur est vaincu.\n- Donner les prochains tours à tous les autres alliés du champ de bataille en réduisant leurs TU actuels à 0. Ces réductions de TU peuvent être déclenchés avant ou près d'autres effets ajustant l'ordre des tours.\n- Fortifier 2 alliés aléatoires non-fortifiés. Une unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "Aube du Roi+",
+                "SkillDescription": "L'Attaque de cette unité augmente de 1,5 fois.\nLes coûts de TU des compétences actives de cette unité sont réduits de 50%.\nCette unité bénéficie d'une réduction de 50% de dégâts provenant d'attaques.\n\nTous ces effets sont déclenchés lorsque cette unité débute sur le champ de bataille au tout début de la bataille, et se dissiperont si cette unité quitte le champ de bataille. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\n- Cette augmentation d'Attaque ne s'empile pas avec les effets d'Enragé.\n- Ceci ne réduira pas les coûts de TU en deçà de 1TU.\n- Les effets d'Accélération ne réduiront pas davantage les coûts de TU de cette unité."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Jeu de Force": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Privilège Royal": {
+                    "BaseWeight": 250
+                },
+                "Retour Royal": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "KingArthurModernBoss03": {
+        "Name": "Roi Arthur",
+        "FullName": "Roi Arthur",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Grande Épée",
+        "forFilter_Element": "Life",
+        "Element": "Lumière",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 190500,
+        "Speed": 605,
+        "Power": 2466000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Jeu de Force",
+                "SkillDescription": "250% de dégâts à 1 ennemi, et 150% de plus par le nombre de fois que cette compétence a déjà été utilisée sur le champ de bataille (maximum de 1000% de dégâts totaux). Cette attaque ignore les effets de réduction de dégâts. Les dégâts de cette attaque ne réveilleront pas les ennemis endormis.\n\nPuis, si l'utilisateur possède une Charge de Force, il la consomme pour réduire ses TU actuels de 100TU.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Privilège Royal",
+                "SkillDescription": "Donne à tous les alliés une Protection Sommeil, une Protection Étourdissement et une Protection Poison. Chaque Protection empêche l'application de son effet nommé une fois, puis est retirée. Les Protections identiques ne peuvent être empilées.\n\nL'utilisateur gagne une Charge de Force. Certaines compétences peuvent consommer des Charges de Force pour activer ou accroître leurs effets. Les Charges de Force ne peuvent être empilées et seront retirées d'une unité qui quitte le champ de bataille.\n\nCette compétence se verrouille pendant 50TU après son utilisation. Utilisable 5 fois par bataille.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Retour Royal",
+                "SkillDescription": "Les Alliés gagnent 10 Essences.\n\nL'utilisateur est soigné de 50% de ses PV max, gagne une Charge de Force et l'effet de la compétence passive Tenir Bon+ de l'utilisateur est réinitialisé pour pouvoir être à nouveau déclenché.\n\nCette compétence est verrouillée jusqu'à ce que l'effet de la compétence passive Tenir Bon+ soit déclenché sur le champ de bataille et se verrouille à nouveau après chaque utilisation. Utilisable une fois par bataille.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAKingArthurModernBoss",
+                "SkillTitle": "Décret Exécutif",
+                "SkillDescription": "900% de dégâts à 2 ennemis et l'utilisateur gagne une Charge de Force. Cette attaque ignore l'effet de statut de Furtivité.\n\nDéverrouillé à chaque fois que 2+ unités soient entrées sur le champ de bataille depuis les renforts depuis l'entrée de l'utilisateur sur le champ de bataille ou la dernière fois que cette compétence a été utilisée. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 120,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Successeur Royal",
+                "SkillDescription": "Cette unité survit avec 1PV au lieu d'être vaincue et ne peut être vaincue jusqu'à son prochain tour. Cet effet ne peut être déclenché qu'une fois à chaque fois que cette unité entre sur le champ de bataille et est considéré comme un effet Tenir Bon+.\n\nCette unité ne peut être Étourdie jusqu'à ce qu'elle ait vaincu 1 ennemi avec une attaque sur le champ de bataille.\n\nLes Attaques de cette unité ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nPendant 100TU après son entrée sur le champ de bataille, à la fin de chaque tour de cette unité de soit :\n- Désactiver l'ennemi avec les TU les plus bas pendant 30TU. Lorsque les Compétences Actives d'une unité sont désactivées et qu'elle prend son tour, elle perdra ce tour comme si elle était endormie. Cet effet ne peut affecter les unités boss, ne peut être purifié et prendra fin si l'utilisateur est vaincu.\n- Donner les prochains tours à tous les autres alliés du champ de bataille en réduisant leurs TU actuels à 0. Ces réductions de TU peuvent être déclenchés avant ou près d'autres effets ajustant l'ordre des tours.\n- Fortifier 2 alliés aléatoires non-fortifiés. Une unité Fortifiée bénéficie d'une réduction de 50% des dégâts provenant d'attaques. Cette réduction ne peut être ignorée par les attaques qui n'ignorent pas spécifiquement la Fortification. La Fortification sera retirée après avoir réduit des dégâts à 3 reprises depuis son application, et sera réinitialisée si elle est à nouveau appliquée. Ceci n'est pas un effet de statut."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "Aube du Roi+",
+                "SkillDescription": "L'Attaque de cette unité augmente de 1,5 fois.\nLes coûts de TU des compétences actives de cette unité sont réduits de 50%.\nCette unité bénéficie d'une réduction de 50% de dégâts provenant d'attaques.\n\nTous ces effets sont déclenchés lorsque cette unité débute sur le champ de bataille au tout début de la bataille, et se dissiperont si cette unité quitte le champ de bataille. Cette unité ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\n- Cette augmentation d'Attaque ne s'empile pas avec les effets d'Enragé.\n- Ceci ne réduira pas les coûts de TU en deçà de 1TU.\n- Les effets d'Accélération ne réduiront pas davantage les coûts de TU de cette unité."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Jeu de Force": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Privilège Royal": {
+                    "BaseWeight": 250
+                },
+                "Retour Royal": {
+                    "BaseWeight": 500
+                },
+                "Décret Exécutif": {
+                    "BaseWeight": 20,
+                    "Source": {
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss01": {
+        "Name": "Lancelot",
+        "FullName": "Lancelot",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Épée",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Délai Chauffé",
+                "SkillDescription": "500% de dégâts à 1 ennemi.\n\nPuis, si la cible touchée était brûlée, cette dernière devient Affaiblie.\n\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Exercice d'Incendie",
+                "SkillDescription": "Vole jusqu'à 1 Essence à l'équipe ennemie par le nombre d'ennemis brûlés sur le champ de bataille.\n\nPour tous les alliés brûlés :\n- Leurs TU actuels sont réduits de 50TU.\n- Les coûts de TU pour toutes leurs compétence sont réduits de 30%. Ceci remplacera les effets d'autres compétences d'Accélération.\n\nPuis tous les ennemis du champ de bataille sont brûlés. Ceci remplacera les autres effets de statut sur ces unités.\n\nCette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Coupe Ardente",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. 150% de dégâts en moins par le nombre d'ennemis du champ de bataille n'étant ni endormis, ni brûlés (maximum de -600% s'il y a 4 ennemis n'étant ni endormis, ni brûlés). Cette attaque ignore les effets de réduction de dégâts.\n\nUtilisable si quelconque allié du champ de bataille possède l'effet de statut de Brûlure. Ceci est considéré comme étant une compétence de type Souffle de Feu.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Chevalier de Bureau",
+                "SkillDescription": "Cette unité entre en bataille avec la Méga Brûlure Soin pendant 100TU.\n\nCette unité ne peut être vaincue par des dégâts provenant d'effets de statut de Brûlure et ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nCette unité gagnera un autre tour lorsqu'elle infligera des dégâts à un ennemi brûlé avec une attaque. Les cibles ayant subi des dégâts ne peuvent déclencher cet effet à nouveau jusqu'à ce que les TU s'écoulent. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nUne unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera les autres effets de statut y compris la Brûlure Soin, et ne peut être remplacé par les effets de statut de Brûlure, Poison ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Jolies Flammes",
+                "SkillDescription": "Un Imposteur est ajouté en tête des renforts ennemis à chaque fois que cette unité vainc un ennemi non-invoqué avec une attaque.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nSi cette unité est brûlée :\n- Elle ne peut être Étourdie.\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Délai Chauffé": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Exercice d'Incendie": {
+                    "BaseWeight": 500
+                },
+                "Coupe Ardente": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss03": {
+        "Name": "Méga Lancelot",
+        "FullName": "Méga Lancelot",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Épée",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 999,
+        "Atk_Base": 4000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2376000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Délai Chauffé",
+                "SkillDescription": "500% de dégâts à 1 ennemi.\n\nPuis, si la cible touchée était brûlée, cette dernière devient Affaiblie.\n\nL'Attaque des unités Affaiblies est réduite de 25% jusqu'à la fin de leurs prochains tours. L'effet d'Affaiblissement peut être réduit si l'Attaque des unités affectées est augmentée par d'autres effets et peut être remplacé par les effets d'Enragé.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Exercice d'Incendie",
+                "SkillDescription": "Vole jusqu'à 1 Essence à l'équipe ennemie par le nombre d'ennemis brûlés sur le champ de bataille.\n\nPour tous les alliés brûlés :\n- Leurs TU actuels sont réduits de 50TU.\n- Les coûts de TU pour toutes leurs compétence sont réduits de 30%. Ceci remplacera les effets d'autres compétences d'Accélération.\n\nPuis tous les ennemis du champ de bataille sont brûlés. Ceci remplacera les autres effets de statut sur ces unités.\n\nCette compétence se verrouille pendant 50TU après son utilisation.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Coupe Ardente",
+                "SkillDescription": "1000% de dégâts à 1 ennemi. 150% de dégâts en moins par le nombre d'ennemis du champ de bataille n'étant ni endormis, ni brûlés (maximum de -600% s'il y a 4 ennemis n'étant ni endormis, ni brûlés). Cette attaque ignore les effets de réduction de dégâts.\n\nUtilisable si quelconque allié du champ de bataille possède l'effet de statut de Brûlure. Ceci est considéré comme étant une compétence de type Souffle de Feu.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackARoundTableModernBoss",
+                "SkillTitle": "Taillade Terminatrice",
+                "SkillDescription": "1100% de dégâts à 1 ennemi. Cette attaque ignore les effets de réduction de dégâts ennemis, les compétences passives de Reflet et l'effet de statut de Contre Relais.\n\nDéverrouillé après 3 autres attaques par l'utilisateur. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille. Utilisable 5 fois par bataille.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Chevalier de Bureau",
+                "SkillDescription": "Cette unité entre en bataille avec la Méga Brûlure Soin pendant 100TU.\n\nCette unité ne peut être vaincue par des dégâts provenant d'effets de statut de Brûlure et ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité ignorent tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues.\n\nCette unité gagnera un autre tour lorsqu'elle infligera des dégâts à un ennemi brûlé avec une attaque. Les cibles ayant subi des dégâts ne peuvent déclencher cet effet à nouveau jusqu'à ce que les TU s'écoulent. Les effets influençant l'ordre des TU peuvent interrompre le tour supplémentaire gagné (i.e. les Étourdissements envers les cibles aux TU les plus bas).\n\nUne unité avec Méga Brûlure Soin sera soignée après chaque tour, 20 fois plus rapidement qu'avec Brûlure Soin. Ceci remplacera les autres effets de statut y compris la Brûlure Soin, et ne peut être remplacé par les effets de statut de Brûlure, Poison ou Sommeil, et ne peut être Purifié. Toute unité qui inflige des dégâts à une unité avec Méga Brûlure Soin ou en subit des dégâts sera également brûlée. Une unité avec Méga Brûlure Soin gagnera l'effet de statut de Brûlure Soin pendant 300TU lorsque Méga Brûlure Soin s'expirera."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Jolies Flammes",
+                "SkillDescription": "Un Imposteur est ajouté en tête des renforts ennemis à chaque fois que cette unité vainc un ennemi non-invoqué avec une attaque.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nSi cette unité est brûlée :\n- Elle ne peut être Étourdie.\n- Elle bénéficie d'une réduction de 50% des dégâts provenant d'attaques."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Délai Chauffé": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Exercice d'Incendie": {
+                    "BaseWeight": 500
+                },
+                "Coupe Ardente": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Taillade Terminatrice": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss01": {
+        "Name": "Merlin",
+        "FullName": "Merlin",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Chaleur Affaiblissante",
+                "SkillDescription": "Targets 1 enemy. That enemy will be granted the Burn status effect, then be Weakened. This skill unlocks Cyber Protocol upon use, and becomes locked after use until the user uses Firestorm Protocol or leaves the battlefield.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "Cyber-protocole",
+                "SkillDescription": "Brûle tous les alliés du champ de bataille et leur donne un Bouclier Brûlure.\n\nChaque ennemi du champ de bataille possédant l'effet de statut de Brûlure sera étourdi pendant 50TU. Tous les autres ennemis gagneront l'effet de statut de Brûlure et seront Affaiblis.\n\nCette compétence est verrouillée jusqu'à ce que Set d'Allumage soit utilisé, et elle déverrouille Protocole Feu d'Enfer lors de son utilisation. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nLa Brûlure remplacera tout autre effet de statut sur ces unités. Les Boucliers Brûlure empêchent l'application du prochain effet de statut autre que la Brûlure qu'une unité gagnerait tout en étant Brûlée.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Protocole Feu d'Enfer",
+                "SkillDescription": "400% de dégâts à 1 ennemi, et 150% de plus par le nombre d'unités brûlées sur le champ de bataille (maximum de 1000% de dégâts totaux si 4 unités voire davantage du champ de bataille sont brûlées).\n\nSi ces dégâts ne vainquent pas la cible, les TU actuels de 2 autres alliés aléatoires du champ de bataille seront réduits de 50TU.\n\nCette compétence est verrouillée jusqu'à ce que Cyber-Protocole soit utilisé, et déverrouille Set d'Allumage lors de son utilisation. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 40,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "Cyber-Magicienne",
+                "SkillDescription": "Cette unité entre en bataille avec la Méga Brûlure Soin pendant 100TU.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité ne peut être vaincue par les dégâts provenant des effets de statut de Brûlure, et ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité ignorent les effets de réduction de dégâts ennemis, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Accès Root",
+                "SkillDescription": "Cette unité n'est pas affectée par les effets d'Étourdissement.\n\nCet unité bénéficie d'une réduction de 50% des dégâts provenant des attaques.\n\nAprès la fin de chacun des tours de cette unité et si elle possède une Charge de Force, elle consommera cette Charge de Force pour soigner tous les alliés de 1% de leurs PV max et les Enrager. Si elle ne possède pas de Charge de Force, elle en gagnera une. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour. Certaines compétences peuvent consommer des Charges de Force pour activer ou accroître leurs effets. Les Charges de Force ne peuvent être empilées et seront retirées d'une unité qui quitte le champ de bataille."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Chaleur Affaiblissante": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "Cyber-protocole": {
+                    "BaseWeight": 250
+                },
+                "Protocole Feu d'Enfer": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss03": {
+        "Name": "Méga Merlin",
+        "FullName": "Méga Merlin",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Bâton",
+        "forFilter_Element": "Fire",
+        "Element": "Feu",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Chaleur Affaiblissante",
+                "SkillDescription": "Targets 1 enemy. That enemy will be granted the Burn status effect, then be Weakened. This skill unlocks Cyber Protocol upon use, and becomes locked after use until the user uses Firestorm Protocol or leaves the battlefield.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "Cyber-protocole",
+                "SkillDescription": "Brûle tous les alliés du champ de bataille et leur donne un Bouclier Brûlure.\n\nChaque ennemi du champ de bataille possédant l'effet de statut de Brûlure sera étourdi pendant 50TU. Tous les autres ennemis gagneront l'effet de statut de Brûlure et seront Affaiblis.\n\nCette compétence est verrouillée jusqu'à ce que Set d'Allumage soit utilisé, et elle déverrouille Protocole Feu d'Enfer lors de son utilisation. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.\n\nLa Brûlure remplacera tout autre effet de statut sur ces unités. Les Boucliers Brûlure empêchent l'application du prochain effet de statut autre que la Brûlure qu'une unité gagnerait tout en étant Brûlée.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Protocole Feu d'Enfer",
+                "SkillDescription": "400% de dégâts à 1 ennemi, et 150% de plus par le nombre d'unités brûlées sur le champ de bataille (maximum de 1000% de dégâts totaux si 4 unités voire davantage du champ de bataille sont brûlées).\n\nSi ces dégâts ne vainquent pas la cible, les TU actuels de 2 autres alliés aléatoires du champ de bataille seront réduits de 50TU.\n\nCette compétence est verrouillée jusqu'à ce que Cyber-Protocole soit utilisé, et déverrouille Set d'Allumage lors de son utilisation. Cette compétence se verrouille à nouveau après chaque utilisation ou si le lanceur quitte le champ de bataille.",
+                "TU": 40,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMerlinModernBoss",
+                "SkillTitle": "Chute Arcane",
+                "SkillDescription": "1100% de dégâts à 1 ennemi.\n\nSi ces dégâts ne vainquent pas la cible, les TU de tous les alliés du champ de bataille seront réduits de 50TU.\n\nUtilisable seulement si tous les ennemis du champ de bataille sont brûlés ou si le lanceur n'est pas brûlé.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "Cyber-Magicienne",
+                "SkillDescription": "Cette unité entre en bataille avec la Méga Brûlure Soin pendant 100TU.\n\nCette unité survit avec 1PV au lieu d'être vaincue par une attaque ou un effet de statut ennemi si elle possède plus de 1PV.\n\nCette unité ne peut être vaincue par les dégâts provenant des effets de statut de Brûlure, et ne peut être renvoyée vers les renforts depuis le champ de bataille.\n\nLes attaques de cette unité ignorent les effets de réduction de dégâts ennemis, et tout effet d'ennemis non-boss qui empêcherait les cibles d'être vaincues."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Accès Root",
+                "SkillDescription": "Cette unité n'est pas affectée par les effets d'Étourdissement.\n\nCet unité bénéficie d'une réduction de 50% des dégâts provenant des attaques.\n\nAprès la fin de chacun des tours de cette unité et si elle possède une Charge de Force, elle consommera cette Charge de Force pour soigner tous les alliés de 1% de leurs PV max et les Enrager. Si elle ne possède pas de Charge de Force, elle en gagnera une. Ceci remplacera les effets d'autres compétences d'Enragé sur ces unités. L'Attaque des unités Enragées est augmentée de 150% jusqu'à la fin de leur prochain tour. Certaines compétences peuvent consommer des Charges de Force pour activer ou accroître leurs effets. Les Charges de Force ne peuvent être empilées et seront retirées d'une unité qui quitte le champ de bataille."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Chaleur Affaiblissante": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "Cyber-protocole": {
+                    "BaseWeight": 250
+                },
+                "Protocole Feu d'Enfer": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Chute Arcane": {
+                    "BaseWeight": 5,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
                     }
                 }
             }

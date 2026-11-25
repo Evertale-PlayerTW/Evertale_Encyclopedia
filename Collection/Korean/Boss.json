@@ -56945,5 +56945,749 @@
                 }
             }
         }
+    },
+    "KingArthurModernBoss01": {
+        "Name": "광포한 아서왕",
+        "FullName": "광포한 아서왕",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "대검",
+        "forFilter_Element": "Life",
+        "Element": "명속성",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 605,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "파워 플레이",
+                "SkillDescription": "적 1기에 250% 데미지. 전장에 있는 동안 이미 이 스킬을 사용한 횟수마다 150% 추가 (최대 총 1000% 데미지). 이 공격은 데미지 감소 효과를 무시한다. 이 공격으로 인한 데미지는 수면 상태 적을 깨우지 않다.\n\n그런 다음, 사용자가 파워 충전을 가진 경우, 파워 충전을 1회 소모하여 현재 TU를 100TU 감소시킨다.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "왕의 특권",
+                "SkillDescription": "모든 아군에게 원타임 수면 면역, 원타임 스턴 면역, 원타임 포이즌 면역을 부여한다. 각 면역은 명명된 효과의 적용을 1회 막은 다음 사라진다. 동일한 면역은 중첩되지 않는다.\n\n사용자에게 파워 충전이 부여된다. 파워 충전은 특정 스킬을 발동하거나 효과를 강화하는 데 소모될 수 있다. 파워 충전은 중첩될 수 없으며, 사용자가 전장을 떠날 때 제거된다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다. 전투당 5회 사용 가능.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "왕의 복귀",
+                "SkillDescription": "아군은 기력을 10 획득한다.\n\n사용자는 최대 HP의 50%만큼 회복하고, 파워 충전이 부여되며, 사용자의 버티기+ 패시브 스킬 효과가 초기화되어 다시 발동할 수 있다.\n\n이 스킬은 사용자가 전장에 있는 동안 버티기+ 패시브 스킬 효과가 발동될 때까지 잠기며, 매 사용후 다시 잠긴다. 전투당 1회 사용 가능.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "왕의 후계자",
+                "SkillDescription": "이 유닛이 패배할 경우, 대신 1 HP로 생존하고 나서 다음 턴까지 패배하지 않는다. 이 효과는 이 유닛이 전장에 진입할 때마다 1회만 발동할 수 있으며, 버티기+ 효과로 간주된다.\n\n이 유닛은 전장에 있는 동안 공격으로 적 1기를 물리칠 때까지 스턴되지 않는다.\n\n이 유닛의 공격은 타겟의 패배를 막는 보스가 아닌 적의 모든 효과를 무시한다.\n\n전장 진입 후, 100TU 동안 이 유닛의 턴이 끝날 때마다 다음 중 하나를 랜덤으로 발동한다:\n- 현재 TU가 가장 낮은 적을 30TU 동안 무력화한다. 유닛의 액티브 스킬이 무력화된 상태에서 턴을 가지면, 마치 수면 상태인 것처럼 턴을 잃는다. 이 효과는 보스 유닛에게는 적용되지 않으며, 정화될 수 없고, 이 유닛이 패배하면 종료된다.\n- 전장에 있는 다른 모든 아군 유닛의 현재 TU를 감소시켜 다음 턴을 부여한다. 이러한 TU 감소는 턴 오더를 조정하는 다른 효과의 전이나 후에 발동될 수 있다.\n- 강화 상태가 아닌 랜덤 아군 유닛 2기를 강화시킨다. 강화된 유닛은 공격으로 인한 데미지가 50% 감소한다. 이 감소는 강화를 특정적으로 무시하지 않는 공격에 의해 무시될 수 없다. 강화는 적용 후 데미지를 3회 감소시킨 후 사라지며, 재적용 시 초기화된다. 이는 상태 효과가 아니다."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "왕의 새벽+",
+                "SkillDescription": "이 유닛의 공격력이 1.5배 증가한다.\n이 유닛의 액티브 스킬 TU 코스트가 50% 감소한다.\n이 유닛은 공격으로 인한 데미지가 50% 감소한다.\n\n이 모든 효과는 이 유닛이 전투 시작시 전장에 있을 때 발동되며, 전장을 떠나면 종료된다. 이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n- 이 공격력 증가 효과는 격분 효과와 중첩되지 않는다.\n- 이는 TU 코스트를 1TU 미만으로 감소시키지 않는다.\n- 가속 효과는 이 유닛의 TU 코스트를 더 이상 감소시키지 않는다."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "파워 플레이": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "왕의 특권": {
+                    "BaseWeight": 250
+                },
+                "왕의 복귀": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "KingArthurModernBoss03": {
+        "Name": "아서왕",
+        "FullName": "아서왕",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "대검",
+        "forFilter_Element": "Life",
+        "Element": "명속성",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 190500,
+        "Speed": 605,
+        "Power": 2466000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "파워 플레이",
+                "SkillDescription": "적 1기에 250% 데미지. 전장에 있는 동안 이미 이 스킬을 사용한 횟수마다 150% 추가 (최대 총 1000% 데미지). 이 공격은 데미지 감소 효과를 무시한다. 이 공격으로 인한 데미지는 수면 상태 적을 깨우지 않다.\n\n그런 다음, 사용자가 파워 충전을 가진 경우, 파워 충전을 1회 소모하여 현재 TU를 100TU 감소시킨다.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "왕의 특권",
+                "SkillDescription": "모든 아군에게 원타임 수면 면역, 원타임 스턴 면역, 원타임 포이즌 면역을 부여한다. 각 면역은 명명된 효과의 적용을 1회 막은 다음 사라진다. 동일한 면역은 중첩되지 않는다.\n\n사용자에게 파워 충전이 부여된다. 파워 충전은 특정 스킬을 발동하거나 효과를 강화하는 데 소모될 수 있다. 파워 충전은 중첩될 수 없으며, 사용자가 전장을 떠날 때 제거된다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다. 전투당 5회 사용 가능.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "왕의 복귀",
+                "SkillDescription": "아군은 기력을 10 획득한다.\n\n사용자는 최대 HP의 50%만큼 회복하고, 파워 충전이 부여되며, 사용자의 버티기+ 패시브 스킬 효과가 초기화되어 다시 발동할 수 있다.\n\n이 스킬은 사용자가 전장에 있는 동안 버티기+ 패시브 스킬 효과가 발동될 때까지 잠기며, 매 사용후 다시 잠긴다. 전투당 1회 사용 가능.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAKingArthurModernBoss",
+                "SkillTitle": "경영진의 명령",
+                "SkillDescription": "적 2기에 900% 데미지를 주고, 사용자에게 파워 충전이 부여된다. 이 공격은 스텔스 상태 효과를 무시한다.\n\n사용자가 전장에 진입한 후 또는 이 스킬을 마지막으로 사용한 후, 증원군으로부터 유닛 2기 이상이 전장에 진입할 때마다 잠금 해제된다. 사용자와 동시에 전장에 진입한 유닛은 이 스킬의 잠금 해제 조건에 포함되지 않는다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 120,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "왕의 후계자",
+                "SkillDescription": "이 유닛이 패배할 경우, 대신 1 HP로 생존하고 나서 다음 턴까지 패배하지 않는다. 이 효과는 이 유닛이 전장에 진입할 때마다 1회만 발동할 수 있으며, 버티기+ 효과로 간주된다.\n\n이 유닛은 전장에 있는 동안 공격으로 적 1기를 물리칠 때까지 스턴되지 않는다.\n\n이 유닛의 공격은 타겟의 패배를 막는 보스가 아닌 적의 모든 효과를 무시한다.\n\n전장 진입 후, 100TU 동안 이 유닛의 턴이 끝날 때마다 다음 중 하나를 랜덤으로 발동한다:\n- 현재 TU가 가장 낮은 적을 30TU 동안 무력화한다. 유닛의 액티브 스킬이 무력화된 상태에서 턴을 가지면, 마치 수면 상태인 것처럼 턴을 잃는다. 이 효과는 보스 유닛에게는 적용되지 않으며, 정화될 수 없고, 이 유닛이 패배하면 종료된다.\n- 전장에 있는 다른 모든 아군 유닛의 현재 TU를 감소시켜 다음 턴을 부여한다. 이러한 TU 감소는 턴 오더를 조정하는 다른 효과의 전이나 후에 발동될 수 있다.\n- 강화 상태가 아닌 랜덤 아군 유닛 2기를 강화시킨다. 강화된 유닛은 공격으로 인한 데미지가 50% 감소한다. 이 감소는 강화를 특정적으로 무시하지 않는 공격에 의해 무시될 수 없다. 강화는 적용 후 데미지를 3회 감소시킨 후 사라지며, 재적용 시 초기화된다. 이는 상태 효과가 아니다."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "왕의 새벽+",
+                "SkillDescription": "이 유닛의 공격력이 1.5배 증가한다.\n이 유닛의 액티브 스킬 TU 코스트가 50% 감소한다.\n이 유닛은 공격으로 인한 데미지가 50% 감소한다.\n\n이 모든 효과는 이 유닛이 전투 시작시 전장에 있을 때 발동되며, 전장을 떠나면 종료된다. 이 유닛은 전장에서 증원군으로 보낼 수 없다.\n\n- 이 공격력 증가 효과는 격분 효과와 중첩되지 않는다.\n- 이는 TU 코스트를 1TU 미만으로 감소시키지 않는다.\n- 가속 효과는 이 유닛의 TU 코스트를 더 이상 감소시키지 않는다."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "파워 플레이": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "왕의 특권": {
+                    "BaseWeight": 250
+                },
+                "왕의 복귀": {
+                    "BaseWeight": 500
+                },
+                "경영진의 명령": {
+                    "BaseWeight": 20,
+                    "Source": {
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss01": {
+        "Name": "랜슬롯",
+        "FullName": "랜슬롯",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "검",
+        "forFilter_Element": "Fire",
+        "Element": "화속성",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "열띤 데드라인",
+                "SkillDescription": "적 1기에 500% 데미지.\n\n그런 다음, 적중한 타겟이 화염 상태였다면 해당 타겟은 약화된다.\n\n약화된 유닛은 다음 턴 종료까지 공격력이 0.75배 감소한다. 약화 효과는 영향 받은 유닛의 공격력이 다른 효과로 증가할 경우 효과가 감소할 수 있으며, 격분 효과로 덮어쓸 수 있다.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "파이어 드릴",
+                "SkillDescription": "전장에 있는 화염 상태 적 1기당 적 팀으로부터 기력을 최대 1 빼앗는다.\n\n화염 상태인 모든 아군은:\n- 현재 TU가 50TU 감소한다.\n - 모든 스킬의 TU 코스트가 30% 감소하며, 이는 다른 가속 스킬의 효과를 덮어쓴다.\n\n그런 다음 전장의 모든 적이 화염 상태가 된다. 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "타오르는 절단",
+                "SkillDescription": "적 1기에 1000% 데미지. 전장에 있는 적 중 수면 상태가 아니며 화염 상태도 아닌 적 1기당 150% 데미지 감소(수면 상태가 아니며 화염 상태도 아닌 적이 4기일 경우 최대 -600% 감소). 이 공격은 데미지 감소 효과를 무시한다.\n\n전장에 화염 상태 효과를 가진 아군이 있는 경우 사용할 수 있다. 이 스킬은 화염 블라스트 타입 스킬로 간주된다.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "오피스 나이트",
+                "SkillDescription": "이 유닛은 100TU 동안 메가 회복 화염을 가지고 전투에 진입한다.\n\n이 유닛은 화염 상태 효과로 인한 데미지로 패배하지 않으며, 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛의 공격은 타겟의 패배를 막는 보스가 아닌 적의 모든 효과를 무시한다.\n\n이 유닛이 화염 상태 적에게 공격으로 데미지를 주면, 이 유닛은 추가 턴을 얻는다. 데미지를 입은 타겟은 TU가 진행되기 전까지 이 효과를 다시 발동할 수 없다. TU 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟하는 스턴).\n\n메가 회복 화염을 가진 유닛은 매 턴 후 회복 화염의 20배 속도로 회복한다. 이는 사용자의 회복 화염을 포함한 다른 상태 효과를 덮어쓰며, 화염, 중독, 또는 수면 상태 효과로 덮어쓸 수 없고, 정화될 수 없다. 메가 회복 화염을 가진 유닛에게 데미지를 주거나 데미지를 입은 모든 유닛은 화염 상태 효과를 얻는다. 메가 회복 화염을 가진 유닛은 메가 회복 화염 만료시 300TU 동안 회복 화염이 부여된다."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "러블리 불꽃",
+                "SkillDescription": "이 유닛이 소환되지 않은 적을 공격으로 물리칠 때마다, 적 증원군 다음 라인에 임포스터가 추가된다.\n\n이 유닛이 1 HP 이상일 때 적의 공격이나 상태 효과로 인해 패배하게 될 경우, 대신 1 HP로 생존한다.\n\n이 유닛이 화염 상태일 경우 이 유닛은:\n- 스턴되지 않는다.\n- 공격으로 인한 데미지가 50% 감소한다."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "열띤 데드라인": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "파이어 드릴": {
+                    "BaseWeight": 500
+                },
+                "타오르는 절단": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss03": {
+        "Name": "랜슬롯",
+        "FullName": "랜슬롯",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "검",
+        "forFilter_Element": "Fire",
+        "Element": "화속성",
+        "Cost": 999,
+        "Atk_Base": 4000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2376000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "열띤 데드라인",
+                "SkillDescription": "적 1기에 500% 데미지.\n\n그런 다음, 적중한 타겟이 화염 상태였다면 해당 타겟은 약화된다.\n\n약화된 유닛은 다음 턴 종료까지 공격력이 0.75배 감소한다. 약화 효과는 영향 받은 유닛의 공격력이 다른 효과로 증가할 경우 효과가 감소할 수 있으며, 격분 효과로 덮어쓸 수 있다.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "파이어 드릴",
+                "SkillDescription": "전장에 있는 화염 상태 적 1기당 적 팀으로부터 기력을 최대 1 빼앗는다.\n\n화염 상태인 모든 아군은:\n- 현재 TU가 50TU 감소한다.\n - 모든 스킬의 TU 코스트가 30% 감소하며, 이는 다른 가속 스킬의 효과를 덮어쓴다.\n\n그런 다음 전장의 모든 적이 화염 상태가 된다. 이는 해당 유닛의 다른 상태 효과를 덮어쓴다.\n\n이 스킬은 사용 후 50TU 동안 잠긴다.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "타오르는 절단",
+                "SkillDescription": "적 1기에 1000% 데미지. 전장에 있는 적 중 수면 상태가 아니며 화염 상태도 아닌 적 1기당 150% 데미지 감소(수면 상태가 아니며 화염 상태도 아닌 적이 4기일 경우 최대 -600% 감소). 이 공격은 데미지 감소 효과를 무시한다.\n\n전장에 화염 상태 효과를 가진 아군이 있는 경우 사용할 수 있다. 이 스킬은 화염 블라스트 타입 스킬로 간주된다.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackARoundTableModernBoss",
+                "SkillTitle": "종결 슬래쉬",
+                "SkillDescription": "적 1기에 1100% 데미지. 이 공격은 적의 데미지 감소 효과, 스킨 패시브 스킬 및 카운터 스탠스 상태 효과를 무시한다.\n\n사용자가 다른 공격으로 3회 공격한 후 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다. 전투당 5회 사용 가능.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "오피스 나이트",
+                "SkillDescription": "이 유닛은 100TU 동안 메가 회복 화염을 가지고 전투에 진입한다.\n\n이 유닛은 화염 상태 효과로 인한 데미지로 패배하지 않으며, 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛의 공격은 타겟의 패배를 막는 보스가 아닌 적의 모든 효과를 무시한다.\n\n이 유닛이 화염 상태 적에게 공격으로 데미지를 주면, 이 유닛은 추가 턴을 얻는다. 데미지를 입은 타겟은 TU가 진행되기 전까지 이 효과를 다시 발동할 수 없다. TU 오더에 영향을 미치는 효과는 추가 턴을 방해할 수 있다(예: 가장 낮은 TU 타겟을 타겟하는 스턴).\n\n메가 회복 화염을 가진 유닛은 매 턴 후 회복 화염의 20배 속도로 회복한다. 이는 사용자의 회복 화염을 포함한 다른 상태 효과를 덮어쓰며, 화염, 중독, 또는 수면 상태 효과로 덮어쓸 수 없고, 정화될 수 없다. 메가 회복 화염을 가진 유닛에게 데미지를 주거나 데미지를 입은 모든 유닛은 화염 상태 효과를 얻는다. 메가 회복 화염을 가진 유닛은 메가 회복 화염 만료시 300TU 동안 회복 화염이 부여된다."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "러블리 불꽃",
+                "SkillDescription": "이 유닛이 소환되지 않은 적을 공격으로 물리칠 때마다, 적 증원군 다음 라인에 임포스터가 추가된다.\n\n이 유닛이 1 HP 이상일 때 적의 공격이나 상태 효과로 인해 패배하게 될 경우, 대신 1 HP로 생존한다.\n\n이 유닛이 화염 상태일 경우 이 유닛은:\n- 스턴되지 않는다.\n- 공격으로 인한 데미지가 50% 감소한다."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "열띤 데드라인": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "파이어 드릴": {
+                    "BaseWeight": 500
+                },
+                "타오르는 절단": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "종결 슬래쉬": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss01": {
+        "Name": "멀린",
+        "FullName": "멀린",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스태프",
+        "forFilter_Element": "Fire",
+        "Element": "화속성",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "약화열",
+                "SkillDescription": "적 1기를 타겟한다. 해당 적은 화염 상태 효과가 부여된 다음, 약화된다. 이 스킬을 사용 시 사이버 프로토콜이 잠금 해제되며, 사용 후 사용자가 불폭풍 프로토콜을 사용하거나 전장을 떠날 때까지 잠긴다.\n\n약화된 유닛은 다음 턴 종료까지 공격력이 0.75배 감소한다. 약화 효과는 영향 받은 유닛의 공격력이 다른 효과로 증가할 경우 감소할 수 있으며, 격분 효과로 덮어쓸 수 있다.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "사이버 프로토콜",
+                "SkillDescription": "전장의 모든 아군을 화염 상태가 되게 하고 화염 쉴드를 부여한다.\n\n전장에 있는 화염 상태 효과를 가진 적은 50TU 동안 스턴된다. 그 외의 모든 적에게 화염 상태 효과가 부여되며, 약화된다.\n\n이 스킬은 킨들링 세트로 잠금 해제될 때까지 잠기며, 사용 시 불폭풍 프로토콜이 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장에서 떠나면 다시 잠긴다.\n\n화염은 해당 유닛의 다른 상태 효과를 덮어쓴다. 화염 쉴드는 유닛이 화염 상태인 동안 얻게 될 다음 화염 이외의 상태 효과의 적용을 막는다.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "불폭풍 프로토콜",
+                "SkillDescription": "적 1기에 400% 데미지를 주고, 전장에 있는 화염 상태 유닛 1기당 150% 추가(전장에 화염 상태 유닛이 4기 이상일 경우 최대 총 1000% 데미지).\n\n이 데미지로 타겟을 물리치지 않을 경우, 전장의 랜덤 아군 2기의 현재 TU가 50TU 감소한다. n\n이 스킬은 사이버 프로토콜로 잠금 해제될 때까지 잠기며, 사용 시 킨들링 세트가 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 40,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "사이버 위저드",
+                "SkillDescription": "이 유닛은 100TU 동안 메가 회복 화염 효과를 가지고 전투에 진입한다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 인해 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 화염 상태 효과로 인한 데미지로는 패배할 수 없으며, 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛의 공격은 데미지 감소 효과와, 타겟의 패배를 막는 보스가 아닌 적의 모든 효과를 무시한다."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "루트 엑세스",
+                "SkillDescription": "이 유닛은 스턴 효과의 영향을 받지 않는다.\n\n이 유닛은 공격으로 인한 데미지가 50% 감소한다.\n\n이 유닛의 턴이 끝날 때마다, 이 유닛이 파워 충전을 가지고 있다면, 이 유닛은 파워 충전을 소모하여 모든 아군을 최대 HP의 1%만큼 회복시키고 격분시킨다. 그렇지 않은 경우, 이 유닛은 파워 충전을 획득한다. 이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분한 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다. 파워 충전은 특정 스킬을 활성화하거나 그 효과를 강화하기 위해 소모될 수 있다. 파워 충전은 중첩될 수 없으며, 사용자가 전장을 떠날 때 제거된다."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "약화열": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "사이버 프로토콜": {
+                    "BaseWeight": 250
+                },
+                "불폭풍 프로토콜": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss03": {
+        "Name": "멀린",
+        "FullName": "멀린",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "스태프",
+        "forFilter_Element": "Fire",
+        "Element": "화속성",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "약화열",
+                "SkillDescription": "적 1기를 타겟한다. 해당 적은 화염 상태 효과가 부여된 다음, 약화된다. 이 스킬을 사용 시 사이버 프로토콜이 잠금 해제되며, 사용 후 사용자가 불폭풍 프로토콜을 사용하거나 전장을 떠날 때까지 잠긴다.\n\n약화된 유닛은 다음 턴 종료까지 공격력이 0.75배 감소한다. 약화 효과는 영향 받은 유닛의 공격력이 다른 효과로 증가할 경우 감소할 수 있으며, 격분 효과로 덮어쓸 수 있다.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "사이버 프로토콜",
+                "SkillDescription": "전장의 모든 아군을 화염 상태가 되게 하고 화염 쉴드를 부여한다.\n\n전장에 있는 화염 상태 효과를 가진 적은 50TU 동안 스턴된다. 그 외의 모든 적에게 화염 상태 효과가 부여되며, 약화된다.\n\n이 스킬은 킨들링 세트로 잠금 해제될 때까지 잠기며, 사용 시 불폭풍 프로토콜이 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장에서 떠나면 다시 잠긴다.\n\n화염은 해당 유닛의 다른 상태 효과를 덮어쓴다. 화염 쉴드는 유닛이 화염 상태인 동안 얻게 될 다음 화염 이외의 상태 효과의 적용을 막는다.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "불폭풍 프로토콜",
+                "SkillDescription": "적 1기에 400% 데미지를 주고, 전장에 있는 화염 상태 유닛 1기당 150% 추가(전장에 화염 상태 유닛이 4기 이상일 경우 최대 총 1000% 데미지).\n\n이 데미지로 타겟을 물리치지 않을 경우, 전장의 랜덤 아군 2기의 현재 TU가 50TU 감소한다. n\n이 스킬은 사이버 프로토콜로 잠금 해제될 때까지 잠기며, 사용 시 킨들링 세트가 잠금 해제된다. 이 스킬은 매 사용 후 또는 사용자가 전장을 떠나면 다시 잠긴다.",
+                "TU": 40,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMerlinModernBoss",
+                "SkillTitle": "신비신 몰락",
+                "SkillDescription": "적 1기에 1100% 데미지.\n\n이 데미지로 타겟을 물리치지 않을 경우, 전장에 있는 모든 아군의 현재 TU가 50TU 감소한다.\n\n전장의 모든 적이 화염 상태이거나, 사용자가 화염 상태가 아닌 경우에만 사용할 수 있다.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "사이버 위저드",
+                "SkillDescription": "이 유닛은 100TU 동안 메가 회복 화염 효과를 가지고 전투에 진입한다.\n\n이 유닛이 1 HP 이상인 상태에서 적의 공격이나 상태 효과로 인해 패배할 경우, 대신 1 HP로 생존한다.\n\n이 유닛은 화염 상태 효과로 인한 데미지로는 패배할 수 없으며, 전장에서 증원군으로 보내질 수 없다.\n\n이 유닛의 공격은 데미지 감소 효과와, 타겟의 패배를 막는 보스가 아닌 적의 모든 효과를 무시한다."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "루트 엑세스",
+                "SkillDescription": "이 유닛은 스턴 효과의 영향을 받지 않는다.\n\n이 유닛은 공격으로 인한 데미지가 50% 감소한다.\n\n이 유닛의 턴이 끝날 때마다, 이 유닛이 파워 충전을 가지고 있다면, 이 유닛은 파워 충전을 소모하여 모든 아군을 최대 HP의 1%만큼 회복시키고 격분시킨다. 그렇지 않은 경우, 이 유닛은 파워 충전을 획득한다. 이는 해당 유닛의 다른 격분 스킬의 효과를 덮어쓴다. 격분한 유닛은 다음 턴 종료까지 공격력이 1.5배 증가한다. 파워 충전은 특정 스킬을 활성화하거나 그 효과를 강화하기 위해 소모될 수 있다. 파워 충전은 중첩될 수 없으며, 사용자가 전장을 떠날 때 제거된다."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "약화열": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "사이버 프로토콜": {
+                    "BaseWeight": 250
+                },
+                "불폭풍 프로토콜": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "신비신 몰락": {
+                    "BaseWeight": 5,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
     }
 }

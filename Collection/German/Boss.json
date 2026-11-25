@@ -56945,5 +56945,749 @@
                 }
             }
         }
+    },
+    "KingArthurModernBoss01": {
+        "Name": "Berserker-König Artus",
+        "FullName": "Berserker-König Artus",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 999,
+        "Atk_Base": 1257,
+        "Hp_Base": 20000,
+        "Speed": 605,
+        "Power": 315420,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Machtspiel",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 150% für jedes Mal, das diese Fertigkeit bereits auf dem Schlachtfeld eingesetzt wurde (maximal 1000% Gesamtschaden). Dieser Angriff ignoriert Schadensminderungseffekte. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\nWenn der Anwender anschließend über eine Kraftladung verfügt, verbraucht er diese, um seine aktuellen ZE um 100 ZE zu reduzieren.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Königsprivileg",
+                "SkillDescription": "Verleiht allen Verbündeten einen Schlafschutz, einen Betäubungsschutz und einen Giftschutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutze können nicht gestapelt werden.\n\nDer Anwender erhält eine Kraftladung. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um deren Effekte zu aktivieren oder zu verstärken. Kraftladungen können nicht gestapelt werden und werden entfernt, sobald der Anwender das Schlachtfeld verlässt.\n\nDiese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt. Kann 5 Mal pro Kampf eingesetzt werden.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Königs-Comeback",
+                "SkillDescription": "Verbündete erhalten 10 Geist.\n\nDer Anwender wird um 50% seiner maximalen LP geheilt, erhält eine Kraftladung und der Effekt seiner passiven Fertigkeit Stellung Halten+ wird zurückgesetzt, sodass er erneut ausgelöst werden kann.\n\nDiese Fertigkeit ist gesperrt, bis der Effekt der passiven Fertigkeit Stellung Halten+ des Anwenders auf dem Schlachtfeld ausgelöst wird, und wird nach jedem Einsatz erneut gesperrt. Einmal pro Kampf einsetzbar.",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Königsnachfolger",
+                "SkillDescription": "Sollte diese Einheit besiegt werden, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht mehr besiegt werden. Dieser Effekt kann nur einmal ausgelöst werden, sobald diese Einheit das Schlachtfeld betritt, und gilt als Stellung Halten+-Effekt.\n\nDiese Einheit kann nicht betäubt werden, bis sie im Kampf 1 Gegner besiegt hat.\n\nDie Angriffe dieser Einheit ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden. \n\nNach dem Betreten des Schlachtfelds führt diese Einheit nach Ablauf jedes eigenen Zuges für 100 ZE zufällig eine der folgenden Aktionen aus:\n- Sie deaktiviert den Gegner mit der derzeit niedrigsten ZE für 30 ZE. Wenn die aktiven Fertigkeiten einer Einheit deaktiviert sind und sie an der Reihe ist, verliert sie den Zug, als ob sie schlafen würde. Dieser Effekt wirkt nicht auf Boss-Einheiten, kann nicht gereinigt werden und endet, wenn diese Einheit besiegt wird.\n- Alle anderen Verbündeten auf dem Schlachtfeld erhalten die nächsten Züge, indem ihre aktuellen ZE reduziert werden. Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen.\n- 2 zufällige, nicht gestärkte Verbündete stärken. Eine gestärkte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Stärken nicht ausdrücklich ignorieren. Stärken wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "Königsmorgen+",
+                "SkillDescription": "Der Angriff dieser Einheit wird auf das 1,5-fache erhöht.\nDie ZE-Kosten für die aktive Fertigkeit dieser Einheit werden um 50% reduziert.\nDiese Einheit hat eine 50%ige Schadensreduzierung durch Angriffe.\n\nAlle diese Effekte werden ausgelöst, wenn diese Einheit zu Beginn des Kampfes auf dem Schlachtfeld steht, und enden, wenn diese Einheit das Schlachtfeld verlässt. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\n-Diese Angriffserhöhung stapelt sich nicht mit Wut-Effekten.\n-Dieser Effekt reduziert die ZE-Kosten nicht unter 1 ZE.\n-Beschleunigungs-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Machtspiel": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Königsprivileg": {
+                    "BaseWeight": 250
+                },
+                "Königs-Comeback": {
+                    "BaseWeight": 500
+                }
+            }
+        }
+    },
+    "KingArthurModernBoss03": {
+        "Name": "König Artus",
+        "FullName": "König Artus",
+        "Family": "KingArthurModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Großschwert",
+        "forFilter_Element": "Life",
+        "Element": "Licht",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 190500,
+        "Speed": 605,
+        "Power": 2466000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModernBoss",
+                "SkillTitle": "Machtspiel",
+                "SkillDescription": "250% Schaden an 1 Gegner, plus 150% für jedes Mal, das diese Fertigkeit bereits auf dem Schlachtfeld eingesetzt wurde (maximal 1000% Gesamtschaden). Dieser Angriff ignoriert Schadensminderungseffekte. Der Schaden dieses Angriffs weckt schlafende Gegner nicht auf.\n\nWenn der Anwender anschließend über eine Kraftladung verfügt, verbraucht er diese, um seine aktuellen ZE um 100 ZE zu reduzieren.",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Königsprivileg",
+                "SkillDescription": "Verleiht allen Verbündeten einen Schlafschutz, einen Betäubungsschutz und einen Giftschutz. Jeder Schutz verhindert einmal, dass der jeweilige Effekt ausgelöst wird, und wird anschließend entfernt. Identische Schutze können nicht gestapelt werden.\n\nDer Anwender erhält eine Kraftladung. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um deren Effekte zu aktivieren oder zu verstärken. Kraftladungen können nicht gestapelt werden und werden entfernt, sobald der Anwender das Schlachtfeld verlässt.\n\nDiese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt. Kann 5 Mal pro Kampf eingesetzt werden.",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModernBoss",
+                "SkillTitle": "Königs-Comeback",
+                "SkillDescription": "Verbündete erhalten 10 Geist.\n\nDer Anwender wird um 50% seiner maximalen LP geheilt, erhält eine Kraftladung und der Effekt seiner passiven Fertigkeit Stellung Halten+ wird zurückgesetzt, sodass er erneut ausgelöst werden kann.\n\nDiese Fertigkeit ist gesperrt, bis der Effekt der passiven Fertigkeit Stellung Halten+ des Anwenders auf dem Schlachtfeld ausgelöst wird, und wird nach jedem Einsatz erneut gesperrt. Einmal pro Kampf einsetzbar.",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAKingArthurModernBoss",
+                "SkillTitle": "Verordnung",
+                "SkillDescription": "900% Schaden an 2 Gegnern, und der Anwender erhält eine Kraftladung. Dieser Angriff ignoriert den Status-Effekt Versteckt.\n\nWird jedes Mal freigeschaltet, wenn seit dem Betreten des Schlachtfelds durch den Anwender oder seit dem letzten Einsatz dieser Fertigkeit 2 oder mehr Einheiten als Verstärkung das Schlachtfeld betreten haben. Einheiten, die gleichzeitig mit dem Anwender das Schlachtfeld betreten, zählen nicht für die Freischaltung dieser Fertigkeit. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 120,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
+                "SkillTitle": "Königsnachfolger",
+                "SkillDescription": "Sollte diese Einheit besiegt werden, überlebt sie stattdessen mit 1 LP und kann dann bis zu ihrem nächsten Zug nicht mehr besiegt werden. Dieser Effekt kann nur einmal ausgelöst werden, sobald diese Einheit das Schlachtfeld betritt, und gilt als Stellung Halten+-Effekt.\n\nDiese Einheit kann nicht betäubt werden, bis sie im Kampf 1 Gegner besiegt hat.\n\nDie Angriffe dieser Einheit ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden. \n\nNach dem Betreten des Schlachtfelds führt diese Einheit nach Ablauf jedes eigenen Zuges für 100 ZE zufällig eine der folgenden Aktionen aus:\n- Sie deaktiviert den Gegner mit der derzeit niedrigsten ZE für 30 ZE. Wenn die aktiven Fertigkeiten einer Einheit deaktiviert sind und sie an der Reihe ist, verliert sie den Zug, als ob sie schlafen würde. Dieser Effekt wirkt nicht auf Boss-Einheiten, kann nicht gereinigt werden und endet, wenn diese Einheit besiegt wird.\n- Alle anderen Verbündeten auf dem Schlachtfeld erhalten die nächsten Züge, indem ihre aktuellen ZE reduziert werden. Diese ZE-Reduzierungen können vor oder nach anderen Effekten ausgelöst werden, die die Zugreihenfolge anpassen.\n- 2 zufällige, nicht gestärkte Verbündete stärken. Eine gestärkte Einheit erhält 50% Schadensreduzierung bei Angriffen. Diese Reduzierung kann nicht von Angriffen ignoriert werden, die Stärken nicht ausdrücklich ignorieren. Stärken wird entfernt, nachdem der Schaden seit der Anwendung dreimal reduziert wurde, und wird zurückgesetzt, wenn es erneut angewendet wird. Dies ist kein Statuseffekt."
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "Königsmorgen+",
+                "SkillDescription": "Der Angriff dieser Einheit wird auf das 1,5-fache erhöht.\nDie ZE-Kosten für die aktive Fertigkeit dieser Einheit werden um 50% reduziert.\nDiese Einheit hat eine 50%ige Schadensreduzierung durch Angriffe.\n\nAlle diese Effekte werden ausgelöst, wenn diese Einheit zu Beginn des Kampfes auf dem Schlachtfeld steht, und enden, wenn diese Einheit das Schlachtfeld verlässt. Diese Einheit kann nicht vom Schlachtfeld zur Verstärkung geschickt werden.\n\n-Diese Angriffserhöhung stapelt sich nicht mit Wut-Effekten.\n-Dieser Effekt reduziert die ZE-Kosten nicht unter 1 ZE.\n-Beschleunigungs-Effekte reduzieren die ZE-Kosten dieser Einheit nicht weiter."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Machtspiel": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Königsprivileg": {
+                    "BaseWeight": 250
+                },
+                "Königs-Comeback": {
+                    "BaseWeight": 500
+                },
+                "Verordnung": {
+                    "BaseWeight": 20,
+                    "Source": {
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss01": {
+        "Name": "Lancelot",
+        "FullName": "Lancelot",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Heiße Deadline",
+                "SkillDescription": "500% Schaden an 1 Gegner.\n\nWenn das getroffene Ziel brannte, wird es anschließend geschwächt.\n\nBei geschwächten Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 0,75-Fache reduziert. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Feuerdrill",
+                "SkillDescription": "Entzieht dem gegnerischen Team für jeden brennenden Gegner auf dem Schlachtfeld bis zu 1 Geist.\n\nAlle brennenden Verbündeten:\n- Ihre aktuelle ZE wird um 50 ZE reduziert.\n- Die ZE-Kosten für alle ihre Fertigkeiten werden um 30% reduziert; dies überschreibt die Effekte anderer Quicken-Fertigkeiten.\n\nAnschließend werden alle Gegner auf dem Schlachtfeld in Brand gesetzt. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDiese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Flammenschnitt",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Abzug von 150% Schaden für jeden Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -600%, wenn 4 Gegner weder schlafen noch brennen). Dieser Angriff ignoriert Schadensminderungseffekte.\n\nEinsetzbar, we Flammen-Explosion.",
+                "TU": 75,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Büroritter",
+                "SkillDescription": "Diese Einheit tritt mit Mega-Heilbrand für 100 ZE in den Kampf ein.\n\nDiese Einheit kann nicht durch Schaden von Brand-Status-Effekten besiegt werden und kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDie Angriffe dieser Einheit ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nWenn diese Einheit einem brennenden Gegner mit einem Angriff Schaden zufügt, erhält sie einen weiteren Zug. Beschädigte Ziele können diesen Effekt erst wieder auslösen, wenn die ZE vorrückt. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen).\n\nEine Einheit mit Mega-Heilbrand heilt nach jedem Zug 20-mal so schnell wie bei Heilbrand. Dies überschreibt andere Statuseffekte, einschließlich Heilbrand beim Anwender, kann nicht durch die Statuseffekte Verbrennung, Vergiftung oder Schlaf überschrieben werden und lässt sich nicht reinigen. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von dieser Schaden erleidet, erhält den Statuseffekt Brand. Eine Einheit mit Mega-Heilbrand erhält für 300 ZE Heilbrand, sobald Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Liebliche Flammen",
+                "SkillDescription": "Immer wenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, wird der nächste Gegner in der Reihe der feindlichen Verstärkungen durch einen Imposter ersetzt.\n\nWenn diese Einheit durch einen feindlichen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nWenn diese Einheit brennt, gilt für sie:\n- Sie kann nicht betäubt werden.\n- Sie erhält 50% Schadensreduzierung bei Angriffen."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Heiße Deadline": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Feuerdrill": {
+                    "BaseWeight": 500
+                },
+                "Flammenschnitt": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "RoundTableModernBoss03": {
+        "Name": "Mega-Lancelot",
+        "FullName": "Mega-Lancelot",
+        "Family": "RoundTableModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Schwert",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 999,
+        "Atk_Base": 4000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2376000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackARoundTableModernBoss",
+                "SkillTitle": "Heiße Deadline",
+                "SkillDescription": "500% Schaden an 1 Gegner.\n\nWenn das getroffene Ziel brannte, wird es anschließend geschwächt.\n\nBei geschwächten Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 0,75-Fache reduziert. Der Effekt der Schwächung kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und er kann durch Wut-Effekte überschrieben werden.",
+                "TU": 50,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "AllBuffARoundTableModernBoss",
+                "SkillTitle": "Feuerdrill",
+                "SkillDescription": "Entzieht dem gegnerischen Team für jeden brennenden Gegner auf dem Schlachtfeld bis zu 1 Geist.\n\nAlle brennenden Verbündeten:\n- Ihre aktuelle ZE wird um 50 ZE reduziert.\n- Die ZE-Kosten für alle ihre Fertigkeiten werden um 30% reduziert; dies überschreibt die Effekte anderer Quicken-Fertigkeiten.\n\nAnschließend werden alle Gegner auf dem Schlachtfeld in Brand gesetzt. Dies überschreibt andere Statuseffekte auf diesen Einheiten.\n\nDiese Fertigkeit ist nach dem Einsatz für 50 ZE gesperrt.",
+                "TU": 10,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigAttackARoundTableModernBoss",
+                "SkillTitle": "Flammenschnitt",
+                "SkillDescription": "1000% Schaden an 1 Gegner. Abzug von 150% Schaden für jeden Gegner auf dem Schlachtfeld, der weder schläft noch brennt (maximal -600%, wenn 4 Gegner weder schlafen noch brennen). Dieser Angriff ignoriert Schadensminderungseffekte.\n\nEinsetzbar, we Flammen-Explosion.",
+                "TU": 75,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackARoundTableModernBoss",
+                "SkillTitle": "Terminierungsschlag",
+                "SkillDescription": "1100% Schaden an 1 Gegner. Dieser Angriff ignoriert gegnerische Schadensminderungseffekte, passive Fähigkeiten des Skins und den Statuseffekt Konterstellung.\n\nWird freigeschaltet, nachdem der Anwender dreimal mit anderen Angriffen zugeschlagen hat. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt. Kann 5 Mal pro Kampf eingesetzt werden.",
+                "TU": 100,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "FieryPassiveARoundTableModernBoss",
+                "SkillTitle": "Büroritter",
+                "SkillDescription": "Diese Einheit tritt mit Mega-Heilbrand für 100 ZE in den Kampf ein.\n\nDiese Einheit kann nicht durch Schaden von Brand-Status-Effekten besiegt werden und kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDie Angriffe dieser Einheit ignorieren alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden.\n\nWenn diese Einheit einem brennenden Gegner mit einem Angriff Schaden zufügt, erhält sie einen weiteren Zug. Beschädigte Ziele können diesen Effekt erst wieder auslösen, wenn die ZE vorrückt. Effekte, die die ZE-Reihenfolge beeinflussen, können den zusätzlichen Zug unterbrechen (z. B. Betäubungen, die auf das Ziel mit der niedrigsten ZE abzielen).\n\nEine Einheit mit Mega-Heilbrand heilt nach jedem Zug 20-mal so schnell wie bei Heilbrand. Dies überschreibt andere Statuseffekte, einschließlich Heilbrand beim Anwender, kann nicht durch die Statuseffekte Verbrennung, Vergiftung oder Schlaf überschrieben werden und lässt sich nicht reinigen. Jede Einheit, die einer Einheit mit Mega-Heilbrand Schaden zufügt oder von dieser Schaden erleidet, erhält den Statuseffekt Brand. Eine Einheit mit Mega-Heilbrand erhält für 300 ZE Heilbrand, sobald Mega-Heilbrand abläuft."
+            },
+            {
+                "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
+                "SkillTitle": "Liebliche Flammen",
+                "SkillDescription": "Immer wenn diese Einheit einen nicht beschworenen Gegner mit einem Angriff besiegt, wird der nächste Gegner in der Reihe der feindlichen Verstärkungen durch einen Imposter ersetzt.\n\nWenn diese Einheit durch einen feindlichen Angriff oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nWenn diese Einheit brennt, gilt für sie:\n- Sie kann nicht betäubt werden.\n- Sie erhält 50% Schadensreduzierung bei Angriffen."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Heiße Deadline": {
+                    "BaseWeight": 1,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 1.01,
+                        "IsBigDamageMinus": 0.85,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Feuerdrill": {
+                    "BaseWeight": 500
+                },
+                "Flammenschnitt": {
+                    "BaseWeight": 1.1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                },
+                "Terminierungsschlag": {
+                    "BaseWeight": 5,
+                    "Source": {
+                        "NoneBurningInBattle": 10
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurningNotHitAlreadyOrImposterRTModern": 2,
+                        "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss01": {
+        "Name": "Merlin",
+        "FullName": "Merlin",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Stab",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 999,
+        "Atk_Base": 1400,
+        "Hp_Base": 20100,
+        "Speed": 605,
+        "Power": 325200,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Nachlassende Hitze",
+                "SkillDescription": "Zielt auf 1 Gegner ab. Dieser Gegner erhält den Statuseffekt „Verbrennen“ und wird anschließend geschwächt. Diese Fertigkeit schaltet bei Verwendung das Cyber-Protokoll frei und wird danach gesperrt, bis der Anwender das Feuersturm-Protokoll einsetzt oder das Schlachtfeld verlässt.\n\nBei Geschwächten Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 0,75-Fache reduziert. Die Wirkung von Geschwächt kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und sie kann durch Wut-Effekte überschrieben werden.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "Cyber-Protokoll",
+                "SkillDescription": "Verbrennt Verbündeten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild.\n\nJeder Gegner auf dem Schlachtfeld mit dem Statuseffekt Verbrennung wird für 50 ZE betäubt. Alle anderen Gegner erhalten den Statuseffekt Brennen und werden geschwächt.\n\nDiese Fertigkeit ist gesperrt, bis sie durch das Kindling-Set freigeschaltet wird, und schaltet bei Verwendung das Feuersturm-Protokoll frei. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nVerbrennen überschreibt andere Statuseffekte auf diesen Einheiten. Verbrennungsschilde verhindern, dass der nächste Nicht-Verbrennungs-Statuseffekt, den eine Einheit während des Verbrennens erhalten würde, wirksam wird.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Feuersturmprotokoll",
+                "SkillDescription": "400% Schaden an 1 Gegner, plus 150% für jede brennende Einheit auf dem Schlachtfeld (maximal 1000% Gesamtschaden, wenn 4 oder mehr Einheiten auf dem Schlachtfeld brennen). n\nWenn dieser Schaden das Ziel nicht besiegt, werden die aktuellen ZE von zwei anderen zufälligen Verbündeten auf dem Schlachtfeld um 50 ZE verringert.\n\nDiese Fertigkeit ist gesperrt, bis sie durch das Cyber-Protokoll freigeschaltet wird, und schaltet bei Verwendung das Kindling-Set frei. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 40,
+                "Spirit": "+3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "Cyber-Zauberer",
+                "SkillDescription": "Diese Einheit tritt mit Mega-Heilbrand für 100 ZE in den Kampf ein.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nDiese Einheit kann nicht durch Schaden von Verbrennung-Status-Effekten besiegt werden und kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDie Angriffe dieser Einheit ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Root-Zugriff",
+                "SkillDescription": "Diese Einheit ist immun gegen Betäubungseffekte.\n\nDiese Einheit erhält 50% Schadensreduzierung bei Angriffen.\n\nNach dem Ende jedes Zuges dieser Einheit, sofern sie über eine Kraftladung verfügt, verbraucht sie diese, um alle Verbündeten um 1% ihrer maximalen LP zu heilen und sie in Raserei zu versetzen. Andernfalls erhält diese Einheit eine Kraftladung. Dies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Bei wütenden Einheiten erhöht sich der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um deren Effekte zu aktivieren oder zu verstärken. Kraftladungen sind nicht stapelbar und werden entfernt, sobald der Anwender das Schlachtfeld verlässt."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Nachlassende Hitze": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "Cyber-Protokoll": {
+                    "BaseWeight": 250
+                },
+                "Feuersturmprotokoll": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
+    },
+    "MerlinModernBoss03": {
+        "Name": "Mega-Merlin",
+        "FullName": "Mega-Merlin",
+        "Family": "MerlinModernBoss",
+        "Profile": "",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "Stab",
+        "forFilter_Element": "Fire",
+        "Element": "Feuer",
+        "Cost": 999,
+        "Atk_Base": 3000,
+        "Hp_Base": 178000,
+        "Speed": 605,
+        "Power": 2316000,
+        "Visible": false,
+        "ActiveSkill": [
+            {
+                "SkillCodename": "EnemyBuffAMerlinModernBoss",
+                "SkillTitle": "Nachlassende Hitze",
+                "SkillDescription": "Zielt auf 1 Gegner ab. Dieser Gegner erhält den Statuseffekt „Verbrennen“ und wird anschließend geschwächt. Diese Fertigkeit schaltet bei Verwendung das Cyber-Protokoll frei und wird danach gesperrt, bis der Anwender das Feuersturm-Protokoll einsetzt oder das Schlachtfeld verlässt.\n\nBei Geschwächten Einheiten wird der Angriff bis zum Ende ihres nächsten Zuges auf das 0,75-Fache reduziert. Die Wirkung von Geschwächt kann abgeschwächt werden, wenn der Angriff der betroffenen Einheit durch andere Effekte erhöht wird, und sie kann durch Wut-Effekte überschrieben werden.",
+                "TU": 1,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "AllBuffAMerlinModernBoss",
+                "SkillTitle": "Cyber-Protokoll",
+                "SkillDescription": "Verbrennt Verbündeten auf dem Schlachtfeld und gewährt ihnen einen Verbrennungsschild.\n\nJeder Gegner auf dem Schlachtfeld mit dem Statuseffekt Verbrennung wird für 50 ZE betäubt. Alle anderen Gegner erhalten den Statuseffekt Brennen und werden geschwächt.\n\nDiese Fertigkeit ist gesperrt, bis sie durch das Kindling-Set freigeschaltet wird, und schaltet bei Verwendung das Feuersturm-Protokoll frei. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.\n\nVerbrennen überschreibt andere Statuseffekte auf diesen Einheiten. Verbrennungsschilde verhindern, dass der nächste Nicht-Verbrennungs-Statuseffekt, den eine Einheit während des Verbrennens erhalten würde, wirksam wird.",
+                "TU": 30,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "SingleAttackAMerlinModernBoss",
+                "SkillTitle": "Feuersturmprotokoll",
+                "SkillDescription": "400% Schaden an 1 Gegner, plus 150% für jede brennende Einheit auf dem Schlachtfeld (maximal 1000% Gesamtschaden, wenn 4 oder mehr Einheiten auf dem Schlachtfeld brennen). n\nWenn dieser Schaden das Ziel nicht besiegt, werden die aktuellen ZE von zwei anderen zufälligen Verbündeten auf dem Schlachtfeld um 50 ZE verringert.\n\nDiese Fertigkeit ist gesperrt, bis sie durch das Cyber-Protokoll freigeschaltet wird, und schaltet bei Verwendung das Kindling-Set frei. Diese Fertigkeit wird nach jedem Einsatz oder wenn der Anwender das Schlachtfeld verlässt, wieder gesperrt.",
+                "TU": 40,
+                "Spirit": "+3"
+            },
+            {
+                "SkillCodename": "SpecialAttackAMerlinModernBoss",
+                "SkillTitle": "Arkaner Untergang",
+                "SkillDescription": "1100% Schaden an 1 Gegner.\n\nWenn dieser Schaden das Ziel nicht besiegt, werden die aktuellen ZE aller Verbündeten auf dem Schlachtfeld um 50 ZE reduziert.\n\nNur einsetzbar, wenn alle Gegner auf dem Schlachtfeld brennen oder wenn der Anwender nicht brennt.",
+                "TU": 100,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
+                "SkillTitle": "Cyber-Zauberer",
+                "SkillDescription": "Diese Einheit tritt mit Mega-Heilbrand für 100 ZE in den Kampf ein.\n\nWenn diese Einheit durch einen Angriff eines Gegners oder einen Statuseffekt besiegt werden würde, während sie mehr als 1 LP hat, überlebt sie stattdessen mit 1 LP. n\nDiese Einheit kann nicht durch Schaden von Verbrennung-Status-Effekten besiegt werden und kann nicht vom Schlachtfeld zu den Verstärkungen geschickt werden.\n\nDie Angriffe dieser Einheit ignorieren Schadensreduzierungseffekte sowie alle Effekte von Nicht-Boss-Gegnern, die verhindern würden, dass Ziele besiegt werden."
+            },
+            {
+                "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
+                "SkillTitle": "Root-Zugriff",
+                "SkillDescription": "Diese Einheit ist immun gegen Betäubungseffekte.\n\nDiese Einheit erhält 50% Schadensreduzierung bei Angriffen.\n\nNach dem Ende jedes Zuges dieser Einheit, sofern sie über eine Kraftladung verfügt, verbraucht sie diese, um alle Verbündeten um 1% ihrer maximalen LP zu heilen und sie in Raserei zu versetzen. Andernfalls erhält diese Einheit eine Kraftladung. Dies überschreibt die Effekte anderer Wut-Fertigkeiten auf diese Einheiten. Bei wütenden Einheiten erhöht sich der Angriff bis zum Ende ihres nächsten Zuges auf das 1,5-Fache. Kraftladungen können von bestimmten Fertigkeiten verbraucht werden, um deren Effekte zu aktivieren oder zu verstärken. Kraftladungen sind nicht stapelbar und werden entfernt, sobald der Anwender das Schlachtfeld verlässt."
+            }
+        ],
+        "AiLogic": {
+            "PickWeight": 1,
+            "SkillUse": {
+                "Nachlassende Hitze": {
+                    "BaseWeight": 250,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1.1,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5,
+                        "IsBurning": 0.75,
+                        "IsBurnImmune": 0.1
+                    }
+                },
+                "Cyber-Protokoll": {
+                    "BaseWeight": 250
+                },
+                "Feuersturmprotokoll": {
+                    "BaseWeight": 1,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "Arkaner Untergang": {
+                    "BaseWeight": 5,
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        }
     }
 }
