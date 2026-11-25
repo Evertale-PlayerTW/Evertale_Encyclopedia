@@ -48287,7 +48287,7 @@
             {
                 "SkillCodename": "SingleAttackAVenusRegularBoss",
                 "SkillTitle": "美神衝擊",
-                "SkillDescription": "對1個敵人造成600%的傷害。被此攻擊擊中的敵人將陷入虛弱狀態，其攻擊力降低為0.75倍直到其下一個回合結束，該效果會覆蓋該單位原先的虛弱或狂熱效果。此攻擊無視目標的減傷效果、反彈類被動技能以及「反擊態勢」狀態效果。\n處於虛弱狀態的單位攻擊力降低為0.75倍直到其下一個回合結束。虛弱的效果可能會因其他提升攻擊力的效果而減弱，並會被狂熱效果覆蓋。",
+                "SkillDescription": "對1個敵人造成600%的傷害。被此攻擊擊中的敵人將陷入虛弱狀態，其攻擊力降低為0.75倍直到其下一個回合結束，該效果會覆蓋該單位原先的虛弱或狂熱效果。此攻擊無視目標的減傷效果、反彈類被動技能以及「反擊態勢」狀態效果。\n虛弱的效果可能會因其他提升攻擊力的效果而減弱，並會被狂熱效果覆蓋。",
                 "TU": 70,
                 "Spirit": "+2"
             },
@@ -48392,7 +48392,7 @@
             {
                 "SkillCodename": "SingleAttackAVenusRegularBoss",
                 "SkillTitle": "美神衝擊",
-                "SkillDescription": "對1個敵人造成600%的傷害。被此攻擊擊中的敵人將陷入虛弱狀態，其攻擊力降低為0.75倍直到其下一個回合結束，該效果會覆蓋該單位原先的虛弱或狂熱效果。此攻擊無視目標的減傷效果、反彈類被動技能以及「反擊態勢」狀態效果。\n處於虛弱狀態的單位攻擊力降低為0.75倍直到其下一個回合結束。虛弱的效果可能會因其他提升攻擊力的效果而減弱，並會被狂熱效果覆蓋。",
+                "SkillDescription": "對1個敵人造成600%的傷害。被此攻擊擊中的敵人將陷入虛弱狀態，其攻擊力降低為0.75倍直到其下一個回合結束，該效果會覆蓋該單位原先的虛弱或狂熱效果。此攻擊無視目標的減傷效果、反彈類被動技能以及「反擊態勢」狀態效果。\n虛弱的效果可能會因其他提升攻擊力的效果而減弱，並會被狂熱效果覆蓋。",
                 "TU": 70,
                 "Spirit": "+2"
             },
@@ -53623,7 +53623,7 @@
             {
                 "SkillCodename": "StrikingPassiveABasiliskRegularBoss",
                 "SkillTitle": "最強惡魔使",
-                "SkillDescription": "此單位不會被眩暈。\n此單位不會因燃燒狀態造成的傷害而被擊敗。在敵方回合期間，此單位無法從場上回到援軍隊伍。\n此單位的攻擊無視非BOSS單位防止被擊敗的效果、「反擊態勢」狀態效果、反彈類被動技能的效果。\n此單位在進入戰場後獲得燃燒護盾，並陷入持續100TU的燃燒（治癒）狀態。\n當此單位從己方援軍進入戰場時，觸發以下效果：\n-使場上所有其他單位陷入燃燒狀態，並獲得燃燒護盾。\n-隨後，使所有其他隊友目前TU歸零。\n\n燃燒護盾會阻止下一個處於燃燒狀態時即將獲得的非燃燒狀態效果生效。處於燃燒（治癒）狀態的單位會在每個回合結束後以燃燒（回復）的20倍效果回復生命值。此效果會覆蓋使用者身上的其他狀態效果（包括燃燒（回復）），不會被燃燒、中毒或睡眠狀態覆蓋，也無法被淨化。任何對處於燃燒（治癒）狀態的單位造成傷害或被其造成傷害的單位，也會陷入燃燒狀態。燃燒（治癒）結束時，將改為獲得持續300TU的燃燒（回復）狀態。"
+                "SkillDescription": "此單位不會被眩暈。此單位不會因為燃燒的傷害被擊敗。在敵方回合期間，此單位無法從場上回到援軍隊伍。\n此單位的攻擊無視非BOSS單位防止目標被擊敗的效果或被動技能、反擊態勢狀態效果及反彈被動技能。\n此單位進場時獲得燃燒護盾與持續100TU的燃燒（治癒）狀態。\n每當此單位從援軍隊伍進場時，觸發以下效果：\n·場上所有其他單位獲得燃燒狀態與燃燒護盾。\n·場上所有其他己方單位TU歸零，使其依序獲得下一回合。\n燃燒護盾效果將防止此後一次該單位的燃燒狀態被其他狀態效果覆蓋。處於燃燒（治癒）狀態的單位在每個回合結束時以20倍於燃燒造成傷害的量回復生命值。此效果將覆蓋身上的其他狀態效果且燃燒（治癒）狀態能覆蓋燃燒（回復）狀態而不會被其他燃燒、中毒或睡眠狀態所覆蓋。一個單位在給予或受到一個處於燃燒（治癒）狀態的單位傷害後會陷入燃燒狀態。燃燒（治癒）狀態無法被淨化。當燃燒（治癒）持續時間結束時此單位獲得持續300TU的燃燒（回復）狀態。"
             },
             {
                 "SkillCodename": "TurnToStonePassiveABasiliskRegularBoss",
@@ -53749,7 +53749,7 @@
             {
                 "SkillCodename": "StrikingPassiveABasiliskRegularBoss",
                 "SkillTitle": "最強惡魔使",
-                "SkillDescription": "此單位不會被眩暈。\n此單位不會因燃燒狀態造成的傷害而被擊敗。在敵方回合期間，此單位無法從場上回到援軍隊伍。\n此單位的攻擊無視非BOSS單位防止被擊敗的效果、「反擊態勢」狀態效果、反彈類被動技能的效果。\n此單位在進入戰場後獲得燃燒護盾，並陷入持續100TU的燃燒（治癒）狀態。\n當此單位從己方援軍進入戰場時，觸發以下效果：\n-使場上所有其他單位陷入燃燒狀態，並獲得燃燒護盾。\n-隨後，使所有其他隊友目前TU歸零。\n\n燃燒護盾會阻止下一個處於燃燒狀態時即將獲得的非燃燒狀態效果生效。處於燃燒（治癒）狀態的單位會在每個回合結束後以燃燒（回復）的20倍效果回復生命值。此效果會覆蓋使用者身上的其他狀態效果（包括燃燒（回復）），不會被燃燒、中毒或睡眠狀態覆蓋，也無法被淨化。任何對處於燃燒（治癒）狀態的單位造成傷害或被其造成傷害的單位，也會陷入燃燒狀態。燃燒（治癒）結束時，將改為獲得持續300TU的燃燒（回復）狀態。"
+                "SkillDescription": "此單位不會被眩暈。此單位不會因為燃燒的傷害被擊敗。在敵方回合期間，此單位無法從場上回到援軍隊伍。\n此單位的攻擊無視非BOSS單位防止目標被擊敗的效果或被動技能、反擊態勢狀態效果及反彈被動技能。\n此單位進場時獲得燃燒護盾與持續100TU的燃燒（治癒）狀態。\n每當此單位從援軍隊伍進場時，觸發以下效果：\n·場上所有其他單位獲得燃燒狀態與燃燒護盾。\n·場上所有其他己方單位TU歸零，使其依序獲得下一回合。\n燃燒護盾效果將防止此後一次該單位的燃燒狀態被其他狀態效果覆蓋。處於燃燒（治癒）狀態的單位在每個回合結束時以20倍於燃燒造成傷害的量回復生命值。此效果將覆蓋身上的其他狀態效果且燃燒（治癒）狀態能覆蓋燃燒（回復）狀態而不會被其他燃燒、中毒或睡眠狀態所覆蓋。一個單位在給予或受到一個處於燃燒（治癒）狀態的單位傷害後會陷入燃燒狀態。燃燒（治癒）狀態無法被淨化。當燃燒（治癒）持續時間結束時此單位獲得持續300TU的燃燒（回復）狀態。"
             },
             {
                 "SkillCodename": "TurnToStonePassiveABasiliskRegularBoss",
@@ -56945,22 +56945,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAKingArthurModernBoss",
-                "SkillTitle": "Power Play",
-                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time this skill has already been used while on the battlefield (max of 1000% total damage). This attack ignores damage reduction effects. Damage from this attack does not wake up sleeping enemies.\n\nThen, if the user has a Power Charge, the user consumes a Power Charge to have their current TU reduced by 100TU.",
+                "SkillTitle": "權力博弈",
+                "SkillDescription": "對1個敵人造成250%的傷害，使用者進場後每使用過此技能一次，傷害上升150%，至多上升為1000%；若使用者有蓄能，則消耗蓄能使其減少100TU。此技能無視目標的減傷效果。此攻擊的傷害不會移除目標的睡眠狀態。",
                 "TU": 100,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
-                "SkillTitle": "Regal Privilege",
-                "SkillDescription": "Grants all allies a Sleep Ward, Stun Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThe user is granted a Power Charge. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield.\n\nThis skill becomes locked for 50TU after use. Usable 5 times per battle.",
+                "SkillTitle": "王權獨尊",
+                "SkillDescription": "己方場上所有單位獲得睡眠抵抗、眩暈抵抗與中毒抵抗；使用者獲得蓄能。\n各類抵抗會防止一次各自負面效果，之後該類抵抗會被移除。各類抵抗效果次數各自無法疊加。蓄能可用於觸發或加強特定技能。蓄能無法疊加且單位離場時其蓄能將被移除。\n此技能在一場戰鬥中只能使用五次，且此技能使用後必須等50TU後才能再次使用。",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "SelfBuffAKingArthurModernBoss",
-                "SkillTitle": "Regal Comeback",
-                "SkillDescription": "Allies gain 10 Spirit.\n\nThe user is healed for 50% of max HP, granted a Power Charge, and the user's Hold Ground+ passive skill effect is reset for the user and can be triggered again.\n\nThis skill is locked until the user's Hold Ground+ passive skill effect is triggered while on the battlefield and is locked again after each use. Usable once per battle.",
+                "SkillTitle": "高階主管特權",
+                "SkillDescription": "己方獲得10點靈氣；使用者回復最大生命值的50%，獲得蓄能且「堅守陣地+」被動技能已觸發次數清零。\n每當使用者進場後「堅守陣地+」被動技能已觸發後才能使用一次此技能且在一場戰鬥中只能使用一次。",
                 "TU": 1,
                 "Spirit": "-2"
             }
@@ -56968,8 +56968,8 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
-                "SkillTitle": "Regal Successor",
-                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect.\n\nThis unit cannot be Stunned until it has defeated 1 enemy with an attack while on the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nAfter entering the battlefield, for 100TU, after the end of each of this unit's turns, this unit will randomly either:\n- Disable the enemy with the lowest current TU for 30TU. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if this unit is defeated.\n- Give the next turns to all other allies on the battlefield by reducing their current TU. These TU reductions may trigger before or after other effects that adjust the turn order.\n- Fortify 2 random non-fortified allies. A Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect."
+                "SkillTitle": "冷酷的繼承者",
+                "SkillDescription": "若受到超過自己剩餘生命值的傷害，此單位會以1點生命值存活，且直到自己下一個回合不會被擊敗。此單位每次進場後，此堅守陣地+效果只能觸發一次。若此單位進場後未透過攻擊擊敗過至少1個敵方單位，此單位不會被眩暈。此單位的攻擊無視非BOSS單位防止目標被擊敗的效果或被動技能。\n每當進場不超過100TU的此單位回合結束時，隨機觸發以下效果：\n·封鎖敵方場上TU最低的單位主動技能30TU。當一個單位在主動技能被封鎖期間獲得回合時會失去該回合（類似睡眠狀態）。此封鎖效果無法對BOSS類單位生效，無法被淨化，在此單位被擊敗後失效。\n·己方場上所有其他單位TU歸零，使其依序獲得下一回合。一些影響TU的技能效果（如眩暈最低TU單位等）可能會改變獲得回合的時機。\n·隨機使2個不處於金屬化的己方單位金屬化。金屬化會使該單位此後三次遭受敵方攻擊時所受的傷害減少50%，之後金屬化會被移除。金屬化的減傷效果不會被不能無視金屬化的攻擊無視。已處於金屬化的單位再次金屬化時次數重置為三次，金屬化不屬於狀態效果。"
             },
             {
                 "SkillCodename": "SuperBuffPlusKingArthur",
@@ -56980,7 +56980,7 @@
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Power Play": {
+                "權力博弈": {
                     "BaseWeight": 1,
                     "Ignore": [
                         "IsSleeping"
@@ -57010,10 +57010,10 @@
                         "IsAmbushCounter": 0.5
                     }
                 },
-                "Regal Privilege": {
+                "王權獨尊": {
                     "BaseWeight": 250
                 },
-                "Regal Comeback": {
+                "高階主管特權": {
                     "BaseWeight": 500
                 }
             }
@@ -57040,29 +57040,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackAKingArthurModernBoss",
-                "SkillTitle": "Power Play",
-                "SkillDescription": "250% damage to 1 enemy, plus 150% for each time this skill has already been used while on the battlefield (max of 1000% total damage). This attack ignores damage reduction effects. Damage from this attack does not wake up sleeping enemies.\n\nThen, if the user has a Power Charge, the user consumes a Power Charge to have their current TU reduced by 100TU.",
+                "SkillTitle": "權力博弈",
+                "SkillDescription": "對1個敵人造成250%的傷害，使用者進場後每使用過此技能一次，傷害上升150%，至多上升為1000%；若使用者有蓄能，則消耗蓄能使其減少100TU。此技能無視目標的減傷效果。此攻擊的傷害不會移除目標的睡眠狀態。",
                 "TU": 100,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "BigSelfBuffAKingArthurModernBoss",
-                "SkillTitle": "Regal Privilege",
-                "SkillDescription": "Grants all allies a Sleep Ward, Stun Ward, and Poison Ward. Each Ward prevents their named effect from being applied once, then is removed. Identical Wards cannot stack.\n\nThe user is granted a Power Charge. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield.\n\nThis skill becomes locked for 50TU after use. Usable 5 times per battle.",
+                "SkillTitle": "王權獨尊",
+                "SkillDescription": "己方場上所有單位獲得睡眠抵抗、眩暈抵抗與中毒抵抗；使用者獲得蓄能。\n各類抵抗會防止一次各自負面效果，之後該類抵抗會被移除。各類抵抗效果次數各自無法疊加。蓄能可用於觸發或加強特定技能。蓄能無法疊加且單位離場時其蓄能將被移除。\n此技能在一場戰鬥中只能使用五次，且此技能使用後必須等50TU後才能再次使用。",
                 "TU": 1,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "SelfBuffAKingArthurModernBoss",
-                "SkillTitle": "Regal Comeback",
-                "SkillDescription": "Allies gain 10 Spirit.\n\nThe user is healed for 50% of max HP, granted a Power Charge, and the user's Hold Ground+ passive skill effect is reset for the user and can be triggered again.\n\nThis skill is locked until the user's Hold Ground+ passive skill effect is triggered while on the battlefield and is locked again after each use. Usable once per battle.",
+                "SkillTitle": "高階主管特權",
+                "SkillDescription": "己方獲得10點靈氣；使用者回復最大生命值的50%，獲得蓄能且「堅守陣地+」被動技能已觸發次數清零。\n每當使用者進場後「堅守陣地+」被動技能已觸發後才能使用一次此技能且在一場戰鬥中只能使用一次。",
                 "TU": 1,
                 "Spirit": "-2"
             },
             {
                 "SkillCodename": "SpecialAttackAKingArthurModernBoss",
-                "SkillTitle": "Executive Order",
-                "SkillDescription": "900% damage to 2 enemies, and the user is granted a Power Charge. This attack ignores the Stealth status effect.\n\nUnlocked each time 2+ units have entered the battlefield from reinforcements since the user entered the battlefield or this skill was last used. This skill is locked again after each use or if the user leaves the battlefield.",
+                "SkillTitle": "蒼天照",
+                "SkillDescription": "對2個敵人造成900%的傷害，使用者獲得蓄能。此技能無視目標的匿蹤狀態。每當使用者進場後或上一次使用此技能後有至少2個單位從援軍隊伍進場後才能發動。在離場或使用一次後需要再度滿足發動條件才能第二次發動。",
                 "TU": 120,
                 "Spirit": "-3"
             }
@@ -57070,8 +57070,8 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "HailToTheKingPassiveAKingArthurModernBoss",
-                "SkillTitle": "Regal Successor",
-                "SkillDescription": "If this unit would be defeated, it instead survives with 1 HP and then cannot be defeated until its next turn. This effect can trigger only once each time this unit enters the battlefield, and is considered a Hold Ground+ effect.\n\nThis unit cannot be Stunned until it has defeated 1 enemy with an attack while on the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nAfter entering the battlefield, for 100TU, after the end of each of this unit's turns, this unit will randomly either:\n- Disable the enemy with the lowest current TU for 30TU. When a unit's Active Skills are disabled and they get the turn, they will lose the turn as if they were sleeping. This effect cannot affect boss units, cannot be purified, and will end if this unit is defeated.\n- Give the next turns to all other allies on the battlefield by reducing their current TU. These TU reductions may trigger before or after other effects that adjust the turn order.\n- Fortify 2 random non-fortified allies. A Fortified unit has 50% damage reduction from attacks. This reduction cannot be ignored by attacks that do not specifically ignore Fortify. Fortify will be removed after reducing damage 3 times since applying, and will be reset if reapplied. This is not a status effect."
+                "SkillTitle": "冷酷的繼承者",
+                "SkillDescription": "若受到超過自己剩餘生命值的傷害，此單位會以1點生命值存活，且直到自己下一個回合不會被擊敗。此單位每次進場後，此堅守陣地+效果只能觸發一次。若此單位進場後未透過攻擊擊敗過至少1個敵方單位，此單位不會被眩暈。此單位的攻擊無視非BOSS單位防止目標被擊敗的效果或被動技能。\n每當進場不超過100TU的此單位回合結束時，隨機觸發以下效果：\n·封鎖敵方場上TU最低的單位主動技能30TU。當一個單位在主動技能被封鎖期間獲得回合時會失去該回合（類似睡眠狀態）。此封鎖效果無法對BOSS類單位生效，無法被淨化，在此單位被擊敗後失效。\n·己方場上所有其他單位TU歸零，使其依序獲得下一回合。一些影響TU的技能效果（如眩暈最低TU單位等）可能會改變獲得回合的時機。\n·隨機使2個不處於金屬化的己方單位金屬化。金屬化會使該單位此後三次遭受敵方攻擊時所受的傷害減少50%，之後金屬化會被移除。金屬化的減傷效果不會被不能無視金屬化的攻擊無視。已處於金屬化的單位再次金屬化時次數重置為三次，金屬化不屬於狀態效果。"
             },
             {
                 "SkillCodename": "SuperBuffPlusKingArthur",
@@ -57082,7 +57082,7 @@
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Power Play": {
+                "權力博弈": {
                     "BaseWeight": 1,
                     "Ignore": [
                         "IsSleeping"
@@ -57112,13 +57112,13 @@
                         "IsAmbushCounter": 0.5
                     }
                 },
-                "Regal Privilege": {
+                "王權獨尊": {
                     "BaseWeight": 250
                 },
-                "Regal Comeback": {
+                "高階主管特權": {
                     "BaseWeight": 500
                 },
-                "Executive Order": {
+                "蒼天照": {
                     "BaseWeight": 20,
                     "Source": {
                         "AllEnemiesImposters": 0.0001,
@@ -57174,22 +57174,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackARoundTableModernBoss",
-                "SkillTitle": "Heated Deadline",
-                "SkillDescription": "500% damage to 1 enemy.\n\nThen, if the hit target was burning, that target is Weakened.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "SkillTitle": "火線趕工",
+                "SkillDescription": "對1個敵人造成500%的傷害，若目標在該回合開始時已經處於燃燒狀態，則使其攻擊力降低為0.75倍直到其下個回合結束。此效果會覆蓋先前的「狂熱」或「虛弱」效果。虛弱的效果可能會因其他提升攻擊力的效果而減弱。",
                 "TU": 50,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "AllBuffARoundTableModernBoss",
-                "SkillTitle": "Fire Drill",
-                "SkillDescription": "Steals up to 1 Spirit from the enemy team for each burning enemy on the battlefield.\n\nAll burning allies:\n- Have their current TU reduced by 50TU.\n- Have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills.\n\nThen all enemies on the battlefield are burned. This will overwrite other status effects on those units.\n\nThis skill becomes locked for 50TU after use.",
+                "SkillTitle": "死亡行軍",
+                "SkillDescription": "敵方場上每存在1個處於燃燒狀態的單位，抽取敵方1點靈氣；己方場上所有處於燃燒狀態的單位減少50TU且其所有技能TU減少30%；使場上所有敵方單位陷入燃燒狀態。此效果會覆蓋身上的其他狀態效果及先前「加速」類效果。\n此技能使用後必須等50TU後才能再使用。",
                 "TU": 10,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "BigAttackARoundTableModernBoss",
-                "SkillTitle": "Blazing Cut",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores damage reduction effects.\n\nUsable if any ally on the battlefield has the Burn status effect. This is considered a Burn Blast type skill.",
+                "SkillTitle": "烈焰斬擊",
+                "SkillDescription": "對1個敵人造成1000%的傷害，敵方場上每存在1個不處於睡眠或燃燒狀態的單位，傷害降低150%。此技能無視目標的減傷效果。己方場上必須存在處於燃燒狀態的單位才可使用。此技能被視為火焰類主動技能。",
                 "TU": 75,
                 "Spirit": "-2"
             }
@@ -57197,19 +57197,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "FieryPassiveARoundTableModernBoss",
-                "SkillTitle": "Office Knight",
-                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nIf this unit damages a burning enemy with an attack, this unit will get another turn. Damaged targets cannot trigger this effect again until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "辦公室騎士",
+                "SkillDescription": "此單位進場時獲得持續100TU的燃燒（治癒）狀態。此單位不會因燃燒狀態造成的傷害被擊敗。此單位無法從場上回到援軍隊伍。此單位的攻擊無視非BOSS單位防止目標被擊敗的效果或被動技能。\n每當此單位透過攻擊對處於燃燒狀態的敵人造成傷害後將立即獲得下一回合。此效果在同一TU內對同一目標至多觸發一次。一些影響TU的技能效果（如眩暈最低TU單位等）可能會改變獲得回合的時機。\n處於燃燒（治癒）狀態的單位在每個回合結束時以20倍於燃燒造成傷害的量回復生命值。此效果將覆蓋身上的其他狀態效果且燃燒（治癒）狀態能覆蓋燃燒（回復）狀態而不會被其他燃燒、中毒或睡眠狀態所覆蓋。一個單位在給予或受到一個處於燃燒（治癒）狀態的單位傷害後會陷入燃燒狀態。燃燒（治癒）狀態無法被淨化。當燃燒（治癒）持續時間結束時此單位獲得持續300TU的燃燒（回復）狀態。"
             },
             {
                 "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
-                "SkillTitle": "Lovely Flames",
-                "SkillDescription": "Whenever this unit defeats a non-conjured enemy with an attack, an Imposter is added to the next in line of enemy reinforcements.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nIf this unit is burning, this unit:\n- Cannot be Stunned.\n- Has 50% damage reduction from attacks."
+                "SkillTitle": "獎金是重辣",
+                "SkillDescription": "若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。每當此單位透過攻擊擊敗非召喚物的敵方單位時，在敵方援軍下一個位置召喚1個冒牌貨。處於燃燒狀態的此單位不會被暈眩且受到敵方攻擊的傷害減少50%。"
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Heated Deadline": {
+                "火線趕工": {
                     "BaseWeight": 1,
                     "Source": {
                         "NoneBurningInBattle": 10
@@ -57240,10 +57240,10 @@
                         "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
                     }
                 },
-                "Fire Drill": {
+                "死亡行軍": {
                     "BaseWeight": 500
                 },
-                "Blazing Cut": {
+                "烈焰斬擊": {
                     "BaseWeight": 1.1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -57293,29 +57293,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "SingleAttackARoundTableModernBoss",
-                "SkillTitle": "Heated Deadline",
-                "SkillDescription": "500% damage to 1 enemy.\n\nThen, if the hit target was burning, that target is Weakened.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "SkillTitle": "火線趕工",
+                "SkillDescription": "對1個敵人造成500%的傷害，若目標在該回合開始時已經處於燃燒狀態，則使其攻擊力降低為0.75倍直到其下個回合結束。此效果會覆蓋先前的「狂熱」或「虛弱」效果。虛弱的效果可能會因其他提升攻擊力的效果而減弱。",
                 "TU": 50,
                 "Spirit": "+1"
             },
             {
                 "SkillCodename": "AllBuffARoundTableModernBoss",
-                "SkillTitle": "Fire Drill",
-                "SkillDescription": "Steals up to 1 Spirit from the enemy team for each burning enemy on the battlefield.\n\nAll burning allies:\n- Have their current TU reduced by 50TU.\n- Have the TU costs for all of their skills reduced by 30%, this will overwrite the effects of other Quicken skills.\n\nThen all enemies on the battlefield are burned. This will overwrite other status effects on those units.\n\nThis skill becomes locked for 50TU after use.",
+                "SkillTitle": "死亡行軍",
+                "SkillDescription": "敵方場上每存在1個處於燃燒狀態的單位，抽取敵方1點靈氣；己方場上所有處於燃燒狀態的單位減少50TU且其所有技能TU減少30%；使場上所有敵方單位陷入燃燒狀態。此效果會覆蓋身上的其他狀態效果及先前「加速」類效果。\n此技能使用後必須等50TU後才能再使用。",
                 "TU": 10,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "BigAttackARoundTableModernBoss",
-                "SkillTitle": "Blazing Cut",
-                "SkillDescription": "1000% damage to 1 enemy. Minus 150% damage for each enemy on the battlefield that is not sleeping, and is not burning (max of -600% if there are 4 enemies that are not sleeping and not burning). This attack ignores damage reduction effects.\n\nUsable if any ally on the battlefield has the Burn status effect. This is considered a Burn Blast type skill.",
+                "SkillTitle": "烈焰斬擊",
+                "SkillDescription": "對1個敵人造成1000%的傷害，敵方場上每存在1個不處於睡眠或燃燒狀態的單位，傷害降低150%。此技能無視目標的減傷效果。己方場上必須存在處於燃燒狀態的單位才可使用。此技能被視為火焰類主動技能。",
                 "TU": 75,
                 "Spirit": "-2"
             },
             {
                 "SkillCodename": "SpecialAttackARoundTableModernBoss",
-                "SkillTitle": "Termination Slash",
-                "SkillDescription": "1100% damage to 1 enemy. This attack ignores enemy damage reduction effects, skin passive skills and the Counter Stance status effect.\n\nUnlocked after the user has attacked 3 times with other attacks. This skill is locked again after each use or if the user leaves the battlefield. Usable 5 times per battle.",
+                "SkillTitle": "辻鐮鼬・烈",
+                "SkillDescription": "對1個敵人造成1100%的傷害。此技能無視目標的減傷效果、反彈被動技能和「反擊態勢」狀態。每當使用者成功用另一個主動技能對敵人造成傷害3次後才能發動。在離場或使用一次後需要再度滿足發動條件才能第二次發動。",
                 "TU": 100,
                 "Spirit": "-2"
             }
@@ -57323,19 +57323,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "FieryPassiveARoundTableModernBoss",
-                "SkillTitle": "Office Knight",
-                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore any effects of non-boss enemies that would prevent targets from being defeated.\n\nIf this unit damages a burning enemy with an attack, this unit will get another turn. Damaged targets cannot trigger this effect again until TU advances. Effects that influence TU order may interrupt the extra turn (e.g. Stuns targeting the lowest TU target).\n\nA unit with Mega Healing Burn will heal after each turn at 20 times the rate as Healing Burn. This will overwrite other status effects including Healing Burn on the user, cannot be overwritten by Burn, Poison or Sleep status effects, and cannot be Purified. Any unit that deals damage to or is dealt damage by a unit with Mega Healing Burn will gain the Burn status effect. A unit with Mega Healing Burn will be granted Healing Burn for 300TU when Mega Healing Burn expires."
+                "SkillTitle": "辦公室騎士",
+                "SkillDescription": "此單位進場時獲得持續100TU的燃燒（治癒）狀態。此單位不會因燃燒狀態造成的傷害被擊敗。此單位無法從場上回到援軍隊伍。此單位的攻擊無視非BOSS單位防止目標被擊敗的效果或被動技能。\n每當此單位透過攻擊對處於燃燒狀態的敵人造成傷害後將立即獲得下一回合。此效果在同一TU內對同一目標至多觸發一次。一些影響TU的技能效果（如眩暈最低TU單位等）可能會改變獲得回合的時機。\n處於燃燒（治癒）狀態的單位在每個回合結束時以20倍於燃燒造成傷害的量回復生命值。此效果將覆蓋身上的其他狀態效果且燃燒（治癒）狀態能覆蓋燃燒（回復）狀態而不會被其他燃燒、中毒或睡眠狀態所覆蓋。一個單位在給予或受到一個處於燃燒（治癒）狀態的單位傷害後會陷入燃燒狀態。燃燒（治癒）狀態無法被淨化。當燃燒（治癒）持續時間結束時此單位獲得持續300TU的燃燒（回復）狀態。"
             },
             {
                 "SkillCodename": "OfficeBattlePassiveARoundTableModernBoss",
-                "SkillTitle": "Lovely Flames",
-                "SkillDescription": "Whenever this unit defeats a non-conjured enemy with an attack, an Imposter is added to the next in line of enemy reinforcements.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nIf this unit is burning, this unit:\n- Cannot be Stunned.\n- Has 50% damage reduction from attacks."
+                "SkillTitle": "獎金是重辣",
+                "SkillDescription": "若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。每當此單位透過攻擊擊敗非召喚物的敵方單位時，在敵方援軍下一個位置召喚1個冒牌貨。處於燃燒狀態的此單位不會被暈眩且受到敵方攻擊的傷害減少50%。"
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Heated Deadline": {
+                "火線趕工": {
                     "BaseWeight": 1,
                     "Source": {
                         "NoneBurningInBattle": 10
@@ -57366,10 +57366,10 @@
                         "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
                     }
                 },
-                "Fire Drill": {
+                "死亡行軍": {
                     "BaseWeight": 500
                 },
-                "Blazing Cut": {
+                "烈焰斬擊": {
                     "BaseWeight": 1.1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -57395,7 +57395,7 @@
                         "IsBurningNotHitAlreadyOrProtectedOrImposterRTModern": 4
                     }
                 },
-                "Termination Slash": {
+                "辻鐮鼬・烈": {
                     "BaseWeight": 5,
                     "Source": {
                         "NoneBurningInBattle": 10
@@ -57448,22 +57448,22 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "EnemyBuffAMerlinModernBoss",
-                "SkillTitle": "Weakening Heat",
-                "SkillDescription": "Targets 1 enemy. That enemy will be granted the Burn status effect, then be Weakened. This skill unlocks Cyber Protocol upon use, and becomes locked after use until the user uses Firestorm Protocol or leaves the battlefield.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "SkillTitle": "啟動",
+                "SkillDescription": "使1個敵人陷入燃燒狀態且攻擊力降低為0.75倍直到其下一回合結束。使用後解鎖「燃燒協議」技能。每次使用後必須先用「過熱」技能或離場後才能再次使用。虛弱的效果可能會因其他提升攻擊力的效果而減弱。",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllBuffAMerlinModernBoss",
-                "SkillTitle": "Cyber Protocol",
-                "SkillDescription": "Burns all allies on the battlefield, and grants them a Burn Shield.\n\nEach enemy on the battlefield with the Burn status effect will be stunned for 50TU. All other enemies will be granted the Burn status effect, and be Weakened.\n\nThis skill is locked until it becomes unlocked by Kindling Set, and unlocks Firestorm Protocol upon use. This skill is locked again after each use or if the user leaves the battlefield.\n\nBurn will overwrite other status effects on those units. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying.",
+                "SkillTitle": "燃燒協議",
+                "SkillDescription": "場上所有己方單位獲得燃燒狀態與燃燒護盾效果；眩暈場上所有處於燃燒狀態的敵方單位50TU，所有其他敵方單位陷入燃燒狀態且其攻擊力降低為0.75倍直到其下個回合結束。\n此技能需透過「啟動」的效果解鎖後才可使用一次，且每次使用後解鎖「過熱」技能。在離場或使用一次後需要再度滿足發動條件才能第二次發動。\n燃燒將覆蓋身上的其他狀態效果。燃燒護盾效果將防止此後一次該單位的燃燒狀態被其他狀態效果覆蓋。",
                 "TU": 30,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "SingleAttackAMerlinModernBoss",
-                "SkillTitle": "Firestorm Protocol",
-                "SkillDescription": "400% damage to 1 enemy, plus 150% for each burning unit on the battlefield (max of 1000% total damage if 4 or more units on the battlefield are burning).\n\nIf this damage does not defeat the target, two other random allies on the battlefield have their current TU reduced by 50TU.\n\nThis skill is locked until it becomes unlocked by Cyber Protocol, and unlocks Kindling Set upon use. This skill is locked again after each use or if the user leaves the battlefield.",
+                "SkillTitle": "過熱",
+                "SkillDescription": "對1個敵人造成400%的傷害，場上每有1個處於燃燒狀態的單位，造成的傷害增加150%，至多上升為1000%。若此攻擊未能擊敗目標，己方場上其他隨機2個單位減少50TU。\n此技能需透過「燃燒協議」的效果解鎖後才可使用一次，且每次使用後解鎖「啟動」技能。離場或使用一次後需要再度滿足發動條件才能第二次發動。",
                 "TU": 40,
                 "Spirit": "+3"
             }
@@ -57471,19 +57471,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
-                "SkillTitle": "Cyber Wizard",
-                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "電子魔女",
+                "SkillDescription": "此單位進場時獲得持續100TU的燃燒（治癒）狀態。若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。此單位不會因燃燒狀態造成的傷害被擊敗。此單位無法從場上回到援軍隊伍。此單位的攻擊無視目標的減傷效果與非BOSS單位防止目標被擊敗的效果或被動技能。"
             },
             {
                 "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
-                "SkillTitle": "Root Access",
-                "SkillDescription": "This unit is not affected by stun effects.\n\nThis unit has 50% damage reduction from attacks.\n\nAfter the end of each of this unit's turns, if this unit has a Power Charge, this unit will consume the Power Charge to heal all allies for 1% of max HP and Enrage them. Otherwise, this unit will gain a Power Charge. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield."
+                "SkillTitle": "魔法駭客",
+                "SkillDescription": "此單位不會被眩暈。此單位受到敵方攻擊的傷害減少50%。每當此單位的回合結束時，若此單位沒有蓄能則獲得蓄能；若此單位有蓄能，則消耗蓄能回復場上所有己方單位最大生命值的1%並使其攻擊力增加為1.5倍直到其下個回合結束。此效果會覆蓋先前的「狂熱」類效果。蓄能可用於觸發或加強特定技能。蓄能無法疊加且單位離場時其蓄能將被移除。"
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Weakening Heat": {
+                "啟動": {
                     "BaseWeight": 250,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -57502,10 +57502,10 @@
                         "IsBurnImmune": 0.1
                     }
                 },
-                "Cyber Protocol": {
+                "燃燒協議": {
                     "BaseWeight": 250
                 },
-                "Firestorm Protocol": {
+                "過熱": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -57553,29 +57553,29 @@
         "ActiveSkill": [
             {
                 "SkillCodename": "EnemyBuffAMerlinModernBoss",
-                "SkillTitle": "Weakening Heat",
-                "SkillDescription": "Targets 1 enemy. That enemy will be granted the Burn status effect, then be Weakened. This skill unlocks Cyber Protocol upon use, and becomes locked after use until the user uses Firestorm Protocol or leaves the battlefield.\n\nWeakened units have their Attack reduced to 0.75x until the end of their next turn. The effect of Weakening may be diminished if the affected unit's Attack is increased by other effects and it can be overwritten by Enrage effects.",
+                "SkillTitle": "啟動",
+                "SkillDescription": "使1個敵人陷入燃燒狀態且攻擊力降低為0.75倍直到其下一回合結束。使用後解鎖「燃燒協議」技能。每次使用後必須先用「過熱」技能或離場後才能再次使用。虛弱的效果可能會因其他提升攻擊力的效果而減弱。",
                 "TU": 1,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "AllBuffAMerlinModernBoss",
-                "SkillTitle": "Cyber Protocol",
-                "SkillDescription": "Burns all allies on the battlefield, and grants them a Burn Shield.\n\nEach enemy on the battlefield with the Burn status effect will be stunned for 50TU. All other enemies will be granted the Burn status effect, and be Weakened.\n\nThis skill is locked until it becomes unlocked by Kindling Set, and unlocks Firestorm Protocol upon use. This skill is locked again after each use or if the user leaves the battlefield.\n\nBurn will overwrite other status effects on those units. Burn Shields prevent the next non-burn status effect a unit would gain while Burning from applying.",
+                "SkillTitle": "燃燒協議",
+                "SkillDescription": "場上所有己方單位獲得燃燒狀態與燃燒護盾效果；眩暈場上所有處於燃燒狀態的敵方單位50TU，所有其他敵方單位陷入燃燒狀態且其攻擊力降低為0.75倍直到其下個回合結束。\n此技能需透過「啟動」的效果解鎖後才可使用一次，且每次使用後解鎖「過熱」技能。在離場或使用一次後需要再度滿足發動條件才能第二次發動。\n燃燒將覆蓋身上的其他狀態效果。燃燒護盾效果將防止此後一次該單位的燃燒狀態被其他狀態效果覆蓋。",
                 "TU": 30,
                 "Spirit": "+2"
             },
             {
                 "SkillCodename": "SingleAttackAMerlinModernBoss",
-                "SkillTitle": "Firestorm Protocol",
-                "SkillDescription": "400% damage to 1 enemy, plus 150% for each burning unit on the battlefield (max of 1000% total damage if 4 or more units on the battlefield are burning).\n\nIf this damage does not defeat the target, two other random allies on the battlefield have their current TU reduced by 50TU.\n\nThis skill is locked until it becomes unlocked by Cyber Protocol, and unlocks Kindling Set upon use. This skill is locked again after each use or if the user leaves the battlefield.",
+                "SkillTitle": "過熱",
+                "SkillDescription": "對1個敵人造成400%的傷害，場上每有1個處於燃燒狀態的單位，造成的傷害增加150%，至多上升為1000%。若此攻擊未能擊敗目標，己方場上其他隨機2個單位減少50TU。\n此技能需透過「燃燒協議」的效果解鎖後才可使用一次，且每次使用後解鎖「啟動」技能。離場或使用一次後需要再度滿足發動條件才能第二次發動。",
                 "TU": 40,
                 "Spirit": "+3"
             },
             {
                 "SkillCodename": "SpecialAttackAMerlinModernBoss",
-                "SkillTitle": "Arcane Downfall",
-                "SkillDescription": "1100% damage to 1 enemy.\n\nIf this damage does not defeat the target, all allies on the battlefield have their current TU reduced by 50TU.\n\nUsable only if all enemies on the battlefield are burning or if the user is not burning.",
+                "SkillTitle": "強制終止",
+                "SkillDescription": "對1個敵人造成1100%的傷害。若此攻擊未能擊敗目標，己方場上所有單位減少50TU。僅當敵方場上全部單位處於燃燒狀態或使用者不處於燃燒狀態時可以使用。",
                 "TU": 100,
                 "Spirit": "-3"
             }
@@ -57583,19 +57583,19 @@
         "PassiveSkill": [
             {
                 "SkillCodename": "ImAWizardPassiveAMerlinModernBoss",
-                "SkillTitle": "Cyber Wizard",
-                "SkillDescription": "This unit enters battle with Mega Healing Burn for 100TU.\n\nIf this unit would be defeated by an enemy attack or a status effect while having more than 1 HP, it instead survives with 1 HP.\n\nThis unit cannot be defeated by damage from Burn status effects, and cannot be sent to the reinforcements from the battlefield.\n\nThis unit's attacks ignore damage reduction effects, and any effects of non-boss enemies that would prevent targets from being defeated."
+                "SkillTitle": "電子魔女",
+                "SkillDescription": "此單位進場時獲得持續100TU的燃燒（治癒）狀態。若受到超過自己剩餘生命值的傷害，會以1點生命值倖存，僅當受到該傷害前的生命值大於1時才會生效。此單位不會因燃燒狀態造成的傷害被擊敗。此單位無法從場上回到援軍隊伍。此單位的攻擊無視目標的減傷效果與非BOSS單位防止目標被擊敗的效果或被動技能。"
             },
             {
                 "SkillCodename": "PowerToUsPassiveAMerlinModernBoss",
-                "SkillTitle": "Root Access",
-                "SkillDescription": "This unit is not affected by stun effects.\n\nThis unit has 50% damage reduction from attacks.\n\nAfter the end of each of this unit's turns, if this unit has a Power Charge, this unit will consume the Power Charge to heal all allies for 1% of max HP and Enrage them. Otherwise, this unit will gain a Power Charge. This will overwrite the effects of other Enrage skills on those units. Enraged units have their Attack increased to 1.5x until the end of their next turn. Power Charges can be consumed by certain skills to activate or enhance their effects. Power Charges cannot stack and will be removed when the user leaves the battlefield."
+                "SkillTitle": "魔法駭客",
+                "SkillDescription": "此單位不會被眩暈。此單位受到敵方攻擊的傷害減少50%。每當此單位的回合結束時，若此單位沒有蓄能則獲得蓄能；若此單位有蓄能，則消耗蓄能回復場上所有己方單位最大生命值的1%並使其攻擊力增加為1.5倍直到其下個回合結束。此效果會覆蓋先前的「狂熱」類效果。蓄能可用於觸發或加強特定技能。蓄能無法疊加且單位離場時其蓄能將被移除。"
             }
         ],
         "AiLogic": {
             "PickWeight": 1,
             "SkillUse": {
-                "Weakening Heat": {
+                "啟動": {
                     "BaseWeight": 250,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -57614,10 +57614,10 @@
                         "IsBurnImmune": 0.1
                     }
                 },
-                "Cyber Protocol": {
+                "燃燒協議": {
                     "BaseWeight": 250
                 },
-                "Firestorm Protocol": {
+                "過熱": {
                     "BaseWeight": 1,
                     "Target": {
                         "IsOdinRaven": 0.1,
@@ -57641,7 +57641,7 @@
                         "IsAmbushCounter": 0.5
                     }
                 },
-                "Arcane Downfall": {
+                "強制終止": {
                     "BaseWeight": 5,
                     "Target": {
                         "IsOdinRaven": 0.1,
