@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-    "Time": 1795137868,
+    "Time": 1795163904,
 	"MonsterConditions": {
 	"IsFire": {
 		"class": "MonsterConditions",
@@ -32810,6 +32810,17 @@
 		"not": {
 			"class": "MonsterConditions",
 			"buffStackNames": ["DontPickMeBuffMerlinModern"]
+		}
+	},
+	"AllySpirit3OrLessORNotHoldGroundOnceForHoldGroundPlus": {
+		"class": "MonsterConditions",
+		"teamSpiritLessThan": 400,
+		"or":{
+			"class": "MonsterConditions",
+			"not": {
+				"class": "MonsterConditions",
+				"buffStackNames": ["HoldGroundOnceForHoldGroundPlus"]
+			}
 		}
 	}
 }

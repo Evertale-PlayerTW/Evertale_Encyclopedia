@@ -22477,7 +22477,7 @@
         "Hp_Base": 2990,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4EnemiesIsDisabled2",
@@ -22502,7 +22502,7 @@
         "Hp_Base": 3590,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5EnemiesIsDisabled2",
@@ -22528,12 +22528,89 @@
         "Hp_Base": 3825,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6EnemiesIsDisabled2",
                 "SkillTitle": "Subir Ataque",
                 "SkillDescription": "25% de bonus a los ataques si 2 o más enemigos tienen sus Habilidades Activas desactivadas."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ModernArthurGreatSword01": {
+        "Name": "Caliburn Omega",
+        "FullName": "Caliburn Omega",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "Una gran espada envuelta en relámpagos azules, que lleva el nombre de una antigua y sagrada hoja. Incluso en otro mundo, esta espada sirve únicamente a un rey.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "Mandoble",
+        "Cost": 11,
+        "Atk_Base": 483,
+        "Hp_Base": 2960,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4EnemyNotProtected",
+                "SkillTitle": "Subir Ataque",
+                "SkillDescription": "15% de bonificación a los ataques si no hay ningún Guardián entre los enemigos."
+            }
+        ]
+    },
+    "ModernArthurGreatSword02": {
+        "Name": "Caliburn Omega",
+        "FullName": "Caliburn Omega",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "Una gran espada envuelta en relámpagos azules, que lleva el nombre de una antigua y sagrada hoja. Incluso en otro mundo, esta espada sirve únicamente a un rey.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "Mandoble",
+        "Cost": 17,
+        "Atk_Base": 602,
+        "Hp_Base": 3490,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5EnemyNotProtected",
+                "SkillTitle": "Subir Ataque",
+                "SkillDescription": "20% de bonificación a los ataques si no hay ningún Guardián entre los enemigos."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ModernArthurGreatSword03": {
+        "Name": "Caliburn Omega",
+        "FullName": "Caliburn Omega",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "Una gran espada envuelta en relámpagos azules, que lleva el nombre de una antigua y sagrada hoja. Incluso en otro mundo, esta espada sirve únicamente a un rey.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "Mandoble",
+        "Cost": 23,
+        "Atk_Base": 658,
+        "Hp_Base": 3710,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6EnemyNotProtected",
+                "SkillTitle": "Subir Ataque",
+                "SkillDescription": "25% de bonificación a los ataques si no hay ningún Guardián entre los enemigos."
             }
         ],
         "ExtraEvoInitialCount": 2

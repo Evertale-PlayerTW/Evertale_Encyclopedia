@@ -22477,7 +22477,7 @@
         "Hp_Base": 2990,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4EnemiesIsDisabled2",
@@ -22502,7 +22502,7 @@
         "Hp_Base": 3590,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5EnemiesIsDisabled2",
@@ -22528,12 +22528,89 @@
         "Hp_Base": 3825,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6EnemiesIsDisabled2",
                 "SkillTitle": "Aumento Attacco",
                 "SkillDescription": "25% di attacco extra se 2 o più nemici hanno le abilità attive disattivate."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ModernArthurGreatSword01": {
+        "Name": "Caliburn Omega",
+        "FullName": "Caliburn Omega",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "Una spada a due mani avvolta da fulmini blu, che porta il nome di un'antica lama sacra. Anche in un altro mondo, questa spada serve un solo re.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "Spadone",
+        "Cost": 11,
+        "Atk_Base": 483,
+        "Hp_Base": 2960,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4EnemyNotProtected",
+                "SkillTitle": "Aumento Attacco",
+                "SkillDescription": "15% di attacco extra se non ci sono Guardiani tra i nemici."
+            }
+        ]
+    },
+    "ModernArthurGreatSword02": {
+        "Name": "Caliburn Omega",
+        "FullName": "Caliburn Omega",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "Una spada a due mani avvolta da fulmini blu, che porta il nome di un'antica lama sacra. Anche in un altro mondo, questa spada serve un solo re.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "Spadone",
+        "Cost": 17,
+        "Atk_Base": 602,
+        "Hp_Base": 3490,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5EnemyNotProtected",
+                "SkillTitle": "Aumento Attacco",
+                "SkillDescription": "20% di attacco extra se non ci sono Guardiani tra i nemici."
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ModernArthurGreatSword03": {
+        "Name": "Caliburn Omega",
+        "FullName": "Caliburn Omega",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "Una spada a due mani avvolta da fulmini blu, che porta il nome di un'antica lama sacra. Anche in un altro mondo, questa spada serve un solo re.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "Spadone",
+        "Cost": 23,
+        "Atk_Base": 658,
+        "Hp_Base": 3710,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6EnemyNotProtected",
+                "SkillTitle": "Aumento Attacco",
+                "SkillDescription": "25% di attacco extra se non ci sono Guardiani tra i nemici."
             }
         ],
         "ExtraEvoInitialCount": 2

@@ -22477,7 +22477,7 @@
         "Hp_Base": 2990,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4EnemiesIsDisabled2",
@@ -22502,7 +22502,7 @@
         "Hp_Base": 3590,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5EnemiesIsDisabled2",
@@ -22528,12 +22528,89 @@
         "Hp_Base": 3825,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6EnemiesIsDisabled2",
                 "SkillTitle": "提升攻擊力",
                 "SkillDescription": "若敵方場上至少有2個單位主動技能被封鎖，則造成25%的額外傷害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ModernArthurGreatSword01": {
+        "Name": "選王之劍·Ω",
+        "FullName": "選王之劍·Ω",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "繼承了古老聖劍之名、纏繞著蒼藍雷光的大劍。縱使相隔不同的世界，此劍所效忠的王也始終只有一人。",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "雙手劍",
+        "Cost": 11,
+        "Atk_Base": 483,
+        "Hp_Base": 2960,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4EnemyNotProtected",
+                "SkillTitle": "提升攻擊力",
+                "SkillDescription": "若敵方場上不存在守衛者，則造成15%的額外傷害。"
+            }
+        ]
+    },
+    "ModernArthurGreatSword02": {
+        "Name": "選王之劍·Ω",
+        "FullName": "選王之劍·Ω",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "繼承了古老聖劍之名、纏繞著蒼藍雷光的大劍。縱使相隔不同的世界，此劍所效忠的王也始終只有一人。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "雙手劍",
+        "Cost": 17,
+        "Atk_Base": 602,
+        "Hp_Base": 3490,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5EnemyNotProtected",
+                "SkillTitle": "提升攻擊力",
+                "SkillDescription": "若敵方場上不存在守衛者，則造成20%的額外傷害。"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ModernArthurGreatSword03": {
+        "Name": "選王之劍·Ω",
+        "FullName": "選王之劍·Ω",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "繼承了古老聖劍之名、纏繞著蒼藍雷光的大劍。縱使相隔不同的世界，此劍所效忠的王也始終只有一人。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "雙手劍",
+        "Cost": 23,
+        "Atk_Base": 658,
+        "Hp_Base": 3710,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6EnemyNotProtected",
+                "SkillTitle": "提升攻擊力",
+                "SkillDescription": "若敵方場上不存在守衛者，則造成25%的額外傷害。"
             }
         ],
         "ExtraEvoInitialCount": 2

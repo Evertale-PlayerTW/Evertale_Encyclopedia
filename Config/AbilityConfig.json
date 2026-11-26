@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1795497970,
+	"Time": 1795569948,
 	"AbilityConfig": {
 		"StunSingle200A": {
 			"class": "AbilityConfig",
@@ -49994,6 +49994,86 @@
 			"abilityEffect": "MerlinModernFinalCrush1",
 			"recommendEffectWhenUsable": -2,
 			"useCondition": "IsNotBurningOrAllEnemiesBurning"
+		},
+		"SingleAttackAKingArthurModern":{
+			"class": "AbilityConfig",
+			"targetingData": "1Enemy",
+			"components": ["Damage","ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"damageBoosts": ["RegularAttackDamageBoost"],
+				"damageFlags": ["HardIgnoreBlockDeath","IgnoreArmor","DoNotWake"],
+				"applyToTargetType": "Enemy",
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["TUMinus100","RemovePowerCharge"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true,
+				"showMissConditions": "ShowNoMiss",
+				"applyConditions": "HasPowerCharge"
+			},{
+				"buffs": ["GoodGirlBuffCounter"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurModernAttack1",
+			"attackScalors": ["GoodIfGain1GoodBuff","GoodIfGain2GoodBuff","GoodIfGain3GoodBuff","GoodIfGain4GoodBuff","GoodIfGain5GoodBuff"],
+			"conditionedAbilityEffects": ["ArthurModernAttack1","ArthurModernAttack1","ArthurModernAttack1","ArthurModernAttack1","ArthurModernAttack1"],
+			"recommendEffectWhenUsable": -2
+		},
+		"BigSelfBuffAKingArthurModern":{
+			"class": "AbilityConfig",
+			"targetingData": "AllAlly",
+			"components": ["ApplyBuff","ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["SleepImmunityOnce","StunImmunityOnce","PoisonImmunityOnce"],
+				"applyToTargetType": "Friendly"
+			},{
+				"buffs": ["KingArthurModernCooldown50","InstantKillImmunityOnce","PowerCharge"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"friendlyEventType": "Finish",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurModernEnemyBuff",
+			"flags": ["NoDamage"],
+			"useCondition": "NotInstantCooldown"
+		},
+		"SelfBuffAKingArthurModern": {
+			"class": "AbilityConfig",
+			"targetingData": "SelfOnly",
+			"components": ["ApplyBuff"],
+			"componentOverrides": [{
+				"buffs": ["SpiritGainI","SpiritGainI","HealFull","HoldGroundOnceForHoldGroundPlus","BlockDeathUntilNextTurnForHoldGroundPlus","PowerCharge"],
+				"applyToTargetType": "Source"
+			}],
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurModernallyBuff",
+			"flags": ["Healer"],
+			"useCondition": "AllySpirit3OrLessORNotHoldGroundOnceForHoldGroundPlus"
+		},
+		"SpecialAttackAKingArthurModern":{
+			"class": "AbilityConfig",
+			"targetingData": "2Enemy",
+			"components": ["Damage","ApplyBuff"],
+			"componentOverrides":[{
+				"applyToTargetType": "Enemy",
+				"damageFlags": ["HardIgnoreBlockDeath"],
+				"drainPercent": 1.0,
+				"drainEffect": "MerlinSelfHeal1"
+			},{
+				"buffs": ["PowerCharge","RemoveEnergy","Active4LOCKKingArthurModern"],
+				"applyToSourceOnly": true,
+				"skipAbilityEffect": true
+			}],
+			"enemyEventType": "Hit",
+			"sourceEventType": "Finish",
+			"abilityEffect": "ArthurModernShot",
+			"recommendEffectWhenUsable": -1,
+			"flags": ["IgnoreStealth"],
+			"useCondition": "IsNotActive4LOCKKingArthurModern"
 		}
 	}
 }

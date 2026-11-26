@@ -22477,7 +22477,7 @@
         "Hp_Base": 2990,
         "Speed": 0,
         "Power": 32250,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp4EnemiesIsDisabled2",
@@ -22502,7 +22502,7 @@
         "Hp_Base": 3590,
         "Speed": 0,
         "Power": 39000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp5EnemiesIsDisabled2",
@@ -22528,12 +22528,89 @@
         "Hp_Base": 3825,
         "Speed": 0,
         "Power": 42000,
-        "Visible": false,
+        "Visible": true,
         "WeaponSkill": [
             {
                 "SkillCodename": "AttackUp6EnemiesIsDisabled2",
                 "SkillTitle": "공격력 업",
                 "SkillDescription": "적 2기 이상의 액티브 스킬이 무력화된 경우, 공격에 25% 보너스."
+            }
+        ],
+        "ExtraEvoInitialCount": 2
+    },
+    "ModernArthurGreatSword01": {
+        "Name": "칼리번 오메가",
+        "FullName": "칼리번 오메가",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "푸른 번개를 두른 대검으로, 고대 성스러운 검의 이름을 이어받았다. 다른 세상에서도 이 검이 섬기는 왕은 오직 한 사람.",
+        "Rarity": "SSR",
+        "Stars": "★★★★☆☆",
+        "Stars_Curr": 4,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "대검",
+        "Cost": 11,
+        "Atk_Base": 483,
+        "Hp_Base": 2960,
+        "Speed": 0,
+        "Power": 32250,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp4EnemyNotProtected",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "적군에 가디언이 없는 경우 공격에 15% 보너스"
+            }
+        ]
+    },
+    "ModernArthurGreatSword02": {
+        "Name": "칼리번 오메가",
+        "FullName": "칼리번 오메가",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "푸른 번개를 두른 대검으로, 고대 성스러운 검의 이름을 이어받았다. 다른 세상에서도 이 검이 섬기는 왕은 오직 한 사람.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "대검",
+        "Cost": 17,
+        "Atk_Base": 602,
+        "Hp_Base": 3490,
+        "Speed": 0,
+        "Power": 39000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp5EnemyNotProtected",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "적군에 가디언이 없는 경우 공격에 20% 보너스"
+            }
+        ],
+        "ExtraEvoInitialCount": 1
+    },
+    "ModernArthurGreatSword03": {
+        "Name": "칼리번 오메가",
+        "FullName": "칼리번 오메가",
+        "Family": "ModernArthurGreatSword",
+        "Profile": "푸른 번개를 두른 대검으로, 고대 성스러운 검의 이름을 이어받았다. 다른 세상에서도 이 검이 섬기는 왕은 오직 한 사람.",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "forFilter_WeaponType": "GreatSword",
+        "WeaponType": "대검",
+        "Cost": 23,
+        "Atk_Base": 658,
+        "Hp_Base": 3710,
+        "Speed": 0,
+        "Power": 42000,
+        "Visible": false,
+        "WeaponSkill": [
+            {
+                "SkillCodename": "AttackUp6EnemyNotProtected",
+                "SkillTitle": "공격력 업",
+                "SkillDescription": "적군에 가디언이 없는 경우 공격에 25% 보너스"
             }
         ],
         "ExtraEvoInitialCount": 2

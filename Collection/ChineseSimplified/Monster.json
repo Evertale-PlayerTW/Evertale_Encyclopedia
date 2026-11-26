@@ -13877,6 +13877,17 @@
                     "PinkHairWitch01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -14230,6 +14241,17 @@
                     "PinkHairWitch01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -22433,6 +22455,17 @@
                     "SquidHead01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -22859,6 +22892,17 @@
                     "MetalDragon01",
                     "TrainerGirl01",
                     "SquidHead01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -27183,6 +27227,17 @@
                     "BeastCleric01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -27404,6 +27459,17 @@
                     "BeastCleric01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -145000,6 +145066,17 @@
                     "WaterElfWarrior01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     },
@@ -145194,6 +145271,17 @@
                     "HorseHead01",
                     "AirElfWarrior01",
                     "WaterElfWarrior01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            },
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
                 ],
                 "RelationshipBuff": "攻击力+2%"
             }
@@ -147864,7 +147952,7 @@
         "Hp_Base": 4930,
         "Speed": 555,
         "Power": 134520,
-        "Visible": false,
+        "Visible": true,
         "GachaIntro": "啊，是新的挑战者呢～！",
         "LeaderSkill": {
             "SkillCodename": "AttackUpAirD",
@@ -148248,6 +148336,383 @@
                     "ElfBattleMage01"
                 ],
                 "RelationshipBuff": "生命值+3%"
+            }
+        }
+    },
+    "KingArthurModern01": {
+        "Name": "亚瑟王",
+        "Name2": "孤傲的冷血千金",
+        "FullName": "亚瑟王 - 孤傲的冷血千金",
+        "Family": "KingArthurModern",
+        "Profile": "早在孤儿院生活时，亚瑟便丝毫没有孩童应有的模样。她不哭不闹，学什么都比别人快。她的出众与冷静，不仅让周围的孩子感到不安，甚至连大人们都觉得有些可怕。不知从何时起，她不再与任何人结伴，渐渐习惯了独来独往。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★☆",
+        "Stars_Curr": 5,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手剑",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 28,
+        "Atk_Base": 1068,
+        "Hp_Base": 5870,
+        "Speed": 908,
+        "Power": 134520,
+        "Visible": false,
+        "GachaIntro": "就让我看看你的表现吧",
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpLifeD",
+            "SkillTitle": "光属性猛攻",
+            "SkillDescription": "所有光属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModern",
+                "SkillTitle": "权力博弈",
+                "SkillDescription": "对1个敌人造成250%的伤害，使用者进场后每使用过此技能一次，伤害上升150%，至多上升为1000%；若使用者有蓄能，则消耗蓄能使其减少100TU。此技能无视目标的减伤效果。此攻击的伤害不会移除目标的睡眠状态。",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModern",
+                "SkillTitle": "激励奖金",
+                "SkillDescription": "己方场上所有单位获得睡眠抵抗、眩晕抵抗与中毒抵抗；使用者获得蓄能与速败抵抗。\n速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。蓄能可用于触发或加强特定技能。蓄能无法叠加且单位离场时其蓄能将被移除。\n此技能在一场战斗中只能使用五次，且此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModern",
+                "SkillTitle": "大权在握",
+                "SkillDescription": "己方获得10点灵气；使用者回复最大生命值的100%，获得蓄能且“坚守阵地+”被动技能已触发次数清零。\n每当使用者进场后“坚守阵地+”被动技能已触发后才能使用一次此技能，己方灵气不高于3时不受此限。此技能在一场战斗中只能使用十次。",
+                "TU": 1,
+                "Spirit": "-2"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModern",
+                "SkillTitle": "孤傲的冷血千金",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。若此单位进场后未通过攻击击败过至少1个敌方单位，此单位不会被眩晕。\n如果没有“反击态势”的此单位受到一次攻击伤害并在当前回合结束之后仍然存活，此单位回复最大生命值的100%并获得持续150TU的“反击态势”状态，期间此单位第一次受到敌方攻击伤害时将立刻获得下一个回合。反击态势会覆盖身上的其他状态效果。\n此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS单位防止目标被击败的效果或被动技能。\n每当进场不超过150TU的此单位回合结束时，有20%概率随机触发以下效果，且此单位每觉醒一次额外提高20%触发的概率：\n·封锁敌方场上TU最低的单位主动技能30TU。\n·己方场上所有其他单位TU归零，使其顺次获得下一回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n·随机使2个不处于金属化的己方单位金属化。\n当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果无法对BOSS类单位生效，无法被净化，在此单位被击败后失效。金属化会使该单位此后三次遭受敌方攻击时所受的伤害减少50%，之后金属化会被移除。金属化的减伤效果不会被不能无视金属化的攻击无视。已处于金属化的单位再次金属化时次数重置为三次，金属化不属于状态效果。"
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "王之黎明+",
+                "SkillDescription": "当一场战斗开始时，若此单位在队伍的先发位置，则直到离场为止此单位攻击力增加为1.5倍，所有主动技能的TU减少50%且受到敌方攻击的伤害减少50%。此单位不能从场上回到援军。\n此技能效果不与狂热效果叠加。此技能不会将主动技能的TU减至1以下。此技能效果生效期间其他加速效果无法减少此单位主动技能的TU。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "LifeMinusDamageLv3",
+                "SkillTitle": "光系耐性Lv3",
+                "SkillDescription": "若此单位受到光属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatAxe",
+                "SkillTitle": "双手斧大师",
+                "SkillDescription": "若此单位装备双手斧类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "我是亚瑟公司的执行董事，\n亚瑟·雷德拉姆。\n“冷血”？随你怎么称呼。\n\n我只是做出必要的判断。\n但该守护的东西，我自会守护。\n——好了，出发吧。"
+            ],
+            "Login": [
+                "来了啊。今天的日程我已经确认过了，可没时间让你发呆——\n呵，别摆出那副表情。先喝杯咖啡吧。"
+            ],
+            "Tap": [
+                "关于我“冷血”的传闻？因为很方便，所以我也懒得澄清。\n毕竟对方会主动对我保持戒备……但你没必要也当真。",
+                "开车？当然会。只是开得稍微粗暴了些，兰斯洛特太大惊小怪了。\n……不过，下次我会稍微注意一下踩刹车的方式。稍微。",
+                "兰斯洛特是个变态，梅林又太过自由散漫。\n两个人都很难应付……但说来也奇怪，和她们在一起时，感觉倒也不坏。"
+            ],
+            "Idle": [
+                "……还真是安静啊。睡着了吗？\n也罢，没什么紧急的事务。就趁现在好好休息吧。在你醒来之前，我会一直待在这里。"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.1,
+                "Has5GoodGirlBuff": 1.2,
+                "HasPowerCharge": 1.01,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "权力博弈": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "激励奖金": {
+                    "BaseWeight": 250
+                },
+                "大权在握": {
+                    "BaseWeight": 500
+                }
+            }
+        },
+        "Relationship": {
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
+            }
+        }
+    },
+    "KingArthurModern02": {
+        "Name": "亚瑟王",
+        "Name2": "孤傲的冷血千金",
+        "FullName": "亚瑟王 - 孤傲的冷血千金",
+        "Family": "KingArthurModern",
+        "Profile": "看中她那份非凡才华的，正是如今执掌一家大型企业的养父。亚瑟被作为继承人候选收养，从此过上了衣食无忧的生活。然而，这个家中却没有丝毫亲情可言。而她自己似乎也从未渴求过这份亲情——至少表面上是如此。",
+        "AscendedId": "KingArthurModern03",
+        "Profile_Ascended": "亚瑟时常会做一个奇怪的梦。梦中的她化作丑陋的怪物，让整个世界笼罩在死亡的阴影之中。她始终无法相信那仅仅是一场梦。对这样的自己心怀恐惧的她，最终遇见了一位笨拙却耿直的员工，不知为何，对方总让她感到一种莫名的熟悉与怀念。",
+        "Rarity": "SSR",
+        "Stars": "★★★★★★",
+        "Stars_Curr": 6,
+        "Stars_Max": 6,
+        "PreferredWeapon": "双手剑",
+        "forFilter_Element": "Life",
+        "Element": "光",
+        "Cost": 34,
+        "Atk_Base": 1272,
+        "Hp_Base": 8060,
+        "Speed": 908,
+        "Power": 173040,
+        "Visible": false,
+        "LeaderSkill": {
+            "SkillCodename": "AttackUpLifeD",
+            "SkillTitle": "光属性猛攻",
+            "SkillDescription": "所有光属性队友的攻击力增加15%"
+        },
+        "ActiveSkill": [
+            {
+                "SkillCodename": "SingleAttackAKingArthurModern",
+                "SkillTitle": "权力博弈",
+                "SkillDescription": "对1个敌人造成250%的伤害，使用者进场后每使用过此技能一次，伤害上升150%，至多上升为1000%；若使用者有蓄能，则消耗蓄能使其减少100TU。此技能无视目标的减伤效果。此攻击的伤害不会移除目标的睡眠状态。",
+                "TU": 100,
+                "Spirit": "+2"
+            },
+            {
+                "SkillCodename": "BigSelfBuffAKingArthurModern",
+                "SkillTitle": "激励奖金",
+                "SkillDescription": "己方场上所有单位获得睡眠抵抗、眩晕抵抗与中毒抵抗；使用者获得蓄能与速败抵抗。\n速败抵抗会防止一次敌方非BOSS单位无伤害立即击败类效果对该单位的生效，之后速败抵抗会被移除。速败抵抗效果不会被无视。各类抵抗会防止一次各自负面效果，之后该类抵抗会被移除。各类抵抗效果次数各自无法叠加。蓄能可用于触发或加强特定技能。蓄能无法叠加且单位离场时其蓄能将被移除。\n此技能在一场战斗中只能使用五次，且此技能使用后必须等50TU后才能再次使用。",
+                "TU": 1,
+                "Spirit": "+1"
+            },
+            {
+                "SkillCodename": "SelfBuffAKingArthurModern",
+                "SkillTitle": "大权在握",
+                "SkillDescription": "己方获得10点灵气；使用者回复最大生命值的100%，获得蓄能且“坚守阵地+”被动技能已触发次数清零。\n每当使用者进场后“坚守阵地+”被动技能已触发后才能使用一次此技能，己方灵气不高于3时不受此限。此技能在一场战斗中只能使用十次。",
+                "TU": 1,
+                "Spirit": "-2"
+            },
+            {
+                "SkillCodename": "SpecialAttackAKingArthurModern",
+                "SkillTitle": "苍天照",
+                "SkillDescription": "对2个敌人造成900%的伤害，使用者获得蓄能。此技能无视目标的匿踪状态。每当使用者进场后或上一次使用此技能后有至少2个非与使用者同时进场的单位从援军队伍进场后才能发动。在离场或使用一次后需要再度满足发动条件才能第二次发动。",
+                "TU": 120,
+                "Spirit": "-3"
+            }
+        ],
+        "PassiveSkill": [
+            {
+                "SkillCodename": "HailToTheKingPassiveAKingArthurModern",
+                "SkillTitle": "孤傲的冷血千金",
+                "SkillDescription": "若受到超过自己剩余生命值的伤害，此单位会以1点生命值幸存，且直到自己下一个回合不会被击败。此单位每次进场后，此坚守阵地+效果只能触发一次。若此单位进场后未通过攻击击败过至少1个敌方单位，此单位不会被眩晕。\n如果没有“反击态势”的此单位受到一次攻击伤害并在当前回合结束之后仍然存活，此单位回复最大生命值的100%并获得持续150TU的“反击态势”状态，期间此单位第一次受到敌方攻击伤害时将立刻获得下一个回合。反击态势会覆盖身上的其他状态效果。\n此单位回复所造成伤害100%的生命值。此单位的攻击无视非BOSS单位防止目标被击败的效果或被动技能。\n每当进场不超过150TU的此单位回合结束时，有20%概率随机触发以下效果，且此单位每觉醒一次额外提高20%触发的概率：\n·封锁敌方场上TU最低的单位主动技能30TU。\n·己方场上所有其他单位TU归零，使其顺次获得下一回合。一些影响TU的技能效果（如眩晕最低TU单位等）可能会改变获得回合的时机。\n·随机使2个不处于金属化的己方单位金属化。\n当一个单位在主动技能被封锁期间获得回合时会失去该回合（类似睡眠状态）。此封锁效果无法对BOSS类单位生效，无法被净化，在此单位被击败后失效。金属化会使该单位此后三次遭受敌方攻击时所受的伤害减少50%，之后金属化会被移除。金属化的减伤效果不会被不能无视金属化的攻击无视。已处于金属化的单位再次金属化时次数重置为三次，金属化不属于状态效果。"
+            },
+            {
+                "SkillCodename": "SuperBuffPlusKingArthur",
+                "SkillTitle": "王之黎明+",
+                "SkillDescription": "当一场战斗开始时，若此单位在队伍的先发位置，则直到离场为止此单位攻击力增加为1.5倍，所有主动技能的TU减少50%且受到敌方攻击的伤害减少50%。此单位不能从场上回到援军。\n此技能效果不与狂热效果叠加。此技能不会将主动技能的TU减至1以下。此技能效果生效期间其他加速效果无法减少此单位主动技能的TU。"
+            },
+            {
+                "SkillCodename": "PlusAttackBoostLv3",
+                "SkillTitle": "提升攻击力Lv3",
+                "SkillDescription": "此单位的攻击力增加300。"
+            },
+            {
+                "SkillCodename": "PlusHPBoostLv3",
+                "SkillTitle": "提升生命值Lv3",
+                "SkillDescription": "此单位的最大生命值增加1200。"
+            },
+            {
+                "SkillCodename": "LifeMinusDamageLv3",
+                "SkillTitle": "光系耐性Lv3",
+                "SkillDescription": "若此单位受到光属性的敌人攻击，所受到的伤害会减少10%。"
+            },
+            {
+                "SkillCodename": "AddWeaponPrefGreatAxe",
+                "SkillTitle": "双手斧大师",
+                "SkillDescription": "若此单位装备双手斧类型武器，武器技能会启用。"
+            }
+        ],
+        "PassiveBonusVisible": {
+            "1": {
+                "Attack": 300
+            },
+            "2": {
+                "MaxHP": 1200
+            },
+            "4": {
+                "weaponPref": "双手斧"
+            }
+        },
+        "Dialog": {
+            "Gacha": [
+                "我是亚瑟公司的执行董事，\n亚瑟·雷德拉姆。\n“冷血”？随你怎么称呼。\n\n我只是做出必要的判断。\n但该守护的东西，我自会守护。\n——好了，出发吧。"
+            ],
+            "Login": [
+                "来了啊。今天的日程我已经确认过了，可没时间让你发呆——\n呵，别摆出那副表情。先喝杯咖啡吧。"
+            ],
+            "Tap": [
+                "关于我“冷血”的传闻？因为很方便，所以我也懒得澄清。\n毕竟对方会主动对我保持戒备……但你没必要也当真。",
+                "开车？当然会。只是开得稍微粗暴了些，兰斯洛特太大惊小怪了。\n……不过，下次我会稍微注意一下踩刹车的方式。稍微。",
+                "兰斯洛特是个变态，梅林又太过自由散漫。\n两个人都很难应付……但说来也奇怪，和她们在一起时，感觉倒也不坏。"
+            ],
+            "Idle": [
+                "……还真是安静啊。睡着了吗？\n也罢，没什么紧急的事务。就趁现在好好休息吧。在你醒来之前，我会一直待在这里。"
+            ]
+        },
+        "AiLogic": {
+            "PickWeight": 1,
+            "Threat": {
+                "Kills1": 1.1,
+                "Has5GoodGirlBuff": 1.2,
+                "HasPowerCharge": 1.01,
+                "HoldGroundPlusTriggeredWaitingForTurn": 0.01
+            },
+            "SkillUse": {
+                "权力博弈": {
+                    "BaseWeight": 1,
+                    "Ignore": [
+                        "IsSleeping"
+                    ],
+                    "Source": {
+                        "HasPowerCharge": 501
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                },
+                "激励奖金": {
+                    "BaseWeight": 250
+                },
+                "大权在握": {
+                    "BaseWeight": 500
+                },
+                "苍天照": {
+                    "BaseWeight": 20,
+                    "Source": {
+                        "AllEnemiesImposters": 0.0001,
+                        "AllEnemiesImpostersAlt": 0.0001,
+                        "AllEnemiesAlwaysDodging": 0,
+                        "AllEnemiesNotProtectingDodging": 0
+                    },
+                    "Target": {
+                        "IsOdinRaven": 0.1,
+                        "IsBadFriend": 0.1,
+                        "IsImposter": 0.25,
+                        "IsMirage": 0.25,
+                        "RarityLessThan3": 0.8,
+                        "IsUnicornRegularAndAtLeast1GokuDarkAllyAndNotProtected": 1.1,
+                        "IsPloyed": 0.7,
+                        "IsStealth": 1,
+                        "IsAlwaysDodging": 0.25,
+                        "NotProtectingDodging": 0.25,
+                        "On1HPNotProtected": 2.5,
+                        "On1HPIsProtecting": 2.5,
+                        "HPBelow50Percent": 1,
+                        "HPBelow25Percent": 1,
+                        "IsProtector": 0.5,
+                        "IsProtecting": 0.5,
+                        "IsProtectingAndNotAlone": 0.5,
+                        "IsBlockTurn": 0.75,
+                        "IsFrostbitten": 0.75,
+                        "IsSleeping": 0.89,
+                        "IsAmbushCounter": 0.5
+                    }
+                }
+            }
+        },
+        "ExtraEvoInitialCount": 1,
+        "Relationship": {
+            "RelationshipPercentAtkB86": {
+                "RelationshipName": "冷血",
+                "RelationshipFamily": [
+                    "KingArthurModern01",
+                    "DraculaRegular01",
+                    "GoldAngel01",
+                    "SquidHead01",
+                    "MartialArtistGirl01"
+                ],
+                "RelationshipBuff": "攻击力+2%"
             }
         }
     }

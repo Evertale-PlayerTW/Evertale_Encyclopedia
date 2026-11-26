@@ -1,6 +1,6 @@
 {
 	"Version": 23,
-	"Time": 1795153792, 
+	"Time": 1795584761, 
 	"AbilityEffect": {
 		"DamageReaction": {
 			"class": "AbilityEffect",
@@ -18620,6 +18620,19 @@
 			"forceHitReactions": [false, false, false, false],
 			"useEffectFinishedTimeDelay": [true, true, true, true],
 			"isAbilityUserEffect": [true, true, true, false]
+		},
+		"ArthurModernPassive": {
+			"class": "AbilityEffect",
+			"delays": [0],
+			"prefabs": ["batfx_ArthurModern/batfx_ArthurModernThunder1"],
+			"sortOrderOffset": [5],
+			"assetBundles": ["BattleEffectsBundle3"],
+			"damagePercents": [0],
+			"damageHitReactions": [false],
+			"forceHitReactions": [false],
+			"useEffectFinishedTimeDelay": [true],
+			"isAbilityUserEffect": [false],
+			"positionInBattlefieldCenter": [false]
 		},
         "RoundTableModernXSlash": {
             "class": "AbilityEffect",
